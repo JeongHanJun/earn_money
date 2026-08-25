@@ -1,0 +1,2708 @@
+{
+  "provinces": [
+    {
+      "code": "11",
+      "name": "서울특별시",
+      "name_eng": "Seoul",
+      "slug": "seoul",
+      "lat": 37.5611,
+      "lon": 126.9817,
+      "nx": 60,
+      "ny": 127,
+      "municipalities": [
+        {
+          "code": "11010",
+          "name": "종로구",
+          "name_eng": "Jongno-gu",
+          "slug": "jongno-gu",
+          "lat": 37.5968,
+          "lon": 126.9778,
+          "nx": 60,
+          "ny": 127
+        },
+        {
+          "code": "11020",
+          "name": "중구",
+          "name_eng": "Jung-gu",
+          "slug": "jung-gu",
+          "lat": 37.5582,
+          "lon": 126.9916,
+          "nx": 60,
+          "ny": 127
+        },
+        {
+          "code": "11030",
+          "name": "용산구",
+          "name_eng": "Yongsan-gu",
+          "slug": "yongsan-gu",
+          "lat": 37.536,
+          "lon": 126.9754,
+          "nx": 60,
+          "ny": 126
+        },
+        {
+          "code": "11040",
+          "name": "성동구",
+          "name_eng": "Seongdong-gu",
+          "slug": "seongdong-gu",
+          "lat": 37.5521,
+          "lon": 127.035,
+          "nx": 61,
+          "ny": 126
+        },
+        {
+          "code": "11050",
+          "name": "광진구",
+          "name_eng": "Gwangjin-gu",
+          "slug": "gwangjin-gu",
+          "lat": 37.5553,
+          "lon": 127.0924,
+          "nx": 62,
+          "ny": 126
+        },
+        {
+          "code": "11060",
+          "name": "동대문구",
+          "name_eng": "Dongdaemun-gu",
+          "slug": "dongdaemun-gu",
+          "lat": 37.5835,
+          "lon": 127.0568,
+          "nx": 61,
+          "ny": 127
+        },
+        {
+          "code": "11070",
+          "name": "중랑구",
+          "name_eng": "Jungnang-gu",
+          "slug": "jungnang-gu",
+          "lat": 37.5991,
+          "lon": 127.0928,
+          "nx": 62,
+          "ny": 127
+        },
+        {
+          "code": "11080",
+          "name": "성북구",
+          "name_eng": "Seongbuk-gu",
+          "slug": "seongbuk-gu",
+          "lat": 37.609,
+          "lon": 127.0163,
+          "nx": 60,
+          "ny": 128
+        },
+        {
+          "code": "11090",
+          "name": "강북구",
+          "name_eng": "Gangbuk-gu",
+          "slug": "gangbuk-gu",
+          "lat": 37.6506,
+          "lon": 127.0081,
+          "nx": 60,
+          "ny": 129
+        },
+        {
+          "code": "11100",
+          "name": "도봉구",
+          "name_eng": "Dobong-gu",
+          "slug": "dobong-gu",
+          "lat": 37.6731,
+          "lon": 127.0313,
+          "nx": 61,
+          "ny": 129
+        },
+        {
+          "code": "11110",
+          "name": "노원구",
+          "name_eng": "Nowon-gu",
+          "slug": "nowon-gu",
+          "lat": 37.6605,
+          "lon": 127.0799,
+          "nx": 62,
+          "ny": 129
+        },
+        {
+          "code": "11120",
+          "name": "은평구",
+          "name_eng": "Eunpyeong-gu",
+          "slug": "eunpyeong-gu",
+          "lat": 37.6153,
+          "lon": 126.9215,
+          "nx": 59,
+          "ny": 128
+        },
+        {
+          "code": "11130",
+          "name": "서대문구",
+          "name_eng": "Seodaemun-gu",
+          "slug": "seodaemun-gu",
+          "lat": 37.5821,
+          "lon": 126.9444,
+          "nx": 59,
+          "ny": 127
+        },
+        {
+          "code": "11140",
+          "name": "마포구",
+          "name_eng": "Mapo-gu",
+          "slug": "mapo-gu",
+          "lat": 37.5611,
+          "lon": 126.9136,
+          "nx": 59,
+          "ny": 127
+        },
+        {
+          "code": "11150",
+          "name": "양천구",
+          "name_eng": "Yangcheon-gu",
+          "slug": "yangcheon-gu",
+          "lat": 37.5221,
+          "lon": 126.8596,
+          "nx": 58,
+          "ny": 126
+        },
+        {
+          "code": "11160",
+          "name": "강서구",
+          "name_eng": "Gangseo-gu",
+          "slug": "gangseo-gu",
+          "lat": 37.559,
+          "lon": 126.8131,
+          "nx": 57,
+          "ny": 127
+        },
+        {
+          "code": "11170",
+          "name": "구로구",
+          "name_eng": "Guro-gu",
+          "slug": "guro-gu",
+          "lat": 37.4936,
+          "lon": 126.8556,
+          "nx": 58,
+          "ny": 125
+        },
+        {
+          "code": "11180",
+          "name": "금천구",
+          "name_eng": "Geumcheon-gu",
+          "slug": "geumcheon-gu",
+          "lat": 37.4634,
+          "lon": 126.9034,
+          "nx": 59,
+          "ny": 124
+        },
+        {
+          "code": "11190",
+          "name": "영등포구",
+          "name_eng": "Yeongdeungpo-gu",
+          "slug": "yeongdeungpo-gu",
+          "lat": 37.5221,
+          "lon": 126.9059,
+          "nx": 59,
+          "ny": 126
+        },
+        {
+          "code": "11200",
+          "name": "동작구",
+          "name_eng": "Dongjak-gu",
+          "slug": "dongjak-gu",
+          "lat": 37.4944,
+          "lon": 126.9502,
+          "nx": 59,
+          "ny": 125
+        },
+        {
+          "code": "11210",
+          "name": "관악구",
+          "name_eng": "Gwanak-gu",
+          "slug": "gwanak-gu",
+          "lat": 37.4721,
+          "lon": 126.9399,
+          "nx": 59,
+          "ny": 125
+        },
+        {
+          "code": "11220",
+          "name": "서초구",
+          "name_eng": "Seocho-gu",
+          "slug": "seocho-gu",
+          "lat": 37.4716,
+          "lon": 127.0323,
+          "nx": 61,
+          "ny": 125
+        },
+        {
+          "code": "11230",
+          "name": "강남구",
+          "name_eng": "Gangnam-gu",
+          "slug": "gangnam-gu",
+          "lat": 37.495,
+          "lon": 127.0656,
+          "nx": 61,
+          "ny": 125
+        },
+        {
+          "code": "11240",
+          "name": "송파구",
+          "name_eng": "Songpa-gu",
+          "slug": "songpa-gu",
+          "lat": 37.5066,
+          "lon": 127.1189,
+          "nx": 62,
+          "ny": 125
+        },
+        {
+          "code": "11250",
+          "name": "강동구",
+          "name_eng": "Gangdong-gu",
+          "slug": "gangdong-gu",
+          "lat": 37.5541,
+          "lon": 127.147,
+          "nx": 63,
+          "ny": 126
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "name": "부산광역시",
+      "name_eng": "Busan",
+      "slug": "busan",
+      "lat": 35.1494,
+      "lon": 129.0215,
+      "nx": 97,
+      "ny": 75,
+      "municipalities": [
+        {
+          "code": "21010",
+          "name": "중구",
+          "name_eng": "Jung-gu",
+          "slug": "jung-gu",
+          "lat": 35.106,
+          "lon": 129.0356,
+          "nx": 97,
+          "ny": 74
+        },
+        {
+          "code": "21020",
+          "name": "서구",
+          "name_eng": "Seo-gu",
+          "slug": "seo-gu",
+          "lat": 35.0888,
+          "lon": 129.0137,
+          "nx": 97,
+          "ny": 74
+        },
+        {
+          "code": "21030",
+          "name": "동구",
+          "name_eng": "Dong-gu",
+          "slug": "dong-gu",
+          "lat": 35.1265,
+          "lon": 129.0475,
+          "nx": 97,
+          "ny": 75
+        },
+        {
+          "code": "21040",
+          "name": "영도구",
+          "name_eng": "Yeongdo-gu",
+          "slug": "yeongdo-gu",
+          "lat": 35.0759,
+          "lon": 129.0799,
+          "nx": 98,
+          "ny": 73
+        },
+        {
+          "code": "21050",
+          "name": "부산진구",
+          "name_eng": "Busanjin-gu",
+          "slug": "busanjin-gu",
+          "lat": 35.1666,
+          "lon": 129.0503,
+          "nx": 97,
+          "ny": 75
+        },
+        {
+          "code": "21060",
+          "name": "동래구",
+          "name_eng": "Dongnae-gu",
+          "slug": "dongnae-gu",
+          "lat": 35.2041,
+          "lon": 129.0819,
+          "nx": 98,
+          "ny": 76
+        },
+        {
+          "code": "21070",
+          "name": "남구",
+          "name_eng": "Nam-gu",
+          "slug": "nam-gu",
+          "lat": 35.1137,
+          "lon": 129.0995,
+          "nx": 98,
+          "ny": 74
+        },
+        {
+          "code": "21080",
+          "name": "북구",
+          "name_eng": "Buk-gu",
+          "slug": "buk-gu",
+          "lat": 35.2316,
+          "lon": 129.0284,
+          "nx": 97,
+          "ny": 77
+        },
+        {
+          "code": "21090",
+          "name": "해운대구",
+          "name_eng": "Haeundae-gu",
+          "slug": "haeundae-gu",
+          "lat": 35.1923,
+          "lon": 129.1567,
+          "nx": 99,
+          "ny": 76
+        },
+        {
+          "code": "21100",
+          "name": "사하구",
+          "name_eng": "Saha-gu",
+          "slug": "saha-gu",
+          "lat": 35.0629,
+          "lon": 128.9665,
+          "nx": 96,
+          "ny": 73
+        },
+        {
+          "code": "21110",
+          "name": "금정구",
+          "name_eng": "Geumjeong-gu",
+          "slug": "geumjeong-gu",
+          "lat": 35.2577,
+          "lon": 129.094,
+          "nx": 98,
+          "ny": 77
+        },
+        {
+          "code": "21120",
+          "name": "강서구",
+          "name_eng": "Gangseo-gu",
+          "slug": "gangseo-gu",
+          "lat": 35.09,
+          "lon": 128.8587,
+          "nx": 94,
+          "ny": 74
+        },
+        {
+          "code": "21130",
+          "name": "연제구",
+          "name_eng": "Yeonje-gu",
+          "slug": "yeonje-gu",
+          "lat": 35.1795,
+          "lon": 129.0814,
+          "nx": 98,
+          "ny": 76
+        },
+        {
+          "code": "21140",
+          "name": "수영구",
+          "name_eng": "Suyeong-gu",
+          "slug": "suyeong-gu",
+          "lat": 35.1627,
+          "lon": 129.11,
+          "nx": 98,
+          "ny": 75
+        },
+        {
+          "code": "21150",
+          "name": "사상구",
+          "name_eng": "Sasang-gu",
+          "slug": "sasang-gu",
+          "lat": 35.1533,
+          "lon": 128.9916,
+          "nx": 96,
+          "ny": 75
+        },
+        {
+          "code": "21310",
+          "name": "기장군",
+          "name_eng": "Gijang-gun",
+          "slug": "gijang-gun",
+          "lat": 35.2854,
+          "lon": 129.2167,
+          "nx": 100,
+          "ny": 78
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "name": "대구광역시",
+      "name_eng": "Daegu",
+      "slug": "dae-gu",
+      "lat": 35.821,
+      "lon": 128.5544,
+      "nx": 88,
+      "ny": 89,
+      "municipalities": [
+        {
+          "code": "22010",
+          "name": "중구",
+          "name_eng": "Jung-gu",
+          "slug": "jung-gu",
+          "lat": 35.87,
+          "lon": 128.5901,
+          "nx": 89,
+          "ny": 90
+        },
+        {
+          "code": "22020",
+          "name": "동구",
+          "name_eng": "Dong-gu",
+          "slug": "dong-gu",
+          "lat": 35.9235,
+          "lon": 128.6773,
+          "nx": 90,
+          "ny": 92
+        },
+        {
+          "code": "22030",
+          "name": "서구",
+          "name_eng": "Seo-gu",
+          "slug": "seo-gu",
+          "lat": 35.8809,
+          "lon": 128.5463,
+          "nx": 88,
+          "ny": 91
+        },
+        {
+          "code": "22040",
+          "name": "남구",
+          "name_eng": "Nam-gu",
+          "slug": "nam-gu",
+          "lat": 35.8387,
+          "lon": 128.5852,
+          "nx": 89,
+          "ny": 90
+        },
+        {
+          "code": "22050",
+          "name": "북구",
+          "name_eng": "Buk-gu",
+          "slug": "buk-gu",
+          "lat": 35.9256,
+          "lon": 128.5781,
+          "nx": 88,
+          "ny": 92
+        },
+        {
+          "code": "22060",
+          "name": "수성구",
+          "name_eng": "Suseong-gu",
+          "slug": "suseong-gu",
+          "lat": 35.8385,
+          "lon": 128.6659,
+          "nx": 90,
+          "ny": 90
+        },
+        {
+          "code": "22070",
+          "name": "달서구",
+          "name_eng": "Dalseo-gu",
+          "slug": "dalseo-gu",
+          "lat": 35.8232,
+          "lon": 128.527,
+          "nx": 88,
+          "ny": 89
+        },
+        {
+          "code": "22310",
+          "name": "달성군",
+          "name_eng": "Dalseong-gun",
+          "slug": "dalseong-gun",
+          "lat": 35.7673,
+          "lon": 128.5042,
+          "nx": 87,
+          "ny": 88
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "name": "인천광역시",
+      "name_eng": "Incheon",
+      "slug": "incheon",
+      "lat": 37.5601,
+      "lon": 126.218,
+      "nx": 47,
+      "ny": 126,
+      "municipalities": [
+        {
+          "code": "23010",
+          "name": "중구",
+          "name_eng": "Jung-gu",
+          "slug": "jung-gu",
+          "lat": 37.4487,
+          "lon": 126.501,
+          "nx": 52,
+          "ny": 124
+        },
+        {
+          "code": "23020",
+          "name": "동구",
+          "name_eng": "Dong-gu",
+          "slug": "dong-gu",
+          "lat": 37.4843,
+          "lon": 126.634,
+          "nx": 54,
+          "ny": 125
+        },
+        {
+          "code": "23030",
+          "name": "남구",
+          "name_eng": "Nam-gu",
+          "slug": "nam-gu",
+          "lat": 37.4535,
+          "lon": 126.6724,
+          "nx": 55,
+          "ny": 124
+        },
+        {
+          "code": "23040",
+          "name": "연수구",
+          "name_eng": "Yeonsu-gu",
+          "slug": "yeonsu-gu",
+          "lat": 37.3817,
+          "lon": 126.6261,
+          "nx": 54,
+          "ny": 123
+        },
+        {
+          "code": "23050",
+          "name": "남동구",
+          "name_eng": "Namdong-gu",
+          "slug": "namdong-gu",
+          "lat": 37.4458,
+          "lon": 126.7228,
+          "nx": 55,
+          "ny": 124
+        },
+        {
+          "code": "23060",
+          "name": "부평구",
+          "name_eng": "Bupyeong-gu",
+          "slug": "bupyeong-gu",
+          "lat": 37.4913,
+          "lon": 126.7234,
+          "nx": 55,
+          "ny": 125
+        },
+        {
+          "code": "23070",
+          "name": "계양구",
+          "name_eng": "Gyeyang-gu",
+          "slug": "gyeyang-gu",
+          "lat": 37.5635,
+          "lon": 126.7234,
+          "nx": 55,
+          "ny": 127
+        },
+        {
+          "code": "23080",
+          "name": "서구",
+          "name_eng": "Seo-gu",
+          "slug": "seo-gu",
+          "lat": 37.5582,
+          "lon": 126.6484,
+          "nx": 54,
+          "ny": 126
+        },
+        {
+          "code": "23310",
+          "name": "강화군",
+          "name_eng": "Ganghwa-gun",
+          "slug": "ganghwa-gun",
+          "lat": 37.6959,
+          "lon": 126.323,
+          "nx": 49,
+          "ny": 129
+        },
+        {
+          "code": "23320",
+          "name": "옹진군",
+          "name_eng": "Ongjin-gun",
+          "slug": "ongjin-gun",
+          "lat": 37.3311,
+          "lon": 126.0051,
+          "nx": 43,
+          "ny": 121
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "name": "광주광역시",
+      "name_eng": "Gwangju",
+      "slug": "gwangju",
+      "lat": 35.1481,
+      "lon": 126.8189,
+      "nx": 58,
+      "ny": 74,
+      "municipalities": [
+        {
+          "code": "24010",
+          "name": "동구",
+          "name_eng": "Dong-gu",
+          "slug": "dong-gu",
+          "lat": 35.1199,
+          "lon": 126.9473,
+          "nx": 60,
+          "ny": 73
+        },
+        {
+          "code": "24020",
+          "name": "서구",
+          "name_eng": "Seo-gu",
+          "slug": "seo-gu",
+          "lat": 35.1338,
+          "lon": 126.8455,
+          "nx": 58,
+          "ny": 74
+        },
+        {
+          "code": "24030",
+          "name": "남구",
+          "name_eng": "Nam-gu",
+          "slug": "nam-gu",
+          "lat": 35.0921,
+          "lon": 126.8493,
+          "nx": 58,
+          "ny": 73
+        },
+        {
+          "code": "24040",
+          "name": "북구",
+          "name_eng": "Buk-gu",
+          "slug": "buk-gu",
+          "lat": 35.1922,
+          "lon": 126.9299,
+          "nx": 60,
+          "ny": 75
+        },
+        {
+          "code": "24050",
+          "name": "광산구",
+          "name_eng": "Gwangsan-gu",
+          "slug": "gwangsan-gu",
+          "lat": 35.1608,
+          "lon": 126.7551,
+          "nx": 56,
+          "ny": 74
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "name": "대전광역시",
+      "name_eng": "Daejeon",
+      "slug": "daejeon",
+      "lat": 36.3365,
+      "lon": 127.4002,
+      "nx": 68,
+      "ny": 100,
+      "municipalities": [
+        {
+          "code": "25010",
+          "name": "동구",
+          "name_eng": "Dong-gu",
+          "slug": "dong-gu",
+          "lat": 36.3243,
+          "lon": 127.474,
+          "nx": 69,
+          "ny": 100
+        },
+        {
+          "code": "25020",
+          "name": "중구",
+          "name_eng": "Jung-gu",
+          "slug": "jung-gu",
+          "lat": 36.2706,
+          "lon": 127.4151,
+          "nx": 68,
+          "ny": 99
+        },
+        {
+          "code": "25030",
+          "name": "서구",
+          "name_eng": "Seo-gu",
+          "slug": "seo-gu",
+          "lat": 36.2732,
+          "lon": 127.3443,
+          "nx": 67,
+          "ny": 99
+        },
+        {
+          "code": "25040",
+          "name": "유성구",
+          "name_eng": "Yuseong-gu",
+          "slug": "yuseong-gu",
+          "lat": 36.3825,
+          "lon": 127.3285,
+          "nx": 66,
+          "ny": 101
+        },
+        {
+          "code": "25050",
+          "name": "대덕구",
+          "name_eng": "Daedeok-gu",
+          "slug": "daedeok-gu",
+          "lat": 36.4159,
+          "lon": 127.445,
+          "nx": 68,
+          "ny": 102
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "name": "울산광역시",
+      "name_eng": "Ulsan",
+      "slug": "ulsan",
+      "lat": 35.5274,
+      "lon": 129.2779,
+      "nx": 101,
+      "ny": 83,
+      "municipalities": [
+        {
+          "code": "26010",
+          "name": "중구",
+          "name_eng": "Jung-gu",
+          "slug": "jung-gu",
+          "lat": 35.5786,
+          "lon": 129.3053,
+          "nx": 102,
+          "ny": 85
+        },
+        {
+          "code": "26020",
+          "name": "남구",
+          "name_eng": "Nam-gu",
+          "slug": "nam-gu",
+          "lat": 35.5068,
+          "lon": 129.3374,
+          "nx": 102,
+          "ny": 83
+        },
+        {
+          "code": "26030",
+          "name": "동구",
+          "name_eng": "Dong-gu",
+          "slug": "dong-gu",
+          "lat": 35.5084,
+          "lon": 129.4248,
+          "nx": 104,
+          "ny": 83
+        },
+        {
+          "code": "26040",
+          "name": "북구",
+          "name_eng": "Buk-gu",
+          "slug": "buk-gu",
+          "lat": 35.6061,
+          "lon": 129.3817,
+          "nx": 103,
+          "ny": 85
+        },
+        {
+          "code": "26310",
+          "name": "울주군",
+          "name_eng": "Ulju-gun",
+          "slug": "ulju-gun",
+          "lat": 35.5242,
+          "lon": 129.2164,
+          "nx": 100,
+          "ny": 83
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "name": "세종특별자치시",
+      "name_eng": "Sejongsi",
+      "slug": "sejong-si",
+      "lat": 36.5748,
+      "lon": 127.2497,
+      "nx": 65,
+      "ny": 105,
+      "municipalities": [
+        {
+          "code": "29010",
+          "name": "세종시",
+          "name_eng": "Sejongsi",
+          "slug": "sejong-si",
+          "lat": 36.5628,
+          "lon": 127.2537,
+          "nx": 65,
+          "ny": 105
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "name": "경기도",
+      "name_eng": "Gyeonggi-do",
+      "slug": "gyeonggi-do",
+      "lat": 37.4771,
+      "lon": 126.9799,
+      "nx": 60,
+      "ny": 125,
+      "municipalities": [
+        {
+          "code": "31011",
+          "name": "수원시장안구",
+          "name_eng": "Suwonsijangangu",
+          "slug": "suwon-si-jangan-gu",
+          "lat": 37.315,
+          "lon": 127.0027,
+          "nx": 60,
+          "ny": 121
+        },
+        {
+          "code": "31012",
+          "name": "수원시권선구",
+          "name_eng": "Suwonsigwonseongu",
+          "slug": "suwon-si-gwonseon-gu",
+          "lat": 37.2592,
+          "lon": 126.9888,
+          "nx": 60,
+          "ny": 120
+        },
+        {
+          "code": "31013",
+          "name": "수원시팔달구",
+          "name_eng": "Suwonsipaldalgu",
+          "slug": "suwon-si-paldal-gu",
+          "lat": 37.278,
+          "lon": 127.0208,
+          "nx": 61,
+          "ny": 120
+        },
+        {
+          "code": "31014",
+          "name": "수원시영통구",
+          "name_eng": "Suwonsiyeongtonggu",
+          "slug": "suwon-si-yeongtong-gu",
+          "lat": 37.2759,
+          "lon": 127.0552,
+          "nx": 61,
+          "ny": 120
+        },
+        {
+          "code": "31021",
+          "name": "성남시수정구",
+          "name_eng": "Seongnamsisujeonggu",
+          "slug": "seongnam-si-sujeong-gu",
+          "lat": 37.4402,
+          "lon": 127.0995,
+          "nx": 62,
+          "ny": 124
+        },
+        {
+          "code": "31022",
+          "name": "성남시중원구",
+          "name_eng": "Seongnamsijungwongu",
+          "slug": "seongnam-si-jungwon-gu",
+          "lat": 37.4393,
+          "lon": 127.1695,
+          "nx": 63,
+          "ny": 124
+        },
+        {
+          "code": "31023",
+          "name": "성남시분당구",
+          "name_eng": "Seongnamsibundanggu",
+          "slug": "seongnam-si-bundang-gu",
+          "lat": 37.3788,
+          "lon": 127.0999,
+          "nx": 62,
+          "ny": 123
+        },
+        {
+          "code": "31030",
+          "name": "의정부시",
+          "name_eng": "Uijeongbu-si",
+          "slug": "uijeongbu-si",
+          "lat": 37.7319,
+          "lon": 127.0724,
+          "nx": 61,
+          "ny": 130
+        },
+        {
+          "code": "31041",
+          "name": "안양시만안구",
+          "name_eng": "Anyangsimanangu",
+          "slug": "anyang-si-manan-gu",
+          "lat": 37.4063,
+          "lon": 126.9109,
+          "nx": 59,
+          "ny": 123
+        },
+        {
+          "code": "31042",
+          "name": "안양시동안구",
+          "name_eng": "Anyangsidongangu",
+          "slug": "anyang-si-dongan-gu",
+          "lat": 37.4038,
+          "lon": 126.9567,
+          "nx": 59,
+          "ny": 123
+        },
+        {
+          "code": "31050",
+          "name": "부천시",
+          "name_eng": "Bucheon-si",
+          "slug": "bucheon-si",
+          "lat": 37.5064,
+          "lon": 126.7928,
+          "nx": 57,
+          "ny": 125
+        },
+        {
+          "code": "31060",
+          "name": "광명시",
+          "name_eng": "Gwangmyeong-si",
+          "slug": "gwangmyeong-si",
+          "lat": 37.4489,
+          "lon": 126.8645,
+          "nx": 58,
+          "ny": 124
+        },
+        {
+          "code": "31070",
+          "name": "평택시",
+          "name_eng": "Pyeongtaek-si",
+          "slug": "pyeongtaek-si",
+          "lat": 37.0297,
+          "lon": 126.9899,
+          "nx": 60,
+          "ny": 115
+        },
+        {
+          "code": "31080",
+          "name": "동두천시",
+          "name_eng": "Dongducheon-si",
+          "slug": "dongducheon-si",
+          "lat": 37.9251,
+          "lon": 127.0747,
+          "nx": 61,
+          "ny": 135
+        },
+        {
+          "code": "31091",
+          "name": "안산시상록구",
+          "name_eng": "Ansansisangnokgu",
+          "slug": "ansan-si-sangnok-gu",
+          "lat": 37.3175,
+          "lon": 126.8784,
+          "nx": 58,
+          "ny": 121
+        },
+        {
+          "code": "31092",
+          "name": "안산시단원구",
+          "name_eng": "Ansansidanwongu",
+          "slug": "ansan-si-danwon-gu",
+          "lat": 37.2445,
+          "lon": 126.6102,
+          "nx": 54,
+          "ny": 120
+        },
+        {
+          "code": "31101",
+          "name": "고양시덕양구",
+          "name_eng": "Goyangsideogyanggu",
+          "slug": "goyang-si-deogyang-gu",
+          "lat": 37.6694,
+          "lon": 126.8921,
+          "nx": 58,
+          "ny": 129
+        },
+        {
+          "code": "31103",
+          "name": "고양시일산동구",
+          "name_eng": "Goyangsiilsandonggu",
+          "slug": "goyang-si-ilsandong-gu",
+          "lat": 37.6785,
+          "lon": 126.7915,
+          "nx": 57,
+          "ny": 129
+        },
+        {
+          "code": "31104",
+          "name": "고양시일산서구",
+          "name_eng": "Goyangsiilsanseogu",
+          "slug": "goyang-si-ilsanseo-gu",
+          "lat": 37.6844,
+          "lon": 126.7318,
+          "nx": 56,
+          "ny": 129
+        },
+        {
+          "code": "31110",
+          "name": "과천시",
+          "name_eng": "Gwacheon-si",
+          "slug": "gwacheon-si",
+          "lat": 37.4373,
+          "lon": 127.0051,
+          "nx": 60,
+          "ny": 124
+        },
+        {
+          "code": "31120",
+          "name": "구리시",
+          "name_eng": "Guri-si",
+          "slug": "guri-si",
+          "lat": 37.6023,
+          "lon": 127.1325,
+          "nx": 62,
+          "ny": 128
+        },
+        {
+          "code": "31130",
+          "name": "남양주시",
+          "name_eng": "Namyangju-si",
+          "slug": "namyangju-si",
+          "lat": 37.6747,
+          "lon": 127.223,
+          "nx": 64,
+          "ny": 129
+        },
+        {
+          "code": "31140",
+          "name": "오산시",
+          "name_eng": "Osan-si",
+          "slug": "osan-si",
+          "lat": 37.164,
+          "lon": 127.0514,
+          "nx": 61,
+          "ny": 118
+        },
+        {
+          "code": "31150",
+          "name": "시흥시",
+          "name_eng": "Siheung-si",
+          "slug": "siheung-si",
+          "lat": 37.3839,
+          "lon": 126.7692,
+          "nx": 56,
+          "ny": 123
+        },
+        {
+          "code": "31160",
+          "name": "군포시",
+          "name_eng": "Gunpo-si",
+          "slug": "gunpo-si",
+          "lat": 37.3396,
+          "lon": 126.9225,
+          "nx": 59,
+          "ny": 122
+        },
+        {
+          "code": "31170",
+          "name": "의왕시",
+          "name_eng": "Uiwang-si",
+          "slug": "uiwang-si",
+          "lat": 37.3597,
+          "lon": 126.9888,
+          "nx": 60,
+          "ny": 122
+        },
+        {
+          "code": "31180",
+          "name": "하남시",
+          "name_eng": "Hanam-si",
+          "slug": "hanam-si",
+          "lat": 37.5186,
+          "lon": 127.2054,
+          "nx": 64,
+          "ny": 126
+        },
+        {
+          "code": "31191",
+          "name": "용인시처인구",
+          "name_eng": "Yonginsicheoingu",
+          "slug": "yongin-si-cheoin-gu",
+          "lat": 37.2069,
+          "lon": 127.2618,
+          "nx": 65,
+          "ny": 119
+        },
+        {
+          "code": "31192",
+          "name": "용인시기흥구",
+          "name_eng": "Yonginsigiheunggu",
+          "slug": "yongin-si-giheung-gu",
+          "lat": 37.2679,
+          "lon": 127.1178,
+          "nx": 62,
+          "ny": 120
+        },
+        {
+          "code": "31193",
+          "name": "용인시수지구",
+          "name_eng": "Yonginsisujigu",
+          "slug": "yongin-si-suji-gu",
+          "lat": 37.3342,
+          "lon": 127.0739,
+          "nx": 62,
+          "ny": 122
+        },
+        {
+          "code": "31200",
+          "name": "파주시",
+          "name_eng": "Paju-si",
+          "slug": "paju-si",
+          "lat": 37.8756,
+          "lon": 126.8288,
+          "nx": 57,
+          "ny": 133
+        },
+        {
+          "code": "31210",
+          "name": "이천시",
+          "name_eng": "Icheon-si",
+          "slug": "icheon-si",
+          "lat": 37.1955,
+          "lon": 127.4874,
+          "nx": 69,
+          "ny": 119
+        },
+        {
+          "code": "31220",
+          "name": "안성시",
+          "name_eng": "Anseong-si",
+          "slug": "anseong-si",
+          "lat": 37.0426,
+          "lon": 127.2987,
+          "nx": 66,
+          "ny": 115
+        },
+        {
+          "code": "31230",
+          "name": "김포시",
+          "name_eng": "Gimpo-si",
+          "slug": "gimpo-si",
+          "lat": 37.6549,
+          "lon": 126.6236,
+          "nx": 54,
+          "ny": 129
+        },
+        {
+          "code": "31240",
+          "name": "화성시",
+          "name_eng": "Hwaseongsi",
+          "slug": "hwaseong-si",
+          "lat": 37.1639,
+          "lon": 126.7979,
+          "nx": 57,
+          "ny": 118
+        },
+        {
+          "code": "31250",
+          "name": "광주시",
+          "name_eng": "Gwangju",
+          "slug": "gwangju",
+          "lat": 37.4016,
+          "lon": 127.2853,
+          "nx": 65,
+          "ny": 123
+        },
+        {
+          "code": "31260",
+          "name": "양주시",
+          "name_eng": "Yangjusi",
+          "slug": "yangju-si",
+          "lat": 37.8044,
+          "lon": 126.9794,
+          "nx": 60,
+          "ny": 132
+        },
+        {
+          "code": "31270",
+          "name": "포천시",
+          "name_eng": "Pocheonsi",
+          "slug": "pocheon-si",
+          "lat": 37.9936,
+          "lon": 127.2325,
+          "nx": 64,
+          "ny": 136
+        },
+        {
+          "code": "31280",
+          "name": "여주시",
+          "name_eng": "Yeoju-si",
+          "slug": "yeoju-si",
+          "lat": 37.3116,
+          "lon": 127.6043,
+          "nx": 71,
+          "ny": 121
+        },
+        {
+          "code": "31350",
+          "name": "연천군",
+          "name_eng": "Yeoncheon-gun",
+          "slug": "yeoncheon-gun",
+          "lat": 38.0864,
+          "lon": 126.9979,
+          "nx": 60,
+          "ny": 138
+        },
+        {
+          "code": "31370",
+          "name": "가평군",
+          "name_eng": "Gapyeong-gun",
+          "slug": "gapyeong-gun",
+          "lat": 37.8062,
+          "lon": 127.4549,
+          "nx": 68,
+          "ny": 132
+        },
+        {
+          "code": "31380",
+          "name": "양평군",
+          "name_eng": "Yangpyeong-gun",
+          "slug": "yangpyeong-gun",
+          "lat": 37.515,
+          "lon": 127.59,
+          "nx": 70,
+          "ny": 126
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "name": "강원도",
+      "name_eng": "Gangwon-do",
+      "slug": "gangwon-do",
+      "lat": 37.7177,
+      "lon": 128.2505,
+      "nx": 82,
+      "ny": 130,
+      "municipalities": [
+        {
+          "code": "32010",
+          "name": "춘천시",
+          "name_eng": "Chuncheon-si",
+          "slug": "chuncheon-si",
+          "lat": 37.8881,
+          "lon": 127.7484,
+          "nx": 73,
+          "ny": 134
+        },
+        {
+          "code": "32020",
+          "name": "원주시",
+          "name_eng": "Wonju-si",
+          "slug": "wonju-si",
+          "lat": 37.3264,
+          "lon": 127.9543,
+          "nx": 77,
+          "ny": 122
+        },
+        {
+          "code": "32030",
+          "name": "강릉시",
+          "name_eng": "Gangneung-si",
+          "slug": "gangneung-si",
+          "lat": 37.7034,
+          "lon": 128.8382,
+          "nx": 92,
+          "ny": 130
+        },
+        {
+          "code": "32040",
+          "name": "동해시",
+          "name_eng": "Donghae-si",
+          "slug": "donghae-si",
+          "lat": 37.5155,
+          "lon": 129.0763,
+          "nx": 96,
+          "ny": 127
+        },
+        {
+          "code": "32050",
+          "name": "태백시",
+          "name_eng": "Taebaek-si",
+          "slug": "taebaek-si",
+          "lat": 37.198,
+          "lon": 128.9769,
+          "nx": 94,
+          "ny": 120
+        },
+        {
+          "code": "32060",
+          "name": "속초시",
+          "name_eng": "Sokcho-si",
+          "slug": "sokcho-si",
+          "lat": 38.1897,
+          "lon": 128.5503,
+          "nx": 86,
+          "ny": 141
+        },
+        {
+          "code": "32070",
+          "name": "삼척시",
+          "name_eng": "Samcheok-si",
+          "slug": "samcheok-si",
+          "lat": 37.2722,
+          "lon": 129.1159,
+          "nx": 97,
+          "ny": 121
+        },
+        {
+          "code": "32310",
+          "name": "홍천군",
+          "name_eng": "Hongcheon-gun",
+          "slug": "hongcheon-gun",
+          "lat": 37.7408,
+          "lon": 128.0151,
+          "nx": 78,
+          "ny": 131
+        },
+        {
+          "code": "32320",
+          "name": "횡성군",
+          "name_eng": "Hoengseong-gun",
+          "slug": "hoengseong-gun",
+          "lat": 37.4966,
+          "lon": 128.0517,
+          "nx": 78,
+          "ny": 126
+        },
+        {
+          "code": "32330",
+          "name": "영월군",
+          "name_eng": "Yeongwol-gun",
+          "slug": "yeongwol-gun",
+          "lat": 37.2009,
+          "lon": 128.4937,
+          "nx": 86,
+          "ny": 119
+        },
+        {
+          "code": "32340",
+          "name": "평창군",
+          "name_eng": "Pyeongchang-gun",
+          "slug": "pyeongchang-gun",
+          "lat": 37.5234,
+          "lon": 128.4942,
+          "nx": 86,
+          "ny": 126
+        },
+        {
+          "code": "32350",
+          "name": "정선군",
+          "name_eng": "Jeongseon-gun",
+          "slug": "jeongseon-gun",
+          "lat": 37.3888,
+          "lon": 128.7564,
+          "nx": 90,
+          "ny": 124
+        },
+        {
+          "code": "32360",
+          "name": "철원군",
+          "name_eng": "Gongju-si",
+          "slug": "gongju-si",
+          "lat": 38.2486,
+          "lon": 127.4467,
+          "nx": 68,
+          "ny": 142
+        },
+        {
+          "code": "32370",
+          "name": "화천군",
+          "name_eng": "Hwacheon-gun",
+          "slug": "hwacheon-gun",
+          "lat": 38.1247,
+          "lon": 127.6741,
+          "nx": 72,
+          "ny": 139
+        },
+        {
+          "code": "32380",
+          "name": "양구군",
+          "name_eng": "Yanggu-gun",
+          "slug": "yanggu-gun",
+          "lat": 38.1659,
+          "lon": 128.0159,
+          "nx": 77,
+          "ny": 140
+        },
+        {
+          "code": "32390",
+          "name": "인제군",
+          "name_eng": "Inje-gun",
+          "slug": "inje-gun",
+          "lat": 38.1019,
+          "lon": 128.2606,
+          "nx": 82,
+          "ny": 139
+        },
+        {
+          "code": "32400",
+          "name": "고성군",
+          "name_eng": "Goseong-gun",
+          "slug": "goseong-gun",
+          "lat": 38.3924,
+          "lon": 128.4102,
+          "nx": 84,
+          "ny": 145
+        },
+        {
+          "code": "32410",
+          "name": "양양군",
+          "name_eng": "Yangyang-gun",
+          "slug": "yangyang-gun",
+          "lat": 37.9993,
+          "lon": 128.6155,
+          "nx": 88,
+          "ny": 137
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "name": "충청북도",
+      "name_eng": "Chungcheongbuk-do",
+      "slug": "chungcheongbuk-do",
+      "lat": 36.7174,
+      "lon": 127.8631,
+      "nx": 75,
+      "ny": 109,
+      "municipalities": [
+        {
+          "code": "33020",
+          "name": "충주시",
+          "name_eng": "Chungju-si",
+          "slug": "chungju-si",
+          "lat": 36.9885,
+          "lon": 127.9118,
+          "nx": 76,
+          "ny": 114
+        },
+        {
+          "code": "33030",
+          "name": "제천시",
+          "name_eng": "Jecheon-si",
+          "slug": "jecheon-si",
+          "lat": 37.0627,
+          "lon": 128.1477,
+          "nx": 80,
+          "ny": 116
+        },
+        {
+          "code": "33041",
+          "name": "청주시상당구",
+          "name_eng": "Cheongjusisangdanggu",
+          "slug": "cheongju-si-sangdang-gu",
+          "lat": 36.5938,
+          "lon": 127.5971,
+          "nx": 71,
+          "ny": 106
+        },
+        {
+          "code": "33042",
+          "name": "청주시서원구",
+          "name_eng": "Cheongjusiseowongu",
+          "slug": "cheongju-si-seowon-gu",
+          "lat": 36.5533,
+          "lon": 127.4459,
+          "nx": 68,
+          "ny": 105
+        },
+        {
+          "code": "33043",
+          "name": "청주시흥덕구",
+          "name_eng": "Cheongjusiheungdeokgu",
+          "slug": "cheongju-si-heungdeok-gu",
+          "lat": 36.6456,
+          "lon": 127.3737,
+          "nx": 67,
+          "ny": 107
+        },
+        {
+          "code": "33044",
+          "name": "청주시청원구",
+          "name_eng": "Cheongjusicheongwongu",
+          "slug": "cheongju-si-cheongwon-gu",
+          "lat": 36.7277,
+          "lon": 127.4624,
+          "nx": 68,
+          "ny": 109
+        },
+        {
+          "code": "33320",
+          "name": "보은군",
+          "name_eng": "Boeun-gun",
+          "slug": "boeun-gun",
+          "lat": 36.4873,
+          "lon": 127.7314,
+          "nx": 73,
+          "ny": 104
+        },
+        {
+          "code": "33330",
+          "name": "옥천군",
+          "name_eng": "Okcheon-gun",
+          "slug": "okcheon-gun",
+          "lat": 36.311,
+          "lon": 127.665,
+          "nx": 72,
+          "ny": 100
+        },
+        {
+          "code": "33340",
+          "name": "영동군",
+          "name_eng": "Yeongdong-gun",
+          "slug": "yeongdong-gun",
+          "lat": 36.1744,
+          "lon": 127.8308,
+          "nx": 75,
+          "ny": 97
+        },
+        {
+          "code": "33350",
+          "name": "진천군",
+          "name_eng": "Jincheon-gun",
+          "slug": "jincheon-gun",
+          "lat": 36.8714,
+          "lon": 127.4516,
+          "nx": 68,
+          "ny": 112
+        },
+        {
+          "code": "33360",
+          "name": "괴산군",
+          "name_eng": "Goesan-gun",
+          "slug": "goesan-gun",
+          "lat": 36.7655,
+          "lon": 127.8486,
+          "nx": 75,
+          "ny": 110
+        },
+        {
+          "code": "33370",
+          "name": "음성군",
+          "name_eng": "Eumseong-gun",
+          "slug": "eumseong-gun",
+          "lat": 36.9721,
+          "lon": 127.6302,
+          "nx": 71,
+          "ny": 114
+        },
+        {
+          "code": "33380",
+          "name": "단양군",
+          "name_eng": "Danyang-gun",
+          "slug": "danyang-gun",
+          "lat": 37.0209,
+          "lon": 128.3904,
+          "nx": 84,
+          "ny": 115
+        },
+        {
+          "code": "33390",
+          "name": "증평군",
+          "name_eng": "Jeungpyeonggun",
+          "slug": "jeungpyeonggun",
+          "lat": 36.7894,
+          "lon": 127.611,
+          "nx": 71,
+          "ny": 110
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "name": "충청남도",
+      "name_eng": "Chungcheongnam-do",
+      "slug": "chungcheongnam-do",
+      "lat": 36.5506,
+      "lon": 126.6966,
+      "nx": 55,
+      "ny": 105,
+      "municipalities": [
+        {
+          "code": "34011",
+          "name": "천안시동남구",
+          "name_eng": "Cheonansidongnamgu",
+          "slug": "cheonan-si-dongnam-gu",
+          "lat": 36.7499,
+          "lon": 127.2095,
+          "nx": 64,
+          "ny": 109
+        },
+        {
+          "code": "34012",
+          "name": "천안시서북구",
+          "name_eng": "Cheonansiseobukgu",
+          "slug": "cheonan-si-seobuk-gu",
+          "lat": 36.8793,
+          "lon": 127.155,
+          "nx": 63,
+          "ny": 112
+        },
+        {
+          "code": "34020",
+          "name": "공주시",
+          "name_eng": "Gongju-si",
+          "slug": "gongju-si",
+          "lat": 36.4721,
+          "lon": 127.0851,
+          "nx": 62,
+          "ny": 103
+        },
+        {
+          "code": "34030",
+          "name": "보령시",
+          "name_eng": "Boryeong-si",
+          "slug": "boryeong-si",
+          "lat": 36.3371,
+          "lon": 126.3971,
+          "nx": 50,
+          "ny": 100
+        },
+        {
+          "code": "34040",
+          "name": "아산시",
+          "name_eng": "Asan-si",
+          "slug": "asan-si",
+          "lat": 36.7962,
+          "lon": 126.9962,
+          "nx": 60,
+          "ny": 110
+        },
+        {
+          "code": "34050",
+          "name": "서산시",
+          "name_eng": "Seosan-si",
+          "slug": "seosan-si",
+          "lat": 36.8728,
+          "lon": 126.4099,
+          "nx": 50,
+          "ny": 112
+        },
+        {
+          "code": "34060",
+          "name": "논산시",
+          "name_eng": "Nonsan-si",
+          "slug": "nonsan-si",
+          "lat": 36.1866,
+          "lon": 127.1607,
+          "nx": 63,
+          "ny": 97
+        },
+        {
+          "code": "34070",
+          "name": "계룡시",
+          "name_eng": "Gyeryongsi",
+          "slug": "gyeryong-si",
+          "lat": 36.2964,
+          "lon": 127.2374,
+          "nx": 65,
+          "ny": 99
+        },
+        {
+          "code": "34080",
+          "name": "당진시",
+          "name_eng": "Dangjinsi",
+          "slug": "dangjin-si",
+          "lat": 36.9382,
+          "lon": 126.6086,
+          "nx": 54,
+          "ny": 113
+        },
+        {
+          "code": "34310",
+          "name": "금산군",
+          "name_eng": "Geumsan-gun",
+          "slug": "geumsan-gun",
+          "lat": 36.123,
+          "lon": 127.4828,
+          "nx": 69,
+          "ny": 95
+        },
+        {
+          "code": "34330",
+          "name": "부여군",
+          "name_eng": "Buyeo-gun",
+          "slug": "buyeo-gun",
+          "lat": 36.2635,
+          "lon": 126.8488,
+          "nx": 58,
+          "ny": 98
+        },
+        {
+          "code": "34340",
+          "name": "서천군",
+          "name_eng": "Seocheon-gun",
+          "slug": "seocheon-gun",
+          "lat": 36.0942,
+          "lon": 126.6372,
+          "nx": 54,
+          "ny": 95
+        },
+        {
+          "code": "34350",
+          "name": "청양군",
+          "name_eng": "Cheongyang-gun",
+          "slug": "cheongyang-gun",
+          "lat": 36.4298,
+          "lon": 126.8544,
+          "nx": 58,
+          "ny": 102
+        },
+        {
+          "code": "34360",
+          "name": "홍성군",
+          "name_eng": "Hongseong-gun",
+          "slug": "hongseong-gun",
+          "lat": 36.5666,
+          "lon": 126.6085,
+          "nx": 54,
+          "ny": 105
+        },
+        {
+          "code": "34370",
+          "name": "예산군",
+          "name_eng": "Yesan-gun",
+          "slug": "yesan-gun",
+          "lat": 36.675,
+          "lon": 126.7625,
+          "nx": 56,
+          "ny": 107
+        },
+        {
+          "code": "34380",
+          "name": "태안군",
+          "name_eng": "Taean-gun",
+          "slug": "taean-gun",
+          "lat": 36.6785,
+          "lon": 126.1915,
+          "nx": 46,
+          "ny": 107
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "name": "전라북도",
+      "name_eng": "Jeollabuk-do",
+      "slug": "jeollabuk-do",
+      "lat": 35.7287,
+      "lon": 127.009,
+      "nx": 61,
+      "ny": 87,
+      "municipalities": [
+        {
+          "code": "35011",
+          "name": "전주시완산구",
+          "name_eng": "Jeonjusiwansangu",
+          "slug": "jeonju-si-wansan-gu",
+          "lat": 35.7941,
+          "lon": 127.1148,
+          "nx": 63,
+          "ny": 88
+        },
+        {
+          "code": "35012",
+          "name": "전주시덕진구",
+          "name_eng": "Jeonjusideokjingu",
+          "slug": "jeonju-si-deokjin-gu",
+          "lat": 35.854,
+          "lon": 127.1108,
+          "nx": 63,
+          "ny": 90
+        },
+        {
+          "code": "35020",
+          "name": "군산시",
+          "name_eng": "Gunsan-si",
+          "slug": "gunsan-si",
+          "lat": 35.8974,
+          "lon": 126.4638,
+          "nx": 51,
+          "ny": 90
+        },
+        {
+          "code": "35030",
+          "name": "익산시",
+          "name_eng": "Iksan-si",
+          "slug": "iksan-si",
+          "lat": 36.008,
+          "lon": 126.9809,
+          "nx": 60,
+          "ny": 93
+        },
+        {
+          "code": "35040",
+          "name": "정읍시",
+          "name_eng": "Jeongeup-si",
+          "slug": "jeongeup-si",
+          "lat": 35.5942,
+          "lon": 126.9127,
+          "nx": 59,
+          "ny": 84
+        },
+        {
+          "code": "35050",
+          "name": "남원시",
+          "name_eng": "Namwon-si",
+          "slug": "namwon-si",
+          "lat": 35.4461,
+          "lon": 127.446,
+          "nx": 69,
+          "ny": 81
+        },
+        {
+          "code": "35060",
+          "name": "김제시",
+          "name_eng": "Gimje-si",
+          "slug": "gimje-si",
+          "lat": 35.7921,
+          "lon": 126.9064,
+          "nx": 59,
+          "ny": 88
+        },
+        {
+          "code": "35310",
+          "name": "완주군",
+          "name_eng": "Wanju-gun",
+          "slug": "wanju-gun",
+          "lat": 35.8678,
+          "lon": 127.1807,
+          "nx": 64,
+          "ny": 90
+        },
+        {
+          "code": "35320",
+          "name": "진안군",
+          "name_eng": "Jinan-gun",
+          "slug": "jinan-gun",
+          "lat": 35.8345,
+          "lon": 127.4421,
+          "nx": 68,
+          "ny": 89
+        },
+        {
+          "code": "35330",
+          "name": "무주군",
+          "name_eng": "Muju-gun",
+          "slug": "muju-gun",
+          "lat": 35.9447,
+          "lon": 127.7017,
+          "nx": 73,
+          "ny": 92
+        },
+        {
+          "code": "35340",
+          "name": "장수군",
+          "name_eng": "Jangsu-gun",
+          "slug": "jangsu-gun",
+          "lat": 35.6506,
+          "lon": 127.5377,
+          "nx": 70,
+          "ny": 85
+        },
+        {
+          "code": "35350",
+          "name": "임실군",
+          "name_eng": "Imsil-gun",
+          "slug": "imsil-gun",
+          "lat": 35.6123,
+          "lon": 127.2443,
+          "nx": 65,
+          "ny": 84
+        },
+        {
+          "code": "35360",
+          "name": "순창군",
+          "name_eng": "Sunchang-gun",
+          "slug": "sunchang-gun",
+          "lat": 35.4341,
+          "lon": 127.0603,
+          "nx": 62,
+          "ny": 80
+        },
+        {
+          "code": "35370",
+          "name": "고창군",
+          "name_eng": "Gochang-gun",
+          "slug": "gochang-gun",
+          "lat": 35.4685,
+          "lon": 126.5732,
+          "nx": 53,
+          "ny": 81
+        },
+        {
+          "code": "35380",
+          "name": "부안군",
+          "name_eng": "Buan-gun",
+          "slug": "buan-gun",
+          "lat": 35.6441,
+          "lon": 126.4209,
+          "nx": 50,
+          "ny": 85
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "name": "전라남도",
+      "name_eng": "Jeollanam-do",
+      "slug": "jeollanam-do",
+      "lat": 34.7098,
+      "lon": 126.7264,
+      "nx": 56,
+      "ny": 64,
+      "municipalities": [
+        {
+          "code": "36010",
+          "name": "목포시",
+          "name_eng": "Mokpo-si",
+          "slug": "mokpo-si",
+          "lat": 34.7909,
+          "lon": 126.3594,
+          "nx": 49,
+          "ny": 66
+        },
+        {
+          "code": "36020",
+          "name": "여수시",
+          "name_eng": "Yeosu-si",
+          "slug": "yeosu-si",
+          "lat": 34.551,
+          "lon": 127.6085,
+          "nx": 72,
+          "ny": 61
+        },
+        {
+          "code": "36030",
+          "name": "순천시",
+          "name_eng": "Suncheon-si",
+          "slug": "suncheon-si",
+          "lat": 34.9835,
+          "lon": 127.3878,
+          "nx": 68,
+          "ny": 71
+        },
+        {
+          "code": "36040",
+          "name": "나주시",
+          "name_eng": "Naju-si",
+          "slug": "naju-si",
+          "lat": 34.9755,
+          "lon": 126.7063,
+          "nx": 56,
+          "ny": 70
+        },
+        {
+          "code": "36060",
+          "name": "광양시",
+          "name_eng": "Gwangyang-si",
+          "slug": "gwangyang-si",
+          "lat": 34.9764,
+          "lon": 127.6688,
+          "nx": 73,
+          "ny": 71
+        },
+        {
+          "code": "36310",
+          "name": "담양군",
+          "name_eng": "Damyang-gun",
+          "slug": "damyang-gun",
+          "lat": 35.3016,
+          "lon": 126.9946,
+          "nx": 61,
+          "ny": 77
+        },
+        {
+          "code": "36320",
+          "name": "곡성군",
+          "name_eng": "Gokseong-gun",
+          "slug": "gokseong-gun",
+          "lat": 35.2041,
+          "lon": 127.2712,
+          "nx": 66,
+          "ny": 75
+        },
+        {
+          "code": "36330",
+          "name": "구례군",
+          "name_eng": "Gurye-gun",
+          "slug": "gurye-gun",
+          "lat": 35.243,
+          "lon": 127.5055,
+          "nx": 70,
+          "ny": 76
+        },
+        {
+          "code": "36350",
+          "name": "고흥군",
+          "name_eng": "Goheung-gun",
+          "slug": "goheung-gun",
+          "lat": 34.5485,
+          "lon": 127.3372,
+          "nx": 67,
+          "ny": 61
+        },
+        {
+          "code": "36360",
+          "name": "보성군",
+          "name_eng": "Boseong-gun",
+          "slug": "boseong-gun",
+          "lat": 34.8133,
+          "lon": 127.2876,
+          "nx": 66,
+          "ny": 67
+        },
+        {
+          "code": "36370",
+          "name": "화순군",
+          "name_eng": "Hwasun-gun",
+          "slug": "hwasun-gun",
+          "lat": 35.004,
+          "lon": 127.0139,
+          "nx": 61,
+          "ny": 71
+        },
+        {
+          "code": "36380",
+          "name": "장흥군",
+          "name_eng": "Jangheung-gun",
+          "slug": "jangheung-gun",
+          "lat": 34.6193,
+          "lon": 126.9325,
+          "nx": 60,
+          "ny": 63
+        },
+        {
+          "code": "36390",
+          "name": "강진군",
+          "name_eng": "Gangjin-gun",
+          "slug": "gangjin-gun",
+          "lat": 34.5847,
+          "lon": 126.7766,
+          "nx": 57,
+          "ny": 62
+        },
+        {
+          "code": "36400",
+          "name": "해남군",
+          "name_eng": "Haenam-gun",
+          "slug": "haenam-gun",
+          "lat": 34.5051,
+          "lon": 126.474,
+          "nx": 52,
+          "ny": 60
+        },
+        {
+          "code": "36410",
+          "name": "영암군",
+          "name_eng": "Yeongam-gun",
+          "slug": "yeongam-gun",
+          "lat": 34.8124,
+          "lon": 126.5945,
+          "nx": 54,
+          "ny": 67
+        },
+        {
+          "code": "36420",
+          "name": "무안군",
+          "name_eng": "Muan-gun",
+          "slug": "muan-gun",
+          "lat": 35.004,
+          "lon": 126.3722,
+          "nx": 50,
+          "ny": 71
+        },
+        {
+          "code": "36430",
+          "name": "함평군",
+          "name_eng": "Hampyeong-gun",
+          "slug": "hampyeong-gun",
+          "lat": 35.1076,
+          "lon": 126.5248,
+          "nx": 52,
+          "ny": 73
+        },
+        {
+          "code": "36440",
+          "name": "영광군",
+          "name_eng": "Yeonggwang-gun",
+          "slug": "yeonggwang-gun",
+          "lat": 35.2863,
+          "lon": 126.2903,
+          "nx": 48,
+          "ny": 77
+        },
+        {
+          "code": "36450",
+          "name": "장성군",
+          "name_eng": "Jangseong-gun",
+          "slug": "jangseong-gun",
+          "lat": 35.3344,
+          "lon": 126.7624,
+          "nx": 57,
+          "ny": 78
+        },
+        {
+          "code": "36460",
+          "name": "완도군",
+          "name_eng": "Wando-gun",
+          "slug": "wando-gun",
+          "lat": 34.2884,
+          "lon": 126.8045,
+          "nx": 58,
+          "ny": 55
+        },
+        {
+          "code": "36470",
+          "name": "진도군",
+          "name_eng": "Jindo-gun",
+          "slug": "jindo-gun",
+          "lat": 34.362,
+          "lon": 126.101,
+          "nx": 45,
+          "ny": 57
+        },
+        {
+          "code": "36480",
+          "name": "신안군",
+          "name_eng": "Sinan-gun",
+          "slug": "sinan-gun",
+          "lat": 34.7968,
+          "lon": 126.0093,
+          "nx": 43,
+          "ny": 66
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "name": "경상북도",
+      "name_eng": "Gyeongsangbuk-do",
+      "slug": "gyeongsangbuk-do",
+      "lat": 36.3028,
+      "lon": 128.8798,
+      "nx": 93,
+      "ny": 100,
+      "municipalities": [
+        {
+          "code": "37011",
+          "name": "포항시남구",
+          "name_eng": "Nam-gu",
+          "slug": "nam-gu",
+          "lat": 35.9776,
+          "lon": 129.4356,
+          "nx": 104,
+          "ny": 93
+        },
+        {
+          "code": "37012",
+          "name": "포항시북구",
+          "name_eng": "Buk-gu",
+          "slug": "buk-gu",
+          "lat": 36.164,
+          "lon": 129.2641,
+          "nx": 100,
+          "ny": 97
+        },
+        {
+          "code": "37020",
+          "name": "경주시",
+          "name_eng": "Gyeongju-si",
+          "slug": "gyeongju-si",
+          "lat": 35.8182,
+          "lon": 129.2638,
+          "nx": 101,
+          "ny": 90
+        },
+        {
+          "code": "37030",
+          "name": "김천시",
+          "name_eng": "Gimcheon-si",
+          "slug": "gimcheon-si",
+          "lat": 36.0589,
+          "lon": 128.0724,
+          "nx": 79,
+          "ny": 94
+        },
+        {
+          "code": "37040",
+          "name": "안동시",
+          "name_eng": "Andong-si",
+          "slug": "andong-si",
+          "lat": 36.5759,
+          "lon": 128.7578,
+          "nx": 91,
+          "ny": 106
+        },
+        {
+          "code": "37050",
+          "name": "구미시",
+          "name_eng": "Gumi-si",
+          "slug": "gumi-si",
+          "lat": 36.2096,
+          "lon": 128.3679,
+          "nx": 85,
+          "ny": 98
+        },
+        {
+          "code": "37060",
+          "name": "영주시",
+          "name_eng": "Yeongju-si",
+          "slug": "yeongju-si",
+          "lat": 36.8586,
+          "lon": 128.6245,
+          "nx": 89,
+          "ny": 112
+        },
+        {
+          "code": "37070",
+          "name": "영천시",
+          "name_eng": "Yeongcheon-si",
+          "slug": "yeongcheon-si",
+          "lat": 36.0175,
+          "lon": 128.9292,
+          "nx": 95,
+          "ny": 94
+        },
+        {
+          "code": "37080",
+          "name": "상주시",
+          "name_eng": "Sangju-si",
+          "slug": "sangju-si",
+          "lat": 36.4593,
+          "lon": 128.0285,
+          "nx": 78,
+          "ny": 103
+        },
+        {
+          "code": "37090",
+          "name": "문경시",
+          "name_eng": "Mungyeong-si",
+          "slug": "mungyeong-si",
+          "lat": 36.6734,
+          "lon": 128.1306,
+          "nx": 80,
+          "ny": 108
+        },
+        {
+          "code": "37100",
+          "name": "경산시",
+          "name_eng": "Gyeongsan-si",
+          "slug": "gyeongsan-si",
+          "lat": 35.8286,
+          "lon": 128.8147,
+          "nx": 93,
+          "ny": 90
+        },
+        {
+          "code": "37310",
+          "name": "군위군",
+          "name_eng": "Gunwi-gun",
+          "slug": "gunwi-gun",
+          "lat": 36.1757,
+          "lon": 128.635,
+          "nx": 89,
+          "ny": 97
+        },
+        {
+          "code": "37320",
+          "name": "의성군",
+          "name_eng": "Uiseong-gun",
+          "slug": "uiseong-gun",
+          "lat": 36.3605,
+          "lon": 128.6034,
+          "nx": 89,
+          "ny": 101
+        },
+        {
+          "code": "37330",
+          "name": "청송군",
+          "name_eng": "Cheongsong-gun",
+          "slug": "cheongsong-gun",
+          "lat": 36.359,
+          "lon": 129.0497,
+          "nx": 96,
+          "ny": 101
+        },
+        {
+          "code": "37340",
+          "name": "영양군",
+          "name_eng": "Yeongyang-gun",
+          "slug": "yeongyang-gun",
+          "lat": 36.6947,
+          "lon": 129.1751,
+          "nx": 98,
+          "ny": 109
+        },
+        {
+          "code": "37350",
+          "name": "영덕군",
+          "name_eng": "Yeongdeok-gun",
+          "slug": "yeongdeok-gun",
+          "lat": 36.4835,
+          "lon": 129.2948,
+          "nx": 101,
+          "ny": 104
+        },
+        {
+          "code": "37360",
+          "name": "청도군",
+          "name_eng": "Cheongdo-gun",
+          "slug": "cheongdo-gun",
+          "lat": 35.6982,
+          "lon": 128.8015,
+          "nx": 93,
+          "ny": 87
+        },
+        {
+          "code": "37370",
+          "name": "고령군",
+          "name_eng": "Goryeong-gun",
+          "slug": "goryeong-gun",
+          "lat": 35.7379,
+          "lon": 128.3085,
+          "nx": 84,
+          "ny": 87
+        },
+        {
+          "code": "37380",
+          "name": "성주군",
+          "name_eng": "Seongju-gun",
+          "slug": "seongju-gun",
+          "lat": 35.9036,
+          "lon": 128.2192,
+          "nx": 82,
+          "ny": 91
+        },
+        {
+          "code": "37390",
+          "name": "칠곡군",
+          "name_eng": "Chilgok-gun",
+          "slug": "chilgok-gun",
+          "lat": 36.0179,
+          "lon": 128.4626,
+          "nx": 86,
+          "ny": 94
+        },
+        {
+          "code": "37400",
+          "name": "예천군",
+          "name_eng": "Yecheon-gun",
+          "slug": "yecheon-gun",
+          "lat": 36.6423,
+          "lon": 128.4067,
+          "nx": 85,
+          "ny": 107
+        },
+        {
+          "code": "37410",
+          "name": "봉화군",
+          "name_eng": "Bonghwa-gun",
+          "slug": "bonghwa-gun",
+          "lat": 36.9265,
+          "lon": 128.8935,
+          "nx": 93,
+          "ny": 114
+        },
+        {
+          "code": "37420",
+          "name": "울진군",
+          "name_eng": "Uljin-gun",
+          "slug": "uljin-gun",
+          "lat": 36.8989,
+          "lon": 129.3119,
+          "nx": 101,
+          "ny": 113
+        },
+        {
+          "code": "37430",
+          "name": "울릉군",
+          "name_eng": "Ulleung-gun",
+          "slug": "ulleung-gun",
+          "lat": 37.4673,
+          "lon": 131.0538,
+          "nx": 130,
+          "ny": 127
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "name": "경상남도",
+      "name_eng": "Gyeongsangnam-do",
+      "slug": "gyeongsangnam-do",
+      "lat": 35.0492,
+      "lon": 128.3597,
+      "nx": 85,
+      "ny": 72,
+      "municipalities": [
+        {
+          "code": "38030",
+          "name": "진주시",
+          "name_eng": "Jinju-si",
+          "slug": "jinju-si",
+          "lat": 35.1946,
+          "lon": 128.1332,
+          "nx": 81,
+          "ny": 76
+        },
+        {
+          "code": "38050",
+          "name": "통영시",
+          "name_eng": "Tongyeong-si",
+          "slug": "tongyeong-si",
+          "lat": 34.7764,
+          "lon": 128.3815,
+          "nx": 86,
+          "ny": 67
+        },
+        {
+          "code": "38060",
+          "name": "사천시",
+          "name_eng": "Sacheon-si",
+          "slug": "sacheon-si",
+          "lat": 35.0043,
+          "lon": 128.0215,
+          "nx": 79,
+          "ny": 71
+        },
+        {
+          "code": "38070",
+          "name": "김해시",
+          "name_eng": "Gimhae-si",
+          "slug": "gimhae-si",
+          "lat": 35.253,
+          "lon": 128.8316,
+          "nx": 93,
+          "ny": 77
+        },
+        {
+          "code": "38080",
+          "name": "밀양시",
+          "name_eng": "Miryang-si",
+          "slug": "miryang-si",
+          "lat": 35.5094,
+          "lon": 128.8008,
+          "nx": 93,
+          "ny": 83
+        },
+        {
+          "code": "38090",
+          "name": "거제시",
+          "name_eng": "Geoje-si",
+          "slug": "geoje-si",
+          "lat": 34.8788,
+          "lon": 128.6261,
+          "nx": 90,
+          "ny": 69
+        },
+        {
+          "code": "38100",
+          "name": "양산시",
+          "name_eng": "Yangsan-si",
+          "slug": "yangsan-si",
+          "lat": 35.4131,
+          "lon": 129.0369,
+          "nx": 97,
+          "ny": 81
+        },
+        {
+          "code": "38111",
+          "name": "창원시의창구",
+          "name_eng": "Uichanggu",
+          "slug": "uichang-gu",
+          "lat": 35.2972,
+          "lon": 128.6585,
+          "nx": 90,
+          "ny": 78
+        },
+        {
+          "code": "38112",
+          "name": "창원시성산구",
+          "name_eng": "Seongsangu",
+          "slug": "seongsan-gu",
+          "lat": 35.2071,
+          "lon": 128.6725,
+          "nx": 91,
+          "ny": 76
+        },
+        {
+          "code": "38113",
+          "name": "창원시마산합포구",
+          "name_eng": "Masanhappogu",
+          "slug": "masanhappo-gu",
+          "lat": 35.1097,
+          "lon": 128.524,
+          "nx": 88,
+          "ny": 74
+        },
+        {
+          "code": "38114",
+          "name": "창원시마산회원구",
+          "name_eng": "Masanhoewongu",
+          "slug": "masanhoewon-gu",
+          "lat": 35.2338,
+          "lon": 128.5481,
+          "nx": 88,
+          "ny": 77
+        },
+        {
+          "code": "38115",
+          "name": "창원시진해구",
+          "name_eng": "Jinhaegu",
+          "slug": "jinhae-gu",
+          "lat": 35.1041,
+          "lon": 128.7224,
+          "nx": 92,
+          "ny": 74
+        },
+        {
+          "code": "38310",
+          "name": "의령군",
+          "name_eng": "Uiryeong-gun",
+          "slug": "uiryeong-gun",
+          "lat": 35.3834,
+          "lon": 128.2615,
+          "nx": 83,
+          "ny": 80
+        },
+        {
+          "code": "38320",
+          "name": "함안군",
+          "name_eng": "Haman-gun",
+          "slug": "haman-gun",
+          "lat": 35.2883,
+          "lon": 128.4314,
+          "nx": 86,
+          "ny": 78
+        },
+        {
+          "code": "38330",
+          "name": "창녕군",
+          "name_eng": "Changnyeong-gun",
+          "slug": "changnyeong-gun",
+          "lat": 35.525,
+          "lon": 128.5116,
+          "nx": 88,
+          "ny": 83
+        },
+        {
+          "code": "38340",
+          "name": "고성군",
+          "name_eng": "Goseong-gun",
+          "slug": "goseong-gun",
+          "lat": 34.9725,
+          "lon": 128.294,
+          "nx": 84,
+          "ny": 71
+        },
+        {
+          "code": "38350",
+          "name": "남해군",
+          "name_eng": "Namhae-gun",
+          "slug": "namhae-gun",
+          "lat": 34.7998,
+          "lon": 127.966,
+          "nx": 78,
+          "ny": 67
+        },
+        {
+          "code": "38360",
+          "name": "하동군",
+          "name_eng": "Hadong-gun",
+          "slug": "hadong-gun",
+          "lat": 35.0558,
+          "lon": 127.8207,
+          "nx": 76,
+          "ny": 72
+        },
+        {
+          "code": "38370",
+          "name": "산청군",
+          "name_eng": "Sancheong-gun",
+          "slug": "sancheong-gun",
+          "lat": 35.3791,
+          "lon": 127.9054,
+          "nx": 77,
+          "ny": 79
+        },
+        {
+          "code": "38380",
+          "name": "함양군",
+          "name_eng": "Hamyang-gun",
+          "slug": "hamyang-gun",
+          "lat": 35.5391,
+          "lon": 127.7202,
+          "nx": 74,
+          "ny": 83
+        },
+        {
+          "code": "38390",
+          "name": "거창군",
+          "name_eng": "Geochang-gun",
+          "slug": "geochang-gun",
+          "lat": 35.7185,
+          "lon": 127.9144,
+          "nx": 77,
+          "ny": 87
+        },
+        {
+          "code": "38400",
+          "name": "합천군",
+          "name_eng": "Hapcheon-gun",
+          "slug": "hapcheon-gun",
+          "lat": 35.5857,
+          "lon": 128.1429,
+          "nx": 81,
+          "ny": 84
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "name": "제주특별자치도",
+      "name_eng": "Jeju-do",
+      "slug": "jeju-do",
+      "lat": 33.396,
+      "lon": 126.5523,
+      "nx": 53,
+      "ny": 36,
+      "municipalities": [
+        {
+          "code": "39010",
+          "name": "제주시",
+          "name_eng": "Jeju-si",
+          "slug": "jeju-si",
+          "lat": 33.5967,
+          "lon": 126.4819,
+          "nx": 52,
+          "ny": 40
+        },
+        {
+          "code": "39020",
+          "name": "서귀포시",
+          "name_eng": "Seogwipo-si",
+          "slug": "seogwipo-si",
+          "lat": 33.3092,
+          "lon": 126.59,
+          "nx": 54,
+          "ny": 34
+        }
+      ]
+    }
+  ]
+}
