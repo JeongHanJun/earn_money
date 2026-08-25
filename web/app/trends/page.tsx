@@ -67,24 +67,37 @@ function Section({
   label,
   hint,
   tint,
+  border,
   accent,
+  dot,
+  mark,
   children,
 }: {
   href: string;
   label: string;
   hint?: string;
-  tint: string;   // e.g. "bg-rose-50/40"
-  accent: string; // e.g. "text-rose-700"
+  tint: string;    // e.g. "bg-rose-50/70"
+  border: string;  // e.g. "border-rose-200"
+  accent: string;  // e.g. "text-rose-700"
+  dot: string;     // e.g. "bg-rose-500"
+  mark?: React.ReactNode;
   children: React.ReactNode;
 }) {
   return (
-    <section className={`rounded-2xl ${tint} border border-zinc-200/70 p-4 sm:p-5`}>
-      <div className="mb-3 flex items-baseline justify-between gap-3">
-        <div className="flex items-baseline gap-2">
-          <h2 className="text-lg sm:text-xl font-bold tracking-tight text-zinc-900">
+    <section className={`rounded-2xl ${tint} border ${border} shadow-[0_1px_2px_rgba(0,0,0,0.02)] overflow-hidden`}>
+      <div className={`flex items-center justify-between gap-3 border-b ${border} bg-white/60 px-4 sm:px-5 py-3`}>
+        <div className="flex items-center gap-2 min-w-0">
+          {mark ?? (
+            <span className={`inline-block h-2 w-2 rounded-full ${dot}`} aria-hidden />
+          )}
+          <h2 className={`text-lg sm:text-xl font-bold tracking-tight ${accent} truncate`}>
             {label}
           </h2>
-          {hint && <span className="text-xs text-zinc-500">{hint}</span>}
+          {hint && (
+            <span className="hidden sm:inline text-xs text-zinc-500 truncate">
+              · {hint}
+            </span>
+          )}
         </div>
         <Link
           href={href}
@@ -93,9 +106,29 @@ function Section({
           더보기 →
         </Link>
       </div>
-      {children}
+      <div className="p-4 sm:p-5">{children}</div>
     </section>
   );
+}
+
+/* ---------- Brand marks (small colored icons) ---------- */
+
+function BrandMark({ kind }: { kind: "trends" | "news" | "youtube" | "naver" | "daum" | "hn" }) {
+  const cls = "inline-flex h-6 w-6 items-center justify-center rounded-md text-white text-xs font-black shrink-0";
+  switch (kind) {
+    case "trends":
+      return <span className={`${cls} bg-gradient-to-br from-rose-500 to-orange-500`}>↑</span>;
+    case "news":
+      return <span className={`${cls} bg-sky-500`}>G</span>;
+    case "youtube":
+      return <span className={`${cls} bg-red-600`}>▶</span>;
+    case "naver":
+      return <span className={`${cls} bg-emerald-600`}>N</span>;
+    case "daum":
+      return <span className={`${cls} bg-blue-600`}>D</span>;
+    case "hn":
+      return <span className={`${cls} bg-orange-500`}>Y</span>;
+  }
 }
 
 /* ---------- Google Trends ---------- */
@@ -108,8 +141,11 @@ function TrendsSection({ trends }: { trends: GoogleTrend[] }) {
       href="/trends/hot"
       label="급상승 검색어"
       hint="Google Trends · 대한민국"
-      tint="bg-rose-50/40"
+      tint="bg-rose-50/70"
+      border="border-rose-200"
       accent="text-rose-700"
+      dot="bg-rose-500"
+      mark={<BrandMark kind="trends" />}
     >
       <div className="grid gap-2 sm:grid-cols-3 mb-3">
         {top3.map((t) => (
@@ -176,8 +212,11 @@ function NewsCategoriesSection({
       href="/trends/news"
       label="카테고리별 인기 뉴스"
       hint="Google News · 매 시간 갱신"
-      tint="bg-sky-50/40"
+      tint="bg-sky-50/70"
+      border="border-sky-200"
       accent="text-sky-700"
+      dot="bg-sky-500"
+      mark={<BrandMark kind="news" />}
     >
       <div className="grid gap-2 sm:grid-cols-2">
         {categories.map((c) => {
@@ -220,8 +259,11 @@ function YouTubeSection({ videos }: { videos: YouTubeVideo[] }) {
       href="/trends/youtube"
       label="YouTube 인기 동영상"
       hint={`한국 · Top ${videos.length}`}
-      tint="bg-red-50/40"
+      tint="bg-red-50/70"
+      border="border-red-200"
       accent="text-red-700"
+      dot="bg-red-500"
+      mark={<BrandMark kind="youtube" />}
     >
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
         {videos.slice(0, 4).map((v) => (
@@ -270,8 +312,11 @@ function NaverSection({
       href="/trends/naver"
       label="Naver 언론사별 관점"
       hint={`${groups.length}개 언론사 각 Top 1`}
-      tint="bg-emerald-50/40"
+      tint="bg-emerald-50/70"
+      border="border-emerald-200"
       accent="text-emerald-700"
+      dot="bg-emerald-500"
+      mark={<BrandMark kind="naver" />}
     >
       <div className="grid gap-2 sm:grid-cols-2">
         {groups.map((g) => {
@@ -311,8 +356,11 @@ function DaumSection({
       href="/trends/daum"
       label="Daum 인기 뉴스"
       hint={`Top ${items.length}`}
-      tint="bg-blue-50/40"
+      tint="bg-blue-50/70"
+      border="border-blue-200"
       accent="text-blue-700"
+      dot="bg-blue-500"
+      mark={<BrandMark kind="daum" />}
     >
       <ol className="grid gap-1.5 sm:grid-cols-2">
         {items.slice(0, 6).map((it) => (
@@ -345,8 +393,11 @@ function HNSection({ items }: { items: import("@/lib/trends").TrendItem[] }) {
       href="/trends/hn"
       label="HackerNews"
       hint="글로벌 IT 커뮤니티"
-      tint="bg-orange-50/40"
+      tint="bg-orange-50/70"
+      border="border-orange-200"
       accent="text-orange-700"
+      dot="bg-orange-500"
+      mark={<BrandMark kind="hn" />}
     >
       <ol className="space-y-1.5">
         {items.slice(0, 3).map((it, i) => (
