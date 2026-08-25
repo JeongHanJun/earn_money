@@ -312,11 +312,14 @@ def fetch_daum_ranking(session: requests.Session, limit: int = 20,
         print(f"[FAIL] daum ranking: {e}")
         return []
 
-    html = resp.text
+    # Daum 서버가 charset 헤더 없이 UTF-8 반환 → requests가 ISO-8859-1로 오판.
+    html = resp.content.decode("utf-8", errors="replace")
     pattern = re.compile(
         r'<a[^>]*href="(https?://v\.daum\.net/v/\d+)"[^>]*>(.*?)</a>',
         re.DOTALL,
     )
+    # 접근성 라벨, 이미지 alt 텍스트 등 실제 제목이 아닌 항목 제외
+    SKIP_LABELS = {"동영상", "포토", "관련기사", "썸네일", "이미지", "사진"}
     seen: set[str] = set()
     results: list[dict[str, Any]] = []
     for m in pattern.finditer(html):
@@ -324,9 +327,10 @@ def fetch_daum_ranking(session: requests.Session, limit: int = 20,
         inner = _clean_html(m.group(2))
         if link in seen or not inner or len(inner) < 10:
             continue
+        title = re.split(r"\s{2,}", inner)[0].strip()
+        if title in SKIP_LABELS:
+            continue
         seen.add(link)
-        # 언론사·시간 등 부가 텍스트가 붙는 경우 첫 문장만 사용
-        title = re.split(r"\s{2,}", inner)[0]
         results.append({
             "rank": len(results) + 1,
             "title": title[:120],
