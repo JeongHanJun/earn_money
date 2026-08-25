@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import {
   allCategories,
   daumRanking,
@@ -9,17 +10,14 @@ import {
   hackerNewsItems,
   naverRanking,
   youtubePopular,
-  type DaumRankingItem,
   type GoogleTrend,
-  type NaverPressGroup,
-  type TrendItem,
   type YouTubeVideo,
 } from "@/lib/trends";
 
 export const metadata: Metadata = {
-  title: "실시간 트렌드",
+  title: "실시간 트렌드 대시보드",
   description:
-    "Google 급상승 검색어, YouTube 인기 동영상, Naver/Daum 뉴스 랭킹, Google News를 한 페이지에 통합.",
+    "Google 급상승 검색어, YouTube 인기 동영상, Naver·Daum 뉴스 랭킹, Google News, HackerNews 를 한눈에.",
 };
 
 export default function TrendsPage() {
@@ -31,333 +29,364 @@ export default function TrendsPage() {
   const hn = hackerNewsItems();
   const updated = fetchedAt();
 
+  const naverTotal = naverGroups.reduce((s, g) => s + g.items.length, 0);
+  const newsTotal = categories.reduce((s, c) => s + c.items.length, 0);
+
   return (
-    <div className="space-y-14">
-      <header>
-        <div className="inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-xs font-medium text-amber-700">
-          <span
-            className="h-1.5 w-1.5 rounded-full bg-amber-500 animate-pulse"
-            aria-hidden
-          />
-          매시간 갱신 · 최종 {formatRelative(updated)}
+    <div className="space-y-8">
+      <header className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-600 via-purple-600 to-rose-500 p-6 sm:p-8 text-white shadow-lg">
+        <div className="absolute -top-8 -right-8 h-40 w-40 rounded-full bg-white/10 blur-2xl" aria-hidden />
+        <div className="relative">
+          <div className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur px-3 py-1 text-xs font-medium">
+            <span className="h-1.5 w-1.5 rounded-full bg-white animate-pulse" aria-hidden />
+            LIVE · 매시간 갱신 · 최종 {formatRelative(updated)}
+          </div>
+          <h1 className="mt-3 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight">
+            지금 대한민국이<br className="sm:hidden" /> 뜨겁게 검색 중
+          </h1>
+          <p className="mt-3 text-sm sm:text-base text-white/85 max-w-2xl leading-6">
+            포털·SNS·글로벌 커뮤니티의 실시간 랭킹을 한 화면에 모았습니다.
+            궁금한 소스를 눌러 상세 내용을 확인하세요.
+          </p>
         </div>
-        <h1 className="mt-3 text-3xl sm:text-4xl font-bold tracking-tight">
-          실시간 트렌드
-        </h1>
-        <p className="mt-2 text-zinc-600 leading-7">
-          지금 대한민국에서 뜨는 검색어·영상·뉴스를 한 화면에.
-        </p>
       </header>
 
-      {gTrends.length > 0 && <GoogleTrendsSection trends={gTrends} />}
+      {/* Hero: Google Trends 급상승 */}
+      {gTrends.length > 0 && <TrendsHero trends={gTrends} />}
 
-      {ytVideos.length > 0 && <YouTubeSection videos={ytVideos} />}
-
-      {daumItems.length > 0 && <DaumSection items={daumItems} />}
-
-      {naverGroups.length > 0 && <NaverSection groups={naverGroups} />}
-
-      {categories.some((c) => c.items.length > 0) && (
-        <section>
-          <SectionHeader
+      {/* Grid: 나머지 소스들 */}
+      <div className="grid gap-4 sm:grid-cols-2">
+        {ytVideos.length > 0 && (
+          <YouTubeTile videos={ytVideos} total={ytVideos.length} />
+        )}
+        {daumItems.length > 0 && (
+          <SourceTile
+            href="/trends/daum"
+            emoji="🌐"
+            title="Daum 인기 뉴스"
+            brand="daum"
+            count={`${daumItems.length}건`}
+            preview={
+              <ol className="space-y-1.5 text-sm">
+                {daumItems.slice(0, 4).map((it) => (
+                  <li key={it.rank} className="flex items-start gap-2">
+                    <span className="shrink-0 font-bold text-blue-600 min-w-[1.25rem]">
+                      {it.rank}
+                    </span>
+                    <span className="text-zinc-800 leading-snug line-clamp-1">
+                      {it.title}
+                    </span>
+                  </li>
+                ))}
+              </ol>
+            }
+          />
+        )}
+        {naverGroups.length > 0 && (
+          <SourceTile
+            href="/trends/naver"
             emoji="📰"
-            title="Google News 카테고리"
-            hint="분야별 최신 뉴스"
+            title="Naver 언론사별"
+            brand="naver"
+            count={`${naverGroups.length} 언론사`}
+            preview={
+              <ol className="space-y-1.5 text-sm">
+                {naverGroups.slice(0, 4).map((g) => (
+                  <li key={g.press} className="flex items-start gap-2">
+                    <span className="shrink-0 rounded bg-emerald-100 px-1.5 py-0.5 text-xs font-semibold text-emerald-800">
+                      {g.press}
+                    </span>
+                    <span className="text-zinc-700 leading-snug line-clamp-1 flex-1">
+                      {g.items[0]?.title}
+                    </span>
+                  </li>
+                ))}
+              </ol>
+            }
           />
-          <div className="space-y-10">
-            {categories.map((c) =>
-              c.items.length > 0 ? (
-                <CategorySection
-                  key={c.slug}
-                  name={c.name}
-                  items={c.items.slice(0, 8)}
-                />
-              ) : null
-            )}
-          </div>
-        </section>
-      )}
-
-      {hn.length > 0 && (
-        <section>
-          <SectionHeader
+        )}
+        {newsTotal > 0 && (
+          <SourceTile
+            href="/trends/news"
+            emoji="📰"
+            title="Google News"
+            brand="google"
+            count={`${categories.length} 카테고리 · ${newsTotal}건`}
+            preview={
+              <div className="flex flex-wrap gap-1.5">
+                {categories.map((c) => (
+                  <span
+                    key={c.slug}
+                    className="rounded-full bg-blue-50 border border-blue-200 px-2.5 py-0.5 text-xs font-medium text-blue-700"
+                  >
+                    {c.name} <span className="text-blue-400">{c.items.length}</span>
+                  </span>
+                ))}
+              </div>
+            }
+          />
+        )}
+        {hn.length > 0 && (
+          <SourceTile
+            href="/trends/hn"
             emoji="💻"
-            title="글로벌 IT 화제 (HackerNews)"
-            hint="Silicon Valley 개발자·창업가 커뮤니티"
+            title="HackerNews"
+            brand="hn"
+            count={`${hn.length}건`}
+            preview={
+              <ol className="space-y-1.5 text-sm">
+                {hn.slice(0, 3).map((it, i) => (
+                  <li key={i} className="flex items-start gap-2">
+                    <span className="shrink-0 font-bold text-orange-600 min-w-[1.25rem]">
+                      {i + 1}
+                    </span>
+                    <span className="text-zinc-800 leading-snug line-clamp-2">
+                      {it.title}
+                    </span>
+                  </li>
+                ))}
+              </ol>
+            }
           />
-          <div className="grid gap-2">
-            {hn.slice(0, 10).map((it, i) => (
-              <SimpleLinkCard key={i} item={it} />
-            ))}
-          </div>
-        </section>
-      )}
+        )}
+      </div>
 
-      <p className="text-xs text-zinc-500 text-center">
-        출처: Google Trends · YouTube · Naver · Daum · Google News · HackerNews · 링크 클릭 시 원문 이동
-      </p>
+      <div className="text-xs text-zinc-500 text-center pt-4">
+        <span className="mr-1.5" aria-hidden>💡</span>
+        각 카드를 클릭하면 해당 소스의 전체 랭킹을 볼 수 있습니다.
+      </div>
     </div>
   );
 }
 
-/* ---------- Reusable ---------- */
+/* ---------- Google Trends Hero ---------- */
 
-function SectionHeader({
-  emoji,
-  title,
-  hint,
-}: {
-  emoji: string;
-  title: string;
-  hint?: string;
-}) {
-  return (
-    <div className="mb-4 flex items-baseline justify-between gap-3">
-      <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-zinc-900">
-        <span className="mr-2" aria-hidden>
-          {emoji}
-        </span>
-        {title}
-      </h2>
-      {hint && <span className="text-xs text-zinc-500">{hint}</span>}
-    </div>
-  );
-}
-
-/* ---------- Google Trends 급상승 검색어 ---------- */
-
-function GoogleTrendsSection({ trends }: { trends: GoogleTrend[] }) {
+function TrendsHero({ trends }: { trends: GoogleTrend[] }) {
+  const top3 = trends.slice(0, 3);
+  const rest = trends.slice(3);
   return (
     <section>
-      <SectionHeader
+      <SectionTitle
         emoji="🔥"
         title="실시간 급상승 검색어"
-        hint="Google Trends · 대한민국"
+        subtitle="Google Trends · 대한민국"
+        href="/trends/hot"
+        actionLabel={`전체 ${trends.length}개 →`}
       />
-      <div className="grid gap-3 sm:grid-cols-2">
-        {trends.slice(0, 10).map((t) => (
-          <TrendCard key={t.rank} trend={t} />
+      <div className="grid gap-3 sm:grid-cols-3 mb-3">
+        {top3.map((t, i) => (
+          <BigTrendCard key={t.rank} trend={t} accent={i} />
         ))}
       </div>
+      {rest.length > 0 && (
+        <div className="flex flex-wrap gap-2">
+          {rest.map((t) => (
+            <Link
+              key={t.rank}
+              href="/trends/hot"
+              className="inline-flex items-center gap-1.5 rounded-full border border-zinc-300 bg-white px-3 py-1.5 text-sm font-medium text-zinc-700 hover:border-rose-400 hover:bg-rose-50 hover:text-rose-700 transition-colors"
+            >
+              <span className="text-xs text-zinc-400">#{t.rank}</span>
+              <span>{t.keyword}</span>
+              {t.traffic && (
+                <span className="text-xs text-rose-600">· {t.traffic}</span>
+              )}
+            </Link>
+          ))}
+        </div>
+      )}
     </section>
   );
 }
 
-function TrendCard({ trend }: { trend: GoogleTrend }) {
+function BigTrendCard({ trend, accent }: { trend: GoogleTrend; accent: number }) {
+  const gradients = [
+    "from-rose-500 to-orange-500",
+    "from-orange-500 to-amber-500",
+    "from-amber-500 to-yellow-400",
+  ];
+  const grad = gradients[accent] ?? gradients[0];
   const primary = trend.articles[0];
   return (
-    <div className="rounded-xl border border-rose-200 bg-gradient-to-br from-rose-50 to-white p-4 shadow-sm">
-      <div className="flex items-start gap-3">
-        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-rose-600 text-white font-bold text-lg">
-          {trend.rank}
-        </div>
-        <div className="flex-1 min-w-0">
-          <div className="flex items-baseline gap-2 flex-wrap">
-            <span className="font-bold text-zinc-900 text-base leading-tight">
-              {trend.keyword}
-            </span>
+    <Link
+      href="/trends/hot"
+      className="group block overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all hover:-translate-y-0.5"
+    >
+      <div className={`relative bg-gradient-to-br ${grad} p-5 text-white min-h-[9rem]`}>
+        <div className="absolute -top-4 -right-4 h-24 w-24 rounded-full bg-white/20 blur-xl" aria-hidden />
+        <div className="relative">
+          <div className="flex items-baseline justify-between">
+            <span className="text-4xl font-black leading-none">#{trend.rank}</span>
             {trend.traffic && (
-              <span className="inline-flex items-center gap-1 rounded-full bg-rose-100 px-2 py-0.5 text-xs font-medium text-rose-700">
+              <span className="inline-flex items-center gap-1 rounded-full bg-white/25 backdrop-blur px-2.5 py-1 text-xs font-semibold">
                 <svg className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M10 3a1 1 0 01.7.29l6 6a1 1 0 11-1.4 1.42L11 6.4V16a1 1 0 11-2 0V6.41L4.7 10.7a1 1 0 01-1.4-1.42l6-6A1 1 0 0110 3z" />
                 </svg>
-                {trend.traffic} 검색
+                {trend.traffic}
               </span>
             )}
           </div>
+          <div className="mt-3 text-xl sm:text-2xl font-bold tracking-tight leading-tight">
+            {trend.keyword}
+          </div>
           {primary && (
-            <a
-              href={primary.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-2 block text-sm text-zinc-700 leading-snug hover:text-rose-700 hover:underline line-clamp-2"
-            >
+            <div className="mt-2 text-xs text-white/85 line-clamp-2 leading-snug">
               {primary.title}
-            </a>
-          )}
-          {primary?.source && (
-            <div className="mt-1 text-xs text-zinc-500">{primary.source}</div>
-          )}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-/* ---------- YouTube ---------- */
-
-function YouTubeSection({ videos }: { videos: YouTubeVideo[] }) {
-  return (
-    <section>
-      <SectionHeader
-        emoji="📺"
-        title="YouTube 인기 동영상"
-        hint="한국 · 실시간 랭킹"
-      />
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {videos.slice(0, 12).map((v) => (
-          <YouTubeCard key={v.video_id} video={v} />
-        ))}
-      </div>
-    </section>
-  );
-}
-
-function YouTubeCard({ video }: { video: YouTubeVideo }) {
-  return (
-    <a
-      href={`https://www.youtube.com/watch?v=${video.video_id}`}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="group block overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm hover:shadow-md hover:border-red-400 transition-all"
-    >
-      <div className="relative aspect-video bg-zinc-100">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={video.thumbnail}
-          alt={video.title}
-          loading="lazy"
-          className="h-full w-full object-cover"
-        />
-        <div className="absolute left-2 top-2 rounded-md bg-black/70 px-2 py-0.5 text-xs font-bold text-white">
-          #{video.rank}
-        </div>
-      </div>
-      <div className="p-3">
-        <div className="font-medium text-sm text-zinc-900 leading-snug line-clamp-2 group-hover:text-red-700">
-          {video.title}
-        </div>
-        <div className="mt-2 flex items-center justify-between text-xs text-zinc-500">
-          <span className="truncate">{video.channel}</span>
-          <span className="shrink-0 ml-2">조회 {formatCount(video.view_count)}</span>
-        </div>
-      </div>
-    </a>
-  );
-}
-
-/* ---------- Daum ---------- */
-
-function DaumSection({ items }: { items: DaumRankingItem[] }) {
-  return (
-    <section>
-      <SectionHeader emoji="🌐" title="Daum 인기 뉴스" hint="많이 본 랭킹" />
-      <ol className="space-y-2">
-        {items.slice(0, 15).map((it) => (
-          <li key={it.rank}>
-            <a
-              href={it.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start gap-3 rounded-lg border border-zinc-200 bg-white p-3 hover:border-blue-400 hover:bg-blue-50/30 transition-colors"
-            >
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md bg-blue-100 text-blue-700 text-sm font-bold">
-                {it.rank}
-              </span>
-              <span className="text-sm text-zinc-900 leading-snug line-clamp-2 flex-1">
-                {it.title}
-              </span>
-            </a>
-          </li>
-        ))}
-      </ol>
-    </section>
-  );
-}
-
-/* ---------- Naver ---------- */
-
-function NaverSection({ groups }: { groups: NaverPressGroup[] }) {
-  return (
-    <section>
-      <SectionHeader
-        emoji="📰"
-        title="Naver 언론사별 많이 본 뉴스"
-        hint={`${groups.length}개 언론사 · 각 Top 5`}
-      />
-      <div className="grid gap-4 sm:grid-cols-2">
-        {groups.map((g) => (
-          <div
-            key={g.press}
-            className="rounded-xl border border-zinc-200 bg-white p-4 shadow-sm"
-          >
-            <div className="mb-3 flex items-center gap-2">
-              <span className="inline-block h-2 w-2 rounded-full bg-emerald-500" />
-              <span className="font-semibold text-zinc-900">{g.press}</span>
             </div>
-            <ol className="space-y-1.5">
-              {g.items.map((it) => (
-                <li key={it.rank}>
-                  <a
-                    href={it.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group flex items-start gap-2 text-sm text-zinc-700 hover:text-emerald-700"
-                  >
-                    <span className="shrink-0 font-bold text-zinc-400 group-hover:text-emerald-600 min-w-[1.25rem]">
-                      {it.rank}
-                    </span>
-                    <span className="line-clamp-2 leading-snug">{it.title}</span>
-                  </a>
-                </li>
-              ))}
-            </ol>
+          )}
+        </div>
+      </div>
+    </Link>
+  );
+}
+
+/* ---------- YouTube big tile ---------- */
+
+function YouTubeTile({ videos, total }: { videos: YouTubeVideo[]; total: number }) {
+  return (
+    <Link
+      href="/trends/youtube"
+      className="group block rounded-2xl overflow-hidden border border-zinc-200 bg-white shadow-sm hover:shadow-md hover:border-red-400 transition-all"
+    >
+      <div className="flex items-center justify-between px-4 pt-4">
+        <div className="flex items-center gap-2">
+          <span className="inline-flex items-center justify-center h-8 w-8 rounded-lg bg-red-600 text-white text-sm">
+            ▶
+          </span>
+          <div>
+            <div className="font-bold text-zinc-900">YouTube 인기</div>
+            <div className="text-xs text-zinc-500">한국 · {total}개</div>
+          </div>
+        </div>
+        <span className="text-xs font-medium text-zinc-500 group-hover:text-red-600">
+          더보기 →
+        </span>
+      </div>
+      <div className="grid grid-cols-2 gap-1 p-3">
+        {videos.slice(0, 4).map((v) => (
+          <div key={v.video_id} className="relative aspect-video overflow-hidden rounded-md bg-zinc-100">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={v.thumbnail}
+              alt=""
+              loading="lazy"
+              className="h-full w-full object-cover"
+            />
+            <div className="absolute left-1 top-1 rounded bg-black/70 px-1.5 py-0.5 text-[10px] font-bold text-white">
+              #{v.rank}
+            </div>
           </div>
         ))}
       </div>
-    </section>
+      <div className="px-4 pb-4">
+        <div className="text-sm font-medium text-zinc-900 line-clamp-1">
+          {videos[0]?.title}
+        </div>
+        <div className="mt-0.5 text-xs text-zinc-500">
+          {videos[0]?.channel} · 조회 {formatCount(videos[0]?.view_count ?? 0)}
+        </div>
+      </div>
+    </Link>
   );
 }
 
-/* ---------- Existing (Google News, HN) ---------- */
+/* ---------- Generic source tile ---------- */
 
-function CategorySection({
-  name,
-  items,
+function SourceTile({
+  href,
+  emoji,
+  title,
+  brand,
+  count,
+  preview,
 }: {
-  name: string;
-  items: TrendItem[];
+  href: string;
+  emoji: string;
+  title: string;
+  brand: "naver" | "daum" | "google" | "hn";
+  count: string;
+  preview: React.ReactNode;
+}) {
+  const brandStyle = {
+    naver: {
+      dot: "bg-emerald-500",
+      hover: "hover:border-emerald-400",
+      accent: "group-hover:text-emerald-700",
+    },
+    daum: {
+      dot: "bg-blue-500",
+      hover: "hover:border-blue-400",
+      accent: "group-hover:text-blue-700",
+    },
+    google: {
+      dot: "bg-blue-500",
+      hover: "hover:border-blue-400",
+      accent: "group-hover:text-blue-700",
+    },
+    hn: {
+      dot: "bg-orange-500",
+      hover: "hover:border-orange-400",
+      accent: "group-hover:text-orange-700",
+    },
+  }[brand];
+
+  return (
+    <Link
+      href={href}
+      className={`group block rounded-2xl border border-zinc-200 bg-white shadow-sm hover:shadow-md ${brandStyle.hover} transition-all`}
+    >
+      <div className="flex items-center justify-between px-4 pt-4">
+        <div className="flex items-center gap-2">
+          <span className="text-xl" aria-hidden>{emoji}</span>
+          <div>
+            <div className="font-bold text-zinc-900 flex items-center gap-1.5">
+              {title}
+              <span className={`inline-block h-1.5 w-1.5 rounded-full ${brandStyle.dot}`} />
+            </div>
+            <div className="text-xs text-zinc-500">{count}</div>
+          </div>
+        </div>
+        <span className={`text-xs font-medium text-zinc-500 ${brandStyle.accent}`}>
+          더보기 →
+        </span>
+      </div>
+      <div className="p-4">{preview}</div>
+    </Link>
+  );
+}
+
+/* ---------- Section title ---------- */
+
+function SectionTitle({
+  emoji,
+  title,
+  subtitle,
+  href,
+  actionLabel,
+}: {
+  emoji: string;
+  title: string;
+  subtitle?: string;
+  href?: string;
+  actionLabel?: string;
 }) {
   return (
-    <div>
-      <h3 className="text-base font-semibold tracking-tight mb-2 text-zinc-800">
-        {name}
-      </h3>
-      <div className="grid gap-2">
-        {items.map((it, i) => (
-          <SimpleLinkCard key={i} item={it} />
-        ))}
+    <div className="mb-3 flex items-end justify-between gap-3">
+      <div>
+        <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-zinc-900">
+          <span className="mr-2" aria-hidden>{emoji}</span>
+          {title}
+        </h2>
+        {subtitle && <div className="mt-0.5 text-xs text-zinc-500">{subtitle}</div>}
       </div>
+      {href && actionLabel && (
+        <Link
+          href={href}
+          className="shrink-0 text-sm font-medium text-rose-600 hover:text-rose-700 hover:underline"
+        >
+          {actionLabel}
+        </Link>
+      )}
     </div>
-  );
-}
-
-function SimpleLinkCard({ item }: { item: TrendItem }) {
-  return (
-    <a
-      href={item.link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block rounded-lg border border-zinc-200 bg-white p-3 hover:border-amber-400 hover:bg-amber-50/30 transition-colors"
-    >
-      <div className="flex items-start justify-between gap-3">
-        <div className="flex-1 min-w-0">
-          <div className="font-medium text-zinc-900 leading-snug line-clamp-2 text-sm">
-            {item.title}
-          </div>
-          {item.description && (
-            <div className="mt-1 text-xs text-zinc-500 line-clamp-1">
-              {item.description}
-            </div>
-          )}
-        </div>
-        <div className="shrink-0 text-right text-xs text-zinc-500">
-          {item.publisher && (
-            <div className="font-medium">{item.publisher}</div>
-          )}
-          <div>{formatRelative(item.pub_date)}</div>
-        </div>
-      </div>
-    </a>
   );
 }
