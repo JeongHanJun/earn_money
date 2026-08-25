@@ -32,6 +32,7 @@ jobs:
       WEATHER_API_BASE: https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0
       WELFARE_API_BASE: https://apis.data.go.kr/B554287/NationalWelfareInformationsV001
       YOUTH_API_KEY: ${{ secrets.YOUTH_API_KEY }}
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       NEXT_PUBLIC_GA4_MEASUREMENT_ID: ${{ secrets.NEXT_PUBLIC_GA4_MEASUREMENT_ID }}
       NEXT_PUBLIC_ADSENSE_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_ADSENSE_CLIENT_ID }}
       NEXT_PUBLIC_KAKAO_ADFIT_UNIT_300x250: ${{ secrets.NEXT_PUBLIC_KAKAO_ADFIT_UNIT_300x250 }}
