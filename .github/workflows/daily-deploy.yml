@@ -26,7 +26,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     env:
       DATA_GO_KR_API_KEY: ${{ secrets.DATA_GO_KR_API_KEY }}
       WEATHER_API_BASE: https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0
@@ -58,26 +58,32 @@ jobs:
 
       - name: Collect — trends (Google News + HN)
         if: ${{ github.event_name != 'push' && !inputs.skip_collect }}
+        timeout-minutes: 5
         run: python collector/scripts/fetch_trends.py
         continue-on-error: true
 
       - name: Collect — weather (17 시도 + 250 시군구)
         if: ${{ github.event_name != 'push' && !inputs.skip_collect }}
+        timeout-minutes: 10
         run: python collector/scripts/fetch_weather.py
         continue-on-error: true
 
       - name: Collect — welfare list (461 서비스)
         if: ${{ github.event_name != 'push' && !inputs.skip_collect }}
+        timeout-minutes: 5
         run: python collector/scripts/fetch_welfare.py
         continue-on-error: true
 
-      - name: Collect — welfare detail (rate-limited, skips existing)
+      - name: Collect — welfare detail (rate-limited, capped 8min)
         if: ${{ github.event_name != 'push' && !inputs.skip_collect }}
-        run: python collector/scripts/fetch_welfare_detail.py
+        timeout-minutes: 9
+        # Hard cap via `timeout` so script exits gracefully vs step timeout SIGKILL
+        run: timeout --preserve-status 480 python collector/scripts/fetch_welfare_detail.py || true
         continue-on-error: true
 
       - name: Collect — youth policy (2,728 정책)
         if: ${{ github.event_name != 'push' && !inputs.skip_collect }}
+        timeout-minutes: 10
         run: python collector/scripts/fetch_youth.py
         continue-on-error: true
 
@@ -89,14 +95,17 @@ jobs:
           cache-dependency-path: web/package-lock.json
 
       - name: Install web dependencies
+        timeout-minutes: 5
         working-directory: web
         run: npm ci
 
       - name: Build static site
+        timeout-minutes: 10
         working-directory: web
         run: npm run build
 
       - name: Deploy to Cloudflare Pages
+        timeout-minutes: 5
         working-directory: web
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
