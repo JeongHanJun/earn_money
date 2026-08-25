@@ -11,8 +11,38 @@ export type TrendItem = {
   category: string;
   category_name: string;
   publisher: string;
-  pub_date: string;      // ISO
+  pub_date: string;
   fetched_at: string;
+};
+
+export type GoogleTrend = {
+  rank: number;
+  keyword: string;
+  traffic: string;
+  pub_date: string;
+  articles: Array<{ title: string; url: string; source: string }>;
+};
+
+export type YouTubeVideo = {
+  rank: number;
+  video_id: string;
+  title: string;
+  channel: string;
+  thumbnail: string;
+  published_at: string;
+  view_count: number;
+  like_count: number;
+};
+
+export type NaverPressGroup = {
+  press: string;
+  items: Array<{ rank: number; title: string; link: string }>;
+};
+
+export type DaumRankingItem = {
+  rank: number;
+  title: string;
+  link: string;
 };
 
 type TrendsFile = {
@@ -20,6 +50,10 @@ type TrendsFile = {
   data: {
     google_news: Record<string, TrendItem[]>;
     hackernews: TrendItem[];
+    google_trends?: GoogleTrend[];
+    youtube_popular?: YouTubeVideo[];
+    naver_ranking?: NaverPressGroup[];
+    daum_ranking?: DaumRankingItem[];
     fetched_at: string;
   };
 };
@@ -50,15 +84,10 @@ export const CATEGORY_META: Array<{ slug: string; name: string }> = [
 ];
 
 export function itemsByCategory(slug: string): TrendItem[] {
-  const data = load().data;
-  return data.google_news[slug] ?? [];
+  return load().data.google_news[slug] ?? [];
 }
 
-export function allCategories(): Array<{
-  slug: string;
-  name: string;
-  items: TrendItem[];
-}> {
+export function allCategories(): Array<{ slug: string; name: string; items: TrendItem[] }> {
   return CATEGORY_META.map((c) => ({
     slug: c.slug,
     name: c.name,
@@ -68,6 +97,22 @@ export function allCategories(): Array<{
 
 export function hackerNewsItems(): TrendItem[] {
   return load().data.hackernews ?? [];
+}
+
+export function googleTrends(): GoogleTrend[] {
+  return load().data.google_trends ?? [];
+}
+
+export function youtubePopular(): YouTubeVideo[] {
+  return load().data.youtube_popular ?? [];
+}
+
+export function naverRanking(): NaverPressGroup[] {
+  return load().data.naver_ranking ?? [];
+}
+
+export function daumRanking(): DaumRankingItem[] {
+  return load().data.daum_ranking ?? [];
 }
 
 export function formatRelative(iso: string): string {
@@ -85,4 +130,13 @@ export function formatRelative(iso: string): string {
   } catch {
     return "";
   }
+}
+
+export function formatCount(n: number): string {
+  if (!n) return "0";
+  if (n >= 1_000_000_000) return `${(n / 1_000_000_000).toFixed(1)}B`;
+  if (n >= 10_000_000) return `${Math.floor(n / 10_000_000)}천만`;
+  if (n >= 10_000) return `${Math.floor(n / 10_000)}만`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K`;
+  return String(n);
 }
