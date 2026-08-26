@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { KakaoAdSlot } from "@/components/KakaoAdSlot";
 
 export default function HomePage() {
   return (
@@ -6,6 +7,7 @@ export default function HomePage() {
       <Hero />
       <FeatureCards />
       <UpdateStrip />
+      <KakaoAdSlot />
       <SourceNote />
     </div>
   );
