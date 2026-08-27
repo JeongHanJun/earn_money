@@ -1,9 +1,9 @@
-name: Daily collect + build + deploy
+name: Hourly collect + build + deploy
 
 on:
   schedule:
-    # KST 05:00 = UTC 20:00 (전날). 매일 아침 신선한 데이터로 배포.
-    - cron: "0 20 * * *"
+    # 매시간 정각. 트렌드/날씨는 매시간 갱신, welfare_detail은 rate-limit 하드캡 8분.
+    - cron: "0 * * * *"
   workflow_dispatch:
     inputs:
       skip_collect:
