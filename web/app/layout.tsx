@@ -67,12 +67,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           />
         )}
         {KAKAO_ADFIT_ANY && (
-          <Script
-            id="kakao-adfit"
-            async
-            strategy="afterInteractive"
-            src="//t1.kakaocdn.net/kas/static/ba.min.js"
-          />
+          // eslint-disable-next-line @next/next/no-sync-scripts
+          <script async src="//t1.daumcdn.net/kas/static/ba.min.js" />
         )}
       </body>
     </html>
