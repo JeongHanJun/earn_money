@@ -194,6 +194,63 @@ export function servicesByDepartment(): Array<{ dept: string; count: number }> {
     .sort((a, b) => b.count - a.count);
 }
 
+/** 정책 상세 → FAQ 자동 생성. 데이터가 있는 항목만 Q&A 추가. */
+export function serviceFaq(
+  service: WelfareService,
+  detail: WelfareServiceDetail | null
+): Array<{ question: string; answer: string }> {
+  const faq: Array<{ question: string; answer: string }> = [];
+
+  if (detail?.target_detail) {
+    faq.push({
+      question: `${service.service_name}, 누가 신청할 수 있나요?`,
+      answer: detail.target_detail.trim(),
+    });
+  }
+  if (detail?.benefit_detail) {
+    faq.push({
+      question: "무엇을 지원받나요?",
+      answer: detail.benefit_detail.trim(),
+    });
+  }
+  if (detail?.selection_criteria) {
+    faq.push({
+      question: "선정 기준은 어떻게 되나요?",
+      answer: detail.selection_criteria.trim(),
+    });
+  }
+  if (detail?.apply_methods && detail.apply_methods.length > 0) {
+    const methods = detail.apply_methods
+      .map((m) => `${m.name}${m.description ? `: ${m.description}` : ""}`)
+      .join(" / ");
+    faq.push({
+      question: "어떻게 신청하나요?",
+      answer: `${methods}${service.detail_url ? ` (원문: ${service.detail_url})` : ""}`,
+    });
+  }
+  if (service.support_cycle) {
+    faq.push({
+      question: "지원 주기는 어떻게 되나요?",
+      answer: `${service.support_cycle}${
+        service.provision_type ? ` (지원 유형: ${service.provision_type})` : ""
+      }`,
+    });
+  }
+  if (service.contact || (detail?.inquiry_contacts?.length ?? 0) > 0) {
+    const parts: string[] = [];
+    if (service.contact) parts.push(`대표: ${service.contact}`);
+    for (const c of detail?.inquiry_contacts ?? []) {
+      parts.push(`${c.name} ${c.contact}`);
+    }
+    faq.push({
+      question: "문의처는 어디인가요?",
+      answer: parts.join(" · "),
+    });
+  }
+
+  return faq;
+}
+
 /** 유사 서비스 추천 (같은 관심주제 or 생애주기) */
 export function relatedServices(service: WelfareService, limit = 5): WelfareService[] {
   const scored = allServices()

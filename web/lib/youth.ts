@@ -157,6 +157,68 @@ export function relatedYouthPolicies(
     .map((x) => x.p);
 }
 
+export function youthFaq(
+  policy: YouthPolicy
+): Array<{ question: string; answer: string }> {
+  const faq: Array<{ question: string; answer: string }> = [];
+
+  const ageText =
+    policy.age_limit && policy.min_age > 0 && policy.max_age > 0
+      ? `만 ${policy.min_age}세 ~ ${policy.max_age}세가 신청 가능합니다.`
+      : "연령 제한 없이 신청 가능합니다.";
+  faq.push({
+    question: `${policy.name}, 누가 신청할 수 있나요?`,
+    answer:
+      `${ageText}` +
+      (policy.add_qual ? ` 추가 자격 요건: ${policy.add_qual}` : ""),
+  });
+
+  if (policy.earn_min > 0 || policy.earn_max > 0 || policy.earn_note) {
+    const earnText =
+      policy.earn_min > 0 || policy.earn_max > 0
+        ? `연 소득 ${policy.earn_min.toLocaleString()}원 ~ ${policy.earn_max.toLocaleString()}원 구간이 지원 대상입니다.`
+        : policy.earn_note || "소득 조건 없음";
+    faq.push({ question: "소득 조건은 어떻게 되나요?", answer: earnText });
+  }
+
+  if (policy.support_content) {
+    faq.push({
+      question: "무엇을 지원받나요?",
+      answer: policy.support_content.trim(),
+    });
+  }
+
+  if (policy.apply_method || policy.apply_url) {
+    faq.push({
+      question: "어떻게 신청하나요?",
+      answer:
+        (policy.apply_method || "온라인 또는 오프라인으로 신청 가능합니다.") +
+        (policy.apply_url ? ` (신청 링크: ${policy.apply_url})` : ""),
+    });
+  }
+
+  if (policy.apply_period || policy.biz_start || policy.biz_end) {
+    const period = policy.apply_period || "";
+    const biz =
+      policy.biz_start && policy.biz_end
+        ? `사업 기간: ${formatYouthDate(policy.biz_start)} ~ ${formatYouthDate(policy.biz_end)}`
+        : "";
+    faq.push({
+      question: "언제까지 신청할 수 있나요?",
+      answer: [period, biz].filter(Boolean).join(" · "),
+    });
+  }
+
+  if (policy.submission_docs) {
+    faq.push({
+      question: "어떤 서류가 필요한가요?",
+      answer: policy.submission_docs.trim(),
+    });
+  }
+
+  return faq;
+}
+
 export function formatYouthDate(yyyymmdd: string): string {
   if (!yyyymmdd || yyyymmdd.length < 8) return "";
   return `${yyyymmdd.slice(0, 4)}-${yyyymmdd.slice(4, 6)}-${yyyymmdd.slice(6, 8)}`;
