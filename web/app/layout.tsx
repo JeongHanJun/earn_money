@@ -47,10 +47,38 @@ export const metadata: Metadata = {
   },
 };
 
+const SITE_JSON_LD = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://ryanpp.com/#website",
+      name: "ryanpp",
+      alternateName: "ryanpp — 정책·지원금·트렌드",
+      url: "https://ryanpp.com/",
+      inLanguage: "ko-KR",
+      description:
+        "공공데이터 기반 최신 정책·지원금·지역별 날씨·실시간 트렌드를 매일 자동 정리합니다.",
+      publisher: { "@id": "https://ryanpp.com/#organization" },
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://ryanpp.com/#organization",
+      name: "ryanpp",
+      url: "https://ryanpp.com/",
+      logo: "https://ryanpp.com/favicon.ico",
+    },
+  ],
+};
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="ko" className="h-full antialiased">
       <body className="min-h-full flex flex-col text-zinc-900">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(SITE_JSON_LD) }}
+        />
         <SiteHeader />
         <main className="flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6 py-10">
           {children}

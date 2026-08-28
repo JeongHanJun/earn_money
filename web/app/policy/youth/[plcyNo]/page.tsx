@@ -10,7 +10,9 @@ import {
   getYouthPolicy,
   relatedYouthPolicies,
   youthCategorySlug,
+  youthFaq,
 } from "@/lib/youth";
+import { breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 
 export function generateStaticParams() {
   return allYouthPolicies().map((p) => ({ plcyNo: p.plcy_no }));
@@ -100,12 +102,31 @@ export default async function YouthDetail(
       ? `연 ${policy.earn_min.toLocaleString()}원 ~ ${policy.earn_max.toLocaleString()}원`
       : policy.earn_note || "소득 조건 없음";
 
+  const faq = youthFaq(policy);
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "홈", url: "/" },
+    { name: "정책·지원금", url: "/policy" },
+    { name: "청년정책", url: "/policy/youth" },
+    { name: policy.name },
+  ]);
+  const faqLd = faq.length > 0 ? faqJsonLd(faq) : null;
+
   return (
     <div className="space-y-8">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+      />
+      {faqLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
 
       <nav className="text-sm text-zinc-500">
         <Link href="/policy" className="hover:text-zinc-900">
@@ -199,6 +220,33 @@ export default async function YouthDetail(
         <ContentSection title="심사 방법" body={policy.screening} />
       )}
       {policy.etc && <ContentSection title="기타 사항" body={policy.etc} />}
+
+      {faq.length > 0 && (
+        <section>
+          <h2 className="text-lg font-semibold tracking-tight mb-3">자주 묻는 질문</h2>
+          <div className="space-y-3">
+            {faq.map((item, i) => (
+              <details
+                key={i}
+                className="group rounded-xl border border-zinc-200 bg-white p-4 open:shadow-sm"
+                {...(i === 0 ? { open: true } : {})}
+              >
+                <summary className="cursor-pointer list-none flex items-start justify-between gap-3">
+                  <span className="font-semibold text-zinc-900 leading-snug">
+                    Q. {item.question}
+                  </span>
+                  <span className="mt-0.5 shrink-0 text-zinc-400 group-open:rotate-180 transition-transform">
+                    ▾
+                  </span>
+                </summary>
+                <div className="mt-3 pt-3 border-t border-zinc-100 text-sm text-zinc-700 leading-6 whitespace-pre-wrap">
+                  {item.answer}
+                </div>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
 
       <HashtagSection tags={hashtags} />
 

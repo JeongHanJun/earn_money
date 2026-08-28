@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { RegionSelect } from "@/components/RegionSelect";
 import { allMunicipalityPaths, getMunicipality } from "@/lib/regions";
+import { breadcrumbJsonLd } from "@/lib/seo";
 import {
   formatKoreanDate,
   formatTime,
@@ -52,8 +53,20 @@ export default async function WeatherDetail(
     // 데이터 파일이 아직 없는 경우
   }
 
+  const breadcrumb = breadcrumbJsonLd([
+    { name: "홈", url: "/" },
+    { name: "날씨", url: "/weather" },
+    { name: province.name, url: `/weather/${province.slug}` },
+    { name: municipality.name },
+  ]);
+
   return (
     <div className="space-y-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+      />
+
       <nav className="text-sm text-zinc-500">
         <Link href="/weather" className="hover:text-zinc-900">
           날씨
@@ -91,6 +104,10 @@ export default async function WeatherDetail(
       ) : (
         <>
           <TodayCard day={days[0]} />
+          <OutfitTip
+            day={days[0].tmax ? days[0] : (days[1] ?? days[0])}
+            label={days[0].tmax ? "오늘의 옷차림" : "내일의 옷차림"}
+          />
           <div className="grid gap-4">
             {days.slice(1).map((d) => (
               <DayCard key={d.date} day={d} />
@@ -331,6 +348,128 @@ function DayCard({ day }: { day: DayForecast }) {
         </div>
       )}
     </div>
+  );
+}
+
+function outfitFor(tmax: string | null | undefined, tmin: string | null | undefined): {
+  headline: string;
+  items: string[];
+  tone: "hot" | "warm" | "mild" | "cool" | "cold" | "freeze";
+} {
+  const t = Number(tmax);
+  if (Number.isNaN(t)) {
+    return { headline: "기온 정보 준비 중", items: [], tone: "mild" };
+  }
+  if (t >= 28) {
+    return {
+      headline: "많이 덥습니다",
+      items: ["민소매·반팔", "린넨 셔츠", "반바지·얇은 원피스", "선크림"],
+      tone: "hot",
+    };
+  }
+  if (t >= 23) {
+    return {
+      headline: "따뜻합니다",
+      items: ["반팔", "얇은 셔츠", "면바지·긴바지"],
+      tone: "warm",
+    };
+  }
+  if (t >= 20) {
+    return {
+      headline: "선선합니다",
+      items: ["긴팔 티", "얇은 니트·가디건", "긴바지"],
+      tone: "mild",
+    };
+  }
+  if (t >= 17) {
+    return {
+      headline: "쌀쌀합니다",
+      items: ["니트", "얇은 자켓", "가벼운 아우터"],
+      tone: "cool",
+    };
+  }
+  if (t >= 12) {
+    return {
+      headline: "가벼운 겉옷 필요",
+      items: ["자켓·트렌치코트", "니트", "청바지·기모 바지"],
+      tone: "cool",
+    };
+  }
+  if (t >= 9) {
+    return {
+      headline: "쌀쌀하고 두꺼운 겉옷 권장",
+      items: ["트렌치코트", "야상·점퍼", "니트"],
+      tone: "cold",
+    };
+  }
+  if (t >= 5) {
+    return {
+      headline: "춥습니다",
+      items: ["코트", "가죽 자켓", "니트·기모 바지"],
+      tone: "cold",
+    };
+  }
+  return {
+    headline: "많이 춥습니다",
+    items: ["패딩·두꺼운 코트", "기모 니트", "목도리·장갑·모자"],
+    tone: "freeze",
+  };
+}
+
+function OutfitTip({ day, label = "오늘의 옷차림" }: { day: DayForecast; label?: string }) {
+  const outfit = outfitFor(day.tmax, day.tmin);
+  if (outfit.items.length === 0) return null;
+
+  const toneClass = {
+    hot: "from-red-500 to-orange-500 text-white",
+    warm: "from-orange-400 to-amber-400 text-white",
+    mild: "from-emerald-400 to-teal-500 text-white",
+    cool: "from-sky-400 to-indigo-500 text-white",
+    cold: "from-indigo-500 to-blue-700 text-white",
+    freeze: "from-blue-700 to-slate-900 text-white",
+  }[outfit.tone];
+
+  const rainNote =
+    day.max_pop >= 60
+      ? "☂ 우산 필수 · 방수 신발 권장"
+      : day.max_pop >= 30
+        ? "☂ 우산 챙기기"
+        : null;
+
+  return (
+    <section
+      aria-label="오늘의 옷차림 추천"
+      className={`rounded-2xl bg-gradient-to-br ${toneClass} p-5 sm:p-6 shadow-sm`}
+    >
+      <div className="flex items-center justify-between gap-3">
+        <div className="text-xs font-medium uppercase tracking-wider opacity-80">
+          {label}
+        </div>
+        {day.tmax && day.tmin && (
+          <div className="text-xs opacity-80">
+            {day.tmin}° / {day.tmax}°
+          </div>
+        )}
+      </div>
+      <div className="mt-2 text-xl sm:text-2xl font-bold tracking-tight">
+        {outfit.headline}
+      </div>
+      <div className="mt-3 flex flex-wrap gap-2">
+        {outfit.items.map((it) => (
+          <span
+            key={it}
+            className="inline-flex items-center rounded-full bg-white/20 backdrop-blur px-3 py-1 text-sm font-medium"
+          >
+            {it}
+          </span>
+        ))}
+      </div>
+      {rainNote && (
+        <div className="mt-3 text-sm font-medium opacity-95 border-t border-white/20 pt-3">
+          {rainNote}
+        </div>
+      )}
+    </section>
   );
 }
 

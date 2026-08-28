@@ -1,15 +1,87 @@
 import Link from "next/link";
 import { KakaoAdSlot } from "@/components/KakaoAdSlot";
+import { recentServices } from "@/lib/policy";
+import { recentYouthPolicies } from "@/lib/youth";
+import type { WelfareService } from "@/lib/policy";
+import type { YouthPolicy } from "@/lib/youth";
 
 export default function HomePage() {
+  const newPolicies = recentServices(3);
+  const newYouth = recentYouthPolicies(3);
   return (
     <div className="space-y-14">
       <Hero />
       <FeatureCards />
+      <FreshPolicies services={newPolicies} youth={newYouth} />
       <UpdateStrip />
       <KakaoAdSlot />
       <SourceNote />
     </div>
+  );
+}
+
+function FreshPolicies({
+  services,
+  youth,
+}: {
+  services: WelfareService[];
+  youth: YouthPolicy[];
+}) {
+  return (
+    <section aria-labelledby="fresh-heading">
+      <div className="flex items-baseline justify-between mb-4">
+        <h2 id="fresh-heading" className="text-xl sm:text-2xl font-bold tracking-tight text-zinc-900">
+          최근 등록된 정책·지원금
+        </h2>
+        <Link href="/policy" className="text-sm text-indigo-600 hover:underline font-medium">
+          전체 보기 →
+        </Link>
+      </div>
+      <div className="grid gap-3 sm:grid-cols-2">
+        {services.map((s) => (
+          <Link
+            key={s.service_id}
+            href={`/policy/${s.service_id}`}
+            className="block rounded-xl border border-zinc-200 bg-white p-4 hover:border-indigo-400 hover:bg-indigo-50/40 transition-colors"
+          >
+            <div className="text-xs font-medium text-indigo-600 mb-1">복지 서비스</div>
+            <div className="text-base font-semibold text-zinc-900 leading-snug line-clamp-2">
+              {s.service_name}
+            </div>
+            <div className="mt-1.5 text-xs text-zinc-500 line-clamp-2 leading-5">
+              {s.summary}
+            </div>
+            <div className="mt-2.5 text-[11px] text-zinc-500">
+              {s.department}
+              {s.online_apply && (
+                <span className="ml-1.5 inline-flex items-center rounded border border-emerald-200 bg-emerald-50 px-1.5 py-0.5 text-[10px] font-medium text-emerald-700">
+                  온라인 신청
+                </span>
+              )}
+            </div>
+          </Link>
+        ))}
+        {youth.map((p) => (
+          <Link
+            key={p.plcy_no}
+            href={`/policy/youth/${p.plcy_no}`}
+            className="block rounded-xl border border-zinc-200 bg-white p-4 hover:border-amber-400 hover:bg-amber-50/40 transition-colors"
+          >
+            <div className="text-xs font-medium text-amber-600 mb-1">청년정책</div>
+            <div className="text-base font-semibold text-zinc-900 leading-snug line-clamp-2">
+              {p.name}
+            </div>
+            <div className="mt-1.5 text-xs text-zinc-500 line-clamp-2 leading-5">
+              {p.description}
+            </div>
+            <div className="mt-2.5 text-[11px] text-zinc-500">
+              {p.department}
+              {p.major_category && <span className="ml-1.5">· {p.major_category}</span>}
+            </div>
+          </Link>
+        ))}
+      </div>
+    </section>
   );
 }
 
