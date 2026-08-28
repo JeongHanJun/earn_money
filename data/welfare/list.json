@@ -1,9 +1,108 @@
 {
-  "fetched_at": "2026-08-23T14:32:57.845574+00:00",
+  "fetched_at": "2026-08-28T10:03:37.024447+00:00",
   "data": {
     "total_count": 461,
     "count": 461,
     "items": [
+      {
+        "service_id": "WLF00001088",
+        "service_name": "고위험 임산부 의료비 지원",
+        "summary": "고위험 임신의 적정 치료와 관리에 필요한 진료비를 지원하여 경제적 부담을 줄이고, 건강한 출산을 보장합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001088&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "출산정책과",
+        "contact": "129",
+        "interest_topics": [
+          "신체건강",
+          "임신·출산"
+        ],
+        "life_stages": [
+          "임신 · 출산"
+        ],
+        "online_apply": false,
+        "support_cycle": "1회성",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 137612
+      },
+      {
+        "service_id": "WLF00001103",
+        "service_name": "초중고 교육비 지원사업(고교학비 지원)",
+        "summary": "형편이 어려운 저소득층 가정의 자녀에게 교육의 기회를  보장하기 위해서 학비를 지원합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001103&wlfareInfoReldBztpCd=01",
+        "department": "교육부",
+        "org_name": "학생지원총괄과",
+        "contact": "1544-9654",
+        "interest_topics": [
+          "교육"
+        ],
+        "life_stages": [
+          "아동",
+          "청소년"
+        ],
+        "online_apply": true,
+        "support_cycle": "수시",
+        "provision_type": "현물지급,감면,실물바우처",
+        "first_registered": "20210903",
+        "inquiry_count": 1328796
+      },
+      {
+        "service_id": "WLF00001097",
+        "service_name": "농업인 연금보험료 지원",
+        "summary": "농산물 수입개방 확대로 인한 농업인의 경제적 부담을 경감하기 위해 연금 보험료 일부를 지원하여 안정적인 노후생활을 도모하고, 노후소득을 보장합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001097&wlfareInfoReldBztpCd=01",
+        "department": "농림축산식품부",
+        "org_name": "농촌사회서비스과",
+        "contact": "1355",
+        "interest_topics": [
+          "생활지원"
+        ],
+        "life_stages": [],
+        "online_apply": false,
+        "support_cycle": "월",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 7751
+      },
+      {
+        "service_id": "WLF00001099",
+        "service_name": "농업인 건강보험료 지원",
+        "summary": "의료 이용 접근성이 낮은 농어촌 거주 농업인에 대해 건강보험료 일부를 지원하여 생활안정과 복지증진을 도모합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001099&wlfareInfoReldBztpCd=01",
+        "department": "농림축산식품부",
+        "org_name": "농촌사회서비스과",
+        "contact": "1577-1000",
+        "interest_topics": [
+          "신체건강",
+          "정신건강",
+          "생활지원"
+        ],
+        "life_stages": [],
+        "online_apply": false,
+        "support_cycle": "월",
+        "provision_type": "감면",
+        "first_registered": "20210903",
+        "inquiry_count": 12107
+      },
+      {
+        "service_id": "WLF00001072",
+        "service_name": "가정폭력·성폭력 등 폭력 피해자 무료법률지원",
+        "summary": "가정폭력 및 성폭력, 스토킹, 교제폭력 피해자 대상 무료법률지원을 통해 권익을 보호합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001072&wlfareInfoReldBztpCd=01",
+        "department": "성평등가족부",
+        "org_name": "친밀관계폭력방지과",
+        "contact": "132",
+        "interest_topics": [
+          "안전·위기",
+          "법률"
+        ],
+        "life_stages": [],
+        "online_apply": false,
+        "support_cycle": "수시",
+        "provision_type": "프로그램/서비스(서비스)",
+        "first_registered": "20210903",
+        "inquiry_count": 10134
+      },
       {
         "service_id": "WLF00001101",
         "service_name": "폭력피해자 주거지원 사업",
@@ -28,7 +127,7 @@
         "support_cycle": "1회성",
         "provision_type": "시설입소,기타",
         "first_registered": "20210903",
-        "inquiry_count": 14390
+        "inquiry_count": 14647
       },
       {
         "service_id": "WLF00000061",
@@ -50,7 +149,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 329508
+        "inquiry_count": 331476
       },
       {
         "service_id": "WLF00000024",
@@ -73,7 +172,7 @@
         "support_cycle": "수시",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 1096850
+        "inquiry_count": 1102295
       },
       {
         "service_id": "WLF00001104",
@@ -94,28 +193,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 90772
-      },
-      {
-        "service_id": "WLF00001103",
-        "service_name": "초중고 교육비 지원사업(고교학비 지원)",
-        "summary": "형편이 어려운 저소득층 가정의 자녀에게 교육의 기회를  보장하기 위해서 학비를 지원합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001103&wlfareInfoReldBztpCd=01",
-        "department": "교육부",
-        "org_name": "학생지원총괄과",
-        "contact": "1544-9654",
-        "interest_topics": [
-          "교육"
-        ],
-        "life_stages": [
-          "아동",
-          "청소년"
-        ],
-        "online_apply": true,
-        "support_cycle": "수시",
-        "provision_type": "현물지급,감면,실물바우처",
-        "first_registered": "20210903",
-        "inquiry_count": 1326219
+        "inquiry_count": 91055
       },
       {
         "service_id": "WLF00001089",
@@ -136,7 +214,7 @@
         "support_cycle": "년",
         "provision_type": "전자바우처(바우처),기타",
         "first_registered": "20210903",
-        "inquiry_count": 1255287
+        "inquiry_count": 1257038
       },
       {
         "service_id": "WLF00001087",
@@ -155,7 +233,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 94580
+        "inquiry_count": 95074
       },
       {
         "service_id": "WLF00001068",
@@ -175,7 +253,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 948706
+        "inquiry_count": 951334
       },
       {
         "service_id": "WLF00001067",
@@ -196,7 +274,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 36524
+        "inquiry_count": 36748
       },
       {
         "service_id": "WLF00000781",
@@ -219,7 +297,7 @@
         "support_cycle": "년",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 584403
+        "inquiry_count": 586823
       },
       {
         "service_id": "WLF00000078",
@@ -246,7 +324,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급,현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 980647
+        "inquiry_count": 989845
       },
       {
         "service_id": "WLF00000064",
@@ -267,7 +345,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 46049
+        "inquiry_count": 46356
       },
       {
         "service_id": "WLF00000060",
@@ -287,7 +365,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 12841782
+        "inquiry_count": 12852811
       },
       {
         "service_id": "WLF00000056",
@@ -308,7 +386,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 115656
+        "inquiry_count": 116138
       },
       {
         "service_id": "WLF00000026",
@@ -332,7 +410,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 115952
+        "inquiry_count": 116403
       },
       {
         "service_id": "WLF00000072",
@@ -355,7 +433,7 @@
         "support_cycle": "년",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 4107965
+        "inquiry_count": 4119234
       },
       {
         "service_id": "WLF00001084",
@@ -376,7 +454,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 14798
+        "inquiry_count": 14899
       },
       {
         "service_id": "WLF00000888",
@@ -394,7 +472,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 32998
+        "inquiry_count": 33225
       },
       {
         "service_id": "WLF00000057",
@@ -416,7 +494,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 20996
+        "inquiry_count": 21308
       },
       {
         "service_id": "WLF00001079",
@@ -439,7 +517,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 68235
+        "inquiry_count": 68509
       },
       {
         "service_id": "WLF00001098",
@@ -460,7 +538,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 23585
+        "inquiry_count": 23743
       },
       {
         "service_id": "WLF00000751",
@@ -484,7 +562,7 @@
         "support_cycle": "년",
         "provision_type": "시설입소",
         "first_registered": "20210903",
-        "inquiry_count": 6045
+        "inquiry_count": 6118
       },
       {
         "service_id": "WLF00000077",
@@ -504,7 +582,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 4414
+        "inquiry_count": 4515
       },
       {
         "service_id": "WLF00000049",
@@ -523,7 +601,7 @@
         "support_cycle": "1회성",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 21511
+        "inquiry_count": 21661
       },
       {
         "service_id": "WLF00001064",
@@ -541,7 +619,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 10248
+        "inquiry_count": 10436
       },
       {
         "service_id": "WLF00001065",
@@ -559,7 +637,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 9794
+        "inquiry_count": 9903
       },
       {
         "service_id": "WLF00000051",
@@ -578,7 +656,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 12707
+        "inquiry_count": 12900
       },
       {
         "service_id": "WLF00000050",
@@ -598,7 +676,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 9159
+        "inquiry_count": 9279
       },
       {
         "service_id": "WLF00000043",
@@ -616,7 +694,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 12476
+        "inquiry_count": 12663
       },
       {
         "service_id": "WLF00001066",
@@ -636,7 +714,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 10191
+        "inquiry_count": 10288
       },
       {
         "service_id": "WLF00000063",
@@ -657,7 +735,7 @@
         "support_cycle": "반기",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 6964
+        "inquiry_count": 7046
       },
       {
         "service_id": "WLF00000921",
@@ -678,7 +756,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 3614
+        "inquiry_count": 3686
       },
       {
         "service_id": "WLF00000065",
@@ -702,45 +780,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 10281
-      },
-      {
-        "service_id": "WLF00001099",
-        "service_name": "농업인건강보험료지원",
-        "summary": "의료 이용 접근성이 낮은 농어촌 거주 농업인에 대해 건강보험료 일부를 지원하여 생활안정과 복지증진을 도모합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001099&wlfareInfoReldBztpCd=01",
-        "department": "농림축산식품부",
-        "org_name": "농촌사회서비스과",
-        "contact": "1577-1000",
-        "interest_topics": [
-          "신체건강",
-          "정신건강",
-          "생활지원"
-        ],
-        "life_stages": [],
-        "online_apply": false,
-        "support_cycle": "월",
-        "provision_type": "감면",
-        "first_registered": "20210903",
-        "inquiry_count": 11944
-      },
-      {
-        "service_id": "WLF00001097",
-        "service_name": "농업인연금보험료지원",
-        "summary": "농산물 수입개방 확대로 인한 농업인의 경제적 부담을 경감하기 위해 연금 보험료 일부를 지원하여 안정적인 노후생활을 도모하고, 노후소득을 보장합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001097&wlfareInfoReldBztpCd=01",
-        "department": "농림축산식품부",
-        "org_name": "농촌사회서비스과",
-        "contact": "1355",
-        "interest_topics": [
-          "생활지원"
-        ],
-        "life_stages": [],
-        "online_apply": false,
-        "support_cycle": "월",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 7595
+        "inquiry_count": 10388
       },
       {
         "service_id": "WLF00000076",
@@ -762,7 +802,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 226856
+        "inquiry_count": 227449
       },
       {
         "service_id": "WLF00001077",
@@ -783,7 +823,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 5925
+        "inquiry_count": 5989
       },
       {
         "service_id": "WLF00000069",
@@ -805,7 +845,7 @@
         "support_cycle": "월",
         "provision_type": "시설입소",
         "first_registered": "20210903",
-        "inquiry_count": 6175
+        "inquiry_count": 6265
       },
       {
         "service_id": "WLF00000025",
@@ -827,7 +867,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 81392
+        "inquiry_count": 81766
       },
       {
         "service_id": "WLF00000059",
@@ -851,7 +891,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 19211
+        "inquiry_count": 19383
       },
       {
         "service_id": "WLF00000032",
@@ -871,7 +911,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 5213
+        "inquiry_count": 5295
       },
       {
         "service_id": "WLF00000027",
@@ -892,7 +932,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 6163
+        "inquiry_count": 6278
       },
       {
         "service_id": "WLF00001076",
@@ -913,7 +953,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 24440
+        "inquiry_count": 24570
       },
       {
         "service_id": "WLF00000031",
@@ -935,7 +975,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 16697
+        "inquiry_count": 16786
       },
       {
         "service_id": "WLF00001083",
@@ -953,7 +993,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 10487
+        "inquiry_count": 10586
       },
       {
         "service_id": "WLF00000066",
@@ -971,7 +1011,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 6182
+        "inquiry_count": 6255
       },
       {
         "service_id": "WLF00000067",
@@ -990,7 +1030,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 20895
+        "inquiry_count": 21040
       },
       {
         "service_id": "WLF00000782",
@@ -1010,7 +1050,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 4325
+        "inquiry_count": 4405
       },
       {
         "service_id": "WLF00000044",
@@ -1029,7 +1069,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 42389
+        "inquiry_count": 42816
       },
       {
         "service_id": "WLF00000040",
@@ -1051,7 +1091,7 @@
         "support_cycle": "분기",
         "provision_type": "현금지급,현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 21238
+        "inquiry_count": 21432
       },
       {
         "service_id": "WLF00000033",
@@ -1076,7 +1116,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 12548
+        "inquiry_count": 12862
       },
       {
         "service_id": "WLF00001093",
@@ -1097,7 +1137,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 116517
+        "inquiry_count": 117259
       },
       {
         "service_id": "WLF00000896",
@@ -1115,28 +1155,7 @@
         "support_cycle": "월",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 10059
-      },
-      {
-        "service_id": "WLF00001088",
-        "service_name": "고위험 임산부 의료비 지원",
-        "summary": "고위험 임신의 적정 치료와 관리에 필요한 진료비를 지원하여 경제적 부담을 줄이고, 건강한 출산을 보장합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001088&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "출산정책과",
-        "contact": "129",
-        "interest_topics": [
-          "신체건강",
-          "임신·출산"
-        ],
-        "life_stages": [
-          "임신 · 출산"
-        ],
-        "online_apply": false,
-        "support_cycle": "1회성",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 136620
+        "inquiry_count": 10130
       },
       {
         "service_id": "WLF00001094",
@@ -1155,7 +1174,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 43984
+        "inquiry_count": 44392
       },
       {
         "service_id": "WLF00000041",
@@ -1175,26 +1194,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 5736
-      },
-      {
-        "service_id": "WLF00001072",
-        "service_name": "가정폭력·성폭력 등 폭력 피해자 무료법률지원",
-        "summary": "가정폭력 및 성폭력, 스토킹, 교제폭력 피해자 대상 무료법률지원을 통해 권익을 보호합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001072&wlfareInfoReldBztpCd=01",
-        "department": "성평등가족",
-        "org_name": "친밀관계폭력방지과",
-        "contact": "132",
-        "interest_topics": [
-          "안전·위기",
-          "법률"
-        ],
-        "life_stages": [],
-        "online_apply": false,
-        "support_cycle": "수시",
-        "provision_type": "프로그램/서비스(서비스)",
-        "first_registered": "20210903",
-        "inquiry_count": 9988
+        "inquiry_count": 5828
       },
       {
         "service_id": "WLF00000062",
@@ -1216,7 +1216,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 54092
+        "inquiry_count": 54424
       },
       {
         "service_id": "WLF00000923",
@@ -1234,7 +1234,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 23419
+        "inquiry_count": 23587
       },
       {
         "service_id": "WLF00000028",
@@ -1255,7 +1255,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 16474
+        "inquiry_count": 16573
       },
       {
         "service_id": "WLF00000948",
@@ -1277,7 +1277,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 13756
+        "inquiry_count": 13867
       },
       {
         "service_id": "WLF00000074",
@@ -1295,7 +1295,7 @@
         "support_cycle": "월",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 283397
+        "inquiry_count": 284508
       },
       {
         "service_id": "WLF00001096",
@@ -1318,7 +1318,7 @@
         "support_cycle": "분기",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 6396
+        "inquiry_count": 6513
       },
       {
         "service_id": "WLF00000035",
@@ -1337,7 +1337,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 5703
+        "inquiry_count": 5841
       },
       {
         "service_id": "WLF00000054",
@@ -1355,7 +1355,7 @@
         "support_cycle": "반기",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 18396
+        "inquiry_count": 18611
       },
       {
         "service_id": "WLF00000058",
@@ -1377,7 +1377,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 12516
+        "inquiry_count": 12633
       },
       {
         "service_id": "WLF00001091",
@@ -1396,7 +1396,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 32703
+        "inquiry_count": 33029
       },
       {
         "service_id": "WLF00001075",
@@ -1418,7 +1418,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 7014
+        "inquiry_count": 7107
       },
       {
         "service_id": "WLF00001070",
@@ -1438,7 +1438,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 4307
+        "inquiry_count": 4386
       },
       {
         "service_id": "WLF00000071",
@@ -1456,7 +1456,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 11732
+        "inquiry_count": 11854
       },
       {
         "service_id": "WLF00001090",
@@ -1474,7 +1474,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 9970
+        "inquiry_count": 10063
       },
       {
         "service_id": "WLF00000052",
@@ -1495,7 +1495,7 @@
         "support_cycle": "반기",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 17876
+        "inquiry_count": 18002
       },
       {
         "service_id": "WLF00000747",
@@ -1517,7 +1517,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 4246
+        "inquiry_count": 4313
       },
       {
         "service_id": "WLF00000946",
@@ -1535,7 +1535,7 @@
         "support_cycle": "1회성",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 61420
+        "inquiry_count": 61535
       },
       {
         "service_id": "WLF00000068",
@@ -1554,7 +1554,7 @@
         "support_cycle": "수시",
         "provision_type": "현금대여(융자),현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 3785
+        "inquiry_count": 3845
       },
       {
         "service_id": "WLF00001092",
@@ -1572,7 +1572,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급,현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 5444
+        "inquiry_count": 5533
       },
       {
         "service_id": "WLF00000023",
@@ -1590,7 +1590,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 13565
+        "inquiry_count": 13717
       },
       {
         "service_id": "WLF00000047",
@@ -1612,7 +1612,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 59126
+        "inquiry_count": 59456
       },
       {
         "service_id": "WLF00000038",
@@ -1634,7 +1634,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 6998
+        "inquiry_count": 7088
       },
       {
         "service_id": "WLF00000022",
@@ -1657,7 +1657,7 @@
         "support_cycle": "월",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 8702
+        "inquiry_count": 8788
       },
       {
         "service_id": "WLF00001069",
@@ -1675,7 +1675,7 @@
         "support_cycle": "월",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 6287
+        "inquiry_count": 6390
       },
       {
         "service_id": "WLF00000750",
@@ -1693,7 +1693,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 3439
+        "inquiry_count": 3498
       },
       {
         "service_id": "WLF00001086",
@@ -1714,7 +1714,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 52777
+        "inquiry_count": 53182
       },
       {
         "service_id": "WLF00001080",
@@ -1733,7 +1733,7 @@
         "support_cycle": "수시",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 13048
+        "inquiry_count": 13178
       },
       {
         "service_id": "WLF00001074",
@@ -1752,7 +1752,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 4719
+        "inquiry_count": 4779
       },
       {
         "service_id": "WLF00000075",
@@ -1774,7 +1774,7 @@
         "support_cycle": "수시",
         "provision_type": "시설입소",
         "first_registered": "20210903",
-        "inquiry_count": 5276
+        "inquiry_count": 5349
       },
       {
         "service_id": "WLF00000922",
@@ -1796,7 +1796,7 @@
         "support_cycle": "1회성",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 4474
+        "inquiry_count": 4535
       },
       {
         "service_id": "WLF00001085",
@@ -1815,7 +1815,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 9970
+        "inquiry_count": 10087
       },
       {
         "service_id": "WLF00000055",
@@ -1839,7 +1839,7 @@
         "support_cycle": "년",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 292892
+        "inquiry_count": 293931
       },
       {
         "service_id": "WLF00000036",
@@ -1858,7 +1858,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 47925
+        "inquiry_count": 48131
       },
       {
         "service_id": "WLF00000030",
@@ -1878,7 +1878,7 @@
         "support_cycle": "분기",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 18300
+        "inquiry_count": 18418
       },
       {
         "service_id": "WLF00000053",
@@ -1897,7 +1897,7 @@
         "support_cycle": "년",
         "provision_type": "감면",
         "first_registered": "20210903",
-        "inquiry_count": 7731
+        "inquiry_count": 7809
       },
       {
         "service_id": "WLF00000048",
@@ -1921,7 +1921,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 20528
+        "inquiry_count": 20761
       },
       {
         "service_id": "WLF00001071",
@@ -1942,7 +1942,7 @@
         "support_cycle": "반기",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 23527
+        "inquiry_count": 23641
       },
       {
         "service_id": "WLF00001073",
@@ -1964,7 +1964,7 @@
         "support_cycle": "분기",
         "provision_type": "감면",
         "first_registered": "20210903",
-        "inquiry_count": 6643
+        "inquiry_count": 6724
       },
       {
         "service_id": "WLF00000917",
@@ -1982,7 +1982,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급,현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 83644
+        "inquiry_count": 84116
       },
       {
         "service_id": "WLF00000892",
@@ -2000,7 +2000,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 30064
+        "inquiry_count": 30378
       },
       {
         "service_id": "WLF00001063",
@@ -2023,7 +2023,7 @@
         "support_cycle": "월",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 198359
+        "inquiry_count": 198962
       },
       {
         "service_id": "WLF00000037",
@@ -2043,7 +2043,7 @@
         "support_cycle": "수시",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 27148
+        "inquiry_count": 27311
       },
       {
         "service_id": "WLF00001100",
@@ -2064,97 +2064,38 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 5291
+        "inquiry_count": 5387
       },
       {
-        "service_id": "WLF00001105",
-        "service_name": "가정폭력피해자 치료회복 프로그램 및 의료비지원",
-        "summary": "가정폭력피해자 등의 정신적, 육체적 회복을 위한 프로그램을 제공하고 의료비를 지원합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001105&wlfareInfoReldBztpCd=01",
-        "department": "성평등가족부",
-        "org_name": "친밀관계폭력방지과",
-        "contact": "1366",
+        "service_id": "WLF00001161",
+        "service_name": "표준모자보건수첩 제공",
+        "summary": "표준모자보건수첩 보급으로 임신부터 영유아기까지 각종 검사 및 건강관리 안내, 예방접종, 검진(검사) 등 건강기록 유지, 양육에 대한 필수·객관적 정보 제공으로 모성과 영유아의 건강증진을 도모합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001161&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "출산정책과",
+        "contact": "129",
         "interest_topics": [
           "신체건강",
-          "정신건강",
-          "안전·위기"
-        ],
-        "life_stages": [],
-        "online_apply": false,
-        "support_cycle": "수시",
-        "provision_type": "프로그램/서비스(서비스)",
-        "first_registered": "20210903",
-        "inquiry_count": 9820
-      },
-      {
-        "service_id": "WLF00001114",
-        "service_name": "이주배경 청소년 지원",
-        "summary": "다문화가족의 청소년과 국내로 이주해 온 청소년들이 우리 사회에 잘 적응할 수 있도록 상담과 진로지원 프로그램 등을 실시합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001114&wlfareInfoReldBztpCd=01",
-        "department": "성평등가족부",
-        "org_name": "학교밖청소년지원과",
-        "contact": "02-733-7587",
-        "interest_topics": [
-          "생활지원"
+          "임신·출산"
         ],
         "life_stages": [
-          "청소년"
+          "영유아",
+          "임신 · 출산"
         ],
         "online_apply": false,
         "support_cycle": "수시",
-        "provision_type": "프로그램/서비스(서비스)",
+        "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 5894
+        "inquiry_count": 20462
       },
       {
-        "service_id": "WLF00001155",
-        "service_name": "노인일자리 및 사회활동 지원사업",
-        "summary": "활기차고 건강한 노후생활을 영위할 수 있도록 다양한 일자리를 제공하고 사회활동을 지원하여 노인 복지 향상에 기여합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001155&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "노인지원과",
-        "contact": "1544-3388",
-        "interest_topics": [
-          "일자리"
-        ],
-        "life_stages": [
-          "노년"
-        ],
-        "online_apply": true,
-        "support_cycle": "월",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 389125
-      },
-      {
-        "service_id": "WLF00001140",
-        "service_name": "방과후보육료지원",
-        "summary": "어린이집을 이용하는 12세 이하 취학아동에 대한 방과후 보육료를 지원하여 양육의 부담을 줄이고 원활한 경제활동을 돕습니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001140&wlfareInfoReldBztpCd=01",
-        "department": "교육부",
-        "org_name": "교육보육과정지원과",
-        "contact": "02-6222-6060",
-        "interest_topics": [
-          "보육",
-          "교육"
-        ],
-        "life_stages": [
-          "아동"
-        ],
-        "online_apply": true,
-        "support_cycle": "월",
-        "provision_type": "전자바우처(바우처)",
-        "first_registered": "20210903",
-        "inquiry_count": 52903
-      },
-      {
-        "service_id": "WLF00001135",
-        "service_name": "해산급여",
-        "summary": "수급자 가구의 조산 및 분만전과 분만후의 출산에 필요한 조치와 보호를 위해 해산비를 지급합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001135&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "기초생활보장과",
-        "contact": "129",
+        "service_id": "WLF00003224",
+        "service_name": "출산육아기 고용안정장려금",
+        "summary": "출산전후휴가, 유산·사산 휴가, 육아휴직, 육아기 근로시간 단축 등을 부여(허용)한 사업주에게 장려금, 대체인력 인건비 등을 지원합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003224&wlfareInfoReldBztpCd=01",
+        "department": "고용노동부",
+        "org_name": "고용문화개선정책과",
+        "contact": "1350",
         "interest_topics": [
           "생활지원",
           "임신·출산"
@@ -2162,349 +2103,11 @@
         "life_stages": [
           "임신 · 출산"
         ],
-        "online_apply": true,
-        "support_cycle": "수시",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 40129
-      },
-      {
-        "service_id": "WLF00001109",
-        "service_name": "청소년한부모 아동양육 및 자립지원",
-        "summary": "청소년한부모 가정의 자녀 양육환경을 개선하고 자립기반 마련을 지원합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001109&wlfareInfoReldBztpCd=01",
-        "department": "성평등가족부",
-        "org_name": "가족지원과",
-        "contact": "1577-4206",
-        "interest_topics": [
-          "보육",
-          "교육"
-        ],
-        "life_stages": [
-          "청소년"
-        ],
-        "online_apply": true,
-        "support_cycle": "월",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 58812
-      },
-      {
-        "service_id": "WLF00003227",
-        "service_name": "초.중.고 학생 교육정보화 지원",
-        "summary": "초중고 학생에게 PC, 인터넷 통신비를 지원하여 정보 소외 계층의 교육 격차를 해소하고 균등한 교육 기회를 제공합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003227&wlfareInfoReldBztpCd=01",
-        "department": "교육부",
-        "org_name": "디지털교육기반과",
-        "contact": "1544-9654",
-        "interest_topics": [
-          "교육"
-        ],
-        "life_stages": [
-          "아동",
-          "청소년"
-        ],
-        "online_apply": true,
-        "support_cycle": "년",
-        "provision_type": "현물지급",
-        "first_registered": "20210903",
-        "inquiry_count": 643005
-      },
-      {
-        "service_id": "WLF00003211",
-        "service_name": "장애인보조기기 교부",
-        "summary": "생활이 어려운 저소득 장애인에게 장애인보조기구를 교부함으로써 생활능력 향상 및 복지증진을 도모합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003211&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "장애인자립기반과",
-        "contact": "129",
-        "interest_topics": [
-          "신체건강",
-          "생활지원"
-        ],
-        "life_stages": [],
-        "online_apply": true,
-        "support_cycle": "년",
-        "provision_type": "현물지급",
-        "first_registered": "20210903",
-        "inquiry_count": 63146
-      },
-      {
-        "service_id": "WLF00003201",
-        "service_name": "주거급여(맞춤형 급여)",
-        "summary": "생활이 어려운 사람에게 주거급여를 실시하여 취약계층의 주거비 부담을 완화하고 양질의 주거 수준 향상을 도모합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003201&wlfareInfoReldBztpCd=01",
-        "department": "국토교통부",
-        "org_name": "주거복지지원과",
-        "contact": "1600-0777",
-        "interest_topics": [
-          "주거",
-          "에너지"
-        ],
-        "life_stages": [],
-        "online_apply": true,
-        "support_cycle": "월",
-        "provision_type": "현금지급,기타",
-        "first_registered": "20210903",
-        "inquiry_count": 4541728
-      },
-      {
-        "service_id": "WLF00003198",
-        "service_name": "장애아동수당",
-        "summary": "장애로 인하여 생활이 어려운 장애아동이 보다 편안한 생활을 할 수 있도록 지원합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003198&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "장애인자립기반과",
-        "contact": "129",
-        "interest_topics": [
-          "생활지원"
-        ],
-        "life_stages": [
-          "아동",
-          "청소년"
-        ],
-        "online_apply": true,
-        "support_cycle": "월",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 54269
-      },
-      {
-        "service_id": "WLF00003195",
-        "service_name": "발달재활서비스",
-        "summary": "성장기 정신적, 감각적 장애아동의 인지, 의사소통, 적응행동, 감각, 운동 등의 기능향상과 행동발달을 위한 재활서비스를 지원하고, 관련 정보를 제공합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003195&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "장애인건강과",
-        "contact": "1566-3232",
-        "interest_topics": [
-          "신체건강",
-          "정신건강",
-          "교육"
-        ],
-        "life_stages": [
-          "영유아",
-          "아동",
-          "청소년"
-        ],
-        "online_apply": true,
-        "support_cycle": "월",
-        "provision_type": "전자바우처(바우처)",
-        "first_registered": "20210903",
-        "inquiry_count": 146081
-      },
-      {
-        "service_id": "WLF00003192",
-        "service_name": "다문화가족 방문교육 서비스",
-        "summary": "집합교육 참여가 어려운 다문화 가정에 방문하여 한국어 교육, 부모 교육, 자녀생활 교육을 제공하고 다문화 가족의 정착과 자녀양육을 돕습니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003192&wlfareInfoReldBztpCd=01",
-        "department": "성평등가족부",
-        "org_name": "다문화가족과",
-        "contact": "1577-1366",
-        "interest_topics": [
-          "생활지원",
-          "교육"
-        ],
-        "life_stages": [
-          "영유아",
-          "아동",
-          "청소년",
-          "청년",
-          "중장년"
-        ],
-        "online_apply": true,
-        "support_cycle": "월",
-        "provision_type": "프로그램/서비스(서비스)",
-        "first_registered": "20210903",
-        "inquiry_count": 81348
-      },
-      {
-        "service_id": "WLF00003191",
-        "service_name": "노인맞춤돌봄서비스",
-        "summary": "일상생활 영위가 어려운 취약노인에게 적절한 돌봄서비스를 제공하여 안정적인 노후생활 보장, 노인의 기능·건강 유지 및 악화 예방을 지원합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003191&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "노인정책과",
-        "contact": "129",
-        "interest_topics": [
-          "생활지원",
-          "안전·위기",
-          "보호·돌봄"
-        ],
-        "life_stages": [
-          "노년"
-        ],
-        "online_apply": true,
-        "support_cycle": "수시",
-        "provision_type": "현물지급,프로그램/서비스(서비스)",
-        "first_registered": "20210903",
-        "inquiry_count": 271412
-      },
-      {
-        "service_id": "WLF00001136",
-        "service_name": "보험급여(건강보험 장애인보조기기)",
-        "summary": "건강보험가입자 및 피부양자 중 「장애인복지법」에 따라 등록한 장애인이 장애인보조기기를 구입할 경우 구입금액 일부를 지원합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001136&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "보험급여과",
-        "contact": "129",
-        "interest_topics": [
-          "신체건강"
-        ],
-        "life_stages": [],
-        "online_apply": false,
-        "support_cycle": "년",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 18363
-      },
-      {
-        "service_id": "WLF00003234",
-        "service_name": "일자리창출사업",
-        "summary": "사회적 기업에 인건비 등 재정지원을 하여 기업을 육성하여 보다 많은 일자리를 창출하고 대국민 사회서비스를 확대합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003234&wlfareInfoReldBztpCd=01",
-        "department": "고용노동부",
-        "org_name": "사회적기업과",
-        "contact": "1350",
-        "interest_topics": [
-          "일자리"
-        ],
-        "life_stages": [
-          "청년",
-          "중장년",
-          "노년"
-        ],
-        "online_apply": false,
-        "support_cycle": "월",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 2870
-      },
-      {
-        "service_id": "WLF00001108",
-        "service_name": "주택담보노후연금보증",
-        "summary": "노후생활에 어려움을 겪는 노인에 대해 보유하고 있는 주택을 담보로 매월 일정금액의 대출금을 연금형식으로 지급하여 안정적인 노후 생활을 지원합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001108&wlfareInfoReldBztpCd=01",
-        "department": "금융위원회",
-        "org_name": "금융정책과",
-        "contact": "1688-8114",
-        "interest_topics": [
-          "생활지원",
-          "서민금융"
-        ],
-        "life_stages": [
-          "중장년",
-          "노년"
-        ],
-        "online_apply": false,
-        "support_cycle": "월",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 19157
-      },
-      {
-        "service_id": "WLF00001111",
-        "service_name": "취약지역 어르신 문화누림",
-        "summary": "취약지역 노인의 문화예술 접근성 및 향유기회 확대를 위한 맞춤형 문화활동 지원을 통해 연령, 지역간 문화격차를 해소합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001111&wlfareInfoReldBztpCd=01",
-        "department": "문화체육관광부",
-        "org_name": "지역문화정책과",
-        "contact": "02-704-4332",
-        "interest_topics": [
-          "문화·여가"
-        ],
-        "life_stages": [
-          "중장년",
-          "노년"
-        ],
-        "online_apply": false,
-        "support_cycle": "년",
-        "provision_type": "프로그램/서비스(서비스)",
-        "first_registered": "20210903",
-        "inquiry_count": 12969
-      },
-      {
-        "service_id": "WLF00003219",
-        "service_name": "통신중계서비스 제공",
-        "summary": "청각 또는 언어장애인이 전화로 의사소통을 할 수 있도록  중계사(문자, 수어)를 통해 통신중계서비스를 제공합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003219&wlfareInfoReldBztpCd=01",
-        "department": "과학기술정보통신부",
-        "org_name": "통신경쟁정책과",
-        "contact": "107",
-        "interest_topics": [
-          "생활지원"
-        ],
-        "life_stages": [],
         "online_apply": false,
         "support_cycle": "수시",
-        "provision_type": "프로그램/서비스(서비스)",
+        "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 3700
-      },
-      {
-        "service_id": "WLF00001120",
-        "service_name": "교육복지우선지원사업",
-        "summary": "취약계층 학생이 밀집한 학교(초,중,고)를 선정하여 집중 지원함으로써 교육, 문화, 복지 수준을 높이고 교육격차를 해소합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001120&wlfareInfoReldBztpCd=01",
-        "department": "교육부",
-        "org_name": "학생지원총괄과",
-        "contact": "044-203-6526",
-        "interest_topics": [
-          "정신건강",
-          "문화·여가",
-          "교육",
-          "보호·돌봄"
-        ],
-        "life_stages": [
-          "아동",
-          "청소년"
-        ],
-        "online_apply": false,
-        "support_cycle": "수시",
-        "provision_type": "프로그램/서비스(서비스)",
-        "first_registered": "20210903",
-        "inquiry_count": 19460
-      },
-      {
-        "service_id": "WLF00003188",
-        "service_name": "다문화·탈북학생 멘토링",
-        "summary": "다문화 가정의 학생과 북한에서 남한으로 이주한 학생이 학교 생활에 잘 적응하여 기초학력이 향상되도록 대학생이 돕습니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003188&wlfareInfoReldBztpCd=01",
-        "department": "교육부",
-        "org_name": "학생지원총괄과",
-        "contact": "1599-2000",
-        "interest_topics": [
-          "교육"
-        ],
-        "life_stages": [
-          "아동",
-          "청소년"
-        ],
-        "online_apply": false,
-        "support_cycle": "수시",
-        "provision_type": "자원봉사",
-        "first_registered": "20210903",
-        "inquiry_count": 8333
-      },
-      {
-        "service_id": "WLF00001142",
-        "service_name": "북한배경학생 교육 지원(멘토링 지원 등)",
-        "summary": "탈북학생이 우리사회의 통합된 일원으로 적응하여 통일 미래의 맞춤형 인재로 성장할 수 있도록 지원합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001142&wlfareInfoReldBztpCd=01",
-        "department": "교육부",
-        "org_name": "학생지원총괄과",
-        "contact": "043-530-9481",
-        "interest_topics": [
-          "교육"
-        ],
-        "life_stages": [
-          "청소년"
-        ],
-        "online_apply": false,
-        "support_cycle": "년",
-        "provision_type": "프로그램/서비스(서비스)",
-        "first_registered": "20210903",
-        "inquiry_count": 3337
+        "inquiry_count": 58014
       },
       {
         "service_id": "WLF00003213",
@@ -2529,7 +2132,490 @@
         "support_cycle": "수시",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 92568
+        "inquiry_count": 92841
+      },
+      {
+        "service_id": "WLF00001138",
+        "service_name": "자활근로(기초, 차상위)",
+        "summary": "국민기초생활보장법에 따른 수급자 및 차상위 계층이 스스로 자립할 수 있도록 자활능력 배양, 기술습득 지원 및 근로기회를 제공합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001138&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "자활정책과",
+        "contact": "129",
+        "interest_topics": [
+          "생활지원",
+          "일자리"
+        ],
+        "life_stages": [
+          "청소년",
+          "청년",
+          "중장년",
+          "노년"
+        ],
+        "online_apply": false,
+        "support_cycle": "월",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 283625
+      },
+      {
+        "service_id": "WLF00003207",
+        "service_name": "영농도우미 지원",
+        "summary": "사고, 질병 농가에 영농도우미를 지원하여 안정적인 영농활동을 통한 농가소득 증대를 도모합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003207&wlfareInfoReldBztpCd=01",
+        "department": "농림축산식품부",
+        "org_name": "농촌사회서비스과",
+        "contact": "02-2080-5424",
+        "interest_topics": [
+          "생활지원",
+          "보호·돌봄"
+        ],
+        "life_stages": [],
+        "online_apply": false,
+        "support_cycle": "수시",
+        "provision_type": "프로그램/서비스(서비스)",
+        "first_registered": "20210903",
+        "inquiry_count": 5926
+      },
+      {
+        "service_id": "WLF00001105",
+        "service_name": "가정폭력피해자 치료회복 프로그램 및 의료비지원",
+        "summary": "가정폭력피해자 등의 정신적, 육체적 회복을 위한 프로그램을 제공하고 의료비를 지원합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001105&wlfareInfoReldBztpCd=01",
+        "department": "성평등가족부",
+        "org_name": "친밀관계폭력방지과",
+        "contact": "1366",
+        "interest_topics": [
+          "신체건강",
+          "정신건강",
+          "안전·위기"
+        ],
+        "life_stages": [],
+        "online_apply": false,
+        "support_cycle": "수시",
+        "provision_type": "프로그램/서비스(서비스)",
+        "first_registered": "20210903",
+        "inquiry_count": 9974
+      },
+      {
+        "service_id": "WLF00001114",
+        "service_name": "이주배경 청소년 지원",
+        "summary": "다문화가족의 청소년과 국내로 이주해 온 청소년들이 우리 사회에 잘 적응할 수 있도록 상담과 진로지원 프로그램 등을 실시합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001114&wlfareInfoReldBztpCd=01",
+        "department": "성평등가족부",
+        "org_name": "학교밖청소년지원과",
+        "contact": "02-733-7587",
+        "interest_topics": [
+          "생활지원"
+        ],
+        "life_stages": [
+          "청소년"
+        ],
+        "online_apply": false,
+        "support_cycle": "수시",
+        "provision_type": "프로그램/서비스(서비스)",
+        "first_registered": "20210903",
+        "inquiry_count": 5979
+      },
+      {
+        "service_id": "WLF00001155",
+        "service_name": "노인일자리 및 사회활동 지원사업",
+        "summary": "활기차고 건강한 노후생활을 영위할 수 있도록 다양한 일자리를 제공하고 사회활동을 지원하여 노인 복지 향상에 기여합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001155&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "노인지원과",
+        "contact": "1544-3388",
+        "interest_topics": [
+          "일자리"
+        ],
+        "life_stages": [
+          "노년"
+        ],
+        "online_apply": true,
+        "support_cycle": "월",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 391075
+      },
+      {
+        "service_id": "WLF00001140",
+        "service_name": "방과후보육료지원",
+        "summary": "어린이집을 이용하는 12세 이하 취학아동에 대한 방과후 보육료를 지원하여 양육의 부담을 줄이고 원활한 경제활동을 돕습니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001140&wlfareInfoReldBztpCd=01",
+        "department": "교육부",
+        "org_name": "교육보육과정지원과",
+        "contact": "02-6222-6060",
+        "interest_topics": [
+          "보육",
+          "교육"
+        ],
+        "life_stages": [
+          "아동"
+        ],
+        "online_apply": true,
+        "support_cycle": "월",
+        "provision_type": "전자바우처(바우처)",
+        "first_registered": "20210903",
+        "inquiry_count": 53130
+      },
+      {
+        "service_id": "WLF00001135",
+        "service_name": "해산급여",
+        "summary": "수급자 가구의 조산 및 분만전과 분만후의 출산에 필요한 조치와 보호를 위해 해산비를 지급합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001135&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "기초생활보장과",
+        "contact": "129",
+        "interest_topics": [
+          "생활지원",
+          "임신·출산"
+        ],
+        "life_stages": [
+          "임신 · 출산"
+        ],
+        "online_apply": true,
+        "support_cycle": "수시",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 40513
+      },
+      {
+        "service_id": "WLF00001109",
+        "service_name": "청소년한부모 아동양육 및 자립지원",
+        "summary": "청소년한부모 가정의 자녀 양육환경을 개선하고 자립기반 마련을 지원합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001109&wlfareInfoReldBztpCd=01",
+        "department": "성평등가족부",
+        "org_name": "가족지원과",
+        "contact": "1577-4206",
+        "interest_topics": [
+          "보육",
+          "교육"
+        ],
+        "life_stages": [
+          "청소년"
+        ],
+        "online_apply": true,
+        "support_cycle": "월",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 59006
+      },
+      {
+        "service_id": "WLF00003227",
+        "service_name": "초.중.고 학생 교육정보화 지원",
+        "summary": "초중고 학생에게 PC, 인터넷 통신비를 지원하여 정보 소외 계층의 교육 격차를 해소하고 균등한 교육 기회를 제공합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003227&wlfareInfoReldBztpCd=01",
+        "department": "교육부",
+        "org_name": "디지털교육기반과",
+        "contact": "1544-9654",
+        "interest_topics": [
+          "교육"
+        ],
+        "life_stages": [
+          "아동",
+          "청소년"
+        ],
+        "online_apply": true,
+        "support_cycle": "년",
+        "provision_type": "현물지급",
+        "first_registered": "20210903",
+        "inquiry_count": 643559
+      },
+      {
+        "service_id": "WLF00003211",
+        "service_name": "장애인보조기기 교부",
+        "summary": "생활이 어려운 저소득 장애인에게 장애인보조기구를 교부함으로써 생활능력 향상 및 복지증진을 도모합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003211&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "장애인자립기반과",
+        "contact": "129",
+        "interest_topics": [
+          "신체건강",
+          "생활지원"
+        ],
+        "life_stages": [],
+        "online_apply": true,
+        "support_cycle": "년",
+        "provision_type": "현물지급",
+        "first_registered": "20210903",
+        "inquiry_count": 63742
+      },
+      {
+        "service_id": "WLF00003201",
+        "service_name": "주거급여(맞춤형 급여)",
+        "summary": "생활이 어려운 사람에게 주거급여를 실시하여 취약계층의 주거비 부담을 완화하고 양질의 주거 수준 향상을 도모합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003201&wlfareInfoReldBztpCd=01",
+        "department": "국토교통부",
+        "org_name": "주거복지지원과",
+        "contact": "1600-0777",
+        "interest_topics": [
+          "주거",
+          "에너지"
+        ],
+        "life_stages": [],
+        "online_apply": true,
+        "support_cycle": "월",
+        "provision_type": "현금지급,기타",
+        "first_registered": "20210903",
+        "inquiry_count": 4551172
+      },
+      {
+        "service_id": "WLF00003198",
+        "service_name": "장애아동수당",
+        "summary": "장애로 인하여 생활이 어려운 장애아동이 보다 편안한 생활을 할 수 있도록 지원합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003198&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "장애인자립기반과",
+        "contact": "129",
+        "interest_topics": [
+          "생활지원"
+        ],
+        "life_stages": [
+          "아동",
+          "청소년"
+        ],
+        "online_apply": true,
+        "support_cycle": "월",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 54742
+      },
+      {
+        "service_id": "WLF00003195",
+        "service_name": "발달재활서비스",
+        "summary": "성장기 정신적, 감각적 장애아동의 인지, 의사소통, 적응행동, 감각, 운동 등의 기능향상과 행동발달을 위한 재활서비스를 지원하고, 관련 정보를 제공합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003195&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "장애인건강과",
+        "contact": "1566-3232",
+        "interest_topics": [
+          "신체건강",
+          "정신건강",
+          "교육"
+        ],
+        "life_stages": [
+          "영유아",
+          "아동",
+          "청소년"
+        ],
+        "online_apply": true,
+        "support_cycle": "월",
+        "provision_type": "전자바우처(바우처)",
+        "first_registered": "20210903",
+        "inquiry_count": 147027
+      },
+      {
+        "service_id": "WLF00003192",
+        "service_name": "다문화가족 방문교육 서비스",
+        "summary": "집합교육 참여가 어려운 다문화 가정에 방문하여 한국어 교육, 부모 교육, 자녀생활 교육을 제공하고 다문화 가족의 정착과 자녀양육을 돕습니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003192&wlfareInfoReldBztpCd=01",
+        "department": "성평등가족부",
+        "org_name": "다문화가족과",
+        "contact": "1577-1366",
+        "interest_topics": [
+          "생활지원",
+          "교육"
+        ],
+        "life_stages": [
+          "영유아",
+          "아동",
+          "청소년",
+          "청년",
+          "중장년"
+        ],
+        "online_apply": true,
+        "support_cycle": "월",
+        "provision_type": "프로그램/서비스(서비스)",
+        "first_registered": "20210903",
+        "inquiry_count": 81672
+      },
+      {
+        "service_id": "WLF00003191",
+        "service_name": "노인맞춤돌봄서비스",
+        "summary": "일상생활 영위가 어려운 취약노인에게 적절한 돌봄서비스를 제공하여 안정적인 노후생활 보장, 노인의 기능·건강 유지 및 악화 예방을 지원합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003191&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "노인정책과",
+        "contact": "129",
+        "interest_topics": [
+          "생활지원",
+          "안전·위기",
+          "보호·돌봄"
+        ],
+        "life_stages": [
+          "노년"
+        ],
+        "online_apply": true,
+        "support_cycle": "수시",
+        "provision_type": "현물지급,프로그램/서비스(서비스)",
+        "first_registered": "20210903",
+        "inquiry_count": 272965
+      },
+      {
+        "service_id": "WLF00001136",
+        "service_name": "보험급여(건강보험 장애인보조기기)",
+        "summary": "건강보험가입자 및 피부양자 중 「장애인복지법」에 따라 등록한 장애인이 장애인보조기기를 구입할 경우 구입금액 일부를 지원합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001136&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "보험급여과",
+        "contact": "129",
+        "interest_topics": [
+          "신체건강"
+        ],
+        "life_stages": [],
+        "online_apply": false,
+        "support_cycle": "년",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 18529
+      },
+      {
+        "service_id": "WLF00003234",
+        "service_name": "일자리창출사업",
+        "summary": "사회적 기업에 인건비 등 재정지원을 하여 기업을 육성하여 보다 많은 일자리를 창출하고 대국민 사회서비스를 확대합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003234&wlfareInfoReldBztpCd=01",
+        "department": "고용노동부",
+        "org_name": "사회적기업과",
+        "contact": "1350",
+        "interest_topics": [
+          "일자리"
+        ],
+        "life_stages": [
+          "청년",
+          "중장년",
+          "노년"
+        ],
+        "online_apply": false,
+        "support_cycle": "월",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 3024
+      },
+      {
+        "service_id": "WLF00001108",
+        "service_name": "주택담보노후연금보증",
+        "summary": "노후생활에 어려움을 겪는 노인에 대해 보유하고 있는 주택을 담보로 매월 일정금액의 대출금을 연금형식으로 지급하여 안정적인 노후 생활을 지원합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001108&wlfareInfoReldBztpCd=01",
+        "department": "금융위원회",
+        "org_name": "금융정책과",
+        "contact": "1688-8114",
+        "interest_topics": [
+          "생활지원",
+          "서민금융"
+        ],
+        "life_stages": [
+          "중장년",
+          "노년"
+        ],
+        "online_apply": false,
+        "support_cycle": "월",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 19317
+      },
+      {
+        "service_id": "WLF00001111",
+        "service_name": "취약지역 어르신 문화누림",
+        "summary": "취약지역 노인의 문화예술 접근성 및 향유기회 확대를 위한 맞춤형 문화활동 지원을 통해 연령, 지역간 문화격차를 해소합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001111&wlfareInfoReldBztpCd=01",
+        "department": "문화체육관광부",
+        "org_name": "지역문화정책과",
+        "contact": "02-704-4332",
+        "interest_topics": [
+          "문화·여가"
+        ],
+        "life_stages": [
+          "중장년",
+          "노년"
+        ],
+        "online_apply": false,
+        "support_cycle": "년",
+        "provision_type": "프로그램/서비스(서비스)",
+        "first_registered": "20210903",
+        "inquiry_count": 13085
+      },
+      {
+        "service_id": "WLF00003219",
+        "service_name": "통신중계서비스 제공",
+        "summary": "청각 또는 언어장애인이 전화로 의사소통을 할 수 있도록  중계사(문자, 수어)를 통해 통신중계서비스를 제공합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003219&wlfareInfoReldBztpCd=01",
+        "department": "과학기술정보통신부",
+        "org_name": "통신경쟁정책과",
+        "contact": "107",
+        "interest_topics": [
+          "생활지원"
+        ],
+        "life_stages": [],
+        "online_apply": false,
+        "support_cycle": "수시",
+        "provision_type": "프로그램/서비스(서비스)",
+        "first_registered": "20210903",
+        "inquiry_count": 3765
+      },
+      {
+        "service_id": "WLF00001120",
+        "service_name": "교육복지우선지원사업",
+        "summary": "취약계층 학생이 밀집한 학교(초,중,고)를 선정하여 집중 지원함으로써 교육, 문화, 복지 수준을 높이고 교육격차를 해소합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001120&wlfareInfoReldBztpCd=01",
+        "department": "교육부",
+        "org_name": "학생지원총괄과",
+        "contact": "044-203-6526",
+        "interest_topics": [
+          "정신건강",
+          "문화·여가",
+          "교육",
+          "보호·돌봄"
+        ],
+        "life_stages": [
+          "아동",
+          "청소년"
+        ],
+        "online_apply": false,
+        "support_cycle": "수시",
+        "provision_type": "프로그램/서비스(서비스)",
+        "first_registered": "20210903",
+        "inquiry_count": 19615
+      },
+      {
+        "service_id": "WLF00003188",
+        "service_name": "다문화·탈북학생 멘토링",
+        "summary": "다문화 가정의 학생과 북한에서 남한으로 이주한 학생이 학교 생활에 잘 적응하여 기초학력이 향상되도록 대학생이 돕습니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003188&wlfareInfoReldBztpCd=01",
+        "department": "교육부",
+        "org_name": "학생지원총괄과",
+        "contact": "1599-2000",
+        "interest_topics": [
+          "교육"
+        ],
+        "life_stages": [
+          "아동",
+          "청소년"
+        ],
+        "online_apply": false,
+        "support_cycle": "수시",
+        "provision_type": "자원봉사",
+        "first_registered": "20210903",
+        "inquiry_count": 8429
+      },
+      {
+        "service_id": "WLF00001142",
+        "service_name": "북한배경학생 교육 지원(멘토링 지원 등)",
+        "summary": "탈북학생이 우리사회의 통합된 일원으로 적응하여 통일 미래의 맞춤형 인재로 성장할 수 있도록 지원합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001142&wlfareInfoReldBztpCd=01",
+        "department": "교육부",
+        "org_name": "학생지원총괄과",
+        "contact": "043-530-9481",
+        "interest_topics": [
+          "교육"
+        ],
+        "life_stages": [
+          "청소년"
+        ],
+        "online_apply": false,
+        "support_cycle": "년",
+        "provision_type": "프로그램/서비스(서비스)",
+        "first_registered": "20210903",
+        "inquiry_count": 3399
       },
       {
         "service_id": "WLF00001128",
@@ -2549,7 +2635,7 @@
         "support_cycle": "년",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 54925
+        "inquiry_count": 55122
       },
       {
         "service_id": "WLF00003220",
@@ -2568,7 +2654,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 5022
+        "inquiry_count": 5089
       },
       {
         "service_id": "WLF00001141",
@@ -2593,7 +2679,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 12228
+        "inquiry_count": 12350
       },
       {
         "service_id": "WLF00003236",
@@ -2616,7 +2702,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 25684
+        "inquiry_count": 25777
       },
       {
         "service_id": "WLF00003200",
@@ -2640,7 +2726,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 9438
+        "inquiry_count": 9521
       },
       {
         "service_id": "WLF00003204",
@@ -2663,7 +2749,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 7975
+        "inquiry_count": 8095
       },
       {
         "service_id": "WLF00003214",
@@ -2682,7 +2768,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 6777
+        "inquiry_count": 6861
       },
       {
         "service_id": "WLF00003203",
@@ -2700,7 +2786,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 9892
+        "inquiry_count": 10016
       },
       {
         "service_id": "WLF00001122",
@@ -2722,7 +2808,7 @@
         "support_cycle": "수시",
         "provision_type": "실물바우처",
         "first_registered": "20210903",
-        "inquiry_count": 12065
+        "inquiry_count": 12196
       },
       {
         "service_id": "WLF00001146",
@@ -2744,7 +2830,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 17332
+        "inquiry_count": 17488
       },
       {
         "service_id": "WLF00001139",
@@ -2765,7 +2851,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스),기타",
         "first_registered": "20210903",
-        "inquiry_count": 5280
+        "inquiry_count": 5348
       },
       {
         "service_id": "WLF00003205",
@@ -2787,7 +2873,7 @@
         "support_cycle": "수시",
         "provision_type": "시설입소",
         "first_registered": "20210903",
-        "inquiry_count": 11202
+        "inquiry_count": 11323
       },
       {
         "service_id": "WLF00003230",
@@ -2808,7 +2894,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급,시설입소,기타",
         "first_registered": "20210903",
-        "inquiry_count": 4065
+        "inquiry_count": 4127
       },
       {
         "service_id": "WLF00001117",
@@ -2826,26 +2912,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 9124
-      },
-      {
-        "service_id": "WLF00003207",
-        "service_name": "영농도우미 지원",
-        "summary": "사고, 질병 농가에 영농도우미를 지원하여 안정적인 영농활동을 통한 농가소득 증대를 도모합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003207&wlfareInfoReldBztpCd=01",
-        "department": "농림축산식품부",
-        "org_name": "농촌사회서비스과",
-        "contact": "02-2080-5424",
-        "interest_topics": [
-          "생활지원",
-          "보호·돌봄"
-        ],
-        "life_stages": [],
-        "online_apply": false,
-        "support_cycle": "수시",
-        "provision_type": "프로그램/서비스(서비스)",
-        "first_registered": "20210903",
-        "inquiry_count": 5818
+        "inquiry_count": 9278
       },
       {
         "service_id": "WLF00003189",
@@ -2869,7 +2936,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 11202
+        "inquiry_count": 11316
       },
       {
         "service_id": "WLF00001133",
@@ -2887,7 +2954,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 6032
+        "inquiry_count": 6117
       },
       {
         "service_id": "WLF00001127",
@@ -2905,7 +2972,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 3666
+        "inquiry_count": 3728
       },
       {
         "service_id": "WLF00003215",
@@ -2926,7 +2993,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 3863
+        "inquiry_count": 3918
       },
       {
         "service_id": "WLF00001113",
@@ -2948,7 +3015,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 15330
+        "inquiry_count": 15459
       },
       {
         "service_id": "WLF00003232",
@@ -2970,7 +3037,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 11150
+        "inquiry_count": 11331
       },
       {
         "service_id": "WLF00001130",
@@ -2990,7 +3057,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 31331
+        "inquiry_count": 31692
       },
       {
         "service_id": "WLF00003202",
@@ -3009,7 +3076,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 45805
+        "inquiry_count": 46180
       },
       {
         "service_id": "WLF00001160",
@@ -3027,7 +3094,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 7270
+        "inquiry_count": 7348
       },
       {
         "service_id": "WLF00001148",
@@ -3047,7 +3114,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 840966
+        "inquiry_count": 853247
       },
       {
         "service_id": "WLF00003237",
@@ -3067,7 +3134,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 55574
+        "inquiry_count": 56103
       },
       {
         "service_id": "WLF00003228",
@@ -3086,7 +3153,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 25623
+        "inquiry_count": 25784
       },
       {
         "service_id": "WLF00003190",
@@ -3105,7 +3172,7 @@
         "support_cycle": "수시",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 12362
+        "inquiry_count": 12456
       },
       {
         "service_id": "WLF00003218",
@@ -3124,7 +3191,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 29441
+        "inquiry_count": 29617
       },
       {
         "service_id": "WLF00003196",
@@ -3147,7 +3214,7 @@
         "support_cycle": "수시",
         "provision_type": "감면",
         "first_registered": "20210903",
-        "inquiry_count": 4572
+        "inquiry_count": 4640
       },
       {
         "service_id": "WLF00001134",
@@ -3165,7 +3232,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 4705
+        "inquiry_count": 4786
       },
       {
         "service_id": "WLF00001131",
@@ -3183,7 +3250,7 @@
         "support_cycle": "반기",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 17857
+        "inquiry_count": 18019
       },
       {
         "service_id": "WLF00003216",
@@ -3201,7 +3268,7 @@
         "support_cycle": "반기",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 10198
+        "inquiry_count": 10301
       },
       {
         "service_id": "WLF00001118",
@@ -3221,7 +3288,7 @@
         "support_cycle": "년",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 10316
+        "inquiry_count": 10415
       },
       {
         "service_id": "WLF00001150",
@@ -3240,7 +3307,7 @@
         "support_cycle": "년",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 38182
+        "inquiry_count": 38440
       },
       {
         "service_id": "WLF00001106",
@@ -3261,7 +3328,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 3243
+        "inquiry_count": 3297
       },
       {
         "service_id": "WLF00001143",
@@ -3279,7 +3346,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 3867
+        "inquiry_count": 3942
       },
       {
         "service_id": "WLF00001153",
@@ -3298,7 +3365,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 4702
+        "inquiry_count": 4791
       },
       {
         "service_id": "WLF00001151",
@@ -3317,7 +3384,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 4830
+        "inquiry_count": 4906
       },
       {
         "service_id": "WLF00003217",
@@ -3336,7 +3403,7 @@
         "support_cycle": "1회성",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 11271
+        "inquiry_count": 11410
       },
       {
         "service_id": "WLF00003225",
@@ -3357,7 +3424,7 @@
         "support_cycle": "년",
         "provision_type": "현물지급,프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 33418
+        "inquiry_count": 33554
       },
       {
         "service_id": "WLF00003206",
@@ -3376,7 +3443,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 6893
+        "inquiry_count": 6998
       },
       {
         "service_id": "WLF00003208",
@@ -3397,7 +3464,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 12979
+        "inquiry_count": 13081
       },
       {
         "service_id": "WLF00003231",
@@ -3419,7 +3486,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 9248
+        "inquiry_count": 9346
       },
       {
         "service_id": "WLF00001115",
@@ -3439,7 +3506,7 @@
         "support_cycle": "1회성",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 60243
+        "inquiry_count": 60892
       },
       {
         "service_id": "WLF00003223",
@@ -3461,7 +3528,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 14647
+        "inquiry_count": 14734
       },
       {
         "service_id": "WLF00001159",
@@ -3480,7 +3547,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 11998
+        "inquiry_count": 12139
       },
       {
         "service_id": "WLF00001154",
@@ -3499,7 +3566,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 17758
+        "inquiry_count": 17870
       },
       {
         "service_id": "WLF00001149",
@@ -3522,7 +3589,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 28702
+        "inquiry_count": 28846
       },
       {
         "service_id": "WLF00001137",
@@ -3540,7 +3607,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 13312
+        "inquiry_count": 13482
       },
       {
         "service_id": "WLF00001147",
@@ -3562,7 +3629,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 205787
+        "inquiry_count": 206921
       },
       {
         "service_id": "WLF00003210",
@@ -3580,7 +3647,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 3729
+        "inquiry_count": 3801
       },
       {
         "service_id": "WLF00001125",
@@ -3599,7 +3666,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 8147
+        "inquiry_count": 8292
       },
       {
         "service_id": "WLF00001124",
@@ -3617,7 +3684,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 4636
+        "inquiry_count": 4703
       },
       {
         "service_id": "WLF00003197",
@@ -3635,7 +3702,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 22591
+        "inquiry_count": 23073
       },
       {
         "service_id": "WLF00001116",
@@ -3658,7 +3725,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 7381
+        "inquiry_count": 7470
       },
       {
         "service_id": "WLF00003235",
@@ -3681,7 +3748,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 21052
+        "inquiry_count": 21182
       },
       {
         "service_id": "WLF00001121",
@@ -3706,7 +3773,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 6793
+        "inquiry_count": 6885
       },
       {
         "service_id": "WLF00003209",
@@ -3724,7 +3791,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 30273
+        "inquiry_count": 30579
       },
       {
         "service_id": "WLF00001157",
@@ -3742,7 +3809,7 @@
         "support_cycle": "월",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 5794
+        "inquiry_count": 5874
       },
       {
         "service_id": "WLF00003212",
@@ -3760,7 +3827,7 @@
         "support_cycle": "1회성",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 3088
+        "inquiry_count": 3158
       },
       {
         "service_id": "WLF00003199",
@@ -3782,29 +3849,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 26080
-      },
-      {
-        "service_id": "WLF00001161",
-        "service_name": "표준모자보건수첩 제공",
-        "summary": "표준모자보건수첩 보급으로 임신부터 영유아기까지 각종 검사 및 건강관리 안내, 예방접종, 검진(검사) 등 건강기록 유지, 양육에 대한 필수·객관적 정보 제공으로 모성과 영유아의 건강증진을 도모합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001161&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "출산정책과",
-        "contact": "129",
-        "interest_topics": [
-          "신체건강",
-          "임신·출산"
-        ],
-        "life_stages": [
-          "영유아",
-          "임신 · 출산"
-        ],
-        "online_apply": false,
-        "support_cycle": "수시",
-        "provision_type": "현물지급",
-        "first_registered": "20210903",
-        "inquiry_count": 20287
+        "inquiry_count": 26233
       },
       {
         "service_id": "WLF00001107",
@@ -3828,31 +3873,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 28944
-      },
-      {
-        "service_id": "WLF00001138",
-        "service_name": "자활근로(기초, 차상위)",
-        "summary": "국민기초생활보장법에 따른 수급자 및 차상위 계층이 스스로 자립할 수 있도록 자활능력 배양, 기술습득 지원 및 근로기회를 제공합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001138&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "자활정책과",
-        "contact": "129",
-        "interest_topics": [
-          "생활지원",
-          "일자리"
-        ],
-        "life_stages": [
-          "청소년",
-          "청년",
-          "중장년",
-          "노년"
-        ],
-        "online_apply": false,
-        "support_cycle": "월",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 282113
+        "inquiry_count": 29150
       },
       {
         "service_id": "WLF00001156",
@@ -3873,7 +3894,7 @@
         "support_cycle": "수시",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 9183
+        "inquiry_count": 9269
       },
       {
         "service_id": "WLF00001152",
@@ -3895,28 +3916,7 @@
         "support_cycle": "월",
         "provision_type": "시설입소",
         "first_registered": "20210903",
-        "inquiry_count": 8059
-      },
-      {
-        "service_id": "WLF00003224",
-        "service_name": "출산육아기 고용안정장려금",
-        "summary": "출산전후휴가, 유산·사산 휴가, 육아휴직, 육아기 근로시간 단축 등을 부여(허용)한 사업주에게 장려금, 대체인력 인건비 등을 지원합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003224&wlfareInfoReldBztpCd=01",
-        "department": "고용노동부",
-        "org_name": "고용문화개선정책과",
-        "contact": "1350",
-        "interest_topics": [
-          "생활지원",
-          "임신·출산"
-        ],
-        "life_stages": [
-          "임신 · 출산"
-        ],
-        "online_apply": false,
-        "support_cycle": "수시",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 57614
+        "inquiry_count": 8154
       },
       {
         "service_id": "WLF00003193",
@@ -3934,7 +3934,7 @@
         "support_cycle": "수시",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 7709
+        "inquiry_count": 7844
       },
       {
         "service_id": "WLF00001162",
@@ -3952,7 +3952,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급,현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 84210
+        "inquiry_count": 84519
       },
       {
         "service_id": "WLF00001132",
@@ -3974,7 +3974,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 701743
+        "inquiry_count": 705809
       },
       {
         "service_id": "WLF00003226",
@@ -3995,7 +3995,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 76010
+        "inquiry_count": 76386
       },
       {
         "service_id": "WLF00001145",
@@ -4017,7 +4017,7 @@
         "support_cycle": "1회성",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 9825
+        "inquiry_count": 9925
       },
       {
         "service_id": "WLF00001112",
@@ -4038,7 +4038,7 @@
         "support_cycle": "분기",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 24019
+        "inquiry_count": 24194
       },
       {
         "service_id": "WLF00003229",
@@ -4057,7 +4057,7 @@
         "support_cycle": "월",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 16656
+        "inquiry_count": 16782
       },
       {
         "service_id": "WLF00003194",
@@ -4078,7 +4078,7 @@
         "support_cycle": "월",
         "provision_type": "시설입소",
         "first_registered": "20210903",
-        "inquiry_count": 24864
+        "inquiry_count": 25505
       },
       {
         "service_id": "WLF00001119",
@@ -4096,7 +4096,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 162094
+        "inquiry_count": 163314
       },
       {
         "service_id": "WLF00003222",
@@ -4119,7 +4119,89 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 173490
+        "inquiry_count": 174459
+      },
+      {
+        "service_id": "WLF00004657",
+        "service_name": "부모급여 지원",
+        "summary": "영아기 집중돌봄을 두텁게 지원하여 출산 및 양육으로 인한 경제적 부담을 줄여드립니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004657&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "아동정책과",
+        "contact": "129",
+        "interest_topics": [
+          "보육"
+        ],
+        "life_stages": [
+          "영유아"
+        ],
+        "online_apply": true,
+        "support_cycle": "월",
+        "provision_type": "현금지급",
+        "first_registered": "20220103",
+        "inquiry_count": 1710735
+      },
+      {
+        "service_id": "WLF00001060",
+        "service_name": "대학생 근로장학금 지원",
+        "summary": "저소득층 대학생에게 근로 기회를 제공하고 그에 따른 대가(장학금)를 지급하여 안정적인 학업 여건을 조성합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001060&wlfareInfoReldBztpCd=01",
+        "department": "교육부",
+        "org_name": "청년장학지원과",
+        "contact": "1599-2290",
+        "interest_topics": [
+          "생활지원",
+          "교육"
+        ],
+        "life_stages": [
+          "청년"
+        ],
+        "online_apply": false,
+        "support_cycle": "월",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 39765
+      },
+      {
+        "service_id": "WLF00004658",
+        "service_name": "과학문화 바우처 지원",
+        "summary": "과학문화 소외지역 및 계층을 대상으로 과학문화 체험 기회 제공을 통한 격차 해소에 기여하고자 합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004658&wlfareInfoReldBztpCd=01",
+        "department": "과학기술정보통신부",
+        "org_name": "과학기술문화과",
+        "contact": "1551-0012",
+        "interest_topics": [
+          "문화·여가",
+          "교육"
+        ],
+        "life_stages": [
+          "아동",
+          "청소년"
+        ],
+        "online_apply": false,
+        "support_cycle": "1회성",
+        "provision_type": "전자바우처(바우처)",
+        "first_registered": "20220325",
+        "inquiry_count": 290301
+      },
+      {
+        "service_id": "WLF00003264",
+        "service_name": "지역사회 통합건강증진사업",
+        "summary": "지역사회를 기반으로 다양한 건강증진사업을 내실 있게 추진하여 지자체 건강수준 향상, 국가 건강수명 및 삶의 질 증대를 도모합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003264&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "건강정책과",
+        "contact": "129",
+        "interest_topics": [
+          "신체건강",
+          "정신건강"
+        ],
+        "life_stages": [],
+        "online_apply": false,
+        "support_cycle": "년",
+        "provision_type": "프로그램/서비스(서비스)",
+        "first_registered": "20210903",
+        "inquiry_count": 40670
       },
       {
         "service_id": "WLF00003256",
@@ -4137,7 +4219,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 14913
+        "inquiry_count": 15235
       },
       {
         "service_id": "WLF00003254",
@@ -4159,7 +4241,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 16119
+        "inquiry_count": 16297
       },
       {
         "service_id": "WLF00001175",
@@ -4180,7 +4262,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 598552
+        "inquiry_count": 599991
       },
       {
         "service_id": "WLF00003271",
@@ -4203,7 +4285,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 52513
+        "inquiry_count": 52928
       },
       {
         "service_id": "WLF00003282",
@@ -4225,7 +4307,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 29484
+        "inquiry_count": 29664
       },
       {
         "service_id": "WLF00003262",
@@ -4248,7 +4330,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 80644
+        "inquiry_count": 81121
       },
       {
         "service_id": "WLF00004661",
@@ -4268,27 +4350,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20220413",
-        "inquiry_count": 12511934
-      },
-      {
-        "service_id": "WLF00004657",
-        "service_name": "부모급여 지원",
-        "summary": "영아기 집중돌봄을 두텁게 지원하여 출산 및 양육으로 인한 경제적 부담을 줄여드립니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004657&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "아동정책과",
-        "contact": "129",
-        "interest_topics": [
-          "보육"
-        ],
-        "life_stages": [
-          "영유아"
-        ],
-        "online_apply": true,
-        "support_cycle": "월",
-        "provision_type": "현금지급",
-        "first_registered": "20220103",
-        "inquiry_count": 1704943
+        "inquiry_count": 12540394
       },
       {
         "service_id": "WLF00004656",
@@ -4310,7 +4372,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급,전자바우처(바우처)",
         "first_registered": "20220103",
-        "inquiry_count": 1544541
+        "inquiry_count": 1549882
       },
       {
         "service_id": "WLF00001178",
@@ -4331,7 +4393,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 29832
+        "inquiry_count": 30084
       },
       {
         "service_id": "WLF00001171",
@@ -4353,7 +4415,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 1353767
+        "inquiry_count": 1360908
       },
       {
         "service_id": "WLF00001165",
@@ -4375,7 +4437,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 50523
+        "inquiry_count": 50800
       },
       {
         "service_id": "WLF00001164",
@@ -4396,7 +4458,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 2004549
+        "inquiry_count": 2013121
       },
       {
         "service_id": "WLF00000969",
@@ -4416,7 +4478,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 1876436
+        "inquiry_count": 1878706
       },
       {
         "service_id": "WLF00003279",
@@ -4437,7 +4499,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 127767
+        "inquiry_count": 128304
       },
       {
         "service_id": "WLF00003278",
@@ -4457,7 +4519,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 55194
+        "inquiry_count": 55450
       },
       {
         "service_id": "WLF00003267",
@@ -4475,7 +4537,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 284574
+        "inquiry_count": 285700
       },
       {
         "service_id": "WLF00003265",
@@ -4497,7 +4559,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 256943
+        "inquiry_count": 258466
       },
       {
         "service_id": "WLF00003260",
@@ -4520,7 +4582,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 329312
+        "inquiry_count": 330578
       },
       {
         "service_id": "WLF00003258",
@@ -4542,7 +4604,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 648930
+        "inquiry_count": 650910
       },
       {
         "service_id": "WLF00003257",
@@ -4560,7 +4622,7 @@
         "support_cycle": "월",
         "provision_type": "감면",
         "first_registered": "20210903",
-        "inquiry_count": 2083983
+        "inquiry_count": 2088471
       },
       {
         "service_id": "WLF00003253",
@@ -4581,7 +4643,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 1216360
+        "inquiry_count": 1220037
       },
       {
         "service_id": "WLF00003250",
@@ -4601,7 +4663,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 2652204
+        "inquiry_count": 2661994
       },
       {
         "service_id": "WLF00003249",
@@ -4623,7 +4685,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 5536796
+        "inquiry_count": 5538866
       },
       {
         "service_id": "WLF00004638",
@@ -4646,7 +4708,7 @@
         "support_cycle": "월",
         "provision_type": "감면",
         "first_registered": "20210903",
-        "inquiry_count": 39447
+        "inquiry_count": 40674
       },
       {
         "service_id": "WLF00003269",
@@ -4664,7 +4726,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 52548
+        "inquiry_count": 52756
       },
       {
         "service_id": "WLF00003244",
@@ -4682,7 +4744,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 31215
+        "inquiry_count": 31403
       },
       {
         "service_id": "WLF00004649",
@@ -4704,7 +4766,7 @@
         "support_cycle": "1회성",
         "provision_type": "현물지급",
         "first_registered": "20210904",
-        "inquiry_count": 178737
+        "inquiry_count": 179397
       },
       {
         "service_id": "WLF00004663",
@@ -4725,7 +4787,7 @@
         "support_cycle": "수시",
         "provision_type": "현물대여",
         "first_registered": "20220603",
-        "inquiry_count": 69723
+        "inquiry_count": 70114
       },
       {
         "service_id": "WLF00003242",
@@ -4746,7 +4808,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스),기타",
         "first_registered": "20210903",
-        "inquiry_count": 40930
+        "inquiry_count": 41876
       },
       {
         "service_id": "WLF00004997",
@@ -4769,7 +4831,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20220922",
-        "inquiry_count": 59221
+        "inquiry_count": 59483
       },
       {
         "service_id": "WLF00005032",
@@ -4791,7 +4853,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20230410",
-        "inquiry_count": 7551
+        "inquiry_count": 7617
       },
       {
         "service_id": "WLF00005033",
@@ -4813,7 +4875,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20230414",
-        "inquiry_count": 22905
+        "inquiry_count": 22999
       },
       {
         "service_id": "WLF00003246",
@@ -4835,7 +4897,7 @@
         "support_cycle": "수시",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 26705
+        "inquiry_count": 26839
       },
       {
         "service_id": "WLF00005031",
@@ -4857,7 +4919,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20230329",
-        "inquiry_count": 12746
+        "inquiry_count": 12917
       },
       {
         "service_id": "WLF00004650",
@@ -4878,7 +4940,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210904",
-        "inquiry_count": 11681
+        "inquiry_count": 11751
       },
       {
         "service_id": "WLF00001059",
@@ -4897,7 +4959,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 4851
+        "inquiry_count": 4925
       },
       {
         "service_id": "WLF00001176",
@@ -4919,7 +4981,7 @@
         "support_cycle": "년",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 218205
+        "inquiry_count": 219404
       },
       {
         "service_id": "WLF00005026",
@@ -4940,7 +5002,7 @@
         "support_cycle": "년",
         "provision_type": "기타",
         "first_registered": "20230316",
-        "inquiry_count": 7209
+        "inquiry_count": 7299
       },
       {
         "service_id": "WLF00001166",
@@ -4962,7 +5024,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 7136
+        "inquiry_count": 7229
       },
       {
         "service_id": "WLF00003268",
@@ -4985,7 +5047,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 5171
+        "inquiry_count": 5230
       },
       {
         "service_id": "WLF00003270",
@@ -5010,7 +5072,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 10583
+        "inquiry_count": 10690
       },
       {
         "service_id": "WLF00003266",
@@ -5029,7 +5091,7 @@
         "support_cycle": "수시",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 26549
+        "inquiry_count": 26662
       },
       {
         "service_id": "WLF00004637",
@@ -5052,7 +5114,7 @@
         "support_cycle": "월",
         "provision_type": "감면",
         "first_registered": "20210903",
-        "inquiry_count": 73378
+        "inquiry_count": 73797
       },
       {
         "service_id": "WLF00003243",
@@ -5073,7 +5135,7 @@
         "support_cycle": "월",
         "provision_type": "감면,시설입소",
         "first_registered": "20210903",
-        "inquiry_count": 13903
+        "inquiry_count": 14079
       },
       {
         "service_id": "WLF00001170",
@@ -5094,7 +5156,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 16478
+        "inquiry_count": 16632
       },
       {
         "service_id": "WLF00004660",
@@ -5115,7 +5177,7 @@
         "support_cycle": "분기",
         "provision_type": "현금지급",
         "first_registered": "20220329",
-        "inquiry_count": 36993
+        "inquiry_count": 37185
       },
       {
         "service_id": "WLF00001180",
@@ -5139,7 +5201,7 @@
         "support_cycle": "수시",
         "provision_type": "시설입소",
         "first_registered": "20210903",
-        "inquiry_count": 17101
+        "inquiry_count": 17240
       },
       {
         "service_id": "WLF00004639",
@@ -5161,29 +5223,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 80349
-      },
-      {
-        "service_id": "WLF00004658",
-        "service_name": "과학문화 바우처 지원",
-        "summary": "과학문화 소외지역 및 계층을 대상으로 과학문화 체험 기회 제공을 통한 격차 해소에 기여하고자 합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004658&wlfareInfoReldBztpCd=01",
-        "department": "과학기술정보통신부",
-        "org_name": "과학기술문화과",
-        "contact": "1551-0012",
-        "interest_topics": [
-          "문화·여가",
-          "교육"
-        ],
-        "life_stages": [
-          "아동",
-          "청소년"
-        ],
-        "online_apply": false,
-        "support_cycle": "1회성",
-        "provision_type": "전자바우처(바우처)",
-        "first_registered": "20220325",
-        "inquiry_count": 289838
+        "inquiry_count": 82442
       },
       {
         "service_id": "WLF00005036",
@@ -5202,7 +5242,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20230428",
-        "inquiry_count": 106815
+        "inquiry_count": 107682
       },
       {
         "service_id": "WLF00001062",
@@ -5220,7 +5260,7 @@
         "support_cycle": "년",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 13716
+        "inquiry_count": 13828
       },
       {
         "service_id": "WLF00003252",
@@ -5242,7 +5282,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스),시설입소",
         "first_registered": "20210903",
-        "inquiry_count": 7562
+        "inquiry_count": 7650
       },
       {
         "service_id": "WLF00003274",
@@ -5260,7 +5300,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 4442
+        "inquiry_count": 4498
       },
       {
         "service_id": "WLF00001169",
@@ -5280,7 +5320,7 @@
         "support_cycle": "1회성",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 118621
+        "inquiry_count": 119148
       },
       {
         "service_id": "WLF00001173",
@@ -5302,7 +5342,7 @@
         "support_cycle": "월",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 6504
+        "inquiry_count": 6591
       },
       {
         "service_id": "WLF00003273",
@@ -5321,7 +5361,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 26826
+        "inquiry_count": 27117
       },
       {
         "service_id": "WLF00003240",
@@ -5343,7 +5383,7 @@
         "support_cycle": "년",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 167737
+        "inquiry_count": 168198
       },
       {
         "service_id": "WLF00001163",
@@ -5364,7 +5404,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 5326
+        "inquiry_count": 5409
       },
       {
         "service_id": "WLF00003280",
@@ -5385,7 +5425,7 @@
         "support_cycle": "년",
         "provision_type": "현물지급,프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 16338
+        "inquiry_count": 16418
       },
       {
         "service_id": "WLF00003281",
@@ -5408,7 +5448,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 31690
+        "inquiry_count": 31894
       },
       {
         "service_id": "WLF00001177",
@@ -5430,7 +5470,7 @@
         "support_cycle": "월",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 53781
+        "inquiry_count": 54116
       },
       {
         "service_id": "WLF00004669",
@@ -5449,7 +5489,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20220607",
-        "inquiry_count": 7682
+        "inquiry_count": 7786
       },
       {
         "service_id": "WLF00004647",
@@ -5469,7 +5509,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210904",
-        "inquiry_count": 32289
+        "inquiry_count": 32764
       },
       {
         "service_id": "WLF00003241",
@@ -5491,7 +5531,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 25437
+        "inquiry_count": 25530
       },
       {
         "service_id": "WLF00003259",
@@ -5510,7 +5550,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 11509
+        "inquiry_count": 11603
       },
       {
         "service_id": "WLF00004651",
@@ -5534,7 +5574,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210904",
-        "inquiry_count": 33269
+        "inquiry_count": 33362
       },
       {
         "service_id": "WLF00003276",
@@ -5556,7 +5596,7 @@
         "support_cycle": "반기",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 18079
+        "inquiry_count": 18209
       },
       {
         "service_id": "WLF00003277",
@@ -5578,28 +5618,7 @@
         "support_cycle": "반기",
         "provision_type": "현금대여(융자)",
         "first_registered": "20210903",
-        "inquiry_count": 36978
-      },
-      {
-        "service_id": "WLF00001060",
-        "service_name": "대학생 근로장학금 지원",
-        "summary": "저소득층 대학생에게 근로 기회를 제공하고 그에 따른 대가(장학금)를 지급하여 안정적인 학업 여건을 조성합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001060&wlfareInfoReldBztpCd=01",
-        "department": "교육부",
-        "org_name": "청년장학지원과",
-        "contact": "1599-2290",
-        "interest_topics": [
-          "생활지원",
-          "교육"
-        ],
-        "life_stages": [
-          "청년"
-        ],
-        "online_apply": false,
-        "support_cycle": "월",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 39236
+        "inquiry_count": 37301
       },
       {
         "service_id": "WLF00003283",
@@ -5623,7 +5642,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 62199
+        "inquiry_count": 62338
       },
       {
         "service_id": "WLF00001020",
@@ -5645,7 +5664,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 8039
+        "inquiry_count": 8155
       },
       {
         "service_id": "WLF00001179",
@@ -5666,7 +5685,7 @@
         "support_cycle": "1회성",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 67486
+        "inquiry_count": 67929
       },
       {
         "service_id": "WLF00001168",
@@ -5684,7 +5703,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 3734
+        "inquiry_count": 3809
       },
       {
         "service_id": "WLF00003238",
@@ -5706,7 +5725,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 33350
+        "inquiry_count": 33462
       },
       {
         "service_id": "WLF00001061",
@@ -5739,7 +5758,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 55791
+        "inquiry_count": 56150
       },
       {
         "service_id": "WLF00003275",
@@ -5760,7 +5779,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 10810
+        "inquiry_count": 10917
       },
       {
         "service_id": "WLF00003247",
@@ -5783,7 +5802,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 168817
+        "inquiry_count": 169947
       },
       {
         "service_id": "WLF00005023",
@@ -5803,7 +5822,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20230303",
-        "inquiry_count": 30354
+        "inquiry_count": 30477
       },
       {
         "service_id": "WLF00005034",
@@ -5821,7 +5840,7 @@
         "support_cycle": "년",
         "provision_type": "기타",
         "first_registered": "20230414",
-        "inquiry_count": 12092
+        "inquiry_count": 12216
       },
       {
         "service_id": "WLF00001172",
@@ -5843,7 +5862,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 11157
+        "inquiry_count": 11239
       },
       {
         "service_id": "WLF00004655",
@@ -5866,7 +5885,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20211018",
-        "inquiry_count": 29136
+        "inquiry_count": 29338
       },
       {
         "service_id": "WLF00004654",
@@ -5884,7 +5903,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20211018",
-        "inquiry_count": 6538
+        "inquiry_count": 6623
       },
       {
         "service_id": "WLF00001167",
@@ -5902,7 +5921,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 4099
+        "inquiry_count": 4183
       },
       {
         "service_id": "WLF00003239",
@@ -5921,7 +5940,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 12356
+        "inquiry_count": 12474
       },
       {
         "service_id": "WLF00003245",
@@ -5945,26 +5964,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급,프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 255628
-      },
-      {
-        "service_id": "WLF00003264",
-        "service_name": "통합건강증진사업",
-        "summary": "지역사회를 기반으로 다양한 건강증진사업을 내실 있게 추진하여 지자체 건강수준 향상, 국가 건강수명 및 삶의 질 증대를 도모합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003264&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "건강정책과",
-        "contact": "129",
-        "interest_topics": [
-          "신체건강",
-          "정신건강"
-        ],
-        "life_stages": [],
-        "online_apply": false,
-        "support_cycle": "년",
-        "provision_type": "프로그램/서비스(서비스)",
-        "first_registered": "20210903",
-        "inquiry_count": 40433
+        "inquiry_count": 257306
       },
       {
         "service_id": "WLF00001021",
@@ -5988,7 +5988,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 7401
+        "inquiry_count": 7495
       },
       {
         "service_id": "WLF00000968",
@@ -6007,7 +6007,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 4281
+        "inquiry_count": 4359
       },
       {
         "service_id": "WLF00004662",
@@ -6027,7 +6027,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20220517",
-        "inquiry_count": 21108
+        "inquiry_count": 21240
       },
       {
         "service_id": "WLF00000998",
@@ -6046,7 +6046,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 11708
+        "inquiry_count": 11893
       },
       {
         "service_id": "WLF00003263",
@@ -6067,7 +6067,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 11657
+        "inquiry_count": 11767
       },
       {
         "service_id": "WLF00003261",
@@ -6085,7 +6085,7 @@
         "support_cycle": "년",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 3235
+        "inquiry_count": 3312
       },
       {
         "service_id": "WLF00000975",
@@ -6107,7 +6107,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 6192
+        "inquiry_count": 6277
       },
       {
         "service_id": "WLF00004648",
@@ -6130,7 +6130,7 @@
         "support_cycle": "월",
         "provision_type": "시설입소",
         "first_registered": "20210904",
-        "inquiry_count": 5022
+        "inquiry_count": 5089
       },
       {
         "service_id": "WLF00003251",
@@ -6152,7 +6152,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 16560
+        "inquiry_count": 16653
       },
       {
         "service_id": "WLF00003272",
@@ -6178,7 +6178,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 10442
+        "inquiry_count": 10526
       },
       {
         "service_id": "WLF00003248",
@@ -6199,7 +6199,7 @@
         "support_cycle": "월",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 48458
+        "inquiry_count": 48949
       },
       {
         "service_id": "WLF00005004",
@@ -6219,7 +6219,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20230113",
-        "inquiry_count": 52079
+        "inquiry_count": 52400
       },
       {
         "service_id": "WLF00005024",
@@ -6243,7 +6243,116 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스),기타",
         "first_registered": "20230303",
-        "inquiry_count": 14860
+        "inquiry_count": 14977
+      },
+      {
+        "service_id": "WLF00005858",
+        "service_name": "임신 사전건강관리 지원사업",
+        "summary": "임신 및 출산에 장애가 될 수 있는 건강위험요인의 조기 발견 기회를 제공하고, 임신전 건강관리를 위한 의료.보건학적 지원을 통해 건강한 임신 출산 환경을 조성합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005858&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "출산정책과",
+        "contact": "129",
+        "interest_topics": [
+          "임신·출산",
+          "서민금융"
+        ],
+        "life_stages": [
+          "청년",
+          "중장년",
+          "임신 · 출산"
+        ],
+        "online_apply": false,
+        "support_cycle": "1회성",
+        "provision_type": "현금지급",
+        "first_registered": "20250422",
+        "inquiry_count": 105243
+      },
+      {
+        "service_id": "WLF00003178",
+        "service_name": "긴급복지 해산비지원",
+        "summary": "생계곤란 등의 위기상황에 처하여 도움이 필요한 긴급복지 주지원(생계,주거,의료,시설이용) 중인 대상자(가구구구성원 포함) 중 조산(助産) 및 분만 후의 필요한 조치와 보호를 위해 해산비를 지원합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003178&wlfareInfoReldBztpCd=01",
+        "department": "보건복지부",
+        "org_name": "기초생활보장과",
+        "contact": "129",
+        "interest_topics": [
+          "신체건강",
+          "임신·출산"
+        ],
+        "life_stages": [
+          "임신 · 출산"
+        ],
+        "online_apply": false,
+        "support_cycle": "1회성",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 31831
+      },
+      {
+        "service_id": "WLF00000838",
+        "service_name": "고용보험 미적용자 출산급여 지원",
+        "summary": "소득활동을 하고 있으나 고용보험의 '출산전후휴가급여'를 지원받지 못하는 출산여성에게 출산급여를 지원합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000838&wlfareInfoReldBztpCd=01",
+        "department": "고용노동부",
+        "org_name": "고용문화개선정책과",
+        "contact": "1350",
+        "interest_topics": [
+          "생활지원",
+          "임신·출산"
+        ],
+        "life_stages": [
+          "임신 · 출산"
+        ],
+        "online_apply": false,
+        "support_cycle": "1회성",
+        "provision_type": "현금지급",
+        "first_registered": "20210903",
+        "inquiry_count": 73404
+      },
+      {
+        "service_id": "WLF00000867",
+        "service_name": "방과후학교 자유수강권",
+        "summary": "방과후학교 수업을 통해 저소득층 자녀의 지속적이며 실직적인 교육기회를 확대하고 공교육 활성화 및 저소득층의 교육격차 해소를 돕습니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000867&wlfareInfoReldBztpCd=01",
+        "department": "교육부",
+        "org_name": "방과후돌봄정책과",
+        "contact": "1544-9654",
+        "interest_topics": [
+          "교육",
+          "보호·돌봄"
+        ],
+        "life_stages": [
+          "아동",
+          "청소년"
+        ],
+        "online_apply": true,
+        "support_cycle": "수시",
+        "provision_type": "프로그램/서비스(서비스)",
+        "first_registered": "20210903",
+        "inquiry_count": 146932
+      },
+      {
+        "service_id": "WLF00005440",
+        "service_name": "대중교통비 환급 지원(모두의카드)",
+        "summary": "정기적 대중교통 이용을 지원하여 대중교통을 자주 이용하는 서민·청년층 등의 교통비 부담을 완화하고 대중교통 이용을 촉진합니다.",
+        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005440&wlfareInfoReldBztpCd=01",
+        "department": "국토교통부",
+        "org_name": "광역교통경제과",
+        "contact": "031-427-4415",
+        "interest_topics": [
+          "생활지원"
+        ],
+        "life_stages": [
+          "청년",
+          "중장년",
+          "노년"
+        ],
+        "online_apply": false,
+        "support_cycle": "월",
+        "provision_type": "기타",
+        "first_registered": "20240430",
+        "inquiry_count": 167119
       },
       {
         "service_id": "WLF00001188",
@@ -6265,7 +6374,7 @@
         "support_cycle": "1회성",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 1884770
+        "inquiry_count": 1896033
       },
       {
         "service_id": "WLF00003169",
@@ -6283,7 +6392,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 17999
+        "inquiry_count": 18250
       },
       {
         "service_id": "WLF00005567",
@@ -6306,7 +6415,7 @@
         "support_cycle": "년",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20240626",
-        "inquiry_count": 1616788
+        "inquiry_count": 1622496
       },
       {
         "service_id": "WLF00006196",
@@ -6329,7 +6438,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20251127",
-        "inquiry_count": 460904
+        "inquiry_count": 464033
       },
       {
         "service_id": "WLF00005442",
@@ -6355,7 +6464,7 @@
         "support_cycle": "1회성",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20240521",
-        "inquiry_count": 241489
+        "inquiry_count": 242667
       },
       {
         "service_id": "WLF00005411",
@@ -6379,29 +6488,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20240105",
-        "inquiry_count": 287439
-      },
-      {
-        "service_id": "WLF00000867",
-        "service_name": "방과후학교 자유수강권",
-        "summary": "방과후학교 수업을 통해 저소득층 자녀의 지속적이며 실직적인 교육기회를 확대하고 공교육 활성화 및 저소득층의 교육격차 해소를 돕습니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000867&wlfareInfoReldBztpCd=01",
-        "department": "교육부",
-        "org_name": "방과후돌봄정책과",
-        "contact": "1544-9654",
-        "interest_topics": [
-          "교육",
-          "보호·돌봄"
-        ],
-        "life_stages": [
-          "아동",
-          "청소년"
-        ],
-        "online_apply": true,
-        "support_cycle": "수시",
-        "provision_type": "프로그램/서비스(서비스)",
-        "first_registered": "20210903",
-        "inquiry_count": 146345
+        "inquiry_count": 288657
       },
       {
         "service_id": "WLF00000092",
@@ -6424,7 +6511,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 1019716
+        "inquiry_count": 1024595
       },
       {
         "service_id": "WLF00003171",
@@ -6442,7 +6529,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 222926
+        "inquiry_count": 223868
       },
       {
         "service_id": "WLF00006248",
@@ -6464,7 +6551,7 @@
         "support_cycle": "월",
         "provision_type": "기타",
         "first_registered": "20260413",
-        "inquiry_count": 52606
+        "inquiry_count": 53228
       },
       {
         "service_id": "WLF00005631",
@@ -6487,7 +6574,7 @@
         "support_cycle": "년",
         "provision_type": "기타",
         "first_registered": "20240705",
-        "inquiry_count": 95193
+        "inquiry_count": 96201
       },
       {
         "service_id": "WLF00006237",
@@ -6509,7 +6596,7 @@
         "support_cycle": "월",
         "provision_type": "현물지급",
         "first_registered": "20260402",
-        "inquiry_count": 4433
+        "inquiry_count": 4574
       },
       {
         "service_id": "WLF00006224",
@@ -6531,7 +6618,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20260316",
-        "inquiry_count": 8170
+        "inquiry_count": 8444
       },
       {
         "service_id": "WLF00003176",
@@ -6556,7 +6643,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 126127
+        "inquiry_count": 127207
       },
       {
         "service_id": "WLF00000814",
@@ -6575,7 +6662,7 @@
         "support_cycle": "년",
         "provision_type": "현물지급,기타",
         "first_registered": "20210903",
-        "inquiry_count": 8359
+        "inquiry_count": 8445
       },
       {
         "service_id": "WLF00006212",
@@ -6602,7 +6689,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20260313",
-        "inquiry_count": 1966
+        "inquiry_count": 2012
       },
       {
         "service_id": "WLF00000093",
@@ -6621,7 +6708,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 23080
+        "inquiry_count": 23209
       },
       {
         "service_id": "WLF00006241",
@@ -6645,7 +6732,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20260409",
-        "inquiry_count": 10231
+        "inquiry_count": 10712
       },
       {
         "service_id": "WLF00006227",
@@ -6669,7 +6756,7 @@
         "support_cycle": "월",
         "provision_type": "감면",
         "first_registered": "20260316",
-        "inquiry_count": 10277
+        "inquiry_count": 10740
       },
       {
         "service_id": "WLF00000104",
@@ -6687,7 +6774,7 @@
         "support_cycle": "1회성",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 37077
+        "inquiry_count": 37499
       },
       {
         "service_id": "WLF00000087",
@@ -6705,7 +6792,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 63752
+        "inquiry_count": 64457
       },
       {
         "service_id": "WLF00005445",
@@ -6728,7 +6815,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20240521",
-        "inquiry_count": 25179
+        "inquiry_count": 25331
       },
       {
         "service_id": "WLF00000098",
@@ -6748,7 +6835,7 @@
         "support_cycle": "주",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 18665
+        "inquiry_count": 18861
       },
       {
         "service_id": "WLF00000815",
@@ -6771,7 +6858,7 @@
         "support_cycle": "1회성",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 5155
+        "inquiry_count": 5240
       },
       {
         "service_id": "WLF00000102",
@@ -6790,29 +6877,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급,현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 218802
-      },
-      {
-        "service_id": "WLF00005440",
-        "service_name": "대중교통비 환급 지원(모두의카드)",
-        "summary": "정기적 대중교통 이용을 지원하여 대중교통을 자주 이용하는 서민·청년층 등의 교통비 부담을 완화하고 대중교통 이용을 촉진합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005440&wlfareInfoReldBztpCd=01",
-        "department": "국토교통부",
-        "org_name": "광역교통경제과",
-        "contact": "031-427-4415",
-        "interest_topics": [
-          "생활지원"
-        ],
-        "life_stages": [
-          "청년",
-          "중장년",
-          "노년"
-        ],
-        "online_apply": false,
-        "support_cycle": "월",
-        "provision_type": "기타",
-        "first_registered": "20240430",
-        "inquiry_count": 165681
+        "inquiry_count": 219879
       },
       {
         "service_id": "WLF00005444",
@@ -6831,7 +6896,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급",
         "first_registered": "20240521",
-        "inquiry_count": 86774
+        "inquiry_count": 87450
       },
       {
         "service_id": "WLF00001187",
@@ -6853,7 +6918,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급,프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 7724
+        "inquiry_count": 7794
       },
       {
         "service_id": "WLF00000086",
@@ -6873,30 +6938,7 @@
         "support_cycle": "분기",
         "provision_type": "현금지급,프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 4955
-      },
-      {
-        "service_id": "WLF00005858",
-        "service_name": "임신 사전건강관리 지원사업",
-        "summary": "임신 및 출산에 장애가 될 수 있는 건강위험요인의 조기 발견 기회를 제공하고, 임신전 건강관리를 위한 의료.보건학적 지원을 통해 건강한 임신 출산 환경을 조성합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005858&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "출산정책과",
-        "contact": "129",
-        "interest_topics": [
-          "임신·출산",
-          "서민금융"
-        ],
-        "life_stages": [
-          "청년",
-          "중장년",
-          "임신 · 출산"
-        ],
-        "online_apply": false,
-        "support_cycle": "1회성",
-        "provision_type": "현금지급",
-        "first_registered": "20250422",
-        "inquiry_count": 104665
+        "inquiry_count": 5038
       },
       {
         "service_id": "WLF00003172",
@@ -6916,7 +6958,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 5605
+        "inquiry_count": 5695
       },
       {
         "service_id": "WLF00003186",
@@ -6938,7 +6980,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 18374
+        "inquiry_count": 18488
       },
       {
         "service_id": "WLF00003182",
@@ -6956,7 +6998,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 10538
+        "inquiry_count": 10642
       },
       {
         "service_id": "WLF00000101",
@@ -6974,7 +7016,7 @@
         "support_cycle": "수시",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 6547
+        "inquiry_count": 6652
       },
       {
         "service_id": "WLF00006229",
@@ -6990,7 +7032,7 @@
         "support_cycle": "수시",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20260316",
-        "inquiry_count": 12453
+        "inquiry_count": 13533
       },
       {
         "service_id": "WLF00001182",
@@ -7011,7 +7053,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 28946
+        "inquiry_count": 29077
       },
       {
         "service_id": "WLF00000099",
@@ -7034,7 +7076,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 38730
+        "inquiry_count": 38924
       },
       {
         "service_id": "WLF00006217",
@@ -7055,7 +7097,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260316",
-        "inquiry_count": 2754
+        "inquiry_count": 2882
       },
       {
         "service_id": "WLF00001184",
@@ -7080,7 +7122,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 71059
+        "inquiry_count": 71615
       },
       {
         "service_id": "WLF00000837",
@@ -7100,7 +7142,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 17229
+        "inquiry_count": 17360
       },
       {
         "service_id": "WLF00000089",
@@ -7121,7 +7163,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 129830
+        "inquiry_count": 130341
       },
       {
         "service_id": "WLF00005448",
@@ -7142,7 +7184,7 @@
         "support_cycle": "년",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20240521",
-        "inquiry_count": 55560
+        "inquiry_count": 56087
       },
       {
         "service_id": "WLF00006226",
@@ -7164,7 +7206,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급",
         "first_registered": "20260316",
-        "inquiry_count": 7366
+        "inquiry_count": 7589
       },
       {
         "service_id": "WLF00006225",
@@ -7186,7 +7228,7 @@
         "support_cycle": "월",
         "provision_type": "감면",
         "first_registered": "20260316",
-        "inquiry_count": 2774
+        "inquiry_count": 2872
       },
       {
         "service_id": "WLF00003184",
@@ -7206,7 +7248,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 26023
+        "inquiry_count": 26207
       },
       {
         "service_id": "WLF00005446",
@@ -7230,7 +7272,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급",
         "first_registered": "20240521",
-        "inquiry_count": 6054
+        "inquiry_count": 6148
       },
       {
         "service_id": "WLF00006260",
@@ -7248,7 +7290,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260414",
-        "inquiry_count": 3435
+        "inquiry_count": 3543
       },
       {
         "service_id": "WLF00000103",
@@ -7269,7 +7311,7 @@
         "support_cycle": "년",
         "provision_type": "현물지급,기타",
         "first_registered": "20210903",
-        "inquiry_count": 23002
+        "inquiry_count": 23566
       },
       {
         "service_id": "WLF00000864",
@@ -7288,7 +7330,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급,감면",
         "first_registered": "20210903",
-        "inquiry_count": 41569
+        "inquiry_count": 41802
       },
       {
         "service_id": "WLF00006258",
@@ -7312,7 +7354,7 @@
         "support_cycle": "수시",
         "provision_type": "기타",
         "first_registered": "20260413",
-        "inquiry_count": 10499
+        "inquiry_count": 11228
       },
       {
         "service_id": "WLF00006257",
@@ -7331,7 +7373,7 @@
         "support_cycle": "수시",
         "provision_type": "기타",
         "first_registered": "20260413",
-        "inquiry_count": 3138
+        "inquiry_count": 3244
       },
       {
         "service_id": "WLF00006256",
@@ -7349,7 +7391,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급,감면,기타",
         "first_registered": "20260413",
-        "inquiry_count": 1490
+        "inquiry_count": 1558
       },
       {
         "service_id": "WLF00006255",
@@ -7369,7 +7411,7 @@
         "support_cycle": "1회성",
         "provision_type": "감면",
         "first_registered": "20260413",
-        "inquiry_count": 3166
+        "inquiry_count": 3326
       },
       {
         "service_id": "WLF00006254",
@@ -7389,7 +7431,7 @@
         "support_cycle": "반기",
         "provision_type": "현금지급",
         "first_registered": "20260413",
-        "inquiry_count": 2579
+        "inquiry_count": 2663
       },
       {
         "service_id": "WLF00006253",
@@ -7408,7 +7450,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20260413",
-        "inquiry_count": 2145
+        "inquiry_count": 2266
       },
       {
         "service_id": "WLF00006252",
@@ -7429,7 +7471,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급,프로그램/서비스(서비스)",
         "first_registered": "20260413",
-        "inquiry_count": 3048
+        "inquiry_count": 3178
       },
       {
         "service_id": "WLF00006251",
@@ -7456,7 +7498,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20260413",
-        "inquiry_count": 3861
+        "inquiry_count": 3988
       },
       {
         "service_id": "WLF00006250",
@@ -7474,7 +7516,7 @@
         "support_cycle": "월",
         "provision_type": "지역화폐",
         "first_registered": "20260413",
-        "inquiry_count": 5483
+        "inquiry_count": 5716
       },
       {
         "service_id": "WLF00006249",
@@ -7495,7 +7537,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급,프로그램/서비스(서비스)",
         "first_registered": "20260413",
-        "inquiry_count": 5172
+        "inquiry_count": 5320
       },
       {
         "service_id": "WLF00005852",
@@ -7516,7 +7558,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20250318",
-        "inquiry_count": 31973
+        "inquiry_count": 32245
       },
       {
         "service_id": "WLF00006247",
@@ -7534,7 +7576,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20260413",
-        "inquiry_count": 1653
+        "inquiry_count": 1742
       },
       {
         "service_id": "WLF00006246",
@@ -7555,7 +7597,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20260410",
-        "inquiry_count": 2402
+        "inquiry_count": 2469
       },
       {
         "service_id": "WLF00006245",
@@ -7579,7 +7621,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260410",
-        "inquiry_count": 1773
+        "inquiry_count": 1832
       },
       {
         "service_id": "WLF00000812",
@@ -7602,7 +7644,7 @@
         "support_cycle": "반기",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 7165
+        "inquiry_count": 7237
       },
       {
         "service_id": "WLF00006242",
@@ -7624,7 +7666,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20260409",
-        "inquiry_count": 1733
+        "inquiry_count": 1816
       },
       {
         "service_id": "WLF00003168",
@@ -7643,7 +7685,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 7854
+        "inquiry_count": 7949
       },
       {
         "service_id": "WLF00001181",
@@ -7664,7 +7706,7 @@
         "support_cycle": "분기",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 10079
+        "inquiry_count": 10198
       },
       {
         "service_id": "WLF00000096",
@@ -7684,7 +7726,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 14942
+        "inquiry_count": 15067
       },
       {
         "service_id": "WLF00003177",
@@ -7705,7 +7747,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 48003
+        "inquiry_count": 48273
       },
       {
         "service_id": "WLF00006215",
@@ -7726,7 +7768,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20260316",
-        "inquiry_count": 13316
+        "inquiry_count": 13686
       },
       {
         "service_id": "WLF00003173",
@@ -7750,7 +7792,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처),실물바우처",
         "first_registered": "20210903",
-        "inquiry_count": 50827
+        "inquiry_count": 51220
       },
       {
         "service_id": "WLF00005856",
@@ -7775,7 +7817,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20250415",
-        "inquiry_count": 31226
+        "inquiry_count": 31375
       },
       {
         "service_id": "WLF00006239",
@@ -7798,7 +7840,7 @@
         "support_cycle": "년",
         "provision_type": "기타",
         "first_registered": "20260407",
-        "inquiry_count": 8124
+        "inquiry_count": 8357
       },
       {
         "service_id": "WLF00000088",
@@ -7817,7 +7859,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 3871
+        "inquiry_count": 3955
       },
       {
         "service_id": "WLF00006207",
@@ -7838,7 +7880,7 @@
         "support_cycle": "기타",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260309",
-        "inquiry_count": 1754
+        "inquiry_count": 1807
       },
       {
         "service_id": "WLF00003185",
@@ -7861,7 +7903,7 @@
         "support_cycle": "월",
         "provision_type": "시설입소",
         "first_registered": "20210903",
-        "inquiry_count": 11709
+        "inquiry_count": 11834
       },
       {
         "service_id": "WLF00000100",
@@ -7880,7 +7922,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 816629
+        "inquiry_count": 818191
       },
       {
         "service_id": "WLF00001185",
@@ -7900,7 +7942,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 8651
+        "inquiry_count": 8740
       },
       {
         "service_id": "WLF00003181",
@@ -7919,7 +7961,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 27648
+        "inquiry_count": 27848
       },
       {
         "service_id": "WLF00005853",
@@ -7937,7 +7979,7 @@
         "support_cycle": "월",
         "provision_type": "기타",
         "first_registered": "20250328",
-        "inquiry_count": 16603
+        "inquiry_count": 16784
       },
       {
         "service_id": "WLF00006238",
@@ -7958,7 +8000,7 @@
         "support_cycle": "분기",
         "provision_type": "현금지급",
         "first_registered": "20260402",
-        "inquiry_count": 5257
+        "inquiry_count": 5501
       },
       {
         "service_id": "WLF00006236",
@@ -7979,7 +8021,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20260401",
-        "inquiry_count": 3737
+        "inquiry_count": 3995
       },
       {
         "service_id": "WLF00006235",
@@ -8000,7 +8042,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20260401",
-        "inquiry_count": 1399
+        "inquiry_count": 1459
       },
       {
         "service_id": "WLF00003174",
@@ -8018,7 +8060,7 @@
         "support_cycle": "분기",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 9063
+        "inquiry_count": 9129
       },
       {
         "service_id": "WLF00003183",
@@ -8036,7 +8078,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 5835
+        "inquiry_count": 5901
       },
       {
         "service_id": "WLF00006228",
@@ -8056,7 +8098,7 @@
         "support_cycle": "반기",
         "provision_type": "현금지급",
         "first_registered": "20260316",
-        "inquiry_count": 3551
+        "inquiry_count": 4067
       },
       {
         "service_id": "WLF00003170",
@@ -8075,7 +8117,7 @@
         "support_cycle": "반기",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 10472
+        "inquiry_count": 10569
       },
       {
         "service_id": "WLF00005447",
@@ -8094,7 +8136,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급,현물지급",
         "first_registered": "20240521",
-        "inquiry_count": 8380
+        "inquiry_count": 8460
       },
       {
         "service_id": "WLF00000807",
@@ -8115,7 +8157,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 6902
+        "inquiry_count": 7023
       },
       {
         "service_id": "WLF00000090",
@@ -8136,7 +8178,7 @@
         "support_cycle": "반기",
         "provision_type": "기타",
         "first_registered": "20210903",
-        "inquiry_count": 4797
+        "inquiry_count": 4888
       },
       {
         "service_id": "WLF00000097",
@@ -8154,7 +8196,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 20920
+        "inquiry_count": 21056
       },
       {
         "service_id": "WLF00000091",
@@ -8178,7 +8220,7 @@
         "support_cycle": "수시",
         "provision_type": "시설입소,기타",
         "first_registered": "20210903",
-        "inquiry_count": 38853
+        "inquiry_count": 39030
       },
       {
         "service_id": "WLF00003175",
@@ -8199,7 +8241,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20210903",
-        "inquiry_count": 10185
+        "inquiry_count": 10298
       },
       {
         "service_id": "WLF00000842",
@@ -8218,28 +8260,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 5984
-      },
-      {
-        "service_id": "WLF00000838",
-        "service_name": "고용보험 미적용자 출산급여 지원",
-        "summary": "소득활동을 하고 있으나 고용보험의 '출산전후휴가급여'를 지원받지 못하는 출산여성에게 출산급여를 지원합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000838&wlfareInfoReldBztpCd=01",
-        "department": "고용노동부",
-        "org_name": "고용문화개선정책과",
-        "contact": "1350",
-        "interest_topics": [
-          "생활지원",
-          "임신·출산"
-        ],
-        "life_stages": [
-          "임신 · 출산"
-        ],
-        "online_apply": false,
-        "support_cycle": "1회성",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 73055
+        "inquiry_count": 6057
       },
       {
         "service_id": "WLF00000095",
@@ -8261,7 +8282,7 @@
         "support_cycle": "월",
         "provision_type": "감면",
         "first_registered": "20210903",
-        "inquiry_count": 26544
+        "inquiry_count": 26768
       },
       {
         "service_id": "WLF00003180",
@@ -8279,7 +8300,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20210903",
-        "inquiry_count": 1275237
+        "inquiry_count": 1281224
       },
       {
         "service_id": "WLF00003179",
@@ -8297,28 +8318,7 @@
         "support_cycle": "1회성",
         "provision_type": "현물지급",
         "first_registered": "20210903",
-        "inquiry_count": 183452
-      },
-      {
-        "service_id": "WLF00003178",
-        "service_name": "긴급복지 해산비지원",
-        "summary": "생계곤란 등의 위기상황에 처하여 도움이 필요한 긴급복지 주지원(생계,주거,의료,시설이용) 중인 대상자(가구구구성원 포함) 중 조산(助産) 및 분만 후의 필요한 조치와 보호를 위해 해산비를 지원합니다.",
-        "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003178&wlfareInfoReldBztpCd=01",
-        "department": "보건복지부",
-        "org_name": "기초생활보장과",
-        "contact": "129",
-        "interest_topics": [
-          "신체건강",
-          "임신·출산"
-        ],
-        "life_stages": [
-          "임신 · 출산"
-        ],
-        "online_apply": false,
-        "support_cycle": "1회성",
-        "provision_type": "현금지급",
-        "first_registered": "20210903",
-        "inquiry_count": 31548
+        "inquiry_count": 185069
       },
       {
         "service_id": "WLF00001183",
@@ -8338,7 +8338,7 @@
         "support_cycle": "월",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20210903",
-        "inquiry_count": 42098
+        "inquiry_count": 42373
       },
       {
         "service_id": "WLF00006318",
@@ -8358,7 +8358,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20260610",
-        "inquiry_count": 5447
+        "inquiry_count": 5765
       },
       {
         "service_id": "WLF00006315",
@@ -8388,7 +8388,7 @@
         "support_cycle": "수시",
         "provision_type": "기타",
         "first_registered": "20260610",
-        "inquiry_count": 911
+        "inquiry_count": 1016
       },
       {
         "service_id": "WLF00006266",
@@ -8409,7 +8409,7 @@
         "support_cycle": "월",
         "provision_type": "기타",
         "first_registered": "20260506",
-        "inquiry_count": 77727
+        "inquiry_count": 79453
       },
       {
         "service_id": "WLF00006324",
@@ -8435,7 +8435,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260618",
-        "inquiry_count": 2979
+        "inquiry_count": 3147
       },
       {
         "service_id": "WLF00006298",
@@ -8461,7 +8461,7 @@
         "support_cycle": "년",
         "provision_type": "현금지급,현금대여(융자),현물지급,프로그램/서비스(서비스),자원봉사",
         "first_registered": "20260605",
-        "inquiry_count": 2801
+        "inquiry_count": 2968
       },
       {
         "service_id": "WLF00006335",
@@ -8481,7 +8481,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20260622",
-        "inquiry_count": 5405
+        "inquiry_count": 5730
       },
       {
         "service_id": "WLF00006334",
@@ -8502,7 +8502,7 @@
         "support_cycle": "수시",
         "provision_type": "시설입소",
         "first_registered": "20260622",
-        "inquiry_count": 3312
+        "inquiry_count": 3553
       },
       {
         "service_id": "WLF00006333",
@@ -8529,7 +8529,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20260622",
-        "inquiry_count": 11518
+        "inquiry_count": 12507
       },
       {
         "service_id": "WLF00006332",
@@ -8547,7 +8547,7 @@
         "support_cycle": "수시",
         "provision_type": "현물지급",
         "first_registered": "20260622",
-        "inquiry_count": 3844
+        "inquiry_count": 3991
       },
       {
         "service_id": "WLF00006331",
@@ -8574,7 +8574,7 @@
         "support_cycle": "수시",
         "provision_type": "기타",
         "first_registered": "20260622",
-        "inquiry_count": 2532
+        "inquiry_count": 2637
       },
       {
         "service_id": "WLF00006309",
@@ -8600,7 +8600,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260608",
-        "inquiry_count": 1328
+        "inquiry_count": 1422
       },
       {
         "service_id": "WLF00006319",
@@ -8624,7 +8624,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20260611",
-        "inquiry_count": 5041
+        "inquiry_count": 5306
       },
       {
         "service_id": "WLF00006290",
@@ -8644,7 +8644,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20260601",
-        "inquiry_count": 2008
+        "inquiry_count": 2130
       },
       {
         "service_id": "WLF00006317",
@@ -8671,7 +8671,7 @@
         "support_cycle": "년",
         "provision_type": "기타",
         "first_registered": "20260610",
-        "inquiry_count": 2201
+        "inquiry_count": 2291
       },
       {
         "service_id": "WLF00006316",
@@ -8692,7 +8692,7 @@
         "support_cycle": "반기",
         "provision_type": "현금지급",
         "first_registered": "20260610",
-        "inquiry_count": 1986
+        "inquiry_count": 2082
       },
       {
         "service_id": "WLF00006311",
@@ -8719,7 +8719,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260608",
-        "inquiry_count": 1180
+        "inquiry_count": 1254
       },
       {
         "service_id": "WLF00006314",
@@ -8746,7 +8746,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260608",
-        "inquiry_count": 1689
+        "inquiry_count": 1805
       },
       {
         "service_id": "WLF00006313",
@@ -8768,7 +8768,7 @@
         "support_cycle": "수시",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20260608",
-        "inquiry_count": 16921
+        "inquiry_count": 18062
       },
       {
         "service_id": "WLF00006312",
@@ -8790,7 +8790,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급,기타",
         "first_registered": "20260608",
-        "inquiry_count": 1937
+        "inquiry_count": 2011
       },
       {
         "service_id": "WLF00006310",
@@ -8817,7 +8817,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260608",
-        "inquiry_count": 7901
+        "inquiry_count": 8513
       },
       {
         "service_id": "WLF00006308",
@@ -8843,7 +8843,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260608",
-        "inquiry_count": 7144
+        "inquiry_count": 8592
       },
       {
         "service_id": "WLF00006307",
@@ -8865,7 +8865,7 @@
         "support_cycle": "반기",
         "provision_type": "프로그램/서비스(서비스),기타",
         "first_registered": "20260608",
-        "inquiry_count": 1368
+        "inquiry_count": 1440
       },
       {
         "service_id": "WLF00006306",
@@ -8886,7 +8886,7 @@
         "support_cycle": "분기",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260608",
-        "inquiry_count": 1072
+        "inquiry_count": 1135
       },
       {
         "service_id": "WLF00006305",
@@ -8907,7 +8907,7 @@
         "support_cycle": "수시",
         "provision_type": "기타",
         "first_registered": "20260608",
-        "inquiry_count": 1027
+        "inquiry_count": 1079
       },
       {
         "service_id": "WLF00006304",
@@ -8931,7 +8931,7 @@
         "support_cycle": "월",
         "provision_type": "시설입소",
         "first_registered": "20260608",
-        "inquiry_count": 1098
+        "inquiry_count": 1152
       },
       {
         "service_id": "WLF00006301",
@@ -8950,7 +8950,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20260605",
-        "inquiry_count": 3050
+        "inquiry_count": 3376
       },
       {
         "service_id": "WLF00006299",
@@ -8969,7 +8969,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260605",
-        "inquiry_count": 1013
+        "inquiry_count": 1077
       },
       {
         "service_id": "WLF00006303",
@@ -8991,7 +8991,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20260605",
-        "inquiry_count": 2396
+        "inquiry_count": 2506
       },
       {
         "service_id": "WLF00006302",
@@ -9012,7 +9012,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20260605",
-        "inquiry_count": 1050
+        "inquiry_count": 1114
       },
       {
         "service_id": "WLF00006300",
@@ -9030,7 +9030,7 @@
         "support_cycle": "수시",
         "provision_type": "기타",
         "first_registered": "20260605",
-        "inquiry_count": 4433
+        "inquiry_count": 4807
       },
       {
         "service_id": "WLF00006297",
@@ -9051,7 +9051,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260605",
-        "inquiry_count": 943
+        "inquiry_count": 1005
       },
       {
         "service_id": "WLF00006293",
@@ -9072,7 +9072,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20260602",
-        "inquiry_count": 908
+        "inquiry_count": 959
       },
       {
         "service_id": "WLF00006294",
@@ -9100,7 +9100,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20260602",
-        "inquiry_count": 5114
+        "inquiry_count": 5460
       },
       {
         "service_id": "WLF00006296",
@@ -9122,7 +9122,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급,실물바우처",
         "first_registered": "20260602",
-        "inquiry_count": 4252
+        "inquiry_count": 4481
       },
       {
         "service_id": "WLF00006292",
@@ -9143,7 +9143,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20260601",
-        "inquiry_count": 2372
+        "inquiry_count": 2571
       },
       {
         "service_id": "WLF00006282",
@@ -9165,7 +9165,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20260521",
-        "inquiry_count": 1225
+        "inquiry_count": 1267
       },
       {
         "service_id": "WLF00006295",
@@ -9188,7 +9188,7 @@
         "support_cycle": "분기",
         "provision_type": "현금지급",
         "first_registered": "20260602",
-        "inquiry_count": 1690
+        "inquiry_count": 1792
       },
       {
         "service_id": "WLF00006288",
@@ -9209,7 +9209,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20260601",
-        "inquiry_count": 3856
+        "inquiry_count": 4057
       },
       {
         "service_id": "WLF00006264",
@@ -9231,7 +9231,7 @@
         "support_cycle": "1회성",
         "provision_type": "기타",
         "first_registered": "20260423",
-        "inquiry_count": 13183
+        "inquiry_count": 14038
       },
       {
         "service_id": "WLF00006291",
@@ -9252,7 +9252,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급",
         "first_registered": "20260601",
-        "inquiry_count": 2166
+        "inquiry_count": 2301
       },
       {
         "service_id": "WLF00006289",
@@ -9275,7 +9275,7 @@
         "support_cycle": "수시",
         "provision_type": "기타",
         "first_registered": "20260601",
-        "inquiry_count": 1683
+        "inquiry_count": 1797
       },
       {
         "service_id": "WLF00006287",
@@ -9293,7 +9293,7 @@
         "support_cycle": "수시",
         "provision_type": "현금지급,프로그램/서비스(서비스)",
         "first_registered": "20260601",
-        "inquiry_count": 2309
+        "inquiry_count": 2482
       },
       {
         "service_id": "WLF00006286",
@@ -9313,7 +9313,7 @@
         "support_cycle": "반기",
         "provision_type": "기타",
         "first_registered": "20260601",
-        "inquiry_count": 1445
+        "inquiry_count": 1566
       },
       {
         "service_id": "WLF00006285",
@@ -9335,7 +9335,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20260527",
-        "inquiry_count": 2398
+        "inquiry_count": 2543
       },
       {
         "service_id": "WLF00006284",
@@ -9353,7 +9353,7 @@
         "support_cycle": "월",
         "provision_type": "현금지급",
         "first_registered": "20260527",
-        "inquiry_count": 6272
+        "inquiry_count": 6721
       },
       {
         "service_id": "WLF00006283",
@@ -9372,7 +9372,7 @@
         "support_cycle": "수시",
         "provision_type": "현금대여(융자)",
         "first_registered": "20260521",
-        "inquiry_count": 3025
+        "inquiry_count": 3162
       },
       {
         "service_id": "WLF00006279",
@@ -9390,7 +9390,7 @@
         "support_cycle": "수시",
         "provision_type": "기타",
         "first_registered": "20260506",
-        "inquiry_count": 2419
+        "inquiry_count": 2489
       },
       {
         "service_id": "WLF00006278",
@@ -9414,7 +9414,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금지급",
         "first_registered": "20260506",
-        "inquiry_count": 9251
+        "inquiry_count": 9486
       },
       {
         "service_id": "WLF00006277",
@@ -9437,7 +9437,7 @@
         "support_cycle": "1회성",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260506",
-        "inquiry_count": 4503
+        "inquiry_count": 4632
       },
       {
         "service_id": "WLF00006276",
@@ -9460,7 +9460,7 @@
         "support_cycle": "1회성",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260506",
-        "inquiry_count": 2157
+        "inquiry_count": 2225
       },
       {
         "service_id": "WLF00006275",
@@ -9482,7 +9482,7 @@
         "support_cycle": "1회성",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20260506",
-        "inquiry_count": 6160
+        "inquiry_count": 6422
       },
       {
         "service_id": "WLF00006274",
@@ -9504,7 +9504,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20260506",
-        "inquiry_count": 6048
+        "inquiry_count": 6219
       },
       {
         "service_id": "WLF00006273",
@@ -9526,7 +9526,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20260506",
-        "inquiry_count": 9680
+        "inquiry_count": 10167
       },
       {
         "service_id": "WLF00006272",
@@ -9548,7 +9548,7 @@
         "support_cycle": "1회성",
         "provision_type": "전자바우처(바우처)",
         "first_registered": "20260506",
-        "inquiry_count": 3181
+        "inquiry_count": 3313
       },
       {
         "service_id": "WLF00006271",
@@ -9570,7 +9570,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20260506",
-        "inquiry_count": 3352
+        "inquiry_count": 3561
       },
       {
         "service_id": "WLF00006267",
@@ -9591,7 +9591,7 @@
         "support_cycle": "수시",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260506",
-        "inquiry_count": 1661
+        "inquiry_count": 1765
       },
       {
         "service_id": "WLF00006270",
@@ -9612,7 +9612,7 @@
         "support_cycle": "반기",
         "provision_type": "기타",
         "first_registered": "20260506",
-        "inquiry_count": 3349
+        "inquiry_count": 3616
       },
       {
         "service_id": "WLF00006269",
@@ -9634,7 +9634,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20260506",
-        "inquiry_count": 7465
+        "inquiry_count": 7964
       },
       {
         "service_id": "WLF00006268",
@@ -9656,7 +9656,7 @@
         "support_cycle": "1회성",
         "provision_type": "현금대여(융자)",
         "first_registered": "20260506",
-        "inquiry_count": 8867
+        "inquiry_count": 9431
       },
       {
         "service_id": "WLF00006265",
@@ -9678,7 +9678,7 @@
         "support_cycle": "년",
         "provision_type": "프로그램/서비스(서비스)",
         "first_registered": "20260506",
-        "inquiry_count": 2489
+        "inquiry_count": 2601
       },
       {
         "service_id": "WLF00006263",
@@ -9700,7 +9700,7 @@
         "support_cycle": "월",
         "provision_type": "감면",
         "first_registered": "20260423",
-        "inquiry_count": 8436
+        "inquiry_count": 8721
       }
     ]
   }
