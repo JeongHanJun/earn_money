@@ -1,0 +1,80 @@
+{
+  "fetched_at": "2026-08-28T10:03:52.332324+00:00",
+  "data": {
+    "service_id": "WLF00001171",
+    "service_name": "아동수당 지급",
+    "department": "보건복지부 아동정책과",
+    "target_detail": "만 9세미만 아동에게 지급합니다.",
+    "selection_criteria": "대한민국 국적을 보유한 아동에게 지급합니다. \r「국적법」에 따른 복수국적자 포함\r「난민법」에 따른 난민인정자 포함 * 단, 난민인정 신청에 대한 심사진행 중인 경우 등은 제외\r「재한외국인처우기본법」에 따른 특별기여자\r「주민등록법」에 따른 주민등록번호가 정상적으로 부여된 아동에게 지원합니다. \r사회복지 전산관리번호(의료급여 전산관리번호) 부여 대상자 포함\r「주민등록법」에 따른 거주불명자 중 실제 거주지가 확인되는 자 포함",
+    "benefit_detail": "아동수당은 아동 1인당 월 10~13만원이 지급됩니다. \r지자체장이 조례로 정한 경우 지역화폐로도 지급 가능\r아동이 90일 이상(출국일 포함) 해외에 체류하는 경우 지급이 중단",
+    "outline": "아동 양육에 따른 경제적 부담을 경감하고 건강한 성장 환경을 조성함으로써 아동의 기본적 권리와 복지를 증진합니다.",
+    "reference_year": "2026",
+    "contact": "129",
+    "support_cycle": "월",
+    "provision_type": "현금지급",
+    "life_stages": [
+      "영유아",
+      "아동"
+    ],
+    "target_groups": [],
+    "interest_topics": [
+      "생활지원",
+      "보육"
+    ],
+    "apply_methods": [
+      {
+        "name": "신청기관연락처목록",
+        "description": "거주지 읍/면/동 주민센터, 읍면동주민센터 또는 복지로 웹사이트(PC/모바일앱)에서 ‘서비스 신청’"
+      },
+      {
+        "name": "조사기관연락처목록",
+        "description": "담당 시/군/구청 또는 시군구에서 조사 및 심사"
+      },
+      {
+        "name": "결정기관연락처목록",
+        "description": "담당 시/군/구청 또는 시군구에서 보장 결정"
+      },
+      {
+        "name": "이의신청접수기관연락처목록",
+        "description": "이의가 있을 경우, 담당 시/군/구청 또는 시군구에 이의 신청 접수"
+      },
+      {
+        "name": "지급기관연락처목록",
+        "description": "담당 시/군/구청 또는 시군구에서 대상자에게 서비스 제공"
+      },
+      {
+        "name": "사후관리기관목록",
+        "description": "담당 시/군/구청 또는 시군구에서 서비스 제공 이후 대상자의 상황 관리"
+      }
+    ],
+    "inquiry_contacts": [
+      {
+        "name": "보건복지부상담센터",
+        "contact": "129"
+      }
+    ],
+    "related_sites": [
+      {
+        "name": "보건복지부상담센터",
+        "url": "http://www.129.go.kr"
+      }
+    ],
+    "forms": [
+      {
+        "name": "아동수당서식모음.pdf",
+        "url": "https://bokjiro.go.kr/ssis-tbu/CmmFileUtil/getDownload.do?atcflId=4172GOWF14GOWF144172&atcflSn=1"
+      },
+      {
+        "name": "아동수당서식모음.pdf",
+        "url": "https://bokjiro.go.kr/ssis-tbu/CmmFileUtil/getDownload.do?atcflId=4172GOWF14GOWF144172&atcflSn=2"
+      },
+      {
+        "name": "2025년 아동수당 사업안내.pdf",
+        "url": "https://bokjiro.go.kr/ssis-tbu/CmmFileUtil/getDownload.do?atcflId=20250305UUWBM1524510126965633&atcflSn=1"
+      }
+    ],
+    "laws": [
+      "아동수당법"
+    ]
+  }
+}
