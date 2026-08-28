@@ -105,6 +105,12 @@ jobs:
         working-directory: web
         run: npm run build
 
+      # Cloudflare Pages 무료 플랜은 배포당 20,000 파일 한계.
+      # Next.js RSC __next*.txt/*.txt 페이로드 (사용 안함)를 제거해 3,520개로 축소.
+      - name: Prune RSC payload files (Cloudflare 20K limit)
+        working-directory: web/out
+        run: find . -type f \( -name '__next*' -o \( -name '*.txt' ! -name 'ads.txt' ! -name 'robots.txt' \) \) -delete
+
       - name: Deploy to Cloudflare Pages
         timeout-minutes: 5
         working-directory: web
