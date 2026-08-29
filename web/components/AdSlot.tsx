@@ -13,7 +13,7 @@ export function AdSlot({
   className = "",
 }: {
   slot: string;
-  format?: "auto" | "rectangle" | "vertical" | "horizontal";
+  format?: "auto" | "rectangle" | "vertical" | "horizontal" | "autorelaxed";
   responsive?: boolean;
   className?: string;
 }) {

@@ -21,8 +21,12 @@ from collector.storage import write_json
 from collector.welfare import WelfareClient
 
 
+class DailyQuotaExceeded(RuntimeError):
+    """data.go.kr 일일 요청 제한 초과 — 오늘은 더 이상 시도해도 소용없음."""
+
+
 def fetch_with_retry(client: WelfareClient, sid: str, max_retries: int = 5) -> dict:
-    """429/기타 오류 시 지수 백오프 재시도."""
+    """429/기타 오류 시 지수 백오프 재시도. 일일 quota 초과는 즉시 예외."""
     delay = 2.0
     last_error: Exception | None = None
     for attempt in range(max_retries):
@@ -30,6 +34,16 @@ def fetch_with_retry(client: WelfareClient, sid: str, max_retries: int = 5) -> d
             return client.get_detail(sid).to_json()
         except requests.HTTPError as e:
             last_error = e
+            # 응답 본문에서 일일 quota 초과 감지
+            body = ""
+            try:
+                body = e.response.text if e.response is not None else ""
+            except Exception:
+                pass
+            if "LIMITED_NUMBER_OF_SERVICE_REQUESTS_EXCEEDS" in body or "일일 서비스 요청제한" in body:
+                raise DailyQuotaExceeded(
+                    "data.go.kr 일일 quota 초과 — 오늘은 더 이상 진행 불가"
+                ) from e
             if e.response.status_code == 429:
                 wait = delay * (2**attempt)
                 print(f"    429 rate limit → {wait:.0f}s 대기 후 재시도 ({attempt+1}/{max_retries})",
@@ -37,6 +51,15 @@ def fetch_with_retry(client: WelfareClient, sid: str, max_retries: int = 5) -> d
                 time.sleep(wait)
                 continue
             raise
+        except RuntimeError as e:
+            # WelfareClient 가 resultCode 오류를 RuntimeError 로 raise 하는 경로도 대비
+            msg = str(e)
+            if "LIMITED_NUMBER_OF_SERVICE_REQUESTS_EXCEEDS" in msg or "일일 서비스 요청제한" in msg or " 22 " in f" {msg} ":
+                raise DailyQuotaExceeded(
+                    "data.go.kr 일일 quota 초과 — 오늘은 더 이상 진행 불가"
+                ) from e
+            last_error = e
+            break
         except Exception as e:
             last_error = e
             break
@@ -65,6 +88,7 @@ def main(delay_seconds: float = 0.5) -> None:
     print(f"총 {total}개 중 {len(existing)}개 이미 있음. {len(to_fetch)}개 신규 수집.")
 
     ok = fail = 0
+    quota_hit = False
     for i, sid in enumerate(to_fetch, 1):
         try:
             payload = fetch_with_retry(client, sid)
@@ -72,6 +96,10 @@ def main(delay_seconds: float = 0.5) -> None:
             ok += 1
             if i % 25 == 0 or i == len(to_fetch):
                 print(f"  [{i}/{len(to_fetch)}] ok={ok} fail={fail}")
+        except DailyQuotaExceeded as e:
+            print(f"  [QUOTA] {sid}: {e} — 조기 종료", file=sys.stderr)
+            quota_hit = True
+            break
         except Exception as e:
             print(f"  [FAIL] {sid}: {e}", file=sys.stderr)
             fail += 1
@@ -89,6 +117,8 @@ def main(delay_seconds: float = 0.5) -> None:
 
     print(f"\n=== 이번 세션: {ok}/{len(to_fetch)} 성공, {fail} 실패 ===")
     print(f"=== 전체 저장: {len(all_details)}/{total} ({len(all_details)*100//total}%) ===")
+    if quota_hit:
+        print("=== 오늘 quota 소진: 남은 항목은 내일 (KST 자정 리셋 후) 재시도 ===")
 
 
 if __name__ == "__main__":

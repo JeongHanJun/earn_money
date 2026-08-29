@@ -2,12 +2,16 @@ name: Hourly collect + build + deploy
 
 on:
   schedule:
-    # 매시간 정각. 트렌드/날씨는 매시간 갱신, welfare_detail은 rate-limit 하드캡 8분.
+    # 매시간 정각. 트렌드/날씨는 매시간, welfare/youth는 UTC 16시 (KST 01:00) 만 실행.
     - cron: "0 * * * *"
   workflow_dispatch:
     inputs:
       skip_collect:
         description: "Skip collector (code-only redeploy)"
+        type: boolean
+        default: false
+      force_daily:
+        description: "Force welfare+youth collection this run"
         type: boolean
         default: false
   push:
@@ -57,34 +61,45 @@ jobs:
         if: ${{ github.event_name != 'push' && !inputs.skip_collect }}
         run: pip install -r collector/requirements.txt
 
-      - name: Collect — trends (Google News + HN)
+      - name: Determine schedule mode
+        id: mode
+        run: |
+          HOUR=$(date -u +%H)
+          if [ "$HOUR" = "16" ] || [ "${{ inputs.force_daily }}" = "true" ]; then
+            RUN_DAILY=true
+          else
+            RUN_DAILY=false
+          fi
+          echo "run_daily=$RUN_DAILY" >> $GITHUB_OUTPUT
+          echo "UTC hour=$HOUR → run_daily=$RUN_DAILY (daily = UTC 16 = KST 01)"
+
+      - name: Collect — trends (매시간)
         if: ${{ github.event_name != 'push' && !inputs.skip_collect }}
         timeout-minutes: 5
         run: python collector/scripts/fetch_trends.py
         continue-on-error: true
 
-      - name: Collect — weather (17 시도 + 250 시군구)
+      - name: Collect — weather (매시간, 17 시도 + 250 시군구)
         if: ${{ github.event_name != 'push' && !inputs.skip_collect }}
         timeout-minutes: 10
         run: python collector/scripts/fetch_weather.py
         continue-on-error: true
 
-      - name: Collect — welfare list (461 서비스)
-        if: ${{ github.event_name != 'push' && !inputs.skip_collect }}
+      - name: Collect — welfare list (하루 1회, 461 서비스)
+        if: ${{ github.event_name != 'push' && !inputs.skip_collect && steps.mode.outputs.run_daily == 'true' }}
         timeout-minutes: 5
         run: python collector/scripts/fetch_welfare.py
         continue-on-error: true
 
-      - name: Collect — welfare detail (rate-limited, capped 8min)
-        if: ${{ github.event_name != 'push' && !inputs.skip_collect }}
-        timeout-minutes: 9
-        # Hard cap via `timeout` so script exits gracefully vs step timeout SIGKILL
-        run: timeout --preserve-status 480 python collector/scripts/fetch_welfare_detail.py || true
+      - name: Collect — welfare detail (하루 1회, quota 소진 시 조기 종료)
+        if: ${{ github.event_name != 'push' && !inputs.skip_collect && steps.mode.outputs.run_daily == 'true' }}
+        timeout-minutes: 30
+        run: python collector/scripts/fetch_welfare_detail.py
         continue-on-error: true
 
-      - name: Collect — youth policy (2,728 정책)
-        if: ${{ github.event_name != 'push' && !inputs.skip_collect }}
-        timeout-minutes: 10
+      - name: Collect — youth policy (하루 1회, 2,728 정책)
+        if: ${{ github.event_name != 'push' && !inputs.skip_collect && steps.mode.outputs.run_daily == 'true' }}
+        timeout-minutes: 15
         run: python collector/scripts/fetch_youth.py
         continue-on-error: true
 
