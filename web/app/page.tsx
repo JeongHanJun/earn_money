@@ -1,23 +1,189 @@
 import Link from "next/link";
 import { KakaoAdSlot } from "@/components/KakaoAdSlot";
 import { recentServices } from "@/lib/policy";
+import { loadCountry, type GoogleTrend } from "@/lib/trends";
+import { groupByDay, loadWeather, pivotByTime } from "@/lib/weather";
 import { recentYouthPolicies } from "@/lib/youth";
 import type { WelfareService } from "@/lib/policy";
 import type { YouthPolicy } from "@/lib/youth";
 
+// 홈에 노출할 대표 지역 (트래픽 큰 광역시)
+const FEATURED_CITIES: Array<{ sido: string; sigungu: string; name: string }> = [
+  { sido: "seoul", sigungu: "jongno-gu", name: "서울" },
+  { sido: "busan", sigungu: "haeundae-gu", name: "부산" },
+  { sido: "incheon", sigungu: "yeonsu-gu", name: "인천" },
+  { sido: "daejeon", sigungu: "yuseong-gu", name: "대전" },
+];
+
 export default function HomePage() {
   const newPolicies = recentServices(3);
   const newYouth = recentYouthPolicies(3);
+
+  let trends: GoogleTrend[] = [];
+  try {
+    trends = loadCountry("kr").data.google_trends.slice(0, 5);
+  } catch {
+    // ignore if data missing
+  }
+
+  const weather = FEATURED_CITIES.map((c) => {
+    try {
+      const raw = loadWeather(c.sido, c.sigungu);
+      const points = pivotByTime(raw.data.items);
+      const days = groupByDay(points);
+      const today = days[0];
+      const tmax = today?.tmax ? Number(today.tmax) : null;
+      const tmin = today?.tmin ? Number(today.tmin) : null;
+      // fallback: use current point tmp if today has no max
+      const currentTmp = today?.points[0]?.tmp;
+      return {
+        ...c,
+        summary: today?.summary ?? "",
+        tmax: tmax != null ? `${tmax}°` : (currentTmp ? `${currentTmp}°` : "—"),
+        tmin: tmin != null ? `${tmin}°` : "",
+        pop: today?.max_pop ?? 0,
+      };
+    } catch {
+      return null;
+    }
+  }).filter((x): x is NonNullable<typeof x> => Boolean(x));
+
   return (
     <div className="space-y-14">
       <Hero />
       <FeatureCards />
+      <FreshTrends trends={trends} />
+      <FreshWeather items={weather} />
       <FreshPolicies services={newPolicies} youth={newYouth} />
       <UpdateStrip />
       <KakaoAdSlot />
       <SourceNote />
     </div>
   );
+}
+
+function FreshTrends({ trends }: { trends: GoogleTrend[] }) {
+  if (trends.length === 0) return null;
+  return (
+    <section aria-labelledby="trends-heading">
+      <div className="flex items-baseline justify-between mb-4">
+        <h2 id="trends-heading" className="text-xl sm:text-2xl font-bold tracking-tight text-zinc-900">
+          🔥 지금 뜨는 검색어
+        </h2>
+        <Link href="/trends/kr" className="text-sm text-rose-600 hover:underline font-medium">
+          전체 트렌드 →
+        </Link>
+      </div>
+      <div className="rounded-2xl border border-rose-200 bg-gradient-to-r from-rose-50 via-orange-50 to-amber-50 p-4 sm:p-5">
+        <ol className="grid gap-2 sm:grid-cols-2">
+          {trends.map((t) => {
+            const primary = t.articles[0];
+            const rankBg =
+              t.rank <= 3 ? "from-rose-500 to-orange-500" : "from-rose-400 to-rose-500";
+            return (
+              <li
+                key={t.rank}
+                className="flex items-start gap-3 rounded-xl border border-white bg-white/80 backdrop-blur-sm p-2.5"
+              >
+                <span
+                  className={`shrink-0 inline-flex items-center justify-center h-7 w-7 rounded-lg bg-gradient-to-br ${rankBg} text-white text-xs font-black shadow-sm`}
+                >
+                  {t.rank}
+                </span>
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-sm font-bold text-zinc-900 truncate">
+                      {t.keyword}
+                    </span>
+                    {t.traffic && (
+                      <span
+                        className="ml-auto shrink-0 text-[10px] font-bold text-rose-600"
+                        title="최근 24시간 검색 수 근사값"
+                      >
+                        {t.traffic}
+                      </span>
+                    )}
+                  </div>
+                  {primary && (
+                    <a
+                      href={primary.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-0.5 block text-[11px] text-zinc-600 line-clamp-1 leading-snug hover:text-rose-700 hover:underline"
+                    >
+                      {primary.title}
+                    </a>
+                  )}
+                </div>
+              </li>
+            );
+          })}
+        </ol>
+      </div>
+    </section>
+  );
+}
+
+function FreshWeather({
+  items,
+}: {
+  items: Array<{ sido: string; sigungu: string; name: string; summary: string; tmax: string; tmin: string; pop: number }>;
+}) {
+  if (items.length === 0) return null;
+  return (
+    <section aria-labelledby="weather-heading">
+      <div className="flex items-baseline justify-between mb-4">
+        <h2 id="weather-heading" className="text-xl sm:text-2xl font-bold tracking-tight text-zinc-900">
+          ☁️ 오늘의 날씨
+        </h2>
+        <Link href="/weather" className="text-sm text-sky-600 hover:underline font-medium">
+          전체 지역 →
+        </Link>
+      </div>
+      <div className="grid gap-3 grid-cols-2 sm:grid-cols-4">
+        {items.map((w) => {
+          const gradient = weatherGradient(w.summary, w.pop);
+          const icon = weatherIcon(w.summary, w.pop);
+          return (
+            <Link
+              key={`${w.sido}-${w.sigungu}`}
+              href={`/weather/${w.sido}/${w.sigungu}`}
+              className={`group block rounded-2xl bg-gradient-to-br ${gradient} p-4 text-white shadow-sm hover:shadow-md transition-all`}
+            >
+              <div className="flex items-center justify-between">
+                <div className="text-sm font-bold tracking-tight">{w.name}</div>
+                <div className="text-2xl leading-none" aria-hidden>{icon}</div>
+              </div>
+              <div className="mt-2 flex items-baseline gap-1.5">
+                <span className="text-2xl font-black tabular-nums">{w.tmax}</span>
+                {w.tmin && (
+                  <span className="text-xs opacity-85">/ {w.tmin}</span>
+                )}
+              </div>
+              <div className="mt-1 text-[11px] opacity-85">
+                {w.summary || "예보"}
+                {w.pop >= 30 && <span className="ml-1">· ☂ {w.pop}%</span>}
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+function weatherGradient(summary: string, pop: number): string {
+  if (pop >= 60) return "from-slate-600 to-slate-800";       // 비 예상
+  if (summary === "흐림") return "from-zinc-500 to-zinc-700";
+  if (summary === "구름많음") return "from-sky-500 to-blue-600";
+  return "from-sky-400 to-blue-500";                          // 맑음/기본
+}
+
+function weatherIcon(summary: string, pop: number): string {
+  if (pop >= 60) return "🌧";
+  if (summary === "흐림") return "☁️";
+  if (summary === "구름많음") return "⛅";
+  return "☀️";
 }
 
 function FreshPolicies({

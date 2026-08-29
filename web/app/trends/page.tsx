@@ -3,16 +3,16 @@ import Link from "next/link";
 import { Flag } from "@/components/Flag";
 import { COUNTRIES, COUNTRY_SOURCES, SOURCE_LABELS } from "@/lib/trends";
 
-/** 국가별 시그니처 그라디언트 (7개 모두 시각적으로 완전히 구분). */
+/** 국가별 시그니처 그라디언트 - 국가 대표 문화/상징 색상 기반. red 중복 최소화. */
 function countryGradient(code: string): string {
   const map: Record<string, string> = {
-    kr: "from-rose-600 via-pink-500 to-amber-400",    // 한국: rose→금 (궁궐 컬러)
-    us: "from-blue-700 via-indigo-800 to-slate-900",  // 미국: 짙은 navy (star field)
-    jp: "from-red-500 via-red-600 to-red-800",         // 일본: 순수 빨강 (일장기)
-    uk: "from-slate-900 via-red-700 to-slate-900",    // 영국: navy+red (유니언잭)
-    tw: "from-sky-500 via-cyan-500 to-teal-600",       // 대만: 청천 (하늘색)
-    de: "from-zinc-900 via-red-600 to-yellow-400",    // 독일: 검빨노 (국기 3색)
-    vn: "from-red-700 via-orange-500 to-yellow-500",   // 베트남: 빨금 (혁명)
+    kr: "from-rose-500 via-pink-500 to-amber-400",     // 한국: 궁궐 단청 (rose+gold, K-culture)
+    us: "from-blue-800 via-indigo-900 to-slate-900",   // 미국: 짙은 navy (star field, Ivy)
+    jp: "from-red-500 via-rose-600 to-red-700",         // 일본: 일장기 순수 red
+    uk: "from-purple-700 via-purple-900 to-indigo-950", // 영국: royal purple (왕실)
+    tw: "from-emerald-500 via-teal-500 to-cyan-600",   // 대만: emerald (섬 자연, 옥)
+    de: "from-amber-500 via-yellow-500 to-orange-600", // 독일: gold amber (Bundesrepublik + Oktoberfest)
+    vn: "from-red-700 via-orange-500 to-yellow-500",   // 베트남: 빨금 (혁명 + 별)
   };
   return map[code] ?? "from-indigo-600 to-indigo-800";
 }

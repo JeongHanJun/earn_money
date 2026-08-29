@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import Link from "next/link";
 import { GoogleAnalytics } from "@next/third-parties/google";
-import { SearchBar } from "@/components/SearchBar";
+import { HeaderSearch } from "@/components/HeaderSearch";
 import "./globals.css";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID;
@@ -157,11 +157,6 @@ function SiteHeader() {
   );
 }
 
-function HeaderSearch() {
-  return (
-    <SearchBar placeholder="정책·지원금 검색 (예: 청년 주거, 의료비)" />
-  );
-}
 
 function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
