@@ -325,20 +325,19 @@ function sourceHint(slug: string, count: number, type: string): string {
 
 function countryHeroGradient(code: string): string {
   const map: Record<string, string> = {
-    kr: "from-red-500 via-white via-50% to-blue-600",  // 태극기
-    us: "from-red-600 via-white via-50% to-blue-700",  // 성조기
-    jp: "from-red-600 to-red-700",                      // 일장기
-    uk: "from-blue-800 via-red-600 to-blue-800",       // 유니언잭
-    tw: "from-blue-800 via-red-600 to-red-500",        // 청천백일만지홍
-    de: "from-zinc-900 via-red-600 to-amber-500",      // 검/빨/노
-    vn: "from-red-700 via-red-600 to-amber-500",       // 빨강+노란별
+    kr: "from-rose-600 via-pink-500 to-amber-400",
+    us: "from-blue-700 via-indigo-800 to-slate-900",
+    jp: "from-red-500 via-red-600 to-red-800",
+    uk: "from-slate-900 via-red-700 to-slate-900",
+    tw: "from-sky-500 via-cyan-500 to-teal-600",
+    de: "from-zinc-900 via-red-600 to-yellow-400",
+    vn: "from-red-700 via-orange-500 to-yellow-500",
   };
   return map[code] ?? "from-indigo-600 to-indigo-800";
 }
 
-function countryHeroTextClass(code: string): string {
-  if (code === "kr" || code === "us") return "text-zinc-900 [text-shadow:0_1px_2px_rgba(255,255,255,0.6)]";
-  return "text-white [text-shadow:0_1px_2px_rgba(0,0,0,0.3)]";
+function countryHeroTextClass(_code: string): string {
+  return "text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.4)]";
 }
 
 // ---------- Icons ----------

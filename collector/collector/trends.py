@@ -124,6 +124,26 @@ def _extract_publisher_from_title(title: str) -> tuple[str, str]:
     return title, ""
 
 
+# 국가별 native script regex (Google Trends 관련 기사 언어 필터용)
+# 국제 브랜드명(예: "tvn")이 여러 국가에서 검색될 때, Google이 다른 언어권 기사를
+# 잘못 매칭하는 경우를 걸러냄. 원문에 해당 언어 문자가 없으면 제외.
+_NATIVE_SCRIPT_PATTERNS: dict[str, re.Pattern[str]] = {
+    "kr": re.compile(r"[가-힯]"),                     # Hangul syllables
+    "jp": re.compile(r"[぀-ゟ゠-ヿ]"),        # 히라가나 + 가타카나 (한자만은 중국어 오탐)
+    "tw": re.compile(r"[一-鿿]"),                     # 한자 (Traditional)
+    "vn": re.compile(r"[À-ỹ]"),                     # Vietnamese diacritics range
+    # de/us/uk: Latin 기본이라 필터 없음. de는 umlaut 있어도 없어도 유효.
+}
+
+
+def _matches_native_script(text: str, country: str) -> bool:
+    """text에 country의 native script가 포함되는지. 없거나 국가에 필터 없으면 True."""
+    pattern = _NATIVE_SCRIPT_PATTERNS.get(country)
+    if pattern is None:
+        return True
+    return bool(pattern.search(text))
+
+
 def _rss_get(session: requests.Session, url: str, timeout: float = 10.0):
     """공통 RSS/Atom 파싱 - ET.Element 반환, 실패 시 None."""
     try:
@@ -220,12 +240,17 @@ def fetch_google_news_all(
 
 
 def fetch_google_trends(session: requests.Session, geo: str = "KR") -> list[dict[str, Any]]:
-    """Google Trends 급상승 검색어 (RSS, geo 파라미터)."""
+    """Google Trends 급상승 검색어 (RSS, geo 파라미터).
+
+    관련 기사는 native script 필터 적용 (동일 브랜드명 다국가 오탐 방지).
+    필터 결과 0개면 keyword는 유지하되 articles 빈 배열.
+    """
     url = f"https://trends.google.com/trending/rss?geo={geo}"
     root = _rss_get(session, url)
     if root is None:
         return []
 
+    country_code = geo.lower()
     ns = {"ht": "https://trends.google.com/trending/rss"}
     results: list[dict[str, Any]] = []
     for idx, item in enumerate(root.findall(".//item"), 1):
@@ -233,13 +258,16 @@ def fetch_google_trends(session: requests.Session, geo: str = "KR") -> list[dict
         traffic = (item.findtext("ht:approx_traffic", "", ns) or "").strip()
         pub = _parse_pubdate(item.findtext("pubDate") or "")
 
-        articles: list[dict[str, str]] = []
+        raw_articles: list[dict[str, str]] = []
         for n in item.findall("ht:news_item", ns):
             n_title = _clean_html(n.findtext("ht:news_item_title", "", ns) or "")
             n_url = (n.findtext("ht:news_item_url", "", ns) or "").strip()
             n_source = (n.findtext("ht:news_item_source", "", ns) or "").strip()
             if n_title and n_url:
-                articles.append({"title": n_title, "url": n_url, "source": n_source})
+                raw_articles.append({"title": n_title, "url": n_url, "source": n_source})
+
+        # native script 필터: 국가 언어 문자가 title에 포함된 것만
+        filtered = [a for a in raw_articles if _matches_native_script(a["title"], country_code)]
 
         if not keyword:
             continue
@@ -248,7 +276,7 @@ def fetch_google_trends(session: requests.Session, geo: str = "KR") -> list[dict
             "keyword": keyword,
             "traffic": traffic,
             "pub_date": pub,
-            "articles": articles[:3],
+            "articles": filtered[:3],
         })
     return results
 
