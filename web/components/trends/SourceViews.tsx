@@ -21,20 +21,49 @@ export function GoogleTrendsView({
     return <div className="text-sm text-zinc-500">데이터 없음</div>;
   }
   if (compact) {
+    // 상위 10개 - 순위 뱃지 + 키워드 + 트래픽 + 첫 기사
+    const items = trends.slice(0, 10);
     return (
-      <div className="flex flex-wrap gap-1.5">
-        {trends.slice(0, 10).map((t) => (
-          <span
-            key={t.rank}
-            className="inline-flex items-center gap-1.5 rounded-full border border-rose-200 bg-white px-2.5 py-1 text-xs font-medium text-zinc-700"
-          >
-            <span className="text-rose-500 font-bold">#{t.rank}</span>
-            <span>{t.keyword}</span>
-            {t.traffic && (
-              <span className="text-rose-600 text-[10px]">{t.traffic}</span>
-            )}
-          </span>
-        ))}
+      <div className="grid gap-2 sm:grid-cols-2">
+        {items.map((t) => {
+          const primary = t.articles[0];
+          const rankColor =
+            t.rank <= 3 ? "from-rose-500 to-orange-500" : "from-rose-400 to-rose-500";
+          return (
+            <div
+              key={t.rank}
+              className="group flex items-start gap-3 rounded-xl border border-rose-200 bg-white p-3 hover:border-rose-400 hover:shadow-sm transition-all"
+            >
+              <span
+                className={`shrink-0 inline-flex items-center justify-center h-8 w-8 rounded-lg bg-gradient-to-br ${rankColor} text-white text-sm font-black shadow-sm`}
+              >
+                {t.rank}
+              </span>
+              <div className="min-w-0 flex-1">
+                <div className="flex items-baseline gap-2">
+                  <span className="text-sm font-bold text-zinc-900 truncate">
+                    {t.keyword}
+                  </span>
+                  {t.traffic && (
+                    <span className="ml-auto shrink-0 text-[11px] font-bold text-rose-600">
+                      {t.traffic}
+                    </span>
+                  )}
+                </div>
+                {primary && (
+                  <a
+                    href={primary.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 block text-[12px] text-zinc-600 line-clamp-1 leading-snug hover:text-rose-700 hover:underline"
+                  >
+                    {primary.title}
+                  </a>
+                )}
+              </div>
+            </div>
+          );
+        })}
       </div>
     );
   }
@@ -91,8 +120,10 @@ export function YouTubeView({
   if (videos.length === 0) {
     return <div className="text-sm text-zinc-500">데이터 없음</div>;
   }
-  const cols = compact ? "grid-cols-2 sm:grid-cols-4" : "grid-cols-2 sm:grid-cols-3 md:grid-cols-4";
-  const items = compact ? videos.slice(0, 4) : videos;
+  const cols = compact
+    ? "grid-cols-2 sm:grid-cols-3 md:grid-cols-5"
+    : "grid-cols-2 sm:grid-cols-3 md:grid-cols-4";
+  const items = compact ? videos.slice(0, 10) : videos;
   return (
     <div className={`grid ${cols} gap-3`}>
       {items.map((v) => (

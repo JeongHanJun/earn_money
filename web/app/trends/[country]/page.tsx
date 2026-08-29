@@ -56,17 +56,37 @@ export default async function CountryTrendsPage(
         <CountryTabs active={country} />
       </div>
 
-      <header className="flex items-baseline justify-between border-b border-zinc-200 pb-3">
-        <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-900 flex items-center gap-2">
-          <span aria-hidden>{meta.flag}</span>
-          <span>{meta.name} 실시간 트렌드</span>
-        </h1>
-        <div className="text-xs text-zinc-500 flex items-center gap-1.5">
-          <span
-            className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse"
-            aria-hidden
-          />
-          {formatRelative(updated)}
+      <header
+        className={`rounded-2xl bg-gradient-to-br ${countryHeroGradient(country)} p-5 sm:p-6 text-white shadow-md`}
+      >
+        <div className="flex items-start justify-between gap-3">
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center gap-3">
+              <span className="text-4xl sm:text-5xl leading-none drop-shadow-sm" aria-hidden>
+                {meta.flag}
+              </span>
+              <div>
+                <div className="text-xs font-medium uppercase tracking-wider text-white/85">
+                  {meta.language}
+                </div>
+                <h1 className="text-2xl sm:text-3xl font-black tracking-tight leading-tight">
+                  {meta.name} 실시간 트렌드
+                </h1>
+              </div>
+            </div>
+            <p className="mt-3 text-sm text-white/90 leading-6">
+              {sources.length}개 소스 · 매시간 자동 갱신
+            </p>
+          </div>
+          <div className="shrink-0 flex flex-col items-end gap-1 text-[11px] text-white/90">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-white/25 backdrop-blur-sm px-2.5 py-1 font-medium">
+              <span
+                className="h-1.5 w-1.5 rounded-full bg-white animate-pulse"
+                aria-hidden
+              />
+              {formatRelative(updated)}
+            </span>
+          </div>
         </div>
       </header>
 
@@ -83,12 +103,12 @@ export default async function CountryTrendsPage(
                 key={slug}
                 href={href}
                 label={label}
-                hint={`Google Trends · ${meta.name}`}
-                tint="bg-rose-50/70"
+                hint={`Top 10 · ${meta.name}`}
+                gradient="from-rose-500 via-orange-500 to-amber-500"
                 border="border-rose-200"
-                accent="text-rose-700"
+                icon={<IconTrend />}
               >
-                <GoogleTrendsView trends={data.google_trends.slice(0, 6)} compact />
+                <GoogleTrendsView trends={data.google_trends.slice(0, 10)} compact />
               </SourceCard>
             );
           }
@@ -99,10 +119,10 @@ export default async function CountryTrendsPage(
                 key={slug}
                 href={href}
                 label={label}
-                hint={`YouTube · Top ${data.youtube_popular.length}`}
-                tint="bg-red-50/70"
+                hint={`Top 10 · ${data.youtube_popular.length}개 중`}
+                gradient="from-red-600 via-red-500 to-rose-500"
                 border="border-red-200"
-                accent="text-red-700"
+                icon={<IconPlay />}
               >
                 <YouTubeView videos={data.youtube_popular} compact />
               </SourceCard>
@@ -118,10 +138,10 @@ export default async function CountryTrendsPage(
                 key={slug}
                 href={href}
                 label={label}
-                hint="카테고리별 · 매시간 갱신"
-                tint="bg-sky-50/70"
+                hint="8개 카테고리"
+                gradient="from-sky-500 via-blue-500 to-indigo-500"
                 border="border-sky-200"
-                accent="text-sky-700"
+                icon={<IconNews />}
               >
                 <GoogleNewsView news={data.google_news} compact />
               </SourceCard>
@@ -137,9 +157,9 @@ export default async function CountryTrendsPage(
               href={href}
               label={label}
               hint={sourceHint(slug, src.items.length, src.type)}
-              tint={style.tint}
+              gradient={style.gradient}
               border={style.border}
-              accent={style.accent}
+              icon={style.icon}
             >
               {src.type === "press_groups" ? (
                 <PressGroupsView groups={src.items as PressGroup[]} compact />
@@ -162,45 +182,50 @@ export default async function CountryTrendsPage(
   );
 }
 
-// ---------- Section shell ----------
+// ---------- Section shell (gradient header) ----------
 
 function SourceCard({
   href,
   label,
   hint,
-  tint,
+  gradient,
   border,
-  accent,
+  icon,
   children,
 }: {
   href: string;
   label: string;
   hint?: string;
-  tint: string;
+  gradient: string;
   border: string;
-  accent: string;
+  icon?: React.ReactNode;
   children: React.ReactNode;
 }) {
   return (
     <section
-      className={`rounded-2xl ${tint} border ${border} shadow-[0_1px_2px_rgba(0,0,0,0.02)] overflow-hidden`}
+      className={`rounded-2xl bg-white border ${border} shadow-sm overflow-hidden`}
     >
       <div
-        className={`flex items-center justify-between gap-3 border-b ${border} bg-white/60 px-4 sm:px-5 py-3`}
+        className={`relative flex items-center justify-between gap-3 bg-gradient-to-r ${gradient} px-4 sm:px-5 py-3 text-white`}
       >
-        <div className="flex items-baseline gap-2 min-w-0">
-          <h2 className={`text-base sm:text-lg font-bold tracking-tight ${accent} truncate`}>
-            {label}
-          </h2>
-          {hint && (
-            <span className="hidden sm:inline text-xs text-zinc-500 truncate">
-              · {hint}
+        <div className="flex items-center gap-2.5 min-w-0">
+          {icon && (
+            <span className="shrink-0 inline-flex h-8 w-8 items-center justify-center rounded-lg bg-white/25 backdrop-blur-sm">
+              {icon}
             </span>
           )}
+          <div className="min-w-0">
+            <h2 className="text-base sm:text-lg font-bold tracking-tight truncate leading-tight">
+              {label}
+            </h2>
+            {hint && (
+              <div className="text-[11px] text-white/85 truncate">{hint}</div>
+            )}
+          </div>
         </div>
         <Link
           href={href}
-          className={`shrink-0 text-sm font-medium ${accent} hover:underline`}
+          className="shrink-0 text-sm font-semibold text-white hover:bg-white/20 rounded-md px-2.5 py-1 transition-colors"
         >
           더보기 →
         </Link>
@@ -211,84 +236,84 @@ function SourceCard({
 }
 
 function customSourceStyle(slug: string): {
-  tint: string;
+  gradient: string;
   border: string;
-  accent: string;
+  icon: React.ReactNode;
   viewAccent: "sky" | "red" | "orange" | "blue" | "emerald" | "amber" | "indigo" | "zinc";
 } {
   const map: Record<string, ReturnType<typeof customSourceStyle>> = {
     naver: {
-      tint: "bg-emerald-50/70",
+      gradient: "from-emerald-500 via-green-500 to-teal-500",
       border: "border-emerald-200",
-      accent: "text-emerald-700",
+      icon: <IconLetter c="N" />,
       viewAccent: "emerald",
     },
     daum: {
-      tint: "bg-blue-50/70",
+      gradient: "from-blue-500 via-blue-600 to-indigo-600",
       border: "border-blue-200",
-      accent: "text-blue-700",
+      icon: <IconLetter c="D" />,
       viewAccent: "blue",
     },
     yahoo: {
-      tint: "bg-fuchsia-50/70",
+      gradient: "from-fuchsia-500 via-purple-500 to-indigo-500",
       border: "border-fuchsia-200",
-      accent: "text-fuchsia-700",
+      icon: <IconLetter c="Y!" />,
       viewAccent: "indigo",
     },
     nhk: {
-      tint: "bg-red-50/70",
+      gradient: "from-red-600 via-rose-600 to-pink-600",
       border: "border-red-200",
-      accent: "text-red-700",
+      icon: <IconLetter c="NHK" small />,
       viewAccent: "red",
     },
     nyt: {
-      tint: "bg-zinc-50/70",
+      gradient: "from-zinc-800 via-zinc-900 to-black",
       border: "border-zinc-300",
-      accent: "text-zinc-800",
+      icon: <IconLetter c="NYT" small />,
       viewAccent: "zinc",
     },
     hn: {
-      tint: "bg-orange-50/70",
+      gradient: "from-orange-500 via-amber-500 to-yellow-500",
       border: "border-orange-200",
-      accent: "text-orange-700",
+      icon: <IconLetter c="Y" />,
       viewAccent: "orange",
     },
     bbc: {
-      tint: "bg-red-50/70",
+      gradient: "from-red-700 via-red-600 to-rose-600",
       border: "border-red-200",
-      accent: "text-red-700",
+      icon: <IconLetter c="BBC" small />,
       viewAccent: "red",
     },
     cna: {
-      tint: "bg-emerald-50/70",
+      gradient: "from-emerald-600 via-teal-600 to-cyan-600",
       border: "border-emerald-200",
-      accent: "text-emerald-700",
+      icon: <IconLetter c="CNA" small />,
       viewAccent: "emerald",
     },
     ltn: {
-      tint: "bg-amber-50/70",
+      gradient: "from-amber-500 via-yellow-500 to-orange-500",
       border: "border-amber-200",
-      accent: "text-amber-700",
+      icon: <IconLetter c="LTN" small />,
       viewAccent: "amber",
     },
     spiegel: {
-      tint: "bg-orange-50/70",
+      gradient: "from-red-600 via-orange-700 to-amber-700",
       border: "border-orange-200",
-      accent: "text-orange-700",
+      icon: <IconLetter c="DS" small />,
       viewAccent: "orange",
     },
     vnexpress: {
-      tint: "bg-sky-50/70",
+      gradient: "from-sky-500 via-cyan-500 to-teal-500",
       border: "border-sky-200",
-      accent: "text-sky-700",
+      icon: <IconLetter c="Vn" small />,
       viewAccent: "sky",
     },
   };
   return (
     map[slug] ?? {
-      tint: "bg-zinc-50/70",
+      gradient: "from-zinc-500 to-zinc-700",
       border: "border-zinc-200",
-      accent: "text-zinc-700",
+      icon: <IconLetter c="•" />,
       viewAccent: "zinc",
     }
   );
@@ -297,4 +322,62 @@ function customSourceStyle(slug: string): {
 function sourceHint(slug: string, count: number, type: string): string {
   if (type === "press_groups") return `${count}개 언론사`;
   return `Top ${count}`;
+}
+
+function countryHeroGradient(code: string): string {
+  const map: Record<string, string> = {
+    kr: "from-red-500 via-rose-500 to-indigo-600",
+    us: "from-blue-600 via-indigo-600 to-red-600",
+    jp: "from-red-500 via-pink-500 to-rose-600",
+    uk: "from-blue-700 via-red-600 to-blue-700",
+    tw: "from-red-600 via-rose-500 to-blue-600",
+    de: "from-zinc-900 via-red-600 to-amber-500",
+    vn: "from-red-600 via-red-500 to-amber-400",
+  };
+  return map[code] ?? "from-indigo-600 to-indigo-800";
+}
+
+// ---------- Icons ----------
+
+function IconLetter({ c, small = false }: { c: string; small?: boolean }) {
+  return (
+    <span className={`font-black text-white ${small ? "text-[10px]" : "text-sm"}`}>
+      {c}
+    </span>
+  );
+}
+
+function IconTrend() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5">
+      <path
+        d="M3 17l6-6 4 4 8-8M14 7h7v7"
+        stroke="white"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+function IconPlay() {
+  return (
+    <svg viewBox="0 0 24 24" fill="white" className="h-5 w-5">
+      <path d="M8 5v14l11-7z" />
+    </svg>
+  );
+}
+
+function IconNews() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5">
+      <path
+        d="M4 6h16M4 12h16M4 18h10"
+        stroke="white"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
 }

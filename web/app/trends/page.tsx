@@ -2,6 +2,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { COUNTRIES, COUNTRY_SOURCES, SOURCE_LABELS } from "@/lib/trends";
 
+function countryGradient(code: string): string {
+  const map: Record<string, string> = {
+    kr: "from-red-500 via-rose-500 to-indigo-600",
+    us: "from-blue-600 via-indigo-600 to-red-600",
+    jp: "from-red-500 via-pink-500 to-rose-600",
+    uk: "from-blue-700 via-red-600 to-blue-700",
+    tw: "from-red-600 via-rose-500 to-blue-600",
+    de: "from-zinc-900 via-red-600 to-amber-500",
+    vn: "from-red-600 via-red-500 to-amber-400",
+  };
+  return map[code] ?? "from-indigo-600 to-indigo-800";
+}
+
 export const metadata: Metadata = {
   title: "실시간 트렌드 · 국가별",
   description:
@@ -36,52 +49,57 @@ export default function TrendsPage() {
           {COUNTRIES.map((c) => {
             const sources = COUNTRY_SOURCES[c.code] ?? [];
             const isDefault = c.code === "kr";
+            const gradient = countryGradient(c.code);
             return (
               <Link
                 key={c.code}
                 href={`/trends/${c.code}`}
                 className={
-                  "group block rounded-2xl border bg-white p-5 shadow-sm hover:shadow-md transition-all " +
+                  "group relative block overflow-hidden rounded-2xl border bg-white shadow-sm hover:shadow-lg transition-all " +
                   (isDefault
                     ? "border-indigo-400 ring-2 ring-indigo-100"
-                    : "border-zinc-200 hover:border-indigo-400")
+                    : "border-zinc-200 hover:border-zinc-300")
                 }
               >
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-3">
-                    <span
-                      className="text-3xl leading-none"
-                      aria-hidden
-                    >
-                      {c.flag}
-                    </span>
-                    <div>
-                      <div className="text-lg font-bold tracking-tight text-zinc-900">
-                        {c.name}
-                      </div>
-                      <div className="text-[11px] text-zinc-500">
-                        {c.language}
+                <div className={`bg-gradient-to-br ${gradient} p-5 text-white`}>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-3">
+                      <span
+                        className="text-4xl leading-none drop-shadow-sm"
+                        aria-hidden
+                      >
+                        {c.flag}
+                      </span>
+                      <div>
+                        <div className="text-xl font-black tracking-tight">
+                          {c.name}
+                        </div>
+                        <div className="text-[11px] text-white/85 font-medium">
+                          {c.language}
+                        </div>
                       </div>
                     </div>
+                    {isDefault && (
+                      <span className="shrink-0 rounded-full bg-white/25 backdrop-blur-sm px-2 py-0.5 text-[10px] font-bold text-white">
+                        기본
+                      </span>
+                    )}
                   </div>
-                  {isDefault && (
-                    <span className="shrink-0 rounded-full bg-indigo-100 px-2 py-0.5 text-[10px] font-bold text-indigo-700">
-                      기본
-                    </span>
-                  )}
                 </div>
-                <div className="mt-4 flex flex-wrap gap-1.5">
-                  {sources.map((s) => (
-                    <span
-                      key={s}
-                      className="inline-flex items-center rounded-md border border-zinc-200 bg-zinc-50 px-2 py-0.5 text-[11px] font-medium text-zinc-700"
-                    >
-                      {SOURCE_LABELS[s] ?? s}
-                    </span>
-                  ))}
-                </div>
-                <div className="mt-4 text-sm font-medium text-indigo-600 group-hover:underline">
-                  트렌드 보기 →
+                <div className="p-4">
+                  <div className="flex flex-wrap gap-1.5">
+                    {sources.map((s) => (
+                      <span
+                        key={s}
+                        className="inline-flex items-center rounded-md border border-zinc-200 bg-zinc-50 px-2 py-0.5 text-[11px] font-medium text-zinc-700"
+                      >
+                        {SOURCE_LABELS[s] ?? s}
+                      </span>
+                    ))}
+                  </div>
+                  <div className="mt-3 text-sm font-semibold text-indigo-600 group-hover:underline">
+                    트렌드 보기 →
+                  </div>
                 </div>
               </Link>
             );
