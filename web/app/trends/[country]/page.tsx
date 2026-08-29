@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Flag } from "@/components/Flag";
 import { CountryTabs } from "@/components/trends/CountryTabs";
 import {
   ArticlesView,
@@ -57,16 +58,14 @@ export default async function CountryTrendsPage(
       </div>
 
       <header
-        className={`rounded-2xl bg-gradient-to-br ${countryHeroGradient(country)} p-5 sm:p-6 text-white shadow-md`}
+        className={`rounded-2xl bg-gradient-to-br ${countryHeroGradient(country)} p-5 sm:p-6 ${countryHeroTextClass(country)} shadow-md`}
       >
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-3">
-              <span className="text-4xl sm:text-5xl leading-none drop-shadow-sm" aria-hidden>
-                {meta.flag}
-              </span>
+              <Flag code={country} size={80} className="ring-2 ring-white/60" alt={`${meta.name} 국기`} />
               <div>
-                <div className="text-xs font-medium uppercase tracking-wider text-white/85">
+                <div className="text-xs font-medium uppercase tracking-wider opacity-90">
                   {meta.language}
                 </div>
                 <h1 className="text-2xl sm:text-3xl font-black tracking-tight leading-tight">
@@ -74,14 +73,14 @@ export default async function CountryTrendsPage(
                 </h1>
               </div>
             </div>
-            <p className="mt-3 text-sm text-white/90 leading-6">
+            <p className="mt-3 text-sm opacity-90 leading-6">
               {sources.length}개 소스 · 매시간 자동 갱신
             </p>
           </div>
-          <div className="shrink-0 flex flex-col items-end gap-1 text-[11px] text-white/90">
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-white/25 backdrop-blur-sm px-2.5 py-1 font-medium">
+          <div className="shrink-0 flex flex-col items-end gap-1 text-[11px] opacity-90">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-white/70 backdrop-blur-sm px-2.5 py-1 font-medium text-zinc-900">
               <span
-                className="h-1.5 w-1.5 rounded-full bg-white animate-pulse"
+                className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse"
                 aria-hidden
               />
               {formatRelative(updated)}
@@ -326,15 +325,20 @@ function sourceHint(slug: string, count: number, type: string): string {
 
 function countryHeroGradient(code: string): string {
   const map: Record<string, string> = {
-    kr: "from-red-500 via-rose-500 to-indigo-600",
-    us: "from-blue-600 via-indigo-600 to-red-600",
-    jp: "from-red-500 via-pink-500 to-rose-600",
-    uk: "from-blue-700 via-red-600 to-blue-700",
-    tw: "from-red-600 via-rose-500 to-blue-600",
-    de: "from-zinc-900 via-red-600 to-amber-500",
-    vn: "from-red-600 via-red-500 to-amber-400",
+    kr: "from-red-500 via-white via-50% to-blue-600",  // 태극기
+    us: "from-red-600 via-white via-50% to-blue-700",  // 성조기
+    jp: "from-red-600 to-red-700",                      // 일장기
+    uk: "from-blue-800 via-red-600 to-blue-800",       // 유니언잭
+    tw: "from-blue-800 via-red-600 to-red-500",        // 청천백일만지홍
+    de: "from-zinc-900 via-red-600 to-amber-500",      // 검/빨/노
+    vn: "from-red-700 via-red-600 to-amber-500",       // 빨강+노란별
   };
   return map[code] ?? "from-indigo-600 to-indigo-800";
+}
+
+function countryHeroTextClass(code: string): string {
+  if (code === "kr" || code === "us") return "text-zinc-900 [text-shadow:0_1px_2px_rgba(255,255,255,0.6)]";
+  return "text-white [text-shadow:0_1px_2px_rgba(0,0,0,0.3)]";
 }
 
 // ---------- Icons ----------
