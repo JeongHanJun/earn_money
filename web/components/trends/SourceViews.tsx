@@ -20,10 +20,20 @@ export function GoogleTrendsView({
   if (trends.length === 0) {
     return <div className="text-sm text-zinc-500">데이터 없음</div>;
   }
+  // 상세 페이지에서만 표시: traffic 값 설명
+  const trafficNote = !compact ? (
+    <p className="text-xs text-zinc-500 mb-3 leading-5">
+      <span className="inline-flex items-center rounded bg-rose-50 border border-rose-200 px-1.5 py-0.5 mr-1.5 text-rose-700 font-semibold text-[10px]">
+        예: 500+
+      </span>
+      최근 24시간 검색 수 근사값 (500+ = 약 500회 이상 검색됨)
+    </p>
+  ) : null;
   if (compact) {
     // 상위 10개 - 순위 뱃지 + 키워드 + 트래픽 + 첫 기사
     const items = trends.slice(0, 10);
     return (
+      <div>
       <div className="grid gap-2 sm:grid-cols-2">
         {items.map((t) => {
           const primary = t.articles[0];
@@ -45,7 +55,10 @@ export function GoogleTrendsView({
                     {t.keyword}
                   </span>
                   {t.traffic && (
-                    <span className="ml-auto shrink-0 text-[11px] font-bold text-rose-600">
+                    <span
+                      className="ml-auto shrink-0 text-[11px] font-bold text-rose-600"
+                      title="최근 24시간 검색 수 근사값"
+                    >
                       {t.traffic}
                     </span>
                   )}
@@ -65,10 +78,16 @@ export function GoogleTrendsView({
           );
         })}
       </div>
+      <p className="mt-3 text-[11px] text-zinc-500 leading-5">
+        <span className="font-semibold text-rose-600">숫자 (예: 500+)</span> = 최근 24시간 검색 수 근사값
+      </p>
+      </div>
     );
   }
   return (
-    <ol className="space-y-3">
+    <div>
+      {trafficNote}
+      <ol className="space-y-3">
       {trends.map((t) => (
         <li
           key={t.rank}
@@ -78,7 +97,10 @@ export function GoogleTrendsView({
             <span className="text-sm font-bold text-rose-600">#{t.rank}</span>
             <span className="text-lg font-bold text-zinc-900">{t.keyword}</span>
             {t.traffic && (
-              <span className="ml-auto text-xs font-semibold text-rose-600">
+              <span
+                className="ml-auto text-xs font-semibold text-rose-600"
+                title="최근 24시간 검색 수 근사값"
+              >
                 {t.traffic}
               </span>
             )}
@@ -104,7 +126,8 @@ export function GoogleTrendsView({
           )}
         </li>
       ))}
-    </ol>
+      </ol>
+    </div>
   );
 }
 

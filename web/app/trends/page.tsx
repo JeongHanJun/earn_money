@@ -1,18 +1,27 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Flag } from "@/components/Flag";
 import { COUNTRIES, COUNTRY_SOURCES, SOURCE_LABELS } from "@/lib/trends";
 
+/** 국기 컬러 기반 그라디언트 (각 국가 국기 색). */
 function countryGradient(code: string): string {
   const map: Record<string, string> = {
-    kr: "from-red-500 via-rose-500 to-indigo-600",
-    us: "from-blue-600 via-indigo-600 to-red-600",
-    jp: "from-red-500 via-pink-500 to-rose-600",
-    uk: "from-blue-700 via-red-600 to-blue-700",
-    tw: "from-red-600 via-rose-500 to-blue-600",
-    de: "from-zinc-900 via-red-600 to-amber-500",
-    vn: "from-red-600 via-red-500 to-amber-400",
+    kr: "from-red-500 via-white via-50% to-blue-600",  // 태극기: 빨/흰/파
+    us: "from-red-600 via-white via-50% to-blue-700",  // 성조기: 빨/흰/파
+    jp: "from-red-600 to-red-700",                      // 일장기: 빨강
+    uk: "from-blue-800 via-red-600 to-blue-800",       // 유니언잭
+    tw: "from-blue-800 via-red-600 to-red-500",        // 청천백일만지홍
+    de: "from-zinc-900 via-red-600 to-amber-500",      // 검/빨/노
+    vn: "from-red-700 via-red-600 to-amber-500",       // 빨강+노란 별
   };
   return map[code] ?? "from-indigo-600 to-indigo-800";
+}
+
+/** 국기 그라디언트 위에서도 텍스트 대비 확보 위한 색상. */
+function countryTextClass(code: string): string {
+  // KR/US은 중간에 white가 있어서 텍스트가 흰색이면 잘 안 보임 → 검정+strong shadow
+  if (code === "kr" || code === "us") return "text-zinc-900 drop-shadow-[0_1px_1px_rgba(255,255,255,0.7)]";
+  return "text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.3)]";
 }
 
 export const metadata: Metadata = {
@@ -61,29 +70,26 @@ export default function TrendsPage() {
                     : "border-zinc-200 hover:border-zinc-300")
                 }
               >
-                <div className={`bg-gradient-to-br ${gradient} p-5 text-white`}>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-3">
-                      <span
-                        className="text-4xl leading-none drop-shadow-sm"
-                        aria-hidden
-                      >
-                        {c.flag}
-                      </span>
-                      <div>
-                        <div className="text-xl font-black tracking-tight">
+                <div className={`bg-gradient-to-br ${gradient} p-5 ${countryTextClass(c.code)}`}>
+                  <div className="flex items-center justify-between gap-3">
+                    <div className="flex items-center gap-3 min-w-0">
+                      <Flag code={c.code} size={40} className="ring-2 ring-white/50" alt={`${c.name} 국기`} />
+                      <div className="min-w-0">
+                        <div className="text-xl font-black tracking-tight truncate">
                           {c.name}
                         </div>
-                        <div className="text-[11px] text-white/85 font-medium">
+                        <div className="text-[11px] font-medium opacity-85">
                           {c.language}
                         </div>
                       </div>
                     </div>
-                    {isDefault && (
-                      <span className="shrink-0 rounded-full bg-white/25 backdrop-blur-sm px-2 py-0.5 text-[10px] font-bold text-white">
-                        기본
-                      </span>
-                    )}
+                    <div className="shrink-0 flex items-center gap-1.5">
+                      {isDefault && (
+                        <span className="rounded-full bg-white/70 backdrop-blur-sm px-2 py-0.5 text-[10px] font-bold text-zinc-900">
+                          기본
+                        </span>
+                      )}
+                    </div>
                   </div>
                 </div>
                 <div className="p-4">

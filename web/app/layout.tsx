@@ -188,8 +188,8 @@ function SiteFooter() {
             ryanpp
           </div>
           <p className="mt-2 text-sm text-zinc-500 leading-6 max-w-sm">
-            공공데이터포털·기관 공식 API를 기반으로 매일 자동 정리되는
-            정보 사이트입니다.
+            공공데이터포털·기관 공식 API 및 주요 매체 RSS를 기반으로
+            자동 정리되는 정보 사이트입니다.
           </p>
         </div>
         <div className="flex gap-6 text-sm">

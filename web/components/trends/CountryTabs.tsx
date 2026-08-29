@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Flag } from "@/components/Flag";
 import { COUNTRIES } from "@/lib/trends";
 
 export function CountryTabs({ active }: { active: string }) {
@@ -14,15 +15,13 @@ export function CountryTabs({ active }: { active: string }) {
             key={c.code}
             href={`/trends/${c.code}`}
             className={
-              "shrink-0 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm font-medium transition-colors " +
+              "shrink-0 inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm font-medium transition-colors " +
               (isActive
                 ? "border-indigo-500 bg-indigo-50 text-indigo-700"
                 : "border-zinc-200 bg-white text-zinc-600 hover:border-zinc-300 hover:text-zinc-900")
             }
           >
-            <span aria-hidden className="text-base leading-none">
-              {c.flag}
-            </span>
+            <Flag code={c.code} size={20} alt={`${c.name} 국기`} />
             <span>{c.name}</span>
           </Link>
         );
