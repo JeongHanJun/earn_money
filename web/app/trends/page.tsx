@@ -3,25 +3,23 @@ import Link from "next/link";
 import { Flag } from "@/components/Flag";
 import { COUNTRIES, COUNTRY_SOURCES, SOURCE_LABELS } from "@/lib/trends";
 
-/** 국기 컬러 기반 그라디언트 (각 국가 국기 색). */
+/** 국가별 시그니처 그라디언트 (7개 모두 시각적으로 완전히 구분). */
 function countryGradient(code: string): string {
   const map: Record<string, string> = {
-    kr: "from-red-500 via-white via-50% to-blue-600",  // 태극기: 빨/흰/파
-    us: "from-red-600 via-white via-50% to-blue-700",  // 성조기: 빨/흰/파
-    jp: "from-red-600 to-red-700",                      // 일장기: 빨강
-    uk: "from-blue-800 via-red-600 to-blue-800",       // 유니언잭
-    tw: "from-blue-800 via-red-600 to-red-500",        // 청천백일만지홍
-    de: "from-zinc-900 via-red-600 to-amber-500",      // 검/빨/노
-    vn: "from-red-700 via-red-600 to-amber-500",       // 빨강+노란 별
+    kr: "from-rose-600 via-pink-500 to-amber-400",    // 한국: rose→금 (궁궐 컬러)
+    us: "from-blue-700 via-indigo-800 to-slate-900",  // 미국: 짙은 navy (star field)
+    jp: "from-red-500 via-red-600 to-red-800",         // 일본: 순수 빨강 (일장기)
+    uk: "from-slate-900 via-red-700 to-slate-900",    // 영국: navy+red (유니언잭)
+    tw: "from-sky-500 via-cyan-500 to-teal-600",       // 대만: 청천 (하늘색)
+    de: "from-zinc-900 via-red-600 to-yellow-400",    // 독일: 검빨노 (국기 3색)
+    vn: "from-red-700 via-orange-500 to-yellow-500",   // 베트남: 빨금 (혁명)
   };
   return map[code] ?? "from-indigo-600 to-indigo-800";
 }
 
-/** 국기 그라디언트 위에서도 텍스트 대비 확보 위한 색상. */
-function countryTextClass(code: string): string {
-  // KR/US은 중간에 white가 있어서 텍스트가 흰색이면 잘 안 보임 → 검정+strong shadow
-  if (code === "kr" || code === "us") return "text-zinc-900 drop-shadow-[0_1px_1px_rgba(255,255,255,0.7)]";
-  return "text-white drop-shadow-[0_1px_2px_rgba(0,0,0,0.3)]";
+/** 그라디언트 위 텍스트 색 (모두 흰색 + 그림자로 대비 확보). */
+function countryTextClass(_code: string): string {
+  return "text-white [text-shadow:0_1px_3px_rgba(0,0,0,0.4)]";
 }
 
 export const metadata: Metadata = {
@@ -85,7 +83,7 @@ export default function TrendsPage() {
                     </div>
                     <div className="shrink-0 flex items-center gap-1.5">
                       {isDefault && (
-                        <span className="rounded-full bg-white/70 backdrop-blur-sm px-2 py-0.5 text-[10px] font-bold text-zinc-900">
+                        <span className="rounded-full bg-white/90 backdrop-blur-sm px-2 py-0.5 text-[10px] font-bold text-zinc-900">
                           기본
                         </span>
                       )}
@@ -113,14 +111,6 @@ export default function TrendsPage() {
         </div>
       </section>
 
-      <section className="rounded-xl border border-zinc-200 bg-white p-4 text-sm text-zinc-600 leading-6">
-        <div className="font-semibold text-zinc-900">데이터 소스</div>
-        <p className="mt-1">
-          Google Trends (RSS), YouTube Data API v3, Google News (RSS),
-          각국 주요 매체 공식 RSS/HTML. 매 시간 자동 갱신. 원문 링크는
-          각 항목 클릭 시 새 탭에서 열립니다.
-        </p>
-      </section>
     </div>
   );
 }

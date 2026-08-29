@@ -82,7 +82,62 @@ export default function PrivacyPage() {
         </p>
       </Section>
 
-      <Section title="7. 문의처">
+      <Section title="7. 데이터 소스">
+        <p className="text-zinc-700 leading-8">
+          본 사이트의 각 서비스는 다음 공공/공식 데이터 소스를 기반으로
+          자동 수집·정리됩니다. 각 항목은 원문 링크를 통해 발행사로
+          이동되며, 최종 판단은 반드시 원문에서 확인해주시기 바랍니다.
+        </p>
+
+        <div className="mt-4 space-y-4">
+          <div>
+            <h3 className="font-semibold text-zinc-900 mb-2">
+              정책·지원금 · 청년정책
+            </h3>
+            <BulletList
+              items={[
+                "공공데이터포털 (data.go.kr) — 중앙부처 복지서비스 461개",
+                "온통청년 (youthcenter.go.kr) — 청년정책 2,700+개",
+                "매일 새벽 자동 갱신",
+              ]}
+            />
+          </div>
+          <div>
+            <h3 className="font-semibold text-zinc-900 mb-2">
+              날씨
+            </h3>
+            <BulletList
+              items={[
+                "기상청 단기예보 API (data.go.kr / apis.data.go.kr/1360000/VilageFcstInfoService_2.0)",
+                "전국 17개 시·도 + 250개 시·군·구 3일 단기예보",
+                "매시간 자동 갱신 (KST 02·05·08·11·14·17·20·23시 발표 기준)",
+              ]}
+            />
+          </div>
+          <div>
+            <h3 className="font-semibold text-zinc-900 mb-2">
+              트렌드 (7개국)
+            </h3>
+            <BulletList
+              items={[
+                "Google Trends (RSS, geo 파라미터로 국가별)",
+                "YouTube Data API v3 (regionCode 국가별 인기 동영상)",
+                "Google News (RSS, hl/gl/ceid 국가별 8 카테고리)",
+                "🇰🇷 Naver popularDay, Daum 인기 뉴스",
+                "🇺🇸 New York Times RSS, HackerNews (Firebase API)",
+                "🇯🇵 Yahoo! Japan News Topics RSS, NHK RSS",
+                "🇬🇧 BBC News RSS",
+                "🇹🇼 CNA 中央社, 自由時報 (Liberty Times)",
+                "🇩🇪 Der Spiegel",
+                "🇻🇳 VnExpress",
+                "매시간 자동 갱신",
+              ]}
+            />
+          </div>
+        </div>
+      </Section>
+
+      <Section title="8. 문의처">
         <p className="text-zinc-700 leading-8">
           개인정보 처리에 관한 문의는 이메일로 접수됩니다.
         </p>
