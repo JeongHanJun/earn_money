@@ -1,53 +1,103 @@
-"""트렌드 수집기 - Google News + HackerNews + Google Trends + YouTube + Naver + Daum."""
+"""트렌드 수집기 - 국가별 (KR/JP/US/UK/TW/DE/VN).
+
+각 국가마다:
+- Google Trends 급상승 검색어 (RSS, geo 파라미터)
+- YouTube 인기 동영상 (Data API v3, regionCode)
+- Google News (RSS, hl/gl/ceid) - 8 카테고리
+- 국가 특화 소스 (NHK, BBC, Yahoo Japan, NYT+HN, CNA+UDN, Der Spiegel, VnExpress, Naver, Daum)
+"""
 from __future__ import annotations
 
 import os
 import re
 import xml.etree.ElementTree as ET
-from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Any
 
 import requests
 
 
-# Google News RSS 카테고리 (한국)
-GOOGLE_NEWS_CATEGORIES: dict[str, dict[str, str]] = {
-    "top": {"topic": "", "name": "주요 뉴스"},
-    "nation": {"topic": "NATION", "name": "국내"},
-    "world": {"topic": "WORLD", "name": "세계"},
-    "business": {"topic": "BUSINESS", "name": "경제"},
-    "technology": {"topic": "TECHNOLOGY", "name": "IT·과학"},
-    "entertainment": {"topic": "ENTERTAINMENT", "name": "연예"},
-    "sports": {"topic": "SPORTS", "name": "스포츠"},
-    "health": {"topic": "HEALTH", "name": "건강"},
+# --- Google News 표준 topic 슬러그 (Google이 언어별로 알아서 번역) ---
+NEWS_CATEGORIES: dict[str, str] = {
+    "top": "",
+    "nation": "NATION",
+    "world": "WORLD",
+    "business": "BUSINESS",
+    "technology": "TECHNOLOGY",
+    "entertainment": "ENTERTAINMENT",
+    "sports": "SPORTS",
+    "health": "HEALTH",
+}
+
+# 표시명 (한글 UI 기준)
+CATEGORY_NAMES_KO: dict[str, str] = {
+    "top": "주요",
+    "nation": "국내",
+    "world": "세계",
+    "business": "경제",
+    "technology": "IT·과학",
+    "entertainment": "연예",
+    "sports": "스포츠",
+    "health": "건강",
+}
+
+# --- 국가 registry ---
+COUNTRIES: dict[str, dict[str, Any]] = {
+    "kr": {
+        "name": "한국",
+        "flag": "🇰🇷",
+        "hl": "ko", "gl": "KR", "ceid": "KR:ko",
+        "geo": "KR", "region": "KR",
+        "custom_sources": ["naver_ranking", "daum_ranking"],
+    },
+    "jp": {
+        "name": "일본",
+        "flag": "🇯🇵",
+        "hl": "ja", "gl": "JP", "ceid": "JP:ja",
+        "geo": "JP", "region": "JP",
+        "custom_sources": ["yahoo_japan", "nhk"],
+    },
+    "us": {
+        "name": "미국",
+        "flag": "🇺🇸",
+        "hl": "en-US", "gl": "US", "ceid": "US:en",
+        "geo": "US", "region": "US",
+        "custom_sources": ["nyt", "hackernews"],
+    },
+    "uk": {
+        "name": "영국",
+        "flag": "🇬🇧",
+        "hl": "en-GB", "gl": "GB", "ceid": "GB:en",
+        "geo": "GB", "region": "GB",
+        "custom_sources": ["bbc"],
+    },
+    "tw": {
+        "name": "대만",
+        "flag": "🇹🇼",
+        "hl": "zh-TW", "gl": "TW", "ceid": "TW:zh-Hant",
+        "geo": "TW", "region": "TW",
+        "custom_sources": ["cna", "ltn"],
+    },
+    "de": {
+        "name": "독일",
+        "flag": "🇩🇪",
+        "hl": "de", "gl": "DE", "ceid": "DE:de",
+        "geo": "DE", "region": "DE",
+        "custom_sources": ["der_spiegel"],
+    },
+    "vn": {
+        "name": "베트남",
+        "flag": "🇻🇳",
+        "hl": "vi", "gl": "VN", "ceid": "VN:vi",
+        "geo": "VN", "region": "VN",
+        "custom_sources": ["vnexpress"],
+    },
 }
 
 
-@dataclass
-class TrendItem:
-    title: str
-    link: str
-    description: str
-    source: str
-    category: str
-    category_name: str
-    publisher: str
-    pub_date: str
-    fetched_at: str
+# --- 공통 유틸 ---
 
-    def to_json(self) -> dict[str, Any]:
-        return {
-            "title": self.title,
-            "link": self.link,
-            "description": self.description,
-            "source": self.source,
-            "category": self.category,
-            "category_name": self.category_name,
-            "publisher": self.publisher,
-            "pub_date": self.pub_date,
-            "fetched_at": self.fetched_at,
-        }
+_UA = "Mozilla/5.0 (ryanpp-collector)"
 
 
 def _clean_html(s: str) -> str:
@@ -74,39 +124,74 @@ def _extract_publisher_from_title(title: str) -> tuple[str, str]:
     return title, ""
 
 
-def fetch_google_news(
-    session: requests.Session,
-    slug: str,
-    limit: int = 15,
-    timeout: float = 10.0,
-) -> list[TrendItem]:
-    info = GOOGLE_NEWS_CATEGORIES[slug]
-    if info["topic"]:
-        url = (
-            f"https://news.google.com/rss/headlines/section/topic/{info['topic']}"
-            f"?hl=ko&gl=KR&ceid=KR:ko"
-        )
-    else:
-        url = "https://news.google.com/rss?hl=ko&gl=KR&ceid=KR:ko"
-
-    now = datetime.now(timezone.utc).isoformat()
+def _rss_get(session: requests.Session, url: str, timeout: float = 10.0):
+    """공통 RSS/Atom 파싱 - ET.Element 반환, 실패 시 None."""
     try:
-        resp = session.get(
-            url, timeout=timeout,
-            headers={"User-Agent": "Mozilla/5.0 (ryanpp-collector)"},
-        )
+        resp = session.get(url, timeout=timeout, headers={"User-Agent": _UA})
         resp.raise_for_status()
+        return ET.fromstring(resp.content)
     except Exception as e:
-        print(f"[FAIL] google news {slug}: {e}")
+        print(f"[FAIL] fetch {url}: {e}")
+        return None
+
+
+def _rss_articles(session: requests.Session, url: str, limit: int = 15) -> list[dict[str, Any]]:
+    """일반 RSS 파서 - <item>/<entry> 에서 title/link/description/pubDate 추출.
+
+    RSS 2.0 및 Atom 둘 다 지원.
+    """
+    root = _rss_get(session, url)
+    if root is None:
         return []
 
-    try:
-        root = ET.fromstring(resp.text)
-    except ET.ParseError as e:
-        print(f"[FAIL] parse {slug}: {e}")
+    ns_atom = {"atom": "http://www.w3.org/2005/Atom"}
+    items_xml = root.findall(".//item")
+    is_atom = False
+    if not items_xml:
+        items_xml = root.findall(".//atom:entry", ns_atom)
+        is_atom = True
+
+    out: list[dict[str, Any]] = []
+    for elem in items_xml[:limit]:
+        if is_atom:
+            title = _clean_html(elem.findtext("atom:title", "", ns_atom) or "")
+            link_el = elem.find("atom:link", ns_atom)
+            link = (link_el.get("href") if link_el is not None else "").strip()
+            desc = _clean_html(elem.findtext("atom:summary", "", ns_atom) or "")
+            pub = _parse_pubdate(elem.findtext("atom:published", "", ns_atom) or "")
+        else:
+            title = _clean_html(elem.findtext("title") or "")
+            link = (elem.findtext("link") or "").strip()
+            desc = _clean_html(elem.findtext("description") or "")
+            pub = _parse_pubdate(elem.findtext("pubDate") or "")
+
+        if not title or not link:
+            continue
+        out.append({
+            "title": title,
+            "link": link,
+            "description": desc[:200],
+            "pub_date": pub,
+        })
+    return out
+
+
+# --- Google 계열 (국가 파라미터) ---
+
+def fetch_google_news_category(
+    session: requests.Session, hl: str, gl: str, ceid: str,
+    slug: str, limit: int = 15,
+) -> list[dict[str, Any]]:
+    topic = NEWS_CATEGORIES[slug]
+    if topic:
+        url = f"https://news.google.com/rss/headlines/section/topic/{topic}?hl={hl}&gl={gl}&ceid={ceid}"
+    else:
+        url = f"https://news.google.com/rss?hl={hl}&gl={gl}&ceid={ceid}"
+    root = _rss_get(session, url)
+    if root is None:
         return []
 
-    items: list[TrendItem] = []
+    items: list[dict[str, Any]] = []
     for elem in root.findall(".//item")[:limit]:
         raw_title = _clean_html(elem.findtext("title") or "")
         title, publisher = _extract_publisher_from_title(raw_title)
@@ -115,75 +200,30 @@ def fetch_google_news(
         pub = _parse_pubdate(elem.findtext("pubDate") or "")
         if not title or not link:
             continue
-        items.append(TrendItem(
-            title=title,
-            link=link,
-            description=desc[:200],
-            source="Google News",
-            category=slug,
-            category_name=info["name"],
-            publisher=publisher,
-            pub_date=pub,
-            fetched_at=now,
-        ))
+        items.append({
+            "title": title,
+            "link": link,
+            "description": desc[:200],
+            "publisher": publisher,
+            "pub_date": pub,
+        })
     return items
 
 
-def fetch_hackernews(session: requests.Session, limit: int = 15,
-                     timeout: float = 10.0) -> list[TrendItem]:
-    now = datetime.now(timezone.utc).isoformat()
-    try:
-        top_ids = session.get(
-            "https://hacker-news.firebaseio.com/v0/topstories.json",
-            timeout=timeout,
-        ).json()[:limit]
-    except Exception as e:
-        print(f"[FAIL] hackernews top: {e}")
-        return []
-
-    items: list[TrendItem] = []
-    for hid in top_ids:
-        try:
-            story = session.get(
-                f"https://hacker-news.firebaseio.com/v0/item/{hid}.json",
-                timeout=timeout,
-            ).json()
-            if not story or "title" not in story:
-                continue
-            items.append(TrendItem(
-                title=story["title"],
-                link=story.get("url") or f"https://news.ycombinator.com/item?id={hid}",
-                description=f"{story.get('score', 0)} points · {story.get('descendants', 0)} comments",
-                source="HackerNews",
-                category="it_global",
-                category_name="글로벌 IT",
-                publisher="HackerNews",
-                pub_date=datetime.fromtimestamp(story.get("time", 0), timezone.utc).isoformat()
-                if story.get("time") else "",
-                fetched_at=now,
-            ))
-        except Exception:
-            continue
-    return items
+def fetch_google_news_all(
+    session: requests.Session, hl: str, gl: str, ceid: str, per_category: int = 15,
+) -> dict[str, list[dict[str, Any]]]:
+    out: dict[str, list[dict[str, Any]]] = {}
+    for slug in NEWS_CATEGORIES:
+        out[slug] = fetch_google_news_category(session, hl, gl, ceid, slug, per_category)
+    return out
 
 
-# ---------- Google Trends 실시간 급상승 검색어 (RSS) ----------
-
-def fetch_google_trends(session: requests.Session, timeout: float = 10.0) -> list[dict[str, Any]]:
-    """Google Trends 한국 급상승 검색어 (RSS 엔드포인트)."""
-    url = "https://trends.google.com/trending/rss?geo=KR"
-    try:
-        resp = session.get(url, timeout=timeout,
-                           headers={"User-Agent": "Mozilla/5.0 (ryanpp-collector)"})
-        resp.raise_for_status()
-    except Exception as e:
-        print(f"[FAIL] google trends: {e}")
-        return []
-
-    try:
-        root = ET.fromstring(resp.content)
-    except ET.ParseError as e:
-        print(f"[FAIL] google trends parse: {e}")
+def fetch_google_trends(session: requests.Session, geo: str = "KR") -> list[dict[str, Any]]:
+    """Google Trends 급상승 검색어 (RSS, geo 파라미터)."""
+    url = f"https://trends.google.com/trending/rss?geo={geo}"
+    root = _rss_get(session, url)
+    if root is None:
         return []
 
     ns = {"ht": "https://trends.google.com/trending/rss"}
@@ -213,27 +253,25 @@ def fetch_google_trends(session: requests.Session, timeout: float = 10.0) -> lis
     return results
 
 
-# ---------- YouTube 한국 인기 동영상 (Data API v3) ----------
-
-def fetch_youtube_popular(session: requests.Session, api_key: str,
-                          limit: int = 25, timeout: float = 10.0) -> list[dict[str, Any]]:
-    """YouTube Data API v3 - chart=mostPopular, regionCode=KR."""
+def fetch_youtube_popular(
+    session: requests.Session, api_key: str, region: str = "KR", limit: int = 25,
+) -> list[dict[str, Any]]:
     if not api_key:
         return []
     url = "https://www.googleapis.com/youtube/v3/videos"
     params = {
         "part": "snippet,statistics",
         "chart": "mostPopular",
-        "regionCode": "KR",
+        "regionCode": region,
         "maxResults": limit,
         "key": api_key,
     }
     try:
-        resp = session.get(url, params=params, timeout=timeout)
+        resp = session.get(url, params=params, timeout=10.0)
         resp.raise_for_status()
         data = resp.json()
     except Exception as e:
-        print(f"[FAIL] youtube popular: {e}")
+        print(f"[FAIL] youtube {region}: {e}")
         return []
 
     results: list[dict[str, Any]] = []
@@ -255,24 +293,51 @@ def fetch_youtube_popular(session: requests.Session, api_key: str,
     return results
 
 
-# ---------- Naver 뉴스 랭킹 (많이 본 뉴스, 언론사별) ----------
+# --- 국가별 특화 소스 ---
 
-def fetch_naver_ranking(session: requests.Session, per_press: int = 5,
-                        timeout: float = 10.0) -> list[dict[str, Any]]:
-    """Naver popularDay - 언론사별 많이 본 뉴스."""
+def fetch_hackernews(session: requests.Session, limit: int = 15) -> list[dict[str, Any]]:
+    try:
+        top_ids = session.get(
+            "https://hacker-news.firebaseio.com/v0/topstories.json",
+            timeout=10.0,
+        ).json()[:limit]
+    except Exception as e:
+        print(f"[FAIL] hackernews: {e}")
+        return []
+
+    items: list[dict[str, Any]] = []
+    for hid in top_ids:
+        try:
+            story = session.get(
+                f"https://hacker-news.firebaseio.com/v0/item/{hid}.json",
+                timeout=10.0,
+            ).json()
+            if not story or "title" not in story:
+                continue
+            items.append({
+                "title": story["title"],
+                "link": story.get("url") or f"https://news.ycombinator.com/item?id={hid}",
+                "description": f"{story.get('score', 0)} points · {story.get('descendants', 0)} comments",
+                "publisher": "HackerNews",
+                "pub_date": datetime.fromtimestamp(story.get("time", 0), timezone.utc).isoformat()
+                if story.get("time") else "",
+            })
+        except Exception:
+            continue
+    return items
+
+
+def fetch_naver_ranking(session: requests.Session, per_press: int = 5) -> list[dict[str, Any]]:
+    """Naver popularDay - 언론사별 많이 본 뉴스 (반환: [{press, items:[{rank,title,link}]}])."""
     url = "https://news.naver.com/main/ranking/popularDay.naver"
     try:
-        resp = session.get(
-            url, timeout=timeout,
-            headers={"User-Agent": "Mozilla/5.0 (ryanpp-collector)"},
-        )
+        resp = session.get(url, timeout=10.0, headers={"User-Agent": _UA})
         resp.raise_for_status()
     except Exception as e:
-        print(f"[FAIL] naver ranking: {e}")
+        print(f"[FAIL] naver: {e}")
         return []
 
     html = resp.content.decode("euc-kr", errors="replace")
-
     box_pattern = re.compile(
         r'<div class="rankingnews_box"[^>]*>(.*?)</div>\s*</div>',
         re.DOTALL,
@@ -296,29 +361,20 @@ def fetch_naver_ranking(session: requests.Session, per_press: int = 5,
     return results
 
 
-# ---------- Daum 뉴스 인기 랭킹 ----------
-
-def fetch_daum_ranking(session: requests.Session, limit: int = 20,
-                       timeout: float = 10.0) -> list[dict[str, Any]]:
-    """Daum media.daum.net/ranking/popular."""
+def fetch_daum_ranking(session: requests.Session, limit: int = 20) -> list[dict[str, Any]]:
     url = "https://media.daum.net/ranking/popular"
     try:
-        resp = session.get(
-            url, timeout=timeout, allow_redirects=True,
-            headers={"User-Agent": "Mozilla/5.0 (ryanpp-collector)"},
-        )
+        resp = session.get(url, timeout=10.0, allow_redirects=True, headers={"User-Agent": _UA})
         resp.raise_for_status()
     except Exception as e:
-        print(f"[FAIL] daum ranking: {e}")
+        print(f"[FAIL] daum: {e}")
         return []
 
-    # Daum 서버가 charset 헤더 없이 UTF-8 반환 → requests가 ISO-8859-1로 오판.
     html = resp.content.decode("utf-8", errors="replace")
     pattern = re.compile(
         r'<a[^>]*href="(https?://v\.daum\.net/v/\d+)"[^>]*>(.*?)</a>',
         re.DOTALL,
     )
-    # 접근성 라벨, 이미지 alt 텍스트 등 실제 제목이 아닌 항목 제외
     SKIP_LABELS = {"동영상", "포토", "관련기사", "썸네일", "이미지", "사진"}
     seen: set[str] = set()
     results: list[dict[str, Any]] = []
@@ -331,39 +387,134 @@ def fetch_daum_ranking(session: requests.Session, limit: int = 20,
         if title in SKIP_LABELS:
             continue
         seen.add(link)
-        results.append({
-            "rank": len(results) + 1,
-            "title": title[:120],
-            "link": link,
-        })
+        results.append({"rank": len(results) + 1, "title": title[:120], "link": link})
         if len(results) >= limit:
             break
     return results
+
+
+def fetch_yahoo_japan_topics(session: requests.Session) -> list[dict[str, Any]]:
+    return _rss_articles(session, "https://news.yahoo.co.jp/rss/topics/top-picks.xml")
+
+
+def fetch_nhk_news(session: requests.Session) -> list[dict[str, Any]]:
+    return _rss_articles(session, "https://www3.nhk.or.jp/rss/news/cat0.xml")
+
+
+def fetch_nyt_rss(session: requests.Session) -> list[dict[str, Any]]:
+    return _rss_articles(session, "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml")
+
+
+def fetch_bbc_news(session: requests.Session) -> list[dict[str, Any]]:
+    return _rss_articles(session, "https://feeds.bbci.co.uk/news/rss.xml")
+
+
+def fetch_cna_taiwan(session: requests.Session) -> list[dict[str, Any]]:
+    return _rss_articles(session, "https://feeds.feedburner.com/rsscna/politics")
+
+
+def fetch_ltn_taiwan(session: requests.Session) -> list[dict[str, Any]]:
+    return _rss_articles(session, "https://news.ltn.com.tw/rss/all.xml")
+
+
+def fetch_der_spiegel(session: requests.Session) -> list[dict[str, Any]]:
+    return _rss_articles(session, "https://www.spiegel.de/schlagzeilen/index.rss")
+
+
+def fetch_vnexpress(session: requests.Session) -> list[dict[str, Any]]:
+    return _rss_articles(session, "https://vnexpress.net/rss/tin-moi-nhat.rss")
+
+
+# --- 커스텀 소스 dispatch table (key → (표시명, 렌더타입, fetcher)) ---
+CUSTOM_SOURCES: dict[str, dict[str, Any]] = {
+    "naver_ranking": {
+        "name": "Naver 언론사 랭킹",
+        "type": "press_groups",
+        "fetcher": fetch_naver_ranking,
+    },
+    "daum_ranking": {
+        "name": "Daum 인기 뉴스",
+        "type": "articles",
+        "fetcher": fetch_daum_ranking,
+    },
+    "yahoo_japan": {
+        "name": "Yahoo! Japan 주요 뉴스",
+        "type": "articles",
+        "fetcher": fetch_yahoo_japan_topics,
+    },
+    "nhk": {
+        "name": "NHK 뉴스",
+        "type": "articles",
+        "fetcher": fetch_nhk_news,
+    },
+    "nyt": {
+        "name": "New York Times",
+        "type": "articles",
+        "fetcher": fetch_nyt_rss,
+    },
+    "hackernews": {
+        "name": "HackerNews",
+        "type": "articles",
+        "fetcher": fetch_hackernews,
+    },
+    "bbc": {
+        "name": "BBC News",
+        "type": "articles",
+        "fetcher": fetch_bbc_news,
+    },
+    "cna": {
+        "name": "CNA 中央社",
+        "type": "articles",
+        "fetcher": fetch_cna_taiwan,
+    },
+    "ltn": {
+        "name": "自由時報 (Liberty Times)",
+        "type": "articles",
+        "fetcher": fetch_ltn_taiwan,
+    },
+    "der_spiegel": {
+        "name": "Der Spiegel",
+        "type": "articles",
+        "fetcher": fetch_der_spiegel,
+    },
+    "vnexpress": {
+        "name": "VnExpress",
+        "type": "articles",
+        "fetcher": fetch_vnexpress,
+    },
+}
 
 
 class TrendsClient:
     def __init__(self) -> None:
         self._session = requests.Session()
 
-    def fetch_all(self, per_category: int = 15, hn_limit: int = 15) -> dict[str, Any]:
-        google_by_category: dict[str, list[dict]] = {}
-        for slug in GOOGLE_NEWS_CATEGORIES:
-            items = fetch_google_news(self._session, slug, per_category)
-            google_by_category[slug] = [it.to_json() for it in items]
-
-        hn = fetch_hackernews(self._session, hn_limit)
-        google_trends = fetch_google_trends(self._session)
+    def fetch_country(self, code: str, per_category: int = 15) -> dict[str, Any]:
+        c = COUNTRIES[code]
         yt_key = os.environ.get("YOUTUBE_API_KEY", "")
-        youtube = fetch_youtube_popular(self._session, yt_key, limit=25)
-        naver = fetch_naver_ranking(self._session, per_press=5)
-        daum = fetch_daum_ranking(self._session, limit=20)
+
+        google_trends = fetch_google_trends(self._session, geo=c["geo"])
+        youtube = fetch_youtube_popular(self._session, yt_key, region=c["region"], limit=25)
+        google_news = fetch_google_news_all(
+            self._session, c["hl"], c["gl"], c["ceid"], per_category
+        )
+
+        custom: dict[str, dict[str, Any]] = {}
+        for src in c["custom_sources"]:
+            spec = CUSTOM_SOURCES[src]
+            items = spec["fetcher"](self._session)
+            custom[src] = {
+                "name": spec["name"],
+                "type": spec["type"],
+                "items": items,
+            }
 
         return {
-            "google_news": google_by_category,
-            "hackernews": [it.to_json() for it in hn],
+            "country_code": code,
+            "country_name": c["name"],
+            "flag": c["flag"],
             "google_trends": google_trends,
             "youtube_popular": youtube,
-            "naver_ranking": naver,
-            "daum_ranking": daum,
-            "fetched_at": datetime.now(timezone.utc).isoformat(),
+            "google_news": google_news,
+            "custom": custom,
         }
