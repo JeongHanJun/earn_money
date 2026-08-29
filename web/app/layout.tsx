@@ -1,7 +1,8 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import Link from "next/link";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { SearchBar } from "@/components/SearchBar";
 import "./globals.css";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID;
@@ -45,6 +46,26 @@ export const metadata: Metadata = {
       "application/rss+xml": [{ url: "/rss.xml", title: "최신 정책·지원금" }],
     },
   },
+  manifest: "/manifest.webmanifest",
+  applicationName: "ryanpp",
+  appleWebApp: {
+    capable: true,
+    title: "ryanpp",
+    statusBarStyle: "default",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: [{ url: "/icon.svg", type: "image/svg+xml" }],
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#4f46e5",
+  width: "device-width",
+  initialScale: 1,
 };
 
 const SITE_JSON_LD = {
@@ -105,11 +126,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
 
 function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 bg-white/85 backdrop-blur border-b border-zinc-200/70">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
+    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-zinc-200/70">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between gap-3">
         <Link
           href="/"
-          className="flex items-center gap-2 font-semibold tracking-tight"
+          className="shrink-0 flex items-center gap-2 font-semibold tracking-tight"
         >
           <span
             className="inline-block h-2.5 w-2.5 rounded-full"
@@ -118,13 +139,27 @@ function SiteHeader() {
           />
           <span>ryanpp</span>
         </Link>
-        <nav className="flex items-center gap-1 text-sm font-medium">
+        <nav className="shrink-0 hidden sm:flex items-center gap-1 text-sm font-medium">
           <NavLink href="/weather">날씨</NavLink>
           <NavLink href="/policy">정책·지원금</NavLink>
           <NavLink href="/trends">트렌드</NavLink>
         </nav>
+        <nav className="shrink-0 flex sm:hidden items-center gap-0.5 text-xs font-medium">
+          <NavLink href="/weather">날씨</NavLink>
+          <NavLink href="/policy">정책</NavLink>
+          <NavLink href="/trends">트렌드</NavLink>
+        </nav>
+      </div>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-2.5">
+        <HeaderSearch />
       </div>
     </header>
+  );
+}
+
+function HeaderSearch() {
+  return (
+    <SearchBar placeholder="정책·지원금 검색 (예: 청년 주거, 의료비)" />
   );
 }
 

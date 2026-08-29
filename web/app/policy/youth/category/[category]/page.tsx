@@ -64,10 +64,37 @@ export default async function YouthCategoryPage(
       </header>
 
       <div className="grid gap-3">
-        {sorted.map((p) => (
+        {sorted.slice(0, 50).map((p) => (
           <YouthCard key={p.plcy_no} policy={p} />
         ))}
       </div>
+
+      {sorted.length > 50 && (
+        <section aria-labelledby="more-heading" className="mt-8">
+          <h2
+            id="more-heading"
+            className="text-lg font-semibold tracking-tight mb-3"
+          >
+            더 많은 {cat} 정책 ({sorted.length - 50}개)
+          </h2>
+          <p className="text-xs text-zinc-500 mb-4 leading-5">
+            상단 검색바에서 키워드로 빠르게 찾을 수 있습니다.
+          </p>
+          <ul className="grid sm:grid-cols-2 gap-x-4 gap-y-1.5 text-sm">
+            {sorted.slice(50).map((p) => (
+              <li key={p.plcy_no}>
+                <Link
+                  href={`/policy/youth/${p.plcy_no}`}
+                  className="block text-zinc-700 hover:text-amber-700 hover:underline leading-6 truncate"
+                  title={p.name}
+                >
+                  {p.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </div>
   );
 }
