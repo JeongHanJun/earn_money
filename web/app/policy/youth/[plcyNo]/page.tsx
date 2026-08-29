@@ -193,7 +193,7 @@ export default async function YouthDetail(
         />
       )}
 
-      <AdSlot slot="youth-detail-mid" />
+      <AdSlot slot="8051785333" />
 
 
       <section className="grid gap-4 sm:grid-cols-2">
@@ -275,6 +275,8 @@ export default async function YouthDetail(
           </div>
         </section>
       )}
+
+      <AdSlot slot="2799458650" format="autorelaxed" responsive={false} />
 
       <p className="text-xs text-zinc-400 text-center">
         정보 오류·최신성 확인 필수. 실 신청은 상단 신청 링크에서.

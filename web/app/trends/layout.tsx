@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AdSlot } from "@/components/AdSlot";
 import { KakaoAdSlot } from "@/components/KakaoAdSlot";
 
 export default function TrendsLayout({
@@ -9,6 +10,7 @@ export default function TrendsLayout({
   return (
     <>
       {children}
+      <AdSlot slot="2624198832" />
       <KakaoAdSlot />
       <p className="mt-6 text-xs text-zinc-500 text-center">
         데이터 소스 상세는{" "}

@@ -198,7 +198,7 @@ export default async function ServiceDetail(
         <ContactsSection contacts={detail.inquiry_contacts} />
       )}
 
-      <AdSlot slot="policy-detail-mid" />
+      <AdSlot slot="9364867007" />
 
 
       {detail?.forms && detail.forms.length > 0 && (
@@ -279,6 +279,8 @@ export default async function ServiceDetail(
           </div>
         </section>
       )}
+
+      <AdSlot slot="2799458650" format="autorelaxed" responsive={false} />
 
       <p className="text-xs text-zinc-400 text-center">
         정보 오류·최신성 확인 필수. 실 신청은 상단 원문 링크에서.

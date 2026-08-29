@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AdSlot } from "@/components/AdSlot";
 import { KakaoAdSlot } from "@/components/KakaoAdSlot";
 import { recentServices } from "@/lib/policy";
 import { loadCountry, type GoogleTrend } from "@/lib/trends";
@@ -55,6 +56,7 @@ export default function HomePage() {
       <FreshTrends trends={trends} />
       <FreshWeather items={weather} />
       <FreshPolicies services={newPolicies} youth={newYouth} />
+      <AdSlot slot="2767669061" />
       <UpdateStrip />
       <KakaoAdSlot />
       <SourceNote />
