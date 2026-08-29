@@ -325,12 +325,12 @@ function sourceHint(slug: string, count: number, type: string): string {
 
 function countryHeroGradient(code: string): string {
   const map: Record<string, string> = {
-    kr: "from-rose-600 via-pink-500 to-amber-400",
-    us: "from-blue-700 via-indigo-800 to-slate-900",
-    jp: "from-red-500 via-red-600 to-red-800",
-    uk: "from-slate-900 via-red-700 to-slate-900",
-    tw: "from-sky-500 via-cyan-500 to-teal-600",
-    de: "from-zinc-900 via-red-600 to-yellow-400",
+    kr: "from-rose-500 via-pink-500 to-amber-400",
+    us: "from-blue-800 via-indigo-900 to-slate-900",
+    jp: "from-red-500 via-rose-600 to-red-700",
+    uk: "from-purple-700 via-purple-900 to-indigo-950",
+    tw: "from-emerald-500 via-teal-500 to-cyan-600",
+    de: "from-amber-500 via-yellow-500 to-orange-600",
     vn: "from-red-700 via-orange-500 to-yellow-500",
   };
   return map[code] ?? "from-indigo-600 to-indigo-800";
