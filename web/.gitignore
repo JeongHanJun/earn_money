@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# generated at build (prebuild script)
+/public/search-index.json
+
 # production
 /build
 

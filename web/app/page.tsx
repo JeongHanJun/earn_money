@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { KakaoAdSlot } from "@/components/KakaoAdSlot";
+import { SearchBar } from "@/components/SearchBar";
 import { recentServices } from "@/lib/policy";
 import { recentYouthPolicies } from "@/lib/youth";
 import type { WelfareService } from "@/lib/policy";
@@ -11,12 +12,24 @@ export default function HomePage() {
   return (
     <div className="space-y-14">
       <Hero />
+      <HomeSearch />
       <FeatureCards />
       <FreshPolicies services={newPolicies} youth={newYouth} />
       <UpdateStrip />
       <KakaoAdSlot />
       <SourceNote />
     </div>
+  );
+}
+
+function HomeSearch() {
+  return (
+    <section aria-label="정책 검색" className="max-w-2xl">
+      <SearchBar />
+      <div className="mt-2 text-xs text-zinc-500 leading-5">
+        3,200개 정책·지원금을 이름·부처·주제로 즉시 검색
+      </div>
+    </section>
   );
 }
 

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { SearchBar } from "@/components/SearchBar";
 import { YouthCard } from "@/components/YouthCard";
 import {
   allYouthPolicies,
@@ -50,6 +51,9 @@ export default function YouthLanding() {
           온통청년 기반 · 일자리·주거·교육·복지·참여 5개 분야 ·
           <strong className="text-zinc-900"> 각 정책마다 실 신청 링크</strong>.
         </p>
+        <div className="mt-5 max-w-2xl">
+          <SearchBar placeholder="청년정책 검색 (예: 주거, 창업, 취업지원)" />
+        </div>
       </header>
 
       <section>
