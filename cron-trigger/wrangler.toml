@@ -1,0 +1,15 @@
+name = "ryanpp-cron-trigger"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# 매시간 정각. CF Workers cron은 GitHub cron과 달리 정확히 fire됨.
+[triggers]
+crons = ["0 * * * *"]
+
+[vars]
+REPO = "JeongHanJun/earn_money"
+WORKFLOW = "daily-deploy.yml"
+REF = "main"
+
+# GITHUB_TOKEN은 secret으로 등록:
+#   cd cron-trigger && npx wrangler secret put GITHUB_TOKEN
