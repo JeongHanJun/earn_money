@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SearchBar } from "@/components/SearchBar";
 import { ServiceCard } from "@/components/ServiceCard";
 import {
   allServices,
@@ -45,9 +44,6 @@ export default function PolicyLanding() {
           공공데이터 API 기반 · <strong className="text-zinc-900">각 정책마다 실 신청 링크</strong> ·
           신청 조건, 담당부처, 자격 요건까지 한눈에.
         </p>
-        <div className="mt-5 max-w-2xl">
-          <SearchBar />
-        </div>
       </header>
 
       <section className="grid gap-4 sm:grid-cols-2">

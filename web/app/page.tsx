@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { KakaoAdSlot } from "@/components/KakaoAdSlot";
-import { SearchBar } from "@/components/SearchBar";
 import { recentServices } from "@/lib/policy";
 import { recentYouthPolicies } from "@/lib/youth";
 import type { WelfareService } from "@/lib/policy";
@@ -12,24 +11,12 @@ export default function HomePage() {
   return (
     <div className="space-y-14">
       <Hero />
-      <HomeSearch />
       <FeatureCards />
       <FreshPolicies services={newPolicies} youth={newYouth} />
       <UpdateStrip />
       <KakaoAdSlot />
       <SourceNote />
     </div>
-  );
-}
-
-function HomeSearch() {
-  return (
-    <section aria-label="정책 검색" className="max-w-2xl">
-      <SearchBar />
-      <div className="mt-2 text-xs text-zinc-500 leading-5">
-        3,200개 정책·지원금을 이름·부처·주제로 즉시 검색
-      </div>
-    </section>
   );
 }
 
@@ -106,18 +93,32 @@ function Hero() {
           className="h-1.5 w-1.5 rounded-full bg-indigo-500 animate-pulse"
           aria-hidden
         />
-        자동 수집·정리 시스템
+        매시간 자동 갱신
       </div>
       <h1 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight leading-tight text-zinc-900">
-        <span className="text-indigo-600">놓치기 쉬운 정보</span>,
-        <br className="hidden sm:block" /> 지금 필요한 것만 모아드립니다.
+        놓치기 쉬운 <span className="text-indigo-600">정책·지원금</span>,
+        <br className="hidden sm:block" /> 지금 확인해보세요.
       </h1>
-      <p className="mt-4 text-lg text-zinc-600 leading-8 max-w-2xl">
-        공공데이터 기반의 최신 <strong className="text-zinc-900">정책·지원금</strong>과
-        <strong className="text-zinc-900"> 지역별 날씨</strong>,
+      <p className="mt-4 text-base sm:text-lg text-zinc-600 leading-7 sm:leading-8 max-w-2xl">
+        공공데이터 기반 <strong className="text-zinc-900">3,200개 정책·지원금</strong>,
+        <strong className="text-zinc-900"> 전국 250 시·군·구 날씨</strong>,
         <strong className="text-zinc-900"> 실시간 트렌드</strong>를
-        자동으로 정리해서 보여드립니다.
+        한곳에서 확인하세요.
       </p>
+      <div className="mt-6 flex flex-wrap gap-2 text-sm">
+        <Link
+          href="/policy"
+          className="inline-flex items-center rounded-lg bg-indigo-600 text-white px-4 py-2 font-medium hover:bg-indigo-700 transition-colors"
+        >
+          정책 둘러보기 →
+        </Link>
+        <Link
+          href="/weather"
+          className="inline-flex items-center rounded-lg border border-zinc-300 bg-white text-zinc-700 px-4 py-2 font-medium hover:border-zinc-400 hover:bg-zinc-50 transition-colors"
+        >
+          우리 동네 날씨
+        </Link>
+      </div>
     </section>
   );
 }
@@ -147,8 +148,8 @@ function FeatureCards() {
       <FeatureCard
         href="/policy"
         title="정책·지원금"
-        desc="청년정책, 중앙부처 복지서비스 등 오늘 신청 가능한 지원 정보."
-        freq="매일 갱신"
+        desc="청년정책 2,700+, 중앙부처 복지 461개. 실 신청 링크 포함."
+        freq="매시간 갱신"
         accent="indigo"
         icon={
           <svg viewBox="0 0 24 24" fill="none" className="h-6 w-6">
@@ -164,7 +165,7 @@ function FeatureCards() {
       <FeatureCard
         href="/trends"
         title="실시간 트렌드"
-        desc="Google Trends, Naver DataLab, Reddit 등 실시간 인기 키워드."
+        desc="Google Trends·YouTube·Naver·Daum·HN 6개 소스 실시간 랭킹."
         freq="매시간 갱신"
         accent="amber"
         icon={
@@ -256,15 +257,32 @@ function FeatureCard({
 function UpdateStrip() {
   return (
     <section className="rounded-2xl bg-gradient-to-br from-indigo-600 to-indigo-800 p-6 sm:p-8 text-white">
-      <div className="text-xs font-medium uppercase tracking-wider text-indigo-200">
-        Coming Soon
+      <div className="flex items-center gap-2 text-xs font-medium uppercase tracking-wider text-indigo-200">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          className="h-4 w-4"
+          aria-hidden
+        >
+          <rect
+            x="4"
+            y="2"
+            width="16"
+            height="20"
+            rx="3"
+            stroke="currentColor"
+            strokeWidth="2"
+          />
+          <circle cx="12" cy="18" r="1" fill="currentColor" />
+        </svg>
+        홈 스크린에 추가
       </div>
       <h2 className="mt-2 text-xl sm:text-2xl font-semibold tracking-tight">
-        모바일 앱으로 알림까지 받아보세요
+        앱처럼 편하게 열어보세요
       </h2>
       <p className="mt-2 text-indigo-100 text-sm sm:text-base leading-6 max-w-xl">
-        관심 카테고리를 등록하면 새로운 정책이 뜰 때 바로 알려드립니다.
-        (곧 출시 예정)
+        모바일 브라우저의 <strong>공유 → 홈 화면에 추가</strong>를 누르면
+        앱 아이콘으로 바로 접근 가능합니다. 별도 다운로드 필요 없음.
       </p>
     </section>
   );

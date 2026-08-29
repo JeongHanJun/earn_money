@@ -1,0 +1,47 @@
+{
+  "name": "ryanpp — 정책·지원금·트렌드",
+  "short_name": "ryanpp",
+  "description": "공공데이터 기반 최신 정책·지원금·지역별 날씨·실시간 트렌드를 매일 자동 정리합니다.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "lang": "ko-KR",
+  "categories": ["news", "government", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "정책·지원금 검색",
+      "short_name": "정책",
+      "url": "/policy",
+      "description": "3,200개 정책·지원금 검색"
+    },
+    {
+      "name": "실시간 트렌드",
+      "short_name": "트렌드",
+      "url": "/trends",
+      "description": "매시간 갱신 트렌드"
+    },
+    {
+      "name": "지역별 날씨",
+      "short_name": "날씨",
+      "url": "/weather",
+      "description": "전국 250 시·군·구"
+    }
+  ]
+}
