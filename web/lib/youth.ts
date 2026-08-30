@@ -138,6 +138,28 @@ export function youthPoliciesForCategory(category: string): YouthPolicy[] {
   );
 }
 
+export const YOUTH_CATEGORY_PAGE_SIZE = 30;
+
+export function youthCategoryPageCount(category: string): number {
+  const total = youthPoliciesForCategory(category).length;
+  return Math.max(1, Math.ceil(total / YOUTH_CATEGORY_PAGE_SIZE));
+}
+
+/**
+ * 카테고리 정책을 조회수 순으로 정렬하고 페이지네이션을 적용한다.
+ * page 는 1-based. 범위를 벗어나면 빈 배열.
+ */
+export function youthCategoryPage(
+  category: string,
+  page: number,
+): YouthPolicy[] {
+  const sorted = [...youthPoliciesForCategory(category)].sort(
+    (a, b) => b.inquiry_count - a.inquiry_count,
+  );
+  const start = (page - 1) * YOUTH_CATEGORY_PAGE_SIZE;
+  return sorted.slice(start, start + YOUTH_CATEGORY_PAGE_SIZE);
+}
+
 export function relatedYouthPolicies(
   policy: YouthPolicy,
   limit = 4
