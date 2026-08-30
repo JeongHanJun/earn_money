@@ -103,9 +103,17 @@ export default function PolicyLanding() {
       </section>
 
       <section id="topics" className="scroll-mt-16">
-        <h2 className="text-lg font-semibold tracking-tight mb-3">
-          관심주제로 찾기
-        </h2>
+        <div className="flex items-baseline justify-between mb-3">
+          <h2 className="text-lg font-semibold tracking-tight">
+            관심주제로 찾기
+          </h2>
+          <Link
+            href="/policy/tags"
+            className="text-sm font-medium text-indigo-600 hover:underline"
+          >
+            전체 태그 →
+          </Link>
+        </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
           {topics.map((t) => (
             <Link

@@ -13,6 +13,7 @@ import {
   youthFaq,
 } from "@/lib/youth";
 import { breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
+import { isActiveTag, tagHref } from "@/lib/tags";
 
 export function generateStaticParams() {
   return allYouthPolicies().map((p) => ({ plcyNo: p.plcy_no }));
@@ -39,14 +40,23 @@ export async function generateMetadata(
     .flatMap((k) => k.split(/[,·]/).map((s) => s.trim()))
     .filter(Boolean);
 
-  const description = policy.description.slice(0, 155);
+  // 롱테일 최적화 description
+  const parts: string[] = [];
+  const desc = policy.description.replace(/\s+/g, " ").trim();
+  if (desc) parts.push(desc.slice(0, 90));
+  if (policy.apply_period) parts.push(`신청기간: ${policy.apply_period.slice(0, 40)}`);
+  if (policy.major_category) parts.push(`분야: ${policy.major_category}`);
+  if (policy.department) parts.push(`담당: ${policy.department}`);
+  const description = parts.join(" · ").slice(0, 155);
+
+  const title = `${policy.name} — 신청기간·조건·방법`;
 
   return {
-    title: policy.name,
+    title,
     description,
     keywords,
     openGraph: {
-      title: policy.name,
+      title,
       description,
       type: "article",
       locale: "ko_KR",
@@ -65,6 +75,15 @@ export default async function YouthDetail(
 
   const related = relatedYouthPolicies(policy, 4);
 
+  const hashtags = [
+    policy.major_category,
+    policy.sub_category,
+    ...(policy.keyword ? policy.keyword.split(",").map((k) => k.trim()) : []),
+    "청년정책",
+  ].filter(Boolean);
+
+  const jsonLdKeywords = Array.from(new Set(hashtags)).join(", ");
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "GovernmentService",
@@ -75,6 +94,7 @@ export default async function YouthDetail(
       name: policy.department,
     },
     ...(policy.apply_url && { url: policy.apply_url }),
+    ...(jsonLdKeywords && { keywords: jsonLdKeywords }),
     ...(policy.min_age > 0 &&
       policy.max_age > 0 && {
         audience: {
@@ -84,13 +104,6 @@ export default async function YouthDetail(
         },
       }),
   };
-
-  const hashtags = [
-    policy.major_category,
-    policy.sub_category,
-    ...(policy.keyword ? policy.keyword.split(",").map((k) => k.trim()) : []),
-    "청년정책",
-  ].filter(Boolean);
 
   const ageText =
     policy.age_limit && policy.min_age > 0 && policy.max_age > 0
@@ -441,16 +454,37 @@ function HashtagSection({ tags }: { tags: string[] }) {
   const unique = Array.from(new Set(tags));
   return (
     <section className="rounded-xl border border-zinc-200 bg-white p-5">
-      <h2 className="text-sm font-semibold text-zinc-500 mb-3">관련 태그</h2>
+      <h2 className="text-sm font-semibold text-zinc-500 mb-3">
+        관련 태그
+        <Link
+          href="/policy/tags"
+          className="ml-2 text-xs font-normal text-amber-600 hover:underline"
+        >
+          전체 태그 →
+        </Link>
+      </h2>
       <div className="flex flex-wrap gap-2">
-        {unique.map((tag) => (
-          <span
-            key={tag}
-            className="inline-flex items-center rounded-full px-3 py-1 text-sm border bg-amber-50 text-amber-700 border-amber-200"
-          >
-            #{tag}
-          </span>
-        ))}
+        {unique.map((tag) => {
+          const active = isActiveTag(tag);
+          const content = (
+            <span
+              className={`inline-flex items-center rounded-full px-3 py-1 text-sm border ${
+                active
+                  ? "bg-amber-50 text-amber-700 border-amber-200 hover:bg-amber-100"
+                  : "bg-zinc-50 text-zinc-500 border-zinc-200"
+              }`}
+            >
+              #{tag}
+            </span>
+          );
+          return active ? (
+            <Link key={tag} href={tagHref(tag)}>
+              {content}
+            </Link>
+          ) : (
+            <span key={tag}>{content}</span>
+          );
+        })}
       </div>
     </section>
   );

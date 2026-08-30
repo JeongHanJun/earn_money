@@ -7,6 +7,7 @@ import {
   servicesByTopic,
   topicSlug,
 } from "@/lib/policy";
+import { activeTags } from "@/lib/tags";
 import {
   allYouthPolicies,
   youthCategoryPageCount,
@@ -24,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/weather`, priority: 0.9, changeFrequency: "hourly", lastModified: now },
     { url: `${BASE}/policy`, priority: 0.9, changeFrequency: "daily", lastModified: now },
     { url: `${BASE}/policy/youth`, priority: 0.9, changeFrequency: "daily", lastModified: now },
+    { url: `${BASE}/policy/tags`, priority: 0.7, changeFrequency: "weekly", lastModified: now },
     { url: `${BASE}/trends`, priority: 0.7, changeFrequency: "hourly", lastModified: now },
     { url: `${BASE}/terms`, priority: 0.2, changeFrequency: "yearly", lastModified: now },
     { url: `${BASE}/privacy`, priority: 0.2, changeFrequency: "yearly", lastModified: now },
@@ -88,6 +90,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  const tagPages: MetadataRoute.Sitemap = activeTags().map((t) => ({
+    url: `${BASE}/policy/tag/${encodeURIComponent(t.slug)}`,
+    priority: 0.6,
+    changeFrequency: "weekly",
+    lastModified: now,
+  }));
+
   return [
     ...staticPages,
     ...provincePages,
@@ -96,5 +105,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...topicPages,
     ...youthPages,
     ...youthCategoryPages,
+    ...tagPages,
   ];
 }
