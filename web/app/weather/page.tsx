@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { KoreaMap } from "@/components/KoreaMap";
+import { MyLocationButton } from "@/components/MyLocationButton";
 import { RegionSelect } from "@/components/RegionSelect";
 
 export const metadata: Metadata = {
@@ -25,6 +26,8 @@ export default function WeatherIndex() {
           지도를 클릭하거나 아래 드롭다운으로 지역을 선택하세요.
         </p>
       </header>
+
+      <MyLocationButton />
 
       <div className="rounded-2xl border border-zinc-200 bg-white p-5">
         <div className="text-sm font-medium text-zinc-500 mb-2">지역 선택</div>
