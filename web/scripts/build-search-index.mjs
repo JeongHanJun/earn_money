@@ -76,6 +76,8 @@ function buildWeatherIndex() {
         m: m.slug,       // municipality slug
         n: m.name,       // 시군구 이름
         p: p.name,       // 시도 이름
+        la: m.lat,       // 위도 (내 위치 매칭용)
+        lo: m.lon,       // 경도
       });
     }
   }
