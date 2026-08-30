@@ -11,12 +11,12 @@ import {
   getServiceDetail,
   relatedServices,
   serviceFaq,
-  topicSlug,
   type ApplyMethod,
   type ContactEntry,
   type UrlEntry,
 } from "@/lib/policy";
 import { breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
+import { isActiveTag, tagHref } from "@/lib/tags";
 
 export function generateStaticParams() {
   return allServices().map((s) => ({ serviceId: s.service_id }));
@@ -42,14 +42,23 @@ export async function generateMetadata(
     detail?.target_groups?.[0],
   ].filter(Boolean) as string[];
 
-  const description = (detail?.outline || service.summary).slice(0, 155);
+  // 롱테일 최적화 description: 검색어로 잡히기 쉬운 조합
+  const parts: string[] = [];
+  const summary = (detail?.outline || service.summary).replace(/\s+/g, " ").trim();
+  if (summary) parts.push(summary.slice(0, 100));
+  if (service.department) parts.push(`담당: ${service.department}`);
+  if (service.support_cycle) parts.push(`지원주기: ${service.support_cycle}`);
+  if (service.online_apply) parts.push("온라인 신청 가능");
+  const description = parts.join(" · ").slice(0, 155);
+
+  const title = `${service.service_name} — 신청조건·지원내용·방법`;
 
   return {
-    title: service.service_name,
+    title,
     description,
     keywords,
     openGraph: {
-      title: service.service_name,
+      title,
       description,
       type: "article",
       locale: "ko_KR",
@@ -57,7 +66,7 @@ export async function generateMetadata(
     },
     twitter: {
       card: "summary",
-      title: service.service_name,
+      title,
       description,
     },
     alternates: {
@@ -76,6 +85,17 @@ export default async function ServiceDetail(
   const detail = getServiceDetail(serviceId);
   const related = relatedServices(service, 4);
 
+  // 해시태그 (target_groups 포함 — detail 데이터 있으면 더 풍부)
+  const hashtags = [
+    ...service.interest_topics,
+    ...service.life_stages,
+    ...(detail?.target_groups ?? []),
+    service.department.replace(/부$/, ""),
+  ].filter(Boolean);
+
+  // JSON-LD 에 keywords 넣기 (Google 리치 결과 힌트)
+  const jsonLdKeywords = Array.from(new Set(hashtags)).join(", ");
+
   // JSON-LD 구조화 데이터 (Google 검색 리치 결과용)
   const jsonLd = {
     "@context": "https://schema.org",
@@ -92,6 +112,7 @@ export default async function ServiceDetail(
       ...(detail?.target_detail && { audienceType: detail.target_detail.slice(0, 200) }),
     },
     url: `https://ryanpp.com/policy/${serviceId}`,
+    ...(jsonLdKeywords && { keywords: jsonLdKeywords }),
     ...(service.detail_url && { sameAs: [service.detail_url] }),
     ...(service.contact && {
       contactPoint: {
@@ -101,14 +122,6 @@ export default async function ServiceDetail(
       },
     }),
   };
-
-  // 해시태그
-  const hashtags = [
-    ...service.interest_topics,
-    ...service.life_stages,
-    ...(detail?.target_groups ?? []),
-    service.department.replace(/부$/, ""),
-  ].filter(Boolean);
 
   const faq = serviceFaq(service, detail);
   const breadcrumb = breadcrumbJsonLd([
@@ -254,7 +267,7 @@ export default async function ServiceDetail(
         </section>
       )}
 
-      <HashtagSection tags={hashtags} interestTopics={service.interest_topics} />
+      <HashtagSection tags={hashtags} />
 
       <KakaoAdSlot />
 
@@ -524,34 +537,35 @@ function FormsSection({ forms }: { forms: UrlEntry[] }) {
   );
 }
 
-function HashtagSection({
-  tags,
-  interestTopics,
-}: {
-  tags: string[];
-  interestTopics: string[];
-}) {
+function HashtagSection({ tags }: { tags: string[] }) {
   const unique = Array.from(new Set(tags));
-  const topicSet = new Set(interestTopics);
   return (
     <section className="rounded-xl border border-zinc-200 bg-white p-5">
-      <h2 className="text-sm font-semibold text-zinc-500 mb-3">관련 태그</h2>
+      <h2 className="text-sm font-semibold text-zinc-500 mb-3">
+        관련 태그
+        <Link
+          href="/policy/tags"
+          className="ml-2 text-xs font-normal text-indigo-600 hover:underline"
+        >
+          전체 태그 →
+        </Link>
+      </h2>
       <div className="flex flex-wrap gap-2">
         {unique.map((tag) => {
-          const isTopic = topicSet.has(tag);
+          const active = isActiveTag(tag);
           const content = (
             <span
               className={`inline-flex items-center rounded-full px-3 py-1 text-sm border ${
-                isTopic
+                active
                   ? "bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100"
-                  : "bg-zinc-50 text-zinc-700 border-zinc-200"
+                  : "bg-zinc-50 text-zinc-500 border-zinc-200"
               }`}
             >
               #{tag}
             </span>
           );
-          return isTopic ? (
-            <Link key={tag} href={`/policy/topic/${topicSlug(tag)}`}>
+          return active ? (
+            <Link key={tag} href={tagHref(tag)}>
               {content}
             </Link>
           ) : (
