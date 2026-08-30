@@ -9,6 +9,7 @@ import {
 } from "@/lib/policy";
 import {
   allYouthPolicies,
+  youthCategoryPageCount,
   youthCategorySlug,
   youthPoliciesByCategory,
 } from "@/lib/youth";
@@ -67,14 +68,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
   }));
 
-  const youthCategoryPages: MetadataRoute.Sitemap = Array.from(
-    youthPoliciesByCategory().keys()
-  ).map((c) => ({
-    url: `${BASE}/policy/youth/category/${youthCategorySlug(c)}`,
-    priority: 0.7,
-    changeFrequency: "daily",
-    lastModified: now,
-  }));
+  const youthCategoryPages: MetadataRoute.Sitemap = [];
+  for (const cat of youthPoliciesByCategory().keys()) {
+    const slug = youthCategorySlug(cat);
+    const pages = youthCategoryPageCount(cat);
+    youthCategoryPages.push({
+      url: `${BASE}/policy/youth/category/${slug}`,
+      priority: 0.7,
+      changeFrequency: "daily",
+      lastModified: now,
+    });
+    for (let n = 2; n <= pages; n++) {
+      youthCategoryPages.push({
+        url: `${BASE}/policy/youth/category/${slug}/page/${n}`,
+        priority: 0.5,
+        changeFrequency: "daily",
+        lastModified: now,
+      });
+    }
+  }
 
   return [
     ...staticPages,
