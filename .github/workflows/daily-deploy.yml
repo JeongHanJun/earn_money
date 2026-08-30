@@ -1,9 +1,9 @@
 name: Hourly collect + build + deploy
 
 on:
-  schedule:
-    # 매시간 정각. 트렌드/날씨는 매시간, welfare/youth는 UTC 16시 (KST 01:00) 만 실행.
-    - cron: "0 * * * *"
+  # Cron 트리거는 CF Worker (ryanpp-cron-trigger) 가 workflow_dispatch 로 매시간 fire.
+  # GitHub schedule cron 은 트로틀링 이슈 + CF Worker 와 중복 실행되며
+  # 원격 push 충돌을 유발하므로 제거함.
   workflow_dispatch:
     inputs:
       skip_collect:
@@ -142,7 +142,17 @@ jobs:
           git add data/
           if git diff --staged --quiet; then
             echo "No data changes to commit."
-          else
-            git commit -m "chore(data): auto-refresh $(date -u +%Y-%m-%d) [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "chore(data): auto-refresh $(date -u +%Y-%m-%d) [skip ci]"
+          # 원격이 앞서있을 수 있으므로 rebase 후 push. 최대 3회 재시도.
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; sleeping before retry..."
+            sleep 5
+          done
+          echo "::error::Failed to push data changes after 3 attempts"
+          exit 1
