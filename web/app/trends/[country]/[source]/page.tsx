@@ -91,7 +91,10 @@ export default async function SourceDetailPage(
 
       <div>
         {key === "google_trends" && (
-          <GoogleTrendsView trends={data.google_trends} />
+          <GoogleTrendsView
+            trends={data.google_trends}
+            gl={country === "uk" ? "GB" : country.toUpperCase()}
+          />
         )}
         {key === "youtube_popular" && (
           <YouTubeView videos={data.youtube_popular} />
