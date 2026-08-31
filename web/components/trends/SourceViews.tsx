@@ -10,12 +10,18 @@ import { CATEGORY_META, formatCount } from "@/lib/trends";
 
 // ============ Google Trends ============
 
+function googleSearchUrl(keyword: string, gl: string): string {
+  return `https://www.google.com/search?q=${encodeURIComponent(keyword)}&gl=${gl}`;
+}
+
 export function GoogleTrendsView({
   trends,
   compact = false,
+  gl = "KR",
 }: {
   trends: GoogleTrend[];
   compact?: boolean;
+  gl?: string;
 }) {
   if (trends.length === 0) {
     return <div className="text-sm text-zinc-500">데이터 없음</div>;
@@ -26,7 +32,7 @@ export function GoogleTrendsView({
       <span className="inline-flex items-center rounded bg-rose-50 border border-rose-200 px-1.5 py-0.5 mr-1.5 text-rose-700 font-semibold text-[10px]">
         예: 500+
       </span>
-      최근 24시간 검색 수 근사값 (500+ = 약 500회 이상 검색됨)
+      최근 24시간 검색 수 근사값 (500+ = 약 500회 이상 검색됨) · 키워드 클릭 시 Google 검색으로 이동
     </p>
   ) : null;
   if (compact) {
@@ -51,9 +57,15 @@ export function GoogleTrendsView({
               </span>
               <div className="min-w-0 flex-1">
                 <div className="flex items-baseline gap-2">
-                  <span className="text-sm font-bold text-zinc-900 truncate">
+                  <a
+                    href={googleSearchUrl(t.keyword, gl)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-bold text-zinc-900 truncate hover:text-rose-700 hover:underline"
+                    title={`Google에서 "${t.keyword}" 검색`}
+                  >
                     {t.keyword}
-                  </span>
+                  </a>
                   {t.traffic && (
                     <span
                       className="ml-auto shrink-0 text-[11px] font-bold text-rose-600"
@@ -95,7 +107,15 @@ export function GoogleTrendsView({
         >
           <div className="flex items-baseline gap-2">
             <span className="text-sm font-bold text-rose-600">#{t.rank}</span>
-            <span className="text-lg font-bold text-zinc-900">{t.keyword}</span>
+            <a
+              href={googleSearchUrl(t.keyword, gl)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg font-bold text-zinc-900 hover:text-rose-700 hover:underline"
+              title={`Google에서 "${t.keyword}" 검색`}
+            >
+              {t.keyword}
+            </a>
             {t.traffic && (
               <span
                 className="ml-auto text-xs font-semibold text-rose-600"

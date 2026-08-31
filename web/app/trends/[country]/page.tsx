@@ -107,7 +107,11 @@ export default async function CountryTrendsPage(
                 border="border-rose-200"
                 icon={<IconTrend />}
               >
-                <GoogleTrendsView trends={data.google_trends.slice(0, 10)} compact />
+                <GoogleTrendsView
+                  trends={data.google_trends.slice(0, 10)}
+                  compact
+                  gl={country === "uk" ? "GB" : country.toUpperCase()}
+                />
               </SourceCard>
             );
           }
