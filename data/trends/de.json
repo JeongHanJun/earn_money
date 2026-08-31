@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-31T02:01:38.785361+00:00",
+  "fetched_at": "2026-08-31T03:01:40.690139+00:00",
   "data": {
     "country_code": "de",
     "country_name": "독일",
@@ -7,8 +7,31 @@
     "google_trends": [
       {
         "rank": 1,
-        "keyword": "ukraine krieg russland",
+        "keyword": "warnung vor sturmböen",
         "traffic": "200+",
+        "pub_date": "2026-08-30T19:20:00-07:00",
+        "articles": [
+          {
+            "title": "Hagel, Starkregen und Sturmböen: Gewitter ziehen über Bayern hinweg",
+            "url": "https://www.merkur.de/bayern/gilt-alarmstufe-rot-lebensgefahr-dwd-mit-unwetterwarnung-fuer-bayern-es-zr-94463561.html",
+            "source": "Merkur"
+          },
+          {
+            "title": "Wetter spaltet Deutschland: Hier gibt’s Sonne satt, dort Sturm und Regen",
+            "url": "https://www.bild.de/news/wetter/wetter-spaltet-deutschland-hier-gibts-sonne-satt-dort-sturm-und-regen-6a92a34a4ef9cff73678b2c9",
+            "source": "BILD"
+          },
+          {
+            "title": "Schauerartige Regenfälle mit Gewitter – in einer Region kehrt der Sommer zurück",
+            "url": "https://web.de/magazine/panorama/wetter/schauerartige-regenfaelle-gewitter-region-kehrt-sommer-zurueck-42667972",
+            "source": "WEB.DE"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "keyword": "ukraine krieg russland",
+        "traffic": "1000+",
         "pub_date": "2026-08-30T18:40:00-07:00",
         "articles": [
           {
@@ -29,9 +52,9 @@
         ]
       },
       {
-        "rank": 2,
+        "rank": 3,
         "keyword": "grand canyon",
-        "traffic": "100+",
+        "traffic": "200+",
         "pub_date": "2026-08-30T17:30:00-07:00",
         "articles": [
           {
@@ -45,14 +68,14 @@
             "source": "BBC"
           },
           {
-            "title": "Grand Canyon flash floods leave around 15 missing as dozens are evacuated, park officials say",
-            "url": "https://www.cbsnews.com/news/grand-canyon-national-park-flood-evacuation-helicopter-rescue-phantom-ranch/",
-            "source": "CBS News"
+            "title": "Grand Canyon flooding knocks out water pipeline serving tourists at the national park, officials say",
+            "url": "https://apnews.com/article/grand-canyon-flood-bright-angel-water-arizona-8e2211e04f30b637e35ab95ecb1a1626",
+            "source": "AP News"
           }
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "keyword": "novak djokovic",
         "traffic": "1000+",
         "pub_date": "2026-08-30T16:30:00-07:00",
@@ -75,30 +98,30 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 5,
         "keyword": "geld",
         "traffic": "500+",
         "pub_date": "2026-08-30T16:30:00-07:00",
         "articles": [
           {
+            "title": "Bürgergeld-Empfänger bekommt Tattoo auf Staatskosten: „Viel Geld übrig”",
+            "url": "https://www.focus.de/kultur/kino-tv/buergergeld-empfaenger-bekommt-tattoo-auf-staatskosten-viel-geld-uebrig_bfde9946-0b4d-499d-92e0-700a871b75b7.html",
+            "source": "FOCUS online"
+          },
+          {
+            "title": "Arbeitsloser bekommt Tattoo auf Staatskosten – „Kühlschrank ist ja voll“",
+            "url": "https://www.berliner-kurier.de/article/arbeitsloser-bekommt-tattoo-auf-staatskosten-kuehlschrank-ist-ja-voll-10339917",
+            "source": "Berliner Kurier"
+          },
+          {
             "title": "„Wenn du kein Geld hast, ist dein Kind weg“",
             "url": "https://www.welt.de/politik/deutschland/plus6a8ed92b692b2e9e3efcba91/kindesentfuehrung-wenn-du-kein-geld-hast-ist-dein-kind-weg.html",
             "source": "WELT"
-          },
-          {
-            "title": "Egouli, Mentzel und Sauck: Talenten von Fortuna Düsseldorf droht Karriere-GAU",
-            "url": "https://www.bild.de/sport/fussball/egouli-mentzel-und-sauck-talenten-von-fortuna-duesseldorf-droht-karriere-gau-6a94415399cae3c1912ab039",
-            "source": "BILD"
-          },
-          {
-            "title": "Fortuna in der Sauck-Sackgasse – Ex-Gladbach-Talent hat nur noch zwei Optionen",
-            "url": "https://rp-online.de/sport/fussball/fortuna/fortuna-duesseldorf-f95-in-sauck-sackgasse-ex-gladbach-talent-hat-zwei-optionen_aid-153951089",
-            "source": "RP Online"
           }
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "keyword": "zombieland",
         "traffic": "100+",
         "pub_date": "2026-08-30T16:20:00-07:00",
@@ -116,11 +139,16 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 7,
         "keyword": "haftbefehl",
         "traffic": "200+",
         "pub_date": "2026-08-30T15:50:00-07:00",
         "articles": [
+          {
+            "title": "CDU empört: Bürgergeld trotz Haftbefehl",
+            "url": "https://web.de/magazine/politik/videos/cdu-empoert-buergergeld-trotz-haftbefehl-42669442",
+            "source": "WEB.DE"
+          },
           {
             "title": "„Rest der Welt dürfte Kopf schütteln“ – Per Haftbefehl Gesuchte kassieren weiter Grundsicherung",
             "url": "https://www.welt.de/politik/deutschland/article6a94b273d88567044d84aa1c/leistungs-missbrauch-rest-der-welt-duerfte-kopf-schuetteln-per-haftbefehl-gesuchte-kassieren-weiter-grundsicherung.html",
@@ -130,16 +158,11 @@
             "title": "Arbeitsministerin Bas im Verzug: Union dringt auf Grundsicherungsstopp für polizeilich Gesuchte",
             "url": "https://www.n-tv.de/politik/Union-dringt-auf-Grundsicherungsstopp-fuer-polizeilich-Gesuchte-id31249017.html",
             "source": "n-tv.de"
-          },
-          {
-            "title": "„Der Rest der Welt dürfte nur noch den Kopf über uns schütteln“",
-            "url": "https://rp-online.de/politik/deutschland/per-haftbefehl-gesuchte-beziehen-weiter-grundsicherung-druck-auf-bas-waechst_aid-153878815",
-            "source": "RP Online"
           }
         ]
       },
       {
-        "rank": 7,
+        "rank": 8,
         "keyword": "yusuf akcicek",
         "traffic": "200+",
         "pub_date": "2026-08-30T15:50:00-07:00",
@@ -162,7 +185,7 @@
         ]
       },
       {
-        "rank": 8,
+        "rank": 9,
         "keyword": "emma stone",
         "traffic": "100+",
         "pub_date": "2026-08-30T15:20:00-07:00",
@@ -180,7 +203,7 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 10,
         "keyword": "caren miosga heute gäste",
         "traffic": "5000+",
         "pub_date": "2026-08-30T15:10:00-07:00",
@@ -196,32 +219,9 @@
             "source": "T-Online"
           },
           {
-            "title": "„Alles spricht dafür, Artikel 4 des Nato-Vertrages zu aktivieren“",
-            "url": "https://www.sueddeutsche.de/politik/deutschland-hybrider-krieg-russland-merz-gegenschlaege-artikel-4-nato-li.3538193",
-            "source": "SZ.de"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "keyword": "hessisch oldendorf",
-        "traffic": "100+",
-        "pub_date": "2026-08-30T15:10:00-07:00",
-        "articles": [
-          {
-            "title": "Sieben Verletzte in Niedersachsen: Zwei Gruppen gehen aufeinander los",
-            "url": "https://www.bild.de/regional/niedersachsen/sieben-verletzte-in-niedersachsen-zwei-gruppen-gehen-aufeinander-los-6a948864518a586e1855d8d8",
-            "source": "BILD"
-          },
-          {
-            "title": "Schüsse in Hessisch Oldendorf: Sechs Schwerverletzte in Weibeck, mehrere Personen mit Pkw angefahren und verletzt",
-            "url": "https://www.dewezet.de/lokales/hameln-pyrmont/hameln/polizeieinsatz-am-hamelner-sana-klinikum-nach-mutmasslichen-schuessen-in-weibeck-VQAN6VJAGRA5TJVQPMASAJS55Q.html",
-            "source": "Deister- und Weserzeitung"
-          },
-          {
-            "title": "Schwerste Verletzungen: Gruppe geht mit Schuss- und Stichwaffen aufeinander los",
-            "url": "https://www.t-online.de/nachrichten/panorama/id_101412280/bei-hameln-gruppe-geht-mit-schuss-und-stichwaffen-aufeinander-los.html",
-            "source": "T-Online"
+            "title": "Russlands hybride Kriegsführung: Wie sehr müssen wir in Deutschland besorgt sein?",
+            "url": "https://www.tagesspiegel.de/internationales/russlands-hybride-kriegsfuhrung-wie-sehr-mussen-wir-in-deutschland-besorgt-sein-15992681.html",
+            "source": "Tagesspiegel"
           }
         ]
       }
@@ -234,8 +234,8 @@
         "channel": "Andrea Berg",
         "thumbnail": "https://i.ytimg.com/vi/r58RX8_LSnI/mqdefault.jpg",
         "published_at": "2026-08-30T08:45:34Z",
-        "view_count": 73130,
-        "like_count": 400
+        "view_count": 74297,
+        "like_count": 402
       },
       {
         "rank": 2,
@@ -244,8 +244,8 @@
         "channel": "GronkhReacts",
         "thumbnail": "https://i.ytimg.com/vi/e5MWQWWyGH0/mqdefault.jpg",
         "published_at": "2026-08-29T18:00:06Z",
-        "view_count": 202549,
-        "like_count": 4212
+        "view_count": 203576,
+        "like_count": 4226
       },
       {
         "rank": 3,
@@ -254,8 +254,8 @@
         "channel": "HandOfUncut",
         "thumbnail": "https://i.ytimg.com/vi/IBLOJMwYV8s/mqdefault.jpg",
         "published_at": "2026-08-30T15:00:12Z",
-        "view_count": 237622,
-        "like_count": 5263
+        "view_count": 243214,
+        "like_count": 5305
       },
       {
         "rank": 4,
@@ -264,8 +264,8 @@
         "channel": "Schlager für Alle",
         "thumbnail": "https://i.ytimg.com/vi/xz8Ybk6SAqM/mqdefault.jpg",
         "published_at": "2026-08-30T07:58:07Z",
-        "view_count": 83110,
-        "like_count": 82
+        "view_count": 83743,
+        "like_count": 83
       },
       {
         "rank": 5,
@@ -274,8 +274,8 @@
         "channel": "Mr. Geil",
         "thumbnail": "https://i.ytimg.com/vi/fWQqShbNXlA/mqdefault.jpg",
         "published_at": "2026-08-29T08:41:57Z",
-        "view_count": 275149,
-        "like_count": 5931
+        "view_count": 276167,
+        "like_count": 5943
       },
       {
         "rank": 6,
@@ -284,8 +284,8 @@
         "channel": "iCrimax",
         "thumbnail": "https://i.ytimg.com/vi/6MGfFBuKd3U/mqdefault.jpg",
         "published_at": "2026-08-30T08:52:34Z",
-        "view_count": 227295,
-        "like_count": 3835
+        "view_count": 227942,
+        "like_count": 3838
       },
       {
         "rank": 7,
@@ -294,8 +294,8 @@
         "channel": "Vanessa Mai",
         "thumbnail": "https://i.ytimg.com/vi/YoC7CjvfqO8/mqdefault.jpg",
         "published_at": "2026-08-30T12:27:21Z",
-        "view_count": 29797,
-        "like_count": 374
+        "view_count": 30372,
+        "like_count": 384
       },
       {
         "rank": 8,
@@ -304,8 +304,8 @@
         "channel": "JOHN ROBLOX",
         "thumbnail": "https://i.ytimg.com/vi/exKLy6CwUNo/mqdefault.jpg",
         "published_at": "2026-08-30T18:59:31Z",
-        "view_count": 84238,
-        "like_count": 4554
+        "view_count": 92458,
+        "like_count": 4704
       },
       {
         "rank": 9,
@@ -314,8 +314,8 @@
         "channel": "LUCREW",
         "thumbnail": "https://i.ytimg.com/vi/M2XUBbZpi3k/mqdefault.jpg",
         "published_at": "2026-08-30T14:00:36Z",
-        "view_count": 139030,
-        "like_count": 5317
+        "view_count": 140215,
+        "like_count": 5341
       },
       {
         "rank": 10,
@@ -324,8 +324,8 @@
         "channel": "Andra",
         "thumbnail": "https://i.ytimg.com/vi/oqTrR6HVSKg/mqdefault.jpg",
         "published_at": "2026-08-30T09:00:01Z",
-        "view_count": 172355,
-        "like_count": 2449
+        "view_count": 174247,
+        "like_count": 2480
       },
       {
         "rank": 11,
@@ -334,8 +334,8 @@
         "channel": "Игорь Линк",
         "thumbnail": "https://i.ytimg.com/vi/V9HBuYmdnns/mqdefault.jpg",
         "published_at": "2026-08-29T15:39:15Z",
-        "view_count": 450350,
-        "like_count": 12554
+        "view_count": 451092,
+        "like_count": 12572
       },
       {
         "rank": 12,
@@ -344,8 +344,8 @@
         "channel": "Brawl Stars",
         "thumbnail": "https://i.ytimg.com/vi/qhvPlcwJUvk/mqdefault.jpg",
         "published_at": "2026-08-29T15:00:06Z",
-        "view_count": 6233888,
-        "like_count": 219460
+        "view_count": 6254715,
+        "like_count": 219628
       },
       {
         "rank": 13,
@@ -354,8 +354,8 @@
         "channel": "tim steinfort",
         "thumbnail": "https://i.ytimg.com/vi/cO4zPMav_EI/mqdefault.jpg",
         "published_at": "2026-08-30T16:00:06Z",
-        "view_count": 11157,
-        "like_count": 964
+        "view_count": 11535,
+        "like_count": 981
       },
       {
         "rank": 14,
@@ -364,8 +364,8 @@
         "channel": "NASA",
         "thumbnail": "https://i.ytimg.com/vi/FkgVB19I6xw/mqdefault.jpg",
         "published_at": "2026-08-24T21:00:22Z",
-        "view_count": 134310,
-        "like_count": 1984
+        "view_count": 134395,
+        "like_count": 1986
       },
       {
         "rank": 15,
@@ -374,8 +374,8 @@
         "channel": "ein Kopfholz",
         "thumbnail": "https://i.ytimg.com/vi/Bf02ehnNaRM/mqdefault.jpg",
         "published_at": "2026-08-30T12:30:22Z",
-        "view_count": 111822,
-        "like_count": 3665
+        "view_count": 112633,
+        "like_count": 3674
       },
       {
         "rank": 16,
@@ -384,7 +384,7 @@
         "channel": "Nargiz Prod - Topic",
         "thumbnail": "https://i.ytimg.com/vi/AYW-Y9W_RE8/mqdefault.jpg",
         "published_at": "2026-08-24T10:02:16Z",
-        "view_count": 443219,
+        "view_count": 445130,
         "like_count": 950
       },
       {
@@ -394,8 +394,8 @@
         "channel": "Schmobin",
         "thumbnail": "https://i.ytimg.com/vi/zjb3xSgejyI/mqdefault.jpg",
         "published_at": "2026-08-30T11:02:34Z",
-        "view_count": 99935,
-        "like_count": 2661
+        "view_count": 101373,
+        "like_count": 2675
       },
       {
         "rank": 18,
@@ -404,7 +404,7 @@
         "channel": "Vincent Gross",
         "thumbnail": "https://i.ytimg.com/vi/4tWjBZ0dmNk/mqdefault.jpg",
         "published_at": "2026-08-29T15:04:53Z",
-        "view_count": 38863,
+        "view_count": 38940,
         "like_count": 508
       },
       {
@@ -414,8 +414,8 @@
         "channel": "GameStar",
         "thumbnail": "https://i.ytimg.com/vi/ld1eO5MFI0g/mqdefault.jpg",
         "published_at": "2026-08-30T08:30:06Z",
-        "view_count": 239298,
-        "like_count": 4138
+        "view_count": 240923,
+        "like_count": 4155
       },
       {
         "rank": 20,
@@ -424,8 +424,8 @@
         "channel": "Saregama Telugu",
         "thumbnail": "https://i.ytimg.com/vi/JqFzhcWo3EU/mqdefault.jpg",
         "published_at": "2026-08-29T09:43:07Z",
-        "view_count": 33579148,
-        "like_count": 450647
+        "view_count": 33654001,
+        "like_count": 452908
       },
       {
         "rank": 21,
@@ -434,8 +434,8 @@
         "channel": "Mexify Games",
         "thumbnail": "https://i.ytimg.com/vi/HlDQkKMKGDU/mqdefault.jpg",
         "published_at": "2026-08-30T08:00:22Z",
-        "view_count": 94574,
-        "like_count": 2807
+        "view_count": 95869,
+        "like_count": 2820
       },
       {
         "rank": 22,
@@ -444,8 +444,8 @@
         "channel": "KRAFTKLUB",
         "thumbnail": "https://i.ytimg.com/vi/k8Cj2jrIw0c/mqdefault.jpg",
         "published_at": "2026-08-29T14:02:50Z",
-        "view_count": 94551,
-        "like_count": 2643
+        "view_count": 94886,
+        "like_count": 2650
       },
       {
         "rank": 23,
@@ -454,8 +454,8 @@
         "channel": "Standart Skill",
         "thumbnail": "https://i.ytimg.com/vi/zf7z0e_ZtHs/mqdefault.jpg",
         "published_at": "2026-08-30T09:39:37Z",
-        "view_count": 82036,
-        "like_count": 1456
+        "view_count": 82330,
+        "like_count": 1457
       },
       {
         "rank": 24,
@@ -464,8 +464,8 @@
         "channel": "SupremosTV",
         "thumbnail": "https://i.ytimg.com/vi/gyoMVNg7zkM/mqdefault.jpg",
         "published_at": "2026-08-27T22:00:06Z",
-        "view_count": 266035,
-        "like_count": 15632
+        "view_count": 266496,
+        "like_count": 15644
       },
       {
         "rank": 25,
@@ -474,25 +474,18 @@
         "channel": "Benx",
         "thumbnail": "https://i.ytimg.com/vi/xTTZmdQNRCw/mqdefault.jpg",
         "published_at": "2026-08-30T16:04:24Z",
-        "view_count": 60842,
-        "like_count": 1924
+        "view_count": 61859,
+        "like_count": 1933
       }
     ],
     "google_news": {
       "top": [
         {
-          "title": "Schweiz: Schüsse bei Rave in Aarau – 22-jährige Frau stirbt, fünf Verletzte",
+          "title": "Schüsse bei Rave in der Schweiz – 22-jährige Frau stirbt, Deutsche unter Verletzten",
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcEhIS2pybUIyN0UtODNJY1IwN2FBMlFTeThWUmVZUUpQYktEMG11QkV3X1pGVEVORmt6UVktOUktX0VJMnpKVzBZOVdFZ2VDdFo4OGxxVkctYWVSOGltMXhuN3dRXzRDTWFodDVUTHg3SXVxS1VqUFFGOFdCSkZtNHY2WVhmbmJFbHN6NHFkX3Z1YUZDZ05melpxN2JmMGc4NlhLVWxKMkZrMjlQY3VVNDAyc0pTQ2VCM01fOF9hdEFPYm92Qm5ISF9EbU5jS3B4Uk1VVzRwdlIzQnM?oc=5",
-          "description": "Schweiz: Schüsse bei Rave in Aarau – 22-jährige Frau stirbt, fünf Verletzte  WELTNach Schüssen bei Rave: Deutsche unter Verletzten des Schweizer Raves  tagesschau.deDeutsche bei Rave-Massaker in der S",
+          "description": "Schüsse bei Rave in der Schweiz – 22-jährige Frau stirbt, Deutsche unter Verletzten  WELTDeutsche bei Rave-Massaker in der Schweiz verletzt  BILDSchüsse in Aarau: Wer tötete auf einer Schweizer Techno",
           "publisher": "WELT",
           "pub_date": "2026-08-31T00:34:51+00:00"
-        },
-        {
-          "title": "Fährunglück vor Zypern: Kapitän nach Fährunglück vor Zypern festgenommen",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWEw1UnQxeUlSWGtUc09hUWd6LUVfTm1QN3FPZjh2MFJ3X25PWnJBd1U1WFZXUHV3c3d3MC1abm43djVQcGhJbjJqWWh1aFJaTE9SYmFzVFFOeUZIT0tPUm80Y1QzR2xQajBWRmg4Y1U0SFR3QzU0amlnTk1rVm9YT0ozQnZxQVRrSHJ6TGtqc3VMaHkyd05YamNjM3pjSzlYeTVMeDhZT1IwRjU0OW1R?oc=5",
-          "description": "Fährunglück vor Zypern: Kapitän nach Fährunglück vor Zypern festgenommen  DIE ZEITKapitän geflüchtet? Vorwürfe gegen Crew nach Fährunglück  WELT„Der Kapitän ist als Erster gesprungen“  BILDUnglück vor",
-          "publisher": "DIE ZEIT",
-          "pub_date": "2026-08-30T18:43:52+00:00"
         },
         {
           "title": "Das ARD-Sommerinterview mit Bundeskanzler und CDU-Chef Merz im Faktencheck",
@@ -502,32 +495,46 @@
           "pub_date": "2026-08-30T20:12:00+00:00"
         },
         {
-          "title": "Island stimmt gegen Wiederaufnahme der EU-Beitrittsverhandlungen",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVFVBLU45UncyM3NkUmoxQlZDN1lhVWhOWjYwb3psbTZWUkZSd2JXaExrREhPYUs5Tmh0S1JhMUFzemtlekJscDNicHF6RTI3Y0tNZ0hMNFMxUWNXYXFRYnVrRXhZNEFZT0tRd3JrSmRSYm8zaVFlUFlRWWxPRmFYYkRXcw?oc=5",
-          "description": "Island stimmt gegen Wiederaufnahme der EU-Beitrittsverhandlungen  EuronewsIsland will nicht in die EU: Was der Grund dafür ist  BILDIslands Ministerpräsidentin Frostadottir verkündet nach „Nein“-Votum",
-          "publisher": "Euronews",
-          "pub_date": "2026-08-30T08:14:10+00:00"
+          "title": "Fährunglück vor Zypern: Kapitän nach Fährunglück vor Zypern festgenommen",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWEw1UnQxeUlSWGtUc09hUWd6LUVfTm1QN3FPZjh2MFJ3X25PWnJBd1U1WFZXUHV3c3d3MC1abm43djVQcGhJbjJqWWh1aFJaTE9SYmFzVFFOeUZIT0tPUm80Y1QzR2xQajBWRmg4Y1U0SFR3QzU0amlnTk1rVm9YT0ozQnZxQVRrSHJ6TGtqc3VMaHkyd05YamNjM3pjSzlYeTVMeDhZT1IwRjU0OW1R?oc=5",
+          "description": "Fährunglück vor Zypern: Kapitän nach Fährunglück vor Zypern festgenommen  DIE ZEITKapitän geflüchtet? Vorwürfe gegen Crew nach Fährunglück  WELT„Der Kapitän ist als Erster gesprungen“  BILDBericht übe",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-08-30T18:43:52+00:00"
         },
         {
           "title": "König Harald tot: Beisetzungstermin steht – die Entwicklungen im Ticker",
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUjM3VlBtMzZ2NkE4SDNVNG94bjA4OWVVVU9ndUY3Z2JvYU84MUh3VC04TGo2U0ZWMnNqdHg5U2N6Ui12UjZJd0F3bi1qWDB0SUMwbkg4d3pHYTBYYmhGZTFvTmdjTXY3R3FLTDNGaFRnSmpFbV9qYWtVbm5IQ0VfYUFFWGNXMWZYd1JxZU5RUlJmZ0o0QTh5OU9VbmFuT3lBdzB1NUZ6NlIyN19oU0x0U2owUVcwT0xuR3p4S3pVeXZyYmhNY19n?oc=5",
-          "description": "König Harald tot: Beisetzungstermin steht – die Entwicklungen im Ticker  STERN.deNach Tod von König Harald V.: Königin Mette-Marit bleibt Trauergottesdienst fern  T-OnlineTrauerzug zum Osloer Dom: Dat",
+          "description": "König Harald tot: Beisetzungstermin steht – die Entwicklungen im Ticker  STERN.deNach Tod von König Harald V.: Königin Mette-Marit bleibt Trauergottesdienst fern  T-OnlineMomentaufnahmen im August - B",
           "publisher": "STERN.de",
           "pub_date": "2026-08-30T17:55:00+00:00"
         },
         {
           "title": "In letzter Sekunde: Geistesgegenwärtiger Direktor rettete wohl Hunderte Schüler",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa05BTE9Scl9UV0FGdDFCLWlvZTZQRWd6TlJ1VlFlbUlGVFZ3QXdJTkRtb09Qb3ZDdTF2TlFWbW5BRThxSnFGZ2l3LVRCekNxNkdjclE1c0NxQTZQeEtFUUZOMWlxeldmd3hacjdMV19uZTdOMkRib2VhTjZ1TTNaUkk2MXh0NWFfS0R3WXh0a21IcWJZOG4yaTI4QjJaUQ?oc=5",
-          "description": "In letzter Sekunde: Geistesgegenwärtiger Direktor rettete wohl Hunderte Schüler  DIE ZEITNach Sturzflut in Nepal: Die lange Suche nach Gewissheit  tagesschau.deNach Sturzflut - Fast 800 Tote im Himala",
+          "description": "In letzter Sekunde: Geistesgegenwärtiger Direktor rettete wohl Hunderte Schüler  DIE ZEITSchulleiter in Nepal rettete wohl Hunderte Schüler vor der Sturzflut  SpiegelNach Sturzflut - Fast 800 Tote im ",
           "publisher": "DIE ZEIT",
           "pub_date": "2026-08-30T15:05:22+00:00"
         },
         {
+          "title": "Bundeskongress „Generation Deutschland“: AfD-Jugend liefert Verbotsgründe",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9EYUZRdjlPdERHTXdnZGFCdTRpS3VoZHpSbzZtWkllUXN3X0FYUXg3MXJ3eXpSVlBiSkZPWDlWc1Y3Q2VqUDBlZm4teGxhSjNIdDN2VXdhWDdlSi1Db1JqQlZXVm1JbkxwRDRWdW5vUQ?oc=5",
+          "description": "Bundeskongress „Generation Deutschland“: AfD-Jugend liefert Verbotsgründe  taz.deAfD und die Generation Deutschland: Wenn die Emotionen siegen  T-Online(S+) Generation Deutschland: Vorstand der AfD-Ju",
+          "publisher": "taz.de",
+          "pub_date": "2026-08-30T18:05:41+00:00"
+        },
+        {
           "title": "Wahlen - Merz (CDU) warnt vor einer AfD-geführten Landesregierung in Sachsen-Anhalt",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM3FsSnYzQkg4MmJ5Y1N4eXlrak5XWXJMYlVBN1NfbHZScmpaRHdrLVJnNUJqOGxidUZseVdlZVFnUVM5UXZ4UjEzUWtJRGMyMjVmS1RFbFY0S3JzcEd6UnJEOGpwa0ttSHVmUF90bXpQM3VrTC15Z2dSRTFLSlphRnJraG9KWXpiSW9heXR5Nm05Z2VVTWNBaXRkNDhjcENQLTI4UzBZQTlPMHBNWTVkMndIRQ?oc=5",
-          "description": "Wahlen - Merz (CDU) warnt vor einer AfD-geführten Landesregierung in Sachsen-Anhalt  DeutschlandfunkLetzte Umfrage vor der Wahl in Sachsen-Anhalt: AfD führt klar, CDU verliert weiter  MDR.deWahlumfrag",
+          "description": "Wahlen - Merz (CDU) warnt vor einer AfD-geführten Landesregierung in Sachsen-Anhalt  DeutschlandfunkLetzte Umfrage vor der Wahl in Sachsen-Anhalt: AfD führt klar, CDU verliert weiter  MDR.deAfD mit 40",
           "publisher": "Deutschlandfunk",
           "pub_date": "2026-08-30T21:33:07+00:00"
+        },
+        {
+          "title": "TV-Moderator und Tuning-Statr JP Kraemer: Nach Gewalt gegen Ehefrau kündigt er Therapie an",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPREt3ekNpdzItMHZlWnV5VHJPdVlFSUNxSndtQlctOF9BcV9zTHZjSk1ZaGR6S1dSZEJBZkRRcjI4eGhiWWJGWHE0VDBkQWZMdE9JYVN4LU9iYnRZMFBNeG1IRE5oOW5jN01JZjlTbGZfaDAxaEgwY1RkQ2ROTE9seTNwOUxqUGNwdXZBcVdGNDYzRFRTcVBWQ1hTTV9FaTRsVVNkb3dSenB6d3NGQy1wN0ptS251R3ptcEt3WXEtYmlVOW5vR0ZDLXkxMFpjTHNLM0tiS1Jxei1PZGF0?oc=5",
+          "description": "TV-Moderator und Tuning-Statr JP Kraemer: Nach Gewalt gegen Ehefrau kündigt er Therapie an  RTL.deJP Kraemer schreibt Mitarbeitern: „Werden Sturm gemeinsam überstehen“  BILDUpdate: Weiter Wirbel um JP",
+          "publisher": "RTL.de",
+          "pub_date": "2026-08-30T18:35:01+00:00"
         },
         {
           "title": "Wahlkampf in Sachsen-Anhalt: Sie „versteht, wie man aus Nazis gute Bürger macht“, lobt Özdemir die Spitzen-Grüne",
@@ -544,39 +551,32 @@
           "pub_date": "2026-08-30T15:18:00+00:00"
         },
         {
-          "title": "Bundeskongress „Generation Deutschland“: AfD-Jugend liefert Verbotsgründe",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9EYUZRdjlPdERHTXdnZGFCdTRpS3VoZHpSbzZtWkllUXN3X0FYUXg3MXJ3eXpSVlBiSkZPWDlWc1Y3Q2VqUDBlZm4teGxhSjNIdDN2VXdhWDdlSi1Db1JqQlZXVm1JbkxwRDRWdW5vUQ?oc=5",
-          "description": "Bundeskongress „Generation Deutschland“: AfD-Jugend liefert Verbotsgründe  taz.deAfD und die Generation Deutschland: Wenn die Emotionen siegen  T-Online(S+) Generation Deutschland: Vorstand der AfD-Ju",
-          "publisher": "taz.de",
-          "pub_date": "2026-08-30T18:05:41+00:00"
+          "title": "Islands Ministerpräsidentin Frostadottir verkündet nach „Nein“-Votum Aus für Beitrittsgespräche mit der EU",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOX1otakI0M3RQMnFCbnZTdTdZM0RqbGY3Wjk0bF9uZml2RWl0RFk2UEFWaTlUMzBsQkx3Y0V3TUFBY2J2eXRDNjYydVVGVWkyMk9QVWtvb3lNcDBvTUdNMEthcW1xOVJsNTZQa2I0bFF5LVd0bGhlTklnVG9NZ0F2bERjU0pKbzdidmRIUUN4NjBZeWZKTS1RSnplSnQ5SGRRMFkzLVpXcnlsbS1WUG4yN0I1OWZ1QWtQZ2lpQjJjVXVwZE81SUYzWnhnUlItcU5TdUJIZlh4Zw?oc=5",
+          "description": "Islands Ministerpräsidentin Frostadottir verkündet nach „Nein“-Votum Aus für Beitrittsgespräche mit der EU  DeutschlandfunkIsland will nicht in die EU: Was der Grund dafür ist  BILDWahl-Krimi in Islan",
+          "publisher": "Deutschlandfunk",
+          "pub_date": "2026-08-30T21:33:07+00:00"
         },
         {
           "title": "USA greifen offenbar iranische Raketenwerfer an",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LNldQR3c3SHpQd0d6cUN6a3daa2VMbEhRU3Z4cGZJV2RSdGxkTmlyQ1pROEVNalJwbVJFT1RuQ2c3ZXlyVzYtNm5HZS0yVUxIbmdTVU41blVNb0JWSWJ6S2QxQkRieDhN?oc=5",
-          "description": "USA greifen offenbar iranische Raketenwerfer an  tagesschau.deEskalation im Nahen Osten: USA greifen erstmals seit Wochen Iran an – Regime reagiert mit Gegenschlägen  SpiegelUSA und Iran: USA greifen ",
+          "description": "USA greifen offenbar iranische Raketenwerfer an  tagesschau.deUSA und Iran: USA greifen erstmals seit Wochen neue Ziele im Iran an  DIE ZEITUS-Militär greift iranische Raketenwerfer an der Straße von ",
           "publisher": "tagesschau.de",
           "pub_date": "2026-08-30T23:35:00+00:00"
         },
         {
           "title": "Grand Canyon: Unwetter löst Sturzflut aus – Suche nach 15 Vermissten",
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOenZGRktoaFBtQVJJWERmWDFwTkpWTkVqQ2ZUa3NaZjVrdVNwWEIwb3pFa29JR0J0eWNXX0l0S3BGZjhmbUdJRGxPNkpialRLRlNLX1BXNWxlUEN6WlpaUEJ4akJKSWpBS2oyWWpwN1VNSWJjWFdxYWRuZmRhWlp4Z21fd3pVMXFqZlhMdWNPNTlQaXN2NklhSVVXVTNEUHBXSlp1RVlHUHJGVnJxQmdTT3UwTnNFS3VoV21DekJhU0pzSlJ2ZVVsejJLVWM5WGZPM0w4?oc=5",
-          "description": "Grand Canyon: Unwetter löst Sturzflut aus – Suche nach 15 Vermissten  SpiegelNach Sturzflut im Grand Canyon: Suche nach 15 Menschen  tagesschau.deNotlage in Arizona: 15 Vermisste nach Sturzflut am Gra",
+          "description": "Grand Canyon: Unwetter löst Sturzflut aus – Suche nach 15 Vermissten  SpiegelGrand Canyon: Schwere Sturzflut! Mehr als 20 Menschen vermisst  BILDRund 15 Vermisste nach Sturzflut im Grand Canyon  STERN",
           "publisher": "Spiegel",
           "pub_date": "2026-08-31T00:00:00+00:00"
         },
         {
-          "title": "Migration nach Spanien: Gewalttätige Proteste in Ceuta",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBXb1VtcU5jOGhydlNQZm5YM1prVEtqdjZobXVhYVdBVDFBZFJjM2VKV2FHY2FZa1JzS3lJckZMSVZfUVNKQUNSWlR2S0ZQY21vWmJFQWFScFotOXc?oc=5",
-          "description": "Migration nach Spanien: Gewalttätige Proteste in Ceuta  taz.deSpaniens späte Reaktion in Ceuta hilft Rechtspopulisten  FAZCeuta: Spanien bittet EU bei Bearbeitung von Asylanträgen um Hilfe  DIE ZEITGe",
-          "publisher": "taz.de",
-          "pub_date": "2026-08-30T14:30:17+00:00"
-        },
-        {
-          "title": "Abkommen mit Venezuela: Trump will strategische Reserve mit Öl aus Venezuela auffüllen",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT3BnQ2xvdGItZ0duSGdmVm05Qi1nVDFBa2VWeUJROWtkVnpBMkNoQ05SYk4tWm1ULWhzaTh1S2JIV3NZUEN2aTlZZUNUNWhsdjRJcVV5eFVfMGpBa2hyU2JCcV96MzZfVERYZ3BGNjFzN05pYWxjOEplTVNrVTE4TEZkN2xDWHdvOVNvTzJyZGlxWTM1VFdqNlc0RnNESnIwcFVIVlNqUQ?oc=5",
-          "description": "Abkommen mit Venezuela: Trump will strategische Reserve mit Öl aus Venezuela auffüllen  DIE ZEITDonald Trump: Öl aus Venezuela soll strategische US-Reserven stärken  SpiegelTrumps Öldeal mit Venezuela",
-          "publisher": "DIE ZEIT",
-          "pub_date": "2026-08-30T15:46:02+00:00"
+          "title": "Google Maps benennt „Lake Ontario“ auf Wunsch von Trump um",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbDVqZDM5OHdIR3lGT25QalBxUmxRSWxRWTc3ZExNbGkzYjg5VGc1OXc3QmE4NFpHRDRlbE5XVVpOSkNRSlA5dnZ4QVJMcDlNZGlvV05MVF95WW9ySk82UGktdXNyc2FqOTFnOGxYenR2NXZ0aUZwOUtUWTdXUXpBcDRKdkswZkowNWViR3RUMUVJcm9sRUdYTXFQVmEzZWxmT0xWQTc1eEpQeWU1ZXBNYQ?oc=5",
+          "description": "Google Maps benennt „Lake Ontario“ auf Wunsch von Trump um  STERN.deTrump gibt Ontariosee neuen Namen: Google Maps zieht nach  T-OnlineNach US-Umbenennung: Ärger in Kanada – „Lake Ontario“ heißt auf W",
+          "publisher": "STERN.de",
+          "pub_date": "2026-08-30T17:55:00+00:00"
         },
         {
           "title": "Machtkampf um Volkswagen: Droht ein Showdown zwischen Lies, Porsche und Piech?",
@@ -590,9 +590,16 @@
         {
           "title": "Wahlen - Merz (CDU) warnt vor einer AfD-geführten Landesregierung in Sachsen-Anhalt",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM3FsSnYzQkg4MmJ5Y1N4eXlrak5XWXJMYlVBN1NfbHZScmpaRHdrLVJnNUJqOGxidUZseVdlZVFnUVM5UXZ4UjEzUWtJRGMyMjVmS1RFbFY0S3JzcEd6UnJEOGpwa0ttSHVmUF90bXpQM3VrTC15Z2dSRTFLSlphRnJraG9KWXpiSW9heXR5Nm05Z2VVTWNBaXRkNDhjcENQLTI4UzBZQTlPMHBNWTVkMndIRQ?oc=5",
-          "description": "Wahlen - Merz (CDU) warnt vor einer AfD-geführten Landesregierung in Sachsen-Anhalt  DeutschlandfunkLetzte Umfrage vor der Wahl in Sachsen-Anhalt: AfD führt klar, CDU verliert weiter  MDR.deWahlumfrag",
+          "description": "Wahlen - Merz (CDU) warnt vor einer AfD-geführten Landesregierung in Sachsen-Anhalt  DeutschlandfunkLetzte Umfrage vor der Wahl in Sachsen-Anhalt: AfD führt klar, CDU verliert weiter  MDR.deAfD mit 40",
           "publisher": "Deutschlandfunk",
           "pub_date": "2026-08-30T21:33:07+00:00"
+        },
+        {
+          "title": "TV-Moderator und Tuning-Statr JP Kraemer: Nach Gewalt gegen Ehefrau kündigt er Therapie an",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPREt3ekNpdzItMHZlWnV5VHJPdVlFSUNxSndtQlctOF9BcV9zTHZjSk1ZaGR6S1dSZEJBZkRRcjI4eGhiWWJGWHE0VDBkQWZMdE9JYVN4LU9iYnRZMFBNeG1IRE5oOW5jN01JZjlTbGZfaDAxaEgwY1RkQ2ROTE9seTNwOUxqUGNwdXZBcVdGNDYzRFRTcVBWQ1hTTV9FaTRsVVNkb3dSenB6d3NGQy1wN0ptS251R3ptcEt3WXEtYmlVOW5vR0ZDLXkxMFpjTHNLM0tiS1Jxei1PZGF0?oc=5",
+          "description": "TV-Moderator und Tuning-Statr JP Kraemer: Nach Gewalt gegen Ehefrau kündigt er Therapie an  RTL.deJP Kraemer schreibt Mitarbeitern: „Werden Sturm gemeinsam überstehen“  BILDUpdate: Weiter Wirbel um JP",
+          "publisher": "RTL.de",
+          "pub_date": "2026-08-30T18:35:01+00:00"
         },
         {
           "title": "Wahlkampf in Sachsen-Anhalt: Sie „versteht, wie man aus Nazis gute Bürger macht“, lobt Özdemir die Spitzen-Grüne",
@@ -600,20 +607,6 @@
           "description": "Wahlkampf in Sachsen-Anhalt: Sie „versteht, wie man aus Nazis gute Bürger macht“, lobt Özdemir die Spitzen-Grüne  WELTMann von Top-Grüner war Neonazi: „Es war eine Lebenswelt”  FOCUS onlineEintrag ins",
           "publisher": "WELT",
           "pub_date": "2026-08-30T22:35:03+00:00"
-        },
-        {
-          "title": "Sternbrücke in Hamburg: Ab dem frühen Morgen rollen Züge über die Mammutbrücke",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVnc4WGhUSkVmTk9jREhpYmlSWEk0REtvblN4QzJUcExmYXFURi15eEFwbEFreU55dWpzcTJ1MWlEWnl3T3hhVzVtLTRWbGRzSm53N1F2em1nR2p4VEZqQWFXRjZaLXVuMkJnNkozaHRLcm9velh5dmpjSzdrR3R1Q1Y1LS1lOEhXZjBiSG40Y0k2S1NGdzd2UklzNHJjTHVieGF1bjNEby1STlppa05wb0hrc0Q4QQ?oc=5",
-          "description": "Sternbrücke in Hamburg: Ab dem frühen Morgen rollen Züge über die Mammutbrücke  NDR.deFrüh aufstehen für die neue Sternbrücke: Montagmorgen fahren die ersten Züge in Altona  Hamburger AbendblattHambur",
-          "publisher": "NDR.de",
-          "pub_date": "2026-08-30T15:18:00+00:00"
-        },
-        {
-          "title": "Das ARD-Sommerinterview mit Bundeskanzler und CDU-Chef Merz im Faktencheck",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdlVSTnJIa0ZoVkFDcVcwRmZMeERuTTFuWFJvdVdJdTBvYnhrUk9WN25US2VhWUItZkJkZmthWElsQ2dFN1lETk9jaUVacmJ6X3JTRXJSb2tjWF9FZlYyQTBMOWI3R1dyeEdTaGhMRmJOTExYbWtUVEtNM05TVWlxVWo5T2Y2V0E?oc=5",
-          "description": "Das ARD-Sommerinterview mit Bundeskanzler und CDU-Chef Merz im Faktencheck  tagesschau.deMerz' Problem am Ende der Sommerpause: Viele denken, er kann's nicht  T-OnlineTV-Kritik zum Sommerinterview mit",
-          "publisher": "tagesschau.de",
-          "pub_date": "2026-08-30T20:12:00+00:00"
         },
         {
           "title": "Bundeskongress „Generation Deutschland“: AfD-Jugend liefert Verbotsgründe",
@@ -625,23 +618,30 @@
         {
           "title": "„Rest der Welt dürfte Kopf schütteln“ – Per Haftbefehl Gesuchte kassieren weiter Grundsicherung",
           "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPQXF4ZmViU0VybGptZHlyVlNiUlpNV0RIcE5RLTZSWFgtTGgwQ1BxZmhEMWd3MjFIWWwzcXlzZkEtbHI1dzhwX0pxcGg3SndWOFZnbURXU0ZKbE92eV9zYThvY00xdGF2ODVlQk5JbXkyRHdoOG0xYm9pU09HbVNfZTVianpCT2hWLVQ2eEU4VmU3UU02RURkd2RXclNfdER1VHl4RmdKRDcxVVZXVElyb3JZVTlzV2d4dUdLTEVmRWdrLUlIUDR4RkNhVUJWQjNQYmd3NlEyQVgyeDR0V1B5eTZMdVIydlNpbUhjSHRvMVMwUmlqZzhsTldGZ2lJQXBlLVVMaWlRRk5MTWJaUlRMWjVYUWxqcjhCTTlr?oc=5",
-          "description": "„Rest der Welt dürfte Kopf schütteln“ – Per Haftbefehl Gesuchte kassieren weiter Grundsicherung  WELTArbeitsministerin Bas im Verzug: Union dringt auf Grundsicherungsstopp für polizeilich Gesuchte  n-",
+          "description": "„Rest der Welt dürfte Kopf schütteln“ – Per Haftbefehl Gesuchte kassieren weiter Grundsicherung  WELTCDU empört: Bürgergeld trotz Haftbefehl  WEB.DEArbeitsministerin Bas im Verzug: Union dringt auf Gr",
           "publisher": "WELT",
           "pub_date": "2026-08-30T23:20:12+00:00"
         },
         {
+          "title": "Das ARD-Sommerinterview mit Bundeskanzler und CDU-Chef Merz im Faktencheck",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdlVSTnJIa0ZoVkFDcVcwRmZMeERuTTFuWFJvdVdJdTBvYnhrUk9WN25US2VhWUItZkJkZmthWElsQ2dFN1lETk9jaUVacmJ6X3JTRXJSb2tjWF9FZlYyQTBMOWI3R1dyeEdTaGhMRmJOTExYbWtUVEtNM05TVWlxVWo5T2Y2V0E?oc=5",
+          "description": "Das ARD-Sommerinterview mit Bundeskanzler und CDU-Chef Merz im Faktencheck  tagesschau.deMerz' Problem am Ende der Sommerpause: Viele denken, er kann's nicht  T-OnlineTV-Kritik zum Sommerinterview mit",
+          "publisher": "tagesschau.de",
+          "pub_date": "2026-08-30T20:12:00+00:00"
+        },
+        {
           "title": "\"Höchste Summe aller Ressorts\": Bürokratiekosten: Reiche legt Milliarden-Sparbilanz vor - n-tv.de",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc0ZISkNxbWxKa3lUcFB6U1F0cjhleVVvWDdaMzY5dEJKdXZTREhBSDRSeFoySjQxWlp6NnJJY19PUTJjWmZ4VnJpVktlaHdpTkNaanFWT09TZ3VNM2NrS3RIeWY1M3QxZjVsdEo5WERid0d3SUZuZnc4dkhqMnNtWV91c2JZRmx4cWdKTXdTdElPOXRqM3h6S2pyMFd3VmYw?oc=5",
-          "description": "\"Höchste Summe aller Ressorts\": Bürokratiekosten: Reiche legt Milliarden-Sparbilanz vor  n-tv.deWeitere Schlagzeilen und Meinungen in Google News",
+          "description": "\"Höchste Summe aller Ressorts\": Bürokratiekosten: Reiche legt Milliarden-Sparbilanz vor  n-tv.deReiche wieder zurück - Ministerin: Investitionen zentral  WELTWirtschaftsministerin nach OP zurück: Kath",
           "publisher": "",
           "pub_date": "2026-08-30T22:19:10+00:00"
         },
         {
-          "title": "Eskalation beim Stadtfest: Mann rammt Widersacher abgebrochene Flasche ins Gesicht",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV3dwZGswQVY3VWhuMWgxMGpFSjZmbFZGMU96ZFNmVkFTcktXRUhvQ291dGxKUGthTnQzMWp5MXg4clgzZXMxVUFVZXhNblJNZm9HcG4yeE1PU1ZTbU9wY2EtRFo2bmUzWnN0Vms5cnBjaUJTaWxYYVlrYnF5SEhsRXdTTTRuUTgyRVlRS2dVOU4xMzdkOFNUMERzRXo2Q0thN1UzM0VOcXFqa1BrVS1kdklueHMwYzZCdFc1MlFHbXZGTlE?oc=5",
-          "description": "Eskalation beim Stadtfest: Mann rammt Widersacher abgebrochene Flasche ins Gesicht  TAG24„Ganz großes Kino!“ So sensationell waren die Stunts beim Brückenspringen  Mitteldeutsche Zeitung06110 Halle (S",
-          "publisher": "TAG24",
-          "pub_date": "2026-08-30T13:46:00+00:00"
+          "title": "Hacker fordern rund zwei Millionen Euro in Bitcoin für gestohlene Daten",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbTltMmNDU3plUnBfR1ZBb2FOUU9LX0p6QkFaWVVFekRKWUFuR2NzZkFBZ29Ec09MbnozcXRFU0N4NG94TE9sU3hqNWd5ZWtROW5rb3NOQ3p4dEpIVnRXaGpQYkNZU2dncUtld2N4aHhZQXBCMTFOelZrNFNhX0VDeG5Cc0JBU1JmczZHWkx3aDNTS0dHa3IyU3NYODk?oc=5",
+          "description": "Hacker fordern rund zwei Millionen Euro in Bitcoin für gestohlene Daten  rbb24.deBerliner Landesbehörden: Erpresser verlangen Lösegeld nach Hackerangriff – offenbar zwei Millionen Euro gefordert  WELT",
+          "publisher": "rbb24.de",
+          "pub_date": "2026-08-29T08:58:21+00:00"
         },
         {
           "title": "Mann in Bremen-Neustadt durch Schuss ins Bein schwer verletzt",
@@ -651,13 +651,6 @@
           "pub_date": "2026-08-30T12:31:00+00:00"
         },
         {
-          "title": "Hacker fordern rund zwei Millionen Euro in Bitcoin für gestohlene Daten",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbTltMmNDU3plUnBfR1ZBb2FOUU9LX0p6QkFaWVVFekRKWUFuR2NzZkFBZ29Ec09MbnozcXRFU0N4NG94TE9sU3hqNWd5ZWtROW5rb3NOQ3p4dEpIVnRXaGpQYkNZU2dncUtld2N4aHhZQXBCMTFOelZrNFNhX0VDeG5Cc0JBU1JmczZHWkx3aDNTS0dHa3IyU3NYODk?oc=5",
-          "description": "Hacker fordern rund zwei Millionen Euro in Bitcoin für gestohlene Daten  rbb24.deCyberangriff auf Berlin: Was mit den Daten passieren könnte  heise onlineHackerangriff: Wie Kriminelle gestohlene Daten",
-          "publisher": "rbb24.de",
-          "pub_date": "2026-08-29T08:58:21+00:00"
-        },
-        {
           "title": "„Holt uns hier raus!“ Zwei Heldinnen retten 16 deutsche Kinder vor Ameland",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONUxITHdQYjRFRy1mZlQzVkt0SzE5cDVuQmZwVC1Tdy1Gc3cwYWc4YXVhQkNIUjVUWHpNXzFxWjRpcktkMng1cXpLa2FSUzVST1EwcGFOaThmWHdlYjV5Z2IxWkxDcXZINUJYMmpwcjd0RkwzNW1QU1dTSHFpZlgtckxPSmJJd2FqeGdWaVV4STRHcmQwdWtEVnFQZVZXNWpsWV9Z?oc=5",
           "description": "„Holt uns hier raus!“ Zwei Heldinnen retten 16 deutsche Kinder vor Ameland  RTL.de",
@@ -665,24 +658,24 @@
           "pub_date": "2026-08-30T15:55:50+00:00"
         },
         {
+          "title": "Eskalation beim Stadtfest: Mann rammt Widersacher abgebrochene Flasche ins Gesicht",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV3dwZGswQVY3VWhuMWgxMGpFSjZmbFZGMU96ZFNmVkFTcktXRUhvQ291dGxKUGthTnQzMWp5MXg4clgzZXMxVUFVZXhNblJNZm9HcG4yeE1PU1ZTbU9wY2EtRFo2bmUzWnN0Vms5cnBjaUJTaWxYYVlrYnF5SEhsRXdTTTRuUTgyRVlRS2dVOU4xMzdkOFNUMERzRXo2Q0thN1UzM0VOcXFqa1BrVS1kdklueHMwYzZCdFc1MlFHbXZGTlE?oc=5",
+          "description": "Eskalation beim Stadtfest: Mann rammt Widersacher abgebrochene Flasche ins Gesicht  TAG24„Ganz großes Kino!“ So sensationell waren die Stunts beim Brückenspringen  Mitteldeutsche Zeitung06110 Halle (S",
+          "publisher": "TAG24",
+          "pub_date": "2026-08-30T13:46:00+00:00"
+        },
+        {
           "title": "Frau stirbt nach Messerangriff in Rosenheimer Bahnhof",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWFmVjFBbWdQWWREbmYyUXE4ZE1vYzB4NG9jUHdCeHZkS2lBY19yUHdyY2dvNDJMdDEwYUMyODlyMk10bGdRQUpvRHkzNEU1WnVqZ2NzeVVMVnBRZk9fSzkzZ3hnODF6UXNOODdLMjFob3hwQnlNWVF2d2didmxtdGFzcXlQdVRUZ0QtWVVQbU1HN29nc0ZuWWtwZmdrMWc?oc=5",
-          "description": "Frau stirbt nach Messerangriff in Rosenheimer Bahnhof  BRBluttat in Rosenheim: Obdachloser ersticht irische Touristin (31)  BILDRosenheim: 31-Jährige stirbt nach Messerangriff am Bahnhof  SpiegelFestn",
+          "description": "Frau stirbt nach Messerangriff in Rosenheimer Bahnhof  BRBluttat in Rosenheim: Obdachloser ersticht irische Touristin (31)  BILDRosenheim: 31-Jährige stirbt nach Messerangriff am Bahnhof  SpiegelBriti",
           "publisher": "BR",
           "pub_date": "2026-08-30T14:41:14+00:00"
         },
         {
-          "title": "TV-Moderator und Tuning-Statr JP Kraemer: Nach Gewalt gegen Ehefrau kündigt er Therapie an",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPREt3ekNpdzItMHZlWnV5VHJPdVlFSUNxSndtQlctOF9BcV9zTHZjSk1ZaGR6S1dSZEJBZkRRcjI4eGhiWWJGWHE0VDBkQWZMdE9JYVN4LU9iYnRZMFBNeG1IRE5oOW5jN01JZjlTbGZfaDAxaEgwY1RkQ2ROTE9seTNwOUxqUGNwdXZBcVdGNDYzRFRTcVBWQ1hTTV9FaTRsVVNkb3dSenB6d3NGQy1wN0ptS251R3ptcEt3WXEtYmlVOW5vR0ZDLXkxMFpjTHNLM0tiS1Jxei1PZGF0?oc=5",
-          "description": "TV-Moderator und Tuning-Statr JP Kraemer: Nach Gewalt gegen Ehefrau kündigt er Therapie an  RTL.deJulia Meck über Gewalt in Ehe mit JP Kraemer: „Ich hatte Todesangst“  BILDUpdate: Weiter Wirbel um JP ",
-          "publisher": "RTL.de",
-          "pub_date": "2026-08-30T18:35:01+00:00"
-        },
-        {
           "title": "Nach Drohnen-Anschlag in Leipzig: Merz plant offenbar Maßnahmen gegen Russland",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLTJxWU1BS0dIUllxTEtDYmxpZWthWlU2WFZ2eE5LLWlSU0hCMktqdjNBb1V2VnpJM0VkTkEwN3RJWUNEbmF1TFJoQVI3bnBCYXhaM1VURE00VVkyeU5RZUpGdGI1Q0UtSHJGajZ5Si1pNjJ2aW9GUXlpaDBvSXU5QnBaWFNWcXhJU2RVM24yVmxLU3U2REtiSGVn?oc=5",
-          "description": "Nach Drohnen-Anschlag in Leipzig: Merz plant offenbar Maßnahmen gegen Russland  EuronewsFlughafen Leipzig/Halle: Weitere Drohne und möglicherweise militärischer Sprengstoff entdeckt  tagesschau.deMerz",
-          "publisher": "Euronews",
+          "description": "Nach Drohnen-Anschlag in Leipzig: Merz plant offenbar Maßnahmen gegen Russland  Euronews.comFlughafen Leipzig/Halle: Weitere Drohne und möglicherweise militärischer Sprengstoff entdeckt  tagesschau.de",
+          "publisher": "Euronews.com",
           "pub_date": "2026-08-29T15:01:21+00:00"
         },
         {
@@ -691,57 +684,71 @@
           "description": "Wieduwilts Woche: Merz erlässt Anordnung zum Glücklichsein  n-tv.deLars Klingbeil: Der nimmersatte Finanzminister richtet Schaden an  WELTLimonaden-Hersteller aus Duisburg: Warum Sinalco die geplante ",
           "publisher": "",
           "pub_date": "2026-08-29T04:57:56+00:00"
+        },
+        {
+          "title": "Merz-Regierung führt neue Zusatzkosten ein – für Millionen Versicherte",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNEltMEt6cTJqT1o4TmljR0w0dS0zWnBzazl6WGlsWEd2X2wtaW9WY09MUkpTa3BGVFk3Mk9TbndHOVhnWmZjZTY0ZXJ1LU9TQ0puZlBnTTZXeS04eE5tN01TckJfUE02UDItZk1ESHkwQnNiWXhKOTItX08xaHVKaFJwd1Znd1VfV1NsckNzS2U4cnZqS2ZzNnRjWlBvUW90NHdTU3E1N2JLNmFqWTdKUTVDalZycDdQWG5JRmpxekI4MTJoaFpOa2RRTmhYQkVEUWNvT1VkYWJRNlZUNkdYRW9nT05OVl9IcnBQMEl2OHB6dw?oc=5",
+          "description": "Merz-Regierung führt neue Zusatzkosten ein – für Millionen Versicherte  futurezone.deWas die Gesundheitsreform für chronisch Kranke bedeutet: Eine Betroffene berichtet  SZ.deEnde der beitragsfreien Mi",
+          "publisher": "futurezone.de",
+          "pub_date": "2026-08-29T16:50:31+00:00"
         }
       ],
       "world": [
         {
-          "title": "Referendum in Island Knappe Mehrheit gegen EU-Beitrittsgespräche Islands zeichnet sich ab",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxONDlwUjNnXzhSWWZqRjFfQ0ZMYm9Lcnl5S3g0bS1tRV9BTWMtVjA5NG5YUHFZTjZwQ3lUZGsxUnBMb0N2OF93ZHhMWWlxdUhGLTl6MVFrVGdObWNoYzBZOWoxb2VvTTI3Y1VRMzhjcG9kYUZKMlNMcDJSNUZHcm12VVl5Rm1TVW5zeVVvWEhld1lVanBYcHRXb3JFQUwyZw?oc=5",
-          "description": "Referendum in Island Knappe Mehrheit gegen EU-Beitrittsgespräche Islands zeichnet sich ab  DIE ZEITIsland will nicht in die EU: Was der Grund dafür ist  BILDIslands Ministerpräsidentin Frostadottir ve",
-          "publisher": "DIE ZEIT",
-          "pub_date": "2026-08-30T07:28:27+00:00"
-        },
-        {
           "title": "USA greifen offenbar iranische Raketenwerfer an",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LNldQR3c3SHpQd0d6cUN6a3daa2VMbEhRU3Z4cGZJV2RSdGxkTmlyQ1pROEVNalJwbVJFT1RuQ2c3ZXlyVzYtNm5HZS0yVUxIbmdTVU41blVNb0JWSWJ6S2QxQkRieDhN?oc=5",
-          "description": "USA greifen offenbar iranische Raketenwerfer an  tagesschau.deEskalation im Nahen Osten: USA greifen erstmals seit Wochen Iran an – Regime reagiert mit Gegenschlägen  SpiegelUSA und Iran: USA greifen ",
+          "description": "USA greifen offenbar iranische Raketenwerfer an  tagesschau.deUSA und Iran: USA greifen erstmals seit Wochen neue Ziele im Iran an  DIE ZEITUS-Militär greift iranische Raketenwerfer an der Straße von ",
           "publisher": "tagesschau.de",
           "pub_date": "2026-08-30T23:35:00+00:00"
         },
         {
           "title": "Grand Canyon: Unwetter löst Sturzflut aus – Suche nach 15 Vermissten",
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOenZGRktoaFBtQVJJWERmWDFwTkpWTkVqQ2ZUa3NaZjVrdVNwWEIwb3pFa29JR0J0eWNXX0l0S3BGZjhmbUdJRGxPNkpialRLRlNLX1BXNWxlUEN6WlpaUEJ4akJKSWpBS2oyWWpwN1VNSWJjWFdxYWRuZmRhWlp4Z21fd3pVMXFqZlhMdWNPNTlQaXN2NklhSVVXVTNEUHBXSlp1RVlHUHJGVnJxQmdTT3UwTnNFS3VoV21DekJhU0pzSlJ2ZVVsejJLVWM5WGZPM0w4?oc=5",
-          "description": "Grand Canyon: Unwetter löst Sturzflut aus – Suche nach 15 Vermissten  SpiegelNach Sturzflut im Grand Canyon: Suche nach 15 Menschen  tagesschau.deNotlage in Arizona: 15 Vermisste nach Sturzflut am Gra",
+          "description": "Grand Canyon: Unwetter löst Sturzflut aus – Suche nach 15 Vermissten  SpiegelGrand Canyon: Schwere Sturzflut! Mehr als 20 Menschen vermisst  BILDRund 15 Vermisste nach Sturzflut im Grand Canyon  STERN",
           "publisher": "Spiegel",
           "pub_date": "2026-08-31T00:00:00+00:00"
         },
         {
-          "title": "Schiff mit 267 Menschen an Bord gekentert Kapitän nach Fährunglück vor Zypern festgenommen – acht Tote",
-          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQTEdFck9xTUl1UTV3TkVkREIzVnNCT3hIb3BMdW5wcjllZHhPa3JkYlAwRnRIcUQxNGlZbzA4MUlFRHpZSEZCUV9aZ29JYkFSazhqZE5ZaDJBS1EwbGZOZXp0TXhZQjlGUnVOLUM4WnpnYU1Na0hwU01KN3lKc2h1N1l1ZExLdUJXQ0ZpaVA5WWt1aG12QUpQMGR0dDJvVXc2bUJENG53SXVQZUlnMUZCRDQtamlMX3VQOVNfZUhUN194U3lsbFRydG41VTNLVWsxQldRbHNZVkRQV1pTeUc4elMwTGJjRFJxaEZPRFZRT1B6eUtQU0YyZg?oc=5",
-          "description": "Schiff mit 267 Menschen an Bord gekentert Kapitän nach Fährunglück vor Zypern festgenommen – acht Tote  TagesspiegelKapitän geflüchtet? Vorwürfe gegen Crew nach Fährunglück  WELT„Der Kapitän ist als E",
-          "publisher": "Tagesspiegel",
-          "pub_date": "2026-08-30T17:56:00+00:00"
+          "title": "Island stimmt gegen Wiederaufnahme der EU-Beitrittsverhandlungen",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVFVBLU45UncyM3NkUmoxQlZDN1lhVWhOWjYwb3psbTZWUkZSd2JXaExrREhPYUs5Tmh0S1JhMUFzemtlekJscDNicHF6RTI3Y0tNZ0hMNFMxUWNXYXFRYnVrRXhZNEFZT0tRd3JrSmRSYm8zaVFlUFlRWWxPRmFYYkRXcw?oc=5",
+          "description": "Island stimmt gegen Wiederaufnahme der EU-Beitrittsverhandlungen  Euronews.comIsland will nicht in die EU: Was der Grund dafür ist  BILDWahl-Krimi in Island – EU-Gegner gewinnen laut Bericht knapp  WE",
+          "publisher": "Euronews.com",
+          "pub_date": "2026-08-30T08:14:10+00:00"
         },
         {
-          "title": "Schüsse bei Rave in der Schweiz – 22-jährige Frau stirbt, Deutsche unter Verletzten",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQcEhIS2pybUIyN0UtODNJY1IwN2FBMlFTeThWUmVZUUpQYktEMG11QkV3X1pGVEVORmt6UVktOUktX0VJMnpKVzBZOVdFZ2VDdFo4OGxxVkctYWVSOGltMXhuN3dRXzRDTWFodDVUTHg3SXVxS1VqUFFGOFdCSkZtNHY2WVhmbmJFbHN6NHFkX3Z1YUZDZ05melpxN2JmMGc4NlhLVWxKMkZrMjlQY3VVNDAyc0pTQ2VCM01fOF9hdEFPYm92Qm5ISF9EbU5jS3B4Uk1VVzRwdlIzQnM?oc=5",
-          "description": "Schüsse bei Rave in der Schweiz – 22-jährige Frau stirbt, Deutsche unter Verletzten  WELTNach Schüssen bei Rave: Deutsche unter Verletzten des Schweizer Raves  tagesschau.deDeutsche bei Rave-Massaker ",
-          "publisher": "WELT",
-          "pub_date": "2026-08-31T00:34:51+00:00"
+          "title": "Google Maps benennt „Lake Ontario“ auf Wunsch von Trump um",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbDVqZDM5OHdIR3lGT25QalBxUmxRSWxRWTc3ZExNbGkzYjg5VGc1OXc3QmE4NFpHRDRlbE5XVVpOSkNRSlA5dnZ4QVJMcDlNZGlvV05MVF95WW9ySk82UGktdXNyc2FqOTFnOGxYenR2NXZ0aUZwOUtUWTdXUXpBcDRKdkswZkowNWViR3RUMUVJcm9sRUdYTXFQVmEzZWxmT0xWQTc1eEpQeWU1ZXBNYQ?oc=5",
+          "description": "Google Maps benennt „Lake Ontario“ auf Wunsch von Trump um  STERN.deTrump gibt Ontariosee neuen Namen: Google Maps zieht nach  T-OnlineNach US-Umbenennung: Ärger in Kanada – „Lake Ontario“ heißt auf W",
+          "publisher": "STERN.de",
+          "pub_date": "2026-08-30T17:55:00+00:00"
+        },
+        {
+          "title": "Kapitän festgenommen: Acht Tote bei Fährunglück vor Zypern – Schiff liegt in 500 Metern Tiefe",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdzNSSENVZ2RRZ3VzNWtvQ190NFBZS1JmcTRWNTFIRnlaTFU2cDdIWDk3Y1FBRk5nMHJHdDgtd2ppdUlFcnRnV1hlX3NBWHk4Zk16dHNmTzByNElicGFpbnoxc3FUZGVBak9rdXVsNTFTbW1CVTNNOG5adXU5Sm9DWUUyeFREb3l4ekdLcEhNSmRERG5rSXV4REJHX080eTBLVjFvQkhtYUNFekU1a1ptUU9YVVpXd3dZMjRFZ0NiYUQ?oc=5",
+          "description": "Kapitän festgenommen: Acht Tote bei Fährunglück vor Zypern – Schiff liegt in 500 Metern Tiefe  RP OnlineKapitän geflüchtet? Vorwürfe gegen Crew nach Fährunglück  WELT„Der Kapitän ist als Erster gespru",
+          "publisher": "RP Online",
+          "pub_date": "2026-08-31T02:12:00+00:00"
+        },
+        {
+          "title": "Terroranschlag, Amoklauf oder Milieu-Abrechnung – Motiv der Schießerei bei „Aarauer Rave” noch unklar",
+          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOM013UUNsZGdWSWRabWRuYUFXbjFUMDV3WlptY2M2TWtyRmw0SXFUZkRrRnpGbnRVZk9nWlVjR3V2bTladmM4OGN6RGJjVnRvYjhrNEhwQjVqRXdlVXliWVg1ZmZWZm5oaXZWUERJV1ptb1ljRlpFNmdFWnZMMmhGUTFXRFRoZDJNVDRaYV9RMnQ5RTlNMXo0RVZMTVlMaHJuLUpxQkxjdzRPMnIzalJIVk1ScUdsY1BzM3dYNjI4WnY5THQ2WDU2NEtTc2pJb2pmcVpzb0lCZlNQQ3NMUEg2ZHV5ZkVjWEZYM3RPVkladDRsSnhVUXlRWXV4cFNTUzlDRzd3eEFCeVU?oc=5",
+          "description": "Terroranschlag, Amoklauf oder Milieu-Abrechnung – Motiv der Schießerei bei „Aarauer Rave” noch unklar  RTL.deDeutsche bei Rave-Massaker in der Schweiz verletzt  BILDSchüsse in Aarau: Wer tötete auf ei",
+          "publisher": "RTL.de",
+          "pub_date": "2026-08-30T19:12:15+00:00"
         },
         {
           "title": "Sturzflut im Himalaja: Drei Deutsche in Tibet vermisst",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOGl1X2lJeXRkXzVROTVWVWFSbjFkR3JRVlprSTlHdWxSTzNPTHl4VmxNMzV1SC1WTzRBRm5jYlpDZ0JDc0ZGTGpBOUhiOTdPLWh1Z3ZGbDl5aktoYS1LWjhOM1kyVnpZSUpsazhNOUVVcXpmelJHT3gwVGg2bTEwaFBCeG4tWmJnMFBaUTFyY1hVbGV4STB0T2g1T0RTYTREQ1hvalZLTHRUMEVXY19IMGFxTHI1TDJ3dmt4SUUxZGI1Zw?oc=5",
-          "description": "Sturzflut im Himalaja: Drei Deutsche in Tibet vermisst  FAZNach Sturzflut in Nepal: Die lange Suche nach Gewissheit  tagesschau.deNach Sturzflut - Fast 800 Tote im Himalaya bestätigt - Suche nach Vers",
+          "description": "Sturzflut im Himalaja: Drei Deutsche in Tibet vermisst  FAZSchulleiter in Nepal rettete wohl Hunderte Schüler vor der Sturzflut  SpiegelNach Sturzflut - Fast 800 Tote im Himalaya bestätigt - Suche nac",
           "publisher": "FAZ",
           "pub_date": "2026-08-30T13:18:47+00:00"
         },
         {
-          "title": "König Harald tot: Beisetzungstermin steht – die Entwicklungen im Ticker",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUjM3VlBtMzZ2NkE4SDNVNG94bjA4OWVVVU9ndUY3Z2JvYU84MUh3VC04TGo2U0ZWMnNqdHg5U2N6Ui12UjZJd0F3bi1qWDB0SUMwbkg4d3pHYTBYYmhGZTFvTmdjTXY3R3FLTDNGaFRnSmpFbV9qYWtVbm5IQ0VfYUFFWGNXMWZYd1JxZU5RUlJmZ0o0QTh5OU9VbmFuT3lBdzB1NUZ6NlIyN19oU0x0U2owUVcwT0xuR3p4S3pVeXZyYmhNY19n?oc=5",
-          "description": "König Harald tot: Beisetzungstermin steht – die Entwicklungen im Ticker  STERN.deNach Tod von König Harald V.: Königin Mette-Marit bleibt Trauergottesdienst fern  T-OnlineTrauerzug zum Osloer Dom: Dat",
-          "publisher": "STERN.de",
-          "pub_date": "2026-08-30T17:55:00+00:00"
+          "title": "Nach Tod von König Harald V.: Königin Mette-Marit bleibt Trauergottesdienst fern - T-Online",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOT0RMeWxQQVE5eGM3VDQ4V0wwd0padDMyZ2NHUWpOWElkdXBhZ0NidGhuVkF5eExCU29LeDJOZlRiTVdmZlRYaXlBTFBIQ3BPM2liSEt2RHRka3ZIbjgyVzBvQmtmUVRCNmFXQmItckZXSFR1R3EtbkNwdU53YTlQRDdybS1MaE5maE5VeU5rYllOcjQzanNnNG5ueV9obkhfaHc5c01SSVFSMW5QWnVQZERlS2ZqcnczeE9KWDl1TmZNSF9TY3ZnN2didnY4OU0?oc=5",
+          "description": "Nach Tod von König Harald V.: Königin Mette-Marit bleibt Trauergottesdienst fern  T-OnlineWeitere Schlagzeilen und Meinungen in Google News",
+          "publisher": "",
+          "pub_date": "2026-08-30T08:11:06+00:00"
         },
         {
           "title": "Migration nach Spanien: Gewalttätige Proteste in Ceuta",
@@ -751,53 +758,46 @@
           "pub_date": "2026-08-30T14:30:17+00:00"
         },
         {
-          "title": "Abkommen mit Venezuela: Trump will strategische Reserve mit Öl aus Venezuela auffüllen",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT3BnQ2xvdGItZ0duSGdmVm05Qi1nVDFBa2VWeUJROWtkVnpBMkNoQ05SYk4tWm1ULWhzaTh1S2JIV3NZUEN2aTlZZUNUNWhsdjRJcVV5eFVfMGpBa2hyU2JCcV96MzZfVERYZ3BGNjFzN05pYWxjOEplTVNrVTE4TEZkN2xDWHdvOVNvTzJyZGlxWTM1VFdqNlc0RnNESnIwcFVIVlNqUQ?oc=5",
-          "description": "Abkommen mit Venezuela: Trump will strategische Reserve mit Öl aus Venezuela auffüllen  DIE ZEITDonald Trump: Öl aus Venezuela soll strategische US-Reserven stärken  SpiegelTrumps Öldeal mit Venezuela",
+          "title": "Donald Trump: Öl aus Venezuela soll strategische US-Reserven stärken",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPb3RqWU9PbVBZVEJlcVFCVW9fblNNTm1oQjRxY2swYTg3dU9sUldfZkNGTFk5UFVCdlBJQ1lKbGs4d3FVYVBFTENaTURRRl9IazhDdXdpTG4zWVdoUXJuemF4ZlZrLTlyb3V3MC15LVYycHZwWGg2bVNaVnhLV0NCc2kzRTY3TXl4OU9Od2xjXy1ILTR6Ty12QnVmNmVSQkFPTU5mY0puT3BjczZjRkdWZVdINEoxYUMtYXYzWFhsZzJKMUR3NTVySGc0aDZyRmxhZW5yTUFn?oc=5",
+          "description": "Donald Trump: Öl aus Venezuela soll strategische US-Reserven stärken  SpiegelTrumps Öldeal mit Venezuela „Das ist Konsequenz einer Kanonenbootpolitik, die ans 19. Jahrhundert erinnert“  TagesspiegelÜb",
+          "publisher": "Spiegel",
+          "pub_date": "2026-08-31T01:30:00+00:00"
+        },
+        {
+          "title": "Israel: Netanjahu verurteilt Siedlergewalt im Westjordanland ungewöhnlich scharf",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQekNVaWI4M3dfWF95NXBxeFdzWmxvRXZmbzdqVzJRaUk2MFNyX0FPNUd6eHJpRHBndXltMnEyVzdodzAxVlVhZTBMcEc3T1NmUFl3RlVxQzEwWVdJYTBtOUtVb0tkMlItdGNQSXFyc3RkT3lOLW5rZi0wUVQ0M3p4NUFxM20xRjliQVRRYXhsT1BnSmRaUDFNTEQxcjM1RFZVMEpFQ2hnQmlQMjA0WnJ6aDBZckhiSmJHaTJoOFNfaWhSNE5uNnZuTWhWdW53NGQ0ZDZhODVPeWlYZVVMMVJYbVRKNkVhRXZET3Z3MVpvUHpISE0zanc?oc=5",
+          "description": "Israel: Netanjahu verurteilt Siedlergewalt im Westjordanland ungewöhnlich scharf  WELTNach Angriff auf US-Fernsehteam: Presseverband in Israel fordert von Behörden Schutz für Journalisten  n-tv.deWest",
+          "publisher": "WELT",
+          "pub_date": "2026-08-30T09:39:07+00:00"
+        },
+        {
+          "title": "Ukraine-Krieg im Liveticker: +++ 14:36 AfD-Politiker verteidigt russische Armeetasse im Büro +++ - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQm5mcjhjQWktc25zaG5wSE5uaEplOS1KUlJjLWpEVTgxb0pyaTl6R0wtS0RjeW85ZWxDMWl1SDkxRG1hTG1ubW5lNHVZQnpsaXc4N2xQeHlQREluNmpidldDc1VLaWxKMlhSckU3dDVmYVptcFpqVmRmXzZBMUdBcy1LOWFCS1MtdzBVcWtCeWN6RlBOSkJ6cXlzZlZvcVVrZWI4eXBGbw?oc=5",
+          "description": "Ukraine-Krieg im Liveticker: +++ 14:36 AfD-Politiker verteidigt russische Armeetasse im Büro +++  n-tv.deUkraine-Krieg: Portal bestätigt mindestens 242.000 tote russische Soldaten  T-OnlineMindestens ",
+          "publisher": "",
+          "pub_date": "2026-08-30T12:37:36+00:00"
+        },
+        {
+          "title": "Africa Corps von Russland: Russland soll Niger bei Niederschlagung von Meuterei geholfen haben",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPak5tSFAzQ1VfZ1lrbkJGZi1iX191cVV2RC1WRG1YX1lQWHRTQU1LMUJ2clVLcS1NRDBNdERLMThwT0tLUFV5YWVRRE1QSUNCaXNGSTgtZ0ZHUWVIdG5oVXdPODFvaXRGOWtFTHJ2YjNfS3dUTUxocHhqbThlYkhoWEM1blBhcDFYQThWeUNyQ0ZiMkNGYW50TQ?oc=5",
+          "description": "Africa Corps von Russland: Russland soll Niger bei Niederschlagung von Meuterei geholfen haben  DIE ZEITMit Russlands Hilfe: Junta in Niger schlägt Aufstand von Soldaten nieder  tagesschau.deNiger: Ar",
           "publisher": "DIE ZEIT",
-          "pub_date": "2026-08-30T15:46:02+00:00"
+          "pub_date": "2026-08-30T14:12:46+00:00"
         },
         {
-          "title": "Nach Angriff auf US-Fernsehteam: Presseverband in Israel fordert von Behörden Schutz für Journalisten - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWTlBNzBOOFE2N0VabWFPMG4wYXhnVlgwZUxhWHk4VGJSWmwxcmZOSE1YdzhRVV9YcTR3TnFDRTA3cUJqZVB1V2diRHBnaFFoaVNnXzhuZTZONDZqb2V1UDlsd2w3SHA4UnVxRW5OOXNOekNJbFpaTGx2ZjJFZ3l1VEg5XzQtUTV3VEo5Vmk5bzA2aTNudjBQNHdPUXFFSFViekZSdTlPbHkwaDVxb01zUUxKejQ?oc=5",
-          "description": "Nach Angriff auf US-Fernsehteam: Presseverband in Israel fordert von Behörden Schutz für Journalisten  n-tv.deWestjordanland: Benjamin Netanjahu verurteilt Siedlergewalt im Westjordanland  DIE ZEITNet",
+          "title": "Deutschland hat unter G20-Staaten die höchsten Strompreise",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcm9lVjRmOTZaRjJPeFZUcXpYeXh2dWVlaTNyYjlLanhDbjFFM0JsalY1NnVuSnE1WUdwNkdSNnBQa3dVc05OUVRzODdXOFAzdGwxNkJuMmNjbVFpdUNtMHBST1lLSEY2dTN3Ni11VWxqR1VieUptdTl2MDJNQ1drVHFHYmRrS3pudzIybmpSVHNCcW0tcFE?oc=5",
+          "description": "Deutschland hat unter G20-Staaten die höchsten Strompreise  tagesschau.deStrom: Doppelt so teuer wie der Durchschnitt – Deutschland hat höchste Preise unter G20-Staaten  WELTEnergie: Deutschland hat h",
+          "publisher": "tagesschau.de",
+          "pub_date": "2026-08-30T13:29:00+00:00"
+        },
+        {
+          "title": "Eigene Geheimdienste ignoriert: Trump und Hegseth bombten sich sehenden Auges in Iran-Krise - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMG9CSEctX0FwZi1oZnFvRURmZkVUNkVXNEE2YUEybjU1VWlCNXVBZ1VOWGhyd1dTZ01scGtwTE9LYkFMSktjcnQtUVcwY3ZXdUVBa0RDdFBsNTBrTEZZSENtWndjTTFXbVdVd0FmQ0gxRmxmR2xTRVRtaU51SjAtaGphcGdyeHd1d21PTkE1RUxaT3NTVEF1VERkeVk1SkQ4SWd2RGZ3?oc=5",
+          "description": "Eigene Geheimdienste ignoriert: Trump und Hegseth bombten sich sehenden Auges in Iran-Krise  n-tv.deLegen neue US-Sanktionen Irans Wirtschaft lahm?  DW.comBilanz nach 6 Monaten Krieg im Iran: Das unte",
           "publisher": "",
-          "pub_date": "2026-08-30T13:39:04+00:00"
-        },
-        {
-          "title": "Staatsbegräbnis für Ratko Mladić: Verehrter Kriegsverbrecher",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WUVJ5QXRLNTVBSUo2T01zTUdGdjNoU3lWRVdVTkt2SzNQY0VLRTc1blBVTTA2Q0JwOC1WbkJzSWQxdlpMVVpGU3k5cnpLbUVrVmg2V0FFMW5zQ21ZQWpmZ0l6a0dXNWg2UWdn?oc=5",
-          "description": "Staatsbegräbnis für Ratko Mladić: Verehrter Kriegsverbrecher  taz.deSerbien feiert den Kriegsverbrecher Ratko Mladic als Helden  FAZRatko Mladić: Serbiens Präsident Vučić kritisiert Umgang von UN-Trib",
-          "publisher": "taz.de",
-          "pub_date": "2026-08-30T15:31:26+00:00"
-        },
-        {
-          "title": "Nach Trumps Umbenennung „Lake Ontario“ wird auf Google Maps in den USA zu „Lake America“",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNclZxOFRHQy1WOVN6dmpORXdma21uM2s3YktPT1hQT2kxQTFsTUppMnpnWkZoZlJuMjhlQTFoZmxONldTNWlrRjdOVWNKbms3V1NldUlZMG9jckRqb0c2czFxYVpJNjUtQ3ZMak9KeVFsaDJsazNueWt4VUNUNHM1TV9fZi0zZk0tTEJEd1d0S0FHOTVEMGlESm05Mlk0ME52Z1lwZFFtVTVlZUw2RWMtQjExWjZDaWFrcm9YMFllQmxzNDlGcmdHTzBrRWc5U3BMdGdadDJpdXpOdw?oc=5",
-          "description": "Nach Trumps Umbenennung „Lake Ontario“ wird auf Google Maps in den USA zu „Lake America“  TagesspiegelTrump gibt Ontariosee neuen Namen: Google Maps zieht nach  T-Online\"Für immer Ontariosee\": Kanada ",
-          "publisher": "Tagesspiegel",
-          "pub_date": "2026-08-30T16:46:06+00:00"
-        },
-        {
-          "title": "„Wir sind dreifach getroffen vom Iran-Krieg“",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaWJhLWlwMmFzaHgxRmo5UWVpaUE5ZExaZHhUVExudVVrUE1UZW84ZnBiZTZnMWFSN3R4RzZDNnVRaVF5ZUkxV3VxNm4xcDhHeVFJZ0E3U1VrMzdMMzJDUTgzWUU5d1NBN0VhQlp6YnhDRDJzS0lOYTg0TlRyYlJUOGEtdTU3aWlRTld0NGp1MTBiTUZ1Qkp2dHA5WTU4cU1qZHV3WHIyMWZSTlVrTzY4alFCXzZ0THVQTmx3NDRVamtSMGlwVkc1VUlEN2UzeXZieXJyQkpySk1GbGF1UEE?oc=5",
-          "description": "„Wir sind dreifach getroffen vom Iran-Krieg“  HandelsblattEigene Geheimdienste ignoriert: Trump und Hegseth bombten sich sehenden Auges in Iran-Krise  n-tv.deLegen neue US-Sanktionen Irans Wirtschaft ",
-          "publisher": "Handelsblatt",
-          "pub_date": "2026-08-30T14:00:12+00:00"
-        },
-        {
-          "title": "Ukraine-Krieg: Explosionen nach russischem Angriff – mindestens 38 Tote - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSENNdzRYTDZHUW1sMWFhTDFGTDZYd29zV09aeUtPS1BkbWdtZTVyajBzZ1NJTnBZS0E0aG42V3AydHZtYllHMTBINHRwTVp1S1ZLck9pYWZCcHcwcmJPTTd0SDhJWGIxcW4yY1pQbmVzeHF2dmZ0VUI0V1ZRZGVwbmV6eTY4MnF2MGswdWhGcGNDWlNMaTROakZQVG1yV2MwdVprYzNNUWd0VFo5XzF6clVadTktMWlBMXc1eHAzNDBWQURWaEZrWXhTNnU?oc=5",
-          "description": "Ukraine-Krieg: Explosionen nach russischem Angriff – mindestens 38 Tote  T-OnlineUkraine-Krieg im Liveticker: +++ 20:46 Merz will sich bei Rüstungsprojekten ein Beispiel an der Ukraine nehmen +++  n-t",
-          "publisher": "",
-          "pub_date": "2026-08-30T12:41:26+00:00"
-        },
-        {
-          "title": "Supernova Orbán",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTzNCamJTQXZIczRheUJLb2pvRnpkNFlINkdONkJMY2J5bG9teXBuVnA0V0hGVGxuc3FCUVZzeVdXcnZCSlhGbUNIWDMwVWI3eEN6ZURUTTVrc2oxVnpVakRXdW1xMXJ4bVdWcWF2eXNfQldfcjczQXVUbmNBelcwcm5Ldw?oc=5",
-          "description": "Supernova Orbán  Tichys EinblickVorschau: Heute im Osten - Reportage • Eine Familie in Ungarn  ARD MediathekUngarn: Welche Zukunft für Fidesz – mit oder ohne Orbán?  EuronewsAller Anfang ist schwarz  ",
-          "publisher": "Tichys Einblick",
-          "pub_date": "2026-08-30T16:18:02+00:00"
+          "pub_date": "2026-08-29T17:07:39+00:00"
         }
       ],
       "business": [
@@ -816,18 +816,18 @@
           "pub_date": "2026-08-30T11:51:00+00:00"
         },
         {
-          "title": "Die zwei teuersten Luxus-Wohnmobile vom Caravan Salon 2026",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUTJIU0pqMjMyUjV1SnA5a0UxeFdYNEo0N2pBTWotQ3RWSW45Y1B5cVFIYm1IREdGV1BXNnY1QTF5OTFBbGVkSWd1OWM3LUZkNUJVel80aTBleDFRTkN3b3dqbEQzQWdFLUdsc2JsN1MydnpVWkpFcHlpcWhkQlJTeUlqcHlZcUg4cGN5UThmRUNPckEyVEJzMkdFRlliRE13Y0pOXzgyaWhVMmM5OEl6SU1JN09Qd0ZrT0lYZ0N3?oc=5",
-          "description": "Die zwei teuersten Luxus-Wohnmobile vom Caravan Salon 2026  BILDDie zwei teuersten Camper der Messe kosten zusammen fast 5 Mio. Euro!  AUTOBILD.DEWohnmobil mit Solarblume und Klärwerk: Dethleffs C.Cor",
-          "publisher": "BILD",
-          "pub_date": "2026-08-30T12:16:30+00:00"
-        },
-        {
           "title": "Reaktionen zu Rheinmetall-Ausbau fallen in der Region unterschiedlich aus",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUFVWZ0p5NjdfY25PM2FocUE0Wnp3X2RIS3BhQ0tEMTlFcnNsY2dxOHhDRXZSVmR2OTZQQ0FuSWlEY2pncW4yZmlJT0dEcE5ZRUNBVVZrUENXazJMNGt4Wnk4Z2w2ZGQ2SXNkWnNHSlhjcTRwTjlwTXZBeVhhZkI1bGRKa016ZHBJTDFtZEkxcFIwWGZneGZRQjU1X0JpT3dYTFk1Qg?oc=5",
           "description": "Reaktionen zu Rheinmetall-Ausbau fallen in der Region unterschiedlich aus  HNAWeitere Schlagzeilen und Meinungen in Google News",
           "publisher": "HNA",
           "pub_date": "2026-08-29T07:38:23+00:00"
+        },
+        {
+          "title": "Die zwei teuersten Luxus-Wohnmobile vom Caravan Salon 2026",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUTJIU0pqMjMyUjV1SnA5a0UxeFdYNEo0N2pBTWotQ3RWSW45Y1B5cVFIYm1IREdGV1BXNnY1QTF5OTFBbGVkSWd1OWM3LUZkNUJVel80aTBleDFRTkN3b3dqbEQzQWdFLUdsc2JsN1MydnpVWkpFcHlpcWhkQlJTeUlqcHlZcUg4cGN5UThmRUNPckEyVEJzMkdFRlliRE13Y0pOXzgyaWhVMmM5OEl6SU1JN09Qd0ZrT0lYZ0N3?oc=5",
+          "description": "Die zwei teuersten Luxus-Wohnmobile vom Caravan Salon 2026  BILDDie zwei teuersten Camper der Messe kosten zusammen fast 5 Mio. Euro!  AUTOBILD.DEWohnmobil mit Solarblume und Klärwerk: Dethleffs C.Cor",
+          "publisher": "BILD",
+          "pub_date": "2026-08-30T12:16:30+00:00"
         },
         {
           "title": "Neuer Hype um Nvidia – diese ETFs sind die perfekte Chance-Risiko-Option",
@@ -872,6 +872,13 @@
           "pub_date": "2026-08-30T05:15:19+00:00"
         },
         {
+          "title": "Verabschiedung von Tim Cook im Apple Park – auch Partner dabei",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNm9yenFhZGNIQ1VKRDhMX1ROenBPMk9JVXBxajVMSzgteEk4VzRjSFU0bFg3MUNQMHVZeGpJVm5ZbWZEUjJrRzNPQm1PaXFQWEpWbXFwUnNEbGY1RW8yWkxVb0RyeUdZdVRBSkpTUXJqWE1kNmpLSDdqeFdTZ1JyVVVhVUhOWDRRbmw5NTVXVGtFOUY1cy1oUjNfMm9xcDRGMVE?oc=5",
+          "description": "Verabschiedung von Tim Cook im Apple Park – auch Partner dabei  heise onlineNeuer Apple-Chef muss iPhone-Konzern durch KI-Ära steuern  WELTApple-Aktie vor dem Chefwechsel: Was Anleger von CEO John Ter",
+          "publisher": "heise online",
+          "pub_date": "2026-08-28T09:50:00+00:00"
+        },
+        {
           "title": "Jenseits von Lithium: Wie Natrium-Ionen-Batterien die Welt verändern könnten",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSkpZczE4VUZXamo3WjdfUDVYSlk0c2NIZTRrdkdOWmFVcDQxQ1lFd0Y1Qjg3Xy1aVHN3dUVFQVdyX3ZtV1I2RFJMUFNBNU1YWVBlZjJubzZGcDFSWDRyb3JOeV9fa3BCSzBZMmN0N2VMeGNEQWlfX1pDbjNxbXdXbmRjUGZiMjJpdmRlUzBGR2U5X2dxRC1XcQ?oc=5",
           "description": "Jenseits von Lithium: Wie Natrium-Ionen-Batterien die Welt verändern könnten  Spektrum der Wissenschaft12-V-Natrium-Ionen-Batterie der Camel Group für ein europäisches Vorentwicklungsprojekt eines Ers",
@@ -898,16 +905,16 @@
           "description": "1.200 KI-Agenten schließen sich eigenmächtig zusammen und versuchen, ihre Aktionen zu verbergen  notebookcheck.comKI-Cyberangriffe: Ein Hacker erhält die Schlagkraft eines Teams  BILD„Begrenztes Zeitf",
           "publisher": "notebookcheck.com",
           "pub_date": "2026-08-30T10:42:00+00:00"
-        },
-        {
-          "title": "OpenAI macht Ernst mit Kommerz: Wie Werbung bei ChatGPT künftig geregelt wird",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTUpfNEwyazJVN1g0NTdXSFo4bnVSZk5YTmoxc2IxWkl1SUtWZnF6VkViNHpudjFOcG91cGdFRjhhSmJULW9vMDh4aEplanpSMFA1ZEtKenMzXy1IczI3Qkd1ZDdTUkRJNi1keGtoU29UbHpNWm41S2xzWURzaHBuUFdoN21tQmd2bm1RTUJkcWdaLXpLVkI4a3psM1M1VGpnTk96SGF6WGItdkhfMWlUOENUTGlVTEdx?oc=5",
-          "description": "OpenAI macht Ernst mit Kommerz: Wie Werbung bei ChatGPT künftig geregelt wird  heise onlineChatGPT: Guck mal, jetzt verschlimmscheißert sich auch die KI  DIE ZEITChatGPT Werbeanzeigen: So nutzen Marke",
-          "publisher": "heise online",
-          "pub_date": "2026-08-30T12:42:00+00:00"
         }
       ],
       "technology": [
+        {
+          "title": "„Gefährlich“: Fähigkeit, die kaum jemand kennt, wird auf dem Arbeitsmarkt immer wichtiger",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTVcxa2wtMWx2VXRHcU54VGl4TkFkQ2ozY1oybHBlLWZoRlRFS0czdVY5LWxyQTlHTzhZbW12SWRENDFwY2ZfUDhoRkNiOFUtQXQwNFloMmVrY1VMYUpJYTlPSmxEN3lJTngzUUNyWVdJX0dMMk5QazFGSkd4NkZrZm9aWFYyeTJWOFY1MXFkM2RjWktBclg2NUVmWlZBUVRjaWl3ZF9PZE52OXRacXNBQ3otOXdJU3lhZ2xmanltUHc?oc=5",
+          "description": "„Gefährlich“: Fähigkeit, die kaum jemand kennt, wird auf dem Arbeitsmarkt immer wichtiger  Frankfurter Rundschau",
+          "publisher": "Frankfurter Rundschau",
+          "pub_date": "2026-08-31T02:45:00+00:00"
+        },
         {
           "title": "Training der KI: Warum Tech-Konzerne plötzlich alte Bücher aufkaufen und vernichten",
           "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU1VxTjJ0QXpnUDFWNnBYekluU053Mk01ajkyRER5ZGJSaHBrV0FBYTdRdzFPMWlJMnQ2OEc2VHZVak5uS3I3Nzg0UE1xZ3ZWanYyREtWb25udE5CbkhpdzdWckpWblpYM0J0NDdReVkzU0dvdmlqNlcyQzgwR0lBM1VzN2oyMmdpZ29oOHBlMWJJMzVNMTlpQ2RnbVVKR3N2RWJ0dmt3TWJ4UDdYbHU4RjZVM05MRm42NmJJSVdOMDBnZ0c1bHNQVEd2ZVczSUpEbDdfMHN6elA2Zw?oc=5",
@@ -972,11 +979,11 @@
           "pub_date": "2026-08-30T07:39:46+00:00"
         },
         {
-          "title": "Stefan verliert 25.000 Euro an Krypto-Betrüger: „Der Bank eine Lüge aufgetischt“",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZGZ2NXdROFJyRmZPMjNmVndvY1gtc2lET21ia0N0OW5seEhzS181czZRaEE4Wk9HclNTQTl4S21aMk1Pb3E0VHl0c0w0YmZYc2F0T1ZPaFFWNXduVlJKN2I3dkcwdkVnZ09WWmxkM2JUdUdxcDV3UTQtRGxJQlRTT0dBbVVLMlJuYzNwazIxNjlrU1dHREQ5SkphT01vdlNQS0ZwWGRGNFRTU2VjdkpQUW1wX3dfS0ZZZ0RoOGwtVmsyQ1BKNUhyM3JBeHJBLUtoZEJEM2w2dG83b3o3MGlHdlI5a0t6ZnRSMWJfQ0FR?oc=5",
-          "description": "Stefan verliert 25.000 Euro an Krypto-Betrüger: „Der Bank eine Lüge aufgetischt“  FOCUS online",
-          "publisher": "FOCUS online",
-          "pub_date": "2026-08-30T17:05:00+00:00"
+          "title": "Grand Theft Auto VI : Rockstar bestätigt keine Mikrotransaktionen und keine generative KI",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU0hSWGQwdU40UG1oV2M2dzdxY1pXV3NxQlJsQi1nRFpwQjdjREwxb0Y0aG5qci00b09fendUekVhcC15ZzEtZzZBNjJZYlBMajVvSDNzSkp2Z2VZWk9OTjJCdWFZSXpMWVFmelpJa2h5eHVTTXg3RWxQNkZBNXhwMTE4SUhvZzVHWnQ0ZUtjemk3M0pDcm9pSm96Q2tJM0NoZVNMR1Eyc3FuenIwb3NjcGdSMkhGX3BjbHlEeXNB?oc=5",
+          "description": "Grand Theft Auto VI : Rockstar bestätigt keine Mikrotransaktionen und keine generative KI  XboxDynasty",
+          "publisher": "XboxDynasty",
+          "pub_date": "2026-08-30T15:00:00+00:00"
         },
         {
           "title": "Für 440 Euro: Dieser Roboter ist eine Ente",
@@ -986,13 +993,6 @@
           "pub_date": "2026-08-29T10:35:00+00:00"
         },
         {
-          "title": "Grand Theft Auto VI : Rockstar bestätigt keine Mikrotransaktionen und keine generative KI",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU0hSWGQwdU40UG1oV2M2dzdxY1pXV3NxQlJsQi1nRFpwQjdjREwxb0Y0aG5qci00b09fendUekVhcC15ZzEtZzZBNjJZYlBMajVvSDNzSkp2Z2VZWk9OTjJCdWFZSXpMWVFmelpJa2h5eHVTTXg3RWxQNkZBNXhwMTE4SUhvZzVHWnQ0ZUtjemk3M0pDcm9pSm96Q2tJM0NoZVNMR1Eyc3FuenIwb3NjcGdSMkhGX3BjbHlEeXNB?oc=5",
-          "description": "Grand Theft Auto VI : Rockstar bestätigt keine Mikrotransaktionen und keine generative KI  XboxDynasty",
-          "publisher": "XboxDynasty",
-          "pub_date": "2026-08-30T15:00:00+00:00"
-        },
-        {
           "title": "PlayStation 5 : Blackout endet heute – Signal gegen das Disc-Aus von Sony",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSEprVDQwQmtNbkhCb2tYbzhtM250eFIzdzFEVFRqaEFHTDgtUjVaZzZFY0Z4LUpTaVBjeVYtY2ZnYlRoME9uSjFpNW5sdjFSY1o3Q2lPeUYwUC03MzdjeHJqRm1PRVFoVllGS3JMWnJrYmZRVzdvSzU3TzIxTHNRUzNPdjM3VzNqRHBnLXZtOXV3QTdvWjhyWndBdWdxaFFiX291X1ZkQmt5OWZwTUdDbGtDd3M?oc=5",
           "description": "PlayStation 5 : Blackout endet heute – Signal gegen das Disc-Aus von Sony  XboxDynasty",
@@ -1000,11 +1000,11 @@
           "pub_date": "2026-08-30T13:44:00+00:00"
         },
         {
-          "title": "„Gefährlich“: Fähigkeit, die kaum jemand kennt, wird auf dem Arbeitsmarkt immer wichtiger",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLXVtQTM4SUdhbmtEeDRBcHdMTzZ3U0pMNVdJQmJfSzEtWVNQRGt0YjVtVlNkdkxtQmNIWlpadUFFWUhXeEZxc0ZGUk5JR1RCRUI4amxIeTEtdTVlaVdxcjI2QUFTYmZyN3Z4cWhseFNubXROOUcyaElYcXNlWmQtZWUyUU9RN2pEbWpVRmt0VV9oWTlxcXRjSHpxZERuVnNPcDNJWFdHN3FaZXpHeHgyNHMxRDV3ZGI0U0xpeUtGR2E?oc=5",
-          "description": "„Gefährlich“: Fähigkeit, die kaum jemand kennt, wird auf dem Arbeitsmarkt immer wichtiger  Frankfurter Rundschau",
-          "publisher": "Frankfurter Rundschau",
-          "pub_date": "2026-08-30T05:13:31+00:00"
+          "title": "Stefan verliert 25.000 Euro an Krypto-Betrüger: „Der Bank eine Lüge aufgetischt“",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZGZ2NXdROFJyRmZPMjNmVndvY1gtc2lET21ia0N0OW5seEhzS181czZRaEE4Wk9HclNTQTl4S21aMk1Pb3E0VHl0c0w0YmZYc2F0T1ZPaFFWNXduVlJKN2I3dkcwdkVnZ09WWmxkM2JUdUdxcDV3UTQtRGxJQlRTT0dBbVVLMlJuYzNwazIxNjlrU1dHREQ5SkphT01vdlNQS0ZwWGRGNFRTU2VjdkpQUW1wX3dfS0ZZZ0RoOGwtVmsyQ1BKNUhyM3JBeHJBLUtoZEJEM2w2dG83b3o3MGlHdlI5a0t6ZnRSMWJfQ0FR?oc=5",
+          "description": "Stefan verliert 25.000 Euro an Krypto-Betrüger: „Der Bank eine Lüge aufgetischt“  FOCUS online",
+          "publisher": "FOCUS online",
+          "pub_date": "2026-08-30T17:05:00+00:00"
         },
         {
           "title": "Forscher entwickeln neuen Ansatz: Wie Atomwaffen einen Killer-Asteroiden stoppen könnten - n-tv.de",
@@ -1023,18 +1023,11 @@
           "pub_date": "2026-08-30T17:09:00+00:00"
         },
         {
-          "title": "Schulter-OP bei Ralf Schumacher nach Jetski-Unfall",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU2VkRldjMkt6Q29TaGdPdmlkYlppNmhwV0ZCSEpudDZic05LNWM1ejVEcXJWWmZjZ1dfNDltZmN4a1FiZ3hZSmcwcTUzcm1nR1pxbWNnRlotZm1wRjRFMko0di1Va1d2TTI2cDBXd3QwZXZ1RndTcGpUZTZ3eXFXSERVaGpUXzdUcS1CQ252RVBkeDRHQ0pqOTRnRzVXd0p5Z3FiUms4bDdOZE5tLWNnRHAxa3A1RXF5MDEzb0Jjb2I2N2V2Ym80?oc=5",
-          "description": "Schulter-OP bei Ralf Schumacher nach Jetski-Unfall  sport.deRalf Schumacher: Nach Unfall bei Raab – Montag OP!  BILD\"Schwere medizinische Folgen\": Ralf Schumacher verletzt sich in RTL-Liveshow  T-Onli",
-          "publisher": "sport.de",
-          "pub_date": "2026-08-30T18:00:00+00:00"
-        },
-        {
-          "title": "AEW All In 2026: Ergebnisse & Bericht aus London, England, UK vom 30.08.2026 - Wrestling-Infos.de",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JQUEtYVNfUlp1SE1wcEFmSWxOdFFoTzUwZDZjWHB4SUtIUEU4LXh2dHNVcTBOa29uNjBrZENFWlJTOUNRU3lMNHRvM3FVaUZoeEd3Sw?oc=5",
-          "description": "AEW All In 2026: Ergebnisse & Bericht aus London, England, UK vom 30.08.2026  Wrestling-Infos.deMit diesem Comeback hatten nicht mehr viele Wrestling-Fans gerechnet  SPORT1AEW All In 2026 Report vom 3",
-          "publisher": "",
-          "pub_date": "2026-08-30T22:00:10+00:00"
+          "title": "Mit diesem Comeback hatten nicht mehr viele Wrestling-Fans gerechnet",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWlhkSGhYZndBbzI2dDltZ0dTejduOEN3NTRHSFExT1B4RWNwXzZHdm5jeF9XRWlDVW0xSEFIejdJSV9fcFpfMHpQV3JTNGdGT3hDelhWemthZTA2MzRta2NjQXZvUWxZZWxfVjJLQVhZOWduaXdoajVIaXhuYjRPRTZCRkdTTmYzMExienpuYlg1bnlHejZj?oc=5",
+          "description": "Mit diesem Comeback hatten nicht mehr viele Wrestling-Fans gerechnet  SPORT1AEW All In 2026 Report vom 30.08.2026  MOONSAULT.deTony Khan bestätigt Handbruch bei Willow Nightingale kurz vor AEW All In ",
+          "publisher": "SPORT1",
+          "pub_date": "2026-08-30T20:45:49+00:00"
         },
         {
           "title": "Samuel Koch in Dresden mit Kästner-Preis geehrt",
@@ -1042,6 +1035,13 @@
           "description": "Samuel Koch in Dresden mit Kästner-Preis geehrt  TAG24Erich-Kästner-Preis des Presseclubs Dresden für Schauspieler Samuel Koch  MDR.dePresseclub Dresden - Samuel Koch erhält Erich-Kästner-Preis  Deuts",
           "publisher": "TAG24",
           "pub_date": "2026-08-30T14:07:00+00:00"
+        },
+        {
+          "title": "Schulter-OP bei Ralf Schumacher nach Jetski-Unfall",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU2VkRldjMkt6Q29TaGdPdmlkYlppNmhwV0ZCSEpudDZic05LNWM1ejVEcXJWWmZjZ1dfNDltZmN4a1FiZ3hZSmcwcTUzcm1nR1pxbWNnRlotZm1wRjRFMko0di1Va1d2TTI2cDBXd3QwZXZ1RndTcGpUZTZ3eXFXSERVaGpUXzdUcS1CQ252RVBkeDRHQ0pqOTRnRzVXd0p5Z3FiUms4bDdOZE5tLWNnRHAxa3A1RXF5MDEzb0Jjb2I2N2V2Ym80?oc=5",
+          "description": "Schulter-OP bei Ralf Schumacher nach Jetski-Unfall  sport.deRalf Schumacher: Nach Unfall bei Raab – Montag OP!  BILD\"Schwere medizinische Folgen\": Ralf Schumacher verletzt sich in RTL-Liveshow  T-Onli",
+          "publisher": "sport.de",
+          "pub_date": "2026-08-30T18:00:00+00:00"
         },
         {
           "title": "„Kraftwerk“ am Bauhaus: Sound der Mensch-Maschine",
@@ -1079,13 +1079,6 @@
           "pub_date": "2026-08-30T06:23:37+00:00"
         },
         {
-          "title": "Peter Maffay kontert Fürstin Gloria: „Alkohol im Spiel“",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV2xjajVSeDNtY25oYnVuenBTQVlnSjN0cmZvTXptS3pxZ0pFSzJpRWlTcGNpc3pTZERvbGxtVDlMRXNYTk5oRTB4d19KZXJhdGxxQU1BdVR4YngxWlpWckljYlRPVDdjYXlha1c3TXBUeDV3QlZORnJUOVJTMXZYMWdBd3lwTXQ5ZFBfdTVubWdLY2oxTzJGNjRKdjZ0OUc0eDhabHNQQUd6bEFUTFpNa21hMzZwUU9K?oc=5",
-          "description": "Peter Maffay kontert Fürstin Gloria: „Alkohol im Spiel“  BILDPeter Maffay nach Zoff mit Fürstin Gloria: „Ich hatte das Gefühl, dass da Alkohol im Spiel war“  FOCUS onlineNach Seitenhieb von Gloria von",
-          "publisher": "BILD",
-          "pub_date": "2026-08-30T10:18:13+00:00"
-        },
-        {
           "title": "Schlagerstar Kerstin Ott: \"Ich hab' ein Alkoholproblem gehabt\" - T-Online",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcnk4aEtIM2taeDVZYlYzSGtBQmI5a3BsNmdvV0RDQmVYRUZEMkMtWTBPTVU4TjNmcGs0N041Z3NsSmtCb2Ffd0F0MmJBTjg4eEc3cVhyLUt6OG9hX2VuWVgzYnpabExIbHFac1MyM0NGZjlMa3V0WWVrWWhrV0lrdHJ2anh5eWFLdHU3eVd2bXh3Z1BEb0ZGNlpSci1mQ1Z2RjRPNktaWHFMM25wTkhjQ1MxOWJvQQ?oc=5",
           "description": "Schlagerstar Kerstin Ott: \"Ich hab' ein Alkoholproblem gehabt\"  T-OnlineKerstin Ott spricht über ihr Alkoholproblem! „Ich trank, um mich zu belohnen“  BILD„Bin traurig geworden”: Schlagerstar Kerstin ",
@@ -1100,6 +1093,13 @@
           "pub_date": "2026-08-30T07:31:00+00:00"
         },
         {
+          "title": "Peter Maffay kontert Fürstin Gloria: „Alkohol im Spiel“",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV2xjajVSeDNtY25oYnVuenBTQVlnSjN0cmZvTXptS3pxZ0pFSzJpRWlTcGNpc3pTZERvbGxtVDlMRXNYTk5oRTB4d19KZXJhdGxxQU1BdVR4YngxWlpWckljYlRPVDdjYXlha1c3TXBUeDV3QlZORnJUOVJTMXZYMWdBd3lwTXQ5ZFBfdTVubWdLY2oxTzJGNjRKdjZ0OUc0eDhabHNQQUd6bEFUTFpNa21hMzZwUU9K?oc=5",
+          "description": "Peter Maffay kontert Fürstin Gloria: „Alkohol im Spiel“  BILDPeter Maffay nach Zoff mit Fürstin Gloria: „Ich hatte das Gefühl, dass da Alkohol im Spiel war“  FOCUS onlineNach Seitenhieb von Gloria von",
+          "publisher": "BILD",
+          "pub_date": "2026-08-30T10:18:13+00:00"
+        },
+        {
           "title": "\"Jesus Christ Superstar\" sprengt alle Rekorde - Erfurter Domstufen-Festspiele so erfolgreich wie nie",
           "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQR0xGeHFtSjFKal9FYzdaY0VLVFNCMl82aVhjZEcya1RkTGtZT0VMTmJiVEtLQ2NhWG1YMTFhenBYclEwNzMwY29zclFhc0JuVG03UmZ6TVpPNkJBZ2s5ZHA3UTZ3QTJUNUF4TnFFR2haMnpza0dNZmRrMUV1QWVpaWNRZTk0T2xBbVc4NzhaZ1l2UVc5al91Y0NCbzNhTkNZdjhaT2UzUVktWUdXWWdkNzYtWXc4dlZQTC1ja0UtczI1UXlGVnVjVnBRWVVPXzN0VF9Iag?oc=5",
           "description": "\"Jesus Christ Superstar\" sprengt alle Rekorde - Erfurter Domstufen-Festspiele so erfolgreich wie nie  MDR.deJesus Christ zum Mithören: So erfahren Blinde jedes Detail der Erfurter Domstufen  Thüringer",
@@ -1109,7 +1109,7 @@
         {
           "title": "21. Hochzeitstag: Jana Ina Zarrella teilt rührende Erinnerungen",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHBkcUd5QVJpSWRsVmpZdy1XdXVlSDktX1hWMDNoM191ckozakFsQU5wcGxYVDBialpFTV8wNlNHMFROYWFYcEdjbUYyRTFLRnNxV3dFaFVpTnh0MUxzalg5OHdYZDA4dDNwRkRMelNoXzRfVmthNm03cTZVbE9FLUFUZ3NhY1g2?oc=5",
-          "description": "21. Hochzeitstag: Jana Ina Zarrella teilt rührende Erinnerungen  Yahoo Nachrichten",
+          "description": "21. Hochzeitstag: Jana Ina Zarrella teilt rührende Erinnerungen  Yahoo NachrichtenWeitere Schlagzeilen und Meinungen in Google News",
           "publisher": "Yahoo Nachrichten",
           "pub_date": "2026-08-30T15:01:39+00:00"
         },
@@ -1123,18 +1123,11 @@
       ],
       "sports": [
         {
-          "title": "S04 unterliegt Augsburg in Unterzahl beim Bundesliga-Auftakt - FC Gelsenkirchen-Schalke 04 e.V.",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5aW02SWVFbGduQjVFRlhsV28yVHptXzAtQ3pXV3BPWWw4RXVjN1gzZ3BkZEJCWGg1akh0MGdmTDl6THpPclU3d1FwTlVFZjVJNGlXb29jYVFkS1FXNTMyd0dVbjJ0NjZJNDVNaEpRcS1UY2IyTFE?oc=5",
-          "description": "S04 unterliegt Augsburg in Unterzahl beim Bundesliga-Auftakt  FC Gelsenkirchen-Schalke 04 e.V.Bundesliga: Klopp sieht Schalkes roten Fehlstart gegen Augsburg  BILDMuslic: \"Werde niemanden beim ersten ",
-          "publisher": "",
-          "pub_date": "2026-08-30T18:59:00+00:00"
-        },
-        {
-          "title": "SC Freiburg überrollt Werder Bremen und geht mit Volldampf in die Bundesliga-Saison",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM1I4OVNxbkpiU1BCdlE2V09kUmc0TWg4cWVoSXBfS2VlOGYtYnViUHFWbmZXY0tveXhQOFoySElIVzlxQ2lZQWFxSVJOdFdRdkhRZ1p1Sm9TYk05akRhb1ItVWFSb1N5TTE5amNuMjF1MzRJZFdZX0tlY3g2U1VqdC15LXd6Zkd0MjE1WlVOZ3NDMWU4XzU5QzlRR1VSeGNpYzdEUEF1YzJWSE90TVRkUGFaMkhZNzg?oc=5",
-          "description": "SC Freiburg überrollt Werder Bremen und geht mit Volldampf in die Bundesliga-Saison  Badische ZeitungFreiburg feiert Dreierpacker: Füllkrugs Frust-Comeback  BILDSC Freiburg wie im Rausch - Suzuki und ",
-          "publisher": "Badische Zeitung",
-          "pub_date": "2026-08-30T17:00:00+00:00"
+          "title": "Bundesliga, 1. Spieltag – Sonntag: Schalke verliert in Augsburg, Freiburg schlägt Bremen klar",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUm90eDhKdTN1M0lxalpQNnc3UFVFV2trTURSYll5U00wdFVQV2ZKeGpldjVONUV1S2ZfWEhoMTE4Y2lVdjVldXh1Q3gxcUVIMFlheXBfX0JESVlPRW9TTl9IMllRd1I4MWFPVmp4aW5CbGQzeG5ua3lYYTFsVzZMT1Ytbm42eWdzNTA0V09WUzBJQ3BrbUU1NzN6cV9DQ3phbk5sX2RxQQ?oc=5",
+          "description": "Bundesliga, 1. Spieltag – Sonntag: Schalke verliert in Augsburg, Freiburg schlägt Bremen klar  DIE ZEITBundesliga: Klopp sieht Schalkes roten Fehlstart gegen Augsburg  BILDMuslic: \"Werde niemanden bei",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-08-30T17:31:22+00:00"
         },
         {
           "title": "Deutschlands Männer sind Hockey-Weltmeister",
@@ -1144,6 +1137,13 @@
           "pub_date": "2026-08-30T17:50:00+00:00"
         },
         {
+          "title": "Werder Bremen in Noten gegen den SC Freiburg: Chuki bleibt blass, Niclas Füllkrug kein Faktor!",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOb2VDdkxvWkRRc19ZaUYxMlMySVdlTjJPSHF1Njh4YlZVY1M3bllvTWgwb2dUSl9RRW1nbGNTV1cxa19Ic3lZNmFMRjBIYkFnb3pUYXNLRl9ZUi16ajRhaEo1R0dtRjJsMnlCUklOUXkwb0s0MzRnQ0JJaF8zaEExaGxHTDdpRVhIbFVXR2xfNEIxalJMd0JobTItSDdyRGFSU0RPeHhQbHVvMjNRMGJ5OXB6NXRZUlZLbERERms2Y1k5M2RTNUNkb0FFb2NUeTNHSjFmeVU2MlhtYVZHMVRDWnN1aUdMSXc?oc=5",
+          "description": "Werder Bremen in Noten gegen den SC Freiburg: Chuki bleibt blass, Niclas Füllkrug kein Faktor!  Die DeichStubeFreiburg feiert Dreierpacker: Füllkrugs Frust-Comeback  BILDBundesliga: Sorgen um Werder B",
+          "publisher": "Die DeichStube",
+          "pub_date": "2026-08-30T15:49:11+00:00"
+        },
+        {
           "title": "Rot verleiht Flügel: Mas gewinnt 9. Vuelta-Etappe vor Onley - Radsport-News.com",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPUEVJUUh4R3FwSGl4dWF0cFdVUGQ5YkltSWM0cHN0cGpBZlltYmFqaUxuTUEwZHptU3NEeWNyWXkxWkNySV9ZYTBKQVlCUjNqbDFwS2lON01lNE51RVpPWDJhWm9MSDg?oc=5",
           "description": "Rot verleiht Flügel: Mas gewinnt 9. Vuelta-Etappe vor Onley  Radsport-News.comVuelta: Enric Mas behauptet nach Pogacar-Aus das Rote Trikot  sportschau.deSo lief die 9. Etappe der Vuelta: Enric Mas sie",
@@ -1151,25 +1151,18 @@
           "pub_date": "2026-08-30T19:10:58+00:00"
         },
         {
+          "title": "21:28 Rookie Schumacher liefert in IndyCar-Serie wieder stabil ab - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV2dBYnJ3OHNHXzR4RGtBbzBLczRpOXk2NE9lV0pzeEVsd0FlZ2VaWjBRVklrRDZzdVFUakRHMGVVT2ZKNFFtQkxMREQ5Yl9LX2t1d2hQTVpYN2pBMXpjQVB3TFY3TXZpQTFpazQtWk16UFFhWXJJLXN4M21hOEhwaEJOMGdGbGprekp4Q3MzWDNtT1dGTWJ6Nko3ejJQZlRWLU1RbllpN002d1R6SVVr?oc=5",
+          "description": "21:28 Rookie Schumacher liefert in IndyCar-Serie wieder stabil ab  n-tv.deIndyCar Milwaukee 2026: Samstagsrennen endet nach Sonntagsrennen  Motorsport-Total.comIndycar: Mick Schumacher 13. in Milwauke",
+          "publisher": "",
+          "pub_date": "2026-08-30T19:28:00+00:00"
+        },
+        {
           "title": "Borussia Dortmund: Schlimme Nachrichten für Giannis Konstantelias und den BVB",
           "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbkF4M1FyWjhEV3M5OExsbzhvX3M0NTFxUjRpQW1fODQwaWtxSTVkNWdxQVNvenREVHZ4ME5YWnkzX3YtTnJQb2hleEdjSWFjZ3R2eURpX1RFakU4YlZ3YkZXZmhqVk1QT2d3T0dzeXA0Rk5NZkk2cmZxZUtONXFYV2h4c0lqMHVzUy1yV200Nnc4bDdyTTl3Wl9LaENBZW9wSWxtVnFLVC1wYnVKYlM2eXU1RFoyVUpYWm9aREN3SFZzQmtKU3dELWRKQQ?oc=5",
           "description": "Borussia Dortmund: Schlimme Nachrichten für Giannis Konstantelias und den BVB  JoynBVB: Schock-Diagnose für Giannis Konstantelias  BILDDortmunds Befürchtungen bestätigt: Konstantelias erleidet Kreuzba",
           "publisher": "Joyn",
           "pub_date": "2026-08-30T16:47:17+00:00"
-        },
-        {
-          "title": "FC Bayern: Ismael Saibari verrät erste Geheimnisse",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNT0twXzFCSG1Md3plcmNDWHFQdlZicFYwbUNwZEUtS1BCaUVodDh0Nk1mSmhMWUh3bS10R3A2SE5JUnYwRy1CTlRSU2d6VkVPc2tkTW1ORmtCRHV4SHI2NUdWWDUwN0F1MVdRZWsxTkpuSGprNXBaMmhJMTBlWERkTGJCRHJQbHRzbmk4MUFBdEppb0h5M3gtakluV2s2VHVQbXpiYnFNZTdOczBJM0RfV1pDeTl6azE0SjFwTW5pRWREOGotaV9rXzlqak9jX1M5TVA2NUFIQ1BuQmszYmVkdlBQTjU?oc=5",
-          "description": "FC Bayern: Ismael Saibari verrät erste Geheimnisse  BILDDas fiel Stefan Effenberg bei Bayerns Saibari schnell auf  SPORT1FCB-Erkenntnisse: Saibari drängt in die Startelf, Neuer kann's immer noch  Joyn",
-          "publisher": "BILD",
-          "pub_date": "2026-08-30T19:12:11+00:00"
-        },
-        {
-          "title": "21:28 Rookie Schumacher liefert in IndyCar-Serie wieder stabil ab - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV2dBYnJ3OHNHXzR4RGtBbzBLczRpOXk2NE9lV0pzeEVsd0FlZ2VaWjBRVklrRDZzdVFUakRHMGVVT2ZKNFFtQkxMREQ5Yl9LX2t1d2hQTVpYN2pBMXpjQVB3TFY3TXZpQTFpazQtWk16UFFhWXJJLXN4M21hOEhwaEJOMGdGbGprekp4Q3MzWDNtT1dGTWJ6Nko3ejJQZlRWLU1RbllpN002d1R6SVVr?oc=5",
-          "description": "21:28 Rookie Schumacher liefert in IndyCar-Serie wieder stabil ab  n-tv.deIndyCar Milwaukee 2026: Samstagsrennen endet nach Sonntagsrennen  Motorsport-Total.comIndyCar: Schumacher auf Rang 13 in Milwa",
-          "publisher": "",
-          "pub_date": "2026-08-30T19:28:00+00:00"
         },
         {
           "title": "Skarke sorgt für Ekstase - Union bejubelt Remis gegen Frankfurt",
@@ -1186,18 +1179,18 @@
           "pub_date": "2026-08-31T01:00:14+00:00"
         },
         {
+          "title": "Transfer-Knall beim FC Barcelona? Neuer Stürmer-Star für Hansi Flick",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWmZLY1V3R2ZoejVuOTByT0Z0MXdJSGstSnhhVVM4am1GLXMydkVQRXE5WEp5VmM3ZFVscXdVU2NKcXhTNWYyVS1NMmVJMVVKOTZQNE95a2xySFZucVFTWU5uUWxTU0NHcGFmTFhiUXdvZGxPWVFnZ083YV9WUlE1ZzRJTmljM1RJSE5tOVZUNnR5SjE2SjBvNDRXSjAxZ1Q3azN0dGFoNi0zWEk?oc=5",
+          "description": "Transfer-Knall beim FC Barcelona? Neuer Stürmer-Star für Hansi Flick  sport.deFC Barcelona: Flick holt Arsenal-Star  Sport BildAlvarez-Alternative? FC Barcelona mit Jesus einig – Arsenal verkauft auch",
+          "publisher": "sport.de",
+          "pub_date": "2026-08-30T13:47:00+00:00"
+        },
+        {
           "title": "FC St. Pauli verliert sein Heimspiel gegen den 1. FC Kaiserslautern mit 1:2",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWjZ1UTdWU3RVUEpEd0dKRzlrWG4yZVJJT29WaFNJaHZiVTd4T0Y4WXFkSG42UXJuNnh2aGZlUVJtQ2xXQXRVZW1UcHFiRHlZMVNmTmhxTl80UVpUQmN4M2U4LXVYdFpYeVFpQ2ZwNXY1bHEydno1c2NsMmlmNm9OdFFSSFd3SjN0UDAtMjBXQjBtNzVkcExlS0tSbEVpYXNLUlZEdzMzN1JLZkU?oc=5",
           "description": "FC St. Pauli verliert sein Heimspiel gegen den 1. FC Kaiserslautern mit 1:2  NDR.deBundesliga-Absteiger in großer Not! Die 2. Bundesliga am Sonntag  BILDJoker Tazemeta braucht nur Sekunden: Kaiserslau",
           "publisher": "NDR.de",
           "pub_date": "2026-08-30T14:02:00+00:00"
-        },
-        {
-          "title": "Transfer-Knall beim FC Barcelona? Neuer Stürmer-Star für Hansi Flick",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWmZLY1V3R2ZoejVuOTByT0Z0MXdJSGstSnhhVVM4am1GLXMydkVQRXE5WEp5VmM3ZFVscXdVU2NKcXhTNWYyVS1NMmVJMVVKOTZQNE95a2xySFZucVFTWU5uUWxTU0NHcGFmTFhiUXdvZGxPWVFnZ083YV9WUlE1ZzRJTmljM1RJSE5tOVZUNnR5SjE2SjBvNDRXSjAxZ1Q3azN0dGFoNi0zWEk?oc=5",
-          "description": "Transfer-Knall beim FC Barcelona? Neuer Stürmer-Star für Hansi Flick  sport.deFC Barcelona: Flick holt Arsenal-Star  Sport BildAlvarez-Alternative? Barça vor Transfer von Jesus – Arsenal verkauft auch",
-          "publisher": "sport.de",
-          "pub_date": "2026-08-30T13:47:00+00:00"
         },
         {
           "title": "Neugebauer siegt nach Diskus-Drama, Agyekum bejubelt Heimsieg",
@@ -1221,6 +1214,13 @@
           "pub_date": "2026-08-31T00:54:21+00:00"
         },
         {
+          "title": "Verdächtiger Mega-Transfer: Wirbel um Ex-Bayern-Star Jackson",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQWoyRHhSTFc5Ym5BY3lqaG1lbkZrcVRzUjdEX01DZVNpTm9uN2draU1mbkloanJPd3pMN2RhSVJfdEFZaEpxakVjX3hmZWdSeVBSUXV0blduUU51SU0xbUxlTmdzaWJNMC1mYjM0ZkdlV0dxWkZQSlFfRnZwSmUzYXdydmk3azEtZVhIWFdJbUJmeVRhcnNjRnJpbW5jdzA?oc=5",
+          "description": "Verdächtiger Mega-Transfer: Wirbel um Ex-Bayern-Star Jackson  FCBinsideWechsel zu Aston Villa: Plötzlich kostet Bayern-Flop Jackson 76 Millionen Euro  FOCUS onlineWiedersehen mit Goretzka: Aston Villa",
+          "publisher": "FCBinside",
+          "pub_date": "2026-08-30T13:00:00+00:00"
+        },
+        {
           "title": "Tissier sei dank: TSV Hannover-Burgdorf feiert irren Comeback-Sieg",
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR2tHRU1RdWxhSGVRRFI4ZncxNjJudjZ1MHV5Z2N5eVdUN0poR084bXNXZlhzQXVJYjM5bVduWWdMaU9jQVB2NzFqcldITXhYVEY0M1ZxQVdDeFN6c1J2VWMxdTU3TEJzZVdZTG1ZTmVLNndtQ3pDYkp3X0hnZUpOMmcyZjVDYVlDSmIxQnFrTkRJYnlnaWJZMklNQjducE9PSnRiaU42V2JGSUQ0dnZKX3Y5ekN5MGEzWW9vQVo3WQ?oc=5",
           "description": "Tissier sei dank: TSV Hannover-Burgdorf feiert irren Comeback-Sieg  NDR.deEin Spektakel zum Auftakt: Hannovers Recken drehen das Ding und bändigen die Löwen  Neue PresseLöwen in Hannover – „Eine der h",
@@ -1229,6 +1229,13 @@
         }
       ],
       "health": [
+        {
+          "title": "Ketogene Diät: 67% stärkere Fettleber-Reduktion als andere Diäten",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTVpUVy1tdmZUM1ZranZkMmp0ZkFlLWZKZlhGaDFycndkRU9PTjhsV050bnhRUzJvY3EwamVpdTVib25GM0E3MjFZRjUyelJsYXhSUXhobk1uQ0R2dkFwbXVoa1Q0QW5LUkY2ekY0OXItWVhzeHBLUU9welV5Q0x0ZlRDMTJEc09fckFFeTlSV2VJUGV4dHEyeGJiTHN0VWt3S3lOQTU1OGJCUE5nMi1KaXV0c1gxUQ?oc=5",
+          "description": "Ketogene Diät: 67% stärkere Fettleber-Reduktion als andere Diäten  AD HOC NEWSWie eine Keto-Diät geht: „Man kann mit dieser Ernährung viel Gewicht verlieren“  FAZKeto-Diät wirkt bei Blutzucker und Ins",
+          "publisher": "AD HOC NEWS",
+          "pub_date": "2026-08-30T22:30:21+00:00"
+        },
         {
           "title": "DIE ZAHL - mgb-medizin.de",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWHRNczlYYy04cFBqOFRGVHpwcC1RSjVkaklQdjlHd0xVUlVvZ1dsZk9hbFNpeWRual9ZVzFIdjZjaXhxVUhYbENHNmVKTUxnbHJpdjVKU0Nhd3RQMFpKTzRLSVJ1dWtBeWFocEJXSDNzX1JHQWFTQXM1WTE0LWlmU3JJaW1YcGpGT0p0aURR?oc=5",
@@ -1244,11 +1251,11 @@
           "pub_date": "2026-08-30T17:03:21+00:00"
         },
         {
-          "title": "Keto-Diät senkt Leberfett und verbessert Stoffwechsel stärker als andere Diäten",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVy1qeENIYzZ6X282dkRSSFJuekRtdzNGbUJsVWxKY2FObmlJYmpUa1NHWVNnem1id2xzSzVsQ3JyYkk2aXFPWFZGMEFsVlZLODVHRmNuM2NVQnhaNS10V2hFSkhCdE9OREJ4Y0xPb0gyekI5aEkxQ3JuVmUzZnlNOHJMUjVQeFRteW8xXzdta0ZVRUpYckQxRnRtZG5qMnl3OWRGLWswQlhUNHhma19GcW1TTUk?oc=5",
-          "description": "Keto-Diät senkt Leberfett und verbessert Stoffwechsel stärker als andere Diäten  it boltwiseWie eine Keto-Diät geht: „Man kann mit dieser Ernährung viel Gewicht verlieren“  FAZKeto-Diät wirkt bei Blut",
-          "publisher": "it boltwise",
-          "pub_date": "2026-08-29T19:39:42+00:00"
+          "title": "HIV-PrEP: Diese Möglichkeiten gibt es",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWkNSRnhib3RSNnFyblYtUzFza2pzemdwQ2ZOdFNJVkZVdDVVZkZuY3RpMDRVYV9UWm45M1pjYnBGYlVMcnFUUmFXcU1ITFlLMkFZRl9NWnZ6TVBDMXZPNEllM1VzOXJEbUhLMG51NzRjUnVpNENzX2lNanAxdExNckZTOE1JQUxRSDBaMm9ZTjc?oc=5",
+          "description": "HIV-PrEP: Diese Möglichkeiten gibt es  AerzteZeitung.deSchaffen Sie mehr bequeme Behandlungsstandorte für Patienten.  Vietnam.vnHIV-Prävention 2026: PrEP, Schutz durch Therapie und Tests  queerpride.d",
+          "publisher": "AerzteZeitung.de",
+          "pub_date": "2026-08-31T02:41:01+00:00"
         },
         {
           "title": "Herz-Kreislauf: Wissenschaftler zeigen weltweit erste anatomische Karte des Vagusnervs",
@@ -1272,6 +1279,13 @@
           "pub_date": "2026-08-30T15:27:32+00:00"
         },
         {
+          "title": "Schlaf und Alzheimer: Weniger als 7 Stunden erhöht Erkrankungsrisiko",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT1Z3R19BYWM1SHBvT3ZHRmhUd1k0T1BMV2xRdG9qUC01TmlGelcyYXJMMUkzLWVGa0ppSjAzV292RU8yWm5EdWhOb2E0eHdiNi1INzhfRFZTRXFSYWtvSWpCcUdQR0lfVkJCLUxTenpqUkxUbFMxWEdELWM3VnB4cFlUUFNRY3VUSUFMTGJjWktyZHJfbndzMEVuWlNfaWJGNkZjdzkyVzJELXhYTnlzeHpBTDJvWnpt?oc=5",
+          "description": "Schlaf und Alzheimer: Weniger als 7 Stunden erhöht Erkrankungsrisiko  AD HOC NEWS",
+          "publisher": "AD HOC NEWS",
+          "pub_date": "2026-08-31T02:48:38+00:00"
+        },
+        {
           "title": "Statine: 30% weniger Herzinfarkte bei über 70-Jährigen",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMWZ1cVpEclNudEo4OTNvRjM0SlV1WjIzaENkZGxkeDdlM3JNSWl2UkpyMHYwdE5LU0VRNW9kZWpSYm4xeXFTR0FIQmZWSFFzeXViM2xWYWxaOTJMaUFGRzZhYVBDc3gteGU3OXBvbDBqeDdDbzU2aENnTDZUbWplaXBYbTRlR3k2NDhRaDFoS1g1MU91VFFmbTNWdzhsek5EY1piMzR2eEJBQlFpaU9NSw?oc=5",
           "description": "Statine: 30% weniger Herzinfarkte bei über 70-Jährigen  AD HOC NEWSMenschen ab 75 Jahren: Wie wirkt sich das Absetzen von Statinen auf die Sterblichkeit aus?  Pharmazeutische ZeitungStatine senken Ris",
@@ -1293,13 +1307,6 @@
           "pub_date": "2026-08-30T06:30:53+00:00"
         },
         {
-          "title": "Mutter von ADHS-Kindern: „Bin kein Fan von bedürfnisorientierter Erziehung“",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOUJwZ21paHJxa3FrSUhtV09QR1NoUV95YjRjeGZUSWZkVU5aR2RJMlpBanNQREZmN3g5dXZZQTQyWmxmX25DQVN2ZHlqdjdDVFM1QW11SXpXU0JBY1R3b0ZzUnBDWDB6QS1hRVdXRGhESHM4RVNEWWpwYnhiR2lXaENqc2ZYQktCRk00bzZxSG9pbkUxMmgybGg2dFU3ZllPMDlTdk5SWlVfbEZhdjdwLWw1XzZPdw?oc=5",
-          "description": "Mutter von ADHS-Kindern: „Bin kein Fan von bedürfnisorientierter Erziehung“  STERN.de",
-          "publisher": "STERN.de",
-          "pub_date": "2026-08-30T15:03:00+00:00"
-        },
-        {
           "title": "Demenz: Experten erklären, worauf Sie unbedingt achten sollten",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeS1rbkVUN2dXY21lN2NoS01lcXlSd3p4ZXBqWFV4aEJuNjU3V1FHN3JyZ1I4Si1odHNhVHRWZTJzcFpILXdNTDJ4M1N2dEFWaVowTUx2V1hCMWtLM244Z1RfVG1mM2hac3pvZEd5VldQNlJXNGxoc3pRdkZ1V0NPV0ttZnVvV28xeGdoVlFMMVRiRXE4X3duRkF0NGxzVG1mMkNJbnF5YnV4X2h5MzllZUNCa0h4SmhJZ0dObnhGRlBNZGdxdHRNaw?oc=5",
           "description": "Demenz: Experten erklären, worauf Sie unbedingt achten sollten  WELTGehirn: Neurologe verrät, wie sich das Risiko für Demenz und Schlaganfall deutlich senken lässt  WELTWer drei Risikofaktoren meidet,",
@@ -1307,11 +1314,11 @@
           "pub_date": "2026-08-28T10:54:17+00:00"
         },
         {
-          "title": "Mit Computermodell berechnet: Wie sich die Zahl der Diabetes-Typ-1-Betroffenen entwickelt - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdnJkZ0hmdmtFNmtndlhzb3VHeEVkNnlMQ1otazBHSFctdFJ4OWtWUDNWUVk4VFRJSDBXeVFrREpWMm95VS00LVladkpVNlFndzBvYXBfRGp1ZGZjeXJ4eWlkZU52ZTFNTzEtczlfV0ZqazlCSU5tMmV4VUd2cUpmbURUdTVLcnhjMXZZWXF6dEwtdGFyMnpBaXB5YU5VWms2aG9lZA?oc=5",
-          "description": "Mit Computermodell berechnet: Wie sich die Zahl der Diabetes-Typ-1-Betroffenen entwickelt  n-tv.de",
-          "publisher": "",
-          "pub_date": "2026-08-30T12:37:15+00:00"
+          "title": "Mutter von ADHS-Kindern: „Bin kein Fan von bedürfnisorientierter Erziehung“",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOUJwZ21paHJxa3FrSUhtV09QR1NoUV95YjRjeGZUSWZkVU5aR2RJMlpBanNQREZmN3g5dXZZQTQyWmxmX25DQVN2ZHlqdjdDVFM1QW11SXpXU0JBY1R3b0ZzUnBDWDB6QS1hRVdXRGhESHM4RVNEWWpwYnhiR2lXaENqc2ZYQktCRk00bzZxSG9pbkUxMmgybGg2dFU3ZllPMDlTdk5SWlVfbEZhdjdwLWw1XzZPdw?oc=5",
+          "description": "Mutter von ADHS-Kindern: „Bin kein Fan von bedürfnisorientierter Erziehung“  STERN.de",
+          "publisher": "STERN.de",
+          "pub_date": "2026-08-30T15:03:00+00:00"
         },
         {
           "title": "Rektumkarzinom | Organerhalt könnte beim Rektumkrebs Routine werden",
@@ -1326,13 +1333,6 @@
           "description": "Arzt­vor­trag in Stadt­kli­nik: Warum bei Sep­sis Eile ge­bo­ten ist  Die RheinpfalzPZ Nachgefragt: Wissen über Sepsis kann Leben retten  Pharmazeutische ZeitungSepsis: Darum ist die Blutvergiftung so",
           "publisher": "Die Rheinpfalz",
           "pub_date": "2026-08-30T07:27:00+00:00"
-        },
-        {
-          "title": "Augenhintergrund: KI scannt sechs Stoffwechselkrankheiten in 30 Sekunden",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZjNuWDZwbENYRGZFeXNYUGdheGdueE5rOUdyTFYxNy1IR0F2X3RlMDRaMVJNck9Qb2c1c05yVEFmQTlQWVlnWlh2cURWWEM3TFlnTEtKa0RWNl9PbzZDei1Xb1JDZ2dCNEVmeG5vbFdzSmtRVTJBYXYyMU9MNnV2Nm5nYVVQVkFzdmJIYVZoOGt6bHJqQVhnSGdhUzg3amlQWjZIc1VkdGo5Qk5MaFlrdVpUVm41UHVmWndBcw?oc=5",
-          "description": "Augenhintergrund: KI scannt sechs Stoffwechselkrankheiten in 30 Sekunden  AD HOC NEWSESC Herzkongress in München: KI erkennt Herz-Risiko am Gesicht  BILDMedizin: Mammografie erkennt Herz-Kreislauf-Erk",
-          "publisher": "AD HOC NEWS",
-          "pub_date": "2026-08-24T07:02:04+00:00"
         }
       ]
     },
@@ -1341,6 +1341,12 @@
         "name": "Der Spiegel",
         "type": "articles",
         "items": [
+          {
+            "title": "Sommer 2026: Deutscher Wetterdienst meldet einen der wärmsten Sommer seit Aufzeichnung",
+            "link": "https://www.spiegel.de/wissenschaft/natur/sommer-2026-deutscher-wetterdienst-meldet-einen-der-waermsten-sommer-seit-aufzeichnung-a-8fac2267-5e40-4335-90a0-4fceb468af64#ref=rss",
+            "description": "Mehr als 40 Grad am Tag, gefolgt von Tropennächten: Der diesjährige Sommer erreichte laut Wetterdienst »Dimensionen, wie sie in Deutschland bislang nicht beobachtet wurden«. Das gilt auch für die Zahl",
+            "pub_date": "2026-08-31T04:45:00+02:00"
+          },
           {
             "title": "Iran-Krieg: USA greifen Insel Larak an – Teheran attackiert US-Stützpunkte in Jordanien",
             "link": "https://www.spiegel.de/ausland/iran-krieg-usa-greifen-insel-larak-an-teheran-attackiert-us-stuetzpunkte-in-jordanien-a-3dcfb31b-2c36-43ce-b111-ec60bd21b9ac#ref=rss",
@@ -1424,12 +1430,6 @@
             "link": "https://www.spiegel.de/ausland/trump-hetzt-medienaufsicht-auf-tv-journalistin-kristen-welker-a-b22303dc-0421-4c9d-8fe8-a3c1cbcf2558#ref=rss",
             "description": "Der US-Präsident hat einer renommierten TV-Journalistin »absichtliche Ungenauigkeit« in ihrer Arbeit vorgeworfen. Die Medienaufsichtsbehörde solle sie »rügen oder bestrafen«.",
             "pub_date": "2026-08-30T19:43:00+02:00"
-          },
-          {
-            "title": "»ZDF Fernsehgarten«: Andrea Kiewel live von Biene gestochen",
-            "link": "https://www.spiegel.de/panorama/leute/zdf-fernsehgarten-andrea-kiewel-live-von-biene-gestochen-a-57b5294e-0dfe-4c35-9148-a2fa2bb12558#ref=rss",
-            "description": "Die Schlagerparty im »ZDF Fernsehgarten« lief gerade 20 Minuten, als es passierte: Moderatorin Andrea Kiewel wurde von einer Biene gestochen. Live! Wie souverän kann man da reagieren?",
-            "pub_date": "2026-08-30T19:09:00+02:00"
           }
         ]
       }
