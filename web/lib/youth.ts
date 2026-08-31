@@ -245,3 +245,68 @@ export function formatYouthDate(yyyymmdd: string): string {
   if (!yyyymmdd || yyyymmdd.length < 8) return "";
   return `${yyyymmdd.slice(0, 4)}-${yyyymmdd.slice(4, 6)}-${yyyymmdd.slice(6, 8)}`;
 }
+
+export type YouthApplyStatus = {
+  kind: "active" | "closing_soon" | "upcoming" | "expired" | "always" | "unknown";
+  label: string;
+  detail?: string;
+  daysToStart?: number;
+  daysToEnd?: number;
+};
+
+const APPLY_PERIOD_RE = /^(\d{8})\s*~\s*(\d{8})$/;
+
+function parseYYYYMMDD(s: string): Date | null {
+  if (!/^\d{8}$/.test(s)) return null;
+  const y = Number(s.slice(0, 4));
+  const m = Number(s.slice(4, 6)) - 1;
+  const d = Number(s.slice(6, 8));
+  const dt = new Date(y, m, d);
+  return Number.isNaN(dt.getTime()) ? null : dt;
+}
+
+function daysBetween(from: Date, to: Date): number {
+  const MS = 24 * 60 * 60 * 1000;
+  const a = new Date(from.getFullYear(), from.getMonth(), from.getDate());
+  const b = new Date(to.getFullYear(), to.getMonth(), to.getDate());
+  return Math.round((b.getTime() - a.getTime()) / MS);
+}
+
+export function youthApplyStatus(
+  applyPeriod: string,
+  now: Date = new Date(),
+): YouthApplyStatus {
+  const raw = (applyPeriod || "").trim();
+  if (!raw) return { kind: "unknown", label: "" };
+
+  const m = raw.match(APPLY_PERIOD_RE);
+  if (!m) {
+    if (/상시|수시|연중/.test(raw)) {
+      return { kind: "always", label: "상시 접수", detail: raw };
+    }
+    return { kind: "unknown", label: raw };
+  }
+
+  const start = parseYYYYMMDD(m[1]);
+  const end = parseYYYYMMDD(m[2]);
+  if (!start || !end) return { kind: "unknown", label: raw };
+
+  const detail = `${formatYouthDate(m[1])} ~ ${formatYouthDate(m[2])}`;
+  const daysToStart = daysBetween(now, start);
+  const daysToEnd = daysBetween(now, end);
+
+  if (daysToEnd < 0) {
+    return { kind: "expired", label: "접수 종료", detail, daysToEnd };
+  }
+  if (daysToStart > 0) {
+    const label = daysToStart <= 7 ? `D-${daysToStart} 시작 예정` : `${daysToStart}일 뒤 시작`;
+    return { kind: "upcoming", label, detail, daysToStart };
+  }
+  if (daysToEnd === 0) {
+    return { kind: "closing_soon", label: "오늘 마감", detail, daysToEnd };
+  }
+  if (daysToEnd <= 7) {
+    return { kind: "closing_soon", label: `D-${daysToEnd} 마감 임박`, detail, daysToEnd };
+  }
+  return { kind: "active", label: "신청 중", detail, daysToEnd };
+}

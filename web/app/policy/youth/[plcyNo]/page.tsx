@@ -9,8 +9,10 @@ import {
   formatYouthDate,
   getYouthPolicy,
   relatedYouthPolicies,
+  youthApplyStatus,
   youthCategorySlug,
   youthFaq,
+  type YouthApplyStatus,
 } from "@/lib/youth";
 import { breadcrumbJsonLd, faqJsonLd } from "@/lib/seo";
 import { isActiveTag, tagHref } from "@/lib/tags";
@@ -74,6 +76,7 @@ export default async function YouthDetail(
   if (!policy) notFound();
 
   const related = relatedYouthPolicies(policy, 4);
+  const applyStatus = youthApplyStatus(policy.apply_period);
 
   const hashtags = [
     policy.major_category,
@@ -173,6 +176,7 @@ export default async function YouthDetail(
           {policy.sub_category && (
             <span className="text-zinc-500">/ {policy.sub_category}</span>
           )}
+          <ApplyStatusPill status={applyStatus} />
         </div>
       </header>
 
@@ -181,6 +185,7 @@ export default async function YouthDetail(
         applyUrl={policy.apply_url}
         refUrls={policy.ref_urls}
         applyPeriod={policy.apply_period}
+        status={applyStatus}
       />
 
       <section className="rounded-xl border border-zinc-200 bg-white p-5 shadow-sm">
@@ -298,24 +303,109 @@ export default async function YouthDetail(
   );
 }
 
+const STATUS_PILL_STYLE: Record<YouthApplyStatus["kind"], string> = {
+  active:
+    "border-emerald-300 bg-emerald-100 text-emerald-800",
+  closing_soon:
+    "border-orange-300 bg-orange-100 text-orange-800 animate-pulse",
+  upcoming:
+    "border-sky-300 bg-sky-100 text-sky-800",
+  always:
+    "border-emerald-300 bg-emerald-50 text-emerald-800",
+  expired:
+    "border-zinc-300 bg-zinc-100 text-zinc-600",
+  unknown: "",
+};
+
+const STATUS_DOT: Record<YouthApplyStatus["kind"], string> = {
+  active: "bg-emerald-500",
+  closing_soon: "bg-orange-500",
+  upcoming: "bg-sky-500",
+  always: "bg-emerald-400",
+  expired: "bg-zinc-400",
+  unknown: "",
+};
+
+function ApplyStatusPill({ status }: { status: YouthApplyStatus }) {
+  if (status.kind === "unknown" || !status.label) return null;
+  return (
+    <span
+      className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-xs font-semibold ${STATUS_PILL_STYLE[status.kind]}`}
+    >
+      <span
+        className={`h-1.5 w-1.5 rounded-full ${STATUS_DOT[status.kind]}`}
+        aria-hidden
+      />
+      {status.label}
+    </span>
+  );
+}
+
+const CTA_ACCENT: Record<YouthApplyStatus["kind"], { border: string; bg: string; button: string }> = {
+  active: {
+    border: "border-emerald-200",
+    bg: "bg-emerald-50/40",
+    button: "bg-emerald-600 hover:bg-emerald-700",
+  },
+  closing_soon: {
+    border: "border-orange-300",
+    bg: "bg-orange-50/60",
+    button: "bg-orange-600 hover:bg-orange-700",
+  },
+  upcoming: {
+    border: "border-sky-200",
+    bg: "bg-sky-50/40",
+    button: "bg-sky-600 hover:bg-sky-700",
+  },
+  always: {
+    border: "border-emerald-200",
+    bg: "bg-emerald-50/40",
+    button: "bg-emerald-600 hover:bg-emerald-700",
+  },
+  expired: {
+    border: "border-zinc-300",
+    bg: "bg-zinc-50",
+    button: "bg-zinc-500 hover:bg-zinc-600",
+  },
+  unknown: {
+    border: "border-emerald-200",
+    bg: "bg-emerald-50/40",
+    button: "bg-emerald-600 hover:bg-emerald-700",
+  },
+};
+
 function PrimaryApplyCTA({
   applyUrl,
   refUrls,
   applyPeriod,
+  status,
 }: {
   applyUrl: string;
   refUrls: string[];
   applyPeriod: string;
+  status: YouthApplyStatus;
 }) {
   if (!applyUrl && refUrls.length === 0) return null;
+  const accent = CTA_ACCENT[status.kind];
+  const showBanner = status.kind !== "unknown" && !!status.label;
   return (
-    <section className="rounded-2xl border border-emerald-200 bg-emerald-50/40 p-5 shadow-sm">
+    <section className={`rounded-2xl border ${accent.border} ${accent.bg} p-5 shadow-sm`}>
+      {showBanner && (
+        <div className="mb-4 flex flex-wrap items-center gap-2">
+          <ApplyStatusPill status={status} />
+          {status.detail && (
+            <span className="text-sm text-zinc-700">
+              <span className="font-medium">신청 기간:</span> {status.detail}
+            </span>
+          )}
+        </div>
+      )}
       {applyUrl && (
         <a
           href={applyUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-between gap-3 rounded-xl px-5 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold transition-colors"
+          className={`flex items-center justify-between gap-3 rounded-xl px-5 py-4 ${accent.button} text-white font-semibold transition-colors`}
         >
           <span className="flex items-center gap-2">
             <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5">
@@ -327,7 +417,7 @@ function PrimaryApplyCTA({
                 strokeLinejoin="round"
               />
             </svg>
-            신청하러 가기
+            {status.kind === "expired" ? "원문 확인하기" : "신청하러 가기"}
           </span>
           <span aria-hidden>→</span>
         </a>
@@ -347,8 +437,8 @@ function PrimaryApplyCTA({
           ))}
         </div>
       )}
-      {applyPeriod && (
-        <p className="mt-3 text-xs text-emerald-900">
+      {!showBanner && applyPeriod && (
+        <p className="mt-3 text-xs text-zinc-700">
           <strong>신청 기간:</strong> {applyPeriod}
         </p>
       )}
