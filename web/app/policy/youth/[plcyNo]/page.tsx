@@ -9,7 +9,7 @@ import {
   formatYouthDate,
   getYouthPolicy,
   relatedYouthPolicies,
-  youthApplyStatus,
+  youthPolicyStatus,
   youthCategorySlug,
   youthFaq,
   type YouthApplyStatus,
@@ -76,7 +76,7 @@ export default async function YouthDetail(
   if (!policy) notFound();
 
   const related = relatedYouthPolicies(policy, 4);
-  const applyStatus = youthApplyStatus(policy.apply_period);
+  const applyStatus = youthPolicyStatus(policy);
 
   const hashtags = [
     policy.major_category,

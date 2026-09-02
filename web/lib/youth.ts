@@ -64,15 +64,34 @@ export function getYouthPolicy(plcyNo: string): YouthPolicy | undefined {
   return allYouthPolicies().find((p) => p.plcy_no === plcyNo);
 }
 
+/**
+ * 정렬 시 만료 정책을 뒤로 밀기 위한 우선순위.
+ * expired = 0 (뒤), 그 외 = 1 (앞).
+ * 40% 가 만료 정책이라 그대로 정렬하면 상단이 죽은 정책으로 채워짐.
+ */
+function activePriority(p: YouthPolicy): number {
+  return youthPolicyStatus(p).kind === "expired" ? 0 : 1;
+}
+
 export function popularYouthPolicies(limit = 10): YouthPolicy[] {
   return [...allYouthPolicies()]
-    .sort((a, b) => b.inquiry_count - a.inquiry_count)
+    .sort((a, b) => {
+      const pa = activePriority(a);
+      const pb = activePriority(b);
+      if (pa !== pb) return pb - pa;
+      return b.inquiry_count - a.inquiry_count;
+    })
     .slice(0, limit);
 }
 
 export function recentYouthPolicies(limit = 10): YouthPolicy[] {
   return [...allYouthPolicies()]
-    .sort((a, b) => (b.first_reg || "").localeCompare(a.first_reg || ""))
+    .sort((a, b) => {
+      const pa = activePriority(a);
+      const pb = activePriority(b);
+      if (pa !== pb) return pb - pa;
+      return (b.first_reg || "").localeCompare(a.first_reg || "");
+    })
     .slice(0, limit);
 }
 
@@ -153,9 +172,12 @@ export function youthCategoryPage(
   category: string,
   page: number,
 ): YouthPolicy[] {
-  const sorted = [...youthPoliciesForCategory(category)].sort(
-    (a, b) => b.inquiry_count - a.inquiry_count,
-  );
+  const sorted = [...youthPoliciesForCategory(category)].sort((a, b) => {
+    const pa = activePriority(a);
+    const pb = activePriority(b);
+    if (pa !== pb) return pb - pa;
+    return b.inquiry_count - a.inquiry_count;
+  });
   const start = (page - 1) * YOUTH_CATEGORY_PAGE_SIZE;
   return sorted.slice(start, start + YOUTH_CATEGORY_PAGE_SIZE);
 }
@@ -309,4 +331,27 @@ export function youthApplyStatus(
     return { kind: "closing_soon", label: `D-${daysToEnd} 마감 임박`, detail, daysToEnd };
   }
   return { kind: "active", label: "신청 중", detail, daysToEnd };
+}
+
+/**
+ * 정책 객체 기준 상태 판정. apply_period 가 비어있거나 파싱 불가면
+ * biz_start/biz_end (사업 기간) 를 fallback 으로 사용.
+ * apply_period 원본이 없는 정책이 전체의 50% 라 fallback 없이는 절반이 unknown.
+ */
+export function youthPolicyStatus(
+  policy: Pick<YouthPolicy, "apply_period" | "biz_start" | "biz_end">,
+  now: Date = new Date(),
+): YouthApplyStatus {
+  const primary = youthApplyStatus(policy.apply_period, now);
+  if (primary.kind !== "unknown") return primary;
+  const start = (policy.biz_start || "").trim();
+  const end = (policy.biz_end || "").trim();
+  if (!/^\d{8}$/.test(start) || !/^\d{8}$/.test(end)) return primary;
+  const fallback = youthApplyStatus(`${start} ~ ${end}`, now);
+  if (fallback.kind === "unknown") return primary;
+  // detail 앞에 "사업 기간" 힌트 부착 — 실 신청기간이 아님을 사용자에게 알림.
+  return {
+    ...fallback,
+    detail: fallback.detail ? `사업 기간 ${fallback.detail}` : fallback.detail,
+  };
 }
