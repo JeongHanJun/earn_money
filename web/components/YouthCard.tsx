@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { youthApplyStatus, type YouthApplyStatus, type YouthPolicy } from "@/lib/youth";
+import { youthPolicyStatus, type YouthApplyStatus, type YouthPolicy } from "@/lib/youth";
 
 const CARD_PILL: Record<YouthApplyStatus["kind"], string> = {
   active: "border-emerald-200 bg-emerald-50 text-emerald-700",
@@ -15,7 +15,7 @@ export function YouthCard({ policy }: { policy: YouthPolicy }) {
     policy.age_limit && policy.min_age > 0 && policy.max_age > 0
       ? `만 ${policy.min_age}~${policy.max_age}세`
       : null;
-  const status = youthApplyStatus(policy.apply_period);
+  const status = youthPolicyStatus(policy);
   const showPill = status.kind !== "unknown" && !!status.label;
   return (
     <Link
