@@ -129,10 +129,12 @@ export default async function WeatherDetail(
 function UmbrellaBadge({
   level,
   popPercent,
+  hasActualPrecip = false,
   variant = "solid",
 }: {
   level: UmbrellaLevel;
   popPercent: number;
+  hasActualPrecip?: boolean;
   variant?: "solid" | "outline";
 }) {
   if (level === "none") return null;
@@ -152,13 +154,16 @@ function UmbrellaBadge({
     },
     none: { solid: "", outline: "" },
   };
+  // POP은 확률이라 실측 강수가 있어도 60%로 남는 경우가 있어 오해 소지.
+  // 실측 강수 있으면 확률 대신 "강수 예보" 표시.
+  const suffix = hasActualPrecip ? "강수 예보" : `${popPercent}%`;
   return (
     <span
       className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-bold ${styles[level][variant]}`}
     >
       <span className="text-base">☂</span>
       {label}
-      <span className="opacity-80 font-normal text-xs">· {popPercent}%</span>
+      <span className="opacity-80 font-normal text-xs">· {suffix}</span>
     </span>
   );
 }
@@ -211,6 +216,7 @@ function TodayCard({ day }: { day: DayForecast }) {
         <UmbrellaBadge
           level={day.umbrella}
           popPercent={day.max_pop}
+          hasActualPrecip={day.has_actual_precip}
           variant="solid"
         />
       </div>
@@ -296,6 +302,7 @@ function DayCard({ day }: { day: DayForecast }) {
           <UmbrellaBadge
             level={day.umbrella}
             popPercent={day.max_pop}
+            hasActualPrecip={day.has_actual_precip}
             variant="outline"
           />
           <div className="text-sm text-zinc-600">
@@ -430,7 +437,7 @@ function OutfitTip({ day, label = "오늘의 옷차림" }: { day: DayForecast; l
   }[outfit.tone];
 
   const rainNote =
-    day.max_pop >= 60
+    day.has_actual_precip || day.max_pop >= 60
       ? "☂ 우산 필수 · 방수 신발 권장"
       : day.max_pop >= 30
         ? "☂ 우산 챙기기"

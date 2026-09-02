@@ -134,10 +134,22 @@ export type DayForecast = {
   tmax?: string;
   summary?: string;
   max_pop: number;              // 하루 중 최대 강수확률 %
-  umbrella: UmbrellaLevel;      // 80+ essential / 50+ recommended / 30+ optional / none
+  has_actual_precip: boolean;   // 하루 중 실측 강수형태(비/눈/소나기) 발생 여부
+  umbrella: UmbrellaLevel;      // essential / recommended / optional / none
 };
 
-export function umbrellaLevelFor(popPercent: number): UmbrellaLevel {
+/**
+ * 우산 필요도 판정.
+ * - 하루 중 실측 강수(PTY≠없음) 있으면 무조건 essential.
+ *   기상청 POP는 확률 예보라 실제 비가 와도 60%로 유지되는 경우가 흔해서,
+ *   PTY 신호를 우선시하지 않으면 "우산 필수"가 과소 판정됨.
+ * - 그 외에는 POP 기준.
+ */
+export function umbrellaLevelFor(
+  popPercent: number,
+  hasActualPrecip = false,
+): UmbrellaLevel {
+  if (hasActualPrecip) return "essential";
   if (popPercent >= 80) return "essential";
   if (popPercent >= 50) return "recommended";
   if (popPercent >= 30) return "optional";
@@ -181,6 +193,7 @@ export function groupByDay(points: TimePointForecast[]): DayForecast[] {
         date: p.fcst_date,
         points: [],
         max_pop: 0,
+        has_actual_precip: false,
         umbrella: "none",
       });
     }
@@ -200,7 +213,11 @@ export function groupByDay(points: TimePointForecast[]): DayForecast[] {
       const n = Number(p.pop);
       return Number.isFinite(n) && n > max ? n : max;
     }, 0);
-    day.umbrella = umbrellaLevelFor(day.max_pop);
+    // 실측 강수형태(PTY≠없음) 발생 여부 — POP 확률 예보의 과소 판정 보완
+    day.has_actual_precip = day.points.some(
+      (p) => p.pty && p.pty !== "없음"
+    );
+    day.umbrella = umbrellaLevelFor(day.max_pop, day.has_actual_precip);
   }
   return Array.from(map.values()).sort((a, b) => a.date.localeCompare(b.date));
 }
