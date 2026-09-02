@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-02T12:01:50.294844+00:00",
+  "fetched_at": "2026-09-02T13:02:43.323204+00:00",
   "data": {
     "country_code": "de",
     "country_name": "독일",
@@ -7,215 +7,231 @@
     "google_trends": [
       {
         "rank": 1,
+        "keyword": "jobcenter",
+        "traffic": "500+",
+        "pub_date": "2026-09-02T05:40:00-07:00",
+        "articles": [
+          {
+            "title": "POL-HAM: Polizeilicher Einsatz beim Kommunalen Jobcenter",
+            "url": "https://www.presseportal.de/blaulicht/pm/65844/6343924",
+            "source": "Presseportal"
+          },
+          {
+            "title": "Hubschrauber und SEK-Einsatz: 32-Jähriger bedroht Hammer Jobcenter per E-Mail",
+            "url": "https://www.wa.de/hamm/32-jaehriger-droht-hammer-jobcenter-sek-rueckt-aus-94470387.html",
+            "source": "WA.de"
+          },
+          {
+            "title": "Drohungen per E-Mail gegen Jobcenter – Polizei startet Großeinsatz mit Spezialkräften",
+            "url": "https://polizei.news/2026/09/01/drohungen-per-e-mail-gegen-jobcenter-polizei-startet-grosseinsatz-mit-spezialkraeften/",
+            "source": "polizei.news"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "keyword": "toten hosen münster",
+        "traffic": "100+",
+        "pub_date": "2026-09-02T05:40:00-07:00",
+        "articles": [
+          {
+            "title": "Konzert vor 25.000 Fans: Die Toten Hosen in Münster im Liveticker",
+            "url": "https://www.wn.de/muenster/die-toten-hosen-konzert-2026-liveticker-3635159",
+            "source": "Westfälische Nachrichten"
+          },
+          {
+            "title": "Aufwärmen für Konzert der Toten Hosen in Minden: Was sind eure Lieblingssongs?",
+            "url": "https://www.mt.de/lokales/minden/Aufwaermen-fuer-Konzert-der-Toten-Hosen-in-Minden-Was-sind-eure-Lieblingssongs-24409359.html",
+            "source": "Mindener Tageblatt"
+          },
+          {
+            "title": "Trink aus! Wir müssen gehen: Abschiedstour der Toten Hosen in Münster ausverkauft",
+            "url": "https://www1.wdr.de/kultur/musik/toten-hosen-konzert-muenster-100.html",
+            "source": "WDR"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "keyword": "ingrid alexandra von norwegen",
+        "traffic": "2000+",
+        "pub_date": "2026-09-02T05:20:00-07:00",
+        "articles": [
+          {
+            "title": "Ingrid Alexandra im Rampenlicht: Sie ist die neue Nummer eins der norwegischen Thronfolge",
+            "url": "https://www.n-tv.de/leute/Sie-ist-die-neue-Nummer-eins-der-norwegischen-Thronfolge-id31246181.html",
+            "source": "n-tv.de"
+          },
+          {
+            "title": "\"Perfekt und makellos\": Neue Fotos von Kronprinzessin Ingrid Alexandra begeistern Fans",
+            "url": "https://www.t-online.de/unterhaltung/royals/id_101415732/norwegen-palast-zeigt-neue-fotos-von-ingrid-alexandra-fans-begeistert.html",
+            "source": "T-Online"
+          },
+          {
+            "title": "Palast zeigt neue Fotos von Kronprinzessin Ingrid Alexandra",
+            "url": "https://home.1und1.de/magazine/unterhaltung/videos/adel/palast-zeigt-fotos-kronprinzessin-ingrid-alexandra-42680108",
+            "source": "1&1"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "keyword": "düsseldorf",
+        "traffic": "500+",
+        "pub_date": "2026-09-02T05:20:00-07:00",
+        "articles": [
+          {
+            "title": "Kreuzung in Düsseldorf-Flingern: Schwerer Verkehrsunfall – Frau von abbiegendem Lkw erfasst",
+            "url": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-schwerer-verkehrsunfall-frau-von-abbiegendem-lkw-erfasst_aid-154128639",
+            "source": "RP Online"
+          },
+          {
+            "title": "Verkehr in Düsseldorf: Vier neue Bewohnerparkgebiete – was dort künftig gilt",
+            "url": "https://rp-online.de/nrw/staedte/duesseldorf/verkehr/duesseldorf-stadt-richtet-vier-neue-bewohnerparkgebiete-ein_aid-154129775",
+            "source": "RP Online"
+          },
+          {
+            "title": "Düsseldorf erweiterte Bewohnerpark-Gebiete: So teuer wird das Parken in Bilk und Flingern",
+            "url": "https://duesseldorf.t-online.de/region/duesseldorf/id_101416428/duesseldorf-stadt-weitet-bewohnerparken-in-bilk-und-flingern-nord-aus.html",
+            "source": "t-online – Düsseldorf"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "keyword": "rockenberg",
+        "traffic": "200+",
+        "pub_date": "2026-09-02T05:20:00-07:00",
+        "articles": [
+          {
+            "title": "Giftmord aus Rache? Rockenberger stirbt nach Mannschaftsfahrt - Verdächtiger festgenommen",
+            "url": "https://www.hessenschau.de/panorama/giftmord-bei-mannschaftsfahrt-des-tus-rockenberg-verdaechtiger-festgenommen-v1,giftmord-haftbefehl-100.html",
+            "source": "hessenschau.de"
+          },
+          {
+            "title": "Tödliche Vergiftung nach Fußball-Ausflug: Ermittler nehmen 35-Jährigen fest",
+            "url": "https://osthessen-news.de/n11799099/toedliche-vergiftung-nach-fussball-ausflug-ermittler-nehmen-35-jahrigen-fest.html",
+            "source": "Osthessen|News"
+          },
+          {
+            "title": "Mord auf Mannschaftsfahrt: Fußballer soll Mitspieler vergiftet haben",
+            "url": "https://www.bild.de/regional/hessen/mord-auf-mannschaftsfahrt-fussballer-soll-mitspieler-vergiftet-haben-6a97e6de9452c52238230e84",
+            "source": "BILD"
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "keyword": "deutsche bank ag",
+        "traffic": "200+",
+        "pub_date": "2026-09-02T05:20:00-07:00",
+        "articles": [
+          {
+            "title": "Deutsche Bank-Aktie: Es geht wieder bergab",
+            "url": "https://www.welt.de/finanzen/boerse/article6a96a2679452c5223822f3e7/deutsche-bank-aktie-es-geht-wieder-bergab.html",
+            "source": "WELT"
+          },
+          {
+            "title": "Deutsche Bank-Aktie zieht an: Goldman Sachs hebt Kursziel deutlich an und stuft hoch",
+            "url": "https://www.finanzen.net/nachricht/aktien/analystenstimme-deutsche-bank-aktie-zieht-an-goldman-sachs-hebt-kursziel-deutlich-an-und-stuft-hoch-15913695",
+            "source": "Finanzen.net"
+          },
+          {
+            "title": "Deutsche Bank legt weiter zu: Aussichtsreiche (Turbo)-Calls",
+            "url": "https://www.wallstreet-online.de/nachricht/21321364-tradingchance-deutsche-bank-legt-zu-aussichtsreiche-turbo-calls",
+            "source": "Wallstreet Online"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "keyword": "pattaya",
+        "traffic": "200+",
+        "pub_date": "2026-09-02T05:20:00-07:00",
+        "articles": [
+          {
+            "title": "U.S.S. Abraham Lincoln Docks in Thailand, Giving Weary Crew a Break",
+            "url": "https://www.nytimes.com/2026/09/02/world/asia/uss-lincoln-arrives-thailand.html",
+            "source": "The New York Times"
+          },
+          {
+            "title": "USS Abraham Lincoln arrives in Thailand after 286 days at sea",
+            "url": "https://www.usatoday.com/story/news/politics/2026/09/02/uss-abraham-lincoln-arrives-thailand-port/91575182007/",
+            "source": "USA Today"
+          },
+          {
+            "title": "USS Abraham Lincoln: US sailors arrive in Thailand's Pattaya after record 250 days at sea",
+            "url": "https://www.bbc.com/news/articles/cg7k09z4lj9o",
+            "source": "BBC"
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "keyword": "polestar 4 suv",
+        "traffic": "100+",
+        "pub_date": "2026-09-02T05:00:00-07:00",
+        "articles": [
+          {
+            "title": "A Half-Price Luxury E.V. Comes With a Big Asterisk",
+            "url": "https://www.nytimes.com/2026/08/31/business/polestar-discounts-ev-china.html",
+            "source": "The New York Times"
+          },
+          {
+            "title": "Polestar 4 gains a new SUV variant, which drops rear-windowless design",
+            "url": "https://electricdrives.tv/polestar-4-gains-a-new-suv-variant-which-drops-rear-windowless-design/",
+            "source": "ElectricDrives"
+          },
+          {
+            "title": "The New Polestar 4 SUV Is An Electric Wagon In Disguise",
+            "url": "https://insideevs.com/news/806837/polestar-4-suv-official-specs-range-price/",
+            "source": "InsideEVs"
+          }
+        ]
+      },
+      {
+        "rank": 9,
         "keyword": "promi big brother 2026 kandidaten",
         "traffic": "200+",
         "pub_date": "2026-09-02T04:50:00-07:00",
         "articles": [
-          {
-            "title": "Promi Big Brother 2026: Start von Staffel 14 steht fest",
-            "url": "https://www.stuttgarter-zeitung.de/unterhaltung/promi-big-brother-2026-start-sendetermine-stream-79432863.html",
-            "source": "Stuttgarter Zeitung"
-          },
           {
             "title": "Promi Big Brother 2026: Wer moderiert Staffel 14?",
             "url": "https://www.stuttgarter-nachrichten.de/unterhaltung/promi-big-brother-2026-wer-moderiert-staffel-14-79433129.html",
             "source": "Stuttgarter Nachrichten"
           },
           {
-            "title": "Wieder zur Primetime: Dann startet \"Promi Big Brother\" 2026",
-            "url": "https://www.promiflash.de/news/2026/09/02/wieder-zur-primetime-dann-startet-promi-big-brother-2026.html",
-            "source": "Promiflash"
+            "title": "„Promi Big Brother“ 2026: Das sind die ersten Bewohner",
+            "url": "https://www.stuttgarter-zeitung.de/unterhaltung/promi-big-brother-2026-das-sind-die-ersten-bewohner-79433467.html",
+            "source": "Stuttgarter Zeitung"
+          },
+          {
+            "title": "Promi Big Brother 2026: Start und Kandidaten – das ist nun bekannt",
+            "url": "https://www.sol.de/unterhaltung/promi-big-brother-2026-start-und-kandidaten-das-ist-nun-bekannt-re-10,752802.html",
+            "source": "SOL.DE"
           }
         ]
       },
       {
-        "rank": 2,
-        "keyword": "mz",
+        "rank": 10,
+        "keyword": "mitteldeutsche zeitung",
         "traffic": "500+",
-        "pub_date": "2026-09-02T04:40:00-07:00",
+        "pub_date": "2026-09-02T04:50:00-07:00",
         "articles": [
+          {
+            "title": "Was die Spitzenkandidaten in Sachsen-Anhalt bei großen Streitthemen wollen - ein Faktencheck",
+            "url": "https://www.mdr.de/nachrichten/sachsen-anhalt/landtagswahl/fakten-check-duell-schulze-siegmund-112,fakt-ist-duell-schlagabtausch-102.html",
+            "source": "MDR.de"
+          },
+          {
+            "title": "Ministerpräsident Sven Schulze im Interview „Wenn die Leute öfter hier wären, würden sie uns besser verstehen“",
+            "url": "https://www.tagesspiegel.de/politik/ministerprasident-sven-schulze-im-interview-wenn-die-leute-ofter-hier-waren-wurden-sie-uns-besser-verstehen-16004519.html",
+            "source": "Tagesspiegel"
+          },
           {
             "title": "Sachsen-Anhalt: Schulze und Siegmund treffen in letztem Rededuell aufeinander",
             "url": "https://www.zeit.de/politik/deutschland/2026-09/sachsen-anhalt-landtagswahl-ulrich-siegmund-sven-schulze-live",
             "source": "DIE ZEIT"
-          },
-          {
-            "title": "Nächstes Duell zwischen Ministerpräsident Schulze und AfD-Spitzenkandidat Siegmund",
-            "url": "https://www.sueddeutsche.de/politik/wahl-sachsen-anhalt-li.3540501",
-            "source": "SZ.de"
-          },
-          {
-            "title": "Landtagswahl Sachsen-Anhalt: ++„Aber was macht er? Gar nichts“ – Schulze spricht Siegmund Eignung als Ministerpräsident ab ++ Liveticker",
-            "url": "https://www.welt.de/politik/deutschland/article6a9555d4ec27d32fb526a8ea/landtagswahl-sachsen-anhalt-aber-was-macht-er-gar-nichts-schulze-spricht-siegmund-eignung-als-ministerpraesident-ab-liveticker.html",
-            "source": "WELT"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "keyword": "bombenentschärfung oranienburg",
-        "traffic": "100+",
-        "pub_date": "2026-09-02T04:30:00-07:00",
-        "articles": [
-          {
-            "title": "Sperrkreis gilt seit 8 Uhr: Weltkriegsbombe wird am Mittwoch in Oranienburg entschärft",
-            "url": "https://www.rbb24.de/panorama/beitrag/2026/09/oranienburg-lehnitz-fliegerbombe-entschaerfung-sperrkreis-kampfmittel.html",
-            "source": "rbb24.de"
-          },
-          {
-            "title": "500-Kilogramm-Bombe: Sperrkreis geräumt, Luftraum gesperrt – Entschärfung startet",
-            "url": "https://www.maz-online.de/lokales/oberhavel/oranienburg/liveticker-bombenentschaerfung-in-oranienburg-sperrkreis-geraeumt-in-lehnitz-am-2-september-ZASFDJB6BZHAPOR5TT724TAM5M.html",
-            "source": "Märkische Allgemeine Zeitung"
-          },
-          {
-            "title": "500 Kilo-Bombe wird entschärft: «Umfang schon besonders»",
-            "url": "https://www.welt.de/regionales/berlin/article6a9783fe9452c52238230690/500-kilo-bombe-wird-entschaerft-umfang-schon-besonders.html",
-            "source": "WELT"
-          }
-        ]
-      },
-      {
-        "rank": 4,
-        "keyword": "einkommensteuerreform",
-        "traffic": "10000+",
-        "pub_date": "2026-09-02T04:20:00-07:00",
-        "articles": [
-          {
-            "title": "Zuschläge, Reichensteuer, Kinder: Diese Änderungen soll die Einkommensteuerreform bringen",
-            "url": "https://www.n-tv.de/politik/Diese-Aenderungen-soll-die-Einkommensteuerreform-bringen-id31259565.html",
-            "source": "n-tv.de"
-          },
-          {
-            "title": "Die abgesagte Steuerreform – wie die Regierung sogar am Minimalziel scheiterte",
-            "url": "https://www.welt.de/wirtschaft/plus6a97cebda33eb07b679454f7/die-abgesagte-steuerreform-wie-die-regierung-sogar-am-minimalziel-scheiterte.html",
-            "source": "WELT"
-          },
-          {
-            "title": "Bundesregierung ist uneins bei der Einkommensteuerreform",
-            "url": "https://www.tagesschau.de/inland/innenpolitik/einkommensteuer-klingbeil-reiche-100.html",
-            "source": "tagesschau.de"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "keyword": "katja kipping",
-        "traffic": "200+",
-        "pub_date": "2026-09-02T04:10:00-07:00",
-        "articles": [
-          {
-            "title": "„Dieser Selbstbedienungsladen muss aufhören“ – Leser streiten über Grundsicherung und Mitwirkungspflichten",
-            "url": "https://www.focus.de/die-debatte/dieser-selbstbedienungsladen-muss-aufhoeren-leser-streiten-ueber-grundsicherung-und-mitwirkungspflichten_18125fee-24b2-4cfc-938c-ecc8cb8d0d9f.html",
-            "source": "FOCUS online"
-          },
-          {
-            "title": "„Sarah Tacke“: „Der Sozialstaat muss auch erwirtschaftet werden, das blenden Sie völlig aus“",
-            "url": "https://www.welt.de/vermischtes/article6a9100f0518a586e1855ac3c/sarah-tacke-der-sozialstaat-muss-auch-erwirtschaftet-werden-das-blenden-sie-voellig-aus.html",
-            "source": "WELT"
-          },
-          {
-            "title": "TV-Kritik: Sarah Tacke zu Grundsicherung und Bürgergeld",
-            "url": "https://www.faz.net/aktuell/feuilleton/medien-und-film/talkshow/tv-kritik-sarah-tacke-zu-grundsicherung-und-buergergeld-accg-201166487.html",
-            "source": "FAZ"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "keyword": "взрыв",
-        "traffic": "100+",
-        "pub_date": "2026-09-02T04:10:00-07:00",
-        "articles": [
-          {
-            "title": "На западе Азербайджана произошел взрыв на складе боеприпасов",
-            "url": "https://www.interfax.ru/world/1112634",
-            "source": "Интерфакс"
-          },
-          {
-            "title": "В Азербайджане на складе боеприпасов произошел взрыв",
-            "url": "https://www.svoboda.org/a/v-azerbaydzhane-na-sklade-boepripasov-proizoshel-vzryv/33845376.html",
-            "source": "Радио Свобода"
-          },
-          {
-            "title": "Взрыв произошел на складе боеприпасов на северо-западе Азербайджана",
-            "url": "https://belta.by/world/view/vzryv-proizoshel-na-sklade-boepripasov-na-severo-zapade-azerbajdzhana-798972-2026/",
-            "source": "Новости Беларуси | БелТА"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "keyword": "gala",
-        "traffic": "200+",
-        "pub_date": "2026-09-02T04:10:00-07:00",
-        "articles": [
-          {
-            "title": "Opinion | Did the Met Just Cancel the Wrong Fashionista?",
-            "url": "https://www.nytimes.com/2026/09/01/opinion/met-gala-anna-wintour-john-galliano.html",
-            "source": "The New York Times"
-          },
-          {
-            "title": "John Galliano's Met Gala exhibit canceled amid backlash over antisemitic remarks",
-            "url": "https://www.cbsnews.com/news/john-galliano-met-gala-exhibit-dropped-backlash/",
-            "source": "CBS News"
-          },
-          {
-            "title": "“John Galliano: Horizons,” the Met’s Spring 2027 Costume Institute Exhibition, Will Not Proceed as Planned",
-            "url": "https://www.vogue.com/article/john-galliano-horizons-the-mets-spring-2027-costume-institute-exhibition-will-not-proceed-as-planned",
-            "source": "Vogue"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "keyword": "spritpreise",
-        "traffic": "100+",
-        "pub_date": "2026-09-02T04:10:00-07:00",
-        "articles": [
-          {
-            "title": "Benzinpreis: Warum die 12-Uhr-Regel alles teurer macht",
-            "url": "https://www.faz.net/aktuell/finanzen/benzinpreis-warum-die-12-uhr-regel-alles-teurer-macht-accg-201166543.html",
-            "source": "FAZ"
-          },
-          {
-            "title": "Rekord an der Zapfsäule: E10 im August 2026 so teuer wie noch nie",
-            "url": "https://www.t-online.de/mobilitaet/aktuelles/id_101414932/super-e10-rekordpreis-an-der-zapfsaeule-im-august.html",
-            "source": "T-Online"
-          },
-          {
-            "title": "E10 so teuer wie nie: Spritpreise im August deutlich gestiegen",
-            "url": "https://www.n-tv.de/ticker/Spritpreise-im-August-deutlich-gestiegen-id31257334.html",
-            "source": "n-tv.de"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "keyword": "вибух",
-        "traffic": "200+",
-        "pub_date": "2026-09-02T04:00:00-07:00",
-        "articles": []
-      },
-      {
-        "rank": 10,
-        "keyword": "b469",
-        "traffic": "200+",
-        "pub_date": "2026-09-02T04:00:00-07:00",
-        "articles": [
-          {
-            "title": "Gleich zwei Unfälle auf der B469 sorgen für massive Verkehrsbehinderungen | Foto: Ralf Hettler",
-            "url": "https://www.main-echo.de/ressorts/blaulicht/gleich-zwei-unfaelle-auf-der-b469-sorgen-fuer-massive-verkehrsbehinderungen-art-8777886",
-            "source": "main-echo.de"
-          },
-          {
-            "title": "Lange Vollsperrung: Verkehrsunfälle auf der B469 bei Niedernberg am 01.09.2026",
-            "url": "https://www.meine-news.de/niedernberg/c-blaulicht/verkehrsunfaelle-auf-der-b469-bei-niedernberg-am-01092026_a243006",
-            "source": "meine-news.de"
-          },
-          {
-            "title": "Verkehrsunfall auf der B469 bei Niedernberg: Bild 1 von 16",
-            "url": "https://www.main-echo.de/mediathek/fotoserien/verkehrsunfall-auf-der-b469-bei-niedernberg-cme-6904925",
-            "source": "main-echo.de"
           }
         ]
       }
@@ -228,8 +244,8 @@
         "channel": "Stray Kids",
         "thumbnail": "https://i.ytimg.com/vi/YWsczzufh6Q/mqdefault.jpg",
         "published_at": "2026-09-01T09:00:00Z",
-        "view_count": 2338071,
-        "like_count": 369950
+        "view_count": 2361558,
+        "like_count": 373294
       },
       {
         "rank": 2,
@@ -238,8 +254,8 @@
         "channel": "KinoCheck",
         "thumbnail": "https://i.ytimg.com/vi/vPGoHgP4pyk/mqdefault.jpg",
         "published_at": "2026-09-01T16:15:35Z",
-        "view_count": 199797,
-        "like_count": 1997
+        "view_count": 204654,
+        "like_count": 2029
       },
       {
         "rank": 3,
@@ -248,8 +264,8 @@
         "channel": "TryReact",
         "thumbnail": "https://i.ytimg.com/vi/rPfiFkpVffU/mqdefault.jpg",
         "published_at": "2026-09-01T10:45:08Z",
-        "view_count": 477729,
-        "like_count": 8338
+        "view_count": 488590,
+        "like_count": 8475
       },
       {
         "rank": 4,
@@ -258,8 +274,8 @@
         "channel": "BM Official",
         "thumbnail": "https://i.ytimg.com/vi/41OcCi5RaAM/mqdefault.jpg",
         "published_at": "2026-09-01T15:00:06Z",
-        "view_count": 150243,
-        "like_count": 2735
+        "view_count": 158812,
+        "like_count": 2792
       },
       {
         "rank": 5,
@@ -268,8 +284,8 @@
         "channel": "KinoCheck Horror",
         "thumbnail": "https://i.ytimg.com/vi/BWdZDphG4ZE/mqdefault.jpg",
         "published_at": "2026-09-01T13:21:03Z",
-        "view_count": 16029,
-        "like_count": 95
+        "view_count": 16666,
+        "like_count": 98
       },
       {
         "rank": 6,
@@ -278,8 +294,8 @@
         "channel": "GamerBrother",
         "thumbnail": "https://i.ytimg.com/vi/BTHV99jkq-M/mqdefault.jpg",
         "published_at": "2026-09-01T12:01:14Z",
-        "view_count": 148475,
-        "like_count": 7790
+        "view_count": 151828,
+        "like_count": 7909
       },
       {
         "rank": 7,
@@ -288,8 +304,8 @@
         "channel": "Adam | آدم",
         "thumbnail": "https://i.ytimg.com/vi/lb-msCNgqLs/mqdefault.jpg",
         "published_at": "2026-09-01T15:00:01Z",
-        "view_count": 339803,
-        "like_count": 10207
+        "view_count": 352268,
+        "like_count": 10474
       },
       {
         "rank": 8,
@@ -298,8 +314,8 @@
         "channel": "nopixel",
         "thumbnail": "https://i.ytimg.com/vi/fVCD9oKjtZs/mqdefault.jpg",
         "published_at": "2026-09-01T16:00:06Z",
-        "view_count": 519993,
-        "like_count": 17449
+        "view_count": 524562,
+        "like_count": 17681
       },
       {
         "rank": 9,
@@ -308,8 +324,8 @@
         "channel": "LUCREW",
         "thumbnail": "https://i.ytimg.com/vi/9jfVc7JgFu8/mqdefault.jpg",
         "published_at": "2026-09-01T14:00:35Z",
-        "view_count": 268873,
-        "like_count": 11943
+        "view_count": 274494,
+        "like_count": 12232
       },
       {
         "rank": 10,
@@ -318,8 +334,8 @@
         "channel": "Jador",
         "thumbnail": "https://i.ytimg.com/vi/hZc1JFsH82s/mqdefault.jpg",
         "published_at": "2026-09-01T08:00:06Z",
-        "view_count": 130308,
-        "like_count": 7329
+        "view_count": 133514,
+        "like_count": 7420
       },
       {
         "rank": 11,
@@ -328,8 +344,8 @@
         "channel": "JULEX",
         "thumbnail": "https://i.ytimg.com/vi/goKNQH1R6x4/mqdefault.jpg",
         "published_at": "2026-09-01T15:00:08Z",
-        "view_count": 23691,
-        "like_count": 388
+        "view_count": 23920,
+        "like_count": 393
       },
       {
         "rank": 12,
@@ -338,8 +354,8 @@
         "channel": "iCrimax",
         "thumbnail": "https://i.ytimg.com/vi/RS-_Nnla3o8/mqdefault.jpg",
         "published_at": "2026-09-01T12:48:39Z",
-        "view_count": 211862,
-        "like_count": 4901
+        "view_count": 219482,
+        "like_count": 5023
       },
       {
         "rank": 13,
@@ -348,8 +364,8 @@
         "channel": "Schlager für Alle",
         "thumbnail": "https://i.ytimg.com/vi/ipWj152n_3w/mqdefault.jpg",
         "published_at": "2026-08-30T08:01:22Z",
-        "view_count": 15467,
-        "like_count": 62
+        "view_count": 16298,
+        "like_count": 63
       },
       {
         "rank": 14,
@@ -358,8 +374,8 @@
         "channel": "KinoCheck Heimkino",
         "thumbnail": "https://i.ytimg.com/vi/2Qhoxx4us0k/mqdefault.jpg",
         "published_at": "2026-08-31T11:30:20Z",
-        "view_count": 50458,
-        "like_count": 315
+        "view_count": 50946,
+        "like_count": 317
       },
       {
         "rank": 15,
@@ -368,8 +384,8 @@
         "channel": "Trymacs",
         "thumbnail": "https://i.ytimg.com/vi/LmtwmdOnjj4/mqdefault.jpg",
         "published_at": "2026-09-01T10:15:22Z",
-        "view_count": 239948,
-        "like_count": 5158
+        "view_count": 243772,
+        "like_count": 5257
       },
       {
         "rank": 16,
@@ -378,8 +394,8 @@
         "channel": "Mein Herz schlägt Schlager",
         "thumbnail": "https://i.ytimg.com/vi/AN4y-zgV_L0/mqdefault.jpg",
         "published_at": "2026-08-30T04:30:29Z",
-        "view_count": 29641,
-        "like_count": 238
+        "view_count": 29917,
+        "like_count": 239
       },
       {
         "rank": 17,
@@ -388,8 +404,8 @@
         "channel": "Movie Trailers Source",
         "thumbnail": "https://i.ytimg.com/vi/9CZ5xNna-tg/mqdefault.jpg",
         "published_at": "2026-09-01T15:13:12Z",
-        "view_count": 181001,
-        "like_count": 3084
+        "view_count": 185986,
+        "like_count": 3194
       },
       {
         "rank": 18,
@@ -398,8 +414,8 @@
         "channel": "PietSmiet",
         "thumbnail": "https://i.ytimg.com/vi/MBWnLpRNSRc/mqdefault.jpg",
         "published_at": "2026-09-01T14:05:26Z",
-        "view_count": 163836,
-        "like_count": 5050
+        "view_count": 166802,
+        "like_count": 5149
       },
       {
         "rank": 19,
@@ -408,8 +424,8 @@
         "channel": "KrawallBrüder",
         "thumbnail": "https://i.ytimg.com/vi/stb3RjsU_h0/mqdefault.jpg",
         "published_at": "2026-08-31T18:00:06Z",
-        "view_count": 30516,
-        "like_count": 1461
+        "view_count": 30714,
+        "like_count": 1469
       },
       {
         "rank": 20,
@@ -418,8 +434,8 @@
         "channel": "Screen Junkies",
         "thumbnail": "https://i.ytimg.com/vi/iQM8DzszRCw/mqdefault.jpg",
         "published_at": "2026-09-01T17:00:29Z",
-        "view_count": 337456,
-        "like_count": 7090
+        "view_count": 342252,
+        "like_count": 7188
       },
       {
         "rank": 21,
@@ -428,8 +444,8 @@
         "channel": "BastiGHG",
         "thumbnail": "https://i.ytimg.com/vi/3UCb0RnzeiQ/mqdefault.jpg",
         "published_at": "2026-08-31T16:03:07Z",
-        "view_count": 613603,
-        "like_count": 20423
+        "view_count": 617070,
+        "like_count": 20580
       },
       {
         "rank": 22,
@@ -438,8 +454,8 @@
         "channel": "Maddix",
         "thumbnail": "https://i.ytimg.com/vi/y73j4ICfzmk/mqdefault.jpg",
         "published_at": "2026-08-27T22:00:01Z",
-        "view_count": 391450,
-        "like_count": 7410
+        "view_count": 396184,
+        "like_count": 7518
       },
       {
         "rank": 23,
@@ -448,8 +464,8 @@
         "channel": "TV Promos",
         "thumbnail": "https://i.ytimg.com/vi/LvgUNQKMYc8/mqdefault.jpg",
         "published_at": "2026-09-01T18:12:05Z",
-        "view_count": 139380,
-        "like_count": 1354
+        "view_count": 144798,
+        "like_count": 1407
       },
       {
         "rank": 24,
@@ -458,8 +474,8 @@
         "channel": "EliasN97",
         "thumbnail": "https://i.ytimg.com/vi/6Okt6HVIYFs/mqdefault.jpg",
         "published_at": "2026-09-01T10:30:27Z",
-        "view_count": 160040,
-        "like_count": 5664
+        "view_count": 162322,
+        "like_count": 5739
       },
       {
         "rank": 25,
@@ -468,281 +484,274 @@
         "channel": "CHUNG HA 청하",
         "thumbnail": "https://i.ytimg.com/vi/ts7-qWkpKYA/mqdefault.jpg",
         "published_at": "2026-09-01T09:00:02Z",
-        "view_count": 1251758,
-        "like_count": 53787
+        "view_count": 1304411,
+        "like_count": 54944
       }
     ],
     "google_news": {
       "top": [
         {
-          "title": "Bergheim in NRW: Weiteres Umspannwerk von Störung betroffen – Verdacht auf Straftat",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYm5Ka1NYOEEyck9CYTVQbFg2Mng2NlEwemVqcnZZWmtxa1ZGdk9mRFoyT0J5cENzMmpOMUZsVTNEWmNsMVdWVDdMSkItR0VtSGtEZzV3N0M1MHI0b1Z2SWpvakk4Sm5lSXRtN3hkV0JHOEVXRDFGU0llN1JLZ3ZfdE5TbkJWOGRjemJJdlhZT2tIc3VSLTRHMnhfaFVORUwweWJtQkViUlQtUk5xOWh5bXZaSC1JNm5Hazg1bVpQR2s?oc=5",
-          "description": "Bergheim in NRW: Weiteres Umspannwerk von Störung betroffen – Verdacht auf Straftat  SpiegelFünf Kraftwerksblöcke betroffen: Neuer Fall in NRW: Umspannwerk durch \"vorsätzliche Tat\" gestört  n-tv.deUms",
-          "publisher": "Spiegel",
-          "pub_date": "2026-09-02T05:41:00+00:00"
-        },
-        {
-          "title": "Anschlag auf Kraftwerk: Suche nach Tätern von Jänschwalde – das steht in den geheimen Einsatzprotokollen",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTnNFdjdfNENGYXQzQzJtSHdsWDA2QXB2ejhwclo5bFZjajdlZEtTck1Ba3dLUGhLN2d1TUhacHNyNXBtYjRDa1VSVk9FbTBXdnRGWldfMDVSbFhVc2ExazY5TUl3SlNJTnliNFJPSmNPcDd6TkI4Mkt2dnh4M20tMWt3dFpsbEFETnlkRm5seEduQjVnSWZXUzQxdDgzY3M5T25RTjQwd2xWLUJyMzM1VUhmMmExUy1aRE92dktWbkRSZkI1Uk8xWnpCV09jS1Byb0p3d2xPT2g2YUNJeDU1SDFLc0l3ZWhoNUlBMHNvLVhrS2xzZUUyQjNHalhzSi0teWNBOGFjMUE?oc=5",
-          "description": "Anschlag auf Kraftwerk: Suche nach Tätern von Jänschwalde – das steht in den geheimen Einsatzprotokollen  WELTBrandenburg: Terrorermittlungen nach Angriff auf Umspannwerk  BILDKritische Infrastruktur ",
+          "title": "Bergheim: Nächster möglicher Anschlag auf Umspannwerk bei Köln – Polizei spricht von „vorsätzlicher Tat“",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOaWlvaUtSdWFVejM4SzlFLTJsOF9Lam5MS2pmaUdGQU5HZ0dOeXNpNl9JdjhnVlR6X3ZaV2lFTThac1ZlZkZxS0tnejJCanBtRHBBOUZnR25XRk9Od1kzTm8tNHdzT0pzcE1PQXFuUmF6U296Nko0SFlVZ1g1V2t0aU5TX2ZnZWpHa2xXTkxaVWdqR29vbUtwS0ZmSFUyUlBvajZzTUJiV1pmVFctU0pWeHNwbFVXMnZVclgwWHJNUUFSQXVCa2huZklMOXRaRDJRamdORmk2VzQyZVIxd3BEdGNqRW1nYXVDU0dZSW04VXMtTmVGWjV3b1JqcGVQZzNnbXliSnB0a2RPLUoz?oc=5",
+          "description": "Bergheim: Nächster möglicher Anschlag auf Umspannwerk bei Köln – Polizei spricht von „vorsätzlicher Tat“  WELTAnschlag auf Stromversorgung: Umspannwerk bei Köln: 6 Abschussvorrichtungen gefunden  BILD",
           "publisher": "WELT",
-          "pub_date": "2026-09-02T08:27:36+00:00"
-        },
-        {
-          "title": "Vor Sachsen-Anhalt-Wahl: Journalist packt über aggressive Stimmung aus – wurde „fast körperlich bedroht“",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOXFBRGlsamZnVmhwSEN3QXViZUx1RXlsei1aY3o0cWh2Y0JuWkh5UmJEUFMtLU1LVDU2SzB1OUd3VDRSNl9XU0hTMmlmQzQxdHlabGdsOWZEUnBPWG9qNXA3SnlyN01hUDFCTkNoNXRQQWdFblN5NEl1YXNlZlJ5YXlLekpFdldqOXBRRVlVRVJXSl9wRk01bWJtRXJ2bTNaVkJQeTMxdmpWUnBWWXZqbFFCU0xUanQ4Q3A3LXZyOERPck5ucUJr?oc=5",
-          "description": "Vor Sachsen-Anhalt-Wahl: Journalist packt über aggressive Stimmung aus – wurde „fast körperlich bedroht“  Frankfurter RundschauTrotz Merz-Visite: Schulze jetzt 21 Prozentpunkte hinter der AfD  BILDWah",
-          "publisher": "Frankfurter Rundschau",
-          "pub_date": "2026-09-02T10:00:00+00:00"
-        },
-        {
-          "title": "Einkommensteuerreform: Klingbeil verteidigt Einkommensteuerreform gegen Kritik von Reiche",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVmdRejBXSmdJWHBPZ1VhSHgyZFd1UVFQOHA0Z0ZocFZYeXFlZmFvbE5LLUZaNkdWY085LTVaQkstVWpwZkhWbTlLNGt0bEtmanc3UDdvanEyODlRMHUtZFZOYlduY2k0Rl9SeTV3VWxSRnkwMDRTbHJrTFEyMzJYeVFMV3p1YnBjWkI5N0hjMG5jMFkybk1vazM0Z0p2dUIweUVlczhpMDRNU2VIa2pUVWVuTXVtSGF2SGFDS2dWRXVIUHprTHlvdg?oc=5",
-          "description": "Einkommensteuerreform: Klingbeil verteidigt Einkommensteuerreform gegen Kritik von Reiche  DIE ZEITDie abgesagte Steuerreform – wie die Regierung sogar am Minimalziel scheiterte  WELTKabinett beschlie",
-          "publisher": "DIE ZEIT",
-          "pub_date": "2026-09-02T07:20:45+00:00"
-        },
-        {
-          "title": "Neue Sorgen in Norwegen! Königin Mette-Marit musste ins Krankenhaus",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOREl0TmxPLW1VdGpKRTVRNVQ5VU85clI2TkZqdTF6MnFiX1Z2c1MxTVctVG80VjVsanN6VXZnVEFsNlJBMlBQYktSWkRSREx3cjUwVnNwT21RQ2NhRXFpSFpoRDROVDA3U0FvRlFvSExKZ3pINGhLUURlRlNRVHQ0VjI0LXJXNmRYcGNsbVhhbUpSNTd1UjVZNXJDZXR1OEc1OGp6aHdwMUVBOEY2OEd3ejctRENSZE80d2pySG5lNGJ2Q1ZRYTRFSTctY1pUSlExQktwYnAxZlpmS3pjMkRaNFFtYw?oc=5",
-          "description": "Neue Sorgen in Norwegen! Königin Mette-Marit musste ins Krankenhaus  RTL.deNach OP: König Haakon VIII. bringt Ehefrau Mette-Marit ins Krankenhaus  T-OnlineNorwegen: Mette-Marit ist nicht die einst erh",
-          "publisher": "RTL.de",
-          "pub_date": "2026-09-02T09:30:54+00:00"
+          "pub_date": "2026-09-02T09:27:52+00:00"
         },
         {
           "title": "Drohnenangriff auf Leipziger Flughafen Putin bezeichnet deutsche Reaktion als „schweren Fehler“ und geht Merz an",
           "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPV0FLZlpyTUFNWTQ2QzdCM2RfbFNIeFNackIzZVhKejZTLUEwT1ZycWVURVdqZ3lrVXBydXQ5UkIxRjZxbEtJckVtaWJLbXBKVFhnT3FTVUFWNi1PeWZXT1NDNEpOSGc4dnlEZXhnYjctMVBhY2pBRDNoMzRCQnhkclN3R3JTVWlWeGhBcVlSanNFbkNrVi1SUU1oZDl6akxYRW9nMERCM1VwZ3NHM3hRckNnWWRQN3VoT1cwV2FPd0pPRW04MVhTa3JYdFI2M0l1Qm94NTlpc252akdXWTlwVjhJYlBoSTlnN3J3WWNZTU1hVEZ6bzJ5UQ?oc=5",
-          "description": "Drohnenangriff auf Leipziger Flughafen Putin bezeichnet deutsche Reaktion als „schweren Fehler“ und geht Merz an  TagesspiegelWeitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "Tagesspiegel",
+          "description": "Drohnenangriff auf Leipziger Flughafen Putin bezeichnet deutsche Reaktion als „schweren Fehler“ und geht Merz an  tagesspiegel.deDeutschland hat laut Medwedjew „direkten Schlag verdient“ – Putin nennt",
+          "publisher": "tagesspiegel.de",
           "pub_date": "2026-09-02T08:39:00+00:00"
         },
         {
-          "title": "Koalition jetzt eine Minderheit: Drei Mitglieder verlassen Thüringer BSW-Fraktion und gründen neue Partei - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWlhVdnE4VjNBQzYzdjRaQXQ1Q25fdGREYjhVTjQwSXBuSm4tNjl3Z3ZTMk9JWm84QjVSTGUydmxrc2htR3NsU2NRX05PT1A0WnN1VS1yNlpYVllpTnU4MFE3NHdyUWRvcXBQenh0MlEyWkQ4RmZGVi12eEFNUnJHNDJNU2JVLW9qWjZuTnpNT3hieTJzNTVFOHZDUjZObEE0enJ4dEREcHVkZktRb2VQS3ZlUldIRGY3dHc?oc=5",
-          "description": "Koalition jetzt eine Minderheit: Drei Mitglieder verlassen Thüringer BSW-Fraktion und gründen neue Partei  n-tv.deThüringen: Weitere Abgeordnete verlassen BSW - und gründen neue Partei  MDR.deBSW-Frak",
-          "publisher": "",
-          "pub_date": "2026-09-02T11:23:22+00:00"
+          "title": "(S+) AfD in Sachsen-Anhalt: Welche Löcher die Partei in den Haushalt reißen würde",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcWh5SVNVdGsxcExJd2wzMVlTRm9PTVZSd3RfSFAzZDRvUUlic0Z4VnlQMFRwTXVSQUQ0RDBJNGFXMm82cnR6Q0VuMVpPUFZrdGJyTjBlR3l5bmNVM2xubE9fU0tkN2h3R1gyVW1hVEpDRE5NQmQyTFA1SkdPX0JGRngwSVhSQ2FtdUlPWnl2UHpwNW5JR0dUWTN5MGtCTGxkdkxfUmRnRXpqYXBsaDZVZnNBTDg0NXF4UVMzNHB6ZlZRbVZkaDV4WS1SQ05UTjJManBjaFRKVUc3YXpXcGRvamxR?oc=5",
+          "description": "(S+) AfD in Sachsen-Anhalt: Welche Löcher die Partei in den Haushalt reißen würde  SpiegelLiveblog zur Wahl in Sachsen-Anhalt: Siegmund will Änderungen bei Verfassungsschutz - Politik - SZ.de  SZ.de(S",
+          "publisher": "Spiegel",
+          "pub_date": "2026-09-02T10:47:00+00:00"
         },
         {
-          "title": "„Das war falsch von mir“: JP Kraemer räumt Lüge über Selbstmord seiner Mutter ein - Kölner Stadt-Anzeiger",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFudlRmUEdzTTJhdUNxTm11ajlCbkg4UmVfTl9WS2RUM3g2ajhzNzhGWFlNQ1NvVnE2WEJwRWFXc29QOGZmSmZUNVRVbzM4Tm52ckd2WThOblMtUmQwX3d2dTFsUTk0ZHhldFdHX0FRTXVJNDVIY2ZSM2ZXdmhlZ3lqUS1HZzdZNTUyakFYU0poVlhiWDhYR1JhaldiUUxTU3E4eQ?oc=5",
-          "description": "„Das war falsch von mir“: JP Kraemer räumt Lüge über Selbstmord seiner Mutter ein  Kölner Stadt-AnzeigerWeitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "",
-          "pub_date": "2026-09-02T05:26:40+00:00"
+          "title": "Neue Sorgen in Norwegen! Königin Mette-Marit musste ins Krankenhaus",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOREl0TmxPLW1VdGpKRTVRNVQ5VU85clI2TkZqdTF6MnFiX1Z2c1MxTVctVG80VjVsanN6VXZnVEFsNlJBMlBQYktSWkRSREx3cjUwVnNwT21RQ2NhRXFpSFpoRDROVDA3U0FvRlFvSExKZ3pINGhLUURlRlNRVHQ0VjI0LXJXNmRYcGNsbVhhbUpSNTd1UjVZNXJDZXR1OEc1OGp6aHdwMUVBOEY2OEd3ejctRENSZE80d2pySG5lNGJ2Q1ZRYTRFSTctY1pUSlExQktwYnAxZlpmS3pjMkRaNFFtYw?oc=5",
+          "description": "Neue Sorgen in Norwegen! Königin Mette-Marit musste ins Krankenhaus  RTL.deKann Mette-Marit Königin? Norweger sind laut Umfrage gespaltener Meinung  RTL.deAufbahrung in Schlosskapelle: Familie und Vol",
+          "publisher": "RTL.de",
+          "pub_date": "2026-09-02T09:30:54+00:00"
         },
         {
-          "title": "Zwei Menschen verletzt Nach Explosion in Gebäudedurchgang – Augsburger Hauptbahnhof wieder in Betrieb",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNT2tUMm4wVm9hZ3oySTRPV1BldHJUWnh1a1JHTkJPUDRQS180UzVVcmtrbjhhSVVCVVl0SFRscWEwYmNVdk9mU09FWGJEQkMzN29hVkdyNmJkejFrN0tiX0taUVNRTE5Md2RCLTk3dmtXX1VFeGJLOFdxZ3QxZFBlYk5zclNTc3pTWEFGZV9iUlRoeTJsSjZicnByU0V3WmloMWNXcVd4WDY1TG5pUlJRc0FwckpBX0RrYzNXYXNRd014VFk4V0dueFkzTWVfTndhWXhya25fcnpGNVpYUnI0UWU4S0gzMnBjU2NDRi1sb0tEU1ozMVIzZHRpUUM?oc=5",
-          "description": "Zwei Menschen verletzt Nach Explosion in Gebäudedurchgang – Augsburger Hauptbahnhof wieder in Betrieb  TagesspiegelAugsburg: Explosion am Hauptbahnhof – Polizei riegelt Areal komplett ab – Zugverkehr ",
-          "publisher": "Tagesspiegel",
-          "pub_date": "2026-09-02T10:10:00+00:00"
+          "title": "Sprengvorrichtungen an Umspannwerk in Brandenburg gefunden – Sabotage sollte Blackout auslösen",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaTh6SjdJQmR4UjNQdTNjbWtJdEd2SUFnX3dueEhkWWlQTjZiQ2dYM2lwdWhLcUVXcUd2VFFwSS1hRHlTTWtqZzJibno5SkwxbWJtaUhKVmpxNFNWXzcyWVZlV1RLYzR3U2VrTHduaTlHZ3BUTE14UTgtbFhId1RzVVNWZWxfRG1MaE5UdkJ3azVtZ1hvcnpCRW1rbmdrWjk3V3lUbkl6Y0tGUzVGczZOTG5OeENDTDFTRENsZVN6aWhqNG0zaTVrdUxjSnppZw?oc=5",
+          "description": "Sprengvorrichtungen an Umspannwerk in Brandenburg gefunden – Sabotage sollte Blackout auslösen  DeutschlandfunkStromversorgung: Wie deutsche Gesetze es den Kraftwerks-Terroristen einfach machen  WELTT",
+          "publisher": "Deutschlandfunk",
+          "pub_date": "2026-09-01T20:30:24+00:00"
         },
         {
-          "title": "Schüsse auf St. Pauli: Zwei Männer nahe Boxclub getötet – Polizei Hamburg geht von „Tatvorbeziehung“ aus",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZkxSR09qcEhwZ0xDaTFEZE5qZzhKWTV4TDlGRWo1R2RiNENpRVZEd3RuZHVWQUhBQUVCVDBKR29tY3huVDBSc2h2UU44LUlxNmVScE1XbDVnVFlRTnFramNDUzJ3bUhYUXJZZnZLMHQzRHBhSDlDUjh5VFRjVVRadDRNZkNndE0xOFh0dy1aSEpnbk5XTWlsMWZKVlNXVmRocm5Fa2E5UVdQaklDZ2FVaFFhVGR4ZnZZX3RhZDI4c3RVUWxOXzM5Z0l3OXh3VGZyWElBRnZfVEdtQy0wWG5XMUU3c2RnUHBLYlZzZ09FM1d4Wkpl?oc=5",
-          "description": "Schüsse auf St. Pauli: Zwei Männer nahe Boxclub getötet – Polizei Hamburg geht von „Tatvorbeziehung“ aus  Hamburger AbendblattWeitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "Hamburger Abendblatt",
-          "pub_date": "2026-09-02T06:37:00+00:00"
+          "title": "Züge rollen wieder: Entwarnung am Augsburger Hauptbahnhof",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS0ZLTkw2eXQ1d3V6Q1Z1ZXUwMGdpYmEyTkVHV2tOb1N5T3ByQXlGbUJtdms0d3IxN2N4ZkhDMjh5YkdLeE85MG1nelBRcGVxdVBPdm9ERVRuSGI0am5LaFdkZ3hhdVlqbGc2R0tONFRpSG5qOGF1a0dZdWRFbE1lamJUSnQyQWhOVldmeExMUHRnWjVtLTEwdTNhVUU5QV9oZnFTMHpwaUNkN1BXcDJ1aXN2ekc3RFZWLVdYRw?oc=5",
+          "description": "Züge rollen wieder: Entwarnung am Augsburger Hauptbahnhof  BILDHandgranate soll vor Juwelier explodiert sein – Ermittlungen zu Hintergründen laufen  Augsburger AllgemeineAugsburg: Explosion am Hauptba",
+          "publisher": "BILD",
+          "pub_date": "2026-09-02T08:40:46+00:00"
+        },
+        {
+          "title": "„Warum diese Opposition?“: Klingbeil kritisiert Reiche im Steuer-Streit und ruft nach Merz",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPblBNVlFxTDRGX0FsWnUtZGFJek5vS2dyMWxIM3VmbXdac2NFTDJKODdic2hGaHVvR05pMG9UcHNNOW1WM1dsckdLdXJTa3pBWFdvRlZOXzQ5Yy04OS1FQ0lERTNVZkpkXzFOd3Zxem1uUmxjY2psODRQZFJmTlZrUFhvcWFGZ3czVktsR2pqTTk0WkNDcnA4ckl5WWxKQmpOM3Z2QndoNHRLVEpUZXc?oc=5",
+          "description": "„Warum diese Opposition?“: Klingbeil kritisiert Reiche im Steuer-Streit und ruft nach Merz  fr.deReform im Kabinett: Das soll sich bei der Einkommensteuer ändern  tagesschau.deEinkommensteuerreform im",
+          "publisher": "fr.de",
+          "pub_date": "2026-09-02T06:31:08+00:00"
+        },
+        {
+          "title": "\"Ich werde alle Unternehmen schließen\": JP Kraemer veröffentlicht weiteres Video nach Vorwürfen",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hekx6bXB3V2c2bVNLN1N4Sm1zMHRuR0J3RmxhRVVKMGpNamZuWnluTU42MDlGUTEwUE1ISEZnUmV3RXJsUWNZTEI1SkExeHZ5bVRQUmlhYVF4c2lRaS1ZbGdnX0NzajJlX2FmY1FkWTl2a0U1Tzg3TA?oc=5",
+          "description": "\"Ich werde alle Unternehmen schließen\": JP Kraemer veröffentlicht weiteres Video nach Vorwürfen  wdr.deJP Kraemer schmeißt hin: 80 Jobs betroffen  auto-motor-und-sport.deJP Kraemer: Kinderfotos werfen",
+          "publisher": "wdr.de",
+          "pub_date": "2026-09-01T13:04:41+00:00"
+        },
+        {
+          "title": "„Permanente destruktive Eingriffe“ – Drei Austritte aus Thüringer BSW-Fraktion",
+          "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPOVhTVzlVbGFRV1dCMFFZbzFDRVI5Mlp3UzZETmFlMldZQlMyWS1qZzhoM3RGYmlGR2E1cWxDdmlXN1hmRFQtV1FXU3BWaXozd2toMzJUWmUwTF82d3RFUU42QTNYSjh6WWRRYTBMZF9RdkxRLVdrTUlaVFlBbS04Mmk4SktWSEV4Vm9tcE9DN0dsek1CbUszcHdhVERMWkQ3aEs3MmNRSHBQQ0F6cHpXZnpxNzVvcXRQTlNXSWdHa1hmcUdaMFJwYjNWdnpMakRBZk5UeHB2QVl0SmJicUZid24zWml2SHZrR3FiQk5rdjRUTEhWS193RkVBOGs4OWxjeW1mTHhvZWlhYVdZQUMxRQ?oc=5",
+          "description": "„Permanente destruktive Eingriffe“ – Drei Austritte aus Thüringer BSW-Fraktion  WELTBSW: Drei Abgeordnete verlassen Fraktion in Thüringen  SpiegelBSW-Chaos in Thüringen: Höcke will Neuwahlen  Thüringe",
+          "publisher": "WELT",
+          "pub_date": "2026-09-02T09:08:33+00:00"
+        },
+        {
+          "title": "Anschläge auf Stromnetz sollen Bevölkerung vor Wahlen verunsichern, warnt CDU-Politiker",
+          "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNUWdJd1R3c3pPVFNSa2NvWTJSRzR3V0F5ZUIyT0ZhZW9VbHNac1ZfOEtjMVhieEREalNtcGl6cVNGZG8ySTdJTWI4NHptX1Z3TjA0OUxWcjRhZlVWOXdMUHR3MFZmSVRnRnVXcjg0YmlTaUp5eUk0VnlYMnNSdEhyWGt0dGhFTWVNS2NWUjhpYU5TY1FremVGdjJoSlhVZXdDb050ZzRKUmcxOTdjZVFtV21lSFlxaVBNNG4tY3o0U0tCMS1JVE05NnVmMEhKSGRCX2xPR0UzaTlmYkJ1Z2k5TUhJc1Boa3ZmVlU4WnFnS3hxa01uWlFpR1dCc2lzdGhZaXhSeDU5aDE4aTRoWTNkSnEyRkNMcEhWbTdBc2pZNA?oc=5",
+          "description": "Anschläge auf Stromnetz sollen Bevölkerung vor Wahlen verunsichern, warnt CDU-Politiker  WELTWeitere Schlagzeilen und Meinungen in Google News",
+          "publisher": "WELT",
+          "pub_date": "2026-09-02T10:12:18+00:00"
+        },
+        {
+          "title": "Krieg in Nahost: USA greifen Iran an – angeblich Tote bei Hochzeitsfeier, darunter Kleinkind",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPanM2SFFKR0hqVy16eVlxOHphVmhUZnlIN2dTZ2xmYUxnbmNsemtnZk1rUzR5c1htdnJtZHRDZEh1RWJaQmNPS2xNTHdUNnNWQWJCYk95RHAxUnl0bDU2Z1ZBQ0F0dUFhaDBQaGEzbkIzTWJERjZIRGxZREhKUkM1RnNOeTFodVdNQW12VUpEUFhMeERRY3RkWnRfSnpYUG1VTi1tZ3VBRjFLMy1ldzFYRXloNFZHNHVvamZXT2RBek9CVU9HVFNpTkt6dnFMVmhoUG1uUGRYa0c4SEFBbDlsYjJTelZjUmp4MWp6Z29ybGtia0E?oc=5",
+          "description": "Krieg in Nahost: USA greifen Iran an – angeblich Tote bei Hochzeitsfeier, darunter Kleinkind  WELTNach US-Schlägen: Iran greift in Kuwait, Jordanien und Bahrain an  n-tv.deUSA greifen Iran erneut an  ",
+          "publisher": "WELT",
+          "pub_date": "2026-09-02T04:44:16+00:00"
         },
         {
           "title": "Nepal: Schulleiter rettet 900 Kinder vor Sturzflut im Himalaja",
           "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVFNUVkFkd1F5X3ItVmFXaWp6cWp4S1NzbnU1TjBZZ0pWdWc0SV9GSUF3OXZPVFg2VjFmbC1SdVk1UzZnQlNDUVNWcjVWSlhuZEx1czc2N3pYQXA5MVk4MTltT1hBWXY4VldaR2hqT0hETGxaT0xGUlpzMUM4bERidk45U1BHRXQ3QzhldHl5XzhFVXZCVHdFY3ZEaUdCaTdiUkJXaFhzblhOV1dIdXQwRm9Za2tCNmQwc3JnNFNGNWllQS1mcUFIM2Zucw?oc=5",
-          "description": "Nepal: Schulleiter rettet 900 Kinder vor Sturzflut im Himalaja  SpiegelFlutkatastrophe im Himalaya: Was die Katastrophe für Tibet bedeutet  tagesschau.deSturzflut in Nepal und Klimawandel: Nepal will ",
+          "description": "Nepal: Schulleiter rettet 900 Kinder vor Sturzflut im Himalaja  SpiegelVerzweifelte Suche nach Vermissten in Nepal dauert an  tagesschau.deHilfsorganisation Arche Nova bereitet Einsatz in Nepal vor  W",
           "publisher": "Spiegel",
           "pub_date": "2026-09-01T17:08:00+00:00"
         },
         {
-          "title": "\"Russland schert sich nicht um die roten Linien\" - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMnpla19lbUZRWVZaVm1WU2lqUnNvTkdTNDJvaE0yY2NZVEpkbWdnMzAyTFdwbUtwbVhaOWVUelAtUnpqcGdScFRoRU93cS1uYjJvSjdBWllBM0x2OWJvLXBuV0xoN2xKRGVpZXJDN1poUGJpNXJKM09MbG1FZEVoXzB1QzV3Szl0VlZoNEpCZW1hbXRjZ2dwaFozTzVvQUdWVk1XUE5FNERFRUZyUUFydUR2RmIxLUhwcnFwVjRrZnQxWC0yX0h5X3ExZm8ta2VLUzZTNjNpVzF6anpSX0JMM2ROcDNyYkY4bmtVeWJn?oc=5",
-          "description": "\"Russland schert sich nicht um die roten Linien\"  T-OnlineRussland hat dem Iran heimlich bei der Entwicklung fortschrittlicher Technologie für Hyperschallraketen geholfen.  vietnam.vnBericht der „Fina",
-          "publisher": "",
-          "pub_date": "2026-09-02T03:27:15+00:00"
+          "title": "Schuss aus 122 Metern in eine Menge: Kirk-Attentäter könnte die Todesstrafe erhalten",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTllScDZ0cmhHT1dSOHNiczZzdndQT0hqanp2LWZYY1ZPYkhIRE91eU5PY1ZUUm5yTTE4T2VQbHd2VzZHMXJza2lNLVhNc045TmdpVWxNb3lHcWR0Szlob1ZBS0RrRm4xTzBnSGlvTmlkRmtwbVVrTWRzMmVkdUg4ZWx1NmNFdmVtQkJfZHNXcUVWRGtTN245SGxnZ3pMRElzakVhMmo3Q3o2cHJKdGRuZFZpZkpNN0JLV2JSWTZnd0NqaW9kMzlrWQ?oc=5",
+          "description": "Schuss aus 122 Metern in eine Menge: Kirk-Attentäter könnte die Todesstrafe erhalten  fr.deCharlie Kirk: US-Richter ordnet Prozess gegen mutmaßlichen Kirk-Attentäter an  DIE ZEITProzess nach Mord an C",
+          "publisher": "fr.de",
+          "pub_date": "2026-09-02T05:35:20+00:00"
         },
         {
-          "title": "Russland greift Kiew auch vor Schulanfang an",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV2FsLUU2dGxld0JoTkdpSHhCWDdHZWxsd3A4X29jSG1KNlR1Vno3VEFKUXVoVXRQSHNrcHdMeHhqeDF2VHFldXZoWjUwRWFuRUlIZ0c3UUtheGtRUEJsdVpDMmhLczI2SkxJOXNBN3dGcmdsX1NCdi1YYkwxUnZqOHFiVWViRU5WblEzYXg1c2NCck96RHdydGJLZHc?oc=5",
-          "description": "Russland greift Kiew auch vor Schulanfang an  WEB.DE„Wenn der Raketensplitter eine Arterie trifft, ist es vorbei“ Die Protagonisten dieser Reportage haben nur durch Zufall überlebt  TagesspiegelUkrain",
-          "publisher": "WEB.DE",
-          "pub_date": "2026-09-01T04:16:12+00:00"
+          "title": "Russlands Angriff trifft Grenzübergang zu Nato-Land Rumänien",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcThUbTRONDB0Vko0cDdVT0cxcnl1WW1IT0Y3VFZHSnZscjM5SDlhc0VzMXduWVIyb0ZTeWFjRVlzVUdOV05qU3I0M0tTakdTb2hfWGpoT3ZyZUdXUHk3Ui00OUt4MVJZZ1huc2YyTGxzay1ldXVPWUVGY3hRZnRob2F4SWtuSS13Uy1EanRxaHVQMXFUZm55UTRPZG54dkNpbHVtYU1BMUpfLXNjTmxlclJnSQ?oc=5",
+          "description": "Russlands Angriff trifft Grenzübergang zu Nato-Land Rumänien  STERN.deRussischer Angriff auf die Ukraine - mindestens 12 Tote  tagesschau.deUkrainekrieg - Russland greift wieder Odessa an - Explosione",
+          "publisher": "STERN.de",
+          "pub_date": "2026-09-01T10:30:00+00:00"
         },
         {
-          "title": "Iran-Krieg: Zwei Tanker fahren auf Seeminen, meldet der Iran",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM0RucTItdUhQSEpLNnoyZXZuTHFkNmR5cE5pcG9ub1ZOU3kyWW5CMlJrY3VTOU5qajlsOVdJaG1Qa2ZCU2ZGemVYSmwxcDBPZk85VXpxRTlQNE0ySEhzRlBIeE1jTDd5UGNuU3NKY3oxbGp3UThYTVRvblU1NU5uT054UVAtaHpZYlVhQmdRbGF4dUpyd2c4WlFlOExWUENMZlBvcnRoZWZmWE9odDJkdGswUndZSGdtRUd0dTNMVHNXQQ?oc=5",
-          "description": "Iran-Krieg: Zwei Tanker fahren auf Seeminen, meldet der Iran  Handelsblatt\"Satan\": Iran wütet gegen USA nach Berichten über Angriff auf Hochzeitsfeier  T-OnlineNach US-Schlägen: Iran greift in Kuwait,",
-          "publisher": "Handelsblatt",
-          "pub_date": "2026-09-02T09:37:30+00:00"
-        },
-        {
-          "title": "\"Leerlaufen von Werken\": Bericht: VW-Vorstand beschließt Aus für vier deutsche Standorte - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN29jMm1rX3F5eXg4SzRLa2lTUXF6YWxOWTJpR3RUV2JIM0V1QlRvUmJtaXJRYkd0V01RQmY5THZnNlJud3RiaHNXZnlpdXdnUkR3R2VyTERZNzkyem5LSUFNZTVKcFVUV2JDOC1vMEUyQU16TTdhWlhJWlREYkxrSUl3dkVWMWMyUGZGdmFlZS1WQjM5N0NqQnM1Tl9LLWNFZGxMbmJNNF93cVlNVUJMWA?oc=5",
-          "description": "\"Leerlaufen von Werken\": Bericht: VW-Vorstand beschließt Aus für vier deutsche Standorte  n-tv.deVolkswagen: Kompromisssuche beim Autobauer ist gescheitert  HandelsblattVolkswagen: So hart trifft VWs ",
-          "publisher": "",
-          "pub_date": "2026-09-02T08:33:08+00:00"
+          "title": "Audi in Neckarsulm vor dem Aus? VW plant wohl Ende der Produktion",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNzRvdDA1TFdXWjh5QXp3WnZ1dkpidS1GZ3dGcHluNDlMeWJoRlBYbWZacWpGMkFoQWVyeURBUFhsUENvb214YlpVZWVaUXpZdms2ajJCZC1iYVdUeUxVbklMQUgzWm82WTdFbkp5TzlyTWpWS3R6XzJtVnUtUUtJVTlpUVY5SXBaeWlNVG5xU25JaWVhOWdIX1luWjljeG51NDdEMmp3VzJabGk3Z0FYVnRDSzZrY2lzR2NnME9RcmV3WEI5a3BTWF9VWEFMcTQ4RzIwRnozOVhUdUVa?oc=5",
+          "description": "Audi in Neckarsulm vor dem Aus? VW plant wohl Ende der Produktion  SWRVW-Werke schließen? Schlechte Aussichten für Kompromiss bei Volkswagen-Sanierung  Manager MagazinVolkswagen: So hart trifft das Sp",
+          "publisher": "SWR",
+          "pub_date": "2026-09-02T07:00:00+00:00"
         }
       ],
       "nation": [
         {
-          "title": "Deutschland hat laut Medwedjew „direkten Schlag verdient“ – Putin nennt Sanktionen „schweren Fehler“",
-          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNNFEya1BqUGN6N2RYd1NzQ2FnVXNUai1BT1lVZUpHSGJldXgybG96WVc5VldTcTNsek5LZndrU3YwQmJhNjhUU1FPZmF0S2IwN0V3RWtqUUo0UlJfNHVDMnhweTBFQW1Wb3puLVhXcjY0TnpyVjZWWWFTVWJuYVI2YVNSU3VJUG1pd0Jfand0UVdNUUpKaUcxXzlvQUMzdE04SGRlbFRKZHJnZ1pQWXJLOEVwaTItT2FaMDdjTWpTd3VTYXF0T1VWZkswSHFkaHNmUU8zRXo3aFdKM1NyVy1vbmgtbWFnek9SR05MSW0wMS1rd21kX1dNcVhn?oc=5",
-          "description": "Deutschland hat laut Medwedjew „direkten Schlag verdient“ – Putin nennt Sanktionen „schweren Fehler“  WELTDrohnenangriff auf Leipziger Flughafen Putin bezeichnet deutsche Reaktion als „schweren Fehler",
-          "publisher": "WELT",
-          "pub_date": "2026-09-02T07:58:47+00:00"
-        },
-        {
-          "title": "Angriff auf Umspannwerk in Brandenburg: Polizei ermittelt wegen Terrorverdachts",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYzJicjdqa1hSakI0ZUQ4d2hNSEc0SXk3bmpSSlFtOVpLdGljak1RRDBaUzE4dVRudk1VbExzWUItdzR2bVY1Z3VsSDU0WFU4QUVTZXlDV3VMYzVKSUowQV9mX2Y3ZEJ5T3AxRjJTM29nSjY0RmlpaHE5UDlZQjRZeXNrX1FOWFQ3M2pjZTcwVXRRTlVXVEtGekFKOHhrbmtPTTAzNkJpbkpGSzhjTm9yUTlwSEptTVZiWW9ZVUdDWXdmQUZnNkItNkVn?oc=5",
-          "description": "Angriff auf Umspannwerk in Brandenburg: Polizei ermittelt wegen Terrorverdachts  TagesspiegelKritische Infrastruktur - Wie ist die Stromversorgung geschützt und wer greift sie an? - Panorama - SZ.de  ",
-          "publisher": "Tagesspiegel",
-          "pub_date": "2026-09-02T11:12:00+00:00"
+          "title": "Drohnenangriff auf Leipziger Flughafen Putin bezeichnet deutsche Reaktion als „schweren Fehler“ und geht Merz an",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxON1dxR0FiMjJlNDFxNDFvRDNLSjZLVERsbkFnZjhuMHB2SG1FUmdFQ3dkUnZIa2l5ZzQ2RVYwQnhyQW0yUDh0Tk53Z3M1WUdReV94S2NKV3FIMHcwRHVuLVNmRjlMVFMwenQ2T1dCbmszYXJyMkhIckRNMjdtM2p6cEFxbTJxWERVZjhRMG9aUkVyaWRwWWRaQkVLTURuOGI1RVYxZW1kd05hOTVfdXRNYzFuR1BZY3VyOFJCRXpYazNTVFptYjQ5YTM1OXMwTm9GN1ZwUXRDQzB5T296eUQ3NHlGOXYwRlFxbzFING8wVFZIQQ?oc=5",
+          "description": "Drohnenangriff auf Leipziger Flughafen Putin bezeichnet deutsche Reaktion als „schweren Fehler“ und geht Merz an  tagesspiegel.deLeipziger Drohnenattacke: Fahnder ermitteln zwei Tatverdächtige - Polit",
+          "publisher": "tagesspiegel.de",
+          "pub_date": "2026-09-02T12:30:00+00:00"
         },
         {
           "title": "Sabotage-Verdacht in Bergheim: NRW-Innenminister Reul spricht von gezieltem Angriff",
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRFVhNHlJR1BBRTBTdnUzOGk2SmcwcWZNalg5cW5fRjVBdDZoSHJXN3J4VW85b1JqYlJWRklvSURrWU1GQzBGdE9UZ2VVdGx0MXMwc3pDamJYN0RpTEtNZHBFZlBOYmZBYUdkYnZwSndlRWZKQUxudGVSWUpFVXh2UzBMaXVyS3pBZHlNVGNMZXRFVmlxQ3p1Z1lUb2ZxQ2hoWVB6VmxGMHZrVkVoMHNDQUV1dHU1ZDZGbGNHZ3lLNnVHR3g0c0xUVUtR?oc=5",
-          "description": "Sabotage-Verdacht in Bergheim: NRW-Innenminister Reul spricht von gezieltem Angriff  WAZFünf Kraftwerksblöcke betroffen: Neuer Fall in NRW: Umspannwerk durch \"vorsätzliche Tat\" gestört  n-tv.deBerghei",
+          "description": "Sabotage-Verdacht in Bergheim: NRW-Innenminister Reul spricht von gezieltem Angriff  WAZAnschlag auf Stromversorgung: Umspannwerk bei Köln: 6 Abschussvorrichtungen gefunden  BILDEinsatz am Umspannwerk",
           "publisher": "WAZ",
           "pub_date": "2026-09-02T10:41:06+00:00"
         },
         {
+          "title": "(S+) AfD in Sachsen-Anhalt: Welche Löcher die Partei in den Haushalt reißen würde",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcWh5SVNVdGsxcExJd2wzMVlTRm9PTVZSd3RfSFAzZDRvUUlic0Z4VnlQMFRwTXVSQUQ0RDBJNGFXMm82cnR6Q0VuMVpPUFZrdGJyTjBlR3l5bmNVM2xubE9fU0tkN2h3R1gyVW1hVEpDRE5NQmQyTFA1SkdPX0JGRngwSVhSQ2FtdUlPWnl2UHpwNW5JR0dUWTN5MGtCTGxkdkxfUmRnRXpqYXBsaDZVZnNBTDg0NXF4UVMzNHB6ZlZRbVZkaDV4WS1SQ05UTjJManBjaFRKVUc3YXpXcGRvamxR?oc=5",
+          "description": "(S+) AfD in Sachsen-Anhalt: Welche Löcher die Partei in den Haushalt reißen würde  SpiegelLiveblog zur Wahl in Sachsen-Anhalt: Siegmund will Änderungen bei Verfassungsschutz - Politik - SZ.de  SZ.de(S",
+          "publisher": "Spiegel",
+          "pub_date": "2026-09-02T10:47:00+00:00"
+        },
+        {
+          "title": "Jänschwalde: Nach Angriff auf Umspannwerk in Brandenburg – Polizei leitet Terrorermittlungen ein",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPQ3hHa2FFWW5zM3g0Q1NBaGtlVG12bGFpRmFLekRKNzlnNE9DZFRkakdwU3FRS1dDNG9XekNqdVU5VVhmZ3Zhb204NnNhUnlwU0pVNGN1SEstWHpFb0o1b3YxWGJJSHNsX19MWDJLVGcxM29sZTJCbHpmdHVDakcwWjh6dWRvUzJ5ZzRMSl80UmFjU1AyZjh0VnUtRXVlWmVwUlRWTWxaRkk2bVZJWm1JLVpwVy1QWnN4UXItN0Z3azJEYlRoel9oTUZiVXdkT2t1bDFqNWRoZlJvWDlnSXdmdnN5TGliOWNJd3RFUHlSdWZua2M1RnNuY0NsU05CVXlm?oc=5",
+          "description": "Jänschwalde: Nach Angriff auf Umspannwerk in Brandenburg – Polizei leitet Terrorermittlungen ein  WELTStromversorgung: Wie deutsche Gesetze es den Kraftwerks-Terroristen einfach machen  WELTTerrorermi",
+          "publisher": "WELT",
+          "pub_date": "2026-09-02T09:42:55+00:00"
+        },
+        {
           "title": "Einkommensteuerreform: Klingbeil verteidigt Einkommensteuerreform gegen Kritik von Reiche",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVmdRejBXSmdJWHBPZ1VhSHgyZFd1UVFQOHA0Z0ZocFZYeXFlZmFvbE5LLUZaNkdWY085LTVaQkstVWpwZkhWbTlLNGt0bEtmanc3UDdvanEyODlRMHUtZFZOYlduY2k0Rl9SeTV3VWxSRnkwMDRTbHJrTFEyMzJYeVFMV3p1YnBjWkI5N0hjMG5jMFkybk1vazM0Z0p2dUIweUVlczhpMDRNU2VIa2pUVWVuTXVtSGF2SGFDS2dWRXVIUHprTHlvdg?oc=5",
-          "description": "Einkommensteuerreform: Klingbeil verteidigt Einkommensteuerreform gegen Kritik von Reiche  DIE ZEITDie abgesagte Steuerreform – wie die Regierung sogar am Minimalziel scheiterte  WELTKabinett beschlie",
+          "description": "Einkommensteuerreform: Klingbeil verteidigt Einkommensteuerreform gegen Kritik von Reiche  DIE ZEITReform im Kabinett: Das soll sich bei der Einkommensteuer ändern  tagesschau.deEinkommensteuerreform ",
           "publisher": "DIE ZEIT",
           "pub_date": "2026-09-02T07:20:45+00:00"
         },
         {
-          "title": "Koalition jetzt eine Minderheit: Drei Mitglieder verlassen Thüringer BSW-Fraktion und gründen neue Partei - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWlhVdnE4VjNBQzYzdjRaQXQ1Q25fdGREYjhVTjQwSXBuSm4tNjl3Z3ZTMk9JWm84QjVSTGUydmxrc2htR3NsU2NRX05PT1A0WnN1VS1yNlpYVllpTnU4MFE3NHdyUWRvcXBQenh0MlEyWkQ4RmZGVi12eEFNUnJHNDJNU2JVLW9qWjZuTnpNT3hieTJzNTVFOHZDUjZObEE0enJ4dEREcHVkZktRb2VQS3ZlUldIRGY3dHc?oc=5",
-          "description": "Koalition jetzt eine Minderheit: Drei Mitglieder verlassen Thüringer BSW-Fraktion und gründen neue Partei  n-tv.deThüringen: Weitere Abgeordnete verlassen BSW - und gründen neue Partei  MDR.deBSW-Frak",
+          "title": "Züge rollen wieder: Entwarnung am Augsburger Hauptbahnhof",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS0ZLTkw2eXQ1d3V6Q1Z1ZXUwMGdpYmEyTkVHV2tOb1N5T3ByQXlGbUJtdms0d3IxN2N4ZkhDMjh5YkdLeE85MG1nelBRcGVxdVBPdm9ERVRuSGI0am5LaFdkZ3hhdVlqbGc2R0tONFRpSG5qOGF1a0dZdWRFbE1lamJUSnQyQWhOVldmeExMUHRnWjVtLTEwdTNhVUU5QV9oZnFTMHpwaUNkN1BXcDJ1aXN2ekc3RFZWLVdYRw?oc=5",
+          "description": "Züge rollen wieder: Entwarnung am Augsburger Hauptbahnhof  BILDHandgranate soll vor Juwelier explodiert sein – Ermittlungen zu Hintergründen laufen  Augsburger AllgemeineAugsburg: Explosion am Hauptba",
+          "publisher": "BILD",
+          "pub_date": "2026-09-02T08:40:46+00:00"
+        },
+        {
+          "title": "BSW-Fraktion in Thüringen zerfällt: Drei Abgeordnete verlassen Partei und Fraktion",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObldQVkNwODFnU3BMTmh3YzJkQ3Z0NGNXTGZmSHEyYk1LRXZ6blkwcEdnVjhyeHN4ZGFzVTdZMG04WWZabFMzTnppdVpTUy1LR0FlU0JaYURmdGJyb0I1SHBFSmZiRFg5Z1ZvUVBXdDdEeVVRNElwTnhDS0cyUi1fNFV6NFJib2IzTFZTQXBXOVF3QkRoMHhlZWNKUmV2RXlBZkxrS0trdWRXWk8wRTlMNHF2SG44WW5mam50UlBmRnVqRmgwckg3eWZsTl9QT0xYYzNIS1dkenMwcFMzamdvOVFHWVM?oc=5",
+          "description": "BSW-Fraktion in Thüringen zerfällt: Drei Abgeordnete verlassen Partei und Fraktion  Thüringer AllgemeineBSW: Drei Abgeordnete verlassen Fraktion in Thüringen  Spiegel„Permanente destruktive Eingriffe“",
+          "publisher": "Thüringer Allgemeine",
+          "pub_date": "2026-09-02T08:57:00+00:00"
+        },
+        {
+          "title": "Mecklenburg-Vorpommern-Wahl: Neue Umfrage zeigt überraschende Machtperspektive - T-Online",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNS1dEYzdOR3llNnBvVGxBWTFWeDYwVmxPaXFUcFJ2OU5zTXJJZ2E0ZXlGWXd3YV8zeHdJdllmY1FMVTU5V25SaFdwUy0xUWFHY2RncHBIOHh3QU9SV1dGSmZWVzZPQlFqZl9fNW9MZmF0LWtveUFxWldQa0pOWGdaamQ5VjQ5eUx2V092YVlvblBVbkFMQUhZYlZPQzRna2pMc1RkbllibXA2aldLaFhLb09sS201UHUyRVZmUTlpeG02YV9SbVBNT3pTWlZhclgzMWlzSVZxVW5XWHJG?oc=5",
+          "description": "Mecklenburg-Vorpommern-Wahl: Neue Umfrage zeigt überraschende Machtperspektive  T-OnlineForsa-Umfrage: AfD bleibt in Mecklenburg-Vorpommern stärkste Kraft, doch SPD holt kräftig auf  WELTErste Umfrage",
           "publisher": "",
-          "pub_date": "2026-09-02T11:23:22+00:00"
-        },
-        {
-          "title": "Chrupalla widerspricht Siegmund: „Wir sind gesprächsbereit“",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaW9LcC1IckplbXR0WDNpX19halQ4MVI1WFFOVTUxWnZlbnBUb2phWHVvS3RNeHBYa2xqMi0xNEpuS0YwV1VvQlN6UWM4ODVvOXpIVWVVYXlwckIzamphV0dRemVmME5kS3BQT1FxbENnV1laWWxlMEU4QnRwR1VuTmh2b2dvZFAya3NqZ3hUU0ZNMjVkVTEySC1ETXpPbmlzUUpRdi1xWHNLRlg2cGlMa2ctOA?oc=5",
-          "description": "Chrupalla widerspricht Siegmund: „Wir sind gesprächsbereit“  Berliner MorgenpostTrotz Merz-Visite: Schulze jetzt 21 Prozentpunkte hinter der AfD  BILDWahl Sachsen-Anhalt 2026: Die Wut der Wutwähler ha",
-          "publisher": "Berliner Morgenpost",
-          "pub_date": "2026-09-01T15:02:08+00:00"
-        },
-        {
-          "title": "„Das war falsch von mir“: JP Kraemer räumt Lüge über Selbstmord seiner Mutter ein - Kölner Stadt-Anzeiger",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRDFudlRmUEdzTTJhdUNxTm11ajlCbkg4UmVfTl9WS2RUM3g2ajhzNzhGWFlNQ1NvVnE2WEJwRWFXc29QOGZmSmZUNVRVbzM4Tm52ckd2WThOblMtUmQwX3d2dTFsUTk0ZHhldFdHX0FRTXVJNDVIY2ZSM2ZXdmhlZ3lqUS1HZzdZNTUyakFYU0poVlhiWDhYR1JhaldiUUxTU3E4eQ?oc=5",
-          "description": "„Das war falsch von mir“: JP Kraemer räumt Lüge über Selbstmord seiner Mutter ein  Kölner Stadt-AnzeigerWeitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "",
-          "pub_date": "2026-09-02T05:26:40+00:00"
-        },
-        {
-          "title": "Zwei Menschen verletzt Nach Explosion in Gebäudedurchgang – Augsburger Hauptbahnhof wieder in Betrieb",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNT2tUMm4wVm9hZ3oySTRPV1BldHJUWnh1a1JHTkJPUDRQS180UzVVcmtrbjhhSVVCVVl0SFRscWEwYmNVdk9mU09FWGJEQkMzN29hVkdyNmJkejFrN0tiX0taUVNRTE5Md2RCLTk3dmtXX1VFeGJLOFdxZ3QxZFBlYk5zclNTc3pTWEFGZV9iUlRoeTJsSjZicnByU0V3WmloMWNXcVd4WDY1TG5pUlJRc0FwckpBX0RrYzNXYXNRd014VFk4V0dueFkzTWVfTndhWXhya25fcnpGNVpYUnI0UWU4S0gzMnBjU2NDRi1sb0tEU1ozMVIzZHRpUUM?oc=5",
-          "description": "Zwei Menschen verletzt Nach Explosion in Gebäudedurchgang – Augsburger Hauptbahnhof wieder in Betrieb  TagesspiegelAugsburg: Explosion am Hauptbahnhof – Polizei riegelt Areal komplett ab – Zugverkehr ",
-          "publisher": "Tagesspiegel",
-          "pub_date": "2026-09-02T10:10:00+00:00"
-        },
-        {
-          "title": "Schüsse auf St. Pauli: Zwei Männer nahe Boxclub getötet – Polizei Hamburg geht von „Tatvorbeziehung“ aus",
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZkxSR09qcEhwZ0xDaTFEZE5qZzhKWTV4TDlGRWo1R2RiNENpRVZEd3RuZHVWQUhBQUVCVDBKR29tY3huVDBSc2h2UU44LUlxNmVScE1XbDVnVFlRTnFramNDUzJ3bUhYUXJZZnZLMHQzRHBhSDlDUjh5VFRjVVRadDRNZkNndE0xOFh0dy1aSEpnbk5XTWlsMWZKVlNXVmRocm5Fa2E5UVdQaklDZ2FVaFFhVGR4ZnZZX3RhZDI4c3RVUWxOXzM5Z0l3OXh3VGZyWElBRnZfVEdtQy0wWG5XMUU3c2RnUHBLYlZzZ09FM1d4Wkpl?oc=5",
-          "description": "Schüsse auf St. Pauli: Zwei Männer nahe Boxclub getötet – Polizei Hamburg geht von „Tatvorbeziehung“ aus  Hamburger AbendblattWeitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "Hamburger Abendblatt",
-          "pub_date": "2026-09-02T06:37:00+00:00"
+          "pub_date": "2026-09-02T09:37:32+00:00"
         },
         {
           "title": "Bei 200 Kilometern pro Stunde: ICE-Tür öffnet sich während der Fahrt",
           "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbnY0S002cDB5SEhTNmJKa2FjYVFZZVpIQklmM18xRUpEM2J4Qy03X2pmdFBGQk5KaVhnc3NJQWlQdVlPNE82c2hoNDlVVVJxWFp6RG9YeDNxaTZETi1fbnVvSDRWaWVtaHhYYUJCblBXM25ZVEZROTZQYmhzUU9ieE9XQUZyeFNWLUkybDFpZk9PRDJYbjRjbVhURmowYUtlMV84OTc0NTdwejRQMXRoNE5pNllnbVVZQi1hSzZDVGx4cXlUbGVQYTlDbmM3UjBqZ01NamNfeU5LN2pa?oc=5",
-          "description": "Bei 200 Kilometern pro Stunde: ICE-Tür öffnet sich während der Fahrt  SpiegelDeutsche Bahn: ICE-Tür öffnet sich während Fahrt mit Tempo 200  DIE ZEITTür öffnet sich bei Tempo 200: ICE-Notstopp in Unte",
+          "description": "Bei 200 Kilometern pro Stunde: ICE-Tür öffnet sich während der Fahrt  SpiegelPolizei sucht Täter: ICE-Tür bei Tempo 200 geöffnet  n-tv.deBei Tempo 200 in Bayern: ICE-Tür öffnet sich während der Fahrt ",
           "publisher": "Spiegel",
           "pub_date": "2026-09-02T10:43:00+00:00"
         },
         {
+          "title": "Doppelmord in Hamburg: Polizei jagt Killer! Opfer und Täter kannten sich offenbar",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYmYzaG5YUFBDb1JsQVlMTnZ4aURaWlNFQUpsMm5WUWRGUEdCUzQ1SE9lem45TXptaXpoTHRXREI2VmpHMXZlMFllQWMyXzdsUHNIRnYxdFhNOV9CNmU3c3BGMHI3YlRoM1FXQWhWMUk5M1NvenpQMlU4Nk1xcFJMUDg2dWRhSkw3bThISktaZ2VHZXg2bWlKMUpTTEhPTEhJQVBITEduamh4b0R0VS1Jc3Q1aEZYQXJBUWVpMnZTcF9fdw?oc=5",
+          "description": "Doppelmord in Hamburg: Polizei jagt Killer! Opfer und Täter kannten sich offenbar  BILDWeitere Schlagzeilen und Meinungen in Google News",
+          "publisher": "BILD",
+          "pub_date": "2026-09-02T10:25:47+00:00"
+        },
+        {
           "title": "Baden-Württemberg: Merz nennt Ärzte \"Nutznießer\": BW-Ärzteschaft spricht von \"Affront\" des Kanzlers",
           "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQd25GaGJNWHVYZlRIRHFQaVREU1pNWTZCRFI1azZtZDlMSFhKSVhFaGVMVTNLUEVPcmxUSU1fdDEwS2UzNkFDaDJxX2h3TDhwWV84aXBBNVo2NXdBa2V3TDZIOXIzMTUzV1J6dkoyVVNsQXJqUldYU3FvLW1pYkRUaTBRai02MERLV3M0X1JvbnVEZ0U2Z25MUnNCNHQ0WVFSUHdwSXFZTlVRUVp2bGRqQTFWZ0l6NDJlSDNXNThtcTZQbWcwLUVQb0YtVW11WVNlTUlYc1pxUVlXVElWLUl1VldJcXRkZw?oc=5",
-          "description": "Baden-Württemberg: Merz nennt Ärzte \"Nutznießer\": BW-Ärzteschaft spricht von \"Affront\" des Kanzlers  tagesschau.deMerz und die Kinderärztin Bea Merscher: Wenn die Macht beleidigt reagiert  Sonntagsbla",
+          "description": "Baden-Württemberg: Merz nennt Ärzte \"Nutznießer\": BW-Ärzteschaft spricht von \"Affront\" des Kanzlers  tagesschau.de“Nutznießer”: Merz’ Äußerung in der Kritik  Apotheken UmschauPflegekräfte und Ärzte em",
           "publisher": "tagesschau.de",
           "pub_date": "2026-09-02T03:11:00+00:00"
         },
         {
           "title": "Bei \"Maischberger\": Poschardt greift Grüne scharf an – die kontert sofort - T-Online",
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONGpJSU5wV2FTMFQyUE1VdGd1QkZNOTdvZzBGX0NzNk9yTzAxNVRJcU9zTWRSSDNreXVLZVN0S3VZNWtvNWNKc0ZEWURDdE9fM2FZaWJ4bzBuNWFEM3hnZ3lhNW0wVWpDYmRVNUpGNG9tVTlKb2JVX0NOZWVPUFpyNkJPMlBhRnhjcFcza0JMYXZvY05sQWs1RlpxdWtTX1NiSzdoV1RHMjNFMVg0b1R2UjBkcjV0aHFHNU9abE1nbUQyVjliTnY0dnJmaGhqUEN3eXJZVnIzNF9CMV9DajdOanVB?oc=5",
-          "description": "Bei \"Maischberger\": Poschardt greift Grüne scharf an – die kontert sofort  T-Online„maischberger“ am 01.09.2026 in Berlin  WDR„Maischberger“ heute: Themen und Gäste am Dienstag  BILD„Maischberger“ ges",
+          "description": "Bei \"Maischberger\": Poschardt greift Grüne scharf an – die kontert sofort  T-Online„maischberger“ am 01.09.2026 in Berlin  WDR„Maischberger“ gestern am 1.9.26: Die Gäste und das Thema am Dienstag  Aug",
           "publisher": "",
           "pub_date": "2026-09-02T02:10:50+00:00"
         },
         {
-          "title": "Landtagswahl Sachsen-Anhalt: ++„Aber was macht er? Gar nichts“ – Schulze spricht Siegmund Eignung als Ministerpräsident ab ++ Liveticker",
-          "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPbWtDS1BwaUJ1Qk96emFMOUdPaVZlbWNYTExIYWlpRzl5bkpFaWJLcXJTaTdGaGZJSERibEQ3NmJDR19FTEFidERiOF8xOVBDWV9ULVhrMDZlWVFPTDU5MDJqb0Nmd3V4WEVXZXNtZzhtbmRNOWhoNWJDN2NaWEY3dkRQYk9mS3BDemU4N0RUbmVPMDRsZ1VoM0JDcWZydWtPYWp2Nmt1VkYxY3lhUEJtVk1iZERfUlRzZlhEN3ZDODdxNzQyd3JHNTlWQ2hhUmpjX2RtS2xRZDc3dUVxOFk5UC1CR0RvWlNEWUNKUDdnSWVXRUQ1SVlBbzJQWnh1LUQ2bFdXb245c1lERWhJcUlyMFIyNkR3ejI2bWZfRzBfTm9BVjNsWHdMdVpHdw?oc=5",
-          "description": "Landtagswahl Sachsen-Anhalt: ++„Aber was macht er? Gar nichts“ – Schulze spricht Siegmund Eignung als Ministerpräsident ab ++ Liveticker  WELTSachsen-Anhalt: Schulze und Siegmund treffen in letztem Re",
+          "title": "„Starke Männer haben keine Angst vor starken Frauen!“, ruft Heidi Reichinnek",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOMTJvM2xWdkVXczNXbDFQQTNjNHdib0dBbmlIS0pHcWhRYk4wWS00N2FOZUp2aTlyb0dwMDViQllZYzZrQ2xwUVRqdmFxWjdqa3VSVkEzbjdnR210ZFB6LVlxblZ3UWhPUUZORVRqVDBiODZNd3RBcUl3ZlhYSjN2N254UU1TekIzckloWTF3M2p4YmJ6Nko4UmhNNTRIVkk4aHc4UjRFdDUyT0k5WDktQUtlQ3JTNEZjUTZtenZudVRxUjRnbVlDT2xQMV9ES0xlQUN4TXMwVy1PZmxieXhrNFl1WlJoV0M0NUk4NVBmaGhyWlcwX0sxWlNWclBLWGta?oc=5",
+          "description": "„Starke Männer haben keine Angst vor starken Frauen!“, ruft Heidi Reichinnek  WELTWahlkampf ohne Nazi-Keule: Die neue Strategie der Linken  FOCUS onlineDiese Politikerin könnte in Sachsen-Anhalt noch ",
           "publisher": "WELT",
-          "pub_date": "2026-09-02T09:11:15+00:00"
+          "pub_date": "2026-09-01T22:57:06+00:00"
         },
         {
           "title": "Nach Gewalttat mit sechs Toten: Mutmaßlicher Waffenverkäufer in U-Haft",
           "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPcm1rNXlYZWZkQU12bFRrMG5Wc1RHcGhuWVNQRnlnb1BsRmItMG0zTjd3V1NVdTNhTkJPXzE3LTZfZ3RuVjdIamFxOWJhdk5LeXNjb3lMSHF6Z1M1MXRkWGdLYlc0MTlHRXZDb2huN0xnZUZDX1AzWkpVTHRPa01qUjlRSzNnWnhLRHhieW1zX2ZudVJKSjVTc0owTXJMMWt2cHVLeHlIRXp1Qk1nc2RmR041d0kyU1h5dnNWTUJyQ21VaWxyNmxTMnpIcXh4YUFJeEdyWi1TUlNwcUQzeE52MldOVEl3VjVDQThZek9SSkVHa216cWRhTA?oc=5",
-          "description": "Nach Gewalttat mit sechs Toten: Mutmaßlicher Waffenverkäufer in U-Haft  NDR.deStade: Nach Sechsfachmord in Jugendfürsorgeeinrichtung – Spezialkräfte nehmen 49-jährigen Mann fest  WELTNach Sechsfachmor",
+          "description": "Nach Gewalttat mit sechs Toten: Mutmaßlicher Waffenverkäufer in U-Haft  NDR.deNach Sechsfachmord in Stade: Polizei fasst Verkäufer der Tatwaffe in Berlin  abendblatt.deJustizministerin in Stade: Die L",
           "publisher": "NDR.de",
           "pub_date": "2026-09-02T07:36:00+00:00"
         },
         {
-          "title": "„Davon kann keiner leben“ – wo der Kanzler mit der Realität konfrontiert wird",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbUZUVzU4WDNrRHJMVWtleThoWUdyZDVHOTJBSE0tMjh5c280WTNuYWpqbWQ3aXNwaUJKZXZBOVhacHlkMVh6bFNEaFZvZFc5M1ZOTXBmY3U3cmdNU0tZM184RWxfT010SUpIY2F0OTFrby1CbEx0MTE3Z3VSLXJrUXV3X3RmTG52cVdCM0prYlhndDlIVXBwRmpoaHJkQVVJbG1rU3JiWXZsVkh6dWx5ZVBhSTlaeFRpOGY4aGNUekxKWGh3bnJuWFdZV2VtT0liSEdvRmVxajY0MDVSYVhBeWtFMEVQMWstQmlkYQ?oc=5",
-          "description": "„Davon kann keiner leben“ – wo der Kanzler mit der Realität konfrontiert wird  WELTWeitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "WELT",
-          "pub_date": "2026-09-01T09:54:41+00:00"
+          "title": "Reaktion auf Drohnenvorfall: Vertrag für Russisches Haus in Berlin wird gekündigt",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYVMyTTMzc1B2bXgzLXRJZTQ0MTZEODAxOUFqM19UUjVvajQtVGhGSzhPbmo0ZGtyTkk0Sjg2WFY1Wmtqbll0Vkt1bVR5MER5eVkyWWdfRlB4d2oyMVdkaVBWZXhxT0hLRnZUTlVDQS1odUVQV3Jvc002dDZKQ2FneHp0LWUtaloySjZjRlgwdDZqY3d0YU55ZVVfQnNNSzRaRjdrenFCTU5OOTJOS2FEZ25Mcjg0R3dGWU9Bb1hwZU5Xbm1VLUtBWnZqMGhic0RyTEtN?oc=5",
+          "description": "Reaktion auf Drohnenvorfall: Vertrag für Russisches Haus in Berlin wird gekündigt  Berliner MorgenpostReaktion auf Anschlagsversuch: Bundesregierung kündigt Vertrag mit Russischem Haus in Berlin  rbb2",
+          "publisher": "Berliner Morgenpost",
+          "pub_date": "2026-09-02T09:02:00+00:00"
         }
       ],
       "world": [
         {
+          "title": "Krieg in Nahost: USA greifen Iran an – angeblich Tote bei Hochzeitsfeier, darunter Kleinkind",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPanM2SFFKR0hqVy16eVlxOHphVmhUZnlIN2dTZ2xmYUxnbmNsemtnZk1rUzR5c1htdnJtZHRDZEh1RWJaQmNPS2xNTHdUNnNWQWJCYk95RHAxUnl0bDU2Z1ZBQ0F0dUFhaDBQaGEzbkIzTWJERjZIRGxZREhKUkM1RnNOeTFodVdNQW12VUpEUFhMeERRY3RkWnRfSnpYUG1VTi1tZ3VBRjFLMy1ldzFYRXloNFZHNHVvamZXT2RBek9CVU9HVFNpTkt6dnFMVmhoUG1uUGRYa0c4SEFBbDlsYjJTelZjUmp4MWp6Z29ybGtia0E?oc=5",
+          "description": "Krieg in Nahost: USA greifen Iran an – angeblich Tote bei Hochzeitsfeier, darunter Kleinkind  WELTNach US-Schlägen: Iran greift in Kuwait, Jordanien und Bahrain an  n-tv.deUSA greifen Iran erneut an  ",
+          "publisher": "WELT",
+          "pub_date": "2026-09-02T04:44:16+00:00"
+        },
+        {
           "title": "Neue Sorgen in Norwegen! Königin Mette-Marit musste ins Krankenhaus",
           "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOREl0TmxPLW1VdGpKRTVRNVQ5VU85clI2TkZqdTF6MnFiX1Z2c1MxTVctVG80VjVsanN6VXZnVEFsNlJBMlBQYktSWkRSREx3cjUwVnNwT21RQ2NhRXFpSFpoRDROVDA3U0FvRlFvSExKZ3pINGhLUURlRlNRVHQ0VjI0LXJXNmRYcGNsbVhhbUpSNTd1UjVZNXJDZXR1OEc1OGp6aHdwMUVBOEY2OEd3ejctRENSZE80d2pySG5lNGJ2Q1ZRYTRFSTctY1pUSlExQktwYnAxZlpmS3pjMkRaNFFtYw?oc=5",
-          "description": "Neue Sorgen in Norwegen! Königin Mette-Marit musste ins Krankenhaus  RTL.deNach OP: König Haakon VIII. bringt Ehefrau Mette-Marit ins Krankenhaus  T-OnlineNorwegen: Mette-Marit ist nicht die einst erh",
+          "description": "Neue Sorgen in Norwegen! Königin Mette-Marit musste ins Krankenhaus  RTL.deKann Mette-Marit Königin? Norweger sind laut Umfrage gespaltener Meinung  RTL.deAufbahrung in Schlosskapelle: Familie und Vol",
           "publisher": "RTL.de",
           "pub_date": "2026-09-02T09:30:54+00:00"
         },
         {
           "title": "Nepal: Schulleiter rettet 900 Kinder vor Sturzflut im Himalaja",
           "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVFNUVkFkd1F5X3ItVmFXaWp6cWp4S1NzbnU1TjBZZ0pWdWc0SV9GSUF3OXZPVFg2VjFmbC1SdVk1UzZnQlNDUVNWcjVWSlhuZEx1czc2N3pYQXA5MVk4MTltT1hBWXY4VldaR2hqT0hETGxaT0xGUlpzMUM4bERidk45U1BHRXQ3QzhldHl5XzhFVXZCVHdFY3ZEaUdCaTdiUkJXaFhzblhOV1dIdXQwRm9Za2tCNmQwc3JnNFNGNWllQS1mcUFIM2Zucw?oc=5",
-          "description": "Nepal: Schulleiter rettet 900 Kinder vor Sturzflut im Himalaja  SpiegelFlutkatastrophe im Himalaya: Was die Katastrophe für Tibet bedeutet  tagesschau.deSturzflut in Nepal und Klimawandel: Nepal will ",
+          "description": "Nepal: Schulleiter rettet 900 Kinder vor Sturzflut im Himalaja  SpiegelVerzweifelte Suche nach Vermissten in Nepal dauert an  tagesschau.deHilfsorganisation Arche Nova bereitet Einsatz in Nepal vor  W",
           "publisher": "Spiegel",
           "pub_date": "2026-09-01T17:08:00+00:00"
         },
         {
-          "title": "\"Russland schert sich nicht um die roten Linien\" - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMnpla19lbUZRWVZaVm1WU2lqUnNvTkdTNDJvaE0yY2NZVEpkbWdnMzAyTFdwbUtwbVhaOWVUelAtUnpqcGdScFRoRU93cS1uYjJvSjdBWllBM0x2OWJvLXBuV0xoN2xKRGVpZXJDN1poUGJpNXJKM09MbG1FZEVoXzB1QzV3Szl0VlZoNEpCZW1hbXRjZ2dwaFozTzVvQUdWVk1XUE5FNERFRUZyUUFydUR2RmIxLUhwcnFwVjRrZnQxWC0yX0h5X3ExZm8ta2VLUzZTNjNpVzF6anpSX0JMM2ROcDNyYkY4bmtVeWJn?oc=5",
-          "description": "\"Russland schert sich nicht um die roten Linien\"  T-OnlineRussland hat dem Iran heimlich bei der Entwicklung fortschrittlicher Technologie für Hyperschallraketen geholfen.  vietnam.vnBericht der „Fina",
-          "publisher": "",
-          "pub_date": "2026-09-02T03:27:15+00:00"
+          "title": "Schuss aus 122 Metern in eine Menge: Kirk-Attentäter könnte die Todesstrafe erhalten",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTllScDZ0cmhHT1dSOHNiczZzdndQT0hqanp2LWZYY1ZPYkhIRE91eU5PY1ZUUm5yTTE4T2VQbHd2VzZHMXJza2lNLVhNc045TmdpVWxNb3lHcWR0Szlob1ZBS0RrRm4xTzBnSGlvTmlkRmtwbVVrTWRzMmVkdUg4ZWx1NmNFdmVtQkJfZHNXcUVWRGtTN245SGxnZ3pMRElzakVhMmo3Q3o2cHJKdGRuZFZpZkpNN0JLV2JSWTZnd0NqaW9kMzlrWQ?oc=5",
+          "description": "Schuss aus 122 Metern in eine Menge: Kirk-Attentäter könnte die Todesstrafe erhalten  fr.deCharlie Kirk: US-Richter ordnet Prozess gegen mutmaßlichen Kirk-Attentäter an  DIE ZEITProzess nach Mord an C",
+          "publisher": "fr.de",
+          "pub_date": "2026-09-02T05:35:20+00:00"
         },
         {
-          "title": "Russland greift Kiew auch vor Schulanfang an",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV2FsLUU2dGxld0JoTkdpSHhCWDdHZWxsd3A4X29jSG1KNlR1Vno3VEFKUXVoVXRQSHNrcHdMeHhqeDF2VHFldXZoWjUwRWFuRUlIZ0c3UUtheGtRUEJsdVpDMmhLczI2SkxJOXNBN3dGcmdsX1NCdi1YYkwxUnZqOHFiVWViRU5WblEzYXg1c2NCck96RHdydGJLZHc?oc=5",
-          "description": "Russland greift Kiew auch vor Schulanfang an  WEB.DE„Wenn der Raketensplitter eine Arterie trifft, ist es vorbei“ Die Protagonisten dieser Reportage haben nur durch Zufall überlebt  TagesspiegelUkrain",
-          "publisher": "WEB.DE",
-          "pub_date": "2026-09-01T04:16:12+00:00"
+          "title": "Russlands Angriff trifft Grenzübergang zu Nato-Land Rumänien",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcThUbTRONDB0Vko0cDdVT0cxcnl1WW1IT0Y3VFZHSnZscjM5SDlhc0VzMXduWVIyb0ZTeWFjRVlzVUdOV05qU3I0M0tTakdTb2hfWGpoT3ZyZUdXUHk3Ui00OUt4MVJZZ1huc2YyTGxzay1ldXVPWUVGY3hRZnRob2F4SWtuSS13Uy1EanRxaHVQMXFUZm55UTRPZG54dkNpbHVtYU1BMUpfLXNjTmxlclJnSQ?oc=5",
+          "description": "Russlands Angriff trifft Grenzübergang zu Nato-Land Rumänien  STERN.deRussischer Angriff auf die Ukraine - mindestens 12 Tote  tagesschau.deUkrainekrieg - Russland greift wieder Odessa an - Explosione",
+          "publisher": "STERN.de",
+          "pub_date": "2026-09-01T10:30:00+00:00"
         },
         {
-          "title": "Iran-Krieg: Zwei Tanker fahren auf Seeminen, meldet der Iran",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM0RucTItdUhQSEpLNnoyZXZuTHFkNmR5cE5pcG9ub1ZOU3kyWW5CMlJrY3VTOU5qajlsOVdJaG1Qa2ZCU2ZGemVYSmwxcDBPZk85VXpxRTlQNE0ySEhzRlBIeE1jTDd5UGNuU3NKY3oxbGp3UThYTVRvblU1NU5uT054UVAtaHpZYlVhQmdRbGF4dUpyd2c4WlFlOExWUENMZlBvcnRoZWZmWE9odDJkdGswUndZSGdtRUd0dTNMVHNXQQ?oc=5",
-          "description": "Iran-Krieg: Zwei Tanker fahren auf Seeminen, meldet der Iran  Handelsblatt\"Satan\": Iran wütet gegen USA nach Berichten über Angriff auf Hochzeitsfeier  T-OnlineNach US-Schlägen: Iran greift in Kuwait,",
-          "publisher": "Handelsblatt",
-          "pub_date": "2026-09-02T09:37:30+00:00"
-        },
-        {
-          "title": "US-Armee: Hegseths Kahlschlag mitten im Krieg gegen Iran - Politik - SZ.de",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbGtVb1NyWl9jbzdOd0otSjhTT2ZZMFU0cWhRc19YN3hkdkl5ZEg1QVR1Si16dFZvaWhKR1FvMVhwR2ZkRTJ2MVZiUFMyRE13QmhZZVNyVDYwSkU4RFdSRmd0ckVqdHRWUmQxN2d6aTdjbHRzTjJMN0d1R3BPM3dXTWxNZ3dhVWRHel9hakxUVUxWQXFEYWR4ZDlRN1ZMRUw3T2V6Q21BS24yUQ?oc=5",
-          "description": "US-Armee: Hegseths Kahlschlag mitten im Krieg gegen Iran - Politik - SZ.de  SZ.de(S+) Pete Hegseth: Der Fall Dan Driscoll offenbart das Versagen des US-»Kriegsministers«  SpiegelUS-Militär: US-Heeress",
+          "title": "Hongkonger Demokratie-Aktivist Wong bekennt sich schuldig - Politik - SZ.de",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdk5zcmU5amhnRTJXamFKV19DUzNGYkFZWkJWMnd5N2FSSXBtZ25aazYtblVqMW0xNUFEWmEtc293dmIxVGdSRC1uVFV2dEdZMTZpSldONlBCSkllVWlwbl80NEZyczd5QXUzcDgyRl9KSjhiT2NEQllKbDF4bGl2QWpvZlV4ZVdNM3c?oc=5",
+          "description": "Hongkonger Demokratie-Aktivist Wong bekennt sich schuldig - Politik - SZ.de  SZ.deJoshua Wong: Demokratie-Aktivist Joshua Wong bekennt sich der Verschwörung schuldig  DIE ZEITHongkong: Demokratieaktiv",
           "publisher": "SZ.de",
-          "pub_date": "2026-09-02T04:19:17+00:00"
+          "pub_date": "2026-09-02T05:34:59+00:00"
         },
         {
-          "title": "Joshua Wong: Demokratie-Aktivist Joshua Wong bekennt sich der Verschwörung schuldig",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVjBvakU2bEFxWjFERGd3dTFsSXktREZwWUs5R21YWVUtWEJXdzRQM1VfbFlybER3LXJ6LVJyM01wUFV4RU4wVG9zQzF4WkotbXJ6TTVSbmdpWnVTZk44MklBTVNHYlJseE96VFpTc0Iwb0N6Zl9KYXV2TDRTbXJXTC1GQUlETm9ZTVh6R19qNTNoYkFQcVk2elBhc2dlNmlZVEt6RG5MNlRlVXZ6Vk1LdHluSnM?oc=5",
-          "description": "Joshua Wong: Demokratie-Aktivist Joshua Wong bekennt sich der Verschwörung schuldig  DIE ZEITHongkong: Demokratieaktivist Joshua Wong bekennt sich in weiterem Verfahren schuldig  SpiegelHongkonger Dem",
-          "publisher": "DIE ZEIT",
-          "pub_date": "2026-09-02T06:29:42+00:00"
-        },
-        {
-          "title": "USA: MAGA-Armee wendet sich laut Umfragen von Donald Trump ab",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPc1RhWmR4YmVlMS1yTW9tYVItelo3TnZMRmw5a1M1MGVaR0p2VGxfQWI2aXRQVFMzT2RXQUhtcFMwTVJvYnhEaDJIdDg0UmcwaEgxTFFob1NOQ2M2aWlvWG83d2VKS09IZHpNTGt3Q0VWR2FFTHZrLW9PdXR2b3F6TUFZRDc2Si1pMjY5UnR0bDROMEpyRkx4V0JibnFXS0kteEtCZ1VuTmdmWUdJbGpTamdWRzJBVFRKZzM0bXhJTnRRdXQ3RHNYZnMwWWRUVXVvX2d5UkdwNDc?oc=5",
-          "description": "USA: MAGA-Armee wendet sich laut Umfragen von Donald Trump ab  BILDVon der Weltbühne zur Bedeutungslosigkeit: Trumps dramatischer Abstieg  MerkurVor Zwischenwahlen - Trumps Umfragewerte im Sinkflug: I",
-          "publisher": "BILD",
-          "pub_date": "2026-09-01T11:38:05+00:00"
+          "title": "Spanische Exklave Ceuta: Flüchtlingskrise spaltet und eskaliert",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQ1RLSHZHdGhWUmUtb1N1eXc4THloWVZNWTgxdS1hdEZ2QzViUWFOSW9UUy1NRExTTVFFWnpZRXRSbHJ3UVR4WDhvTTlNQ09ib01JQTREeVRtdE9PcGlKZ216ak50NVNjZ0VvanY1TkpsUjh5aDdqb1lSNHliaXRVUEx3TUxnX2RIVTR1SjVKMWQ2VXpaYXlCVXB1TkZjczY5S1MzQzZHNnFhWE5WUXpqbzlCaUs1QW9CWGlUM0hoUTduaXpwQzE0NTFodWdqVk0?oc=5",
+          "description": "Spanische Exklave Ceuta: Flüchtlingskrise spaltet und eskaliert  NZZNach Massenansturm auf Ceuta: Spanien beschuldigt „rechtsextreme Internationale“  taz.deCeuta-Krise wird zum Politikum: Israel nennt",
+          "publisher": "NZZ",
+          "pub_date": "2026-09-02T03:30:00+00:00"
         },
         {
           "title": "Tausende US-Soldaten sollen sich hier entspannen und vergnügen",
@@ -752,169 +761,183 @@
           "pub_date": "2026-09-02T05:50:00+00:00"
         },
         {
-          "title": "Ingrid Alexandra würdigt Großmutter Sonja mit besonderer Geste",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWnk2Vm9TNVdHbjFhRzdXRlBrbVUxQmFQUUZjWXdneTFhTTc4NzdyNE5iczFUSG1laW9lS3Ewa0FXVzI5c1JxWmlZTnFJVXlkRGh4WHpDOXdJUDBsTm56R0dUZ1RKM3poUFJfWmQ5eXYwRmdhbmxRcmRwdWJJcF9PYjlTcm51bkhSUy01LVhoSUp3eU93X2ctazh5a1VMa3ZIa0t0MmFVbFI5UVpJVGdmSQ?oc=5",
-          "description": "Ingrid Alexandra würdigt Großmutter Sonja mit besonderer Geste  WEB.DE\"Perfekt und makellos\": Neue Fotos von Kronprinzessin Ingrid Alexandra begeistern Fans  T-Online35 Jahre nach Sonja: Kronprinzessi",
-          "publisher": "WEB.DE",
-          "pub_date": "2026-09-02T08:44:58+00:00"
+          "title": "USA: MAGA-Armee wendet sich laut Umfragen von Donald Trump ab",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPc1RhWmR4YmVlMS1yTW9tYVItelo3TnZMRmw5a1M1MGVaR0p2VGxfQWI2aXRQVFMzT2RXQUhtcFMwTVJvYnhEaDJIdDg0UmcwaEgxTFFob1NOQ2M2aWlvWG83d2VKS09IZHpNTGt3Q0VWR2FFTHZrLW9PdXR2b3F6TUFZRDc2Si1pMjY5UnR0bDROMEpyRkx4V0JibnFXS0kteEtCZ1VuTmdmWUdJbGpTamdWRzJBVFRKZzM0bXhJTnRRdXQ3RHNYZnMwWWRUVXVvX2d5UkdwNDc?oc=5",
+          "description": "USA: MAGA-Armee wendet sich laut Umfragen von Donald Trump ab  BILDVon der Weltbühne zur Bedeutungslosigkeit: Trumps dramatischer Abstieg  MerkurVor Zwischenwahlen - Trumps Umfragewerte im Sinkflug: I",
+          "publisher": "BILD",
+          "pub_date": "2026-09-01T11:38:05+00:00"
         },
         {
-          "title": "Migrantinnen besonders gefährdet: Fast jeden Tag sexuelle Übergriffe in spanischer Exklave Ceuta - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWW5RYi1FSkQ4RmhGZERlSEtCUWFZbG9lTl9ld3JGMnpRSE5BM3NTT0EtVkZodzRuZDJyMDVaR29wZmYwYTU3TkRtLTRSdXNXNmU1eEgwNWhkSG5WZTJnbXJjblBNZ2VDUE9laHNJMUtOTUZPU0FzNzlmeWNWTVFSVkdBaDhxYkxkWHd0a3RBeGhXRWJMMG14Z2FfSVI4UmZOSUFvaWZQdWVxdWc?oc=5",
-          "description": "Migrantinnen besonders gefährdet: Fast jeden Tag sexuelle Übergriffe in spanischer Exklave Ceuta  n-tv.deCeuta-Krise wird zum Politikum: Israel nennt Sánchez einen Lügner, Russland fordert Beweise  Fr",
-          "publisher": "",
-          "pub_date": "2026-09-01T18:25:28+00:00"
-        },
-        {
-          "title": "Venezuela: Parlament und Armee billigen milliardenschweres Öl-Abkommen mit den USA",
+          "title": "Venezuela: Parlament und Armee billigen milliardenschweres Ölabkommen mit den USA",
           "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQmhFTzB1dzRianVESFZXNnozOTVpMGV1OTF6MGV2NGJlcUItX3doZmtzVms0eWI5ODZxQWhPTXFReVB6eFpJeGJZVUMySWtPaXhmeTU4VGx6R0x6MnU0RmM3VzZKZUE4bVlwNjJYYUgxRUd3SGZhSW0xaTA5RFJuZ1paZ0QwLTl1NV8tRzhoZjMyMzlRYm4yOHFKVHI3dVhzVmdxNEdFS0NhMGw3OVhBYkc4ZWtnbWxJbldCRTVyTHY2elhaRGx4RHdsMDJhWGg2OVlLb3JLa0NGUkw5d2ZaSWVBY3FsYTQ?oc=5",
-          "description": "Venezuela: Parlament und Armee billigen milliardenschweres Öl-Abkommen mit den USA  SpiegelUS-Ölabkommen: Venezuelas Parlament billigt Ölabkommen mit den USA  DIE ZEITÖl-Deal der USA mit Venezuela: Ex",
+          "description": "Venezuela: Parlament und Armee billigen milliardenschweres Ölabkommen mit den USA  SpiegelÖl-Deal der USA mit Venezuela: Experten bezweifeln Trumps Versprechen  tagesschau.deDetails zu Öl-Deal zwische",
           "publisher": "Spiegel",
           "pub_date": "2026-09-02T06:04:00+00:00"
         },
         {
-          "title": "„Lake America“ statt Lake Ontario: Wie Trumps Umbenennung kanadische Websites in Erklärungsnot bringt",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTGJoV3YxRy0xOHk4LUZsRGxoYURlem4xand1d181Y0xPNGFmTzZFbF9LWmZuTG9GT280UnNvcFlPV0VaamFOZ0dCWU1ZcmNVOVhKdjBZVWZCaTNhVjI5M1dLdERTamFoUU13OE53QTViLWRNTU9IYUpSUmZqOHlhVzJfOFMzclcta1JURXdzczY1U0k5a204NURDQkMycENWMTVGZkMwQTAyZWhBNDQwaGlLWnB5aG8?oc=5",
-          "description": "„Lake America“ statt Lake Ontario: Wie Trumps Umbenennung kanadische Websites in Erklärungsnot bringt  Frankfurter RundschauUSA-News | Trump tauft berühmten See um – Google folgt, Apple nicht  T-Onlin",
-          "publisher": "Frankfurter Rundschau",
-          "pub_date": "2026-09-02T02:45:00+00:00"
+          "title": "Ingrid Alexandra würdigt Großmutter Sonja mit besonderer Geste",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWnk2Vm9TNVdHbjFhRzdXRlBrbVUxQmFQUUZjWXdneTFhTTc4NzdyNE5iczFUSG1laW9lS3Ewa0FXVzI5c1JxWmlZTnFJVXlkRGh4WHpDOXdJUDBsTm56R0dUZ1RKM3poUFJfWmQ5eXYwRmdhbmxRcmRwdWJJcF9PYjlTcm51bkhSUy01LVhoSUp3eU93X2ctazh5a1VMa3ZIa0t0MmFVbFI5UVpJVGdmSQ?oc=5",
+          "description": "Ingrid Alexandra würdigt Großmutter Sonja mit besonderer Geste  WEB.DEIngrid Alexandra im Rampenlicht: Sie ist die neue Nummer eins der norwegischen Thronfolge  n-tv.deSie wird einmal Königin von Norw",
+          "publisher": "WEB.DE",
+          "pub_date": "2026-09-02T08:44:58+00:00"
         },
         {
-          "title": "Nasa: Astronautinnen arbeiten außen an der ISS – Probleme mit Handschuhheizung",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQd1JuZ0puSWFsOUtLa05MSWh0SjlHZjc2cWVoTHhOaEJucUdpTWtXSUFYaHBEQkc2UlBuRnpaQlFEamJCdm5HcGRKdXJSYk1wRkxQazBiSlA3UjdqdV9YXzNHVUtEeUpxcnlVZFRrQlRkdEljQjB3eTFGU3NjdVhTWnBIMG9JUmYwekhEel9iakYzSnczRUlySDhlWFVmY2JKWDBuRHFhSTZzZHhtLVNZUVlxNGR3clVtekdUOVRVc0NjcUJHQzJ4Umdoc21qSXFBVXdWY3d2TGtEb0p6c2ZzQzhtUzYxdw?oc=5",
-          "description": "Nasa: Astronautinnen arbeiten außen an der ISS – Probleme mit Handschuhheizung  SpiegelMit dem Werkzeug in der Hand: Astronautinnen von NASA und ESA schrauben an der ISS - Panorama - SZ.de  SZ.deNASA-",
-          "publisher": "Spiegel",
-          "pub_date": "2026-09-02T09:35:00+00:00"
+          "title": "Vance-Vetrauter: Spannungen mit Hegseth – Staatssekretär des US-Heeres reicht offenbar Rücktritt ein",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNazhwcGZUY3ZuTmJYb3VUVGwyXzBKTV9rNF80a1B6eEcwcGxGT0pJZ0poZnl2VlVnX0RCMHRMT0d3RWsyVjhING9BQ3JrZTRoTS13ZENqUGpnRG9mUjdRNndhelVRczVPcXNwQ0k3R0FBemZIdXl0bXZnaVczOUhHalBiNFk3Zld2S1N0alBuRGwyc244TjlCUFpzWUw3TVNhaUR2NEk1MGtUcF9kLWpUYkhta2JoUEY3MU5idENhSi00MU9GeHhFZGN0a3ZTa3g3T1E1UTgzazdxQXlzZGxsZ3l4Y05Ydk9hUzhHSjlHUDkzZlNEbWp3MGI5RXRQYzUzOFE?oc=5",
+          "description": "Vance-Vetrauter: Spannungen mit Hegseth – Staatssekretär des US-Heeres reicht offenbar Rücktritt ein  WELTWeiterer Abgang im Pentagon: Stühlerücken im Pentagon - Warum unter Hegseth viele gehen  DIE Z",
+          "publisher": "WELT",
+          "pub_date": "2026-09-01T07:35:20+00:00"
         },
         {
-          "title": "Union droht Island nach gescheitertem EU-Referendum",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaW1tQmpUR1ZaQXZUSXB6cEsxZWt2eDRTOENxbzBta1hGaWNlYVByT1MtbVpVemZWbmdkTUpoRy0wTzlLcTEydmJPMEM3enpSc2xIczRXeFdxX21mYTdFSVhYZ0RHaFFGWktvZGh1VHAyeFpJX0dhZVRyUEM4Yi1kSHZHU0tja1FIWTNyZGV2QlZGQlhxMVZUYmtJYXNnZ2c?oc=5",
-          "description": "Union droht Island nach gescheitertem EU-Referendum  Junge FreiheitReich, stabil, europäisch, und trotzdem Nein: Islands EU-Absage  Euronews.comReferendum in Island  bpb.deNach gescheitertem Referendu",
-          "publisher": "Junge Freiheit",
-          "pub_date": "2026-08-31T13:21:06+00:00"
+          "title": "Papst Leo XIV. feiert Gottesdienst nach neuem Messformular",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONXRQYlFsZld3SzhTVk9yM29oU0FzMGE0OV9MUzhheW1peFFoTXVLY2xMMGdZSjBmd3pRVmhsRXFCdWFwWVR5WXM1Vi1fcHFyMTRsSEgtUTlMZ2VqeVZBc3pCTEZSOFBNa0I5dC0yS1V1ck43YjM5T0lUUU0zeGJwN2haRHdjN2EtRkxwdFE0NUhjTF9Jc1pRdA?oc=5",
+          "description": "Papst Leo XIV. feiert Gottesdienst nach neuem Messformular  katholisch.deWortlaut: Predigt von Papst Leo zum Schöpfungstag  vaticannews.vaPapst Leo: „Die Schöpfung spricht zu uns von Gott“  vaticannew",
+          "publisher": "katholisch.de",
+          "pub_date": "2026-09-02T08:05:00+00:00"
+        },
+        {
+          "title": "\"Russland schert sich nicht um die roten Linien\" - T-Online",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMnpla19lbUZRWVZaVm1WU2lqUnNvTkdTNDJvaE0yY2NZVEpkbWdnMzAyTFdwbUtwbVhaOWVUelAtUnpqcGdScFRoRU93cS1uYjJvSjdBWllBM0x2OWJvLXBuV0xoN2xKRGVpZXJDN1poUGJpNXJKM09MbG1FZEVoXzB1QzV3Szl0VlZoNEpCZW1hbXRjZ2dwaFozTzVvQUdWVk1XUE5FNERFRUZyUUFydUR2RmIxLUhwcnFwVjRrZnQxWC0yX0h5X3ExZm8ta2VLUzZTNjNpVzF6anpSX0JMM2ROcDNyYkY4bmtVeWJn?oc=5",
+          "description": "\"Russland schert sich nicht um die roten Linien\"  T-OnlineBericht: Russland hilft Iran seit 2023 heimlich bei der Entwicklung von Überschallraketen  FOCUS onlineRussland hat dem Iran heimlich bei der ",
+          "publisher": "",
+          "pub_date": "2026-09-02T03:27:15+00:00"
+        },
+        {
+          "title": "König Harald tot: Hoftrauer bis einen Monat nach der Beisetzung",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZTJfdmM0SEhUcFpHVXlqc3FvVVhUOV9XWkRTMm1BNVJkcXNmUGNackZQbUgwaHFVWTh3UFlsMEM3MVlhNXlDUVc2UzVUQTFVVTdvYS1HY3hsa3BNeWxyd0s4aTAyLUFnMS1TNk5rMVE3ckJUZjZZZ2IwS3ZlRkZrSXo5M2dRaG5aS3A1eFNWaHZBNWpJbGVvRnhBRFoydjlNal9YOFZ6OVQ1T0ZqM29TNlRQcXotUQ?oc=5",
+          "description": "König Harald tot: Hoftrauer bis einen Monat nach der Beisetzung  STERN.deIhre Botschaft an König Haralds Sarg berührt zutiefst  WEB.DEKönig Haakon: Alle Termine abgesagt! Er ordnet Staatstrauer an  GA",
+          "publisher": "STERN.de",
+          "pub_date": "2026-09-02T10:10:00+00:00"
         }
       ],
       "business": [
         {
-          "title": "\"Leerlaufen von Werken\": Bericht: VW-Vorstand beschließt Aus für vier deutsche Standorte - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNN29jMm1rX3F5eXg4SzRLa2lTUXF6YWxOWTJpR3RUV2JIM0V1QlRvUmJtaXJRYkd0V01RQmY5THZnNlJud3RiaHNXZnlpdXdnUkR3R2VyTERZNzkyem5LSUFNZTVKcFVUV2JDOC1vMEUyQU16TTdhWlhJWlREYkxrSUl3dkVWMWMyUGZGdmFlZS1WQjM5N0NqQnM1Tl9LLWNFZGxMbmJNNF93cVlNVUJMWA?oc=5",
-          "description": "\"Leerlaufen von Werken\": Bericht: VW-Vorstand beschließt Aus für vier deutsche Standorte  n-tv.deVolkswagen: Kompromisssuche beim Autobauer ist gescheitert  HandelsblattVolkswagen: So hart trifft VWs ",
-          "publisher": "",
-          "pub_date": "2026-09-02T08:33:08+00:00"
-        },
-        {
-          "title": "Tausende Arbeitsplätze in Gefahr? Was über die Schließung des Audi-Werks in Neckarsulm bekannt ist",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOEpaeFBGdll4V04yNGhsb1dZUkdlbVdMRURkLVhsRlNLUzdXdFhMcjFLakpyLUZjOVAtNDA0aTdlQUxVLUh0OGJ4Y0VEejdORlJhc3dyd2hsWHN5cDVlUWFiNjhyRnA2Yjh5b2JsU0pKWGQ2Qk1xYWQyZV9pRHVwMUhlcHVibkdWWl90NDZyVFpNejNVUjlR?oc=5",
-          "description": "Tausende Arbeitsplätze in Gefahr? Was über die Schließung des Audi-Werks in Neckarsulm bekannt ist  SWR„Furchtbare Situation“ – Audi-Mitarbeiter reagieren auf mögliche Werksschließung  stimme.deAudi-W",
-          "publisher": "SWR",
-          "pub_date": "2026-09-02T07:00:00+00:00"
+          "title": "Volkswagen: So hart trifft VWs Spardiktat Porsche, Skoda, Audi und Lamborghini",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdHJXMW92QVJWclo3cFBScnVSRlFMRmRNaTA5a3JFNGxGVHBpVE5qZ1IzTlRrVzlNYzRkZ1lEOUJvb0hoZzFlUHFFZk5SNkg1S21JSlpBRFZoWGZpcUNXaUlnTlpnVTJNdnJzV3NoRFlibV9TdHdiVE9tWV9kR1NseEY2ZXVwTU01LTYtZi1CeDZtRXFDbkxub3JTX2lKNk5sd2NwUEdlRXg5cWxRR2RNYTlYMDRCTlJrVE53WXJFV1J1MC1KdkE?oc=5",
+          "description": "Volkswagen: So hart trifft VWs Spardiktat Porsche, Skoda, Audi und Lamborghini  WiWoVW-Werke schließen? Schlechte Aussichten für Kompromiss bei Volkswagen-Sanierung  Manager MagazinVolkswagen: So hart",
+          "publisher": "WiWo",
+          "pub_date": "2026-09-02T09:54:00+00:00"
         },
         {
           "title": "OpenAI verschärft Regeln: Neues ChatGPT-Modell erreicht \"kritische Schwelle\" - T-Online",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbW16Ukg4RzBxdVlKUmZrc2x3ZFFnN1R0YnFtVkhOOWRETm5TSTN0Tm1tQ1N1RWZpbVhXVDBNVkVlZGprR1NwTVdtNkRPNFd1LXEtX2hDdnBvSHlkdTBZT19LRGZIdnRYMlEySXl3WGtjRUt5X0JtbEliaFUtZjA0eDFFQkRFQXVBNnpTWVhJVmJoMmxOa0tyNEZkVmdBMXQ3V0NTdk53d3F0aEY2bkJJLXJYTkUzQQ?oc=5",
-          "description": "OpenAI verschärft Regeln: Neues ChatGPT-Modell erreicht \"kritische Schwelle\"  T-OnlineKünstliche Intelligenz: OpenAI kündigt ChatGPT-Modell mit stärkeren Sicherheitsvorkehrungen an  DIE ZEIT„Die größt",
+          "description": "OpenAI verschärft Regeln: Neues ChatGPT-Modell erreicht \"kritische Schwelle\"  T-Online„Die größten Risiken kommen von der Spitze“: Forscherin warnt vor OpenAI und Anthropic  Business Insider Deutschla",
           "publisher": "",
           "pub_date": "2026-09-02T05:42:54+00:00"
         },
         {
           "title": "Fahrradbranche verliert 2025 Umsatz und Stellen",
           "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdzhBRC1uV0lzS21Hel9qcEFBRTMyTWpfZWFCZ19uT1hia09IR2pXQTM1TFVLVGY2QWYyMHc1YzZIZVlqblpKNHNvMHR2dDE0SWFwT0hEXzE1bGVYeFpGU05QS1ZRTXlFSU1EWk04TjU2QUNNaHZpYTFkZWh6RVRfc09ZOTRKNWxyeTZZbG96TkJ2Z3BRcGJYdzl0cmxEblctUmk5c2lmWlE1c3lXTGdpQ24xRjFRWkk2TVk0N1ZkNlJMc3RMTGUxOC1ZazA?oc=5",
-          "description": "Fahrradbranche verliert 2025 Umsatz und Stellen  SpiegelFahrradbranche verliert Umsatz und Beschäftigung  WELTUmsatz und Beschäftigung in der Fahrradbranche leicht rückläufig  STERN.deFahrradbranche v",
+          "description": "Fahrradbranche verliert 2025 Umsatz und Stellen  SpiegelUmsatz und Beschäftigung in der Fahrradbranche leicht rückläufig  STERN.deFahrradbranche verliert weiter Umsatz und Beschäftigung  SAZBikeFahrra",
           "publisher": "Spiegel",
           "pub_date": "2026-09-02T06:22:00+00:00"
         },
         {
-          "title": "Konjunktur: Wachstumsprognose von DIW mehr als verdoppelt",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWW1TaDdaNmgxOXY0TEEtTXFRdHMzZV96T1p3dF9jTzI4aXpjSmpxbnRDOTRkd19DZlRHZm52Ymh4N1dReWV2aUNTQ2tLY043TjZ0X19kS1l1bXd4NFJuN2NMTWgwZDE0blZLbVpGMEw3Zmp0djROYUI3YjZOc28ya2RIWGJtNjVvUUJFZzE2ekpyYnkwZDZIMmw3N2JDX083N2VNNEk1amNOSU1ranZBZTV6UXpLeGg1WU9UNFp4SWVLa0NkUVc5Xw?oc=5",
-          "description": "Konjunktur: Wachstumsprognose von DIW mehr als verdoppelt  SpiegelDIW erhöht Prognose: „Wirtschaft steht vor Trendwende“ - Wirtschaft - SZ.de  SZ.deBundesbank-Präsident erwartet mehr Wirtschaftswachst",
-          "publisher": "Spiegel",
-          "pub_date": "2026-09-02T08:39:00+00:00"
+          "title": "„Auf Niveau des zweiten Corona-Lockdowns“: Einzelhandel mit stärkstem Umsatzeinbruch seit fünf Jahren",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS1RsSy0wUE9aZG5JWndKOGJWSjVtRGxDYlk0cjdkRmZER045Zm9mRkFjUU9zdDhBcE1aTlc0ZDFrOU1RWWlSYjVWWFd3Z1dlQUdoUWJkME9Ic255R0xhVjRhd1RNMnp1bWpDZWVUV2FtSTl4dGpMR2dTN09TNXhRazAxOGdmNlFWa3NGT1BnaFhjZEdRX1lBOXJfdnJUZ3ZJRlBORlBiRDE1SmpGdTVOTUp5T1A0RHpxRWlYZA?oc=5",
+          "description": "„Auf Niveau des zweiten Corona-Lockdowns“: Einzelhandel mit stärkstem Umsatzeinbruch seit fünf Jahren  MerkurDeutscher Einzelhandel bricht im Juli ein – Tankstellen mit stärkstem Minus  Berliner Zeitu",
+          "publisher": "Merkur",
+          "pub_date": "2026-09-02T03:28:38+00:00"
         },
         {
           "title": "Marktbericht: DAX bleibt unter Druck",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOFE0VmFVR1lLdXFqWnJLWElnTmxGNEdOVE9XdGdXOHpuU2FfaXk0bUU0RlBMbDRudHFGR0NyelFmZHJ2eno2VnIzV0daemdEVUZDVDBCc2RNaHpNdzdSR01DdTczTTExMG1ORVZEMUlHT0VyeGRUeXMwUlZIQzVDejBUbzdEVVVqdjYzZ21idlhLSWRxem9WSjdiaHF5bkE2emJURXR3?oc=5",
-          "description": "Marktbericht: DAX bleibt unter Druck  tagesschau.deDAX - Gegenbewegung und erneuter Kursrutsch?  Wallstreet OnlineHandel in Frankfurt: DAX sackt mittags ab  finanzen.netDer Börsen-Tag: Dax bekommt ord",
+          "description": "Marktbericht: DAX bleibt unter Druck  tagesschau.deDax aktuell: Dax startet im Minus – Ölpreis nähert sich 100-Dollar-Marke  HandelsblattDAX - Gegenbewegung und erneuter Kursrutsch?  Wallstreet Online",
           "publisher": "tagesschau.de",
           "pub_date": "2026-09-02T08:51:00+00:00"
         },
         {
-          "title": "Druck auf Reiche wächst: Merz wegen niedriger Gasfüllstände besorgt - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTDN3MjdQTFhwNDJBR0VSclRyX1VfcFdiMXNnUlNqMGpQWkgyZHRkVGU1V3JqZW1wZFUwMkM4ZDZELWVIZEtJdk9oZ09pQlY0Y210YXF1MVBVdkRBQV8xUDJydlZhNkNOUEdQeWRGRGRMWnJYNTF5SXlnYVBmblBlSW4zRHpjNm1GT3Rmb3ktQ2ZkUXpQYXc?oc=5",
-          "description": "Druck auf Reiche wächst: Merz wegen niedriger Gasfüllstände besorgt  n-tv.deEuropäische Gaspreise steigen auf Drei-Jahres-Hoch  tagesschau.deErdgaspreis auf Höchststand – Iran-Krieg und Hormus-Blockad",
+          "title": "Heizölpreise schießen durch die Decke",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPR1Iwa0JwMXBNUl9TOWJnMWFORU81X2MzcUhWUUppdUNmR3h5anloU0xKV3lyVm0zU0toZWpLOXZoNFdtcHdFbjY3NTV4SmhGUDk5cU4zbzVzU3lnZ2dmeGN4WnptczhNMnFuVi1kZWRnbHl1SmplaUw1OG1HZnI2T2NDSkZGU05OVVhnV0VxQ3hWY0szdVVzQzFzbw?oc=5",
+          "description": "Heizölpreise schießen durch die Decke  HeizOel24Iran-Krieg: Ölpreise steigen nach neuen Gefechten im Nahen Osten  SpiegelDer Heizöl-Herbst startet teuer  HeizOel24Marktbericht: Ölpreise klettern wiede",
+          "publisher": "HeizOel24",
+          "pub_date": "2026-09-02T08:03:00+00:00"
+        },
+        {
+          "title": "Gasversorgung in Deutschland: Tägliches Update zu Speichern, Preisen, Import und Verbrauch",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPc3FEeEc1Uk5DejdiZW9iVHJlZ0NBR1NfMnFiSmRfLUpIRFBISVJnTXRLNGd3OElQV21vdWpJeFZoT3ZzM2IzenJIZ3Jwd2thdHJVLVVDVVlmMWk1dS10UUJ2ajBsRktlSi1PYXR3Q3NfTzc5bVBIYWtWYTY0anVGSElNRUtMVTEwanZ4V3ByX2hmdW1OVmZhMXBEV3p5VlpHMWZsOEo4a1NVZzJ3QURqekptM1ZOSkNnb3RfM2VfN1YwNUd6dW40NE9tOE81bEp3cjN4Z3pBQmE1UzhCVF9jSFJPcUtoUHp5VDFPdjF6a0Q?oc=5",
+          "description": "Gasversorgung in Deutschland: Tägliches Update zu Speichern, Preisen, Import und Verbrauch  RND.deKritik an niedrigem Gasspeicher-Füllstand: Merz rückt wohl von Reiche ab  T-OnlineErdgaspreis auf Höch",
+          "publisher": "RND.de",
+          "pub_date": "2026-09-02T04:33:59+00:00"
+        },
+        {
+          "title": "Mehr als verdoppelt: DIW hebt Wachstumsprognose für deutsche Wirtschaft deutlich an - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV3BYeG9MdFpPQVRMelZ1M0JLMWdFbEt5emtveC1OdXNEelRpNzRDNHV3TzRxRmNtdzJXYjdJUXBydkQxci1Oa2ZuVDZqSFFHT2g4VENZM1k5WWJ6WDdqZ18xTE15cWE3cWQ3XzFsY0VlNXI0UEtTZWNlc3BUbDJQNm5OMTkxX0tWY01YYVNUZk1kcm56ZXpHbERRVXJYTVV3R3dtWnludG9zT2tUYnhN?oc=5",
+          "description": "Mehr als verdoppelt: DIW hebt Wachstumsprognose für deutsche Wirtschaft deutlich an  n-tv.deDIW erhöht Prognose: „Wirtschaft steht vor Trendwende“ - Wirtschaft - SZ.de  SZ.deDIW sieht Wirtschaft vor T",
           "publisher": "",
-          "pub_date": "2026-09-02T06:00:14+00:00"
+          "pub_date": "2026-09-02T12:14:33+00:00"
         },
         {
-          "title": "Konjunktur: Einzelhandel mit stärkstem Umsatzeinbruch seit fünf Jahren",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPX2lpdzhPLXFjYzQ2a0FwQzR3RVFpdHlOejVteWQ0VHBadU04Q2VYa0RqVUl1T3hHNTFqVWFNOXVyZko4UUozTHRGcHBDTUhjbUlUSW5lWmh2OFAwemh6YTV2NDdFTFVuUURkUGxxb2pKMGdFZEZpLTlqNnBJY0FNb0RiZldFUXRsSEFJRDN3alhwU2tDd3QtbUU0RGh2bDhMaXRVLVZJMWlFNmh1bm43aThJTW1lb1VaQUhJZTVPRGh4a0xNZkpCbWhiekUyeDA?oc=5",
-          "description": "Konjunktur: Einzelhandel mit stärkstem Umsatzeinbruch seit fünf Jahren  HandelsblattUmsatzschock im Einzelhandel: „Niveau des zweiten Corona-Lockdowns“  Capital.deDeutscher Einzelhandel bricht im Juli",
-          "publisher": "Handelsblatt",
-          "pub_date": "2026-09-01T10:23:45+00:00"
+          "title": "Eurozone: Inflation im Euroraum steigt laut Schätzung auf 3,3 Prozent",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNekRtZm9vaVhpcHhTZDBvQ3hHa0kwaXoyUHY5S1BOWE1qRDRTYzNMdVFuQWwwTkF5SWJEZEJabEZLaWlsQmhMYmE4bFlJdHgzU3d6RThqeERrUmFSNVNUUjIwNEVzVWhEV0JuTVpfaWhHaVdYR05hTDRyQWdheTVrRTYtcENBcW5CSnNFejVmaDBTQkVuMmU1THE3SWNydw?oc=5",
+          "description": "Eurozone: Inflation im Euroraum steigt laut Schätzung auf 3,3 Prozent  DIE ZEITInflation bleibt hoch: Warum steigende Renditen der EZB jetzt helfen könnten  tagesschau.deKommentar: Schluss mit den Bes",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-09-01T09:26:27+00:00"
         },
         {
-          "title": "Inflation bleibt hoch: Warum steigende Renditen der EZB jetzt helfen könnten",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY2hpajZidG82cEd2NmQ1VGs4NGo2TWw4UVBsQl81SnlaQktPNmpDOGgtdU5FckNKWGNQUkJrYXZBWndCZkhwc3hHekRpQVJqZExfZkRUbnAtTU5hTnItNU9zV1h1dU5KaFRsaHNMYlNzNjg1VnFsT3VFN1ZyMEpVV3N1bWNXVFBEU1BVSU9jaGRXNF94S3FoVlozRQ?oc=5",
-          "description": "Inflation bleibt hoch: Warum steigende Renditen der EZB jetzt helfen könnten  tagesschau.deInflationssprung auf 3,3 Prozent: Was heißt das für Sparer und Kreditnehmer?  FAZKommentar: Schluss mit den B",
-          "publisher": "tagesschau.de",
-          "pub_date": "2026-09-02T07:03:00+00:00"
-        },
-        {
-          "title": "Bestände deutlich geschrumpft: In Supermärkten werden die Sardinen knapp - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYXVCb1RiUjdZczBIOXRRRkdBTDF1Y0lXS2VzdEpSMk9DMEg3OXQzUk16SW9SbG02WGdKYzhPeTVnQ09lUVV6WkdZcUlpcHFEWDJCVHU1U1N1Z0p4dndzVzZjczRvbl9rcWxYUEZkN1JQdEZ3UzhCNmdXZVo0cjVIek14N2VVeEQzd2FvWkFGSVd3UFk?oc=5",
-          "description": "Bestände deutlich geschrumpft: In Supermärkten werden die Sardinen knapp  n-tv.deSardinen im Supermarkt werden knapp – das ist der Grund  T-OnlineSardinen werden plötzlich zum Luxusprodukt - Das steck",
-          "publisher": "",
-          "pub_date": "2026-09-02T10:27:17+00:00"
-        },
-        {
-          "title": "45 Milliarden Dollar im Spiel: Rheinmetall greift nach Mega-Auftrag der US-Armee",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTTE3bGhzTFVCM3pkS3g5VlVtWlpBc18zdzd6RjFjbl9NQ3Q0ZEMwaHVSN1NDVy1hY0trV1h0eGpJMXJPN3lKc1RsOGpadE5UcU0yaFZ3LWF0bDdFRUc4VGp5OUZMQk1ZaER6bTZMRjk3aWtocG02M3hsMjN0eXNtbDN3dWxEaVJRTXpqVWs4RnlUVVF4dU5LRzA0c0tEajdwU1E?oc=5",
-          "description": "45 Milliarden Dollar im Spiel: Rheinmetall greift nach Mega-Auftrag der US-Armee  Frankfurter RundschauWeitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "Frankfurter Rundschau",
-          "pub_date": "2026-09-02T02:45:00+00:00"
-        },
-        {
-          "title": "Bitpanda: doppelter Personal-Coup mit Ex-Revolut-Marketing-Chefin und Raiffeisen-Compliance-Leiterin",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPelBMY3dWelR0T05saHRCaUVQeFV6dWpvU3p5RGFiMThNSHFxTFRFOVRsUTNFLTA5aXVENEtGUGx6RFJ6N00wcWg5Tjd5ZGNKR2s1UFRiRTRlUm9GLUZiQng1ZkgtMTlocmZhZk5GWlRFZWsyN3E2QU5BUmg5c3JEQUFwY1lNZVVHbEZzcWV2bnBzREduNEI3RXI3UHZuTktvZ09LSFpPWU5wbFlwWVFtZ08walhNQWpSc3hZdUZkaXpPNXV3eXhPTi1B?oc=5",
-          "description": "Bitpanda: doppelter Personal-Coup mit Ex-Revolut-Marketing-Chefin und Raiffeisen-Compliance-Leiterin  brutkasten(m+) Onlinebroker: Flatex stärkt Vorstand mit Vertriebschef der Kryptofirma Bitpanda  ma",
-          "publisher": "brutkasten",
-          "pub_date": "2026-09-01T14:16:37+00:00"
-        },
-        {
-          "title": "EU-Richtlinie gegen Greenwashing: Ritter Sport muss seine Verpackungen überarbeiten",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdU9ELUJjQ1lrUWlybF9kUGViWUwyc19WTWNvVXctMmY1RHpDNjloTU1ZQmdiV3B4TWVRMDU4TmNkRTA2NlMtY2EzekVyVmFLbER5QTVKeU1VaEVQZURZMnBYaWdjZ011X1ZuT2xOU3RiUVU2ZHdFUnZ4d3ktYW9FbkRxajRXbFZNX2hzNlZlSWVvZmxQMzVJVmtrTEQ4eWt4RVRoeWdSSGZXQQ?oc=5",
-          "description": "EU-Richtlinie gegen Greenwashing: Ritter Sport muss seine Verpackungen überarbeiten  TagesspiegelSchwäbischer Schoko-Hersteller: Was Kunden nicht sehen sollen: Ritter Sport überklebt massenhaft Tafeln",
-          "publisher": "Tagesspiegel",
-          "pub_date": "2026-09-01T13:24:52+00:00"
+          "title": "Meta zahlt 17 Milliarden Dollar in Social-Media-Prozess",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOXzJKM1pCOGp2VnFXT0lUYXZ5Wm9tT29hR2hqUXNtOFZJR2U4MFNlOTRZWVMwNFVmSE1MaHlmZXkwWEctbkE1SkJMb2diQWx0QVpGSXFwQjVRNi1henFkTHNfOW1fdndjdEZLMm9LcTRfeEttN3Q5WFVNRndGTXlfdklkb0FPdzVLa3M0dzI3Tm1RWjl6V3B4SVhaTUZBNlc3OHBLNVFrLXRjamhSNC1wV1BRa1JobDMtRTdfU3F3?oc=5",
+          "description": "Meta zahlt 17 Milliarden Dollar in Social-Media-Prozess  FAZLiberalismus: Amerika knöpft sich seine neuen Könige vor  WELTProzess um Social-Media-Sucht: Meta kauft sich frei – und alle applaudieren  R",
+          "publisher": "FAZ",
+          "pub_date": "2026-08-26T13:13:34+00:00"
         },
         {
           "title": "Möbelindustrie: Billigware aus China überrollt die nächste deutsche Branche",
           "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOS1ZhSVB5ZWdEeXFQZHpsX0RKTnRsU2Qzb0dtRHNCV1RUQ0NpOERoM2w5ZXpRMzcyaUZ4dEh5WUtWOGZ6REN5R18tODhxMVJZZVRONWFYb1k4VTR1S2JyeWxOeG4yUmFhd0JfU19sWGZXanpudEluYVdKX1E3MzF3Z1hvblJLRTZRcDlnSEFneURRV1Riek1xSXdQeU5PQ2JDeXBTRFVwMVBzME44eWZJWks1SlZDYnRjdjViSHhGYkNFdkFmbnlrY0ZpYnBzQVNJck1qMXhVYUFFTFVHS3c?oc=5",
-          "description": "Möbelindustrie: Billigware aus China überrollt die nächste deutsche Branche  WELTMöbelindustrie: Warum Ikea jetzt die Preise senkt  FAZMöbelindustrie: Deutsche verreisen lieber, anstatt Möbel zu kaufe",
+          "description": "Möbelindustrie: Billigware aus China überrollt die nächste deutsche Branche  WELTWeitere Schlagzeilen und Meinungen in Google News",
           "publisher": "WELT",
           "pub_date": "2026-09-02T05:23:20+00:00"
         },
         {
+          "title": "Bitpanda: doppelter Personal-Coup mit Ex-Revolut-Marketing-Chefin und Raiffeisen-Compliance-Leiterin",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPelBMY3dWelR0T05saHRCaUVQeFV6dWpvU3p5RGFiMThNSHFxTFRFOVRsUTNFLTA5aXVENEtGUGx6RFJ6N00wcWg5Tjd5ZGNKR2s1UFRiRTRlUm9GLUZiQng1ZkgtMTlocmZhZk5GWlRFZWsyN3E2QU5BUmg5c3JEQUFwY1lNZVVHbEZzcWV2bnBzREduNEI3RXI3UHZuTktvZ09LSFpPWU5wbFlwWVFtZ08walhNQWpSc3hZdUZkaXpPNXV3eXhPTi1B?oc=5",
+          "description": "Bitpanda: doppelter Personal-Coup mit Ex-Revolut-Marketing-Chefin und Raiffeisen-Compliance-Leiterin  brutkastenWeitere Schlagzeilen und Meinungen in Google News",
+          "publisher": "brutkasten",
+          "pub_date": "2026-09-01T14:16:37+00:00"
+        },
+        {
+          "title": "Schokoladenhersteller: Darum muss Ritter Sport Verpackungen überkleben - General-Anzeiger Bonn",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV201akp3eGp3cUhxM01sOXhmTFJ3X0E4a1BocTdWNTZNTmhyeTF3VkdJdEwzZjdtaHFZX2pwUzREaXAxdS1zZUlTNG16WmZqXzdQNlJkVXcySFVSVE5WaEZaY0JyUU5NX0RLRFcyZnFicllYbVh2VGpEbGQzVC1oZURtRnpwZkNuWVZNZ0NCczM1TE5fdFZZWm1TMU1aUXh6QWtWQUI3cC1BV2s?oc=5",
+          "description": "Schokoladenhersteller: Darum muss Ritter Sport Verpackungen überkleben  General-Anzeiger BonnDarum klebt auf \"Ritter Sport\"-Tafeln seit kurzem ein Sticker  salzburg24.atEU-Richtlinie gegen Greenwashin",
+          "publisher": "",
+          "pub_date": "2026-09-01T14:00:00+00:00"
+        },
+        {
           "title": "SHEIN-Aktie startet an der Börse - so verlief das Mega-Debüt in Hongkong",
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSXh2OGVxNDVJOGxmM0h3Ym9sWDc5cE04MXRLSWdsMmszRkFoZUJOWGxoRVhMQ2YyOW82MWY4bkZmUjRQc1NSTzlrZ0FDdW52S1hocXZwR3QwZFBhZWJnNTBrbFB0MkR6T3ZzZi1vaGRKXzBJSXlWUExucVBZV0N5Z0p3N20zUl9uUXk0R1BUWExCTEQxYUNoSEE0VlYxbWYzQkgxbzZsRk1jYjI3NVpoVHdfMWtvd1lrQWdsNm9CbWozRXc3LUFoWGswbVRGLTIxTTJzbC1B?oc=5",
-          "description": "SHEIN-Aktie startet an der Börse - so verlief das Mega-Debüt in Hongkong  finanzen.netSheins Börsengang: Sky Xu verliert Milliarden durch Fehler  FAZHolpriger Start für Shein an der Börse Hongkong - W",
-          "publisher": "finanzen.net",
-          "pub_date": "2026-09-01T09:23:52+00:00"
+          "description": "SHEIN-Aktie startet an der Börse - so verlief das Mega-Debüt in Hongkong  Finanzen.netIst der Hype um Shein & Co. vorbei?  tagesschau.deDer Börsen-Tag: Shein-Aktie unter Druck  n-tv.deShein-Börsengang",
+          "publisher": "Finanzen.net",
+          "pub_date": "2026-09-02T11:39:06+00:00"
+        },
+        {
+          "title": "Berliner Autohaus König meldet Insolvenz an",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSjV2MGdMZExQVUhCQWxILVpiZUFqWnQ2VlJUN2xFb2FUSktoRWJudXFlbHFSalBCclhHcXpxRXRWdWR1dWhTVzQtQzRwYWI1bjNYWmxoOVZKQU9LUnFaaDFMOURwU1phRDBNc04zY1EwWk9rSlo3UDI1WXlPU0p1VzdMaFZuXzhpUnNJU3RLYmtHVjFUbkVweHMxOVY?oc=5",
+          "description": "Berliner Autohaus König meldet Insolvenz an  rbb24.deEr war der größte Renault-Händler Deutschlands – Autohändler mit 82 Standorten ist nach 60 Jahren insolvent  Yahoo Finanzen DeutschlandAutohaus Kön",
+          "publisher": "rbb24.de",
+          "pub_date": "2026-09-02T11:30:00+00:00"
         }
       ],
       "technology": [
         {
-          "title": "Ukraine-Krieg im Liveticker: +++ 16:12 Sprengstoff-Drohne: Strack-Zimmermann will Nato-Befassung +++ - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdVpQSzMxZXRRSkd6SlpDZmQyVXlpa09jdXVxMEcwSk5RUDVHY196SGh0QndSb3NIVDR4YWFKYXNEMFlyWU5SUHVXdEt5UzhTdThWSk1xZFc2UDhVUml6b2RpOUFaM0VKM1poMjFDQWFUZlVTTWwta1JhM2NfVHAzVXlRdGxsSU81TFB4SnhaZGNsMHcxckhEZ3pJUlVqcXdRZE9UbW1QUXVZdw?oc=5",
-          "description": "Ukraine-Krieg im Liveticker: +++ 16:12 Sprengstoff-Drohne: Strack-Zimmermann will Nato-Befassung +++  n-tv.de",
-          "publisher": "",
-          "pub_date": "2026-09-01T14:14:35+00:00"
+          "title": "Sigmar Gabriel: Was wirklich hinter der Bomben-Drohne in Leipzig steckt",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOX1hXS2p5bnpDdmh6NE9jSlVBVGU5cnZfSTNZQjRNRFlSOWF3M0UtVDFidkVhU2RMUVhFWngzMXRZU0ZnWWhiM2szd3lkWEdRT1RESVluUnl6b0hpcm5QRE1xbUJJei1NeTdkYjNZXzkxTTltQmlNR1Y5WW1rSU1sUWx1ZnVnVGc2dHdjSHRoZ3diaFZocjBXcFRKMnYtWXFJRm8ycDAySFpzenZMTFhPRWM4NzE1Mk13bmtpQ3FnOU5Pa3pNOVl0UW9LT3RSLURVUFhHYVFCbXAzWWNnRi16TXpwYWwwcDdEcFdOUlZHa2k?oc=5",
+          "description": "Sigmar Gabriel: Was wirklich hinter der Bomben-Drohne in Leipzig steckt  BILD",
+          "publisher": "BILD",
+          "pub_date": "2026-09-02T06:40:32+00:00"
         },
         {
-          "title": "ChatGPT als Seelentröster: Wo Hilfe zur Gefahr wird",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWWZrNG00MG5ZUFN2YTM2N2F3VGhjTGlXWFUwbl9hM1J0ZHJJRXVwTWxJTWI4V3FvRFBlUWNobDhUeERyT3JZQmNJRnRqY0lxNldCQWJCeWxYVEdvUG01U2VoeVdwdlRUZkFIalJFektzcDBneXhzR05LVXJEYlV5Q3A0SGlZN21ZbnhaZjJKeng2b0pUSW04WUZ1NURLajd5V0tCc0t3NDZaUlRzQURiSVN6SGlZWHJZ?oc=5",
-          "description": "ChatGPT als Seelentröster: Wo Hilfe zur Gefahr wird  BILD",
-          "publisher": "BILD",
-          "pub_date": "2026-09-02T08:55:00+00:00"
+          "title": "Erste Zahnbürste mit Kamera: Dyson revolutioniert den Markt – das hat seinen Preis - T-Online",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdnowYURYMjRVM29UUzV3V0d3aXcxcUpZOGVQZVFQQkUzU3ppaXU5RlFTbkhnNjVRdFpaRjBzd3dsS1EzOUpTSERhcExZbG9JQW9SbldRUFVkYzM1SDFFRjRxTWRZelBMbzBMSDA0SmJpMDBEQ0RZMFRYT0V1ZkhnWWJKTjYzWnZ2TWZ1dElqYk04VDBGcDl4M0VKMTB6V05OLV9Vd1lMRGVYTG9sVkNjRTU0SnB5dGtlN2JWRGtfZHJFYWNEMWNhd1dMT2RnLVY5emJ5V0Z3cmk3SHk5LWJWXw?oc=5",
+          "description": "Erste Zahnbürste mit Kamera: Dyson revolutioniert den Markt – das hat seinen Preis  T-Online",
+          "publisher": "",
+          "pub_date": "2026-09-02T08:53:38+00:00"
+        },
+        {
+          "title": "OpenAI verschärft Regeln: Neues ChatGPT-Modell erreicht \"kritische Schwelle\" - T-Online",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbW16Ukg4RzBxdVlKUmZrc2x3ZFFnN1R0YnFtVkhOOWRETm5TSTN0Tm1tQ1N1RWZpbVhXVDBNVkVlZGprR1NwTVdtNkRPNFd1LXEtX2hDdnBvSHlkdTBZT19LRGZIdnRYMlEySXl3WGtjRUt5X0JtbEliaFUtZjA0eDFFQkRFQXVBNnpTWVhJVmJoMmxOa0tyNEZkVmdBMXQ3V0NTdk53d3F0aEY2bkJJLXJYTkUzQQ?oc=5",
+          "description": "OpenAI verschärft Regeln: Neues ChatGPT-Modell erreicht \"kritische Schwelle\"  T-Online",
+          "publisher": "",
+          "pub_date": "2026-09-02T05:42:54+00:00"
         },
         {
           "title": "Zehntausende Beschwerden: Weltweite Störung bei Microsoft Outlook legt E-Mail lahm - T-Online",
@@ -931,11 +954,11 @@
           "pub_date": "2026-09-02T04:24:00+00:00"
         },
         {
-          "title": "Rüstungs-Gigant will 1200 neue Jobs schaffen",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWXhTTk1zV213a1prYkxFMUhDMGpKQkFzR0tkX2k0T0NJY3JnSDl1dHJOb21QWFNNNUM5U2VoQWNCUklhVHRZZGFTVGZWMGc1bzdtS1dIY0NselpDc2lTeG81MUpOd19Uc29VWmtaYlVla2FveUQ2YXdra3ZpU1JuUlRUOHFKR1NPRU1ZZkVlZ1phRDBXYTRtcDBhb2tuTno0RjBSRE5qSTZsREczbFJJRlpCTkVITllkMFJj?oc=5",
-          "description": "Rüstungs-Gigant will 1200 neue Jobs schaffen  BILD",
+          "title": "Smart Glasses: Hamburg plant Verbot in Bus, Bahn und Schwimmbädern",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOemRVZ3pNdHcxZFhLODg3QjVaaWFNek56bnU0OVNKSTNSZnVScUtnTGJRNDdRZ2JQdzcyM1AtM3NydzJnNEJISVZtRzl1cDZpX3FwYVVoNGxqLW42cUNVWmkyNHNUMVFCaGhCalR6QXNTei1FSE1EcjBRam5hQmZxMDZmZXRsQnFycFhCbEFQaEZRYktfZmJ0WHVfUERFdkJLazB0d1VQdFFWVFUtT3ZTVVk1bWh4SUF5OE9xWHMwRVN6UHc?oc=5",
+          "description": "Smart Glasses: Hamburg plant Verbot in Bus, Bahn und Schwimmbädern  BILD",
           "publisher": "BILD",
-          "pub_date": "2026-09-01T15:18:12+00:00"
+          "pub_date": "2026-09-02T12:26:03+00:00"
         },
         {
           "title": "Modernes Unternehmen: Wie eine KI einen Foodtruck organisiert",
@@ -945,11 +968,11 @@
           "pub_date": "2026-09-01T17:24:40+00:00"
         },
         {
-          "title": "Erste Zahnbürste mit Kamera: Dyson revolutioniert den Markt – das hat seinen Preis - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdnowYURYMjRVM29UUzV3V0d3aXcxcUpZOGVQZVFQQkUzU3ppaXU5RlFTbkhnNjVRdFpaRjBzd3dsS1EzOUpTSERhcExZbG9JQW9SbldRUFVkYzM1SDFFRjRxTWRZelBMbzBMSDA0SmJpMDBEQ0RZMFRYT0V1ZkhnWWJKTjYzWnZ2TWZ1dElqYk04VDBGcDl4M0VKMTB6V05OLV9Vd1lMRGVYTG9sVkNjRTU0SnB5dGtlN2JWRGtfZHJFYWNEMWNhd1dMT2RnLVY5emJ5V0Z3cmk3SHk5LWJWXw?oc=5",
-          "description": "Erste Zahnbürste mit Kamera: Dyson revolutioniert den Markt – das hat seinen Preis  T-Online",
-          "publisher": "",
-          "pub_date": "2026-09-02T08:53:38+00:00"
+          "title": "Erneuerbare Energien: Solar überholt Kohle bei installierter Leistung in China",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU0dDTzkzdjVCMlZmQUQwN0dPanRjd2I2OG01SDFNcUkxNEhielRiQXNXYTZJaThrSXA1eUp0eTNfQ1lRUFN6OEZUaTRzQ05kU2J2U0lWZHhMajFGM0FuMUtmSkxuSmc3SE56aVRZNVc0cTZHcjZfelJqLUI5cWdrZVpza2NKOWVWTkt3?oc=5",
+          "description": "Erneuerbare Energien: Solar überholt Kohle bei installierter Leistung in China  tagesschau.de",
+          "publisher": "tagesschau.de",
+          "pub_date": "2026-09-01T18:13:00+00:00"
         },
         {
           "title": "\"Übermenschliche\" Technologie: KI erkennt Herzleiden innerhalb von Sekunden - n-tv.de",
@@ -966,11 +989,25 @@
           "pub_date": "2026-09-01T20:23:24+00:00"
         },
         {
+          "title": "Atomwächter der Uno haben 73 Tonnen Uran aus Assad-Ära in Syrien sichergestellt",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONGFaU1hHMU5qellHaUh6R1dveHpYNEJNZi1uQWk4V1AzYjRFMm9wXzUtOVE2MlhhbG9tcEl4V21TaFVGRy1BTFVrb1FJaG44V1hFc1p5SXM2amlRMTZSZjlPX3RJNmIzVzhoaHdodDdwNjJlUk5nX3VKT2JVN01mNmhabEZ0Q0NaeDlDRUpRMFh1RjYzdndDa0V6YXBna2ZuWlhJQkV1a3dDOFpXRmVBZFpSNDdZdzI4WlBvdmpCcGRGNzFIcFRpNTN0elh3NGg1aHJpUXhYNTBPczdlSG1sb1lNM0t6UQ?oc=5",
+          "description": "Atomwächter der Uno haben 73 Tonnen Uran aus Assad-Ära in Syrien sichergestellt  Spiegel",
+          "publisher": "Spiegel",
+          "pub_date": "2026-09-02T04:45:00+00:00"
+        },
+        {
           "title": "„Wir hinken stets hinterher“, sagt der Siemens-Chef – und verkündet seinen neuen Top-Standort",
           "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQdXVYRTQ4b3ozMENEWTRTZnNPUG8yd2pNRms5S1J5THhhSlA3dTlEWFRlYTN2YVhwZVFVNWVwQUdfYTF1NEdlcUtRNXY3Z3Z1OVRBMG5GZUcyMVU0RGtpNzRxX1VFbUVjTGtoSE1BRG5MZ1Rrb2lPNno2S09EZFhZdDVNdFhKYXJvV0ZpVUZFSzBCaUl5SF94cU8zSkxtbWhMaUM4cEF4dnlsc0xLa3QyeEo1RE40ZTc4endncXoyT3E5M3p5RE1wcmR2T29YSWdIQ0ZKSDM2UkxDTV81Z1JQZWhCVXlzQmxrZDNMUHV5RTgyNnFaVG0zOUpuRQ?oc=5",
           "description": "„Wir hinken stets hinterher“, sagt der Siemens-Chef – und verkündet seinen neuen Top-Standort  WELT",
           "publisher": "WELT",
           "pub_date": "2026-09-01T07:58:56+00:00"
+        },
+        {
+          "title": "Sofort deinstallieren: Diese 19 Browser-Erweiterungen sind mit Malware verseucht",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMWlVeGFjc21QVzJTWGdWUmNiTnFFM3lRbmpKT2g3NmZ4Q0ZoRXRpS3dEU09kNWUyNUdjX0d3WVo2d2ZqZzV3WThCQ2w0YW1pdWIyN3NBZXpycGw5VG5pTm9ncm9pLUw2S0ltRnFUaUhMXzFob0dNOVJoY1ZEVHdVVGl0Qkhabk1tOTAyUjJ6YUhjcWtrb2t0dkxFeGRTQXU4YlNRc3hTYTNLVlRpWWtpNnJjUUNWQm9oNjNyX0N0TQ?oc=5",
+          "description": "Sofort deinstallieren: Diese 19 Browser-Erweiterungen sind mit Malware verseucht  pcwelt.de",
+          "publisher": "pcwelt.de",
+          "pub_date": "2026-09-02T06:00:31+00:00"
         },
         {
           "title": "Donald Trump und die Solarenergie: Der unfreiwillige Helfer",
@@ -985,106 +1022,22 @@
           "description": "Bitpanda: doppelter Personal-Coup mit Ex-Revolut-Marketing-Chefin und Raiffeisen-Compliance-Leiterin  brutkasten",
           "publisher": "brutkasten",
           "pub_date": "2026-09-01T14:16:37+00:00"
-        },
-        {
-          "title": "Geklautes Flugzeug nimmt Kurs auf AKW – Kampfjets steigen auf",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLVEtOUpnNnVZWnBSRzh6MXdSN0VmVGxNS0U4UHozVG9fY29ITTBzdjEyd3dRc2M3bGNoOEZmY0RYZlZQeHJMM205ZnI0d2F0VHhfcXNHTTBHSTcxNDAyNzJCX24xSThuWlpJT0ZlTnR5Mm9MUjF2a2lPOE1fa3hjdDAza185d0htN3BUdEN5cU8xcmtmNS1MMVdHLWlvVm51VFFXaTBscU5fSEMyT1NzdkdqemE?oc=5",
-          "description": "Geklautes Flugzeug nimmt Kurs auf AKW – Kampfjets steigen auf  Frankfurter Rundschau",
-          "publisher": "Frankfurter Rundschau",
-          "pub_date": "2026-09-01T09:44:21+00:00"
-        },
-        {
-          "title": "Größte Energieerzeugungsart: Wendepunkt in China: Solarstrom überholt Kohle - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLTRidlFGUDQ1Nk9QaU4wWjhnZUlDZFhIWWtOdVlhOXdiaVVhTjJhT1VrdHM5ckd0V3VlSVh5TGJULThwemk5bS02NHpiMFVfbVIxbWh4dnVZbExHYmF2MGlDanBsWTF4bnBuNUhDbUY4SUhtWHFoNUVPZlFJRElBQzJ3TTdLTm9IVnJFSFA2WnBIRUk5RXBqag?oc=5",
-          "description": "Größte Energieerzeugungsart: Wendepunkt in China: Solarstrom überholt Kohle  n-tv.de",
-          "publisher": "",
-          "pub_date": "2026-09-01T09:25:20+00:00"
-        },
-        {
-          "title": "Nvidia: DLSS 5 bringt nächste Stufe der KI-Grafik ins Spiel",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3oydXZ0czFnZlRMZHJOcDIwa2M2dDBfcTJpbmF4bGtIQ1VIWGpJMVRyX1dIWVdFYzF6MmRRNXRMS3hTYjVld3hTWVhZZVdscVV4NjE1UGZ6NzFLME12RVgzaWRlVVAtVUh1M0U4NGhhblpyQ0ZiRERPRXFJUXBRSDRpRkJGX1VOVDlhNjA2NHBJX2VUWU9ueV84OWVOWHFiS2tzSA?oc=5",
-          "description": "Nvidia: DLSS 5 bringt nächste Stufe der KI-Grafik ins Spiel  Golem.de",
-          "publisher": "Golem.de",
-          "pub_date": "2026-09-02T08:42:01+00:00"
         }
       ],
       "entertainment": [
         {
-          "title": "Wegen Harry und Meghan: Neue Schule ihrer Kinder schickt Warnung an andere Eltern",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbjB0SWUwV0ZPdW1LRjQyc2hRY0ZiR3JiTWFkNmc3ZHhYZmhiM1lRNHFtQm9iRzVuNFZnWjQ5N0FLQ29CWnlId3NiYUdzS3FnVV9jZmNEY2VUb0lrbklteEUzUXNPd3FDODFrV2VnTFk4aGtaWGhTNGs5bXdBcmhXMFFRNGVYRkMwZnVGY2t1d0N2NzNFRkwxaVZuQUh3cGNNU3BiMjlJU20wSUdtaE1iQldsLXVwS2NKb281ZmRBSjhLWU45Ti1PSg?oc=5",
-          "description": "Wegen Harry und Meghan: Neue Schule ihrer Kinder schickt Warnung an andere Eltern  MerkurPrinz Archie und Prinzessin Lilibet: Schulstart mit strengen Regeln für die Eltern  STERN.deZufall? Harrys UK-R",
-          "publisher": "Merkur",
-          "pub_date": "2026-09-02T06:33:33+00:00"
+          "title": "„Maulkorb“: Alphaville von Glücksgefühle-Festival ausgeladen – wegen politischer Haltung?",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTW1RRjgzaXZfUk9UQk5MN3BYNkFCcEk5UFZsTEZLVEl2alNyX0pYNEFwckJ5ZktxN3A4bGlKRzlnWGhWdjdpS2VUaE45N0RUN2QyUHMwUFFGaHh3a05GQ2pIMGtPXzFMS2paN2FRTS1NRXNPMzktNTVrenVJZURmMC0zTERfczluMnU1OEJRTE1mVTM4M0E?oc=5",
+          "description": "„Maulkorb“: Alphaville von Glücksgefühle-Festival ausgeladen – wegen politischer Haltung?  rollingstone.deStreit um Auftritt: Alphaville von „Glücksgefühle“-Festival ausgeladen  BILDDer Tag: Alphavill",
+          "publisher": "rollingstone.de",
+          "pub_date": "2026-09-02T05:34:09+00:00"
         },
         {
-          "title": "Plural statt Singular : Brad Pitt heizt Hochzeitsgerüchte an - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdmtWSVliX3JVS3pLbUtzWlRqSXE4TTFVUGpyS3JESW9kVlVUZ2laampfdVNHdmJDVUVPRDVQRHFadk9nMjNvMlpieDN1NVBNR3c0RG9xSUZ0Z1RFbExscTJPSGRLZ3NaZjdNOGtPRXdnc2ZOREJMXy1TX3RLaTgwYTBOcFExZw?oc=5",
-          "description": "Plural statt Singular : Brad Pitt heizt Hochzeitsgerüchte an  n-tv.de",
-          "publisher": "",
-          "pub_date": "2026-09-02T10:29:01+00:00"
-        },
-        {
-          "title": "Amal und George Clooney feiern in Venedig",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMW9RZmE2eWZHeHlfZjgwbHFzU2tzRG1HTmhveHZpQWpkMGRiMHliaGVnaURWeDRkdDJlVEg0R01sWDVwZGVZZy1oZ3R3U3c5S3kzSnZYYjhJOUg3bTJlNzVpVlBPUElZZkNrVEN1Rm5vV3RFYUdDbE9VR29vVTVkTWlKbjg2eDlxNU9LZjhXRQ?oc=5",
-          "description": "Amal und George Clooney feiern in Venedig  WEB.DEAmal Clooney in Venedig: Mini-Shorts stehlen George Clooney die Show  BILDGeorge und Amal Clooney reisen im Privatwassertaxi zu den 83. Filmfestspielen",
-          "publisher": "WEB.DE",
-          "pub_date": "2026-09-02T07:07:29+00:00"
-        },
-        {
-          "title": "Jeanette Biedermann zeigt erstes Foto mit ihrem Baby",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObkxkbnBZNG5iWlpBVkRjaWh6OFFTZGhyOXFET3pqRnowcDJ3amd5Y0toc2RQcmhaZVB3SExKS2FLOXkwRjh1M3JaUThfb05JcjgxSlJTOFJjTlVfNlZqQ0laaWRiRnB3MVpneUQtZHRzdmFva2k3enJhU0NxTWtwcVhoWFBPU01WV1ZTNDdrRGZpN0dIZGhYcWo5LVo4Tno2YnhtQ2duaFY3UQ?oc=5",
-          "description": "Jeanette Biedermann zeigt erstes Foto mit ihrem Baby  RTL.de(S+) Meinung: Späte Promi-Schwangerschaften faszinieren uns. Dahinter steckt auch eine Klassenfrage  SpiegelJeanette Biedermann teilt erstes",
+          "title": "Prinz Harry und Herzogin Meghan: Warnschreiben an andere Eltern sorgt für den ersten Wirbel",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNG9pajVxNmdxLUdMdTlNSWR4QzNwNnA5ek9jSkw5b3lFd2thVWk5Tm90TXQtWVVyeXE2WWZBNGRoZkNiMWlBaV83WWdXYWZ3MS0xcFlVWFQyMDBYbVVOcE5hckh3VnNpVGpkSUlCMnk4eHd6dmstM1p2aVF0V1V3NU9saDNkZFZTTEwzY2lDeHd3d0RoVjNRZk9fLVJEdU42M1ViejJpVlVYUWpTLXFMRWIyNGR5UmN3YnZJOVVuVjNCdW9SRmNEVDZDZ2ptWXBJelQ4LWtxSFJTbUVPNlRr?oc=5",
+          "description": "Prinz Harry und Herzogin Meghan: Warnschreiben an andere Eltern sorgt für den ersten Wirbel  RTL.deWarnbriefe: Strenge Regeln für Schulstart von Archie und Lilibet  WEB.DENeun Schlafzimmer für Meghan,",
           "publisher": "RTL.de",
-          "pub_date": "2026-09-02T09:00:06+00:00"
-        },
-        {
-          "title": "\"Hart aber fair\"-Moderator Louis Klamroth findet klare Worte - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMUwxbWpZVlZ2VnlSU0c4b2l0Qm8tQ1JJbldfOWRzcFNYV1lia05DNkNmTVNxMWQzc0pSZUpCUmFXMVRPSW1TN2lINXNRNHh4U01xMFNLX2QxQmdhTjh2c0pmaTJ3Ym1IblRNNWxGb2tqZFBTNXRfOVJFYy0zbHhBUEJXaXN3TDRhN29uUWlRU1F3Vm43LWlHNE85M0lYTTFxRTFTdnkwVEdEUnZCVHVpOENfczgwaHRpZXpXNEx5OWpESjhtMnoxcy03NA?oc=5",
-          "description": "\"Hart aber fair\"-Moderator Louis Klamroth findet klare Worte  T-Online",
-          "publisher": "",
-          "pub_date": "2026-09-02T10:05:27+00:00"
-        },
-        {
-          "title": "Neue Ehe nach Oliver Pocher? Amira Aly beantwortet die Hochzeitsfrage",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVVNRMG5xeE9pMTlTZDc2OEdiNjNEdlAxWWRLTU05aUlVZnJNaDh1dk1lT1FoMS1lMWJ1NjBmN1MzRDQ1V0dkQk9zZDIwVHptbDdtMmZGY0xmTnpEckVJN1FlVzZaVmpSb1czRjBUd0hwVEkxbjRCU1ctODdzRFVabUtfZ1JFR3pEWEtYN3NOSG1UTlNEUlF5Uk5Bbkl2X3puM2tocm9INWJaOEZvT2h6MmtTdkdvYktzR2tR?oc=5",
-          "description": "Neue Ehe nach Oliver Pocher? Amira Aly beantwortet die Hochzeitsfrage  RTL.de\"Kompliziert\": Amira Aly gerät beim Thema zweite Hochzeit ins Stocken  TV Spielfilm„Es ist kompliziert”: Amira Aly hadert m",
-          "publisher": "RTL.de",
-          "pub_date": "2026-09-01T17:46:17+00:00"
-        },
-        {
-          "title": "Via Leihmutter: Prinz Philippos und Nina Flohr sind Eltern geworden",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNzNnVDREbFp2ZGtQS1M1ODcyVnZpbTllamJSdEpuaWUxd05IYUlVOEhuM3NZb3VqVDhSRFFEa1hUaHN6X1pCSFVBV3E5eFc2U3FORVloUlc3TU1NNkhRRXdvVkhhdnp4ZnpZMWpmSUNoVzRtMHZtTUI2ZXFnMHZqMm5leWhFVjV3REVkLQ?oc=5",
-          "description": "Via Leihmutter: Prinz Philippos und Nina Flohr sind Eltern geworden  WEB.DEWeitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "WEB.DE",
-          "pub_date": "2026-09-02T07:57:23+00:00"
-        },
-        {
-          "title": "Mit Meerblick: Manu und Konny Reimann zeigen ihr neues Traumhaus auf Barbados",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNaVJoT2VjNVZpSzU3ZnFUSzVRUTZrdXA3R0NJYjdhU3pBRzh4OVAtMm9mV3k5YUo1Vk9aSmZFMnNjOEgtNF9CbEVmeERaWEtSZm4zaEZiZzVFbG0tQXBJSDVqcFh1Sms5UjNYSkVuYXY2SzhsZGhmS3owcjRTY19WT3YtRFlKNmNBYWNMbHJYUVRKelNnOXVXbjBidkFaQ3g3aTJXaHVaWDhmczJiVHR2R1RJN3ZPSEliZ241U3R2Z0VYUFZabHRZNnRkLUZZS3BlVUp6VXNoTkNJaDliRk92anYtazIwUFA5?oc=5",
-          "description": "Mit Meerblick: Manu und Konny Reimann zeigen ihr neues Traumhaus auf Barbados  BUNTE.deKaribik-Traum zu dritt: Die Reimanns haben auf Barbados überraschend eine Mitbewohnerin  TV Spielfilm\"Betrug\": Ko",
-          "publisher": "BUNTE.de",
-          "pub_date": "2026-09-01T17:57:00+00:00"
-        },
-        {
-          "title": "Filmfestfan wartet seit Tagen am roten Teppich in Venedig",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9yQm1TSFNxQS1pYUJjT21ZSWVLdDNIWWNfV0VwMG9JWXBlcTNtMGk4TjZCemxHeTJrUkVhelFua1pfN0w1ckJPbnlndVJSaEppNlJnUlU1VUVDaFZOYWRQNDlQTnFIV1pYVWhVRFlBQzdTVU1aV2c?oc=5",
-          "description": "Filmfestfan wartet seit Tagen am roten Teppich in Venedig  tagesschau.de83. Internationale Filmfestspiele von Venedig: Die schönsten Streetstyles aus der Lagunenstadt  gala.deRoter Teppich in Venedig ",
-          "publisher": "tagesschau.de",
-          "pub_date": "2026-09-02T01:46:00+00:00"
-        },
-        {
-          "title": "Pippa Matthews Schwägerin Vogue William ist zum vierten Mal Mama geworden",
-          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQMkZzTDNpQVJNeW80R3RGNG9EQmhqcW9Ea1ZQTTZmMlphOUJGRExyUm1iZ25ENTUyT193NmVDVXgyamo4Zlp0VzNWUFVlT193RFBJdU5ELW9naXQ0cE1WU0NsdDY1TE9UM2ZjaTdwVEczQ3hET0VqUUUxcFM1aWhRWG9Hd1hNQXFrcUFaYzdVVk5mRnMxalhmZHdJdVpLOHVBTG5CamEzQ1VxVmpVTzVOMnktZlctZUJDZU9wYmFDN2pVVHZ5N1JKWU83Qjk3WG52RENsNTVpVFBmU2VNZURZc09fSGY0MUZvNUJEWVY2TS1odGptTm80U2RmOA?oc=5",
-          "description": "Pippa Matthews Schwägerin Vogue William ist zum vierten Mal Mama geworden  BUNTE.de",
-          "publisher": "BUNTE.de",
-          "pub_date": "2026-09-02T08:37:00+00:00"
-        },
-        {
-          "title": "„Ich identifiziere mich nicht als Deutsche“, sagt Sandra Hüller",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZTRtVFhYQUVIVXpYLVFSd09JR3ItU1Y1T04zc2hLdVVhRTc1S1VrWWhCUWIxOUJscmV6RWpiSi1PRjBuMWJCZ05fOGdlb3JNU216VzVQR1U3WGN1VmJQOXJmV0NKMUxSbmJYZTdPOUdpekNlZ1lFUnFYTUUtTUJHVmtSSmtET3VqTkJPM1RKMXc0WXVYdXZkeTl4ZGpXVXJOdGs3Szlnb2tYWFpteHRkTk9lYkJydS13YzMzSQ?oc=5",
-          "description": "„Ich identifiziere mich nicht als Deutsche“, sagt Sandra Hüller  WELTWeitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "WELT",
-          "pub_date": "2026-09-01T12:12:21+00:00"
+          "pub_date": "2026-09-02T07:54:11+00:00"
         },
         {
           "title": "Er wurde 94 Jahre alt: Regisseur Jean-Paul Rappeneau ist tot - T-Online",
@@ -1094,76 +1047,132 @@
           "pub_date": "2026-09-02T10:37:40+00:00"
         },
         {
-          "title": "Vandalen zerstören Dolly Partons Stern auf dem Walk of Fame",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY1VTSTJjUlpiVGtQTnBYYnUzTDM0VDZlZEpiXzl6RmtlWjZVMjhwdXEzaXRBWGY4aXdaQTlGbHMyZnRrTDRsaE1pUTBvc2l4cDBwRktoRDdlWGstY2c5YlNrR0ZuNGxGUlBjM21aYXNNSHZVaXhSNGw0Xy1MaUkyOWN4TWptaXBTWVBvd20waDJPQlVIcmVaMVgxdzBhR041SmhpUFlxSQ?oc=5",
-          "description": "Vandalen zerstören Dolly Partons Stern auf dem Walk of Fame  WEB.DEBad Wolves: Veröffentlichung von ‘Jolene’-Cover  metal-hammer.deDolly Partons Hollywood-Stern nach ihrem Tod beschädigt  WEB.DEMusikf",
+          "title": "Via Leihmutter: Prinz Philippos und Nina Flohr sind Eltern geworden",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNzNnVDREbFp2ZGtQS1M1ODcyVnZpbTllamJSdEpuaWUxd05IYUlVOEhuM3NZb3VqVDhSRFFEa1hUaHN6X1pCSFVBV3E5eFc2U3FORVloUlc3TU1NNkhRRXdvVkhhdnp4ZnpZMWpmSUNoVzRtMHZtTUI2ZXFnMHZqMm5leWhFVjV3REVkLQ?oc=5",
+          "description": "Via Leihmutter: Prinz Philippos und Nina Flohr sind Eltern geworden  WEB.DEPrinz Philippos und Nina Flohr sind erstmals Eltern geworden  T-OnlineLeihmutter: Griechenlands Prinz Philippos ist Papa gewo",
           "publisher": "WEB.DE",
-          "pub_date": "2026-09-02T04:37:24+00:00"
+          "pub_date": "2026-09-02T07:57:23+00:00"
         },
         {
-          "title": "„Muss man erst mal schaffen“: Ralf Schumacher meldet sich nach Unfall bei Raab-Event samt Operation zu Wort",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc2FScUstb1Q4NVd5LU0wd1dLVHpZQlByN1Z2Z2k0TExJTHdHOXBnYzF2WFdNc3J2VHp2NThBX3JDQ01qRFM1ZF9WNTlGLWlhMGRJMnBZUzAzME1La2tCUEVDbXNtay1pSkM3cTJvRmdELVl3QmIyQVRBTmxtV0ZFcmpPVUIzRkF3bUZUSWNhbElld0tCN21hRVBUSzJqR3ptM1VEazVPVktyR2Fh?oc=5",
-          "description": "„Muss man erst mal schaffen“: Ralf Schumacher meldet sich nach Unfall bei Raab-Event samt Operation zu Wort  HNAUnfall in Raab-Show: Ralf Schumacher meldet sich nach OP aus dem Krankenbett  FOCUS onli",
-          "publisher": "HNA",
-          "pub_date": "2026-09-01T16:57:00+00:00"
+          "title": "Neue Staffel: Vor „Promi Big Brother“ 2026 wird es diese Woche schon spannend",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaGNmSFFseElEZnk0MmdreDJ2bHUwQ1poRV8yUEFKaWpGa1RNM3NNT1piNXV4Tm9SMkY3THdlY05SY1B2OGNibWhLUllFVExjVnpMLWhZZHZKX0JKTGw3bnlBSXJZVzRmTHBaMWZaOWFfbFNXX1FhUVByWGhkV2RPSEhDWWdRd004UDBWeHpmMXlSbzg3M09kQl81MFFCM3o0X2hKWm9TZExNdHA4aEJIMkl2SzJ6MG1DVlRFWVdmTVNzR25fV2ZjVnJOV2xQNW8?oc=5",
+          "description": "Neue Staffel: Vor „Promi Big Brother“ 2026 wird es diese Woche schon spannend  VolksfreundPromi Big Brother 2026: Start und Kandidaten – das ist nun bekannt  SOL.DE«Promi Big Brother» startet am 5. Ok",
+          "publisher": "Volksfreund",
+          "pub_date": "2026-09-02T10:24:04+00:00"
         },
         {
-          "title": "Legendäre Looks: Zendaya - die Frau, die jeden roten Teppich gewinnt - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS3AyRm8yUlFaSkxGWHlVTVg5RXpuVkFFS1lmMWJtZGJxaUFGMHJJc0t3UmlwbDNLMVNJb0VITzRiUWl5M0dyU0Fqc2N0ZWRlU1QwLXQzaERpS3pBc3ZjQi1CMy1wSmF6dGFfSHRhZkg2cUpXdW8zZ2ZWS0J4Z1BIV0lSMVU5YVBvN1JnVmNJbWxIem5KS2FUM3liUmhYNlZwZWQzNFRfWUdjNUJIbHlrUkE3TDFkN0tVQ1ZJRQ?oc=5",
-          "description": "Legendäre Looks: Zendaya - die Frau, die jeden roten Teppich gewinnt  n-tv.deZendaya wird 30 Jahre alt: Hollywoods jüngste Ikone feiert Geburtstag  STERN.deZendaya wird 30 – das sind ihre bisher schön",
+          "title": "„Ich identifiziere mich nicht als Deutsche“, sagt Sandra Hüller",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQTgyOXR2T05mOVBDYlZuLTI5S0pQZFJVekUwN1lRWWJJSWRyd2c2NXFQNXJpLW9EQmVDenppR3U0eEMzcU5nMFAydDIzbVk2a0taajF2Q1ZDa1Ytd2VqT2ZDWm1TMUdaa1lHajJ3Z0ZXZ05vdmxCTEhhMVdvWlBKM21LdGdnYkZDSFNtNUdzQzJEcVNPTHJSYk9vakdKcEEtWUxOaUh6b2l6elVVQXFKSjFKajBuMkVZbkNZdGZWc1VvWlA1OUczMGJaM1A?oc=5",
+          "description": "„Ich identifiziere mich nicht als Deutsche“, sagt Sandra Hüller  WELTSandra Hüller: \"Identifiziere mich nicht als Deutsche\"  ZDFheuteSandra Hüller: „Identifiziere mich nicht als Deutsche“  FOCUS onlin",
+          "publisher": "WELT",
+          "pub_date": "2026-09-01T12:12:21+00:00"
+        },
+        {
+          "title": "Jeanette Biedermann zeigt erstes Foto mit ihrem Baby",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObkxkbnBZNG5iWlpBVkRjaWh6OFFTZGhyOXFET3pqRnowcDJ3amd5Y0toc2RQcmhaZVB3SExKS2FLOXkwRjh1M3JaUThfb05JcjgxSlJTOFJjTlVfNlZqQ0laaWRiRnB3MVpneUQtZHRzdmFva2k3enJhU0NxTWtwcVhoWFBPU01WV1ZTNDdrRGZpN0dIZGhYcWo5LVo4Tno2YnhtQ2duaFY3UQ?oc=5",
+          "description": "Jeanette Biedermann zeigt erstes Foto mit ihrem Baby  RTL.de(S+) Meinung: Späte Promi-Schwangerschaften faszinieren uns. Dahinter steckt auch eine Klassenfrage  SpiegelMit 46 Jahren: Jeanette Biederma",
+          "publisher": "RTL.de",
+          "pub_date": "2026-09-02T09:00:06+00:00"
+        },
+        {
+          "title": "Mit Meerblick: Manu und Konny Reimann zeigen ihr neues Traumhaus auf Barbados",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNaVJoT2VjNVZpSzU3ZnFUSzVRUTZrdXA3R0NJYjdhU3pBRzh4OVAtMm9mV3k5YUo1Vk9aSmZFMnNjOEgtNF9CbEVmeERaWEtSZm4zaEZiZzVFbG0tQXBJSDVqcFh1Sms5UjNYSkVuYXY2SzhsZGhmS3owcjRTY19WT3YtRFlKNmNBYWNMbHJYUVRKelNnOXVXbjBidkFaQ3g3aTJXaHVaWDhmczJiVHR2R1RJN3ZPSEliZ241U3R2Z0VYUFZabHRZNnRkLUZZS3BlVUp6VXNoTkNJaDliRk92anYtazIwUFA5?oc=5",
+          "description": "Mit Meerblick: Manu und Konny Reimann zeigen ihr neues Traumhaus auf Barbados  BUNTE.de\"Betrug\": Konny Reimann erlebt böse Überraschung in seiner neuen Heimat  t-online – Hamburg\"Willkommen bei den Re",
+          "publisher": "BUNTE.de",
+          "pub_date": "2026-09-01T17:57:00+00:00"
+        },
+        {
+          "title": "Neue Ehe nach Oliver Pocher? Amira Aly beantwortet die Hochzeitsfrage",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVVNRMG5xeE9pMTlTZDc2OEdiNjNEdlAxWWRLTU05aUlVZnJNaDh1dk1lT1FoMS1lMWJ1NjBmN1MzRDQ1V0dkQk9zZDIwVHptbDdtMmZGY0xmTnpEckVJN1FlVzZaVmpSb1czRjBUd0hwVEkxbjRCU1ctODdzRFVabUtfZ1JFR3pEWEtYN3NOSG1UTlNEUlF5Uk5Bbkl2X3puM2tocm9INWJaOEZvT2h6MmtTdkdvYktzR2tR?oc=5",
+          "description": "Neue Ehe nach Oliver Pocher? Amira Aly beantwortet die Hochzeitsfrage  RTL.deWeitere Schlagzeilen und Meinungen in Google News",
+          "publisher": "RTL.de",
+          "pub_date": "2026-09-01T17:46:17+00:00"
+        },
+        {
+          "title": "„Unter Uns“ wird abgesetzt: Die Rechnung geht nicht mehr auf",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQWpMSm9zYUxQMVBMTHd3UjlBcGhfcE16R2pERVNjMHlfZ3JBTVRaZ3R2R3BlVHdFZXp5VGhwenE5MFRZTXdhY04zeDZGSVpWNlZ4aFQxVzg4WjVnajdsVzZDNmNNMXdCblpuVWZxQkNUbFMxeDRHZkN4dnlBSTE2Ynl5ejgydEhteVZtYllsN1AzMms4SXBjU0xkZHREMC1ZMTBVMGdqRzI4QQ?oc=5",
+          "description": "„Unter Uns“ wird abgesetzt: Die Rechnung geht nicht mehr auf  tagesspiegel.deNach „Unter uns“-Aus: So geht es beruflich für Schauspieler Lars Steinhöfel weiter  fehmarn24.de\"Unter uns\"-Aus: Urgestein ",
+          "publisher": "tagesspiegel.de",
+          "pub_date": "2026-09-01T19:41:14+00:00"
+        },
+        {
+          "title": "Neues Schlager-Traumpaar küsst sich bei erstem gemeinsamem Live-TV-Auftritt – Publikum jubelt",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR19lOXRGQ1BiV3pla2JTckJTQ1R5b0M0enJjRUk3LWNyYlljdnc4VlhBVGp3djBxRlNmUDQxeExpTmdQVXI3Vm94czZPb2xpYmhtLXhGRC1wcHhCWkhFRWdCUExHSDNPczZGNUxLVnhtZFBOQ1EyOXlBUUMxZmZFaEs2c0U2QWVoZGtWanNSalJOX0NJbFdVVUhGU3duNjBGU1lKX25VVW9Od0I4eGdN?oc=5",
+          "description": "Neues Schlager-Traumpaar küsst sich bei erstem gemeinsamem Live-TV-Auftritt – Publikum jubelt  Merkur\"Sommerhaus\"-Paar irritiert das Publikum - und die Mitstreiter: \"Die haben hier nichts zu suchen\"  ",
+          "publisher": "Merkur",
+          "pub_date": "2026-09-02T12:08:58+00:00"
+        },
+        {
+          "title": "Handwerker starten Reparatur: Unbekannte demolieren Dolly Partons Stern auf dem \"Walk of Fame\" - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN0NmWV9fWmFVdjc4U09VVEU4TWxyUlRDQnJQZ1hnMzBBRVRVWGd5eDVFVS0wVHJ5dmtMUjkxQUx5djJTLTlpa1l1ZHNXbEFUZWpQbXBTdFFlbkhGYzdtRUVnX2t4S1o5ZkdfTWl5dDlQRWFpSGJfTEFheG83aHhfM3laUXBublJkZExHQm5DMlRsd2ZkbWZJZlZWOG1FS3NfQ3hlUHplSQ?oc=5",
+          "description": "Handwerker starten Reparatur: Unbekannte demolieren Dolly Partons Stern auf dem \"Walk of Fame\"  n-tv.deDolly Parton: Unbekannte zerstören ihren Stern auf dem „Walk of Fame“  STERN.deBad Wolves: Veröff",
           "publisher": "",
-          "pub_date": "2026-09-01T13:15:00+00:00"
+          "pub_date": "2026-09-02T06:01:00+00:00"
+        },
+        {
+          "title": "Ralf Schumacher motzt über Laura Wontorra: „Übergriffig!“",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPd05aZ0p3SmpPejRHLXMyM2N3ZEFETTFSYmNuQ0xWaG5MRDNvODB6UnR1Mi1COFRHaWpUZDlmVXV1Y284LWFleTJuaUw4T2hzTlZyOGRwOTRVZzBBR1E2R3FwQU05THZnaW9OTE1QdzkzLVVlV25CWndKa1N2LWF4ZWNGbjd3WWxWMUdQRnAyUlVyWUd1aEFMdGQzZzBGbEhESHdNWE5peDZhc0VURU5ERnQ2MUZpVExv?oc=5",
+          "description": "Ralf Schumacher motzt über Laura Wontorra: „Übergriffig!“  BILD\"Hat länger gedauert als erwartet\": Ralf Schumacher meldet sich aus dem Aufwachraum  T-OnlineGroßer Erfolg für RTL: Stefan Raabs neue Sho",
+          "publisher": "BILD",
+          "pub_date": "2026-09-02T12:20:01+00:00"
+        },
+        {
+          "title": "RTL überrascht Fans mit \"HeidiFest\"-Entscheidung",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ2VwUl9WRkl4dXRqZUxwMG9rSnhwZVZnNHdYZEVFMDQ5V0VNWUtNSEF1azdUVEQ2czdNZEc4TmRLYlg5VGU1ZThMWk5McjFySklnMTRTd2YzUkozU0VTNFlfQ3Z0U2FWTXRBeGZPMzZZbDRVbmxmYVZSVUFTdWlTMW9tTW1FekdwYXItdXhUd1QzbEhFcXlvVFNWQ2stRXM?oc=5",
+          "description": "RTL überrascht Fans mit \"HeidiFest\"-Entscheidung  WEB.DEFußball weicht Heidi Klums Sause: RTL zeigt \"HeidiFest\" jetzt doch komplett  n-tv.deHeidi Klum: Weltstar Vicky Leandros singt bei ihrem „HeidiFe",
+          "publisher": "WEB.DE",
+          "pub_date": "2026-09-02T06:18:55+00:00"
+        },
+        {
+          "title": "Salma Hayek wird 60: So hat sich der Hollywood-Star über die Jahre verändert",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOLW55WDVKQWo2TWRpa0V0ODRqZTU1M1BfTVQxVjVueXlta0w2Qm5Cd0ZuX1hGVERiRkRDUnJpX1FkXzRqVk8wdUdNdG1Lb0s4ZU55V2llN0UyYWZ0dTR6enlZS1AyekJNMFRuRGNRY3VIcHp4dktiQmxRVlZtSDVJSkZ5eHRGdG5IWmhDQUdHX25HakdmSTdDOU1kblNIemQ2ZHZwTjhRWHYzbVo5cG10TXAtZDJpMzVsQlJGcFlfWUtHQkpWQnI0UFg1Q0dmRXpEdDdXTzlNaTBZSXdXM2lV?oc=5",
+          "description": "Salma Hayek wird 60: So hat sich der Hollywood-Star über die Jahre verändert  BUNTE.deWeitere Schlagzeilen und Meinungen in Google News",
+          "publisher": "BUNTE.de",
+          "pub_date": "2026-09-02T05:45:00+00:00"
         }
       ],
       "sports": [
         {
           "title": "Zverevs Schlüsse aus dem Fast-K.o.: \"Das habe ich gebraucht\"",
           "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPc19aaEt5QWREV0RuNGZBVl95cTVKa25qRGdYZU43U193T1RYVjVITGRzVjJ6X3lFNWlvWkFqUEp4a3pYaFROVzFnVWxVVW13N0lTUmRZdWRfTmJxaEwtbDhJa0lpWm5reXp0RHFLMlN2bnVIeDJtRE1CVWJKSVVwVVBRNU14VHFsakEwMDUtUEZMOXNGcjc5UGNiWVEwWEQ0eWdsMUhOMlBhR29kYi1WeW1keVJzZXp4SktfR1pETHVWTVVDV0hEMWgta1d2ZFkteHJ1WFVmYnI2WUV0V3gwZkdzRmZCQzZncko5VnA5Yjd6QmlUREhjS1FzNU1Ndw?oc=5",
-          "description": "Zverevs Schlüsse aus dem Fast-K.o.: \"Das habe ich gebraucht\"  EurosportAlexander Zverev verhindert historische Schmach  WEB.DEUS Open im Tennis: Alexander Zverev wendet das Unheil gegen Sonego ab - Sp",
+          "description": "Zverevs Schlüsse aus dem Fast-K.o.: \"Das habe ich gebraucht\"  EurosportUS-Open-Auftakt bis 2 Uhr nachts: Zverev übersteht 5-Stunden-Schlacht!  BILDUS Open in New York: Zverev gewinnt Fünfsatz-Krimi ge",
           "publisher": "Eurosport",
           "pub_date": "2026-09-02T10:07:00+00:00"
         },
         {
           "title": "Sensation bleibt aus: BVB schlägt tapferen Fünftligisten",
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQWdxdl9LNDVCcUw1T1N1TUhqenN3OFRHYXdvVzJNbGxpT0JQTHdrTHM1ckhueXRQd2dCLTR4X25odjU0VnNfVmQ4WURQWXI4S243V2xWT1hMbHFHTHBFaDViUlpPd0trRWVBSVJFQmdYUHJ4X3ZFVUFMNDN0c1VuOWppZGR6Y0xNN05oQnlBay1JUDVYM0VqRnRSRGVjUVFQczNzNXJZMGdnTWlJX0lTOXRVNW0yRm9wOGlxRE0wNTBZLXA3Sm1Uek5n?oc=5",
-          "description": "Sensation bleibt aus: BVB schlägt tapferen Fünftligisten  Joyn\"Selten so gesehen\" - Warum kann der Fußball nicht immer so sein?  n-tv.deHEBC feiert trotz 0:5 gegen Dortmund das Spiel des Lebens  Radio",
+          "description": "Sensation bleibt aus: BVB schlägt tapferen Fünftligisten  JoynDFB-Pokal: HEBC feiert mit BVB beim HSV! Das schönste Pokal-Foto des Jahres  BILDRekordkulisse, Torschussflut und Kovac-Lob für zwei Young",
           "publisher": "Joyn",
-          "pub_date": "2026-09-02T09:08:04+00:00"
+          "pub_date": "2026-09-02T12:10:33+00:00"
         },
         {
-          "title": "England fällt vernichtendes Urteil über Nick Woltemade",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbUJPZlhlT09jVVJjdmN3UEQ4MzZQcVdmN20wV2l1RFJJNk1hazBXWjNjTTUzMWVsV2Y4dnAzRUxqQkdMZ29KemhFNnhmZWVoTkQtcHVFSktVYU83bWxuTllMS3V0bzNPMzZSaXIxcXgta2lQNGhPMndoWldzN2hUWFpYbV8walRMRDRBN2MwOE5tNjlBYl9fa19NTTlYNVppMnF0eEMwS2M?oc=5",
-          "description": "England fällt vernichtendes Urteil über Nick Woltemade  SPORT1Hamann kritisiert Transfer von DFB-Star: „Gefällt mir nicht wirklich“  Sport BildKommentar: Der Deadline Day nervt nur noch - Nick Woltema",
-          "publisher": "SPORT1",
-          "pub_date": "2026-09-02T08:46:55+00:00"
+          "title": "Deadline Day 2026: Die wichtigsten Wechsel im Überblick - Premier League gibt fünfmal so viel aus wie Bundesliga",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPc2Z3Y1U4NjZJOWNfbnIyazY3UG9KWlN6VEVTLUp4NE50c1dlOTFKazlybHpWc0Itc3l2SUZUVFNRUlFZSWdUdTNVWnVMUTNPd0tHYThzY3J4alV3UlNWUWhIczJsMjFPUm5yc2Jtc3FScG1BQmw4STJBdzIxaWZnVlpQT0huNkNQQUFfUVJNT3JQRUU1SDJrZUZZN0RQSzFYYVc1Q2JwaUxyR3pMOHplZnZTY1EwRW5QT3JFb0FXVVlCS0FoYUhwNnNIUFlMNEhEYXo3cHE5UFlXSlZlemFGdWJ6LW1UT1B4?oc=5",
+          "description": "Deadline Day 2026: Die wichtigsten Wechsel im Überblick - Premier League gibt fünfmal so viel aus wie Bundesliga  Joyn4 Milliarden Euro für Spielertransfers: Premier League vermeldet neuen Rekordsomme",
+          "publisher": "Joyn",
+          "pub_date": "2026-09-02T08:09:33+00:00"
         },
         {
-          "title": "Transfer-Ticker: Bayern-Gegner bedient sich beim 1. FC Köln",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOalVWSTNTcVk2bDBmd0pPb0pfMEpIWTNUWFlENmhfWG80VXN3NjFDcExSQ2FrZXViSzNLaGlpRUtENVZGT1pyTXdHbmRpVVlyVy04R2tqV3g4N3gyNmlJUkF5RkNQQVVteHV6ZEJjQXBMTGZmVktJcW50ajgxODNQb0xzWXJYR3hRbWNfaTR4eURPZktxTHVBSi1jMVA?oc=5",
-          "description": "Transfer-Ticker: Bayern-Gegner bedient sich beim 1. FC Köln  sport.deDeadline-Day-Transferticker: Die wichtigsten Done Deals und Entwicklungen  TransfermarktDie fixen Transfers am Deadline Day  Sport ",
-          "publisher": "sport.de",
-          "pub_date": "2026-09-02T09:21:00+00:00"
+          "title": "Eberhard Vogel ist tot: DDR-Rekordspieler stirbt mit 83 Jahren",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ0cwbVRzdUEzN1lFVG9PSXhJNldsLVJjQzZ0end1YW1CajBaQmdiMWEzZ1ktRU85eklma1pudGVZV2pjSkZSUVFiWG1Cc2VyazRJMzk0MEYxa3FrWk12VXNDaURnT0NhU05MQWNmNlFvQkRfSUY3TnNqcUhFUTdQR3pDT2RvNmFVVjIwTEpOOHU5NWZ0SzVON0JnNE1VRmNJTEg0LVhHYzc3Vk1ackplTEx6ei1fNVBWN2ZwT293?oc=5",
+          "description": "Eberhard Vogel ist tot: DDR-Rekordspieler stirbt mit 83 Jahren  BILDWeitere Schlagzeilen und Meinungen in Google News",
+          "publisher": "BILD",
+          "pub_date": "2026-09-02T11:00:53+00:00"
         },
         {
-          "title": "157 Millionen Euro: Bundesligist gibt mehr als Bayern und BVB aus - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd3NFN2NRX1E5VGNmd19LbTJVUE95WU1IQnN3OEJZcnJPNXcxejRxVUUwQUxQS1RoMDlTaUF3UDY0clVOVkZaYUxFZ0pXMjE3Ry1vUXM2M1RvS1pPb0RyX1NwYTZoWXc4VWcyamNhM3JCVF9pZzVxQVpMU04yR0JvUGtiWTNvZmVHeTM1SVg5eXdyb3BlOTNPdGJqdlNZY3NocjR3SjNjeHBSckctMDNmNE56dThXNFRSR0JSclFRTkNDLWpocEFPVjNEaGs4VGs?oc=5",
-          "description": "157 Millionen Euro: Bundesligist gibt mehr als Bayern und BVB aus  T-OnlinePremier League gibt fünfmal so viel wie Bundesliga aus  SPORT1Fast alle teuersten Transfers des Sommers haben eine Gemeinsamk",
-          "publisher": "",
-          "pub_date": "2026-09-02T06:26:49+00:00"
+          "title": "BVB-Legende: \"Woltemade erinnert an den jungen Ibrahimovic\"",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdjRteHNEcmJXS3pISHVCeWlfT011b0l2SVQ1dWc1WXVmMGYyT2I0d1JHOGFjQngxcWR6ZzV4RkhHTXNsS2pXeHgzZ3lDcFQxS0dTVjNGR2ZJRkxReG1TMm5pODd0c01rVXdDXzlUWWQ5cHFKcFNLR2pxTjMxRXBRZXFkaGZTSkw3bG1wN29ETzhzaEdrZXQ2WVdLU0tuN0g2UnJ4aUJ2OEo?oc=5",
+          "description": "BVB-Legende: \"Woltemade erinnert an den jungen Ibrahimovic\"  Sport1Hamann kritisiert Transfer von DFB-Star: „Gefällt mir nicht wirklich“  Sport Bild(k+) Start mit Völler und Goethe: Was Woltemade bei ",
+          "publisher": "Sport1",
+          "pub_date": "2026-09-02T12:03:17+00:00"
         },
         {
-          "title": "Trauer um DDR-Fußballlegende: Eberhard Vogel ist tot",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaDVNQkliZHZOaXU2cGk2NmFkSFVlY2NsaXdRM3dWYWVmemhLbVlhQkJVMVFCOXVvZzNZR3pJemw0QTZfZlVPOVRkZ296eWF0UFBYb2NjTXg0RThiM1V1Y0pOS1Z1LXd4ekd2UUZpdVI0NDNEQlJiRzE1LXVIY2QyUThBZkw2MFZrOFVxemFtd0RiSi1oV0tTWXFjU1E?oc=5",
-          "description": "Trauer um DDR-Fußballlegende: Eberhard Vogel ist tot  TAG24Weitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "TAG24",
-          "pub_date": "2026-09-02T09:33:00+00:00"
-        },
-        {
-          "title": "Sosa als letztes Puzzleteil: Der 1. FC Köln finalisiert seinen Kader - Kölner Stadt-Anzeiger",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM0dyZDB6QVF4cmp5aHlEWGV4QWJrcnJ5OGphTUt3YnNLbEowYmQtT2tqV2YtVGRrVHV6ZHVWQkJiN3ozY01JSTF1bVdzUEdzNW1VNWEzQU1NbExZb0cteEc0WVhBb2M3SW1QM2M4MUVodU9WSDdxNTFzNW5ocjRaTHVHdWl6cFMxUnFyWFFzQWs2MHN0cV9PVWhFeGdFUHlGZUxlanlqVkFlcXJEV19EQk03anYwbzQ2?oc=5",
-          "description": "Sosa als letztes Puzzleteil: Der 1. FC Köln finalisiert seinen Kader  Kölner Stadt-AnzeigerFußball-Transfers in der Übersicht: Der größte Deal am „Deadline Day“ kommt aus England – alle Wechsel hier  ",
-          "publisher": "",
-          "pub_date": "2026-09-01T19:32:24+00:00"
+          "title": "Pablo Garcia weint nach Transfer von seinem Jugendklub Real Betis",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS2o5dEFkRGEySHFxMVp0RWlWWGZHOTNIbGV3WS1VeFluTml0dXNuXzRYbnpIbkRUaG00THBFUzNTcG9rQktpalF4NFJMektacHVLdEdiODdFT1dLNnJqdEdqY3NvekhWNkUwOUdPY2pBZVQxMnFzLUdFN2pjdVdRVERQVHNaRE5OamlRZnlMVTRBRzhDWlN3OHNPSmlMRlNBMVRFcTJEcFlXMlZaeDBHTA?oc=5",
+          "description": "Pablo Garcia weint nach Transfer von seinem Jugendklub Real Betis  WEB.DEWeitere Schlagzeilen und Meinungen in Google News",
+          "publisher": "WEB.DE",
+          "pub_date": "2026-09-02T11:15:02+00:00"
         },
         {
           "title": "Meregalli über Quartararo: «Fabio sollte sich ein Beispiel an Jack nehmen»",
@@ -1173,62 +1182,69 @@
           "pub_date": "2026-09-02T08:22:04+00:00"
         },
         {
-          "title": "Manchester City: Enzo Fernández wird für 145 Millionen Englands Rekordtransfer",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObzVQYTZfU200elBaSXZqVGhnellxOGlnclhwdmhjWnA2ZFpkM3lJVnYxQWVrSHlTSGkxWktOVmpPaFNUNkREZ2hyVGxkeWJmRzliZTdrOHFudHRjNEJXQm9WejJMUWhnOEs1WElubW5XR3FSekl0dnhtYmNjMXUyVWh5aDZYQXBKMUpQRHkwS0FqbmFLa0FEczBsdTlPOUw4SnoxY3V6ZjUwNkw1ZXRDRi1hSmMxX3dzWVlDWk11R2o3ZkgzcHFUcU5MTEdCTGltMXdaUjBYT052LUFYSWswdjJxVlVGZFo0eWNv?oc=5",
-          "description": "Manchester City: Enzo Fernández wird für 145 Millionen Englands Rekordtransfer  SpiegelWeitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "Spiegel",
-          "pub_date": "2026-09-02T06:17:00+00:00"
-        },
-        {
-          "title": "„Weg frei machen“ – Antonio Rüdiger tritt aus der Nationalmannschaft zurück",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQOGctR0xMWkxDdGNqX2JWclVEOFo0QWM1aEl1RVhySUQ3MlVmNHhrLW5TWEtwcEsyWkl6aE9fZy04MTNJTWFkMkhWbWtoZUd6QzJZZ3Uwdmx6dXdxWFkwUEh0TmxRMk1ValBUREZKU05BeDFaUkk0NDJtcUI4a2FERjZleTQzbXRHbDFQUE5NMmhsalJpdnlNSEZtV0tObzI5MzZlS1BuQjdmWGs5WWZENHcyZ2NIUnVhMk1ZaFJaRnFHb2RCZzlmc0ZqMkVWSUZvUW1IRkhTeXMxRGJHbHpNZW9MNGgtNm1fN2c?oc=5",
-          "description": "„Weg frei machen“ – Antonio Rüdiger tritt aus der Nationalmannschaft zurück  WELTAntonio Rüdiger tritt aus der deutschen Nationalmannschaft zurück  BILDRücktritt aus DFB-Team: Der seltsame Fall des An",
-          "publisher": "WELT",
-          "pub_date": "2026-09-01T15:19:54+00:00"
+          "title": "Fußball-Nationalmannschaft: Antonio Rüdiger tritt aus deutscher Nationalmannschaft zurück",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcVc3b1VrNEdWZjgxeTBBQmUzb0tYLW03X3k2SVN6b0h3NEVNY0ZvNzJDRVZOSWpSQnVCUkplcEdpTmFQV3pXNkZpOHQ0ZFZESkl1WUs2TGdHbmhXbWdTb3MwVU1iLXBUdnl5U3lNdXU5bEtTYmt4OWotLWxFY0dCTzV2RVBLUTRFOGM4eU9scTJ2Z2xOX1Aw?oc=5",
+          "description": "Fußball-Nationalmannschaft: Antonio Rüdiger tritt aus deutscher Nationalmannschaft zurück  DIE ZEIT\"El Loco\" hört vor Klopp auf: Die zwei DFB-Seiten des Antonio Rüdiger  n-tv.deRücktritt aus DFB-Team:",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-09-01T17:22:50+00:00"
         },
         {
           "title": "Borussia Dortmund leiht Ethan Nwaneri vom FC Arsenal aus",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTUxucVZKem5VMjRTR0VjdXhZWWN5dUJYR2RWNFZkVC1mUzNSbjFWTGNFN05uTHFtLXFQSmZpNEJad1pJSkxlMmdPR3VyZHVzWWNLVXFZVmx5blptTTRKZGFHdjRDZm5Ca3RYZ2NsR1RIN2ZORlNHTkFkbEhBYkRNS3k4UlNDZ0VJd0Y0bjNISWJrZDdPd2Fadl9IX1U2dG1OZmxKdTJCaEd1OFZqX2c?oc=5",
-          "description": "Borussia Dortmund leiht Ethan Nwaneri vom FC Arsenal aus  sport.sky.deEthan Nwaneris erstes Interview als Borusse: „Werde um meinen Platz kämpfen!“  BVB.de„Hat man in der Form selten“: Erst die Person",
-          "publisher": "sport.sky.de",
+          "description": "Borussia Dortmund leiht Ethan Nwaneri vom FC Arsenal aus  Sky.deTransfermarkt: Borussia Dortmund leiht Ethan Nwaneri vom FC Arsenal aus - Sport - SZ.de  SZ.deBVB holt Arsenal-Toptalent Nwaneri als Ers",
+          "publisher": "Sky.de",
           "pub_date": "2026-09-01T20:58:00+00:00"
         },
         {
-          "title": "WM-Sündenbock verweigert Transfer nach gescheitertem Medizincheck",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSWlCQXBtZ1RXb0QwdEFGWDVNUm9xQU9OM2s3cDlNYXlCcEFnai04MkV3YkI3dmx1d05uZjl4czBwOGhOVE1FQ2ZVenNfYUlzZlJ5Y0JITWhVMFVMVkdJV05UWW1saXRRUDlSVnIzQWQxVVNiRDJVZVA1aUw3NVVHbUdmV3ZwRE5jcmhoMw?oc=5",
-          "description": "WM-Sündenbock verweigert Transfer nach gescheitertem Medizincheck  SPORT1Evertons desaströser Deadline Day - Fans kündigen Boykott an  KickerFußball: Transfer-Wirbel um Ex-Bayern-Star! In letzter Seku",
-          "publisher": "SPORT1",
-          "pub_date": "2026-09-02T08:21:38+00:00"
+          "title": "FC Bayern: DFB-Pokal – beginnt jetzt der Plan für Neuers Nachfolge?",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOTBKTWg5Vl9zemwwOXRjeDM0MDdWMVVtVFVjX3VuS2VqRXdXcTNiM055LTNDd0ZwY3U3TWtxdjhHMXhmRGlaSEh1OW9VazdkRGNMRUVUc1o1aURxU0pvdWxLcG1NNVlvMDlqbmdyTldjelVZbExwMmtEQkxPckxCNkZmOUZzdzZnekgzbGROdlNHNUt4TmZ0M3RZb214ZWd6amtuNmpIU1VlVVVPSFhmSjVFQjhJQ2gwYkdfaURoaF84dVQ3MVBHZVlNYnhhRjJsdEE?oc=5",
+          "description": "FC Bayern: DFB-Pokal – beginnt jetzt der Plan für Neuers Nachfolge?  WELTUnderdog empfängt Rekordmeister: Osnabrück fiebert DFB-Pokalspiel gegen Bayern entgegen  NDR.deOsnabrück fordert die Bayern: Po",
+          "publisher": "WELT",
+          "pub_date": "2026-09-02T09:40:43+00:00"
         },
         {
-          "title": "Eine Blamage als Warnung: Bayerns Pokal-Auftakt in Osnabrück",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcDd4RGNaQ3JUWkVyRG12cXFENnRaRlU2SHpwc013Z1RYWjNvb0s1bi1ldzFUQ29NRU5YVEEwd0RtOUZhMG1JMXZMaHN4V2ZzSm5JVG5hVTQxYjQ0Vmw3WVJlUmlxYUJnczNYc1BxelBzdF9Ta2NfUHdPenNTb2dxUkdlSklOX0lEMUEyR0Z5OVZOdURjZDBvVzR0cWxUVW9jUDlxc3BqUTY0QmhRMUhmZEVpcVRTY3AtOVBVcUc2QVZrbXVPeFVHb2dja1AyT0NK?oc=5",
-          "description": "Eine Blamage als Warnung: Bayerns Pokal-Auftakt in Osnabrück  br.de\"Gehen all in\": VfL Osnabrück will Bayern München an die Lederhosen  NDR.deFC Bayern: DFB-Pokal – beginnt jetzt der Plan für Neuers N",
-          "publisher": "br.de",
-          "pub_date": "2026-09-02T06:34:28+00:00"
+          "title": "Live! Transfer-Krimi in letzter Minute: Schalke leiht diesen Stürmer aus",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMkMzMXRkZnN3NTZ4N2NlTEdHWUxnWlNXSmpXelJod0EyT2VTUFpoT0wzOWxGNm12S3pza1FVX0hWUDBLS1pZTHpteXhqYXdqNjl1ZFF5c1pBdjFVT3pCdUxJNlcyT3VabFcyd2xKclpFVzI1RkkwODFxNU0tUmhKVk9WVEZ1bXd2VkFjbFZTV250Q09LRWJDcWt2NXB4LVBXdW9WM1k5OTJKOW1vTDJ6QnNVTFBFSGhXdzg5XzJfM2YzVGlIZWh2aTgtRVE0cnZzQWc?oc=5",
+          "description": "Live! Transfer-Krimi in letzter Minute: Schalke leiht diesen Stürmer aus  WAZLeihe von Christian Gomis zu CD Teneriffa  bundesliga.comMit Kaufoption: Schalke verleiht Gomis  KickerOffiziell: Schalke v",
+          "publisher": "WAZ",
+          "pub_date": "2026-09-02T07:30:42+00:00"
         },
         {
-          "title": "Osnabrück holt 3. Neuzugang am Deadline Day: Bakatukanda kennt Trainer Schultz aus Köln",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPay1fMWowS1cwUXdreUl6bXp4VmZTaVl3Z3ZIV0tEOUdfTkhMMmk2TTlnWjB4VHROTFVUVmw0RGczbDBKTHdrdUNnR2JmVjFob2RPRU14aWlMYlBpbHdIVUtXS3BKa2pZdlpuVTM4Y2I4VWJncFg0cDBlZ1JOaE1rVGd4NTlFc3NVZlgzSG9sX3hxUXpqTG8yUGpGREJxbjJQbTZXR1pPdWRFamdpdVJaNmE0OG1XWUI5ZHlkTFF3RzhmamJ0UnVidENfTQ?oc=5",
-          "description": "Osnabrück holt 3. Neuzugang am Deadline Day: Bakatukanda kennt Trainer Schultz aus Köln  TransfermarktJonathan Gómez verstärkt die linke Seite  VfL Osnabrück2. Liga: Inklusive Bundesliga-Profi - Diese",
+          "title": "„RMC“: Balogun bei Everton durch Medizincheck gefallen – Schlecht für Brunner in Monaco?",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOHY1aHQ5SEtwalZhNzRxa0hPSDB6U3Y0NHBQaFZ6RFpkcURXSzZXWmNVcGFwSEtFT0JaR1BZRmh0N0t1bkY2VkRrSWxZTXBtYXRkVnZPOF8tWkMyaXJmV3NmbjIxUHVjRER5SHpGUDJEdUJTQVFhWW9TbFVWZjNTQ0JzWk9ydTU3dWRHdnhyakUyeHhKMHphWjZld253WktrdzBrZjZkemd0TnlmZFNqWFlsd3NaalVhYnd1Q01zUWVULTlYcVJYTGlmSVJkd0Nr?oc=5",
+          "description": "„RMC“: Balogun bei Everton durch Medizincheck gefallen – Schlecht für Brunner in Monaco?  TransfermarktEvertons desaströser Deadline Day - Fans kündigen Boykott an  KickerIrres Balogun-Drama | Transfe",
           "publisher": "Transfermarkt",
-          "pub_date": "2026-09-02T07:59:00+00:00"
+          "pub_date": "2026-09-01T21:25:00+00:00"
+        },
+        {
+          "title": "Premier League: Verwirrung um Rekord-Ablöse für Enzo Fernandez",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMjlobGxkOEptM012aUlBZTNuQzVIOTNOcVc1MWVxNzcyQUp2eTYxYWtmdjl2U3lQdndVS1RNRkNObWFYSXoybUlRRll3T1VEN3dhRUE2NkJoYmJXY1YzUnp3bHh3VlEzQ0VTU0RoUGw5YlktdEVPWHpVSmRmOFNBVmlQU29xTnN2X1g4TkZwOG41N0xVSzFIMWFlUTYyOTZLVHI4?oc=5",
+          "description": "Premier League: Verwirrung um Rekord-Ablöse für Enzo Fernandez  sport.deWeitere Schlagzeilen und Meinungen in Google News",
+          "publisher": "sport.de",
+          "pub_date": "2026-09-02T12:36:00+00:00"
+        },
+        {
+          "title": "Köln holt ehemaligen VfB-Profi",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY1BNbWNfeElwN3VGM25tNHBqX25VUnpSekhfNk93UG9yN3hEWWxRb1FFX2NheUs2eE56U0lxR0FWbzQ3d3lwTnBZeWtLOXNYV0JMUDk4UDNxMGhWekFmVXBZYkpjS19ONGJvZ0dUTG9IejBjLUNoTWp0aVpvQ0ZoVFh2MURqWnJhU0szNjQ1MDVBQnZxQlRQWXFDdw?oc=5",
+          "description": "Köln holt ehemaligen VfB-Profi  Sport11. FC Köln holt ehemaligen Bundesliga-Star  BILDTransfer in letzter Minute: Sosa-Krimi beendet: FC verkündet Leih-Deal  ExpressDe Wit ist Kölns Alternative zu Sos",
+          "publisher": "Sport1",
+          "pub_date": "2026-09-01T19:28:37+00:00"
         },
         {
           "title": "Eintracht Frankfurt: 6 Deadline-Geheimnisse enthüllt!",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNX1FSVFV0eTBaZFdsUlQydmxsN1RtV3NpWEZUc1lKbVBuQWtVTUFoTFBIcEIzYVgxVVNzaU1FLW5wQXVIaFQ4SC1ScE9oWE9UWUtCcjhNTkNuNWFYTlJsZW9VcmpsYU92RVNQNGdoUk4yZl9XRHNSRVd5amFXMW5oSnBsV1FmNW5qUVZtWFBVV1Rxdmg0V2xwTUtMVWNaQmYyV19RR3RqTGRBek03cUhRd0ZR?oc=5",
-          "description": "Eintracht Frankfurt: 6 Deadline-Geheimnisse enthüllt!  BILDEintracht Frankfurt: Wie groß sind Hütters Sturm-Sorgen wirklich?  BILDRätsel um Finanzen: Trotz Rekordverkäufen liegt Eintracht Frankfurt in",
+          "description": "Eintracht Frankfurt: 6 Deadline-Geheimnisse enthüllt!  BILDEintracht Frankfurt: Wie groß sind Hütters Sturm-Sorgen wirklich?  BILDFulham verhandelt über Larsson – Nizza-Option für Nkounkou  n-tv.deSpä",
           "publisher": "BILD",
           "pub_date": "2026-09-02T10:47:23+00:00"
         }
       ],
       "health": [
         {
-          "title": "Cholesterin: Bei diesen Patienten senken Statine das Risiko für Demenz",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcUxfQjQxcTdLQktmREUxN19GZlRLSFh1UkRGMnBuTS1xeDJGQURDR2Q3U3ZSdjBubVhrSXRoVjNUa2kxeU4xRDZ2a3dMeWdxSzhvanVocVcyU1dsSkxYQzlQVXhfNkk1Z1lTVExLNlFUalVLMUZOLXpEczI3SExnQ25fai1YUFFMWDZQSi02VFY0azlGTzMyV0hhTGk5ZzQ4TmJoeGJFSk9BdkJFeVIyQjNLRGZKZWEzUWYwbC1jQXNIb2V3VzFxdENMRC1jbjB5SXI5Uw?oc=5",
-          "description": "Cholesterin: Bei diesen Patienten senken Statine das Risiko für Demenz  WELTTyp-2-Diabetes: Statine sind mit einem geringeren Demenzrisiko assoziiert  Biermann MedizinEin preiswertes cholesterinsenken",
-          "publisher": "WELT",
-          "pub_date": "2026-09-02T09:28:00+00:00"
+          "title": "Statine und Demenz: Frühe Behandlung senkt Risiko um 15%",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVJMdTN2SHhnOVJMaXdBZHVGbVZwakFwUmpTeEFqRm5FaXhPTDNudHFDMmpSa1p3Smp1eXB2YXFNN2N3Y1RTZFlMVUJWbnNmTmM0ZUQyeW9wVUpnNjU4MVNHQlMzU1lFZWJydFE5RWNHekhEVFczNVk3UDJ3aWFNRnkyRVVYRTdCcUNjNTMxRDdoV2RuMk9icUpISzF6S01GTk9aMGdkZVprMTF3aXVwUTBn?oc=5",
+          "description": "Statine und Demenz: Frühe Behandlung senkt Risiko um 15%  AD HOC NEWSTyp-2-Diabetes: Statine sind mit einem geringeren Demenzrisiko assoziiert  Biermann MedizinEin preiswertes cholesterinsenkendes Med",
+          "publisher": "AD HOC NEWS",
+          "pub_date": "2026-08-31T17:18:23+00:00"
         },
         {
           "title": "Nierenfunktion bei Herzpatienten prüfen: DGfN fordert eGFR und UACR",
@@ -1238,25 +1254,46 @@
           "pub_date": "2026-09-01T11:12:00+00:00"
         },
         {
+          "title": "Digitoxin senkt Risiko bei Herzschwäche: Winterstein-Preis für DIGIT-HF",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORjdrVXZUUFl2dzViODdHbHk0WGIwcXZEWnAwbWtTUW44Mk5oZDhCY0ttWHB0Q08wb2g4bUNpOXg5RU5lSV9jdTNZUENqaENsNDU4SlpRZ1RXbTVxUE5mdkhPVkc5UFlUWHRiWWpJTDVTUUowT1RIbmxiYjVGTDVfNkVvb0dkYm1uakhQM0NNc3NHeWZFVXN4dEp2MTJMYzR3N2dzQkJDTUxwaTVaaDd3VmI2UFliYTF1SnVZcktoWQ?oc=5",
+          "description": "Digitoxin senkt Risiko bei Herzschwäche: Winterstein-Preis für DIGIT-HF  Monitor Versorgungsforschung",
+          "publisher": "Monitor Versorgungsforschung",
+          "pub_date": "2026-09-02T11:46:00+00:00"
+        },
+        {
           "title": "Adipositas: Studie entwickelt KI-Prognose über Behandlungserfolg - E-HEALTH-COM",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQ25fQ3NmcmJuNUZRVXJEZ2QtWHRpNUdxVlAzN3ZNS0tYek5CSEdxTFk3S2I2a3pXdEMtMk5JOHB3cmg1czFDbGdrZG9nOEF5Um1UNFBHMWx1SjN5UUdzTlpjRzgwbk1qQ2M2UG1yU1YtUW41VjF0cW5qWXloQUhPMjB4NXJGX0pmS0NOeXNrRFRWMFo2UWxOaG5BTm5HS1RqMnJxdQ?oc=5",
-          "description": "Adipositas: Studie entwickelt KI-Prognose über Behandlungserfolg  E-HEALTH-COMStudie: Welche Therapie hilft beim Abnehmen?  tagesschau.deKünstliche Intelligenz soll Erfolg von Abnehm-Therapien vorhers",
+          "description": "Adipositas: Studie entwickelt KI-Prognose über Behandlungserfolg  E-HEALTH-COMKünstliche Intelligenz soll Erfolg von Abnehm-Therapien vorhersagen  staatsanzeiger.deKI prognostiziert Erfolg einer Leben",
           "publisher": "",
           "pub_date": "2026-09-01T09:08:22+00:00"
         },
         {
           "title": "Studie warnt vor zu starker Blutverdünnung",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYW1DWkVkYV8zTzM0OHhSSDRqWnlmYnV5bGp5LVZSc09rbXctUFVPS0RDOVh2MENzMjN1UFhINWE5U2pkMzRVbVBhRnlCaEJQXzhkajRVMDJ5TURzMEh5YzQ4NmJZYU1ETTh2eDhsM2RMOVBuQVFpcVpoRTNYZlY2SnNOQWdnZXZI?oc=5",
-          "description": "Studie warnt vor zu starker Blutverdünnung  stgallen24.chESC 2026 | Alt plus App plus Arztsoftware = bessere Versorgung?  SpringerMedizin.deVorhofflimmern: Neue Evidenz für DOAK  MedscapeSINGLE-AF: DO",
-          "publisher": "stgallen24.ch",
+          "description": "Studie warnt vor zu starker Blutverdünnung  stgallen24Vorhofflimmern: Neue Evidenz für DOAK  MedscapeESC 2026 | Alt plus App plus Arztsoftware = bessere Versorgung?  SpringerMedizin.deSINGLE-AF: DOAK ",
+          "publisher": "stgallen24",
           "pub_date": "2026-09-02T08:34:23+00:00"
+        },
+        {
+          "title": "Verdoppelung der Häufigkeit von Hirnaneurysmen in den letzten zwei Jahrzehnten - idw",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9SSlpOZExxanR4NTR0QVRTMmNYNFZmclhqT1JQRXRxVzVaWkJfS29qQjNzUWFFSTVJcG1XZ1Vna0JqcjZpTzhlTmx5UQ?oc=5",
+          "description": "Verdoppelung der Häufigkeit von Hirnaneurysmen in den letzten zwei Jahrzehnten  idw - Informationsdienst Wissenschaft",
+          "publisher": "Informationsdienst Wissenschaft",
+          "pub_date": "2026-09-02T09:06:00+00:00"
         },
         {
           "title": "MS-Therapie: Mainzer Wirkstoffpflaster auf dem Weg in klinische Studie",
           "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPX0NESUZ2TmYzdHZ2ZUs0SVNTODdZRXZiX0tYdWs2RWptT09WZHNHdVBwOFY3T1dDeFFHcW9LX1B5c2pqQWRVMXFUelVMLUpNZUdRbUpTR2lSSDZhV3kxQThyUDNNbjh1WHdsY0J5dE5NT2hYaW54WXEyLVFjak5xM0VnbzBROXlIMTg5SDhuS3hsS3JsMnh1YUoxT2I4RXBOVWJaUjFudzBmYzZuTXJ2UVpOQVYyV25pSlhMeTl0ZmVTSy0tcHE5cllsVE1RQQ?oc=5",
-          "description": "MS-Therapie: Mainzer Wirkstoffpflaster auf dem Weg in klinische Studie  merkurist.deNeues Therapiekonzept soll Krankheit stoppen  tirol.ORF.atMainzer MS-Therapieansatz auf dem Weg in die klinische Anw",
+          "description": "MS-Therapie: Mainzer Wirkstoffpflaster auf dem Weg in klinische Studie  merkurist.deWeitere Schlagzeilen und Meinungen in Google News",
           "publisher": "merkurist.de",
           "pub_date": "2026-09-01T13:27:03+00:00"
+        },
+        {
+          "title": "Impfen bei Immundefizienz: Worauf es ankommt",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNX0paYlNYRUJNRHJNZ1hWNk90Zm9sTXVTQnF5enRpRkpObGJqOVdxOUY4UVpoZ3BXd2RlZlFINkxRdzdwMmprTGJTWWxjSUkzQlNmY3dHbldvODlldnF4OUl5QnNVa3FtZWRrTTNyQkRNMm4zT3Byay1pYVJUR3ppQ05xTEVaYjlGZ0htdmgyeHMwOE8wUnlZ?oc=5",
+          "description": "Impfen bei Immundefizienz: Worauf es ankommt  AerzteZeitung.de",
+          "publisher": "AerzteZeitung.de",
+          "pub_date": "2026-09-02T12:59:27+00:00"
         },
         {
           "title": "Metaanalyse zur Inkontinenz-assoziierten Dermatitis bei Erwachsenen - bibliomed-pflege.de",
@@ -1266,20 +1303,6 @@
           "pub_date": "2026-09-02T11:18:07+00:00"
         },
         {
-          "title": "Verdoppelung der Häufigkeit von Hirnaneurysmen in den letzten zwei Jahrzehnten - idw",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE81cWp2ZDRtVW0zV29EaUlfdGdWWk11bWpYSFhjc19OejJQeHNkUE9vT3M5dDN2amVqTUZEWFRhbEZGeVR5aENncDhYYw?oc=5",
-          "description": "Verdoppelung der Häufigkeit von Hirnaneurysmen in den letzten zwei Jahrzehnten  idw - Informationsdienst Wissenschaft",
-          "publisher": "Informationsdienst Wissenschaft",
-          "pub_date": "2026-09-02T09:06:00+00:00"
-        },
-        {
-          "title": "Was Schilddrüsenhormone mit Grippe und Krebs zu tun haben könnten",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU2ZCcTRZUFJOdUFEN011WkFBdVBVdlBxeWE0VDhXalpYRDlJODZlNllLeVF4UkxKYWlqWEwzMDZJWlQ5Z3M1Wk16TFVULWFxZjJ1elZCbWNadkpJbmN3QXRvQ0NaeU54cnU3NkxQR1RoVGViT1M4NWdmdElOelozTE1XdkU3QV92Z2xKWEppcFl0TGMzZ0pzVzl6UzQ0dw?oc=5",
-          "description": "Was Schilddrüsenhormone mit Grippe und Krebs zu tun haben könnten  MedEcon Ruhr",
-          "publisher": "MedEcon Ruhr",
-          "pub_date": "2026-09-02T08:56:54+00:00"
-        },
-        {
           "title": "BIST DU TINAS LEBENSRETTER:IN?",
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE43aXdWeVZkczVLLU5YdmdNOGxJVmVfTmFwbUZ5OWhpUEhhWTJJNkJZNkdFdjBabzMtb0xiNFV5MG40djhHaDBLaW5LYmZDOGhDMVdWLWczcjdDcWdFSHdTR3lrcw?oc=5",
           "description": "BIST DU TINAS LEBENSRETTER:IN?  DKMS",
@@ -1287,11 +1310,11 @@
           "pub_date": "2026-09-02T08:10:40+00:00"
         },
         {
-          "title": "CAR-T-Zelltherapie in Phase-1-Studie bei rheumatoider Arthritis erfolgreich – News",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQclpJS0YwRlBlSUx0Z3hkeDdzZHUtSWFQMEJOVnRZTnlOcTRXUld1SnZfWWRleTZxVHpjMHRxT3dZYkNid2pQd2tYVFpqaFNiYjhOdjBhY0lBUFEyeWxIWGNaYU44eVFGZDhkSEtUS2g4SHd0NTRTanY0TEl2RXhGYmNSUmxpRFhGQzRMeUZWRjJPc1NnQ0l2NE1PaUpKbnlaSl9oeFo3RE16b0xWUHRtUHFJQmlwYVNQdWpBajJHV0VWT2djYkhlaHpwT2I4ektDSUxaQUVzZC1EcEh6?oc=5",
-          "description": "CAR-T-Zelltherapie in Phase-1-Studie bei rheumatoider Arthritis erfolgreich – News  Deutsches ÄrzteblattCAR-T-Therapie gegen Rheuma: Immunsystem neu starten, statt lebenslang therapieren  pharmazeutis",
-          "publisher": "Deutsches Ärzteblatt",
-          "pub_date": "2026-09-01T15:01:59+00:00"
+          "title": "Studie findet erhöhtes Haarausfall-Risiko bei GLP-1-Mitteln",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9TNGpvMnBnb1lpXy1WclM5TnlFd1hESUFJUmxRb3ZTRHdINzVmLWppbDRYcm5Kb013RndXV1pCY3VNeml4TEJGUmc4anc2LVR1Vkl4ZzNUMVlTRkZaeHpobjRDcXZCMzF1Y0ZFeHJYaw?oc=5",
+          "description": "Studie findet erhöhtes Haarausfall-Risiko bei GLP-1-Mitteln  Münster Aktuell",
+          "publisher": "Münster Aktuell",
+          "pub_date": "2026-09-01T09:38:54+00:00"
         },
         {
           "title": "KI-Mammografie kann Herz-Kreislauf-Erkrankungen erkennen - zm-online",
@@ -1301,32 +1324,25 @@
           "pub_date": "2026-09-02T09:18:00+00:00"
         },
         {
-          "title": "Studie findet erhöhtes Haarausfall-Risiko bei GLP-1-Mitteln - ms-aktuell.de",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9TNGpvMnBnb1lpXy1WclM5TnlFd1hESUFJUmxRb3ZTRHdINzVmLWppbDRYcm5Kb013RndXV1pCY3VNeml4TEJGUmc4anc2LVR1Vkl4ZzNUMVlTRkZaeHpobjRDcXZCMzF1Y0ZFeHJYaw?oc=5",
-          "description": "Studie findet erhöhtes Haarausfall-Risiko bei GLP-1-Mitteln  ms-aktuell.de",
-          "publisher": "",
-          "pub_date": "2026-09-01T09:38:54+00:00"
+          "title": "Samenflüssigkeit begünstigt Mpox-Infektion – News",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNci1hS3JaWk9XOVBJVjZKemlEODhoYU5uTnBpOEdjeHNKWlluSE8wVXNuRWtfdkNHeS1JdWlHVEtNRU5GM0NrbS1lT1A2NnpzWTF1Mi13RDdDXzVkV1J2cjREUy0zb2x6NGpUVWpwSUxhbXNJNGVBQ045WjhmeGl5MGtCamczNjZpYk5XRXRFcXZiS3dDaGNKVldKdEVhclVjVUQ0djZRNXZlVHpocWs1Vw?oc=5",
+          "description": "Samenflüssigkeit begünstigt Mpox-Infektion – News  Deutsches ÄrzteblattSperma begünstigt Infektion durch MPox-Viren  Goethe University FrankfurtMpox-Übertragung: Frankfurter Studie erklärt Virusaufnah",
+          "publisher": "Deutsches Ärzteblatt",
+          "pub_date": "2026-09-01T13:20:49+00:00"
         },
         {
-          "title": "Neue Forschungsergebnisse: Wie Sperma die Aufnahme von Mpox-Viren fördert - pharmazeutische-zeitung.de",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmtIZUFnbXhERERZVi1uTTVNYnVuRkpIU1pFX0FvVkRwajlZR0M0VHR2eVlWNUVPRXBPZVdKRExOUUZsUWEzY2kxZHBUUERiMV9pY0dRbVo1b0lwdm44RDcyOGYxa0hTcnF4cEMxSjh3dmE3S3NLXzNGMjVqbzc3OEw5UmMxMVpKU1UxbzZxeGtuUUJCVVMtUVNR?oc=5",
-          "description": "Neue Forschungsergebnisse: Wie Sperma die Aufnahme von Mpox-Viren fördert  pharmazeutische-zeitung.deÜbertragung von Mensch zu Mensch: Studie: Spermien können Mpox-Infektionen begünstigen  n-tv.deSame",
-          "publisher": "",
-          "pub_date": "2026-09-01T12:30:00+00:00"
+          "title": "CAR-T-Zelltherapie in Phase-1-Studie bei rheumatoider Arthritis erfolgreich – News",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQclpJS0YwRlBlSUx0Z3hkeDdzZHUtSWFQMEJOVnRZTnlOcTRXUld1SnZfWWRleTZxVHpjMHRxT3dZYkNid2pQd2tYVFpqaFNiYjhOdjBhY0lBUFEyeWxIWGNaYU44eVFGZDhkSEtUS2g4SHd0NTRTanY0TEl2RXhGYmNSUmxpRFhGQzRMeUZWRjJPc1NnQ0l2NE1PaUpKbnlaSl9oeFo3RE16b0xWUHRtUHFJQmlwYVNQdWpBajJHV0VWT2djYkhlaHpwT2I4ektDSUxaQUVzZC1EcEh6?oc=5",
+          "description": "CAR-T-Zelltherapie in Phase-1-Studie bei rheumatoider Arthritis erfolgreich – News  Deutsches ÄrzteblattCAR-T-Therapie gegen Rheuma: Immunsystem neu starten, statt lebenslang therapieren  Pharmazeutis",
+          "publisher": "Deutsches Ärzteblatt",
+          "pub_date": "2026-09-01T15:01:59+00:00"
         },
         {
-          "title": "„Ohne eine Epstein-Barr-Virus-Infektion gibt es keine Multiple Sklerose“ - Kölner Stadt-Anzeiger",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObV96OFc2Umx6Tk9XUlJTeDM2b0JiNVNWT3lvMi1mTDZjZnZJZnhING5NWHcxTkVObXpTYjB1Zkg5QTBOVWpQb2dqekZ3RmpvS0NCOHU4RWtlVlNiNGQtYnFMM3ZRdlNDM3lIZHljZVNNQ3Rnd1hNcEZ3QnRDekkyTFpKejM0WldBRE11aUVYUTNYRWFBRGlpM3Z0ZHZ2endYRFZyT3c0cHljU05WbmFTeWVLUHRjZHZjZ2N3aWFYek9OZjV4?oc=5",
-          "description": "„Ohne eine Epstein-Barr-Virus-Infektion gibt es keine Multiple Sklerose“  Kölner Stadt-Anzeiger",
-          "publisher": "",
-          "pub_date": "2026-09-02T08:53:07+00:00"
-        },
-        {
-          "title": "CAR-T-Zellen gegen B-Zell-Lymphome: „Außergewöhnlich lange Remissionen“",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR2dsN2Q0MFZQVG5MTTR0YVVWc2lCQjFPY2NEUmRpVVpoX01sMzg2NmMxTVN2Z2w1VzVpNm5fM2hOaDRsRmxCQURIbS1IMVYwOWRRWUFkSUZoeVhZUEJMT05KYWhGYkNzcjBMa1JuZk5kdGhZYWxiR2JJWUNHeFNLSGV1UjZNNDhZbWUzc3hQTW1PWHR0WXczQi1ubDcxTEMtTzVYaDJYZXNYY1ZKcmIwRGhkbEFkVXdHSGo4?oc=5",
-          "description": "CAR-T-Zellen gegen B-Zell-Lymphome: „Außergewöhnlich lange Remissionen“  AerzteZeitung.de",
-          "publisher": "AerzteZeitung.de",
-          "pub_date": "2026-09-01T18:15:00+00:00"
+          "title": "Morbus Crohn bei Kindern: Einzelzell-Atlas zeigt Behandlungsansprechen",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV21vakpDTFpBVWNDa21TcV8yVXY1dXdIWnlmcGFLOEU0VlZWWnhWa1pZUE1jNjBHNFh6R1F3Rkl3OEdfejNmNmlLUk5ZZ0piMXdvRDJBRFIyQTBSeDRwQkdTUmtYdjVELXcyb2JNNE8tVjNzUGFRRDdoUGdmaFkxbWhSaG0tRExYTk9Sd042cEZWNWVxNnFycFVLdmNBekR5V2hTa0kySjJsckVoT2NPSXROTEdPMHRxSEE?oc=5",
+          "description": "Morbus Crohn bei Kindern: Einzelzell-Atlas zeigt Behandlungsansprechen  AD HOC NEWS",
+          "publisher": "AD HOC NEWS",
+          "pub_date": "2026-09-02T10:48:27+00:00"
         }
       ]
     },
@@ -1335,6 +1351,42 @@
         "name": "Der Spiegel",
         "type": "articles",
         "items": [
+          {
+            "title": "Venezuela und die USA: »Trump sieht das Öl als Kriegsbeute«",
+            "link": "https://www.spiegel.de/ausland/venezuela-und-die-usa-trump-sieht-das-oel-als-kriegsbeute-a-0c9a4d1b-2529-4c09-939c-116b13195f0f#ref=rss",
+            "description": "Mit einem Deal will der US-Präsident den Großteil des venezolanischen Öls übernehmen. Für das Land verheißt das nichts Gutes, sagt Experte Gustavo Coronel. Hier erläutert er die Folgen.",
+            "pub_date": "2026-09-02T14:46:00+02:00"
+          },
+          {
+            "title": "Commerzbank-Chefin Bettina Orlopp bestätigt Gespräche mit UniCredit",
+            "link": "https://www.spiegel.de/wirtschaft/unternehmen/commerzbank-chefin-bettina-orlopp-bestaetigt-gespraeche-mit-unicredit-a-c8b5245f-fc48-45a8-9cef-cc54cc3013bc#ref=rss",
+            "description": "Lange wehrte sich die Commerzbank gegen eine Übernahme durch Unicredit. Jetzt berichtet Bankchefin Bettina Orlopp von direkten Gesprächen mit den Italienern – und warnt vor einer übereilten Integratio",
+            "pub_date": "2026-09-02T14:45:00+02:00"
+          },
+          {
+            "title": "Aarau: Polizei bezeichnet Angriff bei Rave in der Schweiz als Amoklauf",
+            "link": "https://www.spiegel.de/panorama/justiz/aarau-polizei-bezeichnet-angriff-bei-rave-in-der-schweiz-als-amoklauf-a-2867b180-fb17-450a-aad2-d7f47a525926#ref=rss",
+            "description": "Bei dem tödlichen Angriff bei einem Rave im Schweizer Kanton Aargau hat es sich nach Polizeiangaben um einen Amoklauf gehandelt. Die Ermittler gehen von einem Einzeltäter aus.",
+            "pub_date": "2026-09-02T14:42:00+02:00"
+          },
+          {
+            "title": "Bergheim in NRW: Ermittler finden sechs Abschussvorrichtungen auf Feld",
+            "link": "https://www.spiegel.de/panorama/justiz/bergheim-in-nrw-ermittler-finden-sechs-abschussvorrichtungen-auf-feld-a-e1ab7a51-2729-4981-ab0b-52b7b1b90a3e#ref=rss",
+            "description": "NRW-Innenminister Reul spricht von einem »Angriff auf unser Land«: Nach der Störung an einem Umspannwerk in Bergheim bei Köln haben die Ermittler sechs Abschussvorrichtungen in einem Feld gefunden.",
+            "pub_date": "2026-09-02T14:31:00+02:00"
+          },
+          {
+            "title": "Marcant über seinen Kampf gegen die AfD: »Es gibt viele, die mich tot sehen wollen«",
+            "link": "https://www.spiegel.de/politik/deutschland/marcant-ueber-seinen-kampf-gegen-die-afd-es-gibt-viele-die-mich-tot-sehen-wollen-a-cc56894c-086f-435e-9fd2-1dec06e8e6db#ref=rss",
+            "description": "Er geht auf Veranstaltungen der AfD, diskutiert mit Wählern – und wird massiv bedroht. Hier erzählt der YouTuber Marcant, warum er trotzdem weitermacht und den Osten warmherziger findet als den Westen",
+            "pub_date": "2026-09-02T14:22:00+02:00"
+          },
+          {
+            "title": "Forschung: Millionen Jahre altes Fossil entpuppt sich als Übergangsform",
+            "link": "https://www.spiegel.de/wissenschaft/forschung-millionen-jahre-altes-fossil-entpuppt-sich-als-uebergangsform-a-3143d514-5491-4faa-93e8-747d5c75f872#ref=rss",
+            "description": "Wie gingen Insekten an Land? Bislang stellte diese Frage ein Rätsel dar. Ein internationales Forschungsteam hat nun ein Fossil untersucht, das wohl ein Mischwesen war – und eine Lücke im Stammbaum sch",
+            "pub_date": "2026-09-02T14:05:00+02:00"
+          },
           {
             "title": "Bergheim in NRW: Herbert Reul spricht von Anfangsverdacht der »verfassungsfeindlichen Sabotage« an Umspannwerk",
             "link": "https://www.spiegel.de/panorama/justiz/bergheim-in-nrw-herbert-reul-spricht-von-anfangsverdacht-der-verfassungsfeindlichen-sabotage-an-umspannwerk-a-ca662033-4339-45bd-a5fd-2d2146522543#ref=rss",
@@ -1384,46 +1436,10 @@
             "pub_date": "2026-09-02T12:34:00+02:00"
           },
           {
-            "title": "Wetter: Hitze kommt mit mehr als 30 Grad nach Deutschland zurück",
+            "title": "Wetter in Deutschland: Hitze-Comeback mit mehr als 30 Grad im Süden",
             "link": "https://www.spiegel.de/panorama/wetter-hitze-kommt-mit-mehr-als-30-grad-nach-deutschland-zurueck-a-420deba1-7057-4a72-aa60-9431c12fd7fe#ref=rss",
             "description": "Der Hochsommer ist noch nicht vorbei – zumindest in Teilen von Deutschland. Während im Norden der Herbst übernommen hat, kann sich der Süden auf heiße Tage freuen.",
             "pub_date": "2026-09-02T12:31:00+02:00"
-          },
-          {
-            "title": "Magdeburg: Zweite Beisetzung von Kaiser Otto dem Großen kurz vor Landtagswahl",
-            "link": "https://www.spiegel.de/geschichte/magdeburg-zweite-beisetzung-von-kaiser-otto-dem-grossen-kurz-vor-landtagswahl-a-677423c9-2234-4244-ac06-d16362a6820b#ref=rss",
-            "description": "In Magdeburg wird Otto I. ein zweites Mal beigesetzt, 1053 Jahre nach seinem Tod. Fünf Tage vor der Landtagswahl in Sachsen-Anhalt wird der Festakt zur politischen Bühne. Wer darf den Kaiser deuten?",
-            "pub_date": "2026-09-02T12:13:00+02:00"
-          },
-          {
-            "title": "Dylan Sprouse nennt Start seiner TV-Karriere »Kinderarbeit«",
-            "link": "https://www.spiegel.de/panorama/leute/dylan-sprouse-nennt-start-seiner-tv-karriere-kinderarbeit-a-0451c319-9cf1-43bf-85cd-89f242061179#ref=rss",
-            "description": "Die Zwillinge Dylan und Cole Sprouse waren gerade mal acht Monate alt, als ihre Schauspielkarriere begann. Nun spricht Dylan Sprouse darüber, wie das Aufwachsen in der Branche sein Selbstwertgefühl pr",
-            "pub_date": "2026-09-02T11:48:00+02:00"
-          },
-          {
-            "title": "Nasa: Astronautinnen arbeiten außen an der ISS – Probleme mit Handschuhheizung",
-            "link": "https://www.spiegel.de/wissenschaft/nasa-astronautinnen-arbeiten-aussen-an-der-iss-probleme-mit-handschuhheizung-a-db76e808-6df0-4da1-9b32-32ad4cb37024#ref=rss",
-            "description": "Zwei Astronautinnen suchten im Außenbereich der ISS nach Mikroorganismen. Dann konnte eine der Wissenschaftlerinnen ihren Arm nicht mehr bewegen. Die Nasa gibt Entwarnung.",
-            "pub_date": "2026-09-02T11:35:00+02:00"
-          },
-          {
-            "title": "Thüringen: Drei Abgeordnete verlassen BSW-Fraktion im Landtag",
-            "link": "https://www.spiegel.de/politik/deutschland/thueringen-drei-abgeordnete-verlassen-bsw-fraktion-im-landtag-a-e3d0c57a-0a04-4e42-b0f7-992de5e5c49e#ref=rss",
-            "description": "Damit dürfte die Arbeit für Thüringens CDU-Ministerpräsident Mario Voigt nicht einfacher werden: Die Fraktion des Koalitionspartners BSW schrumpft zusammen. Drei Abgeordnete verlassen die Landtagsfrak",
-            "pub_date": "2026-09-02T11:27:00+02:00"
-          },
-          {
-            "title": "Rüstung: U-Boot-Deal führt zu außergewöhnlich hoher Summe bei Waffenexporten nach Israel",
-            "link": "https://www.spiegel.de/politik/deutschland/deutschland-steigert-waffenexporte-nach-israel-schon-jetzt-um-das-vierfache-im-vergleich-zu-2025-a-68af1788-5351-43a4-9469-819a7af0089d#ref=rss",
-            "description": "Noch 2025 galt teilweise ein Exportstopp, nun hat die Regierung Waffenlieferungen an Israel in Höhe von fast 800 Millionen Euro erlaubt. Ein Grund für die enorme Summe: ein verkauftes U-Boot.",
-            "pub_date": "2026-09-02T10:56:00+02:00"
-          },
-          {
-            "title": "Klimakrise: Wer die Erde retten will, muss mehr anbieten als Daueralarm und Vorwürfe",
-            "link": "https://www.spiegel.de/politik/klimakrise-wer-die-erde-retten-will-muss-mehr-anbieten-als-daueralarm-und-vorwuerfe-a-f6843b17-a6b9-48e5-8c70-6481fc8808f7#ref=rss",
-            "description": "Die Erderwärmung braucht keine neue Schulddebatte, sondern eine positive Vision. Eine französische Forscherin sagt jetzt, wie diese aussieht.",
-            "pub_date": "2026-09-02T10:48:00+02:00"
           }
         ]
       }
