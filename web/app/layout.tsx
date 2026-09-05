@@ -119,6 +119,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           // eslint-disable-next-line @next/next/no-sync-scripts
           <script async src="//t1.daumcdn.net/kas/static/ba.min.js" />
         )}
+        <Script
+          id="pwa-register-sw"
+          src="/register-sw.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
