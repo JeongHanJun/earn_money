@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "gen:icons": "node scripts/generate-icons.mjs",
     "prebuild": "node scripts/build-search-index.mjs",
     "build": "next build",
     "start": "next start",
@@ -26,6 +27,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.2",
+    "sharp": "^0.35.4",
     "tailwindcss": "^4",
     "typescript": "^5",
     "wrangler": "^4.125.0"
