@@ -108,11 +108,21 @@ def _clean_html(s: str) -> str:
 
 
 def _parse_pubdate(s: str) -> str:
+    """RFC 2822 pubDate → ISO 8601 (UTC).
+
+    Google Trends RSS는 PDT/-07:00로 보내는데 원본 tz 보존하면 프론트에서
+    "방금"이 "14시간 전"으로 표시되므로 UTC 정규화 필요.
+    """
     if not s:
         return ""
     try:
         from email.utils import parsedate_to_datetime
-        return parsedate_to_datetime(s).isoformat()
+        dt = parsedate_to_datetime(s)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        else:
+            dt = dt.astimezone(timezone.utc)
+        return dt.isoformat()
     except Exception:
         return s
 
@@ -411,11 +421,13 @@ def fetch_daum_ranking(session: requests.Session, limit: int = 20) -> list[dict[
         inner = _clean_html(m.group(2))
         if link in seen or not inner or len(inner) < 10:
             continue
-        title = re.split(r"\s{2,}", inner)[0].strip()
+        # Daum은 <a>가 제목+리드 순으로 붙어있는 경우가 있어 첫 세그먼트만 유지.
+        # 공백/개행 2연속이면 리드 시작으로 간주. Naver 랭킹과 길이 편차 완화.
+        title = re.split(r"[\s\n]{2,}", inner)[0].strip()[:80]
         if title in SKIP_LABELS:
             continue
         seen.add(link)
-        results.append({"rank": len(results) + 1, "title": title[:120], "link": link})
+        results.append({"rank": len(results) + 1, "title": title, "link": link})
         if len(results) >= limit:
             break
     return results
