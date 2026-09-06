@@ -7,15 +7,22 @@ const CARD_PILL: Record<YouthApplyStatus["kind"], string> = {
   upcoming: "border-sky-200 bg-sky-50 text-sky-700",
   always: "border-emerald-200 bg-emerald-50 text-emerald-700",
   expired: "border-zinc-200 bg-zinc-50 text-zinc-500",
-  unknown: "",
+  unknown: "border-zinc-200 bg-zinc-50 text-zinc-500",
 };
+
+// unknown 상태(원본 API에 신청기간 정보 없음)에서도 사용자에게 시그널을 줌:
+// 인기 정책 상당수가 여기 해당(청년주택드림청약통장/국민내일배움카드 등)이라
+// pill 없이 노출하면 "지금 신청 가능한지" 판단 근거가 사라짐.
+const UNKNOWN_FALLBACK_LABEL = "신청 정보 확인 필요";
 
 export function YouthCard({ policy }: { policy: YouthPolicy }) {
   const ageLabel = hasRealAgeLimit(policy)
     ? `만 ${policy.min_age}~${policy.max_age}세`
     : null;
   const status = youthPolicyStatus(policy);
-  const showPill = status.kind !== "unknown" && !!status.label;
+  const pillLabel =
+    status.label || (status.kind === "unknown" ? UNKNOWN_FALLBACK_LABEL : "");
+  const showPill = !!pillLabel;
   return (
     <Link
       href={`/policy/youth/${policy.plcy_no}`}
@@ -29,7 +36,7 @@ export function YouthCard({ policy }: { policy: YouthPolicy }) {
           <span
             className={`shrink-0 inline-flex items-center rounded-md border px-2 py-0.5 text-[11px] font-semibold ${CARD_PILL[status.kind]}`}
           >
-            {status.label}
+            {pillLabel}
           </span>
         )}
       </div>

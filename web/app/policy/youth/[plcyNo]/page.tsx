@@ -313,7 +313,8 @@ const STATUS_PILL_STYLE: Record<YouthApplyStatus["kind"], string> = {
     "border-emerald-300 bg-emerald-50 text-emerald-800",
   expired:
     "border-zinc-300 bg-zinc-100 text-zinc-600",
-  unknown: "",
+  unknown:
+    "border-zinc-300 bg-zinc-100 text-zinc-600",
 };
 
 const STATUS_DOT: Record<YouthApplyStatus["kind"], string> = {
@@ -322,11 +323,21 @@ const STATUS_DOT: Record<YouthApplyStatus["kind"], string> = {
   upcoming: "bg-sky-500",
   always: "bg-emerald-400",
   expired: "bg-zinc-400",
-  unknown: "",
+  unknown: "bg-zinc-400",
 };
 
+// 원본 API에 신청기간 정보가 없는 정책이 인기 상위 다수(청년주택드림청약통장 등).
+// pill을 아예 안 띄우면 사용자가 상세 페이지에서 "-"만 보고 실망하므로,
+// "직접 확인해달라"는 시그널을 명시적으로 노출.
+const UNKNOWN_FALLBACK_LABEL = "신청 정보 확인 필요";
+
+function pillLabelFor(status: YouthApplyStatus): string {
+  return status.label || (status.kind === "unknown" ? UNKNOWN_FALLBACK_LABEL : "");
+}
+
 function ApplyStatusPill({ status }: { status: YouthApplyStatus }) {
-  if (status.kind === "unknown" || !status.label) return null;
+  const label = pillLabelFor(status);
+  if (!label) return null;
   return (
     <span
       className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-xs font-semibold ${STATUS_PILL_STYLE[status.kind]}`}
@@ -335,7 +346,7 @@ function ApplyStatusPill({ status }: { status: YouthApplyStatus }) {
         className={`h-1.5 w-1.5 rounded-full ${STATUS_DOT[status.kind]}`}
         aria-hidden
       />
-      {status.label}
+      {label}
     </span>
   );
 }
@@ -386,7 +397,7 @@ function PrimaryApplyCTA({
 }) {
   if (!applyUrl && refUrls.length === 0) return null;
   const accent = CTA_ACCENT[status.kind];
-  const showBanner = status.kind !== "unknown" && !!status.label;
+  const showBanner = !!pillLabelFor(status);
   return (
     <section className={`rounded-2xl border ${accent.border} ${accent.bg} p-5 shadow-sm`}>
       {showBanner && (
