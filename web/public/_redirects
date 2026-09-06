@@ -58,3 +58,13 @@
 # ---- 정책 카테고리 별칭 ----
 # 실제 slug 는 housing 이지만 dwelling 은 dwelling 도 흔히 쓰임.
 /policy/youth/category/dwelling  /policy/youth/category/housing 301
+
+# ---- 포항/창원 slug 표준화 (시명 접두어 부재 해소, 2026-09-06) ----
+# 옛 URL은 어느 시의 남구/의창구인지 URL만 봐선 알 수 없어 시명 접두어 추가.
+/weather/gyeongsangbuk-do/nam-gu           /weather/gyeongsangbuk-do/pohang-si-nam-gu           301
+/weather/gyeongsangbuk-do/buk-gu           /weather/gyeongsangbuk-do/pohang-si-buk-gu           301
+/weather/gyeongsangnam-do/uichang-gu       /weather/gyeongsangnam-do/changwon-si-uichang-gu     301
+/weather/gyeongsangnam-do/seongsan-gu      /weather/gyeongsangnam-do/changwon-si-seongsan-gu    301
+/weather/gyeongsangnam-do/masanhappo-gu    /weather/gyeongsangnam-do/changwon-si-masanhappo-gu  301
+/weather/gyeongsangnam-do/masanhoewon-gu   /weather/gyeongsangnam-do/changwon-si-masanhoewon-gu 301
+/weather/gyeongsangnam-do/jinhae-gu        /weather/gyeongsangnam-do/changwon-si-jinhae-gu      301
