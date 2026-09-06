@@ -8,6 +8,7 @@ import {
   allYouthPolicies,
   formatYouthDate,
   getYouthPolicy,
+  hasRealAgeLimit,
   relatedYouthPolicies,
   youthPolicyStatus,
   youthCategorySlug,
@@ -98,20 +99,18 @@ export default async function YouthDetail(
     },
     ...(policy.apply_url && { url: policy.apply_url }),
     ...(jsonLdKeywords && { keywords: jsonLdKeywords }),
-    ...(policy.min_age > 0 &&
-      policy.max_age > 0 && {
-        audience: {
-          "@type": "PeopleAudience",
-          requiredMinAge: policy.min_age,
-          requiredMaxAge: policy.max_age,
-        },
-      }),
+    ...(hasRealAgeLimit(policy) && {
+      audience: {
+        "@type": "PeopleAudience",
+        requiredMinAge: policy.min_age,
+        requiredMaxAge: policy.max_age,
+      },
+    }),
   };
 
-  const ageText =
-    policy.age_limit && policy.min_age > 0 && policy.max_age > 0
-      ? `만 ${policy.min_age}세 ~ ${policy.max_age}세`
-      : "연령 제한 없음";
+  const ageText = hasRealAgeLimit(policy)
+    ? `만 ${policy.min_age}세 ~ ${policy.max_age}세`
+    : "연령 제한 없음";
 
   const earnText =
     policy.earn_min > 0 || policy.earn_max > 0

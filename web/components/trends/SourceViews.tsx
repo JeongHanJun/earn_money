@@ -125,7 +125,7 @@ export function GoogleTrendsView({
               </span>
             )}
           </div>
-          {t.articles.length > 0 && (
+          {t.articles.length > 0 ? (
             <ul className="mt-2 space-y-1.5">
               {t.articles.map((a, i) => (
                 <li key={i}>
@@ -143,6 +143,10 @@ export function GoogleTrendsView({
                 </li>
               ))}
             </ul>
+          ) : (
+            <p className="mt-2 text-xs text-zinc-400">
+              관련 기사가 아직 준비되지 않았어요.
+            </p>
           )}
         </li>
       ))}

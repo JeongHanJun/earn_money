@@ -73,6 +73,19 @@ function activePriority(p: YouthPolicy): number {
   return youthPolicyStatus(p).kind === "expired" ? 0 : 1;
 }
 
+/**
+ * age_limit=true여도 min=1, max=99 같은 극단 범위는 원본 API 데이터 오류로
+ * 사실상 연령 제한이 없음. "만 1~99세" 노출은 사용자 혼동만 유발.
+ */
+export function hasRealAgeLimit(
+  p: Pick<YouthPolicy, "age_limit" | "min_age" | "max_age">,
+): boolean {
+  if (!p.age_limit) return false;
+  if (p.min_age <= 0 || p.max_age <= 0) return false;
+  if (p.min_age <= 1 && p.max_age >= 99) return false;
+  return true;
+}
+
 export function popularYouthPolicies(limit = 10): YouthPolicy[] {
   return [...allYouthPolicies()]
     .sort((a, b) => {
