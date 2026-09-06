@@ -267,7 +267,7 @@ function TodayCard({ day }: { day: DayForecast }) {
                     {p.sky}
                   </div>
                 )}
-                {p.pop && p.pop !== "0" && (
+                {p.pop && (
                   <div
                     className={`text-[10px] ${
                       pop >= 80
@@ -277,7 +277,7 @@ function TodayCard({ day }: { day: DayForecast }) {
                         : "text-indigo-200"
                     }`}
                   >
-                    {pop >= 50 ? "☂" : "💧"} {p.pop}%
+                    {pop > 0 && `${pop >= 50 ? "☂" : "💧"} `}{p.pop}%
                   </div>
                 )}
               </div>
@@ -336,7 +336,7 @@ function DayCard({ day }: { day: DayForecast }) {
                 {p.sky && (
                   <div className="text-[10px] text-zinc-500 mt-0.5">{p.sky}</div>
                 )}
-                {p.pop && p.pop !== "0" && (
+                {p.pop && (
                   <div
                     className={`text-[10px] ${
                       pop >= 80
@@ -346,7 +346,7 @@ function DayCard({ day }: { day: DayForecast }) {
                         : "text-indigo-600"
                     }`}
                   >
-                    {pop >= 50 ? "☂" : "💧"} {p.pop}%
+                    {pop > 0 && `${pop >= 50 ? "☂" : "💧"} `}{p.pop}%
                   </div>
                 )}
               </div>
