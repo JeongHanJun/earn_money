@@ -9,6 +9,7 @@ import {
   formatTime,
   groupByDay,
   loadWeather,
+  pickNowSlot,
   pivotByTime,
   sample3Hours,
   umbrellaLabel,
@@ -205,13 +206,14 @@ function dayBgClass(level: UmbrellaLevel): string {
 }
 
 function TodayCard({ day }: { day: DayForecast }) {
-  const now = day.points.find((p) => p.tmp) ?? day.points[0];
+  const now = pickNowSlot(day.points);
   const slots = sample3Hours(day);
   return (
     <div className="rounded-2xl bg-gradient-to-br from-indigo-600 to-indigo-800 p-6 sm:p-8 text-white">
       <div className="flex items-center justify-between gap-3">
         <div className="text-sm text-indigo-200">
           오늘 · {formatKoreanDate(day.date)}
+          {now?.fcst_time && ` · ${formatTime(now.fcst_time)} 기준`}
         </div>
         <UmbrellaBadge
           level={day.umbrella}
