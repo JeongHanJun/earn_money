@@ -1,0 +1,60 @@
+# Cloudflare Pages redirects.
+# 사용자가 흔히 축약형으로 URL을 입력하는 케이스와, 과거 slug의 SEO 잔여를 방어.
+# 문법: /from /to [code]. 와일드카드 :splat 은 * 매칭 부분을 그대로 이어붙임.
+
+# ---- 대구 slug 표준화 (dae-gu → daegu, 2026-09-06) ----
+/weather/dae-gu             /weather/daegu             301
+/weather/dae-gu/*           /weather/daegu/:splat      301
+
+# ---- 시·도 축약형 → 정식 slug ----
+# 도 (특별자치도 포함): 축약형은 -do 없이 입력하는 경우가 흔함.
+/weather/jeju               /weather/jeju-do           301
+/weather/jeju/*             /weather/jeju-do/:splat    301
+/weather/gangwon            /weather/gangwon-do        301
+/weather/gangwon/*          /weather/gangwon-do/:splat 301
+/weather/gyeonggi           /weather/gyeonggi-do       301
+/weather/gyeonggi/*         /weather/gyeonggi-do/:splat 301
+
+# 충청도: 정식(chungcheongbuk/nam-do) + 통용 축약(chungbuk/chungnam)
+/weather/chungcheongbuk     /weather/chungcheongbuk-do 301
+/weather/chungcheongbuk/*   /weather/chungcheongbuk-do/:splat 301
+/weather/chungbuk           /weather/chungcheongbuk-do 301
+/weather/chungbuk/*         /weather/chungcheongbuk-do/:splat 301
+/weather/chungcheongnam     /weather/chungcheongnam-do 301
+/weather/chungcheongnam/*   /weather/chungcheongnam-do/:splat 301
+/weather/chungnam           /weather/chungcheongnam-do 301
+/weather/chungnam/*         /weather/chungcheongnam-do/:splat 301
+
+# 전라도
+/weather/jeollabuk          /weather/jeollabuk-do      301
+/weather/jeollabuk/*        /weather/jeollabuk-do/:splat 301
+/weather/jeonbuk            /weather/jeollabuk-do      301
+/weather/jeonbuk/*          /weather/jeollabuk-do/:splat 301
+/weather/jeollanam          /weather/jeollanam-do      301
+/weather/jeollanam/*        /weather/jeollanam-do/:splat 301
+/weather/jeonnam            /weather/jeollanam-do      301
+/weather/jeonnam/*          /weather/jeollanam-do/:splat 301
+
+# 경상도
+/weather/gyeongsangbuk      /weather/gyeongsangbuk-do  301
+/weather/gyeongsangbuk/*    /weather/gyeongsangbuk-do/:splat 301
+/weather/gyeongbuk          /weather/gyeongsangbuk-do  301
+/weather/gyeongbuk/*        /weather/gyeongsangbuk-do/:splat 301
+/weather/gyeongsangnam      /weather/gyeongsangnam-do  301
+/weather/gyeongsangnam/*    /weather/gyeongsangnam-do/:splat 301
+/weather/gyeongnam          /weather/gyeongsangnam-do  301
+/weather/gyeongnam/*        /weather/gyeongsangnam-do/:splat 301
+
+# 세종
+/weather/sejong             /weather/sejong-si         301
+/weather/sejong/*           /weather/sejong-si/:splat  301
+
+# ---- 트렌드 소스 축약/별칭 ----
+# 사용자/외부 링크가 컬렉터 내부 키(naver_ranking, daum_ranking, hackernews)로 접근할 수 있음.
+/trends/*/naver_ranking     /trends/:splat/naver       301
+/trends/*/daum_ranking      /trends/:splat/daum        301
+/trends/*/hackernews        /trends/:splat/hn          301
+
+# ---- 정책 카테고리 별칭 ----
+# 실제 slug 는 housing 이지만 dwelling 은 dwelling 도 흔히 쓰임.
+/policy/youth/category/dwelling  /policy/youth/category/housing 301
