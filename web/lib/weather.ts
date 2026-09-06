@@ -185,6 +185,31 @@ export function sample3Hours(day: DayForecast): TimePointForecast[] {
     .filter((p): p is TimePointForecast => Boolean(p));
 }
 
+/**
+ * 오늘 카드의 "현재" 슬롯 선택.
+ * 그냥 첫 point를 쓰면 하루 24슬롯 중 자정 데이터가 "현재"로 표시돼서
+ * 오전/오후에 페이지 열면 "9시간 전"이 "현재"로 노출됨.
+ * 빌드 시각(KST) 기준 가장 가까운 과거 슬롯을 선택.
+ * (CF Pages는 시간당 재빌드이므로 실제 노출 시점과 최대 1시간 오차 가능.)
+ */
+export function pickNowSlot(
+  points: TimePointForecast[],
+  now: Date = new Date(),
+): TimePointForecast | undefined {
+  const withTmp = points.filter((p) => p.tmp);
+  if (withTmp.length === 0) return points[0];
+  // Node/Cloudflare 실행 환경 tz 무관하게 KST 분 계산
+  const kstMin = (now.getTime() / 60000 + 9 * 60) % (24 * 60);
+  const past = withTmp
+    .map((p) => ({
+      p,
+      mins: Number(p.fcst_time.slice(0, 2)) * 60 + Number(p.fcst_time.slice(2)),
+    }))
+    .filter(({ mins }) => mins <= kstMin);
+  if (past.length === 0) return withTmp[0];
+  return past.reduce((best, cur) => (cur.mins > best.mins ? cur : best)).p;
+}
+
 export function groupByDay(points: TimePointForecast[]): DayForecast[] {
   const map = new Map<string, DayForecast>();
   for (const p of points) {
