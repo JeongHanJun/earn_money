@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-08T15:01:17.144414+00:00",
+  "fetched_at": "2026-09-08T16:01:18.472857+00:00",
   "data": {
     "country_code": "uk",
     "country_name": "영국",
@@ -7,75 +7,190 @@
     "google_trends": [
       {
         "rank": 1,
+        "keyword": "range rover",
+        "traffic": "2000+",
+        "pub_date": "2026-09-08T15:10:00+00:00",
+        "articles": [
+          {
+            "title": "Why the ‘Temu Range Rover’ is such a threat to Jaguar Land Rover",
+            "url": "https://www.bbc.co.uk/news/articles/c5y4l22p262o",
+            "source": "BBC"
+          },
+          {
+            "title": "'JLR job cuts a cause for uncertainty and worry'",
+            "url": "https://www.bbc.com/news/articles/cq5x30003zdo",
+            "source": "BBC"
+          },
+          {
+            "title": "Jaguar Land Rover to cut 4,000 jobs",
+            "url": "https://news.sky.com/story/jaguar-land-rover-to-cut-4-000-jobs-13582660",
+            "source": "Sky News"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "keyword": "flight tracker",
+        "traffic": "1000+",
+        "pub_date": "2026-09-08T15:00:00+00:00",
+        "articles": [
+          {
+            "title": "NES Radar Tracks Flights At 9600 Baud",
+            "url": "https://hackaday.com/2026/09/06/nes-radar-tracks-flights-at-9600-baud/",
+            "source": "Hackaday"
+          },
+          {
+            "title": "nes-radar: Live ADS-B air traffic radar for the original Nintendo Entertainment System",
+            "url": "https://blog.adafruit.com/2026/09/07/nes-radar-live-ads-b-air-traffic-radar-for-the-original-nintendo-entertainment-system/",
+            "source": "Adafruit"
+          },
+          {
+            "title": "You, too, can turn your old NES into a flight tracker that receives internet data in real time",
+            "url": "https://www.xda-developers.com/you-too-can-turn-your-old-nes-into-a-flight-tracker-that-receives-internet-data-in-real-time/",
+            "source": "XDA"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "keyword": "edinburgh airport",
+        "traffic": "200+",
+        "pub_date": "2026-09-08T15:00:00+00:00",
+        "articles": [
+          {
+            "title": "Scenes of 'mayhem' after fatal crash near airport",
+            "url": "https://www.bbc.co.uk/news/articles/cn5derxxw62o",
+            "source": "BBC"
+          },
+          {
+            "title": "Police Scotland hunt for women and man after driver killed in hit-and-run crash near Edinburgh Airport",
+            "url": "https://news.sky.com/story/police-scotland-hunt-for-women-and-man-after-driver-killed-in-hit-and-run-crash-near-edinburgh-airport-13583067",
+            "source": "Sky News"
+          },
+          {
+            "title": "Manhunt launched after one dead and four injured in hit-and-run near Edinburgh Airport",
+            "url": "https://news.stv.tv/east-central/manhunt-launched-after-one-dead-and-four-injured-in-hit-and-run-near-edinburgh-airport",
+            "source": "STV News"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "keyword": "julian quiñones",
+        "traffic": "500+",
+        "pub_date": "2026-09-08T14:50:00+00:00",
+        "articles": [
+          {
+            "title": "Candidatos al Balón de Oro 2026, en directo: lista completa de nominados al premio, hoy en vivo",
+            "url": "https://as.com/futbol/internacional/candidatos-al-balon-de-oro-2026-en-directo-lista-completa-de-nominados-al-premio-hoy-en-vivo-f202609-d/",
+            "source": "Diario AS"
+          },
+          {
+            "title": "Los 30 candidatos al Balón de Oro 2026: seis españoles, vuelve Messi... y dos grandes ausencias",
+            "url": "https://www.marca.com/futbol/2026/09/08/30-candidatos-balon-oro-2026-seis-espanoles-vuelve-messi-dos-grandes-ausencias.html",
+            "source": "MARCA"
+          },
+          {
+            "title": "Dembélé, Luis Díaz, Bellingham, Cucurella y Cubarsí, en la primera tanda de nominados",
+            "url": "https://holanews.com/dembele-luis-diaz-bellingham-cucurella-y-cubarsi-en-la-primera-tanda-de-nominados/",
+            "source": "HolaNews"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "keyword": "godzilla minus zero",
+        "traffic": "200+",
+        "pub_date": "2026-09-08T14:50:00+00:00",
+        "articles": [
+          {
+            "title": "Godzilla Minus Zero trailer teases IMAX carnage – and another classic kaiju",
+            "url": "https://www.empireonline.com/movies/news/godzilla-minus-zero-trailer-imax-carnage-king-ghidorah/",
+            "source": "Empire"
+          },
+          {
+            "title": "‘Godzilla Minus Zero’ Unveils New Trailer, Cast Members",
+            "url": "https://variety.com/2026/film/news/godzilla-minus-zero-new-trailer-cast-members-1236854751/",
+            "source": "Variety"
+          },
+          {
+            "title": "Humanity fights atomic breath with fire in trailer for Godzilla Minus Zero",
+            "url": "https://www.avclub.com/godzilla-minus-zero-trailer",
+            "source": "A.V. Club"
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "keyword": "game",
+        "traffic": "200+",
+        "pub_date": "2026-09-08T14:50:00+00:00",
+        "articles": [
+          {
+            "title": "Kevin Jennings overcomes miscues, leads No. 19 SMU to win",
+            "url": "https://www.espn.com/nfl/story/_/id/49865739/kevin-jennings-leads-winning-drive-no-19-smu-outlasts-fsu",
+            "source": "ESPN"
+          },
+          {
+            "title": "From power failures to moral victories, Monday night couldn't have gone much worse for Florida State fans",
+            "url": "https://www.foxnews.com/outkick-sports/power-failures-moral-victories-monday-night-couldnt-gone-much-worse-florida-state-fans",
+            "source": "Fox News"
+          },
+          {
+            "title": "Florida State-SMU delayed more than 90 minutes by power outage - The Athletic",
+            "url": "https://www.nytimes.com/athletic/7573412/2026/09/07/smu-florida-state-delay-power-outage/",
+            "source": "The New York Times"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "keyword": "where are harry and meghan living?",
+        "traffic": "100+",
+        "pub_date": "2026-09-08T14:50:00+00:00",
+        "articles": [
+          {
+            "title": "Sightings of Meghan at star-studded retreat fuel Cotswolds rumours",
+            "url": "https://www.theguardian.com/uk-news/2026/sep/07/sightings-meghan-retreat-soho-farmhouse-cotswolds-duke-duchess-sussex",
+            "source": "The Guardian"
+          },
+          {
+            "title": "Meghan eyes return to charity work and media access",
+            "url": "https://www.thetimes.com/uk/royal-family/article/meghan-harry-charity-king-archie-89phl8zg3",
+            "source": "The Times"
+          },
+          {
+            "title": "Meghan Markle’s First Outing Back in U.K. Revealed",
+            "url": "https://www.thedailybeast.com/meghan-markles-first-outing-back-in-uk-revealed/",
+            "source": "The Daily Beast"
+          }
+        ]
+      },
+      {
+        "rank": 8,
         "keyword": "malick thiaw",
         "traffic": "100+",
         "pub_date": "2026-09-08T14:40:00+00:00",
         "articles": [
           {
             "title": "Sources: Liverpool and Man United are tracking Newcastle’s £65-70m rated ‘mature’ star",
-            "url": "https://www.yardbarker.com/soccer/articles/sources_liverpool_and_man_united_are_tracking_newcastles_65_70m_rated_mature_star/s1_15953_44275029",
-            "source": "Yardbarker"
+            "url": "https://www.caughtoffside.com/2026/09/08/sources-liverpool-man-united-tracking-newcastle-star/",
+            "source": "CaughtOffside"
           },
           {
-            "title": "Liverpool eye Newcastle defender",
-            "url": "https://www.ysscores.com/en/news/14040426/liverpool-eye-newcastle-defender",
-            "source": "YSscores"
+            "title": "Man Utd & Liverpool In Sudden Malick Thiaw Transfer Battle As Price Tag Mooted",
+            "url": "https://sports.yahoo.com/articles/man-utd-liverpool-sudden-malick-152006197.html",
+            "source": "Yahoo Sports"
           },
           {
-            "title": "Liverpool want to sign £70m Newcastle centre-back to replace Virgil van Dijk",
-            "url": "https://www.teamtalk.com/liverpool/malick-thiaw-liverpool-newcastle-united",
-            "source": "TEAMtalk"
+            "title": "Malick Thiaw: Man United and Liverpool make transfer call on Newcastle star",
+            "url": "https://thepeoplesperson.com/2026/09/08/malick-thiaw-man-united-and-liverpool-make-transfer-call-on-newcastle-star-315278/",
+            "source": "The Peoples Person"
           }
         ]
       },
       {
-        "rank": 2,
-        "keyword": "new iphone",
-        "traffic": "10000+",
-        "pub_date": "2026-09-08T14:30:00+00:00",
-        "articles": [
-          {
-            "title": "Apple to Kick Off Ternus Era With Its Biggest-Ever Slate of New Products",
-            "url": "https://www.bloomberg.com/news/articles/2026-09-04/what-to-expect-at-sept-9-apple-event-foldable-iphone-iphone-18-pro-watch",
-            "source": "Bloomberg.com"
-          },
-          {
-            "title": "Five iPhone 18 Pro Camera Features Seemingly Leak in Code",
-            "url": "https://www.macrumors.com/2026/09/07/five-iphone-18-pro-camera-features-seemingly-leak/",
-            "source": "MacRumors"
-          },
-          {
-            "title": "Apple iPhone 18 Pro Release Date Schedule: Your Complete September Countdown",
-            "url": "https://www.forbes.com/sites/davidphelan/2026/09/06/apple-iphone-18-pro-release-date-schedule-your-complete-september-countdown/",
-            "source": "Forbes"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "keyword": "bolton",
-        "traffic": "100+",
-        "pub_date": "2026-09-08T14:30:00+00:00",
-        "articles": [
-          {
-            "title": "Bolton Wanderers vs West Ham United predictions: Championship tips and odds",
-            "url": "https://www.telegraph.co.uk/betting/football/bolton-wanderers-vs-west-ham-united-prediction-tips-2026/",
-            "source": "The Telegraph"
-          },
-          {
-            "title": "Training Gallery | Hammers prepare for Trotters trip",
-            "url": "https://www.whufc.com/en/news/training-gallery-or-hammers-prepare-for-trotters-trip",
-            "source": "West Ham United"
-          },
-          {
-            "title": "The lingering away concern West Ham must address despite recent wins",
-            "url": "https://readwestham.com/2026/09/06/west-ham-away-form-problem-despite-wins/",
-            "source": "Read West Ham"
-          }
-        ]
-      },
-      {
-        "rank": 4,
+        "rank": 9,
         "keyword": "ntas",
         "traffic": "2000+",
         "pub_date": "2026-09-08T14:30:00+00:00",
@@ -98,140 +213,25 @@
         ]
       },
       {
-        "rank": 5,
-        "keyword": "widows bay",
+        "rank": 10,
+        "keyword": "bolton",
         "traffic": "200+",
         "pub_date": "2026-09-08T14:30:00+00:00",
         "articles": [
           {
-            "title": "Emmy Awards Nights 1-2: The Full Winners List",
-            "url": "https://deadline.com/lists/2026-emmy-winners-list/",
-            "source": "Deadline"
+            "title": "Match Preview: Bolton v West Ham",
+            "url": "https://www.westhamtillidie.com/posts/match-preview-bolton-v-west-ham",
+            "source": "West Ham Till I Die"
           },
           {
-            "title": "Here Are All the Winners in the 7 Music Categories at the 2026 Primetime Emmys: Full List",
-            "url": "https://www.billboard.com/music/awards/2026-primetime-emmys-music-categories-winners-full-list-1236335210/",
-            "source": "Billboard"
+            "title": "Training Gallery | Hammers prepare for Trotters trip",
+            "url": "https://www.whufc.com/en/news/training-gallery-or-hammers-prepare-for-trotters-trip",
+            "source": "West Ham United"
           },
           {
-            "title": "‘Widow’s Bay,’ ‘DTF: St. Louis’ and ‘Spider-Noir’ — Despite Its Cancellation — Dominate Creative Arts Emmys Night 2 Winners (FULL LIST)",
-            "url": "https://variety.com/2026/tv/news/emmy-awards-winners-list-night-two-creative-arts-1236853165/",
-            "source": "Variety"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "keyword": "ocarina of time",
-        "traffic": "2000+",
-        "pub_date": "2026-09-08T14:20:00+00:00",
-        "articles": [
-          {
-            "title": "The Legend of Zelda Ocarina of Time remake pricing revealed",
-            "url": "https://www.vooks.net/the-legend-of-zelda-ocarina-of-time-remake-pricing-revealed/",
-            "source": "Vooks"
-          },
-          {
-            "title": "Nintendo shares the first gameplay and release date for The Legend of Zelda: Ocarina of Time remake",
-            "url": "https://www.videogameschronicle.com/news/nintendo-shares-the-first-gameplay-and-release-date-for-the-legend-of-zelda-ocarina-of-time-remake/",
-            "source": "Video Games Chronicle"
-          },
-          {
-            "title": "Zelda Ocarina of Time Remake Price Leaked Early by Nintendo",
-            "url": "https://www.vice.com/en/article/zelda-ocarina-of-time-remake-price-leaked-nintendo/",
-            "source": "VICE"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "keyword": "ucl",
-        "traffic": "500+",
-        "pub_date": "2026-09-08T14:20:00+00:00",
-        "articles": [
-          {
-            "title": "Can Jose Mourinho win the Champions League with Real Madrid?",
-            "url": "https://www.nytimes.com/athletic/7571984/2026/09/08/champions-league-mourinho-real-madrid-history/",
-            "source": "The New York Times"
-          },
-          {
-            "title": "Is Real Madrid v Inter Milan on TV? How to watch Champions League fixture",
-            "url": "https://sports.yahoo.com/articles/real-madrid-v-inter-milan-141950491.html",
-            "source": "Yahoo Sports"
-          },
-          {
-            "title": "Real Madrid vs Inter: Champions League – preview, team news, prediction",
-            "url": "https://www.aljazeera.com/sports/2026/9/8/real-madrid-vs-inter-champions-league-preview-team-news",
-            "source": "Al Jazeera"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "keyword": "nasdaq 100",
-        "traffic": "200+",
-        "pub_date": "2026-09-08T14:20:00+00:00",
-        "articles": [
-          {
-            "title": "SpaceX Shares to Get a Boost If Nasdaq 100 Increases Weighting",
-            "url": "https://www.bloomberg.com/news/articles/2026-09-08/spacex-set-for-boost-from-potential-jump-in-nasdaq-100-weighting",
-            "source": "Bloomberg.com"
-          },
-          {
-            "title": "SpaceX excluded from VOO ETF until 2027 due to index rules on profitability and public float.",
-            "url": "https://pluang.com/en/news-feed/masalah-1-triliun-voo-mengapa-spacex-tetap-di-luar-hingga-2027",
-            "source": "Pluang"
-          },
-          {
-            "title": "The Nasdaq 100 Will Get Its Quarterly Rebalance This Month. It Could Be a Boon For SpaceX.",
-            "url": "https://www.ibtimes.com/nasdaq-100-will-get-its-quarterly-rebalance-this-month-it-could-boon-spacex-3807223",
-            "source": "International Business Times"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "keyword": "sp500",
-        "traffic": "100+",
-        "pub_date": "2026-09-08T14:20:00+00:00",
-        "articles": [
-          {
-            "title": "S&P 500 futures fall to start shortened week as oil prices climb: Live updates",
-            "url": "https://www.cnbc.com/2026/09/07/stock-market-tuesday-live-updates.html",
-            "source": "CNBC"
-          },
-          {
-            "title": "The Economic Fallout From a Potential Return to $100 Oil",
-            "url": "https://www.nytimes.com/2026/09/08/business/dealbook/oil-inflation-markets.html",
-            "source": "The New York Times"
-          },
-          {
-            "title": "Price of crude oil nears $100 a barrel as U.S.-Iran stalemate continues",
-            "url": "https://www.yahoo.com/news/world/articles/iran-seeks-more-control-strait-080632293.html",
-            "source": "Yahoo"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "keyword": "dulux soulful sage trend 2027",
-        "traffic": "100+",
-        "pub_date": "2026-09-08T14:10:00+00:00",
-        "articles": [
-          {
-            "title": "Dulux’s colour of the year revealed — and 16 ways to style it",
-            "url": "https://www.thetimes.com/life-style/property-home/article/why-sage-is-2027s-dulux-colour-of-the-year-and-16-ways-to-style-it-dv7gsj33f",
-            "source": "The Times"
-          },
-          {
-            "title": "Dulux reveals sage green as Colour of the Year 2027",
-            "url": "https://www.dezeen.com/2026/09/08/sage-green-colour-year-2027-dulux/",
-            "source": "Dezeen"
-          },
-          {
-            "title": "One of this year’s biggest colour trends is here to stay – Graham & Brown names its colour of the year 2027",
-            "url": "https://www.idealhome.co.uk/all-rooms/graham-and-brown-colour-of-the-year-2027-rose-earth",
-            "source": "Ideal Home"
+            "title": "THE FIRST WORD | Interviews and build-up to Bolton Wanderers v West Ham United",
+            "url": "https://www.theboltonnews.co.uk/sport/26531010.bolton-wanderers-v-west-ham-united---first-word-podcast/",
+            "source": "The Bolton News"
           }
         ]
       }
@@ -244,8 +244,8 @@
         "channel": "RAYE",
         "thumbnail": "https://i.ytimg.com/vi/invZIgVL2wo/mqdefault.jpg",
         "published_at": "2026-09-07T18:00:06Z",
-        "view_count": 734210,
-        "like_count": 53399
+        "view_count": 777967,
+        "like_count": 55091
       },
       {
         "rank": 2,
@@ -254,8 +254,8 @@
         "channel": "ONE Media",
         "thumbnail": "https://i.ytimg.com/vi/teH9zDd8PXA/mqdefault.jpg",
         "published_at": "2026-09-07T11:26:23Z",
-        "view_count": 84993,
-        "like_count": 566
+        "view_count": 88862,
+        "like_count": 575
       },
       {
         "rank": 3,
@@ -264,18 +264,18 @@
         "channel": "Spoke",
         "thumbnail": "https://i.ytimg.com/vi/lA1ohDqw8XA/mqdefault.jpg",
         "published_at": "2026-09-07T13:00:08Z",
-        "view_count": 2633098,
-        "like_count": 118686
+        "view_count": 2691166,
+        "like_count": 119614
       },
       {
         "rank": 4,
-        "video_id": "jL57dghpf50",
-        "title": "Diljit Dosanjh : Devil (Official Video) Intense : Hizzy : I'm an Artist Bro",
-        "channel": "Diljit Dosanjh",
-        "thumbnail": "https://i.ytimg.com/vi/jL57dghpf50/mqdefault.jpg",
-        "published_at": "2026-09-08T03:30:06Z",
-        "view_count": 324890,
-        "like_count": 16569
+        "video_id": "F-NcvXY8_vU",
+        "title": "&TEAM 'Mark on Me' Official MV",
+        "channel": "HYBE LABELS",
+        "thumbnail": "https://i.ytimg.com/vi/F-NcvXY8_vU/mqdefault.jpg",
+        "published_at": "2026-09-08T08:59:59Z",
+        "view_count": 1000447,
+        "like_count": 46291
       },
       {
         "rank": 5,
@@ -284,8 +284,8 @@
         "channel": "KinoCheck.com",
         "thumbnail": "https://i.ytimg.com/vi/6mZNwSlH9bI/mqdefault.jpg",
         "published_at": "2026-09-07T13:15:39Z",
-        "view_count": 135399,
-        "like_count": 1092
+        "view_count": 139441,
+        "like_count": 1114
       },
       {
         "rank": 6,
@@ -294,18 +294,18 @@
         "channel": "Cash",
         "thumbnail": "https://i.ytimg.com/vi/4OOvmJeXlls/mqdefault.jpg",
         "published_at": "2026-09-07T15:00:27Z",
-        "view_count": 934310,
-        "like_count": 9393
+        "view_count": 957151,
+        "like_count": 9536
       },
       {
         "rank": 7,
-        "video_id": "I-lOSPSeYFE",
-        "title": "Spiritbox - Mourning (Official Video)",
-        "channel": "riserecords",
-        "thumbnail": "https://i.ytimg.com/vi/I-lOSPSeYFE/mqdefault.jpg",
-        "published_at": "2026-09-08T02:00:06Z",
-        "view_count": 286877,
-        "like_count": 20784
+        "video_id": "jL57dghpf50",
+        "title": "Diljit Dosanjh : Devil (Official Video) Intense : Hizzy : I'm an Artist Bro",
+        "channel": "Diljit Dosanjh",
+        "thumbnail": "https://i.ytimg.com/vi/jL57dghpf50/mqdefault.jpg",
+        "published_at": "2026-09-08T03:30:06Z",
+        "view_count": 360053,
+        "like_count": 17591
       },
       {
         "rank": 8,
@@ -314,8 +314,8 @@
         "channel": "Madfish Trailers",
         "thumbnail": "https://i.ytimg.com/vi/Q4pk9ySCKxo/mqdefault.jpg",
         "published_at": "2026-09-07T09:25:11Z",
-        "view_count": 245130,
-        "like_count": 1747
+        "view_count": 247455,
+        "like_count": 1760
       },
       {
         "rank": 9,
@@ -324,18 +324,18 @@
         "channel": "LDShadowLady",
         "thumbnail": "https://i.ytimg.com/vi/aTAnNw-_W98/mqdefault.jpg",
         "published_at": "2026-09-07T16:15:16Z",
-        "view_count": 399694,
-        "like_count": 28250
+        "view_count": 408727,
+        "like_count": 28642
       },
       {
         "rank": 10,
-        "video_id": "4Le-NMCqrEE",
-        "title": "PRESIDENT - Live From Rockfield Studios",
-        "channel": "PRESIDENT",
-        "thumbnail": "https://i.ytimg.com/vi/4Le-NMCqrEE/mqdefault.jpg",
-        "published_at": "2026-09-07T15:45:22Z",
-        "view_count": 236514,
-        "like_count": 13535
+        "video_id": "I-lOSPSeYFE",
+        "title": "Spiritbox - Mourning (Official Video)",
+        "channel": "riserecords",
+        "thumbnail": "https://i.ytimg.com/vi/I-lOSPSeYFE/mqdefault.jpg",
+        "published_at": "2026-09-08T02:00:06Z",
+        "view_count": 316823,
+        "like_count": 21792
       },
       {
         "rank": 11,
@@ -344,8 +344,8 @@
         "channel": "Hollyoaks",
         "thumbnail": "https://i.ytimg.com/vi/QBsjjFAL0rg/mqdefault.jpg",
         "published_at": "2026-09-07T15:00:35Z",
-        "view_count": 41264,
-        "like_count": 712
+        "view_count": 42166,
+        "like_count": 720
       },
       {
         "rank": 12,
@@ -354,18 +354,18 @@
         "channel": "Jynxzi",
         "thumbnail": "https://i.ytimg.com/vi/14X6xRf-95k/mqdefault.jpg",
         "published_at": "2026-09-08T01:32:41Z",
-        "view_count": 751680,
-        "like_count": 5961
+        "view_count": 754842,
+        "like_count": 5976
       },
       {
         "rank": 13,
-        "video_id": "F-NcvXY8_vU",
-        "title": "&TEAM 'Mark on Me' Official MV",
-        "channel": "HYBE LABELS",
-        "thumbnail": "https://i.ytimg.com/vi/F-NcvXY8_vU/mqdefault.jpg",
-        "published_at": "2026-09-08T08:59:59Z",
-        "view_count": 939592,
-        "like_count": 43031
+        "video_id": "4Le-NMCqrEE",
+        "title": "PRESIDENT - Live From Rockfield Studios",
+        "channel": "PRESIDENT",
+        "thumbnail": "https://i.ytimg.com/vi/4Le-NMCqrEE/mqdefault.jpg",
+        "published_at": "2026-09-07T15:45:22Z",
+        "view_count": 245861,
+        "like_count": 13788
       },
       {
         "rank": 14,
@@ -374,8 +374,8 @@
         "channel": "Street Fighter",
         "thumbnail": "https://i.ytimg.com/vi/b3SvMJvr998/mqdefault.jpg",
         "published_at": "2026-09-07T22:58:06Z",
-        "view_count": 864667,
-        "like_count": 31660
+        "view_count": 891207,
+        "like_count": 32165
       },
       {
         "rank": 15,
@@ -384,8 +384,8 @@
         "channel": "TheBurntPeanut",
         "thumbnail": "https://i.ytimg.com/vi/QDu39yxRoFc/mqdefault.jpg",
         "published_at": "2026-09-08T09:22:29Z",
-        "view_count": 1164152,
-        "like_count": 10996
+        "view_count": 1176805,
+        "like_count": 11074
       },
       {
         "rank": 16,
@@ -394,8 +394,8 @@
         "channel": "ManBetterKnow",
         "thumbnail": "https://i.ytimg.com/vi/8LxKVs9-mU4/mqdefault.jpg",
         "published_at": "2026-09-07T23:00:35Z",
-        "view_count": 38415,
-        "like_count": 2371
+        "view_count": 41302,
+        "like_count": 2451
       },
       {
         "rank": 17,
@@ -404,18 +404,18 @@
         "channel": "IGN Movie Trailers",
         "thumbnail": "https://i.ytimg.com/vi/pTL9BtN6IKs/mqdefault.jpg",
         "published_at": "2026-09-07T10:19:14Z",
-        "view_count": 164623,
-        "like_count": 1533
+        "view_count": 176402,
+        "like_count": 1613
       },
       {
         "rank": 18,
-        "video_id": "e1AwRFIaNGI",
-        "title": "THE FINAL BOSS OF HOW TO FISH!",
-        "channel": "MM7Games",
-        "thumbnail": "https://i.ytimg.com/vi/e1AwRFIaNGI/mqdefault.jpg",
-        "published_at": "2026-09-07T17:00:17Z",
-        "view_count": 174901,
-        "like_count": 3965
+        "video_id": "ckCNkbSW1qg",
+        "title": "No One Is Coming To Save You",
+        "channel": "jacksepticeye",
+        "thumbnail": "https://i.ytimg.com/vi/ckCNkbSW1qg/mqdefault.jpg",
+        "published_at": "2026-09-07T18:49:03Z",
+        "view_count": 814971,
+        "like_count": 26577
       },
       {
         "rank": 19,
@@ -424,8 +424,8 @@
         "channel": "Tzanca Uraganu - Topic",
         "thumbnail": "https://i.ytimg.com/vi/qlBd6QFKHr0/mqdefault.jpg",
         "published_at": "2026-09-07T14:14:31Z",
-        "view_count": 41638,
-        "like_count": 771
+        "view_count": 48847,
+        "like_count": 851
       },
       {
         "rank": 20,
@@ -434,18 +434,18 @@
         "channel": "Emergency Awesome",
         "thumbnail": "https://i.ytimg.com/vi/a0b5oC6IF64/mqdefault.jpg",
         "published_at": "2026-09-07T19:33:01Z",
-        "view_count": 323481,
-        "like_count": 4678
+        "view_count": 333707,
+        "like_count": 4794
       },
       {
         "rank": 21,
-        "video_id": "ckCNkbSW1qg",
-        "title": "No One Is Coming To Save You",
-        "channel": "jacksepticeye",
-        "thumbnail": "https://i.ytimg.com/vi/ckCNkbSW1qg/mqdefault.jpg",
-        "published_at": "2026-09-07T18:49:03Z",
-        "view_count": 794003,
-        "like_count": 26026
+        "video_id": "e1AwRFIaNGI",
+        "title": "THE FINAL BOSS OF HOW TO FISH!",
+        "channel": "MM7Games",
+        "thumbnail": "https://i.ytimg.com/vi/e1AwRFIaNGI/mqdefault.jpg",
+        "published_at": "2026-09-07T17:00:17Z",
+        "view_count": 179189,
+        "like_count": 4030
       },
       {
         "rank": 22,
@@ -454,8 +454,8 @@
         "channel": "Tearbluee",
         "thumbnail": "https://i.ytimg.com/vi/238X2xUGxRM/mqdefault.jpg",
         "published_at": "2026-09-07T21:00:25Z",
-        "view_count": 180493,
-        "like_count": 935
+        "view_count": 217537,
+        "like_count": 1053
       },
       {
         "rank": 23,
@@ -464,57 +464,43 @@
         "channel": "IGN",
         "thumbnail": "https://i.ytimg.com/vi/vbHD98a-kjs/mqdefault.jpg",
         "published_at": "2026-09-07T21:00:35Z",
-        "view_count": 146431,
-        "like_count": 1092
+        "view_count": 152015,
+        "like_count": 1117
       },
       {
         "rank": 24,
-        "video_id": "RbtE6b0OO2g",
-        "title": "This video will teach you How NOT To Fish",
-        "channel": "SMii7Y",
-        "thumbnail": "https://i.ytimg.com/vi/RbtE6b0OO2g/mqdefault.jpg",
-        "published_at": "2026-09-06T19:13:25Z",
-        "view_count": 3090816,
-        "like_count": 129126
+        "video_id": "oQISvmvwzeU",
+        "title": "PROP HUNT",
+        "channel": "Flamingo",
+        "thumbnail": "https://i.ytimg.com/vi/oQISvmvwzeU/mqdefault.jpg",
+        "published_at": "2026-09-08T04:19:44Z",
+        "view_count": 329123,
+        "like_count": 17203
       },
       {
         "rank": 25,
-        "video_id": "V3b1JrAl_1Q",
-        "title": "도경수(D.O.) l 'Guitarist' MV",
-        "channel": "도경수(DOH KYUNG SOO)",
-        "thumbnail": "https://i.ytimg.com/vi/V3b1JrAl_1Q/mqdefault.jpg",
-        "published_at": "2026-09-08T09:00:02Z",
-        "view_count": 303741,
-        "like_count": 36839
+        "video_id": "5DA3dZ3WWjI",
+        "title": "Qismat Kaur (Official Video): Gulab Sidhu | Kulshan Sandhu | Upma Sharma | New Punjabi songs 2026",
+        "channel": "Top Notch Music",
+        "thumbnail": "https://i.ytimg.com/vi/5DA3dZ3WWjI/mqdefault.jpg",
+        "published_at": "2026-09-08T05:03:45Z",
+        "view_count": 373506,
+        "like_count": 3638
       }
     ],
     "google_news": {
       "top": [
         {
-          "title": "UK airports latest: Air traffic control issue causing disruption to flight departures",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaWhxZjN5WG9BVTlnVDN3N0pGbG9wZjlsMFBUQ1Z6NXVQQ0pZeEJMWnVGNEdXWVpPSEdEUWtKOGVPdG1qRjNlMXlaOURkUF85aEZzSHZPRVRydGJoeWczRDZ1bHZhNE0yWV9jdm85NmltRGxIbXMxQlZvQmtEU3lNeWY0LTRibDRBT0E2dnhQSkxTaTR1OFNncDFLel9ZTTlnSDMtc1R1YWdIejMybDVBV1Z4a0RfODFRcWVpbw?oc=5",
-          "description": "UK airports latest: Air traffic control issue causing disruption to flight departures  Sky NewsHeathrow and Gatwick among airports hit by air traffic control problems  BBCFlights at Heathrow and Gatwi",
-          "publisher": "Sky News",
-          "pub_date": "2026-09-08T14:04:23+00:00"
-        },
-        {
-          "title": "France and Canada join UK in issuing trade sanctions on Israeli settlements",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT3BuOVVwRlAyUjdGSXkybENVMVNwdnNCZ3Q0SHlRWHdtQ2FwaHZXaGEydG5yNjNya3VUOVZpT3FHUmE5dTNkbF95eFk5UnRhcjREb1RFX0RHWGxkYmtlMTRjVFZYakZ3Z1IyWWhMVm5CYkhrcVN1ZGU4RW41bVYwODlFVFZROUswWWxlcQ?oc=5",
-          "description": "France and Canada join UK in issuing trade sanctions on Israeli settlements  politico.euUK-Israel sanctions latest: Labour sanctioning Israel ‘to appease Islamists’  The TelegraphJoint Foreign Ministe",
-          "publisher": "politico.eu",
-          "pub_date": "2026-09-08T13:49:00+00:00"
-        },
-        {
-          "title": "‘Army of Christian patriots’: how a black-clad vigilante group swarmed Portsmouth",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb3BJcHdQbUFHajRQRWNjXzR6STVoRnZxazdlMF9XRGVmXzVkQnRMM04xa3RwVE42dFNPemRJRVJac05YX3FjZHFIWkQ2c2FqVGQ5R0tYVWg3bUxpU3hDVXMxOFBKeDNwNmNpMFpFVnJFd3Yzc084T3l5V2JreGtCX1NTa1NhX01uekNNTG95VFVveDAwT3BFYU0zSHhBOUl3NjV4NnZGdVJ2am5qRkJOelhUNkt4LU9FWFBta1M4b3RyTEU?oc=5",
-          "description": "‘Army of Christian patriots’: how a black-clad vigilante group swarmed Portsmouth  The GuardianMigrant landings denied by Southampton and Portsmouth ports  BBCThe live-streamed call-to-arms that broug",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-08T11:42:00+00:00"
+          "title": "In West Bank, date farmers weigh impact of UK sanctions on Israeli settlers",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xTnBRRFVZRjNQc0ZwUDZPb1pQNGtSVVo4SG84dEx1SHROOXFzZ1gxOFM4bWk3NnNzMUdfd2loRGJaNDdwcWJXS2lvdzlZUHRmaEdVdjB4VF96U1Z5?oc=5",
+          "description": "In West Bank, date farmers weigh impact of UK sanctions on Israeli settlers  BBCThe UK's trade ban with Israeli settlements explained  Sky NewsUK accuses Israeli ‘terrorists’ of ethnic cleansing in We",
+          "publisher": "BBC",
+          "pub_date": "2026-09-08T15:03:11+00:00"
         },
         {
           "title": "Nottingham attacks victim's death potentially preventable, inquiry hears",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZQjBjYWxXVGZZeU5qUFdSRlphX1Jfb3JiLW9OZFdBU1d2cV9GNXc4YUlrNGd2QzNpM3BheWpVTkdva2w1Q3BQNDhhLXhYYTAxckNSeEFHX0FKUHg1?oc=5",
-          "description": "Nottingham attacks victim's death potentially preventable, inquiry hears  BBCNottingham attack victim’s death ‘could have been prevented’  The TelegraphDeath of Nottingham attacks student was ‘potenti",
+          "description": "Nottingham attacks victim's death potentially preventable, inquiry hears  BBCDeath of Nottingham attack victim 'potentially preventable', inquiry hears  Sky NewsTriple killer’s list of explosives not ",
           "publisher": "BBC",
           "pub_date": "2026-09-08T10:29:29+00:00"
         },
@@ -533,225 +519,53 @@
           "pub_date": "2026-09-08T11:01:19+00:00"
         },
         {
-          "title": "Prince George pictured on first day at Eton College | ITV News",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeTlDZ3FXSGNXV2Rzak9ReVlVYldlc01iVnpQYXl5U196bDQ4eG9URXhwX21WTnJzblQxOGVYY1BDOVB0MXJ4V3JiY2EtTV9ZQnJOMktSOElFdmVmUGxsY0RDdnhTX0VyNlo4dkYyN1RPYkJLc1FjeDNlbWdQNXM1X2NmcmxRNV9RUzJZelktcEliTWhPRFB5LW1MeUxCbDJqRllHRg?oc=5",
-          "description": "Prince George pictured on first day at Eton College | ITV News  ITVXPrince George begins first day at a rainy Eton College  BBCPrince George arrives at Eton, the elite school that taught his father an",
-          "publisher": "ITVX",
-          "pub_date": "2026-09-08T12:19:59+00:00"
-        },
-        {
-          "title": "King Charles confirms Harry and Meghan remain non-working royals",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ2JtZ1FvZnJraE04d2pwUlAwVGZyNXR6aVNRTHRPeFFTVnZrNkZLMWg5Y2ZMaGp2c0ZZbV85ZzBpSkdOLTNjTjFYc0VXclhwajh4X1ZfUHRtcnMyYjBLVzZpZUZ0eHR4aDVXd2lsdDJUMGhVNi02bjZqQU9YUXRkN0tJZ1d1cFoxUGxYTWxVS1RraXZyMGxzTXJJSUt6YnNpLTdmUWFDb2xfN3M?oc=5",
-          "description": "King Charles confirms Harry and Meghan remain non-working royals  ReutersHarry and Meghan 'surprised' by King's letter making clear they remain non-working royals  BBCKing letter fuels Harry’s fears t",
-          "publisher": "Reuters",
-          "pub_date": "2026-09-07T16:31:03+00:00"
-        },
-        {
-          "title": "Farage: Ban balaclavas on Britain’s streets",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV1VJWDk4a2ktWWJGWm1nY205MXBkOGEwSjJsTEQ4b2FGNlJ5UjlIZk1oWUFtUlBSNXZwdjBkN1VNY3FOQ0Y1TUxDczYtNkJFNGNxaWdiZm5ZM25YaXpuWmNjVzhHVk5mZXFBalRfV3c3dFM4R2VVQmpMTUs4amdIVVIweFhSQkVfaGVWWHBxZVlLQVJB?oc=5",
-          "description": "Farage: Ban balaclavas on Britain’s streets  The TelegraphNigel Farage calls for ban on burqas and balaclavas  The TimesNigel Farage: Britain is “on the edge of serious civil disturbance”  Reform UKA ",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-09-07T19:17:00+00:00"
-        },
-        {
-          "title": "Mystery as C4 worker found dead in sea 110miles from home after sending last pic",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2SVNfX255b3ZwblhlekpyMFZkOTh2ZHkzM2x5b0xjUzZmWnlZTEtmRVpfRVZSaFlPdTBEZjNWUnlUTE1fRXk3MHVrbnkwVzFhNW5WS2k5dkZ2ZlhVaFJhRVhRVlV1ZERiRHZfS2RWN1VGSGd6bE5PMFFhRQ?oc=5",
-          "description": "Mystery as C4 worker found dead in sea 110miles from home after sending last pic  The SunFirst picture of woman found dead off Llandudno as family left 'heartbroken'  North Wales LiveFamily of woman w",
-          "publisher": "The Sun",
-          "pub_date": "2026-09-08T12:14:00+00:00"
-        },
-        {
-          "title": "Eiffel Tower reopens after protest over removing women staff",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRTB6WnZHUkc3emVyOU5ucjlEUmxNYks0TE9IY0tKY0ctUFlxb0ZSWmVVX3hWdVZXZElaSlFfZ2ljdEFPQmc1dE5OdS11dG42S0dDcXVjWGZOQTNSTWdfS2dtRDBtZHBXbTFoaUNLVFRETjZLbDU5YjIyNnNMTUNqWkdvSEY1VUVfanREdUVDMkRqTHF6WGpBcnBrekMzOWluRWkxbdIBqgFBVV95cUxPOUhoRU10Y0NJV1RMdTJRVmpsYXhfdmNqUGNiclJlS05IYllMQ3BuV3ZiWFZDYUs4SmdwbjVObVJYNVlSYXNrUnlfZWEtTE40eU8yMnBQdC1yRnZrbEp5R3pWS2RuN1QyRnRWek9wVGVMYkc5M2dUOWtmbEtRU1RNa1NiTzNCalZsSGhZb1kxVFhYbzNFLWp3OGdSYmMzdWp4M2tfbW00c1hYQQ?oc=5",
-          "description": "Eiffel Tower reopens after protest over removing women staff  Al JazeeraInvestigation after female staff at Eiffel Tower replaced by men for religious visit  BBCEiffel Tower management under fire afte",
-          "publisher": "Al Jazeera",
-          "pub_date": "2026-09-08T10:44:46+00:00"
-        },
-        {
-          "title": "Reading scores plummet as ‘digital distraction’ harms students",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZDFoazJCZEJ4RG1abXpOT2RwRURVelNXcnBONE11b0I1UTZwSXdrRDNtQ2xvZ2pKQ3pjUkdBOWU0alduZzY2Z1d1RVE5S0FHYmJlQ0xESUVMV2FiZ09fQ1hoUWcwdDhtTno5NG5XWW9mdlprbnNjTk5sYlNaenl5N3JSb1I?oc=5",
-          "description": "Reading scores plummet as ‘digital distraction’ harms students  Financial TimesAre teenagers growing dimmer?  The EconomistPISA 2025: Students’ reading and mathematics performance declined sharply acr",
-          "publisher": "Financial Times",
-          "pub_date": "2026-09-08T08:19:24+00:00"
-        },
-        {
-          "title": "Family missing after plane crash off Bahamas coast",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbzdEWDhTajFCQjk4MHAtMnhpNjdqdWlSQU5nUXlTczBDaHNlLWx4bEszajlfVGFHLXpnSkluVVVSel9rWGZhVmg3MXhubU1qYW5YU1NhWDRvbW9xd0JsQnVEWTdFM29DZmU1OG1FTm00c0U3QWExSDBKU21FZE1uS3kyelByWXJ1S0ZoSGpB?oc=5",
-          "description": "Family missing after plane crash off Bahamas coast  Metro.co.uk‘Please help’: Miami family searching for loved ones after plane vanishes in Bahamas  Miami HeraldAmerican family missing in apparent cra",
-          "publisher": "Metro.co.uk",
-          "pub_date": "2026-09-08T07:41:00+00:00"
-        },
-        {
-          "title": "Canada’s retaliatory US tariffs take effect as trade dispute grows",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtNjZOQTFoRndOY2JRMEExSXlnRG9kbzRMTlpXdkQ4cXBuQ1Z5S291WW1NdklfNFVIVVBBY1QtQlp4Sl9uT2d0amhoRHZSQ1I0X1BfQmloZXN4blVYV2hKWkdNTDE0VnBpYVdQdkFLUktkMmViRVlPOA?oc=5",
-          "description": "Canada’s retaliatory US tariffs take effect as trade dispute grows  The GuardianUS-Canada tariffs: Canada braces for prolonged trade war as counter-tariffs on US take effect  BBCCanada Imposes New Tar",
+          "title": "‘Army of Christian patriots’: how a black-clad vigilante group swarmed Portsmouth",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb3BJcHdQbUFHajRQRWNjXzR6STVoRnZxazdlMF9XRGVmXzVkQnRMM04xa3RwVE42dFNPemRJRVJac05YX3FjZHFIWkQ2c2FqVGQ5R0tYVWg3bUxpU3hDVXMxOFBKeDNwNmNpMFpFVnJFd3Yzc084T3l5V2JreGtCX1NTa1NhX01uekNNTG95VFVveDAwT3BFYU0zSHhBOUl3NjV4NnZGdVJ2am5qRkJOelhUNkt4LU9FWFBta1M4b3RyTEU?oc=5",
+          "description": "‘Army of Christian patriots’: how a black-clad vigilante group swarmed Portsmouth  The GuardianRNLI request to land 120 migrants denied by two ports  BBCThe live-streamed call-to-arms that brought hun",
           "publisher": "The Guardian",
-          "pub_date": "2026-09-07T23:20:00+00:00"
-        },
-        {
-          "title": "Borrowers expecting mortgage rates to drop have hopes dashed",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wVFdIU2M2OHpVYnFINW5PSE84Vk1LVWVrcGwzQk1YRDFiaFp5S0M2a19SM0V2YWJaMEdMTXcydnV0S251QUlhYWZ2SDJfT2M2bHpmZ216MlpFcVdS?oc=5",
-          "description": "Borrowers expecting mortgage rates to drop have hopes dashed  BBCMortgage misery looms as Britain’s biggest lenders raise rates  The TimesJaguar Land Rover job cuts: £500,000 package to help workers f",
-          "publisher": "BBC",
-          "pub_date": "2026-09-08T11:59:02+00:00"
-        }
-      ],
-      "nation": [
-        {
-          "title": "France and Canada join UK in issuing trade sanctions on Israeli settlements",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT3BuOVVwRlAyUjdGSXkybENVMVNwdnNCZ3Q0SHlRWHdtQ2FwaHZXaGEydG5yNjNya3VUOVZpT3FHUmE5dTNkbF95eFk5UnRhcjREb1RFX0RHWGxkYmtlMTRjVFZYakZ3Z1IyWWhMVm5CYkhrcVN1ZGU4RW41bVYwODlFVFZROUswWWxlcQ?oc=5",
-          "description": "France and Canada join UK in issuing trade sanctions on Israeli settlements  politico.euUK-Israel sanctions latest: Labour sanctioning Israel ‘to appease Islamists’  telegraph.co.ukJoint Foreign Minis",
-          "publisher": "politico.eu",
-          "pub_date": "2026-09-08T13:49:00+00:00"
-        },
-        {
-          "title": "RNLI boats carrying 140 migrants denied entry to two ports",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZjlZMmlJUmtDbVRqMVhVS3NZM2cxWEF6NnI2UVl4REtVeWRUazJqNmZyVnhJVWFqdXNzdHJ2cXg3bTA5VENUSUltWk54VW5pMzNUQjNaS0dTRFFrM1NsT1JaVWJfXzQ5ZWR3T1VWd0xia202RndMMGRxbGlDaGszbVkyYThraHJQY1NrWC1MNHFYNVBaQ2JHM1BJQ2NFNVdHSlE?oc=5",
-          "description": "RNLI boats carrying 140 migrants denied entry to two ports  telegraph.co.ukMigrant landings denied by Southampton and Portsmouth ports  BBC‘Army of Christian patriots’: how a black-clad vigilante grou",
-          "publisher": "telegraph.co.uk",
-          "pub_date": "2026-09-08T11:35:00+00:00"
-        },
-        {
-          "title": "Prince George pictured on first day at Eton College | ITV News",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeTlDZ3FXSGNXV2Rzak9ReVlVYldlc01iVnpQYXl5U196bDQ4eG9URXhwX21WTnJzblQxOGVYY1BDOVB0MXJ4V3JiY2EtTV9ZQnJOMktSOElFdmVmUGxsY0RDdnhTX0VyNlo4dkYyN1RPYkJLc1FjeDNlbWdQNXM1X2NmcmxRNV9RUzJZelktcEliTWhPRFB5LW1MeUxCbDJqRllHRg?oc=5",
-          "description": "Prince George pictured on first day at Eton College | ITV News  ITVXPrince George begins first day at a rainy Eton College  BBCKate Middleton proves forest green is autumn's most polished dress colour",
-          "publisher": "ITVX",
-          "pub_date": "2026-09-08T12:19:59+00:00"
-        },
-        {
-          "title": "Heathrow and Gatwick among airports hit by air traffic control problems",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVYXhud3NRQ2xNN3gyVXJYeS1qOHBnY0lpZWl1SkVfTGdjVWxWbFl2M3F1UlJGbkxtNDZtRHF0WWtYSEI5RDBpbDBrVDFYaDhEeklUOGJoNEw2V20z?oc=5",
-          "description": "Heathrow and Gatwick among airports hit by air traffic control problems  BBCFlights at Heathrow and Gatwick grounded  telegraph.co.ukUK airports latest: Air traffic control issue causing disruption to",
-          "publisher": "BBC",
-          "pub_date": "2026-09-08T14:33:36+00:00"
-        },
-        {
-          "title": "King Charles confirms Harry and Meghan remain non-working royals",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ2JtZ1FvZnJraE04d2pwUlAwVGZyNXR6aVNRTHRPeFFTVnZrNkZLMWg5Y2ZMaGp2c0ZZbV85ZzBpSkdOLTNjTjFYc0VXclhwajh4X1ZfUHRtcnMyYjBLVzZpZUZ0eHR4aDVXd2lsdDJUMGhVNi02bjZqQU9YUXRkN0tJZ1d1cFoxUGxYTWxVS1RraXZyMGxzTXJJSUt6YnNpLTdmUWFDb2xfN3M?oc=5",
-          "description": "King Charles confirms Harry and Meghan remain non-working royals  ReutersHarry and Meghan 'surprised' by King's letter making clear they remain non-working royals  BBCKing letter fuels Harry’s fears t",
-          "publisher": "Reuters",
-          "pub_date": "2026-09-07T16:31:03+00:00"
-        },
-        {
-          "title": "Harpurhey house explosion LIVE updates amid huge emergency services response",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ1ZiVXM1amFpUWI0aWhkY1Z3SFpvNklYWFhQSUE2SURJeDNweUFHY1o0NXVidFRSM3l2QlZXWmYwVTVTX05WTkUyUG9ybkZCZDhOZDRpRUhod044ekstRm1vaXMySUVHRkoxZE1wd2ZKSzVKdndsdjJTUXhOaVFyTm1XVWpwSlF5bDJsT3UyLThzTUozZEowOTQzdXJXZ0RRWEFRdS1xODlFVkpJeXB2WUcyQmd6Sk0?oc=5",
-          "description": "Harpurhey house explosion LIVE updates amid huge emergency services response  manchestereveningnews.co.ukManchester house explosion leaves man critically injured  BBCHarpurhey man in critical conditio",
-          "publisher": "manchestereveningnews.co.uk",
-          "pub_date": "2026-09-08T12:25:32+00:00"
-        },
-        {
-          "title": "Farage: Ban balaclavas on Britain’s streets",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV1VJWDk4a2ktWWJGWm1nY205MXBkOGEwSjJsTEQ4b2FGNlJ5UjlIZk1oWUFtUlBSNXZwdjBkN1VNY3FOQ0Y1TUxDczYtNkJFNGNxaWdiZm5ZM25YaXpuWmNjVzhHVk5mZXFBalRfV3c3dFM4R2VVQmpMTUs4amdIVVIweFhSQkVfaGVWWHBxZVlLQVJB?oc=5",
-          "description": "Farage: Ban balaclavas on Britain’s streets  telegraph.co.ukNigel Farage calls for ban on burqas and balaclavas  The TimesNigel Farage: Britain is “on the edge of serious civil disturbance”  Reform UK",
-          "publisher": "telegraph.co.uk",
-          "pub_date": "2026-09-07T19:17:00+00:00"
-        },
-        {
-          "title": "Mystery as C4 worker found dead in sea 110miles from home after sending last pic",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2SVNfX255b3ZwblhlekpyMFZkOTh2ZHkzM2x5b0xjUzZmWnlZTEtmRVpfRVZSaFlPdTBEZjNWUnlUTE1fRXk3MHVrbnkwVzFhNW5WS2k5dkZ2ZlhVaFJhRVhRVlV1ZERiRHZfS2RWN1VGSGd6bE5PMFFhRQ?oc=5",
-          "description": "Mystery as C4 worker found dead in sea 110miles from home after sending last pic  The SunFirst picture of woman found dead off Llandudno as family left 'heartbroken'  North Wales LiveFamily of woman w",
-          "publisher": "The Sun",
-          "pub_date": "2026-09-08T12:14:00+00:00"
+          "pub_date": "2026-09-08T11:42:00+00:00"
         },
         {
           "title": "Council reorganisation plans withdrawn by Angela Rayner after new legal advice | ITV News",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNTZDWjQ3a0ZoMzBPV2U4YU4zSnhCazVaTGNvYUc2OVpwM1JkSTBLcG5LMU94Ykt5NDIza01oNTNlU2VjX002cTJJWHQwNFJXWW5KenFkMmVsRzRVVFdzbDR5N0h5NEMyWVVZcTRKeXREMUkzSzRoQ0tvTmZCalYtUEc4UVNrdDllYU1HUUd2MXpldDc1Z3U4ZHFiQTVOSmNSa3RmRzA5S3BHcnJQRWI0QWhHWnQ?oc=5",
-          "description": "Council reorganisation plans withdrawn by Angela Rayner after new legal advice | ITV News  ITVXMixed reactions in Sussex to halting of council reorganisation  BBCAngela Rayner halts councils shake-up ",
+          "description": "Council reorganisation plans withdrawn by Angela Rayner after new legal advice | ITV News  ITVXAngela Rayner halts councils shake-up after legal threat  The TelegraphWhat next for Staffordshire after ",
           "publisher": "ITVX",
           "pub_date": "2026-09-07T18:46:54+00:00"
         },
         {
-          "title": "Argentina to file criminal case against oil company operating in Falklands",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ESkFGVy1XRGV0QVdSN1dFa1VhbG51YlhKZmdxbUotN2VYOFc3MmxJd1dZbnN0WVJpY0VaRzZGSFBDQTJpRW1IcFpicFphVFRLUXVLc01xSXNKYVh2?oc=5",
-          "description": "Argentina to file criminal case against oil company operating in Falklands  BBCIn the world’s southernmost city, Milei eyes a far greater prize than the Falklands  telegraph.co.ukArgentina sues Israel",
+          "title": "Flights are grounded across the UK due to air traffic control technical problems | ITV News",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObmJFVXFIM21uVjhEakFGbjVYNGlmQUctX2RyYUgxd0F6RVJuenZLbU5yXzJSTDZXUldEN0R5MU93cU9kaHBfaVh4cFBMNnFUMGR0WTZfZWE2UzV0RjltM184MmpJVXB1WlhMWTh2eXlkRlVYSFA2MFE3RlVUR0RsSzRST1I3UW11d3hrb1RyMC0yMDJyOGs3OVRaYVBxX25tdnEtNG9pbDM4ZjB2cXUyOTlZUUlVS3NYY2tfRUdhdw?oc=5",
+          "description": "Flights are grounded across the UK due to air traffic control technical problems | ITV News  ITVXUK airports latest: Air traffic control issue causing disruption to flight departures  Sky NewsFlights ",
+          "publisher": "ITVX",
+          "pub_date": "2026-09-08T14:32:36+00:00"
+        },
+        {
+          "title": "Harry and Meghan 'surprised' by King's letter making clear they remain non-working royals",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5WbGxVbEZwRTJLZDlMRG5ZdWVpSm5IeEF6ckl1cmd5bVV6YnhsWG1uUnVGMFgydVVyUHY3U3FfSmZCRl9jS0NhaFI4ZmdoaDVOVHVMdm1wVjUyS19E?oc=5",
+          "description": "Harry and Meghan 'surprised' by King's letter making clear they remain non-working royals  BBCWhy Harry and Meghan may not have moved back to Britain at all  The IndependentHarry and Meghan latest: Du",
           "publisher": "BBC",
-          "pub_date": "2026-09-08T11:09:54+00:00"
+          "pub_date": "2026-09-08T08:23:33+00:00"
         },
         {
-          "title": "England’s teenagers outperform peers in most countries in maths, reading and science",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUEpSRVlseGR5b2hFVmZQaUttc0R5SFIxY21fS3dlaGNFV19JSGFJczNqSjZIaEtWY0Z5WUo0S2ZwZnE5RERCNFdJZjA0OVhQbk95RGtrdEY1YkkzMVFQVzNyM2c2SUtlYXFfZDRYTTVaQ0xpWC1GU1cwanJtNy1WUFZ4VG9TQlJsbHpsMUpNbVQ1ckJDdHo5d0hVOXhmc1EtVGdSLS1lUkxGdVRDY0Fpc3pmYk1CNU1NSTRYVm1LeEtHM3lTV21HaHlrSQ?oc=5",
-          "description": "England’s teenagers outperform peers in most countries in maths, reading and science  The GuardianEngland up in reading, maths and science rankings as Scotland and Wales fall behind  BBCWales falls fu",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-08T10:29:00+00:00"
+          "title": "Prince George arrives at Eton, the elite school that taught his father and 20 UK prime ministers",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZX0djamw1dUJ1ZGsyT21mc3FpRmhfUml5MXZrWExmYzdyQlNPb1NWazhhZHE1Z2tDRXV5dHVrYTJuLU9SR3hxZXFBbEpXYVNRdWI4Q0NLcHRuX29TN1h0X1BOZ1VIVmJIb3hnY21SSlZEbWVHYVA5Rw?oc=5",
+          "description": "Prince George arrives at Eton, the elite school that taught his father and 20 UK prime ministers  CNNPrince George begins first day at a rainy Eton College  BBCPrince George starts first day at Eton C",
+          "publisher": "CNN",
+          "pub_date": "2026-09-08T11:09:44+00:00"
         },
         {
-          "title": "Man grabbed pregnant woman by neck and called her a 'little sl*t' during pet shop row",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM00tdFBkdjlfcEhYR2dzSnF4eEtVRVAwX2Z4cktqclN5a1Y2Q0FDQ252aXBaVkRmX3VBMXlnLTc1NV9NMW96MmQ3VkFzVHVzUGQyX2x0M1QzUGhzZHdiX3haRXFKeHZ0eEJ0enNPSGp0cURDdFBabm1aN0psX0Mwb1ZUTkxLWEQ3X2xsTmloSmRTc243RDRJZEJESHpoU2hCaUZ5SnU4VkUxRE1XX0HSAbMBQVVfeXFMT09lbk11SUk3SzJZNHR3SUw0RzMyaFAzYkRWT0k0T1ZlZ0VHVU00dzNYUkc1eU1yNnRNcng1WFlzYnZPUC1zSlhFY2tvR1JOc2lCWlJBRDUxbzMzdVJVR3l4OXZGRFF5cEdMR2trVnhMc3RMamNHdTZzM3plSkVVSTZ4ek1jZUlwdGhLWTRlSm9lM3A2S2ZKS0pKTkJ3UzEtLWl6TUtWRVdwbzVfV0FCd2tpU1E?oc=5",
-          "description": "Man grabbed pregnant woman by neck and called her a 'little sl*t' during pet shop row  manchestereveningnews.co.ukAfter the assault Kane Samms claimed that 'women are dramatic'  facebook.comMan grabbe",
-          "publisher": "manchestereveningnews.co.uk",
-          "pub_date": "2026-09-08T05:05:00+00:00"
-        },
-        {
-          "title": "Fox rescued after nine hours stuck in drain pipe",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMFdHaDBpNXU5XzdtZHNLdjN5Y25KRkhKSm5SX0VqOGtTbzF2d1FsZjJJQUJyb1lGcFU2cVZBOS1rbVFxYXhxblF1MkRieTJNMGdxLUFqaXlpMmZnNGFsWTd0bTI1d0w2QkxYWmFmRy1zd0JoTTNqYmxkUm05RHZUZzRNUDMyMmtKOGd4YkxTeDM2cUhDRWVMNA?oc=5",
-          "description": "Fox rescued after nine hours stuck in drain pipe  telegraph.co.ukSee more headlines and perspectives on Google News",
-          "publisher": "telegraph.co.uk",
-          "pub_date": "2026-09-08T10:09:00+00:00"
-        },
-        {
-          "title": "Tributes paid to 'one-of-a-kind' father killed in Corby crash",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4TEJGS3FiOGNfU3NsVFE3X3U5WEl3RkQ5LU4tMFZrSDFiMTFHWUd1d0xib0FfR3dvTnE2TWcwSjNXakRFNnRaTXlrRFhZUkJiX1pPcENlNjFMRXZz?oc=5",
-          "description": "Tributes paid to 'one-of-a-kind' father killed in Corby crash  BBC‘He was truly special’: Tribute to man killed in Corby accident  Northamptonshire Telegraph'Simply magic' grandad died after being hit",
-          "publisher": "BBC",
-          "pub_date": "2026-09-08T05:35:30+00:00"
-        },
-        {
-          "title": "Hedge Fund Titan Rokos Joins Billionaires Quitting UK",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQU53bU12TGxTbFFOLUpTVEVXTWh6X1k0cTJyaEdXdDVIbnBWeXB0RmgyY2pLNDNqZFN0a0k3emlVdFhES1pFMTFqQ3k2Nm03SGVBZWVzRzNGS3M1LTdJelY1blVrSDllQkxscFpDakQtbS0zM040QWFIRnpHbVRsMWZxVG5HTEZLNjVBaUtwVU9xcEo2MGNGZWZKM2hZT2FyaWF0R3RtRW5ZR2xPdE94VTFHYw?oc=5",
-          "description": "Hedge Fund Titan Rokos Joins Billionaires Quitting UK  Bloomberg.comChris Rokos: UK's third-biggest taxpayer to leave for Greece  BBCThe UK’s big problem isn’t that it’s losing a billionaire class – i",
-          "publisher": "Bloomberg.com",
-          "pub_date": "2026-09-08T05:43:00+00:00"
-        }
-      ],
-      "world": [
-        {
-          "title": "Eiffel Tower reopens after protest over removing women staff",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRTB6WnZHUkc3emVyOU5ucjlEUmxNYks0TE9IY0tKY0ctUFlxb0ZSWmVVX3hWdVZXZElaSlFfZ2ljdEFPQmc1dE5OdS11dG42S0dDcXVjWGZOQTNSTWdfS2dtRDBtZHBXbTFoaUNLVFRETjZLbDU5YjIyNnNMTUNqWkdvSEY1VUVfanREdUVDMkRqTHF6WGpBcnBrekMzOWluRWkxbdIBqgFBVV95cUxPOUhoRU10Y0NJV1RMdTJRVmpsYXhfdmNqUGNiclJlS05IYllMQ3BuV3ZiWFZDYUs4SmdwbjVObVJYNVlSYXNrUnlfZWEtTE40eU8yMnBQdC1yRnZrbEp5R3pWS2RuN1QyRnRWek9wVGVMYkc5M2dUOWtmbEtRU1RNa1NiTzNCalZsSGhZb1kxVFhYbzNFLWp3OGdSYmMzdWp4M2tfbW00c1hYQQ?oc=5",
-          "description": "Eiffel Tower reopens after protest over removing women staff  Al JazeeraInvestigation after female staff at Eiffel Tower replaced by men for religious visit  BBCEiffel Tower management under fire afte",
-          "publisher": "Al Jazeera",
-          "pub_date": "2026-09-08T10:44:46+00:00"
-        },
-        {
-          "title": "Reading scores plummet as ‘digital distraction’ harms students",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZDFoazJCZEJ4RG1abXpOT2RwRURVelNXcnBONE11b0I1UTZwSXdrRDNtQ2xvZ2pKQ3pjUkdBOWU0alduZzY2Z1d1RVE5S0FHYmJlQ0xESUVMV2FiZ09fQ1hoUWcwdDhtTno5NG5XWW9mdlprbnNjTk5sYlNaenl5N3JSb1I?oc=5",
-          "description": "Reading scores plummet as ‘digital distraction’ harms students  Financial TimesAre teenagers growing dimmer?  The EconomistPISA 2025: Students’ reading and mathematics performance declined sharply acr",
-          "publisher": "Financial Times",
-          "pub_date": "2026-09-08T08:19:24+00:00"
-        },
-        {
-          "title": "Saudi Arabia vows to respond after Houthis attack cities and energy facilities",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9IWV9FejJ5aUZpYTlWMnFqU2tneHRuOW52WE9KdlczNW9ZN0tIN1FQRzR1LWs0cmpLcTFLSzV3VkFwV3YxVDJMU3ZMWmpTUU5qTndkclVienFRS2ZC?oc=5",
-          "description": "Saudi Arabia vows to respond after Houthis attack cities and energy facilities  BBCUK pays highest borrowing rate since 1998; Bank of England governor warns oil price ‘could be higher’ – business live",
-          "publisher": "BBC",
-          "pub_date": "2026-09-08T13:58:32+00:00"
+          "title": "Mystery as C4 worker found dead in sea 110miles from home after sending last pic",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2SVNfX255b3ZwblhlekpyMFZkOTh2ZHkzM2x5b0xjUzZmWnlZTEtmRVpfRVZSaFlPdTBEZjNWUnlUTE1fRXk3MHVrbnkwVzFhNW5WS2k5dkZ2ZlhVaFJhRVhRVlV1ZERiRHZfS2RWN1VGSGd6bE5PMFFhRQ?oc=5",
+          "description": "Mystery as C4 worker found dead in sea 110miles from home after sending last pic  The SunFirst picture of woman found dead off Llandudno as family left 'heartbroken'  North Wales LiveFamily of woman w",
+          "publisher": "The Sun",
+          "pub_date": "2026-09-08T12:14:00+00:00"
         },
         {
           "title": "Family missing after plane crash off Bahamas coast",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbzdEWDhTajFCQjk4MHAtMnhpNjdqdWlSQU5nUXlTczBDaHNlLWx4bEszajlfVGFHLXpnSkluVVVSel9rWGZhVmg3MXhubU1qYW5YU1NhWDRvbW9xd0JsQnVEWTdFM29DZmU1OG1FTm00c0U3QWExSDBKU21FZE1uS3kyelByWXJ1S0ZoSGpB?oc=5",
-          "description": "Family missing after plane crash off Bahamas coast  Metro.co.uk‘Please help’: Miami family searching for loved ones after plane vanishes in Bahamas  Miami HeraldAmerican family missing in apparent cra",
+          "description": "Family missing after plane crash off Bahamas coast  Metro.co.ukSee more headlines and perspectives on Google News",
           "publisher": "Metro.co.uk",
           "pub_date": "2026-09-08T07:41:00+00:00"
-        },
-        {
-          "title": "Canada’s retaliatory US tariffs take effect as trade dispute grows",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtNjZOQTFoRndOY2JRMEExSXlnRG9kbzRMTlpXdkQ4cXBuQ1Z5S291WW1NdklfNFVIVVBBY1QtQlp4Sl9uT2d0amhoRHZSQ1I0X1BfQmloZXN4blVYV2hKWkdNTDE0VnBpYVdQdkFLUktkMmViRVlPOA?oc=5",
-          "description": "Canada’s retaliatory US tariffs take effect as trade dispute grows  The GuardianUS-Canada tariffs: Canada braces for prolonged trade war as counter-tariffs on US take effect  BBCCanada Imposes New Tar",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-07T23:20:00+00:00"
-        },
-        {
-          "title": "Five killed after helicopter crashes in horror fireball smash at airport in Malaysia",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOHY1ZjFMVm1YbXVBd0tERzZzTlQzaDg3enNUaFRrNFdtVDlRMHZVNjllVFkxbHFCOTlwVlpBZlB2djF5ZFFtVDFwNURtVFplbmZrT0lHNE51NWY5eDM3VldDeVlhb3I2QmRJRm9ydDRwVUtmT1BnQktzT09pSGZHMzBBOU5MV1dsMEY3Z2VSN0VIMlcwLVBB?oc=5",
-          "description": "Five killed after helicopter crashes in horror fireball smash at airport in Malaysia  The SunDoctor, Nurses Among Five Aboard Helicopter In Long Lelang Heli Crash  sarawaktribune.comFlying Doctor Serv",
-          "publisher": "The Sun",
-          "pub_date": "2026-09-08T09:55:00+00:00"
-        },
-        {
-          "title": "Minister explains why Thailand ended visa-free entry for Sri Lankans",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSkxZcFI2WEc0SmJjcmVLLWIxSFM0dnRld0dyNHZadWplNkhGQkI3UUV2dWcyNk9ZVWQ1cXBpa0VSYkJ5RFRUMllyamhZN21pZHU5Rzdod254N3ppQkYxNlg3NDNkLXAtX1dIdzRKLS1pMExjZS1uUEpqd1I0WU1BcE1udFdwMVZ2T1JvNkxvUjJjTnd5WlFLV0U2ZHJjQ2JSYURnU2xBcw?oc=5",
-          "description": "Minister explains why Thailand ended visa-free entry for Sri Lankans  NewswireWhy Thailand ended visa-free entry for Sri Lankans: Herath explains  Daily Mirror - Sri LankaTravel to Thailand from the U",
-          "publisher": "Newswire",
-          "pub_date": "2026-09-08T11:45:52+00:00"
         },
         {
           "title": "Merz’s CDU in crisis after far-right victory in Saxony-Anhalt",
@@ -775,11 +589,169 @@
           "pub_date": "2026-09-07T11:39:00+00:00"
         },
         {
-          "title": "At least two people dead after Russian strikes on Kyiv",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KaWt5VzJEOHdNMU1WTjA2UXZrUjFVcjJocXpHeFZxSWxzbVZkLXVtaDVpajc0NE5nbWNRYTJqZ01nTjhoeDA4Y0tFcU8wXzVjck9OY1RsYTV2YVdZ?oc=5",
-          "description": "At least two people dead after Russian strikes on Kyiv  BBCRussia launches missile strikes against Kyiv as pause in raids ends  Financial TimesRussian strikes on Ukraine’s Kyiv kill at least two peopl",
+          "title": "‘Everything is against us’: Jaguar Land Rover suppliers voice fears amid carmaker’s cutbacks",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdGJRMG03eG95ZVp4bE00dVNqYkczOEU2c1FqMHNRdkhLWVptQ041ZEFORlp3SEE2bHBxTDhHZ2otMmVYOHZtbFVhOHZ5TWY2WV9yOEtYbU4tZVlFMWpqVGdmY0h6alRrRXpybENhQlZBWWF5Q0ctRkliQThCdlNBenpCRktTeUp0b09rUlRB?oc=5",
+          "description": "‘Everything is against us’: Jaguar Land Rover suppliers voice fears amid carmaker’s cutbacks  The GuardianWhy the ‘Temu Range Rover’ is such a threat to Jaguar Land Rover  BBC'JLR job cuts a cause for",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-08T14:28:00+00:00"
+        }
+      ],
+      "nation": [
+        {
+          "title": "Israel to shut down UK consulate in Jerusalem, after UK sanctions Israeli settlements in West Bank",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBRnhDanBQaDUxS0RpV3pySW9pSlZRdVAxQVMyb1RFT1ZrZ2ctblhrVXAyZ3dGMmRiTndodXdpV2pfYV9jN252cFNSWHVyQm5SVTRIejEyR24?oc=5",
+          "description": "Israel to shut down UK consulate in Jerusalem, after UK sanctions Israeli settlements in West Bank  BBCIn West Bank, date farmers weigh impact of UK sanctions on Israeli settlers  BBCThe UK's trade ba",
           "publisher": "BBC",
-          "pub_date": "2026-09-08T10:23:01+00:00"
+          "pub_date": "2026-09-08T13:37:22+00:00"
+        },
+        {
+          "title": "Flights are grounded across the UK due to air traffic control technical problems | ITV News",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObmJFVXFIM21uVjhEakFGbjVYNGlmQUctX2RyYUgxd0F6RVJuenZLbU5yXzJSTDZXUldEN0R5MU93cU9kaHBfaVh4cFBMNnFUMGR0WTZfZWE2UzV0RjltM184MmpJVXB1WlhMWTh2eXlkRlVYSFA2MFE3RlVUR0RsSzRST1I3UW11d3hrb1RyMC0yMDJyOGs3OVRaYVBxX25tdnEtNG9pbDM4ZjB2cXUyOTlZUUlVS3NYY2tfRUdhdw?oc=5",
+          "description": "Flights are grounded across the UK due to air traffic control technical problems | ITV News  ITVXFlight delays and cancellations at number of UK airports due to air traffic control issue  BBCHeathrow ",
+          "publisher": "ITVX",
+          "pub_date": "2026-09-08T14:32:36+00:00"
+        },
+        {
+          "title": "Harry and Meghan 'surprised' by King's letter making clear they remain non-working royals",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5WbGxVbEZwRTJLZDlMRG5ZdWVpSm5IeEF6ckl1cmd5bVV6YnhsWG1uUnVGMFgydVVyUHY3U3FfSmZCRl9jS0NhaFI4ZmdoaDVOVHVMdm1wVjUyS19E?oc=5",
+          "description": "Harry and Meghan 'surprised' by King's letter making clear they remain non-working royals  BBCHarry and Meghan latest: Duke and Duchess of Sussex 'surprised' by King's intervention in letter  Sky News",
+          "publisher": "BBC",
+          "pub_date": "2026-09-08T08:23:33+00:00"
+        },
+        {
+          "title": "RNLI boats carrying 120 migrants denied entry to two ports",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZjlZMmlJUmtDbVRqMVhVS3NZM2cxWEF6NnI2UVl4REtVeWRUazJqNmZyVnhJVWFqdXNzdHJ2cXg3bTA5VENUSUltWk54VW5pMzNUQjNaS0dTRFFrM1NsT1JaVWJfXzQ5ZWR3T1VWd0xia202RndMMGRxbGlDaGszbVkyYThraHJQY1NrWC1MNHFYNVBaQ2JHM1BJQ2NFNVdHSlE?oc=5",
+          "description": "RNLI boats carrying 120 migrants denied entry to two ports  The TelegraphTwo ports denied request to land 120 migrants in RNLI boats  BBC‘Army of Christian patriots’: how a black-clad vigilante group ",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-09-08T11:35:00+00:00"
+        },
+        {
+          "title": "Prince George arrives at Eton, the elite school that taught his father and 20 UK prime ministers",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ZX0djamw1dUJ1ZGsyT21mc3FpRmhfUml5MXZrWExmYzdyQlNPb1NWazhhZHE1Z2tDRXV5dHVrYTJuLU9SR3hxZXFBbEpXYVNRdWI4Q0NLcHRuX29TN1h0X1BOZ1VIVmJIb3hnY21SSlZEbWVHYVA5Rw?oc=5",
+          "description": "Prince George arrives at Eton, the elite school that taught his father and 20 UK prime ministers  CNNPrince George begins first day at Eton College  BBCPrince George starts first day at Eton College  ",
+          "publisher": "CNN",
+          "pub_date": "2026-09-08T11:09:44+00:00"
+        },
+        {
+          "title": "Mystery as C4 worker found dead in sea 110miles from home after sending last pic",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2SVNfX255b3ZwblhlekpyMFZkOTh2ZHkzM2x5b0xjUzZmWnlZTEtmRVpfRVZSaFlPdTBEZjNWUnlUTE1fRXk3MHVrbnkwVzFhNW5WS2k5dkZ2ZlhVaFJhRVhRVlV1ZERiRHZfS2RWN1VGSGd6bE5PMFFhRQ?oc=5",
+          "description": "Mystery as C4 worker found dead in sea 110miles from home after sending last pic  The SunFirst picture of woman found dead off Llandudno as family left 'heartbroken'  North Wales LiveFamily of woman w",
+          "publisher": "The Sun",
+          "pub_date": "2026-09-08T12:14:00+00:00"
+        },
+        {
+          "title": "Shetland spaceport project secures £30m of UK government investment",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpWkdmSmVUUW1oM01NbGRmV2xBVUtGWHdBWndfVHdzYmctNk5XOVYwSzVHc2RITEJsNmZTRDlzWk9CcnRELUZENEppaXFjU1FFeTc0WjdaYnkybDNi?oc=5",
+          "description": "Shetland spaceport project secures £30m of UK government investment  BBCNew space strategy will bolster UK defences against threats from space  GOV.UKWes Streeting’s near-£1bn star wars fund to defend",
+          "publisher": "BBC",
+          "pub_date": "2026-09-08T05:31:01+00:00"
+        },
+        {
+          "title": "Manchester house explosion leaves man critically injured",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBaZ2tiWVpSSlVsQlBXVHpPRllPTnh3a2dKd2xuY3RQbTNBOGw1QmZRM0pjYkVuWGFyclVHdThTdUtITV8tdEhYcndOV3BCMTdoeUhkV3pyTXVGb05p?oc=5",
+          "description": "Manchester house explosion leaves man critically injured  BBCMan in critical condition after house explosion | ITV News  ITVXMan fighting for life after explosion at north Manchester house blows out w",
+          "publisher": "BBC",
+          "pub_date": "2026-09-08T11:41:04+00:00"
+        },
+        {
+          "title": "Council reorganisation plans withdrawn by Angela Rayner after new legal advice | ITV News",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNTZDWjQ3a0ZoMzBPV2U4YU4zSnhCazVaTGNvYUc2OVpwM1JkSTBLcG5LMU94Ykt5NDIza01oNTNlU2VjX002cTJJWHQwNFJXWW5KenFkMmVsRzRVVFdzbDR5N0h5NEMyWVVZcTRKeXREMUkzSzRoQ0tvTmZCalYtUEc4UVNrdDllYU1HUUd2MXpldDc1Z3U4ZHFiQTVOSmNSa3RmRzA5S3BHcnJQRWI0QWhHWnQ?oc=5",
+          "description": "Council reorganisation plans withdrawn by Angela Rayner after new legal advice | ITV News  ITVXAngela Rayner halts councils shake-up after legal threat  The TelegraphWhat next for Staffordshire after ",
+          "publisher": "ITVX",
+          "pub_date": "2026-09-07T18:46:54+00:00"
+        },
+        {
+          "title": "Littering is down to 'ignorance and arrogance' - councillor says",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9xbkJyQWxXTjRiaW45Z2N2OW82WmtjdlVvUzk5TGt1cm9SSzhIazRSb0NiWmQ0Y2xXTXhFSUJvT0xlN0REV1lMNFdTU0QwQnBRaVQwOE84QzZqOGNm?oc=5",
+          "description": "Littering is down to 'ignorance and arrogance' - councillor says  BBC",
+          "publisher": "BBC",
+          "pub_date": "2026-09-08T05:42:33+00:00"
+        },
+        {
+          "title": "England’s teenagers outperform peers in most countries in maths, reading and science",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUEpSRVlseGR5b2hFVmZQaUttc0R5SFIxY21fS3dlaGNFV19JSGFJczNqSjZIaEtWY0Z5WUo0S2ZwZnE5RERCNFdJZjA0OVhQbk95RGtrdEY1YkkzMVFQVzNyM2c2SUtlYXFfZDRYTTVaQ0xpWC1GU1cwanJtNy1WUFZ4VG9TQlJsbHpsMUpNbVQ1ckJDdHo5d0hVOXhmc1EtVGdSLS1lUkxGdVRDY0Fpc3pmYk1CNU1NSTRYVm1LeEtHM3lTV21HaHlrSQ?oc=5",
+          "description": "England’s teenagers outperform peers in most countries in maths, reading and science  The GuardianEngland up in reading, maths and science rankings as Scotland and Wales dip  BBCWales falls further be",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-08T10:29:00+00:00"
+        },
+        {
+          "title": "Farage: Ban balaclavas on Britain’s streets",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV1VJWDk4a2ktWWJGWm1nY205MXBkOGEwSjJsTEQ4b2FGNlJ5UjlIZk1oWUFtUlBSNXZwdjBkN1VNY3FOQ0Y1TUxDczYtNkJFNGNxaWdiZm5ZM25YaXpuWmNjVzhHVk5mZXFBalRfV3c3dFM4R2VVQmpMTUs4amdIVVIweFhSQkVfaGVWWHBxZVlLQVJB?oc=5",
+          "description": "Farage: Ban balaclavas on Britain’s streets  The TelegraphReform UK would ban full-face coverings in public areas  BBCNigel Farage calls for ban on burqas and balaclavas  The TimesNigel Farage: Britai",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-09-07T19:17:00+00:00"
+        },
+        {
+          "title": "Man grabbed pregnant woman by neck and called her a 'little sl*t' during pet shop row",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM00tdFBkdjlfcEhYR2dzSnF4eEtVRVAwX2Z4cktqclN5a1Y2Q0FDQ252aXBaVkRmX3VBMXlnLTc1NV9NMW96MmQ3VkFzVHVzUGQyX2x0M1QzUGhzZHdiX3haRXFKeHZ0eEJ0enNPSGp0cURDdFBabm1aN0psX0Mwb1ZUTkxLWEQ3X2xsTmloSmRTc243RDRJZEJESHpoU2hCaUZ5SnU4VkUxRE1XX0HSAbMBQVVfeXFMT09lbk11SUk3SzJZNHR3SUw0RzMyaFAzYkRWT0k0T1ZlZ0VHVU00dzNYUkc1eU1yNnRNcng1WFlzYnZPUC1zSlhFY2tvR1JOc2lCWlJBRDUxbzMzdVJVR3l4OXZGRFF5cEdMR2trVnhMc3RMamNHdTZzM3plSkVVSTZ4ek1jZUlwdGhLWTRlSm9lM3A2S2ZKS0pKTkJ3UzEtLWl6TUtWRVdwbzVfV0FCd2tpU1E?oc=5",
+          "description": "Man grabbed pregnant woman by neck and called her a 'little sl*t' during pet shop row  Manchester Evening NewsAfter the assault Kane Samms claimed that 'women are dramatic'  facebook.comMan grabbed pr",
+          "publisher": "Manchester Evening News",
+          "pub_date": "2026-09-08T05:05:00+00:00"
+        },
+        {
+          "title": "Hedge Fund Titan Rokos Joins Billionaires Quitting UK",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQU53bU12TGxTbFFOLUpTVEVXTWh6X1k0cTJyaEdXdDVIbnBWeXB0RmgyY2pLNDNqZFN0a0k3emlVdFhES1pFMTFqQ3k2Nm03SGVBZWVzRzNGS3M1LTdJelY1blVrSDllQkxscFpDakQtbS0zM040QWFIRnpHbVRsMWZxVG5HTEZLNjVBaUtwVU9xcEo2MGNGZWZKM2hZT2FyaWF0R3RtRW5ZR2xPdE94VTFHYw?oc=5",
+          "description": "Hedge Fund Titan Rokos Joins Billionaires Quitting UK  Bloomberg.comChris Rokos: UK's third-biggest taxpayer to leave for Greece  BBCBillionaire Chris Rokos, who paid £330m in tax last year, to quit U",
+          "publisher": "Bloomberg.com",
+          "pub_date": "2026-09-08T05:43:00+00:00"
+        },
+        {
+          "title": "Nottingham attacks victim's death potentially preventable, inquiry hears",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZQjBjYWxXVGZZeU5qUFdSRlphX1Jfb3JiLW9OZFdBU1d2cV9GNXc4YUlrNGd2QzNpM3BheWpVTkdva2w1Q3BQNDhhLXhYYTAxckNSeEFHX0FKUHg1?oc=5",
+          "description": "Nottingham attacks victim's death potentially preventable, inquiry hears  BBCDeath of Nottingham attack victim 'potentially preventable', inquiry hears  Sky NewsTriple killer’s list of explosives not ",
+          "publisher": "BBC",
+          "pub_date": "2026-09-08T10:29:29+00:00"
+        }
+      ],
+      "world": [
+        {
+          "title": "In West Bank, date farmers weigh impact of UK sanctions on Israeli settlers",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xTnBRRFVZRjNQc0ZwUDZPb1pQNGtSVVo4SG84dEx1SHROOXFzZ1gxOFM4bWk3NnNzMUdfd2loRGJaNDdwcWJXS2lvdzlZUHRmaEdVdjB4VF96U1Z5?oc=5",
+          "description": "In West Bank, date farmers weigh impact of UK sanctions on Israeli settlers  BBCThe UK's trade ban with Israeli settlements explained  Sky NewsUK accuses Israeli ‘terrorists’ of ethnic cleansing in We",
+          "publisher": "BBC",
+          "pub_date": "2026-09-08T15:03:11+00:00"
+        },
+        {
+          "title": "Houthis strike Saudi Arabian cities in significant expansion of Middle East war",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYXNxakJXeG11enBnMEtHVzl6UFBpemVCWlJ1TlJBUEpKUmFuYldxaVhZMDM1cFh3cHhnUGNNVklpVkhMUDRpOExlcnJvM3l0S0lfNFB0UFRUZkMzUFNSR0NoRVpIMUlYNl9Bc3RTUWNydEI5UERpVnpjQi1yclkyV2ZHdXo5ZE9DcGFTUEN4NW9QWkFiX2NpOFVpZFptZVp3bGQ5RENob3hoU1Jp?oc=5",
+          "description": "Houthis strike Saudi Arabian cities in significant expansion of Middle East war  The GuardianSaudi Arabia vows to respond after Houthis attack cities and energy facilities  BBCYemen fighting live: Bat",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-08T11:48:00+00:00"
+        },
+        {
+          "title": "Family missing after plane crash off Bahamas coast",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbzdEWDhTajFCQjk4MHAtMnhpNjdqdWlSQU5nUXlTczBDaHNlLWx4bEszajlfVGFHLXpnSkluVVVSel9rWGZhVmg3MXhubU1qYW5YU1NhWDRvbW9xd0JsQnVEWTdFM29DZmU1OG1FTm00c0U3QWExSDBKU21FZE1uS3kyelByWXJ1S0ZoSGpB?oc=5",
+          "description": "Family missing after plane crash off Bahamas coast  Metro.co.uk‘Please help’: Miami family searching for loved ones after plane vanishes in Bahamas  Miami HeraldFamily of 4 killed in small plane crash",
+          "publisher": "Metro.co.uk",
+          "pub_date": "2026-09-08T07:41:00+00:00"
+        },
+        {
+          "title": "Far-right Israeli minister calls for UK to be sanctioned over ‘occupation’ of Falkland Islands",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb2duOHl4QUd2VzktTXRnV3JidHlCVElvTVUyT24yUWJuUjVFV1BQMHVNVVNJMnQ4Z3J0Q2w3NzRyVXk1dDE3Wk02cVZJWFp1R2Nfbm1ONTZnWHJIMWxuM0Q1dnFLWHhiOXhpMXktQm9FbnZmaDlzS2pZYjF6N2luWmNYanAyVk1WbnlObld3ZTJFQ0xNZ0E?oc=5",
+          "description": "Far-right Israeli minister calls for UK to be sanctioned over ‘occupation’ of Falkland Islands  The IndependentUK plan to sanction illegal Israeli settlements draws criticism from US, Israel and Briti",
+          "publisher": "The Independent",
+          "pub_date": "2026-09-08T10:20:00+00:00"
+        },
+        {
+          "title": "Merz’s CDU in crisis after far-right victory in Saxony-Anhalt",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNnh0RHVrRmNGUW0yZC1aazNkckVxM0M0aXMzOG9TeEFHc0ZramdNNENWR3JwYmpidUQ1ODhDZWtheXVWbkFfTTVzZi0tVTNvNEw4eS0wVlRaUlVPbXEtT2lJTHAxTlhRc3N6VUNtWDduUG8xcWdkeG5hSUxCRG9wN0piM3c?oc=5",
+          "description": "Merz’s CDU in crisis after far-right victory in Saxony-Anhalt  Financial TimesAnti-AfD protests sweep Germany as far right closes in on two more states  The GuardianBSW and AfD – a political love-hate",
+          "publisher": "Financial Times",
+          "pub_date": "2026-09-08T04:01:40+00:00"
+        },
+        {
+          "title": "Global shipping rules are collapsing, say maritime nations",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQTRzSmZZSjZ6cWVDUkVLSXk3bFp5MDlOQkJXTnJ2WnVibUh2WFlLMGxDTllLb1VmSWdLOERJWDdZbUVEWF85bW1nN3NsTGswXzhrRENTb3FyckRzR1c3Z1JEdFNCT3NBWGE4YXBxOF9HaWZzZ2h3YzlJUktWTmNBY1hEWEs?oc=5",
+          "description": "Global shipping rules are collapsing, say maritime nations  Financial TimesGlobal shipping authorities warn of maritime trade breakdown amid geopolitical turmoil  CNBCShipping's two-tier system is now",
+          "publisher": "Financial Times",
+          "pub_date": "2026-09-08T04:00:27+00:00"
+        },
+        {
+          "title": "Did Trump dye his hair? President’s new look sparks internet frenzy",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNVM1ckdDMDNsX3R6bk9lMXB2YTY2eWlfVm5PSDRpNXpfbi1vNzNoVlFLYnVTbzZhRVNaUDJJMEt2NjBKZXZtTTRzMnh1QXdGaDFld0N3eWtuejFxTTNqT1IzWUpNLXR5U2hvTUdHMkxVQUlBZEJDU3BWSWdjTkJVdUZpenlCeW9EcXdJc1Q2czQtYm8?oc=5",
+          "description": "Did Trump dye his hair? President’s new look sparks internet frenzy  The IndependentTrump: ‘I don’t wear a wig’  The Hill‘Am I melting?’ Trump’s new hair sparks hilarious reactions on X, but he insist",
+          "publisher": "The Independent",
+          "pub_date": "2026-09-07T11:39:00+00:00"
         },
         {
           "title": "Oil Prices Climb After U.S. Strikes Three Iranian Tankers and Iran Vows Revenge",
@@ -796,6 +768,34 @@
           "pub_date": "2026-09-08T12:13:00+00:00"
         },
         {
+          "title": "At least two people dead after Russian strikes on Kyiv",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9KaWt5VzJEOHdNMU1WTjA2UXZrUjFVcjJocXpHeFZxSWxzbVZkLXVtaDVpajc0NE5nbWNRYTJqZ01nTjhoeDA4Y0tFcU8wXzVjck9OY1RsYTV2YVdZ?oc=5",
+          "description": "At least two people dead after Russian strikes on Kyiv  BBCRussia launches missile strikes against Kyiv as pause in raids ends  Financial TimesRussian strikes on Ukraine’s Kyiv kill at least two peopl",
+          "publisher": "BBC",
+          "pub_date": "2026-09-08T10:23:01+00:00"
+        },
+        {
+          "title": "Canada’s retaliatory US tariffs take effect as trade dispute grows",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAtNjZOQTFoRndOY2JRMEExSXlnRG9kbzRMTlpXdkQ4cXBuQ1Z5S291WW1NdklfNFVIVVBBY1QtQlp4Sl9uT2d0amhoRHZSQ1I0X1BfQmloZXN4blVYV2hKWkdNTDE0VnBpYVdQdkFLUktkMmViRVlPOA?oc=5",
+          "description": "Canada’s retaliatory US tariffs take effect as trade dispute grows  The GuardianCarney says US trade war 'will come at a cost' as Canada strikes back on tariffs  BBCAs Canada’s countertariffs kick in,",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-07T23:20:00+00:00"
+        },
+        {
+          "title": "Republicans blast out ‘free tickets’ offer to save Trump from Dallas convention embarrassment",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVHdSUmk2NjdGNndnYVBDYkI3R1UwQlVTX25FMzV4MV9VdmVLY2dzZkhsUzI0aVBGWXYxa19ZcnY0aTRGVmNiSDczWXFTQnhUOXppT2VWdGNrTDNod3VRV3R5Q2toeVNmWm9xQnh6RDBaUXZqVmsxYVRhNklWRHpxLVdwRDJwQnluUDRyRkJjREszdFQ3dkZtZk9jQ2lISXlfUWRWQTN2UWJBYlhSc1lBMl9pRHVralRrNEFv?oc=5",
+          "description": "Republicans blast out ‘free tickets’ offer to save Trump from Dallas convention embarrassment  The IndependentWhich Republican Senate Candidates Are Skipping Trump’s Convention?  The New York TimesMac",
+          "publisher": "The Independent",
+          "pub_date": "2026-09-07T20:45:00+00:00"
+        },
+        {
+          "title": "Iran says it will declare ‘prohibited zone’ near Strait of Hormuz in coming days",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTmZURDlrT2t0eEs2VWc2LTJFOUt3Zm1hN0c3MlV4UXk4NUZBWjlYTEh1UW4ybkI5VExwVW1HMmdpRTFKa1l4d3NMQUg1bHhGWEhyV0p3bDRLZC1fS1R0SHVvYVhva2djZ1kweVF3ZTI5R05VMExXTl9pdUNzTlVOLUF1azBtYU9DcVBMWmN6Sl9jQ2hVd2xZN3VPVFppMElFVzV0bjd3LUdKdGFwT0HSAbMBQVVfeXFMT1JCR2d4NWFWQWZiel9EbHVyX2tpMEtDMHVwUDVzc1RhUXBMdy01S3JuVUM3VjdQN3kxdFFuZGdJa3dlMUU0QzFLVEJxZ0wwTFhJZGdNTzFWOTJzai13YUY0QzdQYURTb05reGxTang2TjNfLWw1N3V4azRxclpaRC1ZbDBSaDRNWHJHcVZpMml2d01ZOW0yQVd6SWt1dFZHQlRiLTR2Y0E3N01IbmFlZWd2Qms?oc=5",
+          "description": "Iran says it will declare ‘prohibited zone’ near Strait of Hormuz in coming days  The Times of IsraelIran warns of 'faster, heavier, more painful response' to US attacks  BBCCan Iran enforce a restric",
+          "publisher": "The Times of Israel",
+          "pub_date": "2026-09-07T01:35:00+00:00"
+        },
+        {
           "title": "Lindsay Clancy's ex-husband responds after murder trial collapses",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdWRFcEhXQk5CeHRtbmhtSGpWTGhvck56LTRCd2dDd1V0NnFka0Z6YzhFN3M1N3hIVTM0WFV2TEd0eXJaeVlBUkRjT0stbXEyV2gzWjVkQWVzZ2FidlpqOGJua1dhSHIwTldtRlFCcDkwVFY3X2tfb21Idzg3M1hvSjUzSEhFMHNUOU16VjE4QjBfOXlFalIwb1FvOWh4cWs1?oc=5",
           "description": "Lindsay Clancy's ex-husband responds after murder trial collapses  Metro.co.ukWhat happens next after Lindsay Clancy's murder case ends in a mistrial?  BBCLindsay Clancy’s case is a rorschach test | M",
@@ -803,20 +803,34 @@
           "pub_date": "2026-09-07T12:49:00+00:00"
         },
         {
-          "title": "Ukraine war briefing: US envoys leave Kyiv without breakthrough on ending war",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaHJIMDhjRGlQSk9SVTg5YW5zVTZLcVBhX3RwYVFrcVI3Z0xrSzN0RHZNNDRyS25LUlBBQUFoVHZMc2NfSUNUdzQ1OHh3QmpuN3BZN0JYUWVob2pIcFNCQWt1Vjl3cnd6WjBkLWx4SndibVJsaXd0dTRMQU5uNFpZOWQ2UXVWVmVQbUJPTXhUMmdxRW5wMGlJbi1XdjNfUW9XTHJwN0x3?oc=5",
-          "description": "Ukraine war briefing: US envoys leave Kyiv without breakthrough on ending war  The GuardianPeace talks rich in symbolism but fundamental differences between Russia and Ukraine remain  BBCThe Witkoff-K",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-07T02:14:00+00:00"
+          "title": "Kremlin says it does not rule out restart of peace talks with Ukraine and US",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMkhadFFzdjltUzZtQjFKb2ZQRFpoeE9xdGlQVENQWi1TQ2xyUENBM3RudDBlTkdxdWV6Z3JQV2xRbHl3azQ4RjFud3VTRWtPdDNhUmtVVmZ5c2QxRmhxU0VxaTI3ZE1VdjdmZl9UNVk5UVA1QUxZTExXclI1clNoWHdKMUFrU0Y0MUlaVVB3cHJhaUFwUjJqaGc4YThKZElONkRYNEZ2Tmd1UkZLUWtpVGJGZ2x1YndRbkE?oc=5",
+          "description": "Kremlin says it does not rule out restart of peace talks with Ukraine and US  ReutersPeace talks rich in symbolism but fundamental differences between Russia and Ukraine remain  BBCTrump envoys confro",
+          "publisher": "Reuters",
+          "pub_date": "2026-09-07T14:41:44+00:00"
         }
       ],
       "business": [
         {
           "title": "Heathrow and Gatwick among airports hit by air traffic control problems",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBVYXhud3NRQ2xNN3gyVXJYeS1qOHBnY0lpZWl1SkVfTGdjVWxWbFl2M3F1UlJGbkxtNDZtRHF0WWtYSEI5RDBpbDBrVDFYaDhEeklUOGJoNEw2V20z?oc=5",
-          "description": "Heathrow and Gatwick among airports hit by air traffic control problems  BBCFlights at Heathrow and Gatwick grounded  telegraph.co.ukUK airports latest: Air traffic control issue causing disruption to",
+          "description": "Heathrow and Gatwick among airports hit by air traffic control problems  BBCUK airports latest: Passengers warned travel chaos could last hours as flights grounded  Sky NewsFlights at Heathrow and Gat",
           "publisher": "BBC",
           "pub_date": "2026-09-08T14:33:36+00:00"
+        },
+        {
+          "title": "‘Everything is against us’: Jaguar Land Rover suppliers voice fears amid carmaker’s cutbacks",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdGJRMG03eG95ZVp4bE00dVNqYkczOEU2c1FqMHNRdkhLWVptQ041ZEFORlp3SEE2bHBxTDhHZ2otMmVYOHZtbFVhOHZ5TWY2WV9yOEtYbU4tZVlFMWpqVGdmY0h6alRrRXpybENhQlZBWWF5Q0ctRkliQThCdlNBenpCRktTeUp0b09rUlRB?oc=5",
+          "description": "‘Everything is against us’: Jaguar Land Rover suppliers voice fears amid carmaker’s cutbacks  The GuardianWhy the ‘Temu Range Rover’ is such a threat to Jaguar Land Rover  BBC'JLR job cuts a cause for",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-08T14:28:00+00:00"
+        },
+        {
+          "title": "UK Pays Most Since 1998 to Borrow After Gilt Selloff",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa0F0S3A2cTJNTmE1NWxKR09kNDdjT3AxMy1kNDNYdlBONGxJYV9CX3VkNm5iNXJpb3otR1BuTVh4UzRFUUd0Mjlhd1JObVF2aVZISFA5STB1V09VazFneG1ORW1SRFg1eHdXa2w3QVF2RjU2bG9JSDFhRXJTV1puUU9hcm9pRHdSZmZxUHlwY3pDcWoyQno1WmVPREpwdXFZWDFyMnhlQ1NBSWt5MFptTkJqaw?oc=5",
+          "description": "UK Pays Most Since 1998 to Borrow After Gilt Selloff  Bloomberg.comUK pays highest borrowing rate since 1998 as pressure builds on public finances – business live  The GuardianUK pays highest borrowin",
+          "publisher": "Bloomberg.com",
+          "pub_date": "2026-09-08T14:22:55+00:00"
         },
         {
           "title": "Borrowers expecting mortgage rates to drop have hopes dashed",
@@ -824,34 +838,6 @@
           "description": "Borrowers expecting mortgage rates to drop have hopes dashed  BBCMortgage misery looms as Britain’s biggest lenders raise rates  The TimesJaguar Land Rover job cuts: £500,000 package to help workers f",
           "publisher": "BBC",
           "pub_date": "2026-09-08T11:59:02+00:00"
-        },
-        {
-          "title": "‘Everything is against us’: Jaguar Land Rover suppliers voice fears amid carmaker’s cutbacks",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdGJRMG03eG95ZVp4bE00dVNqYkczOEU2c1FqMHNRdkhLWVptQ041ZEFORlp3SEE2bHBxTDhHZ2otMmVYOHZtbFVhOHZ5TWY2WV9yOEtYbU4tZVlFMWpqVGdmY0h6alRrRXpybENhQlZBWWF5Q0ctRkliQThCdlNBenpCRktTeUp0b09rUlRB?oc=5",
-          "description": "‘Everything is against us’: Jaguar Land Rover suppliers voice fears amid carmaker’s cutbacks  The GuardianWhy the ‘Temu Range Rover’ is such a threat to Jaguar Land Rover  BBCJaguar Land Rover to cut ",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-08T13:07:00+00:00"
-        },
-        {
-          "title": "UK pays highest borrowing cost since 1998 at gilt sale",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONHNfSFBOLUwzR3AwdFdxSmZuVmJUV0lSaXk4bTRDeC03RjNuLU8wbjFhXzR5Z3hYZDI1ejZpRHV4TElld2dJVDRNV0s5NnV5UXFDTkFIZkJPNVplTUdkT1d5TUJzTEwyUVQzbGRubEFBRnc0aEIyZ1dRR2d1TXJxVWx6ejM?oc=5",
-          "description": "UK pays highest borrowing cost since 1998 at gilt sale  Financial TimesUK pays highest borrowing rate since 1998; Bank of England governor warns oil price ‘could be higher’ – business live  The Guardi",
-          "publisher": "Financial Times",
-          "pub_date": "2026-09-08T09:50:21+00:00"
-        },
-        {
-          "title": "Global move away from oil could lead to conflict and migration, experts say",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYlhtR1FOVTZfRzJqVlZhYWlsM1VsQzNrMm1YdlprRURlZ3hxYVN2TnJjelJqYkNyanJmQURJNTdpV2JYRFVDVzR5SU9HMXI3dEFfWlhJNk1Sa2NDMkoyTzZrcHBfUk52YkZmOWVxRUktMHJaLWNBRHY1SG1KRlJwWi1qUUJmTmJ0dHNvOTBSME5JY18yMmxXN3cxUEEwMmhxYTl4Y0Uwd0lsVTF3QmNrUVV0MmNCcUU3LTMxNzROYVNXOHBr?oc=5",
-          "description": "Global move away from oil could lead to conflict and migration, experts say  The GuardianEditor’s note: the end of an era  sustainableviews.comOil demand outlook: From a 2030 demand plateau to a 40M b",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-08T08:52:00+00:00"
-        },
-        {
-          "title": "AI will help find cure for cancer ‘within our lifetimes’, says Arm Holdings chief",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSXV1em1wX2pqbjh5ZXMzd3hRWUlRNGc4WWstbEZDM19KcEdGNi01TFF2Y0lmUWJHWXhUYTRYOWo5N1NpNGdsY3FVazktS21SbXZxbEJpX055cU1iZmZDak00a0ZNNjFkYkN6VGFZTnFsYlNVNkxKODl1MloyR01zYVUwUk5aUEJIb2RORURISQ?oc=5",
-          "description": "AI will help find cure for cancer ‘within our lifetimes’, says Arm Holdings chief  The GuardianAI will cure cancer in our lifetime, claims boss of UK chip giant  BBCArm's CEO says AI could cure cancer",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-08T14:22:00+00:00"
         },
         {
           "title": "House prices drop annually for first time in three years",
@@ -868,11 +854,39 @@
           "pub_date": "2026-09-08T05:31:01+00:00"
         },
         {
-          "title": "Black box recorders recovered from Amazon plane crash as more details emerge",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa3hjT1hJMUdab2RZUVZyUnNaN056bEhGemNDSTRYMjlPZVZFZjkxOFpxblNZdHdqNFVLY3dBVXpQZTVtX0tEZGJmT2IzNFhTRjlqZGFxMk9tZnllZFNlS2ZDNl9pTnhVbHNSMHRaUUl6YzVIcmpRTDNGaHV6RTI3aC1TdUtFYy1FdWpVUmxoNmhZTVliS292SzBDSTNGYk4xWUdSWlBYVnBXaTdsQ3gzQUh3?oc=5",
-          "description": "Black box recorders recovered from Amazon plane crash as more details emerge  Sky NewsAmazon Cargo Jet Struck Cleaning Crew Van—NTSB Recovers Black Boxes  ForbesFive killed in Miami plane crash landin",
-          "publisher": "Sky News",
-          "pub_date": "2026-09-08T07:51:09+00:00"
+          "title": "Global move away from oil could lead to conflict and migration, experts say",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYlhtR1FOVTZfRzJqVlZhYWlsM1VsQzNrMm1YdlprRURlZ3hxYVN2TnJjelJqYkNyanJmQURJNTdpV2JYRFVDVzR5SU9HMXI3dEFfWlhJNk1Sa2NDMkoyTzZrcHBfUk52YkZmOWVxRUktMHJaLWNBRHY1SG1KRlJwWi1qUUJmTmJ0dHNvOTBSME5JY18yMmxXN3cxUEEwMmhxYTl4Y0Uwd0lsVTF3QmNrUVV0MmNCcUU3LTMxNzROYVNXOHBr?oc=5",
+          "description": "Global move away from oil could lead to conflict and migration, experts say  The GuardianEditor’s note: the end of an era  Sustainable ViewsOil demand outlook: From a 2030 demand plateau to a 40M bpd ",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-08T08:52:00+00:00"
+        },
+        {
+          "title": "Papyrus suicide prevention charity in administration",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9Uczlkd1JLQTZUZzUwRFRVTW54N3d0a2J2ZTlSdWxOb1QwUFlwS0F3X2NaWlFob3pNRktsOHliNzVXekN5TlNtZXhsclZ4WFNzUVdPT1RLcE9sbDRk?oc=5",
+          "description": "Papyrus suicide prevention charity in administration  BBCYouth suicide prevention charity Papyrus collapses into administration | ITV News  ITVXNorfolk dad 'devastated' at closure of suicide preventio",
+          "publisher": "BBC",
+          "pub_date": "2026-09-08T11:43:59+00:00"
+        },
+        {
+          "title": "Instagram users face ransom demands over fake copyright claims",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iNHk2WEkzMEd6RHVQVVIydUYwYkxGa1p1dUFyLXZxS2U4dFhkV0d5T0FNQ1R0R2tzSnladEJ2QjAzdFA5eWdDTTVHeWFJeWh1ay1DU2tDNG9fYmNU?oc=5",
+          "description": "Instagram users face ransom demands over fake copyright claims  BBCScammers fake copyright claims to extort money from Insta influencers, Grindr to pay £26m over HIV data  Tech DigestInstagram creator",
+          "publisher": "BBC",
+          "pub_date": "2026-09-08T06:49:56+00:00"
+        },
+        {
+          "title": "Oil Prices Climb Toward $100 as Middle East Peace Hopes Fade",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMjFKalgyNGQzZ1JHd3JIUFBpT3FHdjFib00wd2FyeGF1SmdqMTVGTkRXY1FFR2JvT2dKckVpWlc3M2YwVFZjWW12WktNaVk3c2hiSGw0WTZ2QlMzXzJFTy1aNWJNcUdzQXlaMlN0Q094b3JvcnVldlhPM1g2bVdYSEM5MDdjUHhkV3pKZllsUUNud2VocGZHZmhOd1hoWXhUd0xuRmEteXU1MGp2N3o5TWp0UU9GQQ?oc=5",
+          "description": "Oil Prices Climb Toward $100 as Middle East Peace Hopes Fade  Crude Oil Prices Today | OilPrice.comMiddle East latest: Oil prices spike after attacks on Saudi Arabian cities by Houthis  Sky NewsS&P 50",
+          "publisher": "Crude Oil Prices Today | OilPrice.com",
+          "pub_date": "2026-09-08T05:30:00+00:00"
+        },
+        {
+          "title": "Amazon plane crash scene 'devastating', says investigator as data and voice recorders recovered",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBERkdIelA1WnVueUNtczFNemdURnhnM1JaSGQzTUFBdGUybW92MVo2Z21UcnVSMTNwR2wzMjB5SlU4UDc0ampUbGpxYndRcUFqVVgwVzZ3?oc=5",
+          "description": "Amazon plane crash scene 'devastating', says investigator as data and voice recorders recovered  BBCSee more headlines and perspectives on Google News",
+          "publisher": "BBC",
+          "pub_date": "2026-09-07T21:34:55+00:00"
         },
         {
           "title": "Temple Meads eastern entrance gets ready to welcome first passengers",
@@ -882,55 +896,34 @@
           "pub_date": "2026-09-07T20:36:17+00:00"
         },
         {
-          "title": "Next wins appeal to overturn landmark equal pay ruling",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWHFJWVFJQ1VnSVdCSUdhTko1QVlOcFEtdzJ3b2xIUVJPdEhnb1Bjc294SHBjb19jbGR4YnFVblR3UHFmTlctUFFxNHo2NzYyZWFiOWMwYmt3TzVfNDcwWnV0RzZOaUlXT0pDa2RBS1h3aTFnNXBMZ25TdGZrNUtSOWZJanhLYWFoMWFxdE1XQVhURWdB?oc=5",
-          "description": "Next wins appeal to overturn landmark equal pay ruling  Sky NewsNext wins key appeal to overturn £30m equal pay ruling  BBCNext overturns equal pay ruling that raised basic wages for shop staff  The G",
-          "publisher": "Sky News",
-          "pub_date": "2026-09-08T07:08:31+00:00"
-        },
-        {
-          "title": "Building safety Gateway 2 applications soar as levy looms",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX2RkTjZKQUZiVG5Vc0hVY2xyckFZa1piaGZvQzVQYmdHUzNKMFY0bFNfNWtuSDhlaWdORHdqR1Z2b3ktQUFqVzZuLW14T2JaWFBoX3R6eG9PUFI5ZWo0WUoyRWoxWm1XRWlqdFA0NzZoQm1raFl1S000T1JCdll1SzF5YkNoWjBhREV3bTZ2UFE0SlJ4RDdJV0M3bmN6U181eUhtWQ?oc=5",
-          "description": "Building safety Gateway 2 applications soar as levy looms  Construction EnquirerBSR innovation unit cuts approval times in half after a year in operation  Housing TodayFSM MAGAZINE - Building Safety R",
-          "publisher": "Construction Enquirer",
-          "pub_date": "2026-09-07T06:19:38+00:00"
+          "title": "UK Proposes Major Overhaul of Corporate Sustainability Reporting Requirements",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWlCUWZlcmZEcHR1YTYwM2xuRE9EaW55dHVROGhDYms0X0tZd0F2NEhra1VLM0hfZUhWQnlTTHpLZ3JOLWZ1eVlJVC00QXBhc1VIRXo1MnVDTWZhU2VkN0RqNEZhZVFtMnJ1eXZnQ2tuaU13WEZJeGRjbXpWWWdvYmpTcDU0UXN6eHNFSUxjQW02d2pNY09QRTVGbDhjT3NScURScHdB?oc=5",
+          "description": "UK Proposes Major Overhaul of Corporate Sustainability Reporting Requirements  ESG TodayToo much red tape is being torn up by reform of corporate reporting  The TimesMinisters plan to slash paperwork ",
+          "publisher": "ESG Today",
+          "pub_date": "2026-09-07T13:43:52+00:00"
         },
         {
           "title": "Kendall Jenner buys stake in UK drink and supplements brand Trip",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOejZPSWVwRG1TdHEzaldsYVo4LVBqdjZKT2RnRXBzc2E4NXgzVko5X2hJQk5BbnJ3X01SRmhEbVZyVnRDemduS2hmb0tjTGFNcEJmRVdHel81UVpTc01NeDZ1MVVySzJFNVVKUmNKRWlrSFE4UjhJN1ZRbDUwbjUzU0JGRlcyT0pRV1QtYW5QeWwtbEZDR0lyWm1oaU8?oc=5",
-          "description": "Kendall Jenner buys stake in UK drink and supplements brand Trip  The TimesKendall Jenner buys stake in British CBD drinks firm Trip and fronts global campaign  The IndependentTrip welcomes Kendall Je",
+          "description": "Kendall Jenner buys stake in UK drink and supplements brand Trip  The TimesSee more headlines and perspectives on Google News",
           "publisher": "The Times",
           "pub_date": "2026-09-08T07:00:00+00:00"
         },
         {
-          "title": "Hampshire Air Festival cancelled as organiser faces liquidation",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE02bEFkVGRHeEhZWVAzQW5YbXRqeTR5Zms1SnZUNEl5Q1VWRHYyQVNuLXdRd2pHS2tINTZnZlhkUTBuVEJpRjNhSnROWjJiQjM1X1ctNVI3S3lHUVQ3?oc=5",
-          "description": "Hampshire Air Festival cancelled as organiser faces liquidation  BBCAIRSHOW NEWS: Hampshire Air Festival Cancelled  Flightline UK'Profound sadness' as air show cancelled with events company going into",
-          "publisher": "BBC",
-          "pub_date": "2026-09-08T09:41:50+00:00"
-        },
-        {
-          "title": "UK retailers aim to create 100,000 jobs for young people out of work",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObGwtX2E0aklKeWxSNUFZRFlYZFhKME9BQlNwbExqMW5zMUJtODVNQUVTaE1ZSngwZDdGRExPSC1IRmVDd1BVVmNFV0hXdGlETkdfV1ZWekdGa08zQ294Zkh5QWY1Zk1KdUduVUl4OF9wWDB6QWJMTlp3SnAwUUtUZEJ2OXdQTng5LWVfWmQtdE16eTRoMHV1UDc2cUdvbFZoRURndEFKT3RjRVdONUlNMFhmLV83Zw?oc=5",
-          "description": "UK retailers aim to create 100,000 jobs for young people out of work  The GuardianRetailers to offer work experience to 100,000 young benefits claimants  telegraph.co.ukTesco and Boots lead 100,000 jo",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-08T05:00:00+00:00"
+          "title": "Sad to see Jensen Huang claim that AGI has arrived, with no evidence and no definitions",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5VZ05mQjdtM1FsejBOUVBMM0NvWHZiMGsybG5lRjI0dmFtdXV3NWlDMXRoaVpwcVVJN3I5Q0sxSHlWN2ZOdmJ6Z0I4enBXMVgwT1MyRXdPQ0p2TjdUeVEtVlJHblVBaXdocnlMNGU5N3pVWmRzbDMw?oc=5",
+          "description": "Sad to see Jensen Huang claim that AGI has arrived, with no evidence and no definitions  Marcus on AI | SubstackThe Work Now Within Reach  OpenAIOpenAI releases new AI agent – which promptly goes rogu",
+          "publisher": "Marcus on AI | Substack",
+          "pub_date": "2026-09-06T22:43:18+00:00"
         }
       ],
       "technology": [
         {
           "title": "Some people are worried Apple's folding iPhone design could present a brand new health risk",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQS1F4TlB6MGQ0bkZhYi1ENERHZzlETEgyaXBmaVNla012SVZtZW5IX0ZzNnJ4VnljeHFramIyVXloYmtOTXAwZjBBNWFkck9yYy11SVR6XzZockFUaUlTSVN6RkhiY0ZLeUJnblRxVHl2YlY3Q2FweFBwa0p1TEN5Q3l2dU1rSXZSdC1kRE1LUnhWanRQZ1BCcjJaVXo4Umd2RHlUNDVFcW9rMjVzZmtVOEIxM2oySXJzTjhNQ1hqazhtV29CbktURUtmem1GSDhweFp3cHE0ZzI?oc=5",
-          "description": "Some people are worried Apple's folding iPhone design could present a brand new health risk  creativebloq.comApple’s $2,000-Plus Foldable iPhone Was a Decade in the Making  Bloomberg.comJohn Ternus’s ",
-          "publisher": "creativebloq.com",
+          "description": "Some people are worried Apple's folding iPhone design could present a brand new health risk  Creative BloqApple’s $2,000-Plus Foldable iPhone Was a Decade in the Making  Bloomberg.comJohn Ternus’s fir",
+          "publisher": "Creative Bloq",
           "pub_date": "2026-09-08T05:10:54+00:00"
-        },
-        {
-          "title": "Grand Theft Auto 6 worldwide unlock times revealed, and Xbox owners can seemingly still use the old New Zealand trick to play early",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQV8tVFFOZUxWOXBOR1ZCRHQ0cWFWNFRqZEVWQmlWVk80ekp2VW42cktzVFJ1MlpUVTh6aFMzTHNqS21SMlV3TWhZcGZYQ3A5UWRiZk8wb0FKZjZfOE10bVBfVUU5NTZqWE9KWjkxRXBDd3hYUmRTcTRxbW1MeExNbzhFQzdoUEsxeWc?oc=5",
-          "description": "Grand Theft Auto 6 worldwide unlock times revealed, and Xbox owners can seemingly still use the old New Zealand trick to play early  Eurogamer.netGTA 6's Worldwide Release Times Revealed - with New Ze",
-          "publisher": "Eurogamer.net",
-          "pub_date": "2026-09-08T11:12:12+00:00"
         },
         {
           "title": "Children reporting naked image sextortion scams 'more than double'",
@@ -944,42 +937,63 @@
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnJUcEtNZ3o0LVpUbXFPWEluZ1pWY2RCeXJQWFVKOXdmZUlEamRJdi1GT29tZGFoeVVmQ2xidVpXaTRiNFgxTkd1SHhWcWVsY0xqVVFIY0dBZ0lzMElwRGlxLUlMWFowQ1BSSFdUNHZISG1sVzNZM1hScm1JSGJ3RGh5aE5qa1NvZE1qd19GNjN5UGNtX01oa0JDZ3pyQ09YckNONS1ta2ZzZmtDcjFJS2RoUQ?oc=5",
           "description": "The replacement for the BMW M340i brings a big bump in power – and a drift mode  AutocarBMW 3 Series prototype review: “a step forward for its kind” Reviews 2026  Top GearAll-new BMW M350 xDrive earns",
           "publisher": "Autocar",
-          "pub_date": "2026-09-07T22:18:48+00:00"
+          "pub_date": "2026-09-07T22:17:21+00:00"
         },
         {
-          "title": "Microsoft said it would cut Windows 11 ads, then put a Harry Potter ad on your desktop if you use Bing Wallpaper",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdEdsUlU0Ym9pTGt1NkY1WU1Vc29jYW1FYjJaMmlSQjdfZHhkMEU1LUVJU2xmeWRQb1hwdDdabDdrUUliTGtRdVNWTWZYMmszaHVuOC1qSzVJS3FFV1lxUV9yR3d5OFhKVzg5RDdnZGNkVVNzUXN0NC1jNWdJMHJWQThIS09USm9LNF9EVzZQRm5WbTdyODlDbFJCUUxmVFZLY01TSjVzQjNScGFxX1l5TFRCUDF1ZlhjcVRRUTVCTE9iMTUtQ2FEdHBDc1RrU1dXdkxNYzZMdmg3Q2J3NTlkdGpBd0U5OExy?oc=5",
-          "description": "Microsoft said it would cut Windows 11 ads, then put a Harry Potter ad on your desktop if you use Bing Wallpaper  Windows LatestWindows 11 desktop becomes a full-page Harry Potter ad — and Bing Wallpa",
-          "publisher": "Windows Latest",
-          "pub_date": "2026-09-08T01:12:54+00:00"
-        },
-        {
-          "title": "Ocarina of Time remake release date? More new Zelda games? All the news from today's Nintendo Direct as it happens",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkRmJKZjNYaERnZThyX0drbXZEY0xlMGdyVlRkY3FKRHdNLWg5cWVkTFc5LVVxbzI3WUVOc3VLTFB5MEN4NlpwaVlfQzRweWNzWVFzU0VSRmRQaXVQa0pBNlZuUTA4alNUamh5VGE1WVE2SF9fUE93b0txNEMwRWc?oc=5",
-          "description": "Ocarina of Time remake release date? More new Zelda games? All the news from today's Nintendo Direct as it happens  Eurogamer.netThe Legend of Zelda 40th Anniversary Direct – 08/09/2026  NintendoThe L",
+          "title": "Grand Theft Auto 6 worldwide unlock times revealed, and Xbox owners can seemingly still use the old New Zealand trick to play early",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQV8tVFFOZUxWOXBOR1ZCRHQ0cWFWNFRqZEVWQmlWVk80ekp2VW42cktzVFJ1MlpUVTh6aFMzTHNqS21SMlV3TWhZcGZYQ3A5UWRiZk8wb0FKZjZfOE10bVBfVUU5NTZqWE9KWjkxRXBDd3hYUmRTcTRxbW1MeExNbzhFQzdoUEsxeWc?oc=5",
+          "description": "Grand Theft Auto 6 worldwide unlock times revealed, and Xbox owners can seemingly still use the old New Zealand trick to play early  Eurogamer.netGTA 6's Worldwide Release Times Revealed - with New Ze",
           "publisher": "Eurogamer.net",
-          "pub_date": "2026-09-08T11:53:28+00:00"
+          "pub_date": "2026-09-08T11:12:12+00:00"
+        },
+        {
+          "title": "Microsoft promises faster Windows 11 boot times and better performance on 8GB PCs",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMkN2dk1FQjFNYVh1eE1FRndEbU1zcHAyYkE3Zm9WRnI2aThpcVd3TlJuNTJGazhIX0MxUjA4UlZmOG5SSS1KZGhiUEpTVUV0WERLdTVzaFBoaXVyVDJpT1BSSUo4T2IydExEbTlZeHVjM2ttX194SzNVU3RVOTRTSXQ1bGdLU1RpWnFTNzRSZWNjTmp3TnhSNw?oc=5",
+          "description": "Microsoft promises faster Windows 11 boot times and better performance on 8GB PCs  TechSpotMicrosoft confirms Windows 11 will boot faster and run great on 8GB PCs, but shares no numbers  Windows Lates",
+          "publisher": "TechSpot",
+          "pub_date": "2026-09-07T15:18:00+00:00"
+        },
+        {
+          "title": "Windows 11 users are getting full-desktop ads as wallpapers from Microsoft",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRDltenBRNjJUUktaZGxJYjRZbDJzLXNUMmJNcFVVa3lDb0JGeldaQnliOFhmZkk4Q2s5dXBpZ0RxQXRJMWR0azZaNzBOYU1XZy1QblpFNWhsTVp1RVBrSl9hM1k1YW5CRDIxUnpxUzZLMzRSS1RrQzNZU1RJT2hManZ5QV9Vak5MRWRxSTZPSVVNX3hkS01pbGNVeDZlelZsT0ZIMGtR?oc=5",
+          "description": "Windows 11 users are getting full-desktop ads as wallpapers from Microsoft  neowin.netSee more headlines and perspectives on Google News",
+          "publisher": "neowin.net",
+          "pub_date": "2026-09-08T11:46:00+00:00"
+        },
+        {
+          "title": "The Zelda 40th Anniversary Switch 2 console and Pro Controller are now official, after leaking last month",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNejZQS3JsdE5fbWxZQkRnMU9WVHdBcDJmWEVfaUI0TkNCZmhGdFlYV1NaUjdheHFtZHFVQkVXZXhCLU84OW5Ub1UyZmxiNTdndE9ieENnNjlZSlo4Zk01REFMQXNJSjF2YWpwWFFPYXQtVXhIR1NTWTZzalc1OFcwLTg5MWlza0d4VTdRWm1keVhCSjRTenhyOFF6b2VKZ0FuLWxnUmtSdXFzOUo4Ni03RVp0OVpMeF95VlRfTkMtV29ZbGZ5a01ZZkotTm0xeXFlX3FZeXcyNU5wMEFFa3VJ?oc=5",
+          "description": "The Zelda 40th Anniversary Switch 2 console and Pro Controller are now official, after leaking last month  Video Games ChronicleThe Legend of Zelda 40th Anniversary Direct – 08/09/2026  NintendoThe Le",
+          "publisher": "Video Games Chronicle",
+          "pub_date": "2026-09-08T14:32:43+00:00"
         },
         {
           "title": "Sonos launches Ultra hardware, fresh support for Blu-ray, Yamaha’s KEF rival reviewed and more - What Hi-Fi?",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbGdvMUNhNWQybzB1R2o1WFdVZktmM0xHTWlNZkR4eG5RUy1SRkljODVTdVRibmZ0LWJ4clppX2VlWGJZeVhSZHJMcXR4LXpNdHFRNmFhY0xQakpXRkpvVll6S3B3RkF5dFRadXNyUm10MmFUQTc5UXNLYTdQWG5icWNqUEZQSG5VQkQxS0tScmRRTV9QNVJPZGdtRFFMZ2Y2SzM4TjMtNklWamRlQnJnbWlVVi16ODNzQlFB?oc=5",
-          "description": "Sonos launches Ultra hardware, fresh support for Blu-ray, Yamaha’s KEF rival reviewed and more  What Hi-Fi?Naysayers be damned, Sonos is right to keep its Award-winning Beam 2 Dolby Atmos soundbar on ",
+          "description": "Sonos launches Ultra hardware, fresh support for Blu-ray, Yamaha’s KEF rival reviewed and more  What Hi-Fi?Hands on: Sonos Ace Ultra review  What Hi-Fi?Having tried Sonos' new Beam Ultra, I think it's",
           "publisher": "",
           "pub_date": "2026-09-07T14:40:26+00:00"
         },
         {
-          "title": "Dale Hall And Hickman Associates Handicap - Leicester Racecards",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVkZzTHpHX2xqZERLdG5sd1AtREFza2M0d0VHMXF0NVBBYVlIbGt3VHNCeGl2MVFucWJFTmJSSFVQQlo2enhwc1RHNVpSWWtwc0xvcUs3cDE0NVhqRnNZZlpCcnZaNVpoTXRFdS01Z1VzWVNYZDBIc2ZwOW9BSXg2YzJ6Y2tSaHp2MDlONkRiRG1EXzAyZnktc2RuM2N3OGhNZ3M0cWxKTUlCTTRlRkxuQ1NqUUJKQ1g1YkJOTC02d0llZw?oc=5",
-          "description": "Dale Hall And Hickman Associates Handicap - Leicester Racecards  sportinglife.com",
-          "publisher": "sportinglife.com",
-          "pub_date": "2026-09-08T13:32:26+00:00"
+          "title": "‘The Legend Of Zelda: Ocarina Of Time Remake’ Reveals Release Date, Amazing Footage",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYjdfWTNXdldiUTNIMlRfblN4UjRDWXQ5SVZZdkJXTDFOdWNrTTB3akxzc0UzVml6OXU5bTFVZWp0bzdSeFRBNDFkQVVZdWlvZzhiVzY1cFc5Z0twTy1BTHhPZUxxdDN6N0JxQUhxSDZCdG9MdHR6dzFUS3VxVkNHY3JaQnp6SGdzX3ZEd2ZoUm03LUw2Y3FqR1loam5nbEs4SU1tajlCR0RHZ3g0NWl2b01SbXVKTmZ2YW1CT09WTDdPbUhlMFgyU2VR?oc=5",
+          "description": "‘The Legend Of Zelda: Ocarina Of Time Remake’ Reveals Release Date, Amazing Footage  ForbesThe Legend of Zelda Ocarina of Time remake pricing revealed  vooks.netZelda: Ocarina of Time physical release",
+          "publisher": "Forbes",
+          "pub_date": "2026-09-08T14:43:43+00:00"
         },
         {
-          "title": "A galaxy-shaking clash comes to Warhammer TV this week - warhammer-community.com",
+          "title": "A galaxy-shaking clash comes to Warhammer TV this week",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUy1wTDRRdXlSc3dRQ2VYN3o0NFNBMWlzZEExakRoUV9GelNka0xfMUxsZlpSWHNWMS13RnVfX3NHY01oWDA3bmI1dzRUamp0aG9sa1ZmcEJ3dWFoQ0pwa21Wd3I0TjRLS09EQzI3OWc5QVcwRU1TQ1ltS21PTHotQmRScHRoQTRQcWFVZXFBRkhDVFZvd1dTUzRUU2sycTZMazRzMUE5MEhPeEo3S0ZlRWlEVnVFZw?oc=5",
-          "description": "A galaxy-shaking clash comes to Warhammer TV this week  warhammer-community.com",
-          "publisher": "",
+          "description": "A galaxy-shaking clash comes to Warhammer TV this week  Warhammer Community",
+          "publisher": "Warhammer Community",
           "pub_date": "2026-09-08T12:21:04+00:00"
+        },
+        {
+          "title": "Apple iPhone 18 Pro: Leak reveals exciting new camera features",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaTIzQm5IREgtQlVkaUtJSjE2N1AzS3RDSHhQVWMzZlNVRUw1bmQxMU9PRDFqZDRQbUNfZlNRUjNpdWVpSGhfZ0Rka1BBVGhQdjl5WGFNdWFza0JfSWxnNnVISkcwb0NZQ3FtUjJEQ2tpVWZSdklpcVV0WEVMd3hDemNfdUotZXpKekxsSmxzZE81d2UtOXB2MzJkTGJoWFdjZXI4dVBIcHhGdw?oc=5",
+          "description": "Apple iPhone 18 Pro: Leak reveals exciting new camera features  NotebookcheckApple to Kick Off Ternus Era With Its Biggest-Ever Slate of New Products  Bloomberg.comFive iPhone 18 Pro Camera Features S",
+          "publisher": "Notebookcheck",
+          "pub_date": "2026-09-07T18:39:00+00:00"
         },
         {
           "title": "Why getting your hands dirty is good for you",
@@ -987,13 +1001,6 @@
           "description": "Why getting your hands dirty is good for you  BBC",
           "publisher": "BBC",
           "pub_date": "2026-09-08T09:01:50+00:00"
-        },
-        {
-          "title": "Apple iPhone 18 Pro: Leak reveals exciting new camera features",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaTIzQm5IREgtQlVkaUtJSjE2N1AzS3RDSHhQVWMzZlNVRUw1bmQxMU9PRDFqZDRQbUNfZlNRUjNpdWVpSGhfZ0Rka1BBVGhQdjl5WGFNdWFza0JfSWxnNnVISkcwb0NZQ3FtUjJEQ2tpVWZSdklpcVV0WEVMd3hDemNfdUotZXpKekxsSmxzZE81d2UtOXB2MzJkTGJoWFdjZXI4dVBIcHhGdw?oc=5",
-          "description": "Apple iPhone 18 Pro: Leak reveals exciting new camera features  notebookcheck.netApple to Kick Off Ternus Era With Its Biggest-Ever Slate of New Products  Bloomberg.comFive iPhone 18 Pro Camera Featur",
-          "publisher": "notebookcheck.net",
-          "pub_date": "2026-09-07T18:39:00+00:00"
         },
         {
           "title": "Thousands Fooled by 'Insane' Sony Leak and Fake PS6 Reveal",
@@ -1010,13 +1017,6 @@
           "pub_date": "2026-09-08T11:30:05+00:00"
         },
         {
-          "title": "The Legend of Zelda: Ocarina of Time remake gameplay finally revealed during 40th anniversary Nintendo Direct, and it looks… interesting",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVEpDdUNUZ29ZdWV6UFExcVdEcHRiOFh2LTZMWlhHU0JPcHhuUGhJR2VORnJUUl9lMVI0TVQxZHJ6ZHV2bVhBMEdnZE01T3JuSTZXVlJjaS1iMHJ1eHVsellPYkt1OUJ2T1RBTDl6SE5yRkxiaTgyMTV0T3JRWnJESmZtWHBoeEw3YzFYM0QtS3ExLW5Ia1pSQlk0RW5pNnVzeEhkbVlKYVRjaUFpempRMllRMXJud05NRFJYcU82X1BzV1JxZGhzSkJjUk4yLVFpY2JmTEx3V0JLUkRrVkxTb3pTZURBdnQ5QVdobXE4TV8?oc=5",
-          "description": "The Legend of Zelda: Ocarina of Time remake gameplay finally revealed during 40th anniversary Nintendo Direct, and it looks… interesting  Eurogamer.netThe Legend of Zelda: Ocarina of Time Remake Fully",
-          "publisher": "Eurogamer.net",
-          "pub_date": "2026-09-08T14:31:35+00:00"
-        },
-        {
           "title": "Assassin's Creed Black Flag Resynced debuts in Top 5 for PC and console revenue in July | Newzoo Charts",
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaVMtN3d5OS1aWm5mbG5XMVVKWjNWemYzLTR2aFJDR1dGNFdDNUF4WGxuRjlPdEQwWExFaEk1ZjFDNFJDUW95N0FKZjNCSnZoekp0bWdzQ241R1g2WTYyaUpnbnpBQ3VPN3BhZHpiVkVGWjJhWFR3ZnJQR19sN1F4NHpuTXZvVk5neFpvRVRCbHRSa09wd1RJM1c4TDNsUWpvVDAtN3JiWC11ZlFVdjlacXpFUDFRQXRSdmpkZ0xUWUJjWmlIck4tMEpB?oc=5",
           "description": "Assassin's Creed Black Flag Resynced debuts in Top 5 for PC and console revenue in July | Newzoo Charts  GamesIndustry.bizSee more headlines and perspectives on Google News",
@@ -1026,39 +1026,53 @@
       ],
       "entertainment": [
         {
-          "title": "Harry and Meghan ‘surprised’ at king’s letter reiterating they are non-working royals",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPc3J2Ujcwekl5ZDVmRG8yU2RVZ2xOYlBZdzFoUTNCaGhIZFVQQW5RUXlhSXkyUjJjd2dWRGxfM2JMdTJFM2M3U3l2Zy1sM1BkR2RvM29NVWlxNV8xbEdUTkFUNmM4cEVaRmxyMDR6c3RHQ1JsQW1zTHBpSU1GaTBuUWxXcl9uVTJHSlVMZk1XdmxRVTlDZUFDRW9rRDBrdkVGWG5jVVl5aHduMmdFV3c?oc=5",
-          "description": "Harry and Meghan ‘surprised’ at king’s letter reiterating they are non-working royals  The GuardianHarry and Meghan 'surprised' by King's letter making clear they remain non-working royals  BBCKing le",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-08T13:02:00+00:00"
+          "title": "Harry and Meghan latest: Duke and Duchess of Sussex 'surprised' by King's intervention in letter",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTVpKSW1rU1lFb09aOXNsd2tPTW9DR3JHalJVU0NRaWo4NnlxdE85YkpsRm5PVGp0TGI4VC1YcmlJUHdzZG1abWF1Slp0dHhGaHRsNnFCNlc2YXcxQzR0TllwRVA2bTNBZlJOaEtuaF94SlQ4eXNsaWQ3NDVrMF9kcVE0YURHNXJDNjFTSjdDTTU4RFhTMXlZSDVpakQ1QjhxLUszbjBGckloVkU5eTNhZDVPc1p3SWJZd0xSU1RacnNQYjBNZVV1Qnk1bXlxZDF6VGFnMk15WXVpNXh0?oc=5",
+          "description": "Harry and Meghan latest: Duke and Duchess of Sussex 'surprised' by King's intervention in letter  Sky NewsHarry and Meghan 'surprised' by King's letter making clear they remain non-working royals  BBC",
+          "publisher": "Sky News",
+          "pub_date": "2026-09-08T14:27:35+00:00"
         },
         {
           "title": "I was fired from The Voice - I didn't want to leave, says Sir Tom Jones",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1RTVE4aFhkZXZ3YjNmNTBWVDZzbFBaWmhlMERZZ2xYVkhCNWRRckY3WVBmY3RCYkFQeUx5bnVkVFlqelhmNjZnWU1zTE5ZTlBfM2V4LVB3MEw3dmNV?oc=5",
-          "description": "I was fired from The Voice - I didn't want to leave, says Sir Tom Jones  BBCTom Jones hits out at ITV after it axes him from The Voice  telegraph.co.ukTom Jones Claims He Has Been Fired From ‘The Voic",
+          "description": "I was fired from The Voice - I didn't want to leave, says Sir Tom Jones  BBCTom Jones hits out at ITV after it axes him from The Voice  The TelegraphTom Jones Alleges ‘The Voice U.K.’ Fired Him at 86 ",
           "publisher": "BBC",
           "pub_date": "2026-09-08T12:05:54+00:00"
         },
         {
-          "title": "Monty Don was the Clarkson of Gardeners’ World – his departure is a disaster",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHFrOEQxSUhtY2gwSTdvaXR5QTQyVEw5Y2JXVjFzU0ZjU1BmY2w1eGZ4RGVsUGdMeGpfMDl2YmFRc0ZKcWdyVkNFMDIzTk5uUlNUY1RLaU9FN1ZsVXYyNWhFaU1HQk1WdW1IQnFzR0k5dW00YmRreUhZMTRhNkxrcWlRWWFnSE1TLVdzMGlDa2FMLW9mQ1ZQeEE2Yy1ySkJI?oc=5",
-          "description": "Monty Don was the Clarkson of Gardeners’ World – his departure is a disaster  telegraph.co.ukMonty Don to leave Gardeners' World after more than 20 years  BBCWho could replace Monty Don on Gardeners’ ",
-          "publisher": "telegraph.co.uk",
-          "pub_date": "2026-09-08T12:42:00+00:00"
+          "title": "Monty Don steps down from BBC’s Gardeners’ World after 23 years",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbnFKMTgtTGRULWthWGhHNnlVaFg1N1kwbVBHRDdvcWc5VEZIU0hKU1ByellYNkxNdDVZaEV4cEZOQUVnWjhXUkFONmdmU3ZrcTd6ek9TWFAwU29fdy02VC1qMEJxakp0RktBYUZFWldaNzN0Q2tGNmRqR3pqREZEVW8xNVFWNXg4RGFSelRfSlNXUVQteHJ3UA?oc=5",
+          "description": "Monty Don steps down from BBC’s Gardeners’ World after 23 years  The GuardianMonty Don to leave Gardeners' World after more than 20 years  BBCMonty Don was being overwhelmed by depression. Gardening s",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-08T12:39:00+00:00"
         },
         {
-          "title": "Noel and Liam Gallagher unite for Oasis's UK documentary premiere - here's what we learn from the film",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRzg5S3h0UGRKVWhmZUhkNVBuMnFad3NyQUpLbjY1dzhVOVdhZ1lNZk9QUS14VFc1UTcwYm1tMXVUelBCVkxzQlBFTy1JdmU2djE2OGpBR1U3amZnMlpmMWdpeVlnazVJYVRyN2xWWW1PTEVwM05YWWRNdXdhMWpQaXBpSHZ0QWF5bU00UkMtYnhaV0Fld3dQeTlyTkZlQl93dXppY3o0UXNDVlFGSnAwRzdadlR2RFNXd0dxc09oekxBZENuQnFWZlktS2NrdW8?oc=5",
-          "description": "Noel and Liam Gallagher unite for Oasis's UK documentary premiere - here's what we learn from the film  Sky NewsOasis: Don't Look Back In Anger review - emotional documentary glosses over the hard stu",
-          "publisher": "Sky News",
-          "pub_date": "2026-09-08T00:57:06+00:00"
+          "title": "‘The first reunion rehearsal was like an exorcism’: The biggest revelations from Oasis film Don’t Look Back in Anger",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVWF2NXFPTHB3cHNGQWJWYjBlT2ZTWWd0RWQxdWJjUEtPcEhDOTRlYnhyUzR6N19mcW95TEtCYnptUDdKWFEyWWtGNG5FY1hxVlpHaUJhMVdVa3NqOXRSRWlmWDhfUkhLcjVQcVpONGlYWnI0OEdzcUJlVk9aMVZaSXhiY1JiTXBGbXBfM2JwYnE5a2c4WmRmUElzaUtlcnZEMDNSckt5SUpvX2xPa3pxSXpFaWhoTTVF?oc=5",
+          "description": "‘The first reunion rehearsal was like an exorcism’: The biggest revelations from Oasis film Don’t Look Back in Anger  The IndependentOasis: Don't Look Back In Anger review - emotional documentary glos",
+          "publisher": "The Independent",
+          "pub_date": "2026-09-08T10:39:00+00:00"
         },
         {
           "title": "Nigella praised as new Bake Off judge as latest contestants announced",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2cUJ3eUhacDBJR3pQWEhTYWtXUU04YnlIZGlzOEJRRElMbk9QNVVXZzlDY19iR3QzQUxuV01DNVRMZnVLdjV1aHFzMHlLWm5yS2RuUENPT1ZQaUtY?oc=5",
-          "description": "Nigella praised as new Bake Off judge as latest contestants announced  BBCNigella Lawson brings a new lease of life to The Great British Bake Off  telegraph.co.ukBake Off first look: Lashings of Nigel",
+          "description": "Nigella praised as new Bake Off judge as latest contestants announced  BBCNigella Lawson brings a new lease of life to The Great British Bake Off  The TelegraphBake Off first look: Lashings of Nigella",
           "publisher": "BBC",
           "pub_date": "2026-09-08T11:51:28+00:00"
+        },
+        {
+          "title": "Smash and grab: Thieves steal works worth €9m from Renoir Museum in France",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMEc4cUdpUG9RaWFIbE9BRzEzSGFTSXJELWZjWUN3TUtPcTlqWFdzQTk5QnRvNDQ1d0xfRnpwV1MxQmZMV0RIQkREWG41ZmdndS04dWlEb3dJSVZjdVptR253UEVZbUlKMG5ZVnZGVllzekUzTFRhWm5oa2NweHptRmhYSUMyd0h1YkFGMnR5elZybjZDUzhsbDFIcmhUOEFqcXBITA?oc=5",
+          "description": "Smash and grab: Thieves steal works worth €9m from Renoir Museum in France  Euronews.comFour Renoir paintings worth millions stolen in French museum heist  BBCA constipated baby and a kid that looks l",
+          "publisher": "Euronews.com",
+          "pub_date": "2026-09-08T08:04:38+00:00"
+        },
+        {
+          "title": "State handouts, 10,000 lasers – and Trump’s election: six things we learned from the Elon Musk film",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcEN5ZDlUQXF6aTJLN3NxS1dsRWVZZGlPblNXMlRsS3lnYzlPb2RWYkllbGZOVWR3TVc4UzVqSzNTbVZ0clBLV2UxQmFvVUZyS1JaNVRyUDA1OUFfSXlKV3lYSENzenhGNVVjdDRxdldvQXdGOUtwZEhjN21IV214bUNQajlra3kzY2tzVDdtUEEwWGt0VGlxd3AyT25SUVJlXzdEU3I3dU5yRGMwSWMzdHZieFpCU1BONWRJZ2ZGNmVwV0lYQk1jQURzLUJiMnNsNVhyVQ?oc=5",
+          "description": "State handouts, 10,000 lasers – and Trump’s election: six things we learned from the Elon Musk film  The GuardianMusk review – epic study of the world’s richest and most banal man  The GuardianMusk, r",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-08T13:35:00+00:00"
         },
         {
           "title": "Macklemore defends 'Free Palestine' call after Ed Sheeran tour backlash",
@@ -1068,23 +1082,30 @@
           "pub_date": "2026-09-08T12:19:24+00:00"
         },
         {
-          "title": "State handouts, 10,000 lasers – and Trump’s election: six things we learned from the Elon Musk film",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcEN5ZDlUQXF6aTJLN3NxS1dsRWVZZGlPblNXMlRsS3lnYzlPb2RWYkllbGZOVWR3TVc4UzVqSzNTbVZ0clBLV2UxQmFvVUZyS1JaNVRyUDA1OUFfSXlKV3lYSENzenhGNVVjdDRxdldvQXdGOUtwZEhjN21IV214bUNQajlra3kzY2tzVDdtUEEwWGt0VGlxd3AyT25SUVJlXzdEU3I3dU5yRGMwSWMzdHZieFpCU1BONWRJZ2ZGNmVwV0lYQk1jQURzLUJiMnNsNVhyVQ?oc=5",
-          "description": "State handouts, 10,000 lasers – and Trump’s election: six things we learned from the Elon Musk film  The GuardianMusk, review: This Elon Musk documentary is a chillingly forensic hatchet job  telegrap",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-08T13:34:00+00:00"
+          "title": "Pamela Anderson says hepatitis C diagnosis was ‘death sentence’ in emotional Venice speech",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMlNHbVJubDRMNW1MTEpqM05WZjVMOC1GY0tiU0kxaktxa0NGZFpDLXlaTDF0RUlTWWxucFZSN21YbXhJdGEtcENxcHVBVkdjYzg5Z0Y4SDVXQXVKVWtIWDlOeEIyckZIX3JNTUgxU05qUGFSTWJobW1vNUNMMnZJYjF5amU3eG1odzF3Zi1RVEFNeFdGekZxMjYtT2dFTVVIRVNIeURVbFZXeDJDSEY3T3BnZXA?oc=5",
+          "description": "Pamela Anderson says hepatitis C diagnosis was ‘death sentence’ in emotional Venice speech  The IndependentPamela Anderson recalls spending 'everything I had in my bank' to beat fatal diagnosis  uk.ne",
+          "publisher": "The Independent",
+          "pub_date": "2026-09-08T09:33:00+00:00"
         },
         {
           "title": "Prince George pictured on first day at Eton College | ITV News",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeTlDZ3FXSGNXV2Rzak9ReVlVYldlc01iVnpQYXl5U196bDQ4eG9URXhwX21WTnJzblQxOGVYY1BDOVB0MXJ4V3JiY2EtTV9ZQnJOMktSOElFdmVmUGxsY0RDdnhTX0VyNlo4dkYyN1RPYkJLc1FjeDNlbWdQNXM1X2NmcmxRNV9RUzJZelktcEliTWhPRFB5LW1MeUxCbDJqRllHRg?oc=5",
-          "description": "Prince George pictured on first day at Eton College | ITV News  ITVXPrince George begins first day at a rainy Eton College  BBCKate Middleton proves forest green is autumn's most polished dress colour",
+          "description": "Prince George pictured on first day at Eton College | ITV News  ITVXPrince George begins first day at Eton College  BBCPrince George arrives at Eton, the elite school that taught his father and 20 UK ",
           "publisher": "ITVX",
           "pub_date": "2026-09-08T12:19:59+00:00"
         },
         {
+          "title": "Prime Video YA Retreat First Looks: Boys of Tommen & Our Fault London",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcnBWOFU0eDF5eFF6ejloakdTN1RQUV9RN0JpWWl3RFprU3gxckNRYmYyaEhpQ2RldzNLQWw0ODVOWldGaGZ6c2lUa29SRU5MMXM0Y2UyMW1SRTdmRkdvOVg3OGRHRXRoRDhYYjlPdnhxUTEtdFd4amM1dlJDdUtCNkJETDVDUzR1TlNVaGlaMVNPUnVxOU1Fa2NoOA?oc=5",
+          "description": "Prime Video YA Retreat First Looks: Boys of Tommen & Our Fault London  Deadline‘Boys of Tommen’ Unveils First Images of Shirtless Conor Sanchez as Johnny and Wistful Nancy Surridge as Shannon  Variety",
+          "publisher": "Deadline",
+          "pub_date": "2026-09-08T09:21:00+00:00"
+        },
+        {
           "title": "Gary Oldman Teases the Identity of Amazon’s New James Bond",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUEJkOENCMEJzRHdmVXZuNmp4aHYtUlM0dmRBdU5XVDNSS1NXb2l5SUlNMFdXcnRhdy1GSVRLdEtYM09Oa1otSndSQkpWSHdxOEN4a0xxRUY3Y3JiWVpSRTNtSms1M1FaZG4wUHR0VF9VS0JnWTNlR1ZXcERzV05qZV85UjM0TW1DdE9SM1EzMzE3UQ?oc=5",
-          "description": "Gary Oldman Teases the Identity of Amazon’s New James Bond  GizmodoThe next James Bond: The (00)7 questions fans want answered  BBCJames Bond screenwriter says new actor is officially cast  The Indepe",
+          "description": "Gary Oldman Teases the Identity of Amazon’s New James Bond  GizmodoThe next James Bond: The (00)7 questions fans want answered  BBCGary Oldman Claims James Bond Has Been Cast, As He Backs Jack Lowden ",
           "publisher": "Gizmodo",
           "pub_date": "2026-09-08T11:28:03+00:00"
         },
@@ -1096,25 +1117,11 @@
           "pub_date": "2026-09-07T23:03:38+00:00"
         },
         {
-          "title": "Smash and grab: Thieves steal works worth €9m from Renoir Museum in France",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMEc4cUdpUG9RaWFIbE9BRzEzSGFTSXJELWZjWUN3TUtPcTlqWFdzQTk5QnRvNDQ1d0xfRnpwV1MxQmZMV0RIQkREWG41ZmdndS04dWlEb3dJSVZjdVptR253UEVZbUlKMG5ZVnZGVllzekUzTFRhWm5oa2NweHptRmhYSUMyd0h1YkFGMnR5elZybjZDUzhsbDFIcmhUOEFqcXBITA?oc=5",
-          "description": "Smash and grab: Thieves steal works worth €9m from Renoir Museum in France  Euronews.comPolice search for two thieves who stole Renoir paintings worth millions from French museum  BBCTwo Renoir painti",
-          "publisher": "Euronews.com",
-          "pub_date": "2026-09-08T14:07:32+00:00"
-        },
-        {
-          "title": "EastEnders icon Michelle Ryan reveals the truth behind Zoe Slater's shock exit: \"I wouldn't say it if it wasn't true\"",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYWFuVkgyWmRZN1h1TnQ5TDYwQnl4TXY0MjZSOXNSdVExR3Q0TmpxUVYxbGt0RlNnUk9CNWRDa3FaZ0FWY1BBRWJwdU5DLUJUbld0R01NY2hCcTFxU3gzVEh5cDhYS04zcEE5ZlMzVWNWd3FkbEZ1LXoyclBnWXZQWGtOMjdtSnJqNHJWMThJb3VqVTVxdVBaNFB1bkxoWE1hdXZUZjY4SGtzWDF0?oc=5",
-          "description": "EastEnders icon Michelle Ryan reveals the truth behind Zoe Slater's shock exit: \"I wouldn't say it if it wasn't true\"  Radio TimesEastEnders' Kat to discover Zoe's death – but there’s another twist ah",
+          "title": "5 EastEnders spoilers for next week: Zoe Slater found dead by Kat Moon and Penny Branning caught out",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSG1oS3JnN1h3Snd4VWxka0JxR3FKUVBYZlVvZVBzQ3FWNmEyNGVVNzlKRlkwWUFEUThZUmNfQms4THRCdmRzVmJjcXNzR2hIdVdQeGpyN0F1RmdlQjltWUUtR3pKQWNXc3I2cnFjVVlkSnlWdVpSNXFfNkN5Y2lYYUxMQWFRSnlMOHo1c2h0dmpPaHhaNGNjLTlNRGRYSW8zZUN3VWxXMmNVQnJNRW5jMTZnSFpkNGlGbk9J?oc=5",
+          "description": "5 EastEnders spoilers for next week: Zoe Slater found dead by Kat Moon and Penny Branning caught out  Radio TimesEastEnders icon Michelle Ryan reveals the truth behind Zoe Slater's shock exit: \"I woul",
           "publisher": "Radio Times",
-          "pub_date": "2026-09-07T09:00:00+00:00"
-        },
-        {
-          "title": "Goodbye, Colin from Accounts: how TV’s loveliest comedy stuck the landing",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUk90ZmNRRlVMcEwzcEN0c3RuVnJfRENleVkwVWlmWEJ3MmQxeTgteG1EQk9QN3EzWFBkdUw2c2xFaVZtWEhPb24ySExGYmpmSWlCYmFhTGtuMTRDOGdKb29MdURXOXNTT1ZhUXN4M3BZYmlGRjljQ3FucC10Qm5ONEoxYlFEZ3U4bnNzZU5BamxiRnV3cmFyWXkza2xfalpDQlRJ?oc=5",
-          "description": "Goodbye, Colin from Accounts: how TV’s loveliest comedy stuck the landing  The GuardianColin from Accounts season 3 review — a fond farewell to one of the best comedies on television  Financial TimesN",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-08T08:26:00+00:00"
+          "pub_date": "2026-09-07T23:01:42+00:00"
         },
         {
           "title": "Auf Wiedersehen, Pet star dies aged 63 after being hit by runaway horse",
@@ -1122,29 +1129,50 @@
           "description": "Auf Wiedersehen, Pet star dies aged 63 after being hit by runaway horse  lbc.co.ukTributes after actor Georgina Lightning is killed in ‘rodeo accident’  The IndependentIndigenous filmmaker Georgina Li",
           "publisher": "lbc.co.uk",
           "pub_date": "2026-09-08T10:00:03+00:00"
-        },
-        {
-          "title": "Real Reason For Major AEW Production Change Last Week (AEW News)",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0dqcDB3NGZmNFFSOW45d2Q1Q2laaU5OeHJQZjhCNER4ekh0YWV6MC1CMFRuanRHSzJJV0hpcTJyVnQwbzBsYnppTTZub2JvTVFzRjllWFlXX2UwRmVCbVYzUGVlWHFzVDFheFI2YlRsUlBIVUdEaEQ1M1dKeHhfYWNBdm5HNUZNUXU4bU9kNEFGUnNv?oc=5",
-          "description": "Real Reason For Major AEW Production Change Last Week (AEW News)  WhatCulture.com",
-          "publisher": "WhatCulture.com",
-          "pub_date": "2026-09-08T08:59:17+00:00"
         }
       ],
       "sports": [
         {
           "title": "Alexis Mac Allister: Liverpool midfielder 'very sad' over no new contract and admits he could have left in summer",
           "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQcUNUWnBGOUtra21tOUhqNlJrSWc3Nm51NlRNZzVaWkxoRzg0ZmpKdkVZUXFBbFNLc0xpTmhEYWZ3Y045NHIzemhqUWdNcVladnNDSEY2a0hDNFZTb2FMNnF6YTNOQXFidXZQQVpieXBqa1U1WXlFTEZ6b01tYTFZZnRNb2ZZZUMwSThFLUlVYnRZd0VkOEtJTzNLTVRCbXNFdmJwZGVYN0gyZkZuNF9CUmtYNWswWC1VYU1IajdKQ3Q3WUxOS3hYaWJMR0hLVUZvQWxfczdkMDVsWTFFVk5BcUpnYjZqSDhORmZaSHUwdTNoZ3NpRDlmTg?oc=5",
-          "description": "Alexis Mac Allister: Liverpool midfielder 'very sad' over no new contract and admits he could have left in summer  Sky SportsChampions League returns: Your views and predictions  BBCAlexis Mac Alliste",
+          "description": "Alexis Mac Allister: Liverpool midfielder 'very sad' over no new contract and admits he could have left in summer  Sky SportsChampions League returns: Your views and predictions  BBCMac Allister 'sad'",
           "publisher": "Sky Sports",
           "pub_date": "2026-09-08T13:55:56+00:00"
         },
         {
+          "title": "Ballon d'Or 2026 nominees: Harry Kane, Jude Bellingham and Declan Rice nominated",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVbkxFTkN4blhCWVFKMW5NbDljd0wzOFJSdnNJUzVTY0RsR2xqUUtEMm1WbmlmcDNGRTB6ODdGcHdwTzg4ellUVUZmR2dNOHZpNk53Q1RhSlZKa1dQRFBzZE4yamdIZ3B4Y2c?oc=5",
+          "description": "Ballon d'Or 2026 nominees: Harry Kane, Jude Bellingham and Declan Rice nominated  BBCGunners recognised in Ballon d'Or nominations  Arsenal.comBallon d'Or 2026 nominees: Harry Kane, Kylian Mbappé lead",
+          "publisher": "BBC",
+          "pub_date": "2026-09-08T15:27:09+00:00"
+        },
+        {
           "title": "Watch Liverpool's pre-Atletico Madrid press conference on demand",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRDVZdWhRYTUwT0FSYW1SUW85N0RDaEJSX0FQZVd5ZmxvVVlKbVJIRXZmanpVUUd2S2VxUUF2ZENCYVBGN0ZXS2F2R1pvNUlPVDRKcHRGV2d4azJnRUQ0em5IN0U0STh6NUpCX3VxUFZSdVpGbXEzNkVNQW1xVGp2dVNxdEpqZzlxdGZfR3pwTFpld1o3SGpLRdIBoAFBVV95cUxNZWNhTjgzRVk0RFpfOWtVQThxWW9lMTdQeTVZSmthV2RqVnFvcmFCVnRuSkdKTVZmT1B6Z3JubXFlclM5SWVub29mN2YzMFZFVVczc0VlUjQwWGlsVnJqajFTYU54Q3ppQmdySVRwemVOZWNqREdDWFJMY3hHajk0Q2Qzem1RbWU1T25iUzVQVWFTZkYwLUVWaDRvT2RURjM0?oc=5",
-          "description": "Watch Liverpool's pre-Atletico Madrid press conference on demand  Liverpool FCTraining photos: Liverpool prepare for UCL opener against Atletico Madrid  Liverpool FCAndoni Iraola press conference: Liv",
+          "description": "Watch Liverpool's pre-Atletico Madrid press conference on demand  Liverpool FCLiverpool v Atletico Madrid: Team news  Liverpool FCAndoni Iraola press conference: Liverpool vs Atletico Madrid  BBCHow t",
           "publisher": "Liverpool FC",
           "pub_date": "2026-09-08T12:29:22+00:00"
+        },
+        {
+          "title": "'I'm used to being in this position.' Gauff to lean on experience for 12th major quarterfinal",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLWQwdnVPQXI0V1pwSnQxSVNMRk1xdW9wMWJTU2FUTHBiX3VFUzMwMjNfNzZpR3pvTGhSYThpU29XYVZ6UWJ6a0k1SzZzR2dvSE94d0prSEVWUjRpY1htM0pMbm5DMW1JbHloSUFwdDZSN1RELU1UNm4zT3dGUl8yeDRyb2RtZ1hFMEFKcTVXekQ1dWZDbkpVTTJXSGVvZVBsQWE0Nld6N3BwUHZYd2phUXRVR3NHNXoxM1ZnWUlqLTAwOGxiQVYxUA?oc=5",
+          "description": "'I'm used to being in this position.' Gauff to lean on experience for 12th major quarterfinal  wtatennis.comGauff's statement win completes stacked US Open last eight  BBCCoco Gauff dismantles Iva Jov",
+          "publisher": "wtatennis.com",
+          "pub_date": "2026-09-08T13:54:44+00:00"
+        },
+        {
+          "title": "‘Lock the drivers in a room’ – Do Ferrari need to deliver some ‘home truths’ after their Monza dramas?",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQeG9sTXRPN1BQcHFlVGRxeU1RQzdEaU1tbzIzTTZGMWNPV3FFU3VkOHVUeTBSSFdJTWZscmxKMUplY1lHb1VZVVhOMHVOczdzZ0FOcXcxZm5QUnpXT0VESFVnRzFYSHNYbV9nTy1PSXZhMHRCT01mQUp3RFZGR1BwcnNCM2FmemxBeC01RFRNcU1VUWJnY3lyYlVWN2lIOEtjRUlRd2F2M2R3d0d5eVdFYUVwUU4zZ0R1dHNwWThhSzlCM3dUQXNZaDRzQ2RxY19TbTRIZDk4Y0stSlg2bjJURXlvNjFiNTF1bUZnTUFkb0M3ZjQ?oc=5",
+          "description": "‘Lock the drivers in a room’ – Do Ferrari need to deliver some ‘home truths’ after their Monza dramas?  Formula 1Italian Grand Prix: Lewis Hamilton says it is 'far too late' to be given priority over ",
+          "publisher": "Formula 1",
+          "pub_date": "2026-09-08T13:20:00+00:00"
+        },
+        {
+          "title": "Lewis Hall agrees five-year deal to stay at Newcastle United",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMkFJRmlTNm9NMTFoOUlYSDZNYS12ZjY3d1FLWEZFc2E3aTZJMFJWc2VFZlFVeVZLMlVvb19oc0F0WkUtLVRlTnduQW10NjRXeS13TTNFT1Ntd3JQVFk2Y1N5a2R2d3RDX3FTTXJtQVZJbS1zaks5YWozSFptckZidEtFLVlGcTFvR3J0YUlLS2dWandWcVZiYVJiUmJ1dDlEVUdGZmE2RQ?oc=5",
+          "description": "Lewis Hall agrees five-year deal to stay at Newcastle United  The TimesTransfer Notebook: Man United suffer major blow in pursuit of key target  talkSPORTMan Utd want to sign £70m Newcastle centre-bac",
+          "publisher": "The Times",
+          "pub_date": "2026-09-08T14:14:01+00:00"
         },
         {
           "title": "2026-27 Champions League predictions and odds: Bayern Munich poised to end PSG's reign",
@@ -1154,46 +1182,32 @@
           "pub_date": "2026-09-08T13:41:52+00:00"
         },
         {
-          "title": "Man Utd 'plot move for Newcastle defender' as Hall alternative",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZW5LVGMwdV9zRHl5em8xNzlnN3NBMUVaaXJTd1QwX3VoWFBqVDk0Q2tOWkxnTlFJVWwxWHQ4T0lyMG51SGtMLXhibjJScF9wN1UzbW05VjcwbWFCUDhBTXVCSmJzdHNuUWE3WC14WGZXWkxLN1RQNXBGNE1nU3FaS1Q4REZFeTVSdUF6MGRBMA?oc=5",
-          "description": "Man Utd 'plot move for Newcastle defender' as Hall alternative  London Evening StandardTransfer Notebook: Man United suffer major blow in pursuit of key target  talkSPORTMan Utd want to sign £70m Newc",
-          "publisher": "London Evening Standard",
-          "pub_date": "2026-09-08T08:54:40+00:00"
-        },
-        {
-          "title": "Lewis Hamilton issues clear response to worried Ferrari fans",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbGF0RVFsZ0FCSnhlVVd4OE5QYm5fenI3emZrTGFXSGFyTVhrQldfOUxYZ3VYbkd4LWUyWXVNVFZacmVkdjJWWGNxWVpubVR2SGt3eDU1WUhwTkVvREhFMFpQcTdZS0ZrTG5ZUTZiNmtET1FRNWRHckpZSjFrMVpJLVFtWUdGeVpBQ1BKNVFkZw?oc=5",
-          "description": "Lewis Hamilton issues clear response to worried Ferrari fans  racingnews365.comItalian Grand Prix: Lewis Hamilton says it is 'far too late' to be given priority over Charles Leclerc at Ferrari  BBC‘Lo",
-          "publisher": "racingnews365.com",
-          "pub_date": "2026-09-08T04:30:00+00:00"
-        },
-        {
-          "title": "Ballon d’Or debate: Our experts argue cases for Kane and Kvaratskhelia",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ1RSdmJnUXBzT19kTG9PSUVleWpndTRKSXhfZ3hqUlVfNnVyOHVlcjBLUXJuY25LSUhzMHAzNkRZOWVVYWRoeThVN3dUZ053THI0VnhhRElaSDBOUW5pTEdPc0pmUEVTa0VlWmVhUWh3WFlVSkYyd1VKX3M2TTBVUWUzNFZjZTFUT0o5M1kzVmZ5bVBWYUZrdF9YdkpWTXdxN0tLMWdybDZ6dw?oc=5",
-          "description": "Ballon d’Or debate: Our experts argue cases for Kane and Kvaratskhelia  The TelegraphCan Kane buck history and win Ballon d'Or?  BBCHarry Kane opens up on Ballon d’Or hopes after eclipsing Cristiano R",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-09-08T07:58:00+00:00"
-        },
-        {
           "title": "Secret conversation that convinced Myles Lewis-Skelly to reject Man Utd transfer and front Arsenal's latest title bid",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSGVkeVQzdnh6Y2pKVUEzSGxvcVRWWFBwbkQ1dWF2dXJ4ODh4Ukp6V2hyeGczYm1oYjlqOGU1cDVjelg3WTdJM3lyRFpraExraVBEWkM5N1VvZ3dHYWpUMmRMckRjbVd1eEJwSjdyeGZ2Nmd3Q05SRFhuMnNYdDV0OXE1NW93UDlMOTZR?oc=5",
-          "description": "Secret conversation that convinced Myles Lewis-Skelly to reject Man Utd transfer and front Arsenal's latest title bid  The SunMikel Arteta's private chat with Myles Lewis-Skelly and Arsenal tweak that",
+          "description": "Secret conversation that convinced Myles Lewis-Skelly to reject Man Utd transfer and front Arsenal's latest title bid  The SunTwo reasons Arsenal star Lewis-Skelly decided to reject Man Utd revealed a",
           "publisher": "The Sun",
           "pub_date": "2026-09-08T10:36:00+00:00"
         },
         {
-          "title": "US Open 2026: Home favourite Coco Gauff wins all-American showdown with Iva Jovic to reach quarter-finals",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPVkc1UVRnZUZkS0w2eEZXa0xrVVRUQUpsMzlxbFNVTU4xX2dMcUdyazRDOG9VUDNTeU5QZmU1T2tqaXlzQmRGNXpOVGxzZ2M2aldzOEszcVRodzUyWFJ0Y2EtWFRRQlBPb3ZZV0VCUDV3aGtVNGZFczBScE8zb0lMeGpEWmp5ZmlDT0R1cmNYWnZnOWlXU05NR052elVpRHI1V2RSdnI5Y244VENJTExpVVZjUDQyNTBDaXhDQ0JxdTV0b19EQmFPVFB3c21zcl9jT09aN0xwbzRJVEY2ckJMNHB4dXRvc09TTnBHNTdn?oc=5",
-          "description": "US Open 2026: Home favourite Coco Gauff wins all-American showdown with Iva Jovic to reach quarter-finals  Sky SportsGauff's statement win completes stacked US Open last eight  BBCCoco Gauff dismantle",
-          "publisher": "Sky Sports",
-          "pub_date": "2026-09-08T05:58:41+00:00"
+          "title": "‘Big concern’ – Wayne Rooney hits out at two Man Utd transfer mistakes as Michael Carrick ‘left short’",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN0hUQ2E4cFRqZzN0STVPX1FUWWpsVy1hYzRvOWkzVW1ZSzRXblVULU1pZVh2dE9BOEgwclg1VW1GLWJKV1ZQTFJTYVVMNUw2U3RUazV3M2x3QXFrc2VuTEN5OWluVEZmVzdsdE0yVG8zZlhoeUFGZk1MQkpXVUVCWGpuRjdTSjBESDFRZ2NvbC03elJXUDNTOXN2ek0?oc=5",
+          "description": "‘Big concern’ – Wayne Rooney hits out at two Man Utd transfer mistakes as Michael Carrick ‘left short’  Football365Rooney fears Carrick faces Man Utd sack and reveals why Fernandes needs help  The Sun",
+          "publisher": "Football365",
+          "pub_date": "2026-09-08T12:08:46+00:00"
         },
         {
-          "title": "Wayne Rooney fears Michael Carrick faces Man Utd sack and reveals why Bruno Fernandes will be screaming for help",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNUNSbm9VU1EtemUzZkxfaEVycDV0aURQSlVRYkpDUjlyOVRuTUxXZFpkZExUbEFFTnRlU2VxS3FsdlNVNnRObnI3bmF6SHk0cnFYQkpCMlEzWXNhZXpQMFlSUkEwNk5qano2N0lCYU8wZUJqSUU2R0doRUtXMlZJdXA0akxLZEJrSXhtN1VQOEx6QkdQV1NjMG5EaF94UmM?oc=5",
-          "description": "Wayne Rooney fears Michael Carrick faces Man Utd sack and reveals why Bruno Fernandes will be screaming for help  The SunWayne Rooney slams Man Utd board over two transfer mistakes  Metro.co.uk‘Big co",
-          "publisher": "The Sun",
-          "pub_date": "2026-09-08T11:59:00+00:00"
+          "title": "PSG’s big Champions League advantage is also its biggest problem",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM0ZvbDdSeEhIanNyMHp6LXpENFRFSXB6ZE5YU1VrOXRPV24xU2RjS2hnMVpyNFRaZjlPdHU2d1Fnb1ROSTQ5emJSNThMSHVibUt2eFpJVkVKX1ZpMDhRVDl1OGhDRkw4dl9GNkdzRkEta3lMdl9rck5lNkFCbHFidWJCb08zWDlIcXFjS1FpQXRMc29fank3TWoxa1pqLTZuTGc0djhvUkRSQQ?oc=5",
+          "description": "PSG’s big Champions League advantage is also its biggest problem  The IndependentDisastrous start: Enrique warns his Paris stars before Champions League clash  LiveScorePSG, Madrid aim to resist big-s",
+          "publisher": "The Independent",
+          "pub_date": "2026-09-08T05:00:00+00:00"
+        },
+        {
+          "title": "Lawrence Shankland: Rangers captain & Scotland forward out for up to four months and may need surgery",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tOWFFcHhzejJVMkgtZkZvWjgzcTRpbGFKOTdHOVc1VEFuSVJfU3JmNjN0Rm5UTXI5Z280MmVNS3NFVUpYWG1QcnFjSlQwREZ2MGVnLWI5TTBma05mVjh4UGl6bGd5c2taZVE?oc=5",
+          "description": "Lawrence Shankland: Rangers captain & Scotland forward out for up to four months and may need surgery  BBCSee more headlines and perspectives on Google News",
+          "publisher": "BBC",
+          "pub_date": "2026-09-08T13:30:33+00:00"
         },
         {
           "title": "Oleksandr Usyk's manager dismisses Tyson Fury's offer to be 'backup plan' for Anthony Joshua fight amid doubt over heavyweight clash",
@@ -1203,13 +1217,6 @@
           "pub_date": "2026-09-08T01:02:02+00:00"
         },
         {
-          "title": "Maitland-Niles says he had 'goosebumps' from Hill Dickinson noise after dramatic debut goal",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JaFU5UDh6ZkR3QzZYUDJuTWhGUEx5REhNNml6YnVoYy01aUpXTENpbnRocXFEZjBLNEtBbG1wRDB3ZjhlZDVmY0t1N3ZObWJuajhBYUU4VlhwQ2d0VVhPY2dDbEI?oc=5",
-          "description": "Maitland-Niles says he had 'goosebumps' from Hill Dickinson noise after dramatic debut goal  ToffeeWebEverton 2-2 Man Utd: Gary Neville fearful that Manchester United's liability of conceding goals is",
-          "publisher": "ToffeeWeb",
-          "pub_date": "2026-09-07T14:24:13+00:00"
-        },
-        {
           "title": "Chelsea XI vs Leeds: Confirmed team news, predicted lineup and injury latest for Carabao Cup",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVThuMFVfbmZEUUVyZy1QSlJGR2h5bi1kN2Q1YlFxWVpkYVFjZUlJY0dlenpDTTNIQ2RWako4aS1oT3phLTh3VVE0LUJSMUxIMXhENUk2UHQzMmlFQi02Vy1ZZVd2cGFZLXRIMEtIemZJYVJuRmFjNFJEMjRtYlVmOGdUUGdrTEc3UXUwcHdpLUEtYXViRnVVLTNveE5CaGpTaXFtT2hBUGVuRUl6bmNQTW1zcmN2bUFZalZDWWVLTThwRzRXeDNVZHQ3cm9YNl9YZTFoT0RlOHk?oc=5",
           "description": "Chelsea XI vs Leeds: Confirmed team news, predicted lineup and injury latest for Carabao Cup  London Evening StandardXabi Alonso confirms Chelsea team news for Leeds visit | News | Official Site  Chel",
@@ -1217,32 +1224,25 @@
           "pub_date": "2026-09-08T14:36:47+00:00"
         },
         {
-          "title": "Lawrence Shankland: Rangers captain & Scotland forward out for up to four months and may need surgery",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RVFlCR2xHNDhCQUpyR20zS1FSSng1NldBZldRVG1XX1pvNmRja0pjNW5BMHBYYXZGZnBCbm5rYmhIaXphU0pISXZrOG95Q21KSHBvMlVWQWtqVklvbTBMa2g1T1pZSUU?oc=5",
-          "description": "Lawrence Shankland: Rangers captain & Scotland forward out for up to four months and may need surgery  BBCRangers discover Lawrence Shankland injury fate as captain faces lengthy absence  The Rangers ",
+          "title": "Maitland-Niles says he had 'goosebumps' from Hill Dickinson noise after dramatic debut goal",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1JaFU5UDh6ZkR3QzZYUDJuTWhGUEx5REhNNml6YnVoYy01aUpXTENpbnRocXFEZjBLNEtBbG1wRDB3ZjhlZDVmY0t1N3ZObWJuajhBYUU4VlhwQ2d0VVhPY2dDbEI?oc=5",
+          "description": "Maitland-Niles says he had 'goosebumps' from Hill Dickinson noise after dramatic debut goal  ToffeeWebEverton 2-2 Man Utd: Gary Neville fearful that Manchester United's liability of conceding goals is",
+          "publisher": "ToffeeWeb",
+          "pub_date": "2026-09-07T14:24:13+00:00"
+        },
+        {
+          "title": "US Open 2026 results: Zheng Qinwen shocks Iga Swiatek to reach quarter-finals",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE96S1NGb2hXX0RxMVBhSVA2LUYtR1hsVlhOVGZOeW1WV1RMandteDFBWnZldmlLUmJFbGg4UC1POURJZk1vN0l5TDJ3M25iUEpYWTEtanMtUjhGbHdBa083RzN3ZHo?oc=5",
+          "description": "US Open 2026 results: Zheng Qinwen shocks Iga Swiatek to reach quarter-finals  BBCSee more headlines and perspectives on Google News",
           "publisher": "BBC",
-          "pub_date": "2026-09-08T13:30:33+00:00"
-        },
-        {
-          "title": "PSG’s big Champions League advantage is also its biggest problem",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM0ZvbDdSeEhIanNyMHp6LXpENFRFSXB6ZE5YU1VrOXRPV24xU2RjS2hnMVpyNFRaZjlPdHU2d1Fnb1ROSTQ5emJSNThMSHVibUt2eFpJVkVKX1ZpMDhRVDl1OGhDRkw4dl9GNkdzRkEta3lMdl9rck5lNkFCbHFidWJCb08zWDlIcXFjS1FpQXRMc29fank3TWoxa1pqLTZuTGc0djhvUkRSQQ?oc=5",
-          "description": "PSG’s big Champions League advantage is also its biggest problem  The IndependentDisastrous start: Enrique warns his Paris stars before Champions League clash  LiveScoreTitle holder PSG, Mourinho's Ma",
-          "publisher": "The Independent",
-          "pub_date": "2026-09-08T05:00:00+00:00"
-        },
-        {
-          "title": "Match Preview: Bolton v West Ham",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pLWZIdnBCSEs5RUN0S2ljdEJ5NDRfaGlwMXV5UG9ZMlJTbXZZUUJxSkllRXltT0xicmFta1E3NWpBOERIb3FOeTQyazZBam9ZaGNQSWpCUWR2V1UyaTBQTnBiZ3dSY0FRRk1fLW55R2RjV2d6c2g2NQ?oc=5",
-          "description": "Match Preview: Bolton v West Ham  West Ham Till I DieMatch Preview | Wanderers v West Ham  bwfc.co.ukTraining Gallery | Hammers prepare for Trotters trip  West Ham UnitedBolton Wanderers vs West Ham U",
-          "publisher": "West Ham Till I Die",
-          "pub_date": "2026-09-08T07:00:00+00:00"
+          "pub_date": "2026-09-07T18:01:53+00:00"
         }
       ],
       "health": [
         {
-          "title": "Northern Ireland cancer wait times 'dangerously long', says patient",
+          "title": "'Dangerously long cancer waits have me constantly on a knife-edge'",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16WkIzMUJnamc2Qzd2aWt0bkFhdXVWTnkxUzlPNVpGNGVLTXhlVHhWTElfQ0JxT2tNYllWcjJDOE5WdHNBX2lwdVdCc3F1bTRqaGk3QTcwMUVLODd6?oc=5",
-          "description": "Northern Ireland cancer wait times 'dangerously long', says patient  BBCSee more headlines and perspectives on Google News",
+          "description": "'Dangerously long cancer waits have me constantly on a knife-edge'  BBCSee more headlines and perspectives on Google News",
           "publisher": "BBC",
           "pub_date": "2026-09-08T12:04:11+00:00"
         },
@@ -1254,6 +1254,20 @@
           "pub_date": "2026-09-07T16:15:00+00:00"
         },
         {
+          "title": "Uni student, 21, who thought she had a ‘bad hangover’ was hours from death after tonsillitis",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZHdmYlMtYzhPb09uMGczZ1M1WHdRWHZxUVpZYTR0TDN2WnRIQzZBQmEyTlZBcTZWdU9Va0tsY2tYREFsUXBGQzBmZEY4RlRyeF9qemNKVnhTdkI0WmN0SVJ5MjZ1ZGYyQW10ZGxxMThFY2E1RC1VUVgyc05VYnBldDM3SlV6dw?oc=5",
+          "description": "Uni student, 21, who thought she had a ‘bad hangover’ was hours from death after tonsillitis  The SunSee more headlines and perspectives on Google News",
+          "publisher": "The Sun",
+          "pub_date": "2026-09-08T08:54:00+00:00"
+        },
+        {
+          "title": "British baby given world-first treatment for rare skull condition",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTmxVVEVmQVRRRkk0T19CcjV6N3RweEEyWlFnZzhQb1BtdFd2aXh3c28ySkwwMnlOSGIwblNTOWhqMU0zdlQ4ZkFhY25nOU5RMVNodUY4d0p6MUNKVmcxNkdHTnFoM19Wa2lhZl9oVlluQzBrWXE0MHNxM0tMQ0pmM1RkNkJqWDRiTWdNci1aakdKakREaWI2XzFNeWZrQnZhenc?oc=5",
+          "description": "British baby given world-first treatment for rare skull condition  The TelegraphWorld-first surgery for baby's rare skull condition  BBCOne-year-old given world-first treatment for rare skull conditio",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-09-08T05:03:00+00:00"
+        },
+        {
           "title": "Eating a handful of nuts each day is linked with lower risk of high blood pressure, our research shows",
           "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbWdXMGQ4SWRtc256aThHWENWWWY1QlI2M251bGJZZlRSSzRqcXg4b3ZSVkpZc3o2TDRjMURDamxEbXM0UE1peVNBbElvTldNaW1HX0xTcjN4ZUVNWUwzTzEwam5GaDFSclhEbHFZOGlBbGlkMTU0QjlUWHJXSEFiaE5HSHBKSnA2RzRydVU1VU43eFpCYTNkWmtQMGs2djl0WlBnTlB2YWxLX1ZKX194ZFhyaVNvNnBBWHZvYzh1SGRXVFdYSkpueWR4WEVuM01VekE?oc=5",
           "description": "Eating a handful of nuts each day is linked with lower risk of high blood pressure, our research shows  The ConversationThe #1 Nut to Help Lower Blood Pressure, According to a Dietitian  EatingWellThe",
@@ -1261,60 +1275,39 @@
           "pub_date": "2026-09-07T15:03:06+00:00"
         },
         {
-          "title": "Cardiff student who 'brushed off' sore throat developed sepsis",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Ock1zN2Nld0ZKUUhUWi1zWmhMWjNJRkVmM2gxSEFsVkFKelEzekJWZVhpTmRmQjRkbjZjczRGRnp1OUVWYnFOa25udjZGekp4WnhlcmRiaWZWcjJm?oc=5",
-          "description": "Cardiff student who 'brushed off' sore throat developed sepsis  BBCCardiff student 'thought she was hungover' but was hours from death  Wales OnlineStudent thought it was a hangover – doctors say 12 m",
-          "publisher": "BBC",
-          "pub_date": "2026-09-05T20:47:59+00:00"
-        },
-        {
-          "title": "One-year-old given world-first treatment for rare skull condition",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUXNBcG9pV1lDTWkzWDJtU01iWDdiS2NLWGltSzgzQzVIRkk4Y1dBZERRamdFTEVHUWdZMm1EVUFXRkFkUTZFY2Y1RVZIVVMyRGJCUDJscGZCVzNWOVA0N1h4cmQzOHFQZ0I3UV9DUGlxX1JHV3pHLW05Q3ZvaWhsbDNMenFjQVFPTnNhbVJocThBUVFOTjg2ZDdKSkFHN045UWtZ?oc=5",
-          "description": "One-year-old given world-first treatment for rare skull condition  Sky NewsSee more headlines and perspectives on Google News",
-          "publisher": "Sky News",
-          "pub_date": "2026-09-08T05:27:09+00:00"
-        },
-        {
-          "title": "Millions on top NHS drug forced to RATION meds for months amid shortage crisis",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNR1hBREFLaGpTU1JEaHI3aFpNNVQybUVvLU1RUDRXRkVwRVlhWlNDNUNkNnhrSjVHOGxjdjQyck1sU2xXOFVsV3FCVmp4UmhOSVFjTWhyQmpWMk9vUDFDQ2xsREh0Z3N6cDBhYWx1MnhmZDhZR1FtVkFzb25pRjM0ZVJ6bUJxNTZBUmE4QmtwZkZTdC1O?oc=5",
-          "description": "Millions on top NHS drug forced to RATION meds for months amid shortage crisis  The Sun",
-          "publisher": "The Sun",
-          "pub_date": "2026-09-08T08:40:00+00:00"
-        },
-        {
           "title": "Fat jabs could slash risk of killer asthma attacks up to 40%, study suggests",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOUw5R0xmWW9oMGNnV0syWVVFd2NPeW1KaWpRTkdtc2FxR29Fb3hwM0VpeXNVUVVrQXk3VWtpZm8tNzhaWkU3OUs1MmhQWU5EdXpxY3djeDVlRVNyTmlzTEZKWGMtdXI5NGpJa0JZdVFrLVpkOFU0R1ZCaVBtQ2JScXpwTXo?oc=5",
-          "description": "Fat jabs could slash risk of killer asthma attacks up to 40%, study suggests  The SunWeight-loss jabs could cut number of asthma attacks  The TimesSemaglutide Cuts Asthma Attacks by up to 40% in Real-",
+          "description": "Fat jabs could slash risk of killer asthma attacks up to 40%, study suggests  The SunWeight-loss jabs could cut number of asthma attacks  The TimesDiabetes, weight-loss drug semaglutide linked to fewe",
           "publisher": "The Sun",
           "pub_date": "2026-09-07T22:01:00+00:00"
         },
         {
-          "title": "Why you should bin your supplements, by Dr Xand van Tulleken",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPT1VRYURBcUhtbjBHYXRDZjEyMWRUNjM4bEdBUHVVUFh1cDl2UDVfRjllOTB2WGN4UjdCSTgtWHJfQ1M2YXViU1FXWTJGV004emJkWVNDYzNTck55anZwX3JKbHUxWUs4c3YzcEQ2R0l2dlhTc1J4MGdCX1dUX2ZFRmJKQXJHSUUyOFdNQWJ5UXhZb3NfSEp4N1FkNURUWk5uekZRajN4VlpmTjBhd1JKZ0h6LW1BVklSZkhOeWxMOA?oc=5",
-          "description": "Why you should bin your supplements, by Dr Xand van Tulleken  The TimesThis top doctor investigated the perplexing world of wellness. What he found has consequences for us all  BikeRadarInside the fac",
-          "publisher": "The Times",
-          "pub_date": "2026-09-08T04:00:00+00:00"
+          "title": "This top doctor investigated the perplexing world of wellness. What he found has consequences for us all",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN0JuS2VTVkZJOExmMVlDa3pNLTJFTW5vUjNqQUdOT2Zqc21kWGZfeHBLYk9PMExzbkQ3WUwyV2lnVVI1TmpJdDdoNzdZSVl6ZmM5TmMxZ1QyNm9OUHdqZ3pGWjA5dGdESFdxZ2RfUXp3Z3BDS2gzSnZhaHZjNVFfWTJrTjNtQVcxLXI0OXF5akdXMjF0dUlvNVYzQ1Rwbkkzel93?oc=5",
+          "description": "This top doctor investigated the perplexing world of wellness. What he found has consequences for us all  bikeradar.comWhy you should bin your supplements, by Dr Xand van Tulleken  The TimesInside the",
+          "publisher": "bikeradar.com",
+          "pub_date": "2026-09-07T14:00:00+00:00"
         },
         {
           "title": "Tim Spector: Why I’ll never give up alcohol",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNDF2a2NsVjZac09yQzdIdXhCZk11QnVKN2hGVGFSeUxwRmRBS2hCem84aktfcHRVLW82UF8xMktOQ1QwQ0oyaWY5d0dEMl9xd3FYNjJhd2dzNUFtaWpNZklpdXV3OHByeEtQSUZxSHJSTlV1OXM3UjVDSjFrb1BPdUpTS0R0MTdmeDVQbmlKZTRGNm96TTV1OEpwcnJjV2hIYTlUTw?oc=5",
-          "description": "Tim Spector: Why I’ll never give up alcohol  telegraph.co.uk",
-          "publisher": "telegraph.co.uk",
+          "description": "Tim Spector: Why I’ll never give up alcohol  The Telegraph",
+          "publisher": "The Telegraph",
           "pub_date": "2026-09-08T09:00:00+00:00"
         },
         {
           "title": "Probing the proteome at cellular scale",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55RjNzclFWU20xSENpSjM4Wl9SNFBfVk02Z3pTRmptY2VieXlaQWVYVUlKTlFCeFFLWms1Y1lwdVh0STJIZktjX2NGbnZNekFfUUFmemQxdy0tTy1naV9F?oc=5",
-          "description": "Probing the proteome at cellular scale  Nature",
-          "publisher": "Nature",
+          "description": "Probing the proteome at cellular scale  nature.com",
+          "publisher": "nature.com",
           "pub_date": "2026-09-07T16:35:44+00:00"
         },
         {
-          "title": "The tiny mark under your eye that ‘indicates your risk of killer stroke in the next 10 years’",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ3JfdjVxaUxLbk1PTGt1RUg0YTBxZUZpMzNfa2wzRjFUZHM2elc5LXRyOFJnamtsdHZDcTQwRnJNM2RkaVZLeW12RVVWVU04Y2d6S0o5QW56c3FVcVhEbzJQLW5heFgzdmNMS3QwSWRoNlhHc0pMWmFFS2xnT0pfVnN3OXI4b1RYbDh5RA?oc=5",
-          "description": "The tiny mark under your eye that ‘indicates your risk of killer stroke in the next 10 years’  The SunA Warning Sign of Heart Attack And Stroke May Show Up on Your Face  ScienceAlertXanthelasmas: What",
-          "publisher": "The Sun",
-          "pub_date": "2026-09-08T10:59:00+00:00"
+          "title": "Health Trust statement following Covid outbreak at NI hospital",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdlBQZVdTaWFFbzUtTFY2WkNMcE1OcjFCMmdkNnY0S2FreWdoMEZuQjczUUNOcDRWaTA0dW8xMS01UlVKaEphODFlenc5RVpnN2hjSGhJSlNJb1RVUmZQR2NGNTJqSmpZWU56cW1HUmxxdHotLVJfbTBrVjRrVFlCaWRUV2NfXzlUQnFORlJPN2V4dXM1NDF6Si16emVMbmJU0gGmAUFVX3lxTE1ScHFJc2p6VmZPeEt0VlA0WEo2TXIteXF0bHM2TjZ3TTdVbzB4YURXeGpMNmE2WGliRU5VaVg3M0FmUFMxVGdUYTVtVDVVQzVDUHk5WHZUNlhCV2p2WVFGQ2Y3c2JjVXFQOGtBYVI4N1NTUEhPR0R2enlxYXVmTWhCaV83WGhJQlM2WEJyTi1SRjFuNGhiUFp6LU9lYzZxNXZ3S0QzQ0E?oc=5",
+          "description": "Health Trust statement following Covid outbreak at NI hospital  Belfast LiveCovid outbreak at Irish hospital as statement issued on 'number of cases'  Irish MirrorCovid outbreak at UK hospital as heal",
+          "publisher": "Belfast Live",
+          "pub_date": "2026-09-08T12:06:00+00:00"
         },
         {
           "title": "Newborn baby's nail infection led to brain tumour diagnosis",
@@ -1324,13 +1317,6 @@
           "pub_date": "2026-09-07T04:29:05+00:00"
         },
         {
-          "title": "At 57, these are the exercises I’m doing to prevent falls in later life",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUGlEcVpyMHd6RFYyc2ZPYmNaZFN2OHhSQjc0bjFGXzhrRjlPdVM5c0hQUTlHVFZsZTVsaG1XenM4bUxCcU9QYVlTTkszVVdVbXBocm5icTdtSjh6NFdzejRIaWNpRS1ycGM5bkZJaVRWejBMOTNYU1VtVTM2WWZQdzlYdTJpclhSc0xoVUdMNndsbVUySDdEZEtudEI?oc=5",
-          "description": "At 57, these are the exercises I’m doing to prevent falls in later life  telegraph.co.uk",
-          "publisher": "telegraph.co.uk",
-          "pub_date": "2026-09-08T11:00:00+00:00"
-        },
-        {
           "title": "Pig kidney works in human body for 271 days - is this the future of organ transplants?",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUMnhfVS00RFBpa0pnNk1hSi01Wm1sX0l1ci1KTmx2UTNoaHplemlRVHdfYS1Cdk56OERNeHppWXpZSUx1TWJjN19maDM3eWpIZVQwMFRRZ1kyTS00?oc=5",
           "description": "Pig kidney works in human body for 271 days - is this the future of organ transplants?  BBCPig kidneys successfully transplanted into humans  Financial TimesGenetically modified pig kidney keeps man a",
@@ -1338,11 +1324,25 @@
           "pub_date": "2026-09-03T22:31:23+00:00"
         },
         {
+          "title": "At 57, these are the exercises I’m doing to prevent falls in later life",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUGlEcVpyMHd6RFYyc2ZPYmNaZFN2OHhSQjc0bjFGXzhrRjlPdVM5c0hQUTlHVFZsZTVsaG1XenM4bUxCcU9QYVlTTkszVVdVbXBocm5icTdtSjh6NFdzejRIaWNpRS1ycGM5bkZJaVRWejBMOTNYU1VtVTM2WWZQdzlYdTJpclhSc0xoVUdMNndsbVUySDdEZEtudEI?oc=5",
+          "description": "At 57, these are the exercises I’m doing to prevent falls in later life  The Telegraph",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-09-08T11:00:00+00:00"
+        },
+        {
           "title": "Invasive tropical mosquito found breeding in east London",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUFVRejd4TDJqdDM1dlZOOFpZMlRhR09zb0pDSUZNakY4a05tSnFxSXpHYWtSVXZMSWpuVDcwVjF0OHBBS3B6ZnlYSHZaaVN3b2ZrR2JzQUJodk5nN1BKdzI4MTl6bWVlVFNCdVRqWTR0aU84SWUtaFlWNFlQT2d2TGtDaGNvbWViZlpPLUUwZjZlZE8wb0dOUi1n?oc=5",
           "description": "Invasive tropical mosquito found breeding in east London  The GuardianInvasive mosquitoes breed in London for the first time in the UK  BBC'Hitchhiking' mosquitoes that can transmit dengue and Zika vi",
           "publisher": "The Guardian",
           "pub_date": "2026-09-04T08:48:00+00:00"
+        },
+        {
+          "title": "The tiny mark under your eye that ‘indicates your risk of killer stroke in the next 10 years’",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ3JfdjVxaUxLbk1PTGt1RUg0YTBxZUZpMzNfa2wzRjFUZHM2elc5LXRyOFJnamtsdHZDcTQwRnJNM2RkaVZLeW12RVVWVU04Y2d6S0o5QW56c3FVcVhEbzJQLW5heFgzdmNMS3QwSWRoNlhHc0pMWmFFS2xnT0pfVnN3OXI4b1RYbDh5RA?oc=5",
+          "description": "The tiny mark under your eye that ‘indicates your risk of killer stroke in the next 10 years’  The SunA Warning Sign of Heart Attack And Stroke May Show Up on Your Face  ScienceAlertXanthelasmas: What",
+          "publisher": "The Sun",
+          "pub_date": "2026-09-08T10:59:00+00:00"
         }
       ]
     },
@@ -1352,16 +1352,16 @@
         "type": "articles",
         "items": [
           {
+            "title": "Ports denied request to land 120 migrants in RNLI boats",
+            "link": "https://www.bbc.co.uk/news/articles/cm27v3743mno?at_medium=RSS&at_campaign=rss",
+            "description": "The King's Harbour Master and Southampton Port both declined to allow migrants ashore on Sunday.",
+            "pub_date": "2026-09-08T15:26:05+00:00"
+          },
+          {
             "title": "Harry and Meghan 'surprised' by King's letter making clear they remain non-working royals",
             "link": "https://www.bbc.co.uk/news/articles/cp30kv53qvdo?at_medium=RSS&at_campaign=rss",
             "description": "A spokesman says they were not told in advance about the letter sent on behalf of the king, although palace sources deny this.",
             "pub_date": "2026-09-08T09:43:53+00:00"
-          },
-          {
-            "title": "Heathrow and Gatwick among airports hit by air traffic control problems",
-            "link": "https://www.bbc.co.uk/news/articles/ce8x3dp1zpxo?at_medium=RSS&at_campaign=rss",
-            "description": "Departures from a number of airports have been affected by a technical problem affecting air traffic control provider Nats.",
-            "pub_date": "2026-09-08T14:53:47+00:00"
           },
           {
             "title": "Four Renoir paintings worth millions stolen in French museum heist",
@@ -1373,7 +1373,7 @@
             "title": "Nottingham attacks victim's death 'potentially preventable'",
             "link": "https://www.bbc.co.uk/news/articles/cddvz1mz09zo?at_medium=RSS&at_campaign=rss",
             "description": "The Nottingham Inquiry hears there was a chance one of Valdo Calocane's victims may have survived.",
-            "pub_date": "2026-09-08T14:38:33+00:00"
+            "pub_date": "2026-09-08T15:18:10+00:00"
           },
           {
             "title": "Monty Don to leave Gardeners' World after more than 20 years",
@@ -1394,12 +1394,6 @@
             "pub_date": "2026-09-08T11:09:54+00:00"
           },
           {
-            "title": "Canadian counter-tariffs come into force as US trade dispute escalates",
-            "link": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
-            "description": "As high as 50%, Canada's levies will apply to nearly $20bn of US products, from steel to T-shirts.",
-            "pub_date": "2026-09-08T14:46:16+00:00"
-          },
-          {
             "title": "England up in reading, maths and science rankings as Scotland and Wales fall behind",
             "link": "https://www.bbc.co.uk/news/articles/cvgy6n0l4rdo?at_medium=RSS&at_campaign=rss",
             "description": "The latest Pisa report also warned of a global decline in teenagers' reading skills.",
@@ -1409,13 +1403,13 @@
             "title": "Borrowers expecting mortgage rates to drop have hopes dashed",
             "link": "https://www.bbc.co.uk/news/articles/c770v7y63r0o?at_medium=RSS&at_campaign=rss",
             "description": "Major lenders have raised rates on new deals in recent days, leaving many borrowers needing to make a decision.",
-            "pub_date": "2026-09-08T13:20:51+00:00"
+            "pub_date": "2026-09-08T15:19:43+00:00"
           },
           {
-            "title": "Highest paid world leader to get salary increase of $1 million",
-            "link": "https://www.bbc.co.uk/news/articles/c5y5kn143d1o?at_medium=RSS&at_campaign=rss",
-            "description": "Singapore's prime minister Lawrence Wong will see his annual pay rise to 3.6 million Singapore dollars ($2.8m; £2.1m).",
-            "pub_date": "2026-09-08T09:20:05+00:00"
+            "title": "Kane among three of England's World Cup stars to make Ballon d'Or shortlist",
+            "link": "https://www.bbc.co.uk/sport/football/articles/c62m82qqm87o?at_medium=RSS&at_campaign=rss",
+            "description": "Bayern Munich striker Harry Kane is one of three England players nominated for the 2026 Ballon d'Or alongside Jude Bellingham and Declan Rice.",
+            "pub_date": "2026-09-08T15:27:09+00:00"
           },
           {
             "title": "Charli XCX says bye to Brat and Liam Gallagher's tambourine grin - Music Photography Awards 2026 shortlist",
@@ -1424,16 +1418,22 @@
             "pub_date": "2026-09-07T23:01:22+00:00"
           },
           {
-            "title": "What tariffs will really cost Canadians and Americans",
-            "link": "https://www.bbc.co.uk/news/articles/cx2z4dv6vn2o?at_medium=RSS&at_campaign=rss",
-            "description": "Households and businesses have become used to tariffs impacting the cost of living for more than year now, so what will change now?",
-            "pub_date": "2026-09-08T12:16:30+00:00"
+            "title": "In West Bank, date farmers weigh impact of UK sanctions on Israeli settlers",
+            "link": "https://www.bbc.co.uk/news/articles/cvgy6gd228vo?at_medium=RSS&at_campaign=rss",
+            "description": "Palestinians strongly back a ban on settlement goods, but Israel's government says it is a \"big mistake\".",
+            "pub_date": "2026-09-08T15:36:34+00:00"
           },
           {
             "title": "Forget the Mediterranean diet, I'm eating only food from Shetland for a month",
             "link": "https://www.bbc.co.uk/news/articles/c74ewj1kdyro?at_medium=RSS&at_campaign=rss",
             "description": "Dr Alex Armitage is eating only food grown, reared or caught locally during September.",
             "pub_date": "2026-09-08T09:02:46+00:00"
+          },
+          {
+            "title": "What tariffs will really cost Canadians and Americans",
+            "link": "https://www.bbc.co.uk/news/articles/cx2z4dv6vn2o?at_medium=RSS&at_campaign=rss",
+            "description": "Households and businesses have become used to tariffs impacting the cost of living for more than year now, so what will change now?",
+            "pub_date": "2026-09-08T12:16:30+00:00"
           },
           {
             "title": "The firms turning recruitment into X Factor-style competitions",
