@@ -44,7 +44,15 @@ data/raw/
 
 # Unrelated root screenshots / temp
 /screenshot.png
+/screenshot.png.jpg
+/img*.jpg
 /구매내역관리.png
 /재고조회기.png
 /창고*.png
 /temp_cats.txt
+
+# Business documents (sensitive — do not commit)
+/사업자등록증명*.pdf
+
+# 앱인토스 미니앱 빌드 산출물
+/hometown-today/hometown-today.ait

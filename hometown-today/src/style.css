@@ -1,0 +1,319 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic",
+    "맑은 고딕", sans-serif;
+  color: #191f28;
+  color-scheme: light;
+  background: #f2f4f6;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  padding: 16px;
+  background: #f2f4f6;
+}
+
+@media (min-width: 481px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: #e5e8eb;
+  }
+  #app {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+.briefing {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.briefing-header {
+  padding: 8px 4px 4px;
+}
+
+.briefing-date {
+  font-size: 13px;
+  color: #6b7684;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.briefing-region {
+  font-size: 22px;
+  font-weight: 800;
+  color: #191f28;
+  letter-spacing: -0.3px;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.card-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #4e5968;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  letter-spacing: -0.2px;
+}
+
+.card-emoji {
+  font-size: 15px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ── 날씨 카드 ── */
+.weather-hero {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.weather-temp {
+  font-size: 44px;
+  font-weight: 800;
+  color: #191f28;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.weather-temp .deg {
+  font-size: 28px;
+  font-weight: 700;
+  vertical-align: top;
+}
+
+.weather-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.weather-cond {
+  font-size: 16px;
+  font-weight: 600;
+  color: #191f28;
+}
+
+.weather-range {
+  font-size: 13px;
+  color: #6b7684;
+}
+
+.weather-umbrella {
+  margin-top: 12px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.umbrella-essential {
+  background: #fff3f3;
+  color: #d62b3d;
+}
+
+.umbrella-recommended {
+  background: #eff5ff;
+  color: #2272eb;
+}
+
+.umbrella-optional {
+  background: #f4f6f8;
+  color: #4e5968;
+}
+
+.weather-forecast {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #eef0f2;
+}
+
+.forecast-day {
+  text-align: center;
+  padding: 4px 0;
+}
+
+.forecast-date {
+  font-size: 11px;
+  color: #6b7684;
+  margin-bottom: 4px;
+}
+
+.forecast-cond {
+  font-size: 13px;
+  font-weight: 600;
+  color: #191f28;
+  margin-bottom: 2px;
+}
+
+.forecast-range {
+  font-size: 11px;
+  color: #8b95a1;
+}
+
+/* ── 정책 카드 ── */
+.youth-item {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #f9fafb;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.youth-item:active {
+  background: #f2f4f6;
+  transform: scale(0.99);
+}
+
+.youth-status {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.status-closing_soon {
+  background: #fff3f3;
+  color: #d62b3d;
+}
+
+.status-active {
+  background: #eff5ff;
+  color: #2272eb;
+}
+
+.status-always {
+  background: #f4f6f8;
+  color: #4e5968;
+}
+
+.youth-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #191f28;
+  line-height: 1.4;
+  margin-bottom: 2px;
+}
+
+.youth-dept {
+  font-size: 11px;
+  color: #8b95a1;
+}
+
+/* ── 트렌드 카드 ── */
+.trend-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+}
+
+.trend-rank {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  background: #ff5c39;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.trend-item:nth-child(n + 4) .trend-rank {
+  background: #ffb0a0;
+}
+
+.trend-keyword {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+  color: #191f28;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.trend-traffic {
+  font-size: 11px;
+  color: #ff5c39;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* ── 상태 ── */
+.skeleton {
+  height: 20px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #f2f4f6 25%, #eef0f2 50%, #f2f4f6 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.skeleton-lg {
+  height: 60px;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.error,
+.empty {
+  font-size: 13px;
+  color: #8b95a1;
+  text-align: center;
+  padding: 12px;
+}
+
+.ad-slot {
+  width: 100%;
+  min-height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.briefing-footer {
+  font-size: 11px;
+  color: #8b95a1;
+  text-align: center;
+  padding: 8px 0 16px;
+}
