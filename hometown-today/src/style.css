@@ -197,6 +197,22 @@ body {
   transform: scale(0.99);
 }
 
+.youth-item-nolink {
+  cursor: default;
+  opacity: 0.75;
+}
+
+.youth-item-nolink:active {
+  background: #f9fafb;
+  transform: none;
+}
+
+.youth-hint {
+  margin-top: 4px;
+  font-size: 11px;
+  color: #b0b8c1;
+}
+
 .youth-status {
   display: inline-block;
   font-size: 11px;
@@ -239,7 +255,15 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 6px 0;
+  padding: 8px 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.trend-item:active {
+  background: #f9fafb;
+  transform: scale(0.99);
 }
 
 .trend-rank {
