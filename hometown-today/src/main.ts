@@ -156,13 +156,18 @@ async function loadYouth() {
       return;
     }
     body.innerHTML = picks
-      .map(({ policy, status }) => `
-        <div class="youth-item" data-url="${escapeAttr(policy.apply_url)}">
+      .map(({ policy, status }) => {
+        const url = sanitizeUrl(policy.apply_url);
+        const cls = url ? "youth-item" : "youth-item youth-item-nolink";
+        const hint = url ? "" : `<div class="youth-hint">신청 링크 없음 · 원문 확인 필요</div>`;
+        return `
+        <div class="${cls}" data-url="${escapeAttr(url ?? "")}">
           <div class="youth-status status-${status.kind}">${status.label}</div>
           <div class="youth-name">${escapeHtml(policy.name)}</div>
           <div class="youth-dept">${escapeHtml(policy.department)}</div>
-        </div>
-      `).join("");
+          ${hint}
+        </div>`;
+      }).join("");
     body.querySelectorAll<HTMLElement>(".youth-item").forEach((el) => {
       el.addEventListener("click", () => {
         const url = el.dataset.url;
@@ -173,6 +178,31 @@ async function loadYouth() {
     body.innerHTML = `<div class="error">정책 데이터를 불러오지 못했어요.</div>`;
     console.error(e);
   }
+}
+
+/**
+ * 공공API가 반환하는 apply_url 정제:
+ * - HTML entity(&amp; 등) 디코드 — 원본에 그대로 남아있는 경우 흔함
+ * - 공백/개행 제거 후 첫 URL만 사용 (콤마·공백 구분 다중 URL 케이스)
+ * - 스킴 없으면 https:// 추가
+ * - 빈 값·잘못된 값은 null
+ */
+function sanitizeUrl(raw: string | undefined | null): string | null {
+  if (!raw) return null;
+  const trimmed = String(raw).trim();
+  if (!trimmed) return null;
+  const decoded = trimmed
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'");
+  const first = decoded.split(/[\s,]+/).find(Boolean);
+  if (!first) return null;
+  if (/^https?:\/\//i.test(first)) return first;
+  // 도메인 형태면 https:// 자동 부착
+  if (/^[\w.-]+\.[a-z]{2,}/i.test(first)) return `https://${first}`;
+  return null;
 }
 
 async function loadTrends() {
@@ -187,12 +217,19 @@ async function loadTrends() {
     }
     body.innerHTML = trends
       .map((t) => `
-        <div class="trend-item">
+        <div class="trend-item" data-keyword="${escapeAttr(t.keyword)}">
           <span class="trend-rank">${t.rank}</span>
           <span class="trend-keyword">${escapeHtml(t.keyword)}</span>
           ${t.traffic ? `<span class="trend-traffic">${escapeHtml(t.traffic)}</span>` : ""}
         </div>
       `).join("");
+    // 각 검색어 클릭 → Google 검색 새 창 열기
+    body.querySelectorAll<HTMLElement>(".trend-item").forEach((el) => {
+      el.addEventListener("click", () => {
+        const kw = el.dataset.keyword;
+        if (kw) openExternal(`https://www.google.com/search?q=${encodeURIComponent(kw)}`);
+      });
+    });
   } catch (e) {
     body.innerHTML = `<div class="error">트렌드 데이터를 불러오지 못했어요.</div>`;
     console.error(e);
