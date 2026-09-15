@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-15T06:01:20.883069+00:00",
+  "fetched_at": "2026-09-15T07:01:24.406571+00:00",
   "data": {
     "country_code": "us",
     "country_name": "미국",
@@ -7,6 +7,52 @@
     "google_trends": [
       {
         "rank": 1,
+        "keyword": "technology news",
+        "traffic": "5000+",
+        "pub_date": "2026-09-15T06:30:00+00:00",
+        "articles": [
+          {
+            "title": "China’s Top Spy Chief Warns A.I. Is a Threat to Party Rule",
+            "url": "https://www.nytimes.com/2026/09/14/world/asia/china-ai-security-risks-anthropic.html",
+            "source": "The New York Times"
+          },
+          {
+            "title": "How China is preparing for the risk of AI escaping human control",
+            "url": "https://www.reuters.com/legal/litigation/how-china-is-preparing-risk-ai-escaping-human-control-2026-09-14/",
+            "source": "Reuters"
+          },
+          {
+            "title": "China Rejects AI ‘Fearmongering’ After Amodei Urges Slowdown",
+            "url": "https://finance.yahoo.com/technology/ai/articles/china-rejects-ai-fearmongering-amodei-073946398.html",
+            "source": "Yahoo Finance"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "keyword": "latest news",
+        "traffic": "1000+",
+        "pub_date": "2026-09-15T06:20:00+00:00",
+        "articles": [
+          {
+            "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+            "url": "https://www.bbc.com/news/articles/cy5zg41dkqwo",
+            "source": "BBC"
+          },
+          {
+            "title": "Putin’s plan to paralyse Ukraine",
+            "url": "https://www.telegraph.co.uk/world-news/2026/09/15/putins-plan-paralyse-ukraine/",
+            "source": "The Telegraph"
+          },
+          {
+            "title": "Russian Offensive Campaign Assessment, September 13, 2026",
+            "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-september-13-2026/",
+            "source": "Institute for the Study of War"
+          }
+        ]
+      },
+      {
+        "rank": 3,
         "keyword": "kurt warner",
         "traffic": "200+",
         "pub_date": "2026-09-15T05:20:00+00:00",
@@ -29,7 +75,7 @@
         ]
       },
       {
-        "rank": 2,
+        "rank": 4,
         "keyword": "tennis scores today",
         "traffic": "1000+",
         "pub_date": "2026-09-15T05:10:00+00:00",
@@ -45,14 +91,37 @@
             "source": "Defector"
           },
           {
-            "title": "All the celebrities at the US Open finals: Brad Pitt, Martha Stewart, Courteney Cox and more",
-            "url": "https://pagesix.com/2026/09/13/photos/all-the-celebrities-at-the-us-open-finals-brad-pitt-martha-stewart-courteney-cox-and-more/",
-            "source": "Page Six"
+            "title": "Shots, Nuggets, and Nerves: Watching the US Open Final with the Knicks",
+            "url": "https://www.esquire.com/sports/a73719767/knicks-ben-shelton-us-open/",
+            "source": "Esquire"
           }
         ]
       },
       {
-        "rank": 3,
+        "rank": 5,
+        "keyword": "cryptocurrency trading",
+        "traffic": "1000+",
+        "pub_date": "2026-09-15T05:00:00+00:00",
+        "articles": [
+          {
+            "title": "Coinbase to Drop Eight Crypto Trading Pairs",
+            "url": "https://u.today/coinbase-to-drop-eight-crypto-trading-pairs",
+            "source": "U.Today"
+          },
+          {
+            "title": "[14 September 2026] Volume Comeback: Exchange Trading Volume Spikes Into The Bull Phase",
+            "url": "https://cryptoquant.com/insights/research/6aa7aaca26ed15760f9ca834-14-September-2026-Volume-Comeback-Exchange-Trading-Volume-Spikes-Into-The-Bull-P?utm_source=twitter&utm_medium=sns&utm_campaign=research&utm_content=special-crypto-report",
+            "source": "CryptoQuant"
+          },
+          {
+            "title": "Bitcoin Spot, Perpetual Futures Volumes Hit Multi-Month High, Signaling Shift to Early Bull Phase",
+            "url": "https://en.bloomingbit.io/feed/news/120340",
+            "source": "bloomingbit"
+          }
+        ]
+      },
+      {
+        "rank": 6,
         "keyword": "what is a data breach",
         "traffic": "1000+",
         "pub_date": "2026-09-15T05:00:00+00:00",
@@ -75,30 +144,7 @@
         ]
       },
       {
-        "rank": 4,
-        "keyword": "cryptocurrency trading",
-        "traffic": "500+",
-        "pub_date": "2026-09-15T05:00:00+00:00",
-        "articles": [
-          {
-            "title": "Fly Brain Connectome Used To Trade Stocks And Play Games",
-            "url": "https://hackaday.com/2026/09/14/fly-brain-connectome-used-to-trade-stocks-and-play-games/",
-            "source": "Hackaday"
-          },
-          {
-            "title": "Engineer turns simulated fly brain into a crypto day trader, posts downloadable sim to GitHub — 166,700 virtual neurons read candlestick charts for dopamine hits",
-            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/engineer-turns-simulated-fly-brain-into-a-crypto-day-trader-posts-downloadable-sim-to-github-166-700-virtual-neurons-read-candlestick-charts-for-dopamine-hits",
-            "source": "Tom's Hardware"
-          },
-          {
-            "title": "An attempt to perform cryptocurrency day trading using 166,700 virtual neurons based on the brain of a fly.",
-            "url": "https://gigazine.net/gsc_news/en/20260914-stonkfly-malecns-v1-0-crypto/",
-            "source": "GIGAZINE"
-          }
-        ]
-      },
-      {
-        "rank": 5,
+        "rank": 7,
         "keyword": "artificial intelligence news",
         "traffic": "2000+",
         "pub_date": "2026-09-15T05:00:00+00:00",
@@ -109,19 +155,19 @@
             "source": "NBC News"
           },
           {
-            "title": "Wade: AI Bosses ‘Genuinely Worried’",
-            "url": "https://www.bloomberg.com/news/videos/2026-09-15/wade-ai-bosses-genuinely-worried-video?srnd=phx-economics-v2",
-            "source": "Bloomberg.com"
+            "title": "Trump facing AI backlash in Congress as push for guardrails intensifies",
+            "url": "https://www.theguardian.com/technology/2026/sep/15/trump-ai-guardrails-democrats-republicans",
+            "source": "The Guardian"
           },
           {
-            "title": "CNBC Daily Open: Beware AI naysayers, the 'Hoax Buster' is here",
-            "url": "https://www.cnbc.com/2026/09/15/cnbc-daily-open-ai-trump-hoax-buster-nvidia.html",
-            "source": "CNBC"
+            "title": "Nvidia’s Jensen Huang Gets Onstage Call From Trump, Who Dismissed A.I. Safety Concerns",
+            "url": "https://www.nytimes.com/2026/09/14/technology/trump-ai-safety-jensen-huang.html",
+            "source": "The New York Times"
           }
         ]
       },
       {
-        "rank": 6,
+        "rank": 8,
         "keyword": "latest iphone rumors",
         "traffic": "1000+",
         "pub_date": "2026-09-15T04:50:00+00:00",
@@ -144,7 +190,7 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 9,
         "keyword": "nfl schedule this week",
         "traffic": "1000+",
         "pub_date": "2026-09-15T04:50:00+00:00",
@@ -167,71 +213,25 @@
         ]
       },
       {
-        "rank": 8,
+        "rank": 10,
         "keyword": "netflix top movies right now",
         "traffic": "1000+",
         "pub_date": "2026-09-15T04:50:00+00:00",
         "articles": [
           {
-            "title": "The Best Movies to Watch on Netflix Right Now (Sept. 11-18, 2026)",
-            "url": "https://www.pcmag.com/news/best-movies-to-watch-on-netflix-right-now-sept-11-18-2026",
-            "source": "PCMag"
+            "title": "3 Best all-new Netflix and Prime Video additions for a mid-week binge (Sep 14-18)",
+            "url": "https://www.yahoo.com/entertainment/tv/articles/3-best-netflix-prime-video-170000693.html",
+            "source": "Yahoo"
           },
           {
-            "title": "Netflix’s New Divisive Thriller Is the Most-Popular Movie on IMDb This Week",
-            "url": "https://www.comicbasics.com/netflixs-new-divisive-thriller-is-the-most-popular-movie-on-imdb-this-week/",
-            "source": "Comic Basics"
+            "title": "Pick A Film For Every Other Letter, And We'll Reveal Your Perfect Netflix Watch This Month",
+            "url": "https://www.buzzfeed.com/alanna_marshall/what-to-watch-new-netflix-movie-quiz-september-2026",
+            "source": "BuzzFeed"
           },
           {
-            "title": "3 Perfect Movies Taking Over Netflix This Week (#1 Is a Taylor Sheridan Thriller)",
-            "url": "https://collider.com/best-netflix-movies-watch-september-14-2026/",
-            "source": "Collider"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "keyword": "stock market news today",
-        "traffic": "5000+",
-        "pub_date": "2026-09-15T04:50:00+00:00",
-        "articles": [
-          {
-            "title": "10-year Treasury yield rises to highest since 2007",
-            "url": "https://www.cnbc.com/2026/09/15/10-year-treasury-yield-rises-to-highest-since-2007.html",
-            "source": "CNBC"
-          },
-          {
-            "title": "US 10-Year Treasury Yields Rise to Highest Level Since 2007",
-            "url": "https://www.bloomberg.com/news/articles/2026-09-15/us-10-year-treasury-yields-rise-to-highest-level-since-2007",
-            "source": "Bloomberg.com"
-          },
-          {
-            "title": "Spike on 10-year bond yields renews concerns over U.S. debt",
-            "url": "https://www.washingtonpost.com/business/2026/09/14/spike-10-year-bond-yields-renews-concerns-over-us-debt/",
-            "source": "The Washington Post"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "keyword": "kaia gerber",
-        "traffic": "1000+",
-        "pub_date": "2026-09-15T04:50:00+00:00",
-        "articles": [
-          {
-            "title": "Kaia Gerber’s Collection for Re/Done Was Inspired by Librarians and Jane Birkin",
-            "url": "https://www.vogue.com/article/kaia-gerber-redone-jeans-collection",
-            "source": "Vogue"
-          },
-          {
-            "title": "Kaia Gerber Poses Pantless Under an Unbuttoned Jacket for RE/DONE",
-            "url": "https://www.thefashionspot.com/fashion-news/971291-kaia-gerber-pantless-unbuttoned-jacket-redone-campaign/",
-            "source": "theFashionSpot"
-          },
-          {
-            "title": "Kaia Gerber designs her first capsule collection for Re/Done, blending '90s aesthetics with literary influences",
-            "url": "https://whoopsee.it/en/kaia-gerber-designs-her-first-capsule-collection-for-re-done-blending-90s-aesthetics-with-literary-influences/",
-            "source": "Whoopsee"
+            "title": "5 best new Netflix movies and shows to stream this week (Sept. 14-20)",
+            "url": "https://www.tomsguide.com/entertainment/netflix/5-best-new-netflix-movies-and-shows-to-stream-this-week-sept-14-20-2026",
+            "source": "Tom's Guide"
           }
         ]
       }
@@ -244,8 +244,8 @@
         "channel": "Epitaph Records",
         "thumbnail": "https://i.ytimg.com/vi/Tk9TM7-eTmw/mqdefault.jpg",
         "published_at": "2026-09-14T17:00:05Z",
-        "view_count": 1424384,
-        "like_count": 138881
+        "view_count": 1502595,
+        "like_count": 144664
       },
       {
         "rank": 2,
@@ -254,8 +254,8 @@
         "channel": "Transformers: Rise of Unicron",
         "thumbnail": "https://i.ytimg.com/vi/pvm5gvobL5w/mqdefault.jpg",
         "published_at": "2026-09-14T23:00:06Z",
-        "view_count": 800996,
-        "like_count": 28052
+        "view_count": 1033525,
+        "like_count": 32003
       },
       {
         "rank": 3,
@@ -264,8 +264,8 @@
         "channel": "Linus Tech Tips",
         "thumbnail": "https://i.ytimg.com/vi/3PGKMwgjla0/mqdefault.jpg",
         "published_at": "2026-09-14T17:00:09Z",
-        "view_count": 2084289,
-        "like_count": 44417
+        "view_count": 2162015,
+        "like_count": 45596
       },
       {
         "rank": 4,
@@ -274,8 +274,8 @@
         "channel": "LandonBarkerVEVO",
         "thumbnail": "https://i.ytimg.com/vi/pcKNqPP0C9o/mqdefault.jpg",
         "published_at": "2026-09-14T18:58:11Z",
-        "view_count": 131842,
-        "like_count": 4771
+        "view_count": 138457,
+        "like_count": 4839
       },
       {
         "rank": 5,
@@ -284,18 +284,18 @@
         "channel": "Emergency Awesome",
         "thumbnail": "https://i.ytimg.com/vi/ZBgghO3V5k8/mqdefault.jpg",
         "published_at": "2026-09-14T19:30:34Z",
-        "view_count": 342530,
-        "like_count": 4528
+        "view_count": 361462,
+        "like_count": 4667
       },
       {
         "rank": 6,
-        "video_id": "EVdp0NNVUoU",
-        "title": "MARVEL'S WOLVERINE Walkthrough Gameplay Part 1 - INTRO (FULL GAME)",
-        "channel": "theRadBrad",
-        "thumbnail": "https://i.ytimg.com/vi/EVdp0NNVUoU/mqdefault.jpg",
-        "published_at": "2026-09-14T12:00:38Z",
-        "view_count": 1040403,
-        "like_count": 31196
+        "video_id": "w2kKhfb3N3M",
+        "title": "That’s Not My Dad…",
+        "channel": "CaseOh",
+        "thumbnail": "https://i.ytimg.com/vi/w2kKhfb3N3M/mqdefault.jpg",
+        "published_at": "2026-09-14T22:00:23Z",
+        "view_count": 319647,
+        "like_count": 9668
       },
       {
         "rank": 7,
@@ -304,8 +304,8 @@
         "channel": "YFG Fatso",
         "thumbnail": "https://i.ytimg.com/vi/g4h_MHkBpts/mqdefault.jpg",
         "published_at": "2026-09-14T19:19:52Z",
-        "view_count": 183495,
-        "like_count": 12078
+        "view_count": 194379,
+        "like_count": 12451
       },
       {
         "rank": 8,
@@ -314,18 +314,18 @@
         "channel": "TLC",
         "thumbnail": "https://i.ytimg.com/vi/cC5w6xRtogY/mqdefault.jpg",
         "published_at": "2026-09-14T13:41:26Z",
-        "view_count": 172728,
-        "like_count": 673
+        "view_count": 177424,
+        "like_count": 677
       },
       {
         "rank": 9,
-        "video_id": "w2kKhfb3N3M",
-        "title": "That’s Not My Dad…",
-        "channel": "CaseOh",
-        "thumbnail": "https://i.ytimg.com/vi/w2kKhfb3N3M/mqdefault.jpg",
-        "published_at": "2026-09-14T22:00:23Z",
-        "view_count": 290378,
-        "like_count": 9191
+        "video_id": "EVdp0NNVUoU",
+        "title": "MARVEL'S WOLVERINE Walkthrough Gameplay Part 1 - INTRO (FULL GAME)",
+        "channel": "theRadBrad",
+        "thumbnail": "https://i.ytimg.com/vi/EVdp0NNVUoU/mqdefault.jpg",
+        "published_at": "2026-09-14T12:00:38Z",
+        "view_count": 1080805,
+        "like_count": 31983
       },
       {
         "rank": 10,
@@ -334,78 +334,78 @@
         "channel": "JG Music",
         "thumbnail": "https://i.ytimg.com/vi/sFSwQn0J1po/mqdefault.jpg",
         "published_at": "2026-09-15T00:00:13Z",
-        "view_count": 94027,
-        "like_count": 24755
+        "view_count": 109940,
+        "like_count": 25648
       },
       {
         "rank": 11,
-        "video_id": "In6TZp4w1vs",
-        "title": "Todd DROPS Kandi Bombshell, Martell REVEALS Arionne + RHOP Trailer SHOCKER!",
-        "channel": "Carlos King",
-        "thumbnail": "https://i.ytimg.com/vi/In6TZp4w1vs/mqdefault.jpg",
-        "published_at": "2026-09-15T01:33:50Z",
-        "view_count": 49093,
-        "like_count": 1560
-      },
-      {
-        "rank": 12,
-        "video_id": "UjjRGyre3RY",
-        "title": "Hermitcraft 11: Episode 27 - DECKED OUT RETURNS!",
-        "channel": "Grian",
-        "thumbnail": "https://i.ytimg.com/vi/UjjRGyre3RY/mqdefault.jpg",
-        "published_at": "2026-09-14T16:00:25Z",
-        "view_count": 706823,
-        "like_count": 39083
-      },
-      {
-        "rank": 13,
-        "video_id": "lKVZKG7CcMU",
-        "title": "Joseph",
-        "channel": "Falling in Reverse - Topic",
-        "thumbnail": "https://i.ytimg.com/vi/lKVZKG7CcMU/mqdefault.jpg",
-        "published_at": "2026-08-30T10:00:15Z",
-        "view_count": 103515,
-        "like_count": 17019
-      },
-      {
-        "rank": 14,
         "video_id": "Rs49eRHFD9c",
         "title": "Crystal Lake | Official Trailer | Peacock Original",
         "channel": "Peacock",
         "thumbnail": "https://i.ytimg.com/vi/Rs49eRHFD9c/mqdefault.jpg",
         "published_at": "2026-09-13T15:30:10Z",
-        "view_count": 2987300,
-        "like_count": 35481
+        "view_count": 3111632,
+        "like_count": 35682
       },
       {
-        "rank": 15,
+        "rank": 12,
         "video_id": "EWi-DheUQs4",
         "title": "These Pigs Are RICH [Bills Must Be Paid]",
         "channel": "Joe Bart Games",
         "thumbnail": "https://i.ytimg.com/vi/EWi-DheUQs4/mqdefault.jpg",
         "published_at": "2026-09-14T16:01:47Z",
-        "view_count": 415442,
-        "like_count": 9245
+        "view_count": 435927,
+        "like_count": 9487
       },
       {
-        "rank": 16,
-        "video_id": "0-M2biA6lMw",
-        "title": "Billionaire Black - Indiana Pt. 4 (Blood Hound Q50 Diss |) | Shot by @Almightyvisualss ",
-        "channel": "The Official Billionaire Black",
-        "thumbnail": "https://i.ytimg.com/vi/0-M2biA6lMw/mqdefault.jpg",
-        "published_at": "2026-09-14T21:44:07Z",
-        "view_count": 52694,
-        "like_count": 3971
+        "rank": 13,
+        "video_id": "RcU67qwHf4w",
+        "title": "Saii Kay, Dabz Wills - Maris Talaigu (Official Music Video)",
+        "channel": "SaiiKayVEVO",
+        "thumbnail": "https://i.ytimg.com/vi/RcU67qwHf4w/mqdefault.jpg",
+        "published_at": "2026-09-09T07:00:06Z",
+        "view_count": 81218,
+        "like_count": 1959
       },
       {
-        "rank": 17,
+        "rank": 14,
         "video_id": "pP1GlQ4bMX0",
         "title": "LANTERNS Episode 6 Trailer BREAKDOWN",
         "channel": "ScreenCrush",
         "thumbnail": "https://i.ytimg.com/vi/pP1GlQ4bMX0/mqdefault.jpg",
         "published_at": "2026-09-14T21:00:46Z",
-        "view_count": 138152,
-        "like_count": 2557
+        "view_count": 149827,
+        "like_count": 2675
+      },
+      {
+        "rank": 15,
+        "video_id": "UjjRGyre3RY",
+        "title": "Hermitcraft 11: Episode 27 - DECKED OUT RETURNS!",
+        "channel": "Grian",
+        "thumbnail": "https://i.ytimg.com/vi/UjjRGyre3RY/mqdefault.jpg",
+        "published_at": "2026-09-14T16:00:25Z",
+        "view_count": 724099,
+        "like_count": 39875
+      },
+      {
+        "rank": 16,
+        "video_id": "lKVZKG7CcMU",
+        "title": "Joseph",
+        "channel": "Falling in Reverse - Topic",
+        "thumbnail": "https://i.ytimg.com/vi/lKVZKG7CcMU/mqdefault.jpg",
+        "published_at": "2026-08-30T10:00:15Z",
+        "view_count": 109759,
+        "like_count": 17896
+      },
+      {
+        "rank": 17,
+        "video_id": "L1gvaBYKFy8",
+        "title": "Fire Emblem: Fortune’s Weave — Overview Trailer — Nintendo Switch 2",
+        "channel": "Nintendo of America",
+        "thumbnail": "https://i.ytimg.com/vi/L1gvaBYKFy8/mqdefault.jpg",
+        "published_at": "2026-09-14T16:00:20Z",
+        "view_count": 414430,
+        "like_count": 8292
       },
       {
         "rank": 18,
@@ -414,28 +414,28 @@
         "channel": "Asmongold TV  ",
         "thumbnail": "https://i.ytimg.com/vi/ZKBGQBUAYhU/mqdefault.jpg",
         "published_at": "2026-09-14T11:55:52Z",
-        "view_count": 1338096,
-        "like_count": 28011
+        "view_count": 1356093,
+        "like_count": 28182
       },
       {
         "rank": 19,
-        "video_id": "RcU67qwHf4w",
-        "title": "Saii Kay, Dabz Wills - Maris Talaigu (Official Music Video)",
-        "channel": "SaiiKayVEVO",
-        "thumbnail": "https://i.ytimg.com/vi/RcU67qwHf4w/mqdefault.jpg",
-        "published_at": "2026-09-09T07:00:06Z",
-        "view_count": 80711,
-        "like_count": 1949
+        "video_id": "0-M2biA6lMw",
+        "title": "Billionaire Black - Indiana Pt. 4 (Blood Hound Q50 Diss |) | Shot by @Almightyvisualss ",
+        "channel": "The Official Billionaire Black",
+        "thumbnail": "https://i.ytimg.com/vi/0-M2biA6lMw/mqdefault.jpg",
+        "published_at": "2026-09-14T21:44:07Z",
+        "view_count": 56962,
+        "like_count": 4167
       },
       {
         "rank": 20,
-        "video_id": "L1gvaBYKFy8",
-        "title": "Fire Emblem: Fortune’s Weave — Overview Trailer — Nintendo Switch 2",
-        "channel": "Nintendo of America",
-        "thumbnail": "https://i.ytimg.com/vi/L1gvaBYKFy8/mqdefault.jpg",
-        "published_at": "2026-09-14T16:00:20Z",
-        "view_count": 406205,
-        "like_count": 8195
+        "video_id": "vs167N5eNao",
+        "title": "PAC-MAN: Snack Breaks | Fortnite x PAC-MAN Trailer",
+        "channel": "PAC-MAN Official ",
+        "thumbnail": "https://i.ytimg.com/vi/vs167N5eNao/mqdefault.jpg",
+        "published_at": "2026-09-14T18:00:10Z",
+        "view_count": 281724,
+        "like_count": 10312
       },
       {
         "rank": 21,
@@ -444,28 +444,28 @@
         "channel": "Cash",
         "thumbnail": "https://i.ytimg.com/vi/xsvMDcoQbgw/mqdefault.jpg",
         "published_at": "2026-09-14T15:00:04Z",
-        "view_count": 530241,
-        "like_count": 5637
+        "view_count": 545747,
+        "like_count": 5763
       },
       {
         "rank": 22,
-        "video_id": "RHAJcCPB9Yo",
-        "title": "Ganesh Chaturthi 2026 Special Jukebox | Super Hit Telugu Ganesh Songs | Vinayaka Chavithi Songs",
-        "channel": "Aditya Bhakthi",
-        "thumbnail": "https://i.ytimg.com/vi/RHAJcCPB9Yo/mqdefault.jpg",
-        "published_at": "2026-09-14T00:15:33Z",
-        "view_count": 1961107,
-        "like_count": 5243
+        "video_id": "yWNPxS0sXnE",
+        "title": "Ramayana: Jai Jai Ram (Song) | Namit M, Nitesh T | Ranbir, Yash | AR Rahman, Shreya, Arijit S, Kumar",
+        "channel": "T-Series",
+        "thumbnail": "https://i.ytimg.com/vi/yWNPxS0sXnE/mqdefault.jpg",
+        "published_at": "2026-09-14T04:51:55Z",
+        "view_count": 17314804,
+        "like_count": 383042
       },
       {
         "rank": 23,
-        "video_id": "vs167N5eNao",
-        "title": "PAC-MAN: Snack Breaks | Fortnite x PAC-MAN Trailer",
-        "channel": "PAC-MAN Official ",
-        "thumbnail": "https://i.ytimg.com/vi/vs167N5eNao/mqdefault.jpg",
-        "published_at": "2026-09-14T18:00:10Z",
-        "view_count": 272383,
-        "like_count": 10133
+        "video_id": "cwVE1qf6Ixs",
+        "title": "Mr. Irrelevant | Official Trailer (2026 Movie) - David Corenswet, Isabel May",
+        "channel": "Paramount Pictures",
+        "thumbnail": "https://i.ytimg.com/vi/cwVE1qf6Ixs/mqdefault.jpg",
+        "published_at": "2026-09-13T15:00:05Z",
+        "view_count": 7813613,
+        "like_count": 16365
       },
       {
         "rank": 24,
@@ -474,18 +474,18 @@
         "channel": "Gamers Nexus",
         "thumbnail": "https://i.ytimg.com/vi/vcerOYY_K1g/mqdefault.jpg",
         "published_at": "2026-09-14T17:00:04Z",
-        "view_count": 624114,
-        "like_count": 17852
+        "view_count": 642468,
+        "like_count": 18292
       },
       {
         "rank": 25,
-        "video_id": "yWNPxS0sXnE",
-        "title": "Ramayana: Jai Jai Ram (Song) | Namit M, Nitesh T | Ranbir, Yash | AR Rahman, Shreya, Arijit S, Kumar",
-        "channel": "T-Series",
-        "thumbnail": "https://i.ytimg.com/vi/yWNPxS0sXnE/mqdefault.jpg",
-        "published_at": "2026-09-14T04:51:55Z",
-        "view_count": 16952858,
-        "like_count": 377093
+        "video_id": "RHAJcCPB9Yo",
+        "title": "Ganesh Chaturthi 2026 Special Jukebox | Super Hit Telugu Ganesh Songs | Vinayaka Chavithi Songs",
+        "channel": "Aditya Bhakthi",
+        "thumbnail": "https://i.ytimg.com/vi/RHAJcCPB9Yo/mqdefault.jpg",
+        "published_at": "2026-09-14T00:15:33Z",
+        "view_count": 1980207,
+        "like_count": 5269
       }
     ],
     "google_news": {
@@ -493,58 +493,44 @@
         {
           "title": "Supreme Court blocks sweeping mail ballot restrictions for midterm elections",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNElldjY4ZVRKV3lPdk51YzFScVRtUGNiM01fNk8zdV9kT1Z0OEl4d0t0QllSVHFvQXRNZkxMZlU1b2tjVTAtN0Fkek9RaVRCdWlRRG9BdDBmdUJyT01rbzd4RDU1bmxVd1VmVkZ5SEllQTl4R05ZNXg3MWs1bGlFNzFMZUJlTjVIbVNvdXpaWDNRckNacFlHREhNcXVJWGJmOG9ZOUtBejNZY0wwVWtpdGxkVEkydEo5Q1hMMllJS1phQQ?oc=5",
-          "description": "Supreme Court blocks sweeping mail ballot restrictions for midterm elections  The Washington PostSupreme Court rejects Trump’s plan to limit mail-in voting in midterms  CNNTwo Conservative Justices Wo",
+          "description": "Supreme Court blocks sweeping mail ballot restrictions for midterm elections  The Washington PostSupreme Court Blocks Trump Administration Plan to Screen Mail-In Ballots  The New York TimesSupreme Cou",
           "publisher": "The Washington Post",
-          "pub_date": "2026-09-15T03:09:34+00:00"
+          "pub_date": "2026-09-15T03:00:15+00:00"
         },
         {
-          "title": "Mitch McConnell returns to Senate after months-long absence",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUWtoTWJqTE1uREhuRnhrZkVpUlN2LU5kb0VDWUJVeVNuRVI3R2xGd25iOTdDZzZXOHhUcmFtd3hWbTB5WTBfQm1tY2hRV1BGdkMySXViMFZILUdlYTlMbUVUVk1yWHhxLU0yTEJkRWZXRHRaY0xvWU1Nc0JVb2JGQTc5SQ?oc=5",
-          "description": "Mitch McConnell returns to Senate after months-long absence  The GuardianMitch McConnell Returns to Senate After Three Month Absence  The New York TimesMitch McConnell returns to the Senate after thre",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-14T22:23:00+00:00"
+          "title": "Trump calls Nvidia CEO Jensen Huang during summit, dismisses AI fears as 'hoax'",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVkU4djhYWHladGZiY0N6amVYeHA5RmVsTTJ2NFZoRThpaUhaMjhXTElKQUVoMzlZTUtxYXRnLV80Zmp3NlNvNVB5TngtUmdveS1tVjVLZ2phblF5d050RnFnQWdhdmVBTWt2VlJ2N0Y5V05qN2Q1elJQdTgzMDNmUzNXNkhza3hHaUtySWwxb25raDBsTXc4dWg5NkpnTGtXQlg5eDZMOXhLenVGbzM5ekJ30gG3AUFVX3lxTE1WN2tTRGx1Tnp3N0xULUdhUFBmUTJIUjA0cEJ1a1ROd09GTU1hdExMeXg4a1NTU2pFZDdpeC1ucS1HYkphRFlhWjR1aUhyel9QWTRsVDU4UXhUb3BwOExkLUVMUnlNNXdwb2M5dUVxbUZLbllqVjdDQXRnQjRUTEk2WVZrc1JHWG9oRDR1QWo4X0dnQTZGZWFtSFd2TC1SYkJ3MlN0LVBKT3NJTkZQZm9KR1U3R01XZw?oc=5",
+          "description": "Trump calls Nvidia CEO Jensen Huang during summit, dismisses AI fears as 'hoax'  Fox BusinessTrump calls Nvidia CEO to talk AI — and gets put on speakerphone during industry summit  NBC NewsTrump faci",
+          "publisher": "Fox Business",
+          "pub_date": "2026-09-15T02:15:00+00:00"
         },
         {
-          "title": "Trump calls Nvidia CEO to talk AI — and gets put on speakerphone during industry summit",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQkF6Q0JLVjMyRkRmX2YxS3J3MlRGX2xGdzhDWTF2alBnQ19vSmhxNGJpTTZrcDZlOTV3VTJnN3BCOXkzYzduOGo0bmpIc09CZ1lGbzdmdkc1eVlrYUEwN1RDV1NWUGdqYzBTWlZqYUVHWjFMSEpoMnplbDhkYTkyeHhRb0tFU3V2MXVkLXc2alVVUGlXRnctRFpkTzNDLXhOWWJOYXpVM09vNF94UEFFbVBxeFE?oc=5",
-          "description": "Trump calls Nvidia CEO to talk AI — and gets put on speakerphone during industry summit  NBC NewsCNBC Daily Open: Beware AI naysayers, the 'Hoax Buster' is here  CNBC‘I am the Hoax Buster’: Trump take",
-          "publisher": "NBC News",
-          "pub_date": "2026-09-14T23:06:12+00:00"
-        },
-        {
-          "title": "Johnson teases White House meeting with AI executives ‘soon’",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObGNKWTFtSURBbDFZc2NMS2ttaXpud3l6ZEJLX2k3bVdydmFsekhVdUZ5MThyLUJ0dHVzazZQQUJwOXc3LUFYWUxZY2xZdllCdk9uOHQtakNBVlRNNWJiRzJrM0JtVE1TU0JuVGhFdHVaUEttbXA4Z1ZtY1d0SGlDUmxyZXFyWEFiekNwMEQ5cmRlMFpEenFBMllxS3c?oc=5",
-          "description": "Johnson teases White House meeting with AI executives ‘soon’  PoliticoA fateful turning point for humanity and AI could redefine American politics  edition.cnn.comDire warnings about AI shock Congress",
-          "publisher": "Politico",
-          "pub_date": "2026-09-14T18:14:23+00:00"
-        },
-        {
-          "title": "Donald Trump Jr and Bettina Trump say Putin ally paid for some wedding festivities as a 'gift'",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LZkUweGZBUjdHUW5XMi1pajN4UFgxVkZrR0dKRVQteHhqUF9fOTF3cWFpS1M2azZ5WGxVOEdMMU54OEVlR0UwcV9oaTYxbEZTcVZhYUlJOUcxMW8?oc=5",
-          "description": "Donald Trump Jr and Bettina Trump say Putin ally paid for some wedding festivities as a 'gift'  BBCDonald Trump Jr.’s Bahamas Wedding Was Secretly Bankrolled by Russian Oligarch Close to Putin  ProPub",
+          "title": "Mitch McConnell returns to Senate after three-month absence",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96b1hpdWJ3T2pNTzVKaS1UZVpXQ3I5WkhnV2dtVFY1UTBXOGFWMVJPU1kwck5sdXI2UEhWRExMUkF2OXRHbzRyLXRCWTV1cGI2VnJSX1lnUzhJa0k?oc=5",
+          "description": "Mitch McConnell returns to Senate after three-month absence  BBCRepublican Senator Mitch McConnell returns to US Senate three months after hospitalisation  news.sky.comSen. Mitch McConnell Returns to ",
           "publisher": "BBC",
-          "pub_date": "2026-09-14T22:56:44+00:00"
+          "pub_date": "2026-09-14T23:31:51+00:00"
         },
         {
-          "title": "Gavin Newsom Says He Won’t Run in 2028 if Kamala Harris Does",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeGxKdzgzNVFIRlZGNFJ3S1ZsN3A1VDZYdTlvUldiYXgzSGJaZFQtRTlVY3VnQmtpbnZ0dUg0SjZEQTRZTXhxWWZ2RzFNQUhWeTduWDRIU0tZUW5LZHg1WWdHS3JJRm96eF9GNDJqZlI1UUZDUXpWT3NsazhxSkxtODhzd2U4UXdjb2h3T0tDY05BUjB5eUU5ZQ?oc=5",
-          "description": "Gavin Newsom Says He Won’t Run in 2028 if Kamala Harris Does  The New York TimesExclusive: I won’t run against Kamala Harris, Gavin Newsom tells CNN | CNN Politics  CNNGavin Newsom says he will not ru",
+          "title": "Russian Businessman With Putin Ties Paid for Donald Trump Jr.’s Wedding Party",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ1pQeXloSHlCaXZOQno2NWRNWUxiY0s1TWpOSndhY0R4blQ3UVptSmhFLWQyQml6dFJHOGJqOFdvUGF6QWtiYXNPdU1zcmJPd1NfZzdIYUNlWVQ1MkNLMEdSaC02M0M1LWFoMlVLLTB4MmU2cEJRbVNkdmtPRG5iT1NpZE14RV9OVk9PVXpLVktZaTgybk1TX203bw?oc=5",
+          "description": "Russian Businessman With Putin Ties Paid for Donald Trump Jr.’s Wedding Party  The New York TimesDonald Trump Jr.’s Bahamas Wedding Was Secretly Bankrolled by Russian Oligarch Close to Putin  ProPubli",
           "publisher": "The New York Times",
-          "pub_date": "2026-09-14T22:28:03+00:00"
+          "pub_date": "2026-09-14T20:31:38+00:00"
         },
         {
-          "title": "‘Not too much they can do about it’: Frustrated White House faces spiking oil prices",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeDVOVkNXQ0kzZTBHSURLbl9aaDJ5TnhISEx3Vkl2MnE0SjQxVFJ1WTVpRTVOVFJ2ZGUxcTFlZ0MtZWNTS2J3TDZyOGZ5OGNkRHN6ZUg5akp5N3V6QzJ0SDdMOThZbE9WTWZnUUpXX2laMTRoNEdHcHhRUlRNSVFiYXEyRzZqODhHdVUwVzdkTUtEMUg3cmE3OGVhTW9Tdw?oc=5",
-          "description": "‘Not too much they can do about it’: Frustrated White House faces spiking oil prices  PoliticoGas Prices Could Cost Republicans the Midterms  The AtlanticHigh Prices Spoil Trump’s New Push to Save G.O",
-          "publisher": "Politico",
-          "pub_date": "2026-09-14T22:50:00+00:00"
+          "title": "As AI panic spreads among Americans, Congress is under pressure to act",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZnBMSFJUNEtESnE4MlZRREgtR3VhLUwyczZCazVDcTBtMDBMSDRVV3N1dV9pU2h4OE9HY0N0NGNxWUpYWUpKWjVZOHFYcm9yc2JVc2dVN0FMRmI1RFN0WXhhaU5UUkhwX2ROelg0SzVuUzdqdi1RRG1zaDlXQ0VDZjRfbENjeDlyLTZoMmdDMm1iMU05NVdvckRXVWN6S1dn?oc=5",
+          "description": "As AI panic spreads among Americans, Congress is under pressure to act  USA TodayA fateful turning point for humanity and AI could redefine American politics  CNNTech CEOs call for AI regulation. Trum",
+          "publisher": "USA Today",
+          "pub_date": "2026-09-14T22:05:00+00:00"
         },
         {
-          "title": "States, cities sue to block Trump immigration rule on public benefits",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONGk1MVlTS3ZZWUE1MTJ2bTNJeDZKQTV6X0ZPZVFxMXhzVEo4Y05KR0lVRHQ2Q0Q2YUsxUFdOM3pJUXRMaG9zRS1wZm9hLWZqQ0ZQdGgtYmJJRE03Yk4wZVp0ZDljcW5wWkw0c2lGOENpTXFfVEhvdTlyekNva1Vrb19lZDctRW1TQTJOOGlRVk9Mcl9sWkE0T1NscUx5aFNiTHdqOEFUMDdEQndUSER2ck1ib1JHdw?oc=5",
-          "description": "States, cities sue to block Trump immigration rule on public benefits  ReutersMamdani Sues Trump Administration Over New Immigration Rule  WSJStates and Cities Sue Over Trump’s Policy to Restrict Gree",
-          "publisher": "Reuters",
-          "pub_date": "2026-09-14T21:37:01+00:00"
+          "title": "Gavin Newsom says he won’t run for president in 2028 if Kamala Harris does",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUtKNGViRjVENFd2TWpGRkExcXAxMHEzenNyOUYtMUlkTzZMd1drZGVBYmZnQW9ha1BRUjVtalhXdFpxTTMtNTRQcXRzY2ZWdGVyYzlEY1k3aTZFTWMxOWhQS1NTRnplZzBXVXhJd0xKaG9GenZ1ZDNvaUhCNHZWMTB3cUV5ZEF1UVpfRE5Mc0RMRWx2RXFJLXJ4cnMyZFl0X1hOeDhn?oc=5",
+          "description": "Gavin Newsom says he won’t run for president in 2028 if Kamala Harris does  NBC NewsGavin Newsom says he will not run for president in 2028 if Kamala Harris does  The GuardianExclusive: I won’t run ag",
+          "publisher": "NBC News",
+          "pub_date": "2026-09-14T23:52:19+00:00"
         },
         {
           "title": "Trump’s EPA is ending one of the nation’s biggest climate protections",
@@ -556,42 +542,56 @@
         {
           "title": "Karl Rove will vote for Democrat over Bo French",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUFB2R0lBMmF0d04zTlVpWlNpNkNfc19TenZnNGpkb0hzVWNjQndwMi0yX2pVUlUxUk1KOEF1N19kTDVYOG5YSE5sVDA1d2d5Wkx3clk4aUNQWTZSSGpOR0RDRWdQR1RDdjRvZkR2cnd2ZUhpNlJDZUVONHdqVjUtTUhJUWhMT1NXOU9nVzhB?oc=5",
-          "description": "Karl Rove will vote for Democrat over Bo French  The Texas TribuneBo French doubles down after Texas Republicans condemn UT Austin student posts  KXAN AustinBo French doubles down on racist remarks af",
-          "publisher": "The Texas Tribune",
+          "description": "Karl Rove will vote for Democrat over Bo French  texastribune.orgBo French doubles down after Texas Republicans condemn UT Austin student posts  KXAN AustinBo French doubles down on racist remarks aft",
+          "publisher": "texastribune.org",
           "pub_date": "2026-09-15T01:29:08+00:00"
         },
         {
-          "title": "Saudi pipeline hit by drones will be out of service for weeks, further restricting oil flow",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTlTdWlFZF9mNl9uX3pCWHd0QXVWb0dEaXlGaXhLa3l4ek9PbWFhRG02VXJDMW1BT3FxUkp3MzZtdEd2ZHQ4cUswbkpfX1ZnVkxuQ3pValFrY1BTRHlyZjdaLXJqTW1VcXhzajBuSUFIbXdxamdqOTcxeFp2MERjcU9lQWVXaHhETnJweXZRdWp6UWNHQUxjdWc2NA?oc=5",
-          "description": "Saudi pipeline hit by drones will be out of service for weeks, further restricting oil flow  AP NewsSaudi Arabia Faces ‘Worst-Case Scenario’ After Iran’s Attacks and Trump’s Rebuffs  The New York Time",
-          "publisher": "AP News",
-          "pub_date": "2026-09-15T01:30:00+00:00"
-        },
-        {
-          "title": "Saudi civil defence says danger has passed in six cities including Yanbu",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTW44Q2VNT0ZLUS1feUlvTE90dTdwZ0NCVVhZY0RQeHBCRlItRGcwVldPaF9jTTdlcXJjSG1hdHNuN2FzdjZUMEtITnExdHZzYk5hR0RLdmZnRHZtRG1ubXdvZllyQXRzRjlpallqZlNJdWYzWHRLNXVtdk5lZDVMY3dnYWNaakJscW5fTVVzMkdrZEk4X253SFlwM05HblB5d21BSnh2UmpyMGxXeGRfbS0wRGZwN2Z0VXFvZTdTeHc?oc=5",
-          "description": "Saudi civil defence says danger has passed in six cities including Yanbu  ReutersHouthis strike Saudi targets anew as talks over Strait of Hormuz stall  ReutersHouthi attacks injure 13 civilians and K",
+          "title": "States, cities sue to block Trump immigration rule on public benefits",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONGk1MVlTS3ZZWUE1MTJ2bTNJeDZKQTV6X0ZPZVFxMXhzVEo4Y05KR0lVRHQ2Q0Q2YUsxUFdOM3pJUXRMaG9zRS1wZm9hLWZqQ0ZQdGgtYmJJRE03Yk4wZVp0ZDljcW5wWkw0c2lGOENpTXFfVEhvdTlyekNva1Vrb19lZDctRW1TQTJOOGlRVk9Mcl9sWkE0T1NscUx5aFNiTHdqOEFUMDdEQndUSER2ck1ib1JHdw?oc=5",
+          "description": "States, cities sue to block Trump immigration rule on public benefits  ReutersStates sue to stop Trump rule that would make it harder for some immigrants to get green cards  CNNStates and Cities Sue O",
           "publisher": "Reuters",
-          "pub_date": "2026-09-15T02:28:00+00:00"
+          "pub_date": "2026-09-14T21:37:01+00:00"
         },
         {
-          "title": "China tightens travel restrictions for citizens",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HN2R0OGJtZHhZNXdSNnZQNGtKcGgyTGpJY1JxWEZWckNfQ0NIX1J5Y0lFNkZnV3lncXEzZFhEY1Q2aGJpMEcyVVIwdENwTWwtcl9JRTIzQ2lGek0?oc=5",
-          "description": "China tightens travel restrictions for citizens  BBCWealthy Chinese, tech talent confront tighter borders as Beijing widens exit controls  CNBCChina's new tech, national security exit rules take effec",
-          "publisher": "BBC",
-          "pub_date": "2026-09-15T03:25:41+00:00"
+          "title": "Judge Blocks Trump Rule Aimed at International Students and Journalists",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUXVUdW1meXpqMC1xckZQeGxrVkk0R3dtMzEzbW9NYk5CMmprLWo0emNJeFFBWnRQc0xFclJ4VTMzalBUSW5QbWpGUGNpWERlVDNrcjRsTWxTS0Q5ZGo4Rm5paFNBYkRfNHlfQ2l3T3MwMTdJV2QwOVhVUGxmam50clVySWtMVWJ2T3hzZFM5NEY?oc=5",
+          "description": "Judge Blocks Trump Rule Aimed at International Students and Journalists  The New York TimesTrump administration suffers double legal setback over immigration policy  Al JazeeraUS Judge Blocks Trump Vi",
+          "publisher": "The New York Times",
+          "pub_date": "2026-09-14T23:46:53+00:00"
+        },
+        {
+          "title": "Houthis seize 2 strategic Red Sea islands, and other Mideast developments",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZTVVOUtmY054UGF0NGRfUC1CQXlDSnZ1MjFudGh0Um1YZjJ5ZEg5MFIxaENub2dVeXl3TjEycUJrekk5clFUSFRwY1NZQ3F3WnExOEtxLVRZdWI4XzJTSnk5eGJOMFhJRUxmMS0tUVV6bmhfcy1zektLY1U3SGNNakpaa29LX3YxNVpBSWppLVZGYzBzXzdjdmRKTUlZdkJ0elBRREtB?oc=5",
+          "description": "Houthis seize 2 strategic Red Sea islands, and other Mideast developments  AP NewsHouthis seize strategic Red Sea islands as analysts warn of impending oil crunch  The GuardianIran war updates: Houthi",
+          "publisher": "AP News",
+          "pub_date": "2026-09-15T00:42:00+00:00"
+        },
+        {
+          "title": "Houthis strike Saudi targets anew as talks over Strait of Hormuz stall",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYjU2YnlvRExQZkwtRGlRN2ljVC10RTVQRGI4NUhLSEladjEzeGltZlcxWXByODRyZDlyM3pvWGdSYVBIZXctNVZvQ2ZOX09PZ2ZsN0pWU216ZFUwUDRRS0RjQXV2QVpMWkVXRFJiZGRaVVZENkFMN3hmUlBSWWxWVENnWnFYVEFHMGVMeWYyX2V0b09TMU9Bb2M4ZmZDWTU2YVVpYUFFOUJCcmVTeHhtdEVla2hMbGR1UGc?oc=5",
+          "description": "Houthis strike Saudi targets anew as talks over Strait of Hormuz stall  ReutersSaudi Arabia warns it will react 'firmly' to Houthi attacks  YahooFighting in Yemen intensifies, and Houthis launch more ",
+          "publisher": "Reuters",
+          "pub_date": "2026-09-15T00:04:00+00:00"
         },
         {
           "title": "Trump nominates wife of ‘God Bless the USA’ singer Lee Greenwood to serve as US ambassador",
           "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOVVDWDdqSk5hemRFYnQ1eTdrWlFUVnhYUDNadEVVQkRXTkc1bFF1Slc2SUZ3OGN6OTZReGo5R0dhTnhDbFpmMXF5Uk1zVE1vX3NyaXY2VWFhSDE0eDhvUzl3Yko4N0FhdVRETmlWWjJuNlp0dDl3MnRyLXFvWXpvMjRWdGNtNEthRDlYVXdnMExaQnRZWnJnaEtQcDlZVDhJelJsTWY4RW5nOFNnVGhOWHJYdFdWNFJfVWtEc0JoZ18wbUpqeS1pbnV1LTY?oc=5",
-          "description": "Trump nominates wife of ‘God Bless the USA’ singer Lee Greenwood to serve as US ambassador  seattletimes.comSee more headlines & perspectives on Google News",
-          "publisher": "seattletimes.com",
+          "description": "Trump nominates wife of ‘God Bless the USA’ singer Lee Greenwood to serve as US ambassador  The Seattle TimesSee more headlines & perspectives on Google News",
+          "publisher": "The Seattle Times",
           "pub_date": "2026-09-14T22:03:19+00:00"
+        },
+        {
+          "title": "China tightens control of overseas travel in sweeping new law",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPT3IwZkFWRTQ1VGlDOTNUMTZRa1hqZzV6ME1JdjFLY2pzRlBodXZ1TEE2Q2VYWnotb1Q1bWRNeEFDOVV5cDRJSk90T3VYekpmV3RVWmVFcVVidmQ5elh6Y3RoUkVJZVJLQW1wQjBQWUVBakhIdUtaZndIamtHc0hMaVl3Mzg?oc=5",
+          "description": "China tightens control of overseas travel in sweeping new law  Financial TimesChina tightens travel restrictions for citizens  BBCChina's new tech, national security exit rules take effect  ReutersWea",
+          "publisher": "Financial Times",
+          "pub_date": "2026-09-15T00:30:36+00:00"
         },
         {
           "title": "10-year Treasury yield rises to highest since 2007",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaTYxSFZ2NnctamhZYXdkVTNPUi1QcEczSmZuV1YzOTlXVjd0ZUZEZFllOGNsbk9jMTVMU1dKcVdyX1dRUmo1QzBhSS14UFd3UlBEQVczZjhVdDFrZHFKWG1hQ1Uwc2hKY3hYWjh1X1VUX3lYNE1HNzRuWG1OalhYandaYWlBSXN3X0NiTkd5V0XSAZYBQVVfeXFMTkFSczFpQXVBNVp4OU5LNXZGU0sxU201bVNyV29jY3FWa0V6ZjZsNDhET0lVbWw1eFo1bkd6aVhxSGZYaTZFUjVjOHRYQXptbHR6STBycGZiX2QtdjA1aGwzU2gyd0NxbE04WFRCVnRVV1AwOTJzaFZKWDRqYVVMRExuRGpleGhLR3dMT1ZJUkl0dW9FbWNB?oc=5",
-          "description": "10-year Treasury yield rises to highest since 2007  CNBCAsian Stocks to Fall on AI, Key US Yield Tops 5%: Markets Wrap  Bloomberg.comSpike on 10-year bond yields renews concerns over U.S. debt  The Wa",
+          "description": "10-year Treasury yield rises to highest since 2007  CNBC10-year Treasury yield hits 5%, critical threshold for US economy and markets  CNNSpike on 10-year bond yields renews concerns over U.S. debt  T",
           "publisher": "CNBC",
           "pub_date": "2026-09-15T05:09:39+00:00"
         }
@@ -605,32 +605,11 @@
           "pub_date": "2026-09-15T04:25:00+00:00"
         },
         {
-          "title": "Mitch McConnell returns to Senate after fall that led to an extended medical absence",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BcWJzb1d1azdWNU9hQm53akx2cTZPREJGOE52dFhEMThscXBLVWRhV0JMYkloeWkyVUctMkMzd0dhTlk2NlA1bm9XcDByNmVTcHJ6eFRWcW8yUHB0RVdxZ2xXYWZROUZhYTJ1MHRwTDFiRGhJaFBrT3lkQnRhSlU?oc=5",
-          "description": "Mitch McConnell returns to Senate after fall that led to an extended medical absence  NPRMitch McConnell Returns to Senate After Three Month Absence  The New York TimesMcConnell returns to Capitol aft",
-          "publisher": "NPR",
-          "pub_date": "2026-09-14T22:36:33+00:00"
-        },
-        {
-          "title": "Trump calls Nvidia CEO Jensen Huang during summit, dismisses AI fears as 'hoax'",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVkU4djhYWHladGZiY0N6amVYeHA5RmVsTTJ2NFZoRThpaUhaMjhXTElKQUVoMzlZTUtxYXRnLV80Zmp3NlNvNVB5TngtUmdveS1tVjVLZ2phblF5d050RnFnQWdhdmVBTWt2VlJ2N0Y5V05qN2Q1elJQdTgzMDNmUzNXNkhza3hHaUtySWwxb25raDBsTXc4dWg5NkpnTGtXQlg5eDZMOXhLenVGbzM5ekJ30gG3AUFVX3lxTE1WN2tTRGx1Tnp3N0xULUdhUFBmUTJIUjA0cEJ1a1ROd09GTU1hdExMeXg4a1NTU2pFZDdpeC1ucS1HYkphRFlhWjR1aUhyel9QWTRsVDU4UXhUb3BwOExkLUVMUnlNNXdwb2M5dUVxbUZLbllqVjdDQXRnQjRUTEk2WVZrc1JHWG9oRDR1QWo4X0dnQTZGZWFtSFd2TC1SYkJ3MlN0LVBKT3NJTkZQZm9KR1U3R01XZw?oc=5",
-          "description": "Trump calls Nvidia CEO Jensen Huang during summit, dismisses AI fears as 'hoax'  Fox BusinessTrump calls Nvidia CEO to talk AI — and gets put on speakerphone during industry summit  NBC News‘I am the ",
-          "publisher": "Fox Business",
-          "pub_date": "2026-09-15T02:15:00+00:00"
-        },
-        {
-          "title": "‘Not too much they can do about it’: Frustrated White House faces spiking oil prices",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeDVOVkNXQ0kzZTBHSURLbl9aaDJ5TnhISEx3Vkl2MnE0SjQxVFJ1WTVpRTVOVFJ2ZGUxcTFlZ0MtZWNTS2J3TDZyOGZ5OGNkRHN6ZUg5akp5N3V6QzJ0SDdMOThZbE9WTWZnUUpXX2laMTRoNEdHcHhRUlRNSVFiYXEyRzZqODhHdVUwVzdkTUtEMUg3cmE3OGVhTW9Tdw?oc=5",
-          "description": "‘Not too much they can do about it’: Frustrated White House faces spiking oil prices  PoliticoGas Prices Could Cost Republicans the Midterms  The AtlanticHigh Prices Spoil Trump’s New Push to Save G.O",
-          "publisher": "Politico",
-          "pub_date": "2026-09-14T22:50:00+00:00"
-        },
-        {
-          "title": "States, cities sue to block Trump immigration rule on public benefits",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONGk1MVlTS3ZZWUE1MTJ2bTNJeDZKQTV6X0ZPZVFxMXhzVEo4Y05KR0lVRHQ2Q0Q2YUsxUFdOM3pJUXRMaG9zRS1wZm9hLWZqQ0ZQdGgtYmJJRE03Yk4wZVp0ZDljcW5wWkw0c2lGOENpTXFfVEhvdTlyekNva1Vrb19lZDctRW1TQTJOOGlRVk9Mcl9sWkE0T1NscUx5aFNiTHdqOEFUMDdEQndUSER2ck1ib1JHdw?oc=5",
-          "description": "States, cities sue to block Trump immigration rule on public benefits  ReutersMamdani Sues Trump Administration Over New Immigration Rule  WSJStates and Cities Sue Over Trump’s Policy to Restrict Gree",
-          "publisher": "Reuters",
-          "pub_date": "2026-09-14T21:37:01+00:00"
+          "title": "Mitch McConnell returns to Capitol Hill after monthslong absence",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQjZrS3I1bjJUWC1pZVFCaERMVXBjbnJZQkQ3QlZEQlh2SjJST1NOdzJoWHp3UWUzMlNjc3BKeGl5WDFpUFVmb1JUWUJuODU3eHJ0Tjg3NW1VaU1NU0lqUzBRRkEzZEk0VURORTRTT0JYWlpLd2tOTXJMSjJoUVZla05aWmFzcEhrWGZYb2RB?oc=5",
+          "description": "Mitch McConnell returns to Capitol Hill after monthslong absence  CBS NewsMitch McConnell returns to Senate after three-month absence  BBCRepublican Senator Mitch McConnell returns to US Senate three ",
+          "publisher": "CBS News",
+          "pub_date": "2026-09-14T22:00:00+00:00"
         },
         {
           "title": "Trump’s EPA is ending one of the nation’s biggest climate protections",
@@ -640,53 +619,67 @@
           "pub_date": "2026-09-15T04:05:00+00:00"
         },
         {
+          "title": "Trump calls Nvidia CEO Jensen Huang during summit, dismisses AI fears as 'hoax'",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVkU4djhYWHladGZiY0N6amVYeHA5RmVsTTJ2NFZoRThpaUhaMjhXTElKQUVoMzlZTUtxYXRnLV80Zmp3NlNvNVB5TngtUmdveS1tVjVLZ2phblF5d050RnFnQWdhdmVBTWt2VlJ2N0Y5V05qN2Q1elJQdTgzMDNmUzNXNkhza3hHaUtySWwxb25raDBsTXc4dWg5NkpnTGtXQlg5eDZMOXhLenVGbzM5ekJ30gG3AUFVX3lxTE1WN2tTRGx1Tnp3N0xULUdhUFBmUTJIUjA0cEJ1a1ROd09GTU1hdExMeXg4a1NTU2pFZDdpeC1ucS1HYkphRFlhWjR1aUhyel9QWTRsVDU4UXhUb3BwOExkLUVMUnlNNXdwb2M5dUVxbUZLbllqVjdDQXRnQjRUTEk2WVZrc1JHWG9oRDR1QWo4X0dnQTZGZWFtSFd2TC1SYkJ3MlN0LVBKT3NJTkZQZm9KR1U3R01XZw?oc=5",
+          "description": "Trump calls Nvidia CEO Jensen Huang during summit, dismisses AI fears as 'hoax'  Fox BusinessTrump calls Nvidia CEO to talk AI — and gets put on speakerphone during industry summit  NBC NewsTrump faci",
+          "publisher": "Fox Business",
+          "pub_date": "2026-09-15T02:15:00+00:00"
+        },
+        {
           "title": "Karl Rove will vote for Democrat over Bo French",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUFB2R0lBMmF0d04zTlVpWlNpNkNfc19TenZnNGpkb0hzVWNjQndwMi0yX2pVUlUxUk1KOEF1N19kTDVYOG5YSE5sVDA1d2d5Wkx3clk4aUNQWTZSSGpOR0RDRWdQR1RDdjRvZkR2cnd2ZUhpNlJDZUVONHdqVjUtTUhJUWhMT1NXOU9nVzhB?oc=5",
-          "description": "Karl Rove will vote for Democrat over Bo French  The Texas TribuneBo French doubles down after Texas Republicans condemn UT Austin student posts  KXAN AustinBo French doubles down on racist remarks af",
-          "publisher": "The Texas Tribune",
+          "description": "Karl Rove will vote for Democrat over Bo French  texastribune.orgBo French doubles down after Texas Republicans condemn UT Austin student posts  KXAN AustinBo French doubles down on racist remarks aft",
+          "publisher": "texastribune.org",
           "pub_date": "2026-09-15T01:29:08+00:00"
+        },
+        {
+          "title": "States, cities sue to block Trump immigration rule on public benefits",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONGk1MVlTS3ZZWUE1MTJ2bTNJeDZKQTV6X0ZPZVFxMXhzVEo4Y05KR0lVRHQ2Q0Q2YUsxUFdOM3pJUXRMaG9zRS1wZm9hLWZqQ0ZQdGgtYmJJRE03Yk4wZVp0ZDljcW5wWkw0c2lGOENpTXFfVEhvdTlyekNva1Vrb19lZDctRW1TQTJOOGlRVk9Mcl9sWkE0T1NscUx5aFNiTHdqOEFUMDdEQndUSER2ck1ib1JHdw?oc=5",
+          "description": "States, cities sue to block Trump immigration rule on public benefits  ReutersStates sue to stop Trump rule that would make it harder for some immigrants to get green cards  CNNStates and Cities Sue O",
+          "publisher": "Reuters",
+          "pub_date": "2026-09-14T21:37:01+00:00"
+        },
+        {
+          "title": "Judge Blocks Trump Rule Aimed at International Students and Journalists",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUXVUdW1meXpqMC1xckZQeGxrVkk0R3dtMzEzbW9NYk5CMmprLWo0emNJeFFBWnRQc0xFclJ4VTMzalBUSW5QbWpGUGNpWERlVDNrcjRsTWxTS0Q5ZGo4Rm5paFNBYkRfNHlfQ2l3T3MwMTdJV2QwOVhVUGxmam50clVySWtMVWJ2T3hzZFM5NEY?oc=5",
+          "description": "Judge Blocks Trump Rule Aimed at International Students and Journalists  The New York TimesTrump administration suffers double legal setback over immigration policy  Al JazeeraUS Judge Blocks Trump Vi",
+          "publisher": "The New York Times",
+          "pub_date": "2026-09-14T23:46:53+00:00"
         },
         {
           "title": "A Teen Autopsy Marks the Arrival of a Deadly Drug in San Francisco",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPckt2ZFNZX21TcDlqRFRFbUtLejZpamVrbjBrcHpIQ0ZSZFJveHhhU3VZWHFGVVhLekR2U3ZDejllTmdzQVdBUFhWS1RyekJNYkhnRFhzd0w4ejh5MzZtdTM3RWJFM196YkNlRVlEajFHcXY1ck5FM0VQdjNZMWZZNzQ3Zw?oc=5",
-          "description": "A Teen Autopsy Marks the Arrival of a Deadly Drug in San Francisco  The New York TimesFour arrested, 20,000 pills seized in San Francisco probe after teen’s fatal overdose  kmph.comSan Francisco boy’s",
+          "description": "A Teen Autopsy Marks the Arrival of a Deadly Drug in San Francisco  The New York TimesSan Francisco boy’s death marks city’s first cychlorphine OD  KRON4S.F. police arrest 4 people allegedly linked to",
           "publisher": "The New York Times",
           "pub_date": "2026-09-14T09:00:10+00:00"
         },
         {
-          "title": "Rule Limiting Foreign Students’ Time in US Blocked by Court (1)",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYWowMzcwLW1Dci1FOUJWcWtQX2t0MjJRZ21MVFUxVGlHLWhFajB5MDVMSTZtVDhuSGxWNG1SMXprRTZiSF9ZYnJMaVRUT2MtSVJRbVZTNV9JeHo1WVNaX0NMUV9CaXZSLVdtOG1TYTVJWHhmZWNmRjY5eGpBU2xWUUlSUTVsQUthVlpWQVlWNUk2aHJXUGppNnI5TXJoZzIybEwxS3YxMEh1bmxqb2VpMg?oc=5",
-          "description": "Rule Limiting Foreign Students’ Time in US Blocked by Court (1)  Bloomberg Law NewsTrump administration suffers double legal setback over immigration policy  Al JazeeraUS court temporarily halts new v",
-          "publisher": "Bloomberg Law News",
-          "pub_date": "2026-09-14T21:56:00+00:00"
+          "title": "Capitol agenda: Congress isn’t rushing after AI alarms",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQWdTZ3BULWNHZ1QzT0FOcnV0eFBNRnJWSjNoZnJLTkgxSl9HNjdSbGZjZjlaN3RVNWROWWdtc0ItRF9lU3dfT0NHYldxNzZGalZzelREZHNsWGdqTGpOSzlpWDFCUVBhSl9NVXdtUmNDUm9tRGhaUWcwVHZyQ2VxSjh4aEJ0NGNQQUhRS2tn?oc=5",
+          "description": "Capitol agenda: Congress isn’t rushing after AI alarms  PoliticoA fateful turning point for humanity and AI could redefine American politics  CNNTech CEOs call for AI regulation. Trump and Congress ar",
+          "publisher": "Politico",
+          "pub_date": "2026-09-15T01:27:15+00:00"
         },
         {
           "title": "Gavin Newsom says he won’t run for president in 2028 if Kamala Harris does",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUtKNGViRjVENFd2TWpGRkExcXAxMHEzenNyOUYtMUlkTzZMd1drZGVBYmZnQW9ha1BRUjVtalhXdFpxTTMtNTRQcXRzY2ZWdGVyYzlEY1k3aTZFTWMxOWhQS1NTRnplZzBXVXhJd0xKaG9GenZ1ZDNvaUhCNHZWMTB3cUV5ZEF1UVpfRE5Mc0RMRWx2RXFJLXJ4cnMyZFl0X1hOeDhn?oc=5",
-          "description": "Gavin Newsom says he won’t run for president in 2028 if Kamala Harris does  NBC NewsExclusive: I won’t run against Kamala Harris, Gavin Newsom tells CNN | CNN Politics  CNNGavin Newsom says he will no",
+          "description": "Gavin Newsom says he won’t run for president in 2028 if Kamala Harris does  NBC NewsGavin Newsom says he will not run for president in 2028 if Kamala Harris does  The GuardianExclusive: I won’t run ag",
           "publisher": "NBC News",
           "pub_date": "2026-09-14T23:52:19+00:00"
         },
         {
-          "title": "Federal agents may have broken state laws in voter fraud hunt, whistleblower claims",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PdjRqV1ZDNlFDUlhmcDhBOE9GeF9DQU1HLThkbVBYcEE5SDYyT1haZGpUbEJvV05GWUc3N2Y3dlZQQkhiY2NiMC1YUU51NE9XWU0zbXlUbnhOcU42N0xRMG5xT0JlbGRHRnUtTzg3bVQzOWhvd014ZVVMd1lydjA?oc=5",
-          "description": "Federal agents may have broken state laws in voter fraud hunt, whistleblower claims  NPRWhistle-Blower: Federal Agents May Have Broken State Laws in Search For Voter Fraud  The New York TimesDHS is us",
-          "publisher": "NPR",
-          "pub_date": "2026-09-14T22:05:06+00:00"
+          "title": "Trump DHS whistleblower alleges workers lied to access state voter data",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE13N0p1NnVjYUpsYnRLLUREQzhLQ2xWNHdhNlZSaGV2eGE1X0RnMnVSZURWS3U2Z3RWWDY0bGhUMGhuU0NFVTRzY2pqcWdiYTh0Yk84cnViQjRFWVN6VVRsUVB4aXdjbTBDUW9nS01fTzUzQzVkUEhnb2F3?oc=5",
+          "description": "Trump DHS whistleblower alleges workers lied to access state voter data  AxiosWhistle-Blower: Federal Agents May Have Broken State Laws in Search For Voter Fraud  The New York TimesDHS is using legall",
+          "publisher": "Axios",
+          "pub_date": "2026-09-14T21:49:22+00:00"
         },
         {
           "title": "United States Space Force says US has weapons in orbit",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYWxCY01IZmF4LUI0QWxiVWlUVDJnNGx5Tk1wei01RjRYaks4M3lHMHFGSVZ2REpSZ3JZRUZiTEZxd3hHXzB1RlI1dkMxRWo1OFFFUk5hWjFhUWdjc1BuTmdDRHdaVHVoQWh3RHhiVFNWTjR2OVdCX2UtMGhUSGFRR3p3c2JPWVhyb1pqblpYenUtSkxh?oc=5",
-          "description": "United States Space Force says US has weapons in orbit  Euronews.comUS has deployed a space weapon, air force secretary says  BBCU.S. has deployed space-control weapons in orbit, Air Force secretary s",
+          "description": "United States Space Force says US has weapons in orbit  Euronews.comUS has deployed a space weapon, air force secretary says  BBCUS military reveals it has weapons in space  Financial TimesU.S. has de",
           "publisher": "Euronews.com",
           "pub_date": "2026-09-14T21:46:16+00:00"
-        },
-        {
-          "title": "House Speaker Risks Trump Ire, Signals Openness to AI Guardrails",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVFdLbVluYm1KaFE0WVg0eFJ0YVN6UEFIX2hjN0NGWnBvMDFCMmtDMFdpdG1kQnd1TzlNd0FlV3VvNFA3TjdfbFp3N2NuUW1Zb2Iwc2VzN25IaGoyWlBlY0JIV0M0d094bzZpS1ktdkNsQzhDMnh1YVRvY0FoU0hxeVJiUlRVcm9DSDRscjlzR2VFNVJ0dEZjV2Zwb1pHczdGQTVFRVNnd0lRZGdhLWoteEhn?oc=5",
-          "description": "House Speaker Risks Trump Ire, Signals Openness to AI Guardrails  Bloomberg.comA fateful turning point for humanity and AI could redefine American politics | CNN Politics  CNNDire warnings about AI sh",
-          "publisher": "Bloomberg.com",
-          "pub_date": "2026-09-14T17:58:06+00:00"
         },
         {
           "title": "VP Vance helps announce COVID loan fraud operation at KC event, stumps for Sen. Marshall in Olathe",
@@ -701,36 +694,29 @@
           "description": "A Vermont man is on trial for shooting 3 Palestinian students. He claimed the CIA told him to do it  AP News‘I heard some gunshots and I was on the ground’: Palestinian students give dramatic testimon",
           "publisher": "AP News",
           "pub_date": "2026-09-14T22:18:00+00:00"
+        },
+        {
+          "title": "Jon Ossoff vs. Mike Collins: New GOP Poll Gives Race Update 50 Days Out",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdEg3Z3VPZzdKR2d1dzltYldQNkVzeUlVVlRYbmNtZzdtd0EtMk9KQVBCako3T1k0c2tSdU5RTnpndWRqcUkxSUtSck5XQnZSUzJYbUg4X2pXeW9nVG83V09RdnNodmhmVnBLMlhlVHZINHhFcEotc2lGVW1tWFFlRmlna0pYS3ZWX3N3X25vVmdla1h6aUtSckhpNkRaVTlwem1XaXl3?oc=5",
+          "description": "Jon Ossoff vs. Mike Collins: New GOP Poll Gives Race Update 50 Days Out  NewsweekTrump or the middle? Georgia Republicans test two paths to victory  AJC.comPoll shows Georgia U.S. Senator Jon Ossoff l",
+          "publisher": "Newsweek",
+          "pub_date": "2026-09-14T22:17:00+00:00"
         }
       ],
       "world": [
         {
-          "title": "Saudi pipeline hit by drones will be out of service for weeks, further restricting oil flow",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTlTdWlFZF9mNl9uX3pCWHd0QXVWb0dEaXlGaXhLa3l4ek9PbWFhRG02VXJDMW1BT3FxUkp3MzZtdEd2ZHQ4cUswbkpfX1ZnVkxuQ3pValFrY1BTRHlyZjdaLXJqTW1VcXhzajBuSUFIbXdxamdqOTcxeFp2MERjcU9lQWVXaHhETnJweXZRdWp6UWNHQUxjdWc2NA?oc=5",
-          "description": "Saudi pipeline hit by drones will be out of service for weeks, further restricting oil flow  AP NewsSaudi Arabia Faces ‘Worst-Case Scenario’ After Iran’s Attacks and Trump’s Rebuffs  The New York Time",
+          "title": "Houthis seize 2 strategic Red Sea islands, and other Mideast developments",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZTVVOUtmY054UGF0NGRfUC1CQXlDSnZ1MjFudGh0Um1YZjJ5ZEg5MFIxaENub2dVeXl3TjEycUJrekk5clFUSFRwY1NZQ3F3WnExOEtxLVRZdWI4XzJTSnk5eGJOMFhJRUxmMS0tUVV6bmhfcy1zektLY1U3SGNNakpaa29LX3YxNVpBSWppLVZGYzBzXzdjdmRKTUlZdkJ0elBRREtB?oc=5",
+          "description": "Houthis seize 2 strategic Red Sea islands, and other Mideast developments  AP NewsHouthis seize strategic Red Sea islands as analysts warn of impending oil crunch  The GuardianIran war updates: Houthi",
           "publisher": "AP News",
-          "pub_date": "2026-09-15T01:30:00+00:00"
+          "pub_date": "2026-09-15T00:42:00+00:00"
         },
         {
-          "title": "Saudi civil defence says danger has passed in six cities including Yanbu",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTW44Q2VNT0ZLUS1feUlvTE90dTdwZ0NCVVhZY0RQeHBCRlItRGcwVldPaF9jTTdlcXJjSG1hdHNuN2FzdjZUMEtITnExdHZzYk5hR0RLdmZnRHZtRG1ubXdvZllyQXRzRjlpallqZlNJdWYzWHRLNXVtdk5lZDVMY3dnYWNaakJscW5fTVVzMkdrZEk4X253SFlwM05HblB5d21BSnh2UmpyMGxXeGRfbS0wRGZwN2Z0VXFvZTdTeHc?oc=5",
-          "description": "Saudi civil defence says danger has passed in six cities including Yanbu  ReutersHouthis strike Saudi targets anew as talks over Strait of Hormuz stall  ReutersSaudi Arabia warns it will react 'firmly",
+          "title": "Houthis strike Saudi targets anew as talks over Strait of Hormuz stall",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYjU2YnlvRExQZkwtRGlRN2ljVC10RTVQRGI4NUhLSEladjEzeGltZlcxWXByODRyZDlyM3pvWGdSYVBIZXctNVZvQ2ZOX09PZ2ZsN0pWU216ZFUwUDRRS0RjQXV2QVpMWkVXRFJiZGRaVVZENkFMN3hmUlBSWWxWVENnWnFYVEFHMGVMeWYyX2V0b09TMU9Bb2M4ZmZDWTU2YVVpYUFFOUJCcmVTeHhtdEVla2hMbGR1UGc?oc=5",
+          "description": "Houthis strike Saudi targets anew as talks over Strait of Hormuz stall  ReutersSaudi Arabia warns it will react 'firmly' to Houthi attacks  YahooFighting in Yemen intensifies, and Houthis launch more ",
           "publisher": "Reuters",
-          "pub_date": "2026-09-15T02:28:00+00:00"
-        },
-        {
-          "title": "China tightens travel restrictions for citizens",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5HN2R0OGJtZHhZNXdSNnZQNGtKcGgyTGpJY1JxWEZWckNfQ0NIX1J5Y0lFNkZnV3lncXEzZFhEY1Q2aGJpMEcyVVIwdENwTWwtcl9JRTIzQ2lGek0?oc=5",
-          "description": "China tightens travel restrictions for citizens  BBCWealthy Chinese, tech talent confront tighter borders as Beijing widens exit controls  CNBCChina's new tech, national security exit rules take effec",
-          "publisher": "BBC",
-          "pub_date": "2026-09-15T02:38:23+00:00"
-        },
-        {
-          "title": "Trump nominates wife of ‘God Bless the USA’ singer Lee Greenwood to serve as US ambassador",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOVVDWDdqSk5hemRFYnQ1eTdrWlFUVnhYUDNadEVVQkRXTkc1bFF1Slc2SUZ3OGN6OTZReGo5R0dhTnhDbFpmMXF5Uk1zVE1vX3NyaXY2VWFhSDE0eDhvUzl3Yko4N0FhdVRETmlWWjJuNlp0dDl3MnRyLXFvWXpvMjRWdGNtNEthRDlYVXdnMExaQnRZWnJnaEtQcDlZVDhJelJsTWY4RW5nOFNnVGhOWHJYdFdWNFJfVWtEc0JoZ18wbUpqeS1pbnV1LTY?oc=5",
-          "description": "Trump nominates wife of ‘God Bless the USA’ singer Lee Greenwood to serve as US ambassador  seattletimes.comSee more headlines & perspectives on Google News",
-          "publisher": "seattletimes.com",
-          "pub_date": "2026-09-14T22:03:19+00:00"
+          "pub_date": "2026-09-15T00:04:00+00:00"
         },
         {
           "title": "Trump Jr. wedding celebrations were sponsored by powerful Russian businessman",
@@ -740,25 +726,39 @@
           "pub_date": "2026-09-15T01:47:59+00:00"
         },
         {
+          "title": "Trump nominates wife of 'God Bless the USA' singer Lee Greenwood to serve as US ambassador",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOVVDWDdqSk5hemRFYnQ1eTdrWlFUVnhYUDNadEVVQkRXTkc1bFF1Slc2SUZ3OGN6OTZReGo5R0dhTnhDbFpmMXF5Uk1zVE1vX3NyaXY2VWFhSDE0eDhvUzl3Yko4N0FhdVRETmlWWjJuNlp0dDl3MnRyLXFvWXpvMjRWdGNtNEthRDlYVXdnMExaQnRZWnJnaEtQcDlZVDhJelJsTWY4RW5nOFNnVGhOWHJYdFdWNFJfVWtEc0JoZ18wbUpqeS1pbnV1LTY?oc=5",
+          "description": "Trump nominates wife of 'God Bless the USA' singer Lee Greenwood to serve as US ambassador  The Seattle TimesSee more headlines & perspectives on Google News",
+          "publisher": "The Seattle Times",
+          "pub_date": "2026-09-14T22:03:19+00:00"
+        },
+        {
+          "title": "China tightens control of overseas travel in sweeping new law",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPT3IwZkFWRTQ1VGlDOTNUMTZRa1hqZzV6ME1JdjFLY2pzRlBodXZ1TEE2Q2VYWnotb1Q1bWRNeEFDOVV5cDRJSk90T3VYekpmV3RVWmVFcVVidmQ5elh6Y3RoUkVJZVJLQW1wQjBQWUVBakhIdUtaZndIamtHc0hMaVl3Mzg?oc=5",
+          "description": "China tightens control of overseas travel in sweeping new law  Financial TimesChina tightens travel restrictions for citizens  BBCChina's new tech, national security exit rules take effect  ReutersWea",
+          "publisher": "Financial Times",
+          "pub_date": "2026-09-15T00:28:53+00:00"
+        },
+        {
           "title": "Ukraine-Russia war latest: Poland scrambles jets as Putin attacks Kyiv with jet-powered drones",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQmhmakVSTFNjMldBLW5SbDE0UUprY0k3WTVRTkVYRFRWY2JvcGJGWFlWUGhmYVlEZ0l1LUFjV1NYMUpvS2dsMXYteVJ4RkNLdGFna1ZBaFlRWVJ0WkFWd1RNRUsteDJ1RWtxUF9WU1ZBLXNZelBKRHpZU19vMGdYTHlHVzFQNHc4NWxuTm1OSDZxSU9UNWxsSkJ1SGpjRnhhOXZEVlY1QUlvRmVNcE5vTDZQSQ?oc=5",
           "description": "Ukraine-Russia war latest: Poland scrambles jets as Putin attacks Kyiv with jet-powered drones  The IndependentRussia hits Ukrainian train shortly after Boris Johnson and top European officials leave ",
           "publisher": "The Independent",
-          "pub_date": "2026-09-15T05:15:00+00:00"
+          "pub_date": "2026-09-15T06:45:02+00:00"
         },
         {
           "title": "Sweden election is too close to call as far right loses ground",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTGVBRWhfdmJNRy1EQzZYakxwSXVSb2plWEkybHlfakYtUFdvcDdYZElhMzFFN1lmYWlvRlpkTzJDM1dWRXBkTGRkME9BczlQbXR2X2pDWUxoZlBCUXZMV1BhNFFCWDNla2J3aU1Bc2JUbzNPWmdNdm50WGhrUVdlc05hQk15TE1FSnhXcW1GcGd3QUpFYXc3RVJwZzN6VkxjNk9rUVd30gGrAUFVX3lxTE5WX3R0RmVDdVFMSnRScThSR0EtVU9Wa2xPcXFsZllhakx1c2U5WXlGYW8zMEpuZFBzd09rdmRZSEs0Ui1QZlc1NUg0UWNHSWRFdXNNU0hJMFc1TUpQcllXMmhSUkVXYUxMM0d2OWw0OTczT285cWdJdHd5c0ZNUDhUSlVGUXNRaDlJSV9waHViZi1VSEdsTHgtQ1lQMnFISF9BNE1odm9Pemdjbw?oc=5",
-          "description": "Sweden election is too close to call as far right loses ground  Al JazeeraElection in Sweden Is Too Close to Call  The New York TimesSweden’s political parties launch coalition talks as both blocs try",
+          "description": "Sweden election is too close to call as far right loses ground  Al JazeeraSweden’s far right is down, but not yet out. Left and centre leaders must seize this opportunity | Cas Mudde  The GuardianSwed",
           "publisher": "Al Jazeera",
           "pub_date": "2026-09-15T00:15:38+00:00"
         },
         {
-          "title": "Houthis seize 2 strategic Red Sea islands, and other Mideast developments",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZTVVOUtmY054UGF0NGRfUC1CQXlDSnZ1MjFudGh0Um1YZjJ5ZEg5MFIxaENub2dVeXl3TjEycUJrekk5clFUSFRwY1NZQ3F3WnExOEtxLVRZdWI4XzJTSnk5eGJOMFhJRUxmMS0tUVV6bmhfcy1zektLY1U3SGNNakpaa29LX3YxNVpBSWppLVZGYzBzXzdjdmRKTUlZdkJ0elBRREtB?oc=5",
-          "description": "Houthis seize 2 strategic Red Sea islands, and other Mideast developments  AP NewsSee more headlines & perspectives on Google News",
-          "publisher": "AP News",
-          "pub_date": "2026-09-15T00:42:00+00:00"
+          "title": "Hormuz traffic dwindles after Middle East attacks intensify",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUTFPRnZDMlUxdmU3RmpseHVGS2laWk4tZU0ySUhOSUdDMGlfQ3loQTBQZktUdW96ck0yNlctUWxVV2NYSHpDclc2YnI4cVFISWZXbjdlM1BDSC1vejJmR2Qtc0NjTTlxLVpxRmZXck5nQU9US1JUalB2cTNZd1Z4Y1Q1QkVQUkEySXNqZUxYV1VWLV8wbVJYTU85X3U0bmk3SXFnNm1uMDQ4TkYwMjV3a3ItZw?oc=5",
+          "description": "Hormuz traffic dwindles after Middle East attacks intensify  ReutersIran War Updates: Oil prices stay above $100 per barrel as Oman-Iran talks on Strait of Hormuz postponed  CBS NewsGulf states postpo",
+          "publisher": "Reuters",
+          "pub_date": "2026-09-15T02:59:00+00:00"
         },
         {
           "title": "North Korea's Kim vows to expand ties with Russia, backs victory in 'sacred war'",
@@ -777,67 +777,67 @@
         {
           "title": "Missile shortages, damage to US facilities: Pentagon watchdog issues first review of Iran war",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5IXzV0YjlVTWNIZVpJLVFYWk5aWDlIUFV4Sngxa24tMnNWTXFCclYxYkI2OUpYczNBZGJUUE1iVzhtb0pOY1hFVTdXZ2lYamxJMDhUNFpCMHp4N3o4em9RY0dJcjRXbkVkRm42SmE0U3NjZ1BLLXNueUtCc0xHUQ?oc=5",
-          "description": "Missile shortages, damage to US facilities: Pentagon watchdog issues first review of Iran war  CNNWeapon shortfalls, 'hundreds' of buildings and aircraft damaged, $33.4 billion spent: the U.S. governm",
+          "description": "Missile shortages, damage to US facilities: Pentagon watchdog issues first review of Iran war  CNNPentagon reveals $33.4 billion Iran war bill and ‘strategic’ weapons shortfalls  CNBCDefense Departmen",
           "publisher": "CNN",
           "pub_date": "2026-09-14T23:02:47+00:00"
         },
         {
-          "title": "Gulf states postpone strait of Hormuz talks with Iran as Yemen conflict intensifies",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYXNIZWY4ZFJBOU1SblVmLVNwRGxjMlhXZXhqSDRySkU5UTU5Q2p0VHNCOVlmQ0hkbXNKcGlHVnpfLW13OWNHb1EtOVI1QTM1SWZGWHZ2Y0U3WUVRdGt4M0x3bVZ2QUE0SUJTTzRTMHhseVl2eEt2dGtUeWEyeFZfMHdtRmI1S1pzYmMwQ1BTZTFwaFFnYkdVMEZ3NU4tWFVCbUllM2ViYU5icm5RbTdnVXNBOTcwSXdDdzcwbkc0NkQtWTNUeFd6b21aQUxSRU9ZY3RN?oc=5",
-          "description": "Gulf states postpone strait of Hormuz talks with Iran as Yemen conflict intensifies  The GuardianIran War Updates: Oil prices stay above $100 per barrel as Oman-Iran talks on Strait of Hormuz postpone",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-14T20:26:00+00:00"
+          "title": "Saudi pipeline hit by drones will be out of service for weeks, further restricting oil flow",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTlTdWlFZF9mNl9uX3pCWHd0QXVWb0dEaXlGaXhLa3l4ek9PbWFhRG02VXJDMW1BT3FxUkp3MzZtdEd2ZHQ4cUswbkpfX1ZnVkxuQ3pValFrY1BTRHlyZjdaLXJqTW1VcXhzajBuSUFIbXdxamdqOTcxeFp2MERjcU9lQWVXaHhETnJweXZRdWp6UWNHQUxjdWc2NA?oc=5",
+          "description": "Saudi pipeline hit by drones will be out of service for weeks, further restricting oil flow  AP NewsSaudi Arabia Faces ‘Worst-Case Scenario’ After Iran’s Attacks and Trump’s Rebuffs  The New York Time",
+          "publisher": "AP News",
+          "pub_date": "2026-09-15T01:30:00+00:00"
         },
         {
-          "title": "Trump says Ukraine and Russia agree to halt strikes on energy targets",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZXZSMzlGencyU2g3MTFJeW9tdldxM1FIVmIxTTc4YUZaZ1N4SGUzTzJZdkcyQk5vc3JfZnFfN3FHNlNXZGZyLXZlZ01zd3A2ZGNpeWphWWhQaGl1c0dsUlowZ0dhcmlvOXBWdTY2M1VfZHdYVFo5YmxUMDhRTU5QMGdxZ1BJMXF5RUtVeGUyWngyZW5OU0VVVExvX2U3UDBneDhXaWhPbko?oc=5",
-          "description": "Trump says Ukraine and Russia agree to halt strikes on energy targets  Euronews.comRussian Offensive Campaign Assessment, September 14, 2026  Institute for the Study of WarTrump urges Ukraine to stop ",
+          "title": "Hungary to overhaul restrictive Orban-era child adoption measures",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTkFXTHEwcFhqX3drc3J0aTFpNE9sZ0g5V2tyMGZSSFNQNGpQVi01TkFjMUdieFhOMHVZMFBCRFJRbThqQ05DOWNsQm9GMlhvSTdUd3FIT1o5TWZrUnRKM0M2X2ZUUjBJbW1BSk1vckR1SXFwRDE5bUl6ZTJ2bEFiandrcEdiSjNTNGpXZjRJTVFyY1NpMDU5SUJnQmw4Qi00TGczUkhVYzBZMDg2cVVoc1l3eFF3Ykg3ZnotU1RYN3ZEc1BzakdPT2ZVcUZ1RkNQNGc?oc=5",
+          "description": "Hungary to overhaul restrictive Orban-era child adoption measures  Euronews.comHungary PM Magyar says to scrap Orban-era restriction on gay adoption  ReutersHungary moves to amend controversial child ",
           "publisher": "Euronews.com",
-          "pub_date": "2026-09-14T16:32:02+00:00"
-        },
-        {
-          "title": "Hyrox race goes viral after top athlete soils herself, shares equipment in win",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQlkxWmR2cjBhQ1NNRTFSVXRfb3J5eVlVSTJxbm91Rmp5ZFVUU1JWdGVGUlJSREM1LVh4SHZZWkx3TGRzTTQ0ZGxVckhFWElQVEZucnI2NDlqc1NTT3ltYjlhdV9JZk9BbzN1RDdZek5UTDVacXBVZ3pNWFVjWVRTVlFDTElqVzYyb1FKWlVSVWpEUnJuTlkxTVJHaWR1Y2liQm5DRlhTQ2pDbGxKVW1BTk85aFJuRGl6c3c?oc=5",
-          "description": "Hyrox race goes viral after top athlete soils herself, shares equipment in win  USA TodayHyrox changes rules and apologises for allowing Australian athlete who soiled herself to continue  The Guardian",
-          "publisher": "USA Today",
-          "pub_date": "2026-09-14T21:08:00+00:00"
+          "pub_date": "2026-09-13T17:06:34+00:00"
         },
         {
           "title": "Pope celebrates his 71st birthday but it's Vatican employees who get the gift",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbUowWVNXR3lhYW94WS1HUEhaX2lRNXZfajdxdWZfQTQ2RlZkZy02ZkxPQnphS21fZk02bkZ1WGpzTl9fdVM1dERtZndtdzU1SjFSOW15UkR6UUk5NFRYdVphMWkwZ2JHb2pLSkdOUjVLLWZ6VHozU2l5MUtGRUhvNHZselFqaVd6aVRqbTRmeHBvRndTbXJSU05iNmRPR2szUzdlY0ZIVUVtTzN0bi1tZtIBtgFBVV95cUxQM04tNVBSZkU5cXdLNzgzS0I0bElYSDc2ajQxemF2QnZyaEJ1dzl2UjJuWWc0SFd2aTZsTXBkNzBJQjhjR0RwSHJ6RHBXU0p1dG5oRTJNWW12d0JiNk9JNHZJdEIwbVNnelI4dG1lUWRQR1E3VXE3Z0NSWjlaZlBwX1h6OVdLaGtab01ZNjhNQ3RjcW5XSmR2NXFTZHU2RUlHX3VNUmdjNWdLcU9mRER1RkFCU0RqZw?oc=5",
-          "description": "Pope celebrates his 71st birthday but it's Vatican employees who get the gift  PBSPope Leo XIV celebrates his 71st birthday  Vatican NewsAs Pope Leo marks birthday, more positive views of US Catholics",
-          "publisher": "PBS",
+          "description": "Pope celebrates his 71st birthday but it's Vatican employees who get the gift  pbs.orgAs Pope Leo marks birthday, more positive views of US Catholics may be on horizon, says scholar  osvnews.comPope o",
+          "publisher": "pbs.org",
           "pub_date": "2026-09-14T20:30:23+00:00"
+        },
+        {
+          "title": "Hyrox changes rules and apologises for allowing Australian athlete who soiled herself to continue",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR19NMGdsM3JQNHZCaWsxR2NVZXJiSmpwY3c0RU9YZlp1YkdWQkIyWktkMU9GbGY5N2xMeHVLRXVqbW5MX0doeUNfUzlpbWNFVjVNUENsOGlVT2hWTXZiRnlHZU5SVFpFeDEyMEFLWTFtdmljVG1JZERrYzNOSm92MHM4emU1SmlfWlBiUmVhLWp5dnhVLU10NGdreVgzM1ByV1BZZjZDb2lqN0N2WjR1emQ2bkZ2SUlLZnpZbDNHeEtzZ0VOY3ZuSHpYcmxmeDNiOWdB?oc=5",
+          "description": "Hyrox changes rules and apologises for allowing Australian athlete who soiled herself to continue  The GuardianHyrox apologises for allowing race to continue after athlete soils herself  BBC'A win is ",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-15T03:30:00+00:00"
         }
       ],
       "business": [
         {
-          "title": "10-year Treasury yield rises to highest since 2007",
+          "title": "10-year Treasury yield rises to highest since 2007 as Fed rate-hike expectations rise",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaTYxSFZ2NnctamhZYXdkVTNPUi1QcEczSmZuV1YzOTlXVjd0ZUZEZFllOGNsbk9jMTVMU1dKcVdyX1dRUmo1QzBhSS14UFd3UlBEQVczZjhVdDFrZHFKWG1hQ1Uwc2hKY3hYWjh1X1VUX3lYNE1HNzRuWG1OalhYandaYWlBSXN3X0NiTkd5V0XSAZYBQVVfeXFMTkFSczFpQXVBNVp4OU5LNXZGU0sxU201bVNyV29jY3FWa0V6ZjZsNDhET0lVbWw1eFo1bkd6aVhxSGZYaTZFUjVjOHRYQXptbHR6STBycGZiX2QtdjA1aGwzU2gyd0NxbE04WFRCVnRVV1AwOTJzaFZKWDRqYVVMRExuRGpleGhLR3dMT1ZJUkl0dW9FbWNB?oc=5",
-          "description": "10-year Treasury yield rises to highest since 2007  CNBCAsian Stocks to Fall on AI, Key US Yield Tops 5%: Markets Wrap  Bloomberg.comSpike on 10-year bond yields renews concerns over U.S. debt  The Wa",
+          "description": "10-year Treasury yield rises to highest since 2007 as Fed rate-hike expectations rise  CNBC10-year Treasury yield hits 5%, critical threshold for US economy and markets  CNNSpike on 10-year bond yield",
           "publisher": "CNBC",
           "pub_date": "2026-09-15T05:09:39+00:00"
         },
         {
-          "title": "AI 'kill switch' may need to be mandatory, Anthropic co-founder tells BBC",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LX1VWZndOZkpCRzh4M21BdnVxb0QwNGxiX3UxamJ6TlV4ZDZRZWlhY3RmMS14WjNDazU1YWpKMFF4THhWNFF3eDBndzBqdmRBcFl3dTBiTk1GaXM?oc=5",
-          "description": "AI 'kill switch' may need to be mandatory, Anthropic co-founder tells BBC  BBCExclusive | Anthropic Researcher Quits Over ‘Out-of-Control’ AI Fears  WSJWe Must Pace the Frontier  darioamodei.comOpinio",
-          "publisher": "BBC",
-          "pub_date": "2026-09-15T00:32:21+00:00"
+          "title": "Sen. Kennedy readies AI ‘kill switch’ bill",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaXlXWTBIcEh2VWJSQXRvUVZremRtVllHNTBjUXY5UDRwdnRWbmpfamFKZXhvaS16X0xWeHBjWTZ5THpuMzI0VC1QNU1BaUtpT2hCWVZLRTk5SFVWN1FmTGRrUklybGo0VTRwWXIwa3RwekFpNG9qTGdGX3Y5OUdmX2RTQXdYY2tUTm9rOTIyRkR3MlJFR3VlQjdXbjhpUzNac21OSA?oc=5",
+          "description": "Sen. Kennedy readies AI ‘kill switch’ bill  PoliticoExclusive | Anthropic Researcher Quits Over ‘Out-of-Control’ AI Fears  WSJEx-Google DeepMind researcher adds to warnings that AI could 'kill all hum",
+          "publisher": "Politico",
+          "pub_date": "2026-09-14T23:38:55+00:00"
+        },
+        {
+          "title": "Warsh’s Arrival Ended Trump’s War With the Fed. A Rate Hike Would Test the Truce.",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYlA3RjFJVWdqbXRZSGp1S3dCTkcwbC1ybGRNLU9weFZkbXljejVwWEpaNzgyN25xVVFVWmxhUHlGMEdXNlAwWFBhOWhKNTZ1U3dTUWNRbDcyQ3ZjbnlQaEFTY0c4RGpiWUhnMDBQNHdWSDRSdy1XLV80ZU5JTXBEUTFJLWxPZVRRb1lWOFlMM0t3MENVN0xLU2ZJVUJmMF9UbkdIUmU1ZjM1cFEwSkFLYXBXdkVGZVM1VWI1emhZR2FQc09LNU8zdHZ3?oc=5",
+          "description": "Warsh’s Arrival Ended Trump’s War With the Fed. A Rate Hike Would Test the Truce.  WSJCNBC Daily Open: A 'hoax,' a sell-off and a dilemma for Warsh  CNBCFederal Reserve is expected to raise its benchm",
+          "publisher": "WSJ",
+          "pub_date": "2026-09-15T01:00:00+00:00"
         },
         {
           "title": "Bank of America CEO Sparks Bank Stock Selloff With One Small Word",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcTh3OEh1dVJfRmRuYURMX0lwOUlxeGlMcy1YVzZqeW84d2lOaVV2VzVpZVlucUtkMmd1d3ctZWRtNE1xX1BfZDZmZ3M1TmY1UzZSWU5fUFlYeDgxMENkS290RURLUjBhRFVtRHhkeVFhWHJFa29QNFJEOFljTW1Zeg?oc=5",
-          "description": "Bank of America CEO Sparks Bank Stock Selloff With One Small Word  Barron'sBank of America expects third-quarter investment banking fees to fall more than 10%; shares slide  CNBCBank of America leads ",
-          "publisher": "Barron's",
+          "description": "Bank of America CEO Sparks Bank Stock Selloff With One Small Word  barrons.comBank of America expects third-quarter investment banking fees to fall more than 10%; shares slide  CNBCBofA CEO’s Trading ",
+          "publisher": "barrons.com",
           "pub_date": "2026-09-14T20:42:00+00:00"
-        },
-        {
-          "title": "'The bond market has taken down more governments than howitzers': Scott Bessent cuts Kevin Warsh some slack ahead of anticipated rate meeting",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT0V1VFB2MFFsTFJvaFg3TzNNQllUWThYOUVqbXR4RGhhTE9STzhxV25BTDN6ZFpoZ01jWkg2RkZnbHhqSjFnb3VBY2tPU3FuN3R5aEhMS25jR1hWN1ExUVN0QWY5YjM1dHdoZWNvcU1vR2dqZ1NMeVlLSlVIZVkzTGoxSTIwdUpQLVlhVGV1N0JnWHVYYTFN?oc=5",
-          "description": "'The bond market has taken down more governments than howitzers': Scott Bessent cuts Kevin Warsh some slack ahead of anticipated rate meeting  FortuneCounting the votes: Warsh faces a tough battle as ",
-          "publisher": "Fortune",
-          "pub_date": "2026-09-14T11:19:00+00:00"
         },
         {
           "title": "AI stocks drop, but the rest of Wall Street holds steadier after oil prices give back an early jump",
@@ -849,23 +849,16 @@
         {
           "title": "Here's the severance package Oracle offered laid-off US employees",
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORWYwZEhhbGFoX0VyZjFJZDROZFFuTlNHRHBkRlpKVVIyMUxjbVFCVE9TclZNZF9CMnU1aFVNRkFhX19GS295c0JjemhWRTdnNVN0WmtwS21oWlpSR01fZDd2WUZSa0oydGZmdUM4YjNQaHZUemJHQ0RobVdzS0FDa3d3?oc=5",
-          "description": "Here's the severance package Oracle offered laid-off US employees  Business InsiderOracle begins a new round of layoffs. Read the email.  Business InsiderOracle layoffs: Employees receive ‘6am job cut",
+          "description": "Here's the severance package Oracle offered laid-off US employees  Business InsiderOracle begins a new round of layoffs. Read the email.  Business InsiderOracle begins new round of AI-driven layoffs: ",
           "publisher": "Business Insider",
           "pub_date": "2026-09-14T18:29:00+00:00"
         },
         {
-          "title": "Gillibrand privately urges Dems to advance crypto bill",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGJFQjRTNDFMcmU2M21xVzBIcHEtamRvZ0doQU9YamF5MG9nbUFzQlk5U2FZcUNrWlJodEhMbThCX2RJSTZ1SFVQX2tFVXc4dTVqTDJNRzA1cXFjbWgzMTBxZG1ndnV2ZVdJZndETHdhby1lY1JOSGtHRUxJNjRkQ3hTdWlmQjZqLXBSRDlpLTFieGpDd0pac09EQXRWWGJIUUpPdzQxOXpVVlZtQjJ1U1Q2azJ3ZTc4WThkMW5n?oc=5",
-          "description": "Gillibrand privately urges Dems to advance crypto bill  PoliticoWarren to rip Clarity Act on Senate floor ahead of key preliminary vote  CNBCDemocrats send counteroffer to Republicans over Clarity Act",
-          "publisher": "Politico",
-          "pub_date": "2026-09-14T21:56:41+00:00"
-        },
-        {
-          "title": "Tesla: The Cybercab Failure Is Worse Than You Think (NASDAQ:TSLA)",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbmNoU1FUM01HdFVpdEU3alU4aFdpS3NCLTFaZExqOURHQlByVzc4TUhCd1RqeU5tdjJWM2J5NkJ1cUpmOUJSUnNVTS11cUNZakp2emxZakxYeTVycFp2R0VNblNwaHdnc21NUTRoVVU1M3RnR2RhMTF3Wlp2VmZOcHM4RE9GcnpFNXBtdUJHRDlneHJtMXc?oc=5",
-          "description": "Tesla: The Cybercab Failure Is Worse Than You Think (NASDAQ:TSLA)  Seeking AlphaRobotaxis Don’t Go Home at Night… and That’s Creating a New Real Estate Gold Rush  Yahoo FinanceTesla Reinvents the Stee",
-          "publisher": "Seeking Alpha",
-          "pub_date": "2026-09-14T17:42:14+00:00"
+          "title": "Microsoft unveils code of conduct for AI models as safety concerns mount",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdWpZR3VITmpIUWJSN0ZBVGQ0TTdfeE5VUUgtM0VMZzBPRkVzQ3VyelRvSHQ0eVBvdUlhMnVTbUp1S0YtR0VaYlV3eXYzZ1JSWG5qX0NremliVVhpQUhRSG03d0dzd2M4TDBsNGIyVzB5Wk4wNVFmbFdjZVBSb3R0SkJudlFydzA3S1N5X2ZsMkJCLWRZZWh4TGVtWFY3UkhmSkVB0gGoAUFVX3lxTE1fSWVqOWlfeEtVeGVMUDRzMzA3OVl0UDVZYm9JSjgwbW01Wk9NQkZCX3prSUFJOW1pU1BvUloza3lwYlh3SHQxaHBHbjRHQUEwdjRRMmU4aGpQRG5JYkNXSk8tM1lkckJ1R1NiNEVqRjdsU29MRHcyOVdUR3BOZTFwQmE3bzJ2LXRzWlRrWlNBekJOWGlWcDhjT1NKeFpkX3I5NEZ5WHE2eg?oc=5",
+          "description": "Microsoft unveils code of conduct for AI models as safety concerns mount  Fox BusinessMicrosoft sets limits for future AI models as industry throttles frontier development  CNBCMicrosoft Sets Limits f",
+          "publisher": "Fox Business",
+          "pub_date": "2026-09-14T18:00:00+00:00"
         },
         {
           "title": "Carney Courts the World’s Top Investors at Toronto Summit",
@@ -882,6 +875,13 @@
           "pub_date": "2026-09-14T10:54:58+00:00"
         },
         {
+          "title": "Gillibrand privately urges Dems to advance crypto bill",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGJFQjRTNDFMcmU2M21xVzBIcHEtamRvZ0doQU9YamF5MG9nbUFzQlk5U2FZcUNrWlJodEhMbThCX2RJSTZ1SFVQX2tFVXc4dTVqTDJNRzA1cXFjbWgzMTBxZG1ndnV2ZVdJZndETHdhby1lY1JOSGtHRUxJNjRkQ3hTdWlmQjZqLXBSRDlpLTFieGpDd0pac09EQXRWWGJIUUpPdzQxOXpVVlZtQjJ1U1Q2azJ3ZTc4WThkMW5n?oc=5",
+          "description": "Gillibrand privately urges Dems to advance crypto bill  PoliticoWarren to rip Clarity Act on Senate floor ahead of key preliminary vote  CNBCUS Senate Republicans release new crypto bill text ahead of",
+          "publisher": "Politico",
+          "pub_date": "2026-09-14T21:56:41+00:00"
+        },
+        {
           "title": "Long COVID’s brain fog finally has a biological explanation: Dopamine loss",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeVpzbkQ0NmJZN2V0Mkh1d2taTkRDQTVobWdMMHI4MUE1Ykh6WDR1UUdFN2RpeXFjUm9rb2Z3ZW01SzlkdzRheHRQbFpuMERJSGlTT292NkJMd0VJVUtwQkh4S05fZ09oOUk1eEl6YVliNXljb1MyN0EwOGk4OEVGb2lWdFdfOUZ3bVhnUmdIaw?oc=5",
           "description": "Long COVID’s brain fog finally has a biological explanation: Dopamine loss  FortuneWhat should clinicians know about “brain fog” from Long COVID?  NeurologyLive",
@@ -889,18 +889,25 @@
           "pub_date": "2026-09-14T18:55:00+00:00"
         },
         {
-          "title": "Microsoft unveils code of conduct for AI models as safety concerns mount",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdWpZR3VITmpIUWJSN0ZBVGQ0TTdfeE5VUUgtM0VMZzBPRkVzQ3VyelRvSHQ0eVBvdUlhMnVTbUp1S0YtR0VaYlV3eXYzZ1JSWG5qX0NremliVVhpQUhRSG03d0dzd2M4TDBsNGIyVzB5Wk4wNVFmbFdjZVBSb3R0SkJudlFydzA3S1N5X2ZsMkJCLWRZZWh4TGVtWFY3UkhmSkVB0gGoAUFVX3lxTE1fSWVqOWlfeEtVeGVMUDRzMzA3OVl0UDVZYm9JSjgwbW01Wk9NQkZCX3prSUFJOW1pU1BvUloza3lwYlh3SHQxaHBHbjRHQUEwdjRRMmU4aGpQRG5JYkNXSk8tM1lkckJ1R1NiNEVqRjdsU29MRHcyOVdUR3BOZTFwQmE3bzJ2LXRzWlRrWlNBekJOWGlWcDhjT1NKeFpkX3I5NEZ5WHE2eg?oc=5",
-          "description": "Microsoft unveils code of conduct for AI models as safety concerns mount  Fox BusinessMicrosoft sets limits for future AI models as industry throttles frontier development  CNBCMicrosoft Sets Limits f",
-          "publisher": "Fox Business",
-          "pub_date": "2026-09-14T18:00:00+00:00"
-        },
-        {
           "title": "China bristles at Anthropic CEO’s ‘fearmongering’ about its AI development",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR1hUdWtVT3RlWE4yUGZLeE52YXpQczNrR012eHJGcVlfd0xhWU5UTTVHeUx2aU1UVjBaSlRIUW10TGh1cE1TbVMzVnNENVBfN0hncjF3bXVFOUJBc3d6MWpxWlFxWnBiSE1kTDNoNjBkZ1JSLUZyWXlqbU5PVk9veDJOd21iZGRIREQtRlBBeU1HZw?oc=5",
-          "description": "China bristles at Anthropic CEO’s ‘fearmongering’ about its AI development  AP NewsChina’s Top Spy Chief Warns A.I. Is a Threat to Party Rule  The New York TimesChinese State Media Dismisses ‘Self-Ser",
+          "description": "China bristles at Anthropic CEO’s ‘fearmongering’ about its AI development  AP NewsChina’s Top Spy Chief Warns A.I. Is a Threat to Party Rule  The New York TimesHow China is preparing for the risk of ",
           "publisher": "AP News",
           "pub_date": "2026-09-14T17:01:00+00:00"
+        },
+        {
+          "title": "Sam Altman identifies two biggest risks facing AI's future",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTjFjYTBqNGxOV0NOT09EbzkxdWUzOWpLa1ppdU9IOTQ0bS03VTJVOVZ5Z0tKMTlid0UtZ2d6RnpoUEs2WEswaXd6amJjZnFHYUdGaUtQdHVnQ1RNRXUtQktoYVBmMlZ3YkE0ODRfLWtTMFk1YXBDYThERFY2TDBtbVhLOGt0cEtpNVN2MWpPamgtZmZhN2lOcUlaUVnSAaIBQVVfeXFMUG5HMy1maDZuUm0xQndrSjRDazBqcS1rT3JCM01pWUtHZlZqbzNVY0haTzBCamdMUHpSTjQ0dkdNa0F6S2hOVEVNd1hSaEJTRnlPTXBzMW04T0pPaXlKTEpManIxMEdsbnlnSmtwemplS0M0VnNscjRHUXlEcktua0hfeWNRd1U3bXFUcHo2MmZESmx3dmRza01kQ3gycWNwWnZn?oc=5",
+          "description": "Sam Altman identifies two biggest risks facing AI's future  Fox BusinessOpenAI CEO Sam Altman on AI: 'We could lose control'  Yahoo FinanceGreg Brockman says OpenAI has already slowed cutting-edge AI ",
+          "publisher": "Fox Business",
+          "pub_date": "2026-09-14T21:53:00+00:00"
+        },
+        {
+          "title": "China's factories rev up but slower consumption highlights deepening economic imbalances",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQWVqZFJEci1EMEFFMTlfUmdoUkl6NHk5bTk3S3FuX1kzbFF3eW8zNVd1SHdJRFBwWDJvRkZMQWdyeUhsOHdjc3hoWXluMjFXZDJEa0w1Y25LYjJ4Z0toVHBUR214X29xRWNBLXJBX25fdlhGb3YtOTBReDZZcUdyWEM3Wm8xQklPcGtjVXN5ZGlaajBucFJfNGYxQ1hqRWlHTHdaTGVUU3FFSENYUFloVklCMTVpYmtSOU5HWA?oc=5",
+          "description": "China's factories rev up but slower consumption highlights deepening economic imbalances  ReutersChina's August retail sales miss forecast while investment slump deepens, piling pressure on Beijing  C",
+          "publisher": "Reuters",
+          "pub_date": "2026-09-15T02:37:00+00:00"
         },
         {
           "title": "Revised NextEra bid for Dominion would boost bill credits, add 600 Richmond jobs - Richmond Times-Dispatch",
@@ -908,29 +915,22 @@
           "description": "Revised NextEra bid for Dominion would boost bill credits, add 600 Richmond jobs  Richmond Times-DispatchDominion Energy and NextEra announce new Virginia benefits package  WAVY.comEnergy giants seeki",
           "publisher": "",
           "pub_date": "2026-09-14T17:24:00+00:00"
-        },
-        {
-          "title": "Amazon suspends use of 21 Air, cargo carrier whose plane careened off Miami runway",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY3ctWDZmSWhuWDdKeWp4NVhaVk9KR2s2eVZvcVo3Rk94d3V1a0JzbnkzSEl2WnpDREkyLW1xOWdscEVLME5ka0E4OGVJMkpFeng1U2NYd1BlbTRQeVgtUTh6WEVadnc5dzE2RUtreGZ5LW9kbWQ2aEtNMWZmUzVkWVNDTjJuUQ?oc=5",
-          "description": "Amazon suspends use of 21 Air, cargo carrier whose plane careened off Miami runway  NPRAmazon suspends ties with cargo airline, and MIA faces delays after crash  Miami HeraldAmazon Suspends Flights Wi",
-          "publisher": "NPR",
-          "pub_date": "2026-09-14T05:26:01+00:00"
         }
       ],
       "technology": [
         {
           "title": "Apple releases iOS 27 with Siri AI overhaul",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZWNXaGMycFQ3Qmw0RVdfU3hoay16YmNvWXF0NTBGTUQyY3k5MU9hNDM2NEJpWGt3VVkwVHB6am5DVl9KUUQ0c1M2NXB2Y2c4R2tNOW50ZTcwdldBcThxRG1WR1Z6ZTJ2bHJTWGcxSVphR2JseFpCR0xja3VaNjdJSU1OUms?oc=5",
-          "description": "Apple releases iOS 27 with Siri AI overhaul  The VergeMajor updates for Apple’s software platforms are now available  AppleApple releases test of redesigned Siri AI before iPhone 18 hits stores this w",
+          "description": "Apple releases iOS 27 with Siri AI overhaul  The VergeMajor updates for Apple’s software platforms are now available  Apple50 New Things Your iPhone Can Do in iOS 27 - Out Now!  MacRumorsApple release",
           "publisher": "The Verge",
           "pub_date": "2026-09-14T17:10:32+00:00"
         },
         {
-          "title": "Valve Announces Steam Frame Price, Release Date, and Accessories – Pre-orders Now Open",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE12My1Wbmg0VFZUUDVkS3JaSFVwSm94Vl9oODZmektaT3dIMkx2M2tCYmdrWjdpTW9Rb2dhdkNnVlRzY2FINnhqekdhcjdIdFRrbnQ4TXNCaEZXamM1UGI0ZWZWUmVSa291V2s5Z1pyeTRuZw?oc=5",
-          "description": "Valve Announces Steam Frame Price, Release Date, and Accessories – Pre-orders Now Open  Road to VRSteam Frame: The Ars Technica review  Ars TechnicaSteam Frame, Reviewed: Valve's Ambitious VR Headset ",
-          "publisher": "Road to VR",
-          "pub_date": "2026-09-14T17:02:05+00:00"
+          "title": "Steam Frame Costs More Than $1000: Price, Release Date, Reservation Queue Confirmed for US, UK and EU",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUk1IOGtKMy1HVG1NTHIzY09SR0N3dkdGc3pkdUpNVHJMZ0xEeGZLbWRKTHRSNEYzcjJBcHRBM1hSdUNBX0pWMVVFMDFhMElFakNPaUh0Y2hrYjR4cHlSUlUzNE5qekFJUll4SjQ1dVBjTTVrVE5hNmNoQmQyOFpXYUJNeGpBRkZ6cm9JemcwTDdTV05TU0tvR2E1dC1Ia2U0eUgzcHBkb2U4Q2p6ejlTdjh1Nk9XaHNzdGVVWGpqY25DMXQ1VUVCdVBEb09pWk5wYUprZmxEdHFMY1U?oc=5",
+          "description": "Steam Frame Costs More Than $1000: Price, Release Date, Reservation Queue Confirmed for US, UK and EU  Digital FoundrySteam Frame: The Ars Technica review  Ars TechnicaSteam Frame, Reviewed: Valve's A",
+          "publisher": "Digital Foundry",
+          "pub_date": "2026-09-14T22:25:28+00:00"
         },
         {
           "title": "Pre-Orders For The Android-Based Googlebook Laptops Open On September 21",
@@ -954,6 +954,13 @@
           "pub_date": "2026-09-15T00:23:00+00:00"
         },
         {
+          "title": "Fire Emblem: Fortune's Weave Voice Actors Officially Revealed",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWjdXM2xuamJxUWZIdktxbS1IVlB6WXNNOVFKR1FYSEJEUGxOdVBneEVaelZxdE9IbkNUcE44b0IwRXhBRDNsM2o4VWtVZW1RUzFJOTBuMU1YamlVN29DWm1haGhuZDN6LXh6bFlxeDJYcGh5ZVdVQ0haV3dLeU1lYmh3WjZzeDlMTEdvZXFNTktCN0lkVzV6WVZaTjZqTXkwd2pV?oc=5",
+          "description": "Fire Emblem: Fortune's Weave Voice Actors Officially Revealed  nintendolife.comFire Emblem: Fortune’s Weave Overview Trailer Digs into the Details  CrunchyrollFire Emblem: Fortune’s Weave voice actors",
+          "publisher": "nintendolife.com",
+          "pub_date": "2026-09-15T01:55:00+00:00"
+        },
+        {
           "title": "iOS 27 AI Camera Summaries Cost $9.99 for One Camera, $59.99 for Five",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hUHYxNVBTbUIwREdtUWNJVHFjXzVQOEU5d3Z3aURVX201V2NPWDlkNnRGelNYbHRhTzVkaXRfZ2ttMmNad3B6V1hKeFdFdkpaYkZFMU9STExxWTY0eDV0eG9QbGlzbTdtYTU3cFN2ODJIZw?oc=5",
           "description": "iOS 27 AI Camera Summaries Cost $9.99 for One Camera, $59.99 for Five  MacRumorsApple Home’s new security camera features cost as much as $60 a month  The VergeWhat Are The Major Changes Coming To App",
@@ -961,30 +968,30 @@
           "pub_date": "2026-09-14T21:46:30+00:00"
         },
         {
-          "title": "Fire Emblem: Fortune's Weave Voice Actors Officially Revealed",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWjdXM2xuamJxUWZIdktxbS1IVlB6WXNNOVFKR1FYSEJEUGxOdVBneEVaelZxdE9IbkNUcE44b0IwRXhBRDNsM2o4VWtVZW1RUzFJOTBuMU1YamlVN29DWm1haGhuZDN6LXh6bFlxeDJYcGh5ZVdVQ0haV3dLeU1lYmh3WjZzeDlMTEdvZXFNTktCN0lkVzV6WVZaTjZqTXkwd2pV?oc=5",
-          "description": "Fire Emblem: Fortune's Weave Voice Actors Officially Revealed  Nintendo LifeFire Emblem: Fortune’s Weave Overview Trailer Digs into the Details  CrunchyrollFire Emblem: Fortune’s Weave voice actors an",
-          "publisher": "Nintendo Life",
-          "pub_date": "2026-09-15T01:55:00+00:00"
-        },
-        {
-          "title": "Apple Releases macOS Tahoe 26.7 and macOS Sequoia 15.8",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE40czBTY2F2dTZYZ0FkaEtRZTI3ZUE3eWxFU1U0eFBobWJvZk1hekFsaXp0cHJxcGZ6RXEzM2xLbGFfczRfaDN4R1l6UHBmVnVxdHF2bmRaQmZIdkx0WFJuTnZVRF8tRzBHb2dJLW84Mnd2d1RsVGlGQg?oc=5",
-          "description": "Apple Releases macOS Tahoe 26.7 and macOS Sequoia 15.8  MacRumorsApple didn't forget about updating older operating systems  AppleInsiderApple iOS 26.6.2 New iPhone Software: Should You Upgrade?  Forb",
-          "publisher": "MacRumors",
-          "pub_date": "2026-09-14T17:40:01+00:00"
+          "title": "Apple releases macOS 27 Golden Gate: 7 new features to try",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ybGFFNE5hb3BZdU43amc1SHVZRU5ha1Bla3phaC1KQ3NnQk0tdWxqMjltMEZMTHRKRjY4ajVIdUtIYzVvSGxCTlp3LTJaMHYzSE5MYklXb1JjMVRzT3ZHaC1ST21tMWh4akNiaDJCaw?oc=5",
+          "description": "Apple releases macOS 27 Golden Gate: 7 new features to try  MashableOur OS 27 Review Extras: eBooks, Shortcuts, and the Making of the iOS and iPadOS 27 Review  MacStoriesmacOS 27: new Siri takes on AI",
+          "publisher": "Mashable",
+          "pub_date": "2026-09-14T20:37:53+00:00"
         },
         {
           "title": "Two MVNOs, one under the radar, make announcements about the iPhone 18 Pro and iPhone 18 Pro Max",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVVHc21MZDhyMklGYmxPblBjbzhmR19RNDVwOGFxOHZka0pWLTRuRzIxZkdCTTFSeS1BOTBWUjlzeUt6alg0N1E3MGk3Y1A5WFA1WFZzd1hNWm5kQjFndWtTUHFLU3hZZHk4OHNDTngydGhfZko1SlU1cmFuNC1qTlZOblZaclc5OTR5bm9Od2dFR0psbFZYclY4WHhSMk1aWVlZV1laR2tfVHRvQm9weQ?oc=5",
-          "description": "Two MVNOs, one under the radar, make announcements about the iPhone 18 Pro and iPhone 18 Pro Max  PhoneArenaApple debuts iPhone 18 Pro and iPhone 18 Pro Max  AppleAll the phones T-Mobile is giving awa",
+          "description": "Two MVNOs, one under the radar, make announcements about the iPhone 18 Pro and iPhone 18 Pro Max  PhoneArenaiPhone 18 Pro: What's new with the cameras  MashableGet ready to experience iPhone 18 Pro, t",
           "publisher": "PhoneArena",
           "pub_date": "2026-09-15T00:11:45+00:00"
         },
         {
+          "title": "The Fujifilm Instax Pal 2 Digicam Looks Nothing Like its Weird Predecessor",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeDVXc3doMmxYUG55cnc2Vlg3VmE4WXRSeGJtdGxOOVRseFZ4WENfQ2RtSXJScWg0d0s0ZEZpUkJIV3JzWDdZTENFbnE0WTVDYWZTcnV2WXlPZllmZWg5dnFpS3hyOURfY2thdkhVVGdSalJ5VURfbTFZMXJlclhaZmNuM0MwZWVXRUZyOEZLT2NDb1RGZ1BHalJuS0FXa09DQ28xcVlQNExJcUgy?oc=5",
+          "description": "The Fujifilm Instax Pal 2 Digicam Looks Nothing Like its Weird Predecessor  PetaPixelI tried Fujifilm’s tiny retro cam. The Instax Pal 2 is small in size, big on fun and near-perfect for retro compact",
+          "publisher": "PetaPixel",
+          "pub_date": "2026-09-15T02:03:54+00:00"
+        },
+        {
           "title": "IGN Ownership Chooses Busiest Time For Games Media In Years To Lay A Bunch Of People Off [Update]",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TNzF3Q012RVNLOURzeGFrVWVKYWRzdjR3SWgzZnd0VEtTR2xRbUZaZzZtMUx3Wm9ZQTNHbXNHVlF6MHJ1STRsYUoyYThZZG14OWc5MS1mV1pySXc?oc=5",
-          "description": "IGN Ownership Chooses Busiest Time For Games Media In Years To Lay A Bunch Of People Off [Update]  AftermathSources: Brutal IGN Layoffs Hit Multiple Departments And Long-Time Hosts [Update]  KotakuIGN",
+          "description": "IGN Ownership Chooses Busiest Time For Games Media In Years To Lay A Bunch Of People Off [Update]  AftermathSources: Brutal IGN Layoffs Hit Multiple Departments And Long-Time Hosts  KotakuIGN Hit With",
           "publisher": "Aftermath",
           "pub_date": "2026-09-14T23:31:56+00:00"
         },
@@ -996,11 +1003,18 @@
           "pub_date": "2026-09-14T18:50:00+00:00"
         },
         {
-          "title": "Apple releases macOS 27 Golden Gate: 7 new features to try",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ybGFFNE5hb3BZdU43amc1SHVZRU5ha1Bla3phaC1KQ3NnQk0tdWxqMjltMEZMTHRKRjY4ajVIdUtIYzVvSGxCTlp3LTJaMHYzSE5MYklXb1JjMVRzT3ZHaC1ST21tMWh4akNiaDJCaw?oc=5",
-          "description": "Apple releases macOS 27 Golden Gate: 7 new features to try  mashable.comOur OS 27 Review Extras: eBooks, Shortcuts, and the Making of the iOS and iPadOS 27 Review  MacStoriesmacOS 27: new Siri takes o",
-          "publisher": "mashable.com",
-          "pub_date": "2026-09-14T20:37:53+00:00"
+          "title": "Apple Releases macOS Tahoe 26.7 and macOS Sequoia 15.8",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE40czBTY2F2dTZYZ0FkaEtRZTI3ZUE3eWxFU1U0eFBobWJvZk1hekFsaXp0cHJxcGZ6RXEzM2xLbGFfczRfaDN4R1l6UHBmVnVxdHF2bmRaQmZIdkx0WFJuTnZVRF8tRzBHb2dJLW84Mnd2d1RsVGlGQg?oc=5",
+          "description": "Apple Releases macOS Tahoe 26.7 and macOS Sequoia 15.8  MacRumorsiOS 27 and macOS 27 are loaded with security fixes–here’s why  MacworldApple iOS 26.6.2 New iPhone Software: Should You Upgrade?  Forbe",
+          "publisher": "MacRumors",
+          "pub_date": "2026-09-14T17:40:01+00:00"
+        },
+        {
+          "title": "Perfect-10 GitLab bug under attack days after patch lands",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM2pGWFByUnBYTWlqeUVzbWNma0lQZ2pqekxfWF9xbWNYMDVrRkVEVGFiMzRKTjBobjJEcEJNVUJZa2pvZy10bl9RSkxtb0ZYbWZSVE1oVTNXSENQSnFIbE1oRGg3YVpUdlNyQWhLOUt0M1oyUWMtcnE1VEdTUGpiYTktUkhQRXBVSXA3cWM2UWJESVh4Y0F3RzA0T3F4WGd3dWJ0S1NVd1pJUUVwZml5VTR3dw?oc=5",
+          "description": "Perfect-10 GitLab bug under attack days after patch lands  The RegisterGitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure  The Hacker NewsHackers Exploit Maximum Severity Flaw in ",
+          "publisher": "The Register",
+          "pub_date": "2026-09-14T14:30:00+00:00"
         },
         {
           "title": "‘StarCraft’ Is No ‘Destiny 2’ Live-Service Replacement, Blizzard Confirms",
@@ -1008,99 +1022,22 @@
           "description": "‘StarCraft’ Is No ‘Destiny 2’ Live-Service Replacement, Blizzard Confirms  ForbesStarCraft Is Returning, but as an Open-World Shooter  The New York TimesThat’s a Wrap on BlizzCon® 2026  Blizzard NewsB",
           "publisher": "Forbes",
           "pub_date": "2026-09-14T15:15:21+00:00"
-        },
-        {
-          "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObkM5aUV1VFpCVFBOMjA2cVp1bTV6d0NOaVJMY0V2dzJUSTIwNDNCUmEtUERlX00xMmE4QkdhQ1pjbEVTYUNoTUFkdDliYlJSd212VXFhVkZqNWJsWVB6eDdmc2p5NXJoZWlmRXdqTDBudVhlRU5nNk9kS1NJV0h2UHNmdkVBbnlGa0tzclZHQTJUU0VnVnZpYWE1T0xFNi01ZzFYZExxX012WW0w0gGyAUFVX3lxTE9Tcnk2dkRHUG9VYWdzVHFjYktxREpPRnlCOVB3NndZNk1SS0ljZFU1S0lOTkVGcFdRRjNWVnN2V2F1TFlQV1VPWFpDRTJib1NCWkVuSms0REJhc3BtbG5JVzZYYXpKMDJmVXVJY2ZHYWlfQkdYdmdVUkpoOEZKcWs4NlB3SUtPY09hSWRlbjlRMzVRYVY3eEdZaFlyT19LUGtDdU1FUzQ5cjZMallkY0pudlE?oc=5",
-          "description": "CISA: Hackers now exploit max severity GitLab flaw in attacks  BleepingComputerGitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure  The Hacker NewsRapid Reaction: GitLab Path Trave",
-          "publisher": "BleepingComputer",
-          "pub_date": "2026-09-14T07:06:27+00:00"
-        },
-        {
-          "title": "GTA 6's first confirmed actor is King of the Hill's Stephen Root: \"It's an amazing thing to look at\"",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSnBnTHhBQ1Bsa3g2SnJzRkVQSWFBQk5JVnZCSVRTRlBaZmRWT2tKSUJRQ3VRZ2NIRW8zS1VfVWczZVBYU054MDBGNzJsYkVMb2MxT0NOQTVqZzVkM1BDTVBub05rY0ZZbl9aV081M3VHdWVWa043S3ZfeTdpYV8xZXRoUQ?oc=5",
-          "description": "GTA 6's first confirmed actor is King of the Hill's Stephen Root: \"It's an amazing thing to look at\"  Eurogamer.net'You're Gonna See Me in It' — King of the Hill Voice Actor Confirms Role in GTA 6, Fi",
-          "publisher": "Eurogamer.net",
-          "pub_date": "2026-09-14T19:04:43+00:00"
         }
       ],
       "entertainment": [
         {
-          "title": "Emmy Winners: ‘Widow’s Bay’ Dominates With 14 Wins, ‘The Pitt’ and ‘DTF St. Louis’ Tie With 7 Awards",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QU1k2RnZfaWJVWlA4SG5uZnFzb2tnRkV3Qm5GQWNCei1lRXNGb3h4YVJBLVFGeHNyNW5YaFduUEFZcmRTVjNwUlZER0hscnRoMVc1cGRMZlFMUFB1b1JLbVNSR3hFQ0pOd3BnUm5Ja29RR1V0MXZLaVgyWWQ?oc=5",
-          "description": "Emmy Winners: ‘Widow’s Bay’ Dominates With 14 Wins, ‘The Pitt’ and ‘DTF St. Louis’ Tie With 7 Awards  Variety‘Widow’s Bay’ breaks Emmys record with 14 wins including best comedy series, 'Pitt' wins be",
-          "publisher": "Variety",
-          "pub_date": "2026-09-15T02:57:00+00:00"
-        },
-        {
-          "title": "Macklemore says he was dropped from Ed Sheeran tour after Patriots owner Robert Kraft organized boycott",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd29wODhuZlktU3JvamFHU0lhaHhEaHpRTUpUajJaeXdSb2ZHdnVpTlRFZUc4Q0pGRDRqdi1hWnJiU1dOUVVTMEE5OTN5bEc0Xy0zTnU4emRkc1VFYmdLNVB3bEhnVUNENTdCSmNMdmY0QTRRbG1aRmh0VTdMUlpCbHVqZHNpNWtxM2U0SHZrSmdVY1ExcnEwWmJ1WEdROUhvMzkwUWpQcVFhczVZS3ZYajNvY001LU9vcG1iY3hYY2J2aXdJSUtJa2tid3Y0VkU?oc=5",
-          "description": "Macklemore says he was dropped from Ed Sheeran tour after Patriots owner Robert Kraft organized boycott  NBC NewsPatriots' Kraft says Macklemore performance would cross line  ESPNDearborn mayor invite",
-          "publisher": "NBC News",
-          "pub_date": "2026-09-14T21:50:48+00:00"
-        },
-        {
-          "title": "Everything We’re Obsessing Over on the 2026 Emmys Red Carpet",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wQzU5am5FY3FPWFpDWWhMS0g4c0JhWkxMV0hNUW9HWWt2d2FoNjNVTl9ZTVN6OUZWZG42UldsU193SEpxS1pmcTd4R29UY0FWNFV5SUt4Zm02bDNyTGpyOUdtUUpkS3I0M0taWnUwdGZzdw?oc=5",
-          "description": "Everything We’re Obsessing Over on the 2026 Emmys Red Carpet  The CutAll the looks from the 2026 Emmys red carpet  Los Angeles TimesMemorable moments from the Emmys and everything you couldn't see on ",
-          "publisher": "The Cut",
-          "pub_date": "2026-09-15T02:17:00+00:00"
-        },
-        {
-          "title": "Bob Mackie: A history of his designs in pictures",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwdktTZXpkSXBDSkl3UVNRcUNzRXg0QU5hb0tvNGxOR20xc3ZRaklZS25oN0VEWGxsWFY0ejR1VGFJcDVoRW8xWWRScG1jOHd2aW81dk5vVnpJOFU?oc=5",
-          "description": "Bob Mackie: A history of his designs in pictures  BBCBob Mackie, Designer Who ‘Dressed Every Spangly Woman in Show Business,’ Dies at 87  The New York TimesCher leads tributes to 'sweet prince' Bob Ma",
-          "publisher": "BBC",
-          "pub_date": "2026-09-15T02:53:39+00:00"
-        },
-        {
-          "title": "Emmys 2026: Taylor Swift Helps The Law & Order: SVU Crew Solve Its Biggest Case Yet (Yes, Really) — Watch",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQmhlUjAzTVE3QWp3UXhHaXoxVTQtdS0xekxubXVWYjZwdnRNVk53TFladjhYRWxRQkMyOHhaVmpNTS1WLXQ4RjJUeS1yWXl6TW9JTkNWMHpmU0dqdXctbnFiVHVyWVh1NFRGLTBwenZLNkZMaEpGb0R2ejhmeERpQXJFWFhiZVhZdFk1ZzVhWS0tendv?oc=5",
-          "description": "Emmys 2026: Taylor Swift Helps The Law & Order: SVU Crew Solve Its Biggest Case Yet (Yes, Really) — Watch  TVLineWhy Taylor Swift Isn’t at the 2026 Emmys  ELLEWatch: Taylor Swift makes surprise cameo ",
-          "publisher": "TVLine",
-          "pub_date": "2026-09-15T03:45:00+00:00"
-        },
-        {
-          "title": "Matthew Rhys makes Emmys history, winning two lead actor awards on the same night",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeWVPZHRGb3liaE05SVRnd1RTZk5zblI1aXB5UXRuVi1OUWxzMVYtTmNZdTJkTS1KRmVGSTVNZUdRVFAzZm5FTFVQZzd2ZzVjNW1XN1ZsSURPTEs2SGhXdDRpQTMzZEk5azN1Sm9SR1dzODJHcy1QU1lDMlRLSkx3dHBTS2h3Nk15R21hS1h6NFhScURBMEN0UmhoLUFEWlJlaFBsYS1qRlE?oc=5",
-          "description": "Matthew Rhys makes Emmys history, winning two lead actor awards on the same night  Los Angeles TimesWelsh actor Matthew Rhys makes Emmy Awards history with double win  BBCMatthew Rhys Makes Emmy Histo",
-          "publisher": "Los Angeles Times",
-          "pub_date": "2026-09-15T01:59:18+00:00"
-        },
-        {
-          "title": "Emmys In Memoriam Excludes Chuck Norris, ‘Buffy’ Actor Nicholas Brendon and More",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPblNOYXpFcFBuLTBkTmdlNDhnZm9yWWsycXNnbThKbHR3eW5XTmtHdzlKM1R4emVUa01YcE1HVE9Vdy1aY2prQW1GNm5ET1pDdy1yRkRvY2djQ0ZQX1VVbFRDWUowSUNXeDVKWWtBYmlpYW5uUlN2d3ItbzE5Q29GbzFlOA?oc=5",
-          "description": "Emmys In Memoriam Excludes Chuck Norris, ‘Buffy’ Actor Nicholas Brendon and More  Yahoo News CanadaSee more headlines & perspectives on Google News",
-          "publisher": "Yahoo News Canada",
-          "pub_date": "2026-09-15T03:04:00+00:00"
-        },
-        {
-          "title": "Michael J. Fox Earns Huge Emmys Ovation and Inspires Tears as He Accepts Humanitarian Award: ‘Accepting Parkinson’s Didn’t Mean I Had to Surrender to It’",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUDVveUt6cUM3RkMwVFRBRFZGVzROYkFZMWdJRjl0aENkZVBQdUZRRnJOc2d6azlzbTVvdm43U004Wl9wNmNMR09nSDVoSS1XYzdFSmR3WEg2SDN3cW1SemhVODFnVzNwWklJYUhScERpeXZhUnBRbnlsMER3UGZuTTdjYWdpSzZ4M01EQnJTZ2g?oc=5",
-          "description": "Michael J. Fox Earns Huge Emmys Ovation and Inspires Tears as He Accepts Humanitarian Award: ‘Accepting Parkinson’s Didn’t Mean I Had to Surrender to It’  VarietyMichael J. Fox receives standing ovati",
-          "publisher": "Variety",
-          "pub_date": "2026-09-15T02:11:00+00:00"
-        },
-        {
-          "title": "Mariska Hargitay Debuts Hair Transformation to Host Emmys 2026 in Plunging Red-Hot Gown That Pays Tribute to Her Mother",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdXFxV0Iwa1J3RENfY2xRdDhSNDEtWWMzaVZacW51d0ZSdkpPTXVGYTFGZjVnNmg4MDZVQjlvUWtIY3JUOWZsOXNXVGo2ejlzTnlnUkp3TWFzbmxybUdDT1RPUEpreDZRNEp3WE9mbDlpVjBucUJOYUsxTkRIYnAydVZiMS11Zmt3TVZBTGl1dWpxdUxJ?oc=5",
-          "description": "Mariska Hargitay Debuts Hair Transformation to Host Emmys 2026 in Plunging Red-Hot Gown That Pays Tribute to Her Mother  instyle.comMariska Hargitay Matches With Daughter, 15, at the Emmys in Plunging",
-          "publisher": "instyle.com",
-          "pub_date": "2026-09-14T22:49:34+00:00"
-        },
-        {
-          "title": "Dolly Parton, Rob Reiner receive emotional tributes during 2026 Emmy Awards",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQnhBVGl4bEtLNm9lU3k3OGU3Q1NZUUZHcG9zT2EwZFNHcldBRzY5YWNnSDFHeFBXN2xiaGRjNWxMSHpFRHF3SVp5bFc1LVRhb051ZUE0Zk9ndnFuVUFLMVBwaHVzc1FmNmJZbFN4VXhhVFdLVGxzTlU2RUdSQXN5YWc3bTlHX21iN2RUeFZEdnRtVkhKSTFkN2pIUnZfM2JLdHlvYlkzMjXSAa4BQVVfeXFMUFNVNFVFRzFrRVc1UVFBejJjWVRvTEMzbHdMc0NiUWZIbjFuY2lZclQ0N3NSTms1UEo1WnJKd3NBdlNKMHJMUExna0VLY3FRV3JKSGtsVEtYNGIzTVpRbzY4LVlwcDFQLVdFRWxuQzVjVm1IclB1YWh0emJlR1dhcEdkSUVTVzRnaDB1YVluV3AtSmFESGQtdEdDdTZNVjVGNWdBUDloVENmRGZQZ2hn?oc=5",
-          "description": "Dolly Parton, Rob Reiner receive emotional tributes during 2026 Emmy Awards  Fox NewsReba McEntire Honors Dolly Parton With Rendition of ‘Appalachian Memories’  The New York TimesDolly Parton receives",
-          "publisher": "Fox News",
-          "pub_date": "2026-09-15T03:53:53+00:00"
-        },
-        {
-          "title": "Duke and Duchess of Sussex granted security review after return to UK",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2JuelE0TVA1OUc2eUFrNWNwZV9zYk1CSzdfQnBVRmhWWTR1RjAyV2JDRGdMYUl5WS1OM1NtR3puQ3VpdWF1VTc0cG9rSEpQUlg3UThJdHB0LTA1Y2NQRUNzS09ZNzlYQ1FHZlluQ1p5NlhiNVVySURPaVVRdVNXWElnVDRpdmdkUnBGdGM3OFo5dVY1cUtONkZQUDBOS2NPRF9DUXF4emd1aUwzQXZ3RW5WMl9wVC1S?oc=5",
-          "description": "Duke and Duchess of Sussex granted security review after return to UK  The GuardianHarry and Meghan switch children’s school just days into term  CNNPrince Harry's children moving school after two day",
+          "title": "Emmy awards 2026: The Pitt and Widow’s Bay take home major awards – as it happened",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQa0E0blM3OUNiRVBQWXFDZDNIaV9mZ0RxZXpkSlR3NVVxZy1sbmdYWE1BdkVxY0ZPemJzX1l5R01EUG5UTGNFZkxxSHBQRDhoVk9iWW5DYWt4eDdvMjBiNzZzQ3J5UDZFMmxsc25sTERTSlVZWEFLTGlIX1RESlBkVE16SGVJd3dleHlBeXcxdDhJWDR6NUxUYWx1RjRfVWdtQUphX2UxNXRwQ2prX0pTbTZ2UnBxWUZZYTRCN05OTjZqdDViZkpuQ0tQZ3pJTGVNRGJ3OTN6Y3dENmdK?oc=5",
+          "description": "Emmy awards 2026: The Pitt and Widow’s Bay take home major awards – as it happened  The GuardianEmmys 2026 highlights: ‘Widow’s Bay’ and Matthew Rhys win big  CNNNoah Wyle Wins an Emmy for 'The Pitt' ",
           "publisher": "The Guardian",
-          "pub_date": "2026-09-15T03:20:00+00:00"
+          "pub_date": "2026-09-15T04:19:01+00:00"
+        },
+        {
+          "title": "Robert Kraft Confirms He Barred Macklemore From Ed Sheeran Boston Shows",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeF9NVE5zdzF5QW5KTlotaWMyb2ZIRUFLWVdDWl83cUV6U3k2bVBOVUlUR3dMeUpBMUF1dE5HRDBTQS1WdjRqV1ZIQWNDQkFBSVV2TTlPZ0pjclNEd0dIZktiT2NNY2Z3dURRenBzT2ZrNjE1a0QxWWFGZFFkdzVZY2xCcVptWDFNbW1XRmg0R1JRRUl6NXZVOU1hcWNjNDB3T0dyUEJMOU1yN1FpMlJoYmVsaHQtdw?oc=5",
+          "description": "Robert Kraft Confirms He Barred Macklemore From Ed Sheeran Boston Shows  Rolling StonePatriots' Kraft says Macklemore performance would cross line  ESPNMacklemore Dropped From Ed Sheeran Tour After On",
+          "publisher": "Rolling Stone",
+          "pub_date": "2026-09-14T20:21:57+00:00"
         },
         {
           "title": "Hayden Panettiere death probe focusing on illegal pills from L.A. dealer",
@@ -1110,62 +1047,118 @@
           "pub_date": "2026-09-14T20:04:30+00:00"
         },
         {
-          "title": "Emmy Awards 2026 winners list",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdWdPYWdOOVlwNVVaSEVqQnBKNFlmczdhWndyT1NMWFJ3R2Qwb2t3MzhZQnNKd0NUUlViRkQ0OTc3UHQ5SEU2U2VsbVRjdjRRcXpaX21QTnNDTThyQmw2YXZ5WF9nVHlndWFleGZfQVlrTjJNc25scWRZdWp0NVBuQWJsUldFeTl0cFcxZEI2dkJMNDEwSU4zczh3Zw?oc=5",
-          "description": "Emmy Awards 2026 winners list  USA TodayBackstage LIVE!  Television Academy2026 Emmy Awards Full Winners List: ‘Widow’s Bay’ and ‘The Pitt’ Take Home the Gold  People.com2026 Emmys: Widow's Bay upsets",
-          "publisher": "USA Today",
-          "pub_date": "2026-09-15T01:30:00+00:00"
+          "title": "Bob Mackie: A history of his designs in pictures",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwdktTZXpkSXBDSkl3UVNRcUNzRXg0QU5hb0tvNGxOR20xc3ZRaklZS25oN0VEWGxsWFY0ejR1VGFJcDVoRW8xWWRScG1jOHd2aW81dk5vVnpJOFU?oc=5",
+          "description": "Bob Mackie: A history of his designs in pictures  BBCBob Mackie, Designer Who ‘Dressed Every Spangly Woman in Show Business,’ Dies at 87  The New York TimesBob Mackie, Renowned Fashion Designer to Che",
+          "publisher": "BBC",
+          "pub_date": "2026-09-15T02:53:39+00:00"
         },
         {
-          "title": "Israeli Army Chief Orders Legal Review of ‘NAZA’ Documentary",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV0IxTUdIdE0wZjVCbldkYm1Ebm5YUE5VZjBHcXJvUnVsN2tlbUs1cXVxbzJhd0t0bWp1c2xXWU1hRWFJWGE0LURtdDdqTTk1bkoyMWo1cGhleHJCWHY0dHgwcUoyN1N3MmlId255MTFnWGd4WG0zUjlaWjc2VDhycmJqdUpYZ0Jlb1AtVDd0SjdXR1M5N0NEU0VnbXlmZlVYTTMxTkoyQ0VwQUcwMjdDd0k4MV9fLW12b3Fn?oc=5",
-          "description": "Israeli Army Chief Orders Legal Review of ‘NAZA’ Documentary  The Hollywood Reporter‘NAZA,’ Israeli Film About Killings in Gaza, Faces Backlash  The New York TimesIsraeli minister threatens to strip I",
-          "publisher": "The Hollywood Reporter",
-          "pub_date": "2026-09-14T20:12:12+00:00"
+          "title": "Emmys Red Carpet Photos: Meg Stalter, Mariska Hargitay, Noah Wyle and More",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93cnJXbFBqV0RidFhsUEU0YmwzanBJRTZyV0p5aEVvTHZnNlhxTXFGUEZPMGwtSWxVWm1mT2RqRmVSSXZHeWo0aWExVHBKZXNneXlVN3ZCQlNjcEhDRXBKdnc0Y0JEc1VidGRQLUFWZG1NLWhIM0tYbw?oc=5",
+          "description": "Emmys Red Carpet Photos: Meg Stalter, Mariska Hargitay, Noah Wyle and More  The New York TimesAll the looks from the 2026 Emmys red carpet  Los Angeles TimesSee All Of The 2026 Emmys Red-Carpet Fashio",
+          "publisher": "The New York Times",
+          "pub_date": "2026-09-15T01:31:47+00:00"
         },
         {
-          "title": "CFDA Head Steven Kolb Is On Leave For Restraining Protesters",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORy1reHlNVVhOczdfQVh6QUZFam56bWhqdTNiMExhckZFS3JEcDh6ZEx4RzJsMmRHaEdpZHQzNzJzQ2VrYmdGa3g3bFhLUkF6MHdFTXFISGVUZjB0azc2Vl9oclhNSWpkNWNoSjVTM1NQdFlYa2hha3RMNHdHeW1BRTJIVS10M21UWG5sOWhhbzNuQmNSeTlSdVd0OA?oc=5",
-          "description": "CFDA Head Steven Kolb Is On Leave For Restraining Protesters  The CutSteve Kolb, Head of C.F.D.A., Placed on Leave After PETA Protester Confrontation  The New York TimesCFDA boss apologizes for acting",
-          "publisher": "The Cut",
-          "pub_date": "2026-09-14T21:05:00+00:00"
+          "title": "Sally Field Mourns Dolly Parton In Heartbreaking Emmys Tribute",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWk1kVFhfSVlndTVya1pVNGQ4SHdGRmphSU5qOHpsWjJqM09ZVzExQ29ENHBhTkpYZzB3a05mSHdaZTM0R2Z4S1hUQWFnYUlLazlEZFBFQ21pMkZtSEZrWnpCYndqazUtOGR0c3FOZnlXNmlodFppRm5MR0hIRFlvQ0Z6VUdEaWxaeHNiNNIBkgFBVV95cUxQcG1KdnpWRTdXWXdKRHdpSjI3eFM5Z0FjWG1wNVFNVzNVQkdsMENLOWlvNk9WdFF5TVpEb3Jhb1cxczV1emdjb1l6Y3JqbUNZNy1pY1JpNVlWcXNOa05qUFJEZU5qQnN3alo3MTZib2V1emxnRElNWm9xQzRmWklZZ01aUEl0VTA3c1NHaVNlcEkxZw?oc=5",
+          "description": "Sally Field Mourns Dolly Parton In Heartbreaking Emmys Tribute  HuffPostReba McEntire Honors Dolly Parton With Rendition of ‘Appalachian Memories’  The New York TimesDolly Parton, Rob Reiner receive e",
+          "publisher": "HuffPost",
+          "pub_date": "2026-09-15T02:45:46+00:00"
+        },
+        {
+          "title": "Taylor Swift Makes Surprise Cameo at Emmys 2026, Showing Off New Super-Short Haircut",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLUM0aTBmTUlMbEZnWHJvUXdBVXVhd2hDdmtKSmtTVGJHQmp0akxzeHByZ1BVMXFMeWVwWVFDbDNRWkM2X2VjY0pzeDZlMVQxcUEyMnJFVnlfaWduYS1VYUx2ME5fbjN5SUUwVURwSVJUT0kxc3FvRkpGbUZ6dG8tNHlPQ3dqQQ?oc=5",
+          "description": "Taylor Swift Makes Surprise Cameo at Emmys 2026, Showing Off New Super-Short Haircut  instyle.comTaylor Swift Makes Surprise Appearance at the Emmys 2026—With the Help of Both Olivia Bensons  vanityfa",
+          "publisher": "instyle.com",
+          "pub_date": "2026-09-15T01:29:49+00:00"
+        },
+        {
+          "title": "'The Late Show With Stephen Colbert' Wins Emmy After CBS Cancellation",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb2RkR3puNGtUQ2pzc3FCbFYtNndMV1EwRDNzSWFzVXJtUFhIdFktU0I3cGhRTkxfYkxSSEt2SlJzd2d2Mkt1bXN0dVpnVENTd2JlYXFnT19UVllnQzFpWWVoTGdVMEI1MlV0b1ptWVUxMG1OSGxvZHVQaFVhR3hrNmhsX1Y1cDF6WXVRWUZEQThTSkxzNV9HRi14R0gxQ1I3ZEtZ?oc=5",
+          "description": "'The Late Show With Stephen Colbert' Wins Emmy After CBS Cancellation  VarietyEmmy Awards Highlights: ‘Widow’s Bay’ Leads Apple TV to Big Night  The New York TimesStephen Colbert Says ‘Free Speech Is ",
+          "publisher": "Variety",
+          "pub_date": "2026-09-15T01:43:00+00:00"
+        },
+        {
+          "title": "Emmys In Memoriam Excludes Chuck Norris, ‘Buffy’ Actor Nicholas Brendon and More",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPblNOYXpFcFBuLTBkTmdlNDhnZm9yWWsycXNnbThKbHR3eW5XTmtHdzlKM1R4emVUa01YcE1HVE9Vdy1aY2prQW1GNm5ET1pDdy1yRkRvY2djQ0ZQX1VVbFRDWUowSUNXeDVKWWtBYmlpYW5uUlN2d3ItbzE5Q29GbzFlOA?oc=5",
+          "description": "Emmys In Memoriam Excludes Chuck Norris, ‘Buffy’ Actor Nicholas Brendon and More  Yahoo News CanadaSee more headlines & perspectives on Google News",
+          "publisher": "Yahoo News Canada",
+          "pub_date": "2026-09-15T03:04:00+00:00"
+        },
+        {
+          "title": "Matthew Rhys makes Emmys history, winning two lead actor awards on the same night",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeWVPZHRGb3liaE05SVRnd1RTZk5zblI1aXB5UXRuVi1OUWxzMVYtTmNZdTJkTS1KRmVGSTVNZUdRVFAzZm5FTFVQZzd2ZzVjNW1XN1ZsSURPTEs2SGhXdDRpQTMzZEk5azN1Sm9SR1dzODJHcy1QU1lDMlRLSkx3dHBTS2h3Nk15R21hS1h6NFhScURBMEN0UmhoLUFEWlJlaFBsYS1qRlE?oc=5",
+          "description": "Matthew Rhys makes Emmys history, winning two lead actor awards on the same night  Los Angeles TimesWelsh actor Matthew Rhys makes Emmy Awards history with double win  BBCMatthew Rhys Makes Emmy Histo",
+          "publisher": "Los Angeles Times",
+          "pub_date": "2026-09-15T01:59:18+00:00"
+        },
+        {
+          "title": "Fashion council president takes professional leave after grabbing PETA protester at fashion week",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdWM5NFloZmZvREpPNnM2eEdreW5rTFFuZFJycjFodkVnN185aXZ4eHFCQ3cxeDJYSlBaLXhKOEdWS3RPY3BESEN4ZzREMlBKVnZHWFo3Rm1sT0h0OWVNTWJzRU5JMnVOQXVmdlB3RWgzOGlnRnd5c3hIckc4Z0pLYWtlWkt1WWFYQ1ZjNXV2eTF1cEtGZzd4bm9kZUYwc1U4VkNGaGRCM2xpRDhiV0phQWdFdGhiTGs?oc=5",
+          "description": "Fashion council president takes professional leave after grabbing PETA protester at fashion week  NBC NewsSteve Kolb, Head of C.F.D.A., Placed on Leave After PETA Protester Confrontation  The New York",
+          "publisher": "NBC News",
+          "pub_date": "2026-09-14T21:44:25+00:00"
+        },
+        {
+          "title": "Spoiler: Money in the Bank Qualifying Match Outcomes for September 14 WWE RAW",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYWd0VXV0bzZMbC0wUDBBZEdpR2pFYTYxNWdpeGc4R0hjNHhtNjJPUkM5cVFKMXFvdnVmUlI1Z2l4UjJFX0p3eVAzdV9ac1JQajNidDdrQi1qcDM1bUFTbTRTOG51YU51WndnMV9ieHZmWm9DdVFXMUpaRHhfOGxCTW8xdHVydktUTndSLURIbUxkYmdPWTByLTA2Yw?oc=5",
+          "description": "Spoiler: Money in the Bank Qualifying Match Outcomes for September 14 WWE RAW  Ringside NewsTwo More Wrestlers Qualify for Money in the Bank After Entertaining Matches on 9/14 Raw  Yahoo SportsTwo mor",
+          "publisher": "Ringside News",
+          "pub_date": "2026-09-15T00:10:08+00:00"
+        },
+        {
+          "title": "Harry and Meghan to have security review and children change school",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ESmdMVFpLdzVSbGV3dTFVSXFvcmZ4UURFM2JhTGtXaGNhcWk5cTN1WXdSZjFXcGxGNnFmV21MUi1kMHZFN1Y3dXpaRUtJcHRxSUlZX3FRQUdNcjQ?oc=5",
+          "description": "Harry and Meghan to have security review and children change school  BBCHarry and Meghan switch children’s school just days into term  CNNMeghan Markle Gets First Security Review Since Dramatic Royal ",
+          "publisher": "BBC",
+          "pub_date": "2026-09-14T20:29:52+00:00"
+        },
+        {
+          "title": "‘Charlie’s Angels’ vets Kate Jackson, Jaclyn Smith and Cheryl Ladd honor Farrah Fawcett in Emmys 2026 reunion",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVWMyUVpTQU5WY3pUZDYzMEZBQTJEQldlVy16cV9rcE5KRkVzeGU2UTNNUU9CRnVydHFsTldacHllTHFKUHBhaUpvQ2FUUUtwQklpeGd1WWQwMm14dER5LUR4X3hkdC1ZQjZqcUtmc0NsQ3lMaXZWX1QzNU8zazdMQVE1aDN3MGFhYmYzN2tMTWVadUc3dEJWZzJvaWplRTFmX2ViV0J6d2pIVjcxeEE?oc=5",
+          "description": "‘Charlie’s Angels’ vets Kate Jackson, Jaclyn Smith and Cheryl Ladd honor Farrah Fawcett in Emmys 2026 reunion  Page Six‘Charlie’s Angels’ Stars Jaclyn Smith, Kate Jackson, Cheryl Ladd Reunite at Emmys",
+          "publisher": "Page Six",
+          "pub_date": "2026-09-15T03:25:00+00:00"
+        },
+        {
+          "title": "Tom Pelphrey Wins Emmy for 'Task,' Thanks Pregnant Fiancée Kaley Cuoco",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV3dDcTZocEhZcl85WDNMMk5nVVNTRHJodjYybG8yenowdnFwT3F2ZDdIdVRGSllBOFVEaUltWVdPUkZjYnhzYkpvdDVZd3IzUEZrNzFNcV8yN0ZleWVQM3NUTVU4NzF3SmRWM2hBczVrQ21FYlU0NDFvdTlIckNkcW1mYjAxa1hSMjRxVTJmYkotTGZGT1g3TkhiR0tBRFFDN2JF?oc=5",
+          "description": "Tom Pelphrey Wins Emmy for 'Task,' Thanks Pregnant Fiancée Kaley Cuoco  VarietyTom Pelphrey Shouts Out ‘Very Pregnant’ Fiancée Kaley Cuoco as She Tears Up During His 2026 Emmys Win  People.comKaley Cu",
+          "publisher": "Variety",
+          "pub_date": "2026-09-15T01:14:00+00:00"
         }
       ],
       "sports": [
         {
-          "title": "Monday Night Football: Kenneth Walker, Chiefs run by Broncos 31-10 in Patrick Mahomes' return",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOb0QtZVV5UEFhOGRtNC1fRF9TUGdzQjdUZXRiUm8tTjJMMmw0M0tZbFMxRjRfejdMclB5UkhrOWRJdGE5cjM5UmNaRzVUS21BYXRIY0VpNGl2QnhYVWhlM0ZlOUhxSHVLd1hSQnZRdkJraEI1eHRQRlkyM0o3WlBkYWhndkpTZm8wMnJQcUl5ZXR6bHdKcFB1WDlLbkZ4TnE5S1R0LVpXVFhLSE1zeENkVXZOWFBESnVkTzZDNnZHSGd2bTMxaHhuZ2ktVXI5aHduSHo5ZjNBblJxVGFDOVR3SG1ZNnJ2ems?oc=5",
-          "description": "Monday Night Football: Kenneth Walker, Chiefs run by Broncos 31-10 in Patrick Mahomes' return  NBC SportsKenneth Walker III's dazzling debut leads Chiefs over Broncos  ESPNPatrick Mahomes triumphant o",
-          "publisher": "NBC Sports",
-          "pub_date": "2026-09-15T03:25:14+00:00"
+          "title": "Kenneth Walker III, Patrick Mahomes lead Chiefs' win vs. Broncos",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR2NMaXVfWkJZeWRRNmcwM2I5bThNcnBoR19RV21XbFBwNkphcGt4TjhuYlZ2TldzNk5lYm8xOHZ6YVR5ODB2dndweDA4ZWxKY2wwX0FyMnVocmF2RkxfTEpISHl6ck5VSlh1djVEeFp3ZGNMSDRDQU9MRmhzWlgtSVhRX1pwVXJVZnYwYmo0eDc5U0hKczhiNUNZRHUtZTRpcV92RFYzVjBxdGM?oc=5",
+          "description": "Kenneth Walker III, Patrick Mahomes lead Chiefs' win vs. Broncos  ESPNNFL: Kansas City Chiefs 31-10 Denver Broncos - Kenneth Walker shines on debut  BBCChiefs dust off old football play for Kenneth Wa",
+          "publisher": "ESPN",
+          "pub_date": "2026-09-15T06:00:00+00:00"
         },
         {
-          "title": "NFL Narrowly Misses Making History with High-Scoring Week 1 After Mahomes, Chiefs Beat Nix, Broncos",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYUpzdlFqaHBISXN2VlpHQ2xTaHMwTnFlTFdyWTF2Rnc3LWt6SzI1N0VZLTZRejVoalNINHhJZkEyRmRPM0hDTmk3Um5tUnBIeWlaVHZLRGhvRmdYVHk4SFF5UzNUb2FYcUZDUHBncklxTUdUMFFPeGlzUjNpaS1QMXQwa2VyR1ZjNjlfeFhieG9sV2FWdmM0NW12MnRQeDR5WGtmNXpzaTM0b0lFeVRZc0swajNMTVBoQmVaeTBoMWRSa3hPZmJZeWJSN1dwbnpOSEJJ?oc=5",
-          "description": "NFL Narrowly Misses Making History with High-Scoring Week 1 After Mahomes, Chiefs Beat Nix, Broncos  Bleacher ReportNFL Week 1 offense explosion: Bears, Ravens, Bills, Jaguars  ESPNFantasy Football We",
-          "publisher": "Bleacher Report",
-          "pub_date": "2026-09-15T03:35:19+00:00"
+          "title": "NFL Week 1 Grades: Best Player From Every Game",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1fVDhvcEc1SDhOUGhhNEVjSkNkS1I5TVZMU0VvNDYwV2k4eFZlWlBCWVhVOE50YjlTVUdkS2VjZmdDREdGY1ZWYVZqb3VrLXVoWFRWSmd2bWpWdG5vODJlenMzMUhqT2N4MUpn?oc=5",
+          "description": "NFL Week 1 Grades: Best Player From Every Game  PFFNFL Week 1 offense explosion: Bears, Ravens, Bills, Jaguars  ESPNNFL ties Week 1 scoring record for Super Bowl era  nfl.comFantasy Football Week 1 Bo",
+          "publisher": "PFF",
+          "pub_date": "2026-09-14T16:41:50+00:00"
         },
         {
-          "title": "Conor Benn Wasn’t Ready For Ryan Garcia",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9QamNsVnh5ZkxFR05IQlJKZmFQUnc2THkzTHEtd0ZWNUY4QTJUWjJEWVVtVkUtQ1o4TUtGbU5qTzlRNW1pbEIyOXdFbE9GWlByaFB5Tnc0TDJTekZBbjdpMzRQbndhU3JwUFlV?oc=5",
-          "description": "Conor Benn Wasn’t Ready For Ryan Garcia  DefectorGarcia backs up talk, TKO's Benn in second to retain WBC title  ESPNRyan Garcia impressively defends WBC welterweight title with 2nd-round TKO of Conor",
-          "publisher": "Defector",
-          "pub_date": "2026-09-14T18:08:00+00:00"
+          "title": "Denver Broncos at Kansas City Chiefs: Week 1 Live Discussion",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbm81YlZpbXh5VlhuOTJFNzlnVmpiNUVWNmFtdWRUTk5LdGdGNlpwYy0zYWxUV2FMdmhlbGlxUWRvb2VQZFRXdXZPNTI2QWNuNkMxdEFzX1pDN0VVQmE3N0U5WHJERmRwUFg1cXlqamRZbHQxMDUyM05BeW5nMkYwUUZTLWN4ekp6NkoxRW1WdGFDaUFCUmk3TXFKMkM0WFlVanNRc1J3NWdWVmVtTkZ4MVRKZTc3TGxiLVlrQjd0Wjg?oc=5",
+          "description": "Denver Broncos at Kansas City Chiefs: Week 1 Live Discussion  Mile High ReportSee more headlines & perspectives on Google News",
+          "publisher": "Mile High Report",
+          "pub_date": "2026-09-15T03:07:00+00:00"
         },
         {
           "title": "2026 NFL Power Rankings Week 2: Which Teams Suffered The Worst Opening Losses?",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbUZaaUZyTGlyVTFBRnBPTXM3TG94YWtBcGJYU1pVdlZsbGd6QzRqV1JkVVpmNlFzSHBfQnQtZXNTU0c5bVZSRWMxa3lOekVBa05RZjRxRUdRdWR4aFdRMzZLOXZJZ1RKYndNeC1jU2c1MW1BdXNhUmI3OTRjdGtuci1Lb2ZsM3Mxc2hOdmNLTTVtUUxzVTRQV29jNWxZNlY0ZTEtVW9BU0V2b18xQ0lF0gGvAUFVX3lxTE9rQWdNelljbkRObFQ4dnUtSk1Hc0lOaVhfV1lCOElINFdILU0wXzdjZXVkLXcxRU1JNWpLNHU4RUVlcUtyTUZOOGh0X19vNEJVQXF3MlpXV3FIN3d3dWhLQXBuTjdqTVNVME9SVDVIQ2ZQWE1DNFNTWC1QVkNHZHlHdU1MNDVKak5pNHgzc3QtTmZ6RGdQUTNFdzB4SWhwWE5hRTZ1Mmh3Y3BPYUhSQjQ?oc=5",
-          "description": "2026 NFL Power Rankings Week 2: Which Teams Suffered The Worst Opening Losses?  FOX SportsNFL power rankings Week 2 shaken up with Bears, 49ers, Cardinals wins  azcentral.com and The Arizona RepublicN",
+          "description": "2026 NFL Power Rankings Week 2: Which Teams Suffered The Worst Opening Losses?  FOX SportsNFL Power Rankings entering Week 2: Cowboys fall flat, Seahawks claim top spot  FanSidedFrom worst to first, N",
           "publisher": "FOX Sports",
           "pub_date": "2026-09-15T03:26:51+00:00"
-        },
-        {
-          "title": "Enter Ki MMA: Scott Coker reveals new promotion name, international tournament, more",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMGxhZTFPbjc4aXJqUTFmTVpURXRHbWdaODJOYWFwT1dkOG1jSmVTQVRhOWNjQnJCLU11c1I2am80SGVuUzZUVDNIOF9sYXdFR0FIdWJiZHpucUNfOW5KM1FLQWdjRXh6ejBlX0ZfUkpvSXV5SjNBMWN5Z2g5MUh0WmpqcHdKME1xRDZpaG9yeTFHeTVVNTN5aGN5Q05WZE13RjRZMw?oc=5",
-          "description": "Enter Ki MMA: Scott Coker reveals new promotion name, international tournament, more  MMA JunkieScott Coker announces Ki MMA promotion, set for 2027 launch  ESPNLongtime promoter Scott Coker launching",
-          "publisher": "MMA Junkie",
-          "pub_date": "2026-09-15T02:19:00+00:00"
         },
         {
           "title": "‘Sydney Sweeney, this is what women in sport look like’: female athletes lead backlash against viral advert",
@@ -1175,53 +1168,46 @@
           "pub_date": "2026-09-15T01:30:00+00:00"
         },
         {
-          "title": "Aaron Judge, Yankees Clinch 2026 MLB Playoff Berth, Updated Bracket Picture and Standings",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQU2ZaQloxMmFlNU80QWVVTFQzX0ZmZ3BRN2pIZk5BY3ZxTF83emhqSzg3Vjl6aFlMYWlqZjRhd1FEVjVFcFhRVnhRNmljS2JUR3pPNlluQVlCNHlJU0RmWE9OSHV5NklTY09MWWtUWDJjN1VWMDlCV3FVODVCX3A1OGpvc0FuclRxVlI4MUlUR1d5UnhYbmdsc2pmcGNxS3dvbE14Z040X1RzYk44cTE2WnVJV1JLZU1lZnhkVFB1U0d2M2JScGJiOTdWUGU?oc=5",
-          "description": "Aaron Judge, Yankees Clinch 2026 MLB Playoff Berth, Updated Bracket Picture and Standings  Bleacher ReportYankees clinch record 61st postseason berth, 9th in 10 years  ESPNYankees clinch playoff berth",
-          "publisher": "Bleacher Report",
-          "pub_date": "2026-09-15T03:51:12+00:00"
+          "title": "Flowers’ hamstring injury ‘not considered serious’",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaldJVU5nZ05Xbm0wNm1UME5sOVlJNjZyMjNWYXJDYjRzTTFPeGRkQl9MZFhLcEpjUkNNUnNfU25XNWE1V0VFSFpMdE9RV09KdjNJSzd6VzhyekpwalhtNjVjOVBNS2hOMlNES29ZdXY5MnpMZDRyUW5CaUNJeE1jQ2VyN2VhbzFNNDJzcVNqUHVVTnN5VU52R1ptNzBzSGpvSmZyUGluTThQRU5yVmlTSUFCQQ?oc=5",
+          "description": "Flowers’ hamstring injury ‘not considered serious’  NBC SportsRavens rookie WR Ja'Kobi Lane to miss several weeks with fractured wrist  nfl.comNews & Notes: Injury Updates on Zay Flowers, Ja’Kobi Lane",
+          "publisher": "NBC Sports",
+          "pub_date": "2026-09-15T02:57:45+00:00"
         },
         {
-          "title": "Dave Canales: Panthers need to 'play way better football'",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPazZVcy02V2RpNEg1akJBSUxMbVh2RWd5clZhQXNmcHlxbHVtZXFnR0UyT2l1X2tzd2dTOVNoSk9Zc0VYaHd3VTl3M0wxelBkdVpwUXFOM3VxX005bGI3ZU8zV3BEc2Qwc0tidUlMTmt6cWt1dHZGX3hYNDVFeUJkV25zM0dCdFlyU2lqVHBrd0hvYVR3OWU3OWZVUnpuaTh1WE9lblNxMHRkbjZvdVpKSmhRYWJ2TDE0OGhQeldkV25TbzdDTjYzcWt5bw?oc=5",
-          "description": "Dave Canales: Panthers need to 'play way better football'  ESPNBears' offense makes statement with 'amazing' 59-point opener  ESPNMonday Brew: Dave Canales addresses run defense, Coker on precautionar",
-          "publisher": "ESPN",
-          "pub_date": "2026-09-14T20:15:00+00:00"
+          "title": "Aaron Judge, Yankees Clinch 2026 MLB Playoff Berth, Updated Bracket Picture and Standings",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQU2ZaQloxMmFlNU80QWVVTFQzX0ZmZ3BRN2pIZk5BY3ZxTF83emhqSzg3Vjl6aFlMYWlqZjRhd1FEVjVFcFhRVnhRNmljS2JUR3pPNlluQVlCNHlJU0RmWE9OSHV5NklTY09MWWtUWDJjN1VWMDlCV3FVODVCX3A1OGpvc0FuclRxVlI4MUlUR1d5UnhYbmdsc2pmcGNxS3dvbE14Z040X1RzYk44cTE2WnVJV1JLZU1lZnhkVFB1U0d2M2JScGJiOTdWUGU?oc=5",
+          "description": "Aaron Judge, Yankees Clinch 2026 MLB Playoff Berth, Updated Bracket Picture and Standings  bleacherreport.comYankees clinch record 61st postseason berth, 9th in 10 years  ESPNYankees clinch playoff be",
+          "publisher": "bleacherreport.com",
+          "pub_date": "2026-09-15T03:51:12+00:00"
         },
         {
           "title": "College sports bill opposition brews despite Cruz, Cantwell optimism",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaFFMZExZd1RLSzlOYm1EdXBndUtUSC1KN3dNVUpNYU5yWjVjM3FTSDVXOS1jUnJhNjRiSXJGUmxseFlSU1RPUG9NUXprUHJrSVpHeUdGdUFsZDhqc1Q2TWlqV0h1ckhaQ1MzTlBUaUwyQTlTZ3VMcDA0b0tRYy1wS1RmRWEta3JxWVUtM1doQXVGTUt3My1oYmtObXY2Zw?oc=5",
-          "description": "College sports bill opposition brews despite Cruz, Cantwell optimism  PoliticoTed Cruz expects Senate vote on Protect College Sports Act soon  ESPNThere’s a major flaw in the Protect College Sports Ac",
+          "description": "College sports bill opposition brews despite Cruz, Cantwell optimism  PoliticoTed Cruz expects Senate vote on Protect College Sports Act soon  ESPNNABC’s Craig Robinson raises several issues with coll",
           "publisher": "Politico",
           "pub_date": "2026-09-15T01:27:15+00:00"
         },
         {
+          "title": "Dave Canales: Panthers need to 'play way better football'",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPazZVcy02V2RpNEg1akJBSUxMbVh2RWd5clZhQXNmcHlxbHVtZXFnR0UyT2l1X2tzd2dTOVNoSk9Zc0VYaHd3VTl3M0wxelBkdVpwUXFOM3VxX005bGI3ZU8zV3BEc2Qwc0tidUlMTmt6cWt1dHZGX3hYNDVFeUJkV25zM0dCdFlyU2lqVHBrd0hvYVR3OWU3OWZVUnpuaTh1WE9lblNxMHRkbjZvdVpKSmhRYWJ2TDE0OGhQeldkV25TbzdDTjYzcWt5bw?oc=5",
+          "description": "Dave Canales: Panthers need to 'play way better football'  ESPNBears' offense makes statement with 'amazing' 59-point opener  ESPN5 things that stood out to Ben Johnson in Week 1 win  Chicago BearsMon",
+          "publisher": "ESPN",
+          "pub_date": "2026-09-14T20:15:00+00:00"
+        },
+        {
           "title": "Oklahoma State might have known which plays Oregon Ducks were running during upset win",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNT2w5QVpaNlRLRWpqeDlwVWhCZ2xUb0lTTXY1YXF4akstZUtNNmpDdDN0bVNjYWVyVGNVQXcwYktzNHFWS3NyYUJtWlJybEdnUzd5dUJMMDVrSUJRUkVid1h0NFhncDBFVUxSZ1pJWUlGb0FRYUxzWlNUOThwbXlLZm5sMTZ3cnl0bjkwZ2R4QmR2SlNHOHo3YmNFdmh1djIzMk9QLTBfZk92WGdHcDhLMjZWd3VhVTdmUjk4bQ?oc=5",
-          "description": "Oklahoma State might have known which plays Oregon Ducks were running during upset win  Fox News10 takeaways from Oregon’s perplexing loss at Oklahoma State  OregonLive.comOregon Ducks Football: Duck ",
+          "description": "Oklahoma State might have known which plays Oregon Ducks were running during upset win  Fox News10 takeaways from Oregon’s perplexing loss at Oklahoma State  oregonlive.comOregon Ducks Football: Duck ",
           "publisher": "Fox News",
           "pub_date": "2026-09-15T00:23:18+00:00"
         },
         {
           "title": "Report: Lions Have Called Steelers About Joey Porter Jr. Trade",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOG5NWnhrczZGLUcwckhjel82bTVmelRLam5hcmcwdnN1SURjM1hNQ2liMmtOUklFR1RwendBS0VJZy1qalhFY1RNOUt5WFczTmQ3WlRCUHd2TDd6TVhEdDVWeHBQQ2NwR1UzbWoxSHM1QXlnOHVLd09RbkZ6RGxoM1c1MFFNUjNFQ01wXzVWdDlBbnlGLVE?oc=5",
-          "description": "Report: Lions Have Called Steelers About Joey Porter Jr. Trade  Sports IllustratedJoey Porter Jr. trade fits: Which NFL teams could target CB?  ESPNAround the AFC North: Steelers Could Trade Joey Port",
+          "description": "Report: Lions Have Called Steelers About Joey Porter Jr. Trade  Sports IllustratedJoey Porter Jr. trade fits: Which NFL teams could target CB?  ESPNMike McCarthy noncommittal on Joey Porter’s return t",
           "publisher": "Sports Illustrated",
           "pub_date": "2026-09-14T19:52:29+00:00"
-        },
-        {
-          "title": "Inside Alexander Zverev’s 2026 US Open victory celebrations at NYC hotspot",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPczI1Uk5aYlZ4MVRtTWtEaUhyWUdta1F5LWhYTUtYR0VmRTFQc1lLNTBLSVVlQVhwZlBOSjc1eXpQYzJaajVoMzl3aDR0ZnBlUG1RTVB4N0htcXhQckljenFvb1ZsTGUza2lucmtUMV9GYkFjSXo4OWRZY3VDd1VNTGpJU3BHUWlNZ2NwNEZ1amFWNjRRYzlJaGJPVXExT1kzNDhPeklKcVJHYktpczNSNGhsZU1NREhMU0M4?oc=5",
-          "description": "Inside Alexander Zverev’s 2026 US Open victory celebrations at NYC hotspot  Page SixAlexander Zverev beats Ben Shelton in 4 sets to win US Open  ESPNThe U.S. Open Men’s Final Changed Nothing  Defector",
-          "publisher": "Page Six",
-          "pub_date": "2026-09-14T16:26:00+00:00"
-        },
-        {
-          "title": "Lane Kiffin’s bitter divorce with Ole Miss reopened old wounds. He returns this weekend as Public Enemy No. 1",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sQW9KQUxLamRxdnk4SnJmcERjcXFlNnlEQlByWXV3WXpLSmNRNURSYXRER1Njcmo2M3Ztd1BHZ0gydVRWSUNveEpoVGpaMjdOejZJMUZRSGFha1NRSkkwR01COGdSVzFRSThvSDJ1WTdBWlI0bU5j?oc=5",
-          "description": "Lane Kiffin’s bitter divorce with Ole Miss reopened old wounds. He returns this weekend as Public Enemy No. 1  CNNLandry pleas for 'Southern hospitality' in Kiffin's return  ESPNLane Kiffin can't have",
-          "publisher": "CNN",
-          "pub_date": "2026-09-14T12:00:29+00:00"
         },
         {
           "title": "Texas QB Arch Manning thought a fake AI video of Steve Sarkisian hitting a woman after their win over Ohio State was hilarious",
@@ -1231,18 +1217,32 @@
           "pub_date": "2026-09-14T23:58:27+00:00"
         },
         {
-          "title": "Detroit Lions stock report: 13 risers, 7 fallers vs. Saints",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMnB6Qk1CNTN3TExQandlanBzVTBKMDI0Ri1rMHFCZkNHanRiZWJ3X1h3eU5sS1h3YXYyMkZid0RJdUZ6T3AzNlVSQXNWVkZuTVZtMEtPQjN5TDNXLVRzbWxINDBXQ3FPVVBORVpPTXZLVUtzNy1Vc1R6dXlRZjJheTQzVUN3UkVzT3piMXREbnphV3RjWjl6SlZTcm1fb01UMTlPeE82eERKSWY1dUZIVlNrTXoyX1Ey?oc=5",
-          "description": "Detroit Lions stock report: 13 risers, 7 fallers vs. Saints  Pride Of DetroitLions' offense didn't come close to reaching full potential vs Saints  Detroit Free PressLions grades: Detroit leans on Jah",
-          "publisher": "Pride Of Detroit",
-          "pub_date": "2026-09-14T16:36:43+00:00"
+          "title": "Lane Kiffin’s bitter divorce with Ole Miss reopened old wounds. He returns this weekend as Public Enemy No. 1",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sQW9KQUxLamRxdnk4SnJmcERjcXFlNnlEQlByWXV3WXpLSmNRNURSYXRER1Njcmo2M3Ztd1BHZ0gydVRWSUNveEpoVGpaMjdOejZJMUZRSGFha1NRSkkwR01COGdSVzFRSThvSDJ1WTdBWlI0bU5j?oc=5",
+          "description": "Lane Kiffin’s bitter divorce with Ole Miss reopened old wounds. He returns this weekend as Public Enemy No. 1  CNNLandry pleas for 'Southern hospitality' in Kiffin's return  ESPNLane Kiffin can't have",
+          "publisher": "CNN",
+          "pub_date": "2026-09-14T12:00:29+00:00"
+        },
+        {
+          "title": "Power Rankings: Biltmore Championship Asheville",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNU3YxdXdRYmFXbXFYeDdHWFVVMW1nS3J1aEF3Z0h0c1RSc1FPc2J6QWQySWxwalJ0anAzX3VWYXNRTUg4OUJlNjdTdjVGRElLeW9Tb0NZNU8tdElBc3BIUFZrUzdfSTNIVjdaZUx6clNZc2FuTmRkR3NhMDRuS21iQnNYQkJFbEplSmpuOTZnak5rQUZhM1FOLV9pS0REUjVOMnlTVGNTWUdkUDZVMEVJbGtWNXd2d0xHaFVhMVhuWGQzOWFVeFBYcnlmUWUxTDFmR0JldVN3OGw3dHE0cXFr?oc=5",
+          "description": "Power Rankings: Biltmore Championship Asheville  pgatour.comCongestion expected along Brevard Road for PGA TOUR's Biltmore Championship Asheville  WLOSThe Five: Storylines to follow as FedExCup Fall b",
+          "publisher": "pgatour.com",
+          "pub_date": "2026-09-14T20:51:02+00:00"
+        },
+        {
+          "title": "Inside Alexander Zverev’s 2026 US Open victory celebrations at NYC hotspot",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPczI1Uk5aYlZ4MVRtTWtEaUhyWUdta1F5LWhYTUtYR0VmRTFQc1lLNTBLSVVlQVhwZlBOSjc1eXpQYzJaajVoMzl3aDR0ZnBlUG1RTVB4N0htcXhQckljenFvb1ZsTGUza2lucmtUMV9GYkFjSXo4OWRZY3VDd1VNTGpJU3BHUWlNZ2NwNEZ1amFWNjRRYzlJaGJPVXExT1kzNDhPeklKcVJHYktpczNSNGhsZU1NREhMU0M4?oc=5",
+          "description": "Inside Alexander Zverev’s 2026 US Open victory celebrations at NYC hotspot  Page SixAlexander Zverev beats Ben Shelton in 4 sets to win US Open  ESPNThe U.S. Open Men’s Final Changed Nothing  Defector",
+          "publisher": "Page Six",
+          "pub_date": "2026-09-14T16:26:00+00:00"
         }
       ],
       "health": [
         {
           "title": "Pennsylvania woman’s measles death shows risks to people with health problems",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZjlLZXUyVE0yQ2EyaWJDdnM2SURYb0k5QlozUE1EZkRYU1kxZFRVb2pZc3hkUV8ycHpOMlItZVBnYjBiM2JScUYwY09hVElsdmZwNTZVUmtBUl8wRndHQmd4eTY1UnVnbF9saWtSWHd3a0xPeERudGQ3SGhDdTh6SEZZUHo2TC1EMmtkYVFwV2dkb1ZQd3pUVDJHU3ltWE9rUG1SUXZWRm5iR3NG?oc=5",
-          "description": "Pennsylvania woman’s measles death shows risks to people with health problems  NBC NewsAdult woman dies of measles complications in growing Pennsylvania outbreak  CNNTrump administration changes how i",
+          "description": "Pennsylvania woman’s measles death shows risks to people with health problems  NBC NewsAdult woman dies of measles complications in growing Pennsylvania outbreak  CNNAs diseases loom, CDC's response t",
           "publisher": "NBC News",
           "pub_date": "2026-09-14T21:56:00+00:00"
         },
@@ -1268,6 +1268,13 @@
           "pub_date": "2026-09-14T21:53:58+00:00"
         },
         {
+          "title": "Ebola outbreak in DRC has peaked, say authorities, as infection rates slow",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVnFIeWdrZGxWUGFCWWtWbk9IVWR6SUM0ZUMwZl9PdkZ5NkNvVGJ1RFR2ZEpmamJxUWxORmtnUEV2aG4yd21jVk1aMHYweW9qdWVQb0xfVXVzRkxhX1hZX29tcDB3SVpMbkF1aWZXaW9JTVFXdnhMeWJzcm5Id250cEFjcTVZbnRWalpnRmpSQnFOSlFXRU5rRWpjN1g0VS1TV0lqN3RPTHp3eVo4dVZMdkZBUGRYYWwwaFplb0c3VllzUFdLbzFqZVZUSQ?oc=5",
+          "description": "Ebola outbreak in DRC has peaked, say authorities, as infection rates slow  The GuardianEbola outbreak in DR Congo grows to 7,200 cases as government officials suggest transmission has peaked  CIDRAPE",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-15T04:00:00+00:00"
+        },
+        {
           "title": "Human rabies exposure cases on the rise, CDC warns",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNE0wcUFqd3l4VDdYY0RZZk9pNTZIdFBTRTQ2cFN3UTNRcUIxem1GRDhhMmhIYmFzZGFJN1VBWTNqWWZlNldsOFJSakhsaE9WSTl5Rlg3akU5NmktcjhXUUJGN0FCQkxtWjdmQ0lIVU1xSEFwTlJ2ZGFNNUVUVDRwOXFlSjMxZmk5UzJXU00xVU1tYVRnQ2M5ZzBwVjd1d9IBowFBVV95cUxQNE0zbTZ1MGl0Qnk2NkhHa3JrODFOTnVGMG9sX0FaeFVGRTd1SF9xbGNiTmdjcnAwaGxZRURoRVFuQUZSek51YmhHRGZnY184aHNUZ1c2cXQxTGxYZE9lQTlEdzZfZXQ0bWhlUjYyY1pXc3ZmVWtyZTl0T2hhamlqRUozMjAxY2xTclA4TTMtOFdBbFhubnlXY0tKZ0JRVFgybVpr?oc=5",
           "description": "Human rabies exposure cases on the rise, CDC warns  WOODTV.comCDC issues alert about nationwide increase in rabies exposures  CNNNationwide Increase in Reported Human Rabies Exposures: Rabies Post-exp",
@@ -1280,13 +1287,6 @@
           "description": "'People are still afraid of those three letters': Fighting the stigma of HIV  NPRBeyond the Inflection Point: The Choices Before Us  Georgetown UniversityHIV Prevention Has Changed Dramatically; Stigm",
           "publisher": "NPR",
           "pub_date": "2026-09-12T13:03:20+00:00"
-        },
-        {
-          "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ZSFlLTWgwY19KbzgzYjhGOHRaOEZIMHFQbVFIRXNWTVpWaVdVeXF1S1VQTVJSZUVZMTB3V2dEbFlLcEVwQVBKWXd6NFg1QkN2Qk9kZG1HREN3eF9yNkJNTWVQN1B4dUIzbHQ5Ym03TWRHQW9wQXF3aU9R?oc=5",
-          "description": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo  World Health Organization (WHO)Ebola outbreak in DR Congo grows to 7,200 cases as government officials suggest transmission",
-          "publisher": "World Health Organization (WHO)",
-          "pub_date": "2026-09-10T09:18:20+00:00"
         },
         {
           "title": "Common bedroom mistake could be quietly taking a toll on your health, experts say",
@@ -1310,13 +1310,6 @@
           "pub_date": "2026-09-14T15:08:00+00:00"
         },
         {
-          "title": "NPR looked for ChatGPT's new crisis feature. It's hard to find",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOS1YN2I0dHo2WmxwSWZ4cXdablA0TzQzdnJiU2lNT29YYkF3d0E1dnF2RWxqMlMtVnVZb2VDTzdiOVViWE9TaE1kdExOQ1cyM2VIQ2t3dlltbUZuVndTc0h1WmZNWFBhcmxCTER6cFA1eU5OaWZWeHY3d1Y3VkQzSXI3WVNQTmpfQ3ZRMDA5X1gtampQMW5RX3UzblVDZFJLajBVdWlyZ0VkUkNoRlJhZTRHaDk2SFk?oc=5",
-          "description": "NPR looked for ChatGPT's new crisis feature. It's hard to find  NPR",
-          "publisher": "NPR",
-          "pub_date": "2026-09-14T09:00:00+00:00"
-        },
-        {
           "title": "Pennsylvania doctors urge people to vaccinate as flu, COVID-19 season approaches",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRSjNnS290eWpfbklXRWtMM0RXUmdtMERUV0lKWTFnLXl0T2NXQVl3cXFsa1lmel9KLWJheV9KRzZkSU92SUpGQjZleXlOWFdhZ19RaHdqR09EWG1qTDdtSTAtM2pZN1FrSlZoWUdQdGtfS0RC?oc=5",
           "description": "Pennsylvania doctors urge people to vaccinate as flu, COVID-19 season approaches  WHYYOpinion | Fall vaccines are now available. Here are your questions, answered.  The Washington PostWhat to know abo",
@@ -1331,9 +1324,16 @@
           "pub_date": "2026-09-12T11:57:00+00:00"
         },
         {
+          "title": "A 3-Year-Old's Metastatic Cancer Disappeared After Two Doses of Experimental Therapy",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcEcwcmtxMTE2OGQxU3o4b09FaWM4bWgyX3g1UGR0Q2xHY3dIRlhvUGo0elF0ZU9vd3FsOWNoMFZkWWhsUkVIVTV6MmNBNzFvZW1EUjJNSkxhVnhNQUNibm5lb1RCbTlUTUVxcWlqLVlrdm42ZmRMRkRhSFFHdzFNQnk5OUhnYU5Hb2NyR25MYXNFS2tUUmJUajBSVV9CM1A0Q2pDQTZ4TDZLTHlSVWdXTTNn?oc=5",
+          "description": "A 3-Year-Old's Metastatic Cancer Disappeared After Two Doses of Experimental Therapy  ScienceAlert",
+          "publisher": "ScienceAlert",
+          "pub_date": "2026-09-15T01:11:07+00:00"
+        },
+        {
           "title": "Common antibiotic linked to possible higher death risk",
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOelU5bmNLVmNFeU5xdUctTmhXZElYWTdJeGs2amNCRVlPSFliOXZESml0Qkc0UEJzcllGYTYtZVl2V20xNXJENGs2cDdPRGdRV25zME1jREItMFYwMUNWMUNQNVZFLTZsVFBuMU5oSDRHTEhFRm9QR0FyU2pWS0Qtd3Zpc2ZHTmNm?oc=5",
-          "description": "Common antibiotic linked to possible higher death risk  Medical XpressCefepime Linked to Higher Mortality Risk Than Other Beta-Lactams: Study  medicaldialogues.inCefepime Tied to Higher Mortality Odds",
+          "description": "Common antibiotic linked to possible higher death risk  Medical XpressCefepime Linked to Higher Mortality Risk Than Other Beta-Lactams: Study  Medical DialoguesCefepime Tied to Higher Mortality Odds v",
           "publisher": "Medical Xpress",
           "pub_date": "2026-09-14T14:10:02+00:00"
         },
@@ -1448,109 +1448,109 @@
         "type": "articles",
         "items": [
           {
-            "title": "Linux from Scratch",
-            "link": "https://www.linuxfromscratch.org/",
-            "description": "35 points · 11 comments",
-            "publisher": "HackerNews",
-            "pub_date": "2026-09-15T04:15:23+00:00"
-          },
-          {
             "title": "iOS 27, iPadOS 27, and macOS 27",
             "link": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
-            "description": "514 points · 555 comments",
+            "description": "542 points · 595 comments",
             "publisher": "HackerNews",
             "pub_date": "2026-09-14T17:50:29+00:00"
           },
           {
+            "title": "Linux from Scratch",
+            "link": "https://www.linuxfromscratch.org/",
+            "description": "79 points · 30 comments",
+            "publisher": "HackerNews",
+            "pub_date": "2026-09-15T04:15:23+00:00"
+          },
+          {
             "title": "OpenArm: An open-source 7DOF humanoid arm",
             "link": "https://github.com/enactic/OpenArm",
-            "description": "25 points · 1 comments",
+            "description": "42 points · 8 comments",
             "publisher": "HackerNews",
             "pub_date": "2026-09-13T14:17:49+00:00"
           },
           {
             "title": "4,400-Year-Old Tomb of Egyptian Judge Found at Saqqara with Colors on Walls",
             "link": "https://arkeonews.net/4400-year-old-tomb-of-an-egyptian-judge-found-at-saqqara-with-colors-still-on-the-walls/",
-            "description": "88 points · 17 comments",
+            "description": "103 points · 20 comments",
             "publisher": "HackerNews",
             "pub_date": "2026-09-12T18:51:40+00:00"
           },
           {
             "title": "Pion, an agent designed to run any company autonomously",
             "link": "https://andonlabs.com/blog/why-we-built-pion",
-            "description": "357 points · 400 comments",
+            "description": "363 points · 421 comments",
             "publisher": "HackerNews",
             "pub_date": "2026-09-14T17:16:06+00:00"
           },
           {
-            "title": "Every invoice in Brazil's economy runs on SOAP 1.2. We mapped it all",
-            "link": "https://github.com/stoix-dev/sefaz-webservices-postman",
-            "description": "49 points · 31 comments",
+            "title": "Lingo.dev (YC F24) is hiring a senior content engineer (Remote, worldwide)",
+            "link": "https://lingo.dev/en/careers/ff88132a-cb79-4d35-a6a0-a6230de7a013",
+            "description": "1 points · 0 comments",
             "publisher": "HackerNews",
-            "pub_date": "2026-09-13T03:19:54+00:00"
+            "pub_date": "2026-09-15T07:00:30+00:00"
           },
           {
             "title": "Charts built for Chat",
             "link": "https://dbtcharts.com/blog/charts-built-for-chat/",
-            "description": "181 points · 57 comments",
+            "description": "199 points · 63 comments",
             "publisher": "HackerNews",
             "pub_date": "2026-09-14T21:22:54+00:00"
           },
           {
+            "title": "When code is a maze, smart developers make maps (2025)",
+            "link": "https://medium.com/@simonsmartiom/when-code-is-a-maze-smart-developers-make-maps-fbc452a48c1b",
+            "description": "12 points · 16 comments",
+            "publisher": "HackerNews",
+            "pub_date": "2026-09-14T08:35:30+00:00"
+          },
+          {
             "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
             "link": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
-            "description": "83 points · 23 comments",
+            "description": "90 points · 25 comments",
             "publisher": "HackerNews",
             "pub_date": "2026-09-14T14:29:23+00:00"
           },
           {
             "title": "XCancel service is suspended until further notice",
             "link": "https://xcancel.com/#",
-            "description": "556 points · 831 comments",
+            "description": "583 points · 857 comments",
             "publisher": "HackerNews",
             "pub_date": "2026-09-14T09:51:50+00:00"
           },
           {
-            "title": "Show HN: Macros with a Behringer FCB1010 MIDI Pedalboard in macOS",
-            "link": "https://github.com/JamesRyanATX/fcbnerd",
-            "description": "54 points · 10 comments",
-            "publisher": "HackerNews",
-            "pub_date": "2026-09-14T23:01:36+00:00"
-          },
-          {
-            "title": "OpenAI bots knew about the RubyGems caching vulnerability",
-            "link": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
-            "description": "421 points · 341 comments",
-            "publisher": "HackerNews",
-            "pub_date": "2026-09-14T12:40:57+00:00"
-          },
-          {
-            "title": "Compressing a Flag to 11 Bits",
-            "link": "https://read.vantezzen.io/miniflags",
-            "description": "108 points · 45 comments",
-            "publisher": "HackerNews",
-            "pub_date": "2026-09-12T15:57:43+00:00"
-          },
-          {
             "title": "Distributed Systems Classics (2017)",
             "link": "https://nvartolomei.com/dist-sys-classics/",
-            "description": "267 points · 59 comments",
+            "description": "277 points · 60 comments",
             "publisher": "HackerNews",
             "pub_date": "2026-09-14T16:02:01+00:00"
           },
           {
-            "title": "Principles for Fast Tokio Applications",
-            "link": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/",
-            "description": "190 points · 46 comments",
+            "title": "A beginning for mathematics",
+            "link": "https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/",
+            "description": "199 points · 109 comments",
             "publisher": "HackerNews",
-            "pub_date": "2026-09-14T15:27:56+00:00"
+            "pub_date": "2026-09-14T15:33:07+00:00"
           },
           {
-            "title": "Show HN: Redis City – Explore how Redis works in an interactive 3D model",
-            "link": "https://poltora.dev/redis",
-            "description": "31 points · 5 comments",
+            "title": "Compressing a flag to 11 bits",
+            "link": "https://read.vantezzen.io/miniflags",
+            "description": "117 points · 49 comments",
             "publisher": "HackerNews",
-            "pub_date": "2026-09-12T19:43:34+00:00"
+            "pub_date": "2026-09-12T15:57:43+00:00"
+          },
+          {
+            "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+            "link": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+            "description": "428 points · 343 comments",
+            "publisher": "HackerNews",
+            "pub_date": "2026-09-14T12:40:57+00:00"
+          },
+          {
+            "title": "Show HN: Macros with a Behringer FCB1010 MIDI Pedalboard in macOS",
+            "link": "https://github.com/JamesRyanATX/fcbnerd",
+            "description": "55 points · 12 comments",
+            "publisher": "HackerNews",
+            "pub_date": "2026-09-14T23:01:36+00:00"
           }
         ]
       }
