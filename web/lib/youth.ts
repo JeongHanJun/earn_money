@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { externalUrl } from "@/lib/url";
 
 const DATA_FILE = path.join(process.cwd(), "..", "data", "youth", "list.json");
 
@@ -48,6 +49,13 @@ function load(): YouthFile {
   if (!cache) {
     const text = fs.readFileSync(DATA_FILE, "utf-8");
     cache = JSON.parse(text) as YouthFile;
+    // 스킴 없는 링크가 상대경로 404 를 만들지 않도록 로드 시점에 정규화
+    for (const p of cache.data.items) {
+      p.apply_url = externalUrl(p.apply_url) ?? "";
+      p.ref_urls = (p.ref_urls ?? [])
+        .map(externalUrl)
+        .filter((u): u is string => !!u);
+    }
   }
   return cache;
 }

@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { externalUrl } from "@/lib/url";
 
 const DATA_FILE = path.join(process.cwd(), "..", "data", "welfare", "list.json");
 const DETAIL_DIR = path.join(process.cwd(), "..", "data", "welfare", "detail");
@@ -36,6 +37,9 @@ function load(): WelfareFile {
   if (!cache) {
     const text = fs.readFileSync(DATA_FILE, "utf-8");
     cache = JSON.parse(text) as WelfareFile;
+    for (const s of cache.data.items) {
+      s.detail_url = externalUrl(s.detail_url) ?? "";
+    }
   }
   return cache;
 }
@@ -75,12 +79,22 @@ export function getServiceDetail(serviceId: string): WelfareServiceDetail | null
     const wrapped = JSON.parse(fs.readFileSync(file, "utf-8"));
     // storage.write_json 이 {fetched_at, data} 래핑함
     const payload = (wrapped.data ?? wrapped) as WelfareServiceDetail;
+    // 스킴 없는 도메인은 https:// 부착, 전화번호·문구 등 URL 아닌 값은 링크 목록에서 제외
+    payload.related_sites = normalizeUrlEntries(payload.related_sites);
+    payload.forms = normalizeUrlEntries(payload.forms);
     detailCache.set(serviceId, payload);
     return payload;
   } catch {
     detailCache.set(serviceId, null);
     return null;
   }
+}
+
+function normalizeUrlEntries(entries: UrlEntry[] | undefined): UrlEntry[] {
+  return (entries ?? []).flatMap((e) => {
+    const url = externalUrl(e.url);
+    return url ? [{ ...e, url }] : [];
+  });
 }
 
 export function fetchedAt(): string {
