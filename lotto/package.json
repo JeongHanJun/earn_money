@@ -1,0 +1,29 @@
+{
+  "name": "lotto",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.web.json && vite build",
+    "preview": "vite preview",
+    "worker:typecheck": "tsc -p tsconfig.worker.json --noEmit",
+    "worker:dev": "wrangler dev",
+    "deploy": "npm run build && wrangler deploy",
+    "d1:apply:local": "wrangler d1 migrations apply lotto-db --local",
+    "d1:apply:remote": "wrangler d1 migrations apply lotto-db --remote",
+    "probe": "node scripts/probe-dhlottery.mjs",
+    "bootstrap:remote": "node scripts/bootstrap-jeong760.mjs --remote"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260918.1",
+    "@types/leaflet": "^1.9.12",
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0",
+    "wrangler": "^4.131.0"
+  }
+}
