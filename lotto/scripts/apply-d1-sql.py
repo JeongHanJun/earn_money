@@ -75,11 +75,12 @@ def main() -> int:
         ok, payload = execute(account, token, db_id, s)
         if not ok or not payload.get("success", True):
             errs = payload.get("errors") or payload
-            print(f"[{i}/{len(stmts)}] FAIL: {json.dumps(errs)[:400]}")
-            print(f"  stmt: {s[:200]}")
+            msg = f"[{i}/{len(stmts)}] FAIL: {json.dumps(errs)[:800]} | stmt: {s[:400]}"
+            print(f"::error title=D1 apply failed::{msg}")
+            print(msg, file=sys.stderr)
             fail += 1
             if fail >= 3:
-                print("[apply-d1] too many failures, aborting")
+                print("::error::too many failures, aborting")
                 return 1
         if i % 500 == 0:
             elapsed = int(time.time() - started)
@@ -87,6 +88,8 @@ def main() -> int:
 
     elapsed = int(time.time() - started)
     print(f"[apply-d1] done: {len(stmts) - fail}/{len(stmts)} OK · {elapsed}s")
+    if fail == 0:
+        print(f"::notice title=D1 apply OK::{len(stmts)} statements applied in {elapsed}s")
     return 0 if fail == 0 else 1
 
 
