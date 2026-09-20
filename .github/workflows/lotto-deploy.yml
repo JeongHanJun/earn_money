@@ -72,28 +72,13 @@ jobs:
             -d '{"sql":"CREATE TABLE IF NOT EXISTS _ci_test (id INTEGER)"}'
           echo
 
-      - name: Apply D1 schema via REST API (raw multi-statement)
-        run: |
-          SQL_JSON=$(python3 -c "import json,sys; print(json.dumps(open('lotto/migrations/0001_init.sql').read()))")
-          BODY=$(python3 -c "import json,sys; sql=json.loads(sys.argv[1]); print(json.dumps({'sql':sql}))" "$SQL_JSON")
-          curl -sS -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-            -H "Content-Type: application/json" \
-            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/d1/database/c21bdb40-5834-41e7-840d-f6f648f1d24a/raw" \
-            -d "$BODY" | python3 -c "
-          import json,sys
-          d=json.load(sys.stdin)
-          success = d.get('success')
-          errors = d.get('errors', [])
-          if not success:
-            print('FAIL:', json.dumps(d, indent=2)[:2000]); sys.exit(1)
-          print('OK: schema applied via REST')
-          "
+      - name: Apply D1 schema via REST API (statement by statement)
+        run: python3 lotto/scripts/apply-d1-sql.py lotto/migrations/0001_init.sql
 
       - name: Bootstrap draws (jeong760 → D1)
         if: ${{ inputs.run_bootstrap == 'true' }}
-        working-directory: lotto
-        timeout-minutes: 10
-        run: npx wrangler d1 execute lotto-db --remote --file=seeds/0002_bootstrap_data.sql
+        timeout-minutes: 15
+        run: python3 lotto/scripts/apply-d1-sql.py lotto/seeds/0002_bootstrap_data.sql
 
       - name: Build frontend
         working-directory: lotto
