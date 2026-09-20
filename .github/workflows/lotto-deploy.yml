@@ -49,6 +49,19 @@ jobs:
         working-directory: lotto
         run: npm ci
 
+      - name: Diagnose Cloudflare API token (D1 scope check)
+        run: |
+          echo "Account ID length: ${#CLOUDFLARE_ACCOUNT_ID}"
+          echo "Token length: ${#CLOUDFLARE_API_TOKEN}"
+          echo "=== token verify ==="
+          curl -sS -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            "https://api.cloudflare.com/client/v4/user/tokens/verify" | head -c 500
+          echo
+          echo "=== list D1 databases ==="
+          curl -sS -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/d1/database" | head -c 1500
+          echo
+
       - name: Apply D1 schema (0001_init.sql, idempotent)
         working-directory: lotto
         run: npx wrangler d1 execute lotto-db --remote --file=migrations/0001_init.sql
