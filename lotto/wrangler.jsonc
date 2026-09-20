@@ -1,0 +1,39 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "lotto",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-20",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "observability": {
+    "enabled": true
+  },
+  "routes": [
+    {
+      "pattern": "lotto.ryanpp.com",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": "dist",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "LOTTO_DB",
+      "database_name": "lotto-db",
+      "database_id": "c21bdb40-5834-41e7-840d-f6f648f1d24a",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "LOTTO_R2",
+      "bucket_name": "lotto-assets"
+    }
+  ],
+  "triggers": {
+    // 매주 일요일 01:00 KST = 토요일 16:00 UTC. 추첨 확정(토 20:40 KST) 후 4시간 안전 마진.
+    "crons": ["0 16 * * 6"]
+  }
+}
