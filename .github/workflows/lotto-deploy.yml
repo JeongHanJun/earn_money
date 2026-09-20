@@ -64,7 +64,13 @@ jobs:
 
       - name: Apply D1 schema (0001_init.sql, idempotent)
         working-directory: lotto
-        run: npx wrangler d1 execute lotto-db --remote --file=migrations/0001_init.sql
+        run: |
+          set -x
+          npx wrangler --version
+          echo "=== try 1: sanity SELECT ==="
+          npx wrangler d1 execute lotto-db --remote --command "SELECT 1 AS ok" 2>&1 || true
+          echo "=== try 2: apply schema ==="
+          npx wrangler d1 execute lotto-db --remote --file=migrations/0001_init.sql --yes 2>&1
 
       - name: Bootstrap draws (jeong760 → D1)
         if: ${{ inputs.run_bootstrap == 'true' }}
