@@ -73,7 +73,20 @@ jobs:
           echo
 
       - name: Apply D1 schema via REST API (statement by statement)
-        run: python3 lotto/scripts/apply-d1-sql.py lotto/migrations/0001_init.sql
+        run: |
+          python3 --version
+          python3 lotto/scripts/apply-d1-sql.py lotto/migrations/0001_init.sql
+          echo "=== script exit code: $? ==="
+
+      - name: Direct curl D1 sanity write (in case script silently failed)
+        if: always()
+        run: |
+          echo "=== direct curl: CREATE TABLE test2 ==="
+          RESP=$(curl -sS -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            -H "Content-Type: application/json" \
+            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/d1/database/c21bdb40-5834-41e7-840d-f6f648f1d24a/query" \
+            -d '{"sql":"CREATE TABLE IF NOT EXISTS _ci_test2 (id INTEGER)"}')
+          echo "$RESP"
 
       - name: Bootstrap draws (jeong760 → D1)
         if: ${{ inputs.run_bootstrap == 'true' }}
