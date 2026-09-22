@@ -43,6 +43,7 @@ export async function generateMetadata(
   return {
     title: `${meta.name} · ${label}`,
     description: `${meta.flag} ${meta.name} ${label} 실시간 랭킹. 매시간 갱신.`,
+    alternates: { canonical: `/trends/${country}/${source}` },
   };
 }
 

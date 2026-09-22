@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: "정책·지원금",
   description:
     "중앙부처 복지서비스 461개. 관심주제·생애주기별 필터. 원문 링크 상단 배치, 신청 조건과 담당부처 정보 완비.",
+  alternates: { canonical: "/policy" },
 };
 
 export default function PolicyLanding() {

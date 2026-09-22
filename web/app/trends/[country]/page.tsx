@@ -36,6 +36,7 @@ export async function generateMetadata(
   return {
     title: `${meta.name} 실시간 트렌드`,
     description: `${meta.flag} ${meta.name}의 Google 급상승 검색어, YouTube 인기 동영상, Google News, 대표 매체 랭킹. 매시간 갱신.`,
+    alternates: { canonical: `/trends/${country}` },
   };
 }
 

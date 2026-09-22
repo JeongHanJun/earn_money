@@ -18,6 +18,7 @@ export async function generateMetadata(
   return {
     title: `${province.name} 날씨`,
     description: `${province.name} 시군구 단기예보. 지역을 선택하세요.`,
+    alternates: { canonical: `/weather/${sido}` },
   };
 }
 

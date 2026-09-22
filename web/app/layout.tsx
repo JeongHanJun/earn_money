@@ -40,8 +40,9 @@ export const metadata: Metadata = {
         },
       }
     : {}),
+  // canonical 은 각 page 가 자기 URL 로 선언한다.
+  // 여기에 두면 모든 하위 페이지가 홈 canonical 을 상속받아 색인에서 제외됨.
   alternates: {
-    canonical: "https://ryanpp.com",
     types: {
       "application/rss+xml": [{ url: "/rss.xml", title: "최신 정책·지원금" }],
     },

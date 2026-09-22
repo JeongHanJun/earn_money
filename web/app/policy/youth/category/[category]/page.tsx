@@ -22,6 +22,7 @@ export async function generateMetadata(
   return {
     title: `${cat} 청년정책`,
     description: `${cat} 분야 청년정책 전체 목록. 신청 링크 포함.`,
+    alternates: { canonical: `/policy/youth/category/${slug}` },
   };
 }
 

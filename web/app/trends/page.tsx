@@ -26,6 +26,7 @@ export const metadata: Metadata = {
   title: "실시간 트렌드 · 국가별",
   description:
     "한국·미국·일본·영국·대만·독일·베트남 7개국 실시간 트렌드. Google Trends, YouTube, Google News + 국가별 대표 매체.",
+  alternates: { canonical: "/trends" },
 };
 
 export default function TrendsPage() {

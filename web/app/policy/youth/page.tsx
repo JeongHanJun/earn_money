@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: "청년정책",
   description:
     "온통청년 기반 청년정책 2,700+개. 일자리·주거·교육·복지 카테고리별 필터. 각 정책마다 실 신청 링크 제공.",
+  alternates: { canonical: "/policy/youth" },
 };
 
 export default function YouthLanding() {
