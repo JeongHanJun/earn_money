@@ -30,6 +30,7 @@ export async function generateMetadata(
   return {
     title: `${cat} 청년정책 · ${pageNum}페이지`,
     description: `${cat} 분야 청년정책 목록 (${pageNum}페이지).`,
+    alternates: { canonical: `/policy/youth/category/${slug}/page/${pageNum}` },
   };
 }
 

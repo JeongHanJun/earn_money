@@ -6,6 +6,7 @@ import { RegionSelect } from "@/components/RegionSelect";
 export const metadata: Metadata = {
   title: "날씨",
   description: "전국 시군구 단위 단기예보 (3일치, 3시간 간격). 지역을 선택하세요.",
+  alternates: { canonical: "/weather" },
 };
 
 export default function WeatherIndex() {

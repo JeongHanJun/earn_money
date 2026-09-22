@@ -32,6 +32,7 @@ export async function generateMetadata(
   return {
     title: `${municipality.name} 날씨`,
     description: `${province.name} ${municipality.name} 3일 단기예보 (기온·강수·습도·풍속).`,
+    alternates: { canonical: `/weather/${sido}/${sigungu}` },
   };
 }
 

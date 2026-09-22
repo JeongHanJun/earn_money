@@ -23,6 +23,7 @@ export async function generateMetadata(
   return {
     title: `${topic} 지원금·정책`,
     description: `${topic} 관련 중앙부처 복지서비스 전체 목록. 신청 조건과 원문 링크.`,
+    alternates: { canonical: `/policy/topic/${slug}` },
   };
 }
 

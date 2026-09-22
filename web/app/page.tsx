@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { AdSlot } from "@/components/AdSlot";
 import { KakaoAdSlot } from "@/components/KakaoAdSlot";
@@ -7,6 +8,10 @@ import { groupByDay, loadWeather, pivotByTime } from "@/lib/weather";
 import { recentYouthPolicies } from "@/lib/youth";
 import type { WelfareService } from "@/lib/policy";
 import type { YouthPolicy } from "@/lib/youth";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 // 홈에 노출할 대표 지역 (트래픽 큰 광역시)
 const FEATURED_CITIES: Array<{ sido: string; sigungu: string; name: string }> = [
