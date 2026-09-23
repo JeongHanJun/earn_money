@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-22T23:01:10.251459+00:00",
+  "fetched_at": "2026-09-23T00:02:13.390358+00:00",
   "data": {
     "country_code": "vn",
     "country_name": "베트남",
@@ -7,8 +7,38 @@
     "google_trends": [
       {
         "rank": 1,
-        "keyword": "chuyển khoản",
+        "keyword": "weather",
         "traffic": "500+",
+        "pub_date": "2026-09-22T23:40:00+00:00",
+        "articles": []
+      },
+      {
+        "rank": 2,
+        "keyword": "giá vàng thế giới",
+        "traffic": "200+",
+        "pub_date": "2026-09-22T23:10:00+00:00",
+        "articles": [
+          {
+            "title": "Chốt giá vàng hôm nay ngày 22/9 tiếp đà giảm rất mạnh",
+            "url": "https://www.24h.com.vn/kinh-doanh/chot-gia-vang-hom-nay-ngay-22-9-tiep-da-giam-rat-manh-c161a1796920.html",
+            "source": "Tin tức 24h"
+          },
+          {
+            "title": "Giá vàng hôm nay 23/9/2026: SJC giảm sâu, tín hiệu mới cho kim loại quý",
+            "url": "https://vietnamnet.vn/gia-vang-hom-nay-23-9-2026-sjc-giam-sau-tin-hieu-moi-cho-kim-loai-quy-2557881.html",
+            "source": "Báo VietNamNet"
+          },
+          {
+            "title": "Giá vàng miếng về dưới 145 triệu đồng",
+            "url": "https://vnexpress.net/gia-vang-moi-nhat-hom-nay-ngay-22-9-5123321.html",
+            "source": "VnExpress"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "keyword": "chuyển khoản",
+        "traffic": "1000+",
         "pub_date": "2026-09-22T22:20:00+00:00",
         "articles": [
           {
@@ -29,9 +59,9 @@
         ]
       },
       {
-        "rank": 2,
+        "rank": 4,
         "keyword": "đội tuyển bóng đá quốc gia bồ đào nha",
-        "traffic": "100+",
+        "traffic": "500+",
         "pub_date": "2026-09-22T22:10:00+00:00",
         "articles": [
           {
@@ -45,14 +75,14 @@
             "source": "Znews"
           },
           {
-            "title": "HLV tuyển Bồ Đào Nha cảnh báo Ronaldo: 'Nếu đá không tốt sẽ phải ngồi ngoài'",
-            "url": "https://tuoitre.vn/hlv-tuyen-bo-dao-nha-canh-bao-ronaldo-neu-da-khong-tot-se-phai-ngoi-ngoai-100260919093333308.htm",
-            "source": "Tuổi Trẻ"
+            "title": "Ronaldo nhận tin buồn ngỡ ngàng tại bóng đá Bồ Đào Nha",
+            "url": "https://thethao247.vn/426-ronaldo-nhan-tin-buon-ngo-ngang-tai-bong-da-bo-dao-nha-c2-d437210.html",
+            "source": "Thể Thao 247"
           }
         ]
       },
       {
-        "rank": 3,
+        "rank": 5,
         "keyword": "điện giật",
         "traffic": "100+",
         "pub_date": "2026-09-22T22:10:00+00:00",
@@ -75,37 +105,37 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 6,
         "keyword": "thời tiết",
-        "traffic": "50000+",
+        "traffic": "100000+",
         "pub_date": "2026-09-22T21:40:00+00:00",
         "articles": [
           {
-            "title": "Dự báo thời tiết 10 ngày tới từ đêm 22.9 đến 2.10 trên cả nước",
-            "url": "https://laodong.vn/moi-truong/du-bao-thoi-tiet-10-ngay-toi-tu-dem-229-den-210-tren-ca-nuoc-1771006.ldo",
-            "source": "Laodong.vn"
+            "title": "Thời tiết hôm nay 23-9: Nam Bộ tiếp tục mưa to kết hợp triều cường, nhiều nơi ngập nặng",
+            "url": "https://tuoitre.vn/thoi-tiet-hom-nay-23-9-nam-bo-tiep-tuc-mua-to-ket-hop-trieu-cuong-nhieu-noi-ngap-nang-100260922160616991.htm",
+            "source": "Tuổi Trẻ"
           },
           {
-            "title": "Dự báo thời tiết 23/9: Dải hội tụ mạnh, Huế đến Nam Bộ mưa lớn như trút nước",
-            "url": "https://vietnamnet.vn/du-bao-thoi-tiet-23-9-dai-hoi-tu-manh-hue-den-nam-bo-mua-lon-nhu-trut-nuoc-2555514.html",
-            "source": "Báo VietNamNet"
-          },
-          {
-            "title": "Khi nào miền Trung, miền Nam giảm mưa?",
-            "url": "https://dantri.com.vn/thoi-tiet/khi-nao-mien-trung-mien-nam-giam-mua-20260922212251788.htm",
+            "title": "TPHCM và Nam Bộ tiếp tục mưa lớn, đề phòng ngập",
+            "url": "https://dantri.com.vn/thoi-su/tphcm-va-nam-bo-tiep-tuc-mua-lon-de-phong-ngap-20260922205316224.htm",
             "source": "Báo Dân trí"
+          },
+          {
+            "title": "5 tỉnh mưa lớn dồn dập, có nơi trên 250 mm/ngày",
+            "url": "https://thanhnien.vn/5-tinh-mua-lon-don-dap-co-noi-tren-250-mm-ngay-185260922180546301.htm",
+            "source": "Báo Thanh Niên"
           }
         ]
       },
       {
-        "rank": 5,
+        "rank": 7,
         "keyword": "xổ số miền nam thứ tư",
         "traffic": "200000+",
         "pub_date": "2026-09-22T21:20:00+00:00",
         "articles": [
           {
-            "title": "Kết quả xổ số Cà Mau ngày 21.9",
-            "url": "https://laodong.vn/ldt/tin-tuc/ket-qua-xo-so-ca-mau-ngay-219-1770350.ldo",
+            "title": "Kết quả xổ số Vũng Tàu ngày 22.9",
+            "url": "https://laodong.vn/ldt/tin-tuc/ket-qua-xo-so-vung-tau-ngay-229-1770971.ldo",
             "source": "Laodong.vn"
           },
           {
@@ -121,7 +151,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 8,
         "keyword": "pubg",
         "traffic": "500+",
         "pub_date": "2026-09-22T17:10:00+00:00",
@@ -144,37 +174,37 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 9,
         "keyword": "nguyễn đình bắc",
         "traffic": "500+",
         "pub_date": "2026-09-22T13:40:00+00:00",
         "articles": [
-          {
-            "title": "Đồng Nai kỷ luật hai cầu thủ phạm lỗi với Đình Bắc",
-            "url": "https://vnexpress.net/dong-nai-ky-luat-hai-cau-thu-pham-loi-voi-dinh-bac-5123224.html",
-            "source": "VnExpress"
-          },
           {
             "title": "CLB TP.Đồng Nai xin lỗi Đình Bắc và CLB CAHN, kỷ luật nặng Tấn Sinh và Văn Sơn vì chơi xấu",
             "url": "https://thanhnien.vn/tpdong-nai-xin-loi-dinh-bac-va-clb-cahn-ky-luat-nang-tan-sinh-va-van-son-vi-choi-xau-185260922095240615.htm",
             "source": "Báo Thanh Niên"
           },
           {
-            "title": "Trai đẹp U23 Việt Nam bị phản ứng dữ dội vì chơi xấu với Đình Bắc",
-            "url": "https://cafef.vn/trai-dep-u23-viet-nam-bi-phan-ung-du-doi-vi-choi-xau-voi-dinh-bac-188260921201143705.chn",
-            "source": "CafeF"
+            "title": "Chuyên gia: “Cầu thủ cần biết tôn trọng đồng nghiệp để bỏ lối chơi thô bạo”",
+            "url": "https://dantri.com.vn/the-thao/chuyen-gia-cau-thu-can-biet-ton-trong-dong-nghiep-de-bo-loi-choi-tho-bao-20260923010401754.htm",
+            "source": "Báo Dân trí"
+          },
+          {
+            "title": "Phạm lỗi thô bạo với Đình Bắc, Tấn Sinh nhận án kỷ luật nặng",
+            "url": "https://vietnamnet.vn/da-tho-bao-voi-dinh-bac-tan-sinh-nhan-an-ky-luat-nang-2557598.html",
+            "source": "Báo VietNamNet"
           }
         ]
       },
       {
-        "rank": 8,
+        "rank": 10,
         "keyword": "vneid",
         "traffic": "1000+",
         "pub_date": "2026-09-22T12:10:00+00:00",
         "articles": [
           {
-            "title": "Toàn bộ người dân lưu ý: Chỉ còn 1 tuần, hàng loạt tài khoản VNeID sẽ bị khóa nếu chưa làm việc này",
-            "url": "https://cafef.vn/toan-bo-nguoi-dan-luu-y-chi-con-1-tuan-hang-loat-tai-khoan-vneid-se-bi-khoa-neu-chua-lam-viec-nay-188260921232912029.chn",
+            "title": "Thay đổi mới nhất liên quan đến lương hưu, trợ cấp, tất cả người dân cần biết",
+            "url": "https://cafef.vn/thay-doi-moi-nhat-lien-quan-den-luong-huu-tro-cap-tat-ca-nguoi-dan-can-biet-188260919120925583.chn",
             "source": "CafeF"
           },
           {
@@ -188,52 +218,6 @@
             "source": "Báo Dân trí"
           }
         ]
-      },
-      {
-        "rank": 9,
-        "keyword": "cá",
-        "traffic": "500+",
-        "pub_date": "2026-09-22T11:20:00+00:00",
-        "articles": [
-          {
-            "title": "Cá hồi \"dinh dưỡng hàng đầu\" bán đầy chợ Việt, mỗi nơi một giá",
-            "url": "https://dantri.com.vn/kinh-doanh/ca-hoi-dinh-duong-hang-dau-ban-day-cho-viet-moi-noi-mot-gia-20260922105806339.htm",
-            "source": "Báo Dân trí"
-          },
-          {
-            "title": "Bán đầy chợ Việt nhưng ít ai để ý: 3 loại cá này mới là “kho dinh dưỡng” của mùa thu",
-            "url": "https://cafef.vn/ban-day-cho-viet-nhung-it-ai-de-y-3-loai-ca-nay-moi-la-kho-dinh-duong-cua-mua-thu-188260921155714066.chn",
-            "source": "CafeF"
-          },
-          {
-            "title": "Loại cá được chuyên gia Mỹ đánh giá \"tốt hơn cá hồi\": Việt Nam bán đầy chợ",
-            "url": "https://kenh14.vn/loai-ca-duoc-chuyen-gia-my-danh-gia-tot-hon-ca-hoi-viet-nam-ban-day-cho-215260922112221528.chn",
-            "source": "Kenh14.vn"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "keyword": "kết quả xổ số",
-        "traffic": "2000+",
-        "pub_date": "2026-09-22T11:20:00+00:00",
-        "articles": [
-          {
-            "title": "Xổ số Vietlott của Power 6/55 hôm nay: 26 người trúng giải Nhất",
-            "url": "https://laodong.vn/ban-doc/xo-so-vietlott-cua-power-655-hom-nay-26-nguoi-trung-giai-nhat-1769448.ldo",
-            "source": "Laodong.vn"
-          },
-          {
-            "title": "KQXS VIETLOTT HÔM NAY - TRỰC TIẾP KẾT QUẢ XỔ SỔ VIETLOTT",
-            "url": "https://baoquocte.vn/vietlott-22-9-2026-ket-qua-xo-so-vietlott-power-hom-nay-thu-3-ngay-22-9-2026-444721.html",
-            "source": "Báo Thế giới và Việt Nam"
-          },
-          {
-            "title": "Kết quả xổ số Vietlott Power 6/55 tối 22.9, giải độc đắc tăng 79,3 tỉ đồng",
-            "url": "https://thanhnien.vn/ket-qua-xo-so-vietlott-power-6-55-toi-229-giai-doc-dac-tang-793-ti-dong-185260922203107687.htm",
-            "source": "Báo Thanh Niên"
-          }
-        ]
       }
     ],
     "youtube_popular": [
@@ -244,8 +228,8 @@
         "channel": "Vie Channel - MUSIC",
         "thumbnail": "https://i.ytimg.com/vi/bAHLmRaNxOs/mqdefault.jpg",
         "published_at": "2026-09-20T02:30:07Z",
-        "view_count": 919893,
-        "like_count": 20048
+        "view_count": 921048,
+        "like_count": 20085
       },
       {
         "rank": 2,
@@ -254,8 +238,8 @@
         "channel": "Bi Huỳnh Gaming",
         "thumbnail": "https://i.ytimg.com/vi/KbPI41O_WfM/mqdefault.jpg",
         "published_at": "2026-09-18T10:00:03Z",
-        "view_count": 1644413,
-        "like_count": 12140
+        "view_count": 1644691,
+        "like_count": 12143
       },
       {
         "rank": 3,
@@ -264,8 +248,8 @@
         "channel": "YEAH1 MUSIC",
         "thumbnail": "https://i.ytimg.com/vi/KyZHbM_zC0I/mqdefault.jpg",
         "published_at": "2026-09-13T03:00:10Z",
-        "view_count": 1391553,
-        "like_count": 24496
+        "view_count": 1391872,
+        "like_count": 24502
       },
       {
         "rank": 4,
@@ -275,7 +259,7 @@
         "thumbnail": "https://i.ytimg.com/vi/JX2vaMoBpBY/mqdefault.jpg",
         "published_at": "2026-09-22T16:30:18Z",
         "view_count": 728359,
-        "like_count": 15853
+        "like_count": 15897
       },
       {
         "rank": 5,
@@ -284,8 +268,8 @@
         "channel": "ROSÉ",
         "thumbnail": "https://i.ytimg.com/vi/Lufa9QAFFeY/mqdefault.jpg",
         "published_at": "2026-09-17T23:00:06Z",
-        "view_count": 41746239,
-        "like_count": 1031286
+        "view_count": 41793868,
+        "like_count": 1031903
       },
       {
         "rank": 6,
@@ -294,8 +278,8 @@
         "channel": "Toga TV",
         "thumbnail": "https://i.ytimg.com/vi/Y6kuMn3SOmc/mqdefault.jpg",
         "published_at": "2026-09-18T10:55:01Z",
-        "view_count": 1186221,
-        "like_count": 5501
+        "view_count": 1186357,
+        "like_count": 5507
       },
       {
         "rank": 7,
@@ -304,8 +288,8 @@
         "channel": "Quốc Thiên Official",
         "thumbnail": "https://i.ytimg.com/vi/-M91YDMeFnc/mqdefault.jpg",
         "published_at": "2026-09-18T13:00:07Z",
-        "view_count": 1226099,
-        "like_count": 7964
+        "view_count": 1226924,
+        "like_count": 7972
       },
       {
         "rank": 8,
@@ -314,7 +298,7 @@
         "channel": "Free Fire Esports VN",
         "thumbnail": "https://i.ytimg.com/vi/biUniSfu2c4/mqdefault.jpg",
         "published_at": "2026-09-20T16:31:13Z",
-        "view_count": 953514,
+        "view_count": 953537,
         "like_count": 4435
       },
       {
@@ -324,8 +308,8 @@
         "channel": "Phương Mỹ Chi",
         "thumbnail": "https://i.ytimg.com/vi/zs1CJNEMpSU/mqdefault.jpg",
         "published_at": "2026-09-16T13:00:07Z",
-        "view_count": 1085646,
-        "like_count": 27648
+        "view_count": 1086077,
+        "like_count": 27666
       },
       {
         "rank": 10,
@@ -334,8 +318,8 @@
         "channel": "MixiGaming",
         "thumbnail": "https://i.ytimg.com/vi/GUsLKrkbea0/mqdefault.jpg",
         "published_at": "2026-09-18T22:20:59Z",
-        "view_count": 1307112,
-        "like_count": 8998
+        "view_count": 1307231,
+        "like_count": 8999
       },
       {
         "rank": 11,
@@ -344,18 +328,18 @@
         "channel": "Orinn Mix",
         "thumbnail": "https://i.ytimg.com/vi/78KvE78jFj0/mqdefault.jpg",
         "published_at": "2026-09-20T01:58:02Z",
-        "view_count": 318514,
+        "view_count": 318598,
         "like_count": 974
       },
       {
         "rank": 12,
-        "video_id": "or1ImzcoFp8",
-        "title": "TIẾP TỤC NÈ MẤY FENNNNNNNNNN",
-        "channel": "TUI TÊN BÔ",
-        "thumbnail": "https://i.ytimg.com/vi/or1ImzcoFp8/mqdefault.jpg",
-        "published_at": "2026-09-19T15:12:01Z",
-        "view_count": 897269,
-        "like_count": 7449
+        "video_id": "qH2EhXLVSWY",
+        "title": "🔴 [LIVE] | Truc tiep tai Go Vap",
+        "channel": "Himass",
+        "thumbnail": "https://i.ytimg.com/vi/qH2EhXLVSWY/mqdefault.jpg",
+        "published_at": "2026-09-22T21:26:28Z",
+        "view_count": 660852,
+        "like_count": 21658
       },
       {
         "rank": 13,
@@ -364,18 +348,18 @@
         "channel": "J97",
         "thumbnail": "https://i.ytimg.com/vi/boKJ5XDs_mY/mqdefault.jpg",
         "published_at": "2026-08-29T16:30:07Z",
-        "view_count": 13800884,
-        "like_count": 122936
+        "view_count": 13802814,
+        "like_count": 122956
       },
       {
         "rank": 14,
-        "video_id": "wG5c_tSQpyA",
-        "title": "TÔI CHƠI THỬ BẢN MOD KINH DỊ BỊ BỎ QUÊN CỦA MINECRAFT",
-        "channel": "Phong Cận Tv",
-        "thumbnail": "https://i.ytimg.com/vi/wG5c_tSQpyA/mqdefault.jpg",
-        "published_at": "2026-09-18T10:15:06Z",
-        "view_count": 808278,
-        "like_count": 7383
+        "video_id": "or1ImzcoFp8",
+        "title": "TIẾP TỤC NÈ MẤY FENNNNNNNNNN",
+        "channel": "TUI TÊN BÔ",
+        "thumbnail": "https://i.ytimg.com/vi/or1ImzcoFp8/mqdefault.jpg",
+        "published_at": "2026-09-19T15:12:01Z",
+        "view_count": 897370,
+        "like_count": 7450
       },
       {
         "rank": 15,
@@ -384,18 +368,18 @@
         "channel": "H2O Remix",
         "thumbnail": "https://i.ytimg.com/vi/awS58oAgzEQ/mqdefault.jpg",
         "published_at": "2026-09-18T00:00:10Z",
-        "view_count": 546579,
-        "like_count": 1070
+        "view_count": 546682,
+        "like_count": 1071
       },
       {
         "rank": 16,
-        "video_id": "5MUMH7_xdt4",
-        "title": "FPT POLYTECHNIC vs FPT x FLASH | GIAI ĐOẠN VÒNG BẢNG - LƯỢT ĐI | ĐTDV MÙA ĐÔNG 2026",
-        "channel": "Liên Quân Mobile eSports-Garena",
-        "thumbnail": "https://i.ytimg.com/vi/5MUMH7_xdt4/mqdefault.jpg",
-        "published_at": "2026-09-20T15:33:20Z",
-        "view_count": 883524,
-        "like_count": 3071
+        "video_id": "wG5c_tSQpyA",
+        "title": "TÔI CHƠI THỬ BẢN MOD KINH DỊ BỊ BỎ QUÊN CỦA MINECRAFT",
+        "channel": "Phong Cận Tv",
+        "thumbnail": "https://i.ytimg.com/vi/wG5c_tSQpyA/mqdefault.jpg",
+        "published_at": "2026-09-18T10:15:06Z",
+        "view_count": 808329,
+        "like_count": 7390
       },
       {
         "rank": 17,
@@ -404,58 +388,58 @@
         "channel": "Ân Ngờ",
         "thumbnail": "https://i.ytimg.com/vi/1qu1rIBM63M/mqdefault.jpg",
         "published_at": "2026-09-18T12:00:07Z",
-        "view_count": 430326,
-        "like_count": 13924
+        "view_count": 430841,
+        "like_count": 13953
       },
       {
         "rank": 18,
-        "video_id": "-Audr80xjzw",
-        "title": "🏆 PUBG Asia Stars - Ngày 1: 🇻🇳 Việt Nam, Hàn Quốc, Trung Quốc, Thái Lan, Nhật Bản, Đài Bắc Trung Hoa",
-        "channel": "PUBG: BATTLEGROUNDS VIETNAM",
-        "thumbnail": "https://i.ytimg.com/vi/-Audr80xjzw/mqdefault.jpg",
-        "published_at": "2026-09-17T16:52:39Z",
-        "view_count": 836366,
-        "like_count": 3444
+        "video_id": "5MUMH7_xdt4",
+        "title": "FPT POLYTECHNIC vs FPT x FLASH | GIAI ĐOẠN VÒNG BẢNG - LƯỢT ĐI | ĐTDV MÙA ĐÔNG 2026",
+        "channel": "Liên Quân Mobile eSports-Garena",
+        "thumbnail": "https://i.ytimg.com/vi/5MUMH7_xdt4/mqdefault.jpg",
+        "published_at": "2026-09-20T15:33:20Z",
+        "view_count": 883564,
+        "like_count": 3071
       },
       {
         "rank": 19,
-        "video_id": "afRHMKfpk9c",
-        "title": "Đạo Nào Bằng Đạo Phu Thê – Đi Hết Một Đời Mới Thấm Nghĩa Vợ Chồng | Hoàng K Official",
-        "channel": "Hoàng K Official",
-        "thumbnail": "https://i.ytimg.com/vi/afRHMKfpk9c/mqdefault.jpg",
-        "published_at": "2026-09-12T00:43:20Z",
-        "view_count": 967549,
-        "like_count": 1139
-      },
-      {
-        "rank": 20,
-        "video_id": "oY2DH-3Q7d0",
-        "title": "HÙNG AKIRA HÀNH TRÌNH 50H BẮT ETERNAL MỞ TRỨNG DIVINE LEO TOP SERVER NGƯỜI GIÀU STEAL AN EGG",
-        "channel": "HÙNG AKIRA ROBLOX VN",
-        "thumbnail": "https://i.ytimg.com/vi/oY2DH-3Q7d0/mqdefault.jpg",
-        "published_at": "2026-09-18T10:58:06Z",
-        "view_count": 702133,
-        "like_count": 4998
-      },
-      {
-        "rank": 21,
         "video_id": "ANrQrFwl6R4",
         "title": "LK Nhạc Trữ Tình Bolero KHÔNG QUẢNG CÁO Cả Xóm Phê -TUYỆT PHẨM Bolero Sến Xưa Ngọt Ngào TOÀN BÀI HAY",
         "channel": "Sến Trữ Tình",
         "thumbnail": "https://i.ytimg.com/vi/ANrQrFwl6R4/mqdefault.jpg",
         "published_at": "2026-09-17T22:04:37Z",
-        "view_count": 343961,
-        "like_count": 1045
+        "view_count": 344684,
+        "like_count": 1002
+      },
+      {
+        "rank": 20,
+        "video_id": "-Audr80xjzw",
+        "title": "🏆 PUBG Asia Stars - Ngày 1: 🇻🇳 Việt Nam, Hàn Quốc, Trung Quốc, Thái Lan, Nhật Bản, Đài Bắc Trung Hoa",
+        "channel": "PUBG: BATTLEGROUNDS VIETNAM",
+        "thumbnail": "https://i.ytimg.com/vi/-Audr80xjzw/mqdefault.jpg",
+        "published_at": "2026-09-17T16:52:39Z",
+        "view_count": 836494,
+        "like_count": 3444
+      },
+      {
+        "rank": 21,
+        "video_id": "afRHMKfpk9c",
+        "title": "Đạo Nào Bằng Đạo Phu Thê – Đi Hết Một Đời Mới Thấm Nghĩa Vợ Chồng | Hoàng K Official",
+        "channel": "Hoàng K Official",
+        "thumbnail": "https://i.ytimg.com/vi/afRHMKfpk9c/mqdefault.jpg",
+        "published_at": "2026-09-12T00:43:20Z",
+        "view_count": 967836,
+        "like_count": 1140
       },
       {
         "rank": 22,
-        "video_id": "RtpBefIHjec",
-        "title": "🔴 NGÀY 3 – GIẢI ĐẤU NGOẠI HẠNG APAC: CÚP THẦN RỪNG | RRQ YBY1 | ĐTCL MÙA 18",
-        "channel": "Đấu Trường Chân Lý",
-        "thumbnail": "https://i.ytimg.com/vi/RtpBefIHjec/mqdefault.jpg",
-        "published_at": "2026-09-20T12:20:30Z",
-        "view_count": 593742,
-        "like_count": 2422
+        "video_id": "oY2DH-3Q7d0",
+        "title": "HÙNG AKIRA HÀNH TRÌNH 50H BẮT ETERNAL MỞ TRỨNG DIVINE LEO TOP SERVER NGƯỜI GIÀU STEAL AN EGG",
+        "channel": "HÙNG AKIRA ROBLOX VN",
+        "thumbnail": "https://i.ytimg.com/vi/oY2DH-3Q7d0/mqdefault.jpg",
+        "published_at": "2026-09-18T10:58:06Z",
+        "view_count": 702215,
+        "like_count": 5000
       },
       {
         "rank": 23,
@@ -464,18 +448,18 @@
         "channel": "Bolero Lính Xưa",
         "thumbnail": "https://i.ytimg.com/vi/8wRt53iLuV4/mqdefault.jpg",
         "published_at": "2026-09-20T22:12:12Z",
-        "view_count": 106319,
-        "like_count": 2325
+        "view_count": 108677,
+        "like_count": 2330
       },
       {
         "rank": 24,
-        "video_id": "kJu5VMN3yow",
-        "title": "I Survived 100 Days on One Block",
-        "channel": "MrBeast Gaming",
-        "thumbnail": "https://i.ytimg.com/vi/kJu5VMN3yow/mqdefault.jpg",
-        "published_at": "2026-09-12T16:00:25Z",
-        "view_count": 48955165,
-        "like_count": 514633
+        "video_id": "RtpBefIHjec",
+        "title": "🔴 NGÀY 3 – GIẢI ĐẤU NGOẠI HẠNG APAC: CÚP THẦN RỪNG | RRQ YBY1 | ĐTCL MÙA 18",
+        "channel": "Đấu Trường Chân Lý",
+        "thumbnail": "https://i.ytimg.com/vi/RtpBefIHjec/mqdefault.jpg",
+        "published_at": "2026-09-20T12:20:30Z",
+        "view_count": 593830,
+        "like_count": 2422
       },
       {
         "rank": 25,
@@ -484,39 +468,46 @@
         "channel": "Khánh Băng Bolero",
         "thumbnail": "https://i.ytimg.com/vi/-hZjQogvk5k/mqdefault.jpg",
         "published_at": "2026-09-20T13:00:25Z",
-        "view_count": 177696,
-        "like_count": 353
+        "view_count": 178044,
+        "like_count": 354
       }
     ],
     "google_news": {
       "top": [
         {
-          "title": "Khi nào miền Trung, miền Nam giảm mưa?",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOX2xSTE9yU1hIMEZ1WjhHYkpKbVVsRk1lLS1uQ3hVYjhFaXZzYmlDelUwNFZ5Q1FMTWgzSXNxQ04tU0tJcmR2YVJPRUVVMlZYNzIwbTBvTTl4UHlwRGJSdWhkN0pyWE1oOGZUQ2VldEplaS1sVTdDTk11a1ZmVjdXS0ZLbTBSODNOb2hRZ1dlOEY4Nkc1?oc=5",
-          "description": "Khi nào miền Trung, miền Nam giảm mưa?  Báo Dân tríDự báo thời tiết 10 ngày tới từ đêm 22.9 đến 2.10 trên cả nước  Laodong.vnDự báo thời tiết 23/9: Dải hội tụ mạnh, Huế đến Nam Bộ mưa lớn như trút nướ",
-          "publisher": "Báo Dân trí",
-          "pub_date": "2026-09-22T17:00:00+00:00"
+          "title": "Thời tiết hôm nay 23-9: Nam Bộ tiếp tục mưa to kết hợp triều cường, nhiều nơi ngập nặng",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNU1dtMGs0OTZJUzBsSTN4a1V1Y1FVZjZNanF6bm9fVW5qN0RUYTI2RXduU2xUcXVDQy1OdFBndk1ydlhPY3BLZHpwWnZ6aF9HcWY4ZEg0RmhYTFdrbXZOeFVvSW14d1JzbXFzSEtOMWlKbzFqQ0IteDU4czJIbjlYNy1SUFRnd1pxbkRHY1dTaEJnaTV5Y1VjZnFQc3JjV2JGUkNYWTR3SER1cWxRX0hFN3JsWTVwaTVJZ0lNUkFRYXVHSV9hN2c?oc=5",
+          "description": "Thời tiết hôm nay 23-9: Nam Bộ tiếp tục mưa to kết hợp triều cường, nhiều nơi ngập nặng  Báo Tuổi TrẻTPHCM và Nam Bộ tiếp tục mưa lớn, đề phòng ngập  dantri.com.vn5 tỉnh mưa lớn dồn dập, có nơi trên 2",
+          "publisher": "Báo Tuổi Trẻ",
+          "pub_date": "2026-09-22T21:05:00+00:00"
         },
         {
-          "title": "Ông Trump phát biểu tại Liên hợp quốc: Dọa xóa sổ Iran, nhấn mạnh sức mạnh Mỹ",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWFdrM1Ffbk0yY3pHSkxRYWlwcWdNbnZ5REhjS29mTTl6cVIwTUxSY0tZWHM0ajBEM1pLMHoyNm12NHUxYlBPajFJMEZjaUtodUNfLVdMQ0MyWFJodlRQMVVpTWlGZ2JnQjNHSXk3S1ZWQzJVSXFUeWVsVnk0cXJPYWNIX3daMVV4cUdBMDVPNDkyY2ZyaEduUUJUVFRjUnBOcGkyRnk1WjlROUdCOVFNTGVZMjdweFk?oc=5",
-          "description": "Ông Trump phát biểu tại Liên hợp quốc: Dọa xóa sổ Iran, nhấn mạnh sức mạnh Mỹ  Báo Tuổi TrẻCánh cửa hẹp với Tổng thống Iran tại Liên Hợp Quốc  VnExpressÔng Trump bảo vệ quyết định tấn công Iran trong ",
-          "publisher": "Báo Tuổi Trẻ",
-          "pub_date": "2026-09-22T16:05:00+00:00"
+          "title": "Ukraine muốn chấm dứt xung đột với Nga càng nhanh càng tốt",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY1RWZzYyZGdYTnpmZkhnVDdOTFFNSGdDY1RMaGJKTzRjSHYtT3Y2aEViV1NXZW9FcnJITXIycTh2b1pFYkxobmZpNllFNkNLQUVWT1ZqZXZLY2ptOGJlYWZ1SVI4QTZ3NmJyNUFobnpqWUdZLWpKa0k2c0hJTi1UWkZkemlRVndYcmMwOTFxbm9ORGJyRVBXbEFXOW9LLUItSlRZeGNSRmt6cTFuMElWcQ?oc=5",
+          "description": "Ukraine muốn chấm dứt xung đột với Nga càng nhanh càng tốt  dantri.com.vnCựu nhân viên CIA nhận định đàm phán Nga - Ukraina còn rất ít hy vọng  Laodong.vn\"Không kèm điều kiện gì\" - ông Zelensky bất ng",
+          "publisher": "dantri.com.vn",
+          "pub_date": "2026-09-22T22:58:02+00:00"
         },
         {
           "title": "Ông Trump tuyên bố đang đối mặt với 'quyết định lớn' về Iran",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT2JSbi0teEZXYnByQjE1Mlc3cVotYzB5R3JuempaUUdtV01scnRXTzlMUHV5WjRJaVdRZEZJTEJnb3d6THBFVmI3VTRIQkZyTGxQNUlIazRYZXBQNUdKRHhoN28wUEE2MHpVN29EakdOc2xENXVna2RVa3J4SkoyOGJ4cXZ6Y2tsX1NYeUFndFZJZU9tSU5UdQ?oc=5",
-          "description": "Ông Trump tuyên bố đang đối mặt với 'quyết định lớn' về Iran  Báo VietNamNetTổng thống Trump gửi thông điệp cứng rắn đến Iran  Báo Dân tríIraq đình chỉ các chuyến bay của Iran đến Baghdad sau cảnh báo",
+          "description": "Ông Trump tuyên bố đang đối mặt với 'quyết định lớn' về Iran  Báo VietNamNetIran tung cảnh báo ớn lạnh: Mỹ phát lệnh tấn công, Tehran sẽ dùng vũ khí khiến thế giới kinh ngạc  Tin tức 24hTổng thống Tru",
           "publisher": "Báo VietNamNet",
           "pub_date": "2026-09-22T15:22:00+00:00"
         },
         {
           "title": "Nga lên tiếng về thỏa thuận của Mỹ ở Greenland",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSXVpZ2k3UjFmNE14Q1k4RExqWkI3YklSbDExcXFEVkZhbEpkNld0d2IxSEV6ejRfenZCeDdMR3JLSkFhakFHT1BvelNJZ3JWTEItbWZXYmd6S3Z0cGw4bUVWbHRhbURtRHZncTY0Qk5XdGJ6NHNEQ1ZWTWhlall5UGswSEEzR3piUWow?oc=5",
-          "description": "Nga lên tiếng về thỏa thuận của Mỹ ở Greenland  Báo Tiền PhongMỹ huy động các đồng minh tại Bắc Cực  Báo Tuổi TrẻTin tức quốc tế nổi bật ngày 22.9  Báo Thanh NiênMỹ dự định mở lại căn cứ quân sự thời ",
+          "description": "Nga lên tiếng về thỏa thuận của Mỹ ở Greenland  Báo Tiền PhongÔng Trump ký thỏa thuận an ninh với Đan Mạch và Greenland  VnExpressTin tức thế giới 23-9: Tín hiệu lạc quan Mỹ - Iran; Ông Trump ký thỏa ",
           "publisher": "Báo Tiền Phong",
           "pub_date": "2026-09-22T13:34:55+00:00"
+        },
+        {
+          "title": "Ngoại trưởng Iran tuyên bố thẳng về mục tiêu chính trong chuyến thăm New York",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNektaS0xBR2cxRmh3N29FMmdpNVR6di1IclByLW1lZGgyRlBHUENRRkNXSFJTczViblRLSXBKX3ZJc2I4bFRJUS1OeTIzZ3NRNkhXaW9rdmFNalh5WEtlYXNRT3VFQWp2R0NCbXhpejVSekpiWmxVWnRYOU9JaWFtSzJxTllWNGt0dlhvbXJNdkVndzg2NmRJRWxIV0lob0RzcGRzM3hQWVBoekE3NTMzVWJPT0FXZw?oc=5",
+          "description": "Ngoại trưởng Iran tuyên bố thẳng về mục tiêu chính trong chuyến thăm New York  Báo Tin tức và Dân tộcCánh cửa hẹp với Tổng thống Iran tại Liên Hợp Quốc  VnExpressÔng Trump bảo vệ quyết định tấn công I",
+          "publisher": "Báo Tin tức và Dân tộc",
+          "pub_date": "2026-09-22T06:25:57+00:00"
         },
         {
           "title": "Bắt TikToker Phannhibeauty vì liên quan tội phạm ma túy",
@@ -526,39 +517,32 @@
           "pub_date": "2026-09-22T13:13:35+00:00"
         },
         {
-          "title": "TP.HCM mưa trắng trời giờ tan tầm, Đồng Nai ngập nặng nhiều nơi",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTElzOUU5cjNfaFpLcVF2bS1PektnZzdmSG1pdnc0V0xjMVVPRVZlRUVGcFBIalRpQldsdl9FY2M5Z2pZdXhNRTZpOGFYOVIyY0tOanhMdWxkUUJmNm91bzkzb3FBODdHNkZKR0JGYzVJd1BWUDFkQXdjZEVtZVd3TmZZUWdtczRrU2s0Vi01V295VVlrYUtUQm9zWkQ1Z1czWVpPaU1pN3M3TmJk?oc=5",
-          "description": "TP.HCM mưa trắng trời giờ tan tầm, Đồng Nai ngập nặng nhiều nơi  ZnewsNhiều khu dân cư Đồng Nai ngập sâu sau mưa lớn  VnExpressMưa từ chiều đến tối, nhiều tuyến đường ở Đồng Nai chìm trong nước  Báo T",
-          "publisher": "Znews",
-          "pub_date": "2026-09-22T10:21:40+00:00"
+          "title": "Tổng Bí thư, Chủ tịch nước Tô Lâm nhận huy chương của Hiệp hội Chính sách đối ngoại Mỹ",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNzJYbXpYSzJIOUZDODByaF9mZkdieDBYZFdqazE4eEsyOGVfVjdDb0hwcXlHUmtEcUVERnBEazJrLVhIYkx0blotMERHVngtWG9zNGxwUjhBTFdyUUJ6T19NWGxFUW0wWlN0dkZURTZydmdrMjkzdS00T0l5dFJ0d2dwOU1yREZnVUJsd1JnbG5DZEFqQXZjdml6b1NNTk1hWGRRNGtfWGVUdURibkR5MmFraWFPUEc2alRRM2s0Sk1IS3ZxdWc?oc=5",
+          "description": "Tổng Bí thư, Chủ tịch nước Tô Lâm nhận huy chương của Hiệp hội Chính sách đối ngoại Mỹ  Báo Tuổi TrẻTổng Bí thư, Chủ tịch nước gặp lãnh đạo các nước  ZnewsTổng Bí thư, Chủ tịch nước Tô Lâm tiếp quyền ",
+          "publisher": "Báo Tuổi Trẻ",
+          "pub_date": "2026-09-22T22:31:00+00:00"
         },
         {
-          "title": "TPHCM mưa lớn giờ tan tầm, nhiều đường ngập lênh láng",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNekRxemtfaVBSaHlkYzd2dHRsOERuemYwVDFReTN6X2I4c1MtOWlua3RJd3hXVlpvWFA3QUszcFVaY0N2V2hsQzFtbkpJMU9ETTkxdUhJRkRxVmZEZkpWanQta3NxdkZZamxrXzlDUWVHUTZzTHpXbHdwQ1FlcmdDd3RXM1UwOUY2bGRMcXNiSkdBLV81R1lVLWdadlRwUThZazdrUC15NA?oc=5",
-          "description": "TPHCM mưa lớn giờ tan tầm, nhiều đường ngập lênh láng  Báo Dân trí22h đêm, xe chết máy la liệt trên đường Phan Huy Ích, người dân mệt mỏi dắt xe lội nước về nhà  Báo Tuổi TrẻTP.HCM tiếp tục mưa lớn, n",
-          "publisher": "Báo Dân trí",
-          "pub_date": "2026-09-22T11:07:08+00:00"
-        },
-        {
-          "title": "Hơn 200 chiến sĩ mũ nồi xanh Việt Nam lên đường làm nhiệm vụ gìn giữ hòa bình",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYXFwUjFwbUFoQTJ2ZHFBWUN6Y0I0amVKSWxFZjcwRUJxN3FSQkctbGdDVGNNNDVOczVxQ1FyM1dkSUFyeWR6NU5uckFxd0JmUXRJZUxZZEw5UHV2djAyTzVZbzd3NzNBbW9DWU5Oc1JOQlM1VFh1NndBUXBNU2NYbEdra2FTdTFqdHJXZmRXdGpDUFhLUEUtRU5QWWdFdkJQQ1ZnZHdObEZWbUZCNEFHNWpn?oc=5",
-          "description": "Hơn 200 chiến sĩ mũ nồi xanh Việt Nam lên đường làm nhiệm vụ gìn giữ hòa bình  Báo VietNamNet'Mong anh hoàn thành nhiệm vụ để về cưới em'  Báo Thanh NiênPhó Chủ tịch nước Võ Thị Ánh Xuân dự lễ xuất qu",
-          "publisher": "Báo VietNamNet",
-          "pub_date": "2026-09-22T04:12:00+00:00"
-        },
-        {
-          "title": "Cảnh báo 5 tỉnh thành có mưa to, nguy cơ thời tiết xấu trong 6 giờ tới",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORm11emNwbXJPemRKT0ZKZ2Z2WVh5MTZMWDY3bWF0T3p3aGM5ZTlsYjFHanRxUE5Ta3BvUUxHX0hwQjZoc3RZMllYcTJSVUNXUWl5RkhzVEZjVkJTdHBsUVhZOUJkT3dPUjQ0UnR2a2FEbW55bElYZk5rbWxXLUVPNlZuaWh5X0Zac3NBQUpLVk5XMTRoMHB1ZkVqUkM5YVgya2lzdi12WS1BTlJodXRENA?oc=5",
-          "description": "Cảnh báo 5 tỉnh thành có mưa to, nguy cơ thời tiết xấu trong 6 giờ tới  Laodong.vnMưa lớn dồn dập, Đà Nẵng cảnh báo lũ quét, sạt lở đất ở vùng núi  Báo Thanh NiênMiền Trung mưa lớn có nơi trên 150mm, ",
+          "title": "Mưa lớn ở TPHCM chiều 22.9, nhiều tuyến đường bị ngập",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMzA0RmdrcUN2dVlESUNzQWlyR3dieUNiUktTYUtkVVhyS1pldXBqTXY4SE9HZHZIall3djRpQVBZZVM1QlNFMklTWWZ2SmhTOVA1X0F0UkdRVUhpbUprWFVqQXZXYXZfNDBJZG4zbXhRdzEzVXZ1azM1Z1UtcjczMXdyOTVwMnEzOE8zSngxby1leTA?oc=5",
+          "description": "Mưa lớn ở TPHCM chiều 22.9, nhiều tuyến đường bị ngập  Laodong.vnNgười dân TP.HCM chật vật về nhà khi mưa lớn  ZnewsHiệu trưởng ở TP.HCM viết thư giữa đêm mưa gây bão mạng  Báo Tuổi TrẻNước chảy cuồn ",
           "publisher": "Laodong.vn",
-          "pub_date": "2026-09-22T08:21:09+00:00"
+          "pub_date": "2026-09-22T10:41:36+00:00"
         },
         {
-          "title": "Việt Nam trân trọng sự hỗ trợ của Hoa Kỳ trong \"Chiến dịch 500 ngày đêm\"",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWUswWGM4MmIxQVB3dG5iSTQ1LTN4SEszX3pRbGpsd19PTnNtemxTLWZ6aHpXeHdrS2haSVB1X2JhVkxZTy04em1JWXZ5aUJ0NWZuN3daNEx6S0VrSHB4MEVGTkF0ZDk4S1pVQ2xoWXpoVXg4a0RDcVA2Vl9CM0VyWi1mYk1fczlIWXItYVUxZE9xazRHTjN2UzNJSW05cHJMaVA3djJCdGpDZk5ZRE0zcDBmcmZOQlpuaGMxOG5JUQ?oc=5",
-          "description": "Việt Nam trân trọng sự hỗ trợ của Hoa Kỳ trong \"Chiến dịch 500 ngày đêm\"  Báo Dân tríTổng Bí thư, Chủ tịch nước Tô Lâm tiếp quyền Bộ trưởng Hải quân Mỹ Hùng Cao  VnExpressTổng Bí thư, Chủ tịch nước Tô",
-          "publisher": "Báo Dân trí",
-          "pub_date": "2026-09-22T01:08:33+00:00"
+          "title": "48 bác sĩ, kiểm sát viên, cảnh sát 'biến' Viện pháp y tâm thần thành ổ tội phạm",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbDJlS01jVHAxQzIzNzdCWVN4MmlQV1pnS1hLTDRBblBsa1kxNjdZaF9hYVphRjJVZjl6aThwUGFNX0JZVjJwdTJqajZIYV9vOXU5dnNTSVdjR0ltVkxXM0l4cUdGcEZYNlJNYlRITTl5MHhFY2FadnZ5SS1Zc0ZoU1RndWhKNG96Z0pHUTVzRnM5dERLc0NCUEtuOU5lcUhYVmNSTXFmeno3NE5lSTJV?oc=5",
+          "description": "48 bác sĩ, kiểm sát viên, cảnh sát 'biến' Viện pháp y tâm thần thành ổ tội phạm  VnExpressBà trùm 2 lần tăng giá chạy bệnh án tâm thần cho cựu sếp quỹ tín dụng  Laodong.vn'Bà trùm’ Mai Anh hầu tòa cùn",
+          "publisher": "VnExpress",
+          "pub_date": "2026-09-22T23:00:00+00:00"
+        },
+        {
+          "title": "10 địa điểm chứng tích thiên tai nổi bật trên thế giới",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWDVNTVpuQnFqcjB6NlF1WnM4aDQ1bXI4em5MdUw2N2ZCbTREcU8yUmpqcF9NQW9wTWdWU0U3Q0xfMno0eGNmbFBsMkx0N3ZVRm9LYUNTVWF1QTNmOXhsZ1JGTlprMDliV3E4Z1p6bzlNU1VmX1BvcHdqamlRR2g2NGRKSmxjOTgxQVpyMHh5WTZOTTA?oc=5",
+          "description": "10 địa điểm chứng tích thiên tai nổi bật trên thế giới  VnExpressNhà thờ đổ Hải Lý là chứng tích biến đổi khí hậu đầu tiên của Việt Nam  VnExpressTháo dỡ nhà hàng trái phép quanh nhà thờ đổ Hải Lý  Bá",
+          "publisher": "VnExpress",
+          "pub_date": "2026-09-22T23:00:07+00:00"
         },
         {
           "title": "Thông điệp của Trung Quốc khi khai trừ đảng hai tướng cấp cao",
@@ -568,48 +552,69 @@
           "pub_date": "2026-09-22T22:00:00+00:00"
         },
         {
-          "title": "Anh đồng ý hỗ trợ Ả-rập Xê-út đối phó Houthi sau khi Mỹ ‘lắc đầu’",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRjBiTFhpc1dINWRNUDYwZmFfUUxUd0hmWDFVbFRhUkt4THl2bmpFaS1aRXpRT1UzWlpvZ1c0b3FkMFdyOUdYbEtibGw4TzRWOEYxRGhtcHFpRnlGZnFGVy0xc0llMmRfaTA3eVJLZlZ0VXJmaE53VndLdjVXQnVuQVR6c004TEE5dGp6LTd0VVpTdFl6UnRULXFScW43YTZPZHc?oc=5",
-          "description": "Anh đồng ý hỗ trợ Ả-rập Xê-út đối phó Houthi sau khi Mỹ ‘lắc đầu’  Báo Tiền PhongAnh đồng ý hỗ trợ Arab Saudi đối phó Houthi  VnExpressHouthi gia tăng sức ép, Anh hỗ trợ Ả Rập Xê Út  Báo Thanh NiênTIN",
-          "publisher": "Báo Tiền Phong",
-          "pub_date": "2026-09-22T00:42:47+00:00"
+          "title": "Houthi cảnh báo Thổ Nhĩ Kỳ, Pakistan về xung đột với Ả Rập Xê Út",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWnlSQTRRcjlObVBIU3dUS0pSVGR2V2hKd2RFSnNFY3NhZ3NTeFZ3WGh5QkozWDF0UVhoN3J6TDdmMWJCcG5tc25FbnQtQVNhOXBBWnJlSy1fZHkteFh4VE9MeS1VbDVjNFVhNTFXVFVBOWxVaElFVV9aWVBWRXBKU25WdFhGRlh2LXV0c25tQVNhanNmOVVrTUZpTjRwMEZEMXVCM2E5SDBnUFk?oc=5",
+          "description": "Houthi cảnh báo Thổ Nhĩ Kỳ, Pakistan về xung đột với Ả Rập Xê Út  Báo Thanh NiênHouthi gia tăng sức ép, Anh hỗ trợ Ả Rập Xê Út  Báo Thanh NiênAnh hỗ trợ Saudi Arabia đối phó với Houthi  VTV.vnAnh đồng",
+          "publisher": "Báo Thanh Niên",
+          "pub_date": "2026-09-22T02:29:00+00:00"
         },
         {
           "title": "Lý do Arab Saudi bất lực trước Houthi suốt hơn một thập kỷ",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObnlrQUFzV0NnbWxDNURSenJFNEdnUGgxOXNEb2RZR19qYnZXT1owTV9aVmx5VXZwUmlxQXdWbFhFU09yZjRPTjE4SkJ6VjMwSXBFTTBPTlExMGVzZlZnMnNMT2h1SVV4RmZNUTB4MUo1Y3ZVZm05MlZkUU5zMEJRZ2NoNHR2emtudlNyQmxVSVNTcUpTODhCQQ?oc=5",
-          "description": "Lý do Arab Saudi bất lực trước Houthi suốt hơn một thập kỷ  VnExpressThế giới ngày 21.9: Saudi Arabia dội mưa bom xuống Yemen  Laodong.vnHouthi đẩy Biển Đỏ tới bờ vực khủng hoảng: Bab el-Mandeb có thể",
+          "description": "Lý do Arab Saudi bất lực trước Houthi suốt hơn một thập kỷ  VnExpressVũ khí nào đã giúp Houthi bắn hạ F-15 Arab Saudi  VnExpressThế giới ngày 21.9: Saudi Arabia dội mưa bom xuống Yemen  Laodong.vnHout",
           "publisher": "VnExpress",
           "pub_date": "2026-09-22T18:00:00+00:00"
         },
         {
           "title": "42 UAV Nga đánh vào hầm trú ẩn trong 24h: \"Tử địa\" tại chiến trường Ukraine",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbEVUN3hSQzNMUTlSNGJDNFh6MG1rS2pLTnhYOGZGaGczQ0Qyd3poR3kzVGFjUWNQLS1jajBKS3MzTzBTdGF0aUdVcVlxVU1DSmtqdzZCc1VvZkpVNXBuU3lHck5RYm4wVFZGZmt2bVR3NmlFUHhGT0FmUGNkUFp1RG45Qy1ET1ZkakZBVkFTcEREaVYycXdlT0c2ZkNib0p1TVlFM2pGalQ2QUJvVWJ1YWZvc3V0TFR2TG5XUW1yWDRIYWs?oc=5",
-          "description": "42 UAV Nga đánh vào hầm trú ẩn trong 24h: \"Tử địa\" tại chiến trường Ukraine  Báo Dân tríNga không kích quy mô lớn vào Ukraine trong đêm  Báo Dân tríNga bắn hạ 297 UAV Ukraina trong đêm  Laodong.vnOles",
-          "publisher": "Báo Dân trí",
+          "description": "42 UAV Nga đánh vào hầm trú ẩn trong 24h: \"Tử địa\" tại chiến trường Ukraine  dantri.com.vnNga không kích quy mô lớn vào Ukraine trong đêm  dantri.com.vnNga bắn hạ 297 UAV Ukraina trong đêm  Laodong.vn",
+          "publisher": "dantri.com.vn",
           "pub_date": "2026-09-22T10:24:54+00:00"
         },
         {
-          "title": "Công trình giao thông chậm tiến độ sẽ bị chuyển vốn",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdF9IWHd0ajlBckVHcnVBamZtZ0ZJd0xqb245RE84dmpRS1hKTnBEQ1czNk5IaDczOGM5bEs5dGhCZlprNThuem5nT3B4UzRKQnI4TnY5SUUyd0xyVjRYaUstTkFvaVFFZDBtNV9mN0laZG9FeEk3UkpKTG4wLUdDR1Bva0JWMld4Q3l2enA0NA?oc=5",
-          "description": "Công trình giao thông chậm tiến độ sẽ bị chuyển vốn  VnExpressChỉ đạo nóng của Thủ tướng về đường sắt tốc độ cao Bắc - Nam và loạt dự án giao thông tỷ USD  24h.com.vnThủ tướng: Kiên quyết điều chuyển ",
-          "publisher": "VnExpress",
-          "pub_date": "2026-09-22T14:58:33+00:00"
+          "title": "Giá vàng nhẫn trơn, vàng miếng chiều tối 22/9 tại SJC, PNJ, DOJI, Bảo Tín Minh Châu và Phú Quý đồng loạt giảm mạnh",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVUZwR1p5QUhXNTRkOVc3ZHRPRmQxNDl3dUlvN05wTzltdXNPbXN5aGxaTS1BaWwwUmNrRlVycjJ5NmVUNHhaYjlBTzAzTXJSTEhtLW5ybWtOa29WU2Iyc0pJaVM2cGlVSXJabVVhZEFITVRuZUxvd19qcjB6bFpZc2FPVXJ2aUM0ZkxnZHNuV0NDcmRqZ1BuYnlGek1nMGVYbkY1S1psRGRYZXZJSFgzb0s0Vk1MVlhzY3U1MlBSbTBiZllTVDJaSnZjR1o1Yy1IVFdtZG9hbXo2Smo5akdscDNLLTQ?oc=5",
+          "description": "Giá vàng nhẫn trơn, vàng miếng chiều tối 22/9 tại SJC, PNJ, DOJI, Bảo Tín Minh Châu và Phú Quý đồng loạt giảm mạnh  CafeFChốt giá vàng hôm nay ngày 22/9 tiếp đà giảm rất mạnh  Tin tức 24hGiá vàng hôm ",
+          "publisher": "CafeF",
+          "pub_date": "2026-09-22T13:05:00+00:00"
         }
       ],
       "nation": [
         {
-          "title": "TP.HCM, Nam Bộ còn mưa to tới 24-9, thêm triều cường cao Tết Trung thu",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdjlnMUpjLWlna1pUYWtaTnpVYmhVWjVNSUo4cjgxdHhlcWpsdk5FeFpIaVRLLURsWFQyaVFzZGZmd0tOdlV5Z0hOQkxhaFNGQ24xRHZxb3dmb1g3V0s5Z2c4QVVTcWUyVXlmcURkbTVPUFk2d2FvTkdGeTd0eWFXaVNzMmxGXzNSRHZwdVlDN2U4OG5qS3lrZXFfUlo2TlJXQUN3SFFzd1N2M1kx?oc=5",
-          "description": "TP.HCM, Nam Bộ còn mưa to tới 24-9, thêm triều cường cao Tết Trung thu  Báo Tuổi TrẻDự báo thời tiết 10 ngày tới từ đêm 22.9 đến 2.10 trên cả nước  Laodong.vnDự báo thời tiết 23/9: Dải hội tụ mạnh, Hu",
+          "title": "Tổng Bí thư, Chủ tịch nước Tô Lâm nhận huy chương của Hiệp hội Chính sách đối ngoại Mỹ",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNzJYbXpYSzJIOUZDODByaF9mZkdieDBYZFdqazE4eEsyOGVfVjdDb0hwcXlHUmtEcUVERnBEazJrLVhIYkx0blotMERHVngtWG9zNGxwUjhBTFdyUUJ6T19NWGxFUW0wWlN0dkZURTZydmdrMjkzdS00T0l5dFJ0d2dwOU1yREZnVUJsd1JnbG5DZEFqQXZjdml6b1NNTk1hWGRRNGtfWGVUdURibkR5MmFraWFPUEc2alRRM2s0Sk1IS3ZxdWc?oc=5",
+          "description": "Tổng Bí thư, Chủ tịch nước Tô Lâm nhận huy chương của Hiệp hội Chính sách đối ngoại Mỹ  Báo Tuổi TrẻTổng Bí thư, Chủ tịch nước gặp lãnh đạo các nước  ZnewsTổng Bí thư, Chủ tịch nước Tô Lâm tiếp quyền ",
           "publisher": "Báo Tuổi Trẻ",
-          "pub_date": "2026-09-22T05:12:00+00:00"
+          "pub_date": "2026-09-22T22:31:00+00:00"
         },
         {
-          "title": "TPHCM mưa lớn giờ tan tầm, nhiều đường ngập lênh láng",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNekRxemtfaVBSaHlkYzd2dHRsOERuemYwVDFReTN6X2I4c1MtOWlua3RJd3hXVlpvWFA3QUszcFVaY0N2V2hsQzFtbkpJMU9ETTkxdUhJRkRxVmZEZkpWanQta3NxdkZZamxrXzlDUWVHUTZzTHpXbHdwQ1FlcmdDd3RXM1UwOUY2bGRMcXNiSkdBLV81R1lVLWdadlRwUThZazdrUC15NA?oc=5",
-          "description": "TPHCM mưa lớn giờ tan tầm, nhiều đường ngập lênh láng  Báo Dân trí22h đêm, xe chết máy la liệt trên đường Phan Huy Ích, người dân mệt mỏi dắt xe lội nước về nhà  Báo Tuổi TrẻTP.HCM tiếp tục mưa lớn, n",
-          "publisher": "Báo Dân trí",
-          "pub_date": "2026-09-22T11:07:08+00:00"
+          "title": "TP.HCM khả năng ngập nặng vì mưa lớn kết hợp triều cường cao",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNEZndTBKOVc3djBaaVBJcGF1QzJxdE1SUm5OcTNjSE1Xek9ONVVTdWgzQjU3VF9RTk1YZWpyNVRLdGZzY0U1YlZNSDM0UTV1Wkt6eTRSQ2Z0X1M5NHpkclZuR2pKb25TeGQwLXYwSk9kcjNqLXhDWDNQYnI2M1pHWTVvVUl5S0l5T2cyNVYxZl9TVzdEV1c4T25HWmxBUEJfcFlfcUpn?oc=5",
+          "description": "TP.HCM khả năng ngập nặng vì mưa lớn kết hợp triều cường cao  Báo Thanh NiênThời tiết hôm nay 23-9: Nam Bộ tiếp tục mưa to kết hợp triều cường, nhiều nơi ngập nặng  Báo Tuổi TrẻTPHCM và Nam Bộ tiếp tụ",
+          "publisher": "Báo Thanh Niên",
+          "pub_date": "2026-09-22T09:15:00+00:00"
+        },
+        {
+          "title": "48 bác sĩ, kiểm sát viên, cảnh sát 'biến' Viện pháp y tâm thần thành ổ tội phạm",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbDJlS01jVHAxQzIzNzdCWVN4MmlQV1pnS1hLTDRBblBsa1kxNjdZaF9hYVphRjJVZjl6aThwUGFNX0JZVjJwdTJqajZIYV9vOXU5dnNTSVdjR0ltVkxXM0l4cUdGcEZYNlJNYlRITTl5MHhFY2FadnZ5SS1Zc0ZoU1RndWhKNG96Z0pHUTVzRnM5dERLc0NCUEtuOU5lcUhYVmNSTXFmeno3NE5lSTJV?oc=5",
+          "description": "48 bác sĩ, kiểm sát viên, cảnh sát 'biến' Viện pháp y tâm thần thành ổ tội phạm  VnExpressBà trùm 2 lần tăng giá chạy bệnh án tâm thần cho cựu sếp quỹ tín dụng  Laodong.vn'Bà trùm’ Mai Anh hầu tòa cùn",
+          "publisher": "VnExpress",
+          "pub_date": "2026-09-22T23:00:00+00:00"
+        },
+        {
+          "title": "10 địa điểm chứng tích thiên tai nổi bật trên thế giới",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWDVNTVpuQnFqcjB6NlF1WnM4aDQ1bXI4em5MdUw2N2ZCbTREcU8yUmpqcF9NQW9wTWdWU0U3Q0xfMno0eGNmbFBsMkx0N3ZVRm9LYUNTVWF1QTNmOXhsZ1JGTlprMDliV3E4Z1p6bzlNU1VmX1BvcHdqamlRR2g2NGRKSmxjOTgxQVpyMHh5WTZOTTA?oc=5",
+          "description": "10 địa điểm chứng tích thiên tai nổi bật trên thế giới  VnExpressNhà thờ đổ Hải Lý là chứng tích biến đổi khí hậu đầu tiên của Việt Nam  VnExpressTháo dỡ nhà hàng trái phép quanh nhà thờ đổ Hải Lý  Bá",
+          "publisher": "VnExpress",
+          "pub_date": "2026-09-22T23:00:07+00:00"
+        },
+        {
+          "title": "Mưa lớn ở TPHCM chiều 22.9, nhiều tuyến đường bị ngập",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMzA0RmdrcUN2dVlESUNzQWlyR3dieUNiUktTYUtkVVhyS1pldXBqTXY4SE9HZHZIall3djRpQVBZZVM1QlNFMklTWWZ2SmhTOVA1X0F0UkdRVUhpbUprWFVqQXZXYXZfNDBJZG4zbXhRdzEzVXZ1azM1Z1UtcjczMXdyOTVwMnEzOE8zSngxby1leTA?oc=5",
+          "description": "Mưa lớn ở TPHCM chiều 22.9, nhiều tuyến đường bị ngập  Laodong.vnNgười dân TP.HCM chật vật về nhà khi mưa lớn  ZnewsHiệu trưởng ở TP.HCM viết thư giữa đêm mưa gây bão mạng  Báo Tuổi TrẻNước chảy cuồn ",
+          "publisher": "Laodong.vn",
+          "pub_date": "2026-09-22T10:41:36+00:00"
         },
         {
           "title": "Bắt TikToker Phannhibeauty vì liên quan tội phạm ma túy",
@@ -621,14 +626,14 @@
         {
           "title": "Mưa từ chiều đến tối, nhiều tuyến đường ở Đồng Nai chìm trong nước",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVi1BR1ktMkxKLU4xSjFPbGJtOGxocE5Ga1BUekVSaDA5bU9EWE5VTjFIU1BCX28wR0wxMlVMU1RwRXFmWTN5QVZOenBFMGRZNFV1amxDeVdzQmxZLWZaOXpjYVROQkQyaHhJR3VKUzdiZE9lR3JWN1Z5RU9UbW90MnhVcTNleUhld05wT01mVTM3ZlpMeVB6ZWlGNGpBVDR4TW50VW1IbXpXUQ?oc=5",
-          "description": "Mưa từ chiều đến tối, nhiều tuyến đường ở Đồng Nai chìm trong nước  Báo Tuổi TrẻNhiều khu dân cư Đồng Nai ngập sâu sau mưa lớn  VnExpressNhiều khu vực ở Đồng Nai ngập nặng, có nơi nước cuốn trôi xe má",
+          "description": "Mưa từ chiều đến tối, nhiều tuyến đường ở Đồng Nai chìm trong nước  Báo Tuổi TrẻNhiều khu dân cư Đồng Nai ngập sâu sau mưa lớn  VnExpressMưa lớn, nhiều khu dân cư ở TP Đồng Nai ngập sâu  Báo VietNamNe",
           "publisher": "Báo Tuổi Trẻ",
           "pub_date": "2026-09-22T12:31:00+00:00"
         },
         {
           "title": "'Mong anh hoàn thành nhiệm vụ để về cưới em'",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQWZoMmtvTENBdHl4YnJGRDZxUGpMaGRYeHB2MENNT09mZ3ZTd2tvRmVwaTlkWHlRWXd5LWJSZ19KR3d4VHZ4cl82MVlOdEs4SVMtUWpkMTlZX3pCM0s2QXFHcnVWbkgyUm9RT1NPaS1fZndtcWNLYkZpR1dKa1lpSEVfdnAtUkc0c2VMOHdvWQ?oc=5",
-          "description": "'Mong anh hoàn thành nhiệm vụ để về cưới em'  Báo Thanh NiênPhó Chủ tịch nước Võ Thị Ánh Xuân dự lễ xuất quân Bệnh viện dã chiến 2.8 và Đội công binh số 5  Báo Tuổi TrẻBệnh viện dã chiến cấp 2 và đội ",
+          "description": "'Mong anh hoàn thành nhiệm vụ để về cưới em'  Báo Thanh Niên247 quân nhân xuất quân tới Nam Sudan và Abyei  Tin tức 24hPhó Chủ tịch nước Võ Thị Ánh Xuân dự lễ xuất quân Bệnh viện dã chiến 2.8 và Đội c",
           "publisher": "Báo Thanh Niên",
           "pub_date": "2026-09-22T09:52:00+00:00"
         },
@@ -640,16 +645,9 @@
           "pub_date": "2026-09-22T08:21:09+00:00"
         },
         {
-          "title": "Việt Nam trân trọng sự hỗ trợ của Hoa Kỳ trong \"Chiến dịch 500 ngày đêm\"",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWUswWGM4MmIxQVB3dG5iSTQ1LTN4SEszX3pRbGpsd19PTnNtemxTLWZ6aHpXeHdrS2haSVB1X2JhVkxZTy04em1JWXZ5aUJ0NWZuN3daNEx6S0VrSHB4MEVGTkF0ZDk4S1pVQ2xoWXpoVXg4a0RDcVA2Vl9CM0VyWi1mYk1fczlIWXItYVUxZE9xazRHTjN2UzNJSW05cHJMaVA3djJCdGpDZk5ZRE0zcDBmcmZOQlpuaGMxOG5JUQ?oc=5",
-          "description": "Việt Nam trân trọng sự hỗ trợ của Hoa Kỳ trong \"Chiến dịch 500 ngày đêm\"  Báo Dân tríTổng Bí thư, Chủ tịch nước Tô Lâm tiếp quyền Bộ trưởng Hải quân Mỹ Hùng Cao  VnExpressTổng Bí thư, Chủ tịch nước Tô",
-          "publisher": "Báo Dân trí",
-          "pub_date": "2026-09-22T01:08:33+00:00"
-        },
-        {
           "title": "Hà Nội dự kiến tiền ăn bán trú của học sinh cao nhất 50.000 đồng",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdk1DU2ZPQ0dYOWx5NHdXbmk2bXlteG02SFlfZ3lLYWNnSFBrR1BGNzlDdXd5Y3oyMnl0WTZHQmRONjRGVDZSWF9fckxiQVZ3Qkx2VHlZdlkzbEdJNElyQ1pTZVZ5aC1CbVhqVk9qcHJQQksxZi00QTdZUFJNemllTGRBaG1LdC1ZOWhYTXg1LXZfakVmX3c3ajNpdlJDME5E?oc=5",
-          "description": "Hà Nội dự kiến tiền ăn bán trú của học sinh cao nhất 50.000 đồng  VnExpressTrường học công khai bữa ăn hàng ngày, thêm kênh để phụ huynh giám sát  Laodong.vnKiểm soát chặt quy trình bán trú, chủ động ",
+          "description": "Hà Nội dự kiến tiền ăn bán trú của học sinh cao nhất 50.000 đồng  VnExpressCận cảnh cô giáo tất bật chia cơm, kê bàn cho học sinh ăn bán trú, ngủ trưa  dantri.com.vnTrường học công khai bữa ăn hàng ng",
           "publisher": "VnExpress",
           "pub_date": "2026-09-22T08:51:48+00:00"
         },
@@ -661,32 +659,11 @@
           "pub_date": "2026-09-22T07:18:22+00:00"
         },
         {
-          "title": "'Bà trùm’ Mai Anh hầu tòa cùng nhóm cựu lãnh đạo Viện Pháp y tâm thần Trung ương",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdkh0bEVHMnQ0SmNmRVBab1NVdGYyVTBPN0RDUk4zOXpOM2Q0Q2ZneW82WlNRdldZNmZSdU02ZnFGM1RHRGlvalNpeXFzVHc4dHNlYWNnV3o0VTVJUHVoU3dMWWVlekxscXZmUVp2aXR6RWhFMnRGVnJJVkRpMWJGN21DOEVmdmN6aVRGUENWS1ZUT1VYdFAwczVXOXdvd2J6dUZNRFhYMk4?oc=5",
-          "description": "'Bà trùm’ Mai Anh hầu tòa cùng nhóm cựu lãnh đạo Viện Pháp y tâm thần Trung ương  Báo VietNamNetBà trùm 2 lần tăng giá chạy bệnh án tâm thần cho cựu sếp quỹ tín dụng  Laodong.vnCặp vợ chồng và 2 cựu V",
-          "publisher": "Báo VietNamNet",
-          "pub_date": "2026-09-22T06:42:00+00:00"
-        },
-        {
-          "title": "Áp thấp nhiệt đới chính thức hình thành gần Biển Đông",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSXNSTHAtWWJpNEt3MlRLdG9BTFNHNTdlOWc0SWxJNEJuUmx0T0JQLTMxZTRCZ3p6WFp0eGlBQkc4aVVScXFORWdXaTFBczM2akY3dGlMaXVCa2tDc3Z5ZjJ5TUVHQTBOVWJYM0NtRENudHBrdWtlcnQ3OXJqWFlUaTRzOTZDLTZIZVRYYm1fRjlSRjZrODh5MmgzZHpCMzNvanl0SmhR?oc=5",
-          "description": "Áp thấp nhiệt đới chính thức hình thành gần Biển Đông  Laodong.vnBiển Đông xuất hiện dải hội tụ nhiệt đới, khả năng hình thành bão thế nào?  24h.com.vnNhiều vùng biển xuất hiện mưa dông, lốc xoáy và g",
-          "publisher": "Laodong.vn",
-          "pub_date": "2026-09-22T09:13:52+00:00"
-        },
-        {
-          "title": "Mực nước các sông thuộc lưu vực sông Hồng ngày 22.9",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQUJrV1dBREFBQjBua1piTks2UHpRUEhPTjhnN3pKVHNWaVlsbGtEbFdsNkNHMWxuWFpZbkZ2blNXcHF1UGdWVWlPNm92X0tQZnNLMjg5WmFWNUo0RDRkdkUzdzY0OS1tNUJtcGc5QVRRY052VVJwbHJIRF90TEFVZzZySVhYVzlqWGkxUGczZExJQQ?oc=5",
-          "description": "Mực nước các sông thuộc lưu vực sông Hồng ngày 22.9  Laodong.vnMực nước một số hồ thủy điện ở miền Bắc ngày 21.9  Laodong.vnMực nước các sông thuộc lưu vực sông Hồng ngày 20.9  Laodong.vnBẢN TIN DỰ BÁ",
-          "publisher": "Laodong.vn",
-          "pub_date": "2026-09-22T06:13:17+00:00"
-        },
-        {
-          "title": "Liên tiếp 7 trận động đất ở Quảng Ngãi trong 24 giờ",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNEpoZFllYV9tX1g4TzZLaGdEZWRGdUVDMmlEbkpydUhId3RjZDVnUWZZY0NnVVVMMTEtVDg3ZXM5QWRpak54YkxWZHRXMzdBWXRid09ZZENUTXIxUGhWT2hZNlZta0xtSnNBcUQ3ZC02NHJ6d2FKTU5zWmMtaDhEWFJkUUdUTzVOTTVQU2VZRkJram8?oc=5",
-          "description": "Liên tiếp 7 trận động đất ở Quảng Ngãi trong 24 giờ  Laodong.vnLiên tiếp 8 trận động đất chỉ trong 2 ngày tại miền Trung  dantocphattrien.vietnamnet.vn6 trận động đất trong 1 ngày ở xã miền núi Quảng ",
-          "publisher": "Laodong.vn",
-          "pub_date": "2026-09-22T01:10:45+00:00"
+          "title": "Bắt khẩn cấp gã đàn ông giết hàng xóm cướp tài sản",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSTNTc1dWdGlGd0k0Z3VKVEFVN1YyMFkyVEZsT3VfSS1xQ1BlNEN0bkEzOEtOVDZPamp3eHR2eEZVeGtkdUctaWVhYVdYSGJtMVJzdWQwYzExcHJ1U0Q3M3drS051Y0xEcFNyaThrWWxwX0htLVFIUHBiQmN4MEhySDBqeWlrUWs4ZUNjVzI3bmJsTjRzbFAxc1A2OVJ6UlJ3OXlIem9GNA?oc=5",
+          "description": "Bắt khẩn cấp gã đàn ông giết hàng xóm cướp tài sản  dantri.com.vnMượn vàng không được, ra tay giết người cướp vàng  Báo Thanh NiênTIN NÓNG 24 GIỜ QUA: Mượn vàng không thành, sát hại hàng xóm để cướp; ",
+          "publisher": "dantri.com.vn",
+          "pub_date": "2026-09-22T14:10:01+00:00"
         },
         {
           "title": "Bang có đông người Việt ở Mỹ ban bố tình trạng khẩn cấp vì El Nino",
@@ -696,18 +673,25 @@
           "pub_date": "2026-09-22T04:41:00+00:00"
         },
         {
-          "title": "Tuyên án tử hình hung thủ sát hại người tình, phân xác phi tang",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUGEyNlM2VkxZTWdLaC04b3R0NkRsODE4dTlYT2hJVlI0aGxqTWphUnVCd3Y2YTBvZjlPUTNEdFE0MDJEVDVjOVJhYVc1ZnhlbDN2YWNDTk5kR2lGQmszSUlCbmZwRkZ1bTdGX05iN29EMDhxeWpxYl96UGRIZHdLNzMtUzZoaDdRM2RQanlmWDRvOFhUTzE2UkcyS0llUVNEU1E?oc=5",
-          "description": "Tuyên án tử hình hung thủ sát hại người tình, phân xác phi tang  Báo Tin tức và Dân tộcÁn tử hình cho thầy lang giết người tình, phân xác phi tang  Báo Thanh NiênKẻ phi tang xác người tình bị tuyên án",
-          "publisher": "Báo Tin tức và Dân tộc",
-          "pub_date": "2026-09-22T07:12:59+00:00"
+          "title": "Liên tiếp 7 trận động đất ở Quảng Ngãi trong 24 giờ",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNEpoZFllYV9tX1g4TzZLaGdEZWRGdUVDMmlEbkpydUhId3RjZDVnUWZZY0NnVVVMMTEtVDg3ZXM5QWRpak54YkxWZHRXMzdBWXRid09ZZENUTXIxUGhWT2hZNlZta0xtSnNBcUQ3ZC02NHJ6d2FKTU5zWmMtaDhEWFJkUUdUTzVOTTVQU2VZRkJram8?oc=5",
+          "description": "Liên tiếp 7 trận động đất ở Quảng Ngãi trong 24 giờ  Laodong.vnLiên tiếp 8 trận động đất chỉ trong 2 ngày tại miền Trung  Dân tộc và Phát triển6 trận động đất trong 1 ngày ở xã miền núi Quảng Ngãi  Bá",
+          "publisher": "Laodong.vn",
+          "pub_date": "2026-09-22T01:10:45+00:00"
+        },
+        {
+          "title": "Áp thấp nhiệt đới chính thức hình thành gần Biển Đông",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSXNSTHAtWWJpNEt3MlRLdG9BTFNHNTdlOWc0SWxJNEJuUmx0T0JQLTMxZTRCZ3p6WFp0eGlBQkc4aVVScXFORWdXaTFBczM2akY3dGlMaXVCa2tDc3Z5ZjJ5TUVHQTBOVWJYM0NtRENudHBrdWtlcnQ3OXJqWFlUaTRzOTZDLTZIZVRYYm1fRjlSRjZrODh5MmgzZHpCMzNvanl0SmhR?oc=5",
+          "description": "Áp thấp nhiệt đới chính thức hình thành gần Biển Đông  Laodong.vnBiển Đông xuất hiện dải hội tụ nhiệt đới, khả năng hình thành bão thế nào?  Tin tức 24hNhiều vùng biển xuất hiện mưa dông, lốc xoáy và ",
+          "publisher": "Laodong.vn",
+          "pub_date": "2026-09-22T09:13:52+00:00"
         }
       ],
       "world": [
         {
           "title": "Ông Trump tuyên bố đang đối mặt với 'quyết định lớn' về Iran",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPT2JSbi0teEZXYnByQjE1Mlc3cVotYzB5R3JuempaUUdtV01scnRXTzlMUHV5WjRJaVdRZEZJTEJnb3d6THBFVmI3VTRIQkZyTGxQNUlIazRYZXBQNUdKRHhoN28wUEE2MHpVN29EakdOc2xENXVna2RVa3J4SkoyOGJ4cXZ6Y2tsX1NYeUFndFZJZU9tSU5UdQ?oc=5",
-          "description": "Ông Trump tuyên bố đang đối mặt với 'quyết định lớn' về Iran  Báo VietNamNetTổng thống Trump gửi thông điệp cứng rắn đến Iran  Báo Dân tríIraq đình chỉ các chuyến bay của Iran đến Baghdad sau cảnh báo",
+          "description": "Ông Trump tuyên bố đang đối mặt với 'quyết định lớn' về Iran  Báo VietNamNetIran tung cảnh báo ớn lạnh: Mỹ phát lệnh tấn công, Tehran sẽ dùng vũ khí khiến thế giới kinh ngạc  Tin tức 24hTổng thống Tru",
           "publisher": "Báo VietNamNet",
           "pub_date": "2026-09-22T15:22:00+00:00"
         },
@@ -719,39 +703,39 @@
           "pub_date": "2026-09-22T22:00:00+00:00"
         },
         {
-          "title": "Anh đồng ý hỗ trợ Ả-rập Xê-út đối phó Houthi sau khi Mỹ ‘lắc đầu’",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRjBiTFhpc1dINWRNUDYwZmFfUUxUd0hmWDFVbFRhUkt4THl2bmpFaS1aRXpRT1UzWlpvZ1c0b3FkMFdyOUdYbEtibGw4TzRWOEYxRGhtcHFpRnlGZnFGVy0xc0llMmRfaTA3eVJLZlZ0VXJmaE53VndLdjVXQnVuQVR6c004TEE5dGp6LTd0VVpTdFl6UnRULXFScW43YTZPZHc?oc=5",
-          "description": "Anh đồng ý hỗ trợ Ả-rập Xê-út đối phó Houthi sau khi Mỹ ‘lắc đầu’  Báo Tiền PhongAnh đồng ý hỗ trợ Arab Saudi đối phó Houthi  VnExpressHouthi gia tăng sức ép, Anh hỗ trợ Ả Rập Xê Út  Báo Thanh NiênTIN",
-          "publisher": "Báo Tiền Phong",
-          "pub_date": "2026-09-22T00:42:47+00:00"
+          "title": "Houthi cảnh báo Thổ Nhĩ Kỳ, Pakistan về xung đột với Ả Rập Xê Út",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWnlSQTRRcjlObVBIU3dUS0pSVGR2V2hKd2RFSnNFY3NhZ3NTeFZ3WGh5QkozWDF0UVhoN3J6TDdmMWJCcG5tc25FbnQtQVNhOXBBWnJlSy1fZHkteFh4VE9MeS1VbDVjNFVhNTFXVFVBOWxVaElFVV9aWVBWRXBKU25WdFhGRlh2LXV0c25tQVNhanNmOVVrTUZpTjRwMEZEMXVCM2E5SDBnUFk?oc=5",
+          "description": "Houthi cảnh báo Thổ Nhĩ Kỳ, Pakistan về xung đột với Ả Rập Xê Út  Báo Thanh NiênHouthi gia tăng sức ép, Anh hỗ trợ Ả Rập Xê Út  Báo Thanh NiênAnh hỗ trợ Saudi Arabia đối phó với Houthi  VTV.vnAnh đồng",
+          "publisher": "Báo Thanh Niên",
+          "pub_date": "2026-09-22T02:29:00+00:00"
         },
         {
           "title": "Lý do Arab Saudi bất lực trước Houthi suốt hơn một thập kỷ",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObnlrQUFzV0NnbWxDNURSenJFNEdnUGgxOXNEb2RZR19qYnZXT1owTV9aVmx5VXZwUmlxQXdWbFhFU09yZjRPTjE4SkJ6VjMwSXBFTTBPTlExMGVzZlZnMnNMT2h1SVV4RmZNUTB4MUo1Y3ZVZm05MlZkUU5zMEJRZ2NoNHR2emtudlNyQmxVSVNTcUpTODhCQQ?oc=5",
-          "description": "Lý do Arab Saudi bất lực trước Houthi suốt hơn một thập kỷ  VnExpressThế giới ngày 21.9: Saudi Arabia dội mưa bom xuống Yemen  Laodong.vnHouthi đẩy Biển Đỏ tới bờ vực khủng hoảng: Bab el-Mandeb có thể",
+          "description": "Lý do Arab Saudi bất lực trước Houthi suốt hơn một thập kỷ  VnExpressVũ khí nào đã giúp Houthi bắn hạ F-15 Arab Saudi  VnExpressThế giới ngày 21.9: Saudi Arabia dội mưa bom xuống Yemen  Laodong.vnHout",
           "publisher": "VnExpress",
           "pub_date": "2026-09-22T18:00:00+00:00"
         },
         {
           "title": "42 UAV Nga đánh vào hầm trú ẩn trong 24h: \"Tử địa\" tại chiến trường Ukraine",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbEVUN3hSQzNMUTlSNGJDNFh6MG1rS2pLTnhYOGZGaGczQ0Qyd3poR3kzVGFjUWNQLS1jajBKS3MzTzBTdGF0aUdVcVlxVU1DSmtqdzZCc1VvZkpVNXBuU3lHck5RYm4wVFZGZmt2bVR3NmlFUHhGT0FmUGNkUFp1RG45Qy1ET1ZkakZBVkFTcEREaVYycXdlT0c2ZkNib0p1TVlFM2pGalQ2QUJvVWJ1YWZvc3V0TFR2TG5XUW1yWDRIYWs?oc=5",
-          "description": "42 UAV Nga đánh vào hầm trú ẩn trong 24h: \"Tử địa\" tại chiến trường Ukraine  Báo Dân tríNga không kích quy mô lớn vào Ukraine trong đêm  Báo Dân tríNga bắn hạ 297 UAV Ukraina trong đêm  Laodong.vnOles",
-          "publisher": "Báo Dân trí",
+          "description": "42 UAV Nga đánh vào hầm trú ẩn trong 24h: \"Tử địa\" tại chiến trường Ukraine  dantri.com.vnNga không kích quy mô lớn vào Ukraine trong đêm  dantri.com.vnNga bắn hạ 297 UAV Ukraina trong đêm  Laodong.vn",
+          "publisher": "dantri.com.vn",
           "pub_date": "2026-09-22T10:24:54+00:00"
         },
         {
           "title": "Nga lên tiếng về thỏa thuận của Mỹ ở Greenland",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSXVpZ2k3UjFmNE14Q1k4RExqWkI3YklSbDExcXFEVkZhbEpkNld0d2IxSEV6ejRfenZCeDdMR3JLSkFhakFHT1BvelNJZ3JWTEItbWZXYmd6S3Z0cGw4bUVWbHRhbURtRHZncTY0Qk5XdGJ6NHNEQ1ZWTWhlall5UGswSEEzR3piUWow?oc=5",
-          "description": "Nga lên tiếng về thỏa thuận của Mỹ ở Greenland  Báo Tiền PhongMỹ huy động các đồng minh tại Bắc Cực  Báo Tuổi TrẻTin tức quốc tế nổi bật ngày 22.9  Báo Thanh NiênMỹ dự định mở lại căn cứ quân sự thời ",
+          "description": "Nga lên tiếng về thỏa thuận của Mỹ ở Greenland  Báo Tiền PhongÔng Trump ký thỏa thuận an ninh với Đan Mạch và Greenland  VnExpressTin tức thế giới 23-9: Tín hiệu lạc quan Mỹ - Iran; Ông Trump ký thỏa ",
           "publisher": "Báo Tiền Phong",
           "pub_date": "2026-09-22T13:34:55+00:00"
         },
         {
-          "title": "Ông Trump phát biểu tại Liên hợp quốc: Dọa xóa sổ Iran, nhấn mạnh sức mạnh Mỹ",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWFdrM1Ffbk0yY3pHSkxRYWlwcWdNbnZ5REhjS29mTTl6cVIwTUxSY0tZWHM0ajBEM1pLMHoyNm12NHUxYlBPajFJMEZjaUtodUNfLVdMQ0MyWFJodlRQMVVpTWlGZ2JnQjNHSXk3S1ZWQzJVSXFUeWVsVnk0cXJPYWNIX3daMVV4cUdBMDVPNDkyY2ZyaEduUUJUVFRjUnBOcGkyRnk1WjlROUdCOVFNTGVZMjdweFk?oc=5",
-          "description": "Ông Trump phát biểu tại Liên hợp quốc: Dọa xóa sổ Iran, nhấn mạnh sức mạnh Mỹ  Báo Tuổi TrẻCánh cửa hẹp với Tổng thống Iran tại Liên Hợp Quốc  VnExpressÔng Trump bảo vệ quyết định tấn công Iran trong ",
-          "publisher": "Báo Tuổi Trẻ",
-          "pub_date": "2026-09-22T16:05:00+00:00"
+          "title": "Phó Tổng thống Mỹ thừa nhận xung đột Nga - Ukraine 'khó giải quyết nhất'",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVk92OGZhNVh1d1JQU1AxNDVMcTVVbkpxT0U0MElPbXpQMjhZWVpyUXJVTS1CdkwtYURFbVVVVlU1eXAyNVNzd1RBd1F4SFpwRmZRMTVROGtMQm1uRFVUVE9nQ0VVbEN5Q3hQcTdENXg0aG9SazJScnlLNFh5R2VwcXAwRlJ6S1FiWVlKZkhlMC1MTHdrcG1OR0xybmRNdE5qRFZ4Y0M2OGNaQQ?oc=5",
+          "description": "Phó Tổng thống Mỹ thừa nhận xung đột Nga - Ukraine 'khó giải quyết nhất'  Báo VietNamNetUkraine muốn chấm dứt xung đột với Nga càng nhanh càng tốt  dantri.com.vnCựu nhân viên CIA nhận định đàm phán Ng",
+          "publisher": "Báo VietNamNet",
+          "pub_date": "2026-09-22T13:40:00+00:00"
         },
         {
           "title": "Iran đề xuất mở lại eo biển Hormuz trong 7 ngày nhằm thúc đẩy giải pháp ngoại giao",
@@ -759,20 +743,6 @@
           "description": "Iran đề xuất mở lại eo biển Hormuz trong 7 ngày nhằm thúc đẩy giải pháp ngoại giao  Báo Tuổi TrẻBị chặn tứ phía, Ả Rập Xê-út xuất khẩu dầu thế nào?  PetroTimesUAE mở rộng các hành lang logistics, giảm",
           "publisher": "Báo Tuổi Trẻ",
           "pub_date": "2026-09-22T11:57:00+00:00"
-        },
-        {
-          "title": "Cựu nhân viên CIA nhận định đàm phán Nga - Ukraina còn rất ít hy vọng",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObjJSLWp2My1tZDdVM09lajlFQmJGblJVaDFvYnV6UWU0cDcweUVqRTZ5ZzNkVFd3UTN2WEZlRVhZVzVoSkw5Mkt3RHdDV3JCZk1HVzBSc2VacndUNkRpWXd6WkZSU0h3RWxXeldOOUhhakJ6ZGRUeDZXSXFlQXh0Q0ZHdGpQbU41Y21WcVRVYU43VF9nV1M5Q3RQbXNKTzhPSDhyOEhFT2hDRUk?oc=5",
-          "description": "Cựu nhân viên CIA nhận định đàm phán Nga - Ukraina còn rất ít hy vọng  Laodong.vnOreshnik sẽ dội xuống - chuyên gia phương Tây cảnh báo ảm đạm về Nga  Báo Dân ViệtUkraine sẵn sàng đàm phán, nêu điều k",
-          "publisher": "Laodong.vn",
-          "pub_date": "2026-09-22T10:11:13+00:00"
-        },
-        {
-          "title": "Tổng thống Hàn Quốc kêu gọi Mỹ nới lỏng trừng phạt Triều Tiên",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2lTQ0NpT29CTEpzVHlkR1N2cjRJNG8tdmoySnNHN3JWYW92WWlxTW1xTmV2ek9rX2hKak5qZ01QQ3M0cVJkQ1c5Vm9YWURCYWZ3NVEtTzRSMWNZVWlxWFBlTTBOVHhqZ24xZmhFbmhBQXhYbG5udXZabVNEeFBIU2paMHRVa09SQzd0NTc0d0YtTV96TzkzUUI1eTc?oc=5",
-          "description": "Tổng thống Hàn Quốc kêu gọi Mỹ nới lỏng trừng phạt Triều Tiên  Báo VietNamNetHàn Quốc kêu gọi nới trừng phạt với Triều Tiên  VnExpressHàn Quốc kêu gọi Mỹ nới lỏng trừng phạt Triều Tiên  Báo Tuổi TrẻHà",
-          "publisher": "Báo VietNamNet",
-          "pub_date": "2026-09-22T07:28:00+00:00"
         },
         {
           "title": "Bão Dujuan quét qua Nhật Bản, gây thiệt hại nặng",
@@ -789,6 +759,20 @@
           "pub_date": "2026-09-21T22:15:00+00:00"
         },
         {
+          "title": "Hàn Quốc kêu gọi nới trừng phạt với Triều Tiên",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS0x0YmdJUTREYkhqaGk2NE1GUjN4emtBaUZGTDhiamZmWjlha0U4UjU1N2ZOMkY3dzZoZ0xqRDJyRm9VbE5vSmRxSFVhRXZvaXBPazNmV3ZUdlZrcDdMNkoxMWFZSWItcVhPY3JYNWticmhIMXhSdXA0WWYwcHhhTUx5MVBVdjhp?oc=5",
+          "description": "Hàn Quốc kêu gọi nới trừng phạt với Triều Tiên  VnExpressTổng thống Hàn Quốc kêu gọi Mỹ nới lỏng trừng phạt Triều Tiên  Báo VietNamNetHàn Quốc kêu gọi Mỹ nới lỏng trừng phạt Triều Tiên  Báo Tuổi TrẻHà",
+          "publisher": "VnExpress",
+          "pub_date": "2026-09-22T07:20:41+00:00"
+        },
+        {
+          "title": "Ngoại trưởng Iran tuyên bố thẳng về mục tiêu chính trong chuyến thăm New York",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNektaS0xBR2cxRmh3N29FMmdpNVR6di1IclByLW1lZGgyRlBHUENRRkNXSFJTczViblRLSXBKX3ZJc2I4bFRJUS1OeTIzZ3NRNkhXaW9rdmFNalh5WEtlYXNRT3VFQWp2R0NCbXhpejVSekpiWmxVWnRYOU9JaWFtSzJxTllWNGt0dlhvbXJNdkVndzg2NmRJRWxIV0lob0RzcGRzM3hQWVBoekE3NTMzVWJPT0FXZw?oc=5",
+          "description": "Ngoại trưởng Iran tuyên bố thẳng về mục tiêu chính trong chuyến thăm New York  Báo Tin tức và Dân tộcCánh cửa hẹp với Tổng thống Iran tại Liên Hợp Quốc  VnExpressÔng Trump bảo vệ quyết định tấn công I",
+          "publisher": "Báo Tin tức và Dân tộc",
+          "pub_date": "2026-09-22T06:25:57+00:00"
+        },
+        {
           "title": "Cục diện chính trường Đức trước bước tiến của đảng cực hữu",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR3k2UHhLVUpFTXV2TmNNYnUyUFBsd2cwaklJaVFlWHlxMUd4dkMzUExwSU40N1F1U1o5eXIxOEoxREtVZjhaQVRFQ0RxS3c1NUVCblo5bEJwVXp4NVdUVDY3VnhjODJRaGpFSXFTR0VvMjZqWmx3bzItVkFIalMtenczaHV4NmNUMk9ZaU5lOVp6b29ZZ0ZyN2xlRUpTQW5FSFRj?oc=5",
           "description": "Cục diện chính trường Đức trước bước tiến của đảng cực hữu  Báo Thanh NiênTương lai chính trị của Thủ tướng Đức Friedrich Merz bị đe doạ  Báo Tiền PhongChính phủ Đức đối mặt sức ép kinh tế sau các cuộ",
@@ -796,90 +780,69 @@
           "pub_date": "2026-09-21T22:00:00+00:00"
         },
         {
-          "title": "Triều Tiên thử vũ khí mới, khoe 'công nghệ quốc phòng siêu hiện đại'",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQWJ4TVJucFhEMlBidkZlUVJlT2pDZndlNnlPQUtUS1E2aWZja0otZEVoVnUzcTNOTE1IcFRtR1d0TzZoeVRuS3ZFLTg0czRIOTl4alVicnVxbHhDR0twd0pIcE85STNrYW9kRFIyM0dSdGR0WlNpOHBfUXNWUHYyQ3FSRkhTUzZDY0Z6bk1jY21QNzVDamROY0w0d1lPSzlrdDhCUTRUV25oOEU?oc=5",
-          "description": "Triều Tiên thử vũ khí mới, khoe 'công nghệ quốc phòng siêu hiện đại'  Báo Tuổi TrẻTriều Tiên thử tên lửa 'khiến đối thủ đau đầu kinh niên'  VnExpressNóng thế giới hôm nay 23/9: Triều Tiên hé lộ bước t",
-          "publisher": "Báo Tuổi Trẻ",
-          "pub_date": "2026-09-22T02:41:00+00:00"
+          "title": "Triều Tiên tuyên bố thử nghiệm thành công hệ thống vũ khí mới",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdmhUQUJoQUw1akNxZ293YUcwZlBRYjJ5Z2pISGl5djFtTUNTbWNpdFZqb193V2o1czg1aHZUd2ZVdGNVVzZiSUtZVlVMS0xVVTFBRWFUV2xLRGpwZklDNFM5d19GS19xN0k4cEQ0ZkplTWRyQS1taTdTNlNrbHBLMHc2aEhIc1M5a2dKR3ZGc29EdDNWX0VaWUJVVWQ?oc=5",
+          "description": "Triều Tiên tuyên bố thử nghiệm thành công hệ thống vũ khí mới  Báo VietNamNetTriều Tiên thử tên lửa 'khiến đối thủ đau đầu kinh niên'  VnExpressNóng thế giới hôm nay 23/9: Triều Tiên hé lộ bước tiến v",
+          "publisher": "Báo VietNamNet",
+          "pub_date": "2026-09-22T02:45:00+00:00"
         },
         {
-          "title": "Chính trị gia Ukraine chỉ ra hai quốc gia NATO đang bị cuốn vào cuộc chiến Ukraine",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeTA3WWg1UG5xSFZpS2VNRXppbFdvYWNyUTVVc0FMbExCWU1xcW55SEplbTNwQWlEcGZHZnpWWmp5cjlTcS1fYzh0MFBpV01QZXdseXFTVXl4YjJaQlJhQWtBU05ueHJ0eXN3NzlFcnhKVzJaRThyOU8yeXFtaHl2NWJuaS1LSlJzNmdJcHZGenZWMkR1LVlrMndwOXgxVHE2X2I5QkpLVWp4ZmVKem56cUIwTG1lQQ?oc=5",
-          "description": "Chính trị gia Ukraine chỉ ra hai quốc gia NATO đang bị cuốn vào cuộc chiến Ukraine  Báo Dân ViệtTình báo châu Âu: Nga có thể quyết liệt hơn với NATO trong vài tháng tới  Báo Tuổi TrẻThủ tướng Slovakia",
-          "publisher": "Báo Dân Việt",
-          "pub_date": "2026-09-21T14:18:00+00:00"
+          "title": "Trừng phạt Nga: Pháp muốn đưa 2 cái tên khỏi danh sách, EU chia rẽ về việc gia hạn, Ukraine phản ứng gắt",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYTdidkEtcUJmRldXXzBsaDFEcURFZFlfMkFzUmNjUmlsMzlpbGJPN2pua0lSN0dOT2Jndm9nRzg1Wm9QUEZyaUQySzdpZkoyeEdqX1RXaVZfOXZkckY0N1JlYmZ4WWRhWVZORmRiN1FXejZiT29JRm1jVlhUODEwZjh3MFhuY1RKY19GdW84MldFaXBweHJmUkF1dkdrb2ZHUl95SVJKVEVBQXg0cXZNUVVTVHJ6WnQxOW9NZ2lVNGZJcFBPdGJrRDRxNzhabGc?oc=5",
+          "description": "Trừng phạt Nga: Pháp muốn đưa 2 cái tên khỏi danh sách, EU chia rẽ về việc gia hạn, Ukraine phản ứng gắt  Báo Thế giới và Việt NamNga chưa thấy tương lai được EU gỡ bỏ cấm vận  Laodong.vnLiên minh châ",
+          "publisher": "Báo Thế giới và Việt Nam",
+          "pub_date": "2026-09-22T01:11:46+00:00"
         }
       ],
       "business": [
         {
-          "title": "Công trình giao thông chậm tiến độ sẽ bị chuyển vốn",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdF9IWHd0ajlBckVHcnVBamZtZ0ZJd0xqb245RE84dmpRS1hKTnBEQ1czNk5IaDczOGM5bEs5dGhCZlprNThuem5nT3B4UzRKQnI4TnY5SUUyd0xyVjRYaUstTkFvaVFFZDBtNV9mN0laZG9FeEk3UkpKTG4wLUdDR1Bva0JWMld4Q3l2enA0NA?oc=5",
-          "description": "Công trình giao thông chậm tiến độ sẽ bị chuyển vốn  VnExpressChỉ đạo nóng của Thủ tướng về đường sắt tốc độ cao Bắc - Nam và loạt dự án giao thông tỷ USD  24h.com.vnThủ tướng: Kiên quyết điều chuyển ",
-          "publisher": "VnExpress",
-          "pub_date": "2026-09-22T14:58:33+00:00"
+          "title": "Tổng Bí thư, Chủ tịch nước Tô Lâm nhận huy chương của Hiệp hội Chính sách đối ngoại Mỹ",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNzJYbXpYSzJIOUZDODByaF9mZkdieDBYZFdqazE4eEsyOGVfVjdDb0hwcXlHUmtEcUVERnBEazJrLVhIYkx0blotMERHVngtWG9zNGxwUjhBTFdyUUJ6T19NWGxFUW0wWlN0dkZURTZydmdrMjkzdS00T0l5dFJ0d2dwOU1yREZnVUJsd1JnbG5DZEFqQXZjdml6b1NNTk1hWGRRNGtfWGVUdURibkR5MmFraWFPUEc2alRRM2s0Sk1IS3ZxdWc?oc=5",
+          "description": "Tổng Bí thư, Chủ tịch nước Tô Lâm nhận huy chương của Hiệp hội Chính sách đối ngoại Mỹ  Báo Tuổi TrẻTổng Bí thư, Chủ tịch nước gặp lãnh đạo các nước  ZnewsTổng Bí thư, Chủ tịch nước Tô Lâm tiếp quyền ",
+          "publisher": "Báo Tuổi Trẻ",
+          "pub_date": "2026-09-22T22:31:00+00:00"
         },
         {
           "title": "Giá vàng nhẫn trơn, vàng miếng chiều tối 22/9 tại SJC, PNJ, DOJI, Bảo Tín Minh Châu và Phú Quý đồng loạt giảm mạnh",
           "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVUZwR1p5QUhXNTRkOVc3ZHRPRmQxNDl3dUlvN05wTzltdXNPbXN5aGxaTS1BaWwwUmNrRlVycjJ5NmVUNHhaYjlBTzAzTXJSTEhtLW5ybWtOa29WU2Iyc0pJaVM2cGlVSXJabVVhZEFITVRuZUxvd19qcjB6bFpZc2FPVXJ2aUM0ZkxnZHNuV0NDcmRqZ1BuYnlGek1nMGVYbkY1S1psRGRYZXZJSFgzb0s0Vk1MVlhzY3U1MlBSbTBiZllTVDJaSnZjR1o1Yy1IVFdtZG9hbXo2Smo5akdscDNLLTQ?oc=5",
-          "description": "Giá vàng nhẫn trơn, vàng miếng chiều tối 22/9 tại SJC, PNJ, DOJI, Bảo Tín Minh Châu và Phú Quý đồng loạt giảm mạnh  CafeFChốt giá vàng hôm nay ngày 22/9 tiếp đà giảm rất mạnh  24h.com.vnCập nhật giá v",
+          "description": "Giá vàng nhẫn trơn, vàng miếng chiều tối 22/9 tại SJC, PNJ, DOJI, Bảo Tín Minh Châu và Phú Quý đồng loạt giảm mạnh  CafeFChốt giá vàng hôm nay ngày 22/9 tiếp đà giảm rất mạnh  Tin tức 24hGiá vàng hôm ",
           "publisher": "CafeF",
           "pub_date": "2026-09-22T13:05:00+00:00"
         },
         {
-          "title": "Lâm Đồng công bố tình huống khẩn cấp sạt lở đèo Prenn, cửa ngõ Đà Lạt",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa3ZIQkVaOWRkV3pXSDFVYzdwM2ZmRTN1dzB2MlpPS2M5QXNQQ0l1VjlueGNhbUk4MHBqVENhRmxRRGM0TjhMMHAwa1FaWTdzMmpTWV96ekVLSlZzcnlxMUV0ZWg0V3pLWFdDc1ExeGlyNm44WVdPWHExM3QtdVFGXzFTTzlKVEdIV3owc3hmT0oyOGdaWEtMUFNVeGpHQ1hRLXQzOFRRX3RyMXRMQTdr?oc=5",
-          "description": "Lâm Đồng công bố tình huống khẩn cấp sạt lở đèo Prenn, cửa ngõ Đà Lạt  Báo Tuổi TrẻLâm Đồng công bố tình huống khẩn cấp tuyến đèo Prenn do sạt lở  VnExpressNứt đất, sạt lở kéo dài đường ven hồ thủy lợ",
-          "publisher": "Báo Tuổi Trẻ",
-          "pub_date": "2026-09-22T16:13:00+00:00"
+          "title": "Công trình giao thông chậm tiến độ sẽ bị chuyển vốn",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdF9IWHd0ajlBckVHcnVBamZtZ0ZJd0xqb245RE84dmpRS1hKTnBEQ1czNk5IaDczOGM5bEs5dGhCZlprNThuem5nT3B4UzRKQnI4TnY5SUUyd0xyVjRYaUstTkFvaVFFZDBtNV9mN0laZG9FeEk3UkpKTG4wLUdDR1Bva0JWMld4Q3l2enA0NA?oc=5",
+          "description": "Công trình giao thông chậm tiến độ sẽ bị chuyển vốn  VnExpressChỉ đạo nóng của Thủ tướng về đường sắt tốc độ cao Bắc - Nam và loạt dự án giao thông tỷ USD  Tin tức 24hThủ tướng: Kiên quyết điều chuyển",
+          "publisher": "VnExpress",
+          "pub_date": "2026-09-22T14:58:33+00:00"
         },
         {
           "title": "Giá dầu thế giới giảm xuống dưới 100 USD/thùng",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSzExRWsxaWNrQnFES1NjQ2VrRUZsd3N1X2loMXJZbF9wSjlrOVJiWEdVUFV3RWNlbVpaM25lNFZuM1p6VXVQd1dlWXk5MlROSm9XbUdvRFA1Qm5KSjl2cVd1cmY2RW42X2lSR2l4LVJuUFZfeUg3RmxPRHdOdEh5QWRuWjBpOWhEc2FjdWVSUnp5NDZzRmRpZFljRkJGdUtOUFE?oc=5",
-          "description": "Giá dầu thế giới giảm xuống dưới 100 USD/thùng  Báo Dân tríCập nhật giá xăng dầu ngày 22.9: Tiếp tục giảm sâu  Laodong.vnGiá xăng dầu hôm nay (23-9): Giá dầu thế giới tiếp đà giảm  Báo Quân đội nhân d",
-          "publisher": "Báo Dân trí",
+          "description": "Giá dầu thế giới giảm xuống dưới 100 USD/thùng  dantri.com.vnCập nhật giá xăng dầu ngày 22.9: Tiếp tục giảm sâu  Laodong.vnGiá dầu hôm nay (23/9): Giảm xuống mức thấp nhất trong hai tuần  nangluongquo",
+          "publisher": "dantri.com.vn",
           "pub_date": "2026-09-22T16:37:21+00:00"
+        },
+        {
+          "title": "Lâm Đồng công bố tình huống khẩn cấp về sạt lở trên đèo Prenn",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON21fY1BKZHh0bmJMVm9Sd0l0MmIySUFWYk1jeUM5SWFtQ3lwbHBhSkJqSXhIMENsQ04zanl0ckliY3IyQUFyOW1tSGZ3TWd0UjJpODZQc05yNUV1WTVrRGdVSHJfU0tCckhFckZNSHljbzFLMXBtbFpRTHlPZ0dPV3pjS292ZUZTWnEwcmJGVm84aXk1T0M0Qm5BU2RTUU94VUN1WGhNM2MzSEl0?oc=5",
+          "description": "Lâm Đồng công bố tình huống khẩn cấp về sạt lở trên đèo Prenn  ZnewsLâm Đồng công bố tình huống khẩn cấp tuyến đèo Prenn do sạt lở  VnExpressNứt đất, sạt lở kéo dài đường ven hồ thủy lợi dung tích lớn",
+          "publisher": "Znews",
+          "pub_date": "2026-09-22T12:56:02+00:00"
         },
         {
           "title": "Ông Trần Lưu Quang: Chỉnh giao thông vòng xoay Điện Biên Phủ, đường Cộng Hòa 'khác liền'",
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd0lMQmxQb0xYcXdSeDF2ckdjUUV3bVl1WXpjbkJWdnBtUUM2WkI5V3l3QVFFal8yYkxFUkEtTTVCb1lwV3BPb0wyR2NZOHhDdHZIZWFnZi1EclBZdkJCUGNxdC1Xd0FPVUUyVWdJdzR5NHNTZS1xYU50MUJGTEFfUTBTV3V4cFllVEs0SW5mOWdiblE3aUdQTXdMaWFXeUJzUEZob1FXMnpSZ2g1UDFsWDdOel9kUzZrSlUxSzhUSTd4OXVmQndv?oc=5",
-          "description": "Ông Trần Lưu Quang: Chỉnh giao thông vòng xoay Điện Biên Phủ, đường Cộng Hòa 'khác liền'  Báo Thanh NiênBí thư Trần Lưu Quang: Bố trí cán bộ chưa trúng, tuần sau có thể đổi tiếp  VnExpressBí thư Thành",
+          "description": "Ông Trần Lưu Quang: Chỉnh giao thông vòng xoay Điện Biên Phủ, đường Cộng Hòa 'khác liền'  Báo Thanh NiênBí thư Trần Lưu Quang: Bố trí cán bộ chưa trúng, tuần sau có thể đổi tiếp  VnExpressTP Hồ Chí Mi",
           "publisher": "Báo Thanh Niên",
           "pub_date": "2026-09-22T11:20:00+00:00"
         },
         {
-          "title": "Lãnh đạo Cục Quản lý nhà: Hết niên hạn chung cư, người dân không mất quyền sở hữu",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ1JTNWl3SHFYUm9EOXkwSFY2TkdtWGZrWUZBV2JrRGZPMHQtSUtJSU5aZlhNd3dXNkVxTVhtQ0cwclpjNXQ2ZENYTVhiS0VfZ1gwUmtHN3lPSmJSV0k4RFctaWkwLTY1dXlzXzZONmVrdXVpZjFYajNrU3R4dHFWVHhERFpmb0cyUUhJVGthZGIydDRyQi1NNU04dEFOQlJsVGhUN1hsSkRiaklnb08wLXNlaWc?oc=5",
-          "description": "Lãnh đạo Cục Quản lý nhà: Hết niên hạn chung cư, người dân không mất quyền sở hữu  Báo VietNamNetThời hạn sử dụng nhà chung cư khác gì thời gian sở hữu?  VnExpressChung cư hết niên hạn có thể bị phá d",
-          "publisher": "Báo VietNamNet",
-          "pub_date": "2026-09-22T07:11:00+00:00"
-        },
-        {
-          "title": "Tổng Bí thư, Chủ tịch nước kêu gọi kiều bào tại Mỹ khép lại quá khứ, chung tay kiến tạo tương lai dân tộc",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQThsQUpMTU0yT3NxNElxcUNqWjhYQ0w5NTJ5d0VBU1dGMTVRUHh0dTI5N05GLUZpN1FEYW1yWUpkdE1vVl93N1hxekc2YWpUMmlxenFpZGpTb2c4a1R2dVd6dEVVbUluOC03Z29VTnJwU0pUQi1ZQXFzSkdzQm1hQlR4N3hZLVB6XzRLVC1fM3NLX0VDTGFPTHgxYW5SRkYtYm1xSURLS2NjZ25XeThmTllRSUROWlBKWXl2a1lXLVRiSngzbnZXQ2xBQUM2UUUtaTdSZHFkVQ?oc=5",
-          "description": "Tổng Bí thư, Chủ tịch nước kêu gọi kiều bào tại Mỹ khép lại quá khứ, chung tay kiến tạo tương lai dân tộc  Báo Tiền PhongTổng Bí thư, Chủ tịch nước Tô Lâm tiếp quyền Bộ trưởng Hải quân Mỹ Hùng Cao  Vn",
-          "publisher": "Báo Tiền Phong",
-          "pub_date": "2026-09-22T08:41:49+00:00"
-        },
-        {
           "title": "Mưa lớn ở TPHCM chiều 22.9, nhiều tuyến đường bị ngập",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMzA0RmdrcUN2dVlESUNzQWlyR3dieUNiUktTYUtkVVhyS1pldXBqTXY4SE9HZHZIall3djRpQVBZZVM1QlNFMklTWWZ2SmhTOVA1X0F0UkdRVUhpbUprWFVqQXZXYXZfNDBJZG4zbXhRdzEzVXZ1azM1Z1UtcjczMXdyOTVwMnEzOE8zSngxby1leTA?oc=5",
-          "description": "Mưa lớn ở TPHCM chiều 22.9, nhiều tuyến đường bị ngập  Laodong.vn22h đêm, xe chết máy la liệt trên đường Phan Huy Ích, người dân mệt mỏi dắt xe lội nước về nhà  Báo Tuổi TrẻTP.HCM tiếp tục mưa lớn, nh",
+          "description": "Mưa lớn ở TPHCM chiều 22.9, nhiều tuyến đường bị ngập  Laodong.vnNgười dân TP.HCM chật vật về nhà khi mưa lớn  ZnewsHiệu trưởng ở TP.HCM viết thư giữa đêm mưa gây bão mạng  Báo Tuổi TrẻNước chảy cuồn ",
           "publisher": "Laodong.vn",
           "pub_date": "2026-09-22T10:41:36+00:00"
-        },
-        {
-          "title": "Kết quả xổ số Bến Tre hôm nay 22.9",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNX193UEZQa3M4aEh5aFdGQWdDZGFybkdIS2t3UmpDQlMzZHJwcnprb19jVlNVVnlDTWQ1bDIwWGozZDYxMHVxRXhCc0dGdjBONnVJOEVJX3hBSER3eWRJRkY0dWVHT0hDdVVaNGhIUjJ3UVU4OWZyY1VPOHJvTUdmOEV3?oc=5",
-          "description": "Kết quả xổ số Bến Tre hôm nay 22.9  Laodong.vnKết quả xổ số Cà Mau ngày 21.9  Laodong.vnXSMN 22/9 - Kết quả xổ số miền Nam hôm nay 22/9/2026 - Trực tiếp XSMN ngày 22 tháng 9  thethaovanhoa.vnXổ số miề",
-          "publisher": "Laodong.vn",
-          "pub_date": "2026-09-22T09:58:45+00:00"
-        },
-        {
-          "title": "'Lương khu vực công phải đủ sức giữ người giỏi'",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaTFMZWlTSWtFc3B1SDdtWm4teERKTkZsMmh1cEZmUmVIZXIxaXlhSXp6WXd2ZklMQTRraFFuX3dzRGdMUEJqZzhWeTdWSlFvNFhYOFUxN2g3ckQteDBGTkloSmZHaS00bzF3Zm5JYWtpbXV2eGVZQmVSbTNLOHdsMXhHRTRONVU?oc=5",
-          "description": "'Lương khu vực công phải đủ sức giữ người giỏi'  VnExpressPhó Thủ tướng Phạm Thị Thanh Trà nêu yêu cầu mới về cải cách tiền lương  Báo Dân tríChỉ đạo mới của Phó Thủ tướng về cải cách tiền lương  Báo ",
-          "publisher": "VnExpress",
-          "pub_date": "2026-09-22T15:28:24+00:00"
         },
         {
           "title": "Lãi suất HDBank hôm nay, gửi 500 triệu nhận 75 triệu đồng tiền lãi",
@@ -889,13 +852,6 @@
           "pub_date": "2026-09-22T13:02:02+00:00"
         },
         {
-          "title": "Vốn ngoại đảo chiều mua ròng, thị trường phân hóa",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Bb1JTNmZIX3F0QlljT2lDVVphYTdkaHVRSUJjMkVnbVBzcG1SOUhubjF2QVRfbkZKcThBZVg0UGFoT1VKb2JIdnBCX3hfWmVhNzFwYzFOTEJHSGVJbHRsZXdycGFJTTR1VnlpQ0ZwNzAzMmw0aW9KaS01bU41Zw?oc=5",
-          "description": "Vốn ngoại đảo chiều mua ròng, thị trường phân hóa  VnEconomyTiền vào chứng khoán giảm mạnh sau ngày nâng hạng  VnExpressNâng hạng chưa đủ, Tổng Giám đốc SGI Capital tiết lộ 2 điều kiện để khối ngoại t",
-          "publisher": "VnEconomy",
-          "pub_date": "2026-09-22T08:30:13+00:00"
-        },
-        {
           "title": "Dân băn khoăn nguy cơ phải di dời toàn bộ khu dân cư dọc sông Hồng, lãnh đạo Hà Nội nói gì?",
           "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQk9tQ29zOVphMkxrcG1SMVIyZURiVGZrck5kNXRweEtFdkh0dzA3WWJjRGdHZURVZGdwWVZmYi1DcWhmSWNJM3doZWhJSy1PR0hGaGVRTWFkMDQxbk9FaEdCOGlyTHFOS3k3NDZQbW1oTW10ZnVTZlNOZjRpYkNoQm5BaFo4enlFVk5PNFhYbEJ1bzVFNnZxbC1iSERaSW5mTWtXMXNWUmxQWVpCSUdRNzN4d0QxVVVjamtRNTRSak9lRVpuS2dTZE02cw?oc=5",
           "description": "Dân băn khoăn nguy cơ phải di dời toàn bộ khu dân cư dọc sông Hồng, lãnh đạo Hà Nội nói gì?  Báo Tuổi TrẻBí thư Hà Nội: Hoàn thành tái định cư mới thu hồi đất ở dự án ven sông Hồng  VnExpressBí thư Hà",
@@ -903,18 +859,46 @@
           "pub_date": "2026-09-22T10:57:00+00:00"
         },
         {
-          "title": "Bí thư, Chủ tịch Hà Nội được máy tính 'chấm điểm' hàng ngày",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ2RHWFVrcm1hdXZpUjF0QV9BWnhnbzBVcENQeW9yc3lyd0hlQW5LeUJPaWdXbXR5R2tqMGhwMld4bWpxSExPVk1NTGFsVzN4LTVET3dEekhiRWFHSk1odmZBSU00ZEtOYm1tejlGanRhSnJZZnU3VjdaWGFjM1lSekp2alY1NVYyeTNuV3lBLThYYmhOTkd3NFdrOGNqajgxUUVxRXJ3?oc=5",
-          "description": "Bí thư, Chủ tịch Hà Nội được máy tính 'chấm điểm' hàng ngày  ZnewsXem thêm tiêu đề và góc nhìn khác trên Google Tin tức",
-          "publisher": "Znews",
-          "pub_date": "2026-09-22T07:30:59+00:00"
+          "title": "Vốn ngoại đảo chiều mua ròng, thị trường phân hóa",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Bb1JTNmZIX3F0QlljT2lDVVphYTdkaHVRSUJjMkVnbVBzcG1SOUhubjF2QVRfbkZKcThBZVg0UGFoT1VKb2JIdnBCX3hfWmVhNzFwYzFOTEJHSGVJbHRsZXdycGFJTTR1VnlpQ0ZwNzAzMmw0aW9KaS01bU41Zw?oc=5",
+          "description": "Vốn ngoại đảo chiều mua ròng, thị trường phân hóa  VnEconomyTiền vào chứng khoán giảm mạnh sau ngày nâng hạng  VnExpressDòng vốn sau nâng hạng sẽ vào quỹ Việt Nam bằng cách nào?  Báo Dân ViệtGóc nhìn ",
+          "publisher": "VnEconomy",
+          "pub_date": "2026-09-22T08:30:13+00:00"
         },
         {
           "title": "Bỏ cộng điểm IELTS nhằm giảm \"quyền lực mềm\" của chứng chỉ quốc tế",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMXFsTzRUMDZKbE1tb1VaT202MUY2cHJISUFVVDh1d3lyU2lDRDFkaV9xS3NIa2VVbU94VXQwUDFCVGhHZTFuQ29QZV9vOU5heHpocEVzdEVBd1lDb3g1dEtmY1RaQ3Z1aUlFN2g2aVhmN2llNUNGOHd2MzEwQ0pKWnZzVXFNMjMxT0RJR0Y2cUpiaS1Xd1NHQjNnU3JPTVh4NHJtLVk3QXl5VWQwQlBrN0VGaWh6Vk1a?oc=5",
-          "description": "Bỏ cộng điểm IELTS nhằm giảm \"quyền lực mềm\" của chứng chỉ quốc tế  Báo Dân tríTrường ĐH 'căng thẳng' trước lộ trình một phương thức mỗi ngành  Báo Thanh NiênCác trường đại học, phụ huynh muốn quy chế",
-          "publisher": "Báo Dân trí",
+          "description": "Bỏ cộng điểm IELTS nhằm giảm \"quyền lực mềm\" của chứng chỉ quốc tế  dantri.com.vnHành trình bùng nổ và đặc quyền “vua điểm cộng” của chứng chỉ IELTS  dantri.com.vnTrường ĐH 'căng thẳng' trước lộ trình",
+          "publisher": "dantri.com.vn",
           "pub_date": "2026-09-22T08:10:41+00:00"
+        },
+        {
+          "title": "Sun Phuquoc Airways đón máy bay thân rộng A330 đầu tiên",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY1N6Z05Ia1J4QkFmd1ZoMktOOEItcVQyV0pBdDdkekFKcDZnUWo1UmRrNnBDdjNoaHRTZmhWWmtmdkd5R0lCLVVwSmo0TkJCX01XU0lqb0V5S0F2RjZ0MkZ3bXFncE10cFJZMHFxUWowNmNZME53RXUyS1l5d2Z0QXlvTFByWGFrN2xMQUFNU050MGtY?oc=5",
+          "description": "Sun Phuquoc Airways đón máy bay thân rộng A330 đầu tiên  VnExpressChỉ 10 tháng sau chuyến bay đầu tiên, hãng bay Việt vào top tốt nhất thế giới  Báo Thanh NiênKhoảnh khắc máy bay thân rộng Airbus A330",
+          "publisher": "VnExpress",
+          "pub_date": "2026-09-22T11:59:22+00:00"
+        },
+        {
+          "title": "Kiểm tra đột xuất cơ sở bánh Trung thu, phát hiện nhiều sản phẩm không rõ nguồn gốc",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQTF1S1Bab0hYSzZBOHJzZGxQNkVxTUlnQ1RwUVhMamdUWkFiN3dKRDB2a2hMekFDdGdsQkdQNm5oZkcyQ3N1NVpoWndMWEpUbkZpUVc0b042MnRFOG0xTXFMazB2MTRfQS1fX202LTlzQ0QzV2lJcTFiVS1YRjF5ODU2LUZpRFBUd2xWRFZqUmdPRkluR0hya0lHWTNjZTJBeEdoNnNpc045TEpSaUFjNzg1UHFScWFVcXFlcjNKMTlJUQ?oc=5",
+          "description": "Kiểm tra đột xuất cơ sở bánh Trung thu, phát hiện nhiều sản phẩm không rõ nguồn gốc  Laodong.vnBánh trung thu vào mùa cao điểm, lực lượng chức năng tăng cường kiểm tra  VOV2.VNYên Hoà tăng cường kiểm ",
+          "publisher": "Laodong.vn",
+          "pub_date": "2026-09-22T10:47:52+00:00"
+        },
+        {
+          "title": "TP.HCM làm rõ quy định bán kính TOD tối đa 1.000 m quanh nhà ga",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ3ZxTmdMRWlTRUp5dmpRTGlXSjB3UlU4cHdDVUNxUkpFbl9WQWFoVVRjR0pLbkl4WEQ2X011RGZoRV94eE1NRXdfV1R5Qkt2ZFBlcjVGTGFwNnFYQ3ZQTUpTRHl3RTJmdGZIUHZLQ2dOQzFnai1HVENoOG9rdEF4S2RtcFhvLTE4TDdQakg3Q0RRanJwMTFtTFRLcVdVS3JabUViQmtZY0h4T2xOMDBYa9IBrAFBVV95cUxNNDRGWlIyTW5faEVIWjRuV0hfZUtOLW9rYzJnM09lQ0F3RDFqMmlHZVdjejV1Qy0tNVNNMGY1VVcyRW5SNzF4a25fbmRLRENYZEZNYTBpcnI0TEozbXZaNmJMXy1GTjVCSEJNdnFFUS00eWJmZW1SOUxlZ3dGT1FmTjVuMUFRdm80aXktMjZzTXV5QXhwZklPRS05cjdZcUlFTFE2ZGNfSVFGQzZ1?oc=5",
+          "description": "TP.HCM làm rõ quy định bán kính TOD tối đa 1.000 m quanh nhà ga  Tin nhanh chứng khoánCụ thể hóa các nghị quyết, tổ chức thực hiện ngay sau kỳ họp HĐND TP.HCM  Báo Thanh NiênChủ tịch UBND TPHCM: Chậm ",
+          "publisher": "Tin nhanh chứng khoán",
+          "pub_date": "2026-09-22T09:12:35+00:00"
+        },
+        {
+          "title": "Chính phủ muốn bỏ thu thuế 0,2% với đất lấn chiếm",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYV9mRlVWeGEzdFBEczhYT0dLQTRlRnZESHhCam42NF9HZzY4M1VQVUxCVTRLS1dSTWh5UzZOcXoxald3NkVfMDRkRnJXUDFCZzNyMTljcW1fYXpTUHFUV2pCblJ6M21CRy1zVlBuQlBmaUYtSzduMmRlVHExSjQ4WmNhNG9MRjNuVVB3?oc=5",
+          "description": "Chính phủ muốn bỏ thu thuế 0,2% với đất lấn chiếm  VnExpressĐề xuất miễn thuế thu nhập từ cung cấp suất ăn cho trường học, bệnh viện  VnExpressChính phủ đề xuất không thu thuế sử dụng đất phi nông ngh",
+          "publisher": "VnExpress",
+          "pub_date": "2026-09-22T09:52:36+00:00"
         }
       ],
       "technology": [
@@ -958,7 +942,7 @@
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOX0V5SWVTSVd0ODkxcmNZdlNCdGEtWnFHZmFlQmVVTHBRMllDMTJFa091MGZMRjV4RUJYc1pXWDMtZDU5bHMxRGo1YmlZY2ljWnFnWmFDcFhSdmNTSXFndHJsS0JMY0I3eGJ5Y3kxdlVkOFQyRmhCOEZ1UHVHNjRoUjV3N2hPdW1PaTlwVlpwNEowX2liQ0djc3FR?oc=5",
           "description": "Công nghệ trên máy bay siêu thanh 2.470 km/h của Trung Quốc  VnExpress",
           "publisher": "VnExpress",
-          "pub_date": "2026-09-22T11:00:00+00:00"
+          "pub_date": "2026-09-22T23:29:38+00:00"
         },
         {
           "title": "Bốn ông lớn công nghệ Mỹ bị kiện vì muốn 'kìm hãm AI'",
@@ -977,8 +961,8 @@
         {
           "title": "Ukraine lo sai lầm lặp lại khi Nga liên tục phóng \"đối thủ của Starlink\"",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOVliNmY2RjNHc1ZVSWJONGJwX3V4cEt4WVM3VmZiN2JDNGFjMmJDa01kdi0wQzdSd1EtYzFTSGRIUWYzYzdnMk5tMFY1aGlRZTY1WmgzN3JlRDBRbVlSWlNFZ0dYX0N1by05UVJUMkpKMzcyaUt6TVhXQ00wZVhvemdTM1JoaGVOUWtJWk1IRFJFOGc0aGwybk4zRDRBdHJ1cnVFUmlmamRhY3l6QjFMWDNoNWJqb2VZRlRiNk14VGg?oc=5",
-          "description": "Ukraine lo sai lầm lặp lại khi Nga liên tục phóng \"đối thủ của Starlink\"  Báo Dân trí",
-          "publisher": "Báo Dân trí",
+          "description": "Ukraine lo sai lầm lặp lại khi Nga liên tục phóng \"đối thủ của Starlink\"  dantri.com.vn",
+          "publisher": "dantri.com.vn",
           "pub_date": "2026-09-22T07:34:38+00:00"
         },
         {
@@ -987,6 +971,13 @@
           "description": "Từng bỏ học mưu sinh, nữ sinh đỗ đại học top đầu ngành IT  VnExpress",
           "publisher": "VnExpress",
           "pub_date": "2026-09-21T23:50:00+00:00"
+        },
+        {
+          "title": "Ông Trump ký thỏa thuận an ninh với Đan Mạch và Greenland",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYnB3T2IwQ05ZRF9PYUZZeGlJMVI0MENiR1dRNW9HZi1CVnJScDBTcDJ0RTZpaHlnclJpdmktTk5Rcm9KMWMtNzdDMWllbEpiN0lWSjNtZE9qRVJLaTIzNm82Nm40Vk1fTy1tc1NjTzhpY1BUcHB5LUI3bE9sNDhUQ3MtYjYzUWFObk5yQXlyNlR2dXliYVp3?oc=5",
+          "description": "Ông Trump ký thỏa thuận an ninh với Đan Mạch và Greenland  VnExpress",
+          "publisher": "VnExpress",
+          "pub_date": "2026-09-22T23:29:15+00:00"
         },
         {
           "title": "iPhone 20 Pro Max có thể trang bị màn hình 7 inch",
@@ -1012,32 +1003,25 @@
         {
           "title": "Phó chủ tịch Apple nói 'nổi da gà' khi thấy iPhone dán cường lực",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ1VwSFl2S1ZVSEJRaHRnSjR4MGR2clBod0FrN1hmaHFjenJzTk9MR284ZXRyS0dzMWhLUG4xNnZXdFhXMENrR1pfUkM2Q0tuei1kclJSZHFfLThjcjhpWTZ3X1U1cVgxeEJJd2JtOXU0VE1TYzUybXREZ2VZQll0MEN4RmRIU2dIQTBsTWxvNE1kS284YXZlOGRxdVBRNC1rMkI5OXZ0QVNlQld3cWxrOWJuNFdEYXRqVVVMaC1lb0U?oc=5",
-          "description": "Phó chủ tịch Apple nói 'nổi da gà' khi thấy iPhone dán cường lực  24h.com.vn",
-          "publisher": "24h.com.vn",
+          "description": "Phó chủ tịch Apple nói 'nổi da gà' khi thấy iPhone dán cường lực  Tin tức 24h",
+          "publisher": "Tin tức 24h",
           "pub_date": "2026-09-21T22:00:00+00:00"
-        },
-        {
-          "title": "Trợ lý Muse của Meta khiến cổ phiếu AI bùng nổ",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ1B6eGdYVjJTQmlySnhKZmJGUTg1d2lmSGN3Nm95LTBDVUo1eHkzTWJqQnI2NmhjZUcwVWtwOGhQLUQ4bDNTRGo1X3FPRkRvaTFZNTlrYjRqVFNyaHZLeHdISjBrOXR0UzRfdzZra1R1Wm1WRmJfWVpYSzd5QkpoZERUcDBlOGFWaFU5STNiNmRCREFXekdXbA?oc=5",
-          "description": "Trợ lý Muse của Meta khiến cổ phiếu AI bùng nổ  Znews",
-          "publisher": "Znews",
-          "pub_date": "2026-09-22T05:02:41+00:00"
         }
       ],
       "entertainment": [
+        {
+          "title": "NSƯT Hoài Linh mở cửa đền thờ 100 tỷ đồng, đón hàng trăm nghệ sĩ cúng Tổ",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ1hkZkhvY25JSUJ1UGVyeDAwSEpBQ29iYWxOVlYweGVpdXFJdWx4bkZQVTdocmY2VFhXNzFQdDk4ZFB2TWhCZS1vS2N6aEZQYXp4ckN0YXVXQ0R0cE53ejlLYVZpalhtLUVVN3BiSXlCMFpNZjhLUlZrNWNMOF9qQ2dSaVFaTnlfUjY5UG5adWRIZmJKeW90UUFJN0lKeVpLcFRuQ19YdkR2WXVqOTVZdHJqdjhHaGVrWFBvSHJ6UTU3dw?oc=5",
+          "description": "NSƯT Hoài Linh mở cửa đền thờ 100 tỷ đồng, đón hàng trăm nghệ sĩ cúng Tổ  dantri.com.vnSáng tỏ mối quan hệ của NS Hoài Linh với Hoài Lâm ở nhà thờ Tổ 100 tỷ  Kenh14.vnHoài Lâm và Hoài Linh song ca ‘Th",
+          "publisher": "dantri.com.vn",
+          "pub_date": "2026-09-22T15:52:58+00:00"
+        },
         {
           "title": "Jack và Thiên An đối đáp tại tòa",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RdldaNFlfNzRsN2NZNEs3SFplTFV0dU1UaElFNnQ0R0dOeWtoNEtQZFlrdGZhVWFPLXlIWkRsalQzelJyZ0FTWms2dlFQZGVjdXZ0TXB3b192T3F6UTdHaC0zY1VJbWlpZXpnWTBmZXhYbThQRGRlYg?oc=5",
           "description": "Jack và Thiên An đối đáp tại tòa  Báo Tiền PhongTòa: Ca sĩ Jack là cha của con gái Thiên An  VnExpressTòa tuyên ca sĩ Jack - J97 được nhận con, có nghĩa vụ thương yêu, chăm sóc, nuôi dưỡng con  Báo Tu",
           "publisher": "Báo Tiền Phong",
           "pub_date": "2026-09-22T07:06:48+00:00"
-        },
-        {
-          "title": "Hứa Khải - Châu Dã không lỗ hổng visual xuất hiện tại Việt Nam, \"tình tứ\" không chút ngại ngùng trước rừng camera",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSnBVWVJrY0xROXBRcWhWeTZfNEZqNWFhQUxMMzRQWWpNdXFsM2JBdXhod1RpVk12STRPN1BzWkl0MHlFVV85NXBaLThKRVVBLUxzVFpadVROcHo4T1VDLXlJYzk2MkhSREsxZUFfRVQxY1R0VlZOZE50MFhLWDJhTHl2MHoxSl9Sb0ZDU182NmFjNTZMdzhmVWJkRlpPSUVHdjRqWDJDUW12cENQelpxcjJfTFQ5ZHlESWtPZEVtaHlrb21Ec0dMa2ZaX0ZBRUxDc0tYeDNJX2diZWNsQl8td0t3?oc=5",
-          "description": "Hứa Khải - Châu Dã không lỗ hổng visual xuất hiện tại Việt Nam, \"tình tứ\" không chút ngại ngùng trước rừng camera  Kenh14.vn",
-          "publisher": "Kenh14.vn",
-          "pub_date": "2026-09-22T17:00:00+00:00"
         },
         {
           "title": "NSND Lan Hương, Trung Anh xúc động trong lễ giỗ tổ Sân khấu",
@@ -1054,46 +1038,46 @@
           "pub_date": "2026-09-22T06:59:00+00:00"
         },
         {
-          "title": "NSƯT Hoài Linh mở cửa đền thờ 100 tỷ đồng, đón hàng trăm nghệ sĩ cúng Tổ",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ1hkZkhvY25JSUJ1UGVyeDAwSEpBQ29iYWxOVlYweGVpdXFJdWx4bkZQVTdocmY2VFhXNzFQdDk4ZFB2TWhCZS1vS2N6aEZQYXp4ckN0YXVXQ0R0cE53ejlLYVZpalhtLUVVN3BiSXlCMFpNZjhLUlZrNWNMOF9qQ2dSaVFaTnlfUjY5UG5adWRIZmJKeW90UUFJN0lKeVpLcFRuQ19YdkR2WXVqOTVZdHJqdjhHaGVrWFBvSHJ6UTU3dw?oc=5",
-          "description": "NSƯT Hoài Linh mở cửa đền thờ 100 tỷ đồng, đón hàng trăm nghệ sĩ cúng Tổ  Báo Dân tríNghệ sĩ Hoài Linh chủ trì thực hiện nghi lễ, dàn sao Việt tề tựu tại đền thờ 100 tỷ  CafeFHoài Lâm và Hoài Linh son",
-          "publisher": "Báo Dân trí",
-          "pub_date": "2026-09-22T15:52:58+00:00"
-        },
-        {
           "title": "'Mùa hè năm ấy' tập 20: Phương và Khánh yêu lại từ đầu",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRnd3V05sZ3ZoQXhtN3RYY19PNVBwOW11UC1FNUpLZjAyaEFSMTlxRml5QTBuV3c4bl9HcXlXNlFzMHU4RlFQN00tNFhHT2tPNEZHQjRaNlhWT0xnRWR1RktyQThjOUk2RTRfVHBJTmhVU3RjVEhxREtyM0NXOURqVTdfREJzRmFNUTB5Zmh6NA?oc=5",
-          "description": "'Mùa hè năm ấy' tập 20: Phương và Khánh yêu lại từ đầu  Báo VietNamNetVai người mẹ của Vân Dung trong 'Mùa hè năm ấy' gây tranh luận  VnExpressMùa hè năm ấy: Minh Thu diễn cặp với Tô Dũng hợp quá, Phư",
+          "description": "'Mùa hè năm ấy' tập 20: Phương và Khánh yêu lại từ đầu  Báo VietNamNetMùa hè năm ấy - Tập 20: Phương - Khánh tán tỉnh nhau từ sáng tới tối  VTV.vnMùa hè năm ấy: Minh Thu diễn cặp với Tô Dũng hợp quá, ",
           "publisher": "Báo VietNamNet",
           "pub_date": "2026-09-22T00:37:00+00:00"
         },
         {
-          "title": "Nhà sản xuất Anh trai chông gai xin lỗi",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUHF2U3dHa0ZpOXVZQlA5UkhDUlptc1hwMTdRNnhCbWZFYklEY3VxMzFkRm5IU3dFR2R2RmdscEkwU282eFJqS2YyMGpFUWRycmFZRFJtNFcteGhfMTBtcnNNWU5DMzF6NWs5TFNWVFFzc0VLZERFc1pMT0FXYS0tUmNtMnJmeGtJWVpuczd3LVA1YVE?oc=5",
-          "description": "Nhà sản xuất Anh trai chông gai xin lỗi  24h.com.vnBTC 'Anh trai vượt ngàn chông gai' xin lỗi  Báo Thanh NiênLý do Anh trai vượt ngàn chông gai gửi lời xin lỗi Gucci  Laodong.vnAnh Trai Vượt Ngàn Chôn",
-          "publisher": "24h.com.vn",
-          "pub_date": "2026-09-22T08:27:14+00:00"
+          "title": "Phim 19+ của Son Ye Jin 'lạm dụng cảnh nóng'",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb0EtZVFDazdOV0NXYk16aDl3N2owWE85R25odGs3Z0V1UzY2WUxDeFpudTFuUjRDMS1lbnBydVNrOEtURE5QYjN6eDFvbTNpOVp4cXNDUWpFaVZ1UmhDczV3U2VGclk2TlNGNVdQbVMyeWNBdWVJcS1HT2E2ZElmSndLTUNTSHk5ekxDaVR1NkszeGdPZnc?oc=5",
+          "description": "Phim 19+ của Son Ye Jin 'lạm dụng cảnh nóng'  Tin tức 24hPhim 18+ đứng top 1 toàn cầu, The Scandal không có cửa đọ lại: Nữ chính đẹp tàn bạo xem mà sốc  Kenh14.vnPhim mới của Son Ye Jin, Ji Chang Wook",
+          "publisher": "Tin tức 24h",
+          "pub_date": "2026-09-22T22:28:00+00:00"
         },
         {
-          "title": "Ca khúc nhạc Việt nghe kinh hãi nhất hiện nay",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdW9Pb1M0WnZpRWFrRmNNSkxDc1duLU40eWMxRWpXaVpKZHhzSEZLZHBJTFk1bWUzbjhUTk9BQ041bHJDNGQ1SmVrWmluc1NQSVFOU3hLVlQ5TzZNRUdVb3hvbXRKcGY1Y1FENDhvZTRfZ2czaHdhM2RlM1dTTzdKRkdqS29BQVdMaWsxRHc4OUZWdzJ4ZGVsc3lpZw?oc=5",
-          "description": "Ca khúc nhạc Việt nghe kinh hãi nhất hiện nay  24h.com.vnNhạc Việt đang lạm dụng mẹo vặt để bắt xu hướng  Laodong.vnKhi “Viral” trở thành thước đo mới của một bài hát - ASEAN News - Tạp Chí Đông Nam Á",
-          "publisher": "24h.com.vn",
-          "pub_date": "2026-09-22T10:29:57+00:00"
+          "title": "Anh Trai Vượt Ngàn Chông Gai 2026 tiếp tục vướng tranh cãi đạo nhái",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUUE3LTJUNk9WenZIbThJbnpGZzU2M0o4WUx5OXRrWmJISTJnQmF1UmszTFlkemJqZVhzTUczUTBWWFlpRFk3NzlKOG50bXpXOUJFMGhYZXgyRlBSdjJIUzFTUWs5UVVpT1g3NnVQMi0tLVFxVXZwczJuUVlYVjdaNENsd3RUYnJ2SkVhTHdhMEJEbFRGUS1HLWxDQVlwcVp4aU50QUg3elJtU1FhOVY1aTNOWTRzWS01X1FyQXlNdDI4VmRNM0cyVFZn?oc=5",
+          "description": "Anh Trai Vượt Ngàn Chông Gai 2026 tiếp tục vướng tranh cãi đạo nhái  Kenh14.vnNhà sản xuất Anh trai chông gai xin lỗi  Tin tức 24hBTC 'Anh trai vượt ngàn chông gai' xin lỗi  Báo Thanh NiênLý do Anh tr",
+          "publisher": "Kenh14.vn",
+          "pub_date": "2026-09-22T04:19:00+00:00"
         },
         {
-          "title": "Sao Việt đưa con về thăm quê ở nước ngoài: Ái nữ nhà Ngô Thanh Vân thân thiện, Lisa - Leon phụ giúp ông bà",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcERNTlBOYnZSeEVEMVZWTkRXUVUyZlVrQVNJQnNZWWh3WTJ4ekNRTVpqMzlCdkJrQXFxdS10S3JORGlzdXFSaXZ6dVBkdS1HYVNzc0RQbkk4ckZYZ0NHeWZwRkpRWmlrS2J6bFJOQXo4MXV4emN4b3ptSGM3VTdrNUVHR3hTdGY5LWdYeEpJQmN6YnZpVDQzemctNXJfMjN4d3dlb3pma3ZnVHpiTnMyMjd0bHZwWTZDbWx6TmZmMGlaSGNOMEVEa2ZQcHhJQ1FPY0IybjlsdFJwQQ?oc=5",
-          "description": "Sao Việt đưa con về thăm quê ở nước ngoài: Ái nữ nhà Ngô Thanh Vân thân thiện, Lisa - Leon phụ giúp ông bà  eva.vnNgô Thanh Vân - Huy Trần đưa con gái sang Na Uy, cảnh thu đẹp mê nhưng các \"dì\" chỉ ch",
-          "publisher": "eva.vn",
-          "pub_date": "2026-09-22T11:01:00+00:00"
+          "title": "4 tài hội tụ trong tháng 8 âm: 4 con giáp dễ bước vào giai đoạn tiền bạc và sự nghiệp cùng thăng",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcGJtRHVPLWZYTXo5SnljN2NIaWVYV3VmbjV0Wk1qc2dPc1FnazdKTGllZHljdFlOX1ZDX2o2YWRvWm1kQnVZdmxUY05HOU5nMTFmSjhhWFdzenpKWG9OSzZ4aVpyVHdDQWlLY29pOWNIVHFVcHBuRmRTREtTcVUyaVpKY3MtRWRLRmM4OVMxYWxUSmV6TEtvVzNEVVFwcHpUWmMtTkNpZjZFOUd6VjFkSTFQckRHSnRPdFNjU3dITHVGTkVZV3MyZWREeWtZUVU?oc=5",
+          "description": "4 tài hội tụ trong tháng 8 âm: 4 con giáp dễ bước vào giai đoạn tiền bạc và sự nghiệp cùng thăng  SOHAXem thêm tiêu đề và góc nhìn khác trên Google Tin tức",
+          "publisher": "SOHA",
+          "pub_date": "2026-09-21T22:45:00+00:00"
         },
         {
-          "title": "Lời khuyên cho 3 con giáp sẽ bứt phá mạnh trong cuối năm 2026",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb0hnd1BBSjRHSkhORmtReDdmSy1mRHZiWEo0TEVUWUhuTFlYUTRoUVBrd2M2dGk3YkxsbkZMREw1b3BsVUJWVHltSi1XaG1tSE1qN3RZdXhhXzBnSV9haXVnbE1TdGZuMjZxQ3lQTi1MSExUOWdIN3pJaVpZVVZncUJNZUJEYXpfWXNrMXJUQlM5UjNSd25UYlVmR3NGN1J3ODVrZ2tR?oc=5",
-          "description": "Lời khuyên cho 3 con giáp sẽ bứt phá mạnh trong cuối năm 2026  aFamily4 con giáp 'vượt ngàn chông gai' kiếm tiền đầy túi  VnExpress4 tài hội tụ trong tháng 8 âm: 4 con giáp dễ bước vào giai đoạn tiền ",
-          "publisher": "aFamily",
-          "pub_date": "2026-09-22T01:21:00+00:00"
+          "title": "Nhạc Việt đang lạm dụng mẹo vặt để bắt xu hướng",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUzEzOUJVWklJNENmdFd4XzZVQnVTd1RubXZKSksteUZYblEwZmpPOEJ4clFKVGJkakVzX0ZRSTI5MHBHb3E1UW5kZHRsc0k2TG5qZVRMckhwVE5NU1FzakJadnk0RENHU19WUjYwVjRkY1lkWEg5enhOTlAzZndsaGI3UGNQOWxRd0NVY0lvbTZOc2lOMlRZbWY2dw?oc=5",
+          "description": "Nhạc Việt đang lạm dụng mẹo vặt để bắt xu hướng  Laodong.vnCa khúc nhạc Việt nghe kinh hãi nhất hiện nay  Tin tức 24hKhi “Viral” trở thành thước đo mới của một bài hát - ASEAN News - Tạp Chí Đông Nam ",
+          "publisher": "Laodong.vn",
+          "pub_date": "2026-09-22T06:59:58+00:00"
+        },
+        {
+          "title": "Cậu ruột nói về rạn nứt giữa William và Harry",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTGF5TWZ1ME1jSGZZZmFmM2tsdzZPbExLdXduMXBCSk5EMTRpekhMbThhRU5tX09VVmU4dWxkXzBoelJHSE9rZXhHVGRwbUhYNUdFS3Y5cklMR2VTcnA5X3NqSnFZamtVeUVwS2FuYlpCZkVwODVFTzlZYW9VdElvTVozWlRiTXVzcWdRcXQyTEk5Zw?oc=5",
+          "description": "Cậu ruột nói về rạn nứt giữa William và Harry  VnExpressHồi ký chấn động về cố Công nương Diana chính thức lên kệ, thổi bùng tranh cãi  VOV.VNEm trai Công nương Diana sẽ kiếm hàng triệu USD từ sách?  ",
+          "publisher": "VnExpress",
+          "pub_date": "2026-09-22T03:51:04+00:00"
         },
         {
           "title": "Emoura Phạm ghi điểm về gu thời trang tại Miss Grand",
@@ -1103,11 +1087,11 @@
           "pub_date": "2026-09-22T17:00:00+00:00"
         },
         {
-          "title": "Mỹ nhân đẹp nhất thế giới: 65% cơ thể là chân, mặt xinh dáng nuột, gu ăn mặc cực cuốn",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb1NfeU1YSnhhcDZBNWFlajdjRkQ1V0pNNi14RFVVQXkzWVZOVGFXZWJFUVdpWGkzSHpfR2hTSUtCU0NsRFhwRDdSZTNlOFFhTldSSmc0MzlyQldYV1FoUlp2bC1HMTJrOHg2MFAzS2hxLWtkVlVlQlRfcmVuTEhSMUZIT2NmdFlUSWZMTndfdkxwUnZEdFpMckI5VzBwMS01NGRKSHpIeVZ4UEI4VFBTWU53X0pMWHU0STZDY3BB?oc=5",
-          "description": "Mỹ nhân đẹp nhất thế giới: 65% cơ thể là chân, mặt xinh dáng nuột, gu ăn mặc cực cuốn  Kenh14.vnPhim mới của Son Ye Jin, Ji Chang Wook bị 'ném đá' vì quá nhiều cảnh nóng  Báo Thanh NiênPhim 19+ của So",
-          "publisher": "Kenh14.vn",
-          "pub_date": "2026-09-22T04:11:00+00:00"
+          "title": "Đỏ mặt vì phim AI 18+ tràn lan mạng xã hội",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVnpwWjZYeHlXNXFuOWJ4d3BYVkFGaDhYTDRENktDeEZLMmgyOEFCTnhvMjYyTzExMm5HLVlqWkRxcW1Zb3FYYzJ3TjlGWTRwa1VrNjRoV0ZxcE8wdWN6ckQ3ZzZGVGxxSkIzTXBTN21OUkpuNnI2eTBlc1hjZ3hlSGYtdUxHYjJwU3ViU2VpcGJxSU5JOGdCWWxrUQ?oc=5",
+          "description": "Đỏ mặt vì phim AI 18+ tràn lan mạng xã hội  dantri.com.vnChi tiền triệu 'cày' phim ngắn AI  VnExpressPhim ngắn AI: Từ nội dung bạo lực, dung tục đến ‘cơn nghiện’ khó dứt  Znews\"Đè bẹp\" cả TikTok lẫn c",
+          "publisher": "dantri.com.vn",
+          "pub_date": "2026-09-22T00:41:32+00:00"
         },
         {
           "title": "Siêu mẫu Cindy Crawford suy sụp vì cái chết đột ngột của con trai ở tuổi 27",
@@ -1117,81 +1101,102 @@
           "pub_date": "2026-09-22T01:00:00+00:00"
         },
         {
-          "title": "Gia đình nhạc sĩ Phạm Tuyên hoãn đêm nhạc mừng \"Chiếc đèn ông sao\" tròn 70 tuổi",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYnhyb21Nd25ENW91Rm16aTFfeGNGd1oydnhoajhkOUlkcEdmbUxGQXJ0bTFwWW9mR1hpY3RJdUxMdnVjY1Y4b3pFMHJRS25jYUI3aXpYM1htWE9hdmNYaVRzVXRfTURja1ZBaXJtVXZsWUw5UTRQeHNjczlpR2hWT3pWSDFCZ2YwQkNJY1E2ekZYNHpvbEcwTnEzR2xfa0xLbHpsZElGYkdkdThIVDZ4bEV3RG90TGlrZEd6SWhJTUphcUE?oc=5",
-          "description": "Gia đình nhạc sĩ Phạm Tuyên hoãn đêm nhạc mừng \"Chiếc đèn ông sao\" tròn 70 tuổi  Laodong.vnXem thêm tiêu đề và góc nhìn khác trên Google Tin tức",
-          "publisher": "Laodong.vn",
-          "pub_date": "2026-09-21T22:58:00+00:00"
-        },
-        {
           "title": "Vì sao nữ diễn viên phim Trấn Thành gây tranh cãi khi thi hoa hậu?",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR3ZtNzdHOWtsdV9GR2paMEJFYTVXS0RlSnZsYVlRVmR6TlpKLVRwY3pxLVpLbkNRczIwOS1YOWhjQTNIYk53Y2FWM2VYNEtuU0YtR25nTVdmRXJJQm94cGxST1VnMXRlT093VUpmVjdkaEJWdXh0Qm94eUhYVFB0VFlWSnh1Q0xxOHlVQ1NsOU02dS11UG0tcTRFenBicEVSR2ZDcXNSXzZlRkp0Znc?oc=5",
           "description": "Vì sao nữ diễn viên phim Trấn Thành gây tranh cãi khi thi hoa hậu?  Báo Thanh NiênRapper Pháo vào top 30 Miss Universe Vietnam 2026: Liệu lần này có bỏ thi nữa không?  Báo Tuổi TrẻMLee, Trịnh Mỹ Anh, ",
           "publisher": "Báo Thanh Niên",
           "pub_date": "2026-09-22T06:48:00+00:00"
+        },
+        {
+          "title": "Gia đình nhạc sĩ Phạm Tuyên hoãn đêm nhạc mừng \"Chiếc đèn ông sao\" tròn 70 tuổi",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYnhyb21Nd25ENW91Rm16aTFfeGNGd1oydnhoajhkOUlkcEdmbUxGQXJ0bTFwWW9mR1hpY3RJdUxMdnVjY1Y4b3pFMHJRS25jYUI3aXpYM1htWE9hdmNYaVRzVXRfTURja1ZBaXJtVXZsWUw5UTRQeHNjczlpR2hWT3pWSDFCZ2YwQkNJY1E2ekZYNHpvbEcwTnEzR2xfa0xLbHpsZElGYkdkdThIVDZ4bEV3RG90TGlrZEd6SWhJTUphcUE?oc=5",
+          "description": "Gia đình nhạc sĩ Phạm Tuyên hoãn đêm nhạc mừng \"Chiếc đèn ông sao\" tròn 70 tuổi  Laodong.vnXem thêm tiêu đề và góc nhìn khác trên Google Tin tức",
+          "publisher": "Laodong.vn",
+          "pub_date": "2026-09-21T22:58:00+00:00"
         }
       ],
       "sports": [
         {
-          "title": "Adou Minh: \"Quang Hải là biểu tượng ở đội tuyển Việt Nam\"",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNUdZU2IwUGE2M2dTNi0yOVY0QkhMa1VBbmRCWGFnaXM0Q3JENDhGa2FkN0x4NFBlU0VuRmxFMm9Lb0t0ZURSR0djdTRFMFJwbzNfR0MwVlVzaWRvWVBUWEdySEpTMWYxTmlQNkVPckF0bklVNmFVME9Kc2NRNTVsVFJ5ZHVfU1kwRHRVa3VJdjBOaGlQQkNzM0ZoWEFxN0NuUUhUdmJsbG1USW8?oc=5",
-          "description": "Adou Minh: \"Quang Hải là biểu tượng ở đội tuyển Việt Nam\"  Báo Dân tríQuang Hải lỡ FIFA ASEAN Cup 2026  VnExpressThầy Kim đặt niềm tin vào ngôi sao ở giải hạng nhất để thay Quang Hải  Báo Thanh NiênQu",
-          "publisher": "Báo Dân trí",
-          "pub_date": "2026-09-22T13:16:07+00:00"
-        },
-        {
-          "title": "Lịch thi đấu U23 Việt Nam tại tứ kết ASIAD 20",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbXJqd0dVeW52QzJ1T1Vpdkw4ZFZnWnJzQTFUMk11eGJlbzM4aHI0RkRfQTJxaE5hME1IdU9LcjhnNkZmSTVvR0xBSmhpQ3hzOU9MTFdWb2Y1czB0WE9BdVUzVzgycHBrem84cFUtZUtlSzFDa2doLU9HNURBZmpIY0s0SXg1dkh5UmtuVkVCMFdLUQ?oc=5",
-          "description": "Lịch thi đấu U23 Việt Nam tại tứ kết ASIAD 20  Laodong.vnViệt Nam vào tứ kết ASIAD 2026  VnExpressXác định đối thủ của U23 Việt Nam ở tứ kết Asiad 20  Báo VietNamNetXác định 6 đội đi tiếp và 2 cặp tứ ",
-          "publisher": "Laodong.vn",
-          "pub_date": "2026-09-22T14:49:08+00:00"
-        },
-        {
-          "title": "Xúc động khoảnh khắc 3 nữ võ sĩ Karate Việt Nam bật khóc với HCV Asiad",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRUNuT0JjakN3azRGN0xDTHlvN28tR2N2cGQ2YUQ4VVNFRmpaQnZpZC1PMjQ2Q0NXbmhTZ1lCUnZPaXpDSklETHFfUzNLWWNrWkg5YUhnWnREVDdwRGJpSHBFM25KTS15WGdTdVluYlBOTXJlMEpGOWFOLWdDTEQ2WW43MzBTY2xZUXhLZDhrNm5mMDIyeXY4cm5kVkdDS1JoNE02cUktYVo?oc=5",
-          "description": "Xúc động khoảnh khắc 3 nữ võ sĩ Karate Việt Nam bật khóc với HCV Asiad  Báo VietNamNetBảng xếp hạng huy chương nhóm Đông Nam Á ở ASIAD: Việt Nam, Singapore bứt phá  24h.com.vnTấm huy chương vàng lịch ",
-          "publisher": "Báo VietNamNet",
-          "pub_date": "2026-09-22T08:06:00+00:00"
-        },
-        {
-          "title": "HLV Mai Đức Chung chỉ ra 3 vấn đề của ĐT nữ Việt Nam trước trận gặp Trung Quốc",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRGk5UDBmNVZrOEpjQ2l5UTVaTzdObkQyeG95X0poRTl6RkZibHFtS1RrbFZzNDN1NTA1VkNvUEVCS1RGa2FRc3ZobFdodUtKUm85RzAzLWgtV2huOWx0Y1QtNG5BZElreC1ZNFdxX0RLbmkzTFlDRDMtRDQzcG5VM2J4cEswMXl4Q3lHWkhoWXRhd2NzaE5XRWUxeVhzRW5NZjY2QktlTVRQZEdydk5TQkVuNGVZQlJ5MEtfUDFaN09nZU9m?oc=5",
-          "description": "HLV Mai Đức Chung chỉ ra 3 vấn đề của ĐT nữ Việt Nam trước trận gặp Trung Quốc  24h.com.vnViệt Nam gặp Trung Quốc ở tứ kết bóng đá nữ ASIAD  VnExpress'Kante Việt Nam' tuyên bố tự tin trước tứ kết ASIA",
-          "publisher": "24h.com.vn",
-          "pub_date": "2026-09-22T17:28:00+00:00"
-        },
-        {
-          "title": "Trực tiếp ASIAD 23/9: Xạ thủ Thu Vinh và \"Ngọc nữ\" Thúy Vi cùng đi săn HCV",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTjZzb1FVRDZGd2g4TlNubXBFSkRmNHZHenJrSXZSajhaMVpiRGZXREhKRFdZcTBmdHA5SlpHdHhiVV9fdW14Uk0tc01yLWRHT3luLVdPUlJTLW5ZTVp2WUpjdjE5QjVGelBrWDMzaTQ4LUZUc1BVNy15NnVTVWV3NEk2UDZQUkNjQ0hrNjdfYkNPLW1PUGxXOTFfdFR2TnYzQUlCOThuNUw1Y1MzZEFxV0dhQ1FhZ252ZFlSbEF3?oc=5",
-          "description": "Trực tiếp ASIAD 23/9: Xạ thủ Thu Vinh và \"Ngọc nữ\" Thúy Vi cùng đi săn HCV  24h.com.vnTrực tiếp ASIAD 22/9: Wushu chắc chắn có huy chương, võ sĩ Việt Nam rời sân bằng cáng  24h.com.vnLịch thi đấu Asia",
-          "publisher": "24h.com.vn",
-          "pub_date": "2026-09-22T17:29:00+00:00"
+          "title": "Báo Đông Nam Á bình luận khi U23 Việt Nam giành vé vào tứ kết Asiad 20",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM0ZJQ0g4eG9PQ0JDM29NZVZSY0ZydXV3aVhXeTk1dEdPVW5aNEtsdS1iMHNKcEJzMVhFd3ZUdGwzcGY5aWlXUDVjdXlPM251SGRTRE5uZk9pQWNXS1IxQ3ZkVldwWlFXUFhPSW9GMlM3Zl80T0JUU3RsRGJ2dmVSU3ItRFBPWk9GbFBQNUo2N1hsUjNiclV2SU5nc29nMmEzTDZQVm96alF3czhqSk5LNEprbXNDM1BGS2tpRy01YjM?oc=5",
+          "description": "Báo Đông Nam Á bình luận khi U23 Việt Nam giành vé vào tứ kết Asiad 20  dantri.com.vnLịch thi đấu ASIAD 2026 ngày 23/9 của đoàn thể thao Việt Nam  Báo Dân ViệtHLV Đinh Hồng Vinh chưa hài lòng dù vào t",
+          "publisher": "dantri.com.vn",
+          "pub_date": "2026-09-22T23:01:00+00:00"
         },
         {
           "title": "Bảng xếp hạng huy chương ASIAD ngày 22.9: Việt Nam lên tốp 16 vì đã giành 1 HCV, Trung Quốc vẫn số 1",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS0FBZFBfVUVPdEhPckpBbGxHaC1ibDV2Z1pDSGM1Q1h1T2E0ZFhHM1BtQnNwTkdhQnAzU0FkYVdqblNNcWlwMlN0cmZzTllCY3VzNUxpMjN5N21rRWVwNkVXSHdKRU1fMFg4RnVPVDNJcDlLZnNDR0pPTmVmLURoWWhXT1k2T2V0LTAtOFV3S243c3dHeEt0SmstVWgzVlRWeXZCUW5nSW5BdVBvQ0hOOXljUDhkdkwzNHVaYmI4NG8?oc=5",
-          "description": "Bảng xếp hạng huy chương ASIAD ngày 22.9: Việt Nam lên tốp 16 vì đã giành 1 HCV, Trung Quốc vẫn số 1  Báo Thanh NiênCập nhật bảng xếp hạng huy chương Asiad 20: Trung Quốc cán mốc 30 HCV, gấp ba Nhật B",
+          "description": "Bảng xếp hạng huy chương ASIAD ngày 22.9: Việt Nam lên tốp 16 vì đã giành 1 HCV, Trung Quốc vẫn số 1  Báo Thanh NiênGiành 1 HCV, thể thao Việt Nam vươn lên thứ 16 ở Asiad 20  dantri.com.vnLịch thi đấu",
           "publisher": "Báo Thanh Niên",
           "pub_date": "2026-09-22T12:47:00+00:00"
         },
         {
-          "title": "Số phận HLV Carrick có thể được định đoạt trong dịp FIFA Days?",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcGpsbXdzY1N5ZkZsOXl2b1FLM2daU1d2QXVrb2dCYTNacnFrS2MybHBVUWhieGdPQTJuZndoMVdjU0UwWFd0dGZ5NV9ET3d1bTFTM3owaW1xSS1DMVpVT2NncjlUZGUxZFFfWHFIX2d4U05DVUVGekJPSlZHeVRUQ2VZY2xHWVJnNm1hZVlhby15WUJOYmRYS2dZSjVFRFpjb2hBeE1tbThic2dGZWc?oc=5",
-          "description": "Số phận HLV Carrick có thể được định đoạt trong dịp FIFA Days?  24h.com.vnNóng ban lãnh đạo MU họp khẩn: Carrick nhận tối hậu thư, còn mấy trận để \"giữ ghế\"?  24h.com.vnNhiệm vụ bất khả thi của Michae",
-          "publisher": "24h.com.vn",
-          "pub_date": "2026-09-22T11:32:00+00:00"
+          "title": "Ai sẽ thay thế Quang Hải trong đội hình ĐT Việt Nam tại FIFA ASEAN Cup 2026?",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSEVfMzRHajhMYWlPNHZvQnNyUnRRcXM2SUYyWDJnd2x3QU45bE1WS2Z0WkF6QVp5WF83TkhubzFlb1ptaWs5V1hyNE5HSTI2Nm1lQmhrVXN6TWZvb1FUblIwWm9Sbm54WGN3TWFYMkJrME9Gb0l0X0txTWdvS3F5WlJnTUZwZU9KOVpvQjF0R1VEOHBFWkFhMElBYnpZS1Z3X25yX25CRTNJdUFSODNMRzItS1JKVXhBTzVOaGh0NA?oc=5",
+          "description": "Ai sẽ thay thế Quang Hải trong đội hình ĐT Việt Nam tại FIFA ASEAN Cup 2026?  Hoa học tròBáo Đông Nam Á bình luận khi Quang Hải rút lui khỏi đội tuyển Việt Nam  dantri.com.vnTuyển Việt Nam dự FIFA ASE",
+          "publisher": "Hoa học trò",
+          "pub_date": "2026-09-22T08:00:28+00:00"
+        },
+        {
+          "title": "Xác định đối thủ của U23 Việt Nam ở tứ kết Asiad 20",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVUxfeVZLS1BlRGpsU0pMc3Y1VXhZQlJOWTRKZ25BZGFDdjdmT0Q3RkFOTkVER2Z1Y053VjNZcWlvUXpLQXZpMFJfNWtUT3ZHc0NzaGljOUZPRHJpTDF0ZlZOSHJTVU1TaGtRc1dhV2dURTJmVzFuejctTEtiME05MnNWWFVESzJkNFlrODlzNVpiR04zZHdFWFotSXRmYkt1Y3hlcEJsUQ?oc=5",
+          "description": "Xác định đối thủ của U23 Việt Nam ở tứ kết Asiad 20  Báo VietNamNetViệt Nam gặp Hàn Quốc ở tứ kết ASIAD 2026  VnExpressHLV Hàn Quốc tuyên bố cứng trước trận gặp U23 Việt Nam tại tứ kết ASIAD  Thể Thao",
+          "publisher": "Báo VietNamNet",
+          "pub_date": "2026-09-22T12:03:00+00:00"
+        },
+        {
+          "title": "HLV Mai Đức Chung chỉ ra 3 vấn đề của ĐT nữ Việt Nam trước trận gặp Trung Quốc",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRGk5UDBmNVZrOEpjQ2l5UTVaTzdObkQyeG95X0poRTl6RkZibHFtS1RrbFZzNDN1NTA1VkNvUEVCS1RGa2FRc3ZobFdodUtKUm85RzAzLWgtV2huOWx0Y1QtNG5BZElreC1ZNFdxX0RLbmkzTFlDRDMtRDQzcG5VM2J4cEswMXl4Q3lHWkhoWXRhd2NzaE5XRWUxeVhzRW5NZjY2QktlTVRQZEdydk5TQkVuNGVZQlJ5MEtfUDFaN09nZU9m?oc=5",
+          "description": "HLV Mai Đức Chung chỉ ra 3 vấn đề của ĐT nữ Việt Nam trước trận gặp Trung Quốc  Tin tức 24hViệt Nam gặp Trung Quốc ở tứ kết bóng đá nữ ASIAD  VnExpress'Kante Việt Nam' tuyên bố tự tin trước tứ kết ASI",
+          "publisher": "Tin tức 24h",
+          "pub_date": "2026-09-22T17:28:00+00:00"
+        },
+        {
+          "title": "Tin bóng đá sáng 23/9: Zidane tạo cột mốc đặc biệt tại ĐT Pháp",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWlctT2Jhb2EtTlZlSzg2NDBNdDdFVEhFbFZzYmdmc25GSktzVW5pY1p3MGJoN293dkhDa2FaRnhXYmhBd3d6cUxybzJsc1BTRGowM3RRUFJIT0M4TzJwSkxCMS1fa09sNklubGlVaGtCYXgzeE5WZ3VMNVRsLXkwU3JFU09lZnNGWGRldjk4NzRGZnhzM29FcEFoOUhTbFBWVTl5X1lyNnI3b2U3?oc=5",
+          "description": "Tin bóng đá sáng 23/9: Zidane tạo cột mốc đặc biệt tại ĐT Pháp  Tạp chí Bóng đáMbappe ví việc Zidane dẫn dắt đội tuyển Pháp như bộ phim  VnExpressĐT Pháp của Zidane tạm biệt siêu tiền vệ, Zidane nhận ",
+          "publisher": "Tạp chí Bóng đá",
+          "pub_date": "2026-09-22T23:03:17+00:00"
+        },
+        {
+          "title": "Giành HCV Asiad 20, nữ võ sĩ karate Việt Nam nói lời xúc động",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa1pLRUtGNkw3NHZjMEg2WW93bEI2RldLaXhnZUtMb2NGZU5FVjUyWE1sY0NlWUdrOElCN2JYVWpFcUJraTNqRUVlNkxHaFd4aWktS1hKVEdhT1VhU25QVDNDMllhYWE1dUM1U3FGWlBld1FQOWllend5eUNVQzBQZGp3V29MRXRxU2RKU0JJUDlHZ005WGstT09rdG1HOWRNWjZxSm5GbnRidUhHNENkbThIMA?oc=5",
+          "description": "Giành HCV Asiad 20, nữ võ sĩ karate Việt Nam nói lời xúc động  dantri.com.vnBảng xếp hạng huy chương nhóm Đông Nam Á ở ASIAD: Việt Nam, Singapore bứt phá  Tin tức 24hCập nhật Bảng tổng sắp huy chương ",
+          "publisher": "dantri.com.vn",
+          "pub_date": "2026-09-22T08:15:00+00:00"
         },
         {
           "title": "Thành phố Đồng Nai FC phạt nặng Huỳnh Tấn Sinh và Lê Văn Sơn vì đá xấu Nguyễn Đình Bắc",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNTFDVWNyd0dpTHBuUmZMdGtTRHNjQnk0WkFxR3FpanpMVXNWVG5CNVpCR1ZXdmMyNWhCSkl6bU9acmhNWUpwRFhDbzRsYnI5TUVxOUx5eXU1cW5NcjZZdDBTLUNSbnRNX2VQQ1oxaHEzbzZ2bzJ2cV90NG92Z2FwNVg3MF9zdFZVTl9COG4yY2NUV1h1ZkJQSjVmS0hiZ0FaWF8tcUk2N08zR2U5SEdPbEZDRUF3bjBuQmFN?oc=5",
-          "description": "Thành phố Đồng Nai FC phạt nặng Huỳnh Tấn Sinh và Lê Văn Sơn vì đá xấu Nguyễn Đình Bắc  Báo Dân ViệtĐồng Nai kỷ luật hai cầu thủ phạm lỗi với Đình Bắc  VnExpressCLB TP.Đồng Nai xin lỗi Đình Bắc và CLB",
+          "description": "Thành phố Đồng Nai FC phạt nặng Huỳnh Tấn Sinh và Lê Văn Sơn vì đá xấu Nguyễn Đình Bắc  Báo Dân ViệtNÓNG: Ban kỷ luật VFF sẽ họp vụ Huỳnh Tấn Sinh đá thô bạo vào chân Đình Bắc  Báo Tuổi TrẻChuyên gia:",
           "publisher": "Báo Dân Việt",
           "pub_date": "2026-09-22T02:48:37+00:00"
         },
         {
+          "title": "Trực tiếp bóng đá U23 Iran - U23 Triều Tiên: Cửa tứ kết rộng mở (ASIAD)",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONW5vdXE5ZnpoaWkyYlo1RlkyWWFjZlBIOWZkd3pPRlpwa1k1SEJSeVBzZ1NKaWZTZkxGbF9JS3JlNnBkaWdMeFpKTTFiYVZhTFFCdHFJNWVVODdoR2hKTEU5ZVkxNlJUYXpVR3VLUWk2bVhReWhjcHk1VHJTeUxudlhmTzJfeUV1SE9kM0xDbzdCc1hiZFhKeFBTRk1LaEltejcyM0ducXJoNzI1YW1jRHIwOXg?oc=5",
+          "description": "Trực tiếp bóng đá U23 Iran - U23 Triều Tiên: Cửa tứ kết rộng mở (ASIAD)  Tin tức 24hLịch thi đấu vòng tứ kết bóng đá nam ASIAD 2026  Báo VietNamNetNhận định bóng đá U23 Trung Quốc vs U23 UAE, 12h30 ng",
+          "publisher": "Tin tức 24h",
+          "pub_date": "2026-09-22T23:00:00+00:00"
+        },
+        {
+          "title": "Số phận HLV Carrick có thể được định đoạt trong dịp FIFA Days?",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcGpsbXdzY1N5ZkZsOXl2b1FLM2daU1d2QXVrb2dCYTNacnFrS2MybHBVUWhieGdPQTJuZndoMVdjU0UwWFd0dGZ5NV9ET3d1bTFTM3owaW1xSS1DMVpVT2NncjlUZGUxZFFfWHFIX2d4U05DVUVGekJPSlZHeVRUQ2VZY2xHWVJnNm1hZVlhby15WUJOYmRYS2dZSjVFRFpjb2hBeE1tbThic2dGZWc?oc=5",
+          "description": "Số phận HLV Carrick có thể được định đoạt trong dịp FIFA Days?  Tin tức 24hNóng ban lãnh đạo MU họp khẩn: Carrick nhận tối hậu thư, còn mấy trận để \"giữ ghế\"?  Tin tức 24hNhiệm vụ bất khả thi của Mich",
+          "publisher": "Tin tức 24h",
+          "pub_date": "2026-09-22T11:32:00+00:00"
+        },
+        {
+          "title": "Saigon Heat - Hanoi Buffaloes Highlights 22/9 Game 2",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZk5ZSEdodWpDYUtGNV9BY1dGMnVrQ0ZaM2psM2lIVWxPUDItT09tMzJpWG9VVW56WHpUUHhlNndGd1A2U3hjWEF6REtvQWRkV25NVTQ5a2dxVEFKVnI4YWFwSlhpUXVTdmtJM2NTT1FqdC1HNm1pS3o3YTJZZlQyYlJLSTNlcXJmd29YNHFaVmQyLWI2QWJRN0VXN2pSNFV6empYWEh3?oc=5",
+          "description": "Saigon Heat - Hanoi Buffaloes Highlights 22/9 Game 2  fptplay.vnGần xác định được đội vô địch giải bóng rổ nhà nghề Việt Nam VBA  dantri.com.vnKết quả bóng rổ mới nhất: Saigon Heat tiến gần chức vô đị",
+          "publisher": "fptplay.vn",
+          "pub_date": "2026-09-22T15:06:12+00:00"
+        },
+        {
           "title": "'Bản hit' cũ kỹ của Mourinho tại Real Madrid",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY2xMWXptV2YyaHR2UWhVdDhxRV9uSkdCc0c0eW4zUmVZOXJ1dm1ITkI1NVp3Zjk2UHF3YUZWd0FsakhQMi1FYVRxZ0ZjbEFBdi13QUtSck85M3NPMnFTUGRSaWtlb25RRXN0YktMRGFyQmlKTHdPM3YtdEVsS2V2VHBHOENrTjhldWUzaDJNQXFFdw?oc=5",
-          "description": "'Bản hit' cũ kỹ của Mourinho tại Real Madrid  Tạp chí Bóng đáChủ tịch La Liga đáp trả Real Madrid vụ công kích trọng tài, Real ra thông cáo \"phản công\"  24h.com.vnAtletico đáp trả Mourinho  VnExpressB",
+          "description": "'Bản hit' cũ kỹ của Mourinho tại Real Madrid  Tạp chí Bóng đáChủ tịch La Liga đáp trả Real Madrid vụ công kích trọng tài, Real ra thông cáo \"phản công\"  Tin tức 24hAtletico đáp trả Mourinho  VnExpress",
           "publisher": "Tạp chí Bóng đá",
           "pub_date": "2026-09-22T11:13:22+00:00"
         },
@@ -1203,39 +1208,18 @@
           "pub_date": "2026-09-22T12:12:21+00:00"
         },
         {
-          "title": "Bóng chuyền nữ Việt Nam chia tay Asiad 20 bằng chiến thắng tưng bừng",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOWpKY1pBckNzdXN5UzNxOGFZRDdGcWlNd0J5VDdnUUZJOVhibEQ4UVVXeDlHenVaVlA5TEpXRm1hZkh3TlN4RnZsWlNlWTBmeEhWSHBnd1BtZHR1VlkyQkJiMWk5TndhSmdfZFQ4VmM4ZGxZd2tlcUxsdnBVeHllcmVuV1ZrTjJSQWdsdTlUVzI1MS01TVJnRWJCei10SWRrZS1PWXVrR0xDTTFEeU1J?oc=5",
-          "description": "Bóng chuyền nữ Việt Nam chia tay Asiad 20 bằng chiến thắng tưng bừng  Báo Tuổi TrẻKết quả bóng chuyền nữ Việt Nam - Kazakhstan: Quỳnh Hương tỏa sáng ghi 18 điểm (ASIAD)  24h.com.vnTuyển bóng chuyền nữ",
-          "publisher": "Báo Tuổi Trẻ",
-          "pub_date": "2026-09-22T03:05:00+00:00"
+          "title": "Estevao Willian bám trụ Chelsea bất chấp tương lai ảm đạm",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTFNZbVZ2Mi15ZzY4QUc3eFpLNnRGWnROSUI1a21DMmdReUhPaEZKYVBkRUk5RWFRcnBxVnFZV0tYVlNiTlA5UUhyMXNWcGN3aUVPbEYyOHc3bURBQmJiUUJKemNzN0YzeW42bXFsVUFsOEt6LWotR3BlM2tCYjBmX0xyNDJaU3NVd2x2YzdNcTNLQVdlSm1V?oc=5",
+          "description": "Estevao Willian bám trụ Chelsea bất chấp tương lai ảm đạm  bongda.com.vnChelsea đón tín hiệu cực vui từ sao trẻ Brazil  Thể Thao 247Tin bóng đá tối 20/9: Barca hỏi mua sao trẻ Chelsea giá 130 triệu eu",
+          "publisher": "bongda.com.vn",
+          "pub_date": "2026-09-22T11:22:00+00:00"
         },
         {
-          "title": "Trực tiếp U23 Việt Nam vs U23 Uzbekistan 0-2 (H2): Cao Văn Bình lần thứ 2 thủng lưới",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWE1qSmNWZzB4X2s2Nm83X05ZSUg1eV9lYXBiVnRGWmsyV3FSOVlmREhQUklwaTZlbWlwYVVBdzdybnFUd1dHYTlmd1hidk1ra1RtV2lDSTg5VFhlNC13U1VaVXJKWjh5UEdYbEhjX1hmTFlWRFNJaWdxYVFTUFozTE9sU09QS01YWlBxc1FHZ19GY1dqdFVIZ1p3T0xuNGlsaXRwOFR1T0RlV0FXdmxtZW5yT3NHVXFTRXc?oc=5",
-          "description": "Trực tiếp U23 Việt Nam vs U23 Uzbekistan 0-2 (H2): Cao Văn Bình lần thứ 2 thủng lưới  Báo Tiền PhongXem thêm tiêu đề và góc nhìn khác trên Google Tin tức",
+          "title": "HLV Trần Quốc Cường và xạ thủ Phí Thanh Thảo nói gì sau vụ bắn súng bị huỷ kết quả",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPd0c3dFIyMHlaVkI0S3ZDTk9zY3F1RzRpWlA4TEt3RDg5aXFvdzRNeU9yalRGMGlGdWZaRUM3a0VBbmRqcVF5ZjdqTmQzNkVlMHNaTlZvdTlINVFQSzNCWHdWODR4VHhUcVFDOGV1TnpOYUtVcW1QRENoWTdHUURWdTdhUURnWm5RTFFTa01VakhaWVVXMTNaN0p2SWtvUS1YdnNPNVdRT0JoVFBMZ1VVbV9yZDUtWGM4MUdN?oc=5",
+          "description": "HLV Trần Quốc Cường và xạ thủ Phí Thanh Thảo nói gì sau vụ bắn súng bị huỷ kết quả  Báo Tiền PhongXem thêm tiêu đề và góc nhìn khác trên Google Tin tức",
           "publisher": "Báo Tiền Phong",
-          "pub_date": "2026-09-22T06:31:11+00:00"
-        },
-        {
-          "title": "Tin mới nhất bóng đá sáng 23/9: Mbappe tiết lộ từng suýt về Liverpool",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa0xCZjB0b1l5WkhtZ1U2eENsSTZ4aVd0b3JCb3JEN2MzeGVKenhFSi1jYjczUXFPcTNjX0F0aVBkRXJldFFVeW4ta1VieXhCa3pvaGtnclUxRmJ1NUg1ajRfMVd5dTAyWnUxWEJzb2QwcFdqWXExaDdDdHJURkZfaUE4aWJaUV9XQTZ3ZmczQlpXSU42d3hOWXVWdnU5OUFpZzk3N240YzZuYUMtVVp1Y0lNSUNKQjA?oc=5",
-          "description": "Tin mới nhất bóng đá sáng 23/9: Mbappe tiết lộ từng suýt về Liverpool  24h.com.vn",
-          "publisher": "24h.com.vn",
-          "pub_date": "2026-09-22T19:19:00+00:00"
-        },
-        {
-          "title": "Thái Lan mời thầy cũ Beckham huấn luyện FIFA ASEAN Cup 2026",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMW9lcGpYWE5EN096cGxldV9yVTBZd1dwYU5UNUl0enJrbkxBb2tYSzZNLUc5c1dLaERpZFpWVjBPM04yUzR5MTViRk0xYXNIbjBxZVlrMnpaMjBjV2VGVUFZWlIyMVRUY2xweExTVHB1VVQ2M2sycTZpNm5md3ExQ1I3UzNRdkFPdmRieDl3UGlHSDhYazFfU3JR?oc=5",
-          "description": "Thái Lan mời thầy cũ Beckham huấn luyện FIFA ASEAN Cup 2026  Báo VietNamNetBáo Thái Lan chất vấn HLV Hudson, ‘bắt’ phải thắng đội tuyển Việt Nam tại FIFA ASEAN Cup  Báo Thanh NiênVừa hội quân, đội trư",
-          "publisher": "Báo VietNamNet",
-          "pub_date": "2026-09-22T11:15:00+00:00"
-        },
-        {
-          "title": "Tuyển bắn súng Việt Nam mất vé chung kết Asiad 20 vì vi phạm trang phục",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeDNZVVVGTUlXU296RjJQTWRjcGRBbnFMS2t1MHVpMVVSWEU4TzVmdmNsSnYtZDRnQjBzdjU4QnpsUWwwY0doT3ZQQVdfOVFxQmRNalI3WTdVYWw4NXYydlZWLTVrRnlyU1VheEhxRmNGaURXTy1PTWN1clpCa3BvY2JVdlV0djEwQzl1eVNnNl9oTmJrTVlPZUFZZmdjdTB0aDdheFVSN2drTkROclNnSlRUNDJXVlhxbTlnX1lfNVg5dw?oc=5",
-          "description": "Tuyển bắn súng Việt Nam mất vé chung kết Asiad 20 vì vi phạm trang phục  Báo Dân tríXem thêm tiêu đề và góc nhìn khác trên Google Tin tức",
-          "publisher": "Báo Dân trí",
-          "pub_date": "2026-09-22T04:00:04+00:00"
+          "pub_date": "2026-09-22T05:39:55+00:00"
         }
       ],
       "health": [
@@ -1249,14 +1233,14 @@
         {
           "title": "Cấy 'tim nhân tạo' thế hệ mới cứu bệnh nhân suy tim",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdjdmN093cHh5eXVZbF9BREJUaTdJZEUwQjJ1dmR6S2ZlZ1diTm0zc0V5N1AtRTJHYTVLZXJkdjRJMWpRVEJxcHpSZ25YdFFzWXdLSU5DQkpMeDdwYnQtQ0xGRnY4QTUxUjhGOWtFYzdtZWVTWVhGUk1yQWVzVERrMHZVU3JidXpta056Ug?oc=5",
-          "description": "Cấy 'tim nhân tạo' thế hệ mới cứu bệnh nhân suy tim  VnExpressThiết bị 90g mở thêm cơ hội cho bệnh nhân suy tim giai đoạn cuối  Báo Dân tríLần đầu cấy ghép ‘trái tim cơ học’ phù hợp với lồng ngực ngườ",
+          "description": "Cấy 'tim nhân tạo' thế hệ mới cứu bệnh nhân suy tim  VnExpressThiết bị 90g mở thêm cơ hội cho bệnh nhân suy tim giai đoạn cuối  dantri.com.vnLần đầu cấy ghép ‘trái tim cơ học’ phù hợp với lồng ngực ng",
           "publisher": "VnExpress",
           "pub_date": "2026-09-22T03:46:03+00:00"
         },
         {
           "title": "Đề xuất thêm 118 bệnh được kê đơn thuốc đến 90 ngày, giảm cảnh đi khám lấy đơn",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY2lIZU5kRHpzSGZTN2taWUlhSXJRcXFCWUpvaWVabnZWMHhPakxkNHRpV1I0YXdMNzJ1TFFWeDhxcDd4V0dpTlNXd0QtYVowSkRscG4xQUQwSHpLTFZUR2V2NUVOc0tWT3JhQ0NOcDE2NDl5T283eUZ6SnM5YTBKMkhFbDljWlM4MldLVGU2LWJ2NG1UdW1kaV80cjhRLU9MX2FwMGxuY0s3V1RLLUJHRk93?oc=5",
-          "description": "Đề xuất thêm 118 bệnh được kê đơn thuốc đến 90 ngày, giảm cảnh đi khám lấy đơn  Báo VietNamNetBộ Y tế đề xuất quy định mới về đơn thuốc kiểm soát đặc biệt  Báo VietNamNetĐề xuất 372 loại bệnh được kê ",
+          "description": "Đề xuất thêm 118 bệnh được kê đơn thuốc đến 90 ngày, giảm cảnh đi khám lấy đơn  Báo VietNamNetBộ Y tế đề xuất quy định mới về đơn thuốc kiểm soát đặc biệt  Báo VietNamNetĐề xuất mở rộng kê đơn thuốc n",
           "publisher": "Báo VietNamNet",
           "pub_date": "2026-09-21T06:49:00+00:00"
         },
@@ -1268,32 +1252,32 @@
           "pub_date": "2026-09-22T12:01:47+00:00"
         },
         {
-          "title": "Tìm người bị chó cắn",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9uVWcycU9jaHM2b3FDX3o0RHk5QW1NbElkc2d4Y1VkVFhTRmgtaEhCaUpRZk9QUG05S0xCcXgyTldzZlRxNGdJWWtmUVJ5QnZSb3RTZUtHOTJYeS1XN0ZiRjVYN2xFdw?oc=5",
-          "description": "Tìm người bị chó cắn  VnExpressCon chó mắc bệnh dại tấn công 5 người  Báo Dân tríCon chó cắn nhiều người ở Quảng Ngãi dương tính với virus dại  Laodong.vnChó nghi mắc bệnh dại cắn 6 người tại Quảng Ng",
-          "publisher": "VnExpress",
-          "pub_date": "2026-09-22T17:00:00+00:00"
-        },
-        {
           "title": "Nơi ít ai kiểm tra lại có thể là chỗ ung thư xuất hiện",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVI4WWZ6dTFyN0JBdDh5VV80ZjNDaXg3REJzLU5YYjZ2LVRYLXd4T01Benl4ckNMMDJ5QW1DQ1FSLWlnSU5vMjBXbkwzYkh5QVRwRktJTjEwUVRZbXhqdWx3NjBBaFR1SFlZdld6SHpkZzVoNWN6TXBnNkMwNnJtVFV4NVZadnRTTlR5cy1mZXpDWlJnY19GVXhSTG93QWtVVjNj?oc=5",
-          "description": "Nơi ít ai kiểm tra lại có thể là chỗ ung thư xuất hiện  ZnewsTưởng nấm chân, hóa ung thư  VnExpress4 kiểu ngứa báo hiệu tế bào ung thư đang \"lớn nhanh như thổi\"  Kenh14.vnVết đen tưởng vô hại ở chân c",
+          "description": "Nơi ít ai kiểm tra lại có thể là chỗ ung thư xuất hiện  ZnewsTưởng nấm chân, hóa ung thư  VnExpress4 kiểu ngứa báo hiệu tế bào ung thư đang \"lớn nhanh như thổi\"  CafeFTin mới y tế ngày 22/9: Những bất",
           "publisher": "Znews",
           "pub_date": "2026-09-22T00:30:24+00:00"
         },
         {
-          "title": "Loại cá được chuyên gia Mỹ đánh giá \"tốt hơn cá hồi\": Việt Nam bán đầy chợ",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPalJWX0ozQkhJRFpEeWpmQlcwZG1Nc3hRbXB6RkRNM0l5Y1RPekJkeFdFQkM5WUNLdUpReTY1LXcxTVVzeWwxeDcyWS1yS193YTNrNFN0dkhFUzU1NUpxTG1LaFRtQXJ6WTN4Wll3SDVVNjdHc3lCWTNseHFmb09QUG5iNThyT2NPTlVxdXl2UkZheXNxMURnUFVYamNfaFNFcThrNHdfQW83UWFGQUpnYlVB?oc=5",
-          "description": "Loại cá được chuyên gia Mỹ đánh giá \"tốt hơn cá hồi\": Việt Nam bán đầy chợ  Kenh14.vn",
-          "publisher": "Kenh14.vn",
-          "pub_date": "2026-09-22T04:22:00+00:00"
-        },
-        {
           "title": "Người phụ nữ ho dai dẳng, thậm chí ho ra máu suốt 3 năm, bác sĩ phát hiện nguyên nhân từ một thói quen khi tắm",
           "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObV9LYjYtd21UcjhxNWJCWThxYmNLbHhvaDFlZDJNREZOLTRpUHpfN2tuTE5wd2ZhbjBCM3VXeFVjamdvWFczTkI2R1RGQkE2N0tKVVlodngyU3VEQzhBUGgtUXlGbk5uVXUxbmJFcXlXOTM2cXVrRUJUN0xkWGJzYTFncktaQjRJbVhyZnR0RTJpV2pRZVJTVjZ5VEpKVkxjdG4zYVMtYUlNN0RjV2lOQ25yT0tXdkFxSkU0aUhjcksya3dfOHVNN3haUFFoeFQ4dXEyMHJVRXdacWNmYkx4dlk4MA?oc=5",
-          "description": "Người phụ nữ ho dai dẳng, thậm chí ho ra máu suốt 3 năm, bác sĩ phát hiện nguyên nhân từ một thói quen khi tắm  Kenh14.vn",
+          "description": "Người phụ nữ ho dai dẳng, thậm chí ho ra máu suốt 3 năm, bác sĩ phát hiện nguyên nhân từ một thói quen khi tắm  Kenh14.vnXem thêm tiêu đề và góc nhìn khác trên Google Tin tức",
           "publisher": "Kenh14.vn",
           "pub_date": "2026-09-22T12:15:00+00:00"
+        },
+        {
+          "title": "Tìm người bị chó cắn",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9uVWcycU9jaHM2b3FDX3o0RHk5QW1NbElkc2d4Y1VkVFhTRmgtaEhCaUpRZk9QUG05S0xCcXgyTldzZlRxNGdJWWtmUVJ5QnZSb3RTZUtHOTJYeS1XN0ZiRjVYN2xFdw?oc=5",
+          "description": "Tìm người bị chó cắn  VnExpressCon chó mắc bệnh dại tấn công 5 người  dantri.com.vnCon chó cắn nhiều người ở Quảng Ngãi dương tính với virus dại  Laodong.vnChó nghi mắc bệnh dại cắn 6 người tại Quảng ",
+          "publisher": "VnExpress",
+          "pub_date": "2026-09-22T17:00:00+00:00"
+        },
+        {
+          "title": "Cá hồi \"dinh dưỡng hàng đầu\" bán đầy chợ Việt, mỗi nơi một giá",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRG0zd25WdjloZ05VbFYwai0yRkFHU0EzbFJPRGI3Z3lZaDRTMHNxM2ZneExMLUozeGlVaUs4RmhBWkltVVh5NTl5TTJ5NlZ0c3VUTmZEUV9JY0hHdE51T0JEMUk5RUFvN3lENW1FUG92VGdneDZoVG5fUjV3cThzYjl1cVZGTWtxdHJyczhyQ0JMNVdwcWVWOGVsWlFkcnMwLTdfQzF2Vkp5ZlotWXRKYnRhTmw?oc=5",
+          "description": "Cá hồi \"dinh dưỡng hàng đầu\" bán đầy chợ Việt, mỗi nơi một giá  dantri.com.vn",
+          "publisher": "dantri.com.vn",
+          "pub_date": "2026-09-22T04:24:31+00:00"
         },
         {
           "title": "Một lần trót dại, nam sinh 18 tuổi nhận chẩn đoán nhiễm HIV",
@@ -1301,6 +1285,13 @@
           "description": "Một lần trót dại, nam sinh 18 tuổi nhận chẩn đoán nhiễm HIV  Znews",
           "publisher": "Znews",
           "pub_date": "2026-09-22T13:00:30+00:00"
+        },
+        {
+          "title": "Người phụ nữ 40 tuổi tử vong vì bệnh tiểu đường, bác sĩ nghe tên 3 món ăn sáng \"khoái khẩu\" chỉ biết thở dài",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNVg5VjZIbGk5dlNRWFJNRE5UZkNyV1JfWUNEbEJUQXRIc0RCNWY3Ynd4UGVRMVVIMXpURHlQaTQwWWxxYWlYUnl0SU83YlNSSThOaXBMVUtFb0Yzd3UzZGpRZDVyNDhrcGtSQVZGczBPcy1aN20tVXpvamZLRVhsWUFscm9uSkJNZmZEZkluWGFjNXpkY1J3OVRpQkdIaWZobzNiT3cwZEZwTk5GRmhTOHZmd1JzRXlQN0hSVS1ONE55RXZtR1hLcVBBdTE2akZsdFVERkdVNjB1N25M?oc=5",
+          "description": "Người phụ nữ 40 tuổi tử vong vì bệnh tiểu đường, bác sĩ nghe tên 3 món ăn sáng \"khoái khẩu\" chỉ biết thở dài  SOHANgày càng nhiều người tử vong vì bệnh tiểu đường, bác sĩ cảnh báo: Thà khát khô còn hơ",
+          "publisher": "SOHA",
+          "pub_date": "2026-09-21T04:33:00+00:00"
         },
         {
           "title": "Tăng 13 kg sau khi kiêng tinh bột",
@@ -1312,16 +1303,9 @@
         {
           "title": "Người đàn ông 49 tuổi cấp cứu giữa đêm, phát hiện teo não, bác sĩ cảnh báo gì?",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVluaEZQZkJBMlljQ1d1eGJ0UGk1S1RBSjFwQWZhVEo5QTE1MHhiX0dfYTA3Q200Z0w5dlN4UkVITlFiT3F3Q082NE4ycmptSlRINEtXT0RDNktrRUlkYzRWX1g5YVFKNGRTNGpLV05BdWxseUJzNmZrS1h1dlVFQXc5MU56TTlNQ0VfdXY0YzdCbllHenp0ZHNVZ0thdlVhNVlsVGZUSzZpRm0teEctdWo0UDI4WjZJckZtQ0FsR0tXZw?oc=5",
-          "description": "Người đàn ông 49 tuổi cấp cứu giữa đêm, phát hiện teo não, bác sĩ cảnh báo gì?  24h.com.vnThức khuya lướt điện thoại, người đàn ông 49 tuổi teo não như cụ già 80  VnExpressNgười đàn ông ngoài 40 tuổi ",
-          "publisher": "24h.com.vn",
+          "description": "Người đàn ông 49 tuổi cấp cứu giữa đêm, phát hiện teo não, bác sĩ cảnh báo gì?  Tin tức 24hThức khuya lướt điện thoại, người đàn ông 49 tuổi teo não như cụ già 80  VnExpressNgười đàn ông ngoài 40 tuổi",
+          "publisher": "Tin tức 24h",
           "pub_date": "2026-09-22T12:00:00+00:00"
-        },
-        {
-          "title": "Sau tuổi 40: 4 loại ung thư cần đặc biệt chú ý",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2hLNy1jU2I5X2dlUHd1MkIxTUlBcGZJQ21Na3prWEY2bUZ2SjJzMldlNnVYbUhRMDBqNnZ4QTVOWjBzbW9pTC10MWhRRktfenpSTFU5Si1CdUE5em5yV3BJRTJWcUFwdWxZdEtrei1xaHlwYzdFM2VCMXN1ajQ3d3A0WnJFVGRFejdmUDFUX21BV2c?oc=5",
-          "description": "Sau tuổi 40: 4 loại ung thư cần đặc biệt chú ý  Báo Thanh Niên",
-          "publisher": "Báo Thanh Niên",
-          "pub_date": "2026-09-22T09:42:00+00:00"
         },
         {
           "title": "Tầm soát định kỳ phát hiện sớm ung thư tuyến giáp",
@@ -1331,11 +1315,11 @@
           "pub_date": "2026-09-22T01:00:00+00:00"
         },
         {
-          "title": "Bé trai 7 tuổi mất thính lực đột ngột, bác sĩ khuyến cáo",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQlF2NklvLVI1QklrdWtHZmNWRHZnQ0VuX2lpNThzb29zQ2tYeXdYNk9TaFo3Q2hDQVcteldkRHV2MERKY2xGX1VfclZaeFdTdHlYQU9zSDlRem0yWVZxY18wLTEzdy1Wb1V1czhodGRyRzAtclpaLWotQlRjWDIwVzRVcnlaR0g3OVdVZzF1aElXTzhBZ3FWVko0dEtJdnBDb293QmhDUnVQVDdo?oc=5",
-          "description": "Bé trai 7 tuổi mất thính lực đột ngột, bác sĩ khuyến cáo  Báo Dân trí",
-          "publisher": "Báo Dân trí",
-          "pub_date": "2026-09-22T04:40:34+00:00"
+          "title": "Sau tuổi 40: 4 loại ung thư cần đặc biệt chú ý",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2hLNy1jU2I5X2dlUHd1MkIxTUlBcGZJQ21Na3prWEY2bUZ2SjJzMldlNnVYbUhRMDBqNnZ4QTVOWjBzbW9pTC10MWhRRktfenpSTFU5Si1CdUE5em5yV3BJRTJWcUFwdWxZdEtrei1xaHlwYzdFM2VCMXN1ajQ3d3A0WnJFVGRFejdmUDFUX21BV2c?oc=5",
+          "description": "Sau tuổi 40: 4 loại ung thư cần đặc biệt chú ý  Báo Thanh Niên",
+          "publisher": "Báo Thanh Niên",
+          "pub_date": "2026-09-22T09:42:00+00:00"
         },
         {
           "title": "Bác sĩ lý giải nguyên nhân tăng axit uric nhưng không đau khớp",
@@ -1361,6 +1345,12 @@
             "title": "TP HCM hỗ trợ doanh nghiệp công nghệ đến 25 tỷ đồng xây hạ tầng",
             "link": "https://vnexpress.net/tp-hcm-ho-tro-doanh-nghiep-cong-nghe-den-25-ty-dong-xay-ha-tang-5122914.html",
             "description": "TP HCM dùng ngân sách hỗ trợ đến 50% chi phí xây dựng, nâng cấp hạ tầng nghiên cứu, dự án thuộc lĩnh vực công nghệ chiến lược, tối đa 25 tỷ đồng.",
+            "pub_date": "2026-09-22T08:00:00+00:00"
+          },
+          {
+            "title": "Kỳ vọng mở rộng giới hạn xe máy điện của Dat Bike",
+            "link": "https://vnexpress.net/ky-vong-mo-rong-gioi-han-xe-may-dien-cua-dat-bike-5123344.html",
+            "description": "Xe máy điện cần đủ mạnh, đủ tin cậy và tiện dụng để đáp ứng nhu cầu sử dụng hàng ngày, giúp người dùng không cần bận tâm mỗi khi di chuyển, theo Dat Bike.",
             "pub_date": "2026-09-22T08:00:00+00:00"
           },
           {
@@ -1434,12 +1424,6 @@
             "link": "https://vnexpress.net/cho-cung-cao-bao-nhieu-cm-5120580.html",
             "description": "Hai hình ảnh, hai con số 100 cm và 160 cm, liệu bạn có thể tính chính xác chiều cao của chú chó bằng bao nhiêu cm?",
             "pub_date": "2026-09-22T07:31:32+00:00"
-          },
-          {
-            "title": "Quang Hải lỡ FIFA ASEAN Cup 2026",
-            "link": "https://vnexpress.net/quang-hai-lo-fifa-asean-cup-2026-5123340.html",
-            "description": "Chấn thương khiến tiền vệ Nguyễn Quang Hải không thể cùng đội tuyển Việt Nam dự FIFA ASEAN Cup 2026, diễn ra từ ngày 24/9.",
-            "pub_date": "2026-09-22T07:30:34+00:00"
           }
         ]
       }
