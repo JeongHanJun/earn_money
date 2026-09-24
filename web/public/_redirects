@@ -2,10 +2,6 @@
 # 사용자가 흔히 축약형으로 URL을 입력하는 케이스와, 과거 slug의 SEO 잔여를 방어.
 # 문법: /from /to [code]. 와일드카드 :splat 은 * 매칭 부분을 그대로 이어붙임.
 
-# ---- 대구 slug 표준화 (dae-gu → daegu, 2026-09-06) ----
-/weather/dae-gu             /weather/daegu             301
-/weather/dae-gu/*           /weather/daegu/:splat      301
-
 # ---- 시·도 축약형 → 정식 slug ----
 # 도 (특별자치도 포함): 축약형은 -do 없이 입력하는 경우가 흔함.
 /weather/jeju               /weather/jeju-do           301
@@ -59,12 +55,43 @@
 # 실제 slug 는 housing 이지만 dwelling 은 dwelling 도 흔히 쓰임.
 /policy/youth/category/dwelling  /policy/youth/category/housing 301
 
-# ---- 포항/창원 slug 표준화 (시명 접두어 부재 해소, 2026-09-06) ----
-# 옛 URL은 어느 시의 남구/의창구인지 URL만 봐선 알 수 없어 시명 접두어 추가.
-/weather/gyeongsangbuk-do/nam-gu           /weather/gyeongsangbuk-do/pohang-si-nam-gu           301
-/weather/gyeongsangbuk-do/buk-gu           /weather/gyeongsangbuk-do/pohang-si-buk-gu           301
+# ---- 창원 slug 표준화 (시명 접두어, 2026-09-06) ----
+# 창원 관련만 유지: SC에 리다이렉트 이슈 없음. 포항/대구는 SC 이슈로 2026-09-24 삭제.
 /weather/gyeongsangnam-do/uichang-gu       /weather/gyeongsangnam-do/changwon-si-uichang-gu     301
 /weather/gyeongsangnam-do/seongsan-gu      /weather/gyeongsangnam-do/changwon-si-seongsan-gu    301
 /weather/gyeongsangnam-do/masanhappo-gu    /weather/gyeongsangnam-do/changwon-si-masanhappo-gu  301
 /weather/gyeongsangnam-do/masanhoewon-gu   /weather/gyeongsangnam-do/changwon-si-masanhoewon-gu 301
 /weather/gyeongsangnam-do/jinhae-gu        /weather/gyeongsangnam-do/changwon-si-jinhae-gu      301
+
+# ---- 레거시 404 URL 정리 (2026-09-24) ----
+# Google이 옛 크롤 이력으로 계속 재접근 중인 잘못된 URL들. 명시적 410 Gone 응답으로
+# 빠른 색인 제거 유도. 현재 코드/데이터에는 이런 URL을 생성하는 소스 없음.
+# Policy — service_id 자리에 도메인/전화번호가 들어간 옛 잘못된 링크
+/policy/www.women1366.kr    - 410
+/policy/www.ulsan.go.kr     - 410
+/policy/www.129.go.kr       - 410
+/policy/welfare.comwel.or.kr - 410
+/policy/hub.kead.or.kr      - 410
+/policy/www.i-eum.or.kr     - 410
+/policy/www.gico.or.kr      - 410
+/policy/1577-1000           - 410
+/policy/www.epostlife.go.kr - 410
+/policy/plus.gov.kr         - 410
+/policy/www.ok6595.or.kr    - 410
+/policy/www.youthfly.or.kr  - 410
+/policy/www.nyhc.or.kr      - 410
+/policy/www.wee.go.kr       - 410
+/policy/www.koref.or.kr     - 410
+/policy/www.kla.kr          - 410
+/policy/www.myhome.go.kr    - 410
+/policy/www.mafra.go.kr     - 410
+/policy/www.kinfa.or.kr     - 410
+# Youth — 삭제됐거나 plcy_no가 도메인으로 잘못 저장된 옛 URL
+/policy/youth/20250316005400210639  - 410
+/policy/youth/www.%EB%B6%80%EC%82%B0%EC%B2%AD%EB%85%84%ED%9D%AC%EB%A7%9D.kr  - 410
+/policy/youth/www.rhof.or.kr    - 410
+/policy/youth/www.chuncheon.go.kr - 410
+/policy/youth/www.usc.go.kr     - 410
+# Trends — 국가 코드 없이 소스만으로 접근한 옛 링크
+/trends/hn                  - 410
+/trends/news                - 410
