@@ -63,35 +63,13 @@
 /weather/gyeongsangnam-do/masanhoewon-gu   /weather/gyeongsangnam-do/changwon-si-masanhoewon-gu 301
 /weather/gyeongsangnam-do/jinhae-gu        /weather/gyeongsangnam-do/changwon-si-jinhae-gu      301
 
-# ---- 레거시 404 URL 정리 (2026-09-24) ----
-# Google이 옛 크롤 이력으로 계속 재접근 중인 잘못된 URL들. 명시적 410 Gone 응답으로
-# 빠른 색인 제거 유도. 현재 코드/데이터에는 이런 URL을 생성하는 소스 없음.
-# Policy — service_id 자리에 도메인/전화번호가 들어간 옛 잘못된 링크
-/policy/www.women1366.kr    - 410
-/policy/www.ulsan.go.kr     - 410
-/policy/www.129.go.kr       - 410
-/policy/welfare.comwel.or.kr - 410
-/policy/hub.kead.or.kr      - 410
-/policy/www.i-eum.or.kr     - 410
-/policy/www.gico.or.kr      - 410
-/policy/1577-1000           - 410
-/policy/www.epostlife.go.kr - 410
-/policy/plus.gov.kr         - 410
-/policy/www.ok6595.or.kr    - 410
-/policy/www.youthfly.or.kr  - 410
-/policy/www.nyhc.or.kr      - 410
-/policy/www.wee.go.kr       - 410
-/policy/www.koref.or.kr     - 410
-/policy/www.kla.kr          - 410
-/policy/www.myhome.go.kr    - 410
-/policy/www.mafra.go.kr     - 410
-/policy/www.kinfa.or.kr     - 410
-# Youth — 삭제됐거나 plcy_no가 도메인으로 잘못 저장된 옛 URL
-/policy/youth/20250316005400210639  - 410
-/policy/youth/www.%EB%B6%80%EC%82%B0%EC%B2%AD%EB%85%84%ED%9D%AC%EB%A7%9D.kr  - 410
-/policy/youth/www.rhof.or.kr    - 410
-/policy/youth/www.chuncheon.go.kr - 410
-/policy/youth/www.usc.go.kr     - 410
-# Trends — 국가 코드 없이 소스만으로 접근한 옛 링크
-/trends/hn                  - 410
-/trends/news                - 410
+# ---- 레거시 404 URL 참고 (2026-09-24) ----
+# Google Search Console에 "찾을 수 없음(404)"으로 잡힌 26개 옛 잘못된 URL.
+# 현재 코드/데이터에는 이런 URL을 생성하는 소스 없음 → Cloudflare Pages가 파일 없음으로
+# 자동 404 반환. Cloudflare Pages _redirects 는 410 Gone 미지원(301/302/303/307/308만).
+# 404 fallback으로도 Google이 결국 색인 제거 (몇 주 소요).
+#
+# Policy: /policy/www.*, /policy/1577-1000, /policy/plus.gov.kr, /policy/hub.kead.or.kr,
+#         /policy/welfare.comwel.or.kr 등 19개 — service_id 자리에 도메인/전화번호
+# Youth:  /policy/youth/www.*, /policy/youth/20250316005400210639 등 5개
+# Trends: /trends/hn, /trends/news — 국가 코드 없이 소스만
