@@ -44,7 +44,7 @@ function normalize(r, now) {
 
 function drawInsert(row) {
   return (
-    `INSERT OR REPLACE INTO draws (drw_no, drw_date, n1, n2, n3, n4, n5, n6, bonus, total_sales, first_amt, first_cnt, first_method_auto, first_method_manual, first_method_semi, updated_at) VALUES (` +
+    `INSERT OR REPLACE INTO draws (drw_no, drw_date, n1, n2, n3, n4, n5, n6, bonus, total_sales, first_amt, first_cnt, updated_at) VALUES (` +
     [
       esc(row.drwNo),
       esc(row.drwDate),
@@ -58,11 +58,9 @@ function drawInsert(row) {
       esc(row.totalSales),
       esc(row.firstAmt),
       esc(row.firstCnt),
-      "NULL",
-      "NULL",
-      "NULL",
+      String(row.now),
     ].join(", ") +
-    `, ${row.now});`
+    `);`
   );
 }
 
@@ -90,8 +88,7 @@ async function main() {
     `-- Source updatedAt: ${doc.updatedAt} · latestRound: ${doc.latestRound}`,
     `-- Generated: ${new Date(now).toISOString()}`,
     `-- Draws: ${normalized.length} (drw_no ${normalized[0].drwNo}~${normalized.at(-1).drwNo})`,
-    "",
-    "BEGIN TRANSACTION;",
+    "-- 주의: D1은 SQL BEGIN TRANSACTION / COMMIT 미지원. wrangler d1 execute --file 시 자동 batching.",
     "",
   ];
 
@@ -100,7 +97,7 @@ async function main() {
     for (const p of row.prizes) sqlLines.push(prizeInsert(row.drwNo, p));
   }
 
-  sqlLines.push("", "COMMIT;", "");
+  sqlLines.push("");
   const sql = sqlLines.join("\n");
   await fs.writeFile(OUT, sql, "utf8");
   console.log(

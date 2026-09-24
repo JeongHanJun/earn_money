@@ -49,49 +49,15 @@ jobs:
         working-directory: lotto
         run: npm ci
 
-      - name: Diagnose Cloudflare API token
-        run: |
-          echo "=== token verify ==="
-          curl -sS -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-            "https://api.cloudflare.com/client/v4/user/tokens/verify"
-          echo
-          echo "=== list D1 databases ==="
-          curl -sS -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/d1/database" | head -c 800
-          echo
-          echo "=== REST API D1 SELECT test (read) ==="
-          curl -sS -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-            -H "Content-Type: application/json" \
-            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/d1/database/c21bdb40-5834-41e7-840d-f6f648f1d24a/query" \
-            -d '{"sql":"SELECT 1 AS ok"}'
-          echo
-          echo "=== REST API D1 CREATE TABLE test (write) ==="
-          curl -sS -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-            -H "Content-Type: application/json" \
-            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/d1/database/c21bdb40-5834-41e7-840d-f6f648f1d24a/query" \
-            -d '{"sql":"CREATE TABLE IF NOT EXISTS _ci_test (id INTEGER)"}'
-          echo
+      - name: Apply D1 schema (idempotent, uses IF NOT EXISTS)
+        working-directory: lotto
+        run: npx wrangler d1 execute lotto-db --remote --file=migrations/0001_init.sql
 
-      - name: Apply D1 schema via REST API (statement by statement)
-        run: |
-          python3 --version
-          python3 lotto/scripts/apply-d1-sql.py lotto/migrations/0001_init.sql
-          echo "=== script exit code: $? ==="
-
-      - name: Direct curl D1 sanity write (in case script silently failed)
-        if: always()
-        run: |
-          echo "=== direct curl: CREATE TABLE test2 ==="
-          RESP=$(curl -sS -X POST -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
-            -H "Content-Type: application/json" \
-            "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/d1/database/c21bdb40-5834-41e7-840d-f6f648f1d24a/query" \
-            -d '{"sql":"CREATE TABLE IF NOT EXISTS _ci_test2 (id INTEGER)"}')
-          echo "$RESP"
-
-      - name: Bootstrap draws (jeong760 → D1)
+      - name: Bootstrap draws + prizes (jeong760 → D1)
         if: ${{ inputs.run_bootstrap == 'true' }}
-        timeout-minutes: 15
-        run: python3 lotto/scripts/apply-d1-sql.py lotto/seeds/0002_bootstrap_data.sql
+        working-directory: lotto
+        timeout-minutes: 10
+        run: npx wrangler d1 execute lotto-db --remote --file=seeds/0002_bootstrap_data.sql
 
       - name: Build frontend
         working-directory: lotto
@@ -105,19 +71,19 @@ jobs:
         working-directory: lotto
         run: |
           if [ -z "$LOTTO_ADMIN_SECRET" ]; then
-            echo "LOTTO_ADMIN_SECRET GitHub secret 미설정 — admin endpoint 비활성화 상태"
+            echo "LOTTO_ADMIN_SECRET GitHub secret 미설정 — admin endpoint 비활성"
             exit 0
           fi
           echo -n "$LOTTO_ADMIN_SECRET" | npx wrangler secret put ADMIN_SECRET
 
-      - name: Backfill winning_stores (chunked)
+      - name: Backfill winning_stores (chunked, 30 회차씩)
         if: ${{ inputs.backfill_from != '' && inputs.backfill_to != '' }}
         env:
           FROM: ${{ inputs.backfill_from }}
           TO: ${{ inputs.backfill_to }}
         run: |
           set -e
-          echo "Backfill $FROM ~ $TO (30 회차씩 청크)"
+          echo "Backfill $FROM ~ $TO"
           start=$FROM
           while [ "$start" -le "$TO" ]; do
             end=$((start + 29))
@@ -128,11 +94,8 @@ jobs:
                 -X POST \
                 -H "Authorization: Bearer $LOTTO_ADMIN_SECRET" \
                 "$LOTTO_URL/api/admin/backfill?from=$start&to=$end")
-              cat /tmp/backfill.out
-              echo
-              if [ "$code" = "200" ]; then
-                break
-              fi
+              cat /tmp/backfill.out; echo
+              if [ "$code" = "200" ]; then break; fi
               echo "  attempt $attempt failed (HTTP $code), retry in 10s"
               sleep 10
             done
