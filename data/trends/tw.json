@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-25T20:01:03.993639+00:00",
+  "fetched_at": "2026-09-25T21:00:55.128839+00:00",
   "data": {
     "country_code": "tw",
     "country_name": "대만",
@@ -7,8 +7,15 @@
     "google_trends": [
       {
         "rank": 1,
+        "keyword": "高雄市市長",
+        "traffic": "100+",
+        "pub_date": "2026-09-25T20:10:00+00:00",
+        "articles": []
+      },
+      {
+        "rank": 2,
         "keyword": "歐國聯",
-        "traffic": "500+",
+        "traffic": "1000+",
         "pub_date": "2026-09-25T18:30:00+00:00",
         "articles": [
           {
@@ -29,14 +36,30 @@
         ]
       },
       {
-        "rank": 2,
+        "rank": 3,
         "keyword": "藝人",
-        "traffic": "200+",
+        "traffic": "500+",
         "pub_date": "2026-09-25T17:40:00+00:00",
-        "articles": []
+        "articles": [
+          {
+            "title": "陸十一將至…台灣藝人恐再被動員表態 梁文傑提2條紅線",
+            "url": "https://udn.com/news/story/7331/9776122",
+            "source": "UDN"
+          },
+          {
+            "title": "2026.9.24 大陸委員會例行記者會",
+            "url": "https://www.cna.com.tw/video/news/4356601",
+            "source": "中央社 CNA"
+          },
+          {
+            "title": "昔喊祖國「歐陽娜娜、侯佩岑」恐出事了？中國國慶倒數 陸委會突示警「2件事」",
+            "url": "https://tw.news.yahoo.com/%E6%98%94%E5%96%8A%E7%A5%96%E5%9C%8B-%E6%AD%90%E9%99%BD%E5%A8%9C%E5%A8%9C-%E4%BE%AF%E4%BD%A9%E5%B2%91-%E6%81%90%E5%87%BA%E4%BA%8B%E4%BA%86-%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%85%B6%E5%80%92%E6%95%B8-022650410.html",
+            "source": "Yahoo新聞"
+          }
+        ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "keyword": "東山 服務 區",
         "traffic": "200+",
         "pub_date": "2026-09-25T16:40:00+00:00",
@@ -47,19 +70,19 @@
             "source": "Newtalk新聞"
           },
           {
-            "title": "國道服務區離奇命案！婦搭帳篷夜宿倒塌受困死亡多日- 社會",
-            "url": "https://www.chinatimes.com/realtimenews/20260925003137-260402",
-            "source": "中時新聞網"
+            "title": "國3服務區婦人困帳篷10多小時亡　網嘆曾路過2次：怎麼蒼蠅這麼多",
+            "url": "https://www.ettoday.net/news/20260926/3244171.htm",
+            "source": "ETtoday新聞雲"
           },
           {
-            "title": "國道服務區離奇命案！帳篷骨架晃動…警割開見「包裹腐爛女屍」 | 三立新聞網",
-            "url": "https://today.line.me/tw/v3/article/zNMJyaK",
-            "source": "LINE TODAY"
+            "title": "國道東山服務區詭異帳篷倒塌 割開驚見一具「腐爛女屍」",
+            "url": "https://news.tvbs.com.tw/local/4027616",
+            "source": "TVBS新聞網"
           }
         ]
       },
       {
-        "rank": 4,
+        "rank": 5,
         "keyword": "蔡阿嘎",
         "traffic": "200+",
         "pub_date": "2026-09-25T16:10:00+00:00",
@@ -82,21 +105,21 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "keyword": "威爾史密斯",
         "traffic": "2000+",
         "pub_date": "2026-09-25T15:40:00+00:00",
         "articles": []
       },
       {
-        "rank": 6,
+        "rank": 7,
         "keyword": "f1",
         "traffic": "1000+",
         "pub_date": "2026-09-25T13:30:00+00:00",
         "articles": []
       },
       {
-        "rank": 7,
+        "rank": 8,
         "keyword": "大樂透",
         "traffic": "20000+",
         "pub_date": "2026-09-25T13:10:00+00:00",
@@ -119,9 +142,9 @@
         ]
       },
       {
-        "rank": 8,
+        "rank": 9,
         "keyword": "警察",
-        "traffic": "2000+",
+        "traffic": "5000+",
         "pub_date": "2026-09-25T13:00:00+00:00",
         "articles": [
           {
@@ -142,7 +165,7 @@
         ]
       },
       {
-        "rank": 9,
+        "rank": 10,
         "keyword": "卡巴迪",
         "traffic": "500+",
         "pub_date": "2026-09-25T11:20:00+00:00",
@@ -163,13 +186,6 @@
             "source": "自由體育"
           }
         ]
-      },
-      {
-        "rank": 10,
-        "keyword": "何篤霖",
-        "traffic": "2000+",
-        "pub_date": "2026-09-25T11:00:00+00:00",
-        "articles": []
       }
     ],
     "youtube_popular": [
@@ -180,8 +196,8 @@
         "channel": "Release - Topic",
         "thumbnail": "https://i.ytimg.com/vi/hlmE_MrxmE4/mqdefault.jpg",
         "published_at": "2026-09-23T16:03:55Z",
-        "view_count": 148512,
-        "like_count": 1300
+        "view_count": 149467,
+        "like_count": 1301
       },
       {
         "rank": 2,
@@ -190,8 +206,8 @@
         "channel": "Garena 傳說對決",
         "thumbnail": "https://i.ytimg.com/vi/GlkezEHLhQo/mqdefault.jpg",
         "published_at": "2026-09-25T14:24:35Z",
-        "view_count": 399562,
-        "like_count": 1455
+        "view_count": 402156,
+        "like_count": 1464
       },
       {
         "rank": 3,
@@ -200,8 +216,8 @@
         "channel": "SoftLipaOfficial",
         "thumbnail": "https://i.ytimg.com/vi/06UY21yZyQY/mqdefault.jpg",
         "published_at": "2026-09-23T10:00:21Z",
-        "view_count": 253493,
-        "like_count": 11363
+        "view_count": 255545,
+        "like_count": 11379
       },
       {
         "rank": 4,
@@ -210,8 +226,8 @@
         "channel": "阿斯asu",
         "thumbnail": "https://i.ytimg.com/vi/mBKZj1TPiK4/mqdefault.jpg",
         "published_at": "2026-09-24T09:00:12Z",
-        "view_count": 194526,
-        "like_count": 2885
+        "view_count": 195467,
+        "like_count": 2886
       },
       {
         "rank": 5,
@@ -220,8 +236,8 @@
         "channel": "Taylor Swift - Topic",
         "thumbnail": "https://i.ytimg.com/vi/cCvLt6gqAIA/mqdefault.jpg",
         "published_at": "2026-09-25T04:01:41Z",
-        "view_count": 1222613,
-        "like_count": 35803
+        "view_count": 1290057,
+        "like_count": 36675
       },
       {
         "rank": 6,
@@ -230,8 +246,8 @@
         "channel": "Sirenia海牛",
         "thumbnail": "https://i.ytimg.com/vi/4uZZFy_hPFY/mqdefault.jpg",
         "published_at": "2026-09-25T14:03:08Z",
-        "view_count": 130391,
-        "like_count": 720
+        "view_count": 131093,
+        "like_count": 722
       },
       {
         "rank": 7,
@@ -240,8 +256,8 @@
         "channel": "Shawn Chen - Topic",
         "thumbnail": "https://i.ytimg.com/vi/BFp_zYPQ7Ds/mqdefault.jpg",
         "published_at": "2026-09-23T10:03:30Z",
-        "view_count": 42758,
-        "like_count": 343
+        "view_count": 43168,
+        "like_count": 344
       },
       {
         "rank": 8,
@@ -250,8 +266,8 @@
         "channel": "R子_第2頻道",
         "thumbnail": "https://i.ytimg.com/vi/liTJgup14rE/mqdefault.jpg",
         "published_at": "2026-09-25T09:29:20Z",
-        "view_count": 104401,
-        "like_count": 1649
+        "view_count": 107171,
+        "like_count": 1653
       },
       {
         "rank": 9,
@@ -260,7 +276,7 @@
         "channel": "THEBLACKLABEL",
         "thumbnail": "https://i.ytimg.com/vi/KQM9hYlMXsI/mqdefault.jpg",
         "published_at": "2026-09-24T09:00:01Z",
-        "view_count": 5632895,
+        "view_count": 5646199,
         "like_count": 0
       },
       {
@@ -270,8 +286,8 @@
         "channel": "有感筆電 Daptoper",
         "thumbnail": "https://i.ytimg.com/vi/IFUzTqf1qe0/mqdefault.jpg",
         "published_at": "2026-09-25T10:34:43Z",
-        "view_count": 136151,
-        "like_count": 3969
+        "view_count": 140631,
+        "like_count": 3981
       },
       {
         "rank": 11,
@@ -280,8 +296,8 @@
         "channel": "ROSÉ",
         "thumbnail": "https://i.ytimg.com/vi/Lufa9QAFFeY/mqdefault.jpg",
         "published_at": "2026-09-17T23:00:06Z",
-        "view_count": 45742184,
-        "like_count": 1074062
+        "view_count": 45772825,
+        "like_count": 1074386
       },
       {
         "rank": 12,
@@ -290,8 +306,8 @@
         "channel": "人生魯宅x尊-第2頻道",
         "thumbnail": "https://i.ytimg.com/vi/vAsZNuBAH-Q/mqdefault.jpg",
         "published_at": "2026-09-24T10:30:18Z",
-        "view_count": 156878,
-        "like_count": 3604
+        "view_count": 157352,
+        "like_count": 3606
       },
       {
         "rank": 13,
@@ -300,8 +316,8 @@
         "channel": "이지금 [IU Official]",
         "thumbnail": "https://i.ytimg.com/vi/3RwRrxiG5j4/mqdefault.jpg",
         "published_at": "2026-09-23T09:00:38Z",
-        "view_count": 2412648,
-        "like_count": 39419
+        "view_count": 2425041,
+        "like_count": 39491
       },
       {
         "rank": 14,
@@ -310,8 +326,8 @@
         "channel": "Stanley 史丹利",
         "thumbnail": "https://i.ytimg.com/vi/VL3VCnx1NTw/mqdefault.jpg",
         "published_at": "2026-09-24T09:30:26Z",
-        "view_count": 144260,
-        "like_count": 1281
+        "view_count": 144648,
+        "like_count": 1283
       },
       {
         "rank": 15,
@@ -320,8 +336,8 @@
         "channel": "SEVENTEEN",
         "thumbnail": "https://i.ytimg.com/vi/gkzDC0VD0GI/mqdefault.jpg",
         "published_at": "2026-09-22T03:59:57Z",
-        "view_count": 296449,
-        "like_count": 20336
+        "view_count": 297417,
+        "like_count": 20353
       },
       {
         "rank": 16,
@@ -330,8 +346,8 @@
         "channel": "小妞",
         "thumbnail": "https://i.ytimg.com/vi/VAhEp-j_7Ko/mqdefault.jpg",
         "published_at": "2026-09-23T09:00:17Z",
-        "view_count": 103838,
-        "like_count": 3561
+        "view_count": 103950,
+        "like_count": 3562
       },
       {
         "rank": 17,
@@ -340,7 +356,7 @@
         "channel": "老板 - Topic",
         "thumbnail": "https://i.ytimg.com/vi/WFtU6UIY0hw/mqdefault.jpg",
         "published_at": "2026-09-18T11:34:33Z",
-        "view_count": 47059,
+        "view_count": 47365,
         "like_count": 137
       },
       {
@@ -350,8 +366,8 @@
         "channel": "VALORANT Champions Tour",
         "thumbnail": "https://i.ytimg.com/vi/ynKvUYpu1Qw/mqdefault.jpg",
         "published_at": "2026-09-24T14:51:12Z",
-        "view_count": 1778668,
-        "like_count": 17059
+        "view_count": 1779958,
+        "like_count": 17063
       },
       {
         "rank": 19,
@@ -360,7 +376,7 @@
         "channel": "Tr33 澍",
         "thumbnail": "https://i.ytimg.com/vi/9h2sIIfAoZE/mqdefault.jpg",
         "published_at": "2026-09-22T12:00:11Z",
-        "view_count": 139894,
+        "view_count": 140589,
         "like_count": 1333
       },
       {
@@ -370,7 +386,7 @@
         "channel": "Dinter",
         "thumbnail": "https://i.ytimg.com/vi/lgVV-wEUD8g/mqdefault.jpg",
         "published_at": "2026-09-24T17:50:04Z",
-        "view_count": 118323,
+        "view_count": 118415,
         "like_count": 345
       },
       {
@@ -380,8 +396,8 @@
         "channel": "Liu Yu Ning - Topic",
         "thumbnail": "https://i.ytimg.com/vi/9N7u8VvVZms/mqdefault.jpg",
         "published_at": "2026-09-24T02:00:31Z",
-        "view_count": 31070,
-        "like_count": 416
+        "view_count": 31423,
+        "like_count": 418
       },
       {
         "rank": 22,
@@ -390,7 +406,7 @@
         "channel": "黑樂",
         "thumbnail": "https://i.ytimg.com/vi/EAxr5B4We5s/mqdefault.jpg",
         "published_at": "2026-09-24T09:24:12Z",
-        "view_count": 62483,
+        "view_count": 62663,
         "like_count": 615
       },
       {
@@ -400,7 +416,7 @@
         "channel": "宇宙人Cosmos People",
         "thumbnail": "https://i.ytimg.com/vi/enyPIX01Rms/mqdefault.jpg",
         "published_at": "2026-09-23T12:00:33Z",
-        "view_count": 142346,
+        "view_count": 144327,
         "like_count": 802
       },
       {
@@ -410,8 +426,8 @@
         "channel": "羅傑 Roger",
         "thumbnail": "https://i.ytimg.com/vi/pxZJKZktMBs/mqdefault.jpg",
         "published_at": "2026-09-25T04:00:40Z",
-        "view_count": 92757,
-        "like_count": 654
+        "view_count": 94543,
+        "like_count": 659
       },
       {
         "rank": 25,
@@ -420,8 +436,8 @@
         "channel": "Zhou Shen - Topic",
         "thumbnail": "https://i.ytimg.com/vi/SbQ0vqUvDfQ/mqdefault.jpg",
         "published_at": "2026-09-23T09:34:30Z",
-        "view_count": 33285,
-        "like_count": 539
+        "view_count": 33512,
+        "like_count": 540
       }
     ],
     "google_news": {
@@ -429,16 +445,30 @@
         {
           "title": "黃仁勳、蘇姿丰等4科技巨頭坐主桌 川習會白宮國宴座位曝玄機",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00NVFkeGd3eXFrSWVqSklKOU1jeFBCX0JnTDlLLWlUUHhDdmRkc2pFRGo0VlhSd0VyZ2ltaVJKZkE0MmhFSjJnbDZ6Tmo2TEpLcmFYU01OSC1iSDhJeTcw0gFkQVVfeXFMTy1SVFlGNkVydllmVmIxN21leW5nRGROWTR5N1ZudUVRSzUza0Y2QjdKQnBXeUVZUjBJY2sxVU5Id1hMUVFWbzFrUGZ4bGI2TUtNYlhrbFdSVE1MVUN3TzMwd3J1Zw?oc=5",
-          "description": "黃仁勳、蘇姿丰等4科技巨頭坐主桌 川習會白宮國宴座位曝玄機  自由財經習近平訪美最後一天 參觀國家檔案館後返華  BBC習近平離開華府啟程返中 川普發文預告11月、12月再會  Yahoo新聞川習會｜門一關先談台灣，習近平談話2細節耐人尋味  天下雜誌黃仁勳、祖克柏、貝佐斯、馬斯克、庫克等…川習國宴科技大咖雲集| 川習二會聚焦| 全球  UDN",
-          "publisher": "自由財經",
+          "description": "黃仁勳、蘇姿丰等4科技巨頭坐主桌 川習會白宮國宴座位曝玄機  ec.ltn.com.tw川習會｜門一關先談台灣，習近平談話2細節耐人尋味  天下雜誌川習會後再約兩場！川普預告11月、12 月再會  tw.stock.yahoo.com川普國宴款待習近平 稱兩人關係「空前的好」  公視新聞網PNN中美關係內涵再擴展 基於尊重、公平、對等的建設性戰略穩定關係  經濟日報",
+          "publisher": "ec.ltn.com.tw",
           "pub_date": "2026-09-25T14:59:44+00:00"
         },
         {
           "title": "特習會：習近平促特朗普「反對台獨」，北京措辭升級要的是什麼？",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EWFhfSmVKaEtHUjFxbmU3QWxDZEFxWjBpTTVTbW9tUW12d3IyREtKUUdMd3BxR3dvbjRkZXQ0SjdYeUNldV9VS1JzbFU1YUVoOUo4ZVM0QkZ2b0dXRmlpLV9LNzNxSkXSAWxBVV95cUxOLTJzV3RLU0RIc0lIeEc2QVp4bFdPbjhqQVpYaGU3UXpzMHFHX1lDZWc1UWp6TVd1WEJ5T2xvQjJPbG1HRFJtUVRSTU9veHBQMkM1VFdCZXBsNFh1ZlJLdHcxRGxsQUl4RlJ3RjU?oc=5",
-          "description": "特習會：習近平促特朗普「反對台獨」，北京措辭升級要的是什麼？  BBC不只強硬提台灣！習近平「1句祝福」藏對台警訊 他：這是精心設計  Yahoo新聞習近平要川普反對台獨 在白宮會談中當面提出要求  經濟日報台美4550億軍售卡關！流程引爆骨牌效應：晚一個月宣佈恐多等數年  自由軍武頻道有關中國外交部在川習會晤後發布新聞稿稱，呼籲美方「要謹慎處理台灣問題」、「反對『台獨』的正確立場」、「為中美戰略",
+          "description": "特習會：習近平促特朗普「反對台獨」，北京措辭升級要的是什麼？  BBC台美4550億軍售卡關！流程引爆骨牌效應：晚一個月宣佈恐多等數年  def.ltn.com.tw習川會特別報導》美：對台政策不會改變- 日報  工商時報習近平要川普反對台獨在白宮會談中當面提出要求| 川習會對台影響| 要聞  UDN專家：川習二會聚焦控管歧見 維持2國貿易休兵穩定關係  公視新聞網PNN",
           "publisher": "BBC",
           "pub_date": "2026-09-25T10:12:20+00:00"
+        },
+        {
+          "title": "「雙方已達成協議」美國貿易代表：28日公布與陸貿易談判細節",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LZlpsdlBLMm9TNnN0RlZCQU02OW1CRDNTclE5OVNxNDRWeW9DakJzZ0ZtcGtrT0ZfYnZVZ1pzMjl6c2htMUhOamZsN1J3V1lvcERN0gFYQVVfeXFMTUg0MDZ6ZUhMNFBSVUU1UG55bzh3dHRfcEZQWThHV2ZndkdJN1RpME9BVThqRkNiN09US3hiUXE3NUMwdE1kdlYtT1N3OHVmblE5OThLYmdCWQ?oc=5",
+          "description": "「雙方已達成協議」美國貿易代表：28日公布與陸貿易談判細節  UDN川普：美中會談成果豐碩 習近平認同AI改名「超級智慧」  UDN川普：與習近平會晤富有成效 將有重大事情發生  tw.stock.yahoo.com美中貿易談判新進展！格里爾：部分商品已達成協議、下週一公布更多細節  news.cnyes.com美中貿易休兵協議期限將屆 美國宣布延長至明年1月10日  公視新聞網PNN",
+          "publisher": "UDN",
+          "pub_date": "2026-09-25T14:35:45+00:00"
+        },
+        {
+          "title": "柯文哲中秋跑攤遇藍綠| 2026九合一選舉",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MQlV0bmYxdGhlM3BnbzZuZzVKTHduakRhTnFyNXN3eTNXOHphUER3UnJWSXlSYkltRmE0dUFrZFQtcEN6X1VUNXFsMWtxNHpsRW8wMWh4SDA?oc=5",
+          "description": "柯文哲中秋跑攤遇藍綠| 2026九合一選舉  UDN前往 Google 新聞瀏覽更多頭條新聞和觀點",
+          "publisher": "UDN",
+          "pub_date": "2026-09-25T14:36:00+00:00"
         },
         {
           "title": "李四川、蘇巧慧到底誰領先？沈政男拆解新北民調3變因 斷言「這人」贏面大 | 李瑋萱 | 新聞",
@@ -448,13 +478,6 @@
           "pub_date": "2026-09-25T03:06:38+00:00"
         },
         {
-          "title": "「雙方已達成協議」美國貿易代表：28日公布與陸貿易談判細節",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LZlpsdlBLMm9TNnN0RlZCQU02OW1CRDNTclE5OVNxNDRWeW9DakJzZ0ZtcGtrT0ZfYnZVZ1pzMjl6c2htMUhOamZsN1J3V1lvcERN0gFYQVVfeXFMTUg0MDZ6ZUhMNFBSVUU1UG55bzh3dHRfcEZQWThHV2ZndkdJN1RpME9BVThqRkNiN09US3hiUXE3NUMwdE1kdlYtT1N3OHVmblE5OThLYmdCWQ?oc=5",
-          "description": "「雙方已達成協議」美國貿易代表：28日公布與陸貿易談判細節  UDN美中貿易談判新進展！格里爾：部分商品已達成協議、下週一公布更多細節  news.cnyes.com美貿易代表：美國對中國大陸貿易赤字縮減近4成  經濟日報美中貿易休兵協議期限將屆 美國宣布延長至明年1月10日  公視新聞網PNN川普稱與習近平會晤「相當有成效」 預告將有重大事情發生  Yahoo新聞",
-          "publisher": "UDN",
-          "pub_date": "2026-09-25T14:35:45+00:00"
-        },
-        {
           "title": "桃園出發3.5小時還在苗栗 大票人塞車崩潰：不是沒人要國旅",
           "link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxPeXR6eWF2d1lDSklPQ1pSRXpPZU1iczF6YnZTUFpXVU1xR3Bac2FxMTQ1Z3NhUU5OREoyRF9DLW1wdEVNWGFKaEFUaWVJcjdPcHpPakhOaThhZ3pPaGRXQkM1STJNc0hZQWFaMVQtdFhaMlhSakVlNHpRYTVra3RJOEV0YmxMOFpHRGVhY0hGZE1aYVR0YXlYWGxJc3g5MjJfam1nc25xbm5qTXl2SGV0WU8xYXpEMzQxclo1YzFRX1BhVUZDY0NSdzM0NUtCNE9faWNWTGljQ1FUMkZ2RU1qVzU3WHFjZ0tnNWtLWHFWTktfOWV1b05Vb2JyVld6ci1XWktUTlFINUwyR1RtMXZWNUdPRWptdnhVbTdlZjFuektDN0sxa1JwM3NBQi15X1RyNER3WWVwb3FJc3VwYkpYd3hkSUk2WHg3azlIWUxwZTliU3BhRms5R1lIemVwQnlmYjE5bkgwTE1DMnRiNVpTWFRsWTl0QVlZWVE?oc=5",
           "description": "桃園出發3.5小時還在苗栗 大票人塞車崩潰：不是沒人要國旅  Yahoo新聞中秋連假湧車潮！國道4路段「紫爆」 時速跌破20公里  東森新聞高鐵單日旅運34.8萬人次 創新高 | 中華日報  LINE TODAY新聞眼／連假疏運成災難 「大人們」卻不在家  UDN中秋連假頭日 國道交通量估120百萬車公里  公視新聞網PNN",
@@ -462,39 +485,39 @@
           "pub_date": "2026-09-25T05:53:59+00:00"
         },
         {
-          "title": "全聯開出千萬特別獎花548元買泡麵生鮮成幸運兒| 生活",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JbFcyaE8xRjRJeDF3MjFzbHdia3BYWE9TVkx6UDlZWjBQUlcxVlg4cHVEbjRqelFxYlhpczVrWTBaSXhRVE1zOVJjQTVzNmoxc0RnSTJqTVRKNGtMNjIw?oc=5",
-          "description": "全聯開出千萬特別獎花548元買泡麵生鮮成幸運兒| 生活  中央社 CNA快對獎！7-8月統一發票千萬獎「89996565」 完整獎號在這裡  自由財經超商開出千萬發票 幸運門市曝光  東森新聞全聯、萊爾富開出千萬發票！幸運門市曝光買2杯飲料就中大獎- 財經  中時新聞網統一發票7、8月／千萬元獎號「89996565」！全聯買泡麵、萊爾富飲料拿鐵就中了⋯完整中獎號碼看這裡  今周刊",
-          "publisher": "中央社 CNA",
-          "pub_date": "2026-09-25T08:05:00+00:00"
-        },
-        {
-          "title": "竹南鎮長參選人何秀綿等7人涉賄遭羈押禁見女兒貼文：今天是媽媽生日| 2026九合一選舉",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4XzV4RVZ0WkJaWlU4cmxkTXZ1aDhGaWNON0o3eUFXdVo5MzhJbmtXM0dYRmJUejlfQzg5MV9xTHRRM0hEbWVUa0FEUGh4dUxYTG9EYi1oMkE?oc=5",
-          "description": "竹南鎮長參選人何秀綿等7人涉賄遭羈押禁見女兒貼文：今天是媽媽生日| 2026九合一選舉  UDN竹南鎮長候選人涉賄！秋節64歲生日當天被羈押 女兒喊「接下戰旗」縣長留言這2字  Yahoo新聞竹南鎮長參選人何秀綿等7人涉賄遭羈押禁見 女兒貼文：今天是媽媽生日  UDN送300元禮盒涉賄選 苗栗鄉鎮市長參選人遭羈押禁見  公視新聞網PNN生日當天被羈押！竹南鎮長參選人何秀綿競總發聲：質疑政治黑手介入",
+          "title": "竹南鎮長參選人何秀綿等7人涉賄遭羈押禁見 女兒貼文：今天是媽媽生日",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LY0ozRHNxSS1zTUpSRUVqeHFIYWNkRHNTaWhrcklBbDJ6MFp6NnQyQ3VJRU12bG0xU09WNmg3MjkzUWNhTkNPX1k0ajQ5cUtYRV9n0gFYQVVfeXFMUFNYdFFmeUN3Z09lN3RjczIxYWpMRjU0U0JrRW02OHBYU1NaVTZUaEZSTlI0d2pQSUplS3BpODhYME5ocV9RelEyZnZtem1kQWg1UWxVLUVvcg?oc=5",
+          "description": "竹南鎮長參選人何秀綿等7人涉賄遭羈押禁見 女兒貼文：今天是媽媽生日  UDN竹南鎮長候選人涉賄！秋節64歲生日當天被羈押 女兒喊「接下戰旗」縣長留言這2字  Yahoo新聞送300元禮盒涉賄選 苗栗鄉鎮市長參選人遭羈押禁見  公視新聞網PNN涉嫌以禮盒行賄 竹南鎮長何姓參選人收押  台視新聞網蛋糕、手工皂都涉賄選 北港里長參選人遭聲押禁見 - 生活新聞 - PChome Online 新聞  PC",
           "publisher": "UDN",
           "pub_date": "2026-09-25T09:18:03+00:00"
         },
         {
-          "title": "好天氣倒數！下周東北季風衝到降溫 變天時間曝光了",
-          "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNenhza0JJNklVUzJnVElBNnlaRHV2UHpGM2JmVGx1b0hZRnAtU0ZhTGZsTl9DOHRnVDVfbURsWDZOUmlWYi1sYzdtRFd5UVdsQUJaXzJ2UDFJaG1Ga0xaTWtPXzBpUlJyYWhjSWNEcXVfbUwxMHRXdHJ3ZkV5RXBLalhzYmlyZzFmNzNqYnJ1MmFqaFJDM0gwQmFlZGhucmdZaDRmTXNVS1BJWmFFNHd3S0F0aFZJelFOWUMtWnlNMWhLZTVUNXBLVlBFaURIa3JRc1c0c1EwSklkZGdFSFhqOVVRWE5RUHhiQXJzOFJ5cGNSMUF4TC1jMWNNTFNYd3AwUDFZLVFQS3NuMkVFZXNqOUdSS1BVc1dpdWJESjRFaDFKd1puekVfTHpTOFAtR1F5UUhGM2xQVzlEbEFnRUxqNzdVRXh4VG1NMkVhTmpVZFRpaFh0V3BVUkdlVzh2QQ?oc=5",
-          "description": "好天氣倒數！下周東北季風衝到降溫 變天時間曝光了  Yahoo新聞颱風舒力基確定不來了！專家示警：連假「秋老虎更兇」  Yahoo新聞天氣／要變天了！「這天起」全台轉濕涼，舒力基颱風轉向，最新路徑一次看 | 李伊晴 | 風生活  風傳媒影音/20260925舒力基持續長胖增強 估這天北轉變中颱 - 社會新聞 - PChome Online 新聞  PChome Online 新聞中秋節飆高溫周末更",
-          "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T11:25:06+00:00"
-        },
-        {
-          "title": "柯文哲中秋跑攤遇藍綠",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE16bmtDc2VseW8tX0NkM1hrMzRIS2h1UEJxczJqLVdDUWxRZUtHS3dMZ0JCTWVDZjA1TXpJWDRFN3BUbXR2a3B3OHNfQkZXak9tSFNz0gFYQVVfeXFMTm1xT3NJS2hkTkdIR0JiSzJsNDBkSm1hX0NPMG01N2RQOTZUQkZCZVQxamZlT093cmFNbTJnRVBuclJVUGhiVDhJSXF2R3V3MDQ1SDFWZVhTSg?oc=5",
-          "description": "柯文哲中秋跑攤遇藍綠  UDN柯文哲中秋跑攤遇藍綠| 2026九合一選舉  UDN竹北藍白「切」！ 綠白在新豐合體了 柯文哲、鄭朝方喜相逢  自由時報中秋不烤肉不跑晚會改騎單車輔選竹縣小雞 柯文哲：沒有樁腳只能靠雙腳  Yahoo新聞柯文哲率民眾黨鐵馬隊騎竹縣40公里跨4鄉鎮市| 政治  中央社 CNA",
-          "publisher": "UDN",
-          "pub_date": "2026-09-25T17:37:57+00:00"
-        },
-        {
-          "title": "沈伯洋現身超冷門夜市！連在地人都不知　作家驚：首次有市長級候選人來",
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1oMzAzaTNfUDZ2V1VGVXVFSlNNenpZN1NCSXdrQUFHeGxFQXNXemo3OXRRQ1lJSV9QZzNKdDJCaW4zd2RBdi1EONIBTEFVX3lxTE5Jb3pLdVk0MkZsZFM4RjdrOGxlWlRGMmdxWDZYZ0tfTnhfcTVySzBnV3dQQ0lTTG5udVJweUlpcU9PaERqME9oU2lzYlI?oc=5",
-          "description": "沈伯洋現身超冷門夜市！連在地人都不知　作家驚：首次有市長級候選人來  三立新聞網SETN.com「洋流」會如何影響年底的選舉？  ETtoday新聞雲未公開仍湧洋流 沈伯洋萬華中秋晚會擠爆  自由時報影／訪興雅福德宮中秋餐會沈伯洋拜票全場喊凍蒜| 2026九合一選舉  UDN批蔣市府4年來「不知道在做什麼」　沈伯洋承諾：市民的需要我們來達成  三立新聞網SETN.com",
+          "title": "水壺、皮包、PS3！沈伯洋出席中秋餐會「簽名簽不完」　洋流熱鬧現場曝",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE95cENFbnEzZ0hFOUwzV1kzS1VqczR0b1BRNHhIeTB2eV9BeEhxNVlCb0pHV0QwYnNYbnJpQnp0MkxtWjRCbU11aNIBTEFVX3lxTE5ReURuUXJQN1dwclJ2RFE1N0NTemVVSU9ILV83UTA2cGREYUdaanA2bndQeWg2U2tiUXp2MFB3MFpzYlI1NjFHczVfSFQ?oc=5",
+          "description": "水壺、皮包、PS3！沈伯洋出席中秋餐會「簽名簽不完」　洋流熱鬧現場曝  三立新聞網SETN.com沈伯洋現身超冷門夜市！連在地人都不知 作家驚：首次有市長級候選人來  Yahoo新聞「洋流」會如何影響年底的選舉？  forum.ettoday.net影／訪興雅福德宮中秋餐會沈伯洋拜票全場喊凍蒜| 2026九合一選舉  UDN洋流衝擊選情？藍輔選人士揭蔣萬安最大危險 會擔心緊張是好事  自由時報",
           "publisher": "三立新聞網SETN.com",
-          "pub_date": "2026-09-25T11:46:00+00:00"
+          "pub_date": "2026-09-25T13:19:00+00:00"
+        },
+        {
+          "title": "賴清德突誇張善政「國政級人才」！本人回應：有弦外之音",
+          "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPZWhpZjJnVVdvbXhCUHoxWGNyQnZQVXFYQjV1c0FDX3lVdEhyY3FoX2xyRy1YT19yVWlrYzI5QmdESS1xSVRWX1RaZTR2VmY0WFdKSW1NcHRpeHBuT1BvUElQQV9RV2xLOWtFWkFnQkJtcWVZLXRpeUh0WGlDMXc4YWlYMnBac2ZlY1VHTm90VUJibFhydURwQmt2NTBuaXpRXzI4eHZHOWRXbUxRakc5SnZqOXU5cmJ4VUVsdHNiUWlHZzBpQ3ZfdWxrZ1A5ajVVSjE0TGxub2tyU3RjWWlOV0ZFN0N2bzVYN1loSUdEVTFVemNGX2xIUnJ0bVhfN2NhWGt2Z0ViUkdYRDhkRDRsZ0pLSXZwN0QweUtNQW9XSENYTXhENUU1dHBmbHR2dzFXLWcwZXdwbmt0VVlHeUFrdW5nN3VwZ3lZY1BqWXhETmhWRE9PLXNXR3pGVDJWTlk?oc=5",
+          "description": "賴清德突誇張善政「國政級人才」！本人回應：有弦外之音  Yahoo新聞賴總統讚賞 張善政：有弦外之音  Yahoo新聞綠封黃世杰「無印良品」 曝翻盤關鍵：有望重演2014桃園逆轉勝  news.tvbs.com.tw藍綠兩黨行動中常會 移師南投、桃園選舉造勢  公視新聞網PNN民進黨桃園隊下車？凌濤曝地方反應：有綠議員想跟張善政掛看板 | TVBS  LINE TODAY",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-25T02:52:05+00:00"
+        },
+        {
+          "title": "萊爾富買富貴紅棗茶真的「富貴」了 竟抱走統一發票1000萬大獎",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aYkFERzNDVW9OV1dIRWRYREE2V01NenktdVpqUmpvQWttU3UyeG4zSEVYbzZxSV9VdDhmWmg5MHYxYk0za2dwcFNrSWtrQkxCaXRXb0FQVW55VjhfTWU00gFkQVVfeXFMUGV3a0R5c2hmLWxwMndjVGNxdTJsazNFTWs3YmY2R2NGMlVBMEZtVmx2dElxZFFHY0Z4ZmgwbTFzRHVYUlBfRi1qa0s5cXhjZlBwc0hwaEx1Nnp0dTQ1Yy1OWVl6dg?oc=5",
+          "description": "萊爾富買富貴紅棗茶真的「富貴」了 竟抱走統一發票1000萬大獎  ec.ltn.com.tw快對獎！7-8月統一發票千萬獎「89996565」 完整獎號在這裡  ec.ltn.com.tw超商開出千萬發票 幸運門市曝光  東森新聞全聯、萊爾富開出千萬發票！幸運門市曝光買2杯飲料就中大獎- 財經  中時新聞網統一發票7、8月／千萬元獎號「89996565」！全聯買泡麵、萊爾富飲料拿鐵就中了⋯完整中獎",
+          "publisher": "ec.ltn.com.tw",
+          "pub_date": "2026-09-25T07:17:02+00:00"
+        },
+        {
+          "title": "川普突喊AI改名「超級智慧」！　川習會後預告：重大事情將發生",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBlbzBMckdVQk52eVJ4TlB4R0J3clRmU0VrNlRjV08yX0V5bktqeGNSdWRkYmpZb2JZX1Q1YXQyeVpKOTNGSU4zS3h1U0hUX0QySFJ0TDRPeFdGWVlpaXfSAUtBVV95cUxQemFOZnZxc1drTW8yR25GYU55MncyRlprYUg3V2tSa0F1ZUEteHBwMVp4TTBxTnJPeTNSWjVseF9Ga202dzU1T1hYM28?oc=5",
+          "description": "川普突喊AI改名「超級智慧」！　川習會後預告：重大事情將發生  ettoday.net川普宣布 美財長貝森特不會兼任AI沙皇 | 國際焦點 | 國際  經濟日報川普拋AI新詞「超級智慧」！震撼預告：川習會後將有大事發生  Yahoo新聞川普聯大演說後 美國務院下令外交官改稱AI為「SI」  LINE TODAY川普淡化AI安全風險仍布局CRWD/PANW等資安股- 新聞  MoneyDJ",
+          "publisher": "ettoday.net",
+          "pub_date": "2026-09-25T14:10:00+00:00"
         },
         {
           "title": "伊朗總統：無意繼續交戰　是否停戰由美國決定",
@@ -504,20 +527,6 @@
           "pub_date": "2026-09-25T08:27:00+00:00"
         },
         {
-          "title": "川普突喊AI改名「超級智慧」！　川習會後預告：重大事情將發生",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBlbzBMckdVQk52eVJ4TlB4R0J3clRmU0VrNlRjV08yX0V5bktqeGNSdWRkYmpZb2JZX1Q1YXQyeVpKOTNGSU4zS3h1U0hUX0QySFJ0TDRPeFdGWVlpaXfSAUtBVV95cUxQemFOZnZxc1drTW8yR25GYU55MncyRlprYUg3V2tSa0F1ZUEteHBwMVp4TTBxTnJPeTNSWjVseF9Ga202dzU1T1hYM28?oc=5",
-          "description": "川普突喊AI改名「超級智慧」！　川習會後預告：重大事情將發生  ettoday.net川普拋AI新詞「超級智慧」！震撼預告：川習會後將有大事發生  Yahoo新聞川普宣布 美財長貝森特不會兼任AI沙皇  UDN川普聯大演說後 美國務院下令外交官改稱AI為「SI」  LINE TODAY川普淡化AI安全風險仍布局CRWD/PANW等資安股- 新聞  MoneyDJ",
-          "publisher": "ettoday.net",
-          "pub_date": "2026-09-25T14:10:00+00:00"
-        },
-        {
-          "title": "派出所突傳槍響！19歲嫩警值勤「拔配槍自轟」 搶救多日傷重不治",
-          "link": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQOWtSUktqUDlRZjZscjJub1ZWOVpsLWwtY3FPaEFPd3IzNDF1TGhBTmt4S0pxYnR3RVFJanZrbHB2ZHVqbk1UcjdDOElVZkpYZE9NdW5uUnRDemkxTWFVTzl0YnM4a0VKQ2FhVmxqa1NTYW9rUVEwSjRCalRnUnJYel9vV0dLNEVZbS1lM2NNQ0VfTEU3UU5Tak4xV0RSaWxRNXF5ZUtSbVg5QnJGUlU2R2Q2dFFXTzI0QXl6bDczNDQ4NkNuMVh4RTg5VTlNdGl0ZG5GRzh5UzRWSDhhbGMzNjBzNHdPTW03Z2wxUGtUSWpEeTMxUlBVWlZ6NGJzbExVVWJEc0J4alRBdzRVc3lpWUlqWW1Qdm9aeHYzLTV2ejltbGZ4bndlSmtkYlY1RGJwUkktZV9EdWk1a0VBTlRrd3pxX3NyOUVMRG5sMzdsazV1TzBySUJFTEY0NEdzdm5HcnVlc2Z2eUtkQk1HOENlaDFsaTNkMWhIZ0RHOVNDT3NwRnFxUHc?oc=5",
-          "description": "派出所突傳槍響！19歲嫩警值勤「拔配槍自轟」 搶救多日傷重不治  Yahoo新聞前往 Google 新聞瀏覽更多頭條新聞和觀點",
-          "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T11:39:00+00:00"
-        },
-        {
           "title": "歐洲多國示警 俄羅斯恐將發動「混和戰」",
           "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPWVZ1V1c1VXB4R2J0dnJFalE4bmJWcEpqVl9fUnV4LVdzM2pyOE5vSi1Fb09EWEVZN3VRZVVKZFpyY1JHQXJwMjRFQTc4UWVVSERkTDVTYzJDdFR3bDdpTGNCMVQ1cW1mXzQxcXpzZHNDOEY4cUFJdWswUUVHZTc5MFBoUTNIc3BlODJFWjNEUXhGbnd3aDZ4Wl9mZDBZZEVUWDBuVV82dFFHQml1MElnUXNCZ2VLNXNlbGlEQzIxcWFOc0xzZEk0ZW1Lc3dGMHBtZTA0TVIwb3RJQ25rZW5wdkQzdlZxTkw4cGFtQzRlRnV1M0pZQzd4a2ZUMnZRY2dmLWxyZmlWV0dnclhqZ2FjaWtaQnVXZw?oc=5",
           "description": "歐洲多國示警 俄羅斯恐將發動「混和戰」  Yahoo新聞前往 Google 新聞瀏覽更多頭條新聞和觀點",
@@ -525,40 +534,61 @@
           "pub_date": "2026-09-25T14:10:00+00:00"
         },
         {
-          "title": "美債大逃殺 股市風暴來襲？阮慕驊點名「3類股」最危險快去槓桿",
-          "link": "https://news.google.com/rss/articles/CBMijgNBVV95cUxQTXVtb21YUjRoMEo5Xzd5MnNja2NYZ0F4X195SW9rZEc0SWYzV0t2R2ZCdWhGaWRxVEdLYjZPZmhtRTZNYjFqMGdqUEZmV0Y4dmdBZkhrRGVJb0tzblM4X0Nicm9wUk1Pekxpd0lfV2kwdjM5c3FXY2JXaHpLTE5PS0t3cG5nME5IZ2JBUXI2ZlR5XzJlcUlaWHo2UEFhSEZ3Zk91NXJUaWF6TkNobW9tSkNZV3hqZTZIeEpjRzJyWUxTMWZpaGg2REJoQlNIeFI3VnZ3TFB0SmpZblFxZm9BTDQ5RFREUWJUdkdyTXlqMGJuRmpVMm1RZ192bk5wTnB4M0dOMkpmdm1rdTd0Y1ZUN2JrcklpUXAxMmZpSGViOWdxU19xLWNCZ0E0MGZJTnl0VkFmcFZZU0hqUHZVRGpWMGhFSkVuaTVHTlFlaGR1T2VKREFLVnR5Z3lkZ2ZJcm55SWkyYk94TjhYMGd3SnA3cXpnOC1RUlJsSjhkLU5VamdWS3pJNmxYNzZZU3A1Zw?oc=5",
-          "description": "美債大逃殺 股市風暴來襲？阮慕驊點名「3類股」最危險快去槓桿  Yahoo股市美股重點新聞摘要2026年9月25日  鉅亨網美債殖利率飆22年新高！前雷曼交易員：恐重演1987年股災  Yahoo新聞股民最怕來了！30年美債殖利率飆破5.5％ 創2004年來新高  自由財經美10年債衝上5.22%！阮慕驊示警台股1狀況：不能再假裝看不見  三立新聞網SETN.com",
-          "publisher": "Yahoo股市",
-          "pub_date": "2026-09-25T09:35:31+00:00"
+          "title": "CNN仍被白宮擋門外 5大電視網拒直播川習會",
+          "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQZFg4S0hYaEdLcHZZVHp6NkdGSW1EMmxJSV9yeEZNRkd0S20tLV85NktOdG9SM1ZpUWZYNndHY1ZPU2c3ZlZVcWhpV0V4dzVJM1lCU0stNHdUWXBid25Ba3M5NjVKQnNTWi1QZENESVdhdklKSkNzZHFPZ25kRVRxLU9nZ2c1d3luSVZDTllyajFpQ2pnYnZNQzZJMzFfUUNFZW1HVG91bU0wakN1c0ZkaUg5cGJ3UlRjby1QN0tmMF9YUHM3ZEN2dVNrcFNTTFFoWjFVRUxSMHNnZmlaajNnMmpJeUFuaGQ2WktKMF96SDh1dFMzbTdVLWJHMUNsR1lwY204NHFDT1QxQXhIbDQtaUp4amVteVVRT1haMnJlYm12bHo1T0E?oc=5",
+          "description": "CNN仍被白宮擋門外 5大電視網拒直播川習會  Yahoo新聞聯邦法官連下2命令要求解禁 CNN等3媒體重返白宮採訪  公視新聞網PNN與川普不同調 教宗：歡迎所有記者採訪我  rti.org.tw法官深夜解除川普禁令 一度被擋3媒體恢復進白宮採訪  UDNCNN被白宮擋在門外 5大電視網拒直播川習會  Yahoo新聞",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-25T05:22:27+00:00"
+        },
+        {
+          "title": "美債殖利率飆22年新高！前雷曼交易員：恐重演1987年股災",
+          "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPcHBwb1d4QkhCNkRpU0FrS01GbVZSVF9EZEtoZXB1bUFyMWpPS3czcWlxeWctWl82cVZYLXRDYmpxV1hJTUo3cnpWanlTWDVtVTZQR3dQQjI1QnBNS2RZR0pmZnEza2VTdEtfbXVGVGdfaGxtMXh2OE1OQldLNm1mWlV4X0RCZVZlRnhGR2hUQW1SeGxvcTVQQmdTUlU0ckFKMUE1TzVYR0VoNnhvMjlYUFg2WFdZQzc2XzF5YnVJcHhqeDB5cENHUFNXMG53M3ZOUWQ2QVhXQ1Y1dVgzSWRJR1cxUnVTWlk4WXB5Y0dsbTJ6d3VHWkoweEFGVTJmWWNWYXNSTU9FR1Y5OWFWWm5DVVlZSXlwbW4yX1E0RTdXWnB6bWZ4dnhrOEt2UmlQYTFKWHIyVVdIQnNLcTFVNW1pdHRwOE9XY21NM3JMQ1Q3OUFiTEZ5WElGNl9B?oc=5",
+          "description": "美債殖利率飆22年新高！前雷曼交易員：恐重演1987年股災  Yahoo新聞美股重點新聞摘要2026年9月25日  鉅亨網股民最怕來了！30年美債殖利率飆破5.5％ 創2004年來新高  ec.ltn.com.tw美10年債衝上5.22%！阮慕驊示警台股1狀況：不能再假裝看不見  三立新聞美長債殖利率升 美國與新興市場債券利差快創紀錄 亞洲當心了 | 國際焦點 | 國際  經濟日報",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-25T19:15:00+00:00"
         }
       ],
       "nation": [
         {
           "title": "特習會：習近平促特朗普「反對台獨」，北京措辭升級要的是什麼？",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EWFhfSmVKaEtHUjFxbmU3QWxDZEFxWjBpTTVTbW9tUW12d3IyREtKUUdMd3BxR3dvbjRkZXQ0SjdYeUNldV9VS1JzbFU1YUVoOUo4ZVM0QkZ2b0dXRmlpLV9LNzNxSkXSAWxBVV95cUxOLTJzV3RLU0RIc0lIeEc2QVp4bFdPbjhqQVpYaGU3UXpzMHFHX1lDZWc1UWp6TVd1WEJ5T2xvQjJPbG1HRFJtUVRSTU9veHBQMkM1VFdCZXBsNFh1ZlJLdHcxRGxsQUl4RlJ3RjU?oc=5",
-          "description": "特習會：習近平促特朗普「反對台獨」，北京措辭升級要的是什麼？  BBC不只強硬提台灣！習近平「1句祝福」藏對台警訊 他：這是精心設計  Yahoo新聞習近平要川普反對台獨 在白宮會談中當面提出要求  經濟日報台美4550億軍售卡關！流程引爆骨牌效應：晚一個月宣佈恐多等數年  自由軍武頻道有關中國外交部在川習會晤後發布新聞稿稱，呼籲美方「要謹慎處理台灣問題」、「反對『台獨』的正確立場」、「為中美戰略",
+          "description": "特習會：習近平促特朗普「反對台獨」，北京措辭升級要的是什麼？  BBC台美4550億軍售卡關！流程引爆骨牌效應：晚一個月宣佈恐多等數年  def.ltn.com.tw習川會特別報導》美：對台政策不會改變- 日報  工商時報習近平要川普反對台獨在白宮會談中當面提出要求| 川習會對台影響| 要聞  UDN專家：川習二會聚焦控管歧見 維持2國貿易休兵穩定關係  公視新聞網PNN",
           "publisher": "BBC",
           "pub_date": "2026-09-25T10:12:20+00:00"
         },
         {
-          "title": "竹南鎮長參選人何秀綿等7人涉賄遭羈押禁見女兒貼文：今天是媽媽生日| 2026九合一選舉",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4XzV4RVZ0WkJaWlU4cmxkTXZ1aDhGaWNON0o3eUFXdVo5MzhJbmtXM0dYRmJUejlfQzg5MV9xTHRRM0hEbWVUa0FEUGh4dUxYTG9EYi1oMkE?oc=5",
-          "description": "竹南鎮長參選人何秀綿等7人涉賄遭羈押禁見女兒貼文：今天是媽媽生日| 2026九合一選舉  UDN竹南鎮長候選人涉賄！秋節64歲生日當天被羈押 女兒喊「接下戰旗」縣長留言這2字  Yahoo新聞竹南鎮長參選人何秀綿等7人涉賄遭羈押禁見 女兒貼文：今天是媽媽生日  UDN送300元禮盒涉賄選 苗栗鄉鎮市長參選人遭羈押禁見  公視新聞網PNN生日當天被羈押！竹南鎮長參選人何秀綿競總發聲：質疑政治黑手介入",
+          "title": "竹南鎮長參選人何秀綿等7人涉賄遭羈押禁見 女兒貼文：今天是媽媽生日",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LY0ozRHNxSS1zTUpSRUVqeHFIYWNkRHNTaWhrcklBbDJ6MFp6NnQyQ3VJRU12bG0xU09WNmg3MjkzUWNhTkNPX1k0ajQ5cUtYRV9n0gFYQVVfeXFMUFNYdFFmeUN3Z09lN3RjczIxYWpMRjU0U0JrRW02OHBYU1NaVTZUaEZSTlI0d2pQSUplS3BpODhYME5ocV9RelEyZnZtem1kQWg1UWxVLUVvcg?oc=5",
+          "description": "竹南鎮長參選人何秀綿等7人涉賄遭羈押禁見 女兒貼文：今天是媽媽生日  UDN竹南鎮長候選人涉賄！秋節64歲生日當天被羈押 女兒喊「接下戰旗」縣長留言這2字  Yahoo新聞送300元禮盒涉賄選 苗栗鄉鎮市長參選人遭羈押禁見  公視新聞網PNN涉嫌以禮盒行賄 竹南鎮長何姓參選人收押  台視新聞網蛋糕、手工皂都涉賄選 北港里長參選人遭聲押禁見 - 生活新聞 - PChome Online 新聞  PC",
           "publisher": "UDN",
           "pub_date": "2026-09-25T09:18:03+00:00"
         },
         {
-          "title": "桃園出發3.5小時還在苗栗 大票人塞車崩潰：不是沒人要國旅",
-          "link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxPeXR6eWF2d1lDSklPQ1pSRXpPZU1iczF6YnZTUFpXVU1xR3Bac2FxMTQ1Z3NhUU5OREoyRF9DLW1wdEVNWGFKaEFUaWVJcjdPcHpPakhOaThhZ3pPaGRXQkM1STJNc0hZQWFaMVQtdFhaMlhSakVlNHpRYTVra3RJOEV0YmxMOFpHRGVhY0hGZE1aYVR0YXlYWGxJc3g5MjJfam1nc25xbm5qTXl2SGV0WU8xYXpEMzQxclo1YzFRX1BhVUZDY0NSdzM0NUtCNE9faWNWTGljQ1FUMkZ2RU1qVzU3WHFjZ0tnNWtLWHFWTktfOWV1b05Vb2JyVld6ci1XWktUTlFINUwyR1RtMXZWNUdPRWptdnhVbTdlZjFuektDN0sxa1JwM3NBQi15X1RyNER3WWVwb3FJc3VwYkpYd3hkSUk2WHg3azlIWUxwZTliU3BhRms5R1lIemVwQnlmYjE5bkgwTE1DMnRiNVpTWFRsWTl0QVlZWVE?oc=5",
-          "description": "桃園出發3.5小時還在苗栗 大票人塞車崩潰：不是沒人要國旅  Yahoo新聞中秋連假湧車潮！國道4路段「紫爆」 時速跌破20公里  東森新聞高鐵單日旅運34.8萬人次 創新高 | 中華日報  LINE TODAY新聞眼／連假疏運成災難 「大人們」卻不在家  UDN中秋連假頭日 國道交通量估120百萬車公里  公視新聞網PNN",
+          "title": "水壺、皮包、PS3！沈伯洋出席中秋餐會「簽名簽不完」　洋流熱鬧現場曝",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE95cENFbnEzZ0hFOUwzV1kzS1VqczR0b1BRNHhIeTB2eV9BeEhxNVlCb0pHV0QwYnNYbnJpQnp0MkxtWjRCbU11aNIBTEFVX3lxTE5ReURuUXJQN1dwclJ2RFE1N0NTemVVSU9ILV83UTA2cGREYUdaanA2bndQeWg2U2tiUXp2MFB3MFpzYlI1NjFHczVfSFQ?oc=5",
+          "description": "水壺、皮包、PS3！沈伯洋出席中秋餐會「簽名簽不完」　洋流熱鬧現場曝  三立新聞網SETN.com沈伯洋現身超冷門夜市！連在地人都不知 作家驚：首次有市長級候選人來  Yahoo新聞「洋流」會如何影響年底的選舉？  forum.ettoday.net影／訪興雅福德宮中秋餐會沈伯洋拜票全場喊凍蒜| 2026九合一選舉  UDN洋流衝擊選情？藍輔選人士揭蔣萬安最大危險 會擔心緊張是好事  自由時報",
+          "publisher": "三立新聞網SETN.com",
+          "pub_date": "2026-09-25T13:19:00+00:00"
+        },
+        {
+          "title": "賴清德突誇張善政「國政級人才」！本人回應：有弦外之音",
+          "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPZWhpZjJnVVdvbXhCUHoxWGNyQnZQVXFYQjV1c0FDX3lVdEhyY3FoX2xyRy1YT19yVWlrYzI5QmdESS1xSVRWX1RaZTR2VmY0WFdKSW1NcHRpeHBuT1BvUElQQV9RV2xLOWtFWkFnQkJtcWVZLXRpeUh0WGlDMXc4YWlYMnBac2ZlY1VHTm90VUJibFhydURwQmt2NTBuaXpRXzI4eHZHOWRXbUxRakc5SnZqOXU5cmJ4VUVsdHNiUWlHZzBpQ3ZfdWxrZ1A5ajVVSjE0TGxub2tyU3RjWWlOV0ZFN0N2bzVYN1loSUdEVTFVemNGX2xIUnJ0bVhfN2NhWGt2Z0ViUkdYRDhkRDRsZ0pLSXZwN0QweUtNQW9XSENYTXhENUU1dHBmbHR2dzFXLWcwZXdwbmt0VVlHeUFrdW5nN3VwZ3lZY1BqWXhETmhWRE9PLXNXR3pGVDJWTlk?oc=5",
+          "description": "賴清德突誇張善政「國政級人才」！本人回應：有弦外之音  Yahoo新聞賴總統讚賞 張善政：有弦外之音  Yahoo新聞綠封黃世杰「無印良品」 曝翻盤關鍵：有望重演2014桃園逆轉勝  news.tvbs.com.tw藍綠兩黨行動中常會 移師南投、桃園選舉造勢  公視新聞網PNN民進黨桃園隊下車？凌濤曝地方反應：有綠議員想跟張善政掛看板 | TVBS  LINE TODAY",
           "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T05:53:59+00:00"
+          "pub_date": "2026-09-25T02:52:05+00:00"
+        },
+        {
+          "title": "中秋連假湧車潮！國道4路段「紫爆」 時速跌破20公里",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ocUUyWWpxdEpqSEhLRUVRYXc0RUFEMTJ3THljbDV2bEdUWHM3N1pkSTc1dTJ0XzdfdWZGQTBaOVZHUTRTMkx6SWx2RGo4U2Z3djRKTg?oc=5",
+          "description": "中秋連假湧車潮！國道4路段「紫爆」 時速跌破20公里  東森新聞高鐵單日旅運34.8萬人次 創新高 | 中華日報  LINE TODAY新聞眼／連假疏運成災難 「大人們」卻不在家  UDN中秋連假頭日 國道交通量估120百萬車公里  公視新聞網PNN中秋連假首日車潮炸裂！桃園開3.5小時竟還卡在苗栗 駕駛崩潰喊這句  Yahoo新聞",
+          "publisher": "東森新聞",
+          "pub_date": "2026-09-25T07:51:00+00:00"
         },
         {
           "title": "萊爾富買富貴紅棗茶真的「富貴」了 竟抱走統一發票1000萬大獎",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aYkFERzNDVW9OV1dIRWRYREE2V01NenktdVpqUmpvQWttU3UyeG4zSEVYbzZxSV9VdDhmWmg5MHYxYk0za2dwcFNrSWtrQkxCaXRXb0FQVW55VjhfTWU00gFkQVVfeXFMUGV3a0R5c2hmLWxwMndjVGNxdTJsazNFTWs3YmY2R2NGMlVBMEZtVmx2dElxZFFHY0Z4ZmgwbTFzRHVYUlBfRi1qa0s5cXhjZlBwc0hwaEx1Nnp0dTQ1Yy1OWVl6dg?oc=5",
-          "description": "萊爾富買富貴紅棗茶真的「富貴」了 竟抱走統一發票1000萬大獎  自由財經快對獎！7-8月統一發票千萬獎「89996565」 完整獎號在這裡  自由財經超商開出千萬發票 幸運門市曝光  東森新聞全聯、萊爾富開出千萬發票！幸運門市曝光買2杯飲料就中大獎- 財經  中時新聞網統一發票7、8月／千萬元獎號「89996565」！全聯買泡麵、萊爾富飲料拿鐵就中了⋯完整中獎號碼看這裡  今周刊",
-          "publisher": "自由財經",
+          "description": "萊爾富買富貴紅棗茶真的「富貴」了 竟抱走統一發票1000萬大獎  ec.ltn.com.tw快對獎！7-8月統一發票千萬獎「89996565」 完整獎號在這裡  ec.ltn.com.tw超商開出千萬發票 幸運門市曝光  東森新聞全聯、萊爾富開出千萬發票！幸運門市曝光買2杯飲料就中大獎- 財經  中時新聞網統一發票7、8月／千萬元獎號「89996565」！全聯買泡麵、萊爾富飲料拿鐵就中了⋯完整中獎",
+          "publisher": "ec.ltn.com.tw",
           "pub_date": "2026-09-25T07:17:02+00:00"
         },
         {
@@ -571,30 +601,23 @@
         {
           "title": "柯文哲中秋跑攤遇藍綠",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE16bmtDc2VseW8tX0NkM1hrMzRIS2h1UEJxczJqLVdDUWxRZUtHS3dMZ0JCTWVDZjA1TXpJWDRFN3BUbXR2a3B3OHNfQkZXak9tSFNz0gFYQVVfeXFMTm1xT3NJS2hkTkdIR0JiSzJsNDBkSm1hX0NPMG01N2RQOTZUQkZCZVQxamZlT093cmFNbTJnRVBuclJVUGhiVDhJSXF2R3V3MDQ1SDFWZVhTSg?oc=5",
-          "description": "柯文哲中秋跑攤遇藍綠  UDN柯文哲中秋跑攤遇藍綠| 2026九合一選舉  UDN竹北藍白「切」！ 綠白在新豐合體了 柯文哲、鄭朝方喜相逢  自由時報中秋不烤肉不跑晚會改騎單車輔選竹縣小雞 柯文哲：沒有樁腳只能靠雙腳  Yahoo新聞柯文哲率民眾黨鐵馬隊騎竹縣40公里跨4鄉鎮市| 政治  中央社 CNA",
+          "description": "柯文哲中秋跑攤遇藍綠  UDN柯文哲中秋跑攤遇藍綠| 2026九合一選舉  UDN竹北藍白「切」！ 綠白在新豐合體了 柯文哲、鄭朝方喜相逢  自由時報中秋不烤肉不跑晚會改騎單車輔選竹縣小雞 柯文哲：沒有樁腳只能靠雙腳  Yahoo新聞柯文哲率民眾黨鐵馬隊騎竹縣40公里跨4鄉鎮市| 政治  cna.com.tw",
           "publisher": "UDN",
           "pub_date": "2026-09-25T17:37:57+00:00"
         },
         {
-          "title": "沈伯洋現身超冷門夜市！連在地人都不知　作家驚：首次有市長級候選人來",
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1oMzAzaTNfUDZ2V1VGVXVFSlNNenpZN1NCSXdrQUFHeGxFQXNXemo3OXRRQ1lJSV9QZzNKdDJCaW4zd2RBdi1EONIBTEFVX3lxTE5Jb3pLdVk0MkZsZFM4RjdrOGxlWlRGMmdxWDZYZ0tfTnhfcTVySzBnV3dQQ0lTTG5udVJweUlpcU9PaERqME9oU2lzYlI?oc=5",
-          "description": "沈伯洋現身超冷門夜市！連在地人都不知　作家驚：首次有市長級候選人來  三立新聞網SETN.com「洋流」會如何影響年底的選舉？  ETtoday新聞雲未公開仍湧洋流 沈伯洋萬華中秋晚會擠爆  自由時報影／訪興雅福德宮中秋餐會沈伯洋拜票全場喊凍蒜| 2026九合一選舉  UDN批蔣市府4年來「不知道在做什麼」　沈伯洋承諾：市民的需要我們來達成  三立新聞網SETN.com",
-          "publisher": "三立新聞網SETN.com",
-          "pub_date": "2026-09-25T11:46:00+00:00"
-        },
-        {
-          "title": "影／證實美方希望邀她再去訪問 盧秀燕：但還是要看時間",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Jbi0yTTVkMllOMmdVQXMtdjZRQnREVURZQ0JuR2gzeEFvb1I5NjNhMzVrbUtUdU1RMDBFd21YSHoybFlLcFVGeE9fTGs0RHVJ0gFWQVVfeXFMT1hqR09qY0JFVU1QaVlCLU1BZkFqXzlFV3k1UXJIVmhVRWZsS2RMT1RqQndYRVZ0SjMzenBPNUtFSjdsdHp1Sld1dTZCLUZfczJZeUhxTEE?oc=5",
-          "description": "影／證實美方希望邀她再去訪問 盧秀燕：但還是要看時間  UDN中秋節返回基隆合體力挺謝國樑 盧秀燕認了「很掛心」選情  Yahoo新聞美再邀訪盧秀燕！謝國樑：她未來要服務國人 | NOWNEWS今日新聞  LINE TODAY盧秀燕走訪基隆仁愛市場 大啖美食談市政建設  大纪元童子瑋威脅謝國樑基隆選情？盧秀燕中秋節合體認了：我很掛心  NOWnews今日新聞",
-          "publisher": "UDN",
-          "pub_date": "2026-09-25T06:21:38+00:00"
-        },
-        {
           "title": "友邦挺台！巴拉圭總統聯合國大會怒批：排除台灣是汙點",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBEUTdxT1NxQjBxVTBfal9uUHFUVGdKaEJkZkJ0ZGo3ckJBWEpvU2tieDRYZXdRN0sxY2hKcW9MeXZkZ1NEcklXWUFHWm1vV2V60gFWQVVfeXFMUGF6ZkR4VjAxSk5aeWxMcFN3a0RMRWJNb0R6N2I1bnR3R2xMY202YUs1OXRuWVlteFRNdmppMTcxUHQ1bHJWQldLNV9ueGlYX3dUNFhJMFE?oc=5",
-          "description": "友邦挺台！巴拉圭總統聯合國大會怒批：排除台灣是汙點  UDN帛琉總統惠恕仁：台灣不可或缺台海穩定即印太穩定| 政治  中央社 CNA友邦聯大接力發聲挺台 八國聲明強調印太和平重要性  公視新聞網PNN巴拉圭總統：排除台灣是聯合國汙點  中華新聞雲／中華日報籲紐西蘭各界支持台參與聯合國體系歐江安：台灣經驗不可或缺| 政治  Newtalk新聞",
+          "description": "友邦挺台！巴拉圭總統聯合國大會怒批：排除台灣是汙點  UDN帛琉總統惠恕仁：台灣不可或缺台海穩定即印太穩定| 政治  cna.com.tw友邦聯大接力發聲挺台 八國聲明強調印太和平重要性  公視新聞網PNN巴拉圭總統：排除台灣是聯合國汙點  中華新聞雲／中華日報籲紐西蘭各界支持台參與聯合國體系歐江安：台灣經驗不可或缺| 政治  Newtalk新聞",
           "publisher": "UDN",
           "pub_date": "2026-09-24T03:08:28+00:00"
+        },
+        {
+          "title": "傅崐萁喊普發2萬！鍾佳濱嗆國民黨「胡亂加碼」：好好看看憲法和預算法",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8xT194ZG54cjB3TmhGbHdCV0JWWFFqOHUtT2J5cTRZSHZUY1JQR19aM1Z1VUU3TzdrTFk5Qk1UNE9DX0g0dnprMtIBTEFVX3lxTE5GQ1Q2MF9ISHZKUzV3Tk9RSk80OFFkczhieUU1V2RtTXZ1Z0lNQ3R0c3dzamFuZWxzLVU2azlQUGZVVEYzMWFPRE5pV1Q?oc=5",
+          "description": "傅崐萁喊普發2萬！鍾佳濱嗆國民黨「胡亂加碼」：好好看看憲法和預算法  三立新聞網SETN.com國民黨拚春節前普發1萬 民進黨團樂見：傅崐萁想發2萬先說明財源  自由時報賴總統賀中秋 宣布明年普發1萬 | 青年日報  LINE TODAY總統:明年普發1萬待立院審 藍營:今年分2萬  公視新聞網PNN傅崐萁喊普發現金2萬元 行政院回應了  Yahoo新聞",
+          "publisher": "三立新聞網SETN.com",
+          "pub_date": "2026-09-25T06:54:00+00:00"
         },
         {
           "title": "李四川、蘇巧慧到底誰領先？沈政男拆解新北民調3變因 斷言「這人」贏面大 | 李瑋萱 | 新聞",
@@ -604,76 +627,62 @@
           "pub_date": "2026-09-25T03:06:38+00:00"
         },
         {
-          "title": "傅崐萁喊普發現金2萬元 行政院回應了",
-          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOYmRoNkRpN2pMclREVHBqV1hhVE9LRkYyX3psdVppMEZYTmRZNWhxZXQyVVRzMzI5NEd2T3dKWnl1RmhQcm9nQ2hoTEtMTzROd1hmRm1zUExGUkNKcEs1WUxud1htTm95TU90ZHV1SXUzbWpvclFxM1JTYlFIa0tyaDctRXRRWk42OHdPeWMtUDliYTN1SmpQN25JOUJTdUdOOURISjBUcG5TWkhfbVhad2ZQa0FGNTdveVFjazAxeWltWW54MWhNUUdmTUJVWVA5N094eDdwOFdseWVqZWczR0hueXFpWFZJdkdJX1Q0bHJmeGFyd0M3bDJrd0EySUQ1OUtTcEk2Mzl2emtUenpkVHpRSC1WZw?oc=5",
-          "description": "傅崐萁喊普發現金2萬元 行政院回應了  Yahoo新聞國民黨拚春節前普發1萬 民進黨團樂見：傅崐萁想發2萬先說明財源  自由時報賴總統賀中秋 宣布明年普發1萬 | 青年日報  LINE TODAY總統:明年普發1萬待立院審 藍營:今年分2萬  公視新聞網PNN「普發現金」攻防 藍喊2萬、綠問錢哪來  UDN",
-          "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T11:08:49+00:00"
-        },
-        {
-          "title": "北市社工涉侵占長者千萬養老金！卓冠廷提1問：沒人發現？",
-          "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxORE5rWHY5M0pyVC1idG41SDZTTHhCY05FczBFTkROR0NnTXZ3cWdiVHpaeWVPUF9nakxMQTJES2RKelp0aU4tU3Y1MnBvdGZKSDlyakx4SWNMUWpnazZwZUZ5Zzl1dXlWcHhyWHRoSzQwbmpoYTlYZEpLaG5jcUlNVXhuYWFVcnJKUFBWWDZoSDBoT0R0SWlfXzZiQkNMQTdRcWh4eWFvVzBNMW9jbjFIOXVnQWZlNXhoUTJ0UWJIYnBKWjdMdHJZOEZVMW1MeHdVWm4xME5YeVVwUlViVWFRZ1N2NUFIY2JSVVNxejVPQmhrb2U3ZE9WeFFweGlNTmxweGs0c043SnlaUWVUMkxRbG5seFMwbU81MnRWUnJtRzlheGFTTEYwZjRHSDRfWlg1bFZxTVZablVraV9NTE9zYXhBd2NVdF9GaGFmNmt2WjNIS1d3UlZJZUhMSF8zT19meHhpSU4yb1RHWUU?oc=5",
-          "description": "北市社工涉侵占長者千萬養老金！卓冠廷提1問：沒人發現？  Yahoo新聞【專家之眼】守住長者老本 先堵制度漏洞  UDN自由廣場》長者「老本」被搬光 北市府哪來主動發現？  自由評論網綠批蔣萬安「從小到老都顧不好」 北市府反擊：總統府處處是共諜| 政治  Newtalk新聞王順民觀點：別讓形式主義殺死社工專業—從「信任替代查核」 走向零信任的制度性重構  風傳媒",
-          "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T14:07:02+00:00"
-        },
-        {
           "title": "高三學長遭國三學弟刺頸 侯友宜探視拜託醫院全力救治",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kZVY3c205S1Y4ZkJYMXVrMFdSVGFQRHlDd3RrZG9XS3ZxSXVnTDFFTnU4RjBxeWJlR2FOM1l2UDdtWjJyVEpxSTdURGlkcjY1UHYxVUUxMklrRVJBczlsTHlqTjlxbDYz0gFuQVVfeXFMUGRuVnpZVUZNV3ktZWhyOExadHp5dEtNdHozVm9odlRGTFZsZTB4bTk0MGRUbTFPZk5SZTVQVEVSaDR0Y19kTVNRaDllREN5ZU1SeGl5TjFSMEhJMDR4elhwWURFVVdSOUF4UTJJVkE?oc=5",
-          "description": "高三學長遭國三學弟刺頸 侯友宜探視拜託醫院全力救治  自由時報新北高中生遭學弟刺傷 受害者完成手術 行凶國中生裁定收容  Yahoo新聞學生再遭割頸扯出少事法修正卡關 司法院：6月2日即送行政院會銜  UDN獨家／高三生遭刺頸一度命危 家屬泛淚急赴醫院  東森新聞瑞芳少年刺頸案楊承勳父母籲修少事法、重視校安| 地方  中央社 CNA",
+          "description": "高三學長遭國三學弟刺頸 侯友宜探視拜託醫院全力救治  自由時報新北高中生遭學弟刺傷 受害者完成手術 行凶國中生裁定收容  Yahoo新聞學生再遭割頸扯出少事法修正卡關 司法院：6月2日即送行政院會銜  UDN瑞芳少年刺頸案楊承勳父母籲修少事法、重視校安| 地方  cna.com.tw獨家／高三生遭刺頸一度命危 家屬泛淚急赴醫院  東森新聞",
           "publisher": "自由時報",
           "pub_date": "2026-09-24T12:12:59+00:00"
         },
         {
-          "title": "中秋憾事再添一死！台東出遊遭對向超車猛撞 一家2死3傷",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CazJtUS1VYmo1MnNFWkRtZ2dfelQyVHJVeVdBLWhteXJOakpEbHNmN2czXzJJNnppWGR2dUYzZXgxUXd4M3F0NGQ0a3BoZjVs0gFWQVVfeXFMUDgtSENQSVUxcUtjaHpNRVE5N1FvQzZjYTFfMi0wdFdEclE0N21lb1pJTExjRVhxOW5QUEk1RF9GSnFMdUZUX0NZd3NYSk9aRm5UdmxFTmc?oc=5",
-          "description": "中秋憾事再添一死！台東出遊遭對向超車猛撞 一家2死3傷  UDN中秋團圓遇憾事！祖孫三代花蓮出遊遭撞 1死2昏迷2輕傷  Yahoo新聞疑超車不當 台九線富里鄉羅山村路段兩小轎車相撞一死五輕重傷  更生新聞網中秋團圓遇死劫 花蓮重大車禍1死5輕重傷…車頭全毀35歲女不治  UDN中秋出遊遇死劫！單親媽遭拋飛亡 外公也宣告不治  東森新聞",
-          "publisher": "UDN",
-          "pub_date": "2026-09-25T12:10:03+00:00"
+          "title": "謝國樑選情危險？盧秀燕中秋節鬆口：很掛心",
+          "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxNZkpmSFFaakFjNHc5S0FONXBqaWExNGp1azZZMmxfOXRPLU1NNk1CdE1ERk5YMXFvWE1ZbmRPVkM5bnNxY3pSRGJlUG43dkxlTEdQaHRoSUpnN0NzT1E4QlZ1WkFpa0Vaand3MV91MEVkclpFUUNJTUxfTFpVczUwRnoyMFJNcS1vQVF1QWQwbEZ4UTBkT1BybHRHTkh4Nm41LWhzalpHeUZoMjVIZ3NkV3k2N1RmUE1lUUkxdndoRmJIOWlkNnVpZWR3cnZrTFFyTExGdFlhNlJBcVVzbHFqUjNVZU52bmFYNklXY1ZCS3RzRFg3dE1OX2YzZkNyZUhzMWtDa3pUNm9nbU9ZelJocUtQNW9UbHdyb3lMRHJzelAtdXlIUTBGUjlRdFJCQQ?oc=5",
+          "description": "謝國樑選情危險？盧秀燕中秋節鬆口：很掛心  Yahoo新聞影／證實美方希望邀她再去訪問 盧秀燕：但還是要看時間  UDN中秋節返回基隆合體力挺謝國樑 盧秀燕認了「很掛心」選情  Yahoo新聞美再邀訪盧秀燕！謝國樑：她未來要服務國人 | NOWNEWS今日新聞  LINE TODAY盧秀燕走訪基隆仁愛市場 大啖美食談市政建設  大纪元",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-25T05:39:06+00:00"
         },
         {
-          "title": "震撼畫面曝！中壢萬人封街烤肉邁入24年 民眾：繼續辦下去",
-          "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxQbHM0RmpJUllqelpoRXZBOU5fb0l5TTZZbG9JNjAzWlpVaUhWUURQaTctSzNlYnRaeGRxSTNNUF93WXVwVi0xRW1KNW9wRlVYeU1SWm1pYm1ybF8wTW55aUNQQTE0cXpjYkh5bEc4TjVITXdmNzZvLVVGSzF3OWZYbkUwTE4wSmczbzNOWHdGaG5uMGowX2pockU2Y2J6X0p6NFNaeDVZVGpiUFVXdmhPQ2NzOVlaemEwMHdELVd4ZFNKUU1UdEVuUHNFWUg5UXpWT05PektucF9RVTJCZlhGcTZTRFh3Z0FMNzVhQVpTeWs0bFZYY0trU19KNzFLUUw5MU9PZFBMV2ptUVBpZHoxLXdHMFo4S0F4Y0NTbmh2LXdZM3IwYnVvWGN2Y0RkVzBlaFNNdENsdmctTjBQY2ZlUEtUS1BtWmliSGJGYXRtM0tISkFPNnNfcWdGYWtnU1pUSmlPczgwSG1SQ0Y1M0E?oc=5",
-          "description": "震撼畫面曝！中壢萬人封街烤肉邁入24年 民眾：繼續辦下去  Yahoo新聞前往 Google 新聞瀏覽更多頭條新聞和觀點",
+          "title": "中秋出遊遇死劫！單親媽遭拋飛亡 外公也宣告不治",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85X0xla2lPbHAxZXBKWHI0Y0Fhc0Fhel96bFVQSUdSSldEaVRmOEwyS2FRWjlJX3dYb0dyUC0wUDJ0MGJLY3ZucEVTdENlNGczYmVCRm13?oc=5",
+          "description": "中秋出遊遇死劫！單親媽遭拋飛亡 外公也宣告不治  東森新聞中秋團圓遇憾事！祖孫三代花蓮出遊遭撞 1死2昏迷2輕傷  Yahoo新聞疑超車不當 台九線富里鄉羅山村路段兩小轎車相撞一死五輕重傷  更生新聞網中秋團圓遇死劫 花蓮重大車禍1死5輕重傷…車頭全毀35歲女不治  UDN討論牆 | 中秋出遊遇死劫！單親媽遭拋飛亡 外公也宣告不治  LINE TODAY",
+          "publisher": "東森新聞",
+          "pub_date": "2026-09-25T11:46:00+00:00"
+        },
+        {
+          "title": "不邀沈伯洋上節目！白冰冰稱媒體都綠的 學者打臉：藍營塑造的錯誤說法",
+          "link": "https://news.google.com/rss/articles/CBMivwNBVV95cUxQQ2oxWV85T2JpZERjX2VNbzNEcEdXdFlqYjhYWU1TS21RaXhiRkxwSUk2T2FaVmhuZWFHX1Z2bm9EdUFIU3VBTWJOemJjMFdjZlhESXJNY0ZVMXI3WEEya0xWYWNDX3IyeWFvODZ4VUEwQzZCc0pIYzJ6T2Q1MnhlT045QmZuSEpKeTdYeEhkcWVsV3RqWDFJbE1zd2RoMVNYTjN4bnk3OFd3cDU4QUpPUE5JRUZTY2UwMlM2Nk5RLUxkdzBGb0w0cS1pdWJjbzVveHNGcDJwRUE0ZWdmR2VGby00alBFeVl6VTRQZFRsYzY0Y0pjN0pFanZZZEJVWU11RlZFQUx1YjJrVXQyODhnMVBGWmVta3NtUnQ4TEhDbkJibWlEYVp5cFpIWkNPcEFHRDBLY0pOamZNUXI2Q2czbTNZM0JtbDFxZWRxN182aGV1NFhIQzI4TG5Vb196SFlvR1J0VjB0UHRsNXF5ckZLUDBMT1ZLdkZtZXVfbFdLc1d5bllNYktWT0dlZVpkUVdnX2V1N2hXNGFaMXRab1JqN2N1QzZ4aFlLRkFQRlN0UUY0WU9LdlhjYWhNdi01enM?oc=5",
+          "description": "不邀沈伯洋上節目！白冰冰稱媒體都綠的 學者打臉：藍營塑造的錯誤說法  Yahoo新聞訪沈伯洋遭批「一世英名毀於一旦」 王偉忠發文回應  Yahoo新聞沈伯洋上王偉忠節目破300萬觀看，蔣萬安專訪還在安排！徐嶔煌：市長應親自回答市政問題  放言Fount Media沈伯洋為王偉忠抱不平曝李四端訪前談40分鐘動漫| 2026九合一選舉  UDN王偉忠訪沈伯洋爆棚，一篇《我只是做了一場訪問》更圈粉！科技",
           "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T11:08:00+00:00"
+          "pub_date": "2026-09-25T08:28:00+00:00"
         }
       ],
       "world": [
         {
           "title": "黃仁勳、蘇姿丰等4科技巨頭坐主桌 川習會白宮國宴座位曝玄機",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00NVFkeGd3eXFrSWVqSklKOU1jeFBCX0JnTDlLLWlUUHhDdmRkc2pFRGo0VlhSd0VyZ2ltaVJKZkE0MmhFSjJnbDZ6Tmo2TEpLcmFYU01OSC1iSDhJeTcw0gFkQVVfeXFMTy1SVFlGNkVydllmVmIxN21leW5nRGROWTR5N1ZudUVRSzUza0Y2QjdKQnBXeUVZUjBJY2sxVU5Id1hMUVFWbzFrUGZ4bGI2TUtNYlhrbFdSVE1MVUN3TzMwd3J1Zw?oc=5",
-          "description": "黃仁勳、蘇姿丰等4科技巨頭坐主桌 川習會白宮國宴座位曝玄機  自由財經習近平訪美最後一天 參觀國家檔案館後返華  BBC習近平離開華府啟程返中 川普發文預告11月、12月再會  Yahoo新聞川習會｜門一關先談台灣，習近平談話2細節耐人尋味  天下雜誌黃仁勳、祖克柏、貝佐斯、馬斯克、庫克等…川習國宴科技大咖雲集| 川習二會聚焦| 全球  UDN",
-          "publisher": "自由財經",
+          "description": "黃仁勳、蘇姿丰等4科技巨頭坐主桌 川習會白宮國宴座位曝玄機  ec.ltn.com.tw川習會｜門一關先談台灣，習近平談話2細節耐人尋味  天下雜誌川習會後再約兩場！川普預告11月、12 月再會  tw.stock.yahoo.com川普國宴款待習近平 稱兩人關係「空前的好」  公視新聞網PNN中美關係內涵再擴展 基於尊重、公平、對等的建設性戰略穩定關係  經濟日報",
+          "publisher": "ec.ltn.com.tw",
           "pub_date": "2026-09-25T14:59:44+00:00"
         },
         {
-          "title": "川習會後川普首發聲！拋人工智慧改名預告「重大事情」即將發生| 川習二會聚焦| 全球",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aSkV0NlBBR2JONy00NHRfbXpDbXNUZERUeWVKRnlvd0VDS3VjeUtIYks3VEw2aU13eVFaUFI2UWM2Y2Jsa0Eta3dPbnBKRWpLa0xJ?oc=5",
-          "description": "川習會後川普首發聲！拋人工智慧改名預告「重大事情」即將發生| 川習二會聚焦| 全球  UDN美中貿易談判新進展！格里爾：部分商品已達成協議、下週一公布更多細節  news.cnyes.com美貿易代表：美國對中國大陸貿易赤字縮減近4成  經濟日報美中貿易休兵協議期限將屆 美國宣布延長至明年1月10日  公視新聞網PNN川普稱與習近平會晤「相當有成效」 預告將有重大事情發生  Yahoo新聞",
+          "title": "「雙方已達成協議」美國貿易代表：28日公布與陸貿易談判細節",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LZlpsdlBLMm9TNnN0RlZCQU02OW1CRDNTclE5OVNxNDRWeW9DakJzZ0ZtcGtrT0ZfYnZVZ1pzMjl6c2htMUhOamZsN1J3V1lvcERN0gFYQVVfeXFMTUg0MDZ6ZUhMNFBSVUU1UG55bzh3dHRfcEZQWThHV2ZndkdJN1RpME9BVThqRkNiN09US3hiUXE3NUMwdE1kdlYtT1N3OHVmblE5OThLYmdCWQ?oc=5",
+          "description": "「雙方已達成協議」美國貿易代表：28日公布與陸貿易談判細節  UDN川普：美中會談成果豐碩 習近平認同AI改名「超級智慧」  UDN川普：與習近平會晤富有成效 將有重大事情發生  tw.stock.yahoo.com美中貿易談判新進展！格里爾：部分商品已達成協議、下週一公布更多細節  news.cnyes.com美中貿易休兵協議期限將屆 美國宣布延長至明年1月10日  公視新聞網PNN",
           "publisher": "UDN",
-          "pub_date": "2026-09-25T12:59:49+00:00"
-        },
-        {
-          "title": "伊朗總統：無意繼續交戰　是否停戰由美國決定",
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOLUtmNlRQZWFnVEF2dEpQQWVaNWc2LVJVODZWVERoc004aDRVT0d1bzRfdzVkNTlvQnAxSTZPUEl6UXpSZjhRatIBTEFVX3lxTE01TjRGWkpxT0JBc3lBdmtNdGE1bkdZYk92NUJIZmt3VkRBU1o2OWFfaFFacFoyblZLQ2xNdDBVdEJxaVY2TG1GV1ZXWEQ?oc=5",
-          "description": "伊朗總統：無意繼續交戰　是否停戰由美國決定  三立新聞網SETN.com美伊戰爭露曙光？傳紐約密談「分階段停戰」 布蘭特、WTI價差創5月來新高| 財經  Newtalk新聞川普稱伊朗選後才達協議伊朗總統：盼美選前回歸諒解備忘錄- 財經新聞  玩股網伊朗提和談新方案美伊交涉分階段結束戰爭- 國際  工商時報伊朗不想打了？拋新方案給美國 「答應的話荷莫茲7天內開放」  UDN",
-          "publisher": "三立新聞網SETN.com",
-          "pub_date": "2026-09-25T08:27:00+00:00"
+          "pub_date": "2026-09-25T14:35:45+00:00"
         },
         {
           "title": "川普突喊AI改名「超級智慧」！　川習會後預告：重大事情將發生",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBlbzBMckdVQk52eVJ4TlB4R0J3clRmU0VrNlRjV08yX0V5bktqeGNSdWRkYmpZb2JZX1Q1YXQyeVpKOTNGSU4zS3h1U0hUX0QySFJ0TDRPeFdGWVlpaXfSAUtBVV95cUxQemFOZnZxc1drTW8yR25GYU55MncyRlprYUg3V2tSa0F1ZUEteHBwMVp4TTBxTnJPeTNSWjVseF9Ga202dzU1T1hYM28?oc=5",
-          "description": "川普突喊AI改名「超級智慧」！　川習會後預告：重大事情將發生  ettoday.net川普拋AI新詞「超級智慧」！震撼預告：川習會後將有大事發生  Yahoo新聞川普宣布 美財長貝森特不會兼任AI沙皇  UDN川普聯大演說後 美國務院下令外交官改稱AI為「SI」  LINE TODAY川普淡化AI安全風險仍布局CRWD/PANW等資安股- 新聞  MoneyDJ",
+          "description": "川普突喊AI改名「超級智慧」！　川習會後預告：重大事情將發生  ettoday.net川普宣布 美財長貝森特不會兼任AI沙皇 | 國際焦點 | 國際  經濟日報川普拋AI新詞「超級智慧」！震撼預告：川習會後將有大事發生  Yahoo新聞川普聯大演說後 美國務院下令外交官改稱AI為「SI」  LINE TODAY川普淡化AI安全風險仍布局CRWD/PANW等資安股- 新聞  MoneyDJ",
           "publisher": "ettoday.net",
           "pub_date": "2026-09-25T14:10:00+00:00"
         },
         {
-          "title": "派出所突傳槍響！19歲嫩警值勤「拔配槍自轟」 搶救多日傷重不治",
-          "link": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQOWtSUktqUDlRZjZscjJub1ZWOVpsLWwtY3FPaEFPd3IzNDF1TGhBTmt4S0pxYnR3RVFJanZrbHB2ZHVqbk1UcjdDOElVZkpYZE9NdW5uUnRDemkxTWFVTzl0YnM4a0VKQ2FhVmxqa1NTYW9rUVEwSjRCalRnUnJYel9vV0dLNEVZbS1lM2NNQ0VfTEU3UU5Tak4xV0RSaWxRNXF5ZUtSbVg5QnJGUlU2R2Q2dFFXTzI0QXl6bDczNDQ4NkNuMVh4RTg5VTlNdGl0ZG5GRzh5UzRWSDhhbGMzNjBzNHdPTW03Z2wxUGtUSWpEeTMxUlBVWlZ6NGJzbExVVWJEc0J4alRBdzRVc3lpWUlqWW1Qdm9aeHYzLTV2ejltbGZ4bndlSmtkYlY1RGJwUkktZV9EdWk1a0VBTlRrd3pxX3NyOUVMRG5sMzdsazV1TzBySUJFTEY0NEdzdm5HcnVlc2Z2eUtkQk1HOENlaDFsaTNkMWhIZ0RHOVNDT3NwRnFxUHc?oc=5",
-          "description": "派出所突傳槍響！19歲嫩警值勤「拔配槍自轟」 搶救多日傷重不治  Yahoo新聞前往 Google 新聞瀏覽更多頭條新聞和觀點",
-          "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T11:39:00+00:00"
+          "title": "伊朗總統：無意繼續交戰　是否停戰由美國決定",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOLUtmNlRQZWFnVEF2dEpQQWVaNWc2LVJVODZWVERoc004aDRVT0d1bzRfdzVkNTlvQnAxSTZPUEl6UXpSZjhRatIBTEFVX3lxTE01TjRGWkpxT0JBc3lBdmtNdGE1bkdZYk92NUJIZmt3VkRBU1o2OWFfaFFacFoyblZLQ2xNdDBVdEJxaVY2TG1GV1ZXWEQ?oc=5",
+          "description": "伊朗總統：無意繼續交戰　是否停戰由美國決定  三立新聞網SETN.com傳美伊談判分階段終戰 讓荷莫茲重啟、美結束封鎖  rti.org.tw美伊戰爭露曙光？傳紐約密談「分階段停戰」 布蘭特、WTI價差創5月來新高| 財經  Newtalk新聞川普稱伊朗選後才達協議伊朗總統：盼美選前回歸諒解備忘錄- 財經新聞  玩股網伊朗不想打了？拋新方案給美國 「答應的話荷莫茲7天內開放」  UDN",
+          "publisher": "三立新聞網SETN.com",
+          "pub_date": "2026-09-25T08:27:00+00:00"
         },
         {
           "title": "歐洲多國示警 俄羅斯恐將發動「混和戰」",
@@ -692,44 +701,44 @@
         {
           "title": "胡塞武裝，憑什麼這麼難打？因為堅決不建國，因為借鑒中國游擊戰",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aYUZzVVdGZDEwRDNCcFVKU0JxaVhqMW5WZHVjd2ZpTVRZRU9sbkZsSEZKbnA5eW5JQU56OUgwV0Z6aHc2c3hiVHl2dlprNnJnS3oxRQ?oc=5",
-          "description": "胡塞武裝，憑什麼這麼難打？因為堅決不建國，因為借鑒中國游擊戰  《超越新聞網》保護石油運輸 法國將向沙烏地派兵  中央社 CNA青年運動武裝攻擊升高 中東盟友聯手挺沙烏地| 中央廣播電臺  LINE TODAY葉門叛軍飛彈襲沙國 希臘軍人操作愛國者系統擊落  rti.org.tw沙烏地籲軍人做犧牲準備對抗青年運動 土耳其與巴基斯坦啟動聯防援沙  Yahoo新聞",
+          "description": "胡塞武裝，憑什麼這麼難打？因為堅決不建國，因為借鑒中國游擊戰  《超越新聞網》保護石油運輸 法國將向沙烏地派兵  cna.com.tw青年運動武裝攻擊升高 中東盟友聯手挺沙烏地| 中央廣播電臺  LINE TODAY沙烏地籲軍人做犧牲準備對抗青年運動 土耳其與巴基斯坦啟動聯防援沙  Yahoo新聞葉門叛軍飛彈襲沙國 希臘軍人操作愛國者系統擊落  rti.org.tw",
           "publisher": "《超越新聞網》",
           "pub_date": "2026-09-25T02:45:42+00:00"
         },
         {
           "title": "一通電話施壓澤倫斯基！川普連喊三次「柴油」 要求烏停止攻擊俄羅斯煉油廠| 國際焦點| 全球",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9vRjl6MmhlcGNvTWNMcFppd1lHQW8wMVJPcWpRZE9YTGFKR0RuRkRuV2RySXM0RElubkk3QTR4UHBOWmtaV3NOWENnbVRRc0w2?oc=5",
-          "description": "一通電話施壓澤倫斯基！川普連喊三次「柴油」 要求烏停止攻擊俄羅斯煉油廠| 國際焦點| 全球  UDN澤倫斯基：美提議在阿聯舉行美俄烏三方會談| 國際  中央社 CNA川普態度逆轉 澤倫斯基：美授權烏克蘭生產愛國者飛彈 | 中央廣播電臺  LINE TODAY澤倫斯基與川普談能源設施停火！烏克蘭願與俄羅斯對等停手，未承諾單方面停止攻擊煉油廠  Yahoo新聞影／在紐約被追問「何時去莫斯科」　澤倫斯基",
+          "description": "一通電話施壓澤倫斯基！川普連喊三次「柴油」 要求烏停止攻擊俄羅斯煉油廠| 國際焦點| 全球  UDN澤倫斯基：美提議在阿聯舉行美俄烏三方會談| 國際  cna.com.tw川普態度逆轉 澤倫斯基：美授權烏克蘭生產愛國者飛彈 | 中央廣播電臺  LINE TODAY澤倫斯基與川普談能源設施停火！烏克蘭願與俄羅斯對等停手，未承諾單方面停止攻擊煉油廠  Yahoo新聞影／在紐約被追問「何時去莫斯科」　澤",
           "publisher": "UDN",
           "pub_date": "2026-09-21T10:53:00+00:00"
         },
         {
-          "title": "高市早苗籲廢「舊敵國條款」再觸動日中敏感神經| 國際",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWDlWY3RXSnlLcGVka1ZBa0JMVHZYZTUwSnhyTFFteldzZVV5Szd2NmN2MXBIeFE1UUtTSm1yM281NFF6aGdOU2ZUZWRHdTFydDBJcHZCWkE5NS0xMy1R?oc=5",
-          "description": "高市早苗籲廢「舊敵國條款」再觸動日中敏感神經| 國際  中央社 CNA高市早苗抵紐約「對空氣揮手」？日網友轟：新聞預算花哪去了  Yahoo新聞高市抵美無高官接機 日社群熱議：高市政府外交 相當危險  UDN川習會前高市搶先見川普日媒：美日對大陸立場出現溫差- 國際  工商時報川習會前夕高市早苗會晤川普 盧市長再次呼籲中央儘速召開國安會議  taichung.gov.tw",
-          "publisher": "中央社 CNA",
-          "pub_date": "2026-09-25T10:40:00+00:00"
-        },
-        {
           "title": "聯大代表集體退席！ 以色列總理納坦雅胡怒斥「道德懦夫」",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53S1did29TVkNRTmZsWFh0Ukk0V0RZR0JTYzdQRW9PemNESXNjdDFfOWZWbUpfNmpqdUdxalROOVZPc0dTNGJWeUhGX3ZYTjBXY0JpR2JyZ3owZGxjMFZDOHRLTXNIQdIBa0FVX3lxTE1zbmQxcFRDdVVpeG81cVdqeklvVzY2TWtZX2puaFVlNDVUbjNSMVZCQm1SWGZLS0VZN2hDdXBKQnR2dHVPQVdJRWtyWnJ5WFBlNkNKVnl2V0wxdVFBUWVVaDdzQ0lmZ3BSc2FB?oc=5",
-          "description": "聯大代表集體退席！ 以色列總理納坦雅胡怒斥「道德懦夫」  自由時報尼坦雅胡聯大演說砲轟敵友好萊塢影星場外抗議被捕| 國際  中央社 CNA納坦雅胡登聯大演說 多國代表退席抗議  公視新聞網PNN尼坦雅胡聯大演說砲轟艾爾段「暴君」土耳其怒斥 | 中央廣播電臺  LINE TODAY內唐亞胡稱加薩種族滅絕是「謊言」 聯大噓聲一片多國當場離席  UDN",
+          "description": "聯大代表集體退席！ 以色列總理納坦雅胡怒斥「道德懦夫」  自由時報尼坦雅胡聯大演說砲轟敵友好萊塢影星場外抗議被捕| 國際  cna.com.tw納坦雅胡登聯大演說 多國代表退席抗議  公視新聞網PNN尼坦雅胡聯大演說砲轟艾爾段「暴君」土耳其怒斥 | 中央廣播電臺  LINE TODAY內唐亞胡稱加薩種族滅絕是「謊言」 聯大噓聲一片多國當場離席  UDN",
           "publisher": "自由時報",
           "pub_date": "2026-09-25T00:41:23+00:00"
         },
         {
+          "title": "高市早苗籲廢「舊敵國條款」再觸動日中敏感神經| 國際",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWDlWY3RXSnlLcGVka1ZBa0JMVHZYZTUwSnhyTFFteldzZVV5Szd2NmN2MXBIeFE1UUtTSm1yM281NFF6aGdOU2ZUZWRHdTFydDBJcHZCWkE5NS0xMy1R?oc=5",
+          "description": "高市早苗籲廢「舊敵國條款」再觸動日中敏感神經| 國際  cna.com.tw高市早苗抵紐約「對空氣揮手」？日網友轟：新聞預算花哪去了  Yahoo新聞高市抵美無高官接機 日社群熱議：高市外交 相當危險  UDN川習會前高市搶先見川普日媒：美日對大陸立場出現溫差- 國際  工商時報川習會前夕高市早苗會晤川普 盧市長再次呼籲中央儘速召開國安會議  taichung.gov.tw",
+          "publisher": "cna.com.tw",
+          "pub_date": "2026-09-25T10:40:00+00:00"
+        },
+        {
           "title": "現場畫面曝！大陸記者卡位搶拍習近平爆推擠白宮、特勤局人員硬起來| 川習二會聚焦| 全球",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1uZUlBUlNEdG9tM0h0dWIyWk5ra1FFdWpnTlNCTzkxVFI5U2hnYWlaTnBzWmxWNmpqVDA3UUlKaW9MTVNPTUFrcDhxdnZ6cEZ1clJr?oc=5",
-          "description": "現場畫面曝！大陸記者卡位搶拍習近平爆推擠白宮、特勤局人員硬起來| 川習二會聚焦| 全球  UDN習近平訪美國家檔案局示威與歡迎團體高聲對峙| 國際  中央社 CNA中國記者團推擠卡位 與白宮及特勤局人員爆發爭執  rti.org.tw習近平訪美下榻飯店外布滿鐵網路障 不明分子現身監控抗議者  經濟日報王丹殺到華盛頓抗議嗓子都啞了 喊話習近平：反對中共獨裁、侵台  Yahoo新聞",
+          "description": "現場畫面曝！大陸記者卡位搶拍習近平爆推擠白宮、特勤局人員硬起來| 川習二會聚焦| 全球  UDN習近平訪美國家檔案局示威與歡迎團體高聲對峙| 國際  cna.com.tw中國記者團推擠卡位 與白宮及特勤局人員爆發爭執  rti.org.tw習近平訪美下榻飯店外布滿鐵網路障 不明分子現身監控抗議者  經濟日報王丹殺到華盛頓抗議嗓子都啞了 喊話習近平：反對中共獨裁、侵台  Yahoo新聞",
           "publisher": "UDN",
           "pub_date": "2026-09-25T10:49:23+00:00"
         },
         {
-          "title": "伊朗精準襲擊美軍！CNN：中國情報成關鍵",
-          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPMU1sT2phQnotSUJ4aHVpSk9PZkpVS3RJOVdXbDBadHRfc2VXVGdaOGNmYmU5dUNGRVQ5SXBmVThqRlNDYlNiSjVCZG1vdHliTnRTRlNnMkd2VWY1enlRSUV1bXZtVUU0Znd6RHdOME5pOGZfRXZRVFg2NmNIc3FBa1Flb1ZyVjFvd01sTU80OVFieFA0TW1oVG43TUdNUjlpTW1KYXlHUy11WU84QnRva01CeE1ua1VneU9MUHlualRnYVlsQ1ZwUk1BU3BWdFk2bExYRXlKd0dac3RKWE1JdWFuTU50QmVuaktZekhCQ3JKdkVDaFlSREdJYm8tLTQ3NEctdjZVZGh5clV2WlE?oc=5",
-          "description": "伊朗精準襲擊美軍！CNN：中國情報成關鍵  Yahoo新聞共和黨議員憂川普厚待習近平質疑中國助伊朗鎖定美軍| 國際  中央社 CNA川習會談後　美駐中大使：對台政策沒有改變  經濟日報美議員籲川普促中共停止支持伊朗  大纪元伊朗對抗美國的秘密武器：來自中國的支持  华尔街日报中文网",
+          "title": "英語強過老公？彭麗媛不需翻譯暢談拜倫",
+          "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOY3ZWOXFMVWJESHRJZlVVNFhkTGdrQ3ByVEpndTloWjBsZ0RWTVAxQTBUMFJ2c0N5Sk5kZ1Zrc0dLNmdaTUg1RHNLd2pVNHZTSDRpWmp5ZEJqUksxWGZYNFdDdC1lSWdiZ1FXU2ZlQ201b3JNb1V0V2RpY3VkeTJaeDVaS0hLb09aRkVZS1UzXy1lTHlkX2FRbHBBWHA0eW9SMHBCMEV0T3FkY2poWS00MDg2enc1NlJEb25hN3pVQ2NKMUtvS1JJc3hxZUViQUNnMnY4eVZwNXZZWnE5Q1lhV0tUTGMxSVFzNFoyUmMyRDV5dUNKNHprRlQ4bTNUa1VVVzJndFpxMl9UVDM4TWFMekU0TWtQM2pHQ2RTaENYSmI?oc=5",
+          "description": "英語強過老公？彭麗媛不需翻譯暢談拜倫  Yahoo新聞梅蘭妮亞、彭麗媛國宴穿搭大不同！美媒：宛如川普、習近平走不同路線  UDN川習會在華府登場第一夫人行程與時尚同受矚目| 國際  cna.com.tw川習二會》路線之爭？元首夫人們穿搭洩端倪外媒點背後寓意- 國際  中時新聞網川普邀習參觀國家檔案館 有何象徵意義  大纪元",
           "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T11:03:30+00:00"
+          "pub_date": "2026-09-25T09:08:13+00:00"
         },
         {
           "title": "烏克蘭發動大規模無人機攻擊擊中莫斯科地區煉油廠| 國際焦點| 全球",
@@ -739,69 +748,76 @@
           "pub_date": "2026-09-20T11:54:18+00:00"
         },
         {
-          "title": "川習會國宴不穿禮服！梅蘭妮雅黑褲裝+蝴蝶結上衣　盡展俐落風格",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBZak1NakpnelJKbFAxSjRCSVVtVlo4ZmJlN3QzZXNsSFlmd3NnVUw0R0c5S1ZxaGdwdi1yQ1M4ZTViVU5CbURnUkcwSDTSAVJBVV95cUxPc2ZaeXR1OUI1T0lYZGRwM3NkOGtNVkhHN0lmZGMybDVtdkk1THdiblR1Zkd6dzFnM3I3MlRSQ0Z3Z3V6aW5QamtnRjFGY25paUJn?oc=5",
-          "description": "川習會國宴不穿禮服！梅蘭妮雅黑褲裝+蝴蝶結上衣　盡展俐落風格  NOWnews今日新聞英語強過老公？彭麗媛不需翻譯暢談拜倫  Yahoo新聞夫人外交 彭麗媛、梅蘭妮亞穿搭微呼應  UDN川習會在華府登場第一夫人行程與時尚同受矚目| 國際  中央社 CNA夫人同框比一比！彭麗媛踩同色高跟鞋拉身形高盤髮藏巧思- 兩岸  工商時報",
-          "publisher": "NOWnews今日新聞",
-          "pub_date": "2026-09-25T00:12:10+00:00"
+          "title": "伊朗精準襲擊美軍！CNN：中國情報成關鍵",
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPMU1sT2phQnotSUJ4aHVpSk9PZkpVS3RJOVdXbDBadHRfc2VXVGdaOGNmYmU5dUNGRVQ5SXBmVThqRlNDYlNiSjVCZG1vdHliTnRTRlNnMkd2VWY1enlRSUV1bXZtVUU0Znd6RHdOME5pOGZfRXZRVFg2NmNIc3FBa1Flb1ZyVjFvd01sTU80OVFieFA0TW1oVG43TUdNUjlpTW1KYXlHUy11WU84QnRva01CeE1ua1VneU9MUHlualRnYVlsQ1ZwUk1BU3BWdFk2bExYRXlKd0dac3RKWE1JdWFuTU50QmVuaktZekhCQ3JKdkVDaFlSREdJYm8tLTQ3NEctdjZVZGh5clV2WlE?oc=5",
+          "description": "伊朗精準襲擊美軍！CNN：中國情報成關鍵  Yahoo新聞共和黨議員憂川普厚待習近平質疑中國助伊朗鎖定美軍| 國際  cna.com.tw美駐中大使：川普告訴習近平 中國協助伊朗不可接受  自由時報美議員籲川普促中共停止支持伊朗  大纪元川普與習討論伊朗戰爭稱重啟荷莫茲會有很好成果| 中東戰火連綿| 全球  UDN",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-25T11:03:30+00:00"
+        },
+        {
+          "title": "川習會「雷聲大雨點小」？《彭博》：台灣、AI、關稅問題仍懸而未決",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFByMExYQzI1Y0dpSEpzV2R5VjFPTkRUdjNrQ09vaHlGeXVzSXJWTFBvZFpEdk9UUnlBOXlWMldCeFJfMU1HcVZMek01UDJZblU?oc=5",
+          "description": "川習會「雷聲大雨點小」？《彭博》：台灣、AI、關稅問題仍懸而未決  news.cnyes.com貿易逆差驟減能源戰升溫 美中稀土爭奪牽動全球供應  tw.stock.yahoo.com休兵有期　競爭無期的美中經貿關係  forum.ettoday.net盛大接待短暫休兵 川習會難解分歧  經濟日報習川二會將如何改寫全球供應鏈規則- 日報  工商時報",
+          "publisher": "news.cnyes.com",
+          "pub_date": "2026-09-25T08:00:05+00:00"
         }
       ],
       "business": [
         {
-          "title": "美債大逃殺 股市風暴來襲？阮慕驊點名「3類股」最危險快去槓桿",
-          "link": "https://news.google.com/rss/articles/CBMijgNBVV95cUxQTXVtb21YUjRoMEo5Xzd5MnNja2NYZ0F4X195SW9rZEc0SWYzV0t2R2ZCdWhGaWRxVEdLYjZPZmhtRTZNYjFqMGdqUEZmV0Y4dmdBZkhrRGVJb0tzblM4X0Nicm9wUk1Pekxpd0lfV2kwdjM5c3FXY2JXaHpLTE5PS0t3cG5nME5IZ2JBUXI2ZlR5XzJlcUlaWHo2UEFhSEZ3Zk91NXJUaWF6TkNobW9tSkNZV3hqZTZIeEpjRzJyWUxTMWZpaGg2REJoQlNIeFI3VnZ3TFB0SmpZblFxZm9BTDQ5RFREUWJUdkdyTXlqMGJuRmpVMm1RZ192bk5wTnB4M0dOMkpmdm1rdTd0Y1ZUN2JrcklpUXAxMmZpSGViOWdxU19xLWNCZ0E0MGZJTnl0VkFmcFZZU0hqUHZVRGpWMGhFSkVuaTVHTlFlaGR1T2VKREFLVnR5Z3lkZ2ZJcm55SWkyYk94TjhYMGd3SnA3cXpnOC1RUlJsSjhkLU5VamdWS3pJNmxYNzZZU3A1Zw?oc=5",
-          "description": "美債大逃殺 股市風暴來襲？阮慕驊點名「3類股」最危險快去槓桿  Yahoo股市美股重點新聞摘要2026年9月25日  鉅亨網美債殖利率飆22年新高！前雷曼交易員：恐重演1987年股災  Yahoo新聞股民最怕來了！30年美債殖利率飆破5.5％ 創2004年來新高  自由財經美10年債衝上5.22%！阮慕驊示警台股1狀況：不能再假裝看不見  三立新聞網SETN.com",
-          "publisher": "Yahoo股市",
-          "pub_date": "2026-09-25T09:35:31+00:00"
+          "title": "美債殖利率飆22年新高！前雷曼交易員：恐重演1987年股災",
+          "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPcHBwb1d4QkhCNkRpU0FrS01GbVZSVF9EZEtoZXB1bUFyMWpPS3czcWlxeWctWl82cVZYLXRDYmpxV1hJTUo3cnpWanlTWDVtVTZQR3dQQjI1QnBNS2RZR0pmZnEza2VTdEtfbXVGVGdfaGxtMXh2OE1OQldLNm1mWlV4X0RCZVZlRnhGR2hUQW1SeGxvcTVQQmdTUlU0ckFKMUE1TzVYR0VoNnhvMjlYUFg2WFdZQzc2XzF5YnVJcHhqeDB5cENHUFNXMG53M3ZOUWQ2QVhXQ1Y1dVgzSWRJR1cxUnVTWlk4WXB5Y0dsbTJ6d3VHWkoweEFGVTJmWWNWYXNSTU9FR1Y5OWFWWm5DVVlZSXlwbW4yX1E0RTdXWnB6bWZ4dnhrOEt2UmlQYTFKWHIyVVdIQnNLcTFVNW1pdHRwOE9XY21NM3JMQ1Q3OUFiTEZ5WElGNl9B?oc=5",
+          "description": "美債殖利率飆22年新高！前雷曼交易員：恐重演1987年股災  Yahoo新聞美股重點新聞摘要2026年9月25日  鉅亨網股民最怕來了！30年美債殖利率飆破5.5％ 創2004年來新高  ec.ltn.com.tw美10年債衝上5.22%！阮慕驊示警台股1狀況：不能再假裝看不見  三立新聞美長債殖利率升 美國與新興市場債券利差快創紀錄 亞洲當心了 | 國際焦點 | 國際  經濟日報",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-25T19:15:00+00:00"
+        },
+        {
+          "title": "記憶體需求只會更強！分析師喊進「這家」記憶體大廠：股價飆600％還是被低估- 國際",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nNU9sTW9yQzl5Z1d0QnFYbVRiVHFlVWsxTWRqUkdpYzI2NFFXT3p3X3lVbTdaRHZWNnVrZ01pVzB1MWVaVXF1NEJ6cVRCLXV2YldUUF9oTXd1MHoyQlk4?oc=5",
+          "description": "記憶體需求只會更強！分析師喊進「這家」記憶體大廠：股價飆600％還是被低估- 國際  工商時報如果你根據這一歷史軌跡選股 將會在年初選中今年狂飆695%的Sandisk  tw.stock.yahoo.com美股異動｜獲機構看高至2400美元，閃迪大升超8%，領升存儲概念股  TradingView市場對 AI 樂觀預期帶動美股記憶體類股上漲，美光、SK 海力士、SanDisk 股價受關注  Te",
+          "publisher": "工商時報",
+          "pub_date": "2026-09-22T13:15:00+00:00"
         },
         {
           "title": "重返輝達供應鏈！「液冷散熱大廠」大漲7.21%創新高價 奪4大CSP ASIC訂單年底貢獻",
           "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPZGUwNHpqYnVBejZDU1dUeEhTS00tMDQxOGhiWTFQQmR6ZDVFajgwWGcwRzQ5Q1p5WldabWVRQ0R3OHhxX21XSnJhaTM2U3ZZUXNYUjZ1Z3d0OXA3SzBSRVJ0Z2N3Y3lVOHdYcTV0Um5hdUpDN01ubUZhcjlZZUlfTHEwRE9wVXo4Y0c4bDlDXzB6a3JOc0JkUW45ZjlPLUp2blZ6M1pPY1BPTWJDZHhFX0liYWo2U2ZSY2FRM0RRckpKV0liNzVhUXg2Y1JzbXF3WEhYMXZrME1YdVFoSWZRWGl5WjhhX2hORnpnNEtJMjJ5ZXkxdUZPQ0FpNkxiZEFISkNNc1R1MUtjSUhaRUYyUGp2YUdWbXNWMDN5ZUR2QUUwWTVsUFF4U2dUaGJnQ255OEJMSDZtWllsTHZxVW1CeGJXSXZiZ204?oc=5",
-          "description": "重返輝達供應鏈！「液冷散熱大廠」大漲7.21%創新高價 奪4大CSP ASIC訂單年底貢獻  Yahoo股市水冷出貨增溫，雙鴻Q3毛利率拚提升 - 台股 - 新聞  MoneyDJ【盤後焦點】散熱零組件資金轉強，「9檔概念股」逆勢上攻！  CMoney投資網誌中秋節最火紅散熱族群 它目標價調升  三立新聞網SETN.com焦點股》雙鴻：AI水冷動能續強 再創新天價  自由時報",
-          "publisher": "Yahoo股市",
+          "description": "重返輝達供應鏈！「液冷散熱大廠」大漲7.21%創新高價 奪4大CSP ASIC訂單年底貢獻  tw.stock.yahoo.com水冷出貨增溫，雙鴻Q3毛利率拚提升 - 台股 - 新聞  MoneyDJ【盤後焦點】散熱零組件資金轉強，「9檔概念股」逆勢上攻！  CMoney投資網誌中秋節最火紅散熱族群 它目標價調升  三立新聞焦點股》雙鴻：AI水冷動能續強 再創新天價  自由時報",
+          "publisher": "tw.stock.yahoo.com",
           "pub_date": "2026-09-25T12:00:00+00:00"
         },
         {
           "title": "快訊／川習會後四指狂飆！道瓊漲467點 台積電ADR上揚",
           "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQcGRRUFR3T1RZazc4a2dkc1hRanlWMVlXMFV0ZmRZdHVvM2p6eVQzUGQ1SGhVUzhZbGpIV3REV0hPeHVLZ2kzbUlkRHVoMk9zaURDRjlscWZrbVNzVm1TZUl5T1hFaGJFeXBUOXZRYWxXRmFhWGRPWFJqZU5sakx6YnlTTlRiemctdFZVVDBieGN0SVR4WnRCSV9PYWVGTkVnMnRDRXo5NUloM2NaMGwwcjN6cE9VenRUUkQ0REx4X2NYVnlab0NEdTJiN2JnakFBMEJBUjlZdTVpUC02R2xZci1wbVQ1Ml9hc2F0Z2x0dXhNS2EyenlaNk5pUmxxZXZfOHJDZW42emhGdVFYMXlPLURwd1VsWHIxc2RVZ1NZelI3SVlNRzNiRWhHS3hqV3EtSjJuTVdfcUZHa2trVnFwanUtOA?oc=5",
-          "description": "快訊／川習會後四指狂飆！道瓊漲467點 台積電ADR上揚  Yahoo新聞16檔習川會鍍金節後強棒- 日報  工商時報川習會能否給台積電帶來「和平紅利」？ 專家分析2種可能情境| 川習二會聚焦| 全球  UDN「川習會」倒計時市場觀望情緒濃！美股4大指數全下跌  ETtoday財經雲川習會不重要？德銀喊關鍵在「它」  三立新聞網SETN.com",
+          "description": "快訊／川習會後四指狂飆！道瓊漲467點 台積電ADR上揚  Yahoo新聞16檔習川會鍍金節後強棒- 日報  工商時報川習會能否給台積電帶來「和平紅利」？ 專家分析2種可能情境| 川習二會聚焦| 全球  UDN「川習會」倒計時市場觀望情緒濃！美股4大指數全下跌  ETtoday財經雲川習會不重要？德銀喊關鍵在「它」  三立新聞",
           "publisher": "Yahoo新聞",
           "pub_date": "2026-09-25T16:40:00+00:00"
         },
         {
-          "title": "台積電上看5000元　專家推測時間點",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PS29fcy1lODlIekNxSTFsdXR4bnZ1YjloZERQZXVveGE1eUJ1akJzb3hLZHBpeDFNUTZnb3FpaHJjV21DSHF5TTc2cS00UU1fWnfSAVBBVV95cUxQUGJUUS1oYy1ZbDVyWVpCTGFSU1dpTVJLLXVXaDNEU1doQUNQdm5uYUpJZjN1THhKYTRMYUpndzdhUGlMcWNSUlZ1c09WUzlYMg?oc=5",
-          "description": "台積電上看5000元　專家推測時間點  ETtoday財經雲台積電目標價上看5000元！台股5萬點只是前菜？杜金龍喊出「長線8萬」這時間別急著追  Yahoo股市手中台積電什麼時候該賣？杜金龍曝「關鍵轉折」時間點持股打算降至3成 - 上市櫃  旺得富理財網絕地重生、黎明再現！ 台股已進入「高手盤」  UDN台股3年衝10萬點？ 他滿手高股息想換 網推「這檔」：不補會後悔  東森電視",
-          "publisher": "ETtoday財經雲",
-          "pub_date": "2026-09-25T00:38:00+00:00"
+          "title": "台股七利多 有望帶動逐月攻高…Q4挑戰52K",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBqVEFuMWFIWGZSVGF6NVVtSGxMczRmOHE2OTZEdW5JRnp4UXdwdnd3T1RXYmwtMm01T2hRbHdxZnlDa2kxY3dDT0ZQdTRyTXFv0gFWQVVfeXFMTVVfYXNsdXNsdXlqTnBpVGtWemlLcnl6azB6czNUQ2FfOWVKbGowMndHZzlVQmhSc3dITi1DS2paRkpwTUFRQUNzX0JFbjk5cjY4VVVXanc?oc=5",
+          "description": "台股七利多 有望帶動逐月攻高…Q4挑戰52K  UDN中秋變盤來了？美股漲跌互見 台指期夜盤失守4.8萬  tw.stock.yahoo.com三名師看台股Q4拚月月高- 日報  工商時報48K守不住了？台指期夜盤由紅翻黑 多空大亂鬥  UDN盤勢分析》連假前觀望 強勢整理格局  ec.ltn.com.tw",
+          "publisher": "UDN",
+          "pub_date": "2026-09-24T19:02:04+00:00"
         },
         {
-          "title": "Meta 新發表 Meta VR Glasses、明年春季問世 重量約 100 公克、支援 XBOX Cloud Gaming",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA2a2RyN0wxNHNSU05aV2JBNjAydXJYQnNBdTRCdXBmS1YtNzlhY2ltVEd5Z3h0QUtUamtIbjBpQzFSdEtkRVZ0WW5CSDBpcDUzbEdtTWU4Nko?oc=5",
-          "description": "Meta 新發表 Meta VR Glasses、明年春季問世 重量約 100 公克、支援 XBOX Cloud Gaming  GNN 新聞網Meta AI 助理 Muse 進軍日本 市場關注便利與資安風險  Yahoo股市OpenAI傳推「龍蝦」 點火新需求…挹注鴻海、廣達等動能  UDNMeta CTO談Muse：AI正從「直接操控」走向「理解意圖」、AGI仍遠  news.cnyes.co",
-          "publisher": "GNN 新聞網",
-          "pub_date": "2026-09-24T07:32:24+00:00"
+          "title": "AI代理人掀浪潮！Meta Muse跨界衝擊 防禦型股票也難逃",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzNkVoOXJZZFN4X2FvenV1UF91dDRrdGhBQWpFeHRVRWxVRFJtUGNfUXJPMUFINzdfb0JOTHNld3A2aHFwLTdlbnl6NEpfRFk?oc=5",
+          "description": "AI代理人掀浪潮！Meta Muse跨界衝擊 防禦型股票也難逃  news.cnyes.comMeta 新發表 Meta VR Glasses、明年春季問世 重量約 100 公克、支援 XBOX Cloud Gaming  gnn.gamer.com.twMeta AI 助理 Muse 進軍日本 市場關注便利與資安風險  tw.stock.yahoo.comOpenAI傳推「龍蝦」 點火新需求…挹",
+          "publisher": "news.cnyes.com",
+          "pub_date": "2026-09-24T17:27:59+00:00"
         },
         {
           "title": "中鋼8月稅前獲利月增1成；鋼材供需看改善- 新聞",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaUFUeW43MU9EN3UtQ3ZOeFlZSnFLX1hMLVVFWE5SX1hGbHcwQjU3UG5KUjVsNi1qVEt1aW12eW83Zl9oV1JuU2dCMUpTTTRlQ3NZNm9kcjdWNXI3QXpfVDgzX2dPbTVZQ1JUdzUxTjNCYUdIMlRndGtWSDI1S3FjZEVvU01VdTJXRXI1b2ZDYXZSZw?oc=5",
-          "description": "中鋼8月稅前獲利月增1成；鋼材供需看改善- 新聞  MoneyDJ中鋼前8月甩虧損陰霾！稅前賺破37億元 只怕「升息黑天鵝」  Yahoo股市〈焦點股〉中鋼看好鋼市供需結構好轉 鋼鐵族群抗跌彰源飆漲停  news.cnyes.com中鋼春天終於來了？11月盤看漲1000元、歐洲關稅壁壘鈍化...法人喊上24元 4大投顧目標價、EPS完整看- 上市櫃  旺得富理財網股東終於等到Q4旺季 中鋼新評價曝",
+          "description": "中鋼8月稅前獲利月增1成；鋼材供需看改善- 新聞  MoneyDJ中鋼前8月甩虧損陰霾！稅前賺破37億元 只怕「升息黑天鵝」  tw.stock.yahoo.com〈焦點股〉中鋼看好鋼市供需結構好轉 鋼鐵族群抗跌彰源飆漲停  news.cnyes.com中鋼春天終於來了？11月盤看漲1000元、歐洲關稅壁壘鈍化...法人喊上24元 4大投顧目標價、EPS完整看- 上市櫃  旺得富理財網股東終於等到",
           "publisher": "MoneyDJ",
           "pub_date": "2026-09-24T07:34:00+00:00"
         },
         {
-          "title": "台股連假後能否再戰新高？留心四大指標季底作帳行情法人看好- 日報",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMVVRLWlctdUxtNUw0RW9ZSjgtOE9sdzVXV2pWZ0l5azAtOXhfSmZHNVg2QURDN1FtVC1yakRDZ2ppMUlmc3BhZ0VlRk1lQk81SXg4dU9jZV9yZ0pWdlA4?oc=5",
-          "description": "台股連假後能否再戰新高？留心四大指標季底作帳行情法人看好- 日報  工商時報中秋變盤來了？美股漲跌互見 台指期夜盤失守4.8萬  Yahoo股市三名師看台股Q4拚月月高- 日報  工商時報48K守不住了？台指期夜盤由紅翻黑 多空大亂鬥  UDN盤勢分析》連假前觀望 強勢整理格局  自由財經",
-          "publisher": "工商時報",
-          "pub_date": "2026-09-24T19:00:00+00:00"
-        },
-        {
-          "title": "台股下周衝5萬點？中秋後開盤上漲機率曝光 專家揭變盤關鍵指標：2類股偏弱",
-          "link": "https://news.google.com/rss/articles/CBMizgNBVV95cUxOMjhLZlN2eFRJRXFkdWc4OXpVN0swdjJ6LU9Kd0RkdGQ0aDA3LU1ocjYxZWRwYjFtTHluRzFELUdiX1pPSl9nYnFFbjVLVGlRT3E0dl8yUk5ENUloSWoyQ0Q3ZG9DRTNTN1RKQTBWYWxjdjBBWmtuUV9CdmlqYVBkdF9JTXV3SXh3LVY5NkJ0R0tMNFNrcjhjMW5kSWRleGJOWk9DQjNpRUZfcEhEQTZFUDdNTGdvTDBObWlIaGZ5NHRZc3U4dVRaMWVPeVlaUVUyY0lXdTFsbTRIMkNubWxIY3VINUNONnJxY2FuRElMRUxORTdDRldHYzZNOFBOME5PaWEwZDZXcDFqYUxPZEdxcHh2RVpua3FSRWY1R1hqc0lEa19lXzQ3dTBlY0hKXzE4T2VRcC02VGpvd2w2LWRxdGdBZGFaelJpSDZ4OG9aZ1NxYkJzZFZtbllrQ3FwSnlMdlVDdnE5RGdrdDdVMnlQLXRUR3d5Z0pwZ1prblJQVEVoaUx1dENXbzZhUEFaMDNKRlVnMlZMcUx0LWRqR3Q2LWo1VDBnZzVlZHhpS0VKX2VMemdVNDJEWjg0aThwc1JFeTZKQjhUR2NvYVRUQkE?oc=5",
-          "description": "台股下周衝5萬點？中秋後開盤上漲機率曝光 專家揭變盤關鍵指標：2類股偏弱  Yahoo新聞名師操盤》8檔低位階名單曝光！蔡正華：中秋節後迎好做的一段  Yahoo股市台股「七下八上」9月創新高　10年中秋節前行情一次看 　  ETtoday財經雲AI散熱水冷、高速CCL與半導體設備逆勢突圍  聚財網別管中秋變盤！專家曝「這4檔黑馬」抱到明年超賺2檔弱勢股肉更多- 財經  中時新聞網",
-          "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T03:48:36+00:00"
+          "title": "台積電上看5000元　專家推測時間點",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5PS29fcy1lODlIekNxSTFsdXR4bnZ1YjloZERQZXVveGE1eUJ1akJzb3hLZHBpeDFNUTZnb3FpaHJjV21DSHF5TTc2cS00UU1fWnfSAVBBVV95cUxQUGJUUS1oYy1ZbDVyWVpCTGFSU1dpTVJLLXVXaDNEU1doQUNQdm5uYUpJZjN1THhKYTRMYUpndzdhUGlMcWNSUlZ1c09WUzlYMg?oc=5",
+          "description": "台積電上看5000元　專家推測時間點  ETtoday財經雲台積電目標價上看5000元！台股5萬點只是前菜？杜金龍喊出「長線8萬」這時間別急著追  tw.stock.yahoo.com手中台積電什麼時候該賣？杜金龍曝「關鍵轉折」時間點持股打算降至3成 - 上市櫃  旺得富理財網絕地重生、黎明再現！ 台股已進入「高手盤」  UDN台股3年衝10萬點？ 他滿手高股息想換 網推「這檔」：不補會後悔  東",
+          "publisher": "ETtoday財經雲",
+          "pub_date": "2026-09-25T00:38:00+00:00"
         },
         {
           "title": "目標價895元！「封測龍頭廠」EPS看高到32元 台積電訂單外溢＋超微CPU出貨加持",
@@ -811,62 +827,62 @@
           "pub_date": "2026-09-24T15:00:00+00:00"
         },
         {
+          "title": "台股下周衝5萬點？中秋後開盤上漲機率曝光 專家揭變盤關鍵指標：2類股偏弱",
+          "link": "https://news.google.com/rss/articles/CBMizgNBVV95cUxOMjhLZlN2eFRJRXFkdWc4OXpVN0swdjJ6LU9Kd0RkdGQ0aDA3LU1ocjYxZWRwYjFtTHluRzFELUdiX1pPSl9nYnFFbjVLVGlRT3E0dl8yUk5ENUloSWoyQ0Q3ZG9DRTNTN1RKQTBWYWxjdjBBWmtuUV9CdmlqYVBkdF9JTXV3SXh3LVY5NkJ0R0tMNFNrcjhjMW5kSWRleGJOWk9DQjNpRUZfcEhEQTZFUDdNTGdvTDBObWlIaGZ5NHRZc3U4dVRaMWVPeVlaUVUyY0lXdTFsbTRIMkNubWxIY3VINUNONnJxY2FuRElMRUxORTdDRldHYzZNOFBOME5PaWEwZDZXcDFqYUxPZEdxcHh2RVpua3FSRWY1R1hqc0lEa19lXzQ3dTBlY0hKXzE4T2VRcC02VGpvd2w2LWRxdGdBZGFaelJpSDZ4OG9aZ1NxYkJzZFZtbllrQ3FwSnlMdlVDdnE5RGdrdDdVMnlQLXRUR3d5Z0pwZ1prblJQVEVoaUx1dENXbzZhUEFaMDNKRlVnMlZMcUx0LWRqR3Q2LWo1VDBnZzVlZHhpS0VKX2VMemdVNDJEWjg0aThwc1JFeTZKQjhUR2NvYVRUQkE?oc=5",
+          "description": "台股下周衝5萬點？中秋後開盤上漲機率曝光 專家揭變盤關鍵指標：2類股偏弱  Yahoo新聞名師操盤》8檔低位階名單曝光！蔡正華：中秋節後迎好做的一段  tw.stock.yahoo.com台股「七下八上」9月創新高　10年中秋節前行情一次看 　  ETtoday財經雲AI散熱水冷、高速CCL與半導體設備逆勢突圍  聚財網別管中秋變盤！專家曝「這4檔黑馬」抱到明年超賺2檔弱勢股肉更多- 財經  中時",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-25T03:48:36+00:00"
+        },
+        {
+          "title": "OpenAI智能體入侵澳洲政府網站竊取資料 官方兩月後才發覺",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4WV9LU19wM1ZKaUxfSVZKWWcwZk9pZkhuVWNOY3NlVl96djlRYXJlX1duY0tOOGxxejBvbTZNMkF0UzgtMjFZQlJGc0ZuM0dRclhkRlZaTm93RGRLWTRiam1lNC1UWlnSAWxBVV95cUxNLXBTRUdraDFtaXQzMW9rSGM5RGFQZkVKR0tNZE9ydWJWUVBDUnE5RmRrVkRTZl9vc1RaRFR2Nk1UNFdhNkg3YTNZamhTVnpsTUttQXlmSGMxbTVaVmU3bFpSS3FUOXdweEZiWDQ?oc=5",
+          "description": "OpenAI智能體入侵澳洲政府網站竊取資料 官方兩月後才發覺  BBC澳洲政府：OpenAI AI 代理自主入侵官方醫療數據入口網站  tw.stock.yahoo.comOpenAI 代理未經授權入侵澳洲 Medicare 醫療庫！澳洲總理對 Sam Altman 很失望  動區動趨OpenAI侵澳政府入口網 總理：不可接受  cna.com.tw【資安日報】9月24日，OpenAI代理人也駭進",
+          "publisher": "BBC",
+          "pub_date": "2026-09-24T06:46:22+00:00"
+        },
+        {
+          "title": "[U-EV]鎖定歐洲市場需求、WLTP續航里程約259公里，Nissan歐洲正式發表Pixo車系 - U-CAR",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5McHpZclNSQzJMVzB2ZFRqRm0ya21tRkVGazlSZnhlY3F2MVl3YlBLUzRtX1RiQTh0TjJVRlZHY0ZyQ2diYWxTUHkxd002Qkd5SEhzWGh3dzR5RG5PcGkxNGd2bk0?oc=5",
+          "description": "[U-EV]鎖定歐洲市場需求、WLTP續航里程約259公里，Nissan歐洲正式發表Pixo車系  U-CAR前往 Google 新聞瀏覽更多頭條新聞和觀點",
+          "publisher": "",
+          "pub_date": "2026-09-24T06:06:39+00:00"
+        },
+        {
           "title": "8月淨利狂增逾850%！「這銅箔基板廠」昨飆漲停、周漲17.8% 自營商連7買再加碼346張、斥資2億元",
           "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPalg3WmdOUk5xMVJVbGJ5cGI1NTNZMGJud3RuOS1HTWdCWDBEci1KQ0lwUnRsNnA4UmZjRERDSGdwYUxvczQwcWY4dS1GQ2VkeXNWcFpnLTBoZDVlT3Z3c3lDVVRPRU96SE9YMjNWSGxONGlUVFFTSjhPbXRkMGNUWTlTNzNGekdVY0NnWmw5MDZ3R2x1Q2U4dFBRRFktS0lTYVhpNEFHMTJhb1BFUnlZSXdGd1RxV3JRcU1IaWZ6ZEo0RFZaSjVndnp1SDllNmtNS2pLNWRrc1IwLTFITkFxaFU3eC0yTEtzWWswcW9iOWlGUGoyLVBMSHlyR21vY3JhdWZVWU1vU3RZNUgxa0U4dHk1MHQ0S2VzNjFwa0VLRHFyaG1iZmNQdXFWSmIwaWk4VjlZNEhpNUlyZDA2MktFcW5B?oc=5",
-          "description": "8月淨利狂增逾850%！「這銅箔基板廠」昨飆漲停、周漲17.8% 自營商連7買再加碼346張、斥資2億元  Yahoo股市一周內跌停又漲停！聯茂單月EPS爆2.54元「年增852％」 台光電、台燿跟著嗨…網驚：老蘇空單又被嘎- 上市櫃  旺得富理財網CCL族群人氣大噴發  UDN焦點股》聯茂：8月獲利超預期 開盤漲停一字鎖  自由時報CCL大廠營收年增852.58% 股價衝了  三立新聞網SETN",
-          "publisher": "Yahoo股市",
+          "description": "8月淨利狂增逾850%！「這銅箔基板廠」昨飆漲停、周漲17.8% 自營商連7買再加碼346張、斥資2億元  tw.stock.yahoo.com一周內跌停又漲停！聯茂單月EPS爆2.54元「年增852％」 台光電、台燿跟著嗨…網驚：老蘇空單又被嘎- 上市櫃  旺得富理財網CCL族群人氣大噴發  UDN焦點股》聯茂：8月獲利超預期 開盤漲停一字鎖  自由時報CCL大廠營收年增852.58% 股價衝了",
+          "publisher": "tw.stock.yahoo.com",
           "pub_date": "2026-09-25T14:00:00+00:00"
         },
         {
           "title": "抱對ETF就能原地退休月領7萬？股息陷阱四伏專家曝最大致命盲點- 理財",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9IZWFNNnplSDRGdVQ4OF9tMTdkX25MNTVMNFkwYUtGMjFOcUhwZUFoZkt5Y2NMWWlwNEViZEhzYjZORGxzWklYM1JISTZMMUtLa21mak84WXNSa2lmaS1R?oc=5",
-          "description": "抱對ETF就能原地退休月領7萬？股息陷阱四伏專家曝最大致命盲點- 理財  工商時報「買3檔高股息ETF」月領7萬能退休？專家曝2致命盲點  Yahoo股市每月多3萬元現金流！00919、00878、0056要存幾張？340萬配置曝光- 理財  工商時報九檔股票ETF 創新高價  UDN台股飆破4萬8！Sway揭房市冷清真相 投資客為何不願「賣股買房」？ | 蕭宥宸 | 新聞  風傳媒",
+          "description": "抱對ETF就能原地退休月領7萬？股息陷阱四伏專家曝最大致命盲點- 理財  工商時報「買3檔高股息ETF」月領7萬能退休？專家曝2致命盲點  tw.stock.yahoo.com每月多3萬元現金流！00919、00878、0056要存幾張？340萬配置曝光- 理財  工商時報九檔股票ETF 創新高價  UDN台股飆破4萬8！Sway揭房市冷清真相 投資客為何不願「賣股買房」？ | 蕭宥宸 | 新聞 ",
           "publisher": "工商時報",
           "pub_date": "2026-09-25T07:55:00+00:00"
         },
         {
-          "title": "OpenAI智能體入侵澳洲政府網站竊取資料 官方兩月後才發覺",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4WV9LU19wM1ZKaUxfSVZKWWcwZk9pZkhuVWNOY3NlVl96djlRYXJlX1duY0tOOGxxejBvbTZNMkF0UzgtMjFZQlJGc0ZuM0dRclhkRlZaTm93RGRLWTRiam1lNC1UWlnSAWxBVV95cUxNLXBTRUdraDFtaXQzMW9rSGM5RGFQZkVKR0tNZE9ydWJWUVBDUnE5RmRrVkRTZl9vc1RaRFR2Nk1UNFdhNkg3YTNZamhTVnpsTUttQXlmSGMxbTVaVmU3bFpSS3FUOXdweEZiWDQ?oc=5",
-          "description": "OpenAI智能體入侵澳洲政府網站竊取資料 官方兩月後才發覺  BBC澳洲政府：OpenAI AI 代理自主入侵官方醫療數據入口網站  Yahoo股市OpenAI侵澳政府入口網 總理：不可接受  中央社 CNAOpenAI 代理未經授權入侵澳洲 Medicare 醫療庫！澳洲總理對 Sam Altman 很失望  動區動趨【資安日報】9月24日，OpenAI代理人也駭進澳洲政府網站  iThome",
-          "publisher": "BBC",
-          "pub_date": "2026-09-24T06:46:22+00:00"
-        },
-        {
-          "title": "三大法人買超608億 台股只漲81點 網傻眼：留外資山頂洗碗？",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zcUQxek5JUk9uVFlVaUhKaDk4WEFZVzFGVlJ4Q2RjV0RUYng2SktxcC1LaUlLamVSaThZODkxYlRsUG5NQWdteGJQcDhiZHctTWduTUtR?oc=5",
-          "description": "三大法人買超608億 台股只漲81點 網傻眼：留外資山頂洗碗？  東森電視三大法人又投389億添柴火！台股以48K作收創紀錄 股民驚：大哥不玩了  Yahoo股市外資掃貨373億！「這族群」買超前10佔一半 網笑：小兒找代操？  東森電視台泥擠上成交量前十！外資今加碼大買 水泥股要啟動了？  經濟日報挺台股上4萬8外資買超373億元連5買 狂敲主動式ETF 台積電與台泥同獲青睞  news.cny",
+          "title": "外資大買447億！ 網見名單驚：要搞事了？",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZTG0tekNNNEUwUlplWW53WS16YnlfU25GSk1PZjhwMVpZWDliTnd6cWhYQ2R5bnVfN0xZX2ZuVkh6RE03WEwwNHRZWVprSEVaOGRfUFJn?oc=5",
+          "description": "外資大買447億！ 網見名單驚：要搞事了？  東森電視三大法人又投389億添柴火！台股以48K作收創紀錄 股民驚：大哥不玩了  tw.stock.yahoo.com外資掃貨373億！「這族群」買超前10佔一半 網笑：小兒找代操？  東森電視台泥擠上成交量前十！外資今加碼大買 水泥股要啟動了？  經濟日報挺台股上4萬8外資買超373億元連5買 狂敲主動式ETF 台積電與台泥同獲青睞  news.cn",
           "publisher": "東森電視",
-          "pub_date": "2026-09-22T07:49:00+00:00"
-        },
-        {
-          "title": "產能全被訂光！「載板大廠」連5漲26.1%飆新高 輝達、CSP訂單加持AI營收飆7成",
-          "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQWERNMnNJOW80MERhOERwSDlOa2xBN2lqcnBxTnNLMVhJZ2J3U3BhUWNZSkUxeXJwMVRJWFVFVmlDX1pRdFlLWjJnbFNUcGotTXhaYXo3YUR5YllEdTQ1RUlMdm82X1huQUdoSXhab0xsVDdRTHVJbkFjRXppcGctdWxtOEUwVFYzcXVZY3p1RUNnZ3BydzJsbmJJMG9Sd19nR1J1NXpVSlpzTVhobE5FVTBHejZjZXJIMTljZjVHRnZlLTZldnF3WFFfa00tRWg1OWlBSXpibHJkZ25nTGxETDE4V3ZUeFE4LXJQLUlHYlgtY0ZYbmdiOWJRd2I0WkVLc2t0ZkFrclBnaHF0REtveEhVbW8wSHdSX2c?oc=5",
-          "description": "產能全被訂光！「載板大廠」連5漲26.1%飆新高 輝達、CSP訂單加持AI營收飆7成  Yahoo股市千金股再添新兵？內外資看好景碩、禾伸堂2大強勢理由曝光- 日報  工商時報小編下班聊點錢》南電、欣興、景碩...ABF三雄誰還有肉？外資喊他1250元目標價：EPS10元變48元  旺得富理財網〈熱門股〉ABF載板供需缺口續擴大 欣興滾量重返千金周漲20%  news.cnyes.com熱門股》景",
-          "publisher": "Yahoo股市",
-          "pub_date": "2026-09-25T11:05:00+00:00"
-        },
-        {
-          "title": "iPhone18 Pro爆「死機重啟」災情！蘋果證實FaceID釀禍 下周推更新修復",
-          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNbVJZVmItY2pqTUF3cUU2d0QydFFzNHp3NnpNcER1MjkyRDBOX3Y0VDlHcjVuYnI1Wk5oZFMzcmkxd19aQmF1cmwwbWc2LUFMR0NfMnE1TVlUUnVITmF5cWYwRmNrLWlRdHQ4OTVMMkM3RkNJb1h2bDkwLThENkxocl9pZjlVUGZPcTRQV3dZVm9ZVEpXWm80VEZaYnhsUGRvS21nRGRoLVlwRnliZ3JvUHZ6YjhpTXV6dDRGV1dHNG01V0JRenVKQ0NRRDE2amxfc09mbWVQUEE5T3h1VC1DRmZWZE14UjUwT2RHWDRmMFJ1Z0pQRmdpWTFVZFk1Y0l6R1lqMDM5aVJid01nSWx0ZVBlcw?oc=5",
-          "description": "iPhone18 Pro爆「死機重啟」災情！蘋果證實FaceID釀禍 下周推更新修復  Yahoo股市2026蘋果發表會沒說！iPhone 18 Pro動態島縮小 1功能升級超有感  udn科技玩家嚇到！iPhone 18 Pro 開箱後才發現 iPhone 18 Pro Max 有它獨特的價值！ft. 小豪包膜 - 人夫阿康科技日常  PChome Online 新聞iPhone 18 Pro可",
-          "publisher": "Yahoo股市",
-          "pub_date": "2026-09-25T11:52:00+00:00"
+          "pub_date": "2026-09-22T08:53:00+00:00"
         }
       ],
       "technology": [
-        {
-          "title": "世新大亂象3／傳播龍頭竟無正版軟體可用 砸錢建噴水池買PS5師生氣笑",
-          "link": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxQU2s0eFFmZ1BVNkplSHNkTWJ2bVRMVTBrb2JEMHo3R28xQl9iX1JZcXozZFdBWUZaUTl2R2ltSE8zNk84dEYySTgydk5wU1J1dFRmSjFLTnhZR3VQUVQyZG95dzZGZ1pFYlBmMzg3bUM1VTlFSkxnVzJHSDA1ckxuaU85eEZ0V2lpRlFIc1R3bkh5Sm04MkNFSlBxRzNSQjljNERNV0tDUTh4NWMxcFdCeEhPb1F4M2EyaGt3eHpFVEJ2UVF5Mm4zMkdYLVNiYjlzbmxlMnQxb1p3V2gyQUpndFNOMXN3bmdNQml0QzhvWk13NXY2dlp2N2RfOHA0eUQzRnJRY05iLTk5VmZaYWtDZlpCOUhlX2R5SlB2UTFUTk1iY2tJTmk0MGduZ0dOQ0xWSTRPeE9GNTBneTFZT1RWbnJvZkZSdGFINnc4S2NTZzZaNS1OeHZXRktoTm5yZFRkR2tXSW9FeGtTMHpJd1d6dG1ZWDV4LUY1Tzd4Snl1RVF4ekhMOVE2M2ZDYUFCcTNhNHpmc3NWMWhtdFoxcUJHR2wweTluUUpCcEdv?oc=5",
-          "description": "世新大亂象3／傳播龍頭竟無正版軟體可用 砸錢建噴水池買PS5師生氣笑  Yahoo新聞",
-          "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-24T22:00:00+00:00"
-        },
         {
           "title": "美國國宴黃仁勳、蘇姿丰與川習同坐主桌 AI大咖「這家」缺席",
           "link": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxQR3ZBVks4NEEwWEwyMmF0SXJSYUhLZmI1Skd5eFlwekM5ZXFqbndTZjRJNFNYeU1BSklQOVdRczNJNmpwY3BhTVpVUER6LVU3enljcVB2NTh4NTZJRjQ3QjQ3T1FCRjZJZVVsNFRTaDFIVmF1ZkFENUVWUE1xNVdBc0FfOTQ4LTJCSFFfYlM4VGtqUUNmS1FsVHpqQ2NlWW40QnNUXzFTTGVrQ0ZRV2xyUnhHNzBVS214dGZkODlHTi1YbnM3UmNfUnZzZ1p3YVNiZmVWX1NkRGh4Wl9RRkVBOU9aRVVXT01GM0xHMGVkcTA0ZnI2OHJoV1IwajFULTVmZi00NjBTeHJHTDROLVNjMHE3MzRpWU9yNVh0NWhkUkEtd25XcWdYR0FCdWZhdnVCNG9DNENsU2c4M1BBVVNSQzVDdGVjQV9EcUNzV2dOMWFTNEdyZ1hBcXZCQmp5MVcwSElrT2IyMWMxYnptUXVz?oc=5",
           "description": "美國國宴黃仁勳、蘇姿丰與川習同坐主桌 AI大咖「這家」缺席  Yahoo新聞",
           "publisher": "Yahoo新聞",
           "pub_date": "2026-09-25T02:50:56+00:00"
+        },
+        {
+          "title": "世新大亂象3／傳播龍頭竟無正版軟體可用 砸錢建噴水池買PS5師生氣笑",
+          "link": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxQU2s0eFFmZ1BVNkplSHNkTWJ2bVRMVTBrb2JEMHo3R28xQl9iX1JZcXozZFdBWUZaUTl2R2ltSE8zNk84dEYySTgydk5wU1J1dFRmSjFLTnhZR3VQUVQyZG95dzZGZ1pFYlBmMzg3bUM1VTlFSkxnVzJHSDA1ckxuaU85eEZ0V2lpRlFIc1R3bkh5Sm04MkNFSlBxRzNSQjljNERNV0tDUTh4NWMxcFdCeEhPb1F4M2EyaGt3eHpFVEJ2UVF5Mm4zMkdYLVNiYjlzbmxlMnQxb1p3V2gyQUpndFNOMXN3bmdNQml0QzhvWk13NXY2dlp2N2RfOHA0eUQzRnJRY05iLTk5VmZaYWtDZlpCOUhlX2R5SlB2UTFUTk1iY2tJTmk0MGduZ0dOQ0xWSTRPeE9GNTBneTFZT1RWbnJvZkZSdGFINnc4S2NTZzZaNS1OeHZXRktoTm5yZFRkR2tXSW9FeGtTMHpJd1d6dG1ZWDV4LUY1Tzd4Snl1RVF4ekhMOVE2M2ZDYUFCcTNhNHpmc3NWMWhtdFoxcUJHR2wweTluUUpCcEdv?oc=5",
+          "description": "世新大亂象3／傳播龍頭竟無正版軟體可用 砸錢建噴水池買PS5師生氣笑  Yahoo新聞",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-24T22:00:00+00:00"
         },
         {
           "title": "川普：美中會談成果豐碩 習近平認同AI改名「超級智慧」",
@@ -876,10 +892,17 @@
           "pub_date": "2026-09-25T13:15:31+00:00"
         },
         {
+          "title": "4天連假放完就要停用！LINE「這功能」將正式消失 照片、影片快備份",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGUjRBMVJFbzZJeEtPNjduaGJBY3Nza3pxZVVlRUZDcDdaZ1NwNFhWdW1hc2FWZXc0YzU3bmtVUlJhU1BnM252QXd3YzFIb1lhTGRVNHRtNmVkQ2R2Wnkw0gFkQVVfeXFMTWphSWllTlBMcDgzcTRLcFlLUkJoVjd4NHU0dm1Ea1Z5dDF4Q2JsREtfLThCS2hkdlhjUkE0UzJqaDlXS291dUMzOTdXWDFzbHRGSFhYYldnTWxEMW1HZ2dfU0NsbQ?oc=5",
+          "description": "4天連假放完就要停用！LINE「這功能」將正式消失 照片、影片快備份  ec.ltn.com.tw",
+          "publisher": "ec.ltn.com.tw",
+          "pub_date": "2026-09-25T01:38:34+00:00"
+        },
+        {
           "title": "重返輝達供應鏈！「液冷散熱大廠」大漲7.21%創新高價 奪4大CSP ASIC訂單年底貢獻",
           "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPZGUwNHpqYnVBejZDU1dUeEhTS00tMDQxOGhiWTFQQmR6ZDVFajgwWGcwRzQ5Q1p5WldabWVRQ0R3OHhxX21XSnJhaTM2U3ZZUXNYUjZ1Z3d0OXA3SzBSRVJ0Z2N3Y3lVOHdYcTV0Um5hdUpDN01ubUZhcjlZZUlfTHEwRE9wVXo4Y0c4bDlDXzB6a3JOc0JkUW45ZjlPLUp2blZ6M1pPY1BPTWJDZHhFX0liYWo2U2ZSY2FRM0RRckpKV0liNzVhUXg2Y1JzbXF3WEhYMXZrME1YdVFoSWZRWGl5WjhhX2hORnpnNEtJMjJ5ZXkxdUZPQ0FpNkxiZEFISkNNc1R1MUtjSUhaRUYyUGp2YUdWbXNWMDN5ZUR2QUUwWTVsUFF4U2dUaGJnQ255OEJMSDZtWllsTHZxVW1CeGJXSXZiZ204?oc=5",
-          "description": "重返輝達供應鏈！「液冷散熱大廠」大漲7.21%創新高價 奪4大CSP ASIC訂單年底貢獻  Yahoo股市",
-          "publisher": "Yahoo股市",
+          "description": "重返輝達供應鏈！「液冷散熱大廠」大漲7.21%創新高價 奪4大CSP ASIC訂單年底貢獻  tw.stock.yahoo.com",
+          "publisher": "tw.stock.yahoo.com",
           "pub_date": "2026-09-25T12:00:00+00:00"
         },
         {
@@ -890,13 +913,6 @@
           "pub_date": "2026-09-25T06:14:35+00:00"
         },
         {
-          "title": "AI熱潮讓貿易逆差激增！美智庫報告警告白宮：不要用關稅找台灣麻煩",
-          "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxNQnBveWNKQWtYRG16NU1EM3BzLVFtNmV4OGpST1Fscm1LV3ZsNHB6Ty1majNtRXBDUHBNa0lFYUl5OGNqQ0ppV3ljbDM5dTNZQ1p2M0xKb2Y1NmxLQjgzMXIyOERCeUIwNzF3QXZhNHBMNlFseXl4NzhTdms4SVdtalJzRVFWMExneUo2Q3RHSnFVVXZtaTRQaF9qTGlyb3BWckJRUmYxb2pZdUt1ck5QSnF5b1hQcldxcENVYUpfQjNvbS1ZR216SDF1WDJVT3oxZGtkZThqWEYzTDJpMC1xajc2bXVYc3pYY01MTDZadjJkQ3p0T2c0R2tOckgtRUI2UXdieFZNQml5MUhiOWZEYlJmY0ZUNGhkRHlYZlpiSVozcWpET3V2bEZZQ05OcnktcE1qSDUtYkFaTldscEcwanFSeWRNWWZrVmw0dkRWV1p0ckE2WHRFOExnOUNRVWVDeExlMW1HZ2lKcHNaLVhrUzYxbTBwbkMwM19WRlEtamwwWHJXMHRuWGY2YUYyMUN2Ml95ZElVaXJjY2p2NkdhN0JhOWl6MUst?oc=5",
-          "description": "AI熱潮讓貿易逆差激增！美智庫報告警告白宮：不要用關稅找台灣麻煩  Yahoo新聞",
-          "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T13:20:00+00:00"
-        },
-        {
           "title": "快訊／川習會登場！美股4大指數開紅盤 AI科技股帶頭漲",
           "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxPVzBGMDVvdDdyeHNsQjl6dnFNd1g1djdKVHpzRjBNT0dhT21meDB2WVJsdWg5OXEySTJFbUtKaE1PWkh4c1pjVFk5bUh0d0NPQ0FUN2k1MjZSYmFWdHZCU3d1XzB2V0ZtY2ZNcURRNGdjZkFPMWY5WXNGN04xSDBPZXU1eXV1SHZzUFhVaWZ6WGsySXh1NmgtM2dJdldNektiZzlvZ201bk4zR0MyRGJYcFB4blVSc2F0RlFCdDB4V2NmTm1yMjF6bTVfMmlkcXJFNS1ONS1nUVlibjZzUVpGeGZXdVNCdURIcDgwazN3TTlJbGU1Y19pZG9ZcVlETTBMaXQwWHJjdHZqUEt2OFpOcDJpaVV0ZzlMTEthQjhzbXhOWGltblRydTByQzE5elItWXlHQVBuNDh6RzV5TnJKQ1NaSnJieDdtbWVwcW5mZjE4blJRNmdKSmZpTUYwazRER0tpU0xOYWUwMTRMaDRZcA?oc=5",
           "description": "快訊／川習會登場！美股4大指數開紅盤 AI科技股帶頭漲  Yahoo新聞",
@@ -904,18 +920,18 @@
           "pub_date": "2026-09-25T13:48:00+00:00"
         },
         {
+          "title": "AI熱潮讓貿易逆差激增！美智庫報告警告白宮：不要用關稅找台灣麻煩",
+          "link": "https://news.google.com/rss/articles/CBMiqANBVV95cUxNQnBveWNKQWtYRG16NU1EM3BzLVFtNmV4OGpST1Fscm1LV3ZsNHB6Ty1majNtRXBDUHBNa0lFYUl5OGNqQ0ppV3ljbDM5dTNZQ1p2M0xKb2Y1NmxLQjgzMXIyOERCeUIwNzF3QXZhNHBMNlFseXl4NzhTdms4SVdtalJzRVFWMExneUo2Q3RHSnFVVXZtaTRQaF9qTGlyb3BWckJRUmYxb2pZdUt1ck5QSnF5b1hQcldxcENVYUpfQjNvbS1ZR216SDF1WDJVT3oxZGtkZThqWEYzTDJpMC1xajc2bXVYc3pYY01MTDZadjJkQ3p0T2c0R2tOckgtRUI2UXdieFZNQml5MUhiOWZEYlJmY0ZUNGhkRHlYZlpiSVozcWpET3V2bEZZQ05OcnktcE1qSDUtYkFaTldscEcwanFSeWRNWWZrVmw0dkRWV1p0ckE2WHRFOExnOUNRVWVDeExlMW1HZ2lKcHNaLVhrUzYxbTBwbkMwM19WRlEtamwwWHJXMHRuWGY2YUYyMUN2Ml95ZElVaXJjY2p2NkdhN0JhOWl6MUst?oc=5",
+          "description": "AI熱潮讓貿易逆差激增！美智庫報告警告白宮：不要用關稅找台灣麻煩  Yahoo新聞",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-25T13:20:00+00:00"
+        },
+        {
           "title": "【iOS/Android】 Konami 大放送 《惡魔城》40 周年限時免費領取",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZzY2U2RDUzFtNXZnWm9GTjNvd25VYUNVX292WlBHcFBqUFB5WHZrUDltN2w3V0ZpOHEzV09nVGhLb011eUdya0tPdTJMMkhTNTVHd29adHZHRjBfYWtXeHVnWjU4Q21mNnlXNU1XOWJ4eHpsem9lRC1HeHRSWU9YOGZDZW5WQXBQZmt6U3JCTjMtd1FkV1d1RXk5QnlmYklBRjgxRFBvUzFDVTA?oc=5",
           "description": "【iOS/Android】 Konami 大放送 《惡魔城》40 周年限時免費領取  流動日報",
           "publisher": "流動日報",
           "pub_date": "2026-09-25T12:29:22+00:00"
-        },
-        {
-          "title": "產能全被訂光！「載板大廠」連5漲26.1%飆新高 輝達、CSP訂單加持AI營收飆7成",
-          "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQWERNMnNJOW80MERhOERwSDlOa2xBN2lqcnBxTnNLMVhJZ2J3U3BhUWNZSkUxeXJwMVRJWFVFVmlDX1pRdFlLWjJnbFNUcGotTXhaYXo3YUR5YllEdTQ1RUlMdm82X1huQUdoSXhab0xsVDdRTHVJbkFjRXppcGctdWxtOEUwVFYzcXVZY3p1RUNnZ3BydzJsbmJJMG9Sd19nR1J1NXpVSlpzTVhobE5FVTBHejZjZXJIMTljZjVHRnZlLTZldnF3WFFfa00tRWg1OWlBSXpibHJkZ25nTGxETDE4V3ZUeFE4LXJQLUlHYlgtY0ZYbmdiOWJRd2I0WkVLc2t0ZkFrclBnaHF0REtveEhVbW8wSHdSX2c?oc=5",
-          "description": "產能全被訂光！「載板大廠」連5漲26.1%飆新高 輝達、CSP訂單加持AI營收飆7成  Yahoo股市",
-          "publisher": "Yahoo股市",
-          "pub_date": "2026-09-25T11:05:00+00:00"
         },
         {
           "title": "iPhone充電80%電池更耐用？網友實測一年電池壽命結果出爐",
@@ -964,16 +980,23 @@
         {
           "title": "邊佑錫中秋來台「陪粉絲過節」！女粉被抽上台淚崩：比嫁給老公時還幸福",
           "link": "https://news.google.com/rss/articles/CBMiswNBVV95cUxQbnd0bm1tdzVVS0JxbDBwOURMRVR3dU5lWFRaNDdJR3p3ZXVWZGVNVHNKeVhLMXVnQmdaelFmeUlsSXRpdk81RERrZl9MTkZES09yTE9XR0dUZklWZkJGTU9scGZDRWFkUFBscHAtVGJYWHM1SnRXaWhLVjBEcEF4TzlRX1loQURyNEpITXJCR21sMjFOTzBua2p4R3d2ZXlKRGVRYWpGUTNBNXVhWDh0cDAxZ1liVGNGbHh0aFctZWtLcDRvZ2FqMmg5Z2g1WGItYWhTb0hvT1lIMHpueU52dG4zNlBWcU93VWtyclRiVmhIS3phcTM4SXo4dUZfaDNHcGhLMlBGUUJRR2JNUm1MZ19QcXFfVzc3OFp4MWZKUXllTllxQWpTcUFZaXlmaGNxVU9YWEpoa19NMjZlOUd1UXNtaDk3Y2hYRWx4TXAyWFNJN1JITlEzZXNKUEhmVVZ1VDluemdram1sWDR5aFFKZ1Bla2paT21pWE5OT2J2cG5SLTlHbTlsSkg2SXBPS25YVnZES1F2U1Z0U0d6VC1CcVJGempHWTNiOWhwSWN3VGhHWFE?oc=5",
-          "description": "邊佑錫中秋來台「陪粉絲過節」！女粉被抽上台淚崩：比嫁給老公時還幸福  Yahoo新聞邊佑錫來台吸引5000人粉絲近距離接觸笑喊比結婚還幸福| 娛樂  中央社 CNA野生邊佑錫現身台灣街頭！沒戴口罩零偽裝路人偶遇全驚呆| 時尚名人  udnSTYLE韓大咖男神 0遮掩現身台北街頭  東森電視當邊佑錫貼身化妝師！粉絲哭喊「比嫁老公還幸福」 街頭「買新衣」竟是許光漢推薦  PChome Online 新",
+          "description": "邊佑錫中秋來台「陪粉絲過節」！女粉被抽上台淚崩：比嫁給老公時還幸福  Yahoo新聞邊佑錫來台吸引5000人粉絲近距離接觸笑喊比結婚還幸福| 娛樂  cna.com.tw邊佑錫男神現身台灣街頭！零偽裝低調漫步 路人偶遇全看傻  噓！星聞粉絲喊「比嫁給老公還幸福」！邊佑錫慌張飆出4字 男神唱一半突衝下台…5000人嗨瘋了  Yahoo新聞重現《善宰》名場面！邊佑錫自爆午餐狂嗑10人份烤肉！突衝下台大",
           "publisher": "Yahoo新聞",
           "pub_date": "2026-09-25T13:28:00+00:00"
         },
         {
           "title": "遭刑求「抖到漏尿」！方志友壓力爆表吐心聲 拍完哭到潰堤",
           "link": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOWXRMeERJV2E5Ui1lNFNtMHVqRW12OFJvajB1OUFQRkt4d1BRRTlDdHpOSnVfejFzWnhVYm1KdkFvQ056T0Y2bjZkZW5LMXl5aHViRTM4SWdmOUQ2Qk1oel9FMTVjZVVtS0J1X1IzTXM4UXNiTDczVkFaVXZlckpqUGRpaldtdmlqLTdrZGdKMTg2dlRCcDR6S3FlcFZwQVNjQ2RaMVlhd3FVenJ6UHRtVHVKMEViV1c4blJodDlja3QzbzRuMENReGhBX2d3YlBfNlpaamNsSEJnQ1FTNFpNeHNDeXk2Q2M0YzhFVVpoS1lYaEIxYUpta3NRZk5ldk40R0Y1alJVSGhrMVJ4UGR6Tkt0RDJyMDhjVnJHejZ3SUd5X1VXTmFybFRQRkwwZjdiSEQ2clR1WlNtVzB5eFdQbnhQMG9UVjJjZk1Uc2NPLU1Zb3BsMmc4a0szNlhUYlBUUHZpT0E3OU5palk?oc=5",
-          "description": "遭刑求「抖到漏尿」！方志友壓力爆表吐心聲 拍完哭到潰堤  Yahoo新聞【電影】《再見1987》本週大結局迎台劇新高度！跨越40年通話蘇明明、方志友告白演技超催淚（行動裝置）  Hitoradio.com方志友拍戲「被迫害到漏尿」！私下認了對「他」動心  自由娛樂離婚後拋震撼彈！禾浩辰暖男攻勢太強 方志友認了「本人有動心」  TVBS新聞網方志友大方認了！被問禾浩辰是否讓她動心　笑喊「我本人有」 ",
+          "description": "遭刑求「抖到漏尿」！方志友壓力爆表吐心聲 拍完哭到潰堤  Yahoo新聞【電影】《再見1987》本週大結局迎台劇新高度！跨越40年通話蘇明明、方志友告白演技超催淚（行動裝置）  Hitoradio.com方志友拍戲「被迫害到漏尿」！私下認了對「他」動心  自由娛樂離婚後拋震撼彈！禾浩辰暖男攻勢太強 方志友認了「本人有動心」  news.tvbs.com.tw方志友大方認了！被問禾浩辰是否讓她動心　",
           "publisher": "Yahoo新聞",
           "pub_date": "2026-09-25T12:41:00+00:00"
+        },
+        {
+          "title": "翁煌德專欄｜音樂演出與政治表態的難以分離？一文看懂紅髮艾德巡演為何捲入以巴戰爭議題，他是自找的嗎？",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wdjg3Z1locEQwUjZlaWsySzVBZWRNWXJ4R3RKcUxpckNpV1BWcWRGWTZHVHJ6UzhhZ2lZZGcyMTVJMExRMWhPTWN4Slhja1k3a0VTTC1vZHFhN1A0OFRoTHBaZFJMbU5iLVhJbFltcXRJcTQw?oc=5",
+          "description": "翁煌德專欄｜音樂演出與政治表態的難以分離？一文看懂紅髮艾德巡演為何捲入以巴戰爭議題，他是自找的嗎？  cheers.com.tw挺巴遭紅髮艾德主辦撤換！　麥可莫宣布自辦巡演轟：富豪箝制自由  ETtoday星光雲| ETtoday新聞雲紅髮艾德演唱會捲入巴勒斯坦風波 誰能決定藝人該不該發聲？  DQ 地球圖輯隊政治歸政治？紅髮艾德演唱會遭抵制 哽咽道歉「是我錯了」  自由娛樂力挺巴勒斯坦遭巡演除名",
+          "publisher": "cheers.com.tw",
+          "pub_date": "2026-09-21T16:00:00+00:00"
         },
         {
           "title": "露這麼多還能高級到不行！達珂塔強森「透視戰袍深V到肚臍」仙氣、性感同時上線美到犯規",
@@ -981,20 +1004,6 @@
           "description": "露這麼多還能高級到不行！達珂塔強森「透視戰袍深V到肚臍」仙氣、性感同時上線美到犯規  udnSTYLEVogue World 2026｜Pamela Anderson不再素顏，以煙燻眼妝回歸華麗風格  Vogue Taiwan手與Ai機器之間Vogue World米蘭的時尚宣言標題：meta AI贊助的手工藝盛典  PChome Online 新聞「格雷女」辣登時尚雜誌！單穿Bra露纖腰、全黑透視",
           "publisher": "udnSTYLE",
           "pub_date": "2026-09-24T02:24:33+00:00"
-        },
-        {
-          "title": "蕭景鴻口袋曾窮到只剩3塊錢！愛妻20年不離不棄 出道24年首揭低潮往事",
-          "link": "https://news.google.com/rss/articles/CBMirANBVV95cUxPMnEwMjR3bE5ldkNPMTJaWDlFSVFST0RQWFl4NS13MllndjlnZk9ibmZOYzRzMVBteE5VN24xcy1UWXNFdk5sdlhpOVdZWnFhNWtROXFXVWxKMjN1dGRxYlpUUnhyRWRvNkV3ZGI5WGVVaVQtQTJJd3h4em1aR0Z2TzhIcHlfRGpYMjBIb2NoNkNCU2xLVG1vUV9xSXBKMHo0RjNocmdNWWllLWNFRzZDYWM4ZlYzNFppY3MzSkF0Q3piZ2phSTFKdHdIeTAzRFluM2tDVFF2bVBWRV9vSk8tUV9oQ185Rkd5V1RnOUM4dGZKaHAwaF9CV0VyTHpYUmRwQmt3aXhSSkZkZklOSFVwOGVpN0ZQTFJTRjNJZXd5d25PeTVNZm1lamE0b1RPcWJJNm1tZVJWOS1lV2cybkdVTTVjMkZhREVHMC0zUzlrVFhJWlEtOF9NTUVqUjNVSmRLLUNwYnhPZXo2WEpGQklvUmlPUV9pVzkyYlNYU1FZS0VPOFdYdm81TWNZMDZncHpMWjZkc25yUXl6aTBwMGQwR3U4NDRCNzJhc2wxVA?oc=5",
-          "description": "蕭景鴻口袋曾窮到只剩3塊錢！愛妻20年不離不棄 出道24年首揭低潮往事  Yahoo新聞蕭景鴻曾窮到口袋剩「3塊錢」！感謝老婆20年來陪吃苦不放棄：「讓我無後顧之憂追夢」  PChome Online 新聞蕭景鴻窮到只剩三塊錢！曾收到暖心肉餅 親曝低潮心境  東森電視蕭景鴻窮到剩3塊錢 早餐店老闆娘伸出援手內幕曝光  自由娛樂蕭景鴻回憶口袋剩3元 早餐店老闆娘偷偷多送肉餅暖哭他 | 鏡週刊  LI",
-          "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T09:14:00+00:00"
-        },
-        {
-          "title": "大咖影帝降價求工作！張晨光自曝今年沒戲拍 返台寵「小女友」",
-          "link": "https://news.google.com/rss/articles/CBMigwNBVV95cUxOWjNNSmU4MHgyMk5JSHBYUHdkRUFkSHlWX0RmcmZ6ekhWbV84NVlGMnlQWnZfSjBPRXBxVFNDVUxoTS1LV2J6MlVSVHZGYjdWNV9rODBsLXAyZHcwNEVPRmlNTG8xVTJ5aVNfbUlYTlBfc3V4SE5LOWVaVFZqWEtNUnRCd0twdnAwcG5Iemh6N2FWSXhyR2FVc3UzekJmTDB0VmNReTFCSXBzbThwR18yc2p2S2x1ejhwaFlUTldGdzA5S1ktZW5FMGhaeE1UeThoZlczUVktOWs2bUMtQ1RJNDVqa2hoUU5pTWhkTHp2VXZVUkVkQVR5cVliZ0N6LWZ4aUh6b3lDWDk0RjRjM0VYVzFRNTgxVVd4d3hneUtESU1nZWZoQmp4RlJBblVLd3NDMTZoUmc4a2pxQ3dEUW41VjVxMUt6VnJMN2NCMkg5MWw2X0NoeUxfTFdTbk9scFJNU1NKaVFZdURHNHN0Yzc5RFNtTHJBT3pRN3ViT1JBOU5jeFU?oc=5",
-          "description": "大咖影帝降價求工作！張晨光自曝今年沒戲拍 返台寵「小女友」  Yahoo新聞張晨光升格爺爺寵喊「我的小女朋友」　老婆一句「再生一個」他嚇醒  噓！星聞張晨光喜當阿公「對照送飛吻」！霸氣承諾寵孫女：不愁吃不愁穿  中時新聞網69歲張晨光突宣布喜訊！放閃「小女友」 老婆竟喊：再生一個  TVBS新聞網驚喜宣布升格阿公！張晨光甜喊「小女友」 為見孫女4個月狂飛加拿大5趟 | 三立新聞網  LINE TO",
-          "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T10:34:13+00:00"
         },
         {
           "title": "告別好萊塢！安潔莉娜裘莉不惜「砍價拋售」 洛杉磯豪宅賣掉了",
@@ -1018,25 +1027,25 @@
           "pub_date": "2026-09-25T12:38:57+00:00"
         },
         {
+          "title": "張晨光升格爺爺寵喊「我的小女朋友」　老婆一句「再生一個」他嚇醒",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtODV3a0Vma3RPdWxGSGE4c1M1cDJDbUowYkJBcktUanFSa3NnR19HOXA5MkZ5RDEwMnRRMzk3eDQtQjY3aXJoV2pYdHJicWgzeDNlZEI3OUJUYTNfc09rNmZSU1dhV3M2ZnN5aHl4ZGNjS1o1RzA4dmJR0gFfQVVfeXFMTm80Rk5ULTlJZ1F0djdEUTJLVjBhdldLTjZFQjlqZDZUVWtaSjZ6Vi14MmJYMnZhNFMzU1psX2xaVmV4N3ZaejZ5bzcyQ2NnU0ZCbkwtamE0SjZzUFVOREU?oc=5",
+          "description": "張晨光升格爺爺寵喊「我的小女朋友」　老婆一句「再生一個」他嚇醒  噓！星聞大咖影帝降價求工作！張晨光自曝今年沒戲拍 返台寵「小女友」  Yahoo新聞70歲張晨光當阿公送何大禮給孫女？「太太交代不能說」　突喊「再生一個」他半夜嚇醒　  鏡週刊Mirror Media70歲張晨光聞妻想生孩子被嚇醒  中時新聞網驚喜宣布升格阿公！張晨光甜喊「小女友」 為見孫女4個月狂飛加拿大5趟 | 三立新聞網  L",
+          "publisher": "噓！星聞",
+          "pub_date": "2026-09-25T09:33:49+00:00"
+        },
+        {
           "title": "不用等到第2季！《蘭香如故》追劇日曆公開　宣布一路播到大結局",
           "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9tdW1BU2Y3RWJKS2ppN0p3UVNYRXlUQVI1TzN0ZWpESG11TXZzWTMwdlY2OHNtTng5QkpvOTI4bTMyQy1sTVY3X3pkZG7SAVJBVV95cUxNVHdua2xqLWNYSl81Mk1KQzQ1WURNTTNUTTRJTW1xUExHWmlYWUs5LTBydDUyNEtyb0o4c0h6ZjhQdWhsSXEwWS05SklZaC15NVB3?oc=5",
-          "description": "不用等到第2季！《蘭香如故》追劇日曆公開　宣布一路播到大結局  NOWnews今日新聞《蘭香如故》劉學義雪中熱吻譚松韻預告曝光超甜 她自爆兩人因「這理由」只有1場吻戲全網傻眼  上報Up Media中秋連假10部「好看到想一口氣追完」陸劇！《蘭香如故》會上癮，這部追完「走不出來」  BEAUTY美人圈Disney+推中秋古裝片單 禁忌虐戀、君臣拉扯與先婚後愛全收錄  蕃新聞​主角唱原聲帶更帶感！《",
+          "description": "不用等到第2季！《蘭香如故》追劇日曆公開　宣布一路播到大結局  NOWnews今日新聞《蘭香如故》劉學義雪中熱吻譚松韻預告曝光超甜 她自爆兩人因「這理由」只有1場吻戲全網傻眼  upmedia.mg中秋連假10部「好看到想一口氣追完」陸劇！《蘭香如故》會上癮，這部追完「走不出來」  BEAUTY美人圈Disney+推中秋古裝片單 禁忌虐戀、君臣拉扯與先婚後愛全收錄  蕃新聞​主角唱原聲帶更帶感！《",
           "publisher": "NOWnews今日新聞",
           "pub_date": "2026-09-25T12:29:49+00:00"
         },
         {
           "title": "何篤霖被換主持首露面！ 笑嗆「命運好好玩」小心了| 電視",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oZUZrRXNLbUhEVFdYUjNnNlR0VDRtSDY1RUFVY3hNQ2tJMll4ZDFmT3dMbDc2UEJ2azE1TktXaGowYUYzWUVSRXZjR1k2NEJ3OFNONjdjX0dnQQ?oc=5",
-          "description": "何篤霖被換主持首露面！ 笑嗆「命運好好玩」小心了| 電視  噓！星聞何篤霖被一通電話離開《命運好好玩》後首露面 笑嗆：沒我主持的好看  Yahoo新聞遭《命運》無情突襲交棒！何篤霖放話打對台「你們小心點」 聞陳亞蘭回鍋當場驚呆  自由娛樂直擊／一通電話遭拔24年主持棒！何篤霖開酸「肯定沒我主持好看」　轉身環遊世界：預算無上限  鏡週刊Mirror Media「一通電話」拔24年主持棒！何篤霖首露面",
+          "description": "何篤霖被換主持首露面！ 笑嗆「命運好好玩」小心了| 電視  噓！星聞何篤霖被一通電話離開《命運好好玩》後首露面 笑嗆：沒我主持的好看  Yahoo新聞遭《命運》無情突襲交棒！何篤霖放話打對台「你們小心點」 聞陳亞蘭回鍋當場驚呆  自由娛樂何篤霖被換後首露面 笑嗆新《命運》「沒我主持好看」  中時新聞網「一通電話」拔24年主持棒！何篤霖首露面吐心聲 爽喊：我自由了  娛樂星聞",
           "publisher": "噓！星聞",
           "pub_date": "2026-09-25T11:45:20+00:00"
-        },
-        {
-          "title": "息影逾20年！王祖賢首談容貌爭議：「觀眾都不知道我已經60歲了」",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12Ny1QZlpBbXJpLTJjNFpqU2gzRXJoSjJDZmZ5MjZBY2J3UVRzdTdyai1tSjczVGdFSEszcXk2QThhR2NjS3czdlhuaE1EWm0zRV9HMlVTaWZtUdIBX0FVX3lxTFBWUHU0cE9OUnd3aTBQdnVUSTFaX202WGk1OUoxX2RoaGJiV1RhNlp3R3lkMkk3VTBBVWxVaVl4Y3M5el9ZMHZ2NmVzMGR2LXFrRFpEWi1TalZFbEZRWDBB?oc=5",
-          "description": "息影逾20年！王祖賢首談容貌爭議：「觀眾都不知道我已經60歲了」  噓！星聞王祖賢單身24年⋯舊愛齊秦近況曝光 遭質疑「狀態不如前」  Yahoo新聞王祖賢自爆分手齊秦後單身至今！認15年情「債已還完」　被議外貌嘆：我都60歲了  鏡週刊Mirror Media王祖賢：上一段感情還是跟齊秦的15年，徐克、施南生都是自己的貴人，真心當張國榮是哥哥，第二家艾灸館已開到矽谷  鉅亨號王祖賢鬆口談往日情！",
-          "publisher": "噓！星聞",
-          "pub_date": "2026-09-25T08:30:43+00:00"
         },
         {
           "title": "包偉銘、包小松20年未見面「三兄弟均是富商私生子」坎坷身世被挖- 娛樂",
@@ -1046,11 +1055,18 @@
           "pub_date": "2026-09-25T06:01:46+00:00"
         },
         {
-          "title": "井柏然、劉雯爆7年情變！突合體公開放閃「大方不遮掩」1舉動破除謠言",
-          "link": "https://news.google.com/rss/articles/CBMinwNBVV95cUxOeG81aVRjakluZzhuSjVObXlKV2NyeGgtRkFmakRoRS1VUUNES2tiU3BWX0NzYUkyZ2R2dy1xYllveWRBOEhWVWU4ODctdkVDd0wxb2x3cGJnSGg1NDVoQzI0ZGZBVE1EN3A0SFVaanpPOER6VUZWYXB3SjB2WmZTSE9wdkZlYWh5Y1VmRlBTSlFmUF8wdG9YTXM4X0EzbFpxQTA0SG1wdzRkaW5meFA1OUVJVHB5SkNNaTZDdmd0WHhKcmZKeGVjeUl3MHBMS3dvOWpDT1RuWUt1dkRQSlNoa3pDUmZZeER2QUtGNEo1N2tlV0h0Z1ZWamh3UjRxVVJsd3o1akI1S2FtS2Q2NHpJMTdDOF8xeHBUN3NWMzRkZHN6Wk1RMFdMYkFDNTJGNFRieVFtdVp3TUpYZVZsS3dzVVlvbGJ2YU9iYXdncUl0NFhIRGZndnhhTkdsMHY4UVpEVG16QjREWnVBcS0wdzlfN2hOZ2s2Q21KSmpTWmh5cHNtek9BUF94cjBBbVVPUmdEMHNoQ21SQlNPRllMZks0?oc=5",
-          "description": "井柏然、劉雯爆7年情變！突合體公開放閃「大方不遮掩」1舉動破除謠言  Yahoo新聞「早春」孫千下劉雯上！ 井柏然香奈兒同框真愛| 藝人動態  噓！星聞井柏然粉碎情變謠言！　「合體劉雯看李榮浩演唱會」被當眾點名  ETtoday星光雲| ETtoday新聞雲掰了孫千！井柏然同框正牌女友劉雯　粉絲一看笑喊：霸總氣勢沒了  NOWnews今日新聞井柏然中秋節有超模女友陪伴！甜窩包廂看好友李榮浩演唱會 ",
+          "title": "19歲一夕破產變落難千金！鍾欣怡揭「家徒四壁」慘況：曾恨家恨命運 打工換溫飽吐祕辛",
+          "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQZFVQQVNCOU9fQkFfVEdReEhrSXQ1cW40LTN6MFNaQlBOeVBNR0x5T2JLY0ctVkotcUhGYi1QaS0xS2FSUDJLUER5eW1EcWRaRjVXUjctUXBMN3FINUI4T0FwRVZjV0hoVm1BaVA1Ymx2Qkp3Ri1XVnlyNmJDSTFYclExdTBNTk9WbTlkSkFoaEhjYWdTYjYyVlJSTWxpU295MHlJSnQ5QWZnekhnNFo1aU5TOEJ2M1NjOWhlTHgzWjlHMVVzdmVEakROVHpmdmNkeUFjbTVhbi1YTWdwVDNMNmJPQ3pXSHB0VVlWMEtueWdJMFFvbk9zZ1MyWTcyY2Eyb19nMF9VUGZyaVdqYkR5eG9uTzdKSUo0UFFBcTFfR2tsd0xzdVRBMzNmOG9kdnVhQ1pYb1hoX3M2WThydVkw?oc=5",
+          "description": "19歲一夕破產變落難千金！鍾欣怡揭「家徒四壁」慘況：曾恨家恨命運 打工換溫飽吐祕辛  Yahoo新聞",
           "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T05:03:08+00:00"
+          "pub_date": "2026-09-24T04:44:40+00:00"
+        },
+        {
+          "title": "王祖賢息影單身24年！罕談齊秦15年情喊「還清了債」只剩祝福送對方",
+          "link": "https://news.google.com/rss/articles/CBMilANBVV95cUxQUTZsX3RQLXA5b05ZMlF2dDhaQ2dyTkhaMXhMcmlybHdGcjZHVlFsTk50SGdlRnR2OW1zRnU4aHpCTDFDUEFLVUh3MXctNTZlb29YYURFMU5KeDdFdTNvN1EwSUZLZ18tLTNCMTB4bG5TaU9pX241YmpTai1SaE1sZmduOTA5Um5SLTJFSDlvMFgzdnJFZ0VnVWFTd3NLV3lRUFM5SlpCSmpDQm56RTEzYUY0OC1WWHdBczNJNXNCdWJqNGVoOVdoTTcyQVRreW45Y2xiTi1oRi11aE9PcGx4Tjk4cmJIZmVqSWFCZ3VYNGs4bGpiUVE4WEJ6VGRLMk1XVXZjaVVmYkp3QkFEX3B3LUp2c3BRc2VmRTRFdEtUWS1jRWZFWllZQUNGbHk3cXo2MGQtWm1fZEptUXVadzE3N0lzNDV6MkV2OTloVV9TMWNOeTVLeDhuS1ZjOHZuVXBoYkNBeTNuTk0yNUpnOVNuTHowQkwzWHdyY0V2a19FeWEtMXZ3aDZadWRjRjk2dF9yVEREQw?oc=5",
+          "description": "王祖賢息影單身24年！罕談齊秦15年情喊「還清了債」只剩祝福送對方  Yahoo新聞王祖賢單身24年⋯舊愛齊秦近況曝光 遭質疑「狀態不如前」  Yahoo新聞息影逾20年！王祖賢首談容貌爭議：「觀眾都不知道我已經60歲了」  噓！星聞王祖賢自爆分手齊秦後單身至今！認15年情「債已還完」　被議外貌嘆：我都60歲了  鏡週刊Mirror Media王祖賢：上一段感情還是跟齊秦的15年，徐克、施南生都是",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-25T05:47:53+00:00"
         },
         {
           "title": "昔爆公園上演活春宮！51歲傅天穎傳到按摩店求生　淡出演藝圈「改當房仲」近況曝光",
@@ -1060,32 +1076,32 @@
           "pub_date": "2026-09-24T07:53:00+00:00"
         },
         {
-          "title": "19歲一夕破產變落難千金！鍾欣怡揭「家徒四壁」慘況：曾恨家恨命運 打工換溫飽吐祕辛",
-          "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQZFVQQVNCOU9fQkFfVEdReEhrSXQ1cW40LTN6MFNaQlBOeVBNR0x5T2JLY0ctVkotcUhGYi1QaS0xS2FSUDJLUER5eW1EcWRaRjVXUjctUXBMN3FINUI4T0FwRVZjV0hoVm1BaVA1Ymx2Qkp3Ri1XVnlyNmJDSTFYclExdTBNTk9WbTlkSkFoaEhjYWdTYjYyVlJSTWxpU295MHlJSnQ5QWZnekhnNFo1aU5TOEJ2M1NjOWhlTHgzWjlHMVVzdmVEakROVHpmdmNkeUFjbTVhbi1YTWdwVDNMNmJPQ3pXSHB0VVlWMEtueWdJMFFvbk9zZ1MyWTcyY2Eyb19nMF9VUGZyaVdqYkR5eG9uTzdKSUo0UFFBcTFfR2tsd0xzdVRBMzNmOG9kdnVhQ1pYb1hoX3M2WThydVkw?oc=5",
-          "description": "19歲一夕破產變落難千金！鍾欣怡揭「家徒四壁」慘況：曾恨家恨命運 打工換溫飽吐祕辛  Yahoo新聞",
-          "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-24T04:44:40+00:00"
+          "title": "布萊德彼特接受完整軍事訓練 真實程度堪稱教科書等級",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fYlZETXVuZDcxWXZnd3hIZzJyeEh3VV9ORjFiNTduWndkVXNrbXNJNzhGNnAyX0Q2Y1VLb1ctbGlheV8wcVhtMVEwWEFmemd2NVRLNHU3Q2RhNFNMaUJreVR30gFnQVVfeXFMT0czaU0xVlMxSjc1Sl9IbUI5SEdlcGVteEh6TWkwbHZON0RnZzkyVkdfSkx3eXVRaDRRNGZiaGp0eEpOQTZfbzN5NHBRX29KZWdrcXRlZHlJdnV0cnBKWmZFWEc3Q0EwWQ?oc=5",
+          "description": "布萊德彼特接受完整軍事訓練 真實程度堪稱教科書等級  世界新聞網小布為戲操爆自己！《野獸之心》親自上陣玩命求生 真實到能當教材  自由娛樂強檔「求生系」新片！ 布萊德彼特 《搭檔偵察犬》荒野之旅｜#鏡新聞  Yahoo新聞布萊德彼特拒躲休息車！零下低溫「自虐挨凍」玩真的　特種部隊教官操到爆  ETtoday星光雲| ETtoday新聞雲《狂野雄心》影評｜畢彼特與狗狗求生感動人心，略嫌人物描寫火候不",
+          "publisher": "世界新聞網",
+          "pub_date": "2026-09-25T15:18:05+00:00"
         }
       ],
       "sports": [
         {
           "title": "亞運棒球》日本隊推「熟悉」強投 台灣隊明拚晉級挑戰不小",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aVGNsSVhlU2dPWUNnZlpFTEhhTlE2NnNVX1B4R05qUWI2SWpnUWhnYjdreUttRnFUVENsc3VWdGZCcXVBQjF6dU9RaGFiY25nNVhFNEVId3QySVJUTnpYWNIBZkFVX3lxTE9IRjRnemEzcVY0Tm9xZWN1LXBxWUFtUXZna1d1ZzFOWUpWZ0NrZWFiTlZWVWJmZDNiSWdCd0lWbGtNR2gtejdxTXY2TlNuNDE4Vm92b0JzY2N1WHBsV1hiNmxScWk5dw?oc=5",
-          "description": "亞運棒球》日本隊推「熟悉」強投 台灣隊明拚晉級挑戰不小  自由體育亞運棒球》中華隊關鍵戰役9比1戰勝中國 超級循環賽戰績變為1勝1敗與韓國相同  Yahoo運動快訊／中華隊數學算完了！明台日大戰先發不是林昱珉  ETtoday運動雲亞運棒球觀眾席爆爭議台灣球迷舉Taiwan毛巾遭制止| 運動  中央社 CNA亞運棒球》慘遭日本社會人完封！ 南韓教頭坦言要算「數學」了  自由體育",
+          "description": "亞運棒球》日本隊推「熟悉」強投 台灣隊明拚晉級挑戰不小  自由體育亞運棒球》中華隊關鍵戰役9比1戰勝中國 超級循環賽戰績變為1勝1敗與韓國相同  Yahoo運動快訊／亞運看台爆衝突！拿Taiwan毛巾遭日方擋　台灣球迷怒了  ETtoday運動雲《2026愛知．名古屋亞運》中華vs中國文字直播：中華隊火力全開，擊潰中國拿下複賽首勝- 中職- 棒球  運動視界Sports Vision亞運棒球觀眾席",
           "publisher": "自由體育",
           "pub_date": "2026-09-25T15:34:00+00:00"
         },
         {
-          "title": "免費雞排來了！慶祝王冠閎亞運摘金 全家祭品文兌現",
-          "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPcXN1bEhndXdCdVlpUHlzQTRLaU44Y0NETk9DajlaUWo1M1NJSzc5QmNRYV85QW1fQTBqUzJ3TGw2TUVPLVFOdnVpNkhyeXZYdjMwcGswU2Vfb20waFpENUtSYktKbjlPQkpueGdSNzZkQmNlclBYVmJDdUJIa3B5djlXdlc4OE1rTHFXOWQ0eEIwQVN2SVAxQVNEamRyS0dKNFZ5MEhINXY0QkVZUFRqTFc1akJ2XzhJdEkxYnhzS2dCZDZQeXh1SXdCc3J5bHdzNTFrMnVfX3lpenNZQUxuN21xVTE5V2ZyNXQyQVdOR0pqLTJ0TXp3VUNwUTUxUU9KMkI3QUpLZDBabEh5cDhjTGNoQkp1MkNMTThGeDBtMDEtVWRWZjVZdlhoNzEzeGVHeGVrbG4yQjdKZDF6UEZkQVd4LS0yUXMyWDNDdWVNZ09Nd3NUX1FWaVpzMExVdw?oc=5",
-          "description": "免費雞排來了！慶祝王冠閎亞運摘金 全家祭品文兌現  Yahoo新聞亞運游泳／王冠閎200蝶摘金 我國亞運男子游泳史上首金  UDN「臺灣蝶王」勇奪金牌 辜泳諺摘銀創紀錄 | 青年日報  LINE TODAY名古屋亞運／王冠閎游出台灣28年等待 奪金後直呼「感覺不真實」  rti.org.tw王冠閎亞運摘金「人生最美好比賽」壓力釋放直呼不真實| 運動  中央社 CNA",
+          "title": "王冠閎亞運奪金！全家明發500份免費雞排 超商祭狂歡優惠一次看",
+          "link": "https://news.google.com/rss/articles/CBMihwNBVV95cUxQd1RhM0lOMElzMUlTaVNHZ0F4NEZfWVhGaEVmWElVSnU1blo5R0J6Qld3T21ZY0xybnY1eW15aHNBV0ppaXVWMUNjUDFVekJiLTdIak5qVXRUdHJyTlQyYTRPQVBBZE82ZWZiQTIxZGdFWWZSa25nWTVrTERKYVpldmo4QXA1UldrajBZRXhkWHBTREM5QjQteGE3MjgzekJ1dkJxVlljTXVsNkF5b0JqNUJ4ZkM1ZDY5VEpraTBuQ0dwejc3X3BVUHdyVVNMWk1OaExtWktGLWgwdl9mMlNpQWFBVFVRc2kyUS1DTTc0d0Y3bVNlb3NpM0F6WWMzUno5c3BaOHhGZmNsZXhMVkUxc3kyX2RrVDN0RHRoQnR1SjVNZmhpRGotNDcwNnN2SnZodk8yUTc2cDkydjJRNW44SDdpWFctclc4emMwQ3REb2MxZzhBOFcxTXVuMzBtaXp2MWZ2MVpKdVhveXFkSktXYmhCVVBUd3o4WVJzSHYwTUZUNG56NDRr?oc=5",
+          "description": "王冠閎亞運奪金！全家明發500份免費雞排 超商祭狂歡優惠一次看  Yahoo新聞王冠閎亞運摘金「人生最美好比賽」壓力釋放直呼不真實| 運動  cna.com.tw亞運游泳／王冠閎200蝶摘金我國亞運男子游泳史上首金| 運動 | 2026名古屋亞運  UDN【亞運蝶泳】台灣蝶王進化了 王冠閎200蝶摘金成亞洲蝶王  Yahoo運動名古屋亞運／王冠閎游出台灣28年等待 奪金後直呼「感覺不真實」  rt",
           "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T14:40:00+00:00"
+          "pub_date": "2026-09-25T14:06:00+00:00"
         },
         {
           "title": "亞運體操／「夢碎了，也醒了」 李智凱發文收拾情緒再出發| 名古屋亞運| 運動",
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Id2hxZENHUzh6WEpkU1I4Z25JRmxwRHNaVFIxM3NYZXVSblptLU9lbTN0VmdJbFlBQTFvZHRVanRGeHpLUDZYdEtVUHVxMmNGTjY4?oc=5",
-          "description": "亞運體操／「夢碎了，也醒了」 李智凱發文收拾情緒再出發| 名古屋亞運| 運動  UDN亞運》唐嘉鴻單槓失誤落地 排名第5結束本屆亞運之旅  Yahoo運動亞運唐嘉鴻要命掉槓失誤排第5 自認要加強抗壓性| 運動  中央社 CNA名古屋亞運／單槓掉槓留下遺憾 唐嘉鴻：把自己變更強、更穩定 (影音)  rti.org.tw想幫李智凱雪恥卻掉槓無緣獎牌！唐嘉鴻苦笑：今天不是我的天  ETtoday運動雲",
+          "description": "亞運體操／「夢碎了，也醒了」 李智凱發文收拾情緒再出發| 名古屋亞運| 運動  UDN亞運》唐嘉鴻單槓失誤落地 排名第5結束本屆亞運之旅  Yahoo運動亞運唐嘉鴻要命掉槓失誤排第5 自認要加強抗壓性| 運動  cna.com.tw名古屋亞運／單槓掉槓留下遺憾 唐嘉鴻：把自己變更強、更穩定 (影音)  rti.org.tw亞運前線》唐嘉鴻很想幫李智凱雪恥 可惜掉槓自認心態要加強  自由體育",
           "publisher": "UDN",
           "pub_date": "2026-09-25T04:23:20+00:00"
         },
@@ -1097,18 +1113,18 @@
           "pub_date": "2026-09-25T10:58:00+00:00"
         },
         {
-          "title": "愛知名古屋亞運「競技武術」中華隊止步八強 Ugang、ET、Mr.Good 聯手出戰",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EdzdKWlZCaFpBVkQwX1NwMmdTWFI1TFJhZmpfZTdPVl9FRVNBbHVHTjdjUktMaEdLeGZJcTlNWmNUdEtteC0za0dtZ0tDSng1QWNqNXJRUmg?oc=5",
-          "description": "愛知名古屋亞運「競技武術」中華隊止步八強 Ugang、ET、Mr.Good 聯手出戰  GNN 新聞網亞運專訪》上屆快打奪銀銅...中華隊電競「競技武術」止步八強 選手賽後曝真實心情  Yahoo新聞亞運》團練吵架無傷 永劫無間奪銅值了  自由體育亞運／中華隊電競首牌入袋！ 卡巴迪保底雙銅、女籃重回四強| 運動 | 2026名古屋亞運  UDN中華隊亞運電競首面獎牌入袋！愛知名古屋亞運《永劫無間》",
-          "publisher": "GNN 新聞網",
-          "pub_date": "2026-09-25T14:36:27+00:00"
-        },
-        {
           "title": "亞運／滑板12歲辜泳諺摘銀　成台灣亞運最年輕獎牌得主！笑稱獎牌有點重",
           "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1SWXV4YnNZNFYyUkhlR2pMRlVBNmE4SnFYWDdkV090UTNUMFNJX19SMjJ6WE0xMGg2RVhwNXVfTDBGUVZKOXRyWdIBTEFVX3lxTE9ydWJhcjZjTlp6YVJYWkxzNzFGRE8tTjNpSU40LVJUbFFGYU9vODhPb2tiOExuSjNIVHNiSXBMakg0Nm5JczJJRU41c3Q?oc=5",
           "description": "亞運／滑板12歲辜泳諺摘銀　成台灣亞運最年輕獎牌得主！笑稱獎牌有點重  三立新聞網SETN.com亞運／出了滑板場 林逸凡、辜泳諺場下互動萌翻全場  Yahoo運動亞運前線》最後一趟超狂大逆轉！12歲的辜泳諺滑板勇奪銀牌  自由體育12歲辜泳諺從鐵皮屋滑上頒獎台！4個爸爸蓋出「奧運夢」  ETtoday運動雲亞運》2028奧運點名「等你來」12歲辜泳諺驚豔逆襲偕14歲林逸凡奪滑板雙銀| 體育  N",
           "publisher": "三立新聞網SETN.com",
           "pub_date": "2026-09-25T07:02:00+00:00"
+        },
+        {
+          "title": "愛知名古屋亞運「競技武術」中華隊止步八強 Ugang、ET、Mr.Good 聯手出戰",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EdzdKWlZCaFpBVkQwX1NwMmdTWFI1TFJhZmpfZTdPVl9FRVNBbHVHTjdjUktMaEdLeGZJcTlNWmNUdEtteC0za0dtZ0tDSng1QWNqNXJRUmg?oc=5",
+          "description": "愛知名古屋亞運「競技武術」中華隊止步八強 Ugang、ET、Mr.Good 聯手出戰  gnn.gamer.com.tw亞運專訪》上屆快打奪銀銅...中華隊電競「競技武術」止步八強 選手賽後曝真實心情  Yahoo新聞本屆亞運電競首奪牌 台灣選手「永劫無間」 摘銅｜20260924 公視晚間新聞  公視新聞網PNN亞運／中華隊電競首牌入袋！ 卡巴迪保底雙銅、女籃重回四強| 運動 | 2026名古屋",
+          "publisher": "gnn.gamer.com.tw",
+          "pub_date": "2026-09-25T14:36:27+00:00"
         },
         {
           "title": "亞運桌球／激戰5局惜敗世界第1！林昀儒、鄭怡靜2比3惜敗 8強止步",
@@ -1120,74 +1136,81 @@
         {
           "title": "中職》最快明再攻頂！下半季最後2場對兄弟都贏 曾豪駒談今天能突破鄭浩均的關鍵",
           "link": "https://news.google.com/rss/articles/CBMi-gNBVV95cUxPUzdoQ0J4MVJGRkIxa0M2MVNaelVsT2dLNnFIaWt4OFZLeUo1VDVjeDZVU1lFbkV4X2pRYkp2MzV6N1p1QnF2TjBQSDY5QldtVl80Znh1OGlya05OOHlxZ0kwRWxCWENCZVRrckNuSnFoOE9TU2xaSGowQm9YNV9iQWd6Rm1DZ3I4WVVpaDEtTktuWVd2UnBGNFhtYXBaRU5RZnNRV3h5LUNaTGZnOFMwWWhzczVVU0g4TzlmMDBPUHJvdDNPOThBZ0g3NUxwVU1MNngzWk1yYnVYYjR2b3RRMnE1dGlrNEg0MWZCUVB5MWotT2JBQTJoNjF4Rm9xWnRYQXo1LWMtNXNOSl8yemtGcWFKMXpUaGs2V1QtQ1A0ekRNMU5HcVZIWGhzWG15OUllYUE0WUN6NE9LUjBOM3V3V3ludE9aVzY3Nl85Wks2UnFLVmpTNGRDQzhmdFAzemN0SHFNN1FjZk50WjIxRm1CUlpERGRJZHRKcXVTOVpGNE1WVUhqUnpRdThyS1ZpcjJqZEllZENnRzlPVVNJYUtOMDVMVUtGb1B5T3NCRnFleTd3VkQ0VTRaNm1pQTc1YWMtQmJWM0JCNm8yQVdpeFcxS3J5bUNVR0NiSk9KdTg2amhlQy1rTmpaTG4zX0IzZVNZMXhFNUN6NmZXdw?oc=5",
-          "description": "中職》最快明再攻頂！下半季最後2場對兄弟都贏 曾豪駒談今天能突破鄭浩均的關鍵  Yahoo運動中職》對兄弟2連勝真的太關鍵！ 曾豪駒吐露心聲  自由體育中職／亮起的不是黃燈！桃猿仍居第二名 率先點亮季冠軍魔術數字Ｍ9  UDN六分大局擊退中信兄弟 樂天桃猿主場收下四連勝 - 中職 - 棒球  運動視界Sports Vision兄弟昨遭桃猿6比5大逆轉　球員竟被做遺照、影射假球！球團發聲明  ETt",
+          "description": "中職》最快明再攻頂！下半季最後2場對兄弟都贏 曾豪駒談今天能突破鄭浩均的關鍵  Yahoo運動中職》對兄弟2連勝真的太關鍵！ 曾豪駒吐露心聲  自由體育六分大局擊退中信兄弟 樂天桃猿主場收下四連勝 - 中職 - 棒球  運動視界Sports Vision中職／率樂天「天王山」橫掃兄弟　艾菩樂想過挑戰完投！為這件事忍住了  三立新聞網SETN.com中信兄弟》德保拉開刀例行賽要回歸有難度！ 平野惠一",
           "publisher": "Yahoo運動",
           "pub_date": "2026-09-25T12:20:16+00:00"
         },
         {
-          "title": "亞運棒球》日本爆冷擊敗韓國！ 中華隊明對日得贏6分以上才能晉級金牌戰",
-          "link": "https://news.google.com/rss/articles/CBMiyANBVV95cUxQSklvb3hDVE1rdmlXSnV1T010MkN4aVlHWnloNS03U2I1OTRqVjZidkZyOFN0dzVhQ2xUclRBdG1nTjkyTjdmNjZSaTdQaGh0QWFCT1haQURJaFRTaFVqMjZTZ1pMODZJMU93ZVpFQTlnZDlBYk5sZVJmX2hVNGRuanV2b3J1Y3c0R25IcHR4a0pYcEJHeUpTdm83Qk0tYWpTMUJsZFFBTEwwdmJzSGFmeUNoNmR4cjdLMnFWWmktbU1ZdEp5RkNUMEpEdkRMck1TVFlSSzZMQjV2SFNIMzdrU2V0a00zVmE2THNjN3dxdE1yX3ZzVkwxdDNmaGF2elNTbUVkNXduUFNuVDlUMXk2NTI2YXVYWmhaU0NZRzJWVElLUFJubEU4N1JwMUVFVGY4emJaYkdGVm9yWkdMdVo0OVBIZVhJVzRoeHB2OHBnV3Z5YURiQnQ4ZVVkeVlJaEJjVGtiTl9IaUJKR09veDE5a2J3NmlTU1hQMk9QQ0NKcHp2aUVxblVudjVmWVlsd3I4TmotSERoX3ZMbmNNOU5zdnk0WHF5a3RFRkJodWVSQmNPbXZKaDNTQUlPQWJuNjNWcXZRMzhlZVY?oc=5",
-          "description": "亞運棒球》日本爆冷擊敗韓國！ 中華隊明對日得贏6分以上才能晉級金牌戰  Yahoo運動前往 Google 新聞瀏覽更多頭條新聞和觀點",
-          "publisher": "Yahoo運動",
-          "pub_date": "2026-09-25T12:56:41+00:00"
-        },
-        {
           "title": "張展碩締亞運7冠壯舉！「奇跡小子」膺歷史金牌王",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb2Z4aWtHWXpKdHVBU2lQTEhsT0gyNThqdzA5dVh4eXdhQk5KM1VaYUgwTDB0YkdIbE83T0syUU5GNjVZeURTbGVKajY4a003Y1JCZGo5a2ZXeEdWamRWV1JYYjFtaE05R1hnWUZmVVJIdjY1bTRyaWRtU3NwLUgxYlBXQ3gyTHJRRW5CMw?oc=5",
-          "description": "張展碩締亞運7冠壯舉！「奇跡小子」膺歷史金牌王  hk.on.cc亞運游泳》中國19歲小將張展碩勇奪第七金 創亞運游泳新紀錄  Yahoo運動張展碩潘展樂 “展字輩”又刷屏了！  hk.crntt.com【名古屋亞運】19歲張展碩400自摘第7金 掰著手指數亞運游泳新紀錄  PChome Online 新聞亞運歷史新紀錄！中國泳將單屆奪7金 泰國飛人百米稱霸 | 民視新聞網  LINE TODAY",
-          "publisher": "hk.on.cc",
+          "description": "張展碩締亞運7冠壯舉！「奇跡小子」膺歷史金牌王  on.cc東網亞運游泳》中國19歲小將張展碩勇奪第七金 創亞運游泳新紀錄  Yahoo運動張展碩潘展樂 “展字輩”又刷屏了！  中國評論新聞【名古屋亞運】19歲張展碩400自摘第7金 掰著手指數亞運游泳新紀錄  PChome Online 新聞亞運歷史新紀錄！中國泳將單屆奪7金 泰國飛人百米稱霸 | 民視新聞網  LINE TODAY",
+          "publisher": "on.cc東網",
           "pub_date": "2026-09-25T13:39:10+00:00"
         },
         {
-          "title": "亞運前線》台灣卡巴迪男、女子代表隊4強都敗給伊朗 雙雙進帳銅牌",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MMko4bWVoZlZmeEw3bF8xUzlDVjF4TUVISmF5N00wQWlxN1luNGtDeGw0Rncyb3EyeDdHTldnVE8yb2NtRl9KWlVfZ19DelVuelE2NHhRb1A2bGk3SkJzTtIBZkFVX3lxTE5DbEliNmtyZUM4em05aTNZcndfV19SUTlQOVdjdlJRWm0xR19pMUROUVBFX0Iwamk0eWc4RHk3b3dPUWl2SVBoQWU3TmE4QUI2ZktMZnBBZThOd0ZCQWc4cTRSN1pTdw?oc=5",
-          "description": "亞運前線》台灣卡巴迪男、女子代表隊4強都敗給伊朗 雙雙進帳銅牌  自由體育女子卡巴迪19比23不敵伊朗奪銅！本屆累積22面獎牌  Yahoo運動名古屋亞運／台灣女子卡巴迪晉4強確定獎牌入帳  rti.org.tw亞運前線》台灣卡巴迪男、女隊同闖4強 至少銅牌入袋  自由體育亞運／狂賀！中華隊又有獎牌進帳  東森新聞",
-          "publisher": "自由體育",
-          "pub_date": "2026-09-25T11:51:00+00:00"
+          "title": "亞運》泰布森飆9秒91破大會！陳玟溥10秒29第9名殘念 楊俊瀚、廖晏均無緣決賽",
+          "link": "https://news.google.com/rss/articles/CBMivANBVV95cUxOSmxkUWRUX1Q1bmJuU08wX2hFci13ZkJmNkRqeVpqQ2RfMU1QYkZXZjlqMXRSOFFRLXZTUHE3Vld2VkZFUkQ2NFJaMkJLS2Z3UGd5OHN2OHA3TVRWRUNCQjFfTFhTaXBHX1JLM09RTDNIOVc0RE03VDJDQ0NYV05MSVJLUDlHTFpaUmFLSENxX1lRM01hQTRoQVFBUnBkdHdFQ3lZU19UdGNDYWl6eVdObm5jTF9iYWcxVFV1c3Voc01kSGd5TmlpUjUwQVdPMGF4Z2t2TkZXd3o1ZnlKS0psOVhPWno0WFFfVmZhU1NSbDNyTndvM0dhLTBENnp6anl3OXpRRVdGZi1kNzkzZ3FyUUJUTmFoMjA3WnVaeF9XdDkyYURBMDB3NGhqbWI4VFNUckQzMDJIYjhla2VxZzNTb0l2Q21CQ2JRZExpYVBaLURkZWpmQ2pCc3d0d2Q1OFltcHpXcVhTbHZXaDhiRWl6b0V1OG45SFR2enQ4WjNvdjNtc29lR2lHVmlzbUMxRHJfQVZkYTFsY3BhWmZoODBpbjJodGtzaHc3dGNiU0lQZDB6MmVBRzFWREw1ZzE?oc=5",
+          "description": "亞運》泰布森飆9秒91破大會！陳玟溥10秒29第9名殘念 楊俊瀚、廖晏均無緣決賽  Yahoo運動亞運前線》全場關注！泰國快腿布森單日二破100M大會紀錄 9秒90摘金  自由體育亞運直擊｜從聽到中文「加油」&9秒95的驚呼 台灣選手晉級的名古屋田徑夜  Yahoo運動亞運田徑／布森百米準決賽9秒91破蘇炳添大會紀錄楊俊瀚無緣決賽| 運動 | 2026名古屋亞運  UDN快訊／飆出「亞洲歷史第2快",
+          "publisher": "Yahoo運動",
+          "pub_date": "2026-09-25T11:55:53+00:00"
         },
         {
           "title": "日本乒乓男團亞運會時隔60年奪金，逆轉中國",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ05FX25NUHlDRXo0VHZOQldDWllzS1VTd1M3RXdjOGVZaWhVV1dtTkRtaC01SXFFbFJJUjdGbTVNVEhlaUlnRVpXc1lNSzF3WnJqZ0E5LWFuT0czTEdRcnQtajNTWllzMmJqdjRyVkRzZVBsbUxaa3FsMkZyWVdtU0JHMTRHVFRIemNvSnplZHB3eGc?oc=5",
-          "description": "日本乒乓男團亞運會時隔60年奪金，逆轉中國  日經中文網亞運》18歲小將扛2點全敗 中國桌球教頭喊話「必須給年輕球員試錯空間」  Yahoo運動中國男桌8連霸斷了！王楚欽0比3不敵張本智和：還是實力不足  ETtoday運動雲《名古屋亞運》終結長達60年的奪金渴望，張本智和聯手松島輝空助日本男團登頂- 桌球  運動視界Sports Vision亞運前線》日本終結中國桌球男團8連霸 日媒狂吹「推翻王",
+          "description": "日本乒乓男團亞運會時隔60年奪金，逆轉中國  日經中文網亞運》18歲小將扛2點全敗 中國桌球教頭喊話「必須給年輕球員試錯空間」  Yahoo運動中國男桌8連霸斷了！王楚欽0比3不敵張本智和：還是實力不足  ETtoday運動雲《名古屋亞運》終結長達60年的奪金渴望，張本智和聯手松島輝空助日本男團登頂- 桌球  運動視界Sports Vision中國男桌爆冷丟金、九連霸夢碎！19歲小將決勝點落敗 中",
           "publisher": "日經中文網",
           "pub_date": "2026-09-25T02:57:52+00:00"
         },
         {
-          "title": "亞運女籃／蕭豫玟14分、17籃板主宰禁區 中華女籃退菲律賓晉級4強",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mNVRMU1RRbldHM1BPUzlwSlZPWlNEclQ4eHo2T3lTWGlzM2kxVHg5MU10QmZQWkNCYnZJVlJGMnA1bS10bEZIdkVrdllrZnByS1hR0gFYQVVfeXFMTUhDOFkyVWxXR1hwNHFKT0RPODI1VDV1YkNraFBja0hzSnNQZ0tRWHllX0VZOEpfV2oyTjBRZUpoSEdOQVVIWERMT3FxdDYwMFl0NzBFMjZVUA?oc=5",
-          "description": "亞運女籃／蕭豫玟14分、17籃板主宰禁區 中華女籃退菲律賓晉級4強  UDN亞運／女籃力退菲國重返4強行列 前田顯藏喊話要向日本發動猛攻  Yahoo運動亞運3X3籃球／中華女籃12：14不敵南韓8強止步連兩屆無緣獎牌| 運動 | 2026名古屋亞運  UDN擊敗菲律賓 女籃闖進亞運4強  中華新聞雲／中華日報亞運前線》助台灣女籃重返4強！可能強碰日本 黃鈴娟喊話：奮戰到最後一秒  自由體育",
+          "title": "亞運前線》「你們是來報導的嗎？」 台灣冷門運動在日本享受明星待遇",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6ZXpNaHNBU2dHcG5DWTZXN1p4bS1paGlRakM3SXhkSy1QUjY0MWNLTEw2TTUtVEtrZ19YWXNNM3NxZWx0dEZZZERQWDYtNFhmVnhCNDNYZWpScktfNURxQ9IBZkFVX3lxTE5PcG1qUDVVV01lRU9jcFNRa3BqbTNMckYyZmJJQXNOQzFqeGJfSXBYdi00cmJ0bk9zeXNyS3doTzdUQnJXRlRzc0RjdER5NG9HTy1fbDRJQlRpT2FwYUNZQjhKVmlTZw?oc=5",
+          "description": "亞運前線》「你們是來報導的嗎？」 台灣冷門運動在日本享受明星待遇  自由體育前往 Google 新聞瀏覽更多頭條新聞和觀點",
+          "publisher": "自由體育",
+          "pub_date": "2026-09-24T01:01:00+00:00"
+        },
+        {
+          "title": "亞運棒球／中華隊狂挨觸身球！李亦崴「耳鳴流血」傷勢曝 香港球迷大喊：對不起",
+          "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQZEw1cS1rVGx1S3dGdk5jMzhNVE82S2RaQ3ZpNE5VdURYZFA2VkpONzVWUi1uWDNPNUJUR0toZS1QUm11WDZDVlY2MVo3a3kzQjRzNEQ2bk1MZWJJa2dZRFNmR1doZ0tvNXFOTTJiU2ZPT1FiT2VVN2JJaFBOVTJhXzZVNjNMck05TS1CWEV6Y2l4X2tCT0FwbEhBaG5kb2hNUzExNTNUbnZYVnR0ajZtM3NObWRwREYwekVLblEzVHlhb0JKam5ERnNyb0NjZDdLdDgtemRXU0ppX0NHaUVnd2d4VUR5SXE4dUM2NzA2SHBJM0Q3MUhiaTV4bjFlLUxlQXdpYWZlTENCVTh0QXRxLUR6bHdGb3FUVDVxakQ5QTlBVzZ4T0VuUFF2UWwtNFlQQldCdjd3dG9CcHFZMVZlbHpkWWZaODVCWWswNmlNR0pETm92NWdMWGY0RENSRzhF?oc=5",
+          "description": "亞運棒球／中華隊狂挨觸身球！李亦崴「耳鳴流血」傷勢曝 香港球迷大喊：對不起  Yahoo新聞亞運》陳孝允再見二壘打 中華隊6局15分提前KO泰國  Yahoo運動亞運棒球》是真的！陳晨威猛力揮空 慘遭香港先發投手三振  自由體育中華隊被砸6次！台灣球迷火大　香港教頭澄清：真的不是故意  ETtoday運動雲名古屋亞運／台灣棒球選手「6度挨砸」球迷怒　香港總教練澄清：控球沒那麼好  鏡週刊Mirro",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-24T02:04:17+00:00"
+        },
+        {
+          "title": "亞運女籃／蕭豫玟14分、17籃板主宰禁區中華女籃退菲律賓晉級4強 | 運動 | 2026名古屋亞運",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5xUnJpcXVkdTJmLUwzZTZyY2ZyTTRzalkyYUxmVmdyM29HVWlLQkF2bWdZRjMxcHVuZkhjdS1OU2RmaW1HaHpVUWswLTZrTjBBemQyUmpXMHh4OFF6d0F2cg?oc=5",
+          "description": "亞運女籃／蕭豫玟14分、17籃板主宰禁區中華女籃退菲律賓晉級4強 | 運動 | 2026名古屋亞運  UDN亞運／女籃力退菲國重返4強行列 前田顯藏喊話要向日本發動猛攻  Yahoo運動擊敗菲律賓 女籃闖進亞運4強  中華新聞雲／中華日報亞運3X3籃球／中華女籃12：14不敵南韓8強止步連兩屆無緣獎牌| 運動 | 2026名古屋亞運  UDN亞運前線》助台灣女籃重返4強！可能強碰日本 黃鈴娟喊話：",
           "publisher": "UDN",
           "pub_date": "2026-09-24T08:52:47+00:00"
         },
         {
-          "title": "NBA》加碼5年63億仍感受不到尊重 活塞明星中鋒合約細節曝光",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rZGMtUkY2eElpSkhsVFptRmxDNzVyMDVpaTZXR0FERXNYZ0N5cUx1cUxjSXdCUThqMzNXU0ZTV3N2QUlGRzdJblVGU1J0M01DdUFOM2FvbjYwVEd3azhtVtIBZkFVX3lxTFB1cVQ0X3hpem0yS2V2R3B5Z0xXUkNrUzM2azlXQXJ0SC1xUnp4eElaZHpkOHNXUkp5VTU5b21WVUUyZlMyYklrd1JFQzJaalRuc1VPRHVIak5oQnhCVUgwdW5QZllIQQ?oc=5",
-          "description": "NBA》加碼5年63億仍感受不到尊重 活塞明星中鋒合約細節曝光  自由體育杜倫無意繼續待在活塞　美媒爆料：他接連缺席老闆與康寧漢的活動  NOWnews今日新聞NBA／活塞明星中鋒搶人大戰！杜倫5年2億仍未點頭 公鹿透納恐成交易主菜  UDN活塞鎖定防守核心！Ausar Thompson 獲 5 年 1.55 億美元續約，Jalen Duren 談判恐更僵| No Look Pass  FanPi",
-          "publisher": "自由體育",
-          "pub_date": "2026-09-25T02:16:00+00:00"
-        },
-        {
-          "title": "亞運田徑／泰國布森衝出驚天9秒95 楊俊瀚、廖晏均晉級百米準決賽",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3NTRYVGNGM2JYTnVkU0thWlAxckdHd1oyWU04SGdLeEZIYmtuOE9ya09TSDFha081cXg3Qm9WcmV1dkEzLUt5ZWJGT0ZXbUNUazRN0gFYQVVfeXFMUGNLTUNiYVd4RHFHZkZZM3lFMUFCZ00yRjZGV0o0ci1UalE1aVVTOFZOTldLOEdrbm53RzBEa0RvQ1RTY1NLTm54RnFDc1hSNnBSZnZiZWRLMw?oc=5",
-          "description": "亞運田徑／泰國布森衝出驚天9秒95 楊俊瀚、廖晏均晉級百米準決賽  UDN亞運前線》台灣快腿陳玟溥離100M決賽就差0.04秒 帶傷拚有失落也有開心  自由體育亞運直擊｜從聽到中文「加油」&9秒95的驚呼 台灣選手晉級的名古屋田徑夜  Yahoo運動亞運田徑／布森百米準決賽9秒91破蘇炳添大會紀錄楊俊瀚無緣決賽| 運動 | 2026名古屋亞運  UDN快訊／飆出「亞洲歷史第2快」　泰國快腿布森亞運",
-          "publisher": "UDN",
-          "pub_date": "2026-09-24T11:46:35+00:00"
+          "title": "亞運／輕艇靜水競速賴冠傑奪銅 連兩屆亞運登頒獎台",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qVGFTamJXVS1wcW15MDl6NDVtMS1TdkFGNVZ2RHBUbDZpNEZwRjhoTXhKNjJsbzhZWGhOT3RKVG55b1ZhOUxYT29jWmt1WWhiWDFr?oc=5",
+          "description": "亞運／輕艇靜水競速賴冠傑奪銅 連兩屆亞運登頒獎台  東森新聞亞運》連2屆收獲獎牌 賴冠傑輕艇單人C艇 500公尺奪銅  緯來體育台亞運輕艇／划出銅牌的溫柔準奶爸賴冠傑連兩屆奪牌！ | 運動 | 2026名古屋亞運  UDN快訊／「台灣輕艇一哥」賴冠傑勇奪銅牌！連兩屆亞運站上頒獎台  ETtoday運動雲亞運》第17牌！男子單人500公尺划艇 台灣賴冠傑添銅 | 太報  LINE TODAY",
+          "publisher": "東森新聞",
+          "pub_date": "2026-09-25T04:08:00+00:00"
         }
       ],
       "health": [
         {
-          "title": "男大腸狂長20顆息肉！醫教「改吃1物」 5度照腸鏡全消失",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8ydFl2VHpwbXZaaVVwRWo0bllvaE42aGZLYlZTcWpaaVl0VDJXN0xLOWRBaHdESnY1MzFDT3lSUlRfVkluQTRUeVo1VjM?oc=5",
-          "description": "男大腸狂長20顆息肉！醫教「改吃1物」 5度照腸鏡全消失  三立新聞網SETN.com男大腸狂冒20顆↑息肉！醫教「改吃1物」全消失 | 民視新聞網  LINE TODAY男大腸爆長20顆息肉 醫教吃1物 第5次腸鏡「零檢出」  中時新聞網腸道健康｜男子連照5次腸鏡切20粒瘜肉切完又生醫生教改食1種肉大腸癌風險降12%【附6大高危特徵】  topick.hket.com男子大腸猛長20顆息肉 醫教",
-          "publisher": "三立新聞網SETN.com",
-          "pub_date": "2026-09-24T11:27:35+00:00"
+          "title": "男大腸狂冒20顆↑息肉！醫教「改吃1物」全消失",
+          "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNdzV4Z0xfRXNaeEhWdXQ2eEE5S2NDblZTaGJSZWJ0NUxxY3kzTzIzTG9HRXZ1VzZhUEpVdVdCckNTSm1SOG9kOVc0ZzVHV0pEZUgtd21vWWlsNVBDRGVGclVIeFNucDJSd20wb2hxZmRPcmpiWG9VQWhBUFFDeWdIRERHUEQzLXZSZlBPYXc2XzNYbGVDSFlHN3BXMk41UWdoZlBoWWI4bU9uUVhUTV9tbG1CWmh0VUkxdVV3clB2MWF1N3A3WTU0RTNIQkNvWkl3N19TZWMzYlF6aGF3eTBjS0NOb3JXMV9qd0ZFTGotUnpBdDVBaXhINW9fSlgtYWhKTnVoWGRGaUE1c1dlT2JDRjZQY1huQ1VFUnpnWg?oc=5",
+          "description": "男大腸狂冒20顆↑息肉！醫教「改吃1物」全消失  Yahoo新聞男大腸狂冒20顆↑息肉！醫教「改吃1物」全消失 | 民視新聞網  LINE TODAY男大腸爆長20顆息肉 醫教吃1物 第5次腸鏡「零檢出」  中時新聞網腸道健康｜男子連照5次腸鏡切20粒瘜肉切完又生醫生教改食1種肉大腸癌風險降12%【附6大高危特徵】  香港經濟日報HKET男子大腸猛長20顆息肉 醫教「1飲食法」終於零檢出  中天新",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-25T09:20:09+00:00"
         },
         {
           "title": "【下班經濟學】天天吃的食物竟藏致癌毒素？醫師揭黴菌毒素5大警訊！",
-          "link": "https://news.google.com/rss/articles/CBMimwNBVV95cUxQVHVTa0NyVzFiLVBEcU5CT09IWXRNeS1uQ2hqZUZHWEJBbmJlR2NwTW9kQm9nSHJTZ1NIWFBIcjNOWlNBck9ZRU5qeWQzLUEtMG1sTlhoclkwdDVvLUhCY0tkWm5TZzFITzVyUFdhN1JWTkp2cUxLSlhsX2tVRkU5XzFaZmVSQzUtQ0JDMTcxcnNYWmcxaVcxNXExV1FwZWxMdFlUTnF4X1VPdlZrZmJaU09xNnRzcXNWM016ZkJYazNRaDlUU1B1b0JfRkRiOHBrRGpQRHVuUXpZZWd5cm84UElBN1lQNTAtVTliSndFVW1GNXBGakNQbno4Zzh1b1pQbXFSWkNTaWlJeDFUN2JLNHZPX3BjaXZiUzZfZ09uanI5bExwb0ZoVDFPZU9pUnpjYTY5RmR0RnBaOVRfSnNUZHpHa05XUXhhUjF1a2NNRHVJcFdvV0p6TmlKaEZHSmZGWGVFUHdicUVaaWtoalJLNVRmLVlHQUdmam4yNVlReUF0RVdTWk5rWEJMcnBEb2VSOGJtNUp6MWFBNGM?oc=5",
-          "description": "【下班經濟學】天天吃的食物竟藏致癌毒素？醫師揭黴菌毒素5大警訊！  Yahoo新聞",
-          "publisher": "Yahoo新聞",
-          "pub_date": "2026-09-25T12:00:00+00:00"
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11N1JuMlRSandsRDc0Mi1vclJ5bFNpZ05iV05XdmExbVpTM1VKUTUxOWpZR0FZR0hjUWRBMjQwUmFsTkZwcmNXUGwwWUNEdw?oc=5",
+          "description": "【下班經濟學】天天吃的食物竟藏致癌毒素？醫師揭黴菌毒素5大警訊！  風傳媒",
+          "publisher": "風傳媒",
+          "pub_date": "2026-09-25T10:00:00+00:00"
+        },
+        {
+          "title": "最新研究：蝙蝠起源於6500萬年前的歐洲不是非洲或亞洲- 國際",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4yUWxuNzFKM2VkclBHU0JNZWJUemZaVEpkYXRrbjBaZ194SXYyYWFrSUlLX3BtVXNPbk5KWUxXakNxQWI5a19jTkpzWDUybU1xRVRZcVpUaHR6M2U2UHZn?oc=5",
+          "description": "最新研究：蝙蝠起源於6500萬年前的歐洲不是非洲或亞洲- 國際  工商時報蝙蝠為何能活得久又少生病？研究揭開長壽與抗癌的線索  TechNews 科技新報蝙蝠演化之謎揭曉 基因研究曝恐龍滅絕後起源歐洲 | 民視新聞網  LINE TODAY國際基因組研究 揭蝙蝠演化歷程  on.cc東網研究揭示蝙蝠的演化史，可追溯至6500萬年前  mtgamer.com",
+          "publisher": "工商時報",
+          "pub_date": "2026-09-24T10:17:00+00:00"
         },
         {
           "title": "AI 破解人體老化時鐘：揭開三大「爆發性」衰老軌跡，兩個年齡是斷崖關鍵",
@@ -1204,13 +1227,6 @@
           "pub_date": "2026-09-19T10:57:24+00:00"
         },
         {
-          "title": "最新研究：蝙蝠起源於6500萬年前的歐洲不是非洲或亞洲- 國際",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4yUWxuNzFKM2VkclBHU0JNZWJUemZaVEpkYXRrbjBaZ194SXYyYWFrSUlLX3BtVXNPbk5KWUxXakNxQWI5a19jTkpzWDUybU1xRVRZcVpUaHR6M2U2UHZn?oc=5",
-          "description": "最新研究：蝙蝠起源於6500萬年前的歐洲不是非洲或亞洲- 國際  工商時報蝙蝠為何能活得久又少生病？研究揭開長壽與抗癌的線索  TechNews 科技新報蝙蝠演化之謎揭曉 基因研究曝恐龍滅絕後起源歐洲 | 民視新聞網  LINE TODAY蝙蝠為何能活得久又少生病？研究揭開長壽與抗癌的線索- 股市爆料同學會  CMoney最新研究：蝙蝠起源於6500萬年前的歐洲 不是非洲或亞洲  中時新聞網",
-          "publisher": "工商時報",
-          "pub_date": "2026-09-24T10:17:00+00:00"
-        },
-        {
           "title": "老化可能與免疫系統失去「清潔力」有關？研究找到關鍵開關",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeXM3V1NWcTNaeW82MDBOdUJDTFhDMEpZejJYZ01xS0FZdG1UYmxmT2FSNC1zSVNlYjUtWU9JNEsxVmR6TXdCR053VTFSSEZXTy1RVzdTTmg3SjBMUl9odDUtc01PdS1Cd0lJUW1GNk9DQjVzX0NweXVQZEdacWZScGVBdmt5dTdlQUR2SFN0RQ?oc=5",
           "description": "老化可能與免疫系統失去「清潔力」有關？研究找到關鍵開關  TechNews 科技新報",
@@ -1218,11 +1234,11 @@
           "pub_date": "2026-09-25T02:02:23+00:00"
         },
         {
-          "title": "名醫超喜歡吃紅肉！日常護腸「只忌1食物」：大腸癌細胞的最愛",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBLc3pVYzlOUUZrSWE1ZnBPRDk5YndxWi1lRzlZcEw3YUVuRXg5d01tZ1cwSExQbGg2ZlVMRFlyV0dIclVzLWNCNUJwZ3M?oc=5",
-          "description": "名醫超喜歡吃紅肉！日常護腸「只忌1食物」：大腸癌細胞的最愛  三立新聞網SETN.com",
-          "publisher": "三立新聞網SETN.com",
-          "pub_date": "2026-09-24T03:32:09+00:00"
+          "title": "自曝「喜歡吃紅肉」台大醫教3護腸方式 唯一不碰：含糖飲料！",
+          "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQZmFCV2tLX0xQNi0xamc0UFZyb0FBZFYzQlRtWjB0MTE1cmo1bHQ5SzJZOW9VZVBVemJFS3lHZUUyNUpRbFo3d1dpNkdUZzlYa3BZcnM3WDMzaEIzbHVmS09yeF9HNnllUHFKTUU0U0NoalRGdlhDdGxycWZGRU9rbXVjdndyZWJNdjUtN1hPcWlzb0FHZTlGYm9ua3ItWU82WG1EOVl2MFVzdjA2bkhHLV9xdWdsT0NFQVpNbEw1YXRqOC1DWjZpZld2N2lEMUgtVWNrUkNQc3J0YkdEeHlxNGppTjJuei0zdGtmbFJ5Z2Z0TnQxSU9RRGViTjdMQmEwY1M3amEwckQtdWNWaFFYLUFUWDNPaUc5M3lrLUZYYU5qMGtWNGtXQjR6YndsaW1tQ0E?oc=5",
+          "description": "自曝「喜歡吃紅肉」台大醫教3護腸方式 唯一不碰：含糖飲料！  Yahoo新聞",
+          "publisher": "Yahoo新聞",
+          "pub_date": "2026-09-24T04:39:31+00:00"
         },
         {
           "title": "老年高血壓不只控血壓！研究揪出3種「關鍵營養素」補好補滿才健康",
