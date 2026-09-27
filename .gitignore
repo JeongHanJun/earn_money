@@ -53,6 +53,12 @@ data/raw/
 
 # Business documents (sensitive — do not commit)
 /사업자등록증명*.pdf
+# 공개 리포: 크몽 서비스(판매 코드·경력·사업자 정보)와 런칭 체크리스트는 로컬에만 둔다
+/kmong-ontology/
+/dart-api/LAUNCH_CHECKLIST.md
+/my_information/
 
 # 앱인토스 미니앱 빌드 산출물
 /hometown-today/hometown-today.ait
+# 별도 공개 리포(krdata-api/korea-dart-api-examples)로 관리
+/dart-api/examples/

@@ -1,0 +1,53 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dart-api",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-26",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "observability": {
+    "enabled": true
+  },
+  "routes": [
+    {
+      // 자체 브랜드 랜딩. RapidAPI/api.market 외 5채널 중 하나.
+      "pattern": "dart.ryanpp.com",
+      "custom_domain": true
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DART_DB",
+      "database_name": "dart-db",
+      "database_id": "179ed8f3-1622-4f31-8953-833db5b8212b",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      // XBRL 원본, corpCode.xml 스냅샷, backup용.
+      "binding": "DART_R2",
+      "bucket_name": "dart-assets"
+    }
+  ],
+  "triggers": {
+    // 매일 03:00 KST = 18:00 UTC (전날). DART 공시 접수 마감(18:00 KST) 이후 안전 마진.
+    "crons": ["0 18 * * *"]
+  },
+  "vars": {
+    "DART_BASE_URL": "https://opendart.fss.or.kr/api",
+    "USER_AGENT": "dart-api/0.1 (contact: hello@dart.ryanpp.com)"
+  },
+  "assets": {
+    // 랜딩페이지 + OpenAPI spec. Worker 코드가 API 경로 처리, assets는 static fallback.
+    "directory": "public",
+    "binding": "ASSETS",
+    "not_found_handling": "none",
+    "run_worker_first": ["/api/*", "/companies/*", "/financials/*", "/distress/*", "/events/*", "/admin/*", "/health", "/stats", "/screener"]
+  }
+  // Secrets (wrangler secret put):
+  //   OPENDART_KEY  - .env 참조, 배포 전 `wrangler secret put OPENDART_KEY`
+  //   ADMIN_SECRET  - 관리 endpoint 인증
+  //   NOTIFY_URL    - (선택) https://notify.ryanpp.com/kakao — daily-crawl 결과 카톡 통지
+  //   NOTIFY_TOKEN  - (선택) notify worker의 NOTIFY_SECRET 값
+}

@@ -1,0 +1,255 @@
+openapi: 3.0.3
+info:
+  title: KRDART — Korea DART Financials & Distress Signals API
+  version: 0.1.0
+  description: |
+    Clean English JSON on top of Korea's Financial Supervisory Service DART filings.
+    Financial statements, risk-event stream, and pre-computed distress signals
+    (Altman Z Emerging Markets + Piotroski F-Score) for **~4,000 KOSPI/KOSDAQ
+    listed companies** and 100k+ registered entities.
+
+    Data source: opendart.fss.or.kr. Redistribution is limited to derived
+    indicators, event counts, and English-normalized summaries — original XBRL
+    is not exposed.
+  contact:
+    name: KRDART
+    url: https://dart.ryanpp.com
+    email: hello@ryanpp.com
+  license:
+    name: Commercial
+    url: https://dart.ryanpp.com/terms
+servers:
+  - url: https://dart.ryanpp.com
+    description: Production
+tags:
+  - name: Companies
+    description: Master registry (corp_code, name, ticker, market)
+  - name: Financials
+    description: Annual/quarterly statements with English labels
+  - name: Distress
+    description: Altman Z-Score (EM) + Piotroski F-Score + composite risk
+  - name: Events
+    description: Recent risky filings (delisting, audit qualification, capital reduction, etc.)
+paths:
+  /health:
+    get:
+      summary: Health check
+      tags: [Companies]
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok: { type: boolean }
+                  corp_count: { type: integer, example: 119447 }
+                  ts: { type: integer }
+  /companies/search:
+    get:
+      summary: Search companies by name or ticker
+      tags: [Companies]
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema: { type: string, example: "samsung" }
+          description: Korean name, English name, or 6-digit stock code.
+        - name: limit
+          in: query
+          schema: { type: integer, minimum: 1, maximum: 100, default: 20 }
+      responses:
+        "200":
+          description: Match list, listed companies first
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  query: { type: string }
+                  count: { type: integer }
+                  results:
+                    type: array
+                    items: { $ref: "#/components/schemas/Company" }
+  /companies/{corp_code}:
+    get:
+      summary: Company master record
+      tags: [Companies]
+      parameters:
+        - name: corp_code
+          in: path
+          required: true
+          schema: { type: string, pattern: '^\d{8}$', example: "00126380" }
+          description: 8-digit DART unique identifier.
+      responses:
+        "200":
+          description: Company details
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Company" }
+        "404": { description: Not found }
+  /financials/{corp_code}:
+    get:
+      summary: Financial statements (English-labeled)
+      tags: [Financials]
+      parameters:
+        - name: corp_code
+          in: path
+          required: true
+          schema: { type: string, pattern: '^\d{8}$' }
+        - name: year
+          in: query
+          schema: { type: integer, example: 2024 }
+        - name: reprt
+          in: query
+          schema:
+            type: string
+            enum: ["11011", "11012", "11013", "11014"]
+            default: "11011"
+          description: "11011=annual, 11012=half, 11013=Q1, 11014=Q3"
+      responses:
+        "200":
+          description: Statement items across BS/IS/CF/SCE, current & prior periods
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  corp_code: { type: string }
+                  fiscal_year: { type: integer }
+                  report_type: { type: string }
+                  count: { type: integer }
+                  items:
+                    type: array
+                    items: { $ref: "#/components/schemas/FinancialItem" }
+  /distress/{corp_code}:
+    get:
+      summary: Pre-computed distress signals
+      description: |
+        Altman Z-Score (Emerging Markets variant, Altman 2005) +
+        Piotroski F-Score (0-9) + 90-day risk event count +
+        composite risk score (0-100, higher = riskier).
+        Response is O(1) — served from a nightly cache.
+      tags: [Distress]
+      parameters:
+        - name: corp_code
+          in: path
+          required: true
+          schema: { type: string, pattern: '^\d{8}$' }
+      responses:
+        "200":
+          description: Distress dashboard
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Distress" }
+  /events/recent:
+    get:
+      summary: Recent risky filings across all companies
+      tags: [Events]
+      parameters:
+        - name: days
+          in: query
+          schema: { type: integer, minimum: 1, maximum: 90, default: 7 }
+        - name: type
+          in: query
+          schema:
+            type: string
+            enum:
+              - DELISTING_RISK
+              - GOING_CONCERN
+              - AUDIT_OPINION
+              - MAJOR_SHAREHOLDER
+              - COLLATERAL
+              - LAWSUIT
+              - CAPITAL_REDUCTION
+        - name: limit
+          in: query
+          schema: { type: integer, minimum: 1, maximum: 500, default: 50 }
+      responses:
+        "200":
+          description: Event feed
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  from: { type: string }
+                  days: { type: integer }
+                  type: { type: string }
+                  count: { type: integer }
+                  results:
+                    type: array
+                    items: { $ref: "#/components/schemas/RiskEvent" }
+components:
+  schemas:
+    Company:
+      type: object
+      properties:
+        corp_code: { type: string, example: "00126380" }
+        corp_name: { type: string, example: "삼성전자" }
+        corp_name_eng: { type: string, example: "SAMSUNG ELECTRONICS CO.,LTD" }
+        stock_code: { type: string, nullable: true, example: "005930" }
+        market: { type: string, enum: [LISTED, UNLISTED] }
+        modify_date: { type: string, example: "20251201" }
+    FinancialItem:
+      type: object
+      properties:
+        fiscal_year: { type: integer }
+        report_type: { type: string, enum: [annual, half, q1, q3] }
+        fs_type: { type: string, enum: [consolidated, separate] }
+        statement: { type: string, enum: [balance_sheet, income_statement, cash_flow, equity] }
+        account_id: { type: string, example: "ifrs-full_CurrentAssets" }
+        account_name_ko: { type: string, example: "유동자산" }
+        account_name_en: { type: string, example: "current_assets" }
+        current_amount: { type: number, nullable: true }
+        prior_amount: { type: number, nullable: true }
+        prior_prior_amount: { type: number, nullable: true }
+        currency: { type: string, example: "KRW" }
+    Distress:
+      type: object
+      properties:
+        corp_code: { type: string }
+        fiscal_year: { type: integer }
+        report_type: { type: string }
+        altman_z_em:
+          type: number
+          nullable: true
+          description: "Altman EM Z-Score. >2.60 SAFE, 1.10-2.60 GREY, <1.10 DISTRESS"
+        altman_grade: { type: string, enum: [SAFE, GREY, DISTRESS, "N/A"] }
+        piotroski_f:
+          type: integer
+          nullable: true
+          description: "Piotroski F-Score (0-9). 7-9 STRONG, 4-6 MID, 0-3 WEAK"
+        piotroski_grade: { type: string, enum: [STRONG, MID, WEAK, "N/A"] }
+        risk_events_90d:
+          type: integer
+          description: "Count of risky filings in the last 90 days"
+        composite_risk:
+          type: number
+          description: "0-100, higher = riskier"
+        composite_grade: { type: string, enum: [LOW, MEDIUM, HIGH, CRITICAL] }
+        computed_at: { type: integer, description: "Unix seconds" }
+        recent_events:
+          type: array
+          items: { $ref: "#/components/schemas/RiskEvent" }
+    RiskEvent:
+      type: object
+      properties:
+        event_type:
+          type: string
+          enum:
+            - DELISTING_RISK
+            - GOING_CONCERN
+            - AUDIT_OPINION
+            - MAJOR_SHAREHOLDER
+            - COLLATERAL
+            - LAWSUIT
+            - CAPITAL_REDUCTION
+        severity: { type: integer, minimum: 1, maximum: 5 }
+        event_dt: { type: string, description: "YYYYMMDD" }
+        detail: { type: string }
+        corp_code: { type: string }
+        corp_name: { type: string }
+        corp_name_eng: { type: string, nullable: true }
+        stock_code: { type: string, nullable: true }
