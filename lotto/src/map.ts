@@ -7,8 +7,8 @@ let mapInstance: L.Map | null = null;
 export async function initMap(root: HTMLElement) {
   root.innerHTML = `
     <div class="map-header">
-      <h2>🗺️ 명당 지도</h2>
-      <p class="map-desc">1·2등 배출 판매점 랭킹. 판매량 편차가 크기 때문에 통계적 편향이 있으니 재미로만 참고하세요.</p>
+      <h2>명당 지도</h2>
+      <p class="map-desc">1·2등을 배출한 판매점 랭킹. 판매량 편차가 크기 때문에 통계적 편향이 있음을 감안하고 참고하세요.</p>
     </div>
     <div class="map-controls">
       <label>순위

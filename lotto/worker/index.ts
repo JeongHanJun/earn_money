@@ -6,6 +6,9 @@ export interface Env {
   LOTTO_R2: R2Bucket;
   ASSETS: Fetcher;
   ADMIN_SECRET: string;              // wrangler secret put ADMIN_SECRET
+  // 선택: notify.ryanpp.com 카톡 알림
+  NOTIFY_URL?: string;
+  NOTIFY_TOKEN?: string;
 }
 
 const app = new Hono<{ Bindings: Env }>();
@@ -58,23 +61,24 @@ app.get("/api/draw/:drwNo", async (c) => {
   return c.json({ draw, prizes: prizes.results });
 });
 
-// 번호 출현 빈도 (기간 필터)
+// 번호 출현 빈도 (기간 필터) — D1 compound SELECT 제한 회피용으로 Worker에서 집계
 app.get("/api/stats/frequency", async (c) => {
   const from = Number(c.req.query("from") ?? 1);
   const to = Number(c.req.query("to") ?? 99999);
-  const q = c.env.LOTTO_DB.prepare(
-    `WITH nums AS (
-       SELECT n1 AS n FROM draws WHERE drw_no BETWEEN ?1 AND ?2
-       UNION ALL SELECT n2 FROM draws WHERE drw_no BETWEEN ?1 AND ?2
-       UNION ALL SELECT n3 FROM draws WHERE drw_no BETWEEN ?1 AND ?2
-       UNION ALL SELECT n4 FROM draws WHERE drw_no BETWEEN ?1 AND ?2
-       UNION ALL SELECT n5 FROM draws WHERE drw_no BETWEEN ?1 AND ?2
-       UNION ALL SELECT n6 FROM draws WHERE drw_no BETWEEN ?1 AND ?2
-     )
-     SELECT n, COUNT(*) AS cnt FROM nums GROUP BY n ORDER BY n ASC`,
-  ).bind(from, to);
-  const rows = await q.all();
-  return c.json({ rows: rows.results });
+  const res = await c.env.LOTTO_DB.prepare(
+    `SELECT n1, n2, n3, n4, n5, n6 FROM draws WHERE drw_no BETWEEN ?1 AND ?2`,
+  ).bind(from, to).all<{ n1: number; n2: number; n3: number; n4: number; n5: number; n6: number }>();
+
+  const counts = new Map<number, number>();
+  for (const r of res.results) {
+    for (const n of [r.n1, r.n2, r.n3, r.n4, r.n5, r.n6]) {
+      counts.set(n, (counts.get(n) ?? 0) + 1);
+    }
+  }
+  const rows = [...counts.entries()]
+    .map(([n, cnt]) => ({ n, cnt }))
+    .sort((a, b) => a.n - b.n);
+  return c.json({ rows });
 });
 
 // 명당 랭킹 (전체 회차 기준 판매점별 배출 횟수)
@@ -223,13 +227,50 @@ app.get("/api/admin/log", async (c) => {
 // 정적 자산으로 폴백 (assets 바인딩)
 app.all("*", async (c) => c.env.ASSETS.fetch(c.req.raw));
 
+async function notifyKakao(env: Env, msg: { title: string; body: string; url?: string }) {
+  if (!env.NOTIFY_URL || !env.NOTIFY_TOKEN) return;
+  try {
+    await fetch(`${env.NOTIFY_URL}?token=${encodeURIComponent(env.NOTIFY_TOKEN)}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(msg),
+    });
+  } catch {
+    // fire-and-forget
+  }
+}
+
+// 가장 최근 토요일(KST) 추첨 회차가 draws 에 들어와 있는지
+async function hasThisWeeksDraw(env: Env) {
+  const kst = new Date(Date.now() + 9 * 3600 * 1000);
+  kst.setUTCDate(kst.getUTCDate() - ((kst.getUTCDay() + 1) % 7));
+  const sat = kst.toISOString().slice(0, 10);
+  const row = await env.LOTTO_DB.prepare(`SELECT MAX(drw_date) d FROM draws`).first<{ d: string }>();
+  return (row?.d ?? "") >= sat;
+}
+
 export default {
   fetch: app.fetch,
-  async scheduled(_event: ScheduledEvent, env: Env, ctx: ExecutionContext) {
+  async scheduled(event: ScheduledEvent, env: Env, ctx: ExecutionContext) {
+    // 재시도 크론: 이번 주 토요일 회차가 이미 있으면 스킵 (dhlottery 522 같은 일시 장애 대비)
+    if (event.cron !== "0 16 * * SAT" && (await hasThisWeeksDraw(env))) return;
     ctx.waitUntil(
-      runWeekly(env).catch((e) => {
-        console.error("[cron] runWeekly failed", e);
-      }),
+      runWeekly(env).then(
+        (r) =>
+          notifyKakao(env, {
+            title: "lotto 주간 크롤",
+            body: `latest ${r.drwNo} · stores +${r.storesInserted}`,
+            url: "https://lotto.ryanpp.com",
+          }),
+        (e) => {
+          console.error("[cron] runWeekly failed", e);
+          return notifyKakao(env, {
+            title: "lotto 크롤 실패",
+            body: String(e?.message ?? e).slice(0, 180),
+            url: "https://lotto.ryanpp.com",
+          });
+        },
+      ),
     );
   },
 };

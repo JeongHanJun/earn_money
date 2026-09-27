@@ -3,18 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#0b1220" />
-    <title>로또 시뮬레이터 · 통계 · 명당</title>
+    <meta name="theme-color" content="#faf9f6" />
+    <title>로또 시뮬레이션 · 통계 · 명당 지도</title>
     <meta name="description" content="공식 데이터로 재미있게 확인하는 로또 시뮬레이션·통계·명당 지도. 로또 구매를 권장하지 않습니다." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
   </head>
   <body>
     <main id="app">
       <header class="hero">
-        <h1>로또 시뮬레이터</h1>
-        <p class="tagline">공식 데이터로 재미있게 확인하는 로또</p>
+        <h1>로또 시뮬레이션</h1>
+        <p class="tagline">공식 데이터로 확인하는 회차·번호·명당</p>
       </header>
 
       <section id="simulator" class="section"></section>
+      <section id="saju" class="section"></section>
       <section id="stats" class="section"></section>
       <section id="map" class="section"></section>
 
@@ -28,12 +32,12 @@
       <div class="modal-body">
         <h3>주의사항</h3>
         <ul>
-          <li>본 사이트는 <strong>재미로 보는</strong> 로또 시뮬레이션·통계 페이지입니다.</li>
+          <li>본 사이트는 <strong>재미로 보는</strong> 시뮬레이션·통계 페이지입니다.</li>
           <li>동행복권 <strong>공식 사이트가 아닙니다</strong>.</li>
-          <li>로또는 <strong>독립시행</strong>이며 1등 확률은 <strong>1/8,145,060</strong>으로 항상 고정입니다.</li>
+          <li>로또는 독립시행이며 1등 확률은 항상 <strong>1/8,145,060</strong>으로 고정입니다.</li>
           <li>어떠한 시뮬레이션·통계·명당 정보도 실제 당첨 확률을 <strong>높이지 않습니다</strong>.</li>
-          <li>본 사이트는 <strong>로또 구매나 투자를 권장하지 않습니다</strong>.</li>
-          <li>명당 랭킹은 판매량 편차에 따른 <strong>통계적 편향</strong>이 큽니다.</li>
+          <li>본 사이트는 <strong>로또 구매·투자를 권장하지 않습니다</strong>.</li>
+          <li>명당 랭킹은 판매량 편차로 인한 <strong>통계적 편향</strong>이 큽니다.</li>
         </ul>
         <button id="notice-close" type="button" class="modal-close">닫기</button>
       </div>

@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "hono": "^4.6.0",
-    "leaflet": "^1.9.4"
+    "leaflet": "^1.9.4",
+    "lunar-javascript": "^1.7.7"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260918.1",

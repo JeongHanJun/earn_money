@@ -1,11 +1,13 @@
 import { api, type Draw, type FrequencyRow } from "./api";
+import { ballClass } from "./ball";
 
 type Period = "recent1m" | "recent1y" | "recent5y" | "all" | "custom";
+type SortMode = "num-asc" | "num-desc" | "cnt-desc" | "cnt-asc";
 
 export async function initStats(root: HTMLElement) {
   root.innerHTML = `
     <div class="stats-header">
-      <h2>📊 통계</h2>
+      <h2>번호 통계</h2>
       <div class="stats-controls">
         <label>기간
           <select id="stats-period">
@@ -23,6 +25,13 @@ export async function initStats(root: HTMLElement) {
           <button id="stats-apply">적용</button>
         </span>
       </div>
+      <div class="stats-sort">
+        <span class="sort-lbl">정렬</span>
+        <button data-sort="num-asc" class="sort-btn active">번호 ↑</button>
+        <button data-sort="num-desc" class="sort-btn">번호 ↓</button>
+        <button data-sort="cnt-desc" class="sort-btn">횟수 ↓</button>
+        <button data-sort="cnt-asc" class="sort-btn">횟수 ↑</button>
+      </div>
     </div>
     <div id="stats-summary" class="stats-summary">로딩…</div>
     <div id="stats-chart" class="stats-chart"></div>
@@ -34,9 +43,17 @@ export async function initStats(root: HTMLElement) {
   const fromEl = root.querySelector<HTMLInputElement>("#stats-from")!;
   const toEl = root.querySelector<HTMLInputElement>("#stats-to")!;
   const applyBtn = root.querySelector<HTMLButtonElement>("#stats-apply")!;
+  const sortBtns = root.querySelectorAll<HTMLButtonElement>(".sort-btn");
+  const summary = root.querySelector<HTMLDivElement>("#stats-summary")!;
+  const chart = root.querySelector<HTMLDivElement>("#stats-chart")!;
+  const lists = root.querySelector<HTMLDivElement>("#stats-lists")!;
 
   const latest = await api<Draw>("/api/latest").catch(() => null);
   const maxDrw = latest?.drw_no ?? 1200;
+
+  let currentRows: FrequencyRow[] = [];
+  let currentRange: [number, number] = [1, maxDrw];
+  let sortMode: SortMode = "num-asc";
 
   function rangeFor(period: Period): [number, number] {
     if (period === "recent1m") return [Math.max(1, maxDrw - 4), maxDrw];
@@ -54,55 +71,74 @@ export async function initStats(root: HTMLElement) {
   });
   applyBtn.addEventListener("click", () => refresh(rangeFor("custom")));
 
+  sortBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      sortMode = btn.dataset.sort as SortMode;
+      sortBtns.forEach((b) => b.classList.toggle("active", b === btn));
+      renderChart();
+    });
+  });
+
   refresh(rangeFor("all"));
 
-  async function refresh([from, to]: [number, number]) {
-    const summary = root.querySelector<HTMLDivElement>("#stats-summary")!;
-    const chart = root.querySelector<HTMLDivElement>("#stats-chart")!;
-    const lists = root.querySelector<HTMLDivElement>("#stats-lists")!;
-    summary.textContent = `${from} ~ ${to}회 집계 중…`;
+  async function refresh(range: [number, number]) {
+    currentRange = range;
+    summary.textContent = `${range[0]} ~ ${range[1]}회 집계 중…`;
     try {
-      const res = await api<{ rows: FrequencyRow[] }>(`/api/stats/frequency?from=${from}&to=${to}`);
-      const rows = res.rows;
-      if (rows.length === 0) {
+      const res = await api<{ rows: FrequencyRow[] }>(`/api/stats/frequency?from=${range[0]}&to=${range[1]}`);
+      currentRows = res.rows;
+      if (currentRows.length === 0) {
         summary.textContent = "해당 기간 데이터가 없습니다.";
         chart.innerHTML = "";
         lists.innerHTML = "";
         return;
       }
-      const totalDraws = to - from + 1;
-      const maxCnt = Math.max(...rows.map((r) => r.cnt));
-      summary.innerHTML = `<strong>${from}~${to}회 (${totalDraws}회)</strong> · 번호별 출현 빈도`;
-      chart.innerHTML = renderFrequencyBar(rows, maxCnt);
-      lists.innerHTML = renderTopBottom(rows);
-    } catch (e) {
+      const totalDraws = range[1] - range[0] + 1;
+      summary.innerHTML = `<strong>${range[0]}~${range[1]}회 (${totalDraws}회)</strong> · 번호별 출현 빈도`;
+      renderChart();
+      lists.innerHTML = renderTopBottom(currentRows);
+    } catch {
       summary.textContent = "통계 로드 실패";
     }
+  }
+
+  function renderChart() {
+    if (currentRows.length === 0) return;
+    const sorted = sortRows(currentRows, sortMode);
+    const maxCnt = Math.max(...currentRows.map((r) => r.cnt));
+    chart.innerHTML = renderFrequencyBar(sorted, maxCnt);
+  }
+}
+
+function sortRows(rows: FrequencyRow[], mode: SortMode): FrequencyRow[] {
+  const cp = [...rows];
+  switch (mode) {
+    case "num-asc": return cp.sort((a, b) => a.n - b.n);
+    case "num-desc": return cp.sort((a, b) => b.n - a.n);
+    case "cnt-desc": return cp.sort((a, b) => b.cnt - a.cnt || a.n - b.n);
+    case "cnt-asc": return cp.sort((a, b) => a.cnt - b.cnt || a.n - b.n);
   }
 }
 
 function renderFrequencyBar(rows: FrequencyRow[], maxCnt: number): string {
-  const map = new Map(rows.map((r) => [r.n, r.cnt]));
-  const bars: string[] = [];
-  for (let n = 1; n <= 45; n++) {
-    const cnt = map.get(n) ?? 0;
-    const pct = maxCnt ? (cnt / maxCnt) * 100 : 0;
-    bars.push(`
+  return rows.map((r) => {
+    const pct = maxCnt ? (r.cnt / maxCnt) * 100 : 0;
+    const group = ballClass(r.n).replace("num ", "");
+    return `
       <div class="freq-row">
-        <span class="freq-n">${n.toString().padStart(2, "0")}</span>
-        <div class="freq-bar"><div class="freq-fill" style="width:${pct.toFixed(1)}%"></div></div>
-        <span class="freq-cnt">${cnt}</span>
+        <span class="freq-ball ${group}">${r.n}</span>
+        <div class="freq-bar"><div class="freq-fill ${group}" style="width:${pct.toFixed(1)}%"></div></div>
+        <span class="freq-cnt">${r.cnt}</span>
       </div>
-    `);
-  }
-  return bars.join("");
+    `;
+  }).join("");
 }
 
 function renderTopBottom(rows: FrequencyRow[]): string {
   const sorted = [...rows].sort((a, b) => b.cnt - a.cnt);
   const top = sorted.slice(0, 5);
   const bottom = [...sorted].reverse().slice(0, 5);
-  const li = (r: FrequencyRow) => `<li><span class="num">${r.n.toString().padStart(2, "0")}</span> · ${r.cnt}회</li>`;
+  const li = (r: FrequencyRow) => `<li><span class="${ballClass(r.n)}">${r.n}</span><span>${r.cnt}회</span></li>`;
   return `
     <div class="stat-col">
       <h3>가장 많이 나온 번호</h3>

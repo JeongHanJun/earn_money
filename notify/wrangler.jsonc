@@ -1,0 +1,29 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "notify",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-09-27",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "observability": { "enabled": true },
+  "routes": [
+    { "pattern": "notify.ryanpp.com", "custom_domain": true }
+  ],
+  // 매일 09:00 KST — Kakao refresh token 연장 (keepalive)
+  "triggers": { "crons": ["0 0 * * *"] },
+  "vars": { "FORWARD_TO": "hanjunjung@gmail.com" },
+  "d1_databases": [
+    {
+      "binding": "NOTIFY_DB",
+      "database_name": "notify-db",
+      "database_id": "78369f90-1173-49b3-839b-d662b701abc8",
+      "migrations_dir": "migrations"
+    }
+  ]
+  // Secrets (wrangler secret put):
+  //   KAKAO_CLIENT_ID       - Kakao Developers REST API 키
+  //   KAKAO_CLIENT_SECRET   - (선택) Kakao 앱 상세에서 발급받은 secret
+  //   KAKAO_REDIRECT_URI    - OAuth redirect (첫 인증 스크립트와 동일해야 함)
+  //   NOTIFY_SECRET         - /kakao 엔드포인트 인증 토큰 (호출자만 아는 값)
+  //   ADMIN_SECRET          - /admin/* 엔드포인트 인증 토큰
+}
