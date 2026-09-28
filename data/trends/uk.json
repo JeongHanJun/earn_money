@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-28T14:00:46.906176+00:00",
+  "fetched_at": "2026-09-28T15:00:54.483356+00:00",
   "data": {
     "country_code": "uk",
     "country_name": "영국",
@@ -7,8 +7,54 @@
     "google_trends": [
       {
         "rank": 1,
+        "keyword": "stv news",
+        "traffic": "5000+",
+        "pub_date": "2026-09-28T14:40:00+00:00",
+        "articles": [
+          {
+            "title": "US Navy warship hit by missile and sunk off coast of Scotland",
+            "url": "https://news.stv.tv/highlands-islands/us-navy-warship-hit-by-missile-and-sunk-off-coast-of-scotland",
+            "source": "STV News"
+          },
+          {
+            "title": "American warship sunk by missiles off Scotland in live fire",
+            "url": "https://ukdefencejournal.org.uk/american-warship-sunk-by-missiles-off-scotland-in-live-fire/",
+            "source": "UK Defence Journal"
+          },
+          {
+            "title": "US and Royal Navy share dramatic footage of sinking of USS Klakring",
+            "url": "https://www.adsadvance.co.uk/us-uk-royal-navy-uss-klakring-sinking/",
+            "source": "ADS Advance"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "keyword": "bootle",
+        "traffic": "500+",
+        "pub_date": "2026-09-28T13:50:00+00:00",
+        "articles": [
+          {
+            "title": "Lithium-ion battery caused fire that killed mum and 3 children",
+            "url": "https://www.bbc.co.uk/news/articles/cq62jyk6ne4vo",
+            "source": "BBC"
+          },
+          {
+            "title": "Lithium-ion battery caused house fire that killed mother and three children in Merseyside",
+            "url": "https://news.sky.com/story/lithium-ion-battery-caused-house-fire-that-killed-mother-and-three-children-in-merseyside-13592849",
+            "source": "Sky News"
+          },
+          {
+            "title": "Family 'heartbroken' after mother and three children died in fire",
+            "url": "https://www.bbc.com/news/articles/ckpq03g8940po",
+            "source": "BBC"
+          }
+        ]
+      },
+      {
+        "rank": 3,
         "keyword": "the witcher 3 remastered",
-        "traffic": "200+",
+        "traffic": "500+",
         "pub_date": "2026-09-28T13:40:00+00:00",
         "articles": [
           {
@@ -29,34 +75,62 @@
         ]
       },
       {
-        "rank": 2,
+        "rank": 4,
         "keyword": "rangers news",
-        "traffic": "200+",
+        "traffic": "500+",
         "pub_date": "2026-09-28T13:40:00+00:00",
         "articles": [
           {
-            "title": "Why Connor Goldson questioned Rangers move after 'mad' first week",
-            "url": "https://uk.sports.yahoo.com/news/why-connor-goldson-questioned-rangers-114230725.html",
-            "source": "Yahoo"
+            "title": "I see something building at Rangers - Ferguson",
+            "url": "https://www.bbc.co.uk/sport/videos/c6zxzzl17pnvo",
+            "source": "BBC"
           },
           {
-            "title": "The Gerrard meeting that sold me on Rangers despite scepticism",
-            "url": "https://www.heraldscotland.com/sport/26584883.gerrard-meeting-sold-rangers-despite-scepticism/",
-            "source": "The Herald"
+            "title": "Lewis Ferguson lifts lid on Rangers transfer talk as Bologna ace opens up on summer thoughts",
+            "url": "https://www.scotsman.com/sport/football/rangers/latest-rangers-news/lewis-ferguson-lifts-lid-on-rangers-transfer-talk-as-bologna-ace-opens-up-on-summer-thoughts-9208549",
+            "source": "The Scotsman"
           },
           {
-            "title": "Connor Goldson on how Steven Gerrard convinced him to join Rangers",
-            "url": "https://www.glasgowtimes.co.uk/sport/26584910.goldson-steven-gerrard-convinced-join-rangers/",
-            "source": "Glasgow Times"
+            "title": "Rangers hero recounts 'living the dream' in Ibrox dugout as he names the only disappointment of current season",
+            "url": "https://www.glasgowworld.com/sport/football/rangers/rangers-hero-reflects-on-living-the-dream-in-ibrox-dugout-as-he-names-the-only-disappointment-of-current-season-9188139",
+            "source": "GlasgowWorld"
           }
         ]
       },
       {
-        "rank": 3,
+        "rank": 5,
+        "keyword": "peter may",
+        "traffic": "1000+",
+        "pub_date": "2026-09-28T13:00:00+00:00",
+        "articles": [
+          {
+            "title": "Scottish crime writer Peter May dies aged 74",
+            "url": "https://www.bbc.co.uk/news/articles/cqy4z32wp3v1o",
+            "source": "BBC"
+          },
+          {
+            "title": "'Irreplaceable' crime author Peter May dies in South of France",
+            "url": "https://www.scotsman.com/arts-and-culture/irreplaceable-crime-author-peter-may-dies-in-south-of-france-9206700",
+            "source": "The Scotsman"
+          },
+          {
+            "title": "Peter May, author of Lewis Trilogy, dies aged 74",
+            "url": "https://www.rte.ie/entertainment/2026/0928/1593228-peter-may-author-of-lewis-trilogy-dies-aged-74/",
+            "source": "RTE.ie"
+          }
+        ]
+      },
+      {
+        "rank": 6,
         "keyword": "fa trophy",
         "traffic": "500+",
         "pub_date": "2026-09-28T13:00:00+00:00",
         "articles": [
+          {
+            "title": "FA Trophy First Round Proper Draw",
+            "url": "https://www.thefa.com/news/2026/sep/28/fa-trophy-first-round-proper-draw-20252809",
+            "source": "TheFA.com"
+          },
           {
             "title": "26/27 FA Trophy First Round Draw",
             "url": "https://guiseleyafc.co.uk/26-27-fa-trophy-first-round-draw/",
@@ -66,41 +140,13 @@
             "title": "Workington Reds to face league leaders in FA Trophy first round",
             "url": "https://uk.sports.yahoo.com/news/workington-reds-face-league-leaders-124953177.html",
             "source": "Yahoo"
-          },
-          {
-            "title": "Warrington Rylands' FA Trophy draw throws up quirky fixture schedule",
-            "url": "https://www.warringtonguardian.co.uk/sport/latest_sport/26587429.warrington-rylands-next-fa-trophy-opponents-revealed/",
-            "source": "Warrington Guardian"
           }
         ]
       },
       {
-        "rank": 4,
-        "keyword": "peter may",
-        "traffic": "500+",
-        "pub_date": "2026-09-28T13:00:00+00:00",
-        "articles": [
-          {
-            "title": "'He is irreplaceable': Tributes as Scottish crime writer Peter May dies aged 74",
-            "url": "https://www.heraldscotland.com/news/26587327.tributes-irreplaceable-scottish-crime-writer-peter-may-dies/",
-            "source": "The Herald"
-          },
-          {
-            "title": "Tributes pour in for Glasgow-born crime writer who has died aged 74",
-            "url": "https://www.glasgowtimes.co.uk/news/26587548.glasgow-born-crime-writer-peter-may-dies-aged-74-france/",
-            "source": "Glasgow Times"
-          },
-          {
-            "title": "Scots novelist Peter May dies aged 74 as tributes paid to beloved crime author",
-            "url": "https://www.thescottishsun.co.uk/tvandshowbiz/16873872/scots-novelist-peter-may-dies/",
-            "source": "The Scottish Sun"
-          }
-        ]
-      },
-      {
-        "rank": 5,
+        "rank": 7,
         "keyword": "british consulate general jerusalem",
-        "traffic": "1000+",
+        "traffic": "2000+",
         "pub_date": "2026-09-28T12:50:00+00:00",
         "articles": [
           {
@@ -121,9 +167,9 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 8,
         "keyword": "us-iran",
-        "traffic": "200+",
+        "traffic": "500+",
         "pub_date": "2026-09-28T12:50:00+00:00",
         "articles": [
           {
@@ -144,9 +190,9 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 9,
         "keyword": "the walking dead: dead city",
-        "traffic": "500+",
+        "traffic": "2000+",
         "pub_date": "2026-09-28T12:40:00+00:00",
         "articles": [
           {
@@ -160,78 +206,32 @@
             "source": "Yahoo"
           },
           {
-            "title": "The Walking Dead spin-off Dead City boss responds to question on chances of a season 4 renewal",
-            "url": "https://www.radiotimes.com/tv/sci-fi/the-walking-dead-season-4-dead-city-newsupdate/",
-            "source": "Radio Times"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "keyword": "kelvin wave",
-        "traffic": "1000+",
-        "pub_date": "2026-09-28T12:30:00+00:00",
-        "articles": [
-          {
-            "title": "Concern mounts over slow-moving, planetary-scale ‘kelvin’ wave heading for California",
-            "url": "https://www.theguardian.com/us-news/2026/sep/28/california-kelvin-wave",
-            "source": "The Guardian"
-          },
-          {
-            "title": "Letter to the Editor: El Niño to Increase Baseline Sea Levels",
-            "url": "https://outlooknewspapers.com/lacanadaoutlook/letter-to-the-editor-el-ni-o-to-increase-baseline-sea-levels/article_007c42dd-4b8b-41ea-9d1a-f0fe9b3774f7.html",
-            "source": "Outlook Newspapers"
-          },
-          {
-            "title": "How not to embarrass yourself talking about El Niño",
-            "url": "https://lamaterial.com/p/how-not-to-embarrass-yourself-talking-about-el-nino",
-            "source": "L.A. Material"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "keyword": "british nationals",
-        "traffic": "1000+",
-        "pub_date": "2026-09-28T12:30:00+00:00",
-        "articles": [
-          {
-            "title": "Details emerge of suspects in alleged terror plot near UK air base – but questions remain",
-            "url": "https://www.cnn.com/2026/09/28/uk/raf-fairford-key-questions-terror-suspects-arrests-intl",
-            "source": "CNN"
-          },
-          {
-            "title": "At least 5 men suspected of preparing terrorist act near U.K. air base used by U.S., police say",
-            "url": "https://www.yahoo.com/news/videos/least-5-men-suspected-preparing-131523171.html",
-            "source": "Yahoo"
-          },
-          {
-            "title": "5 British nationals arrested on suspicion of terror offenses near base U.S. used to strike Iran",
-            "url": "https://www.nbcnews.com/world/united-kingdom/farmers-tip-may-led-5-arrests-uk-air-base-used-us-rcna600195",
-            "source": "NBC News"
+            "title": "'The Walking Dead: Dead City' Season 4 Gets Official Update",
+            "url": "https://movieweb.com/the-walking-dead-dead-city-season-4-update/",
+            "source": "MovieWeb"
           }
         ]
       },
       {
         "rank": 10,
-        "keyword": "playstation 5",
-        "traffic": "500+",
-        "pub_date": "2026-09-28T12:00:00+00:00",
+        "keyword": "kelvin wave",
+        "traffic": "2000+",
+        "pub_date": "2026-09-28T12:30:00+00:00",
         "articles": [
           {
-            "title": "The Xbox Series X Can Now Play PlayStation 5 Games - Here's How",
-            "url": "https://www.bgr.com/2266507/xbox-series-x-can-play-playstation-5-games-ps5x/",
-            "source": "BGR"
+            "title": "Concern mounts over slow-moving, planetary-scale ‘Kelvin’ wave heading for California",
+            "url": "https://www.theguardian.com/us-news/2026/sep/28/california-kelvin-wave",
+            "source": "The Guardian"
           },
           {
-            "title": "Xbox Series X Gets Experimental PS5 Emulator Port, Quake II Already Running",
-            "url": "https://www.techpowerup.com/352873/xbox-series-x-gets-experimental-ps5-emulator-port-quake-ii-already-running",
-            "source": "TechPowerUp"
+            "title": "Watch: Viral Video Shows Terrifying Chaos of King Tides",
+            "url": "https://www.surfer.com/news/west-coast-king-tides-el-nino-video",
+            "source": "SURFER Magazine"
           },
           {
-            "title": "PS5 Emulation Reaches Another Milestone as Xbox Series X Now Runs PS5 Games",
-            "url": "https://www.pcquest.com/gaming/ps5-emulation-reaches-another-milestone-as-xbox-series-x-now-runs-ps5-games-12559618",
-            "source": "PCQuest"
+            "title": "Letter to the Editor: El Niño to Increase Baseline Sea Levels",
+            "url": "https://outlooknewspapers.com/lacanadaoutlook/letter-to-the-editor-el-ni-o-to-increase-baseline-sea-levels/article_007c42dd-4b8b-41ea-9d1a-f0fe9b3774f7.html",
+            "source": "Outlook Newspapers"
           }
         ]
       }
@@ -244,8 +244,8 @@
         "channel": "KATSEYEVEVO",
         "thumbnail": "https://i.ytimg.com/vi/uwfa-gyubSg/mqdefault.jpg",
         "published_at": "2026-09-27T06:57:47Z",
-        "view_count": 3617798,
-        "like_count": 106099
+        "view_count": 3667226,
+        "like_count": 107166
       },
       {
         "rank": 2,
@@ -254,8 +254,8 @@
         "channel": "MovieGasm‍․com",
         "thumbnail": "https://i.ytimg.com/vi/lARiBU25bBo/mqdefault.jpg",
         "published_at": "2026-09-27T18:24:49Z",
-        "view_count": 1487785,
-        "like_count": 8369
+        "view_count": 1536728,
+        "like_count": 8634
       },
       {
         "rank": 3,
@@ -264,98 +264,98 @@
         "channel": "Fortnite",
         "thumbnail": "https://i.ytimg.com/vi/6N428cNrDEg/mqdefault.jpg",
         "published_at": "2026-09-27T13:20:56Z",
-        "view_count": 1760297,
-        "like_count": 95530
+        "view_count": 1775422,
+        "like_count": 96049
       },
       {
         "rank": 4,
-        "video_id": "rDEB9OuFhR4",
-        "title": "ERASURE - Wings Of Love (Official Audio)",
-        "channel": "Erasure (Official)",
-        "thumbnail": "https://i.ytimg.com/vi/rDEB9OuFhR4/mqdefault.jpg",
-        "published_at": "2026-09-28T07:30:05Z",
-        "view_count": 10203,
-        "like_count": 0
-      },
-      {
-        "rank": 5,
-        "video_id": "zY5hYWzZH2k",
-        "title": "JURASSIC WORLD 5  | Matt Damon, Ryan Gosling, Amanda Seyfried, Elle Fanning | Concept Trailer",
-        "channel": "Ultimate Studios",
-        "thumbnail": "https://i.ytimg.com/vi/zY5hYWzZH2k/mqdefault.jpg",
-        "published_at": "2026-09-27T16:30:10Z",
-        "view_count": 15687,
-        "like_count": 75
-      },
-      {
-        "rank": 6,
-        "video_id": "KBpo-dN_CZ0",
-        "title": "I GOT OTW ADEYEMI! (OGRTG #9)",
-        "channel": "DannyAaronsRTG",
-        "thumbnail": "https://i.ytimg.com/vi/KBpo-dN_CZ0/mqdefault.jpg",
-        "published_at": "2026-09-27T16:00:27Z",
-        "view_count": 195036,
-        "like_count": 3161
-      },
-      {
-        "rank": 7,
         "video_id": "VJYZuXUygsI",
         "title": "NAGGNEE - Gurinder Gill | Manu | Sach (OFFICIAL MUSIC VIDEO)",
         "channel": "Gurinder Gill",
         "thumbnail": "https://i.ytimg.com/vi/VJYZuXUygsI/mqdefault.jpg",
         "published_at": "2026-09-28T05:22:29Z",
-        "view_count": 132496,
-        "like_count": 10750
+        "view_count": 147115,
+        "like_count": 11732
       },
       {
-        "rank": 8,
-        "video_id": "dm0PvEvVj-M",
-        "title": "Visionquest Trailer: Avengers Doomsday & Things You Missed!",
-        "channel": "Emergency Awesome",
-        "thumbnail": "https://i.ytimg.com/vi/dm0PvEvVj-M/mqdefault.jpg",
-        "published_at": "2026-09-27T22:34:03Z",
-        "view_count": 195399,
-        "like_count": 2630
+        "rank": 5,
+        "video_id": "uCEf82pwNzo",
+        "title": "LANTERNS Season Finale Official Trailer (2026) Green Lantern",
+        "channel": "KinoCheck.com",
+        "thumbnail": "https://i.ytimg.com/vi/uCEf82pwNzo/mqdefault.jpg",
+        "published_at": "2026-09-28T08:35:36Z",
+        "view_count": 23081,
+        "like_count": 260
       },
       {
-        "rank": 9,
-        "video_id": "0ZB2kt7Y84E",
-        "title": "FORTNITE GLOBAL CHAMPIONSHIP | DAY 2",
-        "channel": "Fortnite Competitive",
-        "thumbnail": "https://i.ytimg.com/vi/0ZB2kt7Y84E/mqdefault.jpg",
-        "published_at": "2026-09-27T19:34:18Z",
-        "view_count": 895389,
-        "like_count": 12815
-      },
-      {
-        "rank": 10,
-        "video_id": "5jA0xifjzFY",
-        "title": "LM - 5 Years [Music Video] | GRM Daily",
-        "channel": "GRM Daily",
-        "thumbnail": "https://i.ytimg.com/vi/5jA0xifjzFY/mqdefault.jpg",
-        "published_at": "2026-09-27T19:00:09Z",
-        "view_count": 20526,
-        "like_count": 870
-      },
-      {
-        "rank": 11,
-        "video_id": "CL1EFACsWag",
-        "title": "WERWULF - Official Trailer 2 [HD] - Only In Theaters This Christmas",
-        "channel": "Focus Features",
-        "thumbnail": "https://i.ytimg.com/vi/CL1EFACsWag/mqdefault.jpg",
-        "published_at": "2026-09-26T15:00:07Z",
-        "view_count": 8146777,
-        "like_count": 51845
-      },
-      {
-        "rank": 12,
+        "rank": 6,
         "video_id": "E_RXOSNzztg",
         "title": "Hermitcraft 11: Episode 28 - TANGO'S GAME!",
         "channel": "Grian",
         "thumbnail": "https://i.ytimg.com/vi/E_RXOSNzztg/mqdefault.jpg",
         "published_at": "2026-09-27T23:30:08Z",
-        "view_count": 482779,
-        "like_count": 26979
+        "view_count": 504089,
+        "like_count": 28270
+      },
+      {
+        "rank": 7,
+        "video_id": "rDEB9OuFhR4",
+        "title": "ERASURE - Wings Of Love (Official Audio)",
+        "channel": "Erasure (Official)",
+        "thumbnail": "https://i.ytimg.com/vi/rDEB9OuFhR4/mqdefault.jpg",
+        "published_at": "2026-09-28T07:30:05Z",
+        "view_count": 12330,
+        "like_count": 0
+      },
+      {
+        "rank": 8,
+        "video_id": "zY5hYWzZH2k",
+        "title": "JURASSIC WORLD 5  | Matt Damon, Ryan Gosling, Amanda Seyfried, Elle Fanning | Concept Trailer",
+        "channel": "Ultimate Studios",
+        "thumbnail": "https://i.ytimg.com/vi/zY5hYWzZH2k/mqdefault.jpg",
+        "published_at": "2026-09-27T16:30:10Z",
+        "view_count": 17003,
+        "like_count": 82
+      },
+      {
+        "rank": 9,
+        "video_id": "KBpo-dN_CZ0",
+        "title": "I GOT OTW ADEYEMI! (OGRTG #9)",
+        "channel": "DannyAaronsRTG",
+        "thumbnail": "https://i.ytimg.com/vi/KBpo-dN_CZ0/mqdefault.jpg",
+        "published_at": "2026-09-27T16:00:27Z",
+        "view_count": 199366,
+        "like_count": 3220
+      },
+      {
+        "rank": 10,
+        "video_id": "WI4__7z_dJw",
+        "title": "BOYNEXTDOOR (보이넥스트도어) 'ANIMAL' Official MV",
+        "channel": "HYBE LABELS",
+        "thumbnail": "https://i.ytimg.com/vi/WI4__7z_dJw/mqdefault.jpg",
+        "published_at": "2026-09-28T08:59:06Z",
+        "view_count": 977365,
+        "like_count": 52879
+      },
+      {
+        "rank": 11,
+        "video_id": "N_29qTiUSFo",
+        "title": "LANTERNS Episode 8 Trailer Breakdown & DC Green Lantern Comic Easter Eggs | Who Shot Hal Jordan?",
+        "channel": "Heavy Spoilers",
+        "thumbnail": "https://i.ytimg.com/vi/N_29qTiUSFo/mqdefault.jpg",
+        "published_at": "2026-09-28T11:01:01Z",
+        "view_count": 32395,
+        "like_count": 1266
+      },
+      {
+        "rank": 12,
+        "video_id": "0ZB2kt7Y84E",
+        "title": "FORTNITE GLOBAL CHAMPIONSHIP | DAY 2",
+        "channel": "Fortnite Competitive",
+        "thumbnail": "https://i.ytimg.com/vi/0ZB2kt7Y84E/mqdefault.jpg",
+        "published_at": "2026-09-27T19:34:18Z",
+        "view_count": 897357,
+        "like_count": 12838
       },
       {
         "rank": 13,
@@ -364,18 +364,18 @@
         "channel": "THEBLACKLABEL",
         "thumbnail": "https://i.ytimg.com/vi/lQ-w9M447w0/mqdefault.jpg",
         "published_at": "2026-09-28T09:00:08Z",
-        "view_count": 1093397,
+        "view_count": 2253201,
         "like_count": 0
       },
       {
         "rank": 14,
-        "video_id": "uCEf82pwNzo",
-        "title": "LANTERNS Season Finale Official Trailer (2026) Green Lantern",
-        "channel": "KinoCheck.com",
-        "thumbnail": "https://i.ytimg.com/vi/uCEf82pwNzo/mqdefault.jpg",
-        "published_at": "2026-09-28T08:35:36Z",
-        "view_count": 16511,
-        "like_count": 235
+        "video_id": "dm0PvEvVj-M",
+        "title": "Visionquest Trailer: Avengers Doomsday & Things You Missed!",
+        "channel": "Emergency Awesome",
+        "thumbnail": "https://i.ytimg.com/vi/dm0PvEvVj-M/mqdefault.jpg",
+        "published_at": "2026-09-27T22:34:03Z",
+        "view_count": 199908,
+        "like_count": 2702
       },
       {
         "rank": 15,
@@ -384,58 +384,58 @@
         "channel": "AJ3",
         "thumbnail": "https://i.ytimg.com/vi/4Iyju1WqJM4/mqdefault.jpg",
         "published_at": "2026-09-27T16:38:16Z",
-        "view_count": 96971,
-        "like_count": 1462
+        "view_count": 99076,
+        "like_count": 1484
       },
       {
         "rank": 16,
+        "video_id": "5jA0xifjzFY",
+        "title": "LM - 5 Years [Music Video] | GRM Daily",
+        "channel": "GRM Daily",
+        "thumbnail": "https://i.ytimg.com/vi/5jA0xifjzFY/mqdefault.jpg",
+        "published_at": "2026-09-27T19:00:09Z",
+        "view_count": 21402,
+        "like_count": 911
+      },
+      {
+        "rank": 17,
+        "video_id": "CL1EFACsWag",
+        "title": "WERWULF - Official Trailer 2 [HD] - Only In Theaters This Christmas",
+        "channel": "Focus Features",
+        "thumbnail": "https://i.ytimg.com/vi/CL1EFACsWag/mqdefault.jpg",
+        "published_at": "2026-09-26T15:00:07Z",
+        "view_count": 8227085,
+        "like_count": 52082
+      },
+      {
+        "rank": 18,
+        "video_id": "k3VbrzqcWio",
+        "title": "Playing Ridiculous ROBLOX Games (w/ AverageHarry)",
+        "channel": "Jack",
+        "thumbnail": "https://i.ytimg.com/vi/k3VbrzqcWio/mqdefault.jpg",
+        "published_at": "2026-09-27T18:01:07Z",
+        "view_count": 146991,
+        "like_count": 7479
+      },
+      {
+        "rank": 19,
         "video_id": "9LvlvcjxWxg",
         "title": "Meek Mill - Philly Heathans (Leak) ",
         "channel": "Meek Mill",
         "thumbnail": "https://i.ytimg.com/vi/9LvlvcjxWxg/mqdefault.jpg",
         "published_at": "2026-09-28T00:47:44Z",
-        "view_count": 122249,
-        "like_count": 5900
-      },
-      {
-        "rank": 17,
-        "video_id": "d0dOD5m_zRo",
-        "title": "Official Trailer FULL BREAKDOWN! (FNAF x Fortnite)",
-        "channel": "Tabor Hill",
-        "thumbnail": "https://i.ytimg.com/vi/d0dOD5m_zRo/mqdefault.jpg",
-        "published_at": "2026-09-27T16:07:52Z",
-        "view_count": 72690,
-        "like_count": 2933
-      },
-      {
-        "rank": 18,
-        "video_id": "bSIc9nvmxVE",
-        "title": "WATCHING FNCS GLOBALS w/ JYNXZI 🏆 $2 MILLION LAN 💰 CAN VICO WIN AGAIN 👀",
-        "channel": "AussieAntics",
-        "thumbnail": "https://i.ytimg.com/vi/bSIc9nvmxVE/mqdefault.jpg",
-        "published_at": "2026-09-27T23:01:14Z",
-        "view_count": 550300,
-        "like_count": 6056
-      },
-      {
-        "rank": 19,
-        "video_id": "WI4__7z_dJw",
-        "title": "BOYNEXTDOOR (보이넥스트도어) 'ANIMAL' Official MV",
-        "channel": "HYBE LABELS",
-        "thumbnail": "https://i.ytimg.com/vi/WI4__7z_dJw/mqdefault.jpg",
-        "published_at": "2026-09-28T08:59:06Z",
-        "view_count": 696980,
-        "like_count": 49550
+        "view_count": 130532,
+        "like_count": 6241
       },
       {
         "rank": 20,
-        "video_id": "y7PVVWg6nRk",
-        "title": "Love in Disguise | Teaser | Amazon Prime",
-        "channel": "Prime Video Singapore",
-        "thumbnail": "https://i.ytimg.com/vi/y7PVVWg6nRk/mqdefault.jpg",
-        "published_at": "2026-09-27T23:00:21Z",
-        "view_count": 111663,
-        "like_count": 1993
+        "video_id": "kPh4eVOLuTM",
+        "title": "Trailer Din Part 20",
+        "channel": "Habtom Entertainment",
+        "thumbnail": "https://i.ytimg.com/vi/kPh4eVOLuTM/mqdefault.jpg",
+        "published_at": "2026-09-28T11:00:30Z",
+        "view_count": 8776,
+        "like_count": 652
       },
       {
         "rank": 21,
@@ -444,8 +444,8 @@
         "channel": "SSundeePlus",
         "thumbnail": "https://i.ytimg.com/vi/SR2kFNC88Z4/mqdefault.jpg",
         "published_at": "2026-09-27T17:30:37Z",
-        "view_count": 869439,
-        "like_count": 60343
+        "view_count": 886005,
+        "like_count": 61280
       },
       {
         "rank": 22,
@@ -454,28 +454,28 @@
         "channel": "SAVNDO",
         "thumbnail": "https://i.ytimg.com/vi/OIgarV9koqs/mqdefault.jpg",
         "published_at": "2026-09-27T21:57:42Z",
-        "view_count": 5492,
-        "like_count": 351
+        "view_count": 5903,
+        "like_count": 364
       },
       {
         "rank": 23,
-        "video_id": "AJNqxhZknmo",
-        "title": "Fortnite x Five Nights At Freddy’s | Official Trailer ",
-        "channel": "FortniteBRFeed",
-        "thumbnail": "https://i.ytimg.com/vi/AJNqxhZknmo/mqdefault.jpg",
-        "published_at": "2026-09-27T13:27:02Z",
-        "view_count": 112844,
-        "like_count": 2676
+        "video_id": "d0dOD5m_zRo",
+        "title": "Official Trailer FULL BREAKDOWN! (FNAF x Fortnite)",
+        "channel": "Tabor Hill",
+        "thumbnail": "https://i.ytimg.com/vi/d0dOD5m_zRo/mqdefault.jpg",
+        "published_at": "2026-09-27T16:07:52Z",
+        "view_count": 73489,
+        "like_count": 2956
       },
       {
         "rank": 24,
-        "video_id": "k3VbrzqcWio",
-        "title": "Playing Ridiculous ROBLOX Games (w/ AverageHarry)",
-        "channel": "Jack",
-        "thumbnail": "https://i.ytimg.com/vi/k3VbrzqcWio/mqdefault.jpg",
-        "published_at": "2026-09-27T18:01:07Z",
-        "view_count": 143999,
-        "like_count": 7299
+        "video_id": "bSIc9nvmxVE",
+        "title": "WATCHING FNCS GLOBALS w/ JYNXZI 🏆 $2 MILLION LAN 💰 CAN VICO WIN AGAIN 👀",
+        "channel": "AussieAntics",
+        "thumbnail": "https://i.ytimg.com/vi/bSIc9nvmxVE/mqdefault.jpg",
+        "published_at": "2026-09-27T23:01:14Z",
+        "view_count": 550783,
+        "like_count": 6058
       },
       {
         "rank": 25,
@@ -484,32 +484,46 @@
         "channel": "Aditya Music",
         "thumbnail": "https://i.ytimg.com/vi/3XfUeyDCH6k/mqdefault.jpg",
         "published_at": "2026-09-27T12:40:36Z",
-        "view_count": 4071547,
-        "like_count": 27960
+        "view_count": 4222780,
+        "like_count": 28645
       }
     ],
     "google_news": {
       "top": [
         {
-          "title": "Iran denies involvement in suspected terror plot at UK airbase",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV0xITWIwVHoySE5zWDZxSUkzSHQ3NU84YkU5YmpScnc3Sllick9zcWlQYVhJNHFaQjNFamx0b0lzWkVRcGtiZ2libzlkbGRMSm9OWTBJN3BoYUdrWmcwMXVtVDdlcmtmT1Eyd3J6RmZUTkEtQ0gzVGs2aUgtZm9Ubml5cGlTWUJFVTJzWDQ1VDVBaC1Oa0ZCaE1mdVU2X3hWejNhS0ZVVmpFaFAw?oc=5",
-          "description": "Iran denies involvement in suspected terror plot at UK airbase  The Times of IsraelFive men arrested over alleged RAF Fairford terror plot are all UK nationals  Financial TimesRAF Fairford latest: Inc",
-          "publisher": "The Times of Israel",
-          "pub_date": "2026-09-28T13:01:21+00:00"
-        },
-        {
-          "title": "Labour conference live: Best thing we can offer young people is a first job, Healey says",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1TQmhzM0RBVHlxMTRRT1lLcmw1b19RVTYyeUpOS2hNSUtDc1BmUWpDVFVHR1pEWjh2NDNxOUNZU2tUVHdiN0JjU1Jwd09OT3ZDc0o0bWdqVlA?oc=5",
-          "description": "Labour conference live: Best thing we can offer young people is a first job, Healey says  bbc.co.ukHealey offers upbeat vision but sheds little light on how it will be paid for  The GuardianThree new ",
-          "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-28T13:12:03+00:00"
+          "title": "RAF Fairford latest: Terror suspects are all British men in 20s, police say",
+          "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOYjBya2FOVUdXNGNzNHBPLTNqeUJvQklZdmFDUUxyeU1FdURicE16Qllsa2otWUdqQm9qZVEzYTdLdzRxZDFJc1BqcjVjSGtPZEgyc2VEbi1rS2dZYW1JLWliZ01wOGdwN0huazRxM1pscXZzc1F0NVJhUzhpODJuVVpHUi1hYUVieEk1RG5zYnZGbC1DM3RNNFVIZGF5SFhwcHVqYUlOQnRzRFFIZVhvV01KWGVJeThRX3Fzd0RWR3hoSEMwVG9WR3lhV3E0NVZrZHpzVURVMlJaRFdTTTdPRS1OZll2QnJsMDFQVVBiV0NCMW5aRC1fS0JYSFBHRHh0T2xxWjZNc2JjWWZ2NTVCWGhMWlo0bnIwU3pkNg?oc=5",
+          "description": "RAF Fairford latest: Terror suspects are all British men in 20s, police say  Sky NewsLabour conference live: Best thing we can offer young people is a first job, Healey says  bbc.comTell us: have you ",
+          "publisher": "Sky News",
+          "pub_date": "2026-09-28T01:32:57+00:00"
         },
         {
           "title": "Orangemen remain at Drumcree amid efforts to find solution to parade dispute | ITV News",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLVY5cDBpbURobGJ2ck5zX2ZNTlBqQU5SN0dTVmtlQXpyZ2NnU09NM0FHa01XeU5aVmFtN3ZwUmdiMG5iZF9NTXdKQlAzazU2QVkzMGZiQTRtTTVQUnduWG9lY1VaU3dJU2lTVHRHaUtHcUphSmt5R3V3UVg4RTdCY3A1ZjFJYWROUTdiVUFDVGZ0RnY0bVJqY0c5YUdZWU5uVHBtSGd3alFaQVRIbTZEZFpWRlpOUQ?oc=5",
-          "description": "Orangemen remain at Drumcree amid efforts to find solution to parade dispute | ITV News  ITVXDrumcree parade: Police block Orange Order from controversial parade route  bbc.co.ukBurnham's new man in B",
+          "description": "Orangemen remain at Drumcree amid efforts to find solution to parade dispute | ITV News  ITVXTensions rise as Orange Order members vow to continue with march blocked by police  The GuardianDrumcree pa",
           "publisher": "ITVX",
           "pub_date": "2026-09-28T09:03:52+00:00"
+        },
+        {
+          "title": "Lithium-ion battery caused fire that killed mum and 3 children",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ic0JpWDROTUNhUHh2aXE5MEZPZ1hUUHpnN1ZaSWJkaE53d2R5cWFpcGh2Y2pWMUs4OTVSeHlLNmswa1g1cHp5NlB2dlN3OWZDWGsydlNTU0NZVXc?oc=5",
+          "description": "Lithium-ion battery caused fire that killed mum and 3 children  bbc.comSee more headlines and perspectives on Google News",
+          "publisher": "bbc.com",
+          "pub_date": "2026-09-28T12:13:31+00:00"
+        },
+        {
+          "title": "Schools forced to shut amid burst Thames Water pipe ‘leaking 750 litres a second’",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaFExeVdLNHEtcDBjR2U3Ti1yUXhESzBMajZ1V2xjSWpvNVR1bTFiMVdVcnV5ZmxRdmVGOU80VUpmaUpNVWxwamdzWmNNTUg2QS12M01yOHZUX0lIeWRBTFVQbGJqMlE5RV9WY1hyNm5lYmhZbzFYV19Md2lxVWF4ZTVwbE41LUJZUGhaR1Vfd2NjN3I5WGwzMnM1c0xiZXk4amV3YkVzMkhyOE13NWZtc3NNZUs3OHRqVGxiMlk1Z0IySEJFYWQ4?oc=5",
+          "description": "Schools forced to shut amid burst Thames Water pipe ‘leaking 750 litres a second’  The GuardianSeven boroughs with water supply issues, Thames Water says  bbc.co.ukSurrey properties facing water outag",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-28T13:51:00+00:00"
+        },
+        {
+          "title": "Burnham gambles that Britain will vote for higher taxes",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdzB6ZTd5ZXNIWGZUYmwwR3lDVzhQUnh4YzNKam5rQ2VxVk5RdkluRTlCY2xpUW1SMXpycE8yNGs2UUFtSlFsS3FTd3RwTEp4RFVPRFpRajBFTGwzTG52cDRYa05zckw3QnktcHlSMjhUeXdNdk44WFo5TU9Lc0IzWUpEMXZOLWRUT1VGbVpuYXliOHNKOXdFaGcxNFNNRkhHVC1iZl9Ccw?oc=5",
+          "description": "Burnham gambles that Britain will vote for higher taxes  The TelegraphNew NHS-style social care system could take decades, Dilnot says  bbc.co.ukAndy Burnham’s solution for every problem is more taxes",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-09-28T05:38:00+00:00"
         },
         {
           "title": "Two women and a child die attempting to cross English Channel",
@@ -519,25 +533,11 @@
           "pub_date": "2026-09-28T12:19:53+00:00"
         },
         {
-          "title": "Burnham gambles that Britain will vote for higher taxes",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdzB6ZTd5ZXNIWGZUYmwwR3lDVzhQUnh4YzNKam5rQ2VxVk5RdkluRTlCY2xpUW1SMXpycE8yNGs2UUFtSlFsS3FTd3RwTEp4RFVPRFpRajBFTGwzTG52cDRYa05zckw3QnktcHlSMjhUeXdNdk44WFo5TU9Lc0IzWUpEMXZOLWRUT1VGbVpuYXliOHNKOXdFaGcxNFNNRkhHVC1iZl9Ccw?oc=5",
-          "description": "Burnham gambles that Britain will vote for higher taxes  The TelegraphAndy Burnham proposes NHS-style social care system for England  bbc.co.ukMinisters could scrap pensions triple lock to pay for soc",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-09-28T05:38:00+00:00"
-        },
-        {
-          "title": "Lithium-ion battery caused fire that killed mum and 3 children",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9tTVN2WlozbC1Wdkx0aUNTWmFMVThTNDNXeWowbUljSFNSQ3NlcmhWLXVLb2Z0TjZCR0hIbUY1cktMc2dkdGZFNk1WeWR6dTJRV3lGelQyNF9BcjdDc1E?oc=5",
-          "description": "Lithium-ion battery caused fire that killed mum and 3 children  bbc.co.ukFire that killed mother and three children started by lithium-ion battery  The TelegraphFamily 'heartbroken' after mother and t",
+          "title": "Immigration arrests after people come off boat",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UcldvMGtYVDAtZUtVc09XS25BTXdYdUktblJYSFFFdTZJdXJ5ckZQYUwtd1VOME9Zak5sRE5vUzhMM05WZ0l0UjRkY29JWk1pcUR2OVFpWnlrQktUT0E?oc=5",
+          "description": "Immigration arrests after people come off boat  bbc.co.ukTen arrested after migrant boat lands at Cornish harbour  The TelegraphTen arrests after small powerboat carrying migrants arrives in Cornwall ",
           "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-28T11:06:23+00:00"
-        },
-        {
-          "title": "Diesel car values crash as pump prices reach record high",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZVB2UkR5ZjVDU2c3ZVVwX3BLMURYNzJkNUpleUhqVjVqOTZFeFpvUkhWUUhCUnprTFpURkhVTG5vV19oTEw5SDc4eWsybFdQX2tscUFPUlBlcDVUXy1kMkRtV1NLTUVZQThVT01RNUJESUZoZVRrc3RsSHF4M0wyUWZjZkx2N29wdV9fbXlLN0FmUHU4bFpwTFBDYWxadUJ1eXN0V0Z6dlk?oc=5",
-          "description": "Diesel car values crash as pump prices reach record high  The TelegraphPrice of diesel on UK forecourts reaches all-time high  The GuardianUK diesel price hits all-time high, RAC says  bbc.comWhy reco",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-09-27T19:24:00+00:00"
+          "pub_date": "2026-09-28T12:05:49+00:00"
         },
         {
           "title": "Chilling recordings that exposed killer son when he bludgeoned mum to death with hammer after using AI to plan attack",
@@ -547,18 +547,18 @@
           "pub_date": "2026-09-28T09:42:00+00:00"
         },
         {
-          "title": "Man tragically dies on Wigan street as emergency services rush to scene",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDlyMjFwMExOQ05YdWJvWHVocDl0cVdIZFgzcVplVDczVm5BY3dDV1NtNzJFLWJTUHJJVExaVmRnc2ctTy1lQ1NIMEI0VWxiSUd6QXJLd2NRVlFQMXR3TmJBWW5VcHd4Vk1yUE50T3N3cUt6TlBlMnFtZmtnRUdMOU1NOUxiZF9mX0RFMnNPU0VsZjhqaTI1a3FtZGVXVHozdUhpMm5PTHdieEd3VnJ30gG0AUFVX3lxTE1HWUR4akNBOFdmX09lV1QtYlVhRXU3Sk4tN244WHJjVFczcHp5SDdNa3YzZFlvU3Z6ZXk2c1VNQXdRbWgzX0xpSDUxWlBXMENZc0tvSlFBRWlOUU90bWhrS1lmcHJacFU2N1duWnFVSWhiTWRkWlRmZjJyUE9VUHA1VGVQdVU1V1E3UWVXQ1REVU9rcUYwMW9VWTcwclNlQVhnX0pUZ1hxSk9CZnk4cTl4R2Jyaw?oc=5",
-          "description": "Man tragically dies on Wigan street as emergency services rush to scene  Manchester Evening News",
-          "publisher": "Manchester Evening News",
-          "pub_date": "2026-09-28T10:36:00+00:00"
+          "title": "Man arrested after woman allegedly raped in Clubmoor restaurant",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWFZPTmdqWi1JUmE1T2QzZ3BFRzJJWnJ2WktjakVvRHRINDNXUlVta3R6SXRFSnJRcU80ajl3QWEzU0hYRVlLYVBkbzFVajFuWnk3THpYakJDeG1jM25BeXdHMW5CbVo4Z1RNbmZYZlpKUWpVZUxWdEh2WG10bEhMdmM0dFlOTmY1WFZGMGRJNW5BNjVGeWstd1puWdIBoAFBVV95cUxOcjMtWlFEeUNpcDU2b3NIREFoLW9xamlQcUo1bEhVT19sNXUxVXROSzJFLXYzU2NaRl9qSTJhY0N5dkFITXpWenVpTmZacE5OeUkzVmI1V3BxMkh2Q25HdElBSGRNZGhGUWtaeFduTlQxTkJwY3U3UFN6dEtPVGFyMWpzQzlhMU1FRGdTWkhQMHlrS0dfSk9vMDFweVpJWXZL?oc=5",
+          "description": "Man arrested after woman allegedly raped in Clubmoor restaurant  Liverpool Echo",
+          "publisher": "Liverpool Echo",
+          "pub_date": "2026-09-28T11:54:00+00:00"
         },
         {
-          "title": "UK to open new refugee resettlement routes for Afghan women and Palestinians",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUnBNWUJhYW9Zc0ZvOXZFSnQ2VENCNWZRLWlPRW03YUJ5MjlMSG9sWmF6b09Xak5mN2ZNSjVPQnlxREszam85RkVuOHN2dFVjSzRVc2pZRS1NWV9raktRZXV5Szg3V3pYdXhZZzJjaVRJejFUN29oeFlKRW1saVM2TTctdldMWUxBRHFhSzV5dmhnN3lLQ1VTU0F5Nk03bFNJM2RSRldBUlE2T0x6ZVF6a0RXTjN4NzRLV3Y5Q2Rod3RzR0RhNGc?oc=5",
-          "description": "UK to open new refugee resettlement routes for Afghan women and Palestinians  The GuardianShabana Mahmood to reopen scheme to resettle refugees in the UK  bbc.co.ukAfghans and Palestinians among refug",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-28T02:03:00+00:00"
+          "title": "Drinking ban to continue in three 'wild west' Welsh towns",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX0F1Z3hqbmo5aGNYZzBUbW9xWGVkQURjNFJELW5YbGk4d1hnemFobmVLYzc2MVp5RlBhMGxJaXFlaTFsRW5sTzM5MGtVNVZPWXpod0F3Um9ndGxYVk1hSmh5b3NPa1dXM1B3cl81RlEwZjA2eWcxcWlLc3kxYXJmT040ZThVSkZRUXJfbDUyNUc?oc=5",
+          "description": "Drinking ban to continue in three 'wild west' Welsh towns  Wales OnlineCeredigion town centre drinking bans extended  Cambrian NewsStrict booze ban in trio of ‘Wild West’ UK towns is approved for ANOT",
+          "publisher": "Wales Online",
+          "pub_date": "2026-09-28T10:25:00+00:00"
         },
         {
           "title": "Russian drone strike on Kyiv academy condemned as ‘an attack on science’ as staff flee building – Europe live",
@@ -568,18 +568,11 @@
           "pub_date": "2026-09-28T07:48:00+00:00"
         },
         {
-          "title": "Spain erupts in fury over housing after eviction of 87-year-old woman",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR3FfV0liVU9oTDNEN2NmNXpfVnN4aFU5V0o4QjloTlBOeWZuRlU1eF9GYXVUbWNiSU1Fc1Nsc25NNExya1UxVU9JeDNmbHMxSHl3ZzJvZ2d3T3VxQkZBdTFLNDMybWlzWDZpMy0yUUNfMkEyM2NUMkxkdnVuTzNVYjNxSlU?oc=5",
-          "description": "Spain erupts in fury over housing after eviction of 87-year-old woman  Financial TimesProtesters demand Spanish government limit evictions after pensioner forced out  ReutersSpain housing crisis prote",
+          "title": "The Pope and the EU’s holy founding father",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWZ1TWF1cHltbjNoLWc5V3BsbnBNV1kyblEyOGM5M3FLZWFoVmx0WkVDWVhXWTltV3JqU29ENUcweVB6M1hCYW5qb1U0alRwQ3lGUE5HMUxtSzV4ak01TG5xSDFHNENSSWpvZFlibGxpdXE3ZzJfWkdzOGFMQWxMTUk1MVo?oc=5",
+          "description": "The Pope and the EU’s holy founding father  Financial TimesPope Leo urges concessions to end war in Ukraine  politico.euFrance’s religious leaders appeal for peace and sustained dialogue  Vatican News",
           "publisher": "Financial Times",
-          "pub_date": "2026-09-27T16:27:58+00:00"
-        },
-        {
-          "title": "Bangkok declared a ‘disaster zone’ after flooding, as rainstorms shift direction",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkxNdzVpeE1wS3BkU29IZm9oUFBITGVrUGRtUU1qb1lycHFiVHRCTWRzWk9rM3Z3QjB1RTVNTC15M2VRU1JBcmtkTk00ckU5MGlPdWN5SkEwUzhtNktpN0ZSc2h3WkhITUNvaVNKY2FVSlpWWDkzTUs2UE5lSGJfUEl4c2E4R0ZFMVV2LVBfbDBlVWNuMEpnY3NBUTlQc1FqY0FkdlRoTVFEdzlHM2xFSXR1ZWU?oc=5",
-          "description": "Bangkok declared a ‘disaster zone’ after flooding, as rainstorms shift direction  The GuardianThailand declares two-day civil service holiday due to floods  ReutersThai capital Bangkok declared disast",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-28T08:18:00+00:00"
+          "pub_date": "2026-09-28T10:30:07+00:00"
         },
         {
           "title": "Trump asked China's president if he wanted to buy US weapons, says ambassador",
@@ -589,53 +582,60 @@
           "pub_date": "2026-09-28T10:17:07+00:00"
         },
         {
-          "title": "Shares in UK housebuilders surge on new Help to Buy scheme",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTmJ1ZVExQk1BdGk1N2ZEdU16eTlEUUxIcWFTYU9HNXRVTDFVN3BLbGRTTVFUU0VlMXpuOWZjUHloWS1NaEd6b2pkWkdTZC1JZ1o2NEg0dHJsQUhzUXhMaG9kV3JCWlVVb3BZSFF2RXQ0MGpjT2JxdzRXWkVyNUM5T2NDNWc?oc=5",
-          "description": "Shares in UK housebuilders surge on new Help to Buy scheme  Financial TimesBurnham announces scheme to help first-time buyers onto housing ladder  bbc.co.ukMarket snapshot: Burnham's massive boost for",
-          "publisher": "Financial Times",
-          "pub_date": "2026-09-28T07:11:35+00:00"
+          "title": "Madrid protests for 87-year-old Maricarmen and housing ends in sit in",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcExxYVRvX1NRTHQ2TU5qeEMtNzQzeUpZdDRWbTFSZXNXcTV1ZmhRTGlENFFubDdwNGlUa09fV0Fac24taF9XTGJ5cHFPcWR0cnpBQWdKMHM0SGtxRmNMbWM2LVM1MDJxQjluV1RKdmtMNEpQQmljNVVZNlFnWllFWGxySTlaVGdHZVEtUExpbHB1dWxoNTJnWG9xU1Z6Q1A2N2d6Um9ObU9UQmc?oc=5",
+          "description": "Madrid protests for 87-year-old Maricarmen and housing ends in sit in  Euronews.comSpain erupts in fury over housing after eviction of 87-year-old woman  Financial TimesProtesters demand Spanish gover",
+          "publisher": "Euronews.com",
+          "pub_date": "2026-09-27T11:21:34+00:00"
+        },
+        {
+          "title": "Price of diesel on UK forecourts reaches all-time high",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRElqakRLZ2stWFVPQTNNeElLNGd5VDkxVHRVQld5TW85TVZiR01QYnpyQkFESnN2Y0xkeVFWbWN3SnpFQ09tZFRwSWx5N1lWMGVhTWgwZDBoYk9TeUFvS3A0NzdpTTdYWjZ3dVhjRHpINWdFTGIwelhhaFFnYWg2ekFrU2h3TE9KQy1Cdnd6cXVaNFpITTdzOE83alNWbUk4eVE?oc=5",
+          "description": "Price of diesel on UK forecourts reaches all-time high  The GuardianUK diesel price hits all-time high, the RAC says  bbc.co.ukUK diesel prices hit record high at 199.18p a litre; housebuilder stocks ",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-28T12:38:00+00:00"
         }
       ],
       "nation": [
         {
-          "title": "Iran denies involvement in suspected terror plot at UK airbase",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV0xITWIwVHoySE5zWDZxSUkzSHQ3NU84YkU5YmpScnc3Sllick9zcWlQYVhJNHFaQjNFamx0b0lzWkVRcGtiZ2libzlkbGRMSm9OWTBJN3BoYUdrWmcwMXVtVDdlcmtmT1Eyd3J6RmZUTkEtQ0gzVGs2aUgtZm9Ubml5cGlTWUJFVTJzWDQ1VDVBaC1Oa0ZCaE1mdVU2X3hWejNhS0ZVVmpFaFAw?oc=5",
-          "description": "Iran denies involvement in suspected terror plot at UK airbase  The Times of IsraelFive men arrested over alleged RAF Fairford terror plot are all UK nationals  Financial TimesRAF Fairford latest: Ter",
-          "publisher": "The Times of Israel",
-          "pub_date": "2026-09-28T13:01:21+00:00"
+          "title": "Possible Terrorist Plot at R.A.F. Fairford Air Base in U.K.: What We Know",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQWJyNF9VLUp1VkFMMUV0cEpid2xGRWdocUNXcGZmbnRtTXJlV3BJTVY0dlNncWRUa3hhVkVfcG5TMnBOOE50eklDYTVGY3BQc2E0WmVpMG1EM1lDMmZoeGR0SjlFNVNzcEhmMDViaGxNdl8wTlExNWdJQlh5bmE0Tm9aM0NjaVNqWFRheXdlUkw1Vkotd3V4QjlyUjU?oc=5",
+          "description": "Possible Terrorist Plot at R.A.F. Fairford Air Base in U.K.: What We Know  The New York TimesRAF Fairford latest: Terror suspects are all British men in 20s, police say  Sky NewsLabour conference live",
+          "publisher": "The New York Times",
+          "pub_date": "2026-09-28T13:24:01+00:00"
         },
         {
           "title": "Faslane dry docks and research ship to be built in UK, says chancellor",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NMFo0MkJFemVFUlptZFNCS3k5bW1kMm92RUxMeENFVUlXMUhaSHZZQ19odlA5eERzb2NscFM0QnVtdVBNb09vR2l5Zk1nWkdJT0Q4bWMxWld5ajctYnc?oc=5",
-          "description": "Faslane dry docks and research ship to be built in UK, says chancellor  bbc.co.ukLabour conference live: Best thing we can offer young people is a first job, Healey says  bbc.co.ukHealey offers upbeat",
+          "description": "Faslane dry docks and research ship to be built in UK, says chancellor  bbc.co.ukSee more headlines and perspectives on Google News",
           "publisher": "bbc.co.uk",
           "pub_date": "2026-09-28T12:47:34+00:00"
         },
         {
-          "title": "Diesel car values crash as pump prices reach record high",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZVB2UkR5ZjVDU2c3ZVVwX3BLMURYNzJkNUpleUhqVjVqOTZFeFpvUkhWUUhCUnprTFpURkhVTG5vV19oTEw5SDc4eWsybFdQX2tscUFPUlBlcDVUXy1kMkRtV1NLTUVZQThVT01RNUJESUZoZVRrc3RsSHF4M0wyUWZjZkx2N29wdV9fbXlLN0FmUHU4bFpwTFBDYWxadUJ1eXN0V0Z6dlk?oc=5",
-          "description": "Diesel car values crash as pump prices reach record high  The TelegraphPrice of diesel on UK forecourts reaches all-time high  The GuardianUK diesel price hits all-time high, RAC says  bbc.comWhy reco",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-09-27T19:24:00+00:00"
+          "title": "Lithium-ion battery caused fire that killed mum and 3 children",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ic0JpWDROTUNhUHh2aXE5MEZPZ1hUUHpnN1ZaSWJkaE53d2R5cWFpcGh2Y2pWMUs4OTVSeHlLNmswa1g1cHp5NlB2dlN3OWZDWGsydlNTU0NZVXc?oc=5",
+          "description": "Lithium-ion battery caused fire that killed mum and 3 children  bbc.comSee more headlines and perspectives on Google News",
+          "publisher": "bbc.com",
+          "pub_date": "2026-09-28T12:13:31+00:00"
         },
         {
-          "title": "Lithium-ion battery caused house fire that killed mother and three children in Merseyside",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbEZSakdOU1VQOWNvaFY1UXZhX3hCWENwZGxtOFVRUm1GckFBd3RteXV1ckRNTVVoSVRhRVMwbmZES3N2Z3ZGQXZTX052RS1CZ0ZfQldqc1ZhU3RjZXo3WGozemo5MlBoVDc4eS1EY1lQVERnbTFuY3F6dW9vOXVWdWVOb1dLY3J1WmNxQkV3MHVLVzIyekw2TjZMV1hPb21TWnFhd1lvQzM5WXlsaFdtTG1lUl82X0hZVFJDaE9oQ0owTUU?oc=5",
-          "description": "Lithium-ion battery caused house fire that killed mother and three children in Merseyside  Sky NewsLithium-ion battery caused fire that killed mum and 3 children  bbc.co.ukFire that killed mother and ",
-          "publisher": "Sky News",
-          "pub_date": "2026-09-28T13:22:34+00:00"
+          "title": "Three people dead, including a child, in attempt to cross Channel to UK",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSmpoQVVVRlVUQTNDcWdmeEFDdUFobHJ4bHFrS3NxTEhyMC1GcXgwYzYtUmZGM2c1Y3BJb1lSYmpROUktYWp0ZHpSQU9NcDZOdTdVdnhhbVk2RGtrX29Da3FmZFFMRmpjNkY1MURoaXZETDVFVVZ0WkV4UENxdnZsQVhuS1hVNk40ZkRCNQ?oc=5",
+          "description": "Three people dead, including a child, in attempt to cross Channel to UK  The GuardianThree dead, including child, in Channel crossing attempt  bbc.co.ukChild among three migrants killed after dinghy c",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-28T10:40:00+00:00"
         },
         {
-          "title": "Three dead, including child, in Channel crossing attempt",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2QmpPUXNiUXJrYkptRkpDNDhZb21xWUczODdRNnVkWjNSc3pIZlczdW1JLS0tMl8teTJjak9NVGZ6c1Jydmt4bE10Vjg4alU4SmZla0VwNEd2Rm1SX2c?oc=5",
-          "description": "Three dead, including child, in Channel crossing attempt  bbc.co.ukChild among three migrants killed after dinghy capsizes in Channel  The TelegraphTwo women and a child die attempting to cross Englis",
+          "title": "Immigration arrests after people come off boat",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UcldvMGtYVDAtZUtVc09XS25BTXdYdUktblJYSFFFdTZJdXJ5ckZQYUwtd1VOME9Zak5sRE5vUzhMM05WZ0l0UjRkY29JWk1pcUR2OVFpWnlrQktUT0E?oc=5",
+          "description": "Immigration arrests after people come off boat  bbc.co.ukTen arrested after migrant boat lands at Cornish harbour  The TelegraphTen arrests after small powerboat carrying migrants arrives in Cornwall ",
           "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-28T10:02:56+00:00"
+          "pub_date": "2026-09-28T12:05:49+00:00"
         },
         {
           "title": "Orangemen remain at Drumcree amid efforts to find solution to parade dispute | ITV News",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLVY5cDBpbURobGJ2ck5zX2ZNTlBqQU5SN0dTVmtlQXpyZ2NnU09NM0FHa01XeU5aVmFtN3ZwUmdiMG5iZF9NTXdKQlAzazU2QVkzMGZiQTRtTTVQUnduWG9lY1VaU3dJU2lTVHRHaUtHcUphSmt5R3V3UVg4RTdCY3A1ZjFJYWROUTdiVUFDVGZ0RnY0bVJqY0c5YUdZWU5uVHBtSGd3alFaQVRIbTZEZFpWRlpOUQ?oc=5",
-          "description": "Orangemen remain at Drumcree amid efforts to find solution to parade dispute | ITV News  ITVXDrumcree parade: Police block Orange Order from controversial parade route  bbc.co.ukBurnham's new man in B",
+          "description": "Orangemen remain at Drumcree amid efforts to find solution to parade dispute | ITV News  ITVXTensions rise as Orange Order members vow to continue with march blocked by police  The GuardianDrumcree pa",
           "publisher": "ITVX",
           "pub_date": "2026-09-28T09:03:52+00:00"
         },
@@ -647,11 +647,39 @@
           "pub_date": "2026-09-28T09:42:00+00:00"
         },
         {
-          "title": "John Healey says Labour will stick to fiscal rules in first speech as chancellor – UK politics live",
-          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPbXJZUmRXalh5TUlkbWxlTGJxYVNDTGd6a0x1UjM2T3QxQkRDUGJkMW8tV3NHazluQlphR3VDTlphR3Z2NTFGYXNfazJrTFlncVljMFlEbEd3b2FiZ1VNblluRkV1cjJtWE53bjFsMHBrRTA2X20wMHpBZzFkSmhaeTZScUNsMW1xaUtnSU9iM0pwZ1lfVkpoOWNpMmRtM3hpS2d6a0Qxa3pSdi1wZVJoTkkxZHg5b0VaYnJIZWRERFFPV1JMWnpGR1hESFY2WUVfa3NOX0tJZTFGQWJlTkE1dDkzUVllNnRLNk9GcTNSWDR3TTJUYVBpMFVuY0hneE5KZXJpX3RYS3pGaTZ5Y2hkTVRFUlN0QQ?oc=5",
-          "description": "John Healey says Labour will stick to fiscal rules in first speech as chancellor – UK politics live  The GuardianSee more headlines and perspectives on Google News",
+          "title": "Drinking ban to continue in three 'wild west' Welsh towns",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX0F1Z3hqbmo5aGNYZzBUbW9xWGVkQURjNFJELW5YbGk4d1hnemFobmVLYzc2MVp5RlBhMGxJaXFlaTFsRW5sTzM5MGtVNVZPWXpod0F3Um9ndGxYVk1hSmh5b3NPa1dXM1B3cl81RlEwZjA2eWcxcWlLc3kxYXJmT040ZThVSkZRUXJfbDUyNUc?oc=5",
+          "description": "Drinking ban to continue in three 'wild west' Welsh towns  Wales OnlineCeredigion town centre drinking bans extended  Cambrian NewsStrict booze ban in trio of ‘Wild West’ UK towns is approved for ANOT",
+          "publisher": "Wales Online",
+          "pub_date": "2026-09-28T10:25:00+00:00"
+        },
+        {
+          "title": "Man arrested after woman allegedly raped in Clubmoor restaurant",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWFZPTmdqWi1JUmE1T2QzZ3BFRzJJWnJ2WktjakVvRHRINDNXUlVta3R6SXRFSnJRcU80ajl3QWEzU0hYRVlLYVBkbzFVajFuWnk3THpYakJDeG1jM25BeXdHMW5CbVo4Z1RNbmZYZlpKUWpVZUxWdEh2WG10bEhMdmM0dFlOTmY1WFZGMGRJNW5BNjVGeWstd1puWdIBoAFBVV95cUxOcjMtWlFEeUNpcDU2b3NIREFoLW9xamlQcUo1bEhVT19sNXUxVXROSzJFLXYzU2NaRl9qSTJhY0N5dkFITXpWenVpTmZacE5OeUkzVmI1V3BxMkh2Q25HdElBSGRNZGhGUWtaeFduTlQxTkJwY3U3UFN6dEtPVGFyMWpzQzlhMU1FRGdTWkhQMHlrS0dfSk9vMDFweVpJWXZL?oc=5",
+          "description": "Man arrested after woman allegedly raped in Clubmoor restaurant  Liverpool Echo",
+          "publisher": "Liverpool Echo",
+          "pub_date": "2026-09-28T11:54:00+00:00"
+        },
+        {
+          "title": "Grandmother drove into nursery and trapped boy, 2, under wheels",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByWDVTQkw0M3dyOU45eHlxcjZpbC01STUtLXNOS21oT3B6cEhJMWlHYi0zVFFRVkplTENIMEltbUlybmVzbWwwcHY5SU9LMUpSTDExUXhCVjVzUTN0RHc?oc=5",
+          "description": "Grandmother drove into nursery and trapped boy, 2, under wheels  bbc.co.ukCar ploughs through UK nursery playground as boy, 2, pinned between vehicle and wall  Daily StarHorror at Cheshire nursery as ",
+          "publisher": "bbc.co.uk",
+          "pub_date": "2026-09-28T13:21:47+00:00"
+        },
+        {
+          "title": "Edinburgh University lecturers begin five-week strike over cuts",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mQ3JiX1hIV0t1OTZXYnBlLVRGUGJCQ0JBRWRkTXF5T1RUSDJZR3ZWMUcwYVMwOVJnZWh6WG5YeG5DanFOZFJFZlJfclVVNFBpemY2dFFMQUdzZFl3UkE?oc=5",
+          "description": "Edinburgh University lecturers begin five-week strike over cuts  bbc.co.ukThousands of university staff to begin strikes in cuts and redundancies dispute | ITV News  ITVXEdinburgh University is gettin",
+          "publisher": "bbc.co.uk",
+          "pub_date": "2026-09-28T05:21:36+00:00"
+        },
+        {
+          "title": "Schools forced to shut amid burst Thames Water pipe ‘leaking 750 litres a second’",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaFExeVdLNHEtcDBjR2U3Ti1yUXhESzBMajZ1V2xjSWpvNVR1bTFiMVdVcnV5ZmxRdmVGOU80VUpmaUpNVWxwamdzWmNNTUg2QS12M01yOHZUX0lIeWRBTFVQbGJqMlE5RV9WY1hyNm5lYmhZbzFYV19Md2lxVWF4ZTVwbE41LUJZUGhaR1Vfd2NjN3I5WGwzMnM1c0xiZXk4amV3YkVzMkhyOE13NWZtc3NNZUs3OHRqVGxiMlk1Z0IySEJFYWQ4?oc=5",
+          "description": "Schools forced to shut amid burst Thames Water pipe ‘leaking 750 litres a second’  The GuardianBurst main repairs made after seven boroughs report water outage  bbc.co.ukSurrey properties facing water",
           "publisher": "The Guardian",
-          "pub_date": "2026-09-28T06:54:00+00:00"
+          "pub_date": "2026-09-28T13:51:00+00:00"
         },
         {
           "title": "Man tragically dies on Wigan street as emergency services rush to scene",
@@ -663,23 +691,9 @@
         {
           "title": "Why the PM could finally drop the triple lock pension pledge",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9hQUhKbFplTlpHQlg2RGxyZlcyQXh5MUljY21tdmNXVTRreEMxaHY1X3VTVHJqdDFsLXA0NGwxSmpUS2dDTV9IOWhMOTh4TUs2YTRJQ091YlEyT1lsaXc?oc=5",
-          "description": "Why the PM could finally drop the triple lock pension pledge  bbc.co.ukLabour Party conference live: I won’t let benefits bill soar, Healey pledges  The TelegraphHow Labour can reform Britain’s pensio",
+          "description": "Why the PM could finally drop the triple lock pension pledge  bbc.co.ukIt’d be wrong to scrap triple lock when foreigners are exploiting our benefits  The TelegraphHow Labour can reform Britain’s pens",
           "publisher": "bbc.co.uk",
           "pub_date": "2026-09-28T07:18:19+00:00"
-        },
-        {
-          "title": "Hadrian's Wall Sycamore Gap tree stump shows 'encouraging' signs",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE11TmtDbWJTSFR4dFJGLUFqaXh3T05yZlBzSG1La3ZQb2cxRmxSYVI5ckxqd1ZDWGFqcEY4UElPOWJKMEgxaDJKdzVNLU50eU5PbUJYVFNwQVpzNFFuckE?oc=5",
-          "description": "Hadrian's Wall Sycamore Gap tree stump shows 'encouraging' signs  bbc.co.ukNew hope for Sycamore Gap tree as thicket of shoots sprout from stump  The TimesDelight as Sycamore Gap stump shows new shoot",
-          "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-28T11:45:16+00:00"
-        },
-        {
-          "title": "Edinburgh University lecturers begin five-week strike over cuts",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mQ3JiX1hIV0t1OTZXYnBlLVRGUGJCQ0JBRWRkTXF5T1RUSDJZR3ZWMUcwYVMwOVJnZWh6WG5YeG5DanFOZFJFZlJfclVVNFBpemY2dFFMQUdzZFl3UkE?oc=5",
-          "description": "Edinburgh University lecturers begin five-week strike over cuts  bbc.co.ukThousands of university staff to begin strikes in cuts and redundancies dispute | ITV News  ITVXEdinburgh University is gettin",
-          "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-28T05:21:36+00:00"
         },
         {
           "title": "UK government steps up emergency plans as households urged to stock nine key items immediately",
@@ -687,43 +701,22 @@
           "description": "UK government steps up emergency plans as households urged to stock nine key items immediately  Wales Online'You never know': The people preparing for the worst  bbc.co.ukEl Niño risks ski season wash",
           "publisher": "Wales Online",
           "pub_date": "2026-09-27T08:29:00+00:00"
-        },
-        {
-          "title": "UK to open new refugee resettlement routes for Afghan women and Palestinians",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUnBNWUJhYW9Zc0ZvOXZFSnQ2VENCNWZRLWlPRW03YUJ5MjlMSG9sWmF6b09Xak5mN2ZNSjVPQnlxREszam85RkVuOHN2dFVjSzRVc2pZRS1NWV9raktRZXV5Szg3V3pYdXhZZzJjaVRJejFUN29oeFlKRW1saVM2TTctdldMWUxBRHFhSzV5dmhnN3lLQ1VTU0F5Nk03bFNJM2RSRldBUlE2T0x6ZVF6a0RXTjN4NzRLV3Y5Q2Rod3RzR0RhNGc?oc=5",
-          "description": "UK to open new refugee resettlement routes for Afghan women and Palestinians  The GuardianShabana Mahmood to reopen scheme to resettle refugees in the UK  bbc.co.ukAfghans and Palestinians among refug",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-28T02:03:00+00:00"
-        },
-        {
-          "title": "Town’s new sculpture branded ‘some rusted metal with a head on top’",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTWVEdmRrOWc5al9sMlJqZWNGZTJXQkRMTEdVTWtTaTNSMWR6MFZnMlk1NER2Vl90dmYyTmpfTGlaSFY5WU9ZTldOeDJNcXVZMlg2aWY4OE9IZnprWVJaV1NoNGp2dmhSNFRWNER6MmNSMU9tanE3aDYtSVhSNkk3N280WmhiX09ELUdDVjNnUkpOVG05?oc=5",
-          "description": "Town’s new sculpture branded ‘some rusted metal with a head on top’  The TelegraphSee more headlines and perspectives on Google News",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-09-27T13:22:00+00:00"
         }
       ],
       "world": [
         {
           "title": "Russian drone strike on Kyiv academy condemned as ‘an attack on science’ as staff flee building – Europe live",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOODF5YjdTMGYzM1M3eEItbi1DMklPVHE0Ty1NQzcwUFM5aWhzNmg2MmtzTzRra3RVMTdQU0Nna1RUcHJEV291NVNHV2RpdEw5dGNtTGNqb19rdDJtTTAycjlmc0tpbUxnNmlNZDc3dWdxdmQyOF9YSzg2eWFlc3V6RVhTVnh1NjBTaldKTHVZcWVGX0FTTGdlNzJhZWQwWmpUT0xuZV9HYWVtZWtXRE96all3YzY0N3RPcURYWW44V3UtTEU?oc=5",
-          "description": "Russian drone strike on Kyiv academy condemned as ‘an attack on science’ as staff flee building – Europe live  The GuardianRussia attacks scientists in strikes on Kyiv  telegraph.co.ukRussian attacks ",
+          "description": "Russian drone strike on Kyiv academy condemned as ‘an attack on science’ as staff flee building – Europe live  The GuardianRussia attacks scientists in strikes on Kyiv  The TelegraphRussian attacks ki",
           "publisher": "The Guardian",
           "pub_date": "2026-09-28T07:48:00+00:00"
         },
         {
-          "title": "Spain erupts in fury over housing after eviction of 87-year-old woman",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR3FfV0liVU9oTDNEN2NmNXpfVnN4aFU5V0o4QjloTlBOeWZuRlU1eF9GYXVUbWNiSU1Fc1Nsc25NNExya1UxVU9JeDNmbHMxSHl3ZzJvZ2d3T3VxQkZBdTFLNDMybWlzWDZpMy0yUUNfMkEyM2NUMkxkdnVuTzNVYjNxSlU?oc=5",
-          "description": "Spain erupts in fury over housing after eviction of 87-year-old woman  Financial TimesProtesters demand Spanish government limit evictions after pensioner forced out  ReutersSpain housing crisis prote",
+          "title": "The Pope and the EU’s holy founding father",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWZ1TWF1cHltbjNoLWc5V3BsbnBNV1kyblEyOGM5M3FLZWFoVmx0WkVDWVhXWTltV3JqU29ENUcweVB6M1hCYW5qb1U0alRwQ3lGUE5HMUxtSzV4ak01TG5xSDFHNENSSWpvZFlibGxpdXE3ZzJfWkdzOGFMQWxMTUk1MVo?oc=5",
+          "description": "The Pope and the EU’s holy founding father  Financial TimesPope Leo urges concessions to end war in Ukraine  politico.euFrance’s religious leaders appeal for peace and sustained dialogue  Vatican News",
           "publisher": "Financial Times",
-          "pub_date": "2026-09-27T16:27:58+00:00"
-        },
-        {
-          "title": "Bangkok declared a ‘disaster zone’ after flooding, as rainstorms shift direction",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkxNdzVpeE1wS3BkU29IZm9oUFBITGVrUGRtUU1qb1lycHFiVHRCTWRzWk9rM3Z3QjB1RTVNTC15M2VRU1JBcmtkTk00ckU5MGlPdWN5SkEwUzhtNktpN0ZSc2h3WkhITUNvaVNKY2FVSlpWWDkzTUs2UE5lSGJfUEl4c2E4R0ZFMVV2LVBfbDBlVWNuMEpnY3NBUTlQc1FqY0FkdlRoTVFEdzlHM2xFSXR1ZWU?oc=5",
-          "description": "Bangkok declared a ‘disaster zone’ after flooding, as rainstorms shift direction  The GuardianThailand declares two-day civil service holiday due to floods  ReutersThai capital Bangkok declared disast",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-28T08:18:00+00:00"
+          "pub_date": "2026-09-28T10:30:07+00:00"
         },
         {
           "title": "Trump asked China's president if he wanted to buy US weapons, says ambassador",
@@ -733,6 +726,34 @@
           "pub_date": "2026-09-28T10:17:07+00:00"
         },
         {
+          "title": "Madrid protests for 87-year-old Maricarmen and housing ends in sit in",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcExxYVRvX1NRTHQ2TU5qeEMtNzQzeUpZdDRWbTFSZXNXcTV1ZmhRTGlENFFubDdwNGlUa09fV0Fac24taF9XTGJ5cHFPcWR0cnpBQWdKMHM0SGtxRmNMbWM2LVM1MDJxQjluV1RKdmtMNEpQQmljNVVZNlFnWllFWGxySTlaVGdHZVEtUExpbHB1dWxoNTJnWG9xU1Z6Q1A2N2d6Um9ObU9UQmc?oc=5",
+          "description": "Madrid protests for 87-year-old Maricarmen and housing ends in sit in  Euronews.comSpain erupts in fury over housing after eviction of 87-year-old woman  Financial TimesProtesters demand Spanish gover",
+          "publisher": "Euronews.com",
+          "pub_date": "2026-09-27T11:21:34+00:00"
+        },
+        {
+          "title": "Mexico's Pacific coast braces for Hurricane Polo",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zUlFqOTNsWm9QWHdKc1FXdG5URGRHOHRjWlpDeUhhTU85NktyMmxhaktHdVM4RkZNemZxb0dDYmdYLThpZU9JWlFaSnhJNU9IdXEtNW0wT2x5Vl9vZkE?oc=5",
+          "description": "Mexico's Pacific coast braces for Hurricane Polo  bbc.co.ukHurricane Polo barrels towards Baja California region of Mexico  The GuardianMexico's Pacific coast braces for Hurricane Polo's life-threaten",
+          "publisher": "bbc.co.uk",
+          "pub_date": "2026-09-28T11:05:49+00:00"
+        },
+        {
+          "title": "Thomas Massie hits out at Trump over taxpayer-funded TV ads: ‘This is completely legal... in banana republics’",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc05iakdPU3pleURYNjFMcFRlX3puOUtYSC14aEs0cXlCN0J4OFlydi1iMW9qaUR5ZHNqd2Y5U2hkYTFPbEwtQm5hX0J0R0JKZVdFUDlwbWRmcWR1eHctMzZkM2N6ZHF6QVgyaGdrM2p0b3lVTzhMbjJPUjZpZnJRUlhuWWllYWwtQ0FQYVhkY1hGX1NxZHM4Nm52eUFIVkcyb3VLbHFFc2RXbnJ0?oc=5",
+          "description": "Thomas Massie hits out at Trump over taxpayer-funded TV ads: ‘This is completely legal... in banana republics’  The IndependentTrump stirs new storm by posing as strongman in taxpayer-funded video  CN",
+          "publisher": "The Independent",
+          "pub_date": "2026-09-28T14:32:00+00:00"
+        },
+        {
+          "title": "Bill Gates warns AI global framework talks harder than Cold War-era nuclear negotiations",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX3pJUUpCVlJxOTk3VFczVmhMaGwweVN3Qk0zeGtGQnd1c213OGRDcldjYU1SU2UxNXBlakUwUHZzR2dqSTB6RGd3WUN2UlkzTmF6WEtDdktFY04zVjVTeEtvRlhTWWFOb201cDZpZG1sQVk5OHQ0b2ZqVWdqZlRzWDFtSllQRUV3TmQ2ck9URGgxdENBaDVQcmItQUYwQ3FnbG1HLVB3bXdHM1FvZmY5UEJBZ0NTVlNIUkRZd0o4MFl1UQ?oc=5",
+          "description": "Bill Gates warns AI global framework talks harder than Cold War-era nuclear negotiations  Sky NewsBill Gates says unchecked AI could ‘cause a billion deaths’ in call for regulation  The GuardianBill G",
+          "publisher": "Sky News",
+          "pub_date": "2026-09-28T02:55:52+00:00"
+        },
+        {
           "title": "Baby dies in car after parents ‘forgot to drop her at nursery & drove to work’",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS2Vfckx5Q09pczJ2U2g2RmpEVDBjUmswVm9oYUdXLWlqbkhIUnU5WWxRVU1FOHgxRHpuYTdkeGt5NW1BU1d2ajduQWxyS3NOc2ZfU3pLOUUxZm9wem1MdWlDckExYVlNRzVqQ3hkRFdVSnZCN1k5bXpWdmVSeXVnVWlMU3BjVk9tdVExaA?oc=5",
           "description": "Baby dies in car after parents ‘forgot to drop her at nursery & drove to work’  The SunSee more headlines and perspectives on Google News",
@@ -740,46 +761,32 @@
           "pub_date": "2026-09-28T08:55:00+00:00"
         },
         {
-          "title": "The Pope and the EU’s holy founding father",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeWZ1TWF1cHltbjNoLWc5V3BsbnBNV1kyblEyOGM5M3FLZWFoVmx0WkVDWVhXWTltV3JqU29ENUcweVB6M1hCYW5qb1U0alRwQ3lGUE5HMUxtSzV4ak01TG5xSDFHNENSSWpvZFlibGxpdXE3ZzJfWkdzOGFMQWxMTUk1MVo?oc=5",
-          "description": "The Pope and the EU’s holy founding father  Financial TimesMacron invokes Europe’s Judeo-Christian foundation as Leo visits  ReutersFrance’s religious leaders appeal for peace and sustained dialogue  ",
-          "publisher": "Financial Times",
-          "pub_date": "2026-09-28T04:00:19+00:00"
-        },
-        {
-          "title": "Bill Gates warns AI kill switch is ‘not enough’ and says China isn’t greatest fear",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRXUtbmR1U0FVNmxtS3NXd3RETmhQNTJvX2FROUdtUlUzYjUzWXVXbW1la1FQQkVaY2lRZjU1cUc0Y3paTmhlWjlPUG9yMVR3VE8taW1lNHU0MVJiSVNySDBqdk1NMXBRcjdvYTBfN0hGQkRVUG5jS2JYUnNLSi1tWFdjNnNIc0ZQYWwxOGlEaVd1U3g0d1E?oc=5",
-          "description": "Bill Gates warns AI kill switch is ‘not enough’ and says China isn’t greatest fear  independent.co.ukBill Gates says unchecked AI could ‘cause a billion deaths’ in call for regulation  The GuardianBil",
-          "publisher": "independent.co.uk",
-          "pub_date": "2026-09-27T21:06:00+00:00"
-        },
-        {
-          "title": "Mexico's Pacific coast braces for Hurricane Polo",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zUlFqOTNsWm9QWHdKc1FXdG5URGRHOHRjWlpDeUhhTU85NktyMmxhaktHdVM4RkZNemZxb0dDYmdYLThpZU9JWlFaSnhJNU9IdXEtNW0wT2x5Vl9vZkE?oc=5",
-          "description": "Mexico's Pacific coast braces for Hurricane Polo  bbc.co.ukHurricane Polo barrels towards Baja California region of Mexico  The GuardianHurricane Polo Updates: Category 5 Storm Churns Off Mexico  The ",
-          "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-28T11:05:49+00:00"
-        },
-        {
-          "title": "UN ambassador Waltz says Iran was not negotiating ‘in good faith’ to end war",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSUVsMFM4WGF1c1NReGpTcWN6OXZQWFR3ZHJoR0p6MmtPYWR4N0RmSWFJcGdFMUdaemVpODhabzV0ZE5iTFlDNDVvUDAtc2IyMVVSNklTMWVXT1RqdlVTY3BMZDRuRGhjYlZybzRTQ19sT3Nld1JYQkE4Z2dTR3dDYXB3?oc=5",
-          "description": "UN ambassador Waltz says Iran was not negotiating ‘in good faith’ to end war  The GuardianIranian minister says only negotiation can end conflict after Trump rejects Hormuz deal  bbc.co.ukIran war liv",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-27T16:28:00+00:00"
+          "title": "Iran-US war latest: Tehran warns it is ready for ‘doomsday’ war as Trump rejects roadmap to end conflict",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSFo1WVBaMExSMl9qYTM0X3pGdUtGcXk3STk0NVZYcjlXVTZMR0NDWUwwbXhrSWVkU3BObFkxUGNVQlRpa18yOEFqMmFDSUtZazhmVUtxRXBTNHBJU0YxbFpBNXJHWUNIOGJyUDJtejBJUzFnTjZ2QldkbTkwSjc0Mm50UFhpZi1CLUxITkdhUHVRbjI4am1GQjF1YXZuMTBiQnNLUHlpeTVlSEx4NG5jZTNFZC04OTE1Nlpxdw?oc=5",
+          "description": "Iran-US war latest: Tehran warns it is ready for ‘doomsday’ war as Trump rejects roadmap to end conflict  The IndependentIranian minister says only negotiation can end conflict after Trump rejects Hor",
+          "publisher": "The Independent",
+          "pub_date": "2026-09-28T14:48:06+00:00"
         },
         {
           "title": "Ukraine Sends Grenade-Launcher Robots Into Russian Positions Instead of Infantry",
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZERDSUpKTnA1NHpEWEJ6djVaTmRReTNfLVpzcTBDT29kWU1nNjZWVDJHSHdvOVBxRnB6WmNfVkhoOVExd3Z5eTZGWkFKZEd5REVPLXl1bWNtOXFlekhCWUNKcWdMU3dSZzNrU2RiRlAzTjBNTnY2NjFZMVZIRnpFLUVUT3A1RXM4Z3lNUU91WnJwZ2U2QUJ2c3ZrbW5BQWxCcmNxU2NJdHE2S3ZoWFJac2JKTmc2emlWcVo2M2xIRTE3amdWakE?oc=5",
-          "description": "Ukraine Sends Grenade-Launcher Robots Into Russian Positions Instead of Infantry  united24media.comRevealed: Secret robot offensive that ‘killed 3,000 Russians’  telegraph.co.ukUkraine’s Operation Viv",
-          "publisher": "united24media.com",
+          "description": "Ukraine Sends Grenade-Launcher Robots Into Russian Positions Instead of Infantry  UNITED24 MediaRevealed: Secret robot offensive that ‘killed 3,000 Russians’  The TelegraphUkraine’s Operation Vivaldi ",
+          "publisher": "UNITED24 Media",
           "pub_date": "2026-09-27T14:00:44+00:00"
         },
         {
-          "title": "Lavrov Calls Russian Attack on Europe ‘Nonsense,’ Warns War Would Be ‘Short’ as Putin Targets Baltics",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ValpkWWNwazlhLU96TFNRRmxpRzF2N3dhWWxQNEFsMm1oaWxac1BDcTRYcEVmLVVkSy0tVjI1VlFpZ2hjdkdoQXNUVQ?oc=5",
-          "description": "Lavrov Calls Russian Attack on Europe ‘Nonsense,’ Warns War Would Be ‘Short’ as Putin Targets Baltics  Kyiv PostPutin claims Russian speakers' rights are violated in Baltic states but says Russia is n",
-          "publisher": "Kyiv Post",
-          "pub_date": "2026-09-27T08:59:14+00:00"
+          "title": "Watch: Israel releases footage of strike killing terrorist who abducted Noa Argamani",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOVFlnR3ZFUVBubW01Q0ZDUWs5TWlHOWpZX1kyTDVNQ2FzMExGMVE2a1N1RUtwdW8tbFBCWWRoa2tPeUJURzNQUTUyZUVpZ2puNVNmT1Z3?oc=5",
+          "description": "Watch: Israel releases footage of strike killing terrorist who abducted Noa Argamani  YnetnewsOct 7 motorcycle kidnapper blown up by IDF  The TelegraphWATCH: Israeli forces kill global jihadist terror",
+          "publisher": "Ynetnews",
+          "pub_date": "2026-09-27T17:50:28+00:00"
+        },
+        {
+          "title": "Seoul accuses Ukraine of violating secrecy pact on North Korean soldiers",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPc013dmk3b2k2dVVoN3p3TV92QkFLZTl2Wkx6clRURkxUT01fMks3ZVpKNC1VajJPTFRBcHZURm9YOHRhWHVlOEJxQTc1QjktcVlzRVBzUEhrMWxiY09ibEZZWld6ak1sTmF6am04QUp1MVBfZGxOREtGVEtKclk4U25ESXc?oc=5",
+          "description": "Seoul accuses Ukraine of violating secrecy pact on North Korean soldiers  Financial TimesSeoul demands an apology after Zelenskyy reveals North Korean POWs were sent to South Korea  AP NewsSeoul deman",
+          "publisher": "Financial Times",
+          "pub_date": "2026-09-28T08:18:27+00:00"
         },
         {
           "title": "Elderly man, 84, rams car into wife & kills her during botched parking attempt",
@@ -789,97 +796,55 @@
           "pub_date": "2026-09-27T23:39:00+00:00"
         },
         {
-          "title": "‘Xi got face’: China relishes equal treatment from Trump",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNb1ZMY1VpS1A0YnNDUjFuLXQ0d3duMXBpOE5YUjU5MklqRHRicU41aTVtX2tyaUktZ0FfTUROQ0tOckpIakVwNFk3STdPNHFqNUM4SFpFMGhpUlNQTElrZEpULV90cmsydGZjckZBQTYzT0ZLclpaRG5ReExQODdHM0x4cUQ?oc=5",
-          "description": "‘Xi got face’: China relishes equal treatment from Trump  Financial TimesTrump-Xi summit: What wasn't said might matter the most  bbc.co.ukAmerica’s and China’s leaders indulge in pageantry as crises ",
-          "publisher": "Financial Times",
-          "pub_date": "2026-09-28T05:55:21+00:00"
+          "title": "Bangkok declared a ‘disaster zone’ after flooding, as rainstorms shift direction",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkxNdzVpeE1wS3BkU29IZm9oUFBITGVrUGRtUU1qb1lycHFiVHRCTWRzWk9rM3Z3QjB1RTVNTC15M2VRU1JBcmtkTk00ckU5MGlPdWN5SkEwUzhtNktpN0ZSc2h3WkhITUNvaVNKY2FVSlpWWDkzTUs2UE5lSGJfUEl4c2E4R0ZFMVV2LVBfbDBlVWNuMEpnY3NBUTlQc1FqY0FkdlRoTVFEdzlHM2xFSXR1ZWU?oc=5",
+          "description": "Bangkok declared a ‘disaster zone’ after flooding, as rainstorms shift direction  The GuardianThai capital Bangkok declared disaster zone amid widespread flooding  CNNThailand declares two-day civil s",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-28T08:18:00+00:00"
         },
         {
-          "title": "Ex-Cornell student sues fraternity members and college over alleged gang rape",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdnBnc2xxNVVKLUFhSzFTQWtrUHptOEdPZTJqaWtUQ3VHRkNCUDNDemZlQVNBNUt3UTJiZXNzZWtpWTFoakxnQXZPcUNKNjlhUDJ1ZWEtVHdpRFZsRi02dXFFMC1zWUY0Y0tzc2dmQVVTWFljYm1JR3Vjc0dEYWhOWHdxdDJYd01mLW5YVUJQaHprWTRTeHRCV2lIeVVsemRGTW1UUEpjX0k?oc=5",
-          "description": "Ex-Cornell student sues fraternity members and college over alleged gang rape  independent.co.ukDistrict attorney reopens case of alleged Cornell University 'gang rape'  ABC News - Breaking News, Late",
-          "publisher": "independent.co.uk",
-          "pub_date": "2026-09-28T01:43:00+00:00"
-        },
-        {
-          "title": "Serbia’s snap election: Can Vucic outmanoeuvre the student revolt?",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQU9Ub1A3VzBDY0g1RlRFcGZUcTd0OVQzLVUtalpvT2lZdjZDdlgwNVJGVy1tSERwQXAxTlVCUnpiZ05TeHllb1I5cngyVkFXMkkwWG9pQ1g3QkNxeEpUSkY2dERDM3J6d2xET0ZucG5Bdl9JZnNKeE9VQm1faUVmZGg2TE83WW5MbzNJSTV2QlN3ZXJ4U2Z1X0c2UXRoaGJOcU9OWVJoWnhNMUU50gGyAUFVX3lxTE5rYWlTOXVGdjlZYnYxeU41UUFOT01xOG9RNGRLZVd4STVuQTVTd0ZHaVFkSnJPSi1pQWF4R1FyU1FPSlFZTWZoanpOaWlOMjl3R0J0dGdLTE1BVkRBbHlSbFQ1MUdUSk56MExUTE82WEw3dTdRNlFfQUl2ekJvMVhpNHRPRHlqRHp3bno4MEJSc2ltd0FhelpCVndMb1BkczVxWlJsaWdoNkpOeXY4VlBoekE?oc=5",
-          "description": "Serbia’s snap election: Can Vucic outmanoeuvre the student revolt?  Al JazeeraEmbattled Serbian president resigns, paving way for early elections  bbc.co.ukSerbia’s populist president Aleksandar Vučić",
-          "publisher": "Al Jazeera",
-          "pub_date": "2026-09-28T06:32:58+00:00"
+          "title": "Horror as 1,600 baby teeth found in mass grave at ranch after 'smoke spotted from secret incinerator'",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMDlyQTU3MjJSaUFJMm5PRDlaQVBMWUgwZ05KaDkyTjBvZmRLUFYtbGlYWFllaGVTeDI0WjhpNVJxRGd1ZEY5R0llYVVfYnRoVWdNaTkxYkJLT2pmelc4dUF6VS1PLUZVX2NMcmdkSjRzbXFjME9Sdk9lZkhiMDRKSTF0RjlFUVBwWmcyaDdkMA?oc=5",
+          "description": "Horror as 1,600 baby teeth found in mass grave at ranch after 'smoke spotted from secret incinerator'  The SunSee more headlines and perspectives on Google News",
+          "publisher": "The Sun",
+          "pub_date": "2026-09-27T08:59:00+00:00"
         }
       ],
       "business": [
         {
           "title": "Price of diesel on UK forecourts reaches all-time high",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRElqakRLZ2stWFVPQTNNeElLNGd5VDkxVHRVQld5TW85TVZiR01QYnpyQkFESnN2Y0xkeVFWbWN3SnpFQ09tZFRwSWx5N1lWMGVhTWgwZDBoYk9TeUFvS3A0NzdpTTdYWjZ3dVhjRHpINWdFTGIwelhhaFFnYWg2ekFrU2h3TE9KQy1Cdnd6cXVaNFpITTdzOE83alNWbUk4eVE?oc=5",
-          "description": "Price of diesel on UK forecourts reaches all-time high  The GuardianUK diesel price hits all-time high, RAC says  bbc.comDiesel car values crash as pump prices reach record high  The TelegraphWhy reco",
+          "description": "Price of diesel on UK forecourts reaches all-time high  The GuardianUK diesel price hits all-time high, the RAC says  bbc.co.ukUK diesel prices hit record high at 199.18p a litre; housebuilder stocks ",
           "publisher": "The Guardian",
           "pub_date": "2026-09-28T12:38:00+00:00"
         },
         {
+          "title": "Staffordshire's JCB to operate under joint chairmanship",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NcUlJN0ltNHY2NnBmSHcxaWw2bFliRTE4M0NzR2ZrZnRCeVFDekdDLWFsbzd0UkdNd1I3TnpFNmFZVW5kaXpOaHRobHpyNFY0RXJSSUltbHlFNm4wSmc?oc=5",
+          "description": "Staffordshire's JCB to operate under joint chairmanship  bbc.co.ukJCB’s Anthony Bamford names youngest child George as co-chair  Financial TimesJCB builds for future as George Bamford becomes joint ch",
+          "publisher": "bbc.co.uk",
+          "pub_date": "2026-09-28T10:37:36+00:00"
+        },
+        {
           "title": "Shares in UK housebuilders surge on new Help to Buy scheme",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTmJ1ZVExQk1BdGk1N2ZEdU16eTlEUUxIcWFTYU9HNXRVTDFVN3BLbGRTTVFUU0VlMXpuOWZjUHloWS1NaEd6b2pkWkdTZC1JZ1o2NEg0dHJsQUhzUXhMaG9kV3JCWlVVb3BZSFF2RXQ0MGpjT2JxdzRXWkVyNUM5T2NDNWc?oc=5",
-          "description": "Shares in UK housebuilders surge on new Help to Buy scheme  Financial TimesBurnham announces scheme to help first-time buyers onto housing ladder  bbc.co.ukMarket snapshot: Burnham's massive boost for",
+          "description": "Shares in UK housebuilders surge on new Help to Buy scheme  Financial TimesBurnham announces scheme to help first-time buyers onto housing ladder  bbc.co.ukWhat you need to know about ‘Your First Home",
           "publisher": "Financial Times",
           "pub_date": "2026-09-28T07:11:35+00:00"
         },
         {
-          "title": "Avanti West Coast services to be nationalised from March",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNQUNVSDFIUHlpaHJtdExETnZtcl93ZjVobzQyZlZ3NkZRLWZSMGtpY3hNU3FidjdnUndCY0U2UXl3ekJSTGk1NzJHLU9VS1BFQzRtTlJKNzh0OGx1Ymc?oc=5",
-          "description": "Avanti West Coast services to be nationalised from March  bbc.co.ukIt’s about time they nationalised Avanti – Britain’s rail service is broken  independent.co.ukUK government to take control of London",
-          "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-28T03:05:50+00:00"
+          "title": "Euston to get £50m upgrade as Avanti West Coast to be nationalised within months",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbVlBYVVnZWZlWHA0RmFKNGY0aUpkRlR6RmpIZWVpTmJURnFXMkk3cFVoWmV4eUMzTFFHLXhqbTQyVVBEV0pyelRzSDNTc2pDUEpGZjZSQ3NjTWcyanlkLXlxOXY5NVV0U3JabW81LU5vZkJqVGFLalhCakpQTVItRWJfMHl6ZWRxOHl0c052WlNCcnJ6aHNXUWdmcVZTUUZTZmF3Sm5MdEhaUFNJaXJ3VTluR1AyVnMtTWc?oc=5",
+          "description": "Euston to get £50m upgrade as Avanti West Coast to be nationalised within months  London Evening StandardAvanti West Coast services to be nationalised from March  bbc.co.ukAvanti West Coast to be rena",
+          "publisher": "London Evening Standard",
+          "pub_date": "2026-09-28T08:38:54+00:00"
         },
         {
-          "title": "JCB succession settled as Lord Bamford’s younger son triumphs",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU1MtR2RrbHF2WU1YemtzNGF5ZVhXalN2Z1BxaDEzSU81Wm9VN044OWRrQ0JGeTlZX3BSSFRlT2RWdEhxRjdCSUt6ZzVWTERtRUdqa3dLamxNTFRLa1REVXFYNUhMaVlyVDVHWGNUd244NExaTzJaMHFlVTFDWjd3Q3FvZExoWnh5eXpfWVJlM1RmYVI1V0paWElEZmhTc29YYi15OGE4RXRPUQ?oc=5",
-          "description": "JCB succession settled as Lord Bamford’s younger son triumphs  The TelegraphJCB’s Anthony Bamford names youngest child George as co-chair  Financial TimesStaffordshire's JCB to operate under joint cha",
+          "title": "AI’s hidden $3tn bill could wreck the world economy",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQzNMMUxMMHhZaXFTSVFXZmZSelNwZEVYUVZ0WW41WTZHb3JEdVZhc0RrYmpNNjlmak1KaUtqZWQwMFRyaGZYclJEU0lSTmNnWGhSRHhTajRyb1NtTmVTS3VXcVY5TTNFMHZSRG91TzJOMmxva3V0UE9WVmN4aUJUdkh3MFMycmtqSUUwakRfdEtpWEkySEVfQzVtTmJoX00?oc=5",
+          "description": "AI’s hidden $3tn bill could wreck the world economy  The TelegraphAI hyperscalers are transforming debt  Financial TimesThe AI gold rush is fueling a record tech bond boom: Chart of the Day  Yahoo Fin",
           "publisher": "The Telegraph",
-          "pub_date": "2026-09-28T05:40:00+00:00"
-        },
-        {
-          "title": "UK at risk of diesel shortages as Trump threatens export ban",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY0w4WTdOdEYzNGpIQldGR2d4VlQ3Z3B1UTlGMU9aYlVEcEkyblBqTWZoOVhLSVU0UkhWTnZMbEJlVXRucy1BVW8yazJWcS16Q25IMXZIN2Myc2Nla3NuRDRnZ09WS2oyVnpXVHBPNnl5bC1tRW1VcE5VeC1mbnpkblFvdXhFY25YRE5XOTR4dmI4MzU5?oc=5",
-          "description": "UK at risk of diesel shortages as Trump threatens export ban  The TimesTrump ‘very seriously’ considering diesel export ban as global supply crunch worsens  CNBC‘Dammit, something has to happen’: Whit",
-          "publisher": "The Times",
-          "pub_date": "2026-09-28T11:15:34+00:00"
-        },
-        {
-          "title": "More than half of ‘Mumlords and Dadlords’ return child’s rent",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOTNYSDJZMzA5YThCYUJOVi1ma2pXd0tEV0ZfQURXX0ZTak5VVXZxc1NBX2lCN0dUb0MwTE95UDRSdzJzbG9tZzFiOE1CejFrM3Ntbk9YUGllYmQyR0FzcXBoNVlkR1JUbERiUWo5clQzN1IxbUVtbDJYSjVNQllrTVo5cXBHb1FiZkV3U18yTExvMHZvUldJR2R6NGk2eTVvM3VQV05IN0EwQQ?oc=5",
-          "description": "More than half of ‘Mumlords and Dadlords’ return child’s rent  thenegotiator.co.ukParents charge adult children £300 a month to live at home  Financial Times54% of parents ‘return rent paid by adult c",
-          "publisher": "thenegotiator.co.uk",
-          "pub_date": "2026-09-28T05:00:02+00:00"
-        },
-        {
-          "title": "AI hyperscalers are transforming debt",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSFB2ZC0tQzM5QllZMExaN0FBZUZWeU1fZE95OTVpSnBmOG12a09rVHFlcTRxWEpGRmlWbFJiUl9waktTNURPbEZVcnlLVnpPN0M0Q2kyRTBVZjRSWVM2YnNoMl81Y041bzdKNVZVUHpOUGY4RVVlR0lZMzFBN1djWkJGSUc?oc=5",
-          "description": "AI hyperscalers are transforming debt  Financial TimesAI’s hidden $3tn bill could wreck the world economy  The TelegraphThe AI gold rush is fueling a record tech bond boom: Chart of the Day  finance.y",
-          "publisher": "Financial Times",
-          "pub_date": "2026-09-28T04:00:10+00:00"
-        },
-        {
-          "title": "UK borrowing costs close to highest level since 2007",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNXzRGbUVQVG51cC1OYUFTM0lfSzJoVE5rcWlfbmtnTkppdXZScDNmVDVFSjBpY0hvdDh6alFjRG1uWmVCWkpaUE1DVl8weVRTYUJOTjBhd0xXQ3VvXzIxZG1WNTRzOXVlZ2l3b0dtdWtpUkJjVXJrYlQxNTAtdXFoMXNnQUpfX1kxelowemh0cWhsV2ZRaE4tNg?oc=5",
-          "description": "UK borrowing costs close to highest level since 2007  The TelegraphJohn Healey faces two big problems as he drafts his first budget  The TimesUnexpected UK borrowing surge adds to pre-Budget pressure ",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-09-28T12:12:27+00:00"
-        },
-        {
-          "title": "Schools forced to shut amid burst Thames Water pipe ‘leaking 750 litres a second’",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaFExeVdLNHEtcDBjR2U3Ti1yUXhESzBMajZ1V2xjSWpvNVR1bTFiMVdVcnV5ZmxRdmVGOU80VUpmaUpNVWxwamdzWmNNTUg2QS12M01yOHZUX0lIeWRBTFVQbGJqMlE5RV9WY1hyNm5lYmhZbzFYV19Md2lxVWF4ZTVwbE41LUJZUGhaR1Vfd2NjN3I5WGwzMnM1c0xiZXk4amV3YkVzMkhyOE13NWZtc3NNZUs3OHRqVGxiMlk1Z0IySEJFYWQ4?oc=5",
-          "description": "Schools forced to shut amid burst Thames Water pipe ‘leaking 750 litres a second’  The GuardianSeven boroughs with water supply issues, Thames Water says  bbc.co.ukBurst main repairs made after seven ",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-28T12:56:00+00:00"
-        },
-        {
-          "title": "Britain to keep tariffs on Chinese EVs ‘under review,’ UK business chief says",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOFRYVzZ4QjRURjMxNFdDVnFqcmVaNEl5aWQySV9fTlJXUk56bno3VEdfRVBBTU9yZUw1QWZLd091N01pRXRHN295WTdOLXg0ZUd4bndCTFY3MWE1N3JxY1RTYzVSRkxPb0ZVQVBzRjlnM2I0d1piVFZYVlQ5bjY4YmV2RQ?oc=5",
-          "description": "Britain to keep tariffs on Chinese EVs ‘under review,’ UK business chief says  politico.euWhy the EU fears Britain becoming a back door for Chinese cars  Financial Times‘Made in Europe’ proposals thre",
-          "publisher": "politico.eu",
-          "pub_date": "2026-09-27T20:29:00+00:00"
+          "pub_date": "2026-09-28T12:36:00+00:00"
         },
         {
           "title": "You need £17,000 for a first home - here's how to save it",
@@ -889,11 +854,32 @@
           "pub_date": "2026-09-28T08:21:54+00:00"
         },
         {
-          "title": "Aldi unveils £900m expansion plan in fresh challenge to rivals",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVV9ZS200Q2ZPYU1Oak82dHMxczJIQVNQTC1wNldZbmh2WUEteHlzbVFIVThMeDlMLVRJNUh6UDRFZjRpVXR1UEMwSXNDam5mWGF4enFfTlNUeHdTRFhOejhtcjUzT25xcjdaM0UzbmNNWXk0aXNNMU5nTjdROVpSdjZ2dVgxQ283ZmhCNFZrZmtSWW5JRFlsVS1pSlRZRGJheExORXk1a3YyajQ?oc=5",
-          "description": "Aldi unveils £900m expansion plan in fresh challenge to rivals  The TelegraphSupermarket giant to open 40 new stores in £900m investment despite earnings dip  independent.co.ukAldi to invest £900m in ",
+          "title": "UK borrowing costs close to highest level since 2007",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNXzRGbUVQVG51cC1OYUFTM0lfSzJoVE5rcWlfbmtnTkppdXZScDNmVDVFSjBpY0hvdDh6alFjRG1uWmVCWkpaUE1DVl8weVRTYUJOTjBhd0xXQ3VvXzIxZG1WNTRzOXVlZ2l3b0dtdWtpUkJjVXJrYlQxNTAtdXFoMXNnQUpfX1kxelowemh0cWhsV2ZRaE4tNg?oc=5",
+          "description": "UK borrowing costs close to highest level since 2007  The TelegraphJohn Healey faces two big problems as he drafts his first budget  The TimesUnexpected UK borrowing surge adds to pre-Budget pressure ",
           "publisher": "The Telegraph",
-          "pub_date": "2026-09-28T11:12:00+00:00"
+          "pub_date": "2026-09-28T12:12:27+00:00"
+        },
+        {
+          "title": "More than half of ‘Mumlords and Dadlords’ return child’s rent",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOTNYSDJZMzA5YThCYUJOVi1ma2pXd0tEV0ZfQURXX0ZTak5VVXZxc1NBX2lCN0dUb0MwTE95UDRSdzJzbG9tZzFiOE1CejFrM3Ntbk9YUGllYmQyR0FzcXBoNVlkR1JUbERiUWo5clQzN1IxbUVtbDJYSjVNQllrTVo5cXBHb1FiZkV3U18yTExvMHZvUldJR2R6NGk2eTVvM3VQV05IN0EwQQ?oc=5",
+          "description": "More than half of ‘Mumlords and Dadlords’ return child’s rent  thenegotiator.co.ukParents charge adult children £300 a month to live at home  Financial Times54% of parents ‘return rent paid by adult c",
+          "publisher": "thenegotiator.co.uk",
+          "pub_date": "2026-09-28T05:00:02+00:00"
+        },
+        {
+          "title": "SpaceX's Starship rocket orbiting Earth for first time after Texas lift-off - watch live",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Hb2p4a181b2JxWGw0MGxmYnBVSDZvWnJBaHFIMU5SN3g4ZlZGZjRPTy1acER2aExRNWRqQW9JUGVmNXpRVmowdGk3WWptUmlvU0x4QmhYY0U?oc=5",
+          "description": "SpaceX's Starship rocket orbiting Earth for first time after Texas lift-off - watch live  bbc.co.uk‘Starship is in orbit’: cheers go up as huge SpaceX rocket circles Earth for first time  The Guardian",
+          "publisher": "bbc.co.uk",
+          "pub_date": "2026-09-28T14:26:21+00:00"
+        },
+        {
+          "title": "Britain fires up gas power stations as wind power fails to deliver",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWlJtMHR0VVFxTkw5bzRaUm9PZllVYTcyMXdIaXhOMkpFOHpMN0VsSy0wSWhqTkx4OW1tcDVNcVp2YVNGbWVfZEhxVGJaYmRjenY2a1d6OTRlRUFVcnFDWUUzVHlmZl9UNGpGbkRtcUtfYkc4bEwwLUdFVllBTlFMLXFMLWo5bUsxREsyMzRxZ1huaTdSbl9jQ1d5aUw1aTlpb1VUeklOZl8?oc=5",
+          "description": "Britain fires up gas power stations as wind power fails to deliver  The TelegraphSee more headlines and perspectives on Google News",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-09-28T11:55:00+00:00"
         },
         {
           "title": "The Bank of England’s balance sheet has already stopped shrinking",
@@ -903,18 +889,32 @@
           "pub_date": "2026-09-28T05:00:09+00:00"
         },
         {
-          "title": "Andy Burnham’s 1.89p per mile rule change for people with driveways in days",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWHNlRHRpbFZSWUtOd1FDNlppZ3U4ajNBRkRMbFBoSnk3TDQ1d1FIbmRob3RMMjlvR3ZKeElrcy1VYXBZUndVblRlMW9WZGEyczhZNUlDYlBnQmpxanhZaWlqY2ZUV2RFQkxvcTdRVC1sNEhfTUV6SnJJVGRzeG1XNTQtazJ0aHpYbTFRYWRlLTVwM2t1TFYwNVdMSlY?oc=5",
-          "description": "Andy Burnham’s 1.89p per mile rule change for people with driveways in days  express.co.ukBurnham’s plan for a radical reset collides with economic reality | Heather Stewart  The GuardianThe tax chang",
-          "publisher": "express.co.uk",
-          "pub_date": "2026-09-28T08:39:00+00:00"
+          "title": "Water leak cuts supply to homes across five London boroughs - LIVE",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNR3dad2VhXzFnbzdlNkp3b3RRMW5xN0ttZVNJb05rMWlyZGtJVnJMQzQ3dWxJcWJ6SjRDZElGdnVYekptNFNCd2Y3aUF5MkZzSWphZm9KWkdOZUgxNVFpSDNYeEUyRDBCRGFmUUNYam1oeGV5dlFDc0lyYmsxaWdWX2w1QUlRSlZkYm1JQmtBZC1feEJsQXB6TWY5NzdHY3lKLV9wNmFGSzZiV2MxX2M3cEw2S3NjWHE1Qmc?oc=5",
+          "description": "Water leak cuts supply to homes across five London boroughs - LIVE  London Evening StandardSchools forced to shut amid burst Thames Water pipe ‘leaking 750 litres a second’  The GuardianBurst main rep",
+          "publisher": "London Evening Standard",
+          "pub_date": "2026-09-28T11:37:30+00:00"
         },
         {
-          "title": "SpaceX to launch Starship into orbit around Earth for first time - watch live",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Hb2p4a181b2JxWGw0MGxmYnBVSDZvWnJBaHFIMU5SN3g4ZlZGZjRPTy1acER2aExRNWRqQW9JUGVmNXpRVmowdGk3WWptUmlvU0x4QmhYY0U?oc=5",
-          "description": "SpaceX to launch Starship into orbit around Earth for first time - watch live  bbc.co.ukSpaceX’s Starship rocket reaches orbit for the first time  Financial TimesLive updates: SpaceX launches unpreced",
+          "title": "Offshore wind plant to bring jobs boost to Montrose",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WS3J4dk5Gdm92OEF3cmFDUllBVVp3Y2RsSWZHaUR2bWpLaWlGWkRKZW94T1d1VkkxNTA1ZEhPTWZDOERvVzVNQjJya2JVYTRQbkc4UHd1T3NmM2FPVWc?oc=5",
+          "description": "Offshore wind plant to bring jobs boost to Montrose  bbc.co.uk100 new jobs to be created as Montrose Port selected for wind farm base  The CourierSSE Says Montrose Port Selected As Operations Base For",
           "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-28T04:56:00+00:00"
+          "pub_date": "2026-09-28T11:01:46+00:00"
+        },
+        {
+          "title": "Britain to keep tariffs on Chinese EVs ‘under review,’ UK business chief says",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOFRYVzZ4QjRURjMxNFdDVnFqcmVaNEl5aWQySV9fTlJXUk56bno3VEdfRVBBTU9yZUw1QWZLd091N01pRXRHN295WTdOLXg0ZUd4bndCTFY3MWE1N3JxY1RTYzVSRkxPb0ZVQVBzRjlnM2I0d1piVFZYVlQ5bjY4YmV2RQ?oc=5",
+          "description": "Britain to keep tariffs on Chinese EVs ‘under review,’ UK business chief says  politico.euWhy the EU fears Britain becoming a back door for Chinese cars  Financial Times‘Made in Europe’ proposals thre",
+          "publisher": "politico.eu",
+          "pub_date": "2026-09-27T20:29:00+00:00"
+        },
+        {
+          "title": "TotalEnergies boosts buybacks and dividends as oil prices surge",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMFJSOE1oQ19IVEJ1c2FmMXY2VEF6STJ1RjBpZkhpSXQ3YkUwVkNBNzNGaUxMZ2FHcjJ4OUFqSzN5c3d3Y1dBWXFNbHZ3N1RtNG5zRFE0di1GZWV6bTVsRmZ2TG5mNFRRengtR18xOVh2YlJ1LThVWWlHVEc2Z1h4ZlUxT2I?oc=5",
+          "description": "TotalEnergies boosts buybacks and dividends as oil prices surge  Financial TimesStrategy and Outlook Presentation 2026  TotalEnergies.comTotalEnergies Sets Out Growth Plan Until 2035  WSJTotalEnergies",
+          "publisher": "Financial Times",
+          "pub_date": "2026-09-28T09:27:27+00:00"
         }
       ],
       "technology": [
@@ -926,11 +926,11 @@
           "pub_date": "2026-09-27T23:00:00+00:00"
         },
         {
-          "title": "The Apple Next Vision Pro Is Reportedly on ‘Life Support’",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUkVycjZxLTBPR041c1k0OVJSOFVIMVEyMFBWT0VLd2hEbUdRak5vT0JOYi1GX3J3cWdaYmVzZ0NzazFnQ3p6WUFZUUpsM2xUYm5IX3hESjgzUXdITkRLU1JqS05MWXpwV3NfdXJQNEpWbjFhNTRJNlVzZjlaU1ZwaVdCMXFUQ1pMMzA1Wmx0Zw?oc=5",
-          "description": "The Apple Next Vision Pro Is Reportedly on ‘Life Support’  GizmodoNew Vision Pro Headset: Apple Considering Four Different Concepts  MacRumorsApple's smart glasses predicted for 2027, upgraded Apple V",
-          "publisher": "Gizmodo",
-          "pub_date": "2026-09-28T09:00:55+00:00"
+          "title": "New Vision Pro Headset: Apple Considering Four Different Concepts",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaURDY3hybDN0MDU0eDJzdGxNOEoyZlNsY292MWhyWmRvczgtNlh3cnNiSGVyUDEtVmhTV3ZDbFE1eWN5VXZJT3NBSVBCUC1tVVhCZHR4eUdpcWZDR1lzWkQ4VXJjTHhla21FeDJYNlNsTS1KbDFsMjYzb2JzYlJyMTFhYWhiMmI0bUJJ?oc=5",
+          "description": "New Vision Pro Headset: Apple Considering Four Different Concepts  MacRumorsThe Apple Next Vision Pro Is Reportedly on ‘Life Support’  GizmodoApple's smart glasses predicted for 2027, upgraded Apple V",
+          "publisher": "MacRumors",
+          "pub_date": "2026-09-28T10:52:40+00:00"
         },
         {
           "title": "Samsung Galaxy S26 Is Finally Getting Its Free One UI 9 Upgrade",
@@ -940,18 +940,25 @@
           "pub_date": "2026-09-26T20:13:24+00:00"
         },
         {
-          "title": "Anker launches new security camera with dual 4K lenses and radar detection",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ1ZrSHo4b19yVjc4WVFEMzBfMEhuckV4VHhHRHhKdHJaenRwekRCNHRma1NwNzBvZkdqUVowc1dlaE9IdHlVOUItU3ozeVdJSGc5NlRGYVdiWVQ5eHI1WllGTk9pVjRNRFdCb3d0OXJxVU1Zbm9ub2lDdFpPaTJKOW9mVEtKNWhmWXI4WGt1ME55c3VsY1NTRi1vYnJVR2VIN0xXYTN1dmcxWXQyektsSU05U2hlS0haSmZB?oc=5",
-          "description": "Anker launches new security camera with dual 4K lenses and radar detection  notebookcheck.netAnker Unveils Complete Edge 5.0 Yard Protection System at Fall Media Showcase  The National Law ReviewAnker",
-          "publisher": "notebookcheck.net",
-          "pub_date": "2026-09-26T12:08:00+00:00"
-        },
-        {
           "title": "iPhone 18 Pro vs iPhone 17 Pro: An expert compares the phones",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc29KS2xlY0hpXzk0MFNmSEpkZHp1UGhCTDJRSWtHT2JCUURYd3lFc2JBbmpLNl9vTW9oS29ZMmxzellDSXEwSktaNzd1UmpJNzFuTXZ1WDB4U0RTbnJZeVBIel9laEdaQXNIYlk0d281MzdnMk0wRWNuUlRvNE55S3Zhb1c3VGJEcjl2RkYtSHpiWmJ2T0xIQ09VWUhaWnZxdjMzR3pwS0thZkpWc0lIOXB5ODlHZw?oc=5",
-          "description": "iPhone 18 Pro vs iPhone 17 Pro: An expert compares the phones  independent.co.ukReview: The iPhone 18 Pro is Apple’s coolest smartphone (but only literally)  Ars TechnicaApple iPhone 18 Pro review  GS",
-          "publisher": "independent.co.uk",
+          "description": "iPhone 18 Pro vs iPhone 17 Pro: An expert compares the phones  The IndependentReview: The iPhone 18 Pro is Apple’s coolest smartphone (but only literally)  Ars TechnicaApple iPhone 18 Pro review  GSMA",
+          "publisher": "The Independent",
           "pub_date": "2026-09-25T14:38:00+00:00"
+        },
+        {
+          "title": "Electron is one of Windows 11's biggest RAM offenders, and Discord's Game Mode doesn't fix it",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaGxCbFpmMG1iNVg4aGdIYVZjcnMxSkRnX3EyNEF6ZThsNFIyZUtWNDRFUlFud29pNG85TS04dURQM1lZcVctSXo0a0JSX3hsd3ZWNi1Cd08zd2FYYk11Z3ZqbFRWeWxBbGVTa0d0M2tiVW1YNlJRb2FhT2w1b0FZZEVVcXlIcnJ2VV9BVEZ5YVZHbVpwNEZKMjlCSTNwSXpJRThkODFpRU1BT3NTLTJPREZGQnhoNk1TdUQwTm9WRl9JVmVESlFibnFuWQ?oc=5",
+          "description": "Electron is one of Windows 11's biggest RAM offenders, and Discord's Game Mode doesn't fix it  Windows LatestDiscord is reportedly working on a ‘Game Mode.’  The VergeDiscord is working on reducing CP",
+          "publisher": "Windows Latest",
+          "pub_date": "2026-09-27T04:19:28+00:00"
+        },
+        {
+          "title": "Anker launches new security camera with dual 4K lenses and radar detection",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ1ZrSHo4b19yVjc4WVFEMzBfMEhuckV4VHhHRHhKdHJaenRwekRCNHRma1NwNzBvZkdqUVowc1dlaE9IdHlVOUItU3ozeVdJSGc5NlRGYVdiWVQ5eHI1WllGTk9pVjRNRFdCb3d0OXJxVU1Zbm9ub2lDdFpPaTJKOW9mVEtKNWhmWXI4WGt1ME55c3VsY1NTRi1vYnJVR2VIN0xXYTN1dmcxWXQyektsSU05U2hlS0haSmZB?oc=5",
+          "description": "Anker launches new security camera with dual 4K lenses and radar detection  NotebookcheckAnker Unveils Complete Edge 5.0 Yard Protection System at Fall Media Showcase  The National Law ReviewAnker’s n",
+          "publisher": "Notebookcheck",
+          "pub_date": "2026-09-26T12:08:00+00:00"
         },
         {
           "title": "‘We could have had good fun a few decades ago’: Christine Baranski and Richard E Grant on sex scenes, parties and theatre",
@@ -963,14 +970,21 @@
         {
           "title": "The Witcher 3 Remastered a 45GB PS5 Patch, Release Times Revealed",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNVFVUGl6ZzF0dnowTWJ3QTRKclYxNDJDSW1TUUgyczJBYm94T1c0QVl1aWhnVmotYm9BNE92TldxOEZoMGZoUFduTTZOTDhhSFN1cV9jSWJteUhDQVBLRVZwOXpBWnN3VVBLY3lGdjlDTDR4MjBMYnBlUlNkTHFCTTkzVFNoZnk2Z1hJSVc0a3hrTlB3ZXFXWW5YcC1qUFJjSklOUlpJSQ?oc=5",
-          "description": "The Witcher 3 Remastered a 45GB PS5 Patch, Release Times Revealed  Push SquareHere's What The Witcher 3 Remastered Looks Like On Xbox Series X|S  Pure XboxCD Projekt Releases Official List of All the ",
+          "description": "The Witcher 3 Remastered a 45GB PS5 Patch, Release Times Revealed  Push SquareCD Projekt Releases Official List of All the Improvements in The Witcher 3: Wild Hunt — Remastered  IGNHere's What The Wit",
           "publisher": "Push Square",
           "pub_date": "2026-09-28T01:00:00+00:00"
         },
         {
+          "title": "This Week in Gaming (Week 40)",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBacnRKVVo5Z3pKZzNyR3VrTld0SDRtUGx6MUtnVzRWQkZoVXNWZmFuUVRrUmVPNWphVkVkdUZVQkpLVHd4T3hSUFZvb2V2Ynptb3FKeE9UNkxFanRJcHQxcHRkZ3QzRXc3RFRzckg0UdIBdEFVX3lxTFBCMnBMbnZfMFIyeWtfZFd4RVZBUkYxbFZIanh6N0k1QmxtaWZCdlYxRk1sTUpzNnluRXUybUVvaVl1WFpDT2tPTEIxNGFmVGZhb2tWdGtQYUtLZWpJZENDc3ljeTZMeENLVTF4eDI4VFRtcndK?oc=5",
+          "description": "This Week in Gaming (Week 40)  TechPowerUpThese 21+ PS5 and PS Plus Games Are Coming Out This Week (28th-4th October)  Push SquareSeven Xbox Games Are Out Today, Including Early Access To The Danger Z",
+          "publisher": "TechPowerUp",
+          "pub_date": "2026-09-27T10:02:43+00:00"
+        },
+        {
           "title": "God of War Laufey PS5 Editions Revealed, Pre-Order Tomorrow",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPREp2SGNmMVZmM2M3aG52Z2o3b3pYREx5clRlRjQ5bnIyTzdvVTZROTFyam5yTUZPSS1rMm1KcUF5UmhaeTJhZ2FQREpURmsyOGJUTV9uU0RoSFo4dFlFQWlhSEpJWFZlczdaY1hKWTZnV0pmM2VhUl81bi03QVZ2TkZZYlRUSUlaRTEyd0FTY3p0aTFhU1lXczBnZFd0WWc?oc=5",
-          "description": "God of War Laufey PS5 Editions Revealed, Pre-Order Tomorrow  Push SquareGod of War Laufey pre-orders available starting September 29, editions detailed  PlayStation.BlogGod of War Laufey’s Serpent Bow",
+          "description": "God of War Laufey PS5 Editions Revealed, Pre-Order Tomorrow  Push SquareGod of War Laufey pre-orders available starting September 29, editions detailed  PlayStation.Blog'God of War Laufey' Footage Off",
           "publisher": "Push Square",
           "pub_date": "2026-09-28T07:15:57+00:00"
         },
@@ -982,11 +996,11 @@
           "pub_date": "2026-09-28T04:00:00+00:00"
         },
         {
-          "title": "This Week in Gaming (Week 40)",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBacnRKVVo5Z3pKZzNyR3VrTld0SDRtUGx6MUtnVzRWQkZoVXNWZmFuUVRrUmVPNWphVkVkdUZVQkpLVHd4T3hSUFZvb2V2Ynptb3FKeE9UNkxFanRJcHQxcHRkZ3QzRXc3RFRzckg0UdIBdEFVX3lxTFBCMnBMbnZfMFIyeWtfZFd4RVZBUkYxbFZIanh6N0k1QmxtaWZCdlYxRk1sTUpzNnluRXUybUVvaVl1WFpDT2tPTEIxNGFmVGZhb2tWdGtQYUtLZWpJZENDc3ljeTZMeENLVTF4eDI4VFRtcndK?oc=5",
-          "description": "This Week in Gaming (Week 40)  TechPowerUpThese 21+ PS5 and PS Plus Games Are Coming Out This Week (28th-4th October)  Push SquareSeven Xbox Games Are Out Today, Including Early Access To The Danger Z",
-          "publisher": "TechPowerUp",
-          "pub_date": "2026-09-27T10:02:43+00:00"
+          "title": "Synduality: Echo of Ada Xbox achievements at risk with upcoming server closure",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY2h5dnhaaGFhU2RMbUpkc0g0cG94U0RuTkJKbFJGX0Z1N2IzOWxvbThkTUxDb0FjV1gxS0hUUVdsMHoxLUpPUlFZb0ZwXy1NakNEd0FHMHQtSWpOSmVaSVA1UGdYMHpCMnE1NFE5X2hKdWFOWkpZUU15cEJHM0JKajB4eE55ZWFtUkE?oc=5",
+          "description": "Synduality: Echo of Ada Xbox achievements at risk with upcoming server closure  TrueAchievementsSYNDUALITY Echo of Ada End of Online Services & Offline Version Confirmed  Bandai Namco Europe2025 Banda",
+          "publisher": "TrueAchievements",
+          "pub_date": "2026-09-28T10:57:32+00:00"
         },
         {
           "title": "UK Charts: Fire Emblem: Fortune's Weave Drops To Number 8 As FC 27 Tops The Podium",
@@ -998,39 +1012,25 @@
         {
           "title": "EA Sports FC 27 Review – The Grounds is Shaky, But the Tactics System Shows Promise",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBubWFQOWZwZDBUOHNqMWtVOW91YTRlelNLRHdQNG8zYmV6NWs4Q09kZ0tDcTkyOUw4bFBvcWNiVFlxN2xmS2ctTmd6bnlKRThrVHU4OHo1SFhTTENIajVMVg?oc=5",
-          "description": "EA Sports FC 27 Review – The Grounds is Shaky, But the Tactics System Shows Promise  IGNPlay EA SPORTS FC™ 27 now!  Manchester City FCFC27 | Higher or Lower  Swansea City🎥 Stolen packages, bugs, cheat",
+          "description": "EA Sports FC 27 Review – The Grounds is Shaky, But the Tactics System Shows Promise  IGNPlay EA SPORTS FC™ 27 now!  Manchester City FCFC27 | Higher or Lower  Swansea CityEA FC 27: 5 Gameplay Tips You ",
           "publisher": "IGN",
           "pub_date": "2026-09-25T23:54:21+00:00"
         },
         {
-          "title": "Users find a default, mandatory Windows feature freezes your PC when you use internet",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekZXQUlJWUpKMjBaSDFHYjVPejk2enJBNHBLbjNQalVCSUwtRVZqTkg0OEZYVzJlSFhVb0J3RTlRR0xhYzk5YWlNSzlQUWF1WEp4WjZKWFVSbkI1ZlFpZkl4VllqZXNvM3owZmVvcXB0YTBJb1hyeTlTNzdXMS14anIxUkJVME55dHQzUkRsRzNIakRfWV84RE9vNkVSdXJOcWZNd3l1dC1WVF9FQWRUWXdDNA?oc=5",
-          "description": "Users find a default, mandatory Windows feature freezes your PC when you use internet  Neowin",
-          "publisher": "Neowin",
-          "pub_date": "2026-09-27T15:10:00+00:00"
-        },
-        {
-          "title": "Gamer granny is oldest female Fortnite streamer in world record book",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NWTFiOWtTZlV6NnoyNkRGaG9IYVlKQXc4QWdQUlVRaThGNzZ3aV82bno2QTZDaEZpd1FhOWxfMHZmVkM5dXRKSnFmQ3lVYmlLLTRyZHRoaS1kWHlfS0E?oc=5",
-          "description": "Gamer granny is oldest female Fortnite streamer in world record book  bbc.co.ukScottish gamer gran celebrates turning 78 with her Fortnite streaming world record  Guinness World RecordsFortnite Fame: ",
-          "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-24T07:16:21+00:00"
-        },
-        {
-          "title": "Samsung R95H (MRE65R95H) review - What Hi-Fi?",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBILVYtZGhOUHg4Skx1VkdSZm5RQ2RWZEp6RXVXRjBKX2IzY0xXSlZHMXpTbkNyWTFRTGRmVVl4X18xeExjclRsV3JEUXlfY2tlSHhMYzBEeVZHYkZoaF9QMHZFVmkzQ2k3ampHc3NsM1dwYVVyQUxpcjdZNDZkbFU?oc=5",
-          "description": "Samsung R95H (MRE65R95H) review  What Hi-Fi?Samsung’s Micro RGB TV Sets a New Standard for Next-Generation Picture Quality  news.samsung.comSamsung Micro RGB R95H: Why this could be the best RGB TV in",
-          "publisher": "",
-          "pub_date": "2026-09-25T11:03:25+00:00"
+          "title": "Today’s NYT Strands Hints, Spangram, Answers: Sunday, September 27 (It’s Skin Deep)",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZWFlT0h3VzJCUEc1Z2dHVzVQdHk0YlFNN1Y1MklwSGtVS1lBby15Uy1kNWdVOFh5dVA4T19ZTHNXaEl5bUFFU3lyYXYtMUVWT2JZTC1ueS04dHFlbGJmY2hzVnZ5aklaa2psbzRxTkt0aS1jeXE5SmF0U1h0eDVmWFJ5VDBuekd5ZERfZE8zMS1CLW1jbG1Jel9LSFVldl94RkFpR3NQRGpkS0VKclFrVDJqRFlsNTRQZ3FJNU02eGtwWEhn?oc=5",
+          "description": "Today’s NYT Strands Hints, Spangram, Answers: Sunday, September 27 (It’s Skin Deep)  ForbesToday’s NYT Strands Hints, Spangram, Answers: Monday, September 28 (A Form Of Art)  ForbesNew York Times Stra",
+          "publisher": "Forbes",
+          "pub_date": "2026-09-27T01:35:07+00:00"
         }
       ],
       "entertainment": [
         {
-          "title": "MTV VMAs 2026: Taylor Swift and Madonna win at awards dominated by female artists",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR1ZSdC1helpRTHI0T1RxcDNDRzlSdTViYXQtbzd6YWx4ZGx5RURLNENZWTdYd0l6SEZsUXJBX2hWbVBsRFl2M3oyT2VoejNPMVhGQW9rZkNVLVU3MEExVFZRY0dpWGJZaEZxMmVFZmx5aWhCRENZY1pYZFVFakdhRGI1TVdyeXFILWtLeHlnejdSczlNd2VENWdXczBicEhSeVF0THhDY2tBd2Fpb0xDTF85UnpyZHhZUlh6R0tB?oc=5",
-          "description": "MTV VMAs 2026: Taylor Swift and Madonna win at awards dominated by female artists  The GuardianBehold: The 20 Best- (and Worst-) Dressed Celebs at the 2026 VMAs  CosmopolitanThe Best and Worst of the ",
-          "publisher": "The Guardian",
-          "pub_date": "2026-09-28T11:15:00+00:00"
+          "title": "Strictly Come Dancing viewing figures revealed by BBC for first live show with new hosts",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQjI0VmMyd19GRVNYZDB6MGtVWW5QSHhfWldaaEt0ajMwbnl4QnRuT3dnUkotQnJfS1hVbmhaeEs3NlpJcFJVeGJMZW9VLUxMQnRVU2pvQVFnc3dmUFRWeHNwUzc2R09QWmlvSllLTWV0aHRiUW4wV2Fnazg1NHJMZjFqenY?oc=5",
+          "description": "Strictly Come Dancing viewing figures revealed by BBC for first live show with new hosts  uk.news.yahoo.comStrictly Come Dancing: week one – as it happened  The GuardianStrictly Come Dancing viewing f",
+          "publisher": "uk.news.yahoo.com",
+          "pub_date": "2026-09-28T07:59:27+00:00"
         },
         {
           "title": "Taylor Swift could take this week’s Top 3 singles following release of The Life Of A Showgirl: The Encore",
@@ -1040,13 +1040,6 @@
           "pub_date": "2026-09-28T10:48:59+00:00"
         },
         {
-          "title": "Emma Willis breaks silence after first Strictly Come Dancing live show amid viewer backlash",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaWRfcFZpT2I3UjFYQmdLaFJXa1FpODlvdnZxekdwVDA0b0N5MEpBYWtIMXdzVDBrcWN6TG4xOUJPOGM5aVNuMGtSTzdjREZRYzVCU240Y0NmTUxhSXNwUjZjVjAzZC14MUU2dllQVFk0MEh4WDNOUHdZUUxLbGdHaHBKdkJyVHVYVnRpbTNmb3o1QXPSAZgBQVVfeXFMTWR2b2NQRlBQaElmb0pMdTlrR0c3VWFqT2l3SXZKWWJ6Z0xiTjZoZ043aFVJdDlXaWJBWlZmZGhlOFRUblBHWjRxMm5rQlhoc3V2a0lFRmU3czFINl9YZ3J1RzVDYjBZSWVzdWtfZncwUGxDOURIb0lPTjh4TVZkWVlDWTJvTjE2T210endWbHc3ZFJZYVh6emU?oc=5",
-          "description": "Emma Willis breaks silence after first Strictly Come Dancing live show amid viewer backlash  Manchester Evening NewsStrictly Come Dancing: week one – as it happened  The GuardianStrictly Come Dancing ",
-          "publisher": "Manchester Evening News",
-          "pub_date": "2026-09-27T21:03:25+00:00"
-        },
-        {
           "title": "Wrestler Benjamin Satterley, known as 'Pac', dies aged 40",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzNnBZb3JXbUg3RW50VGlxOEVJMTFJTTRURVpRWTNVX2FJRWF4VmpxSTFBUWViaEZtcGQtQ09kaUtrMVdBOWNTUDdjc2VRQUpfNnBWXzd5OWs5NUE?oc=5",
           "description": "Wrestler Benjamin Satterley, known as 'Pac', dies aged 40  bbc.comSee more headlines and perspectives on Google News",
@@ -1054,32 +1047,32 @@
           "pub_date": "2026-09-28T10:30:22+00:00"
         },
         {
-          "title": "\"The time has come to say farewell.\" Rod Stewart announces final ever tour for 2027",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObzYzYmdkSHQyTERNV3dSb2N4dktiY0RFSXJhSGNJZ1djOXhWOTRWZlk0R3haYlVnelpYeVhyckR2b2xqTkJsWGVEMmdxWm0yTmlSRGZMUHZvRE5xYlRRdUJ3Q2QwYTFfenU2dVhzdF91MU9vOXRVaVN4MkEtaU5JbzVZQmhoLWRJcUV1c2l1amxTeHRSMklCZUw4NGxvRWpibVg0LXE2am9qcDBuaVJPS0tfSDNvRlpDVHJhcnAxWlNUcWJxLWlQcEhhcUFGWU9adnJZ?oc=5",
-          "description": "\"The time has come to say farewell.\" Rod Stewart announces final ever tour for 2027  LouderRod Stewart announces final tour for 2027: ‘Most definitely my last’  The GuardianRod Stewart announces final",
-          "publisher": "Louder",
-          "pub_date": "2026-09-28T08:34:24+00:00"
+          "title": "Rod Stewart announces final tour for 2027: ‘Most definitely my last’",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNl9hLXk1WlEyMVdtNU1KNTVkTFd1LXhZT1ZydDBmdV9HT0dRNG9uV21vTkxQa3E1VW5EalN0Z0tsQUJjZjVMaUF5NGpuYTkweEt2ZFBJSWNQbnBRVzkyc3NyU01yRUM0U19YXy0yZlRYVVRLWWw4d0pHaGlndkh5RHdMajRPSzJBcHJ3cHJUVzlDajlLN3pCcXlmWGJwUEg2Q3BwN2ROMXBBYWJ2UVZwVw?oc=5",
+          "description": "Rod Stewart announces final tour for 2027: ‘Most definitely my last’  The GuardianRod Stewart: Time has come to say farewell with one final tour  The TimesRock legend Rod Stewart announces retirement ",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-28T08:18:00+00:00"
         },
         {
-          "title": "How the French Riviera shaped modern art",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFByaFI1bUJGZ040ZDduY05QcVBtTEhJVDltM2t1ci1TaGVhUzVvc3pFTXZhNHJzSjZHOVhTV2dBaVhuVW1iZ3JHZnEzWG5zWVRUWE40YlJvUkExZTE2UTVPc2ExMDhlM29pWHFSWDc3WVE?oc=5",
-          "description": "How the French Riviera shaped modern art  Financial TimesJewels of French art drowned out by dross  The TelegraphThe RA’s French Riviera exhibition is a near-miracle of light and colour – review  inde",
-          "publisher": "Financial Times",
-          "pub_date": "2026-09-26T04:06:47+00:00"
-        },
-        {
-          "title": "Jerry Hall: My children worried that I was too old for The Traitors",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNFY1emdCREdkS3RNOXZ3ZEtJS0NlTDAyQkVUT2JEMkRhYUEzQzRiSEN5N1FrM3V2N1RkSlJQaGVUUHRmNWgtYmJnN2s5YlBWT1FUbWRETFZfUFBMU3hlWVUxVmtOaWZjZVYwUVhEMnU5MGVwdGFwSnhlSW9vSy1obGVYY3BEc1dCV2ZKTU9vcw?oc=5",
-          "description": "Jerry Hall: My children worried that I was too old for The Traitors  The TelegraphSee more headlines and perspectives on Google News",
+          "title": "Monty Don may have to sack his gardeners after BBC exit",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZXB5ajA3ZVBIM01mRnczWE1ERGQ2Z3pKYVB6UmZPVm5qV3doRG5FX3U3Uk53U29jb1ZPMlEyNTh2MXVnWkxlcVlUc184WnFEU1kycTRZRVlIeFA2c25SbmIzVXVfQ3Q0aUVfMU9TN090ZzJjOVU1RlhOMW5hOFFjMnVWSmpza0JxX0E?oc=5",
+          "description": "Monty Don may have to sack his gardeners after BBC exit  The TelegraphMonty Don says he may have to let go of his gardeners after leaving BBC  The GuardianMonty Don reveals why he might have to fire h",
           "publisher": "The Telegraph",
-          "pub_date": "2026-09-28T05:30:00+00:00"
+          "pub_date": "2026-09-28T11:20:00+00:00"
         },
         {
-          "title": "Horrible Histories scenes removed to comply with BBC editorial guidelines for children's TV",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeG5jQkszejlIYUZPajJaRXJsRzNSWEx1WWY5T2prREJyV3gwM2piV0JCa3VDaFlmZGw2bWJvUzJjZGpEZGpsNHBJVDRxY0U2ZXJRQW9SXzdoUDhGcmNWcnVlS0R1Rlg4MnFWcWg5YUZRV0VOT3IyakRmNUN5SnVuTzQ3RDRaNkNIc3U3UzRQM0Vxb3hnTDZycFk5R1VCVndqR0I5V0xZaDNSeklGaE0zc1V6Z0JuSGZkLUk1TGpyUjZZczRH?oc=5",
-          "description": "Horrible Histories scenes removed to comply with BBC editorial guidelines for children's TV  Sky NewsThe BBC’s instinct to censor popular programmes is bizarre  The TimesBBC removed Horrible Histories",
-          "publisher": "Sky News",
-          "pub_date": "2026-09-28T12:08:24+00:00"
+          "title": "Travis Kelce shows support for Taylor Swift at MTV VMAs 2026 with sweet social media move",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcDI5WDc4VW1aa2pvVlRfZ3BTbUpxeU5nOXFWMlk1Z0tZNFAyUDNaeldLRGZXNEx6N0RiWE80VWxIYnpENTY2cS0xWG55ZFdzV1ZVdmlLYlJkMks5MExPQ1pCMXdGQXBVTmxaLVJ1QWx2NW05Ti1kTHFUNXlWb3luallUdTV6QVNaSkJZZTdiZ1FyNllaOENaQXVIMGRPeGdMNHk0eVphVFNvQ1NmYnBobFVYM1Rlbzl0MGhobExhV0txYjM0SHRjRmV5RWRXNGhs?oc=5",
+          "description": "Travis Kelce shows support for Taylor Swift at MTV VMAs 2026 with sweet social media move  Page SixTaylor Swift Seemingly Skips Chiefs Game After Release of ‘The Life of a Showgirl: The Encore’  Yahoo",
+          "publisher": "Page Six",
+          "pub_date": "2026-09-28T12:10:00+00:00"
+        },
+        {
+          "title": "MTV VMAs 2026: Taylor Swift and Madonna win at awards dominated by female artists",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR1ZSdC1helpRTHI0T1RxcDNDRzlSdTViYXQtbzd6YWx4ZGx5RURLNENZWTdYd0l6SEZsUXJBX2hWbVBsRFl2M3oyT2VoejNPMVhGQW9rZkNVLVU3MEExVFZRY0dpWGJZaEZxMmVFZmx5aWhCRENZY1pYZFVFakdhRGI1TVdyeXFILWtLeHlnejdSczlNd2VENWdXczBicEhSeVF0THhDY2tBd2Fpb0xDTF85UnpyZHhZUlh6R0tB?oc=5",
+          "description": "MTV VMAs 2026: Taylor Swift and Madonna win at awards dominated by female artists  The GuardianMTV VMAs 2026 red carpet: Taylor Swift, Charli xcx, Troye Sivan and more – in pictures  The GuardianMadon",
+          "publisher": "The Guardian",
+          "pub_date": "2026-09-28T11:15:00+00:00"
         },
         {
           "title": "Exclusive: Britain's Got Talent is doing \"exciting\" new TWISTS for its 20th series",
@@ -1089,18 +1082,25 @@
           "pub_date": "2026-09-28T06:07:28+00:00"
         },
         {
+          "title": "Horrible Histories scenes removed to comply with BBC editorial guidelines for children's TV",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeG5jQkszejlIYUZPajJaRXJsRzNSWEx1WWY5T2prREJyV3gwM2piV0JCa3VDaFlmZGw2bWJvUzJjZGpEZGpsNHBJVDRxY0U2ZXJRQW9SXzdoUDhGcmNWcnVlS0R1Rlg4MnFWcWg5YUZRV0VOT3IyakRmNUN5SnVuTzQ3RDRaNkNIc3U3UzRQM0Vxb3hnTDZycFk5R1VCVndqR0I5V0xZaDNSeklGaE0zc1V6Z0JuSGZkLUk1TGpyUjZZczRH?oc=5",
+          "description": "Horrible Histories scenes removed to comply with BBC editorial guidelines for children's TV  Sky NewsThe BBC’s instinct to censor popular programmes is bizarre  The TimesBBC removed Horrible Histories",
+          "publisher": "Sky News",
+          "pub_date": "2026-09-28T12:08:24+00:00"
+        },
+        {
           "title": "Strictly star Wynne Evans calls out pro dancer Katya Jones for not supporting him publicly",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc3F3dDhuU0xsaWRkWkhZM2FSSmFYVEl2ZDdXYUlxZWltd1B2TVpKODZSb283ZVNkc2tXR05UMHpkMmdhZFctQ2NIUElLNUhnbU9EOEp2OUROTDZQRHY1VE91WUkzYUt1cGF4RF92eExISHBfMzNFbjRMYTE1dldFaU9ZRm9sYnJvanUxblBERXUxeVpEMzFxdlNoblM2OFhCeDJyVWhrS19UR3B6MVJfNTJjWE5Pc0E?oc=5",
-          "description": "Strictly star Wynne Evans calls out pro dancer Katya Jones for not supporting him publicly  independent.co.ukStrictly star Wynne Evans says cast refused to support him publicly  YahooWynne Evans expos",
-          "publisher": "independent.co.uk",
+          "description": "Strictly star Wynne Evans calls out pro dancer Katya Jones for not supporting him publicly  The IndependentStrictly star Wynne Evans says cast refused to support him publicly  YahooWynne Evans exposes",
+          "publisher": "The Independent",
           "pub_date": "2026-09-28T13:22:00+00:00"
         },
         {
-          "title": "BBC presenter urges Strictly fans to 'be kind' after cruel Josh Widdicombe backlash",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUnJOaDhYTk03ZFhIeERWZ3pjUG5YczN0VlhEci1Ud3pFTEpUV1RLYWI1SWVVQmVGQU9Oc3hYYlJxUFphTWw5Rkc1VzlWc0JlUDBjWGFMUG1wVnowVTdsd3VnZTM4X1R3YlRYb21QRm9pLW1KQlVVQ09XVTZJTC1uSEVlNnFIOUlVT0haQmtDVkhsbEY4TWF3bktPRnEtNjF1bWxWSzRMTGszblNuYWE5eWpqYw?oc=5",
-          "description": "BBC presenter urges Strictly fans to 'be kind' after cruel Josh Widdicombe backlash  metro.co.ukStrictly’s new ‘throuple’ is an utter disaster  The TelegraphStrictly Come Dancing review: New host Josh",
-          "publisher": "metro.co.uk",
-          "pub_date": "2026-09-28T10:45:00+00:00"
+          "title": "Jerry Hall: My children worried that I was too old for The Traitors",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNFY1emdCREdkS3RNOXZ3ZEtJS0NlTDAyQkVUT2JEMkRhYUEzQzRiSEN5N1FrM3V2N1RkSlJQaGVUUHRmNWgtYmJnN2s5YlBWT1FUbWRETFZfUFBMU3hlWVUxVmtOaWZjZVYwUVhEMnU5MGVwdGFwSnhlSW9vSy1obGVYY3BEc1dCV2ZKTU9vcw?oc=5",
+          "description": "Jerry Hall: My children worried that I was too old for The Traitors  The TelegraphSee more headlines and perspectives on Google News",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-09-28T05:30:00+00:00"
         },
         {
           "title": "Sylvester Stallone Reflects on the “Terrible Price” of Physical Obsession",
@@ -1110,25 +1110,25 @@
           "pub_date": "2026-09-27T16:13:49+00:00"
         },
         {
-          "title": "Corrie legend Amanda Barrie's heartbreaking admission over losing friends as she turns 91",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbzJKMjYwcGFGTWhoUUtXM3loY2dLeVFoQUNQdDFJVXl3a1ZESGRfbmVrcUNLSWlMWFpfcElTSkZkdG56Q3AzaDR3UDdiOVRuZGlqWC1lVl8tZUltak82V2RISEp3VUZqeHB3a1pKVUh3VE56STFqaTdMUGRCR3FPczN0ZGpvRlpPMlQ5dXNzTzYtUdIBlwFBVV95cUxNUnpFRXZidFJYc0RvV0V1STlKeHI5eHNDODFzTjJTQm5KUUMzNXB3cnl1X3lITkFHdGp6bnpDRWxjM0dvVWxGYWxyUUw0aTBnM193T1ZQY1ZnMlBERUwxTUtCODNsbzRQaFFEbWF6bmZDSjBMV0s4MzVjZXdnS3lZV0UtNjIweTVVcERHWUtPbnhaRGllV21Z?oc=5",
-          "description": "Corrie legend Amanda Barrie's heartbreaking admission over losing friends as she turns 91  The MirrorAmanda Barrie: When you turn 80, people are amazed if you can use a knife and fork  The i PaperCorr",
-          "publisher": "The Mirror",
-          "pub_date": "2026-09-27T13:08:14+00:00"
+          "title": "BBC presenter urges Strictly fans to 'be kind' after cruel Josh Widdicombe backlash",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUnJOaDhYTk03ZFhIeERWZ3pjUG5YczN0VlhEci1Ud3pFTEpUV1RLYWI1SWVVQmVGQU9Oc3hYYlJxUFphTWw5Rkc1VzlWc0JlUDBjWGFMUG1wVnowVTdsd3VnZTM4X1R3YlRYb21QRm9pLW1KQlVVQ09XVTZJTC1uSEVlNnFIOUlVT0haQmtDVkhsbEY4TWF3bktPRnEtNjF1bWxWSzRMTGszblNuYWE5eWpqYw?oc=5",
+          "description": "BBC presenter urges Strictly fans to 'be kind' after cruel Josh Widdicombe backlash  metro.co.ukStrictly’s new ‘throuple’ is an utter disaster  The TelegraphStrictly Come Dancing review: New host Josh",
+          "publisher": "metro.co.uk",
+          "pub_date": "2026-09-28T10:45:00+00:00"
         },
         {
-          "title": "Jay-Z rape accuser says her allegation was false",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13d1g4bEFtY0ZFdnZTb3IxdEtqSmFZSVU4Q0tadFQxTHF1aEtyaENYakZVT3lKb0RJRGFma2ptaXBscGtOcnZEbGY4bGE0cjZEM2duN3R3YjlLbEd0cHc?oc=5",
-          "description": "Jay-Z rape accuser says her allegation was false  bbc.co.ukWoman who accused Jay-Z of raping her aged 13 says claims were false  The GuardianWoman who accused Jay-Z of rape says allegations were false",
-          "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-25T10:51:28+00:00"
+          "title": "Zoe Saldana reveals why she ‘can’t imagine’ taking on another role in Yellowstone creator Taylor Sheridan’s universe",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVTBTbzh3SVRvLVFzeTdtM3RQaVB2M0NpN0pGWm1BUWxQVk1rcWhreUxLRDdFWXU5RVJtbFlPZDNDc0U0T1h0MHBMdFo5dGVCVzk3LU96bHdBRU5YdFVXQUJ1VWJVMHhqbk1WNFNrakxxWTNGUlNfTkxIbnQ4dVR4VmdEWGZQQnpGOWtUOV8tdmtwLTcxYXk2V3dlNTlYWkwtck05akdqczdtemZDdFhB?oc=5",
+          "description": "Zoe Saldana reveals why she ‘can’t imagine’ taking on another role in Yellowstone creator Taylor Sheridan’s universe  The IndependentZoe Saldaña Says She’s Not Ready to Join Another Taylor Sheridan Sh",
+          "publisher": "The Independent",
+          "pub_date": "2026-09-27T16:52:00+00:00"
         },
         {
-          "title": "Exclusive: King blocked from contacting Ranulph Fiennes by explorer’s wife",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTWpOcUFvMjdWQ3V2NmNLX2FrcW9OVmJ0cFpvQkNhMWUtTmlnbUV6Zkt0SmlvaElGY01STExHaDlmYnBIYkw4MlhLM0F0a3laempHTkZKcDRUcXRuaW9KSWdrSWEyNGNiQjdsMmo4R0NrV3UxS0tPVW1WQjNGZmVaaThnOW5DNWpjcWdPNTgyN0dHM0MzZnQyVzhyemM4dmpFMEEw?oc=5",
-          "description": "Exclusive: King blocked from contacting Ranulph Fiennes by explorer’s wife  The TelegraphRanulph Fiennes’ stepson appeals for funds to ‘locate and safeguard’ the explorer  The GuardianKing Charles ‘tr",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-09-27T20:35:00+00:00"
+          "title": "King Charles ‘tried to check on wellbeing of explorer Ranulph Fiennes’",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbFZSajBsTTNuOGZyR0stTjBHeUNFVENfV0d4Q01idFJtVHVkY0RsdXFZYkVMQjFYQkE4V0o3b2tCaklaR05BajJqSFJJNkdqMVVjVkNvSjZmSW0wS3lia2FTMEQyeFRGd25QZ05Odk5lZnk5VlVrTzNZeWdVWThVcWs1RGFISzI2ZTMteHJXRHczRWtoaGRzTk5OVnR5cmQ3Zm1fQzRPZ2V6LUJjUHYtU01DdmktQQ?oc=5",
+          "description": "King Charles ‘tried to check on wellbeing of explorer Ranulph Fiennes’  The IndependentRanulph Fiennes’ stepson appeals for funds to ‘locate and safeguard’ the explorer  The GuardianRanulph Fiennes ca",
+          "publisher": "The Independent",
+          "pub_date": "2026-09-28T07:56:00+00:00"
         }
       ],
       "sports": [
@@ -1149,23 +1149,44 @@
         {
           "title": "Lando Norris apologises to Franco Colapinto over F1 race ban comments",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM0k4bFU3R1E4RE9WNWZQck1xc1pmcG90Ulo1dXRrZGFpQzVHWGhwWkpicTNXQVB1WTJjd3FHcnRfd2pRZGRBNFpMdE5OWnVsVWsybkc3NENXclNydzRsZXcwZXdUcUVQeXNKVllqZXZzZ05jQW9mX2JDLXpVZW9jTS1Ka3RudTY5SjBKLU5SVVYxWkd5ZVlVQlVfTlY0UmZldWlPZGJSeXNka0lHcWt3SWkxYUc?oc=5",
-          "description": "Lando Norris apologises to Franco Colapinto over F1 race ban comments  Motorsport.comLando Norris apologises to Franco Colapinto over ban comments after Azerbaijan Grand Prix  bbc.comLando Norris apol",
+          "description": "Lando Norris apologises to Franco Colapinto over F1 race ban comments  Motorsport.comLando Norris apologises to Franco Colapinto over ban comments after Azerbaijan Grand Prix  bbc.comJuan Pablo Montoy",
           "publisher": "Motorsport.com",
           "pub_date": "2026-09-28T09:19:14+00:00"
         },
         {
           "title": "Cody Gakpo withdraws from international duty",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80YjRlYUN4cXpHaGx0eFhYOUUwMGFLYnA4alZUN052eUl3c1FtMFJoNnEyVWhLTTB4MTlGRGJESnRmTWRmWjVxbTJnUm5ZWlhUSTk3Q2xPcHd1bl9nQ0Q5MmlZX21qd1FOelJ0WFhnRWZCZ09Oeko5QkM0M3fSAYQBQVVfeXFMT0FZcmFSUWM2OG0zXzNWa2RjS0ZmODBZdUMwSGZvS3RnVERfdDlNTVRSdkV0MUhPV2xUN2FEdDB2TFlBY3otZ2Rydy0xMTlySGlCRkJyMGo4dWxGZHpHQ3c0S0RjbjNSNFJFN0NKU2JvUExHVE9VRzFrdkRKTHpXNk55MEZT?oc=5",
-          "description": "Cody Gakpo withdraws from international duty  Liverpool FCCody Gakpo returns to Liverpool after injury for Netherlands  ESPNLiverpool: Alexander Isak returns to Liverpool from international duty with ",
+          "description": "Cody Gakpo withdraws from international duty  Liverpool FCAlexander Isak to return from international duty  Liverpool FCGakpo ankle injury adds to Liverpool injury concerns  RTE.ieLiverpool: Alexander",
           "publisher": "Liverpool FC",
           "pub_date": "2026-09-28T13:13:29+00:00"
         },
         {
-          "title": "Watch: Odegaard fury at Bernardo Silva as ‘ugly’ foul prompts injury fears",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVlljaVhxZXVNVHUzOEoydjE5Y0JJcmhZVFJiNWVhVlN6cFZOTDdFal96cVdrZzlqd0lZSVFMczBTZ0NWNlF5dHhmdFRfaG9rX3dYM3BzMmJFUTFhSlAxdDVyWktxSzJVbXVBZllianVMcTVRMzJiM01YT2FGNmRlRzZ2OTBHcWhsRUJOM1VJVHAxa3A4c3FOMUNoUmtmUEIwcVV3UGZlSlY?oc=5",
-          "description": "Watch: Odegaard fury at Bernardo Silva as ‘ugly’ foul prompts injury fears  The TelegraphMartin Odegaard criticises Bernardo Silva challenge after ankle injury: ‘It does not belong in football’  The N",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-09-28T10:18:00+00:00"
+          "title": "Liverpool threaten legal action as Man Utd poach ‘electric’ winger",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ydUh4R3Jwck45ckJFZW5VY3ZtSkdQVHhtNWNpNkZjb3p4dnZIdEk5RWNHck1TZ3RlS29fQUplSlJIbUdHa3JGYVZPQmNzSW5adHNybk1uZU1Da2dGaDZwOWVGbjUyNzd2YmFCUU5JaV9ISGvSAXhBVV95cUxOdXJXam1XZUxhUGtIak4yTHI2cnlqSGpCMVRmOHhXRjY2MGczMXFZNVQ5NmFSRUVwTmhoYlplLTduSGhrQ3k5N01IUmVtdjdLbGpWVmhCcDl0cXR3bXB6MHlxRUdpcHVkZ0VHT1R1NXd2ZFNpZmJMQXk?oc=5",
+          "description": "Liverpool threaten legal action as Man Utd poach ‘electric’ winger  utdreport.co.ukKonde joins United  Manchester United WebsiteManchester United sign youth winger Isaac Konde, 16, from Liverpool - Th",
+          "publisher": "utdreport.co.uk",
+          "pub_date": "2026-09-28T06:44:48+00:00"
+        },
+        {
+          "title": "White casts doubt on Fury-Joshua after 24 hours of chaos",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hZVlmcjFJUkxUVDZjNkNHZnlMekVKSm52cjBPOUVhd2R0SUlfVzVheGxDWDhwSFNnU1BiaTJndkJWQmxlLVFuVW5rM3hBaHg4dGFkNG52ZmgwdmZvaWIwZnV0RmE5WW8y?oc=5",
+          "description": "White casts doubt on Fury-Joshua after 24 hours of chaos  bbc.co.ukSee more headlines and perspectives on Google News",
+          "publisher": "bbc.co.uk",
+          "pub_date": "2026-09-27T05:39:28+00:00"
+        },
+        {
+          "title": "Deal of the century: Haaland ignites Real Madrid and Barcelona battle",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYmhqZWQ3QTZzb25tWWdCTFhyUmlSSnFJbURTazVRcnlJYmZDOEZqTUVVaVQ3dWoxQWZDcTBZamE2LXhVYnJJRHFqRzJ0ek1LYl9MRGdYTzdTRkdIWHpWdzJsZUJ4SjJtVkNEbUdPSE94MVVoRDVxTHR2UFBrdHYyWUtfTk50NHpQYUJQcm5ERGNndG1YZGRab2c3ajhGb3llLW0taW5fT2JhZlRGLWVTQ1hyaExMenlI?oc=5",
+          "description": "Deal of the century: Haaland ignites Real Madrid and Barcelona battle  Goal.comFootball gossip: Haaland, Llorente, Bastoni, Mitchell, Araujo  bbc.comTransfer rumors, news: Madrid, Barcelona look to Ha",
+          "publisher": "Goal.com",
+          "pub_date": "2026-09-28T12:55:34+00:00"
+        },
+        {
+          "title": "Wallabies v Springboks: Winners and losers as tech issues turn 'outright blockbuster' Test into a 'farce' while Les Kiss' 'perfect record' continues",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNM2duZk14YnFEQUU0T3N6dFhLcUlDMkxCSmdFUFFuUk9vOVZsX0t5bTItOWJaeVBKY0NVdzhtaWtTV1VYZVlvZ29PdmFSRnBaWVVDbEJLSDdETlE5c2I2N1doOVpPOFZZcFhOM3ltUUpBS1hUUll4QjJIODRjYndseEk5UDZTQWtqX1NSOUlLZ1BRRkJDT1NSMlNNckczbDU1RC0xUE9HU0FPQWZoVlNucmFNUnplb3I2a1o2TzY3bDRIZ3ZBeEs5ZGJWTjdudFhUNUFFUlFEQjhkcUY1Z0N5RWE5emtneG9LdkRySWEtdjZNUHJrQ0lmSTduWlFrY3J2c2pZ?oc=5",
+          "description": "Wallabies v Springboks: Winners and losers as tech issues turn 'outright blockbuster' Test into a 'farce' while Les Kiss' 'perfect record' continues  Planet RugbyAustralia beat South Africa while down",
+          "publisher": "Planet Rugby",
+          "pub_date": "2026-09-28T04:50:38+00:00"
         },
         {
           "title": "Ravens stun Cowboys in final seconds as Loop gains redemption",
@@ -1175,11 +1196,18 @@
           "pub_date": "2026-09-28T02:48:00+00:00"
         },
         {
-          "title": "Nathan Cleary says 'I'll be back' after horrific injury rules him out of Rugby League World Cup",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5IWEJQVWk1Zm5WLTFEekxzSmc0S3Jtbm5md2lUOVAwMlpYU29xeHMwMEpZZldraVlBSW1RY2VSc3p5dmRLTHFDOXVGR3Q5dnlEbU1CWHZfVkhGSHhyTmVuYnNEemZqaWVuZjV2X3hB?oc=5",
-          "description": "Nathan Cleary says 'I'll be back' after horrific injury rules him out of Rugby League World Cup  bbc.com‘I’ll be back,’ Panthers star Nathan Cleary tells fans from hospital bed after surgery  The Guar",
-          "publisher": "bbc.com",
-          "pub_date": "2026-09-28T10:13:25+00:00"
+          "title": "Watch: Odegaard fury at Bernardo Silva as ‘ugly’ foul prompts injury fears",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVlljaVhxZXVNVHUzOEoydjE5Y0JJcmhZVFJiNWVhVlN6cFZOTDdFal96cVdrZzlqd0lZSVFMczBTZ0NWNlF5dHhmdFRfaG9rX3dYM3BzMmJFUTFhSlAxdDVyWktxSzJVbXVBZllianVMcTVRMzJiM01YT2FGNmRlRzZ2OTBHcWhsRUJOM1VJVHAxa3A4c3FOMUNoUmtmUEIwcVV3UGZlSlY?oc=5",
+          "description": "Watch: Odegaard fury at Bernardo Silva as ‘ugly’ foul prompts injury fears  The TelegraphMartin Odegaard criticises Bernardo Silva challenge after ankle injury: ‘It does not belong in football’  The N",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-09-28T10:18:00+00:00"
+        },
+        {
+          "title": "Yankuba Minteh responds to Liverpool transfer pursuit: “I am in Brighton”",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOWV1ZUs1YklRYVpjajFuTjJmN09yX09adHBxd0hDbWZ1YmwzUUpVVVZRYlNWT1E5VlhtbmM4NDBkWkxpM3VSZ05TVHlQTHIwbFF6ZmU1Y3NrQnNTamlpMUR6NGR0T1RfMDZxeVo1SS03VFlhQUg5VHVzSjdIMjUxWlBscGpXdjh2cmd0Um82NlY3NVJP?oc=5",
+          "description": "Yankuba Minteh responds to Liverpool transfer pursuit: “I am in Brighton”  This Is AnfieldYankuba Minteh reaches decision on joining Liverpool as he reacts to failed summer transfer  Football365Yankub",
+          "publisher": "This Is Anfield",
+          "pub_date": "2026-09-28T11:36:25+00:00"
         },
         {
           "title": "Liverpool sink Everton and end derby drought after Olsson and Kapocs strike",
@@ -1191,67 +1219,32 @@
         {
           "title": "OK, now it’s time for the Patriots to panic about Drake Maye",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ2JxWl9sbTVjYjRJNEx2ZW8yTkt1NGQ1LXVodGxwN0pqYXVTVTRiOWl5ZHJObjhrMlI5SVNNbzMxN05WNWQzcFBLcnBCZmpqQ1czdzVrNDhScTFKQ3hQUkJTcEJwWDNKMXFYeVZEbU9MSzlpWk9qSWtfQlpaTlRIYl9LZWUxU3hDeDVseWVGa1dSTjg?oc=5",
-          "description": "OK, now it’s time for the Patriots to panic about Drake Maye  The Guardian6 winners and losers from the Patriots’ loss to the Jaguars  Pats PulpitGame Observations: 8 takeaways from the Patriots loss ",
+          "description": "OK, now it’s time for the Patriots to panic about Drake Maye  The GuardianSee more headlines and perspectives on Google News",
           "publisher": "The Guardian",
           "pub_date": "2026-09-28T07:02:00+00:00"
         },
         {
-          "title": "Erling Haaland wish granted after U-turn following Man City 115 charges verdict",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMEtCb1pLWDZnMFVTRTktanRCWnU0SkU4T0h4RmxuX0lKd2V5c09VQzNZSnBVazRWSVV1YlMtdG9TQmo5UGV3dEM3QjZHTXBURl96X2dUbFEzSVRSN1hRbkx6a3J2SW8yelFrQmdDZ2FZeHJwRWhYZ25lazZhOWJTNERiUm1KMEdMSXYzZHduZDV3VnFuYkE2UTQwYjd6YVRiSjZRaFdHdUtNM1N2UUFOaEhn0gG3AUFVX3lxTE40RDlNZjNiYlpMWG1ncEZCQW96SmNzVUg0aEN4Zm1WX29xLW13TkRHWGFCQXJMVkF3aEFLN1FFS1Z1eUlla1I3UDRsV2p0ZndYS0l0by1ENGxyVnBoMlphQ3c5enZlRHBHX0NCOXd3ODJ6b1BVSl81eEZpa2Q5ZnZYZ0xMWmVMVUVPNmJzT1NiWjF4SHZYQmFyREZIck5xX2tHdnV4QUhRY3BkRmMxRGpIWW1ZTmRVYw?oc=5",
-          "description": "Erling Haaland wish granted after U-turn following Man City 115 charges verdict  Manchester Evening NewsFootball gossip: Haaland, Llorente, Bastoni, Mitchell, Araujo  bbc.comTransfer rumors, news: Mad",
-          "publisher": "Manchester Evening News",
-          "pub_date": "2026-09-28T09:39:00+00:00"
+          "title": "Nathan Cleary says 'I'll be back' after horrific injury rules him out of Rugby League World Cup",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5IWEJQVWk1Zm5WLTFEekxzSmc0S3Jtbm5md2lUOVAwMlpYU29xeHMwMEpZZldraVlBSW1RY2VSc3p5dmRLTHFDOXVGR3Q5dnlEbU1CWHZfVkhGSHhyTmVuYnNEemZqaWVuZjV2X3hB?oc=5",
+          "description": "Nathan Cleary says 'I'll be back' after horrific injury rules him out of Rugby League World Cup  bbc.com‘I’ll be back,’ Panthers star Nathan Cleary tells fans from hospital bed after surgery  The Guar",
+          "publisher": "bbc.com",
+          "pub_date": "2026-09-28T10:13:25+00:00"
         },
         {
           "title": "'Homecoming' - why Alexander left Bradford for Preston",
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrbHE0WDNyOGF1cEhOU09XQlBOc0hxTjVDSEJrX01HcWpzV2d0Nkt4NHFoR0NsZUo5VXhWR2RMemZuYWJKUDZBSTJUVVk1LWdTMmlIQTRmeVhMbVFnV3VZS3FsWHlNQlBaQ2FN?oc=5",
-          "description": "'Homecoming' - why Alexander left Bradford for Preston  bbc.co.ukSee more headlines and perspectives on Google News",
+          "description": "'Homecoming' - why Alexander left Bradford for Preston  bbc.co.ukPreston North End: Have your say on Graham Alexander's appointment  bbc.co.ukPreston North End opinion: Graham Alexander return will \"t",
           "publisher": "bbc.co.uk",
           "pub_date": "2026-09-28T11:01:18+00:00"
-        },
-        {
-          "title": "Elliot suggests new signings after questioning squad 'mentality'",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORFFfTzdQc3NPOVRsZzF0VUE3ZVlrWFRYLUVZcERLUXdqQkkwYldWQlZBeU13N3RNejl4bTlVUWhVcHU1UUtuaE9BX3l3VXJrWll2cWZVc1RUX2RObzE0aF9uX3dqaXM5VVg4NkNHWVJDRDhLc1FiOUxwdDZLVVNLRHRJOWdxZTE0Z2lfSWo0Uk5FNmw1Z1hkT0lQclhMUng2c19zVkZRY1lHVE0?oc=5",
-          "description": "Elliot suggests new signings after questioning squad 'mentality'  News & StarFeeney urges Carlisle to 'step up' after Woking loss  bbc.co.ukROB ELLIOT: \"I CAN ONLY APOLOGISE TO THE SUPPORTERS.\"  Carli",
-          "publisher": "News & Star",
-          "pub_date": "2026-09-28T04:00:00+00:00"
-        },
-        {
-          "title": "England vs Sri Lanka: Tom Banton sets up huge win in series decider",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TMTBJc2RJRWxHS2dKMmloQXFCYnlnaUQzaWFXZEhlSTIxVENnRmtWZnhXMGVKM3pITllmWXJMYTZ0ejFIOFhSREk1ekJESnZ3dEJXdm1pWUpKaU5uUTNZUFcyczg2R3ZsN3c?oc=5",
-          "description": "England vs Sri Lanka: Tom Banton sets up huge win in series decider  bbc.co.ukEngland demolish Sri Lanka in ODI series decider as Banton bashes maiden ton  The GuardianEngland vs Sri Lanka: Tom Banton",
-          "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-27T16:03:15+00:00"
-        },
-        {
-          "title": "Bodhana Sivanandan: British schoolgirl becomes youngest woman grandmaster",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ELVFqVDlQUm9TUWV3OWcxY252UGxEYUViN056dUxZTFpNWGZPYThfR0xlWTlGdE1pMDNoMjAtcTdTeXNxYTRLT3BiYU8zV1dROVB3T3RuU3BRU0dLVGc?oc=5",
-          "description": "Bodhana Sivanandan: British schoolgirl becomes youngest woman grandmaster  bbc.co.ukBritish chess prodigy, 11, becomes youngest woman grandmaster  The TimesLondon schoolgirl, 11, becomes chess’s young",
-          "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-28T09:11:30+00:00"
-        },
-        {
-          "title": "Thomas Tuchel says Jude Bellingham is better when he plays with a 'bit of rage'",
-          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQUENQN0hsYkx2czM4Si1Qc0tBQ3BqdTFfSUZvS21Da1ZXdzRXSlBfZGhNYUFNWXhXdHliblRfeG5ROEExcm5hRXJnTGpJejVPUmdqTFFsdFlxdDFZcXgzNDNGQ0drSUVZTWVGMGxCTTJLSnFueTZoV0NIU1I5bW0tdEgtbXZGOTVGQXIzWERaalV6YXVJLVJwTVZIM2Rja1Y4ZHkxU21KWE9FVDlQX05qdWJhMGEyYVI2ZVJGb1J3d2xUUm5TUm92T0JNdHBvX0dMWXEyY1ZlQlBIUlpUUFpSbVUzTDdrSDV3a3hwMmd2WFlFY2NJWUh0a3lqQklKMTg?oc=5",
-          "description": "Thomas Tuchel says Jude Bellingham is better when he plays with a 'bit of rage'  Sky SportsThomas Tuchel: Jude Bellingham is better if he plays with rage  The TimesJude Bellingham responds to on-field",
-          "publisher": "Sky Sports",
-          "pub_date": "2026-09-27T19:02:00+00:00"
         }
       ],
       "health": [
         {
-          "title": "Horror blood pressure warning issued to older adults as doctor reveals 7 simple fixes",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVUd6UFhsZFNkeVh2aUszVndrbGt4VGpRcVVHS3gyZDlnV2hsRHMtd2kzeHpnVzY0RThocVdMd1pjckRWcUdyRFJ0UXFidDZuX0djMURRZTBESGRqRjBkclZMZWRLeF9na2EtX25LTHFVUk85dWlKNFNVTG12Um5ZQnpSUmI0TlM0d25hM1daUkw2VEVBU0oxWDlZMDd4MW1U0gGmAUFVX3lxTFBfRWJyQWpVUm1QdlpuUGQ1R3FhMGlldkdaUUl0Y0swYm5wcjdFRVNxc0JOb1JDNkx5X1pKZTdTbGp4aHFpX1lMRFR6TnpsRW5qRjZlUWFwS2htUDB4bHhsYlRWcDdubmdfbGdrc1pfTlhjMUt2elJGekNKTlFHNmRwa1JkMjlIeldnMzNmMnVraDhXU2I0ZV9WZVlKSGpzZTJhdWN4eHc?oc=5",
-          "description": "Horror blood pressure warning issued to older adults as doctor reveals 7 simple fixes  express.co.ukMillions in England unaware they have ‘silent killer’ high blood pressure, research reveals  The Gua",
-          "publisher": "express.co.uk",
-          "pub_date": "2026-09-24T07:15:00+00:00"
-        },
-        {
-          "title": "Omeprazole warning as GP says 'get off them as soon as safely possible'",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMjBMUFExMkJJcmd5VUhyWXNaR2w2UThBNVFLVUREQUo1bk5INC1tUWI4eC1wam0xclhGRmNWbi14TWNuckh6Q1JtRDh5SmQ5TVdWZUFGS1hJRDZYZ0o5WUh6dEk2N2JqLU1UUE5fYzVkdS1PWDJoWExBRVEybk9nWWlmc9IBiAFBVV95cUxOOWtRSzhTbVNNeTU5LVdvZUdVYVZvcW9FSGJKWjdITDBqZWo0RFRFTWhreTNFQThzQ0hYa2tfZzJza3lhWTdiam53ejJrRDk5RHFkWHExQlV5WHdyVmdack85RG5sNXNTazJnZzBNNDUteU93TVJtWV9tcUtVczZtbWZpNnY5R0Vu?oc=5",
-          "description": "Omeprazole warning as GP says 'get off them as soon as safely possible'  The MirrorOmeprazole warning as doctor urges people to 'stop taking them as soon as possible'  Liverpool EchoDr Eric Berg gives",
-          "publisher": "The Mirror",
-          "pub_date": "2026-09-25T10:31:00+00:00"
+          "title": "From weeks to hours - the rapid new test transforming brain tumour diagnosis",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6cjN4WVNkWXZkX2hMM2FQZjhsSGpQaGVjLWktRlBfMnBlamUxQWdlWUltSWQ3ZDlwZG44dnhvUkFlcktLa3djTjQzbHJMR2FHbkxHTXZpMmI5YmJnQXc?oc=5",
+          "description": "From weeks to hours - the rapid new test transforming brain tumour diagnosis  bbc.co.uk‘Gamechanging’ brain tumour test reduces diagnosis from eight weeks to two hours  The GuardianNHS pilots rapid ge",
+          "publisher": "bbc.co.uk",
+          "pub_date": "2026-09-24T23:44:53+00:00"
         },
         {
           "title": "Visitors banned from Llanelli hospital as scabies outbreak worsens",
@@ -1261,11 +1254,11 @@
           "pub_date": "2026-09-28T12:24:00+00:00"
         },
         {
-          "title": "From weeks to hours - the rapid new test transforming brain tumour diagnosis",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6cjN4WVNkWXZkX2hMM2FQZjhsSGpQaGVjLWktRlBfMnBlamUxQWdlWUltSWQ3ZDlwZG44dnhvUkFlcktLa3djTjQzbHJMR2FHbkxHTXZpMmI5YmJnQXc?oc=5",
-          "description": "From weeks to hours - the rapid new test transforming brain tumour diagnosis  bbc.co.uk‘Gamechanging’ brain tumour test reduces diagnosis from eight weeks to two hours  The GuardianNewcastle rolls out",
-          "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-24T23:44:53+00:00"
+          "title": "Horror blood pressure warning issued to older adults as doctor reveals 7 simple fixes",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVUd6UFhsZFNkeVh2aUszVndrbGt4VGpRcVVHS3gyZDlnV2hsRHMtd2kzeHpnVzY0RThocVdMd1pjckRWcUdyRFJ0UXFidDZuX0djMURRZTBESGRqRjBkclZMZWRLeF9na2EtX25LTHFVUk85dWlKNFNVTG12Um5ZQnpSUmI0TlM0d25hM1daUkw2VEVBU0oxWDlZMDd4MW1U0gGmAUFVX3lxTFBfRWJyQWpVUm1QdlpuUGQ1R3FhMGlldkdaUUl0Y0swYm5wcjdFRVNxc0JOb1JDNkx5X1pKZTdTbGp4aHFpX1lMRFR6TnpsRW5qRjZlUWFwS2htUDB4bHhsYlRWcDdubmdfbGdrc1pfTlhjMUt2elJGekNKTlFHNmRwa1JkMjlIeldnMzNmMnVraDhXU2I0ZV9WZVlKSGpzZTJhdWN4eHc?oc=5",
+          "description": "Horror blood pressure warning issued to older adults as doctor reveals 7 simple fixes  express.co.ukMillions in England unaware they have ‘silent killer’ high blood pressure, research reveals  The Gua",
+          "publisher": "express.co.uk",
+          "pub_date": "2026-09-24T07:15:00+00:00"
         },
         {
           "title": "'I thought it was perimenopause but it was an incurable tumour'",
@@ -1282,13 +1275,6 @@
           "pub_date": "2026-09-26T09:35:09+00:00"
         },
         {
-          "title": "‘Wealth manager left my £3m charity fund earning no interest for six years’",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWFQxMnVScm5pVkxrckFBb3NDY05WSlZvNGphaGJxY0tLQk9SbXZLNWVhVjU5Y3Bza3RFS2k2Y1poUjNkMjhOZl9sSDJWa2lEWjFMcXpBaUpRa3gydm5sZTNLMXk1aS1XdFR1c0JJSkt4M090azdZeExUbnRlN2NrZHBRTUstamZFWXlIeVJ2aHU5Snh3UGlXUDdOcDBqaG94YlQzQ1NyNjR4UQ?oc=5",
-          "description": "‘Wealth manager left my £3m charity fund earning no interest for six years’  The Telegraph",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-09-28T11:15:00+00:00"
-        },
-        {
           "title": "Meningitis vaccinations offered on campus to South East freshers",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOLXZrTkRGZE12QjJZMFphYkhfcE1TakQzZUdiMUt3Y25ZT0VHOFNPRG50VHlOX254RnZtNzRmdThoZUpKRmZ6YmlkMVpaUWVWWThnMlVtdzRndk5JY1E?oc=5",
           "description": "Meningitis vaccinations offered on campus to South East freshers  bbc.co.ukHave you caught the freshman flu?  The Baylor LariatMenB vaccination clinics on campus this Wednesday, 30 September  Universi",
@@ -1296,18 +1282,11 @@
           "pub_date": "2026-09-28T05:08:57+00:00"
         },
         {
-          "title": "Are your organs ageing too fast? Take our quiz",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSjhHTmtLNERpRk1MMi01OHk1dzhleGR4U0FxQVhEWmxDUXBSaUdrSURpTnVzU1Rjb0I2MEZ3RWl1bm1WaDhObnVTMDVWMVFQMHQ2dF9oY3lNalAzUHpXTDVtS2NGTjVieVAzWjA3VlFJX2F6SzIwbXpxUDdpeDBWVVRKd3NkOTMxZEQ0bA?oc=5",
-          "description": "Are your organs ageing too fast? Take our quiz  The Telegraph",
+          "title": "‘Wealth manager left my £3m charity fund earning no interest for six years’",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWFQxMnVScm5pVkxrckFBb3NDY05WSlZvNGphaGJxY0tLQk9SbXZLNWVhVjU5Y3Bza3RFS2k2Y1poUjNkMjhOZl9sSDJWa2lEWjFMcXpBaUpRa3gydm5sZTNLMXk1aS1XdFR1c0JJSkt4M090azdZeExUbnRlN2NrZHBRTUstamZFWXlIeVJ2aHU5Snh3UGlXUDdOcDBqaG94YlQzQ1NyNjR4UQ?oc=5",
+          "description": "‘Wealth manager left my £3m charity fund earning no interest for six years’  The Telegraph",
           "publisher": "The Telegraph",
-          "pub_date": "2026-09-28T09:00:00+00:00"
-        },
-        {
-          "title": "Doctor says five simple stretches can 'reverse tinnitus'",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZVQ5eU1aYjA3cUhjREtfbHFvVS1Va0ZMSENodXF3UXRCUGxGX01NSUJmeUZfRzUyb1JGSXpyRFRMN0piU1Rxc25FRFhZQ3Z5QzlPV1pZb3JaQkVNeDZYSS1vOXdTMnNBVlFkWWVSQ2w5ek9BVlNFNGNjaHhoX0Q1blBiZmVxQQ?oc=5",
-          "description": "Doctor says five simple stretches can 'reverse tinnitus'  AOL.co.uk",
-          "publisher": "AOL.co.uk",
-          "pub_date": "2026-09-28T07:10:47+00:00"
+          "pub_date": "2026-09-28T11:15:00+00:00"
         },
         {
           "title": "Bluetongue found in Oxfordshire and Isle of Wight",
@@ -1317,11 +1296,11 @@
           "pub_date": "2026-09-28T10:52:07+00:00"
         },
         {
-          "title": "I’m 22, I’ve got brain cancer. I had to freeze my eggs",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSlVId2JmaGZhd21xTGdpQUNNV25zZVJyV1huT0Z4LTRNNHZTaHdLMk9hcVVBR1J4NzNnYVFvQ3dibG9lRlhUV21iWVo1ZDNkc1dtb0N6RWF5VU5MM3hpR3BmcXpOc0Uzc1c0ckFsMlpSZWZSSUVYbU1rWHc4SjFBbUVCSGZNM3JpTm9YbFFCcVlGeS16TlFYQ19yWjZCWG0ybWNfX0dqaVBvZ3dXUmlxbHZCdkFYMFVhQXF1TVAxMmktSjN6WG5DX0kxTkJETkZqN3c?oc=5",
-          "description": "I’m 22, I’ve got brain cancer. I had to freeze my eggs  The Times",
-          "publisher": "The Times",
-          "pub_date": "2026-09-27T19:00:00+00:00"
+          "title": "Doctor says five simple stretches can 'reverse tinnitus'",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZVQ5eU1aYjA3cUhjREtfbHFvVS1Va0ZMSENodXF3UXRCUGxGX01NSUJmeUZfRzUyb1JGSXpyRFRMN0piU1Rxc25FRFhZQ3Z5QzlPV1pZb3JaQkVNeDZYSS1vOXdTMnNBVlFkWWVSQ2w5ek9BVlNFNGNjaHhoX0Q1blBiZmVxQQ?oc=5",
+          "description": "Doctor says five simple stretches can 'reverse tinnitus'  AOL.co.uk",
+          "publisher": "AOL.co.uk",
+          "pub_date": "2026-09-28T07:10:47+00:00"
         },
         {
           "title": "NHS bodies in England impose two-year minimum wait for ADHD and autism assessments",
@@ -1331,11 +1310,11 @@
           "pub_date": "2026-09-24T21:00:00+00:00"
         },
         {
-          "title": "Infected dog prompts States Vet vaccination warning",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KVTRla3lBWWttakg1WUFsTWpwdlR1V3NGRzRoX2RQcVZfYXo4WDNzMlNyemZ1WUlCS1ZKRzBQVWFKcVNsZERiTGtVWnFibHN1Y2NCOFR1UVRmdWVZcmc?oc=5",
-          "description": "Infected dog prompts States Vet vaccination warning  bbc.co.uk",
-          "publisher": "bbc.co.uk",
-          "pub_date": "2026-09-25T15:20:07+00:00"
+          "title": "I’m 22, I’ve got brain cancer. I had to freeze my eggs",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSlVId2JmaGZhd21xTGdpQUNNV25zZVJyV1huT0Z4LTRNNHZTaHdLMk9hcVVBR1J4NzNnYVFvQ3dibG9lRlhUV21iWVo1ZDNkc1dtb0N6RWF5VU5MM3hpR3BmcXpOc0Uzc1c0ckFsMlpSZWZSSUVYbU1rWHc4SjFBbUVCSGZNM3JpTm9YbFFCcVlGeS16TlFYQ19yWjZCWG0ybWNfX0dqaVBvZ3dXUmlxbHZCdkFYMFVhQXF1TVAxMmktSjN6WG5DX0kxTkJETkZqN3c?oc=5",
+          "description": "I’m 22, I’ve got brain cancer. I had to freeze my eggs  The Times",
+          "publisher": "The Times",
+          "pub_date": "2026-09-27T19:00:00+00:00"
         },
         {
           "title": "NHS confirms new rule for all A&E waiting rooms in England",
@@ -1343,6 +1322,27 @@
           "description": "NHS confirms new rule for all A&E waiting rooms in England  express.co.ukMartha's Rule rolled out at every A&E department in England  bbc.co.ukMartha’s rule to be expanded to every A&E in England  The",
           "publisher": "express.co.uk",
           "pub_date": "2026-09-27T13:08:00+00:00"
+        },
+        {
+          "title": "Infected dog prompts States Vet vaccination warning",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KVTRla3lBWWttakg1WUFsTWpwdlR1V3NGRzRoX2RQcVZfYXo4WDNzMlNyemZ1WUlCS1ZKRzBQVWFKcVNsZERiTGtVWnFibHN1Y2NCOFR1UVRmdWVZcmc?oc=5",
+          "description": "Infected dog prompts States Vet vaccination warning  bbc.co.uk",
+          "publisher": "bbc.co.uk",
+          "pub_date": "2026-09-25T15:20:07+00:00"
+        },
+        {
+          "title": "The sleep red flags that put you at risk of dementia",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQzVPZEUzZFlYWkxSLWdBME9Td3NTb2lwY0prRzF4bUxKQXppY29XeUpndUFCZi1hdVpwZXYwZzY5VUJKZTFUUEtmMXNxbXhoSWtDdERyUUlnVWplU1BTSTRFZkpzRnFFWHhuNEtPSUp3ZlJCNlNwdXpGN0xxQjhybVQ1WU9nYXFIeUdaUThBVE4xR0swMGNpRUdERUdCb2g4T3RYdVVHZUNuaGptWDFVaW93?oc=5",
+          "description": "The sleep red flags that put you at risk of dementia  The TelegraphWant to Preserve Your Memory as You Age? New Research Points to 1 Sleep Factor  inc.comMore Sleep Has Long Been the Advice for Brain ",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-09-28T05:00:00+00:00"
+        },
+        {
+          "title": "Football to the face revealed my daughter's cancer",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uMGdCd051NjZKTmd3dGwyVDloYzJHNWhrYmk2N1g4NUFfVE0yU1lNUWc2c29LaDhEVDlYM2M3MFFFUGFKU2dOSC1ldWMxVTVEWWc0MXQ2S0YtOUptLUE?oc=5",
+          "description": "Football to the face revealed my daughter's cancer  bbc.co.uk",
+          "publisher": "bbc.co.uk",
+          "pub_date": "2026-09-27T06:21:12+00:00"
         }
       ]
     },
@@ -1352,10 +1352,10 @@
         "type": "articles",
         "items": [
           {
-            "title": "Watch: Were the RAF Fairford arrests 'pure luck'?",
-            "link": "https://www.bbc.co.uk/news/videos/c65ywnl3dvzno?at_medium=RSS&at_campaign=rss",
-            "description": "Five men have been arrested on suspicion of explosive and terrorism offences after a major incident was declared at an airbase in the west of England.",
-            "pub_date": "2026-09-28T11:44:16+00:00"
+            "title": "What we know about RAF Fairford counter-terror probe",
+            "link": "https://www.bbc.co.uk/news/articles/c85ydnwqpzyzo?at_medium=RSS&at_campaign=rss",
+            "description": "Five men have been arrested as counter-terror police lead an investigation into a major incident near the airbase.",
+            "pub_date": "2026-09-28T14:37:17+00:00"
           },
           {
             "title": "Best thing we can offer young people is a job, not benefits, says chancellor",
@@ -1378,8 +1378,8 @@
           {
             "title": "Police block Protestant Orange Order from controversial parade route",
             "link": "https://www.bbc.co.uk/news/articles/cmqlwn60yyq9o?at_medium=RSS&at_campaign=rss",
-            "description": "They had been unable to make the permitted parade on Sunday morning because protesters had gathered on the mainly-nationalist Garvaghy Road.",
-            "pub_date": "2026-09-28T13:05:04+00:00"
+            "description": "A controversial march was due to take place on Sunday morning but was blocked by protesters on the mainly-nationalist Garvaghy Road.",
+            "pub_date": "2026-09-28T14:29:25+00:00"
           },
           {
             "title": "Three dead, including child, in Channel crossing attempt",
@@ -1424,16 +1424,16 @@
             "pub_date": "2026-09-27T21:16:31+00:00"
           },
           {
-            "title": "Why the PM could finally drop the triple lock pension pledge",
-            "link": "https://www.bbc.co.uk/news/articles/c6jdvmy1287yo?at_medium=RSS&at_campaign=rss",
-            "description": "Andy Burnham said that he would make tough decisions to fund a new national care service.",
-            "pub_date": "2026-09-28T07:38:21+00:00"
-          },
-          {
             "title": "You need £17,000 for a first home - here's how to save it",
             "link": "https://www.bbc.co.uk/news/articles/cqvgy09kep21o?at_medium=RSS&at_campaign=rss",
             "description": "Here are four ways you can put money aside to save enough for a deposit on your first home.",
             "pub_date": "2026-09-28T08:21:54+00:00"
+          },
+          {
+            "title": "Andy Burnham wants to fix social care - what are the options?",
+            "link": "https://www.bbc.co.uk/news/articles/cj4k54g0ldjo?at_medium=RSS&at_campaign=rss",
+            "description": "Andy Burnham has said social care in England should be reformed - what are the possible options?",
+            "pub_date": "2026-09-28T13:58:02+00:00"
           },
           {
             "title": "How to find your perfect pillow - according to an expert",
