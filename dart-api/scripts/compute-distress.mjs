@@ -73,7 +73,7 @@ function altmanZ(f) {
     ? f.total_equity / f.total_liabilities : null;
   if (x1 === null || x2 === null || x3 === null || x4 === null) return { z: null, grade: "N/A" };
   const z = 3.25 + 6.56 * x1 + 3.26 * x2 + 6.72 * x3 + 1.05 * x4;
-  const grade = z > 2.60 ? "SAFE" : z > 1.10 ? "GREY" : "DISTRESS";
+  const grade = z > 5.85 ? "SAFE" : z >= 4.35 ? "GREY" : "DISTRESS";
   return { z, grade };
 }
 

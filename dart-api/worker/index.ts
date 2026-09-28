@@ -22,6 +22,9 @@ export interface Env {
   // Optional — 있으면 daily-crawl 결과를 카카오톡으로 통지.
   NOTIFY_URL?: string;      // e.g. "https://notify.ryanpp.com/kakao"
   NOTIFY_TOKEN?: string;    // notify worker의 NOTIFY_SECRET 값
+  // 마켓 게이트웨이만 데이터 엔드포인트 호출 허용 (wrangler secret put)
+  RAPIDAPI_PROXY_SECRET: string;    // RapidAPI Studio → Gateway → X-RapidAPI-Proxy-Secret
+  APIMARKET_GATEWAY_SECRET: string; // api.market API Source → Authentication (X-KRDART-Gateway-Key)
 }
 
 /**
@@ -45,6 +48,61 @@ type Bindings = { Bindings: Env };
 const app = new Hono<Bindings>();
 
 app.use("*", cors({ origin: "*", allowMethods: ["GET", "OPTIONS"] }));
+
+// ─────────────────────────────────────────────────────
+// Gateway 인증: 데이터 엔드포인트는 RapidAPI / api.market 프록시 경유만 허용.
+// 랜딩 데모 카드 3개(/distress)만 예외로 공개.
+// ─────────────────────────────────────────────────────
+const DATA_PATH = /^\/(companies|financials|distress|screener|events)(\/|$)/;
+const DEMO_DISTRESS = new Set(["00126380", "00164779", "00164742"]); // 삼성전자, LG전자, SK하이닉스
+
+function safeEqual(a: string | undefined, b: string | undefined): boolean {
+  if (!a || !b || a.length !== b.length) return false;
+  let diff = 0;
+  for (let i = 0; i < a.length; i++) diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return diff === 0;
+}
+
+async function sha256(s: string): Promise<string> {
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
+  return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, "0")).join("");
+}
+
+app.use("*", async (c, next) => {
+  const path = c.req.path;
+  if (c.req.method === "OPTIONS" || !DATA_PATH.test(path)) return next();
+
+  let channel: string;
+  let user = "";
+  if (safeEqual(c.req.header("X-RapidAPI-Proxy-Secret"), c.env.RAPIDAPI_PROXY_SECRET)) {
+    channel = "rapidapi";
+    user = c.req.header("X-RapidAPI-User") ?? "";
+  } else if (safeEqual(c.req.header("X-KRDART-Gateway-Key"), c.env.APIMARKET_GATEWAY_SECRET)) {
+    channel = "apimarket";
+  } else if (path.startsWith("/distress/") && DEMO_DISTRESS.has(path.slice(10))) {
+    channel = "brand";
+  } else {
+    return c.json({
+      error: "Direct access is not supported. Subscribe via RapidAPI or api.market.",
+      rapidapi: "https://rapidapi.com/krdartapi/api/krdart",
+      apimarket: "https://api.market/store/krdart/krdart-financials",
+    }, 401);
+  }
+
+  const t0 = Date.now();
+  await next();
+  const corp = path.match(/\/(\d{8})(\/|$)/)?.[1] ?? null;
+  const endpoint = path.replace(/\/\d{8}(?=\/|$)/, "/{corp_code}");
+  c.executionCtx.waitUntil((async () => {
+    try {
+      await c.env.DART_DB.prepare(
+        `INSERT INTO usage_log (channel, api_key_hash, endpoint, corp_code, status, latency_ms) VALUES (?, ?, ?, ?, ?, ?)`
+      ).bind(channel, user ? await sha256(user) : null, endpoint, corp, c.res.status, Date.now() - t0).run();
+    } catch {
+      // 로깅 실패는 응답에 영향 X
+    }
+  })());
+});
 
 // ─────────────────────────────────────────────────────
 // Health & meta
@@ -436,7 +494,8 @@ app.post("/admin/compute-distress", async (c) => {
     const rev = get("매출액", "cur"), oi = get("영업이익", "cur");
     const ni = get("당기순이익(손실)", "cur") ?? get("당기순이익", "cur");
 
-    // Altman Z (EM)
+    // Altman Z''-EM (Altman 2005): 3.25 상수 포함 버전 → 컷오프 5.85 / 4.35
+    // (상수 없는 Z'' 컷오프 2.60 / 1.10을 쓰면 3.25만큼 SAFE로 치우침)
     let altmanZ: number | null = null, altmanGrade = "N/A";
     if (ta && ta > 0) {
       const x1 = ca !== null && cl !== null ? (ca - cl) / ta : null;
@@ -445,11 +504,11 @@ app.post("/admin/compute-distress", async (c) => {
       const x4 = te !== null && tl && tl > 0 ? te / tl : null;
       if (x1 !== null && x2 !== null && x3 !== null && x4 !== null) {
         altmanZ = 3.25 + 6.56 * x1 + 3.26 * x2 + 6.72 * x3 + 1.05 * x4;
-        altmanGrade = altmanZ > 2.60 ? "SAFE" : altmanZ > 1.10 ? "GREY" : "DISTRESS";
+        altmanGrade = altmanZ > 5.85 ? "SAFE" : altmanZ >= 4.35 ? "GREY" : "DISTRESS";
       }
     }
 
-    // Piotroski F (usable subset)
+    // Piotroski-style F, 5 signals (0–5). 주요계정 API에 CFO·주식수·매출총이익이 없어 9개 중 5개만 근사.
     let pioScore = 0, usable = 0;
     const add = (v: boolean | null) => { if (v !== null) { usable++; if (v) pioScore++; } };
     add(ni !== null ? ni > 0 : null);                    // ROA > 0 (근사)

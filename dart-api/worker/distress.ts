@@ -40,9 +40,9 @@ export interface FinancialInputs {
  *   X4 = 장부가 자기자본 / 총부채
  *
  * 등급 (EM 판):
- *   Z > 2.60 → SAFE
- *   1.10 < Z <= 2.60 → GREY
- *   Z <= 1.10 → DISTRESS
+ *   Z > 5.85 → SAFE  (3.25 상수 포함 Z''-EM 기준)
+ *   4.35 <= Z <= 5.85 → GREY
+ *   Z < 4.35 → DISTRESS
  */
 export interface AltmanResult {
   z_score: number | null;
@@ -68,7 +68,7 @@ export function altmanZEm(f: FinancialInputs): AltmanResult {
   }
 
   const z = 3.25 + 6.56 * x1 + 3.26 * x2 + 6.72 * x3 + 1.05 * x4;
-  const grade: AltmanResult["grade"] = z > 2.60 ? "SAFE" : z > 1.10 ? "GREY" : "DISTRESS";
+  const grade: AltmanResult["grade"] = z > 5.85 ? "SAFE" : z >= 4.35 ? "GREY" : "DISTRESS";
   return { z_score: z, grade, components: { x1, x2, x3, x4 } };
 }
 

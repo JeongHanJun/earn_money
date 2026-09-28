@@ -49,11 +49,11 @@ their public posts show}. I built a small API on top of Korea's DART
 filings that might save you some of the XBRL wrestle:
 
 • English-labeled financials for 4,000 KOSPI/KOSDAQ names
-• Pre-computed Altman Z (EM) and Piotroski F, refreshed nightly
+• Pre-computed Altman Z (EM) and Piotroski-style F; risk events refreshed nightly
 • Cross-market risk-event stream (delisting risk, going-concern,
   audit qualifications) — the one I couldn't find aggregated anywhere
 
-Free tier is 3K/mo, no card needed. dart.ryanpp.com
+Free tier is 3K/mo, no card needed: rapidapi.com/krdartapi/api/krdart
 (or via RapidAPI: rapidapi.com/krdartapi/api/krdart)
 
 Not selling anything — I'd genuinely like your view on the composite
@@ -72,10 +72,10 @@ DART 공시에서 재무제표·상장폐지 위험·감사의견 같은 신호�
 추출하는 게 불편해서, 이걸 영문 JSON API로 만들었습니다.
 
 • KOSPI/KOSDAQ 4,000社 재무제표 (영문 라벨 매핑)
-• Altman Z (EM) + Piotroski F 사전계산 (매일 갱신)
+• Altman Z (EM) + Piotroski F 사전계산, 리스크 이벤트 매일 갱신
 • 90일 위험 공시 스트림 (관리종목, 감사의견 거절, 감자 등)
 
-dart.ryanpp.com — 3,000 req/mo 무료 티어라 카드 없이 바로 테스트 가능
+rapidapi.com/krdartapi/api/krdart — 3,000 req/mo 무료 티어라 카드 없이 바로 테스트 가능
 합니다.
 
 혹시 sell-side 워크플로우 관점에서 뭐가 빠졌는지 짧게 (10분) 피드백
@@ -95,11 +95,11 @@ if you'd find value in an API for Korean corporate lookup + distress
 signals:
 
 • 120K registered entities, DART master lookup by name/ticker
-• Nightly Altman Z + Piotroski F for KOSPI/KOSDAQ
+• Pre-computed Altman Z + Piotroski-style F for KOSPI/KOSDAQ
 • 90-day risk-event feed (going-concern, delisting risk, etc.) —
   useful for periodic review triggers
 
-Free tier: 3K/mo, dart.ryanpp.com. Would 15 min next week to
+Free tier: 3K/mo on rapidapi.com/krdartapi/api/krdart. Would 15 min next week to
 understand what compliance workflows need be too much to ask?
 
 — {yourName}

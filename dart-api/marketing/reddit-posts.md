@@ -107,12 +107,12 @@ What I want to swap in but haven't:
 - z-score residual vs sector median rather than absolute thresholds
 
 Anyone using EM Altman in production have views on whether the 2005
-constant (3.25) is still calibrated for post-COVID Korea? My gut says
-the SAFE cutoff at 2.60 is too optimistic for Korean small-caps but I
-haven't done the empirical work.
+calibration (3.25 constant, SAFE > 5.85 / DISTRESS < 4.35) still holds
+for post-COVID Korea? I haven't done the empirical work on Korean
+small-caps yet.
 
-Sample: /distress/00126380 (Samsung) → Z=8.70 SAFE, F=4, composite=0
-LOW. Bottom-quintile mostly small-cap KOSDAQ names.
+Sample: /distress/00126380 (Samsung) → Z=8.57 SAFE, F=2/5 MID,
+composite=10 LOW. Bottom-quintile mostly small-cap KOSDAQ names.
 
 Free tier is 3K/mo if you want to poke at it, no credit card. Just
 looking for methodology critique — trade secrets welcome.

@@ -66,7 +66,7 @@ h2{font-size:22px;margin:48px 0 16px;letter-spacing:-.01em;font-weight:700}
 .card p{margin:0;color:var(--muted);font-size:13px}
 pre{background:var(--codebg);color:var(--code);padding:14px 16px;border-radius:10px;overflow:auto;font-size:13px;line-height:1.5;border:1px solid var(--border);margin:0}
 code{font:13px "SF Mono",Menlo,Consolas,monospace}
-.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:16px}
+.pricing{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:16px}
 .tier{border:1px solid var(--border);border-radius:12px;padding:18px}
 .tier.rec{border-color:var(--acc);position:relative}
 .tier.rec:before{content:"RECOMMENDED";position:absolute;top:-10px;left:12px;background:var(--acc);color:#fff;padding:2px 8px;border-radius:4px;font-size:10px;font-weight:700;letter-spacing:.05em}
@@ -98,6 +98,7 @@ th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--border)}
 th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
 footer{margin-top:80px;padding-top:24px;border-top:1px solid var(--border);color:var(--muted);font-size:12px}
 footer a{color:var(--muted)}
+@media(max-width:860px){.pricing{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){.grid,.pricing{grid-template-columns:1fr}h1{font-size:28px}}
 </style>
 </head>
@@ -125,9 +126,9 @@ footer a{color:var(--muted)}
 
 <h2 id="what">What you get</h2>
 <div class="grid">
-  <div class="card"><h3>English-labeled statements</h3><p>Balance sheet, income statement, cash flow — with English account names on top of the IFRS taxonomy. Current + two prior periods per call.</p></div>
-  <div class="card"><h3>Altman Z (Emerging Markets)</h3><p>Pre-computed nightly for every listed company. Response is O(1) — served from cache, no on-the-fly compute.</p></div>
-  <div class="card"><h3>Piotroski F-Score</h3><p>Nine accounting signals rolled into a 0–9 score. Grades: STRONG · MID · WEAK · N/A.</p></div>
+  <div class="card"><h3>English-labeled statements</h3><p>Key balance-sheet and income-statement accounts with English names. Current + two prior periods per call, consolidated basis.</p></div>
+  <div class="card"><h3>Altman Z (Emerging Markets)</h3><p>Z&#8243;-EM (Altman 2005) with the 3.25 constant: SAFE &gt; 5.85, GREY 4.35–5.85, DISTRESS &lt; 4.35. Pre-computed and served from cache.</p></div>
+  <div class="card"><h3>Piotroski-style F-Score</h3><p>Five accounting signals (profitability, earnings growth, margin, leverage, liquidity) scored 0–5. Grades: STRONG 4–5 · MID 2–3 · WEAK 0–1.</p></div>
   <div class="card"><h3>Risk event stream</h3><p>Delisting risk, going-concern doubt, audit qualification, capital reduction, major shareholder change. Detected from DART filing titles, source rcept_no kept for citation.</p></div>
 </div>
 
@@ -140,65 +141,70 @@ footer a{color:var(--muted)}
 </div>
 
 <h2 id="demo">Try in your terminal</h2>
-<pre><code>$ curl https://dart.ryanpp.com/companies/search?q=samsung&amp;limit=3
+<p style="color:var(--muted);margin:0 0 8px;font-size:13px">Get a free key on RapidAPI (Basic plan, 3,000 requests/month) or api.market, then:</p>
+<pre><code>$ curl "https://krdart.p.rapidapi.com/companies/search?q=samsung&amp;limit=3"     -H "X-RapidAPI-Key: YOUR_KEY" -H "X-RapidAPI-Host: krdart.p.rapidapi.com"
 {
   "query": "samsung",
   "count": 3,
   "results": [
     { "corp_code": "00126380", "corp_name": "삼성전자",
-      "corp_name_eng": "SAMSUNG ELECTRONICS CO.,LTD",
+      "corp_name_eng": "SAMSUNG ELECTRONICS CO,.LTD",
       "stock_code": "005930", "market": "LISTED" },
     ...
   ]
 }
 
-$ curl https://dart.ryanpp.com/distress/00126380
+$ curl "https://krdart.p.rapidapi.com/distress/00126380" -H "X-RapidAPI-Key: YOUR_KEY" ...
 {
   "corp_code": "00126380",
-  "fiscal_year": 2024,
-  "altman_z_em": 8.70,   "altman_grade": "SAFE",
-  "piotroski_f": 4,      "piotroski_grade": "STRONG",
+  "altman_z_em": 8.57,   "altman_grade": "SAFE",
+  "piotroski_f": 2,      "piotroski_grade": "MID",
   "risk_events_90d": 0,
-  "composite_risk": 0,   "composite_grade": "LOW",
+  "composite_risk": 10,  "composite_grade": "LOW",
   "recent_events": []
 }</code></pre>
 
 <h2 id="pricing">Pricing</h2>
 <div class="pricing">
   <div class="tier">
-    <h3 style="margin:0;font-size:13px;letter-spacing:.05em;color:var(--muted)">HOBBY</h3>
-    <div class="price">$9<small>/mo</small></div>
-    <p style="margin:0;color:var(--muted);font-size:12px">Weekend research, small quant projects.</p>
+    <h3 style="margin:0;font-size:13px;letter-spacing:.05em;color:var(--muted)">BASIC</h3>
+    <div class="price">$0<small>/mo</small></div>
+    <p style="margin:0;color:var(--muted);font-size:12px">Try every endpoint.</p>
     <ul>
-      <li>1,000 requests / day</li>
+      <li>3,000 requests / month</li>
       <li>All endpoints</li>
-      <li>Community support</li>
-    </ul>
-  </div>
-  <div class="tier rec">
-    <h3 style="margin:0;font-size:13px;letter-spacing:.05em;color:var(--muted)">PRO</h3>
-    <div class="price">$49<small>/mo</small></div>
-    <p style="margin:0;color:var(--muted);font-size:12px">Sell-side, fintech, compliance workflows.</p>
-    <ul>
-      <li>25,000 requests / day</li>
-      <li>90-day risk-event stream</li>
-      <li>Email support · SLA 24h</li>
-      <li>Commercial redistribution*</li>
     </ul>
   </div>
   <div class="tier">
-    <h3 style="margin:0;font-size:13px;letter-spacing:.05em;color:var(--muted)">TEAM</h3>
-    <div class="price">$199<small>/mo</small></div>
-    <p style="margin:0;color:var(--muted);font-size:12px">Hedge funds, buy-side desks, banks.</p>
+    <h3 style="margin:0;font-size:13px;letter-spacing:.05em;color:var(--muted)">PRO</h3>
+    <div class="price">$9<small>/mo</small></div>
+    <p style="margin:0;color:var(--muted);font-size:12px">Weekend research, small quant projects.</p>
     <ul>
-      <li>250,000 requests / day</li>
-      <li>Distress delta webhooks</li>
-      <li>Dedicated Slack channel</li>
-      <li>Higher rate limits on demand</li>
+      <li>30,000 requests / month</li>
+      <li>All endpoints</li>
+    </ul>
+  </div>
+  <div class="tier rec">
+    <h3 style="margin:0;font-size:13px;letter-spacing:.05em;color:var(--muted)">ULTRA</h3>
+    <div class="price">$49<small>/mo</small></div>
+    <p style="margin:0;color:var(--muted);font-size:12px">Screening the full market daily.</p>
+    <ul>
+      <li>750,000 requests / month</li>
+      <li>All endpoints</li>
+    </ul>
+  </div>
+  <div class="tier">
+    <h3 style="margin:0;font-size:13px;letter-spacing:.05em;color:var(--muted)">MEGA</h3>
+    <div class="price">$199<small>/mo</small></div>
+    <p style="margin:0;color:var(--muted);font-size:12px">Funds and data pipelines.</p>
+    <ul>
+      <li>6,500,000 requests / month</li>
+      <li>All endpoints</li>
     </ul>
   </div>
 </div>
-<p style="font-size:12px;color:var(--muted);margin-top:12px">* Derived indicators only. Original DART filings must be linked back to <code>dart.fss.or.kr</code>.</p>
+<p style="font-size:13px;margin-top:12px">Subscribe on <a href="https://rapidapi.com/krdartapi/api/krdart" target="_blank" rel="noopener">RapidAPI</a> or <a href="https://api.market/store/krdart/krdart-financials" target="_blank" rel="noopener">api.market</a>. Keys, billing and quotas are handled by the marketplace.</p>
+<p style="font-size:12px;color:var(--muted);margin-top:4px">Derived indicators only. Original DART filings must be linked back to <code>dart.fss.or.kr</code>.</p>
 
 <h2 id="endpoints">Endpoints</h2>
 <table>
@@ -250,7 +256,7 @@ $ curl https://dart.ryanpp.com/distress/00126380
       body.innerHTML =
         `<div class="row"><span class="k">Period</span><span class="v">${period}</span></div>` +
         `<div class="row"><span class="k">Altman Z (EM)</span><span class="v">${d.altman_z_em == null ? "—" : d.altman_z_em.toFixed(2)} <span class="badge-g g-${d.altman_grade}">${d.altman_grade}</span></span></div>` +
-        `<div class="row"><span class="k">Piotroski F</span><span class="v">${d.piotroski_f ?? "—"}/9 <span class="badge-g g-${d.piotroski_grade}">${d.piotroski_grade}</span></span></div>` +
+        `<div class="row"><span class="k">Piotroski F</span><span class="v">${d.piotroski_f ?? "—"}/5 <span class="badge-g g-${d.piotroski_grade}">${d.piotroski_grade}</span></span></div>` +
         `<div class="row"><span class="k">Composite risk</span><span class="v">${d.composite_risk} <span class="badge-g g-${d.composite_grade}">${d.composite_grade}</span></span></div>`;
     }).catch(() => {
       card.querySelector(".pbody").textContent = "Error loading";

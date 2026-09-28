@@ -128,7 +128,7 @@ paths:
       summary: Pre-computed distress signals
       description: |
         Altman Z-Score (Emerging Markets variant, Altman 2005) +
-        Piotroski F-Score (0-9) + 90-day risk event count +
+        Piotroski-style F-Score (5 signals, 0-5) + 90-day risk event count +
         composite risk score (0-100, higher = riskier).
         Response is O(1) — served from a nightly cache.
       tags: [Distress]
@@ -215,12 +215,12 @@ components:
         altman_z_em:
           type: number
           nullable: true
-          description: "Altman EM Z-Score. >2.60 SAFE, 1.10-2.60 GREY, <1.10 DISTRESS"
+          description: "Altman Z''-EM (with 3.25 constant). >5.85 SAFE, 4.35-5.85 GREY, <4.35 DISTRESS"
         altman_grade: { type: string, enum: [SAFE, GREY, DISTRESS, "N/A"] }
         piotroski_f:
           type: integer
           nullable: true
-          description: "Piotroski F-Score (0-9). 7-9 STRONG, 4-6 MID, 0-3 WEAK"
+          description: "Piotroski-style F-Score over 5 signals (ROA>0, net income growth, operating margin>5%, debt/assets<0.5, current ratio>1). 4-5 STRONG, 2-3 MID, 0-1 WEAK"
         piotroski_grade: { type: string, enum: [STRONG, MID, WEAK, "N/A"] }
         risk_events_90d:
           type: integer
