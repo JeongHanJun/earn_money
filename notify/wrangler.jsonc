@@ -9,7 +9,7 @@
   "routes": [
     { "pattern": "notify.ryanpp.com", "custom_domain": true }
   ],
-  // 매일 09:00 KST — Kakao refresh token 연장 (keepalive)
+  // 매일 09:00 KST — Kakao refresh token 연장 (keepalive) + 일일 현황 카톡
   "triggers": { "crons": ["0 0 * * *"] },
   "vars": { "FORWARD_TO": "hanjunjung@gmail.com" },
   "d1_databases": [
@@ -18,6 +18,12 @@
       "database_name": "notify-db",
       "database_id": "78369f90-1173-49b3-839b-d662b701abc8",
       "migrations_dir": "migrations"
+    },
+    {
+      // KRDART usage_log 를 일일 현황에 쓰기 위한 읽기 전용 용도의 바인딩
+      "binding": "DART_DB",
+      "database_name": "dart-db",
+      "database_id": "179ed8f3-1622-4f31-8953-833db5b8212b"
     }
   ]
   // Secrets (wrangler secret put):

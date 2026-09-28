@@ -8,6 +8,7 @@ type Env = {
   NOTIFY_SECRET: string;
   ADMIN_SECRET: string;
   FORWARD_TO: string; // 메일 원래 수신함 (Email Routing 에서 인증된 주소여야 함)
+  DART_DB: D1Database; // KRDART usage_log 조회용 (읽기 전용으로만 사용)
 };
 
 type TokenRow = {
@@ -150,7 +151,7 @@ const MAIL_RULES: MailRule[] = [
     from: /api\.market/i,
     subject: /review|approv|reject|live|publish|subscri|payment|payout|invoice|order|심사|승인|반려/i,
     skip: /sign in|otp|welcome|newsletter/i,
-    url: "https://api.market/seller-console",
+    url: "https://api.market/seller/krdart/products",
   },
   {
     name: "RapidAPI",
@@ -158,6 +159,14 @@ const MAIL_RULES: MailRule[] = [
     subject: /subscri|payment|payout|invoice|review|approv|reject|message|issue|question/i,
     skip: /verify your email|stand out|spotlight|newsletter/i,
     url: "https://rapidapi.com/studio",
+  },
+  {
+    // 가입·인증코드·주소 변경 같은 안내는 빼고, 은행 소액인증·입금·출금만 알린다
+    name: "PayPal",
+    from: /paypal/i,
+    subject: /받았|입금|출금|송금|소액|계좌 확인|확인.*계좌|payment|received|withdraw|transfer|deposit|confirm your bank/i,
+    skip: /인증 코드|새 주소|비즈니스 활성화|code/i,
+    url: "https://www.paypal.com/myaccount/money",
   },
   // 본인 Gmail에서 제목에 [notify-test] 를 넣어 보내면 전체 경로(메일 → Worker → 카톡) 점검
   { name: "테스트", from: /hanjunjung@gmail\.com/i, subject: /\[notify-test\]/i, url: "https://notify.ryanpp.com/health" },
@@ -177,22 +186,102 @@ async function email(message: ForwardableEmailMessage, env: Env, ctx: ExecutionC
   ctx.waitUntil(notify(env, { title: `${rule.name} 메일`, body: subject, url: rule.url }).catch(() => {}));
 }
 
-// Kakao refresh token 은 갱신 호출이 있어야 연장된다. 알림이 뜸한 시기에도 끊기지 않도록 매일 한 번 갱신한다.
+// 매일 09:00 KST: Kakao refresh token 연장(keepalive) 후 전 서비스 현황을 카톡 한 통으로 보낸다.
 async function scheduled(_event: ScheduledController, env: Env, ctx: ExecutionContext) {
   ctx.waitUntil(
     (async () => {
-      const tokens = await readTokens(env);
-      if (!tokens) return;
-      const refreshed = await refresh(env, tokens.refresh_token);
-      const daysLeft = Math.floor((refreshed.refresh_expires_at - nowSec()) / 86400);
-      if (daysLeft < 7) {
-        await notify(env, {
-          title: "notify 토큰 만료 임박",
-          body: `Kakao refresh token ${daysLeft}일 남음 — npm run auth:init 으로 재인증 필요`,
-        });
+      let daysLeft: number | null = null;
+      try {
+        const tokens = await readTokens(env);
+        if (tokens) {
+          const refreshed = await refresh(env, tokens.refresh_token);
+          daysLeft = Math.floor((refreshed.refresh_expires_at - nowSec()) / 86400);
+        }
+      } catch (err: any) {
+        await log(env, "kakao", "keepalive-error", 0, String(err?.message ?? err).slice(0, 400));
       }
-    })().catch((err) => log(env, "kakao", "keepalive-error", 0, String(err?.message ?? err).slice(0, 400))),
+      const text = await buildDigest(env, daysLeft);
+      await notify(env, { body: text });
+    })().catch((err) => log(env, "digest", "error", 0, String(err?.message ?? err).slice(0, 400))),
   );
+}
+
+/**
+ * GET /admin/digest?secret=<ADMIN_SECRET>[&send=1]
+ * 일일 현황 미리보기. send=1 이면 카톡으로도 보낸다.
+ */
+app.get("/admin/digest", async (c) => {
+  if (c.req.query("secret") !== c.env.ADMIN_SECRET) return c.json({ error: "unauthorized" }, 401);
+  const tokens = await readTokens(c.env);
+  const daysLeft = tokens ? Math.floor((tokens.refresh_expires_at - nowSec()) / 86400) : null;
+  const text = await buildDigest(c.env, daysLeft);
+  if (c.req.query("send") === "1") await notify(c.env, { body: text });
+  return c.json({ text, length: text.length });
+});
+
+// 카톡 메모 텍스트는 200자 제한이라 항목당 한 줄로 압축한다. 이상 징후는 ⚠ 줄로 맨 아래에 모은다.
+async function buildDigest(env: Env, kakaoDaysLeft: number | null): Promise<string> {
+  const since = nowSec() - 86400;
+  const warn: string[] = [];
+  const lines: string[] = [];
+  const kst = new Date(Date.now() + 9 * 3600e3);
+  const ymd = (d: Date) => d.toISOString().slice(0, 10);
+
+  // KRDART: 마켓 경유(유료 채널) 호출 = 실제 사용자 신호
+  try {
+    const { results } = await env.DART_DB.prepare(
+      "SELECT channel, COUNT(*) n, SUM(status >= 400) err FROM usage_log WHERE ts > ? GROUP BY channel",
+    ).bind(since).all<{ channel: string; n: number; err: number }>();
+    const by = Object.fromEntries(results.map((r) => [r.channel, r]));
+    const r = by.rapidapi?.n ?? 0, a = by.apimarket?.n ?? 0;
+    lines.push(`KRDART 24h 호출 Rapid ${r} · api.market ${a}${r + a > 0 ? " 🎉" : ""}`);
+    const errs = results.reduce((s, x) => s + (x.err ?? 0), 0);
+    if (errs > 0) warn.push(`KRDART 오류응답 ${errs}건`);
+  } catch (e: any) {
+    warn.push("KRDART usage 조회 실패");
+  }
+  try {
+    const st: any = await (await fetch("https://dart.ryanpp.com/stats")).json();
+    const f = String(st.last_filing_dt ?? "");
+    lines.push(`공시 최신 ${f.slice(4, 6)}/${f.slice(6, 8)} · 위험이벤트90d ${st.risk_events_90d}`);
+    const fd = new Date(`${f.slice(0, 4)}-${f.slice(4, 6)}-${f.slice(6, 8)}T00:00:00Z`);
+    if (!(kst.getTime() - fd.getTime() < 6 * 86400e3)) warn.push("공시 수집 6일+ 정체");
+  } catch {
+    warn.push("dart.ryanpp.com 응답 없음");
+  }
+
+  // lotto: 매주 토요일 추첨 → 8일 넘게 안 바뀌면 수집 실패
+  try {
+    const l: any = await (await fetch("https://lotto.ryanpp.com/api/latest")).json();
+    lines.push(`lotto ${l.drw_no}회(${String(l.drw_date).slice(5)})`);
+    if (kst.getTime() - new Date(`${l.drw_date}T00:00:00Z`).getTime() > 8 * 86400e3) warn.push("lotto 회차 갱신 안 됨");
+  } catch {
+    warn.push("lotto 응답 없음");
+  }
+
+  // GitHub Actions (공개 리포라 토큰 불필요): 최근 24시간 실패
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/JeongHanJun/earn_money/actions/runs?per_page=50&created=>${new Date(since * 1000).toISOString()}`,
+      { headers: { "User-Agent": "notify-digest", Accept: "application/vnd.github+json" } },
+    );
+    const j: any = await res.json();
+    const fails = new Set<string>();
+    for (const run of j.workflow_runs ?? []) if (run.conclusion === "failure") fails.add(run.name);
+    if (fails.size) warn.push(`Actions 실패: ${[...fails].join(", ")}`);
+  } catch {
+    warn.push("GitHub Actions 조회 실패");
+  }
+
+  // notify 자체: 카톡 토큰 수명, 최근 24h 전송 오류
+  const err = await env.NOTIFY_DB.prepare(
+    "SELECT COUNT(*) n FROM notify_log WHERE ts > ? AND event LIKE '%error%'",
+  ).bind(since).first<{ n: number }>();
+  lines.push(`카톡토큰 D-${kakaoDaysLeft ?? "?"}`);
+  if (kakaoDaysLeft !== null && kakaoDaysLeft < 14) warn.push("카톡 재인증 필요(npm run auth:init)");
+  if ((err?.n ?? 0) > 0) warn.push(`알림 오류 ${err!.n}건`);
+
+  return [`[일일 현황 ${ymd(kst).slice(5)}]`, ...lines, ...(warn.length ? warn.map((w) => `⚠ ${w}`) : ["✅ 이상 없음"])].join("\n");
 }
 
 export default { fetch: app.fetch, email, scheduled };
