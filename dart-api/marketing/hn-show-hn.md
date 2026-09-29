@@ -11,7 +11,7 @@ Show HN: KRDART – English JSON on top of Korea's DART filings, with distress s
 
 Alternates (backups if first flops within 30 min):
 ```
-Show HN: An English API for Korea's XBRL filings + Altman Z & Piotroski F
+Show HN: An English API for Korea's XBRL filings + Altman Z & Piotroski-style F
 ```
 ```
 Show HN: KOSPI/KOSDAQ financials + distress signals as an API
@@ -22,7 +22,7 @@ Show HN: KOSPI/KOSDAQ financials + distress signals as an API
 ```
 Hi HN — I built KRDART, an API that turns Korea's DART filings (FSS's EDGAR
 equivalent) into clean English JSON, and adds pre-computed distress signals
-on top: Altman Z-Score (Emerging Markets variant) + Piotroski F-Score + a
+on top: Altman Z''-Score (Emerging Markets) + a Piotroski-style F-Score + a
 90-day risk-event stream (delisting risk, going-concern doubt, audit
 qualification, capital reduction, major shareholder change).
 
@@ -59,7 +59,8 @@ What's actually novel
   each response carries rcept_no so you can pull the source.
 
 Coverage right now: ~120K registered entities, ~4,000 KOSPI/KOSDAQ listed,
-2,750+ distress scores for FY24, and daily risk-event crawl.
+~2,750 distress scores per fiscal year (FY2022–FY2024 annual, plus
+FY2025 half-year), and a daily risk-event crawl.
 
 Stack
 
@@ -69,18 +70,18 @@ Stack
 - OpenAPI 3.0.3 spec (RapidAPI doesn't accept 3.1 yet, learned that the
   hard way).
 
-Pricing: Free tier (3K/mo), then $9/$49/$199 monthly. Same tiers mirrored
-on RapidAPI and api.market.
+Pricing: Free tier (3K req/mo) on RapidAPI, then $9/$49/$199 monthly.
+(An api.market listing with the same tiers is in review.)
 
 Honest limitations I know about
 
-- Piotroski F uses a 5-signal subset because fnlttSinglAcnt doesn't expose
-  everything the 9-signal version needs. Grade is still directionally
-  right, but STRONG doesn't mean textbook-9.
+- The F-score is Piotroski-style, not the textbook 9-signal version: it
+  uses the 5 signals the fnlttSinglAcnt data supports and scores 0–5
+  (STRONG 4–5, MID 2–3, WEAK 0–1).
 - CFS (consolidated) only right now. OFS (separate) coming after v0.2 if
   people ask.
-- Historical financials go back 3 fiscal years (2022–2024). Quarterly
-  (11013/11014) is on the roadmap; annual is what's live.
+- Financials cover FY2022–FY2024 annual plus FY2025 half-year. Q1/Q3
+  (11013/11014) are on the roadmap.
 - Not investment advice. Please read the terms — this is derived
   indicators, not signals to trade.
 
@@ -103,8 +104,9 @@ If distress method challenged:
 Fair — Altman Z (EM) is the 2005 revision by Altman himself, aimed at
 non-US markets where market data is less reliable. Formula:
 3.25 + 6.56·X1 + 3.26·X2 + 6.72·X3 + 1.05·X4. No X5 (sales/assets)
-because it varies too much cross-industry. Details in the /distress
-endpoint description.
+because it varies too much cross-industry. Because of the 3.25
+constant the zones are >5.85 safe, 4.35–5.85 grey, <4.35 distress.
+Details in the /distress endpoint description.
 ```
 
 ## What to reply to & what to ignore

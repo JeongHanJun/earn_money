@@ -1,7 +1,7 @@
 # KRDART Launch Marketing Kit
 
 Ready-to-fire copy for the launch sequence. All copy is drafted for
-**immediate execution** the moment RapidAPI/api.market心사 통과.
+**immediate execution**. RapidAPI is live, so launch does not wait for api.market.
 
 ## Execution order
 
@@ -33,7 +33,7 @@ T=+7d   → begin `linkedin-outreach.md` (3–5 messages/day, 20 total)
 - [ ] `dart.ryanpp.com` loads and stats widget shows real numbers
 - [ ] `/openapi.yaml` accessible
 - [ ] GitHub examples repo public and README polished
-- [ ] `/health` and 3 core endpoints return 200 with real data
+- [ ] `/health` 200, landing demo (`/distress/00126380`) 200, direct data calls 401, RapidAPI playground call 200
 - [ ] Landing page mentions RapidAPI + api.market links (add once live URLs known)
 - [ ] Twitter/X handle for HN sig (optional but adds trust)
 

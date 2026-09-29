@@ -15,7 +15,7 @@ effort.
 ### Title (max 300 chars — keep short)
 
 ```
-Built an API that turns Korea's DART filings into English JSON + distress scores (Altman Z EM + Piotroski F)
+Built an API that turns Korea's DART filings into English JSON + distress scores (Altman Z EM + Piotroski-style F)
 ```
 
 ### Body
@@ -27,7 +27,7 @@ walls every quant hits with Korean data:
 1. DART (Korea's EDGAR) returns XBRL with Korean labels. The IFRS
    taxonomy IDs are there in theory but ~30% come back blank from the
    summary endpoint.
-2. Distress scores (Altman Z, Piotroski F) aren't published — you need
+2. Distress scores (Altman Z, Piotroski-style F) aren't published — you need
    Refinitiv or you compute them from raw XBRL.
 3. Risk events (going-concern doubt, delisting risk, audit qualification,
    capital reduction) exist as Korean text buried in filing titles.
@@ -39,11 +39,11 @@ Built an API around solving those 3 problems. Live at dart.ryanpp.com
 What it does
 - /companies/search?q= — search by Korean name, English name, or ticker
 - /financials/{corp_code}?year=2024 — BS/IS/CF with English labels
-- /distress/{corp_code} — Altman Z EM + Piotroski F + composite risk
+- /distress/{corp_code} — Altman Z EM + Piotroski-style F (5 signals) + composite risk
 - /events/recent?days=30&type=DELISTING_RISK — cross-market event stream
 
 Coverage: 4,000 KOSPI/KOSDAQ, 120K registered entities, 3 fiscal years
-back (2022–2024). Distress precomputed nightly (O(1) response).
+back (FY2022–FY2024 annual + FY2025 half-year). Distress precomputed nightly (O(1) response).
 
 Quant use cases I actually care about
 - Weekly rebalance screen: pull /events/recent and drop names where
@@ -82,7 +82,7 @@ positive signal (upvoted, decent comments). Otherwise skip.
 ### Title
 
 ```
-Korean market data API with pre-computed Altman Z (EM) and Piotroski F — feedback wanted on the composite risk formula
+Korean market data API with pre-computed Altman Z (EM) and Piotroski-style F — feedback wanted on the composite risk formula
 ```
 
 ### Body

@@ -72,7 +72,7 @@ DART 공시에서 재무제표·상장폐지 위험·감사의견 같은 신호�
 추출하는 게 불편해서, 이걸 영문 JSON API로 만들었습니다.
 
 • KOSPI/KOSDAQ 4,000社 재무제표 (영문 라벨 매핑)
-• Altman Z (EM) + Piotroski F 사전계산, 리스크 이벤트 매일 갱신
+• Altman Z (EM) + Piotroski식 F(5신호) 사전계산, 리스크 이벤트 매일 갱신
 • 90일 위험 공시 스트림 (관리종목, 감사의견 거절, 감자 등)
 
 rapidapi.com/krdartapi/api/krdart — 3,000 req/mo 무료 티어라 카드 없이 바로 테스트 가능
