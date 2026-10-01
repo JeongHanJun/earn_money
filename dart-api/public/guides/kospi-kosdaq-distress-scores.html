@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Distress scores for KOSPI &amp; KOSDAQ companies (Altman Z&#x27;&#x27; EM, Piotroski-style F) | KRDART</title><meta name="description" content="Pre-computed Altman Z&#x27;&#x27;-EM and Piotroski-style F-scores for Korean listed companies, with methodology and the FY2024 distribution across ~2,750 companies.">
+<link rel="canonical" href="https://dart.ryanpp.com/guides/kospi-kosdaq-distress-scores"><link rel="icon" href="/favicon.png"><style>
+*{box-sizing:border-box}body{margin:0;font:16px/1.65 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#1b2430;background:#f7f8fb}
+header{background:#0f1b33;color:#fff;padding:14px 20px}header a{color:#fff;text-decoration:none;font-weight:700}
+main{max-width:820px;margin:0 auto;padding:28px 20px 60px}h1{font-size:30px;line-height:1.25;margin:.2em 0 .4em}
+h2{font-size:22px;margin:1.8em 0 .5em}p,li{color:#2d3748}code{background:#eef1f6;padding:1px 5px;border-radius:4px;font-size:.92em}
+pre{background:#0f1b33;color:#e6edf7;padding:14px 16px;border-radius:8px;overflow-x:auto;font-size:13.5px;line-height:1.5}
+pre code{background:none;padding:0;color:inherit}table{border-collapse:collapse;width:100%;margin:10px 0;font-size:15px}
+th,td{border-bottom:1px solid #e3e7ee;padding:7px 10px;text-align:left}th{background:#eef1f6}
+.cta{display:inline-block;background:#2f5597;color:#fff;padding:11px 18px;border-radius:8px;text-decoration:none;font-weight:700;margin:6px 8px 6px 0}
+.note{font-size:14px;color:#5a6475}nav.more a{display:block;margin:4px 0}footer{text-align:center;font-size:13px;color:#7a8394;padding:24px}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Distress scores for KOSPI & KOSDAQ companies (Altman Z'' EM, Piotroski-style F)", "description": "Pre-computed Altman Z''-EM and Piotroski-style F-scores for Korean listed companies, with methodology and the FY2024 distribution across ~2,750 companies.", "url": "https://dart.ryanpp.com/guides/kospi-kosdaq-distress-scores", "publisher": {"@type": "Organization", "name": "KRDART"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What Altman Z cutoffs apply to Korean companies?", "acceptedAnswer": {"@type": "Answer", "text": "KRDART uses the Emerging Markets Z'' model with the 3.25 constant, where scores above 5.85 are safe, 4.35 to 5.85 grey, and below 4.35 distress."}}, {"@type": "Question", "name": "How many Korean listed companies are in the Altman distress zone?", "acceptedAnswer": {"@type": "Answer", "text": "For FY2024 annual reports, 672 of about 2,750 scored companies fall in the distress zone, 299 in the grey zone and 1,673 in the safe zone."}}]}</script></head>
+<body><header><a href="/">KRDART</a> · Korea DART financials & distress API</header><main>
+<h1>Distress scores for KOSPI &amp; KOSDAQ companies (Altman Z&#x27;&#x27; EM, Piotroski-style F)</h1><p>KRDART pre-computes bankruptcy and quality signals for every listed company with enough data, so a full-market screen is one request instead of thousands.</p>
+<h2>Altman Z''-Score (Emerging Markets)</h2><p><code>Z'' = 3.25 + 6.56·X1 + 3.26·X2 + 6.72·X3 + 1.05·X4</code> where X1 = working capital / total assets, X2 = retained earnings / total assets,
+X3 = operating income / total assets (EBIT proxy), X4 = book equity / total liabilities. Because of the 3.25 constant the zones are
+<b>&gt; 5.85 safe</b>, <b>4.35–5.85 grey</b>, <b>&lt; 4.35 distress</b>.</p>
+<h2>Piotroski-style F-score (0–5)</h2><p>The textbook F-score uses 9 signals; the DART single-account data supports 5 of them, so KRDART reports a 0–5 score
+(STRONG 4–5, MID 2–3, WEAK 0–1). It is directionally useful, not the 9-point original.</p>
+<h2>FY2024 distribution (annual reports)</h2><table><tr><th>Altman zone</th><th>Companies</th></tr>
+<tr><td>SAFE</td><td>1,673</td></tr><tr><td>GREY</td><td>299</td></tr><tr><td>DISTRESS</td><td>672</td></tr><tr><td>N/A (insufficient data)</td><td>110</td></tr></table>
+<p>The composite grade combines both scores and recent risk events: LOW 1,682 · MEDIUM 343 · HIGH 79 · CRITICAL 650.</p>
+<h2>Example: Samsung Electronics (FY2025 half-year)</h2><pre><code>{
+  &quot;corp_code&quot;: &quot;00126380&quot;,
+  &quot;fiscal_year&quot;: 2025,
+  &quot;report_type&quot;: &quot;11012&quot;,
+  &quot;altman_z_em&quot;: 8.57,
+  &quot;altman_grade&quot;: &quot;SAFE&quot;,
+  &quot;piotroski_f&quot;: 2,
+  &quot;piotroski_grade&quot;: &quot;MID&quot;,
+  &quot;risk_events_90d&quot;: 0,
+  &quot;composite_risk&quot;: 10,
+  &quot;composite_grade&quot;: &quot;LOW&quot;,
+  &quot;recent_events&quot;: []
+}</code></pre>
+<pre><code>curl -s &quot;https://krdart.p.rapidapi.com/distress/00126380&quot; \
+  -H &quot;X-RapidAPI-Key: $RAPIDAPI_KEY&quot; \
+  -H &quot;X-RapidAPI-Host: krdart.p.rapidapi.com&quot;</code></pre>
+<h2>Screen the whole market</h2><pre><code>GET /screener?altman_grade=DISTRESS&amp;year=2024&amp;sort=altman_asc&amp;limit=50</code></pre><h2>FAQ</h2><h3>What Altman Z cutoffs apply to Korean companies?</h3><p>KRDART uses the Emerging Markets Z&#x27;&#x27; model with the 3.25 constant, where scores above 5.85 are safe, 4.35 to 5.85 grey, and below 4.35 distress.</p><h3>How many Korean listed companies are in the Altman distress zone?</h3><p>For FY2024 annual reports, 672 of about 2,750 scored companies fall in the distress zone, 299 in the grey zone and 1,673 in the safe zone.</p>
+<p><a class="cta" href="https://rapidapi.com/krdartapi/api/krdart">Try the free tier on RapidAPI</a><a class="cta" style="background:#1d6f42" href="/openapi.yaml">OpenAPI spec</a></p>
+<h2>More guides</h2><nav class="more"><a href="/guides/korea-company-financials-api">Korean company financial statements API (English JSON)</a><a href="/guides/opendart-api-english">OpenDART API in English: the practical gotchas</a><a href="/guides/korea-risk-events">Korean listed company risk events (delisting, audit opinion, going concern) as an API</a></nav></main>
+<footer>Data derived from DART (dart.fss.or.kr) filings. Not investment advice.</footer></body></html>

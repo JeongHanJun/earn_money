@@ -1,0 +1,43 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Korean company financial statements API (English JSON) | KRDART</title><meta name="description" content="Get income statements, balance sheets and cash-flow items for ~4,000 KOSPI/KOSDAQ companies as English-labelled JSON, sourced from DART filings.">
+<link rel="canonical" href="https://dart.ryanpp.com/guides/korea-company-financials-api"><link rel="icon" href="/favicon.png"><style>
+*{box-sizing:border-box}body{margin:0;font:16px/1.65 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#1b2430;background:#f7f8fb}
+header{background:#0f1b33;color:#fff;padding:14px 20px}header a{color:#fff;text-decoration:none;font-weight:700}
+main{max-width:820px;margin:0 auto;padding:28px 20px 60px}h1{font-size:30px;line-height:1.25;margin:.2em 0 .4em}
+h2{font-size:22px;margin:1.8em 0 .5em}p,li{color:#2d3748}code{background:#eef1f6;padding:1px 5px;border-radius:4px;font-size:.92em}
+pre{background:#0f1b33;color:#e6edf7;padding:14px 16px;border-radius:8px;overflow-x:auto;font-size:13.5px;line-height:1.5}
+pre code{background:none;padding:0;color:inherit}table{border-collapse:collapse;width:100%;margin:10px 0;font-size:15px}
+th,td{border-bottom:1px solid #e3e7ee;padding:7px 10px;text-align:left}th{background:#eef1f6}
+.cta{display:inline-block;background:#2f5597;color:#fff;padding:11px 18px;border-radius:8px;text-decoration:none;font-weight:700;margin:6px 8px 6px 0}
+.note{font-size:14px;color:#5a6475}nav.more a{display:block;margin:4px 0}footer{text-align:center;font-size:13px;color:#7a8394;padding:24px}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Korean company financial statements API (English JSON)", "description": "Get income statements, balance sheets and cash-flow items for ~4,000 KOSPI/KOSDAQ companies as English-labelled JSON, sourced from DART filings.", "url": "https://dart.ryanpp.com/guides/korea-company-financials-api", "publisher": {"@type": "Organization", "name": "KRDART"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is there an English API for Korean company financial statements?", "acceptedAnswer": {"@type": "Answer", "text": "DART itself only returns Korean labels. KRDART maps DART filings to English-labelled JSON for about 4,000 KOSPI/KOSDAQ listed companies and exposes them through a REST API with a free tier on RapidAPI."}}, {"@type": "Question", "name": "Which years are covered?", "acceptedAnswer": {"@type": "Answer", "text": "Annual reports for FY2022 to FY2024 plus the FY2025 half-year report. Quarterly Q1/Q3 data is on the roadmap."}}, {"@type": "Question", "name": "Do I need a DART (OpenDART) API key?", "acceptedAnswer": {"@type": "Answer", "text": "No. KRDART does the DART collection; you only need a RapidAPI key."}}]}</script></head>
+<body><header><a href="/">KRDART</a> · Korea DART financials & distress API</header><main>
+<h1>Korean company financial statements API (English JSON)</h1><p>Korea's official disclosure system, <b>DART</b> (run by the Financial Supervisory Service), is the Korean equivalent of SEC EDGAR.
+Every listed company files its annual and quarterly reports there — but the data comes back in Korean, keyed by Korean account names,
+and the XBRL account IDs are frequently blank. KRDART normalises it into English JSON so you can use it like any other fundamentals feed.</p>
+<h2>What you get</h2><ul>
+<li>~120,000 registered entities, ~4,000 KOSPI/KOSDAQ listed companies</li>
+<li>Financial statements with English labels: FY2022–FY2024 annual reports, plus FY2025 half-year</li>
+<li>Company search by English name, Korean name or ticker → DART <code>corp_code</code></li>
+<li>Pre-computed distress signals and a daily risk-event stream (see the other guides)</li></ul>
+<h2>Quick start (Python)</h2><pre><code>import os, requests
+
+H = {&quot;X-RapidAPI-Key&quot;: os.environ[&quot;RAPIDAPI_KEY&quot;], &quot;X-RapidAPI-Host&quot;: &quot;krdart.p.rapidapi.com&quot;}
+BASE = &quot;https://krdart.p.rapidapi.com&quot;
+
+# 1) find the DART corp_code by English/Korean name or ticker
+co = requests.get(f&quot;{BASE}/companies/search&quot;, params={&quot;q&quot;: &quot;samsung electronics&quot;}, headers=H).json()
+code = co[&quot;results&quot;][0][&quot;corp_code&quot;]          # e.g. 00126380
+
+# 2) English-labelled financial statements (annual report = 11011)
+fin = requests.get(f&quot;{BASE}/financials/{code}&quot;, params={&quot;year&quot;: 2024, &quot;reprt&quot;: &quot;11011&quot;}, headers=H).json()
+
+# 3) pre-computed distress signals
+print(requests.get(f&quot;{BASE}/distress/{code}&quot;, headers=H).json())</code></pre>
+<h2>Report codes</h2><table><tr><th><code>reprt</code></th><th>Report</th></tr>
+<tr><td>11011</td><td>Annual report (사업보고서)</td></tr><tr><td>11012</td><td>Half-year report (반기보고서)</td></tr>
+<tr><td>11013</td><td>Q1 report (1분기보고서) — roadmap</td></tr><tr><td>11014</td><td>Q3 report (3분기보고서) — roadmap</td></tr></table>
+<p class="note">Consolidated statements (CFS) only for now. Each response carries the DART receipt number so you can always trace back to the original filing.</p><h2>FAQ</h2><h3>Is there an English API for Korean company financial statements?</h3><p>DART itself only returns Korean labels. KRDART maps DART filings to English-labelled JSON for about 4,000 KOSPI/KOSDAQ listed companies and exposes them through a REST API with a free tier on RapidAPI.</p><h3>Which years are covered?</h3><p>Annual reports for FY2022 to FY2024 plus the FY2025 half-year report. Quarterly Q1/Q3 data is on the roadmap.</p><h3>Do I need a DART (OpenDART) API key?</h3><p>No. KRDART does the DART collection; you only need a RapidAPI key.</p>
+<p><a class="cta" href="https://rapidapi.com/krdartapi/api/krdart">Try the free tier on RapidAPI</a><a class="cta" style="background:#1d6f42" href="/openapi.yaml">OpenAPI spec</a></p>
+<h2>More guides</h2><nav class="more"><a href="/guides/opendart-api-english">OpenDART API in English: the practical gotchas</a><a href="/guides/kospi-kosdaq-distress-scores">Distress scores for KOSPI &amp; KOSDAQ companies (Altman Z&#x27;&#x27; EM, Piotroski-style F)</a><a href="/guides/korea-risk-events">Korean listed company risk events (delisting, audit opinion, going concern) as an API</a></nav></main>
+<footer>Data derived from DART (dart.fss.or.kr) filings. Not investment advice.</footer></body></html>

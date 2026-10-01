@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Korean listed company risk events (delisting, audit opinion, going concern) as an API | KRDART</title><meta name="description" content="A daily English feed of risk events from DART filings for Korean listed companies: delisting risk, audit opinion issues, going-concern doubt, collateral, lawsuits, capital changes.">
+<link rel="canonical" href="https://dart.ryanpp.com/guides/korea-risk-events"><link rel="icon" href="/favicon.png"><style>
+*{box-sizing:border-box}body{margin:0;font:16px/1.65 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#1b2430;background:#f7f8fb}
+header{background:#0f1b33;color:#fff;padding:14px 20px}header a{color:#fff;text-decoration:none;font-weight:700}
+main{max-width:820px;margin:0 auto;padding:28px 20px 60px}h1{font-size:30px;line-height:1.25;margin:.2em 0 .4em}
+h2{font-size:22px;margin:1.8em 0 .5em}p,li{color:#2d3748}code{background:#eef1f6;padding:1px 5px;border-radius:4px;font-size:.92em}
+pre{background:#0f1b33;color:#e6edf7;padding:14px 16px;border-radius:8px;overflow-x:auto;font-size:13.5px;line-height:1.5}
+pre code{background:none;padding:0;color:inherit}table{border-collapse:collapse;width:100%;margin:10px 0;font-size:15px}
+th,td{border-bottom:1px solid #e3e7ee;padding:7px 10px;text-align:left}th{background:#eef1f6}
+.cta{display:inline-block;background:#2f5597;color:#fff;padding:11px 18px;border-radius:8px;text-decoration:none;font-weight:700;margin:6px 8px 6px 0}
+.note{font-size:14px;color:#5a6475}nav.more a{display:block;margin:4px 0}footer{text-align:center;font-size:13px;color:#7a8394;padding:24px}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Korean listed company risk events (delisting, audit opinion, going concern) as an API", "description": "A daily English feed of risk events from DART filings for Korean listed companies: delisting risk, audit opinion issues, going-concern doubt, collateral, lawsuits, capital changes.", "url": "https://dart.ryanpp.com/guides/korea-risk-events", "publisher": {"@type": "Organization", "name": "KRDART"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How can I track delisting risk for Korean stocks?", "acceptedAnswer": {"@type": "Answer", "text": "KRDART classifies DART filings nightly and exposes delisting-risk, audit-opinion and going-concern events through /events/recent, filterable by type and date range."}}]}</script></head>
+<body><header><a href="/">KRDART</a> · Korea DART financials & distress API</header><main>
+<h1>Korean listed company risk events (delisting, audit opinion, going concern) as an API</h1><p>Many warning signs for Korean companies only appear as Korean filing titles on DART. KRDART classifies them every night and exposes them as an English event stream.</p>
+<h2>Event types and last-90-day counts (as of 2026-10-01)</h2><table><tr><th>Type</th><th>Meaning</th><th>Events</th></tr>
+<tr><td>COLLATERAL</td><td>Shares pledged / collateral provided</td><td>299</td></tr>
+<tr><td>AUDIT_OPINION</td><td>Qualified, adverse or disclaimer of audit opinion</td><td>185</td></tr>
+<tr><td>DELISTING_RISK</td><td>Delisting review, administrative issue designation</td><td>97</td></tr>
+<tr><td>LAWSUIT</td><td>Litigation filed against the company</td><td>71</td></tr>
+<tr><td>MAJOR_SHAREHOLDER</td><td>Change of largest shareholder</td><td>66</td></tr>
+<tr><td>CAPITAL_INCREASE</td><td>Rights issue / third-party allotment</td><td>53</td></tr>
+<tr><td>CAPITAL_REDUCTION</td><td>Capital reduction</td><td>39</td></tr>
+<tr><td>CONVERTIBLE_BOND</td><td>Convertible / exchangeable bond issuance</td><td>24</td></tr>
+<tr><td>GOVERNANCE</td><td>Governance events</td><td>11</td></tr>
+<tr><td>GOING_CONCERN</td><td>Going-concern uncertainty</td><td>2</td></tr></table>
+<h2>Get the feed</h2><pre><code>GET /events/recent?days=7&amp;type=DELISTING_RISK&amp;limit=100</code></pre>
+<p class="note">Events are detected from filing titles with pattern rules, so a small number of misclassifications is possible; every event links back to its DART receipt number.</p><h2>FAQ</h2><h3>How can I track delisting risk for Korean stocks?</h3><p>KRDART classifies DART filings nightly and exposes delisting-risk, audit-opinion and going-concern events through /events/recent, filterable by type and date range.</p>
+<p><a class="cta" href="https://rapidapi.com/krdartapi/api/krdart">Try the free tier on RapidAPI</a><a class="cta" style="background:#1d6f42" href="/openapi.yaml">OpenAPI spec</a></p>
+<h2>More guides</h2><nav class="more"><a href="/guides/korea-company-financials-api">Korean company financial statements API (English JSON)</a><a href="/guides/opendart-api-english">OpenDART API in English: the practical gotchas</a><a href="/guides/kospi-kosdaq-distress-scores">Distress scores for KOSPI &amp; KOSDAQ companies (Altman Z&#x27;&#x27; EM, Piotroski-style F)</a></nav></main>
+<footer>Data derived from DART (dart.fss.or.kr) filings. Not investment advice.</footer></body></html>
