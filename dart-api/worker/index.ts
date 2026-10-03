@@ -666,19 +666,14 @@ app.post("/admin/daily-crawl", async (c) => {
     `INSERT INTO crawl_log (job, status, rows_upserted, error, duration_ms) VALUES (?, ?, ?, ?, ?)`
   ).bind("filings_daily", error ? "FAIL" : "OK", inserted, logNote, Date.now() - t0).run();
 
-  // 카톡 통지 — 에러는 항상, 성공은 실제 삽입이 있을 때만 (조용한 no-op은 스킵)
+  // 카톡 통지 — 실패했을 때만. 정상 수집은 알리지 않는다(수집이 멈추면 notify 의 아침 요약이 알려 준다).
+  // 받는 사람은 개발자가 아니므로 "무슨 일인지 + 다음에 어떻게 되는지" 를 먼저 쓰고 원인은 뒤에 붙인다.
   if (error) {
     await notifyKakao(c.env, {
-      title: "DART daily-crawl 실패",
-      body: `range ${startDate}~${endDate} · dartStatus=${dartStatus} · ${error}`,
+      title: "KRDART 공시 수집 실패",
+      body: `어젯밤 한국 공시 자동 수집이 실패했어요. 내일 새벽에 다시 시도합니다. 이틀 연속이면 점검이 필요해요.\n원인: ${startDate}~${endDate} · DART 응답 ${dartStatus} · ${error}`,
       url: "https://dart.ryanpp.com",
-      button: "대시보드",
-    });
-  } else if (inserted > 0) {
-    await notifyKakao(c.env, {
-      title: "DART daily-crawl OK",
-      body: `range ${startDate}~${endDate} · filings +${inserted} · risk +${riskInserted} · ${Math.round((Date.now() - t0) / 1000)}s`,
-      url: "https://dart.ryanpp.com",
+      button: "사이트 열기",
     });
   }
 

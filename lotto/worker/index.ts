@@ -255,18 +255,14 @@ export default {
     // 재시도 크론: 이번 주 토요일 회차가 이미 있으면 스킵 (dhlottery 522 같은 일시 장애 대비)
     if (event.cron !== "0 16 * * SAT" && (await hasThisWeeksDraw(env))) return;
     ctx.waitUntil(
+      // 정상 수집은 알리지 않는다(회차가 멈추면 notify 의 아침 요약이 알려 준다). 실패만 사람이 읽을 수 있는 말로.
       runWeekly(env).then(
-        (r) =>
-          notifyKakao(env, {
-            title: "lotto 주간 크롤",
-            body: `latest ${r.drwNo} · stores +${r.storesInserted}`,
-            url: "https://lotto.ryanpp.com",
-          }),
+        () => undefined,
         (e) => {
           console.error("[cron] runWeekly failed", e);
           return notifyKakao(env, {
-            title: "lotto 크롤 실패",
-            body: String(e?.message ?? e).slice(0, 180),
+            title: "로또 회차 수집 실패",
+            body: `이번 주 로또 당첨번호 자동 수집이 실패했어요. 자동으로 다시 시도합니다.\n원인: ${String(e?.message ?? e).slice(0, 120)}`,
             url: "https://lotto.ryanpp.com",
           });
         },

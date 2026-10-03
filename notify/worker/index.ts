@@ -1,4 +1,15 @@
 import { Hono } from "hono";
+import {
+  type DigestData,
+  type Payload,
+  classifyMail,
+  composeText,
+  decodeBytes,
+  decodeMimeWords,
+  formatDigest,
+  normalizeIncoming,
+  parseForm,
+} from "./messages";
 
 type Env = {
   NOTIFY_DB: D1Database;
@@ -27,39 +38,44 @@ const ACCESS_MARGIN_SEC = 60;
 
 const app = new Hono<{ Bindings: Env }>();
 
+// 시크릿이 설정되지 않은 환경에서 "둘 다 undefined" 로 통과되는 일이 없게 한다
+const secretOk = (given: string | undefined, expected: string | undefined) => !!expected && given === expected;
+
 app.get("/health", (c) => c.json({ ok: true, ts: nowSec() }));
 
 /**
- * POST /kakao?token=<NOTIFY_SECRET>
+ * POST /kakao?token=<NOTIFY_SECRET>[&dry=1]
  * Body (JSON or form): { title?, body, url?, button? }
  *
  * Or query-only for GET-style callers:
  *   POST /kakao?token=...&title=...&body=...&url=...
+ * dry=1 이면 보내지 않고 실제로 나갈 문구만 돌려준다.
  */
 app.post("/kakao", async (c) => {
-  if (c.req.query("token") !== c.env.NOTIFY_SECRET) return c.json({ error: "unauthorized" }, 401);
+  if (!secretOk(c.req.query("token"), c.env.NOTIFY_SECRET)) return c.json({ error: "unauthorized" }, 401);
 
-  const payload = await parseBody(c.req.raw, c.req.query());
-  if (!payload.body) return c.json({ error: "body is required" }, 400);
+  const raw = await parseBody(c.req.raw);
+  if (!raw.body) return c.json({ error: "body is required" }, 400);
+
+  const payload = normalizeIncoming(raw as Payload);
+  if (!payload) {
+    // 정상 완료 보고는 카톡으로 보내지 않는다 (아침 요약으로 충분)
+    await log(c.env, "kakao", "suppress", 0, String(raw.title ?? "").slice(0, 200));
+    return c.json({ ok: true, suppressed: true });
+  }
+  if (c.req.query("dry") === "1") return c.json({ ok: true, dry: true, text: composeText(payload) });
 
   try {
-    const data = await notify(c.env, payload as Payload);
+    const data = await notify(c.env, payload);
     return c.json({ ok: data.result_code === 0, kakao: data });
   } catch (err: any) {
     return c.json({ ok: false, error: String(err?.message ?? err) }, 500);
   }
 });
 
-type Payload = { title?: string; body: string; url?: string; button?: string };
-
 async function notify(env: Env, payload: Payload) {
-  // 메시지 조립: [제목] + 본문 + URL 인라인.
-  // URL 은 button/link 로도 전달되지만, 카톡 UI 특성상 텍스트에 있어야 잘 보이므로 inline.
-  const parts: string[] = [];
-  if (payload.title) parts.push(`[${payload.title}]`);
-  parts.push(payload.body);
-  if (payload.url) parts.push(payload.url);
-  const text = truncate(parts.join("\n"), 200);
+  // URL 은 버튼으로도 전달되지만, 카톡 UI 특성상 텍스트에 있어야 잘 보이므로 본문 끝에도 붙인다.
+  const text = composeText(payload);
 
   try {
     const access = await ensureAccessToken(env);
@@ -83,7 +99,7 @@ async function notify(env: Env, payload: Payload) {
  * Called ONCE after running the local OAuth script. Overwrites any existing row.
  */
 app.post("/admin/init-tokens", async (c) => {
-  if (c.req.query("secret") !== c.env.ADMIN_SECRET) return c.json({ error: "unauthorized" }, 401);
+  if (!secretOk(c.req.query("secret"), c.env.ADMIN_SECRET)) return c.json({ error: "unauthorized" }, 401);
   const body = await c.req.json<any>();
   const now = nowSec();
   const row: TokenRow = {
@@ -102,7 +118,7 @@ app.post("/admin/init-tokens", async (c) => {
  * Debug view: token TTLs + recent send log.
  */
 app.get("/admin/status", async (c) => {
-  if (c.req.query("secret") !== c.env.ADMIN_SECRET) return c.json({ error: "unauthorized" }, 401);
+  if (!secretOk(c.req.query("secret"), c.env.ADMIN_SECRET)) return c.json({ error: "unauthorized" }, 401);
   const tokens = await readTokens(c.env);
   const logs = await c.env.NOTIFY_DB.prepare(
     "SELECT ts, channel, event, status, detail FROM notify_log ORDER BY ts DESC LIMIT 20",
@@ -126,7 +142,7 @@ app.get("/admin/status", async (c) => {
  * Force a refresh cycle. Debugging aid.
  */
 app.post("/admin/refresh", async (c) => {
-  if (c.req.query("secret") !== c.env.ADMIN_SECRET) return c.json({ error: "unauthorized" }, 401);
+  if (!secretOk(c.req.query("secret"), c.env.ADMIN_SECRET)) return c.json({ error: "unauthorized" }, 401);
   try {
     const tokens = await readTokens(c.env);
     if (!tokens) return c.json({ error: "no tokens stored" }, 404);
@@ -139,54 +155,26 @@ app.post("/admin/refresh", async (c) => {
 
 // ---------- 메일 → 카톡 ----------
 // Cloudflare Email Routing 이 이 Worker 로 메일을 넘기면, 원래 받던 Gmail 로 그대로 전달한 뒤
-// 중요한 메일(크몽 주문·문의·심사, api.market·RapidAPI 심사·구독·정산)만 골라 카톡으로 알린다.
-
-type MailRule = { name: string; from: RegExp; subject?: RegExp; skip?: RegExp; url: string };
-
-const MAIL_RULES: MailRule[] = [
-  // 크몽은 마케팅 알림을 꺼 두었으므로 오는 메일은 전부 거래·심사 관련
-  { name: "크몽", from: /kmong/i, url: "https://kmong.com/seller/dashboard" },
-  {
-    name: "api.market",
-    from: /api\.market/i,
-    subject: /review|approv|reject|live|publish|subscri|payment|payout|invoice|order|심사|승인|반려/i,
-    skip: /sign in|otp|welcome|newsletter/i,
-    url: "https://api.market/seller/krdart/products",
-  },
-  {
-    name: "RapidAPI",
-    from: /rapidapi/i,
-    subject: /subscri|payment|payout|invoice|review|approv|reject|message|issue|question/i,
-    skip: /verify your email|stand out|spotlight|newsletter/i,
-    url: "https://rapidapi.com/studio",
-  },
-  {
-    // 가입·인증코드·주소 변경 같은 안내는 빼고, 은행 소액인증·입금·출금만 알린다
-    name: "PayPal",
-    from: /paypal/i,
-    subject: /받았|입금|출금|송금|소액|계좌 확인|확인.*계좌|payment|received|withdraw|transfer|deposit|confirm your bank/i,
-    skip: /인증 코드|새 주소|비즈니스 활성화|code/i,
-    url: "https://www.paypal.com/myaccount/money",
-  },
-  // 본인 Gmail에서 제목에 [notify-test] 를 넣어 보내면 전체 경로(메일 → Worker → 카톡) 점검
-  { name: "테스트", from: /hanjunjung@gmail\.com/i, subject: /\[notify-test\]/i, url: "https://notify.ryanpp.com/health" },
-];
+// 사업에 의미 있는 메일(승인·주문·문의·구독·정산)만 골라 "무슨 일인지 + 할 일" 을 카톡으로 알린다.
+// 분류 규칙과 문구는 messages.ts.
 
 async function email(message: ForwardableEmailMessage, env: Env, ctx: ExecutionContext) {
   // 메일 전달이 최우선: 카톡 쪽이 실패해도 메일은 반드시 Gmail 에 도착해야 한다
   await message.forward(env.FORWARD_TO);
 
-  const from = `${message.headers.get("from") ?? ""} ${message.from}`;
+  const from = `${decodeMimeWords(message.headers.get("from") ?? "")} ${message.from}`;
   const subject = decodeMimeWords(message.headers.get("subject") ?? "(제목 없음)");
-  const rule = MAIL_RULES.find((r) => r.from.test(from));
-  if (!rule || (rule.subject && !rule.subject.test(subject)) || rule.skip?.test(subject)) {
+  const alert = classifyMail(from, subject);
+  if (!alert) {
     await log(env, "mail", "skip", 0, `${from} | ${subject}`.slice(0, 400));
     return;
   }
-  ctx.waitUntil(notify(env, { title: `${rule.name} 메일`, body: subject, url: rule.url }).catch(() => {}));
+  // 아침 요약의 "어제 온 소식" 에 쓰인다: 규칙이름|한줄요약|제목
+  await log(env, "mail", "alert", 0, `${alert.rule}|${alert.headline}|${subject}`.slice(0, 400));
+  ctx.waitUntil(notify(env, alert.payload).catch(() => {}));
 }
 
-// 매일 09:00 KST: Kakao refresh token 연장(keepalive) 후 전 서비스 현황을 카톡 한 통으로 보낸다.
+// 매일 09:00 KST: Kakao refresh token 연장(keepalive) 후 아침 요약을 카톡 한 통으로 보낸다.
 async function scheduled(_event: ScheduledController, env: Env, ctx: ExecutionContext) {
   ctx.waitUntil(
     (async () => {
@@ -200,7 +188,7 @@ async function scheduled(_event: ScheduledController, env: Env, ctx: ExecutionCo
       } catch (err: any) {
         await log(env, "kakao", "keepalive-error", 0, String(err?.message ?? err).slice(0, 400));
       }
-      const text = await buildDigest(env, daysLeft);
+      const text = formatDigest(await gatherDigest(env, daysLeft));
       await notify(env, { body: text });
     })().catch((err) => log(env, "digest", "error", 0, String(err?.message ?? err).slice(0, 400))),
   );
@@ -208,58 +196,74 @@ async function scheduled(_event: ScheduledController, env: Env, ctx: ExecutionCo
 
 /**
  * GET /admin/digest?secret=<ADMIN_SECRET>[&send=1]
- * 일일 현황 미리보기. send=1 이면 카톡으로도 보낸다.
+ * 아침 요약 미리보기. send=1 이면 카톡으로도 보낸다.
  */
 app.get("/admin/digest", async (c) => {
-  if (c.req.query("secret") !== c.env.ADMIN_SECRET) return c.json({ error: "unauthorized" }, 401);
+  if (!secretOk(c.req.query("secret"), c.env.ADMIN_SECRET)) return c.json({ error: "unauthorized" }, 401);
   const tokens = await readTokens(c.env);
   const daysLeft = tokens ? Math.floor((tokens.refresh_expires_at - nowSec()) / 86400) : null;
-  const text = await buildDigest(c.env, daysLeft);
+  const data = await gatherDigest(c.env, daysLeft);
+  const text = formatDigest(data);
   if (c.req.query("send") === "1") await notify(c.env, { body: text });
-  return c.json({ text, length: text.length });
+  return c.json({ text, length: Array.from(text).length, data });
 });
 
-// 카톡 메모 텍스트는 200자 제한이라 항목당 한 줄로 압축한다. 이상 징후는 ⚠ 줄로 맨 아래에 모은다.
-async function buildDigest(env: Env, kakaoDaysLeft: number | null): Promise<string> {
+/** 아침 요약에 들어갈 사실을 모은다. 문구는 messages.ts 의 formatDigest. 평소엔 problems 가 비어 있어야 한다. */
+async function gatherDigest(env: Env, kakaoDaysLeft: number | null): Promise<DigestData> {
   const since = nowSec() - 86400;
-  const warn: string[] = [];
-  const lines: string[] = [];
   const kst = new Date(Date.now() + 9 * 3600e3);
-  const ymd = (d: Date) => d.toISOString().slice(0, 10);
+  const md = (d: Date) => `${d.getUTCMonth() + 1}/${d.getUTCDate()}`;
+  const problems: string[] = [];
 
-  // KRDART: 마켓 경유(유료 채널) 호출 = 실제 사용자 신호
+  // 어제 카톡으로 알린 메일 (승인·주문·문의·구독·정산)
+  let news: string[] = [];
+  try {
+    const { results } = await env.NOTIFY_DB.prepare(
+      "SELECT detail FROM notify_log WHERE ts > ? AND channel = 'mail' AND event = 'alert' ORDER BY id",
+    ).bind(since).all<{ detail: string }>();
+    news = results.map((r) => {
+      const [rule, headline] = r.detail.split("|");
+      return `${rule}: ${headline}`;
+    });
+  } catch {
+    // 로그 조회 실패는 요약을 막지 않는다
+  }
+
+  // KRDART: 마켓을 거친 호출 = 실제 고객 사용
+  let krdart: DigestData["krdart"] = null;
   try {
     const { results } = await env.DART_DB.prepare(
-      "SELECT channel, COUNT(*) n, SUM(status >= 400) err FROM usage_log WHERE ts > ? GROUP BY channel",
+      "SELECT channel, COUNT(*) n, SUM(status >= 500) err FROM usage_log WHERE ts > ? GROUP BY channel",
     ).bind(since).all<{ channel: string; n: number; err: number }>();
     const by = Object.fromEntries(results.map((r) => [r.channel, r]));
-    const r = by.rapidapi?.n ?? 0, a = by.apimarket?.n ?? 0;
-    lines.push(`KRDART 24h 호출 Rapid ${r} · api.market ${a}${r + a > 0 ? " 🎉" : ""}`);
+    krdart = { rapidapi: by.rapidapi?.n ?? 0, apimarket: by.apimarket?.n ?? 0 };
     const errs = results.reduce((s, x) => s + (x.err ?? 0), 0);
-    if (errs > 0) warn.push(`KRDART 오류응답 ${errs}건`);
-  } catch (e: any) {
-    warn.push("KRDART usage 조회 실패");
+    if (errs > 0) problems.push(`KRDART 서버 오류 응답 ${errs}건`);
+  } catch {
+    // krdart = null → "사용량 확인 실패"
   }
   try {
     const st: any = await (await fetch("https://dart.ryanpp.com/stats")).json();
     const f = String(st.last_filing_dt ?? "");
-    lines.push(`공시 최신 ${f.slice(4, 6)}/${f.slice(6, 8)} · 위험이벤트90d ${st.risk_events_90d}`);
     const fd = new Date(`${f.slice(0, 4)}-${f.slice(4, 6)}-${f.slice(6, 8)}T00:00:00Z`);
-    if (!(kst.getTime() - fd.getTime() < 6 * 86400e3)) warn.push("공시 수집 6일+ 정체");
+    const days = Math.floor((kst.getTime() - fd.getTime()) / 86400e3);
+    // 주말·연휴에는 공시가 없으므로 6일 이상일 때만 문제로 본다
+    if (!(days < 6)) problems.push(`한국 공시 자동 수집이 ${Number.isFinite(days) ? days + "일째" : "계속"} 멈췄어요`);
   } catch {
-    warn.push("dart.ryanpp.com 응답 없음");
+    problems.push("KRDART 사이트가 응답하지 않아요");
   }
 
   // lotto: 매주 토요일 추첨 → 8일 넘게 안 바뀌면 수집 실패
   try {
     const l: any = await (await fetch("https://lotto.ryanpp.com/api/latest")).json();
-    lines.push(`lotto ${l.drw_no}회(${String(l.drw_date).slice(5)})`);
-    if (kst.getTime() - new Date(`${l.drw_date}T00:00:00Z`).getTime() > 8 * 86400e3) warn.push("lotto 회차 갱신 안 됨");
+    if (kst.getTime() - new Date(`${l.drw_date}T00:00:00Z`).getTime() > 8 * 86400e3) {
+      problems.push("로또 사이트 회차가 일주일 넘게 갱신되지 않았어요");
+    }
   } catch {
-    warn.push("lotto 응답 없음");
+    problems.push("로또 사이트가 응답하지 않아요");
   }
 
-  // GitHub Actions (공개 리포라 토큰 불필요): 최근 24시간 실패
+  // GitHub Actions (공개 리포라 토큰 불필요): 최근 24시간 실패. 조회 한도 초과 등은 문제로 치지 않는다.
   try {
     const res = await fetch(
       `https://api.github.com/repos/JeongHanJun/earn_money/actions/runs?per_page=50&created=>${new Date(since * 1000).toISOString()}`,
@@ -268,20 +272,35 @@ async function buildDigest(env: Env, kakaoDaysLeft: number | null): Promise<stri
     const j: any = await res.json();
     const fails = new Set<string>();
     for (const run of j.workflow_runs ?? []) if (run.conclusion === "failure") fails.add(run.name);
-    if (fails.size) warn.push(`Actions 실패: ${[...fails].join(", ")}`);
+    if (fails.size) problems.push(`자동 작업 실패: ${[...fails].join(", ")}`);
   } catch {
-    warn.push("GitHub Actions 조회 실패");
+    // ignore
   }
 
-  // notify 자체: 카톡 토큰 수명, 최근 24h 전송 오류
-  const err = await env.NOTIFY_DB.prepare(
-    "SELECT COUNT(*) n FROM notify_log WHERE ts > ? AND event LIKE '%error%'",
-  ).bind(since).first<{ n: number }>();
-  lines.push(`카톡토큰 D-${kakaoDaysLeft ?? "?"}`);
-  if (kakaoDaysLeft !== null && kakaoDaysLeft < 14) warn.push("카톡 재인증 필요(npm run auth:init)");
-  if ((err?.n ?? 0) > 0) warn.push(`알림 오류 ${err!.n}건`);
+  // 알림 시스템 자체
+  if (kakaoDaysLeft !== null && kakaoDaysLeft < 14) problems.push(`카톡 연결이 ${kakaoDaysLeft}일 뒤 끊겨요. PC에서 재인증 필요`);
+  try {
+    const err = await env.NOTIFY_DB.prepare(
+      "SELECT COUNT(*) n FROM notify_log WHERE ts > ? AND event LIKE '%error%'",
+    ).bind(since).first<{ n: number }>();
+    if ((err?.n ?? 0) > 0) problems.push(`카톡 알림 전송 오류 ${err!.n}건`);
+  } catch {
+    // ignore
+  }
 
-  return [`[일일 현황 ${ymd(kst).slice(5)}]`, ...lines, ...(warn.length ? warn.map((w) => `⚠ ${w}`) : ["✅ 이상 없음"])].join("\n");
+  // 크몽은 로그인해야 보여서 서버가 직접 볼 수 없다 → PC 의 /status 가 마지막으로 확인한 상태를 state 표에 적어 둔다
+  let kmong: DigestData["kmong"] = null;
+  try {
+    const row = await env.NOTIFY_DB.prepare("SELECT value, updated_at FROM state WHERE key = 'kmong'").first<{
+      value: string;
+      updated_at: number;
+    }>();
+    if (row?.value) kmong = { text: row.value, checked: md(new Date(row.updated_at * 1000 + 9 * 3600e3)) };
+  } catch {
+    // state 표가 아직 없으면 "PC에서 /status 로 확인" 으로 표시
+  }
+
+  return { date: md(kst), news, krdart, kmong, problems };
 }
 
 export default { fetch: app.fetch, email, scheduled };
@@ -292,49 +311,24 @@ function nowSec() {
   return Math.floor(Date.now() / 1000);
 }
 
-// RFC 2047 인코딩 제목(=?UTF-8?B?...?= / =?UTF-8?Q?...?=)을 사람이 읽을 수 있는 문자열로 푼다
-function decodeMimeWords(s: string) {
-  return s
-    .replace(/\?=\s+=\?/g, "?==?") // 인접한 인코딩 단어 사이 공백은 제거
-    .replace(/=\?([^?]+)\?([BbQq])\?([^?]*)\?=/g, (_m, charset: string, enc: string, text: string) => {
-      try {
-        const bytes =
-          enc.toUpperCase() === "B"
-            ? Uint8Array.from(atob(text), (ch) => ch.charCodeAt(0))
-            : Uint8Array.from(
-                text.replace(/_/g, " ").replace(/=([0-9A-Fa-f]{2})/g, (_x, h) => String.fromCharCode(parseInt(h, 16))),
-                (ch) => ch.charCodeAt(0),
-              );
-        return new TextDecoder(charset).decode(bytes);
-      } catch {
-        return text;
-      }
-    });
-}
-
-function truncate(s: string, n: number) {
-  return s.length <= n ? s : s.slice(0, n - 1) + "…";
-}
-
-async function parseBody(req: Request, query: Record<string, string>) {
+/** 본문·쿼리를 바이트 단위로 읽어 인코딩을 판별한다. EUC-KR(CP949)로 보낸 한글도 깨지지 않는다. */
+async function parseBody(req: Request): Promise<Partial<Payload>> {
   const ct = req.headers.get("content-type") ?? "";
-  let json: any = {};
+  const charset = /charset=["']?([^;"'\s]+)/i.exec(ct)?.[1];
+  const raw = decodeBytes(new Uint8Array(await req.arrayBuffer()), charset);
+  let body: Record<string, any> = {};
   if (ct.includes("application/json")) {
     try {
-      json = await req.json();
+      body = JSON.parse(raw) ?? {};
     } catch {
-      json = {};
+      body = {};
     }
   } else if (ct.includes("application/x-www-form-urlencoded")) {
-    const t = await req.text();
-    json = Object.fromEntries(new URLSearchParams(t));
+    body = parseForm(raw);
   }
-  return {
-    title: json.title ?? query.title,
-    body: json.body ?? query.body,
-    url: json.url ?? query.url,
-    button: json.button ?? query.button,
-  } as { title?: string; body?: string; url?: string; button?: string };
+  const query = parseForm(new URL(req.url).search);
+  const pick = (k: string) => (typeof body[k] === "string" && body[k] ? body[k] : query[k]) as string | undefined;
+  return { title: pick("title"), body: pick("body"), url: pick("url"), button: pick("button") };
 }
 
 async function readTokens(env: Env): Promise<TokenRow | null> {
@@ -428,6 +422,7 @@ async function sendMemo(
   };
   if (opts.link_url) template.button_title = opts.button_title ?? "열기";
 
+  // URLSearchParams 는 항상 UTF-8 로 퍼센트 인코딩한다 → 한글·이모지 그대로 전달
   const body = new URLSearchParams({ template_object: JSON.stringify(template) });
   const res = await fetch(KAKAO_MEMO_URL, {
     method: "POST",
