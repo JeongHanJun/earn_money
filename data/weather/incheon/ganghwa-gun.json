@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T06:02:58.408984+00:00",
+  "fetched_at": "2026-10-14T07:02:49.267583+00:00",
   "data": {
     "grid": {
       "nx": 49,
@@ -8105,7 +8105,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0300",
         "category": "TMP",
-        "fcst_value": "14",
+        "fcst_value": "15",
         "nx": 49,
         "ny": 129
       },
@@ -8145,7 +8145,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0300",
         "category": "WSD",
-        "fcst_value": "1",
+        "fcst_value": "2.6",
         "nx": 49,
         "ny": 129
       },
@@ -8155,7 +8155,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0300",
         "category": "SKY",
-        "fcst_value": "1",
+        "fcst_value": "3",
         "nx": 49,
         "ny": 129
       },
@@ -8175,7 +8175,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0300",
         "category": "POP",
-        "fcst_value": "10",
+        "fcst_value": "20",
         "nx": 49,
         "ny": 129
       },
@@ -8225,7 +8225,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0600",
         "category": "TMP",
-        "fcst_value": "13",
+        "fcst_value": "15",
         "nx": 49,
         "ny": 129
       },
@@ -8235,7 +8235,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0600",
         "category": "UUU",
-        "fcst_value": "-3.1",
+        "fcst_value": "-2.7",
         "nx": 49,
         "ny": 129
       },
@@ -8245,7 +8245,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0600",
         "category": "VVV",
-        "fcst_value": "-0.5",
+        "fcst_value": "-0.6",
         "nx": 49,
         "ny": 129
       },
@@ -8255,7 +8255,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0600",
         "category": "VEC",
-        "fcst_value": "81",
+        "fcst_value": "78",
         "nx": 49,
         "ny": 129
       },
@@ -8265,7 +8265,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0600",
         "category": "WSD",
-        "fcst_value": "1",
+        "fcst_value": "2.9",
         "nx": 49,
         "ny": 129
       },
@@ -8275,7 +8275,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0600",
         "category": "SKY",
-        "fcst_value": "3",
+        "fcst_value": "1",
         "nx": 49,
         "ny": 129
       },
@@ -8295,7 +8295,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0600",
         "category": "POP",
-        "fcst_value": "10",
+        "fcst_value": "0",
         "nx": 49,
         "ny": 129
       },
@@ -8355,7 +8355,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0900",
         "category": "TMP",
-        "fcst_value": "17",
+        "fcst_value": "14",
         "nx": 49,
         "ny": 129
       },
@@ -8365,7 +8365,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0900",
         "category": "UUU",
-        "fcst_value": "-3.2",
+        "fcst_value": "-3.1",
         "nx": 49,
         "ny": 129
       },
@@ -8375,7 +8375,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0900",
         "category": "VVV",
-        "fcst_value": "0",
+        "fcst_value": "-0.6",
         "nx": 49,
         "ny": 129
       },
@@ -8385,7 +8385,7 @@
         "fcst_date": "20261017",
         "fcst_time": "0900",
         "category": "VEC",
-        "fcst_value": "90",
+        "fcst_value": "78",
         "nx": 49,
         "ny": 129
       },
@@ -8395,6 +8395,16 @@
         "fcst_date": "20261017",
         "fcst_time": "0900",
         "category": "WSD",
+        "fcst_value": "3.3",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "0900",
+        "category": "SKY",
         "fcst_value": "1",
         "nx": 49,
         "ny": 129
@@ -8404,16 +8414,6 @@
         "base_time": "0500",
         "fcst_date": "20261017",
         "fcst_time": "0900",
-        "category": "SKY",
-        "fcst_value": "3",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "0900",
         "category": "PTY",
         "fcst_value": "0",
         "nx": 49,
@@ -8424,6 +8424,246 @@
         "base_time": "0500",
         "fcst_date": "20261017",
         "fcst_time": "0900",
+        "category": "POP",
+        "fcst_value": "0",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "0900",
+        "category": "WAV",
+        "fcst_value": "0.5",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "0900",
+        "category": "PCP",
+        "fcst_value": "0",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "0900",
+        "category": "REH",
+        "fcst_value": "80",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "0900",
+        "category": "SNO",
+        "fcst_value": "0",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1200",
+        "category": "TMP",
+        "fcst_value": "14",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1200",
+        "category": "UUU",
+        "fcst_value": "-3.1",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1200",
+        "category": "VVV",
+        "fcst_value": "-0.5",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1200",
+        "category": "VEC",
+        "fcst_value": "81",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1200",
+        "category": "WSD",
+        "fcst_value": "3.3",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1200",
+        "category": "SKY",
+        "fcst_value": "1",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1200",
+        "category": "PTY",
+        "fcst_value": "0",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1200",
+        "category": "POP",
+        "fcst_value": "0",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1200",
+        "category": "WAV",
+        "fcst_value": "0.5",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1200",
+        "category": "PCP",
+        "fcst_value": "0",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1200",
+        "category": "REH",
+        "fcst_value": "80",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1200",
+        "category": "SNO",
+        "fcst_value": "0",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1500",
+        "category": "TMP",
+        "fcst_value": "13",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1500",
+        "category": "UUU",
+        "fcst_value": "-3",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1500",
+        "category": "VVV",
+        "fcst_value": "0.1",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1500",
+        "category": "VEC",
+        "fcst_value": "92",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1500",
+        "category": "WSD",
+        "fcst_value": "3.2",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1500",
+        "category": "SKY",
+        "fcst_value": "3",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1500",
+        "category": "PTY",
+        "fcst_value": "0",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1500",
         "category": "POP",
         "fcst_value": "20",
         "nx": 49,
@@ -8433,246 +8673,6 @@
         "base_date": "20261014",
         "base_time": "0500",
         "fcst_date": "20261017",
-        "fcst_time": "0900",
-        "category": "WAV",
-        "fcst_value": "0.5",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "0900",
-        "category": "PCP",
-        "fcst_value": "0",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "0900",
-        "category": "REH",
-        "fcst_value": "75",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "0900",
-        "category": "SNO",
-        "fcst_value": "0",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1200",
-        "category": "TMP",
-        "fcst_value": "22",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1200",
-        "category": "UUU",
-        "fcst_value": "-4",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1200",
-        "category": "VVV",
-        "fcst_value": "0.5",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1200",
-        "category": "VEC",
-        "fcst_value": "97",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1200",
-        "category": "WSD",
-        "fcst_value": "2",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1200",
-        "category": "SKY",
-        "fcst_value": "3",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1200",
-        "category": "PTY",
-        "fcst_value": "0",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1200",
-        "category": "POP",
-        "fcst_value": "10",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1200",
-        "category": "WAV",
-        "fcst_value": "0.5",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1200",
-        "category": "PCP",
-        "fcst_value": "0",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1200",
-        "category": "REH",
-        "fcst_value": "60",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1200",
-        "category": "SNO",
-        "fcst_value": "0",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1500",
-        "category": "TMP",
-        "fcst_value": "23",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1500",
-        "category": "UUU",
-        "fcst_value": "-4.1",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1500",
-        "category": "VVV",
-        "fcst_value": "1.7",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1500",
-        "category": "VEC",
-        "fcst_value": "113",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1500",
-        "category": "WSD",
-        "fcst_value": "2",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1500",
-        "category": "SKY",
-        "fcst_value": "4",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1500",
-        "category": "PTY",
-        "fcst_value": "0",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1500",
-        "category": "POP",
-        "fcst_value": "30",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
         "fcst_time": "1500",
         "category": "WAV",
         "fcst_value": "0.5",
@@ -8695,7 +8695,7 @@
         "fcst_date": "20261017",
         "fcst_time": "1500",
         "category": "REH",
-        "fcst_value": "60",
+        "fcst_value": "80",
         "nx": 49,
         "ny": 129
       },
@@ -8725,6 +8725,76 @@
         "fcst_date": "20261017",
         "fcst_time": "1800",
         "category": "TMP",
+        "fcst_value": "13",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1800",
+        "category": "UUU",
+        "fcst_value": "-3.1",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1800",
+        "category": "VVV",
+        "fcst_value": "0",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1800",
+        "category": "VEC",
+        "fcst_value": "90",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1800",
+        "category": "WSD",
+        "fcst_value": "3.2",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1800",
+        "category": "SKY",
+        "fcst_value": "3",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1800",
+        "category": "PTY",
+        "fcst_value": "0",
+        "nx": 49,
+        "ny": 129
+      },
+      {
+        "base_date": "20261014",
+        "base_time": "0500",
+        "fcst_date": "20261017",
+        "fcst_time": "1800",
+        "category": "POP",
         "fcst_value": "20",
         "nx": 49,
         "ny": 129
@@ -8734,76 +8804,6 @@
         "base_time": "0500",
         "fcst_date": "20261017",
         "fcst_time": "1800",
-        "category": "UUU",
-        "fcst_value": "-3.8",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1800",
-        "category": "VVV",
-        "fcst_value": "1.9",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1800",
-        "category": "VEC",
-        "fcst_value": "117",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1800",
-        "category": "WSD",
-        "fcst_value": "2",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1800",
-        "category": "SKY",
-        "fcst_value": "4",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1800",
-        "category": "PTY",
-        "fcst_value": "0",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1800",
-        "category": "POP",
-        "fcst_value": "30",
-        "nx": 49,
-        "ny": 129
-      },
-      {
-        "base_date": "20261014",
-        "base_time": "0500",
-        "fcst_date": "20261017",
-        "fcst_time": "1800",
         "category": "WAV",
         "fcst_value": "0.5",
         "nx": 49,
@@ -8825,7 +8825,7 @@
         "fcst_date": "20261017",
         "fcst_time": "1800",
         "category": "REH",
-        "fcst_value": "65",
+        "fcst_value": "80",
         "nx": 49,
         "ny": 129
       },
@@ -8845,7 +8845,7 @@
         "fcst_date": "20261017",
         "fcst_time": "2100",
         "category": "TMP",
-        "fcst_value": "19",
+        "fcst_value": "13",
         "nx": 49,
         "ny": 129
       },
@@ -8855,7 +8855,7 @@
         "fcst_date": "20261017",
         "fcst_time": "2100",
         "category": "UUU",
-        "fcst_value": "-4.9",
+        "fcst_value": "-3.2",
         "nx": 49,
         "ny": 129
       },
@@ -8865,7 +8865,7 @@
         "fcst_date": "20261017",
         "fcst_time": "2100",
         "category": "VVV",
-        "fcst_value": "2.5",
+        "fcst_value": "0",
         "nx": 49,
         "ny": 129
       },
@@ -8875,7 +8875,7 @@
         "fcst_date": "20261017",
         "fcst_time": "2100",
         "category": "VEC",
-        "fcst_value": "117",
+        "fcst_value": "90",
         "nx": 49,
         "ny": 129
       },
@@ -8885,7 +8885,7 @@
         "fcst_date": "20261017",
         "fcst_time": "2100",
         "category": "WSD",
-        "fcst_value": "2",
+        "fcst_value": "3.3",
         "nx": 49,
         "ny": 129
       },
@@ -8895,7 +8895,7 @@
         "fcst_date": "20261017",
         "fcst_time": "2100",
         "category": "SKY",
-        "fcst_value": "4",
+        "fcst_value": "3",
         "nx": 49,
         "ny": 129
       },
@@ -8915,7 +8915,7 @@
         "fcst_date": "20261017",
         "fcst_time": "2100",
         "category": "POP",
-        "fcst_value": "30",
+        "fcst_value": "20",
         "nx": 49,
         "ny": 129
       },
@@ -8945,7 +8945,7 @@
         "fcst_date": "20261017",
         "fcst_time": "2100",
         "category": "REH",
-        "fcst_value": "65",
+        "fcst_value": "85",
         "nx": 49,
         "ny": 129
       },
@@ -8965,7 +8965,7 @@
         "fcst_date": "20261018",
         "fcst_time": "0000",
         "category": "TMP",
-        "fcst_value": "17",
+        "fcst_value": "15",
         "nx": 49,
         "ny": 129
       },
@@ -8975,7 +8975,7 @@
         "fcst_date": "20261018",
         "fcst_time": "0000",
         "category": "UUU",
-        "fcst_value": "-5.8",
+        "fcst_value": "-3.5",
         "nx": 49,
         "ny": 129
       },
@@ -8985,7 +8985,7 @@
         "fcst_date": "20261018",
         "fcst_time": "0000",
         "category": "VVV",
-        "fcst_value": "4.1",
+        "fcst_value": "0.1",
         "nx": 49,
         "ny": 129
       },
@@ -8995,7 +8995,7 @@
         "fcst_date": "20261018",
         "fcst_time": "0000",
         "category": "VEC",
-        "fcst_value": "125",
+        "fcst_value": "92",
         "nx": 49,
         "ny": 129
       },
@@ -9005,7 +9005,7 @@
         "fcst_date": "20261018",
         "fcst_time": "0000",
         "category": "WSD",
-        "fcst_value": "2",
+        "fcst_value": "3.7",
         "nx": 49,
         "ny": 129
       },
@@ -9065,7 +9065,7 @@
         "fcst_date": "20261018",
         "fcst_time": "0000",
         "category": "REH",
-        "fcst_value": "75",
+        "fcst_value": "80",
         "nx": 49,
         "ny": 129
       },
