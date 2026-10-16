@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T03:01:30.693073+00:00",
+  "fetched_at": "2026-10-16T04:01:22.380713+00:00",
   "data": {
     "country_code": "uk",
     "country_name": "영국",
@@ -7,10 +7,22 @@
     "google_trends": [
       {
         "rank": 1,
+        "keyword": "michael bachelard",
+        "traffic": "200+",
+        "pub_date": "2026-10-16T02:40:00+00:00",
+        "articles": []
+      },
+      {
+        "rank": 2,
         "keyword": "mlb",
-        "traffic": "100+",
+        "traffic": "200+",
         "pub_date": "2026-10-16T02:40:00+00:00",
         "articles": [
+          {
+            "title": "MLB playoffs: Takeaways from NLCS Game 4, ALCS Game 3",
+            "url": "https://www.espn.com/mlb/story/_/id/50186625/playoffs-nlcs-game-4-dodgers-brewers-alcs-game-3-guardians-rays",
+            "source": "ESPN"
+          },
           {
             "title": "Storylines to track as ALCS, NLCS stakes continue to rise",
             "url": "https://www.mlb.com/news/2026-alcs-game-3-nlcs-game-4-storylines",
@@ -20,18 +32,36 @@
             "title": "Today on Pinstripe Alley - 10/15/26",
             "url": "https://www.pinstripealley.com/pinstripe-alley-discussions/212029/today-on-pinstripe-alley-10-15-26",
             "source": "Pinstripe Alley"
-          },
-          {
-            "title": "Open Thread For Thursday Playoff Games",
-            "url": "https://sports.yahoo.com/articles/open-thread-thursday-playoff-games-165000303.html",
-            "source": "Yahoo Sports"
           }
         ]
       },
       {
-        "rank": 2,
-        "keyword": "tesla stock",
+        "rank": 3,
+        "keyword": "anna faris",
         "traffic": "100+",
+        "pub_date": "2026-10-16T02:20:00+00:00",
+        "articles": [
+          {
+            "title": "Anna Faris Was “Hurt” By Chuck Lorre’s Comments About Her ‘Mom’ Exit: “Yikes”",
+            "url": "https://deadline.com/2026/10/anna-faris-responds-chuck-lorre-vindication-mom-exit-1237158905/",
+            "source": "Deadline"
+          },
+          {
+            "title": "Chuck Lorre felt vindicated when Anna Faris left ‘Mom’ for ‘mysterious reasons’",
+            "url": "https://pagesix.com/2026/10/14/celebrity-news/chuck-lorre-says-anna-faris-exit-from-mom-confirmed-his-casting-concerns/",
+            "source": "Page Six"
+          },
+          {
+            "title": "Anna Faris Reacts to Chuck Lorre’s Memoir Claims With Sobriety Update After His Dig: ‘It Hurts’",
+            "url": "https://www.usmagazine.com/entertainment/news/anna-faris-reacts-to-chuck-lorres-dig-about-her-in-memoir/",
+            "source": "Us Weekly"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "keyword": "tesla stock",
+        "traffic": "200+",
         "pub_date": "2026-10-16T02:10:00+00:00",
         "articles": [
           {
@@ -52,30 +82,30 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 5,
         "keyword": "dodgers",
-        "traffic": "100+",
+        "traffic": "200+",
         "pub_date": "2026-10-16T01:30:00+00:00",
         "articles": [
           {
-            "title": "Back to basics: Ohtani returns to leadoff spot for NLCS Game 4",
-            "url": "https://www.mlb.com/news/shohei-ohtani-leading-off-in-game-4-of-2026-nlcs-vs-brewers",
-            "source": "MLB.com"
-          },
-          {
-            "title": "As Shohei Ohtani struggles, Dodgers will discuss benching superstar in Game 3 - The Athletic",
-            "url": "https://www.nytimes.com/athletic/7685422/2026/10/12/shohei-ohtani-playing-benching-dodgers-brewers-mlb-playoffs/",
-            "source": "The New York Times"
-          },
-          {
-            "title": "Source: Dodgers' decision on sitting Ohtani hinges on health",
-            "url": "https://www.espn.com/mlb/story/_/id/50171187/dodgers-shohei-ohtani-nlcs-game-3-playing-status-health",
+            "title": "Dodgers know they need historic comeback to stay alive vs. Brewers",
+            "url": "https://www.espn.com/mlb/story/_/id/50187321/dodgers-brewers-ncls-game-3-brink-elimination",
             "source": "ESPN"
+          },
+          {
+            "title": "‘How do we bounce back?’ Dodgers lose NLCS Game 3, dream of three-peat may soon end",
+            "url": "https://www.latimes.com/sports/dodgers/story/2026-10-14/dodgers-collapse-game-3-nlcs-brewers-blake-snell",
+            "source": "Los Angeles Times"
+          },
+          {
+            "title": "Who's to blame for Dodgers' shocking NLCS loss vs. Brewers? Five places to point fingers",
+            "url": "https://www.cbssports.com/mlb/news/whos-to-blame-dodgers-shocking-nlcs-letdown-brewers/",
+            "source": "CBS Sports"
           }
         ]
       },
       {
-        "rank": 4,
+        "rank": 6,
         "keyword": "estudiantes vs flamengo",
         "traffic": "100+",
         "pub_date": "2026-10-16T01:20:00+00:00",
@@ -86,19 +116,19 @@
             "source": "beIN SPORTS"
           },
           {
-            "title": "Gonzalo Plata suma en la semifinal, Flamengo sale bien como visitante y Anthony Valencia espera su turno (VIDEO)",
-            "url": "https://es-us.noticias.yahoo.com/deportes/gonzalo-plata-suma-semifinal-flamengo-024000219.html",
-            "source": "Yahoo"
-          },
-          {
             "title": "Flamengo se entrena en Argentina antes del duelo decisivo ante Estudiantes",
             "url": "https://onefootball.com/es/noticias/flamengo-se-entrena-en-argentina-antes-del-duelo-decisivo-ante-estudiantes-43619237",
             "source": "OneFootball"
+          },
+          {
+            "title": "Gonzalo Plata suma en la semifinal, Flamengo sale bien como visitante y Anthony Valencia espera su turno (VIDEO)",
+            "url": "https://es-us.noticias.yahoo.com/deportes/gonzalo-plata-suma-semifinal-flamengo-024000219.html",
+            "source": "Yahoo"
           }
         ]
       },
       {
-        "rank": 5,
+        "rank": 7,
         "keyword": "m",
         "traffic": "100+",
         "pub_date": "2026-10-16T01:20:00+00:00",
@@ -109,21 +139,21 @@
             "source": "The Spokesman-Review"
           },
           {
-            "title": "Leaked list shows what Microsoft, Amazon and other tech giants are giving for the White House ballroom",
-            "url": "https://www.geekwire.com/2026/leaked-list-shows-what-microsoft-amazon-and-other-tech-giants-are-giving-for-the-white-house-ballroom/",
-            "source": "GeekWire"
-          },
-          {
             "title": "Nvidia, Apple each gave $25 million for Trump's ballroom, Washington Post reports",
             "url": "https://www.reuters.com/world/us/nvidia-apple-each-gave-25-million-trumps-ballroom-washington-post-reports-2026-10-15/",
             "source": "Reuters"
+          },
+          {
+            "title": "Leaked list shows what Microsoft, Amazon and other tech giants are giving for the White House ballroom",
+            "url": "https://www.geekwire.com/2026/leaked-list-shows-what-microsoft-amazon-and-other-tech-giants-are-giving-for-the-white-house-ballroom/",
+            "source": "GeekWire"
           }
         ]
       },
       {
-        "rank": 6,
+        "rank": 8,
         "keyword": "seattle seahawks",
-        "traffic": "100+",
+        "traffic": "200+",
         "pub_date": "2026-10-16T01:00:00+00:00",
         "articles": [
           {
@@ -132,42 +162,19 @@
             "source": "Racing Post"
           },
           {
-            "title": "Emanuel Wilson Headlines Our Best Picks for FanDuel's Fantasy Football DFS Showdown Lineup on TNF",
-            "url": "https://www.si.com/onsi/fantasy/dfs/emanuel-wilson-headlines-our-best-picks-for-fanduel-s-fantasy-football-dfs-showdown-lineup-on-tnf",
-            "source": "Sports Illustrated"
+            "title": "Seattle Seahawks @ Denver Broncos Odds",
+            "url": "https://sportsbook.fanduel.com/football/nfl/seattle-seahawks-@-denver-broncos-36160506",
+            "source": "FanDuel Sportsbook"
           },
           {
-            "title": "The Broncos and Seahawks throwback jersey matchup was so perfect",
-            "url": "https://ftw.usatoday.com/picture-gallery/sports/nfl/2026/10/15/broncos-seahawks-throwback-jersey-matchup-tnf-photos/92273596007/",
-            "source": "USA Today"
+            "title": "NFL Thursday Night betting tips: Seattle Seahawks @ Denver Broncos, live on Sky Sports & DAZN",
+            "url": "https://www.sportinglife.com/nfl/news/nfl-thursday-night-betting-tips-seattle-seahawks-denver-broncos-live-on-sky-sports-and-dazn/234841",
+            "source": "Sporting Life"
           }
         ]
       },
       {
-        "rank": 7,
-        "keyword": "nhl",
-        "traffic": "200+",
-        "pub_date": "2026-10-16T01:00:00+00:00",
-        "articles": [
-          {
-            "title": "Blackhawks’ Connor Bedard scores first goal of 2026 with help from Patrick Kane",
-            "url": "https://clutchpoints.com/nhl/chicago-blackhawks/blackhawks-news-connor-bedard-first-goal-2026-help-patrick-kane",
-            "source": "ClutchPoints"
-          },
-          {
-            "title": "Patrick Kane Makes USA Hockey History With Assist On Connor Bedard's First Goal Of 2026-27",
-            "url": "https://sports.yahoo.com/videos/patrick-kane-makes-usa-hockey-010111142.html",
-            "source": "Yahoo Sports"
-          },
-          {
-            "title": "Blackhawks’ Patrick Kane Reaches Historic NHL Mark Faster Than Phil Housley",
-            "url": "https://heavy.com/sports/nhl/chicago-blackhawks/blackhawks-patrick-kane-historic-nhl-mark/",
-            "source": "Heavy.com"
-          }
-        ]
-      },
-      {
-        "rank": 8,
+        "rank": 9,
         "keyword": "white",
         "traffic": "100+",
         "pub_date": "2026-10-16T01:00:00+00:00",
@@ -178,60 +185,37 @@
             "source": "BBC"
           },
           {
+            "title": "Zacharia confirms she did not pass bar exam",
+            "url": "https://thehill.com/homenews/administration/6152937-zacharia-bar-exam-white-house/",
+            "source": "The Hill"
+          },
+          {
             "title": "Katie Zacharia Is Trump’s New Press Secretary. But Is She a Lawyer?",
             "url": "https://www.nytimes.com/2026/10/14/us/politics/trump-press-secretary-katie-zacharia-lawyer.html",
             "source": "The New York Times"
-          },
-          {
-            "title": "Trump selects Katie Zacharia as next White House press secretary",
-            "url": "https://www.cnn.com/2026/10/09/politics/katie-zacharia-white-house-press-secretary",
-            "source": "CNN"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "keyword": "dodgers vs brewers",
-        "traffic": "200+",
-        "pub_date": "2026-10-16T00:50:00+00:00",
-        "articles": [
-          {
-            "title": "Brewers go one win from World Series as back-to-back homers sink Dodgers",
-            "url": "https://www.theguardian.com/sport/2026/oct/14/brewers-dodgers-nlcs-game-3-bauers-mitchell-home-runs",
-            "source": "The Guardian"
-          },
-          {
-            "title": "How Dodgers pitching would line up to make historic 3-0 comeback",
-            "url": "https://www.mlb.com/news/how-dodgers-pitching-would-line-up-to-make-3-0-comeback",
-            "source": "MLB.com"
-          },
-          {
-            "title": "Jake Bauers' epic homer rocks Dodgers as Brewers seize 3-0 NLCS lead",
-            "url": "https://www.espn.com/mlb/story/_/id/50186797/brewers-put-dodgers-ropes-seize-3-0-nlcs-lead-game-3",
-            "source": "ESPN"
           }
         ]
       },
       {
         "rank": 10,
-        "keyword": "flamengo",
+        "keyword": "nhl",
         "traffic": "200+",
-        "pub_date": "2026-10-16T00:40:00+00:00",
+        "pub_date": "2026-10-16T01:00:00+00:00",
         "articles": [
           {
-            "title": "Estudiantes 0 x 0 Flamengo | Taça Conmebol Libertadores: melhores momentos",
-            "url": "https://ge.globo.com/rj/futebol/libertadores/jogo/15-10-2026/estudiantes-flamengo.ghtml",
-            "source": "ge"
+            "title": "Blackhawks hold on for overtime win despite Jets' comeback",
+            "url": "https://www.reuters.com/sports/nhl/blackhawks-hold-overtime-win-despite-jets-comeback--flm-2026-10-16/",
+            "source": "Reuters"
           },
           {
-            "title": "Flamengo leva vantagem sobre o Estudiantes na história do confronto",
-            "url": "https://odia.ig.com.br/esporte/flamengo/2026/10/7312729-flamengo-leva-vantagem-sobre-o-estudiantes-na-historia-do-confronto.html",
-            "source": "O Dia"
+            "title": "Patrick Kane Makes USA Hockey History With Assist On Connor Bedard's First Goal Of 2026-27",
+            "url": "https://sports.yahoo.com/videos/patrick-kane-makes-usa-hockey-010111142.html",
+            "source": "Yahoo Sports"
           },
           {
-            "title": "Flamengo busca quebrar jejum de seis jogos sem vencer na Argentina",
-            "url": "https://www.metropoles.com/esportes/flamengo-busca-quebrar-jejum-de-seis-jogos-sem-vencer-na-argentina",
-            "source": "Metrópoles"
+            "title": "Bedard scores first goal of season, Blackhawks recover for OT win against Jets",
+            "url": "https://www.nhl.com/news/winnipeg-jets-chicago-blackhawks-game-recap-october-15-2026",
+            "source": "NHL.com"
           }
         ]
       }
@@ -244,8 +228,8 @@
         "channel": "Justice",
         "thumbnail": "https://i.ytimg.com/vi/5dPwBWvmcbQ/mqdefault.jpg",
         "published_at": "2026-10-15T13:39:06Z",
-        "view_count": 914262,
-        "like_count": 52208
+        "view_count": 956908,
+        "like_count": 53747
       },
       {
         "rank": 2,
@@ -254,8 +238,8 @@
         "channel": "Rockstar Games",
         "thumbnail": "https://i.ytimg.com/vi/rz1B4B2yBZY/mqdefault.jpg",
         "published_at": "2026-10-15T13:00:26Z",
-        "view_count": 19931379,
-        "like_count": 1306588
+        "view_count": 20378189,
+        "like_count": 1321573
       },
       {
         "rank": 3,
@@ -264,8 +248,8 @@
         "channel": "IShowSpeed",
         "thumbnail": "https://i.ytimg.com/vi/L6S9Vb3RLy4/mqdefault.jpg",
         "published_at": "2026-10-15T20:17:29Z",
-        "view_count": 1995170,
-        "like_count": 45013
+        "view_count": 2022495,
+        "like_count": 45624
       },
       {
         "rank": 4,
@@ -274,8 +258,8 @@
         "channel": "ZaraLarssonMusicVEVO",
         "thumbnail": "https://i.ytimg.com/vi/LB72Mbd88mU/mqdefault.jpg",
         "published_at": "2026-10-15T04:00:10Z",
-        "view_count": 1877576,
-        "like_count": 151269
+        "view_count": 1935556,
+        "like_count": 154402
       },
       {
         "rank": 5,
@@ -284,8 +268,8 @@
         "channel": "TGG",
         "thumbnail": "https://i.ytimg.com/vi/FV93IVwJP_4/mqdefault.jpg",
         "published_at": "2026-10-15T17:27:23Z",
-        "view_count": 683160,
-        "like_count": 23684
+        "view_count": 717408,
+        "like_count": 24416
       },
       {
         "rank": 6,
@@ -294,8 +278,8 @@
         "channel": "Parrot",
         "thumbnail": "https://i.ytimg.com/vi/9-j9GWjyWpY/mqdefault.jpg",
         "published_at": "2026-10-15T21:04:52Z",
-        "view_count": 961813,
-        "like_count": 68444
+        "view_count": 1122860,
+        "like_count": 74378
       },
       {
         "rank": 7,
@@ -304,8 +288,8 @@
         "channel": "U2VEVO",
         "thumbnail": "https://i.ytimg.com/vi/TUuVOW7XogA/mqdefault.jpg",
         "published_at": "2026-10-15T16:00:11Z",
-        "view_count": 463295,
-        "like_count": 21314
+        "view_count": 484247,
+        "like_count": 21932
       },
       {
         "rank": 8,
@@ -314,8 +298,8 @@
         "channel": "Amazon MGM Studios",
         "thumbnail": "https://i.ytimg.com/vi/5HK3wimDxBI/mqdefault.jpg",
         "published_at": "2026-10-15T14:44:46Z",
-        "view_count": 3704818,
-        "like_count": 17374
+        "view_count": 4089350,
+        "like_count": 18052
       },
       {
         "rank": 9,
@@ -324,8 +308,8 @@
         "channel": "Cash",
         "thumbnail": "https://i.ytimg.com/vi/_bAVpSXmbcs/mqdefault.jpg",
         "published_at": "2026-10-15T15:00:04Z",
-        "view_count": 349433,
-        "like_count": 4008
+        "view_count": 367858,
+        "like_count": 4113
       },
       {
         "rank": 10,
@@ -334,18 +318,18 @@
         "channel": "Enter Shikari",
         "thumbnail": "https://i.ytimg.com/vi/DTZlychMp4I/mqdefault.jpg",
         "published_at": "2026-10-15T17:30:08Z",
-        "view_count": 27274,
-        "like_count": 1965
+        "view_count": 28002,
+        "like_count": 1997
       },
       {
         "rank": 11,
-        "video_id": "AYkPRN874m8",
-        "title": "RAMAYANA: RISE OF A LEGEND - NEW TRAILER",
-        "channel": "Sony Pictures Entertainment",
-        "thumbnail": "https://i.ytimg.com/vi/AYkPRN874m8/mqdefault.jpg",
-        "published_at": "2026-10-15T14:00:39Z",
-        "view_count": 5593363,
-        "like_count": 101955
+        "video_id": "T0Uduwg2W2w",
+        "title": "RAMAYANA: RISE OF A LEGEND - NEW TRAILER IN HINDI | RANBIR KAPOOR | YASH | SAI PALLAVI | SUNNY DEOL",
+        "channel": "T-Series",
+        "thumbnail": "https://i.ytimg.com/vi/T0Uduwg2W2w/mqdefault.jpg",
+        "published_at": "2026-10-15T18:36:50Z",
+        "view_count": 713899,
+        "like_count": 30957
       },
       {
         "rank": 12,
@@ -354,8 +338,8 @@
         "channel": "SMii7Y",
         "thumbnail": "https://i.ytimg.com/vi/OYK-Ft1n5RM/mqdefault.jpg",
         "published_at": "2026-10-15T19:13:22Z",
-        "view_count": 836482,
-        "like_count": 38920
+        "view_count": 921405,
+        "like_count": 41610
       },
       {
         "rank": 13,
@@ -364,8 +348,8 @@
         "channel": "Russ Millions",
         "thumbnail": "https://i.ytimg.com/vi/ycJciSrpBYg/mqdefault.jpg",
         "published_at": "2026-10-15T18:00:09Z",
-        "view_count": 31392,
-        "like_count": 1934
+        "view_count": 32318,
+        "like_count": 1967
       },
       {
         "rank": 14,
@@ -374,8 +358,8 @@
         "channel": "Hollow",
         "thumbnail": "https://i.ytimg.com/vi/hBIAQ8-XUcY/mqdefault.jpg",
         "published_at": "2026-10-15T14:11:24Z",
-        "view_count": 261999,
-        "like_count": 8049
+        "view_count": 269024,
+        "like_count": 8206
       },
       {
         "rank": 15,
@@ -384,8 +368,8 @@
         "channel": "Harry Hesketh",
         "thumbnail": "https://i.ytimg.com/vi/tLa5B_0bdOI/mqdefault.jpg",
         "published_at": "2026-10-15T17:53:33Z",
-        "view_count": 91055,
-        "like_count": 1210
+        "view_count": 95086,
+        "like_count": 1241
       },
       {
         "rank": 16,
@@ -394,8 +378,8 @@
         "channel": "Connect-R",
         "thumbnail": "https://i.ytimg.com/vi/8ZQbCbjW8Vg/mqdefault.jpg",
         "published_at": "2026-10-15T06:30:09Z",
-        "view_count": 137139,
-        "like_count": 5549
+        "view_count": 138176,
+        "like_count": 5687
       },
       {
         "rank": 17,
@@ -404,8 +388,8 @@
         "channel": "Netflix",
         "thumbnail": "https://i.ytimg.com/vi/gDJ-ini7fF0/mqdefault.jpg",
         "published_at": "2026-10-13T18:00:00Z",
-        "view_count": 39931770,
-        "like_count": 81407
+        "view_count": 41320054,
+        "like_count": 81694
       },
       {
         "rank": 18,
@@ -414,8 +398,8 @@
         "channel": "Joe Bart Games",
         "thumbnail": "https://i.ytimg.com/vi/VbT5lcJDty8/mqdefault.jpg",
         "published_at": "2026-10-15T18:51:38Z",
-        "view_count": 264028,
-        "like_count": 6525
+        "view_count": 301173,
+        "like_count": 7021
       },
       {
         "rank": 19,
@@ -424,8 +408,8 @@
         "channel": "Newcastle United",
         "thumbnail": "https://i.ytimg.com/vi/n31nB3LfT10/mqdefault.jpg",
         "published_at": "2026-10-14T12:00:32Z",
-        "view_count": 74075,
-        "like_count": 2906
+        "view_count": 74199,
+        "like_count": 2908
       },
       {
         "rank": 20,
@@ -434,8 +418,8 @@
         "channel": "TmarTn2",
         "thumbnail": "https://i.ytimg.com/vi/pYHeZVyLb1A/mqdefault.jpg",
         "published_at": "2026-10-15T14:28:15Z",
-        "view_count": 273900,
-        "like_count": 7247
+        "view_count": 279920,
+        "like_count": 7358
       },
       {
         "rank": 21,
@@ -444,8 +428,8 @@
         "channel": "Live Speedy",
         "thumbnail": "https://i.ytimg.com/vi/iSKdHn2A4UA/mqdefault.jpg",
         "published_at": "2026-10-15T21:06:13Z",
-        "view_count": 177059,
-        "like_count": 5771
+        "view_count": 216085,
+        "like_count": 6667
       },
       {
         "rank": 22,
@@ -454,8 +438,8 @@
         "channel": "The Skinner Brothers",
         "thumbnail": "https://i.ytimg.com/vi/JBMGpjiRGCs/mqdefault.jpg",
         "published_at": "2026-10-15T20:00:09Z",
-        "view_count": 8052,
-        "like_count": 1420
+        "view_count": 8465,
+        "like_count": 1455
       },
       {
         "rank": 23,
@@ -464,8 +448,8 @@
         "channel": "KinoCheck.com",
         "thumbnail": "https://i.ytimg.com/vi/3RmuXRoJVhI/mqdefault.jpg",
         "published_at": "2026-10-15T12:43:49Z",
-        "view_count": 124124,
-        "like_count": 1793
+        "view_count": 126346,
+        "like_count": 1808
       },
       {
         "rank": 24,
@@ -474,8 +458,8 @@
         "channel": "Markiplier",
         "thumbnail": "https://i.ytimg.com/vi/rMvqiIWGZ5g/mqdefault.jpg",
         "published_at": "2026-10-15T18:59:20Z",
-        "view_count": 658880,
-        "like_count": 33948
+        "view_count": 733431,
+        "like_count": 36349
       },
       {
         "rank": 25,
@@ -484,18 +468,18 @@
         "channel": "GRM Daily",
         "thumbnail": "https://i.ytimg.com/vi/mbwp3JKV2Ns/mqdefault.jpg",
         "published_at": "2026-10-15T16:00:08Z",
-        "view_count": 9641,
-        "like_count": 387
+        "view_count": 9873,
+        "like_count": 394
       }
     ],
     "google_news": {
       "top": [
         {
-          "title": "Oregon: Teenager kills three children and teacher at primary school",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeW1oblRvVFVHTHZDS3VidXdGWEFJZXRyUXdFVTA4aWFrQ2tIRWVwUG8wWTFvdXBCWmR5VWdRRWQxTXJ2bDBrZjVnSlRST0t5WXViVUphdE9ESDRvaVZMTlR4cExmOVJDcV9Kdnc1eS1RRVloRlRJSEpYS3N6aUwzTlpGazdPbklaWkxEYUQ2SVFpU3MzN05pN1JvSFdtdFhIdUFXVFJRUQ?oc=5",
-          "description": "Oregon: Teenager kills three children and teacher at primary school  Sky NewsShooter kills three children and one teacher at Oregon elementary school  The GuardianThree children and a teacher killed b",
-          "publisher": "Sky News",
-          "pub_date": "2026-10-16T01:56:09+00:00"
+          "title": "Three children and teacher killed by 16-year-old at Oregon primary school",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94Qkc5V0dxZzdJQnlGRjBQcWdiRFFRR3hmbllzRU9YZFgyZzhKWnlHU1Vob25heEFQbVgydG1OalEwWHRGVTNWZF80US1KUGZGQUtpbkE2bGxDMVV2SFE?oc=5",
+          "description": "Three children and teacher killed by 16-year-old at Oregon primary school  BBCShooter kills three children and one teacher at Oregon elementary school  The GuardianThree children killed in elementary ",
+          "publisher": "BBC",
+          "pub_date": "2026-10-16T01:29:24+00:00"
         },
         {
           "title": "Farage accused of ‘protecting’ Reform candidate over racist slurs against David Lammy",
@@ -505,11 +489,11 @@
           "pub_date": "2026-10-15T21:06:00+00:00"
         },
         {
-          "title": "Two airlifted to hospital after bus collides with train stopped on French side of Channel Tunnel",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mam5feTBUdDF1bkZIVHozSlZlbFQ4dW9HTVpnQWtXcFE0emlBOUhGd1ZSQXVLRTZKMzU2NkowQ1BoYkFyWWdnTDZ5WmxZTkVCdE84bzNB?oc=5",
-          "description": "Two airlifted to hospital after bus collides with train stopped on French side of Channel Tunnel  BBCSee more headlines and perspectives on Google News",
-          "publisher": "BBC",
-          "pub_date": "2026-10-15T21:53:00+00:00"
+          "title": "19 injured after Channel Tunnel collision between bus and train on French side",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVnh6Z3Q4MHd6eDhjWmVldlRKako4VXlMS2lsSXVVanlwWFVqRVgwYW0zQWRJcVRxc1pfUHdXRFlsTE9WejlCZkhtSFV0NU9BYzFURjNtdHdTbGNOUWxRalB4R3ZIZ1loVWFpTlFBbExFekhKM09qUm5SRWswRjI2enB3SVhTVkRFejZaTjRMbXcxcGNMMjVlNTlFQXlOSnZLaXRoRHRmcElScXdzQ0FJVG5qaHY?oc=5",
+          "description": "19 injured after Channel Tunnel collision between bus and train on French side  Sky NewsTwo airlifted to hospital after bus collides with train stopped on French side of Channel Tunnel  BBCNineteen in",
+          "publisher": "Sky News",
+          "pub_date": "2026-10-15T23:38:40+00:00"
         },
         {
           "title": "France and Germany to allow UK to join EU car policy if it aligns on China tariffs",
@@ -526,18 +510,11 @@
           "pub_date": "2026-10-15T09:59:51+00:00"
         },
         {
-          "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5peG1sY1QxYXR6Smo1RjBMSjJrSC0wdzdSdTZLUTRsTzRhSVlELW5HYWRpNlFCMHRQOHhycXl2VkZHa3JyU2JoekFuMGw3TU4zTzFTVmtCV0x0VzlfNGc?oc=5",
-          "description": "Trump calls off livestream of Fort Hood attacker's execution by firing squad  BBCTrump Cancels Planned Execution Livestream of Nidal Hasan, Fort Hood Shooter  The New York TimesTrump cancels plan to l",
-          "publisher": "BBC",
-          "pub_date": "2026-10-15T14:20:35+00:00"
-        },
-        {
-          "title": "Russell Brand’s body was snake-like and disgusting, rape trial hears",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTDNHM202Qzl0NXpjNjQxeEtZZ1oxV3UtV2JTVnBnRFctWjljNGVjeXZNZTNEZHNfcVFIbzJZeFRmdTFrNkpZUjJhUVBSSVpJckVDUk1JU3RSMmdYSUgtN3V4S2ViR0dCMlNOWnM0RjktYXZMdEhvSzlPTnhMRVZpZnNuRENvWV95d2Q1bVhoLU42UEE5VzgySVJaVUEyRUV5NVQxT20xNA?oc=5",
-          "description": "Russell Brand’s body was snake-like and disgusting, rape trial hears  The TelegraphRussell Brand accuser says alleged rape left her afraid she may be pregnant  BBCRussell Brand trial as it happened: P",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-10-15T19:23:00+00:00"
+          "title": "‘I’ve told my truth… my voice was heard’ Jeffrey Donaldson victims speak out for first time",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMWFKd1k5bFVtdmRTNktpdHowbHl6bTVFNURodHhTVjVMeVp6ZWFUSHpJdWo4R2FkOFl4dXJ3MW9HM0p1dWFPbjk4M3BNRE9oYXVCQ2hFRTMtU0NWdVBSM0lNNUgwYS1DMDNuc3FiOUV3VFYyUy1IaVNWb1ZBc090cTBqNk0wT3B0aDU4TS1Ed0VwRjVqc2UxN0tWdTkzbDBVOGFBVzNMRVhMWUpBQ3U2WHJqbmJPczB2cDlZLVdKT0ZSSk9Hckl0ZkVvd0JBbkl1Q0JGX3doVkQ0VzBVYk1MVEVFNnBMaWFfNHc?oc=5",
+          "description": "‘I’ve told my truth… my voice was heard’ Jeffrey Donaldson victims speak out for first time  Belfast TelegraphFormer DUP leader Jeffrey Donaldson sentenced to 15 years in prison for child sex abuse  B",
+          "publisher": "Belfast Telegraph",
+          "pub_date": "2026-10-15T17:24:23+00:00"
         },
         {
           "title": "Severe drought declared in six areas of England as reservoirs run low",
@@ -547,37 +524,37 @@
           "pub_date": "2026-10-15T16:40:00+00:00"
         },
         {
-          "title": "Newton Heath murder investigation RECAP as forensics swarm area after woman killed with 3 arrested - updates",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaDdvWkNNdXoyNGFoenF0MmdSVEM4Xy1DTU1SU1RqOXZJeUI3eTRPdXR4S3F5bUxGQkZSRGlLSzdOUkJwMW5EQWFSUGZjLWdLNXdJOEJwQ1VFOWxHN25UelF6TXdrTlQzdVBybkl2alVmOXY2enJDNWk3eUpmdjNzSldlckFhMWd3MlZKT1BQbkk0MDlyVW9FYjlpQ0xWRTNjanMtdTJfVmtfOHZYV1HSAbMBQVVfeXFMT0ZkTHVULV90OGRqeDFULXE0YnVvekVnRG83LVBkWVFETDVFaHBrbnNZV2ltcGVqT0x4SHRjMC1TTWpXUGRhM2dJUF93VlpodEJ2cGxPR2kzQ01IZDcwVjB2ZC11emdYRzZ2bVl5T3Y4VllIbXo0V2JQa3JHUy1DVk1WVWhzTkhEZUNTUnF2ekRndUZyQUpmZlVwak5XTVRrRjdyS01OR1Y2dnNnajYwcC1FbDA?oc=5",
-          "description": "Newton Heath murder investigation RECAP as forensics swarm area after woman killed with 3 arrested - updates  Manchester Evening NewsMan, 25, held on suspicion of murder as woman victim named  BBCWoma",
+          "title": "Woman killed in Newton Heath stabbing named and pictured as police launch murder investigation",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWllhSkpOYVZRM2FnTEZZZ1g0YTJYSGJLUGg1Y0l4YnN2U0NrZXd0VkQ3R21lY01ieUQ3V252TmRJVW0xRjdyeEJGTjIxU0xoczA2cDB5cFZTUjROcXI3blc0eEhCN1JZMVY3S0ZQaXVETDhCeFBFV2thUHlIOVUyZVZpOUVQdXBCZlhPdl9tVkREbWZQTW5Fay15WWFsdzZYeWdncFZCd2lkTWpBeWRRVjZ30gG3AUFVX3lxTE14dk85Nnl1Y2VFZVZDeVN5QkFlVnJXbmhBWUUyMnUzaEJJZzR4YkI4bFVYNHJoaEN6V1ZGVFNERV8wWGYzbW1OZWQ3bHRya3kyT2lNRjcxQ0FkMUtWNmRrUm1NeDRPZDlMczNPMThUcks2SzQ5WDZCaFJyX2NTdy1JNHlUcW5Ma3RCVGtKbTlISDBjMUh0S2RRcDJwWHZGMjgycXgteWFkMXNJS0RoV1Q4RnYxNmxHQQ?oc=5",
+          "description": "Woman killed in Newton Heath stabbing named and pictured as police launch murder investigation  Manchester Evening NewsMan, 25, held on suspicion of murder as woman victim named  BBCWoman in her 20s s",
           "publisher": "Manchester Evening News",
-          "pub_date": "2026-10-15T15:31:46+00:00"
+          "pub_date": "2026-10-15T17:14:43+00:00"
         },
         {
-          "title": "Kiran Kaur: Mother of Henry Nowak's killer will be freed early from prison, Sky News understands",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbVZvNS1WVDdIZG8tdTMxWHFNZXBlWUNpY1JoZ0pkeW8yU1NwbUJ2VUdsZ0JvVVJCYTk0RmVxWDdJcHFmOUluU19Hdm9faGtJX3pSejJ3UEdTdWt1SURxSGtWbzd4QlZnbFA0RndSeVljN0tHMUROcWZEMUJsX3JKczZmaXJNdnZacEY1dTNHaVZFZXl3U3pIRDVibHNIWFFSRmlIdm5CZWtqUTNNRXMxeTJYQm1oeWV4?oc=5",
-          "description": "Kiran Kaur: Mother of Henry Nowak's killer will be freed early from prison, Sky News understands  Sky NewsMother of Henry Nowak killer could be deported  BBCMum of Henry Nowak's killer to be released ",
-          "publisher": "Sky News",
-          "pub_date": "2026-10-15T21:12:18+00:00"
-        },
-        {
-          "title": "Zelensky has had enough. Ukrainians strike refineries again — without Starlink (Ukraine Battlefield update, day 1,694)",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWTJpQ1FaSzYtQTJYd3g5UXVnRXJja2lQXzRfSEVadl9vcFluYjVQZW1OVzVmbEpJUmRER2ZZWFpoSUxVRGtvWFkwSVNoeDBtUzYtc3BfNXFROGJzM2xTaFI2Uk5meHp0VlR3QmpGZVc4OUpIZ0o0VThBN2MtOXFTX0FCMHdnbWpNSV9aQkFsZzd3YjEzNXFmeTlaTDI3NTB6WkMyVGZPaVZxamZ1TzJtMFd2a0ZUUWdoRFZzNE8wRzJHVTRPbTAxT3liY0xNd1Z2MUJDaDdSY2dBdw?oc=5",
-          "description": "Zelensky has had enough. Ukrainians strike refineries again — without Starlink (Ukraine Battlefield update, day 1,694)  EUobserverRussia accuses Ukraine of attacking oil refinery after Zelensky says s",
-          "publisher": "EUobserver",
-          "pub_date": "2026-10-15T15:32:06+00:00"
-        },
-        {
-          "title": "Waterford: Arrests made after couple and two children killed in arson attack",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KbWZKak9hWWtlem5IN2NVaTl5M3Q4bmFaWndDaFdXQWJwT3NkcGo1ZUkxN0NKMjJIZkswN2ZDNDJybFNJUzFsbFVka2RxTmp6R3IySmFXeGtDNnpoMGc?oc=5",
-          "description": "Waterford: Arrests made after couple and two children killed in arson attack  BBCMan and woman arrested after two adults and two children killed in Ireland house fire  Sky NewsSon says four were kille",
+          "title": "Murder arrest after man found dead in caravan in Clacton",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vYmUzb2ZhZG80N2Zfa0U0eE9EZ1Y5b0RTRVNKZU5MWFo3dnZWQmhBeWMwOS1hNEZKNExRTmtNT1paYXhDeHcyY2VnNi1ETzZRbWhVTGtldkg0VFBGR0E?oc=5",
+          "description": "Murder arrest after man found dead in caravan in Clacton  BBCClacton: Murder arrest after caravan park incident  Essex PoliceMan arrested on suspicion of murder after fatal assault at caravan park | I",
           "publisher": "BBC",
-          "pub_date": "2026-10-15T14:33:32+00:00"
+          "pub_date": "2026-10-15T19:07:37+00:00"
+        },
+        {
+          "title": "Men jailed for Birmingham abduction and sex assault of girl, 11",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzdU9iQWFmVURSeXZpd0ZPVm5qMG5UR0FRMmNOZ1NjT1g1c0lLTzJLQjZHZkh0a2pOd2VHbkduVDg2YWtEc3F5SjhUcjZVNW9lUzZwNnR4MVN1a0ZEQXc?oc=5",
+          "description": "Men jailed for Birmingham abduction and sex assault of girl, 11  BBCSee more headlines and perspectives on Google News",
+          "publisher": "BBC",
+          "pub_date": "2026-10-15T14:50:55+00:00"
+        },
+        {
+          "title": "Hegseth church allies backed plan for ‘public’ execution of Fort Hood shooter",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzZHTXNPRm5laVRlYWQ0Sm9hR3NVY0szeDF6TUZ3ZHFrbk84SjVQMzVCLUlPRnEzZURqaXhYRUtJVURHRWVQU0JpbklRRVdnUC1qZDk2b0pUZEZMek1hRWx6LUphemg2LTJnTEpTR0xNaUxyN3hzTjhHNW0tSEI5NFdJMGpBa3ZvSDR5Q3NHTDJKWHBHb3RrOA?oc=5",
+          "description": "Hegseth church allies backed plan for ‘public’ execution of Fort Hood shooter  The GuardianTrump calls off livestream of Fort Hood attacker's execution by firing squad  BBCTrump cancels plan to livest",
+          "publisher": "The Guardian",
+          "pub_date": "2026-10-15T16:16:00+00:00"
         },
         {
           "title": "Trump’s new press secretary says it’s ‘unknown’ how much she’ll deal with media",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN0djbkp1dFVoendVSi13S0t1YmFCM1kwQXpyWlB4dWRQTFRGYlRfN3daRUl3Y0xac21tUUZpbTE3R014WHlRb0IyTUxLZ1Z2VnFaaHV6LUNjdU5EV3pYbXZ0Q0I2UjY2WVdJQnFhdUlkOTFsdXNSMm5OUHpxemM1TEhrSVlTX3VpLWhCc3ZySHA4ZVJfSFFhLVV3?oc=5",
-          "description": "Trump’s new press secretary says it’s ‘unknown’ how much she’ll deal with media  The GuardianWhite House defends new press secretary over her legal credentials  BBCTrump press secretary explains faile",
+          "description": "Trump’s new press secretary says it’s ‘unknown’ how much she’ll deal with media  The GuardianWhite House defends new press secretary over her legal credentials  BBCKatie Zacharia Is Trump’s New Press ",
           "publisher": "The Guardian",
           "pub_date": "2026-10-16T00:08:00+00:00"
         },
@@ -589,9 +566,16 @@
           "pub_date": "2026-10-15T17:10:00+00:00"
         },
         {
+          "title": "Pope walking and recovering 'as expected' after surgery, doctors say",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBmWmVwbWhRbV8tOUU1VXQ1MHlDNnhLMXFhWkZPTDUyUTRHUzItalRXSmdzRFAyTTFNcVo2dVFMR0tuNFpWaDg5OW82U18wMXpvdWRVdHluRWtKU1EtVHc?oc=5",
+          "description": "Pope walking and recovering 'as expected' after surgery, doctors say  BBC'Keeping spirits up for both of them': Pope's brother also receiving cancer treatment, wife says  BBCPope Leo's postoperative r",
+          "publisher": "BBC",
+          "pub_date": "2026-10-14T15:12:46+00:00"
+        },
+        {
           "title": "Banks say Healey is planning Budget tax raid on their profits",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wdUtybXdlT3BoOXZZNU1Wc3dLTjVrd3pUQ3dLeXdITWR2c1JWUDZ6LVFvRzBEWjNvd2RDMGhLeWROczhWWkZKaE1jM3VnNVRZVGtkT09TZ1NwYnNuVWc?oc=5",
-          "description": "Banks say Healey is planning Budget tax raid on their profits  BBCKemi Badenoch sounds ‘alarm’ on potential Budget tax raid on banks  Financial TimesJohn Healey urged to hike taxes on banks’ ‘bumper p",
+          "description": "Banks say Healey is planning Budget tax raid on their profits  BBCNewspaper headlines: Healey's 'tax raid on banks' and Brand 'topless monster'  BBCJohn Healey faces calls to raise taxes on ‘bumper pr",
           "publisher": "BBC",
           "pub_date": "2026-10-15T17:14:36+00:00"
         }
@@ -612,18 +596,11 @@
           "pub_date": "2026-10-15T16:40:00+00:00"
         },
         {
-          "title": "Newton Heath murder investigation RECAP as forensics swarm area after woman killed with 3 arrested - updates",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaDdvWkNNdXoyNGFoenF0MmdSVEM4Xy1DTU1SU1RqOXZJeUI3eTRPdXR4S3F5bUxGQkZSRGlLSzdOUkJwMW5EQWFSUGZjLWdLNXdJOEJwQ1VFOWxHN25UelF6TXdrTlQzdVBybkl2alVmOXY2enJDNWk3eUpmdjNzSldlckFhMWd3MlZKT1BQbkk0MDlyVW9FYjlpQ0xWRTNjanMtdTJfVmtfOHZYV1HSAbMBQVVfeXFMT0ZkTHVULV90OGRqeDFULXE0YnVvekVnRG83LVBkWVFETDVFaHBrbnNZV2ltcGVqT0x4SHRjMC1TTWpXUGRhM2dJUF93VlpodEJ2cGxPR2kzQ01IZDcwVjB2ZC11emdYRzZ2bVl5T3Y4VllIbXo0V2JQa3JHUy1DVk1WVWhzTkhEZUNTUnF2ekRndUZyQUpmZlVwak5XTVRrRjdyS01OR1Y2dnNnajYwcC1FbDA?oc=5",
-          "description": "Newton Heath murder investigation RECAP as forensics swarm area after woman killed with 3 arrested - updates  Manchester Evening NewsMan, 25, held on suspicion of murder as woman victim named  BBCWoma",
+          "title": "Woman killed in Newton Heath stabbing named and pictured as police launch murder investigation",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWllhSkpOYVZRM2FnTEZZZ1g0YTJYSGJLUGg1Y0l4YnN2U0NrZXd0VkQ3R21lY01ieUQ3V252TmRJVW0xRjdyeEJGTjIxU0xoczA2cDB5cFZTUjROcXI3blc0eEhCN1JZMVY3S0ZQaXVETDhCeFBFV2thUHlIOVUyZVZpOUVQdXBCZlhPdl9tVkREbWZQTW5Fay15WWFsdzZYeWdncFZCd2lkTWpBeWRRVjZ30gG3AUFVX3lxTE14dk85Nnl1Y2VFZVZDeVN5QkFlVnJXbmhBWUUyMnUzaEJJZzR4YkI4bFVYNHJoaEN6V1ZGVFNERV8wWGYzbW1OZWQ3bHRya3kyT2lNRjcxQ0FkMUtWNmRrUm1NeDRPZDlMczNPMThUcks2SzQ5WDZCaFJyX2NTdy1JNHlUcW5Ma3RCVGtKbTlISDBjMUh0S2RRcDJwWHZGMjgycXgteWFkMXNJS0RoV1Q4RnYxNmxHQQ?oc=5",
+          "description": "Woman killed in Newton Heath stabbing named and pictured as police launch murder investigation  Manchester Evening NewsMan, 25, held on suspicion of murder as woman victim named  BBCWoman in her 20s s",
           "publisher": "Manchester Evening News",
-          "pub_date": "2026-10-15T15:31:46+00:00"
-        },
-        {
-          "title": "Kiran Kaur: Mother of Henry Nowak's killer will be freed early from prison, Sky News understands",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbVZvNS1WVDdIZG8tdTMxWHFNZXBlWUNpY1JoZ0pkeW8yU1NwbUJ2VUdsZ0JvVVJCYTk0RmVxWDdJcHFmOUluU19Hdm9faGtJX3pSejJ3UEdTdWt1SURxSGtWbzd4QlZnbFA0RndSeVljN0tHMUROcWZEMUJsX3JKczZmaXJNdnZacEY1dTNHaVZFZXl3U3pIRDVibHNIWFFSRmlIdm5CZWtqUTNNRXMxeTJYQm1oeWV4?oc=5",
-          "description": "Kiran Kaur: Mother of Henry Nowak's killer will be freed early from prison, Sky News understands  Sky NewsMother of Henry Nowak killer could be deported  BBCMum of Henry Nowak's killer to be released ",
-          "publisher": "Sky News",
-          "pub_date": "2026-10-15T21:12:18+00:00"
+          "pub_date": "2026-10-15T17:14:43+00:00"
         },
         {
           "title": "Murder arrest after man found dead in caravan in Clacton",
@@ -633,6 +610,13 @@
           "pub_date": "2026-10-15T19:07:37+00:00"
         },
         {
+          "title": "France and Germany to allow UK to join EU car policy if it aligns on China tariffs",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM3FCN0doMkY2S3lmdm1WWWI5aUZ4emIyZzBCYTlsdW54VkVjQWozNWtJQmdRWkYxd1EyM2lweFU5clZaamdDZURaQjk5YUZiamFSMXVJNTI3aGN4a3RPRGItdDRIdDlqa3Y2TTlkRUhabUEtYl9Vam1IeDFCN1gwM2pPYlY?oc=5",
+          "description": "France and Germany to allow UK to join EU car policy if it aligns on China tariffs  Financial TimesFrance drops opposition to UK being included in ‘Made in Europe’ legislation  The GuardianAuto Indust",
+          "publisher": "Financial Times",
+          "pub_date": "2026-10-15T14:10:35+00:00"
+        },
+        {
           "title": "Men jailed for Birmingham abduction and sex assault of girl, 11",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBzdU9iQWFmVURSeXZpd0ZPVm5qMG5UR0FRMmNOZ1NjT1g1c0lLTzJLQjZHZkh0a2pOd2VHbkduVDg2YWtEc3F5SjhUcjZVNW9lUzZwNnR4MVN1a0ZEQXc?oc=5",
           "description": "Men jailed for Birmingham abduction and sex assault of girl, 11  BBCSee more headlines and perspectives on Google News",
@@ -640,11 +624,11 @@
           "pub_date": "2026-10-15T14:50:55+00:00"
         },
         {
-          "title": "France and Germany to allow UK to join EU car policy if it aligns on China tariffs",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM3FCN0doMkY2S3lmdm1WWWI5aUZ4emIyZzBCYTlsdW54VkVjQWozNWtJQmdRWkYxd1EyM2lweFU5clZaamdDZURaQjk5YUZiamFSMXVJNTI3aGN4a3RPRGItdDRIdDlqa3Y2TTlkRUhabUEtYl9Vam1IeDFCN1gwM2pPYlY?oc=5",
-          "description": "France and Germany to allow UK to join EU car policy if it aligns on China tariffs  Financial TimesFrance drops opposition to UK being included in ‘Made in Europe’ legislation  The GuardianAuto Indust",
-          "publisher": "Financial Times",
-          "pub_date": "2026-10-15T14:10:35+00:00"
+          "title": "Kiran Kaur: Mother of Henry Nowak's killer will be freed early from prison, Sky News understands",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbVZvNS1WVDdIZG8tdTMxWHFNZXBlWUNpY1JoZ0pkeW8yU1NwbUJ2VUdsZ0JvVVJCYTk0RmVxWDdJcHFmOUluU19Hdm9faGtJX3pSejJ3UEdTdWt1SURxSGtWbzd4QlZnbFA0RndSeVljN0tHMUROcWZEMUJsX3JKczZmaXJNdnZacEY1dTNHaVZFZXl3U3pIRDVibHNIWFFSRmlIdm5CZWtqUTNNRXMxeTJYQm1oeWV4?oc=5",
+          "description": "Kiran Kaur: Mother of Henry Nowak's killer will be freed early from prison, Sky News understands  Sky NewsMother of Henry Nowak killer could be deported  BBCMum of Henry Nowak's killer to be released ",
+          "publisher": "Sky News",
+          "pub_date": "2026-10-15T21:12:18+00:00"
         },
         {
           "title": "Tiger attack victim had experienced psychosis, inquest told | ITV News",
@@ -654,25 +638,25 @@
           "pub_date": "2026-10-15T09:59:51+00:00"
         },
         {
-          "title": "Two airlifted to hospital after bus collides with train stopped on French side of Channel Tunnel",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mam5feTBUdDF1bkZIVHozSlZlbFQ4dW9HTVpnQWtXcFE0emlBOUhGd1ZSQXVLRTZKMzU2NkowQ1BoYkFyWWdnTDZ5WmxZTkVCdE84bzNB?oc=5",
-          "description": "Two airlifted to hospital after bus collides with train stopped on French side of Channel Tunnel  BBCSee more headlines and perspectives on Google News",
-          "publisher": "BBC",
-          "pub_date": "2026-10-15T21:53:00+00:00"
+          "title": "Nineteen injured in collision between minibus and train on Eurotunnel loading platform",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaklDYVZXN2pWVTA4dnBubkVhZC1YS1lTTXN4SXg1TVZPcmd1RFo2bVkwR3RNT29VRVNxT2xfR2VpUk1jclJqeWRTazh2VHJfaFBub3NnTUkyVUlsOTJIN2ZwaUxhNEtwSGhBVTFRZ1ZuVmRHNVptdElvWGduRERSY2FoQVFPYkQtQTIxaTFNZHp1VmJJMnp4Y19fb1BINkk?oc=5",
+          "description": "Nineteen injured in collision between minibus and train on Eurotunnel loading platform  The GuardianTwo airlifted to hospital after bus collides with train stopped on French side of Channel Tunnel  BB",
+          "publisher": "The Guardian",
+          "pub_date": "2026-10-15T20:36:00+00:00"
         },
         {
-          "title": "£2m fake weight-loss pens found in 'filthy' hub",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MbmU5Z1d1Y2hMMFNXcTlGT252SkZmUkhxZE5CbXVPWkQyXzEzc0x1NlZzWE5Ldnl6VXJLWWRIUkktUjFOSVNpa2dZNXRQdEZPQUhmVGVsRnNVQ1RCc3c?oc=5",
-          "description": "£2m fake weight-loss pens found in 'filthy' hub  BBCCounterfeit weight loss pens worth £2 million seized by MHRA and West Midlands Police  GOV.UKGangs exploiting boom in weight-loss jabs  The Telegrap",
+          "title": "Baby girl found dead on shoreline given name by police",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE00LXplLWtwZFd5dXg3Y0VkZGIyRU1wRXN4ejNBYmhsZW1vaTQzN0czZkFPV0tsRWlBT096N05uZGlNSG1xY0pDeXluU1FYLTRCcng3TzBtMnpobFVldHc?oc=5",
+          "description": "Baby girl found dead on shoreline given name by police  BBCNewborn baby tragically found dead on Bangor shoreline given name  North Wales ChronicleBaby found dead on Welsh coast named as police contin",
           "publisher": "BBC",
-          "pub_date": "2026-10-15T16:36:18+00:00"
+          "pub_date": "2026-10-15T15:31:50+00:00"
         },
         {
-          "title": "Former DUP leader Jeffrey Donaldson jailed for 15 years for child sex offences",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcXZwdko5a0psLUM0eDJyZmluMUM5Zk9NTENuRjN1WWpjUnlhUzU3Wmk2dVROY0E1MnRpdjZwVnJCOEpqQ0p1VWpKczI0d0dTcXdyRXhSd1A4NUdtcEFVaGh5WG1qeVNFUnMxS21uaEQ4bmJVMEdYZS1UQnNTUlBsc3QtTklmNi1NdElPbDZVLW5JMHVmYXpiN05RalEtQzEySFd4b0tZXzM4aHkyZFpSblpR?oc=5",
-          "description": "Former DUP leader Jeffrey Donaldson jailed for 15 years for child sex offences  Sky NewsDonaldson to serve half of rape, sexual assault sentence  RTE.ieFormer DUP leader Jeffrey Donaldson sentenced to",
-          "publisher": "Sky News",
-          "pub_date": "2026-10-15T12:51:23+00:00"
+          "title": "‘I’ve told my truth… my voice was heard’ Jeffrey Donaldson victims speak out for first time",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMWFKd1k5bFVtdmRTNktpdHowbHl6bTVFNURodHhTVjVMeVp6ZWFUSHpJdWo4R2FkOFl4dXJ3MW9HM0p1dWFPbjk4M3BNRE9oYXVCQ2hFRTMtU0NWdVBSM0lNNUgwYS1DMDNuc3FiOUV3VFYyUy1IaVNWb1ZBc090cTBqNk0wT3B0aDU4TS1Ed0VwRjVqc2UxN0tWdTkzbDBVOGFBVzNMRVhMWUpBQ3U2WHJqbmJPczB2cDlZLVdKT0ZSSk9Hckl0ZkVvd0JBbkl1Q0JGX3doVkQ0VzBVYk1MVEVFNnBMaWFfNHc?oc=5",
+          "description": "‘I’ve told my truth… my voice was heard’ Jeffrey Donaldson victims speak out for first time  Belfast TelegraphFormer DUP leader Jeffrey Donaldson sentenced to 15 years in prison for child sex abuse  B",
+          "publisher": "Belfast Telegraph",
+          "pub_date": "2026-10-15T17:24:23+00:00"
         },
         {
           "title": "UK Sends Ukraine More Storm Shadow Missiles to Hit Russian Sites",
@@ -689,69 +673,48 @@
           "pub_date": "2026-10-14T08:57:00+00:00"
         },
         {
-          "title": "London housing project wins top architecture award",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OZjlNTXRNSGdQTC1EMWJTYU9ZamVTcmhUc0tiXzBLN09iM1VtbzBWdWNxZEhsRjBPOXZtX0tjOE05M1JYM0I5akR4Yy1VYnNpZFFnd0thU0hRWEY1Y0E?oc=5",
-          "description": "London housing project wins top architecture award  BBCThey asked for 80 homes – she gave them 157! Council-housing miracle named Britain’s best new building  The Guardian\"Welcoming and inclusive\" Lon",
-          "publisher": "BBC",
-          "pub_date": "2026-10-15T20:02:59+00:00"
-        },
-        {
           "title": "Wes Streeting urges US to back Ukraine on Washington visit after Starlink row",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaUNQcEUwcUI2ZnBmV3BCVU1aT0owTHJ0bUFtamRGNWVZSFNhbnFxZUNCUHlsakRsdUJqVGs2WTJWS1NyeWdfd1I5eG95a3gybzZaT0txT28ybkVITkZwN2hsVEMwNTJySHhDaHNCWGd0eDlqTnZWbkhPUDVJX0VTc0Zadi1NdGxLVnVhbDYtWGx2aE1QRDdsa2tydDJEYmR1?oc=5",
-          "description": "Wes Streeting urges US to back Ukraine on Washington visit after Starlink row  The GuardianUK's Streeting says he and Hegseth welcomed Starlink restoration in Ukraine  ReutersDefence Secretary Wes Str",
+          "description": "Wes Streeting urges US to back Ukraine on Washington visit after Starlink row  The GuardianWes Streeting in US for Hegseth meeting as Ukraine tensions escalate – as it happened  The GuardianUK's Stree",
           "publisher": "The Guardian",
           "pub_date": "2026-10-15T18:09:00+00:00"
+        },
+        {
+          "title": "NI health: Hospital doctors to strike as pay dispute continues",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Td3N3NFlvUmxVMC1qYklXWk9nSk9FR2xFNU9TTnhOTUFoRk5fRWFEbmp3VXlyRS1oRDJ2QlA3TlZwb3FubEI0OVZwVm5JNEpmTWhfdzdnMVlsV0RVYUE?oc=5",
+          "description": "NI health: Hospital doctors to strike as pay dispute continues  BBCRCN Northern Ireland opens strike ballot over absence of pay award 14 Oct 2026 | News  Royal College of NursingNI healthcare workers ",
+          "publisher": "BBC",
+          "pub_date": "2026-10-15T11:02:17+00:00"
         }
       ],
       "world": [
         {
           "title": "Oregon: Teenager kills three children and teacher at primary school",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeW1oblRvVFVHTHZDS3VidXdGWEFJZXRyUXdFVTA4aWFrQ2tIRWVwUG8wWTFvdXBCWmR5VWdRRWQxTXJ2bDBrZjVnSlRST0t5WXViVUphdE9ESDRvaVZMTlR4cExmOVJDcV9Kdnc1eS1RRVloRlRJSEpYS3N6aUwzTlpGazdPbklaWkxEYUQ2SVFpU3MzN05pN1JvSFdtdFhIdUFXVFJRUQ?oc=5",
-          "description": "Oregon: Teenager kills three children and teacher at primary school  Sky NewsSee more headlines and perspectives on Google News",
+          "description": "Oregon: Teenager kills three children and teacher at primary school  Sky NewsThree children and teacher killed by 16-year-old at Oregon primary school  BBCShooter kills three children and one teacher ",
           "publisher": "Sky News",
           "pub_date": "2026-10-16T01:56:09+00:00"
         },
         {
-          "title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GU21EUFBRTGNoY19DVVUwOEQxX3FSN0V3WlB4U0tCcG8xNjBJY3R0ei0xR1RDNFBkd01CbEVfNndMZEc1dnU0MEpRRVQ1RlVzZURVb2JaZ2hjU0pac1E?oc=5",
-          "description": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured  BBCSee more headlines and perspectives on Google News",
-          "publisher": "BBC",
-          "pub_date": "2026-10-15T21:12:14+00:00"
-        },
-        {
           "title": "Hegseth church allies backed plan for ‘public’ execution of Fort Hood shooter",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYzZHTXNPRm5laVRlYWQ0Sm9hR3NVY0szeDF6TUZ3ZHFrbk84SjVQMzVCLUlPRnEzZURqaXhYRUtJVURHRWVQU0JpbklRRVdnUC1qZDk2b0pUZEZMek1hRWx6LUphemg2LTJnTEpTR0xNaUxyN3hzTjhHNW0tSEI5NFdJMGpBa3ZvSDR5Q3NHTDJKWHBHb3RrOA?oc=5",
-          "description": "Hegseth church allies backed plan for ‘public’ execution of Fort Hood shooter  The GuardianTrump calls off livestream of Fort Hood attacker's execution by firing squad  BBCTrump Cancels Planned Execut",
+          "description": "Hegseth church allies backed plan for ‘public’ execution of Fort Hood shooter  The GuardianTrump calls off livestream of Fort Hood attacker's execution by firing squad  BBCTrump cancels plan to livest",
           "publisher": "The Guardian",
           "pub_date": "2026-10-15T16:16:00+00:00"
         },
         {
-          "title": "Waterford: Arrests made after couple and two children killed in arson attack",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KbWZKak9hWWtlem5IN2NVaTl5M3Q4bmFaWndDaFdXQWJwT3NkcGo1ZUkxN0NKMjJIZkswN2ZDNDJybFNJUzFsbFVka2RxTmp6R3IySmFXeGtDNnpoMGc?oc=5",
-          "description": "Waterford: Arrests made after couple and two children killed in arson attack  BBCMan and woman arrested after two adults and two children killed in Ireland house fire  Sky NewsSon says four were kille",
-          "publisher": "BBC",
-          "pub_date": "2026-10-15T14:33:32+00:00"
-        },
-        {
           "title": "Trump’s new press secretary says it’s ‘unknown’ how much she’ll deal with media",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNN0djbkp1dFVoendVSi13S0t1YmFCM1kwQXpyWlB4dWRQTFRGYlRfN3daRUl3Y0xac21tUUZpbTE3R014WHlRb0IyTUxLZ1Z2VnFaaHV6LUNjdU5EV3pYbXZ0Q0I2UjY2WVdJQnFhdUlkOTFsdXNSMm5OUHpxemM1TEhrSVlTX3VpLWhCc3ZySHA4ZVJfSFFhLVV3?oc=5",
-          "description": "Trump’s new press secretary says it’s ‘unknown’ how much she’ll deal with media  The GuardianWhite House defends new press secretary over her legal credentials  BBCTrump press secretary explains faile",
+          "description": "Trump’s new press secretary says it’s ‘unknown’ how much she’ll deal with media  The GuardianWhite House defends new press secretary over her legal credentials  BBCKatie Zacharia Is Trump’s New Press ",
           "publisher": "The Guardian",
           "pub_date": "2026-10-16T00:08:00+00:00"
         },
         {
           "title": "Scientists have a date for when the 'world will end' and it's on a very unlucky day",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONGpZd01PNUhmWVE5dk52Umk5dl9EaGdUVDVub3NBb29md2ZEUFRUZGpraENPbmhtbE5PX3pMbGpXdnNRaU1QdEJUNmlqT3FlS3E1Ym5WYUxicUFKSmpOOUNPeXhOcjU4OWRkNVEzYWU3TkYtYkxRX1ZTc25jazlCUDdSTV83MkU1bFhKQ3JQQkfSAZYBQVVfeXFMUFgtUFhtNmZfc0JzcllvYm40d080WnlDZmE3Qkk0OTIxX1Z4LVVOTE1hTmVYTzBjbjhlM1dHU3AtRnZESGk5bnRFZmhrWEp4QjB2N0ZpNE0yaEtuQWU0dDhETlh4YWtKT1JlQmx3OEc4V25zTDNoeWRXYUxrRkstNFkteFpZUTNtMlZEcW1oQWtVQ2ZUcGtR?oc=5",
-          "description": "Scientists have a date for when the 'world will end' and it's on a very unlucky day  Metro.co.ukDoomsday paper written 65 years ago predicted humanity's end in matter of weeks  NZ Herald'Squeezed to d",
+          "description": "Scientists have a date for when the 'world will end' and it's on a very unlucky day  Metro.co.uk'Squeezed to death': Doomsday is nearly upon us  The New DailyA 1960 Population Model Pegged Nov. 13, 20",
           "publisher": "Metro.co.uk",
           "pub_date": "2026-10-15T17:10:00+00:00"
-        },
-        {
-          "title": "Zelensky Pushes Back at Trump’s Call for New Leader, Says Any Successor Would Defend Ukraine",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5TWURmbDZaQ213TEd1QUE0NTRILVo3enR3MWRVTlBfblk0UklaVmdBNzR6ZWNxYUpmQU1kS2x6cFlEUXk4T2EzNEh0NA?oc=5",
-          "description": "Zelensky Pushes Back at Trump’s Call for New Leader, Says Any Successor Would Defend Ukraine  Kyiv PostZelenskyy turns to European allies as Washington wavers  Euronews.comUkraine's Zelenskiy tells AB",
-          "publisher": "Kyiv Post",
-          "pub_date": "2026-10-15T09:23:21+00:00"
         },
         {
           "title": "Pope walking and recovering 'as expected' after surgery, doctors say",
@@ -768,11 +731,18 @@
           "pub_date": "2026-10-15T15:32:06+00:00"
         },
         {
-          "title": "Australia edge New Zealand in epic World Cup opener",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSWTNRVVhUZDRSTE9CWDQ0bm5qeWdwb1BHRWZvWTdxN0lmVjU2SDEtN3V3eVk3R2l2NjgtTWZ6OUh4ZS1GTFpUSldSV3ZobThuM1JjVktfS0lFYUlGZEl0azlyeENiYkJBeUFQVHpJR1Q?oc=5",
-          "description": "Australia edge New Zealand in epic World Cup opener  BBCNation-swappers show Rugby League World Cup is up for grabs in fiery opener | Angus Fontaine  The GuardianRugby League World Cup: Jack Bostock h",
+          "title": "Waterford: Arrests made after couple and two children killed in arson attack",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KbWZKak9hWWtlem5IN2NVaTl5M3Q4bmFaWndDaFdXQWJwT3NkcGo1ZUkxN0NKMjJIZkswN2ZDNDJybFNJUzFsbFVka2RxTmp6R3IySmFXeGtDNnpoMGc?oc=5",
+          "description": "Waterford: Arrests made after couple and two children killed in arson attack  BBCMan and woman arrested after two adults and two children killed in Ireland house fire  Sky NewsSon says four were kille",
           "publisher": "BBC",
-          "pub_date": "2026-10-15T11:23:58+00:00"
+          "pub_date": "2026-10-15T14:33:32+00:00"
+        },
+        {
+          "title": "Channel Tunnel crash live updates: At least 19 people injured after minibus hits train at terminal",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcm9LdFF2OThNQk55cVh5TXVUVXFKUkdUdTNGZE1scldNeWtaTnpJTmM1eEc0Y2FkUHhjclRqc3ZXQ0s1cGpGNlkxUDlPV1BrMldXNm1OSmpxbWVTSDQwb2Q0WUk5TEg3dG1nZ3RjLWF2UXRwWnNEXzZCLUtOQTh1VUFVMFFnMzBvVFJGUE5jek5hNUt1OG5oR3F5a2lHdEd0U1hMMEJGZzJtbGs?oc=5",
+          "description": "Channel Tunnel crash live updates: At least 19 people injured after minibus hits train at terminal  The IndependentTwo airlifted to hospital after bus collides with train stopped on French side of Cha",
+          "publisher": "The Independent",
+          "pub_date": "2026-10-15T21:23:00+00:00"
         },
         {
           "title": "‘No logic’: Finland slams Trump for siding with Putin against Ukraine",
@@ -782,6 +752,13 @@
           "pub_date": "2026-10-15T20:21:00+00:00"
         },
         {
+          "title": "Australia edge New Zealand in epic World Cup opener",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSWTNRVVhUZDRSTE9CWDQ0bm5qeWdwb1BHRWZvWTdxN0lmVjU2SDEtN3V3eVk3R2l2NjgtTWZ6OUh4ZS1GTFpUSldSV3ZobThuM1JjVktfS0lFYUlGZEl0azlyeENiYkJBeUFQVHpJR1Q?oc=5",
+          "description": "Australia edge New Zealand in epic World Cup opener  BBCRugby League World Cup: Jack Bostock hat-trick inspires Australia to thrilling 24-22 victory over New Zealand in opener  Sky SportsNation-swappe",
+          "publisher": "BBC",
+          "pub_date": "2026-10-15T11:23:58+00:00"
+        },
+        {
           "title": "Trump’s ambassadors: the loyalists and allies at the center of controversy",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM2RSUjVyR1Eya21OX3ZnZi14bEJ6YXh5WC1hekRvaUNpVFVkTzNDSlFqV0Q1bUxOUmEwYWRzMGgtYTYxLXZGRGQzZkF6ZzZ6cGNUOHprdjlObG14VERmR3VEV0VXaEkyNWtyZFJhLTFienhWVS1nTU0yLVN1SUFOVXBId2lhejFEMXNONTdObXlLaERQR2x3R0lGQjg5Zw?oc=5",
           "description": "Trump’s ambassadors: the loyalists and allies at the center of controversy  The GuardianTrump ousts US ambassador to Greece Kimberly Guilfoyle amid corruption allegations  BBCThe Trump Administration ",
@@ -789,48 +766,55 @@
           "pub_date": "2026-10-15T10:01:00+00:00"
         },
         {
-          "title": "Another tanker ablaze near Hormuz after two ships sunk in attacks",
+          "title": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUWdqWXNXODBHZzhMbnlGWDd0dlB4LXBKQWtKQ1U5Z25NNHVSdHBUMXNJcXhaZDBLVjRqWVF6UU5rc2tXcG95bHJfcENWeXVVcjQzZ0hWX2N6UEpIZ2dNRkd1MEZxRnJFa1lSMm1xN2R2R3ZuWU16VFNGOHFHYzhlNEhXTzBuZnpFdTg0aG4tamlfbW1VZ05fY0lVbjBGZU1YbFRWQkVRdmhPLXZIbXowOXJoVQ?oc=5",
-          "description": "Another tanker ablaze near Hormuz after two ships sunk in attacks  Euronews.comContainer ship hit by projectile sinks in Strait of Hormuz, Singapore says  BBCTwo container ships sink near strait of Ho",
+          "description": "Another tanker catches fire near Hormuz after two cargo ships sunk in attacks  Euronews.comTwo container ships sink near strait of Hormuz amid surge in Iranian attacks  The GuardianContainer ship hit ",
           "publisher": "Euronews.com",
           "pub_date": "2026-10-15T16:00:57+00:00"
         },
         {
           "title": "BBC Breakfast interrupted for tragic death announcement",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVlpMSzlVRElXdXhoUjhTYUxTb2NPN2pjWl9MdTN2b0lJNkNJbl9Nak5nNmlrM1VDbWJyTEFzaGE5c01xclVvdE5VRVZqcDg2bVJSaGZZRDNpUUIyZUtJOFR4Nml4VkVod3NwVU9nZEpaN3BrZXBibGFUdFU5WUhEd25yOE9RMTRRSzB0WUU5dEw5TXZB0gGaAUFVX3lxTE02RXoxXzdUSVdoTU5lU0ptd0FZSlZ4VDA4SUhKaElDcDZhZE0xT3JEdF9fVjAwYmd1cEc5SmtTMVl4dC0xeUYxNHJOdFJEaXdISWFNdDg1dnRPdFJScUVoRV9PSHdvVlBUeEdXckdRS1ltWnFFdUQ3SW8zVUVjQkhzRm96cnFDU2k0TnRRTF83WU9UQ0dQbFp5V1E?oc=5",
-          "description": "BBC Breakfast interrupted for tragic death announcement  Daily Express‘Thanks, Trump’: In Kyiv as missiles rain down without warning  The TimesUkrainians fear US intelligence cuts as Russian strikes i",
+          "description": "BBC Breakfast interrupted for tragic death announcement  Daily ExpressUkrainians fear US intelligence cuts as Russian strikes intensify  Al JazeeraU.S. may have withheld warnings to Ukraine of Russian",
           "publisher": "Daily Express",
           "pub_date": "2026-10-14T07:31:00+00:00"
         },
         {
-          "title": "At least 34 children killed in Pakistan school collapse",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVFBPejNBWTJhLUVSVnBOUm5XM0xzX2drLVowNXFzRDFHS3dDN3l3M1llVndpdkRyNUtyU2RJUmo4RlhsampOOVVSOHNLeEw1T0N2QUlFUTlOWjd0RXFBUjZkN0E1aHhSU3lueC1oenJ5cTBVamo1U291MVcyYXo1aWo1SEgxeW1BZzByZy15WldfWXczQ3c?oc=5",
-          "description": "At least 34 children killed in Pakistan school collapse  Sky NewsMore than 30 killed in Pakistan school roof collapse as police warn building still 'extremely dangerous'  BBCPakistan school roof colla",
-          "publisher": "Sky News",
-          "pub_date": "2026-10-15T14:27:18+00:00"
+          "title": "Zelensky Pushes Back at Trump’s Call for New Leader, Says Any Successor Would Defend Ukraine",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5TWURmbDZaQ213TEd1QUE0NTRILVo3enR3MWRVTlBfblk0UklaVmdBNzR6ZWNxYUpmQU1kS2x6cFlEUXk4T2EzNEh0NA?oc=5",
+          "description": "Zelensky Pushes Back at Trump’s Call for New Leader, Says Any Successor Would Defend Ukraine  Kyiv PostZelenskyy turns to European allies as Washington wavers  Euronews.comUkraine's Zelenskiy tells AB",
+          "publisher": "Kyiv Post",
+          "pub_date": "2026-10-15T09:23:21+00:00"
+        },
+        {
+          "title": "Houthi strikes mark the end of Saudi Arabia's Yemen 'containment strategy'",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRnVDR05TZFFsaUdocWw2cFlKQk9zNVVLbFRlTDFzUTI2aTBLY2pacFVoa3hjYXdnZkZya29NM2tLaVg3YjBjY0ozQjlrY2l4ZXRxdlNieGZCMHZqVVh0eGczdFU0WENqZXZJbk05c1JFSHZ6Y2JmMDNhVkREMmlSdmFWTTdvNmhpTVpDVkpSNFowZUVlVWZUSEVQdjNHQ05G?oc=5",
+          "description": "Houthi strikes mark the end of Saudi Arabia's Yemen 'containment strategy'  Middle East EyeHow are Yemen’s Houthis attacking Saudi Arabia so effectively?  ReutersTwo scenarios for the Yemen war  Al Ja",
+          "publisher": "Middle East Eye",
+          "pub_date": "2026-10-14T19:28:47+00:00"
         }
       ],
       "business": [
         {
           "title": "Banks say Healey is planning Budget tax raid on their profits",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wdUtybXdlT3BoOXZZNU1Wc3dLTjVrd3pUQ3dLeXdITWR2c1JWUDZ6LVFvRzBEWjNvd2RDMGhLeWROczhWWkZKaE1jM3VnNVRZVGtkT09TZ1NwYnNuVWc?oc=5",
-          "description": "Banks say Healey is planning Budget tax raid on their profits  BBCKemi Badenoch sounds ‘alarm’ on potential Budget tax raid on banks  Financial TimesJohn Healey urged to hike taxes on banks’ ‘bumper p",
+          "description": "Banks say Healey is planning Budget tax raid on their profits  BBCNewspaper headlines: Healey's 'tax raid on banks' and Brand 'topless monster'  BBCJohn Healey faces calls to raise taxes on ‘bumper pr",
           "publisher": "BBC",
           "pub_date": "2026-10-15T17:14:36+00:00"
         },
         {
-          "title": "UK economy unexpectedly grows in August despite fall in consumer spending",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOV0UwOWFQV09WOXZQMzBhUlp3YWFPcjE0T0xqS3JuVUdVUlgtMmZFSjFjWl9qVUdCSzdFcHpJZ0VkQ2FhbVl6U0lxV3k5aXlHYUhkc3hBZm1JTVpNUHB4bDNBazhURWthZ0pIWm5vNG9PY0Ita2NxZm1uT1N5b1ZORjFLSGRiY2RlSHMtRlFKaTJIZGRxaWdBcjd0UnFwN3psZkRYUldZZHJNdWdhcU15MHozMkQyNGdXMV9oSjd4MFlFdWhwcW4ySw?oc=5",
-          "description": "UK economy unexpectedly grows in August despite fall in consumer spending  The GuardianHealey says surprise UK growth is 'sign of resilience' ahead of Budget  BBCSurprise GDP growth as UK economy stro",
+          "title": "Lisa Nandy ‘minded to intervene’ in Sky’s £1.6bn purchase of ITV",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObE9iMzlnME10dmZCWWI3NElfUXBDTTBIOG8tNHJLMjd1VmE4MThRR21LTkhVcFlRcFoxZ1hleXVTTktGcV9CZ056NXdfcWNlckFDaW9OTFdzLXdONVFBUlE3Q3ZxWkJtd3A3anFacnV3RGIxWXU4bTRrTW1leWpHUHRKdmFuQUFFM2lsSGNEeVN4eURpS09kdXp3Z0U4SENBZmxVdzdUbw?oc=5",
+          "description": "Lisa Nandy ‘minded to intervene’ in Sky’s £1.6bn purchase of ITV  The GuardianNandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm  BBCSky-ITV deal: Culture secretary 'minded ",
           "publisher": "The Guardian",
-          "pub_date": "2026-10-15T16:04:00+00:00"
+          "pub_date": "2026-10-15T15:03:00+00:00"
         },
         {
-          "title": "Airport drop-off charges to be reviewed after Labour ‘about-turn’",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQUVtRE1BeHJmWW4tTDk4WWxQQnNESjh6blMwZjJOUHZPZXZFVDA1bTVZSlk5Tkk1VHR0TjN2ejdCUmczQ2o3eXZBazhVeERvZTZxTnZaazhJcFhlWDFZRjZ4d05wYzNNU3hpQWhxeGZIX2xQVFd3czdEcDlhSUhfZEZPX2Uta1NETjh1NnBHcU10aDhuT0ZIN1laZ3ByLTdyam1JZg?oc=5",
-          "description": "Airport drop-off charges to be reviewed after Labour ‘about-turn’  The TelegraphDrop-off charges at UK airports to be reviewed after sharp increase  BBC‘Rip-off’ fees for airport drop-offs set to be r",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-10-14T21:32:00+00:00"
+          "title": "Pound rises against weaker dollar, UK GDP unexpectedly rises",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUGlrUlN1d29DekMyUDJCVW9SQ3B3aURmNlhsWDlmeGI4bGhndWlKMURKc0dFWjRnN1JzTGowRTdNNklvWjNjMFh5eWgybjBKalNpVy1YWEY2dXgwZjZ3bUNfVDJpeENvTzVENVZQb3l5ZDU3ZjRpVUhyX0pvT1gyMjU0em41SWFGV3R3RlROdVdLX1hBWEFoYWZVb29GM1N5Q1k0TTZsRQ?oc=5",
+          "description": "Pound rises against weaker dollar, UK GDP unexpectedly rises  ReutersHealey says surprise UK growth is 'sign of resilience' ahead of Budget  BBCUK economy unexpectedly grows in August despite fall in ",
+          "publisher": "Reuters",
+          "pub_date": "2026-10-15T10:57:44+00:00"
         },
         {
           "title": "Skydance Shares Tumble In Technical Adjustment As Inflation, Interest Rate Jitters Roil Markets; Apple Regains $5 Trillion Market Cap",
@@ -847,13 +831,6 @@
           "pub_date": "2026-10-15T07:16:40+00:00"
         },
         {
-          "title": "Healey eyes £1bn raid on London offices",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNnhGX3htTE1nQlE0d253Y2hzQ2FwbUZzNUlldzhFRzJYY1RmMTdVNTNYWDZ4eUNkRWppZkFmVUd4VW0zQVVfLXcyaHpDWVY0Wk9sU294RFlBT2hZZ1RRbXRrUlFTNDRQWVpod254NDF2blNPY3JBOVZ4UEM5TTJEVDJTSnpDdkw0bVd4UXlPb3k?oc=5",
-          "description": "Healey eyes £1bn raid on London offices  The TelegraphHealey’s £1bn London office raid would be ‘attack on growth’  City AMNews | Chancellor mulls '£1 billion tax raid' on large offices  CoStarChancel",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-10-15T05:00:00+00:00"
-        },
-        {
           "title": "Pilots fear for jobs after £5.7bn easyJet takeover",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVTZPa0xleXhhbE5TOVdkbkZ2eEU0bjFyT0F1QVdEZ2lEeFJoRmMxQXhsYmZpLTJrMUNrNHFKdnIyb3NYVXZ3LVVxbkxlZEFlU1M2MzNMbjZ3UC1lRzU4RWJhS1pwZVo5c2ZHMW5lek1XbjByWW1IZXVtTlFkWEw2V3h5ejJUbG5kbGhEQWZmb2tSY29tS1RfS0ViNFNZdw?oc=5",
           "description": "Pilots fear for jobs after £5.7bn easyJet takeover  The TelegraphBankers and advisers set for £334mn easyJet payout  Financial TimesCity advisers to net £334.5m in fees for easyJet takeover  The Times",
@@ -861,25 +838,25 @@
           "pub_date": "2026-10-15T15:12:00+00:00"
         },
         {
-          "title": "France drops opposition to UK being included in ‘Made in Europe’ legislation",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObjBBTXVvSW93MjJBSnFIMm1yMW5nMmpxbzBHU1NrWFZDMVRhdTlkVzlDcEpVTC1DZmdNdHdnbmtWdWh4ZTVNREJBNWRCOEVOWUxDbEptdHcwNDlhYzA2UEhjOU1Xc2Nla0lnTlJQM0NTQktCZ3IzelNkWi1XYnVwWXc2VDlUTFF5bWltVm5sdTF5enF4U1htVkZGTy0yYnA4WmJKbjIxa0NCdTRqNXFDZTZ3WndjcmhZdWpVLQ?oc=5",
-          "description": "France drops opposition to UK being included in ‘Made in Europe’ legislation  The GuardianFrance and Germany to allow UK to join EU car policy if it aligns on China tariffs  Financial TimesAuto Indust",
-          "publisher": "The Guardian",
-          "pub_date": "2026-10-15T22:08:00+00:00"
+          "title": "Hospitality companies to create 100,000 new roles for NEETs",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZkRnek1HQTZocnBWYXpILXVJQm8yOW56bmpTdXI1WFVnc2xGbHplVk5DeFM5N0Znb01WYVJSaFpMcmlfaU1ELVlfbmt1WHREc0FKdlNhbG1YbnY0RXdWMXVpRFNtcjdEc3lub014aXQyOGRqWmplNDc1RnJSY3BXSEx6M0VERXdnWWV3ZE9pd0IxcGpvMlp4dmR2VQ?oc=5",
+          "description": "Hospitality companies to create 100,000 new roles for NEETs  Sky NewsUK hospitality sector to offer up to 100,000 jobs to young people out of work  The GuardianBritain's biggest hospitality brands par",
+          "publisher": "Sky News",
+          "pub_date": "2026-10-15T02:14:30+00:00"
         },
         {
-          "title": "UK hospitality sector to offer up to 100,000 jobs to young people out of work",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2hmRGt2UGgyQWRja1Fqd3ZIWklKWjFGaU44R1g1ay1STjdrOUlXVlZVY1BBeDktcDY0M19nYk1KYTV3V1FqaGJiaEpValZCSUx6WDloV2FDX1BjbEV5a0xibHl4QkdLcGlSZnFERVNDOFU3NTZGLTViUGtINmRENHJXeHl3eWszMWJOaDYxZGR1YkhRNVgwRzRNNW1aNVA2RHc?oc=5",
-          "description": "UK hospitality sector to offer up to 100,000 jobs to young people out of work  The GuardianBritain's biggest hospitality brands partner with Government to deliver 100,000 jobs for NEET young people  G",
-          "publisher": "The Guardian",
-          "pub_date": "2026-10-14T21:30:00+00:00"
-        },
-        {
-          "title": "UK to launch world-first mission to tidy up in space",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVUhLUlFRLWJfbU95Uy1TQjFSQUloclNIUjB1RlVTN2IxcVBzdi1LX21DZ2dabVpBdmthS1hIRktZWnJBMThrVDVtYU05dEVfUHQ3N2RWeG9leVU4OF9rRW5RMDZPVUh3N3lxLXpYdWZfbGpwNEE5OXR5THpHOW4tT0lyZHpFc2s0QmZRS3R1MG9hcEZhU3N1X3ZWMEx1RUpTN3BxbW5aU2E?oc=5",
-          "description": "UK to launch world-first mission to tidy up in space  The TimesName the UK Space Agency’s First National Mission! 🛰️🌍  GOV.UK blogsUK awards ClearSpace $80 million prime contract for dual-satellite de",
+          "title": "‘Rip-off’ fees for airport drop-offs set to be reviewed",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa0Z6M2dCbjJsb2V0X1BTMWZxRmpnTy13dlRYanAxOUdrYW9jMGdWUS1ZTEllTE85U2xpWU1pRmhmOWhHX0FRMUVSNDR2dHp6V01Vd1NsM0VXQlYwY2I0eS1KUGsyT1VRaDdTUC0tMko2M1dTM0I3M2NUWHVKOGNIZW84NjBfU0V4c21vdnpsZ05nQVdGaHU4czdyZFVrc000bzc4?oc=5",
+          "description": "‘Rip-off’ fees for airport drop-offs set to be reviewed  The TimesDrop-off charges at UK airports to be reviewed after sharp increase  BBCAirport drop-off charges to drop? Government to review prices ",
           "publisher": "The Times",
-          "pub_date": "2026-10-15T15:47:55+00:00"
+          "pub_date": "2026-10-14T13:05:59+00:00"
+        },
+        {
+          "title": "UK awards ClearSpace $80 million prime contract for dual-satellite deorbit mission",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdGVnSmR0dlgyZnlaelR4WC1MYWdWN2NDUThUT215dlQxZzdTRzViNGVyckxrU2U4QjVVTGE0WUM1bFRTUW1ONEVtQTJtUkVINGpaMldsUnQ3enpvejkzRGNiQVkxQWZUSmR3c1g2bTlQU3dwb0N6R2p0c0RPZDQwQjFqS2FUZFNwWkFtdGpwMFlvQnNnNG9sZksxVHNKTklKa3Zta1JNUQ?oc=5",
+          "description": "UK awards ClearSpace $80 million prime contract for dual-satellite deorbit mission  SpaceNewsName the UK Space Agency’s First National Mission! 🛰️🌍  GOV.UK blogsUK to launch world-first mission to tid",
+          "publisher": "SpaceNews",
+          "pub_date": "2026-10-15T07:00:00+00:00"
         },
         {
           "title": "GCSE results league table 2026: how did your school perform?",
@@ -910,11 +887,18 @@
           "pub_date": "2026-10-15T19:00:00+00:00"
         },
         {
-          "title": "The stunning Porsche Mission S previews a new mid-engined supercar",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUWdxYWZkTndIX3ZhTjBZeTVnM2ZsX0FuUGNPUURkdzZDN21KelFaeTBHSGhBV3VhZVgtSEVhT1p5eWFxMG1PQ1R1N1VSTUtzdnpzd1JqNzd3cy1PQVA1Z19VUnc0Z2l3bzViaUhvYV9jSG1ucFBNMXZJR0NaZXRqUVF6bUdXYl9maWlFcHhPUFBLTDdGdTBfUjVYZUVpX3FaaGNR?oc=5",
-          "description": "The stunning Porsche Mission S previews a new mid-engined supercar  AutocarPorsche Mission S: the essence of the sports car reinterpreted  Porsche NewsroomMission… accepted: meet the stunning new mid-",
-          "publisher": "Autocar",
-          "pub_date": "2026-10-15T20:32:13+00:00"
+          "title": "John Healey ‘targets tax crackdown on online marketplaces’ in first budget",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZlJYZUx3RXBZcGd5TWxQS0RyNGotN0F2RkVUMWcxalpscFh4RmFEdTFtQnZ6aXBoYk5lal9TTWFrem94Rnc1bzJhWVM5Ti1POGN3cnlMN3BQUHBFLTk3YmJYSldVUzBEZWlrRmZ4R2RQZmRzWkVmdGpkR0IxU0JXMHRHYnhtOGZaclFMaWtZWlNrTDFVOFZsTjlUbkFzY2hzODdJNWlSNUdtdHVyOVZ5dy12RQ?oc=5",
+          "description": "John Healey ‘targets tax crackdown on online marketplaces’ in first budget  The GuardianUK finance minister Healey to target online marketplaces in tax crackdown, The Times reports  ReutersJohn Healey",
+          "publisher": "The Guardian",
+          "pub_date": "2026-10-14T11:10:00+00:00"
+        },
+        {
+          "title": "France and Germany to allow UK to join EU car policy if it aligns on China tariffs",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPM3FCN0doMkY2S3lmdm1WWWI5aUZ4emIyZzBCYTlsdW54VkVjQWozNWtJQmdRWkYxd1EyM2lweFU5clZaamdDZURaQjk5YUZiamFSMXVJNTI3aGN4a3RPRGItdDRIdDlqa3Y2TTlkRUhabUEtYl9Vam1IeDFCN1gwM2pPYlY?oc=5",
+          "description": "France and Germany to allow UK to join EU car policy if it aligns on China tariffs  Financial TimesFrance drops opposition to UK being included in ‘Made in Europe’ legislation  The GuardianAuto Indust",
+          "publisher": "Financial Times",
+          "pub_date": "2026-10-15T14:10:35+00:00"
         }
       ],
       "technology": [
@@ -926,11 +910,11 @@
           "pub_date": "2026-10-15T17:08:00+00:00"
         },
         {
-          "title": "2026 Kindle review: Amazon nearly perfects its budget e-reader",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51eVIxZERnUFFnTjlfUXI4b3JOYW91eUJGdjlnOFhYbFpnYUJtVjdSS3FXWl9INnF4VHlRSXZqTUVjWTl5aVVWUmFMaG1KbGRIcjVFNzh6MUNpTV93Q1hndUw1OVV1dG05dWNXbA?oc=5",
-          "description": "2026 Kindle review: Amazon nearly perfects its budget e-reader  Mashable4 Of The Coolest New Kindle Accessories Available In 2026  SlashGearThe Kindle Paperwhite has got a new look for 2026 — here's e",
-          "publisher": "Mashable",
-          "pub_date": "2026-10-15T09:17:05+00:00"
+          "title": "10 HomeView Features You Might Have Missed",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYQU5tYlhEaU0tQlFnUC05Ui1QYkZQMTAzXzhXY3lhR2ZOVHJDRlc3OHNSdDlJX2NXQVFLbjRJMmFRQXVyUGRjVmtUYTdjR29ENVhhaGY3Mng2cGt3Nk1rTk9KQTQ?oc=5",
+          "description": "10 HomeView Features You Might Have Missed  MacRumorsMeet Apple HomeView, a new way to enjoy entertainment, stay connected, and manage the home  AppleApple consolidates smart-home capabilities in Home",
+          "publisher": "MacRumors",
+          "pub_date": "2026-10-14T23:02:36+00:00"
         },
         {
           "title": "Sacked Grand Theft Auto workers protest as company bosses quizzed at tribunal",
@@ -940,11 +924,11 @@
           "pub_date": "2026-10-15T13:22:47+00:00"
         },
         {
-          "title": "Microsoft Confirms 20% Faster Windows 11 Experience, 8 GB Systems Also Run Better",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSGlUVEdFVUtXR0gtX2oySzBnWTdmYktjdWFZSVIyaE4yaDE5RS0xcm5BQU55Q0trLUcxRG1XNHJhM09UdElPMGFteUtucDRsYzdtZk5aMVJqNFlDbmF3MWJUdW1PUEpvcW9KZnQ1SjgtdXdPNWFmSENNVlNwdzZqbEZvc2pOVUU4QTA1T3l3QUtjN2tveWtIQlZzakJrWWxFcS03RFJ6eVNPNWlZNTllSkRpaGTSAboBQVVfeXFMT2NSV1h3TE53eGRVdmdJWGM2WDFxbndFSDZERy0xbGNHbktQRVk1NjFvOWYxVDhBOE80SU5aX2dkaWZnUjhRcVYwUFZwY3QybHpYLUdQM2ktaDJ2ZWo4UUgwcUlLZDlhMEpkQVFndXFtbXpYUzBJT0FVd2tBTElYOUVod3EySzY0Q21BUk5OUS1ka2lRS3NsVWk3a3Uxbm54WXRSSDhCdjhKcUMzR0NJVWY2Z1NJU09BZFlB?oc=5",
-          "description": "Microsoft Confirms 20% Faster Windows 11 Experience, 8 GB Systems Also Run Better  TechPowerUpWhat’s new in Windows 11: Everyday experiences, reimagined  Windows BlogMicrosoft says Windows 11 is now ‘",
-          "publisher": "TechPowerUp",
-          "pub_date": "2026-10-15T15:23:28+00:00"
+          "title": "2026 Kindle review: Amazon nearly perfects its budget e-reader",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE51eVIxZERnUFFnTjlfUXI4b3JOYW91eUJGdjlnOFhYbFpnYUJtVjdSS3FXWl9INnF4VHlRSXZqTUVjWTl5aVVWUmFMaG1KbGRIcjVFNzh6MUNpTV93Q1hndUw1OVV1dG05dWNXbA?oc=5",
+          "description": "2026 Kindle review: Amazon nearly perfects its budget e-reader  Mashable4 Of The Coolest New Kindle Accessories Available In 2026  SlashGearThe Kindle Paperwhite has got a new look for 2026 — here's e",
+          "publisher": "Mashable",
+          "pub_date": "2026-10-15T09:17:05+00:00"
         },
         {
           "title": "GTA 6 Launch Trailer Arrives - More Than A Month Ahead of Launch",
@@ -954,23 +938,9 @@
           "pub_date": "2026-10-15T15:04:00+00:00"
         },
         {
-          "title": "GTA 6 Leaker Says Their Reveals Stop Here, for Now",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8zemJzQjJhY3lNZlpJNUJta1UwV2l0SUJtWXpNaXVkRmljNEk2WXhiV25fbGY4bTNIYS1QSGNHenNkcENLdnZZYjRZRndoWTF3TmMwWjBIdENrX01IRmJqYW9qMUVEQl92ZW42TE9TbWdhNFhuQVp0MEd2RzY?oc=5",
-          "description": "GTA 6 Leaker Says Their Reveals Stop Here, for Now  80 Level‘GTA 6’ Leaker Won’t Release Game Build After Players Crash His Cryptocoin  ForbesCyberleek says the 'GTA 6' leaks are over and warns of 'de",
-          "publisher": "80 Level",
-          "pub_date": "2026-10-15T07:20:45+00:00"
-        },
-        {
-          "title": "10 HomeView Features You Might Have Missed",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYQU5tYlhEaU0tQlFnUC05Ui1QYkZQMTAzXzhXY3lhR2ZOVHJDRlc3OHNSdDlJX2NXQVFLbjRJMmFRQXVyUGRjVmtUYTdjR29ENVhhaGY3Mng2cGt3Nk1rTk9KQTQ?oc=5",
-          "description": "10 HomeView Features You Might Have Missed  MacRumorsMeet Apple HomeView, a new way to enjoy entertainment, stay connected, and manage the home  AppleI tried Apple’s new smart home hub – the brand fai",
-          "publisher": "MacRumors",
-          "pub_date": "2026-10-14T23:02:36+00:00"
-        },
-        {
           "title": "Quick question: Who exactly is iPhone Handoff for?",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RckdBMUVmZGJkVWlha2tGbHJFc3NZRGtGN01sQ3V2Q1NXX2FnOEI1NkNCRVhSZ0N2RHBaSl9nVFFHdXg5c2kwU29uM0cyRkVDQnZFMG1MSjFIWTRuTmxxdjJyQVBScVlkcHhpX01XSXVWZEJhZWxsZGpsams0UQ?oc=5",
-          "description": "Quick question: Who exactly is iPhone Handoff for?  The VergeOpen up to new possibilities with iPhone Duo  AppleiPhone Duo with iPhone Handoff: only on EE  EE NewsroomApple iPhone Duo pre-orders start",
+          "description": "Quick question: Who exactly is iPhone Handoff for?  The VergeOpen up to new possibilities with iPhone Duo  AppleiPhone Duo with iPhone Handoff: only on EE  EE NewsroomApple sets cutoff time for gettin",
           "publisher": "The Verge",
           "pub_date": "2026-10-15T13:00:00+00:00"
         },
@@ -1022,13 +992,27 @@
           "description": "I switched from Android to the iPhone 18 Pro Max for 3 weeks — my 5 biggest takeaways  Android AuthorityApple’s Foldable Phone Is Impressive, But Here’s Why I Chose the 18 Pro  PCMag UKiPhone 18 Pro M",
           "publisher": "Android Authority",
           "pub_date": "2026-10-15T09:30:00+00:00"
+        },
+        {
+          "title": "Free Play Days: Try These Xbox Games For Free (October 15-18)",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWDdzVjJ1dk5nbk8zbmdqcEk5eWdoclNOSG5fZHVFaE1IcG9UZktwWDRTekNnbjVjRHIzYnhoXy0zQmFxZ0ltY3JaMlNLbWNGTUNYSWRIdWgwenNXREdfbnBEUnU4amN3b2lFSDdhWWFwb2EwdjBBZk1zOEU2X1BzWjFYSlkzNUthajNNeTNwSTJXZGZ6YkVOd2h4ZW0?oc=5",
+          "description": "Free Play Days: Try These Xbox Games For Free (October 15-18)  Pure XboxFree Play Days – NBA 2K27, Crusader Kings III, The Alters, Bus Simulator 21, Soccer Story and Ravenswatch  XBOX WireXbox Officia",
+          "publisher": "Pure Xbox",
+          "pub_date": "2026-10-15T16:16:00+00:00"
+        },
+        {
+          "title": "Today's NYT Strands Hints (and Answer) for Thursday, October 15, 2026",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSk5BNkNlWUN6Qm5BQk9JUHVCbGdUcUlHUlNlY1JST25LaEU0TGlpd29CSE00RWZ6ZFVKa09BQ0E5WklXekZZalFhYTItM0M5YnlFVmpJcUtOOWhGUE5LcFJjeFk0S1o1V2ZlZFdvTnRzWVRub25iZWFyMmZsSTRLMk9XWk1Ub1d0aVl3TVlHV28wSHM?oc=5",
+          "description": "Today's NYT Strands Hints (and Answer) for Thursday, October 15, 2026  LifehackerNYT Strands Hints for October 15, 2026  The New York TimesNYT Strands hints, answers for October 15, 2026  MashableToda",
+          "publisher": "Lifehacker",
+          "pub_date": "2026-10-15T04:00:00+00:00"
         }
       ],
       "entertainment": [
         {
           "title": "Russell Brand’s body was snake-like and disgusting, rape trial hears",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTDNHM202Qzl0NXpjNjQxeEtZZ1oxV3UtV2JTVnBnRFctWjljNGVjeXZNZTNEZHNfcVFIbzJZeFRmdTFrNkpZUjJhUVBSSVpJckVDUk1JU3RSMmdYSUgtN3V4S2ViR0dCMlNOWnM0RjktYXZMdEhvSzlPTnhMRVZpZnNuRENvWV95d2Q1bVhoLU42UEE5VzgySVJaVUEyRUV5NVQxT20xNA?oc=5",
-          "description": "Russell Brand’s body was snake-like and disgusting, rape trial hears  The TelegraphRussell Brand accuser says alleged rape left her afraid she may be pregnant  BBCRussell Brand trial as it happened: P",
+          "description": "Russell Brand’s body was snake-like and disgusting, rape trial hears  The TelegraphRussell Brand accuser says alleged rape left her afraid she may be pregnant  BBCPictures show Brand topless in hotel ",
           "publisher": "The Telegraph",
           "pub_date": "2026-10-15T19:23:00+00:00"
         },
@@ -1068,27 +1052,6 @@
           "pub_date": "2026-10-15T22:03:00+00:00"
         },
         {
-          "title": "\"The Faithful are doomed\": Why this one Celebrity Traitors move just completely changed the game",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONG5QeEpiVlFJUFRuQ29oNDZYaU5WOGd5R1QxQnBpYWxUODBybnU1S1diV2xDeHRwemRHZGgxcGgxTnNxclFnT0JxVG5SVmxDdV8wbkhOMTlKbkE2Qnl4Sl82cTRuLWlmZE1lejk4VW9MYVVuYlZ4ME1XQVdMWGZwT3J4a3hxLTBC?oc=5",
-          "description": "\"The Faithful are doomed\": Why this one Celebrity Traitors move just completely changed the game  Digital SpyTears in the castle as Celebrity Traitors star's number is up after comic murder  Daily Sta",
-          "publisher": "Digital Spy",
-          "pub_date": "2026-10-15T21:22:10+00:00"
-        },
-        {
-          "title": "Anna Faris Responds to Chuck Lorre Saying She Wasn't Right Choice for 'Mom,' Says 'It Hurts'",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdzhZMUtIX1R1TGFEOXI4eXl5SWVxVFZ3RHpaNlpXT2NzdTViS1E1UlkyMTAySzhRY0ROUURMel8wR0RoYmZCS05YTnhKN2tXOVpEWEQwcWhXaDJZa1VjQUZkc2Nyc3pPNTF0STNHVDk5d0FpdHAwVlptc3hISnlOSnZKTGVaeVk0RHhIZ1owZ25ITUkzR0ZzbExoanBBNG4tN0lpOUtLbTAxZjhkRFpaZDBIWHA2VldHOGhOd09Ha0xndw?oc=5",
-          "description": "Anna Faris Responds to Chuck Lorre Saying She Wasn't Right Choice for 'Mom,' Says 'It Hurts'  Just JaredAnna Faris Was “Hurt” By Chuck Lorre’s Comments About Her ‘Mom’ Exit: “Yikes”  DeadlineChuck Lor",
-          "publisher": "Just Jared",
-          "pub_date": "2026-10-15T23:20:19+00:00"
-        },
-        {
-          "title": "Balloon Girl review – tech tycoon swirls with tragic teen parachutist in a crackling, time-travelling climate romp",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbVpqcXRkWWNNXzYzaXNOak9KWnZXdzBDUUVkNUV4UjVucDkyNDRxb1lXajFqYl9wcDRaUjFMWmpwRzdqZXE5Y296RjVaemYySXItNjkzODY1a2pfSEhTdkRPajV4V3ZBZTBqN3N0ME5pVi0xNW5QSTJDeXRBek0xN1RNUjFVVElYNFdHZEtKTnE3ejdscWRyZHZR?oc=5",
-          "description": "Balloon Girl review – tech tycoon swirls with tragic teen parachutist in a crackling, time-travelling climate romp  The Guardian",
-          "publisher": "The Guardian",
-          "pub_date": "2026-10-15T17:03:00+00:00"
-        },
-        {
           "title": "Prince Harry and wife Meghan make first joint appearance since UK return",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWWRpS29iTXprM2w3Z19wY0xITWVabHJwYi1qclpkU085VHQ3eGhlM0xscWRTVVNLLUJuN1pxazRiS05HM25oTThUXzE5eEV1RkZVcllpRHVpcVg2QjY3MWI1QXYySnI4ZjdzQWJoWlFxQk9SSTFTRFJmN21YWHFtc0UwV0ZmYUtxbFB4OW5QbGNoTTRoOXNmMzRZeHBlWUJ0MHhyeW1kUXE2RW5PM216THJOaw?oc=5",
           "description": "Prince Harry and wife Meghan make first joint appearance since UK return  ReutersWhy Harry and Meghan's UK relaunch felt so much like a royal engagement  BBCHarry leaves Nottingham with thumbs-up as h",
@@ -1096,18 +1059,18 @@
           "pub_date": "2026-10-15T15:05:20+00:00"
         },
         {
-          "title": "What EastEnders can learn from its exceptional standalone episodes this year",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTDVXNDEwa0Q2Tk1zcFVBaXdiSGt6ZEhjRkhTU2JkcU9wcEkxclBFb1RrcXFDZERfLXlyT1BYMlRPeGc5dy14NlYwbmZ1aGQ3MFlKN3QyR0FsazRoc280dUZkQ0pUakYxQkZhNmlsU1FRUlRGbngtWTE2NHIyOTJvMms0QVdqRmpQTGZGX1ZFdnNldHhqUHNDaVlUdko4R1lHSjVhU25JaHgxZDVFOGxXQnVZVQ?oc=5",
-          "description": "What EastEnders can learn from its exceptional standalone episodes this year  Digital Spy",
+          "title": "\"The Faithful are doomed\": Why this one Celebrity Traitors move just completely changed the game",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONG5QeEpiVlFJUFRuQ29oNDZYaU5WOGd5R1QxQnBpYWxUODBybnU1S1diV2xDeHRwemRHZGgxcGgxTnNxclFnT0JxVG5SVmxDdV8wbkhOMTlKbkE2Qnl4Sl82cTRuLWlmZE1lejk4VW9MYVVuYlZ4ME1XQVdMWGZwT3J4a3hxLTBC?oc=5",
+          "description": "\"The Faithful are doomed\": Why this one Celebrity Traitors move just completely changed the game  Digital SpyTears in the castle as Celebrity Traitors star's number is up after comic murder  Daily Sta",
           "publisher": "Digital Spy",
-          "pub_date": "2026-10-15T19:06:04+00:00"
+          "pub_date": "2026-10-15T21:22:10+00:00"
         },
         {
-          "title": "Nandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44Z1ZJX0dIdVN5MlpqYkJ1UE9xQVpnZXdfTFE1QklOd0FSY0U1dm1nMVFxZW9pRVlUM05UN3REWmhaYUVDeThhTEh3RnhJOWhVVVEtYjBoSjRpMnBVVkE?oc=5",
-          "description": "Nandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm  BBCLisa Nandy ‘minded to intervene’ in Sky’s £1.6bn purchase of ITV  The GuardianSky-ITV deal: Culture secretary 'minded ",
-          "publisher": "BBC",
-          "pub_date": "2026-10-15T13:07:57+00:00"
+          "title": "Sky-ITV deal: Culture secretary 'minded to intervene'",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeHoycUZQem9xVnB0TmJNSC05SVNIUFJOZDVzb1NZOXZfNkZ5bXA0ckItWElXeWcyalRtbl8yQ0JYZWVPQkwyNHpoWFdXT3I1dnlsNlgwZnRHejVVM1liaFc0Y19ONVpfeGhVbC1PYlZFRHlHT0E1TThxWGNTZTRzbzZmWWd5eWtZQzBFMGFnZw?oc=5",
+          "description": "Sky-ITV deal: Culture secretary 'minded to intervene'  Sky NewsNandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm  BBCLisa Nandy ‘minded to intervene’ in Sky’s £1.6bn purcha",
+          "publisher": "Sky News",
+          "pub_date": "2026-10-15T15:35:27+00:00"
         },
         {
           "title": "Celebrity Traitors star James Acaster told off by bosses over 'phone call'",
@@ -1115,6 +1078,20 @@
           "description": "Celebrity Traitors star James Acaster told off by bosses over 'phone call'  Metro.co.ukJames Acaster on The Traitors: ‘It’s only a game. That’s good advice’  The TimesCelebrity Traitors star said prod",
           "publisher": "Metro.co.uk",
           "pub_date": "2026-10-15T11:52:00+00:00"
+        },
+        {
+          "title": "Hilary Swank pregnant at 52? Celebrities are selling an impossible dream of motherhood",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbWlHZVFFOC1wNEp1dllpR3lVMm5aZ0JBTWhLVWFLZVN5VEdhbWFtVG10d05zX0Y2X1I2Wkk2ZHdxcC15dS1LM1JmdTBBdGczeTlBSWhZZGt2eE0tRDMyWElFOFhzOU95TS0yWHBMNlNzcWpOZHJZbHJBYzVVY0h4Z09WX2k0RXhZUnhrTVZkNW5leENlQlpiVGtkOEtrN2VIOWYw?oc=5",
+          "description": "Hilary Swank pregnant at 52? Celebrities are selling an impossible dream of motherhood  The IndependentHilary Swank, 52, is pregnant with her third child: 'This one releases in December'  CBCPregnant ",
+          "publisher": "The Independent",
+          "pub_date": "2026-10-15T10:21:00+00:00"
+        },
+        {
+          "title": "Balloon Girl review – tech tycoon swirls with tragic teen parachutist in a crackling, time-travelling climate romp",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbVpqcXRkWWNNXzYzaXNOak9KWnZXdzBDUUVkNUV4UjVucDkyNDRxb1lXajFqYl9wcDRaUjFMWmpwRzdqZXE5Y296RjVaemYySXItNjkzODY1a2pfSEhTdkRPajV4V3ZBZTBqN3N0ME5pVi0xNW5QSTJDeXRBek0xN1RNUjFVVElYNFdHZEtKTnE3ejdscWRyZHZR?oc=5",
+          "description": "Balloon Girl review – tech tycoon swirls with tragic teen parachutist in a crackling, time-travelling climate romp  The Guardian",
+          "publisher": "The Guardian",
+          "pub_date": "2026-10-15T17:03:00+00:00"
         },
         {
           "title": "Sussex time capsule celebrates 100 years of Winnie-the-Pooh",
@@ -1129,15 +1106,29 @@
           "description": "‘Street Fighter’ Reboot Lands Mixed Reviews From Rotten Tomatoes’ Critics  ForbesStreet Fighter review – nostalgia only goes so far in junky fighting game movie  The Guardian‘Street Fighter’ Review: A",
           "publisher": "Forbes",
           "pub_date": "2026-10-15T16:39:37+00:00"
+        },
+        {
+          "title": "Body Language Expert Spots Telling Details In Kelly Clarkson’s Leaked Security Footage As Store Feud Rages On",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOFlUdlJaT29Rckk1QTB2TWNjX2g3VzVoLTBENXl6cWhLSE1JbFpVSGJ5ZTBSMkJkbUQ1WXhRdEljRGZWdkxSN3N5cVp3X2lrbXRjOE1Rd2dsN1FXMzhpMjN4ZjZoaGZJRlFGRFpoZDdFWUY3V2lMRHVtcHhYZTRXWGhLa2x2YW84aW8zcE5n?oc=5",
+          "description": "Body Language Expert Spots Telling Details In Kelly Clarkson’s Leaked Security Footage As Store Feud Rages On  Bored PandaInside Brooklyn novelty shop at centre of 'surreal' row with Kelly Clarkson ov",
+          "publisher": "Bored Panda",
+          "pub_date": "2026-10-15T23:11:12+00:00"
         }
       ],
       "sports": [
         {
-          "title": "Lisandro Martinez: Man Utd defender apologises for outburst and holds talks with Jason Wilcox and Michael Carrick",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbEU4cG44MGt2SlZuR0pOV3ZFS25BeDZPVnlWWEc5NGk2dDFqTzNRamRsbW1saTgzclNaQ01UY3hUbFZGNG9fM0xWZ1NPSXZWLUwxQ2VQMnB5ME9LVF9FYjBoYzY5NGctSWF4b1p0S2k4OGJxQmRhRlkxakVxZ3MwQl9QTllNdTIzOHVCdjFBb3dpRU10N240THM0cDRwTm1Fa2xNSlBwXzctRHlDYWNOTnpzMURKa1gzbDRwNDBOTXhCTUlGZ0FCV3A3akpOMDJSM25UZGFpQlZ3SlR6Q3BzaFUyWTRVdzZMaU1MQlRWX21rcE0?oc=5",
-          "description": "Lisandro Martinez: Man Utd defender apologises for outburst and holds talks with Jason Wilcox and Michael Carrick  Sky SportsMartínez has drawn back the curtain on Manchester United’s ruinous ownershi",
-          "publisher": "Sky Sports",
-          "pub_date": "2026-10-15T21:19:23+00:00"
+          "title": "Man United’s Martinez apologises for outburst after talks with Carrick",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWVhVQkkzT3h5YlJLaVNPVFBpbjRndFNMVE5sbDVYTjlQSHZEbTJHcUxaMHJYVGQyblgzSE5zSGs0NHVLa1R1VlIxaWd0YjBGMjI3SGdwSFdWNGstYXhaMEFkTmVIVlVmVG5YQ3JxWUFhTHF2OXYwXzdJLW4tS214bTNzWUFVN3JNSUFUSDl3LXFGNjJGdGlsYmZFbmVDa1FiRFFCSzVCbzRXejTSAbABQVVfeXFMTnVfSXRLYVZQaWlJakdMWmRGLWRPa2tJeGVXUGNpbmRWak04cjdDMGJRVktfcy1FWmdGcDJOXzFuRFFPMjM2M0FxZEFQbFVYV29saVQ1M19ibi1fdy1LN2FJanJEdTk3NHB0QmtQYTVNeklJVEtqYXVVTGF6TlZaY0w3di01dkg1clVXSkR0NnBFMDU0MFE1SEZpTFNIbkRtRExMOTBCSVVWektETUdUeWY?oc=5",
+          "description": "Man United’s Martinez apologises for outburst after talks with Carrick  Al JazeeraMartínez has drawn back the curtain on Manchester United’s ruinous ownership | Jonathan Liew  The GuardianLisandro Mar",
+          "publisher": "Al Jazeera",
+          "pub_date": "2026-10-15T21:58:44+00:00"
+        },
+        {
+          "title": "O'Neill defiant in defeat but Celtic's 'flat-track bullies' fail another big test",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLbjNjWGR3TGN1QnptZGhSN1NINUQ3OWllUmtvQkdBSjRiaF9veEp3Ri04Zm9xdVFqN0E2dEh1YjlpOXZndnAtQ25qazdSY2Q4SF95Q2dXNFhvT2pDRFh1UzlrZnVsTUxfY0Nn?oc=5",
+          "description": "O'Neill defiant in defeat but Celtic's 'flat-track bullies' fail another big test  BBCBenfica 4-1 Celtic: Uefa Europa League report, reaction, stats & head-to-head  BBCBenfica 4-1 Celtic: Camilo Duran",
+          "publisher": "BBC",
+          "pub_date": "2026-10-15T23:04:37+00:00"
         },
         {
           "title": "Man City cult hero cashes in on fans' banana craze amid financial scandal",
@@ -1145,6 +1136,13 @@
           "description": "Man City cult hero cashes in on fans' banana craze amid financial scandal  The SunWhy did Man City fans bring inflatable bananas to Anfield?  ESPNDefiance or denial? Inside Manchester City’s bubble, d",
           "publisher": "The Sun",
           "pub_date": "2026-10-15T21:15:00+00:00"
+        },
+        {
+          "title": "Petey Halpin’s two-run homer lifts Guardians past Rays for 2-1 ALCS lead",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOWkwM3gxNTdVc00wMEJna3BMY0o1UDRITlE4NFpYY184UFl3aWdSOUd3Y3JZdGs0eXJJckptc3F2clQyR2djVWRVM1JsVXlHVGIwdXBSQ3lPMEx6RTJFb1FLZVJ3R1NGQlBWeU8xa29keTEtdHM0SVh5dngzdm9xQkdQU3l3c0RWbDZ5Qm1zbFlmNzZBMFE3UWNn?oc=5",
+          "description": "Petey Halpin’s two-run homer lifts Guardians past Rays for 2-1 ALCS lead  The GuardianWhich landed 1st? Halpin's epic HR or the 'majestic' bat flip that followed?  MLB.comJunior Caminero says Rays hav",
+          "publisher": "The Guardian",
+          "pub_date": "2026-10-15T20:51:00+00:00"
         },
         {
           "title": "Andoni Iraola leaves door open for injured Liverpool trio to return vs. Brentford",
@@ -1189,32 +1187,18 @@
           "pub_date": "2026-10-15T09:33:18+00:00"
         },
         {
-          "title": "O'Neill defiant in defeat but Celtic's 'flat-track bullies' fail another big test",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KblpfY2dIVFE2czBVVUk3UmZKcWJObmxLVEYtRzVHalRldDhwbW1rdk1VNER5eUcyZkRDVWpKT3RuWDdrTHMzWmlJc09SLVFjWG1YMXE2b0ZzV1NqYW1CcEQxMl9FT1BQ?oc=5",
-          "description": "O'Neill defiant in defeat but Celtic's 'flat-track bullies' fail another big test  BBCBenfica 4-1 Celtic: Uefa Europa League report, reaction, stats & head-to-head  BBCBenfica 4-1 Celtic: Camilo Duran",
-          "publisher": "BBC",
-          "pub_date": "2026-10-15T23:04:37+00:00"
-        },
-        {
-          "title": "Ricky Hatton's £40m fortune 'missing' as angry family complain about 'inhumane' situation",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNXFOLU1Nd3Y5aXJJWnBJWk0xdHc0TXMwd0NxRFdNeTIwQmJJQ0hucXpHRWExTDRsalp6LXhOYkRUdnhrS3loMzRwQkdWYlFTdC00a2V2c0RaVFFiaFQ3UWZmRFEzZl9QajlwSEh4REFjNVg3U2F3RDgyYmJBWkdOZVVWTTJlZDJU0gGOAUFVX3lxTE1OQV93RFRRbG9Sa0R2VG11amZGSFVwbVhObUNYcE40dVk2aS16ejJUOXNZMnRkZTF1WDBKQXZfTFVOaXMyOE9welRHY1hmaTJOblBmam9CWlhEcDZnUmFfbmZLWjc2Y005QjJJcXVncmZma294YzVUbEh0ay1jSlB5NThtc2kxZzFNSUkwQ1E?oc=5",
-          "description": "Ricky Hatton's £40m fortune 'missing' as angry family complain about 'inhumane' situation  Daily MirrorSee more headlines and perspectives on Google News",
-          "publisher": "Daily Mirror",
-          "pub_date": "2026-10-15T07:39:21+00:00"
+          "title": "Ricky Hatton's family seek clarity over £40m estate as they complain about 'inhumane' situation",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQUFrRmxjV0ZNeEpfQW1ibjY1bVB1NDlFRV9wT0pEbWNlU2Fwbm91UVhYVFB0QzhmbTU4aDJoRXN5SUptcTVaREIyZk83cVVGYVFmTkUwRUhYNFNIbnY3ZFZ0UFJLNTZMZU4tRnV4S3BmSTRkMnVmRmUtcWlidmFFQWY1bmRrcGNlQjhZTGhjLW1lNm84djhVS3BIeU3SAaIBQVVfeXFMT2pWY3hoa2x3dHMwTkdqV0htODFZZGE4UGhEREhoampQMktYdTY2OS1FMGwtVnZyNkRSLUY5OFRVN1RYaFhSMXRCUjAzbGY0cjFJUWZXU1BoZUFrTEVIbVB0bjBIdG5LSjNLSXJDX1FOSktqNGUyUk9uQ0FRck1oWlJWMkVQMm9PRTlGZFZmZlVJM204MGkyZnlGQU1MZHB3aWJ3?oc=5",
+          "description": "Ricky Hatton's family seek clarity over £40m estate as they complain about 'inhumane' situation  Manchester Evening NewsRicky Hatton's family have shared their frustration as they wait to see what wil",
+          "publisher": "Manchester Evening News",
+          "pub_date": "2026-10-15T08:05:00+00:00"
         },
         {
           "title": "Brewers go one win from World Series as back-to-back homers sink Dodgers",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN2dDVU9hei16VHoxY0xpcm9uSGkwWVhacG5EQWQ0b0RleFlSRVRTYVZHeXd4cHRxal9xcEMxOTZrOXJXa1lNYVFPSWhyZktFMmpsTkdERzNWWkMtaW9yYTdMMVRtS0plYlFNcFB1SFh0eWdfTEdDekE3WW4zWW9FRU93Q0xCMmo3cFA0ckhySTZoUWpRSy1iVkNIVEhsU2hy?oc=5",
-          "description": "Brewers go one win from World Series as back-to-back homers sink Dodgers  The GuardianHow Dodgers pitching would line up to make historic 3-0 comeback  MLB.comJake Bauers' epic homer rocks Dodgers as ",
+          "description": "Brewers go one win from World Series as back-to-back homers sink Dodgers  The GuardianBrilliant Brewers reach first World Series since 1982 as Dodgers blow 4-0 lead  The GuardianBrewers end Dodgers' t",
           "publisher": "The Guardian",
           "pub_date": "2026-10-15T03:39:00+00:00"
-        },
-        {
-          "title": "West Ham handed immediate red card verdict after Lincoln City demolition",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcDh6UklNYjFrcnNpUVNwM0QwdHBscDVZaEdiWmswdEFMV1ZFak5QNk1iX21NalYySlkwaWhtQkliWUJXRnlZempXdFVkYnM3Q3VYV0VFNTlVN1A3em01Ymlvem9kbERGRi1LaW84dGg0a1Z0bTI2dy1SVng5cVB1TE5fQ08tMml1alk5eXR3ZmM2Rmo10gGaAUFVX3lxTE5HaTZqUkFxZ2hhajJfWTBNV05hTjFwMkdvaGZ3by1EU1BuTTlrVl9idG5xcFJ4Sl9jX050SzhXcmJiMExNbXNkS3lYQ3padm15dWRHTDRYN2hGVlBOWGZ2cFliRTZ0czlrZWMxOTlXWWNMaHJ3NEdzSGM5TE5Rc05kTVBFem1YTVpsNXhEVFB3cHBxZjF6ckR2Tmc?oc=5",
-          "description": "West Ham handed immediate red card verdict after Lincoln City demolition  Football LondonLincoln City 0-6 West Ham United: Soucek scores twice as Imps are thrashed  BBCPablo | I'm happy I can repay th",
-          "publisher": "Football London",
-          "pub_date": "2026-10-15T10:32:33+00:00"
         },
         {
           "title": "Halftime lead worried Luis Enrique in game PSG 'could have lost' to City",
@@ -1231,11 +1215,11 @@
           "pub_date": "2026-10-15T20:19:59+00:00"
         },
         {
-          "title": "Mourinho: ‘Real Madrid impossible to stop, Roma players were dead’ for 4-3 defeat",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UMHF6OHlRR0JkcTNUc3dBOFJYUUJDcFJZb2hnTGdvanRSSlJxMlJ0NDRkdW1sOW03R3Vkc0NQMlRMVVRMRWxoM29IcVBENzNNMHc2czczUUNUNFFnUzhpdlBNbzBjLW9yWTVSaEJwbFloSV9KQnNVR1pn0gF_QVVfeXFMTVJQYjZjMzZpX0VKWVhuWHMxbUJNXzdjRW5YN2hWOTBQZzVQRWVCU21WSjQxWFFTOTlVOE1KTDhwRDVmOUJiVXlmcG5lSWtoMklydnB1TFVhQlBVZy1waVFuZ3Zra2I3UDU4UG00NHBoSVNUcWNCVnlXdU9tZFJGZw?oc=5",
-          "description": "Mourinho: ‘Real Madrid impossible to stop, Roma players were dead’ for 4-3 defeat  Football ItaliaChampions League: Mourinho’s Real Madrid stage wild comeback on Roma return  The Guardian'The ones who",
-          "publisher": "Football Italia",
-          "pub_date": "2026-10-14T21:43:51+00:00"
+          "title": "Mourinho takes blame for Madrid struggles before late rally stuns Roma",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0lQUnVRVzUtQzNoWDRjRkxPUlZHbFdOb1FtWF84NkFVcFF5TDVfaXptemxLdS1pRkg2VENiLUtVZWVkaDlvODJMWVM2TEg3eTZQSHpQTkw1UXBCbEtpS1dHZWFJUGc1VGNQTGFMTzNGdkVYbzBQZURka0k1VWIyV0VqZmxLc0FLbHJjcWxrX213SUF3SjBMdVFXdGFMVnNuRS02MEs4cw?oc=5",
+          "description": "Mourinho takes blame for Madrid struggles before late rally stuns Roma  ESPNChampions League: Mourinho’s Real Madrid stage wild comeback on Roma return  The Guardian'The ones who were actually dead we",
+          "publisher": "ESPN",
+          "pub_date": "2026-10-14T22:58:00+00:00"
         }
       ],
       "health": [
@@ -1275,18 +1259,18 @@
           "pub_date": "2026-10-14T21:57:24+00:00"
         },
         {
-          "title": "‘Desperate’ patients demand NHS access to new Alzheimer’s drugs",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT2V6YklIWXQ2TUxJUl9KbWhhUE44eXJlb1FhRXl0eVF5cl9tMVNJbnpUWUVoMkFIZkZXM0VzLS0yOWkxY2Z5TXJrTzhIc0ExRFhaMG1RWEc5NU1GQjRtZ0daUzF6TVpDUjdLdE1TMWxyT3ctVlZqdXczd1JFdEMzZUlFS3VyYUMwUDdVaXVKZEZWZFlRNHgwd29DQQ?oc=5",
-          "description": "‘Desperate’ patients demand NHS access to new Alzheimer’s drugs  The Times",
-          "publisher": "The Times",
-          "pub_date": "2026-10-15T11:25:34+00:00"
-        },
-        {
           "title": "The fat jabs that could halt depression and schizophrenia symptoms in their tracks revealed",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYkIxRU1ZcTlteUJTUXdGa19qSW5BNjVXRF9rS1piX3hMZmN1NVF2SE9CLVkxTlZDNmZ4MlVLVnM1SkRnUlJGNXVsSm9ILUdqN0pxeTlKNFdhb2FFdmhCWnpua1dQUTd2eENiUGFkUHlfNmx3MEp3N244TGR4al9nbWpsNlNqTkxteWJ5aFlPdXZ3ZFE?oc=5",
           "description": "The fat jabs that could halt depression and schizophrenia symptoms in their tracks revealed  The SunGLP-1 Drugs Cut Schizophrenia Hospital Visits, Study Finds  Bloomberg.comSchizophrenia and type 2 di",
           "publisher": "The Sun",
           "pub_date": "2026-10-14T22:30:00+00:00"
+        },
+        {
+          "title": "‘Desperate’ patients demand NHS access to new Alzheimer’s drugs",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT2V6YklIWXQ2TUxJUl9KbWhhUE44eXJlb1FhRXl0eVF5cl9tMVNJbnpUWUVoMkFIZkZXM0VzLS0yOWkxY2Z5TXJrTzhIc0ExRFhaMG1RWEc5NU1GQjRtZ0daUzF6TVpDUjdLdE1TMWxyT3ctVlZqdXczd1JFdEMzZUlFS3VyYUMwUDdVaXVKZEZWZFlRNHgwd29DQQ?oc=5",
+          "description": "‘Desperate’ patients demand NHS access to new Alzheimer’s drugs  The Times",
+          "publisher": "The Times",
+          "pub_date": "2026-10-15T11:25:34+00:00"
         },
         {
           "title": "Common blood pressure drug boosts brown adipose tissue activity and metabolism - News-Medical",
@@ -1317,20 +1301,6 @@
           "pub_date": "2026-10-13T04:00:00+00:00"
         },
         {
-          "title": "Britain’s city centres are being decimated by a ‘Frankenstein’ drug",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbldyYVliTGpfeVVPdHhMOWEyX0tiXzVMb0Yxdk81N3lkZkNkYjN5ZFl2M2cyN1J4cHVzSTRQZjAyX2NNbFVQU0FwQU9qWjZsN2NTVm05bjB3RE84MHhfZExQZFNuN2RmM19VSHctd1hBVzZwZGttT050QU52amRHV0tsUHBZYUJrOTZVQVRsbHJjZnpXZUE?oc=5",
-          "description": "Britain’s city centres are being decimated by a ‘Frankenstein’ drug  The Telegraph",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-10-15T05:46:00+00:00"
-        },
-        {
-          "title": "Who Was Rachna Shroff? Indian-American Cancer Researcher Dies Of Disease She Was Trying To Cure",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeHViZkxadDlJcllzZEtpVU9SN1c2VWRpa3V1YVc4OHlVbHhELXd0OWg5b3gyZ2VaV1ZENng1OWFWLWw5N0lNQi1LM2ZhOVF5NXVoZUpzOHhXdDAyckpmek9WQ3gwcENHby0xS1NLOHZBYjNLXzUyWWZ3Z3dnUXZyTnY5aVduQVVFTnozaW5Ca09TU0pObGFMcU5JOC1pN1pMY3E0RXdqQVZKVXN5VWRuTWJmQVdNOWVITnhKUWhhdm92UkdKN0VpZHdvMGU4eFRV0gHYAUFVX3lxTE5Xa3M1TTdoZjJvYWNHeS1KTDhJS0tCOGRyaEdtcEhmQ2hleXpHN1BLTnFWQ1hIVm1MY2JfNGpTSnYtcWd5X2dhQlc5SmMxa09mTzhOeEd6aHRSYVdWTldSVFhObE51MVBTSW9fdDVQWXE4d2wxQkxZSVlTdGFBNkRvR0hGNndnS29xU1hkdWNEWjF2Q25kTkx2UFRGNUNiM29IMGU4VE1kQmtnemhSdWFhdmlVMUNkUVBxX0JzdUd2YXJRVEIxT3Z2SnNrcFc3RXhodi1RS3ZQag?oc=5",
-          "description": "Who Was Rachna Shroff? Indian-American Cancer Researcher Dies Of Disease She Was Trying To Cure  NDTVLeading Cancer Researcher, 47, Dies of the Disease She Was Trying to Cure. This Was Her 1st Symptom",
-          "publisher": "NDTV",
-          "pub_date": "2026-10-15T17:38:54+00:00"
-        },
-        {
           "title": "Ectopic tooth found in upper eye socket thought to be world first",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYVg1MzhUcjgwWF9VOXNiem9JQzRFLVg2anZsWTlhaTdrVnZpaUQybUhwUVNBekh2VzNHcEQ4MXlqd1FmNUlpdVVQX2V5ZjVSZjNsM1pyb1gzZ09RU01LR2xJU202dXhRUlVsZlphM2JUVzlxa2V6cHJrVF83TklzUWRYNXhwSzdDOE9YRTBRQTlFNXBJTDN4dHc0MVBfNEVjaTJN?oc=5",
           "description": "Ectopic tooth found in upper eye socket thought to be world first  Dentistry.co.ukFirst case of teeth growing out of an eye socket – what you need to know about ‘ectopic teeth’  The ConversationCanine",
@@ -1338,11 +1308,25 @@
           "pub_date": "2026-10-14T11:37:09+00:00"
         },
         {
+          "title": "Britain’s city centres are being decimated by a ‘Frankenstein’ drug",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbldyYVliTGpfeVVPdHhMOWEyX0tiXzVMb0Yxdk81N3lkZkNkYjN5ZFl2M2cyN1J4cHVzSTRQZjAyX2NNbFVQU0FwQU9qWjZsN2NTVm05bjB3RE84MHhfZExQZFNuN2RmM19VSHctd1hBVzZwZGttT050QU52amRHV0tsUHBZYUJrOTZVQVRsbHJjZnpXZUE?oc=5",
+          "description": "Britain’s city centres are being decimated by a ‘Frankenstein’ drug  The Telegraph",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-10-15T05:46:00+00:00"
+        },
+        {
           "title": "Guernsey actress with breast cancer diagnosis back on stage",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XSnh2ak1LVEJWR21HVFE5U2xWRGxGeDJZamVjb0xlbzQtRmRxRl90cGpiLThwNTFMeE40XzVtZTFqZk1Ua0xHcWk2clBIM29mUEstY3oyeUNPSmFPbmc?oc=5",
           "description": "Guernsey actress with breast cancer diagnosis back on stage  BBC",
           "publisher": "BBC",
           "pub_date": "2026-10-15T05:32:53+00:00"
+        },
+        {
+          "title": "Is there a ‘perfect’ age to start HRT? This is what the experts say",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX3FhajB6UzR6dEExVWpDZEQ0S3I3dVpLVEJZTk5DYi0xT0RSYkUzdjJwSjlvRTlSWm1PbmZEV0lySFVBTnRPTWZ1OHlzMGRDa0xjaWZ6VUFFVGpfeWdvS2U0ZThyTUR2OWN3VXdTMDlzVkVQZ1NaWEVYTkNBMm9PTS00ZW9CV2hmbVduZTEwQUFTOTZVSzdYcjhzaW1zOG5NdDEwV0ppSQ?oc=5",
+          "description": "Is there a ‘perfect’ age to start HRT? This is what the experts say  The Telegraph",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-10-15T06:00:00+00:00"
         }
       ]
     },
@@ -1355,13 +1339,7 @@
             "title": "Three children and teacher killed by 16-year-old at Oregon primary school",
             "link": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
             "description": "The suspect was shot dead by a local community member who followed him into the school, said police.",
-            "pub_date": "2026-10-16T02:32:49+00:00"
-          },
-          {
-            "title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
-            "link": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
-            "description": "Two people were airlifted to hospital but no-one's life appeared to be in danger, officials said.",
-            "pub_date": "2026-10-15T22:37:21+00:00"
+            "pub_date": "2026-10-16T03:45:09+00:00"
           },
           {
             "title": "Same-day test helps doctors detect hidden infections in critically ill children",
@@ -1370,10 +1348,22 @@
             "pub_date": "2026-10-16T00:34:45+00:00"
           },
           {
+            "title": "Banks say Healey is planning Budget tax raid on their profits",
+            "link": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
+            "description": "Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.",
+            "pub_date": "2026-10-15T17:14:36+00:00"
+          },
+          {
             "title": "Porn showing choking or incest to be banned from early November, government says",
             "link": "https://www.bbc.co.uk/news/articles/cmpqgepejr2ro?at_medium=RSS&at_campaign=rss",
             "description": "The move follows a review into pornography regulation in 2025 by Conservative peer Baroness Gabby Bertin",
             "pub_date": "2026-10-15T23:27:57+00:00"
+          },
+          {
+            "title": "Bus hits train stopped on French side of Channel Tunnel, with 19 injured",
+            "link": "https://www.bbc.co.uk/news/articles/c6wyrnmgzn01o?at_medium=RSS&at_campaign=rss",
+            "description": "Two people were airlifted to hospital but no-one's life appeared to be in danger, officials said.",
+            "pub_date": "2026-10-15T22:37:21+00:00"
           },
           {
             "title": "Sparks fly at the Celebrity Traitors round table and a 'terrifying' death march",
@@ -1386,12 +1376,6 @@
             "link": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
             "description": "Trump said some would \"rather not watch\" the killing of Nidal Hasan, the first military execution in over 60 years.",
             "pub_date": "2026-10-15T17:47:22+00:00"
-          },
-          {
-            "title": "Banks say Healey is planning Budget tax raid on their profits",
-            "link": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo?at_medium=RSS&at_campaign=rss",
-            "description": "Senior banking executives have told the BBC they expect to be \"on the menu\" in the chancellor's Budget tax later this month.",
-            "pub_date": "2026-10-15T17:14:36+00:00"
           },
           {
             "title": "Reform faces questions over candidate vetting after undercover filming",
