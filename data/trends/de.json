@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-01T05:01:27.759886+00:00",
+  "fetched_at": "2026-11-01T06:01:26.929553+00:00",
   "data": {
     "country_code": "de",
     "country_name": "독일",
@@ -7,52 +7,167 @@
     "google_trends": [
       {
         "rank": 1,
-        "keyword": "robert lewandowski",
-        "traffic": "200+",
-        "pub_date": "2026-11-01T04:00:00+00:00",
+        "keyword": "bäckerei",
+        "traffic": "2000+",
+        "pub_date": "2026-11-01T05:40:00+00:00",
         "articles": [
           {
-            "title": "Lewandowski bohaterem Chicago Fire. Wszedł na boisko i pozamiatał",
-            "url": "https://sportowefakty.wp.pl/pilka-nozna/1281809/lewandowski-bohaterem-chicago-fire-wszedl-na-boisko-i-pozamiatal",
-            "source": "SportoweFakty"
+            "title": "Große Bäckerei-Kette mit 59 Filialen und 480 Mitarbeitern insolvent",
+            "url": "https://www.bild.de/regional/hessen/grosse-baeckerei-kette-mit-59-filialen-und-480-mitarbeitern-insolvent-6adc78aa9fbb7e8e310de2f0",
+            "source": "BILD"
           },
+          {
+            "title": "Bäckerei-Insolvenz trifft Rewe und Edeka: 59 Filialen machen dicht",
+            "url": "https://www.derwesten.de/verbraucher/rewe/rewe-edeka-baeckerei-insolvenz-brot-id302188839.html",
+            "source": "DerWesten"
+          },
+          {
+            "title": "Bekannte Bäckerei-Kette in finanzieller Schieflage - 500 Jobs in Gefahr",
+            "url": "https://www.hessenschau.de/wirtschaft/baeckerei-moos-aus-asslar-beantragt-insolvenzverfahren-v1,baeckerei-moos-100.html",
+            "source": "hessenschau.de"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "keyword": "brackwede",
+        "traffic": "1000+",
+        "pub_date": "2026-11-01T05:40:00+00:00",
+        "articles": [
+          {
+            "title": "Heftiger Knall in Bielefeld: Sprengsatz zerstört Schaufenster eines Juweliers",
+            "url": "https://www.nw.de/lokal/bielefeld/brackwede/24452775_Heftiger-Knall-in-Bielefeld-Sprengsatz-zerstoert-Schaufenster-eines-Juweliers.html",
+            "source": "Neue Westfälische"
+          },
+          {
+            "title": "Mutmaßlicher Anschlag auf Juweliergeschäft in Bielefeld-Brackwede",
+            "url": "https://www.radiobielefeld.de/nachrichten/am-puls-der-stadt/mutmasslicher-anschlag-auf-juweliergeschaeft-in-bielefeld-brackwede.html",
+            "source": "Radio Bielefeld"
+          },
+          {
+            "title": "Schaufenster eines Juweliers gesprengt",
+            "url": "https://www.nw.de/multimedia/fotos/fotostrecken_aus_bielefeld/24452776_Schaufenster-eines-Juweliers-gesprengt.html",
+            "source": "Neue Westfälische"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "keyword": "fußball-weltmeisterschaft",
+        "traffic": "200+",
+        "pub_date": "2026-11-01T05:30:00+00:00",
+        "articles": [
+          {
+            "title": "Eberl: \"Kompany ist wirklich abgeschottet\"",
+            "url": "https://www.kicker.de/eberl-kompany-ist-wirklich-abgeschottet-1267174/artikel",
+            "source": "Kicker"
+          },
+          {
+            "title": "Wie Zebra und Strauß: Danks will kein «Mini-Vinnie» sein",
+            "url": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/sport_nt/article6ae5779e4db6c62483ec2d26/wie-zebra-und-strauss-danks-will-kein-mini-vinnie-sein.html",
+            "source": "WELT"
+          },
+          {
+            "title": "FC Bayern: So unterscheiden sich Vincent Kompany und Aaron Danks",
+            "url": "https://www.bild.de/sport/fussball/fc-bayern-so-unterscheiden-sich-vincent-kompany-und-aaron-danks-6ae5a937fb06a25f94e742d1",
+            "source": "BILD"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "keyword": "insel",
+        "traffic": "200+",
+        "pub_date": "2026-11-01T05:10:00+00:00",
+        "articles": [
+          {
+            "title": "Touristen kehren Nordsee-Insel den Rücken: Grund scheint klar",
+            "url": "https://www.merkur.de/deutschland/touristen-kehren-nordsee-insel-den-ruecken-zahlen-brechen-ein-94563114.html",
+            "source": "Merkur"
+          },
+          {
+            "title": "Insel der Superreichen: Jetzt soll der Zugang für normale Touristen erleichtert werden",
+            "url": "https://www.businessinsider.de/panorama/insel-der-superreichen-zugang-fuer-normale-touristen-soll-erleichtert-werden/",
+            "source": "Business Insider Deutschland"
+          },
+          {
+            "title": "«Insel der Milliardäre» soll ihre Strände bald für alle öffnen",
+            "url": "https://www.lessentiel.lu/de/story/korsika-insel-der-milliardaere-soll-ihre-straende-bald-fuer-alle-oeffnen-103654525",
+            "source": "L'essentiel"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "keyword": "robert lewandowski",
+        "traffic": "500+",
+        "pub_date": "2026-11-01T04:00:00+00:00",
+        "articles": [
           {
             "title": "Wielki powrót Lewandowskiego, nokautujący cios. Polak bohaterem Chicago",
             "url": "https://sport.interia.pl/robert-lewandowski/news-lewandowski-wreszcie-przerwal-fatalna-serie-wielkie-przelama,nId,23567014",
             "source": "Interia Sport"
           },
           {
-            "title": "Colorado Rapids - Chicago Fire gdzie oglądać? Transmisja online i stream na żywo z MLS (01.11.2026)",
-            "url": "https://www.meczyki.pl/newsy/pilka-nozna/colorado-rapids-chicago-fire-gdzie-ogladac-transmisja-online-i-stream-na-zywo-z-mls-01-11-2026/316860",
-            "source": "Meczyki.pl"
+            "title": "Dwa błyski geniuszu. Lewandowski wrócił do gry [OPINIA]",
+            "url": "https://sportowefakty.wp.pl/pilka-nozna/1282034/dwa-blyski-geniuszu-lewandowski-wrocil-do-gry-opinia",
+            "source": "SportoweFakty"
+          },
+          {
+            "title": "Robert Lewandowski bohaterem. Na ten moment czekał w MLS 672 minuty",
+            "url": "https://przegladsportowy.onet.pl/pilka-nozna/mls/robert-lewandowski-bohaterem-na-ten-moment-czekal-w-mls-672-minuty/2fb7nd3",
+            "source": "Przegląd Sportowy"
           }
         ]
       },
       {
-        "rank": 2,
+        "rank": 6,
         "keyword": "intel",
+        "traffic": "200+",
+        "pub_date": "2026-11-01T04:00:00+00:00",
+        "articles": [
+          {
+            "title": "Tom Lee vermutet: Ein Investor könnte den Absturz der Nasdaq ausgelöst haben",
+            "url": "https://de.finance.yahoo.com/nachrichten/tom-lee-vermutet-investor-k%C3%B6nnte-133123718.html",
+            "source": "Yahoo Finanzen Deutschland"
+          },
+          {
+            "title": "Amazon, Alphabet, Intel: Die KI-Rechnung wird fällig",
+            "url": "https://www.focus.de/finanzen/boerse/amazon-alphabet-intel-die-ki-rechnung-wird-faellig_cdcedd99-269f-422d-8cf8-4369a8fb7cb4.html",
+            "source": "FOCUS online"
+          },
+          {
+            "title": "Dow Jones, S&P 500, Nasdaq: Nasdaq 100 auf Talfahrt – Intel-Aktie verliert 29 Prozent",
+            "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nasdaq-100-auf-talfahrt-intel-aktie-verliert-29-prozent/100266181.html",
+            "source": "Handelsblatt"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "keyword": "stock market news",
         "traffic": "100+",
         "pub_date": "2026-11-01T04:00:00+00:00",
         "articles": [
           {
-            "title": "Intel: Nova-Lake-CPUs setzen auf 18A-P und PC-Markt soll weiter schrumpfen",
-            "url": "https://www.pcgameshardware.de/CPU-CPU-154106/News/Intel-Nova-Lake-setzt-auf-18A-P-PC-Markt-schrumpft-1558397/",
-            "source": "PCGH"
+            "title": "Tech stock meltdown could get a lot of worse if history is any guide",
+            "url": "https://finance.yahoo.com/markets/article/tech-stock-meltdown-could-get-a-lot-of-worse-if-history-is-any-guide-161226786.html",
+            "source": "Yahoo Finance"
           },
           {
-            "title": "Erste Zahlen sollen zeigen, wie viel Leistung in Intels nächsten Desktop-CPUs steckt",
-            "url": "https://www.gamestar.de/artikel/intel-nova-lake-s-passmark-leak-28-kerner-285k,3462036.html",
-            "source": "GameStar"
+            "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+            "url": "https://www.bbc.com/news/articles/cvwy72e0n72yo",
+            "source": "BBC"
           },
           {
-            "title": "Intel: Neue Informationen zu Raptor Lake Next und Nova Lake, Übernahme für Quantencomputer",
-            "url": "https://www.golem.de/news/intel-cpus-neue-hinweise-auf-raptor-lake-refresh-benchmarks-zu-nova-lake-2610-214541.html",
-            "source": "Golem"
+            "title": "Tech sell-off drives US markets down by nearly $1tn after subpar earnings reports",
+            "url": "https://www.theguardian.com/technology/2026/oct/30/tech-stocks-drop-earnings-report",
+            "source": "The Guardian"
           }
         ]
       },
       {
-        "rank": 3,
+        "rank": 8,
         "keyword": "weather this weekend",
         "traffic": "100+",
         "pub_date": "2026-11-01T03:40:00+00:00",
@@ -75,7 +190,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 9,
         "keyword": "world cup schedule",
         "traffic": "100+",
         "pub_date": "2026-11-01T03:20:00+00:00",
@@ -98,7 +213,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 10,
         "keyword": "hong kong sixes",
         "traffic": "100+",
         "pub_date": "2026-11-01T03:10:00+00:00",
@@ -109,129 +224,14 @@
             "source": "Cricbuzz"
           },
           {
+            "title": "Australia vs Afghanistan T10 Today at Mission Road Ground, Mong Kok, Hong Kong stadium",
+            "url": "https://aimamedia.org/newsdetails.aspx?nid=837407",
+            "source": "AIMA Media"
+          },
+          {
             "title": "Australia vs Afghanistan Final Stats - Mong Kok | Most Runs, Wickets & Boundaries, 01 November 2026 | The SportsTak",
             "url": "https://thesportstak.com/cricket/match/aus-vs-afg-final-hong-kong-sixes-01-november-2026-275395/stats",
             "source": "SportsTak"
-          },
-          {
-            "title": "BAN vs IND, 11th/12th Bowl, Play-off, Hong Kong Sixes 2026 - Commentary",
-            "url": "https://www.cricbuzz.com/live-cricket-scores/175190/ban-vs-ind-11th12th-bowl-play-off-hong-kong-sixes-2026",
-            "source": "Cricbuzz"
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "keyword": "rockets – thunder",
-        "traffic": "200+",
-        "pub_date": "2026-11-01T01:20:00+00:00",
-        "articles": [
-          {
-            "title": "Rockets 119-98 Thunder: Threes and 29 assists",
-            "url": "https://www.sofascore.com/news/rockets-119-98-thunder-threes-and-teamwork-power-a-statement-home-win",
-            "source": "Sofascore"
-          },
-          {
-            "title": "Marcus Smart posts 24/5/3/1 line vs. Oklahoma City",
-            "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-10-31/marcus-smart-posts-24-5-3-1-line-vs-oklahoma-city",
-            "source": "NBC Sports"
-          },
-          {
-            "title": "Game Recap: Rockets 119, Thunder 98",
-            "url": "https://www.nba.com/watch/video/game-recap-rockets-119-thunder-98",
-            "source": "NBA.com"
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "keyword": "mc donalds",
-        "traffic": "2000+",
-        "pub_date": "2026-11-01T01:10:00+00:00",
-        "articles": [
-          {
-            "title": "McDonald's dealt legal setback as judge allows McRib meat lawsuit to proceed",
-            "url": "https://www.foxbusiness.com/lifestyle/mcdonalds-dealt-legal-setback-judge-allows-mcrib-lawsuit-over-sandwichs-meat-proceed",
-            "source": "Fox Business"
-          },
-          {
-            "title": "Judge won't dismiss McRib class-action lawsuit against McDonald's",
-            "url": "https://www.usatoday.com/story/money/food/2026/10/31/mcdonalds-mcrib-lawsuit/92541992007/",
-            "source": "USA Today"
-          },
-          {
-            "title": "McDonald’s must face lawsuit over McRib, judge rules",
-            "url": "https://www.nbcnews.com/business/business-news/mcdonalds-mcrib-lawsuit-rcna606719",
-            "source": "NBC News"
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "keyword": "ban vs ind",
-        "traffic": "1000+",
-        "pub_date": "2026-11-01T01:10:00+00:00",
-        "articles": [
-          {
-            "title": "BAN vs IND, 11th/12th Bowl, Play-off, Hong Kong Sixes 2026 - Commentary",
-            "url": "https://www.cricbuzz.com/live-cricket-scores/175190/ban-vs-ind-11th12th-bowl-play-off-hong-kong-sixes-2026",
-            "source": "Cricbuzz"
-          },
-          {
-            "title": "Bangladesh vs India, Hong Kong Sixes 2026: Shashank Singh stars as Krunal Pandya's men notch first win to finish 11th",
-            "url": "https://www.livemint.com/sports/cricket-news/bangladesh-vs-india-hong-kong-sixes-2026-shashank-singh-stars-as-krunal-pandyas-men-notch-first-win-to-finish-11th-11793505741429.html",
-            "source": "Livemint"
-          },
-          {
-            "title": "India vs Bangladesh Live Streaming: When And Where To Watch Hong Kong Sixes 2026 Match Live In India",
-            "url": "https://www.ndtvprofit.com/sports/india-vs-bangladesh-live-streaming-when-and-where-to-watch-hong-kong-sixes-2026-match-live-in-india-12265078",
-            "source": "NDTV Profit"
-          }
-        ]
-      },
-      {
-        "rank": 9,
-        "keyword": "grayson allen",
-        "traffic": "100+",
-        "pub_date": "2026-11-01T00:40:00+00:00",
-        "articles": [
-          {
-            "title": "Hornets Postgame | Grayson Allen ‑ 10/31/26",
-            "url": "https://www.nba.com/hornets/videos/hornets-postgame-grayson-allen-10-31-26",
-            "source": "NBA.com"
-          },
-          {
-            "title": "Grayson Allen scores team-high 27 points vs. PHI",
-            "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-10-31/grayson-allen-scores-team-high-27-points-vs-phi",
-            "source": "NBC Sports"
-          },
-          {
-            "title": "Grayson Allen News: Catches fire from deep Saturday",
-            "url": "https://www.rotowire.com/basketball/headlines/grayson-allen-news-catches-fire-from-deep-saturday-537016",
-            "source": "RotoWire"
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "keyword": "wnba",
-        "traffic": "200+",
-        "pub_date": "2026-11-01T00:30:00+00:00",
-        "articles": [
-          {
-            "title": "In fairness to Dream and Valkyries, scheduling dilemma shouldn't overshadow Game 6 of WNBA Finals",
-            "url": "https://apnews.com/article/wnba-finals-game-6-start-time-e526257824886257185c1049f03c888e",
-            "source": "AP News"
-          },
-          {
-            "title": "How the Valkyries outlasted the Dream in Game 7 to capture the WNBA Championship",
-            "url": "https://www.nytimes.com/athletic/live-blogs/dream-vs-valkyries-live-score-updates-wnba-finals-game-7-result/9MzDkCrG5Jdo/",
-            "source": "The New York Times"
-          },
-          {
-            "title": "USA Sports and NBC claim record WNBA Finals ratings, but the comparisons leave out important context",
-            "url": "https://www.foxnews.com/outkick-sports/usa-sports-nbc-claim-record-wnba-finals-ratings-comparisons-leave-out-important-context",
-            "source": "Fox News"
           }
         ]
       }
@@ -244,8 +244,8 @@
         "channel": "AYLIVA",
         "thumbnail": "https://i.ytimg.com/vi/tsAOrr254pM/mqdefault.jpg",
         "published_at": "2026-10-29T23:00:07Z",
-        "view_count": 516940,
-        "like_count": 25041
+        "view_count": 517588,
+        "like_count": 25052
       },
       {
         "rank": 2,
@@ -254,8 +254,8 @@
         "channel": "Sony Music South",
         "thumbnail": "https://i.ytimg.com/vi/LM4ByXufv2w/mqdefault.jpg",
         "published_at": "2026-10-31T14:00:07Z",
-        "view_count": 6824139,
-        "like_count": 228532
+        "view_count": 7220671,
+        "like_count": 235134
       },
       {
         "rank": 3,
@@ -264,8 +264,8 @@
         "channel": "Brawl Stars",
         "thumbnail": "https://i.ytimg.com/vi/PfSHrPMW4UU/mqdefault.jpg",
         "published_at": "2026-10-31T16:00:07Z",
-        "view_count": 4736199,
-        "like_count": 1666106
+        "view_count": 4836740,
+        "like_count": 1685407
       },
       {
         "rank": 4,
@@ -274,8 +274,8 @@
         "channel": "Sido",
         "thumbnail": "https://i.ytimg.com/vi/1abzMQhso9s/mqdefault.jpg",
         "published_at": "2026-10-29T19:00:06Z",
-        "view_count": 610821,
-        "like_count": 31287
+        "view_count": 611834,
+        "like_count": 31313
       },
       {
         "rank": 5,
@@ -284,8 +284,8 @@
         "channel": "KinoCheck Heimkino",
         "thumbnail": "https://i.ytimg.com/vi/Nq4STmEK1WU/mqdefault.jpg",
         "published_at": "2026-10-31T10:15:02Z",
-        "view_count": 39006,
-        "like_count": 221
+        "view_count": 39153,
+        "like_count": 222
       },
       {
         "rank": 6,
@@ -294,8 +294,8 @@
         "channel": "Hay Day",
         "thumbnail": "https://i.ytimg.com/vi/74Yt2Q1z5D4/mqdefault.jpg",
         "published_at": "2026-10-31T07:45:17Z",
-        "view_count": 1527860,
-        "like_count": 28721
+        "view_count": 1539306,
+        "like_count": 28895
       },
       {
         "rank": 7,
@@ -304,8 +304,8 @@
         "channel": "ZENYS",
         "thumbnail": "https://i.ytimg.com/vi/efMH1vkJ9xM/mqdefault.jpg",
         "published_at": "2026-10-30T12:00:07Z",
-        "view_count": 619030,
-        "like_count": 16320
+        "view_count": 621261,
+        "like_count": 16375
       },
       {
         "rank": 8,
@@ -314,8 +314,8 @@
         "channel": "KinoCheck",
         "thumbnail": "https://i.ytimg.com/vi/dU7IMcbLIgo/mqdefault.jpg",
         "published_at": "2026-10-30T16:29:38Z",
-        "view_count": 78563,
-        "like_count": 465
+        "view_count": 78732,
+        "like_count": 466
       },
       {
         "rank": 9,
@@ -324,8 +324,8 @@
         "channel": "Bastian",
         "thumbnail": "https://i.ytimg.com/vi/u4vIzs1Gcbs/mqdefault.jpg",
         "published_at": "2026-10-31T11:38:02Z",
-        "view_count": 147037,
-        "like_count": 6447
+        "view_count": 149125,
+        "like_count": 6477
       },
       {
         "rank": 10,
@@ -334,8 +334,8 @@
         "channel": "Darksteel Records",
         "thumbnail": "https://i.ytimg.com/vi/6DSsrtfdvZM/mqdefault.jpg",
         "published_at": "2026-10-31T08:08:13Z",
-        "view_count": 503715,
-        "like_count": 1692
+        "view_count": 508073,
+        "like_count": 1698
       },
       {
         "rank": 11,
@@ -344,8 +344,8 @@
         "channel": "Viva La Dirt League",
         "thumbnail": "https://i.ytimg.com/vi/3QnDhe_jmFM/mqdefault.jpg",
         "published_at": "2026-10-30T20:00:12Z",
-        "view_count": 374775,
-        "like_count": 14991
+        "view_count": 377454,
+        "like_count": 15043
       },
       {
         "rank": 12,
@@ -354,8 +354,8 @@
         "channel": "zarbex Uncut",
         "thumbnail": "https://i.ytimg.com/vi/THD0Yfy10wY/mqdefault.jpg",
         "published_at": "2026-10-31T11:03:23Z",
-        "view_count": 184484,
-        "like_count": 3975
+        "view_count": 187685,
+        "like_count": 4014
       },
       {
         "rank": 13,
@@ -364,8 +364,8 @@
         "channel": "Dani Mocanu",
         "thumbnail": "https://i.ytimg.com/vi/en0Zd19ZdwM/mqdefault.jpg",
         "published_at": "2026-10-31T17:00:08Z",
-        "view_count": 125151,
-        "like_count": 7954
+        "view_count": 126778,
+        "like_count": 8062
       },
       {
         "rank": 14,
@@ -374,8 +374,8 @@
         "channel": "Robert Hofmann",
         "thumbnail": "https://i.ytimg.com/vi/2_6W7QmzQdg/mqdefault.jpg",
         "published_at": "2026-10-30T14:00:09Z",
-        "view_count": 45630,
-        "like_count": 885
+        "view_count": 45687,
+        "like_count": 886
       },
       {
         "rank": 15,
@@ -384,8 +384,8 @@
         "channel": "FlameFrags",
         "thumbnail": "https://i.ytimg.com/vi/ZT-k42SC7L0/mqdefault.jpg",
         "published_at": "2026-10-31T16:19:18Z",
-        "view_count": 2038113,
-        "like_count": 101313
+        "view_count": 2165538,
+        "like_count": 104263
       },
       {
         "rank": 16,
@@ -394,8 +394,8 @@
         "channel": "LACAZETTE ",
         "thumbnail": "https://i.ytimg.com/vi/MhlTu7MpkBw/mqdefault.jpg",
         "published_at": "2026-10-29T21:30:07Z",
-        "view_count": 290736,
-        "like_count": 9552
+        "view_count": 291498,
+        "like_count": 9559
       },
       {
         "rank": 17,
@@ -404,8 +404,8 @@
         "channel": "Maddock Films",
         "thumbnail": "https://i.ytimg.com/vi/nCa4BGy3MJ8/mqdefault.jpg",
         "published_at": "2026-10-30T08:10:28Z",
-        "view_count": 19582067,
-        "like_count": 171910
+        "view_count": 19920717,
+        "like_count": 172962
       },
       {
         "rank": 18,
@@ -414,8 +414,8 @@
         "channel": "LetsHugo Gaming",
         "thumbnail": "https://i.ytimg.com/vi/C2mUJpJkF6w/mqdefault.jpg",
         "published_at": "2026-10-31T10:00:19Z",
-        "view_count": 121281,
-        "like_count": 5116
+        "view_count": 122687,
+        "like_count": 5133
       },
       {
         "rank": 19,
@@ -424,8 +424,8 @@
         "channel": "SAVANNA",
         "thumbnail": "https://i.ytimg.com/vi/A1Q7X8MsjgU/mqdefault.jpg",
         "published_at": "2026-10-31T11:00:23Z",
-        "view_count": 57007,
-        "like_count": 1036
+        "view_count": 57252,
+        "like_count": 1041
       },
       {
         "rank": 20,
@@ -434,8 +434,8 @@
         "channel": "War Thunder. Official channel.",
         "thumbnail": "https://i.ytimg.com/vi/MGMZKJCCaW8/mqdefault.jpg",
         "published_at": "2026-10-29T21:25:07Z",
-        "view_count": 428208,
-        "like_count": 16531
+        "view_count": 428816,
+        "like_count": 16544
       },
       {
         "rank": 21,
@@ -444,8 +444,8 @@
         "channel": "Trymacs",
         "thumbnail": "https://i.ytimg.com/vi/-RbFwIHrGaU/mqdefault.jpg",
         "published_at": "2026-10-31T11:15:03Z",
-        "view_count": 152165,
-        "like_count": 3611
+        "view_count": 154840,
+        "like_count": 3634
       },
       {
         "rank": 22,
@@ -454,8 +454,8 @@
         "channel": "NGEE",
         "thumbnail": "https://i.ytimg.com/vi/dOfbyxRW0Xs/mqdefault.jpg",
         "published_at": "2026-10-29T23:00:07Z",
-        "view_count": 128116,
-        "like_count": 5877
+        "view_count": 128651,
+        "like_count": 5889
       },
       {
         "rank": 23,
@@ -464,8 +464,8 @@
         "channel": "LoL Esports",
         "thumbnail": "https://i.ytimg.com/vi/J7wF_Cl4Fz4/mqdefault.jpg",
         "published_at": "2026-11-01T03:49:41Z",
-        "view_count": 2163167,
-        "like_count": 10056
+        "view_count": 2172569,
+        "like_count": 10088
       },
       {
         "rank": 24,
@@ -474,8 +474,8 @@
         "channel": "MB Music",
         "thumbnail": "https://i.ytimg.com/vi/XFmoMUIjrvA/mqdefault.jpg",
         "published_at": "2026-10-30T16:00:10Z",
-        "view_count": 1113102,
-        "like_count": 12916
+        "view_count": 1118808,
+        "like_count": 12951
       },
       {
         "rank": 25,
@@ -484,8 +484,8 @@
         "channel": "iCrimax",
         "thumbnail": "https://i.ytimg.com/vi/sNONnfHvzTs/mqdefault.jpg",
         "published_at": "2026-10-31T10:19:34Z",
-        "view_count": 133105,
-        "like_count": 2401
+        "view_count": 133404,
+        "like_count": 2419
       }
     ],
     "google_news": {
@@ -493,21 +493,21 @@
         {
           "title": "Ausschreitungen am Abend nach friedlichen Protesten am Nachmittag",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8waXBLR0VCVzRVMC1nWkpPX1VnZUh5eUg2Tnd3RENtZ2FDZWc0OTJ3NjRxeWNfcmVmT05wME1oTTFnTXJKWWJOR25FdXdqa3Z2MGhyUFU5anlmNDlnWExGUjVYd3N6X1R0aWZEQUtWNkY0M0NHVHZHQ3hPQVNkZw?oc=5",
-          "description": "Ausschreitungen am Abend nach friedlichen Protesten am Nachmittag  tagesschau.deEskalation nach Gen-Z-Demo: Chaos in Frankfurt - Randalierer plündern Geschäfte, SEK sichert Waffenladen  hessenschau.de",
+          "description": "Ausschreitungen am Abend nach friedlichen Protesten am Nachmittag  tagesschau.de„Zerstörerische Wut gegen das Land, in dem man lebt“ – die Nacht der Krawalle  WELTGewalt eskaliert: Krawalle und Plünde",
           "publisher": "tagesschau.de",
           "pub_date": "2026-11-01T04:42:00+00:00"
         },
         {
           "title": "Machtkampf in Polen: Polens Präsident beschuldigt Donald Tusk der Übernahme der Justiz",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPam51YVBOS2dQc09NSTV5OGVTVzlxLTNHeEduNjBUaVVlQnV3di10dWlXOXkzMXNUSDZOT0ZqN0g4NFlmM2Y1dWRMeHRTeUxZN1plUVk3b0l5Ry0wdmZhZTkyVmQwWHlEWVd4c1drV2tuZ0hlalRydFlGY1N5ZGI1VnMxdHN2c3VEaVpPWFhlUVU0UTNDTzEtWkYzLTRvSnl2RFIxZA?oc=5",
-          "description": "Machtkampf in Polen: Polens Präsident beschuldigt Donald Tusk der Übernahme der Justiz  DIE ZEITPolen: Tusk beklagt Angriff auf \"Demokratie und Rechtsstaat\"  tagesschau.deStaatskrise in Polen: Tusk ne",
+          "description": "Machtkampf in Polen: Polens Präsident beschuldigt Donald Tusk der Übernahme der Justiz  DIE ZEITPolen: Tusk beklagt Angriff auf \"Demokratie und Rechtsstaat\"  tagesschau.dePolen: Donald Tusk attackiert",
           "publisher": "DIE ZEIT",
           "pub_date": "2026-10-31T15:42:30+00:00"
         },
         {
           "title": "Krawalle in Frankreich: Ein Polizist brennt!",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVTBIa0lRZEVZUjBtcTJWZjRWdmFtblRfdFVVNG5SZDB5ZloxY3E5X3FEMi1GQXBWUFYyUEFRQjRMa04zQ01jMlprUmpkUWRTQTNUajBmUzlqb1dqWUo5aFZ1LTBmT3g0eDl2dUwxdGdIanlBV050STNDUlEtMnhyTVpYbnpXWF9FOElTVk5LMXB3b1NFTVRpSzI0Y1R0YnloZHc?oc=5",
-          "description": "Krawalle in Frankreich: Ein Polizist brennt!  BILDErneut Proteste und Zusammenstöße in Frankreich  tagesschau.deFrankreich: Erneute Ausschreitungen bei Protesten gegen Bildungs­missstände  Spiegel320.",
+          "description": "Krawalle in Frankreich: Ein Polizist brennt!  BILDErneut Proteste und Zusammenstöße in Frankreich  tagesschau.de565 Festnahmen: Krawalle in Frankreich - Polizist mit Molotowcocktail angezündet  n-tv.d",
           "publisher": "BILD",
           "pub_date": "2026-10-31T19:05:08+00:00"
         },
@@ -528,37 +528,37 @@
         {
           "title": "Gen-Z-Demo in Stuttgart: Jugendproteste enden im Chaos - Polizei zieht erste Bilanz",
           "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOM0hTcEd2RGtPYTVJcjBqU1VLbGhBb2ZwRlpSaWZqbzZJZWItTWtvdExnb0tIU1lGaU4yelJIOEU0RVVia1FkTG9LSkw0TGNRcW1XbHh1N1l6SVRVcm94ekRwOXNra0ItcmVpNTMwdjNKQXhDdnhOTEI2OEZWamVfRmZpWU16MDFIMHlCSE5OcE05ci0zeS1xZjd0QzhzdkdaZlNZQ3N3VmIwY3BaMnlZbWhXRmktTHR3VnN1clB3dE5EclM3c1FJcHRNYXFZcnpad0tMOU50a1ZTTVpTVmlPaw?oc=5",
-          "description": "Gen-Z-Demo in Stuttgart: Jugendproteste enden im Chaos - Polizei zieht erste Bilanz  Stuttgarter ZeitungDemonstrationen: Stuttgart kündigt Konsequenzen nach Jugendprotesten an  DIE ZEIT\"Gen Z regelt\"-",
+          "description": "Gen-Z-Demo in Stuttgart: Jugendproteste enden im Chaos - Polizei zieht erste Bilanz  Stuttgarter Zeitung«Gen Z» demonstriert: Polizei: Kein friedlicher Protest in Stuttgart  DIE ZEITDemonstrationen - ",
           "publisher": "Stuttgarter Zeitung",
           "pub_date": "2026-10-31T20:29:00+00:00"
         },
         {
           "title": "Tarifstreit: Warnstreiks der IG Metall haben begonnen",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPelBMcHo1b0FtXzdNUV9WakxMZk5BekhUd0N5VW1DM0ZJOHZtdVNFNWI5bThzSk1ILXpJU0hsRXF5dDY4NUNQdUNJMEViVXoyeXVpWEpmV3JkZXhOSWRjR3hLSXFmR3R5amMtRnlpN1JiT0J5TzA4WlBNN2RaOTZiRGNFSVg2T2UzV0pZcEV6VVpHaHp5TWZaNVFaaEx5cHZf?oc=5",
-          "description": "Tarifstreit: Warnstreiks der IG Metall haben begonnen  DIE ZEITArbeitsmarkt: Warnstreiks der IG Metall angelaufen - Wirtschaft - SZ.de  SZ.deHildesheim: Ende der Friedenspflicht – IG Metall läutet War",
+          "description": "Tarifstreit: Warnstreiks der IG Metall haben begonnen  DIE ZEITWarnstreiks der IG Metall kurz nach Mitternacht angelaufen  tagesschau.deHildesheim: Ende der Friedenspflicht – IG Metall läutet Warnstre",
           "publisher": "DIE ZEIT",
           "pub_date": "2026-11-01T00:56:14+00:00"
         },
         {
-          "title": "56 Festnahmen nach Steinwürfen: Polizei stoppt gewalttätige Demo in Berlin - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSjJoaWRtMUFwcEZYUThVcGFGYWNBY0VwVXdUa2UwaU44OHBnTkh3STI1LWZ4TG1rY3FucG04WXl3MnNMYndOekZFTEpLX0pYVm9xQ3dZZUItaklOSHpiNE1uMDJpbDJMUzZfbTBsRVRPczFacEtRbEVneWtObEhfNVJEOFlRSWltSzExUG9LYmR3Zw?oc=5",
-          "description": "56 Festnahmen nach Steinwürfen: Polizei stoppt gewalttätige Demo in Berlin  n-tv.deProteste in der Hauptstadt: Steinwürfe und Pyrotechnik - Polizei stoppt Demo in Berlin  DIE ZEITSteinwürfe und Pyrote",
-          "publisher": "",
-          "pub_date": "2026-10-31T23:34:55+00:00"
-        },
-        {
-          "title": "„Nur der erste Schritt“: Linken-Politiker lernt von Schülerprotesten in Paris – „Gen Z regelt“ plant weitere Demos",
-          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNd3FQTWpteWxlRnpuQVppLTVLbHFBa05JeDByU3JtdTZtNHEtNmtoQkRGeWlnNUp3SWJ0VzlZM2hBa3JrM2s2VURhYTY5U0pkTUxFWm1uMlNyVWpnMFYzLUxGVFdKajQ5bDgwYWMxVjliYkV4ZURlWWpvRGtyWUcwcmFfcmdjTzJmam10NHV1NEZzMlQ3ZW1sc1BYZVlWWDg0LXVIbXlrN1d1MVRnSW01dkZENV9Oa3kwdDZyQkgyb1JjczdhVHVBbzNqb3ptemlRVUtQR3BYVldMaEt4NGctNk0zRjRBbWlPQTBJdjl0bTBOZVFhc0NRWjZ1NkRsSlVSTlZEVzNMNHJFUk9wU1hqU1hPcw?oc=5",
-          "description": "„Nur der erste Schritt“: Linken-Politiker lernt von Schülerprotesten in Paris – „Gen Z regelt“ plant weitere Demos  WELTGen-Z-Proteste: Was die Bundesregierung für die Jugend macht  tagesschau.de\"Die ",
-          "publisher": "WELT",
-          "pub_date": "2026-10-31T21:56:55+00:00"
-        },
-        {
           "title": "Kanzler sorge für \"Zerwürfnisse\": Grünen-Chefin kritisiert Merz-Söder-Machtkampf bei Bundespräsidentenfrage - n-tv.de",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU0hhaFdQVndIcVREODdCa3RtalRsWDdKX19FbDZTSmJDd2ZhMXFmWFctam04VmgzaklNcDMtdEp0VUs0OXFGamdxR2t1VDNMV1hwdXN3Z3pvQnZWREtFblY4VmJ2blpMWlpPbFk4Q09FUWcwOWxjQ0lSb1lvYTF4d3dQdHFLNG1KNFNBVkpuWnRKbHRyZ2xwVE1qV2NXSWpSYlRuUGxyVGV5TktBMklLOHpndVl2Xy1CQXp2bg?oc=5",
-          "description": "Kanzler sorge für \"Zerwürfnisse\": Grünen-Chefin kritisiert Merz-Söder-Machtkampf bei Bundespräsidentenfrage  n-tv.deFriedrich Merz: Die Personalie Ilse Aigner wird zur Frage der Ehre  BILDSteinmeier-N",
+          "description": "Kanzler sorge für \"Zerwürfnisse\": Grünen-Chefin kritisiert Merz-Söder-Machtkampf bei Bundespräsidentenfrage  n-tv.deFriedrich Merz: Die Personalie Ilse Aigner wird zur Frage der Ehre  BILDDer Streit u",
           "publisher": "",
           "pub_date": "2026-11-01T00:00:13+00:00"
+        },
+        {
+          "title": "Gen-Z-Demo in Berlin: 3500 Demonstranten, Pyrotechnik und Festnahmen",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVWZUWEVWUHMxT3dNLXk3Y293bm5wTUc3dXJwM0ZnYmVhZTZUSVJvMDlULTg2TFFaWms5Q1NBR21oTEdKb2lDcHFKU0M0OXQ4NGE1SVlVeG5XTjZIY0RXYTJlcWxsVThjUXMzbm5KMzVRMVdzOVczLUxuamtxY1dtaW5MYkZnOE80R1pfemNuNVlTU3pEdUZhZXhwT254NTVjX0dzWWg0WjJCSFplMEdRNDQxLW5hdVFjS29oUnZlQU5Ydw?oc=5",
+          "description": "Gen-Z-Demo in Berlin: 3500 Demonstranten, Pyrotechnik und Festnahmen  FAZProteste in der Hauptstadt: Steinwürfe und Pyrotechnik - Polizei stoppt Demo in Berlin  DIE ZEITSteinwürfe und Pyrotechnik - Po",
+          "publisher": "FAZ",
+          "pub_date": "2026-10-31T22:33:27+00:00"
+        },
+        {
+          "title": "Einkaufen trotz Feiertag: Diese Aldi-Märkte haben am Reformationstag (31.10.) geöffnet",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdEVSS19kZndNMnhwcW9haEZwOTJCbmNuNnJ1ZW1pMDlWbU5oMENvT1NITTdNaHN1VkhZMUdFOU14bjdoWl9DdzJrT0ZkVFlOR0RXM1l4NGpiMmVFRl82OEN2M0NYR0NFajRrRF81ZEtJbWk5TmpYdjY1dEpKeDNidFJqTVdjWnN6SENlbi11RFBvSnMtRGpXZ0ZXcGxzR3d1Q2dhc29jZl93N1JBNG9DbkVLT0tWZw?oc=5",
+          "description": "Einkaufen trotz Feiertag: Diese Aldi-Märkte haben am Reformationstag (31.10.) geöffnet  NetzweltQuiz zum Reformationstag: Wie gut kennen Sie den Feiertag und seine Geschichte?  SpiegelBischöfin Kirste",
+          "publisher": "Netzwelt",
+          "pub_date": "2026-10-31T05:00:00+00:00"
         },
         {
           "title": "Das System Vucic in Serbien: Besiegt, aber nicht verschwunden",
@@ -566,13 +566,6 @@
           "description": "Das System Vucic in Serbien: Besiegt, aber nicht verschwunden  tagesschau.deWo Chinas Macht plötzlich endet – dieser Fall offenbart Pekings größte Schwäche  WELTWie Serbiens Studentenbewegung Aleksand",
           "publisher": "tagesschau.de",
           "pub_date": "2026-10-31T12:08:00+00:00"
-        },
-        {
-          "title": "Ukrainekrieg: Selenskyj warnt vor langen Lieferfristen bei Patriot-System",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ2xQRVdxZUYyZXdUaUp3WmxmVXRPR0RPYkpYQmVFT0RqOEwwMXBpdGpjM1U5WU1uTjM1ZGx6bnluanVFNk9Dc2lpMTZKZzA5a24yLW95dWZBVzlyYzlPaWt2RUI4SXlkRE5PcjE4WlFmR0tkRVVhLXhlaldnNEpockl2TDJEUFZ4MUdCZWdNc1ZvN3ZTNmhTRElnd0NfbGpHazRaa2Jlc05CSFFyUGJFNHI3S29tOE1nSDdZX2w1ZHdCWGQ1cHotRXh1ek5aMkNEZV8yeWZfSDRROEU?oc=5",
-          "description": "Ukrainekrieg: Selenskyj warnt vor langen Lieferfristen bei Patriot-System  SpiegelUkraine-Krieg aktuell: Selenskyj schlägt Patriot-Tauschhandel vor  T-OnlineVon Deutschland, Kanada und Norwegen finanz",
-          "publisher": "Spiegel",
-          "pub_date": "2026-10-31T07:42:00+00:00"
         },
         {
           "title": "Israel: Präsident Isaac Herzog kündigt Gespräche zur Regierungsbildung an",
@@ -584,25 +577,32 @@
         {
           "title": "Evakuierung aus Oleschky: Oleschky-Flüchtlinge sind laut Selenskyj wieder in der Ukraine",
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY1ljNlVZdTNBcTVfY1VwRzlYYkFxVWlWLUFxVUg1aVJ0VDV6NmU2OHlMcGxKcVJzZGQtVGRLZENXMHdQWTZyOVZKOWdrejNuRWtSX0pwblUzc3dfYVIyVzFtUXU3VDhDMFBTM0FIOUpsazNIN2FxbF9tQklJUTRhMERnSnFEbWtmcFBtVFp2XzctdGk5WlBQZGRneFhiM1BPN3FlMUFBdXZMbEVnS243ZW5BTzJyYjJUVmxlLWpkSWtvX2U3blpuQ3JCQ3prZjRm?oc=5",
-          "description": "Evakuierung aus Oleschky: Oleschky-Flüchtlinge sind laut Selenskyj wieder in der Ukraine  DIE ZEITOleschky: Ukrainische Flüchtlinge aus Oleschky sollen in Belarus gelandet sein  DIE ZEITEvakuierungsak",
+          "description": "Evakuierung aus Oleschky: Oleschky-Flüchtlinge sind laut Selenskyj wieder in der Ukraine  DIE ZEITBewohner Oleschkys auf ukrainisch kontrolliertem Gebiet angekommen  tagesschau.de„Wir haben solche Ang",
           "publisher": "DIE ZEIT",
           "pub_date": "2026-10-31T15:09:56+00:00"
         },
         {
-          "title": "Binance: FBI macht Nordkorea für Milliardenraub bei Kryptobörse verantwortlich",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc2M5dWNXREV4U09PMWlCUmlKT2kyVFV6V1hBTXFyWjJXcVp2b0dYODBoRi0ydkVZUjZyVkpzUUo0d1gzX1lQbHZjNjVsaks5NlFLS3d4dTlfRTlzRlJZQjJVU1ZpU1EtWnNDNGtwRUhmQUhFLTFDdXU4b19maUlRVkNDZllaTS0wNGNlSDMxcEVjaXJadXE5VVU3QnRGTlZIejhnejZGem9EOGU2SFhxWk1WRURVUVlKWTZ2X3Z1V21CbTZTd0pxbHZhSlVjWXotVEh1bG8wSnB4OFZJbVN3TnB6U0E?oc=5",
-          "description": "Binance: FBI macht Nordkorea für Milliardenraub bei Kryptobörse verantwortlich  SpiegelFBI macht Nordkorea für Hackerangriff auf Binance verantwortlich  tagesschau.deBinance-Hack: ﻿FBI: Nordkorea hint",
-          "publisher": "Spiegel",
-          "pub_date": "2026-10-31T23:33:00+00:00"
+          "title": "Viele Leichen und Leichenteile: Behörden kämpfen nach Zugunglück in Spanien mit Opfer-Identifizierung - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcXVhT0Z3VjVKNGpLR1ZPcjJNTXV0TmU5aTJ6WlZOV0Rxcm1WM0UxV2diVEdoYU5ZX3pNNi1ocGRaaWJnSFV3cTJIbVBiUGR0UGJINnhhOEswNm1xRkhQV1FlUV8zNjBlZmdqZWRVT2hVQ0pDaGJzSmNsU0paaElhSGNSbC1kdFZXUE9FU0NKNS1BelJDa3I0VzJZUU9HNlV6WVVTTi1CUkgtTmFyMGxhUTVaa0gxaGU5?oc=5",
+          "description": "Viele Leichen und Leichenteile: Behörden kämpfen nach Zugunglück in Spanien mit Opfer-Identifizierung  n-tv.deSpanien: Erst rund die Hälfte der Todesopfer des Zugunglücks identifiziert  SpiegelZugungl",
+          "publisher": "",
+          "pub_date": "2026-10-31T15:46:29+00:00"
+        },
+        {
+          "title": "Angriff auf Kryptowährungsbörse: FBI beobachtet nordkoreanische Hacker bei Geldwäsche nach Binance-Hack",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaEgzR0RmcmJaRVlPeHFoaTZ2M0phMkVWVTFKSFlIX1dzdXdpQ25vZ0V2UnJRVzRFeGtzelVLUGU0cnMzNURyV3Z1eHFxcWhoYjRQVXZpNUxGYXduLXRUZk1pdDBKSHlLM0QyWGRoQnE1dHVydUI3cjcteEdNUlhHQmNlelE0ZlFfWTFpWjlWSFNvZXJoTWNlZ3ZHc1o4U191NDZ0c3hGTElnbTk5RjAtaUUtRXBXZnpwWFpwV3JFU3E?oc=5",
+          "description": "Angriff auf Kryptowährungsbörse: FBI beobachtet nordkoreanische Hacker bei Geldwäsche nach Binance-Hack  DIE ZEITFBI macht Nordkorea für Hackerangriff auf Binance verantwortlich  tagesschau.deHackeran",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-01T01:06:26+00:00"
         }
       ],
       "nation": [
         {
           "title": "Ausschreitungen am Abend nach friedlichen Protesten am Nachmittag",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8waXBLR0VCVzRVMC1nWkpPX1VnZUh5eUg2Tnd3RENtZ2FDZWc0OTJ3NjRxeWNfcmVmT05wME1oTTFnTXJKWWJOR25FdXdqa3Z2MGhyUFU5anlmNDlnWExGUjVYd3N6X1R0aWZEQUtWNkY0M0NHVHZHQ3hPQVNkZw?oc=5",
-          "description": "Ausschreitungen am Abend nach friedlichen Protesten am Nachmittag  tagesschau.deEskalation nach Gen-Z-Demo: Chaos in Frankfurt - Randalierer plündern Geschäfte, SEK sichert Waffenladen  hessenschau.de",
+          "description": "Ausschreitungen am Abend nach friedlichen Protesten am Nachmittag  tagesschau.de„Zerstörerische Wut gegen das Land, in dem man lebt“ – die Nacht der Krawalle  WELTGewalt eskaliert: Krawalle und Plünde",
           "publisher": "tagesschau.de",
-          "pub_date": "2026-11-01T02:32:00+00:00"
+          "pub_date": "2026-11-01T04:42:00+00:00"
         },
         {
           "title": "Parteitag der Linken in Berlin: Elif Eralp strahlt vor Freude",
@@ -614,16 +614,30 @@
         {
           "title": "Tarifstreit: Warnstreiks der IG Metall haben begonnen",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPelBMcHo1b0FtXzdNUV9WakxMZk5BekhUd0N5VW1DM0ZJOHZtdVNFNWI5bThzSk1ILXpJU0hsRXF5dDY4NUNQdUNJMEViVXoyeXVpWEpmV3JkZXhOSWRjR3hLSXFmR3R5amMtRnlpN1JiT0J5TzA4WlBNN2RaOTZiRGNFSVg2T2UzV0pZcEV6VVpHaHp5TWZaNVFaaEx5cHZf?oc=5",
-          "description": "Tarifstreit: Warnstreiks der IG Metall haben begonnen  DIE ZEITArbeitsmarkt: Warnstreiks der IG Metall angelaufen - Wirtschaft - SZ.de  SZ.deHildesheim: Ende der Friedenspflicht – IG Metall läutet War",
+          "description": "Tarifstreit: Warnstreiks der IG Metall haben begonnen  DIE ZEITWarnstreiks der IG Metall kurz nach Mitternacht angelaufen  tagesschau.deHildesheim: Ende der Friedenspflicht – IG Metall läutet Warnstre",
           "publisher": "DIE ZEIT",
           "pub_date": "2026-11-01T00:56:14+00:00"
         },
         {
-          "title": "56 Festnahmen nach Steinwürfen: Polizei stoppt gewalttätige Demo in Berlin - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSjJoaWRtMUFwcEZYUThVcGFGYWNBY0VwVXdUa2UwaU44OHBnTkh3STI1LWZ4TG1rY3FucG04WXl3MnNMYndOekZFTEpLX0pYVm9xQ3dZZUItaklOSHpiNE1uMDJpbDJMUzZfbTBsRVRPczFacEtRbEVneWtObEhfNVJEOFlRSWltSzExUG9LYmR3Zw?oc=5",
-          "description": "56 Festnahmen nach Steinwürfen: Polizei stoppt gewalttätige Demo in Berlin  n-tv.deProteste in der Hauptstadt: Steinwürfe und Pyrotechnik - Polizei stoppt Demo in Berlin  DIE ZEITSteinwürfe und Pyrote",
+          "title": "Kanzler sorge für \"Zerwürfnisse\": Grünen-Chefin kritisiert Merz-Söder-Machtkampf bei Bundespräsidentenfrage - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU0hhaFdQVndIcVREODdCa3RtalRsWDdKX19FbDZTSmJDd2ZhMXFmWFctam04VmgzaklNcDMtdEp0VUs0OXFGamdxR2t1VDNMV1hwdXN3Z3pvQnZWREtFblY4VmJ2blpMWlpPbFk4Q09FUWcwOWxjQ0lSb1lvYTF4d3dQdHFLNG1KNFNBVkpuWnRKbHRyZ2xwVE1qV2NXSWpSYlRuUGxyVGV5TktBMklLOHpndVl2Xy1CQXp2bg?oc=5",
+          "description": "Kanzler sorge für \"Zerwürfnisse\": Grünen-Chefin kritisiert Merz-Söder-Machtkampf bei Bundespräsidentenfrage  n-tv.deFriedrich Merz: Die Personalie Ilse Aigner wird zur Frage der Ehre  BILDDer Streit u",
           "publisher": "",
-          "pub_date": "2026-10-31T23:34:55+00:00"
+          "pub_date": "2026-11-01T00:00:13+00:00"
+        },
+        {
+          "title": "Gen-Z-Demo in Berlin: 3500 Demonstranten, Pyrotechnik und Festnahmen",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVWZUWEVWUHMxT3dNLXk3Y293bm5wTUc3dXJwM0ZnYmVhZTZUSVJvMDlULTg2TFFaWms5Q1NBR21oTEdKb2lDcHFKU0M0OXQ4NGE1SVlVeG5XTjZIY0RXYTJlcWxsVThjUXMzbm5KMzVRMVdzOVczLUxuamtxY1dtaW5MYkZnOE80R1pfemNuNVlTU3pEdUZhZXhwT254NTVjX0dzWWg0WjJCSFplMEdRNDQxLW5hdVFjS29oUnZlQU5Ydw?oc=5",
+          "description": "Gen-Z-Demo in Berlin: 3500 Demonstranten, Pyrotechnik und Festnahmen  FAZProteste in der Hauptstadt: Steinwürfe und Pyrotechnik - Polizei stoppt Demo in Berlin  DIE ZEITSteinwürfe und Pyrotechnik - Po",
+          "publisher": "FAZ",
+          "pub_date": "2026-10-31T22:33:27+00:00"
+        },
+        {
+          "title": "Einkaufen trotz Feiertag: Diese Aldi-Märkte haben am Reformationstag (31.10.) geöffnet",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdEVSS19kZndNMnhwcW9haEZwOTJCbmNuNnJ1ZW1pMDlWbU5oMENvT1NITTdNaHN1VkhZMUdFOU14bjdoWl9DdzJrT0ZkVFlOR0RXM1l4NGpiMmVFRl82OEN2M0NYR0NFajRrRF81ZEtJbWk5TmpYdjY1dEpKeDNidFJqTVdjWnN6SENlbi11RFBvSnMtRGpXZ0ZXcGxzR3d1Q2dhc29jZl93N1JBNG9DbkVLT0tWZw?oc=5",
+          "description": "Einkaufen trotz Feiertag: Diese Aldi-Märkte haben am Reformationstag (31.10.) geöffnet  NetzweltQuiz zum Reformationstag: Wie gut kennen Sie den Feiertag und seine Geschichte?  SpiegelBischöfin Kirste",
+          "publisher": "Netzwelt",
+          "pub_date": "2026-10-31T05:00:00+00:00"
         },
         {
           "title": "„Nur der erste Schritt“: Linken-Politiker lernt von Schülerprotesten in Paris – „Gen Z regelt“ plant weitere Demos",
@@ -631,20 +645,6 @@
           "description": "„Nur der erste Schritt“: Linken-Politiker lernt von Schülerprotesten in Paris – „Gen Z regelt“ plant weitere Demos  WELTGen-Z-Proteste: Was die Bundesregierung für die Jugend macht  tagesschau.de\"Die ",
           "publisher": "WELT",
           "pub_date": "2026-10-31T21:56:55+00:00"
-        },
-        {
-          "title": "Gen-Z-Demo in Stuttgart: Jugendproteste enden im Chaos - Polizei zieht erste Bilanz",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOM0hTcEd2RGtPYTVJcjBqU1VLbGhBb2ZwRlpSaWZqbzZJZWItTWtvdExnb0tIU1lGaU4yelJIOEU0RVVia1FkTG9LSkw0TGNRcW1XbHh1N1l6SVRVcm94ekRwOXNra0ItcmVpNTMwdjNKQXhDdnhOTEI2OEZWamVfRmZpWU16MDFIMHlCSE5OcE05ci0zeS1xZjd0QzhzdkdaZlNZQ3N3VmIwY3BaMnlZbWhXRmktTHR3VnN1clB3dE5EclM3c1FJcHRNYXFZcnpad0tMOU50a1ZTTVpTVmlPaw?oc=5",
-          "description": "Gen-Z-Demo in Stuttgart: Jugendproteste enden im Chaos - Polizei zieht erste Bilanz  Stuttgarter ZeitungDemonstrationen: Stuttgart kündigt Konsequenzen nach Jugendprotesten an  DIE ZEIT\"Gen Z regelt\"-",
-          "publisher": "Stuttgarter Zeitung",
-          "pub_date": "2026-10-31T20:29:00+00:00"
-        },
-        {
-          "title": "Kanzler sorge für \"Zerwürfnisse\": Grünen-Chefin kritisiert Merz-Söder-Machtkampf bei Bundespräsidentenfrage - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNU0hhaFdQVndIcVREODdCa3RtalRsWDdKX19FbDZTSmJDd2ZhMXFmWFctam04VmgzaklNcDMtdEp0VUs0OXFGamdxR2t1VDNMV1hwdXN3Z3pvQnZWREtFblY4VmJ2blpMWlpPbFk4Q09FUWcwOWxjQ0lSb1lvYTF4d3dQdHFLNG1KNFNBVkpuWnRKbHRyZ2xwVE1qV2NXSWpSYlRuUGxyVGV5TktBMklLOHpndVl2Xy1CQXp2bg?oc=5",
-          "description": "Kanzler sorge für \"Zerwürfnisse\": Grünen-Chefin kritisiert Merz-Söder-Machtkampf bei Bundespräsidentenfrage  n-tv.deFriedrich Merz: Die Personalie Ilse Aigner wird zur Frage der Ehre  BILDSteinmeier-N",
-          "publisher": "",
-          "pub_date": "2026-11-01T00:00:13+00:00"
         },
         {
           "title": "Pflegereform 2027: Verhinderungspflege soll entfallen - Altersgrenze beim Pflegebudget geplant",
@@ -677,16 +677,9 @@
         {
           "title": "Kann Bayern ein Atommüll-Endlager im Freistaat verhindern?",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTng4TGVwMGltODNJcGJIaFFiU1R4OFlNRVJIam5BdTR0ZVJXcWFGUXVrdFlNbzc4Nm1kb1dvTElWNkJVNW1EVDF3eFBVVmdFVlNKTDFJMUVWVEg2VF9CWWRSQzF3M2FfR25jTUc5bmxYVmVzUUw0bXNlVXgxaXJzQW5YT2xaRkVSbTdLX0tiTXV0WXRvYU5OZXZMNDBjTlZnc2ZfNmJR?oc=5",
-          "description": "Kann Bayern ein Atommüll-Endlager im Freistaat verhindern?  BRUngelöste Endlagerfrage: Die deutsche Anti-Kernkraft-Strategie  WELTEndlagersuche für Atommüll: Kommt mein Wohnort für ein Atommüllendlage",
+          "description": "Kann Bayern ein Atommüll-Endlager im Freistaat verhindern?  BRUngelöste Endlagerfrage: Die deutsche Anti-Kernkraft-Strategie  WELTFAQ: Die lange Suche nach einem Atommüll-Endlager  tagesschau.deEndlag",
           "publisher": "BR",
           "pub_date": "2026-10-31T05:01:11+00:00"
-        },
-        {
-          "title": "Hessen am Abend: Baumaschinen in Flammen – und tausende Jugendliche ohne Lehrstelle",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMXhBZWVlcE5BOWEzU3RLZ0RNWUpWWm9OaVJFT3hmbGVoSjkzOHBiY196eXRjZkNmb24tcEN1cWVOSnVUMk8xczcySEVtcllsRzUwV3lJeHdWUmlLZ1dYQTBBX1I0OGVNX2FVak95RXd4eDlYUzJqb1kycGprdGFmcW9HWXlRbVk3djFENGdXbWhCMWlJOUEzbnV5TEFiVnJ0bHFEZ2V2b2tqd3dORzBoZU5Ybk5IOUNTQll2eXpmSFpCSkh5bEFadkFJOTNzUGV5dm5XWVIySnNmSWtEZWljU1ZPLTA0WmthTzlsMFhwQzcwUQ?oc=5",
-          "description": "Hessen am Abend: Baumaschinen in Flammen – und tausende Jugendliche ohne Lehrstelle  hessenschau.deCalden: Polizei prüft Bekennerschreiben nach Brand auf Rheinmetall-Baustelle  hessenschau.de„Bekenner",
-          "publisher": "hessenschau.de",
-          "pub_date": "2026-10-30T17:27:53+00:00"
         },
         {
           "title": "Es gibt immer weniger junge Frauen: Deutschlands Geburtenzahlen drohen weiter zu fallen",
@@ -694,6 +687,13 @@
           "description": "Es gibt immer weniger junge Frauen: Deutschlands Geburtenzahlen drohen weiter zu fallen  TagesspiegelGeburten in Deutschland: Ökonomen mahnen zu besserer Familienpolitik wegen Geburtenrückgang  DIE ZE",
           "publisher": "Tagesspiegel",
           "pub_date": "2026-10-31T09:18:00+00:00"
+        },
+        {
+          "title": "Hessen am Abend: Baumaschinen in Flammen – und tausende Jugendliche ohne Lehrstelle",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMXhBZWVlcE5BOWEzU3RLZ0RNWUpWWm9OaVJFT3hmbGVoSjkzOHBiY196eXRjZkNmb24tcEN1cWVOSnVUMk8xczcySEVtcllsRzUwV3lJeHdWUmlLZ1dYQTBBX1I0OGVNX2FVak95RXd4eDlYUzJqb1kycGprdGFmcW9HWXlRbVk3djFENGdXbWhCMWlJOUEzbnV5TEFiVnJ0bHFEZ2V2b2tqd3dORzBoZU5Ybk5IOUNTQll2eXpmSFpCSkh5bEFadkFJOTNzUGV5dm5XWVIySnNmSWtEZWljU1ZPLTA0WmthTzlsMFhwQzcwUQ?oc=5",
+          "description": "Hessen am Abend: Baumaschinen in Flammen – und tausende Jugendliche ohne Lehrstelle  hessenschau.deCalden: Polizei prüft Bekennerschreiben nach Brand auf Rheinmetall-Baustelle  hessenschau.de„Bekenner",
+          "publisher": "hessenschau.de",
+          "pub_date": "2026-10-30T17:27:53+00:00"
         },
         {
           "title": "Tote nach Hausexplosion in der Oberpfalz: Rätsel treibt Ermittler um",
@@ -705,18 +705,18 @@
       ],
       "world": [
         {
-          "title": "Staatskrise in Polen: Tusk nennt Präsident Nawrocki \"aggressiven Schläger\" - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNDNYdDRuUDhPZW9YVnNjV1VhNWZfako2bFB1SEpTUW1EOFFVRzBidk9JTmtfTkhiZWVTQ3VIZ0VTUjNMYkJXanVwZ19uWU4zTUJvUFNaMFRNN1cwYk5YTU9zMjl0YkU3YnFFSmJjdmMyTjN0Yjd5Rm9NTDNYSWszRHhJYXlCdkpyck5XSExwZVBiVE0yMy16bzJRVG8?oc=5",
-          "description": "Staatskrise in Polen: Tusk nennt Präsident Nawrocki \"aggressiven Schläger\"  n-tv.dePolen: Tusk beklagt Angriff auf \"Demokratie und Rechtsstaat\"  tagesschau.dePolen: Donald Tusk wirft Polens Präsidente",
+          "title": "565 Festnahmen: Krawalle in Frankreich - Polizist mit Molotowcocktail angezündet - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTWYxamxKUmdDOUtLOEFHMi1wbnQyenNOdkZJT1VBaUl4REFSQW5uaHFib1ZMMnVvX29mMU14Nlg1YkRhVVRVZEg4dkNpbHIxZm0tczNiVnQzWW8tcDVCLWVLZ0NxODhRY0hqTVFVWVFVdjNKeEhGUDNOU2ZzdnZid3FPc1lDcC1nSklBTzUtbzE5WlBKeWlRSzVkZVZhSnR2UHZpTWN0TXR1ZlE?oc=5",
+          "description": "565 Festnahmen: Krawalle in Frankreich - Polizist mit Molotowcocktail angezündet  n-tv.deKrawalle in Frankreich: Ein Polizist brennt!  BILDErneut Proteste und Zusammenstöße in Frankreich  tagesschau.d",
           "publisher": "",
-          "pub_date": "2026-11-01T04:11:38+00:00"
+          "pub_date": "2026-11-01T05:08:01+00:00"
         },
         {
-          "title": "Proteste in Frankreich: Erst friedlich, dann neue Zusammenstöße",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNlZ3LTNqU3FhcUl2Y0pTY1M1MmhWUFhKeThXdXExTnZLNzJpTHdfclEwMjg5dWpHUzJudlIyTHE4blZLUkJBZFllZGNYdmtGTW1JN2pNelFpb185cFRJZjBCc2FEWVBBUUl5ckxhVGZrczl0Y1BzaVJtdFN1SV9DUjNYN0RIN0tteVh1STF0MVlTeE9XYzl1TDhIaGdzdjl2NnU1dzBrci1tUDJFQUF6MElVbHVLVWpvUWVz?oc=5",
-          "description": "Proteste in Frankreich: Erst friedlich, dann neue Zusammenstöße  BRKrawalle in Frankreich: Ein Polizist brennt!  BILDErneut Proteste und Zusammenstöße in Frankreich  tagesschau.deFrankreich: Erneute A",
-          "publisher": "BR",
-          "pub_date": "2026-10-31T17:38:39+00:00"
+          "title": "Polen: Donald Tusk wirft Polens Präsidenten Angriff auf Rechtsstaat vor",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc1NORHkyNzEtaDlDVml5YzBvd0oyMElVWUd0T0NLS2o3aTdQSU11UkRBRGl1UzNERm1lY3VINzZVS2gwVHBRcW9FR0hEQzFVaFNzWmJ3ZWxGV3pLQjhocDctOUt5eTl5MFZDTERxMVlOMjhmZUZOa2JDbTh5S2FGTUx0UERVQU5nM0RJRm1SVHQtNXdkOTlZeHNMMEdTQ19Fb0xzT3hB?oc=5",
+          "description": "Polen: Donald Tusk wirft Polens Präsidenten Angriff auf Rechtsstaat vor  DIE ZEITPolen: Tusk beklagt Angriff auf \"Demokratie und Rechtsstaat\"  tagesschau.dePolen: Donald Tusk attackiert Karol Nawrocki",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-01T05:13:28+00:00"
         },
         {
           "title": "Das System Vucic in Serbien: Besiegt, aber nicht verschwunden",
@@ -724,13 +724,6 @@
           "description": "Das System Vucic in Serbien: Besiegt, aber nicht verschwunden  tagesschau.deWo Chinas Macht plötzlich endet – dieser Fall offenbart Pekings größte Schwäche  WELTWie Serbiens Studentenbewegung Aleksand",
           "publisher": "tagesschau.de",
           "pub_date": "2026-10-31T12:08:00+00:00"
-        },
-        {
-          "title": "Ukrainekrieg: Selenskyj warnt vor langen Lieferfristen bei Patriot-System",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ2xQRVdxZUYyZXdUaUp3WmxmVXRPR0RPYkpYQmVFT0RqOEwwMXBpdGpjM1U5WU1uTjM1ZGx6bnluanVFNk9Dc2lpMTZKZzA5a24yLW95dWZBVzlyYzlPaWt2RUI4SXlkRE5PcjE4WlFmR0tkRVVhLXhlaldnNEpockl2TDJEUFZ4MUdCZWdNc1ZvN3ZTNmhTRElnd0NfbGpHazRaa2Jlc05CSFFyUGJFNHI3S29tOE1nSDdZX2w1ZHdCWGQ1cHotRXh1ek5aMkNEZV8yeWZfSDRROEU?oc=5",
-          "description": "Ukrainekrieg: Selenskyj warnt vor langen Lieferfristen bei Patriot-System  SpiegelUkraine-Krieg aktuell: Selenskyj schlägt Patriot-Tauschhandel vor  T-OnlineVon Deutschland, Kanada und Norwegen finanz",
-          "publisher": "Spiegel",
-          "pub_date": "2026-10-31T07:42:00+00:00"
         },
         {
           "title": "Israel: Präsident Isaac Herzog kündigt Gespräche zur Regierungsbildung an",
@@ -749,7 +742,7 @@
         {
           "title": "Evakuierung aus Oleschky: Oleschky-Flüchtlinge sind laut Selenskyj wieder in der Ukraine",
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOY1ljNlVZdTNBcTVfY1VwRzlYYkFxVWlWLUFxVUg1aVJ0VDV6NmU2OHlMcGxKcVJzZGQtVGRLZENXMHdQWTZyOVZKOWdrejNuRWtSX0pwblUzc3dfYVIyVzFtUXU3VDhDMFBTM0FIOUpsazNIN2FxbF9tQklJUTRhMERnSnFEbWtmcFBtVFp2XzctdGk5WlBQZGRneFhiM1BPN3FlMUFBdXZMbEVnS243ZW5BTzJyYjJUVmxlLWpkSWtvX2U3blpuQ3JCQ3prZjRm?oc=5",
-          "description": "Evakuierung aus Oleschky: Oleschky-Flüchtlinge sind laut Selenskyj wieder in der Ukraine  DIE ZEITOleschky: Ukrainische Flüchtlinge aus Oleschky sollen in Belarus gelandet sein  DIE ZEITEvakuierungsak",
+          "description": "Evakuierung aus Oleschky: Oleschky-Flüchtlinge sind laut Selenskyj wieder in der Ukraine  DIE ZEITBewohner Oleschkys auf ukrainisch kontrolliertem Gebiet angekommen  tagesschau.de„Wir haben solche Ang",
           "publisher": "DIE ZEIT",
           "pub_date": "2026-10-31T15:09:56+00:00"
         },
@@ -763,44 +756,44 @@
         {
           "title": "US-Wahlen 2026: Experte gibt neue Prognose ab – „Brutaler Abend“ für Republikaner?",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSmpwWWpLYlVlVEtUS0pZVjh2OEQyUXVsNWxVWGIzYjN2QkpzYnZ0QXFIcERhQmRNb2RabFdDeGk4QzVFMUlvRm9xSWdyV2pqOWdYbGs0QzhBcU1NYlhfS3h6REpVb0cwQnJaWmtoNEJDeWRaWExBbW9QTnJ3bjM4eC16bkRobFNZMnJ0Mjc0UUpmLUFvcjk3cE0xWk8?oc=5",
-          "description": "US-Wahlen 2026: Experte gibt neue Prognose ab – „Brutaler Abend“ für Republikaner?  Frankfurter RundschauMidterms in den USA: Zahl vorzeitiger Wähler bei US-Kongresswahlen auf Rekordniveau  DIE ZEITSo",
+          "description": "US-Wahlen 2026: Experte gibt neue Prognose ab – „Brutaler Abend“ für Republikaner?  Frankfurter RundschauDrohendes \"Blutbad\" bei Midterms: Ted Cruz warnt Republikaner vor Horrorszenario  n-tv.deWie di",
           "publisher": "Frankfurter Rundschau",
           "pub_date": "2026-10-31T13:05:14+00:00"
         },
         {
-          "title": "USA warnen Russland vor drohendem Anschlag in Moskau - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOa3JSNE1yWDZZMmZZaENiV0tKbDRoUnF3aXlBUXUybHJCVTRVQ0YyLWw4TWU4MXotNTN6MTRRcjhUOGJlc1o0dF9RMHlPcTlDRGRfRm45cVM1UjdOSXVWbDQ1b3hTOGlzMW93Yk01SjJqTy1fNzlzUzFYQ2x6ZHlqM2xJeUhENjRYOXhnQmp0TVVORG10TEc1SlVWSVE3R1ZQelZGam04a1N3WEhDdHI1UTRFUExxNnlRNzEwdUlHdU4tLWZHeHBlQVdDbGQ5QUZQY2dHLWRWLTYzYk5IbXNRUTVPdw?oc=5",
-          "description": "USA warnen Russland vor drohendem Anschlag in Moskau  T-OnlineWeitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "",
-          "pub_date": "2026-11-01T01:00:11+00:00"
-        },
-        {
-          "title": "\"Irren\" Kriegspläne: Die Angst vor neuer Eskalation im Iran nach den Midterms wächst - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObFpSaTdZV1B0RGUybGJmczRnMWMwdWxkVkFYY1kycVZGQnlRTUt6bi1GWHNwc2w2SHVqb0RRN29jaGpNR3FPRGw4eUVOa0NqTWZWT1FFRGpTRWtzak5GQ0RaSHpKTGVtdVJYaTVzd00wTzh0NFRTd1NsdXprQndESjRDeHNTSDJuTHdPcVVLLTlBUERJSE5mM0UyWC0zTkhmOVNpd2RaV2RkV2ZEQ2swWi14UkJDbl93cC01S2VsLXJoZnpMVWFWSVBrTQ?oc=5",
-          "description": "\"Irren\" Kriegspläne: Die Angst vor neuer Eskalation im Iran nach den Midterms wächst  T-Online„Können wir in zehn Minuten erledigen“ – Trump nennt weitere Angriffsziele im Iran  WELTMassive Angriffe n",
-          "publisher": "",
-          "pub_date": "2026-11-01T02:44:00+00:00"
+          "title": "„Können wir in zehn Minuten erledigen“ – Trump nennt weitere Angriffsziele im Iran",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPU00tMlNabEk0NUxEa09qSTBPZkZ3ZUotM3E4dHJqVDBRdzNuNXdQbGd1RDZKUW5WT1pYZThyalZYWEwwaWpPMWlnRThGek5MbVFmOXBuY2JOSm1hckF2NWtfaWhjYjhEOVN0MklxUEV5WUlXYzc3MjdJUGZnc09pODZHYTRjaDVEOVdIQzF1eXJEdjNNZ2F1blp6djRPSmdVcDRselhEd3VqNU5YMzdWaEgtLTF1ZFpNMTV6eklIRTRZUVZNUUFlTmhjUUE4SUFHV0hlcXE1UEV3eVAwZ3ZJSUNzS3BmbGFUVU0wS1JDZEd3Nzkwa3BfdHZtVlR4QQ?oc=5",
+          "description": "„Können wir in zehn Minuten erledigen“ – Trump nennt weitere Angriffsziele im Iran  WELT\"Irren\" Kriegspläne: Die Angst vor neuer Eskalation im Iran nach den Midterms wächst  T-OnlineUS-Außenminister: ",
+          "publisher": "WELT",
+          "pub_date": "2026-11-01T02:49:02+00:00"
         },
         {
           "title": "Brasilien: Donald Trump gewährt Flávio Bolsonaro unbegrenztes Bleiberecht",
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOc3lkcC14WDhUblRmOUJOREtkbDF4TC1wN1NBcndqdlpVVVVSZnVGWVhPLXBaTzBzR3RBRTJaSVJCUkVKNktpdXdJeUVjcWFrdklIdUNBVWE3NGd6ZEpWTUlEX01OMlNSTkxrXzZDWWNFbWNneWp2djQzWmJlTUtweTRYdGdTNU5mZTViT2dYd29lLUF1Mk44MVRVLVpZSFc0LVBUUkM0bUtSZldoTDBVYmFGWE9KQ0stX1RpTnRFSWhyaTkxN2JMelNSakltTmY4ZWVvNnpWNnBLekE?oc=5",
-          "description": "Brasilien: Donald Trump gewährt Flávio Bolsonaro unbegrenztes Bleiberecht  SpiegelBrasilien: Flávio Bolsonaro begründet Flucht nach Wahlniederlage mit »Verfolgung«  DIE ZEITTrump zu Flavio Bolsonaro: ",
+          "description": "Brasilien: Donald Trump gewährt Flávio Bolsonaro unbegrenztes Bleiberecht  SpiegelTrump zu Flavio Bolsonaro: „Er kann hier so lange bleiben“  BILDBrasilien: Flávio Bolsonaro begründet Flucht nach Wahl",
           "publisher": "Spiegel",
           "pub_date": "2026-11-01T01:26:00+00:00"
         },
         {
-          "title": "Nächstenliebe statt \"Auge um Auge\": Wie die Bibel für Demokraten zur Chance wird - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcnBPdDBhREFuTWk1b1FHMDMySVpYeXVBbFpoLThuY3ZzUzItNmdtVnhSTU9iMzE1dlNuZTZ0MnB1bGI1VmQ1YkY5YlYwdmFjZzQtZWNFZzhEQlRLSzJ2QUpLUDVTNHFjV2VuVmtUcXd4dEVPaWJGd0Fud3QxZEk0ZDk4NFpfaExDZ01TdExOVGxtR0RPZnB0SS1MVndzQ1QyMDd1SjFJSTY1VlBYVzBFRzR3WGtTMlpfczBiNEtmZHpiVko3MmtPVDBJdjBoakw2YnpreTZ3?oc=5",
-          "description": "Nächstenliebe statt \"Auge um Auge\": Wie die Bibel für Demokraten zur Chance wird  T-OnlineWie Trumps Politik das kirchliche Leben in den USA einschränkt  katholisch.deKatholiken fremdeln vor den Midte",
-          "publisher": "",
-          "pub_date": "2026-10-31T18:32:42+00:00"
+          "title": "Zahl der Ebola-Toten in der Demokratischen Republik Kongo steigt auf mehr als 5000 - Politik - SZ.de",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMNUI5VkEzVUtRUDNVelJZQUNYY2FxMUJvVklkbzhLOVM5WHRyV2FlWk5oLVF2T0dTTHZTZ3FuSmxkSzhoZHFhekxXREtzQVlKaVdwdm0zcjI1UHFxLUIyaUVDbk00M0hxeEhyVEpTQnQ4TXFyTm5V?oc=5",
+          "description": "Zahl der Ebola-Toten in der Demokratischen Republik Kongo steigt auf mehr als 5000 - Politik - SZ.de  SZ.deEbola-Virus: Mehr als 5.000 Tote in der Demokratischen Republik Kongo  tagesschau.deExperten ",
+          "publisher": "SZ.de",
+          "pub_date": "2026-10-31T06:21:08+00:00"
         },
         {
-          "title": "Tückischer Bundibugyo-Erreger: Schon mehr als 5000 Ebola-Tote im Kongo - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUTNqaVJZVEdjZmNmUzg4dXpaWEoxX1NOTTg2UV8ycUptdzJzQTl6STJnNEhWaUhiRGEwanpVZjJnS250RzNWUVgyeHpNcVZxbFhEb0txVVdXOTY3SmxkUDVXX1JHMWUyNE1nT1E0cjdWaFctX1U1Y0VqdDNOb0ZRbnVWLVJuakpsRlJHbA?oc=5",
-          "description": "Tückischer Bundibugyo-Erreger: Schon mehr als 5000 Ebola-Tote im Kongo  n-tv.deEbola-Virus: Mehr als 5.000 Tote in der Demokratischen Republik Kongo  tagesschau.deExperten gehen von Dunkelziffer bei E",
-          "publisher": "",
-          "pub_date": "2026-10-31T10:12:52+00:00"
+          "title": "USA genehmigen Verkauf von 500 Patriot-Raketen an Ukraine – Selenskyj sieht einen Haken",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOa0tCY2FrVkFWY3Z6UDRoVFFtUjFNZFJna09aQzBua2tDbVRjOENlTU92eWY2c1RVLUpVNXlqQTlCSlR3VTRmRXUwb2ZnNDI4eUNEb3ZuNG8zZEpzZkRfMjYtT1RvU0p3bHdDaFBndDN2VXVQdWpCSWRUXzV6NFBWaExQVGFvZnFaYVBub2FnMDgxT3FaRHhUMWkxSmZBQThiRWdxWlJsSk9OV0dKRzhaaktCd1ZHdkw3Y1FZY0V3al9ld3EwM1JFRUJOMHZzeGoxa1E?oc=5",
+          "description": "USA genehmigen Verkauf von 500 Patriot-Raketen an Ukraine – Selenskyj sieht einen Haken  Berliner ZeitungUkraine-Krieg aktuell: Selenskyj schlägt Patriot-Tauschhandel vor  T-OnlineVon Deutschland, Kan",
+          "publisher": "Berliner Zeitung",
+          "pub_date": "2026-10-31T07:24:51+00:00"
+        },
+        {
+          "title": "EU-Kanada-Gipfel: Von der Leyen ignoriert Forderungen von Friedrich Merz",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNamRoR3UxWDBSX3pMc1lFQ0ViNlpZdktOV2U1SjAwVnRacHg5SEtFT0lYUlduMFE5akdDbFBwanhVb3IxdEZXa0Z1c2ZhZTRiUVdFaDF4UDhwamZsTThYaHUybWM3RkhUYlBtN0lyek4zeTA5blJsNC1tUzV0Nlpmd3k0WllOeHNibGxFNjZIQ2pzazlMMUhXMGQ1OVVUaTRrUTA1SFpDZEhEWWFCbEc5ZWl4UEhMNTFfblBzdGFDVkFyNWllM3c?oc=5",
+          "description": "EU-Kanada-Gipfel: Von der Leyen ignoriert Forderungen von Friedrich Merz  STERN.deVon der Leyen spricht von Kanada als »assoziiertem Mitglied« – gegen Wunsch von Merz  Spiegel\"Allianz für die Zukunft\"",
+          "publisher": "STERN.de",
+          "pub_date": "2026-10-31T06:15:00+00:00"
         },
         {
           "title": "Brasilien und der Regenwald: Vergesst kurz die USA – und schaut nach Brasilien",
@@ -808,15 +801,22 @@
           "description": "Brasilien und der Regenwald: Vergesst kurz die USA – und schaut nach Brasilien  taz.deBolsonaros Flucht: Ist Brasilien noch ein Rechtsstaat?  WELTBeim Schutz des Amazonas-Gebiets haben auch wir die Wa",
           "publisher": "taz.de",
           "pub_date": "2026-10-31T12:36:52+00:00"
+        },
+        {
+          "title": "Ukraine-Krieg im Liveticker: +++ 00:57 Wadephul prangert Moskau wegen Getreidelieferungen an +++ - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FRVEppdDQzU1Q4YTdqUTVqbXZXQXc1UHFlVEFWYXVNamYwUjRRM3ZwVXQ1ZTB5eHdNTng2Mi1ra1hpQ1VPU0dyVHhFdUR0eEs4TWtuWGpJMlE1YzVGRjliUW1zVktNNXNxeFo0RzB5VHpCZmNmVk1fUkJFa19FSWQ5MTVfTUZ3dFZMTE1Ub2UzVEJRQnFWVGhQWDVRYkk?oc=5",
+          "description": "Ukraine-Krieg im Liveticker: +++ 00:57 Wadephul prangert Moskau wegen Getreidelieferungen an +++  n-tv.deUkraine-News: Rubio spricht von \"wachsendem Interesse\" an Waffenruhe im Schwarzen Meer  MDR.deU",
+          "publisher": "",
+          "pub_date": "2026-10-31T03:38:45+00:00"
         }
       ],
       "business": [
         {
-          "title": "Binance: FBI macht Nordkorea für Milliardenraub bei Kryptobörse verantwortlich",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPc2M5dWNXREV4U09PMWlCUmlKT2kyVFV6V1hBTXFyWjJXcVp2b0dYODBoRi0ydkVZUjZyVkpzUUo0d1gzX1lQbHZjNjVsaks5NlFLS3d4dTlfRTlzRlJZQjJVU1ZpU1EtWnNDNGtwRUhmQUhFLTFDdXU4b19maUlRVkNDZllaTS0wNGNlSDMxcEVjaXJadXE5VVU3QnRGTlZIejhnejZGem9EOGU2SFhxWk1WRURVUVlKWTZ2X3Z1V21CbTZTd0pxbHZhSlVjWXotVEh1bG8wSnB4OFZJbVN3TnB6U0E?oc=5",
-          "description": "Binance: FBI macht Nordkorea für Milliardenraub bei Kryptobörse verantwortlich  SpiegelFBI macht Nordkorea für Hackerangriff auf Binance verantwortlich  tagesschau.deBinance-Hack: ﻿FBI: Nordkorea hint",
-          "publisher": "Spiegel",
-          "pub_date": "2026-10-31T23:33:00+00:00"
+          "title": "Angriff auf Kryptowährungsbörse: FBI beobachtet nordkoreanische Hacker bei Geldwäsche nach Binance-Hack",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaEgzR0RmcmJaRVlPeHFoaTZ2M0phMkVWVTFKSFlIX1dzdXdpQ25vZ0V2UnJRVzRFeGtzelVLUGU0cnMzNURyV3Z1eHFxcWhoYjRQVXZpNUxGYXduLXRUZk1pdDBKSHlLM0QyWGRoQnE1dHVydUI3cjcteEdNUlhHQmNlelE0ZlFfWTFpWjlWSFNvZXJoTWNlZ3ZHc1o4U191NDZ0c3hGTElnbTk5RjAtaUUtRXBXZnpwWFpwV3JFU3E?oc=5",
+          "description": "Angriff auf Kryptowährungsbörse: FBI beobachtet nordkoreanische Hacker bei Geldwäsche nach Binance-Hack  DIE ZEITFBI macht Nordkorea für Hackerangriff auf Binance verantwortlich  tagesschau.deHackeran",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-01T01:06:26+00:00"
         },
         {
           "title": "Einigung zur Abschaffung der Einspeisevergütung in Sicht: EEG-Kompromiss liegt vor - T-Online",
@@ -824,13 +824,6 @@
           "description": "Einigung zur Abschaffung der Einspeisevergütung in Sicht: EEG-Kompromiss liegt vor  T-OnlineSolar ohne Förderung? So bleibt die Solaranlage mit Speicher rentabel  SWREin Wegfall der Einspeisevergütung",
           "publisher": "",
           "pub_date": "2026-11-01T02:07:00+00:00"
-        },
-        {
-          "title": "Nasdaq: KI-Sorgen treiben Anleger aus Tech-Aktien",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX2hHS1pDU3Zua3NSd3dHU2xwUlp2VmFwRkl3TXRoZ2RZUVc1Wm1mOVp6SHJ6dUlzWnlhaWE1T3pMVGdvOFVxZURITk1wMHAybklXYTZBWE1BSG1zdzR6RzRKT2lPYVRNMnkzMnE5OFBfZHhLLWV5WUZISklYcU5yVXp6WkpqQjlxYlg2MzlKMm5jejl3SXc?oc=5",
-          "description": "Nasdaq: KI-Sorgen treiben Anleger aus Tech-Aktien  GolemAmazon, Alphabet, Intel: Die KI-Rechnung wird fällig  FOCUS onlineTom Lee vermutet: Ein Investor könnte den Absturz der Nasdaq ausgelöst haben  ",
-          "publisher": "Golem",
-          "pub_date": "2026-10-31T13:38:01+00:00"
         },
         {
           "title": "DWS stoppt Auszahlungen: Notmaßnahme für Immobilienfonds",
@@ -847,11 +840,18 @@
           "pub_date": "2026-10-31T16:12:00+00:00"
         },
         {
-          "title": "Gasversorgung in Deutschland: Tägliches Update zu Speichern, Preisen, Import und Verbrauch",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPekJhaTAyNk1xU1BHcDlpUmtyNXUzakVSSU1JOUtiVGo0cnhZTVBzazdWOWJDd0lUVVctSjFQOEZWNll2ZG5WUzJ0U21OelFxc3pGTE54cDlTcmhTR0pfdlFGU252TVJuQjN5azhxME90T1lGVHdQRHNPMXhRa0o5V3R2dU1NU1VCWFRjWld6ZzBnZkdTcG9Kb0RPZFdrM2FuWFI2ZlZCa0dlUE5UQU10TFJrVjhtQmFzM3BlWHcxSUdiR3ZMWnFRYUMxMzFvb2MtVkc2Ym1MaEl6cWJycWIwVkhSc2hZYy1sY01mc2hsSWs?oc=5",
-          "description": "Gasversorgung in Deutschland: Tägliches Update zu Speichern, Preisen, Import und Verbrauch  RND.deDeutschland schafft die Gas-Deadline nicht und Erdgas klettert auf 103 Euro, ein mehrjähriges Hoch  FO",
-          "publisher": "RND.de",
-          "pub_date": "2026-10-31T05:33:19+00:00"
+          "title": "Nasdaq: KI-Sorgen treiben Anleger aus Tech-Aktien",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX2hHS1pDU3Zua3NSd3dHU2xwUlp2VmFwRkl3TXRoZ2RZUVc1Wm1mOVp6SHJ6dUlzWnlhaWE1T3pMVGdvOFVxZURITk1wMHAybklXYTZBWE1BSG1zdzR6RzRKT2lPYVRNMnkzMnE5OFBfZHhLLWV5WUZISklYcU5yVXp6WkpqQjlxYlg2MzlKMm5jejl3SXc?oc=5",
+          "description": "Nasdaq: KI-Sorgen treiben Anleger aus Tech-Aktien  GolemTom Lee vermutet: Ein Investor könnte den Absturz der Nasdaq ausgelöst haben  Yahoo Finanzen DeutschlandAmazon, Alphabet, Intel: Die KI-Rechnung",
+          "publisher": "Golem",
+          "pub_date": "2026-10-31T13:38:01+00:00"
+        },
+        {
+          "title": "VW weiter im Krisenmodus - angespannte Stimmung bei Skoda trotz guter Umsätze",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdVVKSTVySkJsTER5RVpodHl5SW90YmlRaWVCckl1dHR0QV9teHdzY0FYMnlueW9mZFNDbWZxaGEzTmNOMko4ZjNwOFNjSUpfS2V3OEVqd1hHLVNtVEFjN0kySExTWkY2TmdSOUpiQVM0X3F2TktYWnNfNGNNYTd5aUF4SmpQV2swSlZvQVNPcExyQ3p1Q24xZnJVNmZUaUhnb3JQQk9QSXZ4c3JWdHlrQklNXzFMN1I4UDlIczZTaw?oc=5",
+          "description": "VW weiter im Krisenmodus - angespannte Stimmung bei Skoda trotz guter Umsätze  MDR.deWie der VW-Vorstand die Laune bei den Skoda-Mitarbeitern drückt  tagesschau.deSkoda-Mitarbeiter leiden unter VW-Kri",
+          "publisher": "MDR.de",
+          "pub_date": "2026-10-30T16:25:00+00:00"
         },
         {
           "title": "Neue BMW-Modelle feiern Premiere bei Krah & Enders",
@@ -861,11 +861,11 @@
           "pub_date": "2026-10-31T16:07:14+00:00"
         },
         {
-          "title": "VW weiter im Krisenmodus - angespannte Stimmung bei Skoda trotz guter Umsätze",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdVVKSTVySkJsTER5RVpodHl5SW90YmlRaWVCckl1dHR0QV9teHdzY0FYMnlueW9mZFNDbWZxaGEzTmNOMko4ZjNwOFNjSUpfS2V3OEVqd1hHLVNtVEFjN0kySExTWkY2TmdSOUpiQVM0X3F2TktYWnNfNGNNYTd5aUF4SmpQV2swSlZvQVNPcExyQ3p1Q24xZnJVNmZUaUhnb3JQQk9QSXZ4c3JWdHlrQklNXzFMN1I4UDlIczZTaw?oc=5",
-          "description": "VW weiter im Krisenmodus - angespannte Stimmung bei Skoda trotz guter Umsätze  MDR.deWie der VW-Vorstand die Laune bei den Skoda-Mitarbeitern drückt  tagesschau.deSkoda-Mitarbeiter leiden unter VW-Kri",
-          "publisher": "MDR.de",
-          "pub_date": "2026-10-30T16:25:00+00:00"
+          "title": "Gasversorgung in Deutschland: Tägliches Update zu Speichern, Preisen, Import und Verbrauch",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPekJhaTAyNk1xU1BHcDlpUmtyNXUzakVSSU1JOUtiVGo0cnhZTVBzazdWOWJDd0lUVVctSjFQOEZWNll2ZG5WUzJ0U21OelFxc3pGTE54cDlTcmhTR0pfdlFGU252TVJuQjN5azhxME90T1lGVHdQRHNPMXhRa0o5V3R2dU1NU1VCWFRjWld6ZzBnZkdTcG9Kb0RPZFdrM2FuWFI2ZlZCa0dlUE5UQU10TFJrVjhtQmFzM3BlWHcxSUdiR3ZMWnFRYUMxMzFvb2MtVkc2Ym1MaEl6cWJycWIwVkhSc2hZYy1sY01mc2hsSWs?oc=5",
+          "description": "Gasversorgung in Deutschland: Tägliches Update zu Speichern, Preisen, Import und Verbrauch  RND.deDeutschland schafft die Gas-Deadline nicht und Erdgas klettert auf 103 Euro, ein mehrjähriges Hoch  FO",
+          "publisher": "RND.de",
+          "pub_date": "2026-10-31T05:33:19+00:00"
         },
         {
           "title": "KI-Sorgen: DAX geht schwach ins Wochenende -- Wall Street verlustreich -- Intel-Aktie bricht um 30% ein -- Amazon, Rüstungsaktien, Infineon, Apple, Meta, Bayer, SpaceX, Strategy im Fokus",
@@ -896,11 +896,11 @@
           "pub_date": "2026-10-31T12:46:51+00:00"
         },
         {
-          "title": "Goldpreis-Prognose: Panik greift um sich – Wie schlimm wird es jetzt für Gold?",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMTlHa2tEM2Y2YjZudHpTSmNJT0ViTkJ2bFNvb1pLcGJtWXNPVnJpQ2d6eEoyeE1XenFVcXkyTTcyWXppTFFsY2lXUGJvOTJRSFFEUlJoLTZyemtCSy04ZmE3S003MHFpTGhPZlBzM21TX3NwWXZkY0tRZ25IOVVZWmw4YlptZmJBbnpqenEzRDVFV05YXzN6cDRFZTRlNERnc2dKbE1MRUs3RjRELWo0cE1mOEdUbnlHOVAw?oc=5",
-          "description": "Goldpreis-Prognose: Panik greift um sich – Wie schlimm wird es jetzt für Gold?  Wallstreet OnlineGold- und Silberpreis fallen auf tiefsten Stand seit fast einem Jahr  Finanzen.netGoldpreis nahe 4.000 ",
-          "publisher": "Wallstreet Online",
-          "pub_date": "2026-10-31T12:00:00+00:00"
+          "title": "Zentralbank stellt die Weichen für den digitalen Euro",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUzJCM0E3RnpPUDNVd0tDdnJEQnRDMm8wM1NiR0RhVGdtTk5IQTgteTQwUk9rd2IwTmg3MkRzc015STExWXB2REV2UThELXVDbS13T2xVNEZfSDU5MjVCbGp0QlprZzl6OVlGZlQ1UEo1aGc4NkFucHVyVWx2X0xMdTluam91cXcxSmc4dmI1Z3hQYVFHVUlsYnFn?oc=5",
+          "description": "Zentralbank stellt die Weichen für den digitalen Euro  heise onlineDigitales Bezahlen - Nexi und Telekom erhalten Großauftrag für digitalen Euro - Wirtschaft - SZ.de  SZ.deKonnektivität: EZB wählt Tel",
+          "publisher": "heise online",
+          "pub_date": "2026-10-30T18:26:00+00:00"
         },
         {
           "title": "VW-Konzern: Audi-Gewinn bricht im dritten Quartal um 87 Prozent ein",
@@ -910,11 +910,11 @@
           "pub_date": "2026-10-30T12:21:24+00:00"
         },
         {
-          "title": "Zentralbank stellt die Weichen für den digitalen Euro",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUzJCM0E3RnpPUDNVd0tDdnJEQnRDMm8wM1NiR0RhVGdtTk5IQTgteTQwUk9rd2IwTmg3MkRzc015STExWXB2REV2UThELXVDbS13T2xVNEZfSDU5MjVCbGp0QlprZzl6OVlGZlQ1UEo1aGc4NkFucHVyVWx2X0xMdTluam91cXcxSmc4dmI1Z3hQYVFHVUlsYnFn?oc=5",
-          "description": "Zentralbank stellt die Weichen für den digitalen Euro  heise onlineDigitales Bezahlen - Nexi und Telekom erhalten Großauftrag für digitalen Euro - Wirtschaft - SZ.de  SZ.deKonnektivität: EZB wählt Tel",
-          "publisher": "heise online",
-          "pub_date": "2026-10-30T18:26:00+00:00"
+          "title": "Goldpreis-Prognose: Panik greift um sich – Wie schlimm wird es jetzt für Gold?",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMTlHa2tEM2Y2YjZudHpTSmNJT0ViTkJ2bFNvb1pLcGJtWXNPVnJpQ2d6eEoyeE1XenFVcXkyTTcyWXppTFFsY2lXUGJvOTJRSFFEUlJoLTZyemtCSy04ZmE3S003MHFpTGhPZlBzM21TX3NwWXZkY0tRZ25IOVVZWmw4YlptZmJBbnpqenEzRDVFV05YXzN6cDRFZTRlNERnc2dKbE1MRUs3RjRELWo0cE1mOEdUbnlHOVAw?oc=5",
+          "description": "Goldpreis-Prognose: Panik greift um sich – Wie schlimm wird es jetzt für Gold?  Wallstreet OnlineGold- und Silberpreis fallen auf tiefsten Stand seit fast einem Jahr  Finanzen.netGoldpreis nahe 4.000 ",
+          "publisher": "Wallstreet Online",
+          "pub_date": "2026-10-31T12:00:00+00:00"
         }
       ],
       "technology": [
@@ -996,13 +996,6 @@
           "pub_date": "2026-10-30T17:45:02+00:00"
         },
         {
-          "title": "KI auf YouTube, TikTok, Instagram: Plötzlich scheint es keinen mehr zu stören, dass überall KI ist",
-          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNYWt1b1Vwd2hSbUx6amhUbzJzdjlnRExvZlY5ZC03ZUJnNWhfZnQ1TjRhWmVVTE53dnN1MkZFRFJIM1RZaGFSblhWVExyaXoyTmJhaU5HeGx6OUZwMFRHaTJoWHF4eWFxNmRBT2ZZSDhGMFdLVGdFYWo1SUZVVi1YUk5OeW5nWHhXWkEzX0taMm5NMDVNZHM0NW1mZ0V2anNfSURYMzJCYjZ4SnFPWERnOVFybnlaVjJrUlFIaTlWMm9waExWNkhaM3piWE4wMGJ5WjlFS3BMODN1emdsNWVRWEtpYXVCQ3ZSbEpfWEc0NHdQSTdYZThKYjRuRm9WOHpDREE?oc=5",
-          "description": "KI auf YouTube, TikTok, Instagram: Plötzlich scheint es keinen mehr zu stören, dass überall KI ist  Spiegel",
-          "publisher": "Spiegel",
-          "pub_date": "2026-10-31T08:49:00+00:00"
-        },
-        {
           "title": "Erneut kritischer Bug in Linux TCP/IP aufgedeckt – Updates in Arbeit",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ2hJUUYxYVRHaEdmdjEyM1ZDMmYtdW1OMjVjUy1TWnFVR3doZVRVdTVQVFVxdGVZRWFUMW9iVWZEMVNNbW1PQnlVSllGc08zS1RFQVdibmN5UlJXS2ZhUG00OENTY3I1LV9vZkZPVkkxcjdfekZncEFSaWFEQ1hRZWlLMnB5R25CSGVaUWJac0R3UENZb1JHWTlKUUVCT2xoSGUtN19OZG5KUQ?oc=5",
           "description": "Erneut kritischer Bug in Linux TCP/IP aufgedeckt – Updates in Arbeit  heise online",
@@ -1010,11 +1003,11 @@
           "pub_date": "2026-10-30T12:12:00+00:00"
         },
         {
-          "title": "Midterms 2026: Warum Trumps große KI-Wette plötzlich zum Problem für die Republikaner wird",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRmhSWE11NXllclo3WkZwYVhieklZOFBaRWhFWjg1ZWdCWGlVbWxrVnhpeXNLS1FFci1tYUhJX3k3VDVuekJjOFU2SDQtTFQtUWNLV0FsbmJDUktSWTNGejFiYVNWRmhyM21UNTFCc3M3OTZJR1lkeExoRXk3Rm9WWkZmeVViMXlmUE5VaUllQV9vNHY2cVExSWUxOXFTTFg5ZWhCaFpZY3hXdXN1NkF1LWNXMnhWUE41M2dMcGZ6azJXNlViUGxtcmcyRGVxNGRSVHNJajJld0NPMkk?oc=5",
-          "description": "Midterms 2026: Warum Trumps große KI-Wette plötzlich zum Problem für die Republikaner wird  WirtschaftsWoche",
-          "publisher": "WirtschaftsWoche",
-          "pub_date": "2026-10-31T13:17:00+00:00"
+          "title": "KI auf YouTube, TikTok, Instagram: Plötzlich scheint es keinen mehr zu stören, dass überall KI ist",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNYWt1b1Vwd2hSbUx6amhUbzJzdjlnRExvZlY5ZC03ZUJnNWhfZnQ1TjRhWmVVTE53dnN1MkZFRFJIM1RZaGFSblhWVExyaXoyTmJhaU5HeGx6OUZwMFRHaTJoWHF4eWFxNmRBT2ZZSDhGMFdLVGdFYWo1SUZVVi1YUk5OeW5nWHhXWkEzX0taMm5NMDVNZHM0NW1mZ0V2anNfSURYMzJCYjZ4SnFPWERnOVFybnlaVjJrUlFIaTlWMm9waExWNkhaM3piWE4wMGJ5WjlFS3BMODN1emdsNWVRWEtpYXVCQ3ZSbEpfWEc0NHdQSTdYZThKYjRuRm9WOHpDREE?oc=5",
+          "description": "KI auf YouTube, TikTok, Instagram: Plötzlich scheint es keinen mehr zu stören, dass überall KI ist  Spiegel",
+          "publisher": "Spiegel",
+          "pub_date": "2026-10-31T08:49:00+00:00"
         },
         {
           "title": "Amazon, Alphabet, Intel: Die KI-Rechnung wird fällig",
@@ -1022,36 +1015,36 @@
           "description": "Amazon, Alphabet, Intel: Die KI-Rechnung wird fällig  FOCUS online",
           "publisher": "FOCUS online",
           "pub_date": "2026-10-31T20:59:00+00:00"
+        },
+        {
+          "title": "Midterms 2026: Warum Trumps große KI-Wette plötzlich zum Problem für die Republikaner wird",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRmhSWE11NXllclo3WkZwYVhieklZOFBaRWhFWjg1ZWdCWGlVbWxrVnhpeXNLS1FFci1tYUhJX3k3VDVuekJjOFU2SDQtTFQtUWNLV0FsbmJDUktSWTNGejFiYVNWRmhyM21UNTFCc3M3OTZJR1lkeExoRXk3Rm9WWkZmeVViMXlmUE5VaUllQV9vNHY2cVExSWUxOXFTTFg5ZWhCaFpZY3hXdXN1NkF1LWNXMnhWUE41M2dMcGZ6azJXNlViUGxtcmcyRGVxNGRSVHNJajJld0NPMkk?oc=5",
+          "description": "Midterms 2026: Warum Trumps große KI-Wette plötzlich zum Problem für die Republikaner wird  WirtschaftsWoche",
+          "publisher": "WirtschaftsWoche",
+          "pub_date": "2026-10-31T13:17:00+00:00"
         }
       ],
       "entertainment": [
         {
           "title": "Heidi Klums Hinweise deuten auf diese vier Kostüme hin",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPXzU4WVV4dzhxMUt5WFZHR1QtOEpKSDJiNjJBS0FxWUptTGwzajZnRm02OFdOTlRGZURpenRZTEN0S3Y0dnZCVW1MazJmT3UxZTI4RXBZUnZoRXVUd01uY0FXQXo5d2JTcnd2RlcwTWpSU3ZCdFZzWks5TC0yZ1hraEtjLW4zTnlSb0l2cnRGdHI3X0ZHVjhmWFdzRGtGZUdpR013XzgyNzh2bmlDZDJmbGFOVEE0U0hBMkJxNGZ3?oc=5",
-          "description": "Heidi Klums Hinweise deuten auf diese vier Kostüme hin  STERN.deHeidi Klum: Fans rätseln um ihr Halloween-Kostüm!  BILD\"Heidiween\" 2026: Aus diesem Grund waren Bill und Tom Kaulitz nicht auf Heidi Klu",
+          "description": "Heidi Klums Hinweise deuten auf diese vier Kostüme hin  STERN.deHeidi Klum: Ist ihr Halloween-Kostüm 2026 das skurrilste (und ekligste) aller Zeiten?!  GlamourNew York: Heidi Klum verwandelt sich zu H",
           "publisher": "STERN.de",
           "pub_date": "2026-10-31T20:59:00+00:00"
         },
         {
           "title": "Musik: Deep-Purple-Sänger im Krankenhaus - Konzerte abgesagt",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVWxuWXF3UC1RX0FCUVRjN3NYQ0FzN21kaVRxUkF6NlhvUTdRUWg2ck9sU3hCNkZXN3dzUUxLVElpbzViTWZEcDRROXRKMGVNa3hXY2V3dkZuZ2RNN010UmJackRGT3ZUTG1oU2NhcTRGZExBcTZYbHVITUhBaEw1elowbTdoenA1bmV3c0E0Y3ZsZw?oc=5",
-          "description": "Musik: Deep-Purple-Sänger im Krankenhaus - Konzerte abgesagt  DIE ZEITDeep Purple in Leipzig: Konzert am 31. Oktober abgesagt  LVZ - Leipziger VolkszeitungDeep Purple: Ian Gillan im Krankenhaus – Konz",
+          "description": "Musik: Deep-Purple-Sänger im Krankenhaus - Konzerte abgesagt  DIE ZEITDeep Purple in Leipzig: Konzert am 31. Oktober abgesagt  LVZ - Leipziger VolkszeitungIan Gillan im Krankenhaus: Deep Purple sagen ",
           "publisher": "DIE ZEIT",
           "pub_date": "2026-10-31T18:49:47+00:00"
         },
         {
-          "title": "Fans feiern Politikerin: Ricarda Lang führt Florian Schroeder bei \"Journal Deluxe\" vor - T-Online",
+          "title": "\"Journal Deluxe\": Ricarda Lang führt Florian Schroeder im ZDF vor - T-Online",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNai1lSVZwX2t1UjR1SEVoQ0UxSnNYdUFxbUVlQU1oOVZNVmpBdHNvR2xzQXcwV1FzY0IzVlB4NkNRNUJrZUc2QzRWZlVabk9UZTExOVNDN3pIZ0NPeGlZYlAyRlVsNC03OWFQRUxYUnVseUx1TUdZVGFZZnZmckJHNDJlWGtDV0EyRUFUQkxLcldDM3QwZGFNYXhZZFpTZFVzcmMxSlJBNDdTa3RHeXotaS12TlRXUVp2QXBrVTg4Y1dSOVE?oc=5",
-          "description": "Fans feiern Politikerin: Ricarda Lang führt Florian Schroeder bei \"Journal Deluxe\" vor  T-OnlineJOURNAL DELUXE – Late-Night-Show mit Florian Schroeder und Gästen  ZDF„Verpatzter Auftakt“: Kritiker ver",
+          "description": "\"Journal Deluxe\": Ricarda Lang führt Florian Schroeder im ZDF vor  T-OnlineJOURNAL DELUXE – Late-Night-Show mit Florian Schroeder und Gästen  ZDF„Journal Deluxe“-Premiere: „Liebe Linke, salam aleikum,",
           "publisher": "",
           "pub_date": "2026-10-31T01:40:00+00:00"
-        },
-        {
-          "title": "Dieter Bohlen unterstützt Gen Z: „Total gegen eine neue Wehrpflicht“",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVHkyT0piNGRheUgtbk9ic1E1TmFiNlo1cGNqalo1ZkhYQUVzSDhiQjFXOG5ZLWdHSVF4cDctT3dySmc1bnBHR3hFMzZQck5qeDlRdHJsbHJ5am9zSHBBZ2RNczMyZUplRmV4Y01nU3pHdEdCMV9Kc0xsSzZtcEFwOFI5UEhZMnY2enQ2YzRIRDZMejRTdnJ2VUdRY2xfeFlXV3FrN1BEYjVDejNuVUtmM254bEFyWjJOYndIa3hOUlVoVWpMZ19ZSmN3Mm1iODdwMlliWE1yUQ?oc=5",
-          "description": "Dieter Bohlen unterstützt Gen Z: „Total gegen eine neue Wehrpflicht“  BILD\"Gen Z regelt\": Dieter Bohlen wettert deutlich gegen die Politik  T-OnlineDieter Bohlen unterstützt Gen-Z-Proteste: „Es ist ri",
-          "publisher": "BILD",
-          "pub_date": "2026-10-31T19:42:25+00:00"
         },
         {
           "title": "„Wetten, dass...?“ mit Bill und Tom Kaulitz: Thomas Gottschalk will nicht einschalten",
@@ -1059,13 +1052,6 @@
           "description": "„Wetten, dass...?“ mit Bill und Tom Kaulitz: Thomas Gottschalk will nicht einschalten  Pnp.deThomas Gottschalk schaltet bei \"Wetten, dass..?\" mit Kaulitz-Brüdern ab  T-Online„Nein, wir schauen es nich",
           "publisher": "Pnp.de",
           "pub_date": "2026-10-31T11:28:26+00:00"
-        },
-        {
-          "title": "Sein Vater war der „Melitta-Mann“: Popstar Nico Santos nimmt es mit Humor",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdGwybzJBdnA5UGNqYlBkdnZfNUNMZ2dFNWRlR3N2dnNJa1RxQjNiTEdZTXI5Sm9OZWY3RkdvOW1Ma0Ywd2QxdFRfNHhUc1lxQXF4bFpWb3hlUEwxdkxVbTdaOFVtU3RPdUZHRS1UbzZ3Tzk2bnZndnFwa3E2SFZwdFpxRWpXTnpmRFVlR0E3dXFMUWp1VEhTMlg0elpNZjBINmJ5bTNVUUVlakxXOXcwY2dCYkhJX1hidV9MWkdqYll4Q05qOWVOUVNPNzJlQQ?oc=5",
-          "description": "Sein Vater war der „Melitta-Mann“: Popstar Nico Santos nimmt es mit Humor  Hamburger Abendblatt\"The Voice\"-Coach Nico Santos: Seine Halbschwester war ein TV-Star  JoynEr heißt eigentlich Wellenbrink: ",
-          "publisher": "Hamburger Abendblatt",
-          "pub_date": "2026-10-31T06:05:00+00:00"
         },
         {
           "title": "Star Trek Online: Fans nehmen Abschied von Patrick Stewart",
@@ -1082,11 +1068,11 @@
           "pub_date": "2026-10-31T18:43:00+00:00"
         },
         {
-          "title": "\"Stralsund\": ZDF zeigt heute letzte Folge mit Alexander Held",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYzhNTVV6LWNNTkNBdUdkeXliM3Q1eDV6OWtvZmtLSndQRFhzODkwRjh6cXZmeUJXMVN2QXNheU1TdWhqeDY2ZlQ0alphR0pfNURyZlRDQmZPZFFhVGFRNXdYdlE2X0tWSlRLbVpBeDlnNzRvekJyVjRzcHJGalNLbkZSNHRBQnZUSS1wQ2dMTEpuNVlQanBXQ1ZsbTRMMkRLRkJUYmZYZ01YblBxVjNBMG5iTDFUVGJGZGpaNGQ5SmtLWGhpQWQwZQ?oc=5",
-          "description": "\"Stralsund\": ZDF zeigt heute letzte Folge mit Alexander Held  Joyn\"Stralsund – Dunkle Tiefen\": Das erwartet dich heute im letzten Fall mit Alexander Held  JoynLetzter Auftritt von Alexander Held (†67)",
-          "publisher": "Joyn",
-          "pub_date": "2026-10-31T16:01:00+00:00"
+          "title": "Salon Rosie: Steffi Irmen bringt das Theater des Westens zum Toben",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSWE4ZGxZRlMzYWJVRGlWb2FRZnBjbWZEYW95TjItSlh3UWJ6bEk2cXdwMVVyeU5hWlBBandVNlk5VmdmR05zQVhRS3pjZ0d1a216eVhKZEZEbm45OVJfZXhma2R5bUJhREtNZFJUWHFDQXNzb192OVd2UzZDVDM3Tm5zVmg4cEJYLW15OHBlenFJc29sNmczWHZXd3BYSTU1V2FMU1RfUUstZktMZzh2b2NrNnczVXdMTW5wM2U0dk9ldm91a0pr?oc=5",
+          "description": "Salon Rosie: Steffi Irmen bringt das Theater des Westens zum Toben  BZ BerlinMusical „Salon Rosie“ im Theater des Westens Die Menge steht schon Kopf, bevor auch nur ein Ton erklungen ist  Tagesspiegel",
+          "publisher": "BZ Berlin",
+          "pub_date": "2026-10-31T07:30:58+00:00"
         },
         {
           "title": "Hito Steyerl in den Deichtorhallen Hamburg: Es wird ein wenig heller",
@@ -1096,20 +1082,6 @@
           "pub_date": "2026-10-31T19:28:00+00:00"
         },
         {
-          "title": "Salon Rosie: Steffi Irmen bringt das Theater des Westens zum Toben",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSWE4ZGxZRlMzYWJVRGlWb2FRZnBjbWZEYW95TjItSlh3UWJ6bEk2cXdwMVVyeU5hWlBBandVNlk5VmdmR05zQVhRS3pjZ0d1a216eVhKZEZEbm45OVJfZXhma2R5bUJhREtNZFJUWHFDQXNzb192OVd2UzZDVDM3Tm5zVmg4cEJYLW15OHBlenFJc29sNmczWHZXd3BYSTU1V2FMU1RfUUstZktMZzh2b2NrNnczVXdMTW5wM2U0dk9ldm91a0pr?oc=5",
-          "description": "Salon Rosie: Steffi Irmen bringt das Theater des Westens zum Toben  BZ BerlinMusical „Salon Rosie“ im Theater des Westens Die Menge steht schon Kopf, bevor auch nur ein Ton erklungen ist  Tagesspiegel",
-          "publisher": "BZ Berlin",
-          "pub_date": "2026-10-31T07:30:58+00:00"
-        },
-        {
-          "title": "Neuer „Polizeiruf 110“ Rostock: Hier kommen ekelhafte Männer auf ihre Kosten - Medien - SZ.de",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ3ozVnlnUWN4TzB2aXNBTHhBUGJBMVl5QURYOFZZZTlfYXdGa09mVmpjODJ1STA5MVAzdnJ5NmI5UjZvOGtDQlpvRFctdEEyV3hYaHNCMkRCYXhDczBJdDJEcUhmVnZJNnJGQ3BBRnpMLS1MWmJKRFQxNE5XZGx5WFY3c2duZ0NaeC1Hd3dZY2tEb21FTEpZaUZ4NTdOTmNfTk5ZUG8tWkRNQXFuNmUtcWhYdnRXa28?oc=5",
-          "description": "Neuer „Polizeiruf 110“ Rostock: Hier kommen ekelhafte Männer auf ihre Kosten - Medien - SZ.de  SZ.deTV-Tipp: \"Polizeiruf 110: Sie haben Namen\"  Evangelisch.de\"Polizeiruf\" in der ARD: Ein Mord aus der ",
-          "publisher": "SZ.de",
-          "pub_date": "2026-10-30T10:10:30+00:00"
-        },
-        {
           "title": "Katy Perry und Justin Trudeau: Sängerin teilt Fotos zu ihrem 42. Geburtstag",
           "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVXFMNXJsb19xUU5iSE1Kc3ZyaWxnWFNqaDlfY1dKelJ3cUw2RGJ1NUdmVms3QzFOeVJ2amFJTWFZeTBTX0dyaTdVbGs5ZkxEMll1UEU2d044YjU4aTdSUlVDQXBtQno5QTRaZ1dFWExOX3NLQ2JOTVkya0ZCc0NQM2V1ZHRSZFFZSWpjeUQ0eDUzSE43Z3VxS0UxUm1tREZ2Rk1oVTRyejJEaGo2UUE5amFHX3hMSkpWOHByb2RUMmR3Y0JHMFpuaFRja0ZjbkhVWUxtZlhkU01sOUlQeGRxeklUSVl4QQ?oc=5",
           "description": "Katy Perry und Justin Trudeau: Sängerin teilt Fotos zu ihrem 42. Geburtstag  SpiegelWeitere Schlagzeilen und Meinungen in Google News",
@@ -1117,11 +1089,32 @@
           "pub_date": "2026-10-31T20:35:00+00:00"
         },
         {
-          "title": "Legendär! – Die lustigsten Momente aus 20 Jahren \"Zimmer frei!\" im TV - Sendung",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNM0JINTVRUkJxbG1JclB0T3ZtS21oUEFudFpsLUJpcHhIODJreDhTV0RIY3laS3puQkY0aVhvekVHVDlMS3Q3OG1Ldjhkam0tV3Rmd0c2TXZfWnlSekNYTVFXdkU2ekwzYW8wOW9pVFQtX1Zub3R4cVJ6NWY5VkJPZ3FEZGV1bk1zSmJ4Q01oVkg0OHM1U2g5YnNmaFpzVGhINV9jV2VNRTBiTzN4cDBHYWRLYkZ6dlVIejVOY1NIMXJkSnJxUWg4aWFRZUFSS3JT?oc=5",
-          "description": "Legendär! – Die lustigsten Momente aus 20 Jahren \"Zimmer frei!\" im TV - Sendung  TV Spielfilm\"Zimmer frei!\" kehrt heute zurück! ARD-Sender feiert 30. Jubiläum mit Sondersendungen  Joyn\"Kölner Treff\": ",
-          "publisher": "TV Spielfilm",
-          "pub_date": "2026-10-31T20:40:06+00:00"
+          "title": "\"Stralsund – Dunkle Tiefen\": Das erwartet dich heute im letzten Fall mit Alexander Held",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLW1kZDdUTG1YU0FwY2lPSzlvckVxOVFLQ29ieVgwQ2tOb3p5MkI1WkRNVG5GbEJRb0pLNzlMVlMtY1psUWpMc2xleUt1a0VxQnZiQllvUjVqQkNjdEpSTXhoSzUxM0tkeXJoV2g0bnZKUnhObEw1eENUTml4aDduX0tjNzZGMjM4OGpVRV9IVTVlSWpqeVdhclZiaDJacEZFXy1hR2Vrajc0dThEbVh1LWw4OThvaGNPS2dRTTROTXE0dw?oc=5",
+          "description": "\"Stralsund – Dunkle Tiefen\": Das erwartet dich heute im letzten Fall mit Alexander Held  JoynLetzter Auftritt von Alexander Held (†67): So dramatisch verlässt er \"Stralsund\"  TV Spielfilm16 Jahre lang",
+          "publisher": "Joyn",
+          "pub_date": "2026-10-31T13:32:21+00:00"
+        },
+        {
+          "title": "ARD-Serie \"Breitscheidplatz 19/12\": Der terroristische Tinnitus",
+          "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1jdjg4cXNGTEZfeTZDODF2WXE0MG9pOUZ1Q2x0amNiQVl4djh3Q21DMmtSRmFhaWNIZWZUQ0xHOA?oc=5",
+          "description": "ARD-Serie \"Breitscheidplatz 19/12\": Der terroristische Tinnitus  DWDLVersagen vor dem Terror: \"Breitscheidplatz 19/12\" in der ARD  FAZ\"Breitscheidplatz 19/12\": Serie zeigt Vorgeschichte des Terroransc",
+          "publisher": "DWDL",
+          "pub_date": "2026-10-30T09:11:00+00:00"
+        },
+        {
+          "title": "Neuer „Polizeiruf 110“ Rostock: Hier kommen ekelhafte Männer auf ihre Kosten - Medien - SZ.de",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQ3ozVnlnUWN4TzB2aXNBTHhBUGJBMVl5QURYOFZZZTlfYXdGa09mVmpjODJ1STA5MVAzdnJ5NmI5UjZvOGtDQlpvRFctdEEyV3hYaHNCMkRCYXhDczBJdDJEcUhmVnZJNnJGQ3BBRnpMLS1MWmJKRFQxNE5XZGx5WFY3c2duZ0NaeC1Hd3dZY2tEb21FTEpZaUZ4NTdOTmNfTk5ZUG8tWkRNQXFuNmUtcWhYdnRXa28?oc=5",
+          "description": "Neuer „Polizeiruf 110“ Rostock: Hier kommen ekelhafte Männer auf ihre Kosten - Medien - SZ.de  SZ.de\"Polizeiruf\" in der ARD: Ein Mord aus der Bordellszene bringt Ausbeutung ans Licht  T-OnlineErmittlu",
+          "publisher": "SZ.de",
+          "pub_date": "2026-10-30T10:10:30+00:00"
+        },
+        {
+          "title": "Dieter Bohlen unterstützt Gen Z: „Total gegen eine neue Wehrpflicht“",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVHkyT0piNGRheUgtbk9ic1E1TmFiNlo1cGNqalo1ZkhYQUVzSDhiQjFXOG5ZLWdHSVF4cDctT3dySmc1bnBHR3hFMzZQck5qeDlRdHJsbHJ5am9zSHBBZ2RNczMyZUplRmV4Y01nU3pHdEdCMV9Kc0xsSzZtcEFwOFI5UEhZMnY2enQ2YzRIRDZMejRTdnJ2VUdRY2xfeFlXV3FrN1BEYjVDejNuVUtmM254bEFyWjJOYndIa3hOUlVoVWpMZ19ZSmN3Mm1iODdwMlliWE1yUQ?oc=5",
+          "description": "Dieter Bohlen unterstützt Gen Z: „Total gegen eine neue Wehrpflicht“  BILD\"Gen Z regelt\": Dieter Bohlen wettert deutlich gegen die Politik  T-OnlineDieter Bohlen unterstützt Gen-Z-Proteste: „Es ist ri",
+          "publisher": "BILD",
+          "pub_date": "2026-10-31T19:42:25+00:00"
         },
         {
           "title": "Roland Kaiser: Seltenes Foto von seiner Frau Silvia - T-Online",
@@ -1129,13 +1122,20 @@
           "description": "Roland Kaiser: Seltenes Foto von seiner Frau Silvia  T-Online",
           "publisher": "",
           "pub_date": "2026-10-31T19:40:17+00:00"
+        },
+        {
+          "title": "Berlins Ruf als Jazz-Hauptstadt wackelt",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd2VWQWhINnhwRVNleEhNeEJvNGQwdUM3RVk3Z0JSdWhtbmVoeS1KR3J2ek9tdU9VM0tZRGx5NGdtS1Z0aTBCWUUtWEJSVDY1dThNaFZYbjEtX1kxcmNkQTZlcnE0ZWJQVS1vU3kwT2VJVS1YX09ZZEQ0cG4xT0x1YjRaSllIeTBYcUFpdnBuOA?oc=5",
+          "description": "Berlins Ruf als Jazz-Hauptstadt wackelt  rbb24.deMusikalischer Aufruhr und Frieden: So war die Eröffnung des Jazzfests Berlin  TagesspiegelZwischen Traum und Experiment zeigt das Jazzfest seine musika",
+          "publisher": "rbb24.de",
+          "pub_date": "2026-10-31T11:50:00+00:00"
         }
       ],
       "sports": [
         {
           "title": "Drei Verletzte, ein verschossener Elfmeter Dortmund trotzt Bayern im Spitzenspiel ein spätes 2:2 ab",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVjJRekJXTUJpbFB4aFdtZl9nUTVGNXJmbEtadFNVVzA3bEV3dy1JS0oya0EwOE5rWWRORUxsSVA1X1pWcFFySzZiVTVHUkhmS2tFdXFVOVJIM3AxSW1KdjFLQlptM0k2SGZVREpMXzR5MXFkUUV5MjcydDdVSERuQzA4VU9YVmxuRzhXT0lYVDVJN2wyZHBkM3M5Z1o0enh5S09VVzlfZTdEOE5xaENhWTJYV21CQ1BBeXpj?oc=5",
-          "description": "Drei Verletzte, ein verschossener Elfmeter Dortmund trotzt Bayern im Spitzenspiel ein spätes 2:2 ab  TagesspiegelBayern-Noten gegen BVB: Ein Star überrascht beim Remis im DFB-Pokal  T-OnlineFC Bayern ",
+          "description": "Drei Verletzte, ein verschossener Elfmeter Dortmund trotzt Bayern im Spitzenspiel ein spätes 2:2 ab  Tagesspiegel\"Noch eine Stunde länger ...\": Weltfußballer Kane erklärt sich nach miesem Klassiker zu",
           "publisher": "Tagesspiegel",
           "pub_date": "2026-10-31T19:30:45+00:00"
         },
@@ -1156,42 +1156,42 @@
         {
           "title": "Kimi Antonelli: „Mit Melatonin vollballern“ vor möglichem WM-Triumph",
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcTF3YkU4Z3FiSWlEYUV2a29xNjloVW0ydDE4MnQxUnVhNlRrNVhsYmRtcm5hNnJyMS1Pc21vdUJwWkJJZGpPYlhyRjNDYmhjalk2TEdtbFRYWWp2SmlKR2dDekFMTVEtXzRENmpTQ1A1c3pjdEFSLTk2WUNQY3ViY2kyNFpvYmQyYXlPSXRRRTF3Zk14cnBpdWF6azlVMmtYV2FwcU1fZ3k5dF9FWGh1eHFsdXZhS1pBNTNrM0tPV0xuNWY5X1lZ?oc=5",
-          "description": "Kimi Antonelli: „Mit Melatonin vollballern“ vor möglichem WM-Triumph  BILDFormel 1 - Schumacher-Schub nach Pole: Hamilton-Attacke 2027? - Sport - SZ.de  SZ.deFormel 1: Hamilton sorgt in Mexiko für Fer",
+          "description": "Kimi Antonelli: „Mit Melatonin vollballern“ vor möglichem WM-Triumph  BILDHamilton beendet Durststrecke: \"Erinnert mich an Michael\"  freenet MailFormel 1: Hamilton sorgt in Mexiko für Ferraris erste S",
           "publisher": "BILD",
           "pub_date": "2026-11-01T01:09:16+00:00"
         },
         {
           "title": "Trauer auf dem Platz: Nach dem Spiel äußert sich Joshua Kimmich zum plötzlichen Tod seines Vaters",
           "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPQnhzYlJiRTRFMXpoS25wb3V6X2Rsd0EtaEtMZGw2Nk05WWZsRy1aVmd5YUd3MEhlU3RRRmh6dC1OUmhNWFdwR2lhTWVhTk5mRjVfTk1HcmtSQW5sMHUtMVdhTXIxVnl3R0lFd0s1YmF2LWFNTzdORzZraVFOQUVPaVYzZ3g3aHBZNy1DbUFfejBIbDlQaE1lVjVHR2RwRGpyQzFtVXFSUHU3TmpOT0UwUTRyS3l2ZU5feXh0a09HVzh3TTlaNmk3LVJTRnZDTXc0Rl9sQnotU3FRX1BtMUpvZUp0ZFF5MFBRdldjMHBza0p4ci1wUjVmd2J5WDFGZnU3X0VLbEZnTnRmVzdmM0VrSkp1ZF92TDl6OVVYLUlVNTMyWkJGa2dSVw?oc=5",
-          "description": "Trauer auf dem Platz: Nach dem Spiel äußert sich Joshua Kimmich zum plötzlichen Tod seines Vaters  WELTJoshua Kimmich: „Hier am absolut richtigen Ort“  BILDNach Trauerfall: Kimmich zurück in Bayern-St",
+          "description": "Trauer auf dem Platz: Nach dem Spiel äußert sich Joshua Kimmich zum plötzlichen Tod seines Vaters  WELTJoshua Kimmich: „Hier am absolut richtigen Ort“  BILDKimmich: \"Gerade auf dem Platz muss ich an m",
           "publisher": "WELT",
           "pub_date": "2026-10-31T21:58:49+00:00"
         },
         {
           "title": "Nach Haas-Suspendierung: Esteban Ocon wehrt sich gegen Gewaltgerüchte - Motorsport-Total.com",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNmxrM0FBUFlOaDZ4SWFXTEdWV3lMTjI5akpEVjNGTU9mbFR2QWNSbi1aWmlNNGYzeE5Xd3FYSUxndHdTb3kzZkVkcTlETVBsSTQ3Y0dpWHVkR2RJREoxZUJkZ2NKamt1WGl5Y205a0hocEJXMEdadVBYMGtpUDk2a1JxMXVRWGhUbEdRX19ybWZidm45VkRUTms4SkN2VkhjYktkMlhkS1hlVmVRbmpwUl9wQlhuZGJyODBYT0xYV1NySEU?oc=5",
-          "description": "Nach Haas-Suspendierung: Esteban Ocon wehrt sich gegen Gewaltgerüchte  Motorsport-Total.comWeitere Schlagzeilen und Meinungen in Google News",
+          "description": "Nach Haas-Suspendierung: Esteban Ocon wehrt sich gegen Gewaltgerüchte  Motorsport-Total.comTeam schmeißt Fahrer raus: Formel-1-Knall!  BILD05:55 Gefeuerter Formel-1-Pilot äußert sich zu Gewalt-Vorwürf",
           "publisher": "",
-          "pub_date": "2026-11-01T02:20:48+00:00"
+          "pub_date": "2026-10-31T23:10:13+00:00"
         },
         {
-          "title": "Bremen schlägt Hoffenheim: Füllkrug trifft wie einst Völler",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaEp6RFdJVEd5UWkyaV9mQS15Sm5EY1UwZHdaQ1ZQR3Q2dDNuUXNPT3ZuYk55aDhsbk1DUVpmYVhVTWdrVThYc1pFMTBQcXN1U1hIeHowcEhZOGFwQ1FVaUhTM3lTRVlPX3dYSWVlcERETHU2SERRelFFNFhoc3BQMUx1TjQyeHZsS0ZkajlKek9yU0RWODN5ZjFFRHJfTjR3NE5LWXlZZUs5UWVsTGZvSW1kX0sxd2pEd3RuYnV4WFJWR25OSnNzSlJJeUN1WmJmMXdWOG16VGh6MzQ?oc=5",
-          "description": "Bremen schlägt Hoffenheim: Füllkrug trifft wie einst Völler  sportschau.deBundesliga im Überblick: Füllkrug-Wahnsinn immer wilder!  BILDNur die Ballon-D'Or-Frage bringt Füllkrug aus dem Konzept  Kicke",
-          "publisher": "sportschau.de",
-          "pub_date": "2026-10-31T19:33:13+00:00"
+          "title": "Juri Knorr: Warum Handball-Star fast bei Werder Bremen gelandet wäre",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcThTWE9zTU51SVNtRmFGNUxhSW9XMGlPVmdfUlY5RGVEQzhTa21yU3hucklUcjZQYkw4czBKak1iSVhWakhGYTRTZUg1eDhickYza1BEdUlLWWpPTFJWWnpUQU9lbklYTy0xdFVEVkQ0X0YzUGFYSkpzUjFra1d4QTkzRXVwdUxrNk16UlQzdmtNQWNYZlM0c0FCZnRCTUhIR0k4RWRFbkNPTHVBU29BdDNRZjNVV3NHOGM3NmR1aXRoeURhRmIzeTd3?oc=5",
+          "description": "Juri Knorr: Warum Handball-Star fast bei Werder Bremen gelandet wäre  BILD",
+          "publisher": "BILD",
+          "pub_date": "2026-11-01T02:04:46+00:00"
         },
         {
-          "title": "Bundesliga - Bayer Leverkusen vs. VfB Stuttgart heute live im Ticker: Werkself empfängt die Schwaben - Liveticker",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSnpsT3hDNzg1MTVpSDA4cWREeHIwbEpBeWJlVDlqaUswTEpSMmtBaDBZaUF6X2E5a3M3NlAxYV9rS1ZZME1Uc0pHbEJjQTZVSEFvNEh1MUZtZ0stdUZXQVBwajZSdk1zbm1rOFFONU56eUxJc2t6alJCMXBwMjhKUk11NVQtTEQxZGl2bXpqNlp6aEdfM1N4eXR3bTNua3lOb3ZUNW1ULURXeGFpbll2VjZiQ3NoZmdzTEloREx2eldNakFzSHc?oc=5",
-          "description": "Bundesliga - Bayer Leverkusen vs. VfB Stuttgart heute live im Ticker: Werkself empfängt die Schwaben - Liveticker  Eurosport2:4 bei Bundesliga: Stuttgart gewinnt gegen Leverkusen  T-OnlineDemirovics D",
-          "publisher": "Eurosport",
-          "pub_date": "2026-10-31T14:30:00+00:00"
+          "title": "Füllkrug schnappt sich Völler-Rekord – Werder feiert, Weisers Pech überschattet frühe Minuten",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2VCaUZ4QTltOTZfeUdYZkpHWkxXamN3SzA2bXVDYUZTdG5zOTZlOTQ3QXlfdHJwVFNZTUFGaGplZnFudVZ4NE45NE1raG8wUFBqRml6SUQtMklZVnVfQ1JjWEZzc0pkZzRncXJTV29lcVhFaGlwNk5uRGozMzBCd0NYSk9vVjBTbHk4LXBZSzc0U2ppc1JGMWtCdUFQeURuTVR4MTNwdzRJOEJzVWxrd3lFcnc?oc=5",
+          "description": "Füllkrug schnappt sich Völler-Rekord – Werder feiert, Weisers Pech überschattet frühe Minuten  NDR.deBundesliga im Überblick: Füllkrug-Wahnsinn immer wilder!  BILDFüllkrug trifft immer weiter: \"Mannsc",
+          "publisher": "NDR.de",
+          "pub_date": "2026-10-31T16:35:00+00:00"
         },
         {
           "title": "Traumtor vom Kapitän des KSC: Wanitzek macht den Deckel drauf - Karlsruhe schlägt Heidenheim",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMTBsRVBqa0dlM3Y2VWlLWFZsNEUtYndyZm0tOHprN1BocjJSUm1EQ01NYTRSdUZvUC1yWG4xTFgxMlZ1VEZOR1c2TVRJVE43ekJIaHNIMnlibUJrWjBGVW41RkNQQ05kR1A5Mm5JMWJYNVBvWmY1WW1TTXhmS1ozOUxRS21fTHQ4Ty14eWlldDBhcnp6M255RjRLMVZ3dlZoMDFSWENEdzB1MVJDc3FyeWZuRFpBSnlxWThoVXhR?oc=5",
-          "description": "Traumtor vom Kapitän des KSC: Wanitzek macht den Deckel drauf - Karlsruhe schlägt Heidenheim  sportschau.deCivejas Willensleistung und Wanitzeks Traumfreistoß: KSC gelingt Befreiungsschlag  KickerKarl",
+          "description": "Traumtor vom Kapitän des KSC: Wanitzek macht den Deckel drauf - Karlsruhe schlägt Heidenheim  sportschau.deCivejas Willensleistung und Wanitzeks Traumfreistoß: KSC gelingt Befreiungsschlag  Kicker„Mac",
           "publisher": "sportschau.de",
           "pub_date": "2026-10-31T21:34:00+00:00"
         },
@@ -1203,18 +1203,25 @@
           "pub_date": "2026-10-31T21:03:00+00:00"
         },
         {
-          "title": "Mit diesen Worten sprach Jürgen Klopp Merkel \"aus dem Herzen\"",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYTF1ZVpQUURjdW1CSFZFcTJvX2tzaVY5UDhwQmtYdUNHdS1Jb3c2b3lURHM0OC0xemRjdDRGUWt2V2k4dFZ5cDVsQnRBQm0zV25fTW9BWGw3Y2RkaDROR0o4cVdWNVVRRkpNYmFuWklvd0wxUUN5aHJfQk5fTm9ycFdtMG5fYWg2V2twWGZsNGVGbm4zT0JZblgzbkM3cFZnLWFZY0U1c0RQYzNfZktwaUYtenI?oc=5",
-          "description": "Mit diesen Worten sprach Jürgen Klopp Merkel \"aus dem Herzen\"  SPORT1Eberl: \"Kompany ist wirklich abgeschottet\"  KickerWie Zebra und Strauß: Danks will kein «Mini-Vinnie» sein  WELTFC Bayern: So unter",
-          "publisher": "SPORT1",
-          "pub_date": "2026-10-31T12:04:00+00:00"
+          "title": "\"Bodenlos\" - Bayer-Star Maza schimpft auf Schiedsrichter",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWWV0U1BSQWpyQTVLQlh4eENLLVkzcGNCS3dhaklhbEhRNnNUc19uTXhqZm40aFNHODRjYUs4VW4ycEJ2VXp6UU5UZnVPTnpGaUNkczgxUV9HT3hhSEdjbUJsUXlfX05GZzg5Y1NiZzJIZTU0VVF1WDV5UXlScGtsenhDR3hlMWZpYXZtUEFzOUY4a0hjVEpfNlprU2pmWFRZVVR2eDktOA?oc=5",
+          "description": "\"Bodenlos\" - Bayer-Star Maza schimpft auf Schiedsrichter  sportschau.de2:4 bei Bundesliga: Stuttgart gewinnt gegen Leverkusen  T-OnlineStuttgart: Demirovic schwärmt von Vorbereiter Undav  freenet Mail",
+          "publisher": "sportschau.de",
+          "pub_date": "2026-10-31T17:57:52+00:00"
         },
         {
-          "title": "RB Leipzig ohne Mühe - Bei Schalke 04 steht die Doppel-Null",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObFJLNzdFSmtnSy12alFNMU5ZRF9hUzZmbXJHVzh1TUd4OXhPVUdubDZRTlRsa2xjSUFhRy1oSFhDN3JPZWtRYS10RmpPU2dEaW81aGdVMFNYVDE3RGtSbHVTaWdiWlRJVFBZcHE1LWd4TnpVNF94M2JjTzQxbE5vakhZdUxRSjdPVFdKWkdFU0t3cU1lay1rOXZUaHk1d0lscDVvRDdlS3NsY2YteUFpWnNsZWNWbTdDT0t2R0V0clZJZXdDbVZEWl9ITE81UVN6WjVqa2tRRl9iQQ?oc=5",
-          "description": "RB Leipzig ohne Mühe - Bei Schalke 04 steht die Doppel-Null  sportschau.deBundesliga: Leipzig gewinnt gegen Schalke | Liveticker  T-OnlineFußball-Bundesliga - Neues „Schalke-Gesicht“: Muslic hält an V",
-          "publisher": "sportschau.de",
-          "pub_date": "2026-10-31T16:25:34+00:00"
+          "title": "RB Leipzig: Die Noten zu RB Leipzigs 2:0-Erfolg beim FC Schalke 04 - LVZ",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNazFqclNPdmQ0cXE0bElIQUo0Wi1VTnotMkg0OGRIYXMyMlkwZ09UU0pqR2hfR1BMRTRtV05ZaXlVb2hlNG82QXZ3aFF5QWJ3UG40eUY4QnhZMUUySTl0bFhsaDFRSGRFektmY1RZb3R1TEQzWlNKMHcxX3dxNnhUeFJhcUlGb1daRjBWTzE4MmhUbHJkcE9DLXpMZzNJZEVfSWFRTGl5SkpxMXRaV3VaRUVDenhJRkdleV83eWwyS0lIMlZnRVNETVE0QdIB5wFBVV95cUxQQm81bjBROWQ5VXhKWGxiWDVtbEY5bnFOSDB3TkFiZU5ZcEpacGpDMmhQQlR1TXJTZGRQWEJSdmtfSzlCRWdEV1NUUGNEanRNTjRrU05Zb0hKNHJXZUg1OU5OU0dPN0lfOTRUbjJLTTVoaE9SVHRjcGxnUUV1NzMyNmVXemkwUWpOdXo1OXhtanBqWTVTTlQ5bVdxcW10eGV5ODk5NnZBc0c4SVFLQ3ZwaTRhMmpMTXJmRW1ZVDRhU0hIZEZKQVN5dGxsYmQ5RzY5QWtFUFpVTkZxSGlYZllxejUtZmFfaDA?oc=5",
+          "description": "RB Leipzig: Die Noten zu RB Leipzigs 2:0-Erfolg beim FC Schalke 04  LVZ - Leipziger VolkszeitungBundesliga: Leipzig gewinnt gegen Schalke | Liveticker  T-OnlineTrotz Torflaute: Muslic sieht \"kleinen S",
+          "publisher": "Leipziger Volkszeitung",
+          "pub_date": "2026-10-31T16:40:33+00:00"
+        },
+        {
+          "title": "Anerkennung, aber auch Pfiffe – Kanes besondere Ehrung vor dem Anpfiff",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNUzNqQk1zVjJUb0htSHpqUENBazZneFNIZVMzRVpzRGI5b1lYamgwN3hHNTFkdE42ZU92WE9wVGhGeGpoT2ZrVTFSOFh5ZE5vOXZ6dC1tZ3BFeXNHanRTN0duQnlQNVloMTJvMFhWdDRRVmlxMUttMFZFVndHRUhtTmNzTnQwaTNlWmdtUzNMdzd3dE5TOUxOU2Q2LXduS1VsU19QSjJmNUFBb0xWSTBiMGw4d0ZURjV1Q2dIMS01TV80cXVxVGNBYVBpMUM5M25UUEtWSnk2ZGhkZlNlN2dBU1Jza2NiZmJmOTg5Qi1jYV9mZGtJY09ISDZmQmhJTlo3eTR3Q1VSLUpjdXBqWkxQa1F1Wk4?oc=5",
+          "description": "Anerkennung, aber auch Pfiffe – Kanes besondere Ehrung vor dem Anpfiff  WELTHarry Kanes goldener Giganten-Auftritt! Mit Familie auf dem Platz  BILDBallon-d'Or-Ergebnis: So knapp lag Kane vor Mbappé  W",
+          "publisher": "WELT",
+          "pub_date": "2026-10-31T19:02:18+00:00"
         },
         {
           "title": "SC Freiburg bringt Augsburg die erste Heimniederlage seit sieben Monaten bei",
@@ -1224,18 +1231,11 @@
           "pub_date": "2026-10-31T17:40:00+00:00"
         },
         {
-          "title": "Grönning führt Hertha bei Kaiserslautern zum nächsten Sieg",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOc0I4ZWVqQjlZQndCcW9VSjNhMzU0eEZOZnQxMUx1TW9KMDJxYnNRelBDUmpEdlQ4ZXc3WkVwTGFEVWlpYWNaMnB6SFlxLUhNVi0zUlc5OGcyczA0UzlBUDR6T1BtV1AxYVRGdGRLdmktVFo3WXNBSWlCb2w1bzBxMExJd044ZnRaREs5Z0RDQjg3WnQ4R3c1REh6ZV92bUVRZU5qTV9sbGdGOXZRaW1ScTZOWW85cUpLY0hoZFNhN1dUUjUxWU54MEd3S284dFNiRERoQmJfSEhFMkgwY2JB?oc=5",
-          "description": "Grönning führt Hertha bei Kaiserslautern zum nächsten Sieg  sportschau.de2. Liga im Überblick: Unaufhaltsam! Hertha stellt 48 Jahre alten Rekord ein  BILD2. Bundesliga: Hertha gewinnt 3:0 gegen Kaiser",
-          "publisher": "sportschau.de",
-          "pub_date": "2026-10-31T14:00:00+00:00"
-        },
-        {
-          "title": "FC Bayern: Wegen Lennart Karl – Ballack attackiert Bayern-Bosse - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQV3hwb0pELVVQRXJXNzRVcmhzUHJMZ3dLaS1na1FMUWlNVVpJaFN3SWtHcmw0Wlhha0NGcjZzSTZ6bmloRmNqY1I3NGlCcVBTaFVjRTZqMmNLVUVBYW96eGwxNm1tVkVCay1vWmpZcDBRQmxsQWRQSDJydG1vbFRiLTNuUDZ2Q0hLZWM1Y1lDM3BQZ3d2VmlKcnlzMjdydTNMU1VJY0pJeEdkdHJINENVTkN2SERNWGxXWkhkdWR5Sy1WMl8xM191ZnVFYlk4REFtVUFEM1FKZHpaU1VfNlVycw?oc=5",
-          "description": "FC Bayern: Wegen Lennart Karl – Ballack attackiert Bayern-Bosse  T-OnlineFC Bayern: Nach Kritik an Karl! Ballack kontert Eberl und Hoeneß  BILDNach Kritik an Karl: Berater Ballack kontert Eberl und Ho",
-          "publisher": "",
-          "pub_date": "2026-10-31T18:14:35+00:00"
+          "title": "Im Stile einer Spitzenmannschaft Hertha BSC siegt 3:0 im Topspiel beim 1. FC Kaiserslautern",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcWJXc1MxV0pLM1h0VXZzU09Nd211U1FSQXRENHBVd241Y3ZpdTlSUGtzbFNGWjdrMnhMRUh1YmwtNjNxSEZNWkw0Um55bUhCc1YtR1J3TmVMZlRvUVlWNUc0bnNXakg5a0VOWXNLalZfdkRQVnlMZFZKdmNRUjB6bnl6SG5lT0t2Mlcwb1k0TFl3Y3hzYzBaTWFoZzlVc2pxeFVlU1dYTW5fVGI0b0dEZDVHZXRrX1I1QVo3Z2czdFphaU5YUFlPR0dIMDNBWFJsSWJZ?oc=5",
+          "description": "Im Stile einer Spitzenmannschaft Hertha BSC siegt 3:0 im Topspiel beim 1. FC Kaiserslautern  Tagesspiegel2. Liga im Überblick: Unaufhaltsam! Hertha stellt 48 Jahre alten Rekord ein  BILD2. Bundesliga:",
+          "publisher": "Tagesspiegel",
+          "pub_date": "2026-10-31T14:05:13+00:00"
         }
       ],
       "health": [
@@ -1268,6 +1268,13 @@
           "pub_date": "2026-11-01T04:45:44+00:00"
         },
         {
+          "title": "Diät und Sport: 27 von 50 jungen Typ-2-Diabetikern in Remission",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWUQ1R0Z0RTVlZTlsTVRNTFlHbW43aTh0WF9keFhJaS1ZTG4wMDNpOF9rN2ZrRzhWTVlvVXp1R1FQODMzXy1Va0NkUEcxTmJvUTYxZGdTNlZoOWpReUZJZmFNbW02RDVPM2xkaHljZTk5dDBDRjJFX2tfckw3YXg0UnJfandxN2JfMHltb25xanJ4Y1NPZEZSbXZR?oc=5",
+          "description": "Diät und Sport: 27 von 50 jungen Typ-2-Diabetikern in Remission  DenkstromJeder zweite junge Erwachsene erreicht Diabetesremission  AerzteZeitung.dePrädiabetes: Intensive Lebensstiländerung senkt bei ",
+          "publisher": "Denkstrom",
+          "pub_date": "2026-10-31T23:53:00+00:00"
+        },
+        {
           "title": "Blutdrucksenkung: 5 mmHg weniger senken das Herzrisiko um rund 10 Prozent - ad-hoc-news.de",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObjVFZnFiRmROQXoyTWs4RUV1ZlVtQkladmozZVI3bGlKNVpNekhEbHFIZmNjSXo0MkFXUzY2Q0FFckFRUUdJSEtYaVYzdjBDRGMzWjNNOWpucXpOMnl1ajRndVpyVnJvZWlTYTI3aVVaNnFsaHowZl9WWFlBMG95QWhzaE8xVC1nTVhudlhPSjRaZlM1VHpiOHB4UDktVW1uZklwazcyOGpNSFhFR2p5dVpvUkJIa2tVSEJxekNB?oc=5",
           "description": "Blutdrucksenkung: 5 mmHg weniger senken das Herzrisiko um rund 10 Prozent  ad-hoc-news.deBlutdrucksenker eigenmächtig absetzen? Kardiologin nennt häufigen Denkfehler  Berliner MorgenpostFehler bei Blu",
@@ -1275,11 +1282,11 @@
           "pub_date": "2026-10-31T14:39:42+00:00"
         },
         {
-          "title": "Diät und Sport: 27 von 50 jungen Typ-2-Diabetikern in Remission",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWUQ1R0Z0RTVlZTlsTVRNTFlHbW43aTh0WF9keFhJaS1ZTG4wMDNpOF9rN2ZrRzhWTVlvVXp1R1FQODMzXy1Va0NkUEcxTmJvUTYxZGdTNlZoOWpReUZJZmFNbW02RDVPM2xkaHljZTk5dDBDRjJFX2tfckw3YXg0UnJfandxN2JfMHltb25xanJ4Y1NPZEZSbXZR?oc=5",
-          "description": "Diät und Sport: 27 von 50 jungen Typ-2-Diabetikern in Remission  DenkstromJeder zweite junge Erwachsene erreicht Diabetesremission  AerzteZeitung.dePrädiabetes: Intensive Lebensstiländerung senkt bei ",
-          "publisher": "Denkstrom",
-          "pub_date": "2026-10-31T23:53:00+00:00"
+          "title": "Vietnam senkt Salz: neue Leitlinie für Herzgesundheit und Nährwertkennzeichnung",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS01waEdPZU9jMGdyM1VpQk1EVlppMFZ1TUxSeHBRaVNFczJla3p3SFlQVU0zUVZUTUVZalJ4NVVXNy1OTG93ZGxxZXQxX2phUUJBeGR0QWNOS29ubmRxR3MyanNCV1hjcGRWUnVVTGQzLUR0bm01YmVVVy1KRmtUcl9ubWxfelc5ZGFWUFcwclhIVnZiYVFEbmFsdUVfN0V0Y2ZONW5KZm5NNGtkS2RRS2h3?oc=5",
+          "description": "Vietnam senkt Salz: neue Leitlinie für Herzgesundheit und Nährwertkennzeichnung  it boltwiseDie Vietnamesen konsumieren viel Salz, was ihr Schlaganfallrisiko erhöht.  Vietnam.vn8,1 Gramm Salz täglich:",
+          "publisher": "it boltwise",
+          "pub_date": "2026-10-31T21:46:21+00:00"
         },
         {
           "title": "Fettleber: Jeder vierte Erwachsene in Deutschland ist betroffen - ad-hoc-news.de",
@@ -1303,18 +1310,18 @@
           "pub_date": "2026-10-31T21:22:32+00:00"
         },
         {
-          "title": "Vietnam senkt Salz: neue Leitlinie für Herzgesundheit und Nährwertkennzeichnung",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS01waEdPZU9jMGdyM1VpQk1EVlppMFZ1TUxSeHBRaVNFczJla3p3SFlQVU0zUVZUTUVZalJ4NVVXNy1OTG93ZGxxZXQxX2phUUJBeGR0QWNOS29ubmRxR3MyanNCV1hjcGRWUnVVTGQzLUR0bm01YmVVVy1KRmtUcl9ubWxfelc5ZGFWUFcwclhIVnZiYVFEbmFsdUVfN0V0Y2ZONW5KZm5NNGtkS2RRS2h3?oc=5",
-          "description": "Vietnam senkt Salz: neue Leitlinie für Herzgesundheit und Nährwertkennzeichnung  it boltwise8,1 Gramm Salz täglich: Vietnam setzt auf neue Maßnahmen für die Herzgesundheit  ad-hoc-news.de",
-          "publisher": "it boltwise",
-          "pub_date": "2026-10-31T21:46:21+00:00"
-        },
-        {
           "title": "ECHO-Implantat: ETH Zürich reguliert Blutzucker bei Mäusen elektrisch - ad-hoc-news.de",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ29KUExjY1BYQ2h3N25hUEpTMWdmakVURFBMLWZEemlLVmRVWEhiVk10ZkcyNjlFUGNlYXBPLVhGWE8zX0lLalJGNnhRenVmSWF3ai0ybWF5RkJyaktMN1FXNWhCemJDa3B2a0ZyOFo5NWlLUFNEcjRuemRGTW03MFBkU3ZaMWtfUmI4U2hIUWxsR1ZnVm40YUNFUEVlSTJDMkdUamltT0czMzZHV0RiWk9CSEhsOUY1d2gw?oc=5",
           "description": "ECHO-Implantat: ETH Zürich reguliert Blutzucker bei Mäusen elektrisch  ad-hoc-news.de„Wir können Glukose direkt kontrollieren, mit Elektronik statt mit Medikamenten“  WELTDiabesity: Elektronisches Imp",
           "publisher": "",
           "pub_date": "2026-10-30T11:18:41+00:00"
+        },
+        {
+          "title": "Smartwatch-Warnungen: Über 90 Prozent Genauigkeit ersetzen keine Diagnose - ad-hoc-news.de",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcEVuN2ozR3hiUlFpTkVjMmRwanQxSk5iNGp4V2NQU2gyN2N5UTViejVsV3BTZkkzeWlObU9PcVlfeXZJUTVyQS0tanFoUFZmclhEdmZpQnlhUmhnX0dJVXZfX1hMVE9hbW5qaHlTZlpPVDJqbjJ5eE9HYVY3dTVDamJDalprUy14TEtnNllTcTQxWklYaGJYLVY0eFptOGRycjg2Z2FrblNHYjBwQnFlMlppSGlmTUlZMzhoQl9ZZw?oc=5",
+          "description": "Smartwatch-Warnungen: Über 90 Prozent Genauigkeit ersetzen keine Diagnose  ad-hoc-news.deKann die Smartwatch einen Arztbesuch ersetzen!?  HUAWEI.blogEKG am Handgelenk: Wann die Smartwatch hilft und wa",
+          "publisher": "",
+          "pub_date": "2026-10-31T22:53:36+00:00"
         },
         {
           "title": "Retatrutide bei Schlafapnoe: Zwei Phase-3-Studien zeigen weniger Atempausen - ad-hoc-news.de",
@@ -1324,25 +1331,18 @@
           "pub_date": "2026-10-31T14:00:17+00:00"
         },
         {
-          "title": "Wie lange Vitamin D einnehmen? In diesen Fällen ist „durchgehende Einnahme“ nötig",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWkFzOHh5ZmtTZkYxdmN6ZGdoWHVZWmZFclNGYks0ZlNwUmNRR1hmMXZqMlBrU1JLQ1JickNsSGdDbWsxRmVyc2VtNzRKeEVSSW9WWHBPcnJVUExscUZ5TzkyZDN2bjJnek9GOU4tX1gxTVF2VEdCR1FSNWY2dVN3Qm53aWtvOWpWS2VhNHpzZWcwTU41UlNFNHljb1M5MldhSUpqX1hxOFJOZWV4QVZBb0Nn?oc=5",
-          "description": "Wie lange Vitamin D einnehmen? In diesen Fällen ist „durchgehende Einnahme“ nötig  Hamburger AbendblattVitamin D in Herbst und Winter: Wer braucht Tabletten und wie viel ist sinnvoll?  aponet.deVitami",
-          "publisher": "Hamburger Abendblatt",
-          "pub_date": "2026-10-30T09:00:00+00:00"
+          "title": "Ernährung: Eine tägliche Portion Erdnüsse stärkt das Gehirn",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUHlOZUd4Tmw3dW5UOUlrNWV0V1A1b1l1aVhqVHVOZmllM2hKa056WDZqYkNtN1dodVZDbkxWY1c5TTVSWU16NVRrVnducEl6NGJqN0xHeUNKQm9LM3JIMVVuTnBwZUxQOTlIb2Rhd2p2STVJTkhIdGRTUG05bmpjWlBNSml6V2NNbzMxVjZEQVptLVBEU0xkWEFCcm5nREtQeWZBMl84YTc3NVVBZWdFS1BsVlJRd214WGRF?oc=5",
+          "description": "Ernährung: Eine tägliche Portion Erdnüsse stärkt das Gehirn  HeilpraxisTäglich Erdnüsse essen: Studie zeigt verblüffende Effekte im Gehirn  Euronews.comErdnüsse im Alter: 16 Wochen verändern die Reakt",
+          "publisher": "Heilpraxis",
+          "pub_date": "2026-10-31T08:31:36+00:00"
         },
         {
-          "title": "Täglich Erdnüsse essen: Studie zeigt verblüffende Effekte im Gehirn",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb3FMakpVc1JtQTNLeVNnUUxHT1FneTg0VnVvamhMNFY2a2xWR3F0RWlTWnk2MlllbG9xRmV5S09zNHRvMzEzX0hkVFRrUTAzT01uQVEtUTdYazN0SmdGR1NBamlVTjFPSVM0dlVuTVVTUkNMamFjT1d3Tkh0YXExeDVqczZxSU5PcEYyNHdWT3JtTWFCWnU3R3RxRDBkZ3ZGUFZj?oc=5",
-          "description": "Täglich Erdnüsse essen: Studie zeigt verblüffende Effekte im Gehirn  Euronews.comErnährung: Eine tägliche Portion Erdnüsse stärkt das Gehirn  HeilpraxisErdnüsse im Alter: 16 Wochen verändern die Reakt",
-          "publisher": "Euronews.com",
-          "pub_date": "2026-10-30T10:18:08+00:00"
-        },
-        {
-          "title": "Chronische Entzündung: GlycA-Werte gehen mit 43 Prozent mehr Herzrisiko einher - ad-hoc-news.de",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT3dZLUVPTlpTZzlNQ05tVHpiejIzbHhnaUk0UEhLX0VfM3ZWcW5DNVhHWTI5LWI3YXBzbzNUNkdjS2NtSFFJeGk5Y1F0MTkycmFwRlhKTVluVmE3d2RBNEtWOXFoQVZwU1JCMzdFS2I5ZjZzS2pTcFlPaVdTekRGdDNWbkw0RGZqR0x6R2ZVenFIUXhpTjB0RWVKNV9pZEZBR0Z6c1dVQ2pMMTBmcW95U3FuT3BhcnQ1VUFneE1PUFlYaG1QMmc?oc=5",
-          "description": "Chronische Entzündung: GlycA-Werte gehen mit 43 Prozent mehr Herzrisiko einher  ad-hoc-news.de",
+          "title": "Kalzium plus Vitamin D: WHI-Studie zeigt 17 Prozent mehr Harnsteinrisiko - ad-hoc-news.de",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMW1TRGF3SVFDNjI1eHBqdVRhNGVzSWNBUXRBbWtJbW9La3NKRTV5aHphY2FUQkQ2R0dwNnlPaUhyQmhiOGdGZmM3aE1QMmZmNEFDZFRNdnQ0a29Qam9JMTd2d0hkLUpITV9JcFlwYVVxMG1ka2VIVzRQRWFQMmdNNUVza3pzN0RBR2p0b3ZKZGM4Z0RpRm5vWjQ2TE5OQUZqR0NjS1lfOHJoX2JyOGFKTDkwMlM3Q3UwRW53LQ?oc=5",
+          "description": "Kalzium plus Vitamin D: WHI-Studie zeigt 17 Prozent mehr Harnsteinrisiko  ad-hoc-news.deVitamin D in Herbst und Winter: Wer braucht Tabletten und wie viel ist sinnvoll?  aponet.deVitamin D: Wer sollte",
           "publisher": "",
-          "pub_date": "2026-10-31T10:39:09+00:00"
+          "pub_date": "2026-10-31T02:30:26+00:00"
         }
       ]
     },
