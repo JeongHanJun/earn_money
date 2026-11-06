@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-06T02:01:29.461578+00:00",
+  "fetched_at": "2026-11-06T03:01:19.051797+00:00",
   "data": {
     "country_code": "uk",
     "country_name": "영국",
@@ -7,8 +7,54 @@
     "google_trends": [
       {
         "rank": 1,
-        "keyword": "james bond actors",
+        "keyword": "artemis ii",
+        "traffic": "100+",
+        "pub_date": "2026-11-06T02:30:00+00:00",
+        "articles": [
+          {
+            "title": "NASA's Artemis II moon launch tore a hole in Earth's upper atmosphere so huge it disrupted GPS signals",
+            "url": "https://www.space.com/space-exploration/launches-spacecraft/nasas-artemis-ii-moon-launch-tore-a-hole-in-earths-upper-atmosphere-so-huge-it-disrupted-gps-signals",
+            "source": "Space"
+          },
+          {
+            "title": "Scientists report on 'extremely rare reoccurring perturbations' caused by the Artemis II rocket — and they could have broken GPS",
+            "url": "https://www.techradar.com/science/space/nasas-artemis-ii-rocket-tore-5-000km-holes-in-the-atmosphere-causing-gps-disruptions-powerful-enough-to-force-self-driving-cars-to-change-lanes",
+            "source": "TechRadar"
+          },
+          {
+            "title": "Artemis II Ionosphere: 3 Surges, GPS Risk [Apr 2026]",
+            "url": "https://shattered.io/artemis-ii-three-ionosphere-surges-gps-receiver-hardware-2026/",
+            "source": "shattered.io"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "keyword": "ebola patient",
         "traffic": "200+",
+        "pub_date": "2026-11-06T02:20:00+00:00",
+        "articles": [
+          {
+            "title": "UK doctor infected with Ebola being treated at London hospital",
+            "url": "https://www.bbc.co.uk/news/articles/cqj34d3l0zlmo",
+            "source": "BBC"
+          },
+          {
+            "title": "British Ebola patient evacuated from DR Congo arrives at London hospital",
+            "url": "https://www.theguardian.com/world/2026/nov/05/british-ebola-patient-evacuated-drc-arrives-london-hospital",
+            "source": "The Guardian"
+          },
+          {
+            "title": "Can the UK handle an Ebola infection?",
+            "url": "https://www.telegraph.co.uk/global-health/science-and-disease/copy-of-ebola-virus-drc-outbreak-symptoms-transmission-treatment/",
+            "source": "The Telegraph"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "keyword": "james bond actors",
+        "traffic": "500+",
         "pub_date": "2026-11-06T01:30:00+00:00",
         "articles": [
           {
@@ -29,7 +75,7 @@
         ]
       },
       {
-        "rank": 2,
+        "rank": 4,
         "keyword": "ps5 pro",
         "traffic": "100+",
         "pub_date": "2026-11-06T01:20:00+00:00",
@@ -52,7 +98,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 5,
         "keyword": "the rookie",
         "traffic": "100+",
         "pub_date": "2026-11-06T01:10:00+00:00",
@@ -75,7 +121,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 6,
         "keyword": "xbox",
         "traffic": "200+",
         "pub_date": "2026-11-06T01:00:00+00:00",
@@ -86,21 +132,21 @@
             "source": "XBOX Wire"
           },
           {
+            "title": "Xbox overhauls its PC, web, and cloud apps with a faster design",
+            "url": "https://www.theverge.com/news/1027353/microsoft-new-xbox-pc-app-redesign",
+            "source": "The Verge"
+          },
+          {
             "title": "The shiny new Xbox PC app is going live today for Insiders — Here's how to get it early",
             "url": "https://www.windowscentral.com/gaming/xbox/the-shiny-new-xbox-pc-app-is-going-live-today-for-insiders-heres-how-to-get-it-early",
             "source": "Windows Central"
-          },
-          {
-            "title": "Microsoft Updates Xbox PC App, Says It's 60% Faster",
-            "url": "https://www.ign.com/articles/microsoft-updates-xbox-pc-app-says-its-60-faster",
-            "source": "IGN"
           }
         ]
       },
       {
-        "rank": 5,
+        "rank": 7,
         "keyword": "ravens vs jaguars",
-        "traffic": "500+",
+        "traffic": "1000+",
         "pub_date": "2026-11-06T00:50:00+00:00",
         "articles": [
           {
@@ -114,14 +160,14 @@
             "source": "Racing Post"
           },
           {
-            "title": "NFL Thursday night tips and bet builder: Jacksonville Jaguars @ Baltimore Ravens live on Sky Sports & DAZN",
-            "url": "https://www.sportinglife.com/nfl/news/nfl-thursday-night-tips-and-bet-builder-jacksonville-jaguars-baltimore-ravens-live-on-sky-sports-and-dazn/235244",
-            "source": "Sporting Life"
+            "title": "Jaguars vs. Ravens: Three must-know storylines for Thursday's Week 9 prime-time game",
+            "url": "https://www.nfl.com/news/jaguars-vs-ravens-three-must-know-storylines-for-thursday-s-week-9-prime-time-game",
+            "source": "NFL.com"
           }
         ]
       },
       {
-        "rank": 6,
+        "rank": 8,
         "keyword": "justin welby",
         "traffic": "100+",
         "pub_date": "2026-11-06T00:20:00+00:00",
@@ -144,30 +190,7 @@
         ]
       },
       {
-        "rank": 7,
-        "keyword": "kospi",
-        "traffic": "200+",
-        "pub_date": "2026-11-06T00:10:00+00:00",
-        "articles": [
-          {
-            "title": "Korean Chip Stocks Sink 10% in Pre-Market as AI Fears Deepen",
-            "url": "https://www.bloomberg.com/news/articles/2026-11-05/korean-chip-stocks-sink-10-in-pre-market-as-ai-fears-deepen",
-            "source": "Bloomberg.com"
-          },
-          {
-            "title": "Samsung Electronics Plunges 11% in Premarket, Breaks Below 200,000 Won; SK Hynix Tumbles 13%",
-            "url": "https://finance.biggo.com/news/aeac0540-c597-4f20-8738-50700b4cb6ec",
-            "source": "BigGo Finance"
-          },
-          {
-            "title": "Trading of KOSPI stocks suspended amid tech sell-off",
-            "url": "https://www.koreaherald.com/article/10927992",
-            "source": "The Korea Herald"
-          }
-        ]
-      },
-      {
-        "rank": 8,
+        "rank": 9,
         "keyword": "child",
         "traffic": "200+",
         "pub_date": "2026-11-06T00:10:00+00:00",
@@ -190,48 +213,25 @@
         ]
       },
       {
-        "rank": 9,
-        "keyword": "denise richards",
-        "traffic": "200+",
-        "pub_date": "2026-11-05T23:40:00+00:00",
-        "articles": [
-          {
-            "title": "Denise Richards Confirms ‘Real Housewives of Beverly Hills’ Return, Teases Filming for Season 16",
-            "url": "https://www.imdb.com/it/news/ni66095851/?ref_=nwc_art_perm",
-            "source": "IMDb"
-          },
-          {
-            "title": "Denise Richards teases her return to the Bravoverse at the Season 2 premiere of ‘All’s Fair’ in New York",
-            "url": "https://www.facebook.com/deadline/videos/denise-richards-teases-her-return-to-the-bravoverse-at-the-season-2-premiere-of-/1611735150756337/",
-            "source": "Facebook"
-          },
-          {
-            "title": "Denise Richards confirms RHOBH return after incredible $200,000 facelift",
-            "url": "https://www.thepinknews.com/2026/11/05/denise-richards-rhobh-2026/",
-            "source": "PinkNews"
-          }
-        ]
-      },
-      {
         "rank": 10,
-        "keyword": "michel barnier",
+        "keyword": "kospi",
         "traffic": "200+",
-        "pub_date": "2026-11-05T23:30:00+00:00",
+        "pub_date": "2026-11-06T00:10:00+00:00",
         "articles": [
           {
-            "title": "Former Brexit negotiator Barnier: UK should get flexibility on euro and Schengen if it rejoins EU",
-            "url": "https://www.politico.eu/article/former-brexit-negotiator-michel-barnier-uk-flexibility-schengen-rejoin-eu/",
-            "source": "POLITICO.eu"
+            "title": "South Korea stocks plunge 8%, circuit breaker triggered as chip shares tumble",
+            "url": "https://www.reuters.com/world/asia-pacific/south-korea-stocks-plunge-8-circuit-breaker-triggered-chip-shares-tumble-2026-11-06/",
+            "source": "Reuters"
           },
           {
-            "title": "Brexit bombshell as 'euro optional for rejoining EU' - but there's a massive catch",
-            "url": "https://www.aol.co.uk/articles/brexit-bombshell-euro-optional-rejoining-064800000.html",
-            "source": "AOL.co.uk"
+            "title": "Korean Chip Stocks Sink 10% in Pre-Market as AI Fears Deepen",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-05/korean-chip-stocks-sink-10-in-pre-market-as-ai-fears-deepen",
+            "source": "Bloomberg.com"
           },
           {
-            "title": "Why senior MEP is opening the door to special terms for the UK rejoining the EU | ITV News",
-            "url": "https://www.itv.com/news/border/2026-11-03/why-senior-mep-is-opening-the-door-to-special-terms-for-the-uk-rejoining-the-eu",
-            "source": "ITVX"
+            "title": "Asia-Pacific down as Kospi drops 7%",
+            "url": "https://breakingthenews.net/Article/Asia-Pacific-down-as-Kospi-drops-7/67500769",
+            "source": "Breakingthenews.net"
           }
         ]
       }
@@ -239,13 +239,13 @@
     "youtube_popular": [
       {
         "rank": 1,
-        "video_id": "1_RRbUO-wtg",
-        "title": "D-Block Europe (Young Adz) graduation baby [Official Music Video]",
-        "channel": "D Block Europe ",
-        "thumbnail": "https://i.ytimg.com/vi/1_RRbUO-wtg/mqdefault.jpg",
-        "published_at": "2026-11-05T20:00:12Z",
-        "view_count": 29493,
-        "like_count": 1986
+        "video_id": "uXymCnWk9LI",
+        "title": "Olivia Rodrigo - take me home (4 christmas) (Official Music Video)",
+        "channel": "OliviaRodrigoVEVO",
+        "thumbnail": "https://i.ytimg.com/vi/uXymCnWk9LI/mqdefault.jpg",
+        "published_at": "2026-11-06T01:00:08Z",
+        "view_count": 300658,
+        "like_count": 70445
       },
       {
         "rank": 2,
@@ -254,8 +254,8 @@
         "channel": "GODZILLA OFFICIAL by TOHO",
         "thumbnail": "https://i.ytimg.com/vi/Pu0pH5BuCPM/mqdefault.jpg",
         "published_at": "2026-11-05T17:00:30Z",
-        "view_count": 926255,
-        "like_count": 28394
+        "view_count": 1050358,
+        "like_count": 30171
       },
       {
         "rank": 3,
@@ -264,18 +264,18 @@
         "channel": "SMii7Yplus",
         "thumbnail": "https://i.ytimg.com/vi/u7H5hfPZL1Q/mqdefault.jpg",
         "published_at": "2026-11-05T20:13:40Z",
-        "view_count": 386691,
-        "like_count": 21512
+        "view_count": 480831,
+        "like_count": 23712
       },
       {
         "rank": 4,
-        "video_id": "C3pLDUNe87M",
-        "title": "Wake Up - Dunsin Oyekan x Bro Gbile Akanni x Mount Zion films",
-        "channel": "Dunsin Oyekan",
-        "thumbnail": "https://i.ytimg.com/vi/C3pLDUNe87M/mqdefault.jpg",
-        "published_at": "2026-11-05T11:00:10Z",
-        "view_count": 414118,
-        "like_count": 44178
+        "video_id": "1_RRbUO-wtg",
+        "title": "D-Block Europe (Young Adz) graduation baby [Official Music Video]",
+        "channel": "D Block Europe ",
+        "thumbnail": "https://i.ytimg.com/vi/1_RRbUO-wtg/mqdefault.jpg",
+        "published_at": "2026-11-05T20:00:12Z",
+        "view_count": 33476,
+        "like_count": 2058
       },
       {
         "rank": 5,
@@ -284,8 +284,8 @@
         "channel": "Paramount Plus",
         "thumbnail": "https://i.ytimg.com/vi/zDFHivyECDU/mqdefault.jpg",
         "published_at": "2026-11-05T16:00:07Z",
-        "view_count": 171301,
-        "like_count": 5114
+        "view_count": 181452,
+        "like_count": 5237
       },
       {
         "rank": 6,
@@ -294,18 +294,18 @@
         "channel": "TGG",
         "thumbnail": "https://i.ytimg.com/vi/tbxqj0XP5iQ/mqdefault.jpg",
         "published_at": "2026-11-05T17:54:26Z",
-        "view_count": 488002,
-        "like_count": 16860
+        "view_count": 537351,
+        "like_count": 17592
       },
       {
         "rank": 7,
-        "video_id": "96S27C0p66w",
-        "title": "Ramayana: Shree Hanuman Chalisa | Namit M, Nitesh T | Ranbir Kapoor, Sunny Deol | AR Rahman",
-        "channel": "T-Series",
-        "thumbnail": "https://i.ytimg.com/vi/96S27C0p66w/mqdefault.jpg",
-        "published_at": "2026-11-05T07:14:12Z",
-        "view_count": 8300383,
-        "like_count": 161219
+        "video_id": "C3pLDUNe87M",
+        "title": "Wake Up - Dunsin Oyekan x Bro Gbile Akanni x Mount Zion films",
+        "channel": "Dunsin Oyekan",
+        "thumbnail": "https://i.ytimg.com/vi/C3pLDUNe87M/mqdefault.jpg",
+        "published_at": "2026-11-05T11:00:10Z",
+        "view_count": 429656,
+        "like_count": 44722
       },
       {
         "rank": 8,
@@ -314,8 +314,8 @@
         "channel": "Netflix",
         "thumbnail": "https://i.ytimg.com/vi/zHSYXDLH4io/mqdefault.jpg",
         "published_at": "2026-11-05T15:00:00Z",
-        "view_count": 629793,
-        "like_count": 9316
+        "view_count": 671088,
+        "like_count": 9641
       },
       {
         "rank": 9,
@@ -324,18 +324,18 @@
         "channel": "LoL Esports",
         "thumbnail": "https://i.ytimg.com/vi/M3q4HBBp2-Q/mqdefault.jpg",
         "published_at": "2026-11-06T00:59:09Z",
-        "view_count": 898323,
-        "like_count": 6081
+        "view_count": 1214113,
+        "like_count": 6139
       },
       {
         "rank": 10,
-        "video_id": "dND8ysuZqlA",
-        "title": "JISOO - ‘ADDICTED’ DANCE PERFORMANCE VIDEO",
-        "channel": "JISOO",
-        "thumbnail": "https://i.ytimg.com/vi/dND8ysuZqlA/mqdefault.jpg",
-        "published_at": "2026-11-05T12:00:20Z",
-        "view_count": 2811772,
-        "like_count": 327953
+        "video_id": "96S27C0p66w",
+        "title": "Ramayana: Shree Hanuman Chalisa | Namit M, Nitesh T | Ranbir Kapoor, Sunny Deol | AR Rahman",
+        "channel": "T-Series",
+        "thumbnail": "https://i.ytimg.com/vi/96S27C0p66w/mqdefault.jpg",
+        "published_at": "2026-11-05T07:14:12Z",
+        "view_count": 8416081,
+        "like_count": 163447
       },
       {
         "rank": 11,
@@ -344,8 +344,8 @@
         "channel": "Nintendo of America",
         "thumbnail": "https://i.ytimg.com/vi/T4Eh0M-Sh_g/mqdefault.jpg",
         "published_at": "2026-11-05T17:00:20Z",
-        "view_count": 505272,
-        "like_count": 15022
+        "view_count": 539680,
+        "like_count": 15440
       },
       {
         "rank": 12,
@@ -354,18 +354,18 @@
         "channel": "Harry Hesketh",
         "thumbnail": "https://i.ytimg.com/vi/tayjwn2DkoI/mqdefault.jpg",
         "published_at": "2026-11-05T21:55:10Z",
-        "view_count": 28246,
-        "like_count": 922
+        "view_count": 37402,
+        "like_count": 1000
       },
       {
         "rank": 13,
-        "video_id": "LSVjUO91-DI",
-        "title": "Sabyna - Sexy When I Cry (Official Lyric Video)",
-        "channel": "Sabyna",
-        "thumbnail": "https://i.ytimg.com/vi/LSVjUO91-DI/mqdefault.jpg",
-        "published_at": "2026-11-05T01:00:34Z",
-        "view_count": 9861,
-        "like_count": 873
+        "video_id": "dND8ysuZqlA",
+        "title": "JISOO - ‘ADDICTED’ DANCE PERFORMANCE VIDEO",
+        "channel": "JISOO",
+        "thumbnail": "https://i.ytimg.com/vi/dND8ysuZqlA/mqdefault.jpg",
+        "published_at": "2026-11-05T12:00:20Z",
+        "view_count": 2917137,
+        "like_count": 334184
       },
       {
         "rank": 14,
@@ -374,8 +374,8 @@
         "channel": "Prime Video",
         "thumbnail": "https://i.ytimg.com/vi/46AEtqYlMlc/mqdefault.jpg",
         "published_at": "2026-11-05T15:00:12Z",
-        "view_count": 382206,
-        "like_count": 5356
+        "view_count": 405186,
+        "like_count": 5508
       },
       {
         "rank": 15,
@@ -384,78 +384,78 @@
         "channel": "AstralSpiff",
         "thumbnail": "https://i.ytimg.com/vi/mco4RHoTe6w/mqdefault.jpg",
         "published_at": "2026-11-05T13:00:37Z",
-        "view_count": 428271,
-        "like_count": 14991
+        "view_count": 467695,
+        "like_count": 15609
       },
       {
         "rank": 16,
-        "video_id": "e2NWdzaYots",
-        "title": "Skepta - Pandora's Box (Official Video)",
-        "channel": "SKEPTA",
-        "thumbnail": "https://i.ytimg.com/vi/e2NWdzaYots/mqdefault.jpg",
-        "published_at": "2026-11-05T18:00:07Z",
-        "view_count": 46556,
-        "like_count": 2849
+        "video_id": "LSVjUO91-DI",
+        "title": "Sabyna - Sexy When I Cry (Official Lyric Video)",
+        "channel": "Sabyna",
+        "thumbnail": "https://i.ytimg.com/vi/LSVjUO91-DI/mqdefault.jpg",
+        "published_at": "2026-11-05T01:00:34Z",
+        "view_count": 10165,
+        "like_count": 879
       },
       {
         "rank": 17,
-        "video_id": "eJMQsl2a2Ds",
-        "title": "Bachelor Party D’eux Official Trailer | Amal Neerad | Naslen | Vivek Harshan | Anwar Rasheed",
-        "channel": "Amal Neerad Productions",
-        "thumbnail": "https://i.ytimg.com/vi/eJMQsl2a2Ds/mqdefault.jpg",
-        "published_at": "2026-11-04T11:30:22Z",
-        "view_count": 2836049,
-        "like_count": 50712
-      },
-      {
-        "rank": 18,
-        "video_id": "njrEzZQ-1iY",
-        "title": "Minecraft, But Every Drop = OP GUNS!",
-        "channel": "Cash",
-        "thumbnail": "https://i.ytimg.com/vi/njrEzZQ-1iY/mqdefault.jpg",
-        "published_at": "2026-11-05T15:00:18Z",
-        "view_count": 263018,
-        "like_count": 3167
-      },
-      {
-        "rank": 19,
-        "video_id": "W_aQ_TkwGFk",
-        "title": "Rihanna x 2Pac - Last Goodbye 💔 _  Emotional  Song Zeyxo Music ",
-        "channel": "Zeyxo Music",
-        "thumbnail": "https://i.ytimg.com/vi/W_aQ_TkwGFk/mqdefault.jpg",
-        "published_at": "2026-10-21T08:00:36Z",
-        "view_count": 255068,
-        "like_count": 3882
-      },
-      {
-        "rank": 20,
         "video_id": "jQHoAsDcjVU",
         "title": "Karōshi (2027) Official Trailer - Teo Yoo, Isabel May, Giancarlo Esposito, Cynthia Erivo",
         "channel": "Lionsgate Movies",
         "thumbnail": "https://i.ytimg.com/vi/jQHoAsDcjVU/mqdefault.jpg",
         "published_at": "2026-11-05T16:01:18Z",
-        "view_count": 743967,
-        "like_count": 6030
+        "view_count": 857315,
+        "like_count": 6350
       },
       {
-        "rank": 21,
+        "rank": 18,
         "video_id": "YcEiVdkV17Q",
         "title": "THURSDAY GAME NIGHT w THE BOYS",
         "channel": "Jynxzi",
         "thumbnail": "https://i.ytimg.com/vi/YcEiVdkV17Q/mqdefault.jpg",
         "published_at": "2026-11-06T00:07:07Z",
-        "view_count": 347256,
-        "like_count": 3415
+        "view_count": 367851,
+        "like_count": 3481
+      },
+      {
+        "rank": 19,
+        "video_id": "e2NWdzaYots",
+        "title": "Skepta - Pandora's Box (Official Video)",
+        "channel": "SKEPTA",
+        "thumbnail": "https://i.ytimg.com/vi/e2NWdzaYots/mqdefault.jpg",
+        "published_at": "2026-11-05T18:00:07Z",
+        "view_count": 49047,
+        "like_count": 2893
+      },
+      {
+        "rank": 20,
+        "video_id": "eJMQsl2a2Ds",
+        "title": "Bachelor Party D’eux Official Trailer | Amal Neerad | Naslen | Vivek Harshan | Anwar Rasheed",
+        "channel": "Amal Neerad Productions",
+        "thumbnail": "https://i.ytimg.com/vi/eJMQsl2a2Ds/mqdefault.jpg",
+        "published_at": "2026-11-04T11:30:22Z",
+        "view_count": 2842226,
+        "like_count": 50810
+      },
+      {
+        "rank": 21,
+        "video_id": "njrEzZQ-1iY",
+        "title": "Minecraft, But Every Drop = OP GUNS!",
+        "channel": "Cash",
+        "thumbnail": "https://i.ytimg.com/vi/njrEzZQ-1iY/mqdefault.jpg",
+        "published_at": "2026-11-05T15:00:18Z",
+        "view_count": 290196,
+        "like_count": 3287
       },
       {
         "rank": 22,
-        "video_id": "zPkhs5qxpnU",
-        "title": "UNCHILD 언차일드 '팅팅 (TiNG TiNG)' MV",
-        "channel": "UNCHILD",
-        "thumbnail": "https://i.ytimg.com/vi/zPkhs5qxpnU/mqdefault.jpg",
-        "published_at": "2026-11-05T09:00:05Z",
-        "view_count": 2054230,
-        "like_count": 55569
+        "video_id": "W_aQ_TkwGFk",
+        "title": "Rihanna x 2Pac - Last Goodbye 💔 _  Emotional  Song Zeyxo Music ",
+        "channel": "Zeyxo Music",
+        "thumbnail": "https://i.ytimg.com/vi/W_aQ_TkwGFk/mqdefault.jpg",
+        "published_at": "2026-10-21T08:00:36Z",
+        "view_count": 258904,
+        "like_count": 3915
       },
       {
         "rank": 23,
@@ -464,8 +464,8 @@
         "channel": "SHIFT UP Official Channel",
         "thumbnail": "https://i.ytimg.com/vi/trMkpK0EwSo/mqdefault.jpg",
         "published_at": "2026-11-05T14:59:38Z",
-        "view_count": 1164344,
-        "like_count": 41394
+        "view_count": 1238788,
+        "like_count": 43035
       },
       {
         "rank": 24,
@@ -474,135 +474,28 @@
         "channel": "TmarTn2",
         "thumbnail": "https://i.ytimg.com/vi/rB00kN5WACc/mqdefault.jpg",
         "published_at": "2026-11-05T18:45:09Z",
-        "view_count": 147324,
-        "like_count": 4178
+        "view_count": 167962,
+        "like_count": 4386
       },
       {
         "rank": 25,
-        "video_id": "PpVUvTv9jaY",
-        "title": "WHITE KEYS",
-        "channel": "Dominic Fike",
-        "thumbnail": "https://i.ytimg.com/vi/PpVUvTv9jaY/mqdefault.jpg",
-        "published_at": "2026-10-30T05:44:38Z",
-        "view_count": 183715,
-        "like_count": 2240
+        "video_id": "zPkhs5qxpnU",
+        "title": "UNCHILD 언차일드 '팅팅 (TiNG TiNG)' MV",
+        "channel": "UNCHILD",
+        "thumbnail": "https://i.ytimg.com/vi/zPkhs5qxpnU/mqdefault.jpg",
+        "published_at": "2026-11-05T09:00:05Z",
+        "view_count": 2089648,
+        "like_count": 56890
       }
     ],
     "google_news": {
       "top": [
         {
-          "title": "Henry Nowak's killer has sentence increased to 25 years",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sVDZ6ZDExSVNid3F3QjBKSllKN1pmUk1iNDRYdGQyanA3UEtrVGREbkZoQm1rejhVNXE0RlNkNXg4eTU3UlVIbWY0bmVVZW93dVBKZkQ0STJxWEZfTHc?oc=5",
-          "description": "Henry Nowak's killer has sentence increased to 25 years  BBCHenry Nowak’s killer has minimum term increased to 25 years by Court of Appeal  BBCNowak killer’s jail term increased by four years  The Tel",
+          "title": "California governor commutes sentences for state's 548 death row inmates",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ldlNJcTdJYUdtdC1fTlp3ZjNxMXp2akxDSUZ0SlFEbF9nLWRyaTNKM3IyMUZXMy01SXdoMWhSUjExQmRQTE5VTnR4OUgyOGhOVXN4c2psaDc0bUxacHc?oc=5",
+          "description": "California governor commutes sentences for state's 548 death row inmates  BBCGavin Newsom commutes more than 500 death sentences in California  The GuardianNewsom commutes sentences of all California ",
           "publisher": "BBC",
-          "pub_date": "2026-11-05T17:39:41+00:00"
-        },
-        {
-          "title": "Gavin Newsom commutes more than 500 death sentences in California",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaGNya1ZEYWJfUmVFNWs5Zk5laXk1TkluS1ZnQ3lrbUtZZWg0TGxpaVdPNUdxTjNJbkdNcWZFSXRiRWVQWGphVk8yQTNGWFlIR0M5VTU0STRqWE4wM1VCSXNhOFNOMmdpeXFkODBDdHpXWk83Z2xBS2ZxUnZvMzdhM3dKQmlkVjZWTTU0ZTN4ZmZqNW8ya0t5S21Va3Q?oc=5",
-          "description": "Gavin Newsom commutes more than 500 death sentences in California  The GuardianCalifornia governor commutes sentences for state's 548 death row inmates  BBCCalifornia governor commutes sentences of mo",
-          "publisher": "The Guardian",
-          "pub_date": "2026-11-05T19:28:00+00:00"
-        },
-        {
-          "title": "Firms told to publish salaries in job adverts ahead of new law",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDcGxaYkhhc1c3TVZuY0tQYUVGcHQxcVltd2k2R3Ezc04tZ0plR3lJVGxuRmotc2Rpa3dkQTI4SUNSVUd6V0tOWDJzZ2lWMUx1T3p3WF9vX1hIN3hOckE?oc=5",
-          "description": "Firms told to publish salaries in job adverts ahead of new law  BBCBurnham to force UK employers to include salaries in job adverts  The IndependentNew ‘say what you pay’ law to help young people into",
-          "publisher": "BBC",
-          "pub_date": "2026-11-05T22:32:02+00:00"
-        },
-        {
-          "title": "Flight bomb threats live: Multiple European planes diverted after alerts reported",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU2hnbkVrTHpka3JzUnJ2emxVRGNVS2xBSlNkdDlicktxZFBfd2FmaDRHd29sRDU0c0UtNGFSSmhMYmVJX08tbDItanA0ZDRtMHllbXUyeC12bG9TX2l3aXpjRVJBM2d4XzR5SzFRejJfeG05LWdCdzVvbndNbjdTWlNHUXlnb25yMGZQdDJ3MWs1bFpoSzNUQ3J2TXI0M2FuajNtQXlnX3NJbnhGYVRHZ3VhSmpBc0lr?oc=5",
-          "description": "Flight bomb threats live: Multiple European planes diverted after alerts reported  Sky NewsBomb hoaxes across Europe disrupt flights as two UK airports also receive threats  BBCMultiple planes diverte",
-          "publisher": "Sky News",
-          "pub_date": "2026-11-05T20:46:56+00:00"
-        },
-        {
-          "title": "Murder accused claimed woman found in freezer was alive",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yTFJ3T0dKY0pXdFoyTmhsX1dXOGp4WERWLUVpUG9qVDlVa1NSLS1uaUE2NHg0R3pGY0dzZkg0bDVrbU4yZlRla1ZsS2JxUVY5ZkdKUDNCOGw4MER1TXc?oc=5",
-          "description": "Murder accused claimed woman found in freezer was alive  BBCMan ‘killed artist and kept body in freezer for three years’  The TelegraphMan hid woman's body in freezer for three years, jury told  BBCMa",
-          "publisher": "BBC",
-          "pub_date": "2026-11-05T13:52:18+00:00"
-        },
-        {
-          "title": "Democrats look to reshape America after historic midterm victories",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbXFrOEo0c3pvRTBvSlVab0FfZDUyUkxuRUZyV1NlbFBIZklEeFRhMDBvSHVsX2JWMG5UZ0MycU5aMXZSR2Vya0E0WGo5b2gxLU5nSXZ0N05lakVQM3R5a3NLS0lMbXktdngwREZRdGNNd0psV2dkc3FmTkIwM3VhRUU1d3E?oc=5",
-          "description": "Democrats look to reshape America after historic midterm victories  Financial TimesFive reasons why Republicans lost so badly  BBCWhat happens after the ‘blue wave’? Ask your midterm election results ",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-05T05:00:25+00:00"
-        },
-        {
-          "title": "Russell Brand latest: Comedian could face lengthy jail term after rape and sexual assault convictions",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcVkyQWlidWRkWXM0T0haSm5xWTVrXzh1VGozbEFLbUZxdElBU1UwbHNoWmJwOW5UY0tINHJicXdVUzFZRHU3NDc0SGExRzg3ZnFlUVJtX0JjUFlDS2lMaFg5bDNIcnJyUm5ZQnhjdEE5YlEyUHUyV2dPVDRrYlNHcUZMMzFjaTUxWFJxR1Z6Z3pBZVZyZTFMSVdB?oc=5",
-          "description": "Russell Brand latest: Comedian could face lengthy jail term after rape and sexual assault convictions  Sky NewsSee more headlines and perspectives on Google News",
-          "publisher": "Sky News",
-          "pub_date": "2026-11-05T23:00:58+00:00"
-        },
-        {
-          "title": "Police car set on fire in Glasgow on Bonfire Night",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON1Nhdi15aDBRTzcyaWNfazJiN2JrMUNORlBkSVkwOC1LTXVSbzRVWkV1UUdLNzdsZ1VTVTI5eUNBNkpwT0hkNjJDTFViZHdlSE1xYkpuWGVzVGVDMmRKaUpDdnIyV3VDcVFuMHBXTWc0Y1MtelgyWURYWGJTTndsa0VnRHEwdEh4T3B5MkhRNHJ6OEU?oc=5",
-          "description": "Police car set on fire in Glasgow on Bonfire Night  The TelegraphPolice car set alight in Glasgow amid Bonfire Night trouble  BBCPolice and paramedics attacked with fireworks while responding to injur",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-11-05T23:56:00+00:00"
-        },
-        {
-          "title": "Andy Burnham’s offer to discuss formal apology over slavery calms reparations tensions",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRWk3cm9pMmp6ZURlQ0hIMUNxSW93MXEtTkNWTnVvWDBYSThNeE9jdFczYS1uLWhsWkszU3Q3TDZCOWFvWDJIZ05yWGdpZExvcHhsVUU0Mld3bW9GSzE4VkhRQlpJellRQUJZSEdnTDd2RURmRGlJODFUeTNXdUZhLXdSOWs?oc=5",
-          "description": "Andy Burnham’s offer to discuss formal apology over slavery calms reparations tensions  Financial TimesWhat can Britain learn from backlash to Dutch slavery apology?  The GuardianJustin Welby says sla",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-05T12:21:15+00:00"
-        },
-        {
-          "title": "Missiles and fireworks 'thrown at emergency crews'",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SYnFoNnpuZjRwbTdmeExmNWFVeDlFNWFBMHpkX0lESUtlS09xRVFGZkRpaUVfTHdaTmFaY0YtblYtcHM0bnZINUlxNEFnLWlyUnN2YXBZeFZiLVZHZFE?oc=5",
-          "description": "Missiles and fireworks 'thrown at emergency crews'  BBCSee more headlines and perspectives on Google News",
-          "publisher": "BBC",
-          "pub_date": "2026-11-05T22:06:09+00:00"
-        },
-        {
-          "title": "Eiffel Tower closed amid France protests",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbVJGdUxaeGhDdzMwd2dXUTlUZEh5bGtZWW5uYlVXZ041NHVoV0JwQm9aRVdKZ3gwZVVGZWFsVWJiYkhSNXlrRXprN25QMEQ3UDhHbTFyZDFEWlIyRTdNM1p0eXZfQmNGcURRbWpFTmFodXktX19YYjZtVDNvNlFKSmJIUHg1dm9NdjhSQlM4VVFzSjN6?oc=5",
-          "description": "Eiffel Tower closed amid France protests  The TelegraphProtesters march in cities across France as unions stage general strike  The GuardianNearly 600,000 join latest protests in France  Financial Tim",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-11-05T19:58:00+00:00"
-        },
-        {
-          "title": "King relishes 'politically charged' deployments, Palace aide says",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uaG5OWURaU1RFX3JIMS1hTXlfenZoWE9ON0pKNjUzRVVidWFtNldBVHZIUVVYZUhTWU1XeDR2VU04a09PTFYxSHdiSEdHd01lZHlOUzV3LXh2M3IyVUE?oc=5",
-          "description": "King relishes 'politically charged' deployments, Palace aide says  BBCPMs know they can call King Charles for help — he likes it  The TimesKing will serve Commonwealth countries only ‘as long as they ",
-          "publisher": "BBC",
-          "pub_date": "2026-11-05T22:04:44+00:00"
-        },
-        {
-          "title": "Trump says he met Putin envoy Dmitriev",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQkIyajduM2t4eXl5eGs0V1hHU0Y2amcxWjM1dmthWmtDekkwV3V5MElyZlpjZFlfOUVENC1fSXJ2S0llMDloc2VJZmktZG5jUWFvMVUwbTJ6VkNuSF9EX0dEdzliNnlzN0J6RlIydnVMVE9sdVNpV3J1VzR0MTdfRk51WVE0dVk?oc=5",
-          "description": "Trump says he met Putin envoy Dmitriev  ReutersSee more headlines and perspectives on Google News",
-          "publisher": "Reuters",
-          "pub_date": "2026-11-05T21:49:31+00:00"
-        },
-        {
-          "title": "Marco Rubio ‘on resignation watch’ - report",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1LdDdBTUNwcGhUZTF5bDI2ZVZUWnBBZFlIY2hQV052a3o1MXJLbk93NkhpUnZ3a3NNdmljSExtSzc0WGttcnF6VC1uMGJlTkJHMmtEazFENGQ3TFZ4ZlMzU0tMV21DSFhaTkNJSXFEYlk4bE40NjVfWWJMcw?oc=5",
-          "description": "Marco Rubio ‘on resignation watch’ - report  investingLiveMarco Rubio ‘on resignation watch from Trump administration’ after midterms disaster  The IndependentWhite House denies Hegseth, Rubio will le",
-          "publisher": "investingLive",
-          "pub_date": "2026-11-05T14:11:21+00:00"
-        },
-        {
-          "title": "Bank of England raises interest rates to 4% in bid to tame inflation",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOenVYQ080b2Q4TXgySm1KY1dweGY1ODdLTThwNENPZjA4T0t0a1dhOUJmek81ZEwwUU1oa1BqektBSGFwaVlaWEloSHB1X2dYTllSZVAwVTF1ZzFES1VZemY0NlJDS3R0cjh6QXRfQ1hOZTN4OUktRW1PbURxcmR0NUJBN1o?oc=5",
-          "description": "Bank of England raises interest rates to 4% in bid to tame inflation  Financial TimesBank of England raises interest rates to 4%, the first increase in more than three years  BBCToday’s UK interest ra",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-05T14:18:29+00:00"
-        }
-      ],
-      "nation": [
-        {
-          "title": "Russell Brand found guilty of rape and sexual assault",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfd25MZlVjYXItZGFzcG9IWnJXUlhnQ0pwZ1lmWnd0emNBamFjQ0NTa05RcWI4THFNOEJZWkhPTzZ6SlpLNlJ3WFBOd3NYNkVJQkNIbVdFZTBpeGRUOHc?oc=5",
-          "description": "Russell Brand found guilty of rape and sexual assault  BBCSee more headlines and perspectives on Google News",
-          "publisher": "BBC",
-          "pub_date": "2026-11-05T17:17:13+00:00"
+          "pub_date": "2026-11-05T19:43:50+00:00"
         },
         {
           "title": "Henry Nowak's killer Vickrum Digwa has life sentence increased after bid to cut it fails",
@@ -612,18 +505,25 @@
           "pub_date": "2026-11-05T21:32:29+00:00"
         },
         {
-          "title": "Police car set alight in Glasgow amid Bonfire Night trouble",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04T2Y0UzJUeW56RFR6ejlWUnAtdUlBc0FLRldBdnRkbGp6bC0yRG1VeFBJZ1BqWlczTXZWQXFxcUpidUhKLVpSRDR6MW5feFV6bmJlTmxsMzl3NUE?oc=5",
-          "description": "Police car set alight in Glasgow amid Bonfire Night trouble  BBCSee more headlines and perspectives on Google News",
-          "publisher": "BBC",
-          "pub_date": "2026-11-05T21:47:07+00:00"
-        },
-        {
           "title": "Firms told to publish salaries in job adverts ahead of new law",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDcGxaYkhhc1c3TVZuY0tQYUVGcHQxcVltd2k2R3Ezc04tZ0plR3lJVGxuRmotc2Rpa3dkQTI4SUNSVUd6V0tOWDJzZ2lWMUx1T3p3WF9vX1hIN3hOckE?oc=5",
-          "description": "Firms told to publish salaries in job adverts ahead of new law  BBCBurnham to force UK employers to include salaries in job adverts  The IndependentNew ‘say what you pay’ law to help young people into",
+          "description": "Firms told to publish salaries in job adverts ahead of new law  BBCBritain to make salary disclosure in job ads mandatory  ReutersJob adverts will have to publish salaries, ministers say  Financial Ti",
           "publisher": "BBC",
           "pub_date": "2026-11-05T22:32:02+00:00"
+        },
+        {
+          "title": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war fears",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTjAzb2V4dm1WX1ZyenZxX2hoUWlFX05jMkh5OHA0R2VKQUp1SFVyb1dYbF8ydGlKUW8xRld3bzRxZlByZHNqYXprMTExOFd0RzhYVHluOUU5NWMwcEE2b3RiNmk0UDN4M2ExYThsMjZDMGFHeDhyNVJxelU1YnhtdFlTSXNtWE14ZXZ1ak9RcE5lYWhaRDZoWXR2aWhqdmFzMlo1UWFQT3ZyeUdIcWs1QTMtMzY4MU55YzFz?oc=5",
+          "description": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war fears  The GuardianBomb hoaxes across Europe disrupt flights as two UK airports also receive threats  BBCTwelve flights diver",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-05T12:44:00+00:00"
+        },
+        {
+          "title": "Democrats look to reshape America after historic midterm victories",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbXFrOEo0c3pvRTBvSlVab0FfZDUyUkxuRUZyV1NlbFBIZklEeFRhMDBvSHVsX2JWMG5UZ0MycU5aMXZSR2Vya0E0WGo5b2gxLU5nSXZ0N05lakVQM3R5a3NLS0lMbXktdngwREZRdGNNd0psV2dkc3FmTkIwM3VhRUU1d3E?oc=5",
+          "description": "Democrats look to reshape America after historic midterm victories  Financial TimesFive reasons why Republicans lost so badly  BBCWhat happens after the ‘blue wave’? Ask your midterm election results ",
+          "publisher": "Financial Times",
+          "pub_date": "2026-11-05T05:00:25+00:00"
         },
         {
           "title": "Murder accused claimed woman found in freezer was alive",
@@ -633,11 +533,104 @@
           "pub_date": "2026-11-05T13:52:18+00:00"
         },
         {
-          "title": "Andy Burnham’s offer to discuss formal apology over slavery calms reparations tensions",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRWk3cm9pMmp6ZURlQ0hIMUNxSW93MXEtTkNWTnVvWDBYSThNeE9jdFczYS1uLWhsWkszU3Q3TDZCOWFvWDJIZ05yWGdpZExvcHhsVUU0Mld3bW9GSzE4VkhRQlpJellRQUJZSEdnTDd2RURmRGlJODFUeTNXdUZhLXdSOWs?oc=5",
-          "description": "Andy Burnham’s offer to discuss formal apology over slavery calms reparations tensions  Financial TimesWhat can Britain learn from backlash to Dutch slavery apology?  The GuardianJustin Welby says sla",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-05T12:21:15+00:00"
+          "title": "Russell Brand latest: Comedian could face lengthy jail term after rape and sexual assault convictions",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcVkyQWlidWRkWXM0T0haSm5xWTVrXzh1VGozbEFLbUZxdElBU1UwbHNoWmJwOW5UY0tINHJicXdVUzFZRHU3NDc0SGExRzg3ZnFlUVJtX0JjUFlDS2lMaFg5bDNIcnJyUm5ZQnhjdEE5YlEyUHUyV2dPVDRrYlNHcUZMMzFjaTUxWFJxR1Z6Z3pBZVZyZTFMSVdB?oc=5",
+          "description": "Russell Brand latest: Comedian could face lengthy jail term after rape and sexual assault convictions  Sky NewsRussell Brand found guilty of rape and three sexual assaults  BBCFame Under Fire | Brand:",
+          "publisher": "Sky News",
+          "pub_date": "2026-11-05T23:00:58+00:00"
+        },
+        {
+          "title": "Police car set alight in Glasgow amid Bonfire Night trouble",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3ZHZWZ3RFWHdoaGdXNWN1YnU1Uy02OHdHY3hvTGE1MkRZd2RWNkdtU3E4ZVpzVTk2T3l0VS1KZ3FuU3dOcXRTNktXMG4zLUpBaHlNRDBFak5nWnZjRUE?oc=5",
+          "description": "Police car set alight in Glasgow amid Bonfire Night trouble  BBCArrests after emergency crews targeted with fireworks and police car set alight  ITVXPolice and firefighters around UK gear up for Bonfi",
+          "publisher": "BBC",
+          "pub_date": "2026-11-05T21:45:12+00:00"
+        },
+        {
+          "title": "Missiles and fireworks 'thrown at emergency crews'",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SYnFoNnpuZjRwbTdmeExmNWFVeDlFNWFBMHpkX0lESUtlS09xRVFGZkRpaUVfTHdaTmFaY0YtblYtcHM0bnZINUlxNEFnLWlyUnN2YXBZeFZiLVZHZFE?oc=5",
+          "description": "Missiles and fireworks 'thrown at emergency crews'  BBCMeadow Well chaos LIVE: Updates as riot police attacked in Bonfire Night violence  Chronicle LiveEmergency services targeted in Meadow Well disor",
+          "publisher": "BBC",
+          "pub_date": "2026-11-05T22:06:09+00:00"
+        },
+        {
+          "title": "Man leaps from flat window to survive Bonfire Night blaze",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa18tY0pJRmVjZUt3eTltU3F2MnRwR29DQkRUTkJNWFd2VU50Z0FkaVEzX1gtS1NLMWZ2MDkwZzBodUNYeDBOX010dTRuNDZrNUF0RGFORERhV2h3VWxBZ3VFV0NNNGFGWVJ6bWdlTTF0b1h3MlhON2UxLTgxYklXSVBoLThNc2w4Y09oVTBfbE9aSUNT0gGaAUFVX3lxTE5PWDBpMzJoRDgwTHU0VERrZzM4MzVhdG9pRkZqLWc0Q0QwcHByM2lfZXhXc3pRZ1Zjc1ZqQTJRWmw2WnFVLTM0bmtRM1I5ekdZS0NfaDRGZmNwWExTM25ZU1JwQ2dIZVlHYTB6c1NfVFNGNnpZdGkwTHZKWDlVdGxiTzZ3aEw5a1VvYnBrMDk0SFVDQzc1X1JqbEE?oc=5",
+          "description": "Man leaps from flat window to survive Bonfire Night blaze  Metro.co.ukSee more headlines and perspectives on Google News",
+          "publisher": "Metro.co.uk",
+          "pub_date": "2026-11-05T21:04:00+00:00"
+        },
+        {
+          "title": "Eiffel Tower closed amid France protests",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbVJGdUxaeGhDdzMwd2dXUTlUZEh5bGtZWW5uYlVXZ041NHVoV0JwQm9aRVdKZ3gwZVVGZWFsVWJiYkhSNXlrRXprN25QMEQ3UDhHbTFyZDFEWlIyRTdNM1p0eXZfQmNGcURRbWpFTmFodXktX19YYjZtVDNvNlFKSmJIUHg1dm9NdjhSQlM4VVFzSjN6?oc=5",
+          "description": "Eiffel Tower closed amid France protests  The TelegraphProtesters march in cities across France as unions stage general strike  The GuardianNearly 600,000 join latest protests in France  Financial Tim",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-11-05T19:58:00+00:00"
+        },
+        {
+          "title": "Trump says he met Putin envoy Dmitriev",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQkIyajduM2t4eXl5eGs0V1hHU0Y2amcxWjM1dmthWmtDekkwV3V5MElyZlpjZFlfOUVENC1fSXJ2S0llMDloc2VJZmktZG5jUWFvMVUwbTJ6VkNuSF9EX0dEdzliNnlzN0J6RlIydnVMVE9sdVNpV3J1VzR0MTdfRk51WVE0dVk?oc=5",
+          "description": "Trump says he met Putin envoy Dmitriev  ReutersTrump says ‘big, beautiful agreement’ on Ukraine ‘might involve all of Europe’  ITVXTrump says he and Putin are close to a deal about Ukraine and ‘all of",
+          "publisher": "Reuters",
+          "pub_date": "2026-11-05T21:49:31+00:00"
+        },
+        {
+          "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpeGFjRlF0Y0VjVElIdnRPb1o3QTROeG9oUFBTbnVFbjBoN3hjaTFWZUdHMUo1OF9RSnlUUDBXQ1YzQ29tTW44UlJjV0xRazZRUmFiR0xVc0duUU8wZ2c?oc=5",
+          "description": "White House denies Hegseth and Rubio to leave jobs after Republican election losses  BBCMarco Rubio ‘on resignation watch from Trump administration’ after midterms disaster  The IndependentRubio Dismi",
+          "publisher": "BBC",
+          "pub_date": "2026-11-06T01:31:05+00:00"
+        },
+        {
+          "title": "Suspected grizzly bear attack kills mother and daughter during short walk close to home",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcnliWlNwdGNxcGlkSXNlX09BeUgwREVlYjhYVDl6dTg1SVRwRjZYSzJyeHNYYkxpRnNpQ09WSDBVSDAtdFRPUDI3eExUd25kVE5veDBHck1KTHpxbVQxM3ppbjVaajNxRmpWWDk1REt2NTJRQVc4aU9PMkJaV1VuVVp1WTBVQUl6RFRscWlPZTUxRWRyeV9IYlVMdE96OTZ3cGdJdExGU3N6WHhWdFVQR2xRdUlnOEhELVZUa2duc0I?oc=5",
+          "description": "Suspected grizzly bear attack kills mother and daughter during short walk close to home  The IndependentMother and daughter die after suspected grizzly bear attack in Canada  BBCMultiple bears may hav",
+          "publisher": "The Independent",
+          "pub_date": "2026-11-05T08:22:00+00:00"
+        },
+        {
+          "title": "What does the UK interest rate rise mean for homeowners and savers?",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUWRsU2ROT0xOSC1ta1hMZjJpbElYU3VZYzl5ZXBKS2VVR1ZyMnBmSldSOWVGWjZja1o1X0RKNnJBUjFlSkJZYUhaWHpFaG0zNEdVRk9WMjJVTld5SXNORWxhZm1VRXdrRXl4c1d5cWRaWW9Yc0VYTldscHdFb0szSlBFWXpPRjk5SXYwTTV5eXpua3IwYTFBbzJxV1VVSlFWUXFaSWk2VjUxWloyeEJEZUVJNnlEd2xnNlE?oc=5",
+          "description": "What does the UK interest rate rise mean for homeowners and savers?  The GuardianBank of England raises interest rates to 4%, the first increase in more than three years  BBCToday’s UK interest rate r",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-05T16:43:00+00:00"
+        }
+      ],
+      "nation": [
+        {
+          "title": "Russell Brand latest: Comedian could face lengthy jail term after rape and sexual assault convictions",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcVkyQWlidWRkWXM0T0haSm5xWTVrXzh1VGozbEFLbUZxdElBU1UwbHNoWmJwOW5UY0tINHJicXdVUzFZRHU3NDc0SGExRzg3ZnFlUVJtX0JjUFlDS2lMaFg5bDNIcnJyUm5ZQnhjdEE5YlEyUHUyV2dPVDRrYlNHcUZMMzFjaTUxWFJxR1Z6Z3pBZVZyZTFMSVdB?oc=5",
+          "description": "Russell Brand latest: Comedian could face lengthy jail term after rape and sexual assault convictions  Sky NewsRussell Brand found guilty of rape and three sexual assaults  BBCFame Under Fire | Brand:",
+          "publisher": "Sky News",
+          "pub_date": "2026-11-05T23:00:58+00:00"
+        },
+        {
+          "title": "Police car set alight in Glasgow amid Bonfire Night trouble",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3ZHZWZ3RFWHdoaGdXNWN1YnU1Uy02OHdHY3hvTGE1MkRZd2RWNkdtU3E4ZVpzVTk2T3l0VS1KZ3FuU3dOcXRTNktXMG4zLUpBaHlNRDBFak5nWnZjRUE?oc=5",
+          "description": "Police car set alight in Glasgow amid Bonfire Night trouble  BBCArrests after emergency crews targeted with fireworks and police car set alight  ITVXPolice and firefighters around UK gear up for Bonfi",
+          "publisher": "BBC",
+          "pub_date": "2026-11-05T21:45:12+00:00"
+        },
+        {
+          "title": "Henry Nowak’s killer has sentence extended by court of appeal",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQzhzV0JycXA5UjJBZVRrcHE5S29HcVNJcXF3UjhWc2RBaXEwM2J5alVhTi1qOWV3QzRPaW1KaW5kRnZBZENYX3MtejQtTUZHbUc4WGpXbVR1b2d5emZlLUprWTBNVGNfbWdrZGhBbFh1ZUFyX1pFNDNJajhzSEp1UHdiRnVoSGdkQXJqdDVFRzNaMFVwUnc4SFVyWGNVeVJQRzBlUlJoN0lRLWRCR3BzblBVV2NwazF4azlzcDlwaE1BbmVNN0RVNUxB?oc=5",
+          "description": "Henry Nowak’s killer has sentence extended by court of appeal  The GuardianHenry Nowak’s killer has minimum term increased to 25 years by Court of Appeal  BBCNowak killer’s jail term increased by four",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-05T13:15:00+00:00"
+        },
+        {
+          "title": "Firms told to publish salaries in job adverts ahead of new law",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDcGxaYkhhc1c3TVZuY0tQYUVGcHQxcVltd2k2R3Ezc04tZ0plR3lJVGxuRmotc2Rpa3dkQTI4SUNSVUd6V0tOWDJzZ2lWMUx1T3p3WF9vX1hIN3hOckE?oc=5",
+          "description": "Firms told to publish salaries in job adverts ahead of new law  BBCBritain to make salary disclosure in job ads mandatory  ReutersJob adverts will have to publish salaries, ministers say  Financial Ti",
+          "publisher": "BBC",
+          "pub_date": "2026-11-05T22:32:02+00:00"
+        },
+        {
+          "title": "Murder accused claimed woman found in freezer was alive",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yTFJ3T0dKY0pXdFoyTmhsX1dXOGp4WERWLUVpUG9qVDlVa1NSLS1uaUE2NHg0R3pGY0dzZkg0bDVrbU4yZlRla1ZsS2JxUVY5ZkdKUDNCOGw4MER1TXc?oc=5",
+          "description": "Murder accused claimed woman found in freezer was alive  BBCMan ‘killed artist and kept body in freezer for three years’  The TelegraphMan hid woman's body in freezer for three years, jury told  BBCMa",
+          "publisher": "BBC",
+          "pub_date": "2026-11-05T13:52:18+00:00"
         },
         {
           "title": "Missiles and fireworks 'thrown at emergency crews'",
@@ -649,23 +642,9 @@
         {
           "title": "Man leaps from flat window to survive Bonfire Night blaze",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa18tY0pJRmVjZUt3eTltU3F2MnRwR29DQkRUTkJNWFd2VU50Z0FkaVEzX1gtS1NLMWZ2MDkwZzBodUNYeDBOX010dTRuNDZrNUF0RGFORERhV2h3VWxBZ3VFV0NNNGFGWVJ6bWdlTTF0b1h3MlhON2UxLTgxYklXSVBoLThNc2w4Y09oVTBfbE9aSUNT0gGaAUFVX3lxTE5PWDBpMzJoRDgwTHU0VERrZzM4MzVhdG9pRkZqLWc0Q0QwcHByM2lfZXhXc3pRZ1Zjc1ZqQTJRWmw2WnFVLTM0bmtRM1I5ekdZS0NfaDRGZmNwWExTM25ZU1JwQ2dIZVlHYTB6c1NfVFNGNnpZdGkwTHZKWDlVdGxiTzZ3aEw5a1VvYnBrMDk0SFVDQzc1X1JqbEE?oc=5",
-          "description": "Man leaps from flat window to survive Bonfire Night blaze  Metro.co.ukMan jumps from window after Bonfire Night fire at London takeaway restaurant  London Evening StandardNorth London road closed due ",
+          "description": "Man leaps from flat window to survive Bonfire Night blaze  Metro.co.ukSee more headlines and perspectives on Google News",
           "publisher": "Metro.co.uk",
           "pub_date": "2026-11-05T21:04:00+00:00"
-        },
-        {
-          "title": "Child neglect arrests made after investigation launched into Blackwood nursery",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNT1lSRzhuNVVYT0p0QldsWUlxTDVaQ0hlUWRvZnNIbUVLR1ZWYjhzd0dDSjhUZGxGa3VDNVpHczRoRC1lbmV1TTJiUEhlWlBLdFRXR1RmZ0RjM1p0emF1LS05c0k1RWx3WUlIVFlYZDN2UGhWOUJFXzJuVFFHSE5KWjNTaWN4cEpxYmFnV2c0Z2PSAZYBQVVfeXFMUDZmZmsycTRIZ0JNRm5WRGt0emZyQkl4cS1RcmtmTWNMcUwxUms0VEVoXzdlR2J1MWc5cFp2Y0Q3STV2REt0ZnpsNzB5VTlleF9JWFJjSjZpdkMwZzFJV3IxVmYzaGpsNkpBWGZkMWRUbXFlOXpCbkx4N2wxRzhBaFFnRTZETGRRQ29kRXdfaFpFakljMkFR?oc=5",
-          "description": "Child neglect arrests made after investigation launched into Blackwood nursery  Wales OnlineTwo arrests made following concerns at Blackwood nursery  Gwent PoliceTwo arrested on suspicion of child neg",
-          "publisher": "Wales Online",
-          "pub_date": "2026-11-05T22:11:18+00:00"
-        },
-        {
-          "title": "Wife smeared her faeces in husband’s mouth during row at £1m farmhouse",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaVV4WXJMdmtWNWxyNm85U01yWjZRYW1lNkVrOWxmblN0cURBcDBPald5aFc1QlZaLXRBWmgydE5RTk9NaTlyWFlLREZzRnNjd1VYS2Y5czhPaUZmWFB6d2pBUVhCR202bDVUbjJGVzlId1FEMGFfWG01RGpVZXVUQ255MTdiMlhvd3RhWFI5LUE3SEdJS21aN1JhMktHQQ?oc=5",
-          "description": "Wife smeared her faeces in husband’s mouth during row at £1m farmhouse  The TelegraphWife smears her poo into husband's mouth after saying 'you talk s*** – now eat it'  Daily StarA 63-year-old woman s",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-11-05T16:47:00+00:00"
         },
         {
           "title": "Horror as man seriously injured in stabbing near Middleton shopping centre",
@@ -682,11 +661,11 @@
           "pub_date": "2026-11-06T00:09:56+00:00"
         },
         {
-          "title": "More Mandelson papers set to be published before Christmas",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9JNTVzUEN2TVRvemFNVHIwR3I0YWkxbDB6OHJRUlVoRWh2ai1lS3hxNnNMc3g0ZDUwbm1UQkJxRUo1OHBZeDM3b1BSNGh3Q3daV0pOVktfZlhVNTUyd2c?oc=5",
-          "description": "More Mandelson papers set to be published before Christmas  BBC",
-          "publisher": "BBC",
-          "pub_date": "2026-11-05T20:02:14+00:00"
+          "title": "A 63-year-old woman smears faeces in her husband's mouth after threatening to make him eat it at £1 milli",
+          "link": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxNSFMwdHF4QVFMQXBuSVlaUHRIZzg4RGhvUkczR0t3d3hhTlFwNk9iOEJxOXBRcGdSR1l4aU5HbXRmRVNIZUpXd2luSml4TzVaOUVQX3NFWHNUeXdqeVdkYlFuQjlqMzJDYUlJV0psQ18wdnM0TGZvd2diRGUyWTF3dS1FN3luN3RpY0Y0NEl1WnZiYjYzdDZXUldfdE0xWVJlcTFESXl1VTlidUY0VnFGYWdPcFdUdjZELUJJb0UtMDhNajd1TV8tTVJjQWlpclZMbEFHSjkzT3RoTzdiYXVacWZudXduTXZEeHlla0ZWcXlLZ0RLclQzNGQyOEQ4bnFENUx5dkhWUWluaG9aV0RyZmo2OThHSk1mRG5BMlZlbFZKNGdnNEoxNXZJa0dndHlKTlQ4aDJiU3pXUnB1TU1QZFd0aDZYMHN1ZWdNTU80b0VRSkJfOUloNXk0SFpzdDU2ZDQ2VzNEV2s3Szhua25UZ1d1LWdIajRobS1Gc9IBggNBVV95cUxNRlpQS092eVFUZ29PYkZXYVJXWS1laTdkeUtLNEtPUHFTaDlXWGdNeldRdjFXUDd2bS16SHlJT0NySDNiRy11Y1ZDUERtZU1YXzNOQ1pVVzk0eFRVbjZxcW5wVi1GN015RXRCSDlLUzgySWduWkhTRk1FM3d4ZjZqV0ZKWEZYeEhBaXBLMEtoc2ZtLVVjRzMxTU9Rd2s1T09UTXBsd3FTdFMxZGR6R0ROSXNjWjVHeE9FQmlvbUdQVXFkNG4zQ0pRN1dtSm16RlRVamF0WWhkVmRPZUpiU3YxamtUeVQzcW5iR0tvLXRLQ0VnNkFqWkVMcl9uWVNfRHFaRHZ1bm5NS1NGdjhOWTBoQ1RiZ3BpeWVkVmdGYktYVXhPSjY4TnM0bGVFc2hCQjRkbG9ZTUJ4WmgxdmJRR3dpanBkR0hNdExYMmFjTUliMkF4dFJUa3F3SXRLYnRoWk1QbVQ4UGhGYzBEdHpGWjV5T3l0T3duNGozXzJNd01mbXI1UQ?oc=5",
+          "description": "A 63-year-old woman smears faeces in her husband's mouth after threatening to make him eat it at £1 milli  The Times of IndiaWife smeared her faeces in husband’s mouth during row at £1m farmhouse  The",
+          "publisher": "The Times of India",
+          "pub_date": "2026-11-05T17:24:00+00:00"
         },
         {
           "title": "Empty life raft from missing fishing boat Kilda washes up in Shetland",
@@ -696,25 +675,46 @@
           "pub_date": "2026-11-05T16:58:06+00:00"
         },
         {
+          "title": "Andy Burnham’s offer to discuss formal apology over slavery calms reparations tensions",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRWk3cm9pMmp6ZURlQ0hIMUNxSW93MXEtTkNWTnVvWDBYSThNeE9jdFczYS1uLWhsWkszU3Q3TDZCOWFvWDJIZ05yWGdpZExvcHhsVUU0Mld3bW9GSzE4VkhRQlpJellRQUJZSEdnTDd2RURmRGlJODFUeTNXdUZhLXdSOWs?oc=5",
+          "description": "Andy Burnham’s offer to discuss formal apology over slavery calms reparations tensions  Financial TimesWhat can Britain learn from backlash to Dutch slavery apology?  The GuardianJustin Welby says sla",
+          "publisher": "Financial Times",
+          "pub_date": "2026-11-05T12:21:15+00:00"
+        },
+        {
           "title": "Mahmood’s migration changes may harm women and children, Labour MP warns",
           "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY3UybTdMSGVCeHQ2eHVjYS04SkQ5aGlKY0pyaUdpRkh6MG43THpERUNXeUt4M0h3Nmt5M19CTmhEcUp1QzF3WUp5MmlrRHFWejZLSVB5M2o1dDJBRUtISUN2RkQ0azhxU1BnajVaT2lQa1c0VWhGNGlGVVc5eHpLQWNKNzU3ZTJ2eUpmREJIT1pJQ0NqRGpXc1h0aDZodWJxLXhnTXN3TjRweEJWRmw4bjRoaUZwTTB6YzVvcERCbXNkS0REODZsN0Exa2QwTnZf?oc=5",
           "description": "Mahmood’s migration changes may harm women and children, Labour MP warns  The GuardianHow irrational are Labour’s plans for migrant workers? To find out, read the small print | Frances Ryan  The Guard",
           "publisher": "The Guardian",
           "pub_date": "2026-11-05T13:08:00+00:00"
+        },
+        {
+          "title": "Crowds gather for Lewes Bonfire celebrations",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lQlhXdjRQbHFKWnJfR0tPMEZIa19UUHROLVE0cld5dnA1d2hBQ0t6UFVMcDN1M3dTY2prYW8zY3gwYVNMR2NiRkdNbjA3NWlnOWRsZ2FEbUtOUER5MVE?oc=5",
+          "description": "Crowds gather for Lewes Bonfire celebrations  BBCLive updates as Lewes Bonfire Night celebrations get underway  The ArgusLindfield Bonfire Night 2026: Programme and event details  SussexWorldLewes Bon",
+          "publisher": "BBC",
+          "pub_date": "2026-11-05T21:39:38+00:00"
+        },
+        {
+          "title": "Slashing number of police forces in England and Wales is only option, says Met chief",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVJhS0Roc29Fck10bnVjMlU2U3lYS3VSUjYtbDJ6M05lTFdKV3NxdzlSNGxPMmxFbjd3a3FaT2JBdEdDSFY4NHNxWWM5TmI2WUhTM204bG1SWkRaRzNXNXJIVHlPRnYxLUszcnJHbWR6YkZRM1FLV0lzck5GOFNIR3phaFBBTzJ4Y19VMmx6dlMyT0p6Ui10WjFxSmc2ZG0xMUNr?oc=5",
+          "description": "Slashing number of police forces in England and Wales is only option, says Met chief  The GuardianMet chief warns policing 'heading for failure' without reform  BBCPolice chiefs at war over Mahmood’s ",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-05T13:09:00+00:00"
         }
       ],
       "world": [
         {
-          "title": "Flight bomb threats live: Multiple European planes diverted after alerts reported",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU2hnbkVrTHpka3JzUnJ2emxVRGNVS2xBSlNkdDlicktxZFBfd2FmaDRHd29sRDU0c0UtNGFSSmhMYmVJX08tbDItanA0ZDRtMHllbXUyeC12bG9TX2l3aXpjRVJBM2d4XzR5SzFRejJfeG05LWdCdzVvbndNbjdTWlNHUXlnb25yMGZQdDJ3MWs1bFpoSzNUQ3J2TXI0M2FuajNtQXlnX3NJbnhGYVRHZ3VhSmpBc0lr?oc=5",
-          "description": "Flight bomb threats live: Multiple European planes diverted after alerts reported  Sky NewsBomb hoaxes across Europe disrupt flights as two UK airports also receive threats  BBCMultiple planes diverte",
-          "publisher": "Sky News",
-          "pub_date": "2026-11-05T20:46:56+00:00"
+          "title": "Who could be behind hoax bomb threats to European air travel?",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vSzJhcEUwc0IxejBWV3kzYkRTNXlfN0tOM0NaLW82YmhGazB6YVhOZnZhRmZiRXhOb1RGSGFJbEVISUlYY0dpNUJrZkRNMEh4QXhzaU02TWVCcmVDU1E?oc=5",
+          "description": "Who could be behind hoax bomb threats to European air travel?  BBCSee more headlines and perspectives on Google News",
+          "publisher": "BBC",
+          "pub_date": "2026-11-05T19:58:40+00:00"
         },
         {
           "title": "What happens after the ‘blue wave’? Ask your midterm election results questions",
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSFp0OUlFUzFxUWlidlZNR2VOa3d1NVBKMjlUWTQzQnBmUjA1S0J6a3NvTnBkTG8zSlZwTWVsMTJoUWt5ckFfeVhETDJ6ZnBIcjVqMFdQcVFUc1VBQnE4M1pNa045b09NNDN1a3V5bzlTLVZxbVg2c0dwRzdSbWVDd0lSVlo1ei14S3lHcmppc1R5YjVnZFlDbEQ5R3dwTi1jRWR0cVJQbGsyaE1NNmd4bWJIaGNOcTBGczZsVUV5WGk1eGZueDFLVkdqck1rUUtlX0FReUZsQV8yOERRdnFnQmFR?oc=5",
-          "description": "What happens after the ‘blue wave’? Ask your midterm election results questions  The GuardianFive reasons why Republicans lost so badly  BBC2026 Midterm Election Live Updates: Democrats Clear 250 Hous",
+          "description": "What happens after the ‘blue wave’? Ask your midterm election results questions  The GuardianFive reasons why Republicans lost so badly  BBCMidterm Elections Live Updates: Democrats Clear 250 House Se",
           "publisher": "The Guardian",
           "pub_date": "2026-11-05T23:10:00+00:00"
         },
@@ -726,32 +726,18 @@
           "pub_date": "2026-11-05T19:58:00+00:00"
         },
         {
-          "title": "King has 'no difficulty' with former colonies ditching him as head of state after 'challenging' Caribbean tour",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYzhBLV8tTUREcGJvYUdjUmpmc0dsS1hORl9jeEdxQWdBRTFSTFlwRF9YdTFsSC03VUJXdmstS2pCVXB2aFAzM2Y0bzY3bnZJWmd0bFJtTUlFVmxlUTlMMmVHZEx2TUpHNGNWcEpTTjNVQVFNOGI3WENPOEFHWklOQV9IY3E3aGxySVhJ?oc=5",
-          "description": "King has 'no difficulty' with former colonies ditching him as head of state after 'challenging' Caribbean tour  The SunKing relishes 'politically charged' deployments, Palace aide says  BBCPMs know th",
-          "publisher": "The Sun",
-          "pub_date": "2026-11-05T22:00:00+00:00"
-        },
-        {
           "title": "Trump says he met Putin envoy Dmitriev",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQkIyajduM2t4eXl5eGs0V1hHU0Y2amcxWjM1dmthWmtDekkwV3V5MElyZlpjZFlfOUVENC1fSXJ2S0llMDloc2VJZmktZG5jUWFvMVUwbTJ6VkNuSF9EX0dEdzliNnlzN0J6RlIydnVMVE9sdVNpV3J1VzR0MTdfRk51WVE0dVk?oc=5",
-          "description": "Trump says he met Putin envoy Dmitriev  ReutersSee more headlines and perspectives on Google News",
+          "description": "Trump says he met Putin envoy Dmitriev  ReutersTrump says ‘big, beautiful agreement’ on Ukraine ‘might involve all of Europe’  ITVXTrump says he and Putin are close to a deal about Ukraine and ‘all of",
           "publisher": "Reuters",
           "pub_date": "2026-11-05T21:49:31+00:00"
         },
         {
-          "title": "Marco Rubio ‘on resignation watch’ - report",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1LdDdBTUNwcGhUZTF5bDI2ZVZUWnBBZFlIY2hQV052a3o1MXJLbk93NkhpUnZ3a3NNdmljSExtSzc0WGttcnF6VC1uMGJlTkJHMmtEazFENGQ3TFZ4ZlMzU0tMV21DSFhaTkNJSXFEYlk4bE40NjVfWWJMcw?oc=5",
-          "description": "Marco Rubio ‘on resignation watch’ - report  investingLiveMarco Rubio ‘on resignation watch from Trump administration’ after midterms disaster  The IndependentWhite House denies Hegseth, Rubio will le",
-          "publisher": "investingLive",
-          "pub_date": "2026-11-05T14:11:21+00:00"
-        },
-        {
-          "title": "Inside America’s vicious rejection of Donald Trump and his Republican Party",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMUdOcUVNMDVVVk43bDFCLXFvT3dwcGV5NUJKYnhYd3ZySXJFazFIejZqSWNkcXRTaHIxTDM3ZjNtVWVpTWhNMlZSMUE4c0lyMG5mZTZmUU9qaDR0TDg5U1VZb2FkVXZCUzZoSUdsQXBoenJsU1h3UDc1dzB2WTZTVkNvRl8?oc=5",
-          "description": "Inside America’s vicious rejection of Donald Trump and his Republican Party  Financial TimesDonald Trump’s humiliation offers America an opportunity  The EconomistTrump Now Has to Govern Through a Mid",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-05T14:00:09+00:00"
+          "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpeGFjRlF0Y0VjVElIdnRPb1o3QTROeG9oUFBTbnVFbjBoN3hjaTFWZUdHMUo1OF9RSnlUUDBXQ1YzQ29tTW44UlJjV0xRazZRUmFiR0xVc0duUU8wZ2c?oc=5",
+          "description": "White House denies Hegseth and Rubio to leave jobs after Republican election losses  BBCMarco Rubio ‘on resignation watch from Trump administration’ after midterms disaster  The IndependentRubio Dismi",
+          "publisher": "BBC",
+          "pub_date": "2026-11-06T01:31:05+00:00"
         },
         {
           "title": "Suspected grizzly bear attack kills mother and daughter during short walk close to home",
@@ -761,6 +747,20 @@
           "pub_date": "2026-11-05T08:22:00+00:00"
         },
         {
+          "title": "Inside America’s vicious rejection of Donald Trump and his Republican Party",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMUdOcUVNMDVVVk43bDFCLXFvT3dwcGV5NUJKYnhYd3ZySXJFazFIejZqSWNkcXRTaHIxTDM3ZjNtVWVpTWhNMlZSMUE4c0lyMG5mZTZmUU9qaDR0TDg5U1VZb2FkVXZCUzZoSUdsQXBoenJsU1h3UDc1dzB2WTZTVkNvRl8?oc=5",
+          "description": "Inside America’s vicious rejection of Donald Trump and his Republican Party  Financial TimesDonald Trump’s humiliation offers America an opportunity  The EconomistTrump Now Has to Govern Through a Mid",
+          "publisher": "Financial Times",
+          "pub_date": "2026-11-05T14:00:09+00:00"
+        },
+        {
+          "title": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlJZVlphdWhPcDNGc1E5eDVNdDdMQkJNTXVDS0RYSVRqaC1tblFqQy1FekRQdldnV0FsMU5RdnVHNEI3UEZWMC1MY1l5cnRtcjBlcDlpUXdvX0hXbV91S1UxajV1TEx1VmJ2SzNLNElXSjc3YkdmYWw4VGNXZEl5NXR4RFNjRXBxeEZMLWpBT1Z5X2JRc3NEdkdMZDljQ0dkZXZRbzc3U1NmNkhnaFN5QzNhVmRzSmhsM0Q5VzU3Mm11OWZBa3M1V1lvaw?oc=5",
+          "description": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters  ReutersLive - Trump threatens further destruction in Iran, says ‘you’ll know soon enough’  Iran InternationalIran",
+          "publisher": "Reuters",
+          "pub_date": "2026-11-05T21:23:10+00:00"
+        },
+        {
           "title": "‘Melania Ceasefire’ Gave Russia Excellent Cover to Reinforce Troops",
           "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5fTlJoRTBwWlZWQmpLU3ZDQi1TajVZaFdLbkJ4YUtwb0hmSVhtRjVXVHNFWEdVV2dtNEZ1c280OUlBYUhkcjVHNVNPdw?oc=5",
           "description": "‘Melania Ceasefire’ Gave Russia Excellent Cover to Reinforce Troops  Kyiv PostHow Melania Trump Became a Dark-Horse Diplomat on Ukraine  The New York TimesOleshky Ceasefire Demonstrates That Russia Ha",
@@ -768,16 +768,9 @@
           "pub_date": "2026-11-05T15:26:51+00:00"
         },
         {
-          "title": "Italian PM rebukes multiple negotiating formats to Ukraine peace talks",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPS1E4ZFVDNElQM2VzTDc1b2RQQnljUm5ibzZlRG82QzNmWm1VRHAyOW9QQ2lRVzJhdnJHdXUxdmR1a1YxdmM2RWFwNUFSc3BmbEFkNUhCM1QyWDk3Wjd1WUVmV2JwYTVReGNQOUU3MmoySDBpZU85eUhPUG1GaTh3QjM1eEhfM0w0NXhMLXdWaDgwdFBiTnBDTDVuNGFBbWRq?oc=5",
-          "description": "Italian PM rebukes multiple negotiating formats to Ukraine peace talks  Euronews.comGiorgia Meloni hits out at EU’s ‘disjointed’ approach to Ukraine talks  Financial TimesMeloni urges ‘disorganized’ E",
-          "publisher": "Euronews.com",
-          "pub_date": "2026-11-05T14:52:47+00:00"
-        },
-        {
           "title": "Joint List says it will back Eisenkot to form Israel’s next government",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT0tGNF9sdWRvb09kYkVWTkZrRXd2MElfc2U4WUpDQ3BYSzZUR0tueGxnMU1QQ1g3Zm5CSU1RVFplTmpVYnhUNjloVmhMdTAtZkhHX1p3dU8tVVZqbHVHUGxrQ21oRVc3SkZmcU5hbVNOVnVWRmxyX2kxMWZ2OEs0X2xnb2ZJRUk4am5RSUZtU3dEbTFpWHBuWEgwbWpvSHZ5M3NFbElVMDRFZEh6ZGNZ0gG0AUFVX3lxTE8zeE5FYkJzZ0h0QU9makNoX0U5ODh0Tl9tQVhxY1ZsZlJnZjFlMzN0UkxpSlV4MWNySWJic2F5TTBpUU1OUEtGSWJHUDRVbzEwdXo3WXZyMzV5emstMVRUeXUyV3ppU1JTRmYyOEN6b21xc3BIT0Y5bFFPbjd0WlBWaTlMYkFxdGlZcWRrWEd5WVNoZVBRMDlxNUJVcUVsY1dzMHJPcUNxOUVzSzA3RmF1ZXdBTw?oc=5",
-          "description": "Joint List says it will back Eisenkot to form Israel’s next government  Al JazeeraIsrael’s Herzog yet to decide on who should form government as Eisenkot secures significant backing  The GuardianIsrae",
+          "description": "Joint List says it will back Eisenkot to form Israel’s next government  Al JazeeraIsrael’s Herzog yet to decide on who should form government as Eisenkot secures significant backing  The GuardianEisen",
           "publisher": "Al Jazeera",
           "pub_date": "2026-11-05T16:37:45+00:00"
         },
@@ -789,46 +782,46 @@
           "pub_date": "2026-11-05T16:58:16+00:00"
         },
         {
-          "title": "Trump reportedly told Miller to rein in deportations after Melania complained",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWDRUanJnbXZVRjhELTBCaTdCQzNWd0g1OFZKeEZPWEswTUwyZmtaSmxGRk5qaHJjTHR5M1ZKZDl4Q2dHSFhxbVk5LUIzVlk0UWdiSFdjenIyU2RFakVFY3ZyeTRYcjJDeElfSXFSZnI5ZE5YYlRBWENVcEc3MUdSZnJId19jendjUHhsUERpUWkyejU0VC1qeG9BbW5jSlJOaVl5R1VB?oc=5",
-          "description": "Trump reportedly told Miller to rein in deportations after Melania complained  The IndependentTrump lashed out at Stephen Miller for going ‘too far’ with deportations after Melania complained: report ",
-          "publisher": "The Independent",
-          "pub_date": "2026-11-05T16:17:00+00:00"
-        },
-        {
-          "title": "What challenges will the Pope face on return to his stomping ground?",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ2hRLTFfTkFXODR0elc2NnJmcExTNW5hQnZPUmp6a0x0MUd6aXNUQmRVVFRhd3NTWTNNR2tsZFlUMDBUVDlrMGVwXzZ5aEZuN09NVkpRU1pZMmMwREN5bUdfd0V3M0dQdnFZUEFMal9MTE12LXotZkJhajl4LUFFcG8yd1o0VDBPa3B5V1R3WUhtZnBhLUF5bV9DQlM4WV8ta1RJQ05raGpDWENsdjRnWjIydHBfM2hWMkVwV1M4V0JHdk91ZVAzR3l3?oc=5",
-          "description": "What challenges will the Pope face on return to his stomping ground?  The TimesPope begins lengthy trip to Latin America weeks after lung cancer surgery  BBCCan the pope’s tour of Latin America win ba",
-          "publisher": "The Times",
-          "pub_date": "2026-11-04T20:00:00+00:00"
+          "title": "Car makers win reprieve as EU eases 2035 emissions rules",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWEVtdXRMV25wbExWTGhJUngtaTdGLVVSSFVjUF9hcjdIbDhoWXlkSHZyLWNKVEJ1OHR5d0RFek90MHJTczFQZFJ3bVR2YkdtXzJPYk1SN0dIQW9XVEJMRk81U1I0UDZoc0VGY2ZKU2NNbVY3aGJabXB2SDcyRVRPcE1hQTZvclFmUk1KNC1FTGJSd3dXR1paRW4zd1hfdw?oc=5",
+          "description": "Car makers win reprieve as EU eases 2035 emissions rules  AutocarMEPs back further weakening of 2035 car emissions targets  Euronews.comEU lawmakers vote to further ease CO2 emissions targets, offerin",
+          "publisher": "Autocar",
+          "pub_date": "2026-11-05T15:51:52+00:00"
         },
         {
           "title": "Gavin Newsom commutes more than 500 death sentences in California",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaGNya1ZEYWJfUmVFNWs5Zk5laXk1TkluS1ZnQ3lrbUtZZWg0TGxpaVdPNUdxTjNJbkdNcWZFSXRiRWVQWGphVk8yQTNGWFlIR0M5VTU0STRqWE4wM1VCSXNhOFNOMmdpeXFkODBDdHpXWk83Z2xBS2ZxUnZvMzdhM3dKQmlkVjZWTTU0ZTN4ZmZqNW8ya0t5S21Va3Q?oc=5",
-          "description": "Gavin Newsom commutes more than 500 death sentences in California  The GuardianCalifornia governor commutes sentences for state's 548 death row inmates  BBCCalifornia governor commutes sentences of mo",
+          "description": "Gavin Newsom commutes more than 500 death sentences in California  The GuardianCalifornia governor commutes sentences for state's 548 death row inmates  BBCNewsom commutes sentences of all California ",
           "publisher": "The Guardian",
           "pub_date": "2026-11-05T19:28:00+00:00"
+        },
+        {
+          "title": "Trump makes desperate push to erase his 34 felony convictions after midterm blowout",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUHRKR0VDaXlydVpRUkYxVTIxSmp2WUdZckNSLWZxTklZbzF2amJRR2FHRFNGeGdrY3ZOT2FDQkU3NlRQWGRDcWtlSlZkSWFQMTc0aTRoZnB4c01lT1U1U0luV25UNTJ0ZEdEQmM4cWEwR1AtQzJXNjdiNFZ4ZmpkQ3c0RFFRQW9wcm12b1FOZXBOQnIxdERUQk9fTGVNRnpRRi00YnNKd05oekxRamVReFJaRjE?oc=5",
+          "description": "Trump makes desperate push to erase his 34 felony convictions after midterm blowout  The IndependentTrump tries to get 2024 conviction in hush-money corruption case thrown out  The GuardianNY judges a",
+          "publisher": "The Independent",
+          "pub_date": "2026-11-05T09:48:00+00:00"
+        },
+        {
+          "title": "Zelenskyy says 40 now confirmed dead after ‘insane’ Russian attack on school – as it happened",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOenFOcjctazRyRGxkOWNjcmRrWE1HeXFkc2FidURjRHl1RC1fZUFSVW9XNHVhLXhibVJ4SGtYV1p4X29yc1BQd3hPeHYxaWRjU0dyTldHbjFhbFc1Nk5FV3YwM096LUtqMTFJRU1RRWt4cXhKVUdvSUp6UlljNVIzZjRNQlNKVEk1Y0RvclpzRnhPZmFoMjBlbWJTcTAtQkhJcVozR0QyUFl0dTZUck5N?oc=5",
+          "description": "Zelenskyy says 40 now confirmed dead after ‘insane’ Russian attack on school – as it happened  The GuardianUkraine says bodycam video shows deadly Russian double-tap bombing  BBCRussia attacks Ukraini",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-04T09:05:00+00:00"
         }
       ],
       "business": [
         {
           "title": "What does the UK interest rate rise mean for homeowners and savers?",
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUWRsU2ROT0xOSC1ta1hMZjJpbElYU3VZYzl5ZXBKS2VVR1ZyMnBmSldSOWVGWjZja1o1X0RKNnJBUjFlSkJZYUhaWHpFaG0zNEdVRk9WMjJVTld5SXNORWxhZm1VRXdrRXl4c1d5cWRaWW9Yc0VYTldscHdFb0szSlBFWXpPRjk5SXYwTTV5eXpua3IwYTFBbzJxV1VVSlFWUXFaSWk2VjUxWloyeEJEZUVJNnlEd2xnNlE?oc=5",
-          "description": "What does the UK interest rate rise mean for homeowners and savers?  The GuardianToday’s UK interest rate rise unlikely to be the last unless Iran war ends; Wall Street slides on AI fears as ‘panic se",
+          "description": "What does the UK interest rate rise mean for homeowners and savers?  The GuardianBank of England raises interest rates to 4%, the first increase in more than three years  BBCToday’s UK interest rate r",
           "publisher": "The Guardian",
           "pub_date": "2026-11-05T16:43:00+00:00"
         },
         {
-          "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvYkNEeG5DcGF1TlFVak11d0VKcXJqVlZqQ0xCdzJqSjZoQkR4S2hQX3dqaDNjNk5XYTRHWDh1QmpIT2lSMGNOT3lidlpGWVIwYnJacVppXzhOUjhBdEE?oc=5",
-          "description": "Major tech stocks plunge as US midterms add to fears of AI slowdown  BBCSee more headlines and perspectives on Google News",
-          "publisher": "BBC",
-          "pub_date": "2026-11-05T16:44:38+00:00"
-        },
-        {
           "title": "Trump blames Midterms as US stocks plunge on worst day since Covid",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcFdiLVktQVNqckQzODB6YVFlOHJaeWZTY1FMN0U1UXNDZDZ1SWFjanRUSEd4SVh4dTVzcmR5aXVLVmtDc21HWk9Ja1BFc0hDNERKZFplTW1qV3VhTHVERkRGdl85cURVYmZwbWJtM3JfWm0tVHRvLVlOLVIxY0haY28xS1JPMGFsLWRoZ3ZQUGtxMzh3RVJMZnA2MGtUMk5PTmZ1Y0RHNXc?oc=5",
-          "description": "Trump blames Midterms as US stocks plunge on worst day since Covid  The TelegraphTrump Points Finger at Democrats Over Massive Market Losses  Bloomberg.comTrump Blames Dems For Causing The Stock Marke",
+          "description": "Trump blames Midterms as US stocks plunge on worst day since Covid  The TelegraphMajor tech stocks plunge as US midterms add to fears of AI slowdown  BBCNasdaq sees worst day in 18 months as investors",
           "publisher": "The Telegraph",
           "pub_date": "2026-11-05T22:47:00+00:00"
         },
@@ -840,18 +833,18 @@
           "pub_date": "2026-11-05T11:14:00+00:00"
         },
         {
-          "title": "Will Democrats stall the AI boom?",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZC1ETzJ1LWF3ODU0Z0J4VjJUX0JnRmV5b1NTRXoyckptSEFBbGpYTDJGUHBIZEVKWkMxcF94YmJGV1U5ZzZXdTRaVEZ0ZzJJQ3FWZVQ5TWFJWnFuTjdOb3MwLVdWbXBCSC1sMXdpR0ctbWlvcGJRZ0czQmtZLWhSNjlwZnM?oc=5",
-          "description": "Will Democrats stall the AI boom?  Financial TimesSome 40% of US Planned Data Center Capacity Is in States Wanting to Hit Pause  Bloomberg.comDatacenters were on the ballot. US voters rejected them  T",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-05T20:28:44+00:00"
-        },
-        {
           "title": "Burnham set to close North Sea to new oil and gas drilling",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUHVBazdXUzRzbW5oaTkxQk0xdEVmV3BUcm1XUTgzSXZkT1ZDb1ZnVVd2cWplaUdxZlVUdnp2cnZnZ1ltSl9JUkxnR0NRYTgzTVk5SjFNMjlTODlPamIzREk2a1dyeTdtbnNOb1VObEVtVkw4QUlQYk80UFJrMndKQ1pEWFdNNHVOclJFMS01MThacVBKZzQ2Y29Jc1E4V0h5b1E?oc=5",
           "description": "Burnham set to close North Sea to new oil and gas drilling  The IndependentUK government to outlaw new North Sea drilling  BBCLabour MPs call North Sea drilling stance perverse and hypocritical  The T",
           "publisher": "The Independent",
           "pub_date": "2026-11-05T12:35:00+00:00"
+        },
+        {
+          "title": "Will Democrats stall the AI boom?",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZC1ETzJ1LWF3ODU0Z0J4VjJUX0JnRmV5b1NTRXoyckptSEFBbGpYTDJGUHBIZEVKWkMxcF94YmJGV1U5ZzZXdTRaVEZ0ZzJJQ3FWZVQ5TWFJWnFuTjdOb3MwLVdWbXBCSC1sMXdpR0ctbWlvcGJRZ0czQmtZLWhSNjlwZnM?oc=5",
+          "description": "Will Democrats stall the AI boom?  Financial TimesSome 40% of US Planned Data Center Capacity Is in States Wanting to Hit Pause  Bloomberg.comDatacenters were on the ballot. US voters rejected them  T",
+          "publisher": "Financial Times",
+          "pub_date": "2026-11-05T20:28:44+00:00"
         },
         {
           "title": "Vlad's mouthpiece denies claims Russia orchestrated attacks on supermarkets",
@@ -861,25 +854,18 @@
           "pub_date": "2026-11-05T13:35:00+00:00"
         },
         {
+          "title": "Oil tumbles below $100 on post-election peace hopes",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWUloVnNnRl9TUnU0YzZvekNibnNSTGVjQ1N1d2pNRHBHSWwta2tra0N0MDdsYkNNT3FIbGV1cW5oMDgxVWk2RVVpcEpQaUkzTXpvaEVEd0FRSW50MUFvM0dNYnZhbzZodmtZQUJsYzJQOF9MeVFJSkRVb1dYVUVUbmlGM18?oc=5",
+          "description": "Oil tumbles below $100 on post-election peace hopes  Financial TimesPODCAST: Oil heads for pandemic-era fall  ReutersOil Prices Pick Up as Market Mulls Over Prospects for Middle East Settlement  WSJOi",
+          "publisher": "Financial Times",
+          "pub_date": "2026-11-04T17:15:23+00:00"
+        },
+        {
           "title": "Andrew received up to £2,000 per month from sub-letting, watchdog reports",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MWnc4WUJFZXF3SVNQdmRPRnJ1cXlCSzJlbTQyZ3NpUUVEcTM2VENnTFRfNDRoejR5UjA3S1FxRThJTW5GOHBYdXYyTXlITUdCeFIxTGY3Y3dsX09TVHc?oc=5",
           "description": "Andrew received up to £2,000 per month from sub-letting, watchdog reports  BBCSee more headlines and perspectives on Google News",
           "publisher": "BBC",
           "pub_date": "2026-11-06T00:39:18+00:00"
-        },
-        {
-          "title": "'Devastating impact' as RAF Fairford loses air show",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LcTdLNFE0bW1ueDh6VHJpbEpTN3FqMWI5N2tUOG1KWWFjQ2I0RkJqem1ZNWQ0RDhTUnB5Mkd2eUNHWkdFTjJuQllhNEN3VUlVRk9SZU9CNmhSTmx4eHc?oc=5",
-          "description": "'Devastating impact' as RAF Fairford loses air show  BBCAIRSHOW NEWS: Royal International Air Tattoo moves to Boscombe Down  Flightline UKAn exciting new chapter: Why RIAT moved from RAF Fairford to M",
-          "publisher": "BBC",
-          "pub_date": "2026-11-05T18:18:45+00:00"
-        },
-        {
-          "title": "Oil tumbles below $100 on post-election peace hopes",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWUloVnNnRl9TUnU0YzZvekNibnNSTGVjQ1N1d2pNRHBHSWwta2tra0N0MDdsYkNNT3FIbGV1cW5oMDgxVWk2RVVpcEpQaUkzTXpvaEVEd0FRSW50MUFvM0dNYnZhbzZodmtZQUJsYzJQOF9MeVFJSkRVb1dYVUVUbmlGM18?oc=5",
-          "description": "Oil tumbles below $100 on post-election peace hopes  Financial TimesPODCAST: Oil heads for pandemic-era fall  ReutersOil Heads for Steep Weekly Loss as Mideast Peace Prospects Rise  Bloomberg.comOil P",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-04T17:15:23+00:00"
         },
         {
           "title": "UK electric car registrations surge 54% to capture third of market",
@@ -896,11 +882,18 @@
           "pub_date": "2026-11-05T09:05:11+00:00"
         },
         {
-          "title": "A&O Shearman invests $1.1bn in AI",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTU16aTNYUDI3T3lld2FUc2JLSzNGbzg1aWl2cTNsTktBb1c1a1JxeGNGR3FvQjdwd0NTSGtFdlNZQ2E4dHJXd2ZVVDR5RmRORUFyUnd6NktCaVZKZ2dLZWZPa0lOM2VhMXF2UHJYcUIyRUd0VldZNDlJbWgzREstcHBNSzc?oc=5",
-          "description": "A&O Shearman invests $1.1bn in AI  Financial TimesA&O Shearman invests heavily in AI strategy  Solicitors JournalA&O Shearman lawyers set to sacrifice billable hours to build AI tools  City AMA&O Shea",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-05T05:00:16+00:00"
+          "title": "'Devastating impact' as RAF Fairford loses air show",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9LcTdLNFE0bW1ueDh6VHJpbEpTN3FqMWI5N2tUOG1KWWFjQ2I0RkJqem1ZNWQ0RDhTUnB5Mkd2eUNHWkdFTjJuQllhNEN3VUlVRk9SZU9CNmhSTmx4eHc?oc=5",
+          "description": "'Devastating impact' as RAF Fairford loses air show  BBCAIRSHOW NEWS: Royal International Air Tattoo moves to Boscombe Down  Flightline UKAn exciting new chapter: Why RIAT moved from RAF Fairford to M",
+          "publisher": "BBC",
+          "pub_date": "2026-11-05T18:18:45+00:00"
+        },
+        {
+          "title": "US stocks rise, dollar slides as investors digest Democrats’ midterm victories",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWHBXeHhrYVhzSEt6VXgyZHNpYm9aSjJqaVpvZy1XX0I0VXJLMjFwUUczWkRNeE5mSktyeURtT2h0YnpndldCZHNHQlIzM01ydExEVnVVVjZkdWRZWTVSOTVUM05QOEh0bEIyS1loeFBpVE5HQXJoanJjTHQ3ODlzdEE2dUdFQ2YxRC12UEU3cjRDZ2xVc09Tb09NOWxPNWtoNllZWlR6ZXBsSDFWaFE?oc=5",
+          "description": "US stocks rise, dollar slides as investors digest Democrats’ midterm victories  The GuardianStock market today: Nasdaq plunges 5% amid chip stock wipeout, Dow and S&P 500 erase post-election rally gai",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-04T09:55:00+00:00"
         },
         {
           "title": "Forco is the new name for Mace Construct",
@@ -908,6 +901,13 @@
           "description": "Forco is the new name for Mace Construct  Construction EnquirerMace Construct unveils Forco identity  Construction NewsMace Construct to change name to Forco from January  BuildingMace Construct rebra",
           "publisher": "Construction Enquirer",
           "pub_date": "2026-11-04T11:04:37+00:00"
+        },
+        {
+          "title": "A&O Shearman invests $1.1bn in AI",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTU16aTNYUDI3T3lld2FUc2JLSzNGbzg1aWl2cTNsTktBb1c1a1JxeGNGR3FvQjdwd0NTSGtFdlNZQ2E4dHJXd2ZVVDR5RmRORUFyUnd6NktCaVZKZ2dLZWZPa0lOM2VhMXF2UHJYcUIyRUd0VldZNDlJbWgzREstcHBNSzc?oc=5",
+          "description": "A&O Shearman invests $1.1bn in AI  Financial TimesA&O Shearman invests heavily in AI strategy  Solicitors JournalA&O Shearman lawyers set to sacrifice billable hours to build AI tools  City AMA&O Shea",
+          "publisher": "Financial Times",
+          "pub_date": "2026-11-05T05:00:16+00:00"
         },
         {
           "title": "Birmingham Frankfurt Christmas Market 2026: What you need to know",
@@ -933,13 +933,6 @@
           "pub_date": "2026-11-05T12:09:21+00:00"
         },
         {
-          "title": "Apple turns iCloud into spy cloud, will start looking at public share links",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeFZnV0NYNnk1cWxsRC0zYmU0WDV5Nmp1aWpvcEdjOUNLSUVyLW1nUHlTaTRNX1kteVozSmk1bExHX05EOHFKNjlYLWhyZl9OZTNsXzVsZ3FlVFdSMWdhWmFaZkNkTHp6U3BqU2pDRGtxVG9GRFA2OHNiS0lxd1loVl9ySTN6T2VCS1BwNkNhMHR4ZC1Ici1lUVVXZ0tQaldNSzYyRWtGR1lyYjJyTFVXdnZxalRXaHZva251OUxWU1Bsam1iS1J1SDhn?oc=5",
-          "description": "Apple turns iCloud into spy cloud, will start looking at public share links  The RegisterApple Is About to Start Snooping on Your iCloud Links  GizmodoApple Will Start Scanning Public iCloud Links But",
-          "publisher": "The Register",
-          "pub_date": "2026-11-04T21:49:38+00:00"
-        },
-        {
           "title": "Bring Khazalite might to armies of Order with Regiments of Renown",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT1JzbGtFNENzd2ZKY3JuSlJCNEdMeS1ES3o1UzZjV0NJYXVCMzd1bVdFSnJVZU1HMVNmV2lKcnJMbGZlQVBNR2E5REhLU1F5VnJ3dldOUElkSEJsbW8xS0psRjFNOVJ3STg4N05BbUQwdEctVUkwMy1FVndndFJ2eU9meHRUU1dBSklSdnVBRmxrQkpHQ2pRaUV4anU2RVkzSDhWYS1mQkw3UGhSR2lSX1o3NVQyVEh3Q2x6aFB6NjhFYVRu?oc=5",
           "description": "Bring Khazalite might to armies of Order with Regiments of Renown  Warhammer CommunitySee more headlines and perspectives on Google News",
@@ -961,18 +954,18 @@
           "pub_date": "2026-11-05T16:02:37+00:00"
         },
         {
+          "title": "Sony brings back the original Walkman headphones with USB-C - GSMArena.com news",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNTVmRWZHUXhHYUNKREdSUEhBSV96VmFjOTNmUDRJU3VVamlrbkVOeUtwRHpPZzU2Q1BLajE4NGMzV2wwMk9wV203OEZTdFJieGNkOHk3VkZTVzRKYU9LUWRhcHE5V0l5SjdmTDZtekJBZnFrN2Q0eDBwZlRHT2hUMEJaVGJNamhqSk5DeGxnSld1eFFPN29YWnNub0RhVTTSAZsBQVVfeXFMUHZFSmowX2djMzBoVmRpQWhyWWpPblM5blJqdnNBLV9jZ01RUzczUzU4R2hfYUtUQ2JOUXlMVWZhaTJPdDI0Rjk5SDY2aEFsODI1SWYxQU9IZ2FYYmplZU54Y0RHSlU0UW9ZSVo3c0RxbktwdjBQZG1oSWo0WUx4bmRFcExkbGFZU0RDUE5YQmZ2MWhVY3JhN0FEbjA?oc=5",
+          "description": "Sony brings back the original Walkman headphones with USB-C - GSMArena.com news  GSMArena.comSony Debuts $60 Wired Headphones With ’80s-Inspired Design  Bloomberg.comSony’s new MDR-3R wired headphones",
+          "publisher": "GSMArena.com",
+          "pub_date": "2026-11-05T20:31:02+00:00"
+        },
+        {
           "title": "Inside the most expensive apartments in Britain",
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU09qMkhuOXo4alZVTHJNbV82ZV9lb0dSbVJqTXptMmRib0xrS081VHEwYzJSeVpnTHRpSXZVNzgzMTh5cEdxcmNaeG9KQzRobkhrY21idGZTa0ZmWHBfbEpEYzVjSnRYdEI4N0FCWGpPOHhEbmNJWlRhOGJmTmo4Qy1menRPUDdkcUk5S01CdjNJeGZPazEtdzdnbXVqVDYwS0ttdXF2dGlGMHJvR05YV0hZN0x0R19Dcnc?oc=5",
           "description": "Inside the most expensive apartments in Britain  The Times",
           "publisher": "The Times",
           "pub_date": "2026-11-05T15:00:00+00:00"
-        },
-        {
-          "title": "Sensor Tower: GTA 6 pre-orders almost reach 8m, 74% bought on PlayStation 5",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVzdyU3hCaWNvc2RjM2VTOW1fY0RTZm8yU0IyN09YOWZtOHBWYXlEX1g5d28xN2tROFJvOWJYQnZtdFoyRnlYMmpzTjBuVUpxR0x1NF9HaG9EdXp1ZENsd0dldldBMG9VaERoSzg4Z2k5aWxRNE5ZbXRrdGhjSkhPczZZTzYtOTVtTnNkRGtYVDJEQVNEMlNzMDUyTWlMUUNiTnlCaQ?oc=5",
-          "description": "Sensor Tower: GTA 6 pre-orders almost reach 8m, 74% bought on PlayStation 5  GamesIndustry.biz$750 Million In ‘GTA 6’ Pre-Sales Will Soon Pass GTA 5’s Entire Launch  Forbes‘Grand Theft Auto VI’ is gam",
-          "publisher": "GamesIndustry.biz",
-          "pub_date": "2026-11-05T14:13:50+00:00"
         },
         {
           "title": "Nintendo game sales surge thanks to Tomodachi Life: Living the Dream, but Switch 2 hardware suffers big decline",
@@ -982,11 +975,11 @@
           "pub_date": "2026-11-05T11:56:40+00:00"
         },
         {
-          "title": "Here's Another 30+ New GTA 6 Screenshots To Drool Over",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQakQ5cnJZRDFDdGIwNDJvTkZGYTRzUHhzeEF6NlZieGF6NTBaNndtb2tDcHc0YkFoQ1dFVlpCMzVDUDh4dmlLUVpqMnBSZmFXN193Nk1VWFE1RkYxVEh1VWZEckN1TURKTGxodEZMVHQtUlp0bFpCZ1IwQTFBeGlxN3A1N1FZRVBad1ZxR1FkR0d2WmM5RjVWa0Z3?oc=5",
-          "description": "Here's Another 30+ New GTA 6 Screenshots To Drool Over  Pure XboxExplore the Grand Theft Auto VI Launch Gallery  Rockstar GamesGTA 6 Looks Pretty Realistic, Until It Comes To Gym Etiquette  GameSpotRo",
-          "publisher": "Pure Xbox",
-          "pub_date": "2026-11-05T15:50:00+00:00"
+          "title": "Sensor Tower: GTA 6 pre-orders almost reach 8m, 74% bought on PlayStation 5",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVzdyU3hCaWNvc2RjM2VTOW1fY0RTZm8yU0IyN09YOWZtOHBWYXlEX1g5d28xN2tROFJvOWJYQnZtdFoyRnlYMmpzTjBuVUpxR0x1NF9HaG9EdXp1ZENsd0dldldBMG9VaERoSzg4Z2k5aWxRNE5ZbXRrdGhjSkhPczZZTzYtOTVtTnNkRGtYVDJEQVNEMlNzMDUyTWlMUUNiTnlCaQ?oc=5",
+          "description": "Sensor Tower: GTA 6 pre-orders almost reach 8m, 74% bought on PlayStation 5  GamesIndustry.biz$750 Million In ‘GTA 6’ Pre-Sales Will Soon Pass GTA 5’s Entire Launch  Forbes‘Grand Theft Auto VI’ is gam",
+          "publisher": "GamesIndustry.biz",
+          "pub_date": "2026-11-05T14:13:50+00:00"
         },
         {
           "title": "Nier: Automata’s latest update increases game size from 50GB to 366GB",
@@ -1010,6 +1003,13 @@
           "pub_date": "2026-11-05T18:30:00+00:00"
         },
         {
+          "title": "Here's Another 30+ New GTA 6 Screenshots To Drool Over",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQakQ5cnJZRDFDdGIwNDJvTkZGYTRzUHhzeEF6NlZieGF6NTBaNndtb2tDcHc0YkFoQ1dFVlpCMzVDUDh4dmlLUVpqMnBSZmFXN193Nk1VWFE1RkYxVEh1VWZEckN1TURKTGxodEZMVHQtUlp0bFpCZ1IwQTFBeGlxN3A1N1FZRVBad1ZxR1FkR0d2WmM5RjVWa0Z3?oc=5",
+          "description": "Here's Another 30+ New GTA 6 Screenshots To Drool Over  Pure XboxExplore the Grand Theft Auto VI Launch Gallery  Rockstar GamesGTA 6 Looks Pretty Realistic, Until It Comes To Gym Etiquette  GameSpotRo",
+          "publisher": "Pure Xbox",
+          "pub_date": "2026-11-05T15:50:00+00:00"
+        },
+        {
           "title": "Samsung UK drops prices of Galaxy S26 phones by £250, Z Fold8 price by £100 for Black Friday - GSMArena.com news",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQndKZ0VKZ19TeHNCQWtfUV82SFB1TUhPamI4dUU2VHFPUkZiZUlMX3NCeEtyU0hDbVdDOUtmQzIzbDVwdS1rVFBYQl9PbFdOYXlOdmxvQ3ByQktYUUZQa0tvMGctRndWN2g4bWZGSzZwSnJOemZPWFRKTDg2QmZ0bnBTUG9Ed0dNNnlqWllrNTJNUWVvUTByVDdoNUpjZHlFdHlGQ2QxQnB4dG1YVGMxVTI1aGhZcV8yRm1vZERFUUgzYUxkT1kxY9IBxAFBVV95cUxOcnNjUnBBOGNVdGtUa1B4MUlscWNfeUtBZUNSMHlncDBpRXZnZ2RwamdUalR0RkJycE5iOHpmWWZVVjZKbVpuekQ5cnBNWXd0QlBjM3pjNnVXUGNyUjhUblhVVTRNMGI4UzZRZFl6eUlwV3BScEtQM2lCWWh0NUhQM0NuMGtFOTg4S0ppRkxyV1pKSlVPM2xvX0RrVlBhWDV0OWFkQmR0RDN4cmhEQ1F0d0dlTExrVG95M0l4eVl5ZFVBQTJR?oc=5",
           "description": "Samsung UK drops prices of Galaxy S26 phones by £250, Z Fold8 price by £100 for Black Friday - GSMArena.com news  GSMArena.comSamsung Black Friday Deals 2026: Which Deal Is Right for Me?  samsung.comW",
@@ -1017,20 +1017,20 @@
           "pub_date": "2026-11-04T15:47:02+00:00"
         },
         {
-          "title": "Sony revives its classic 1979 Walkman headphones for modern listeners – with a surprisingly affordable price - What Hi-Fi?",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTTVrVThKN0g4cFY5eUhjYXlqS2c2VnJJQUlGQkxJSHktSTQwc09kN05pMWVKWkZZY3YwRWd4c0c2VU5FdGJ1dnVOamZSWjdQcVpsdWNpVkZVTGhvR21KeWM3QW43TnpFMG9BUTNHeEZmTWFnRGNrd0NDVU5xbWFKNTMyRHViV2JrcUNoUjRCcU90TXNueTVvU19MdWQyNVZlcWFvR0JoSmIxM2VJdmlWVWx3ZEhOLTNMWWZqOWE4em51NXJNZHNKLWZCTUJVSkYxVFB5b3diMXA4UjgzN3FrR3lsQU9odHRyODhkZVdPdU0?oc=5",
-          "description": "Sony revives its classic 1979 Walkman headphones for modern listeners – with a surprisingly affordable price  What Hi-Fi?Sony Debuts $60 Wired Headphones With ’80s-Inspired Design  Bloomberg.comSony’s",
-          "publisher": "",
-          "pub_date": "2026-11-05T16:00:00+00:00"
+          "title": "Motorola's New Signature 27 Phone Has a 12,000-Nit Display, 200MP Zoom Camera",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbEJDdnVCRnF1LTVxQXV4QXdoX0RWR21yeDBjdlJxLVE1Z2JjRkZlZFVIUmFyX0NfOHd3bEVzcW5pY244VWYzeVJGUUM2WEVTRHYzR2tiRjhsSUZQVXFaRDFIRkRfRHpuMmo2TjJUaXBUWi10YkktTnBNVmdsMkNqbnZMNjJpbTZlcFQ0NlNfUEtCNEdQUU9KNlBtdGpodnhhV1lzcndoME1tMk8wdy1SWU9zUEU4MHM?oc=5",
+          "description": "Motorola's New Signature 27 Phone Has a 12,000-Nit Display, 200MP Zoom Camera  PCMag UKMotorola’s $1,600 Signature 27 Is Throwing Every Ultra-Level Phone Feature Together  Yahoo TechMotorola Signature",
+          "publisher": "PCMag UK",
+          "pub_date": "2026-11-05T13:00:00+00:00"
         }
       ],
       "entertainment": [
         {
-          "title": "The downfall of Russell Brand: from Big Brother and Hollywood to convicted rapist",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS18yc3hJWm9uakJyVlJoWjdhZU56NFZoQTE2YkgxMnZGU3dGVUNqZktoVnFEYWxiTDFuVTNyMndhSzhfbDZaQmQ1aVBCU3pWbFhrOHJBTzVzNUNULVZwMklNWmVDUUNrMC1zVVltaEJxTVFNWkJKR0hBWm5ONWlUaF9la2hDT3pXUGl0LUdlUDRqeHBSQVN5UlN1VVhfbks0NXQ3RnVxSzRLa3p5S295LWVxeXpBdW13NVlDVTk0eDlMSXhDbW04?oc=5",
-          "description": "The downfall of Russell Brand: from Big Brother and Hollywood to convicted rapist  The GuardianSee more headlines and perspectives on Google News",
-          "publisher": "The Guardian",
-          "pub_date": "2026-11-05T20:31:00+00:00"
+          "title": "Russell Brand latest: Comedian could face lengthy jail term after rape and sexual assault convictions",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcVkyQWlidWRkWXM0T0haSm5xWTVrXzh1VGozbEFLbUZxdElBU1UwbHNoWmJwOW5UY0tINHJicXdVUzFZRHU3NDc0SGExRzg3ZnFlUVJtX0JjUFlDS2lMaFg5bDNIcnJyUm5ZQnhjdEE5YlEyUHUyV2dPVDRrYlNHcUZMMzFjaTUxWFJxR1Z6Z3pBZVZyZTFMSVdB?oc=5",
+          "description": "Russell Brand latest: Comedian could face lengthy jail term after rape and sexual assault convictions  Sky NewsRussell Brand found guilty of rape and three sexual assaults  BBCFame Under Fire | Brand:",
+          "publisher": "Sky News",
+          "pub_date": "2026-11-06T02:57:23+00:00"
         },
         {
           "title": "Channel 4 Cancels ‘Married At First Sight UK’ After Rape Allegations",
@@ -1047,32 +1047,18 @@
           "pub_date": "2026-11-05T11:31:00+00:00"
         },
         {
+          "title": "Duchess of Sussex’s estranged half-brother ‘person of interest’ in child sexual abuse inquiry",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeFlRX3hnV255bWxXZUl2eF9PZWZGTlhNc013RENWWVlJbEF4bE9uUjlYMVdfS0VuV092MVlnckhlOUhraFRTc1IzRDAxQTRiQnpnZWlIaDhYS0twak9mb3VGV2liSEItVnpSenpiZWYtWk4tYk93UWZoSTRCLXEtSmNqcC1WbkYwMFRaNDZTWnpaVW9TbFFpT0dwc0hMRkw5OHpSVG1nRXV4a2lBVUUtSzhZYTFXQQ?oc=5",
+          "description": "Duchess of Sussex’s estranged half-brother ‘person of interest’ in child sexual abuse inquiry  The GuardianMeghan's brother a 'person of interest' in father's child sex abuse image claims  Sky NewsTho",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-05T17:20:00+00:00"
+        },
+        {
           "title": "EastEnders star Charlie Brooks speaks out after Janine's secret deal",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSEtNb0tsN2dXRVRoMVluX2FNM2RXUGVncVdSXzFTUEd5S0V0ZmN5SVBGYlhSYV83VTNoM3o5U0tDbG1HSzlkOUdRZWk1QlcwSExkVFpFYllKWjBaVENXVGsyMkRvUWdpaE9KdVFnYmgwUWNtS21wYXBzYlVUVHdtSW5KWnFmd2paNksxbUZxR0VZYm1lLTBEU1ExQndPRXJq?oc=5",
           "description": "EastEnders star Charlie Brooks speaks out after Janine's secret deal  Digital SpyEastEnders' Charlie Brooks on Janine's return - \"As always, it’s about survival for her\"  BBCEastEnders legend Janine B",
           "publisher": "Digital Spy",
           "pub_date": "2026-11-05T20:03:55+00:00"
-        },
-        {
-          "title": "Meghan’s half brother named as ‘person of interest’ in child abuse image claims",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdUdmTE9xWDROUEJYWUZ4aXR0UlZyZUpHZUFzUHBuUzQtbTN0UHZ0d3ZPajJyemluUEgycjgySkxpYVhEN2NDdXY1X1hIQnl0RjRqcUw3MnBleWFSbzlHTkgtUmtLeWpEQ0ZiQk8wTzRIWTlsUV9kTzhuRUVVeC0ybjhhd1VDR0VweFBVaVFrdFRVdnNHU1dqRnpVX0w1eTdXWmxoN0Q3cXpWLWhzVlRPcEx3?oc=5",
-          "description": "Meghan’s half brother named as ‘person of interest’ in child abuse image claims  ITVXDuchess of Sussex’s estranged half-brother ‘person of interest’ in child sexual abuse inquiry  The GuardianMeghan's",
-          "publisher": "ITVX",
-          "pub_date": "2026-11-05T16:23:22+00:00"
-        },
-        {
-          "title": "Forget The Muppets, Wallace and Gromit have the best Christmas advert this year",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR3Q1by04NDcwU3FjUXdWTlJmdE94WXRXaHVWek0wUHptdzV2Z3BPNHBpWTNuQXVoU1RoaXFKNkpDVHJ2OFZWWTdQT09FVHF3Y0dOOEFBMFlDRUhvZEY3ajBIUTVtUUV4VHJJZHhtNDNBbHBxNkRBdTBQUHA3Rnd1eTlRenVEajBSWDlrS2lEeFZaY251S1JoWktPMVJyaUhoRVpweA?oc=5",
-          "description": "Forget The Muppets, Wallace and Gromit have the best Christmas advert this year  Metro.co.ukWarm wishes from Barbour and Aardman for 2026  AardmanWhy Barbour keeps coming back to Aardman for Christmas",
-          "publisher": "Metro.co.uk",
-          "pub_date": "2026-11-05T08:30:00+00:00"
-        },
-        {
-          "title": "“Ozzy was the first to launch his own travelling metal festival, and Ozzfest will always remain an important part of Ozzy’s legacy.” Ozzfest confirms return with UK, US and Mexico editions for 2027",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUjlYVmd1a055LWRnT1FFZ3NJWVdZR1BIOEFEeVdmdmNEV0FUZHZzNGRJdi1zdHFaQkIzX1lPZEhReW1VNkhhNm5ua2V6bXBfUGxBaVRCNlRGOVVRY0p5UEVybVRwZ2lnbVBOeWZYblZ2S01mMmd2eFlaZVNKUUxlYXpueTZxdEpMVERhek1LN2dqM1hqY2tOdGF4Wm85YldlOTd1RTRER2VWcEJCSmZIQklCd0RrSjA?oc=5",
-          "description": "“Ozzy was the first to launch his own travelling metal festival, and Ozzfest will always remain an important part of Ozzy’s legacy.” Ozzfest confirms return with UK, US and Mexico editions for 2027  L",
-          "publisher": "Louder",
-          "pub_date": "2026-11-05T15:01:00+00:00"
         },
         {
           "title": "King relishes 'politically charged' deployments, Palace aide says",
@@ -1082,11 +1068,25 @@
           "pub_date": "2026-11-05T22:04:44+00:00"
         },
         {
+          "title": "Forget The Muppets, Wallace and Gromit have the best Christmas advert this year",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR3Q1by04NDcwU3FjUXdWTlJmdE94WXRXaHVWek0wUHptdzV2Z3BPNHBpWTNuQXVoU1RoaXFKNkpDVHJ2OFZWWTdQT09FVHF3Y0dOOEFBMFlDRUhvZEY3ajBIUTVtUUV4VHJJZHhtNDNBbHBxNkRBdTBQUHA3Rnd1eTlRenVEajBSWDlrS2lEeFZaY251S1JoWktPMVJyaUhoRVpweA?oc=5",
+          "description": "Forget The Muppets, Wallace and Gromit have the best Christmas advert this year  Metro.co.ukWarm wishes from Barbour and Aardman for 2026  AardmanWhy Barbour keeps coming back to Aardman for Christmas",
+          "publisher": "Metro.co.uk",
+          "pub_date": "2026-11-05T08:30:00+00:00"
+        },
+        {
           "title": "Black Doves is the show most worthy of your Netflix subscription – review",
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaXRPcmczU012U2dqZVdMTk9wRTNIYTNmR0ZXNFFaNjM1T1ZPanYzWGFQYUtEOWpiVDV4SDlhOFQ0Y3pEVzVMejU1Smw5VlVWc0YyRkxHTGJHRTlPNV9MdUFPWW11RllXeGxVQUJ2TjZsZHJ5YXR2b19CWEJ3ZzlvcDloQ3c5enY0SkN1bGxEVjRSQnduaDNnYVVJX01XOElhS2ZLOVVGa01xUzVWeHRpT2NLSHd2SFRmSlAzQ3ZSTVphckdxWFE?oc=5",
           "description": "Black Doves is the show most worthy of your Netflix subscription – review  The IndependentBlack Doves review – Ben Whishaw, Keira Knightley and Sarah Lancashire are spine-tinglingly good  The Guardian",
           "publisher": "The Independent",
           "pub_date": "2026-11-05T08:01:00+00:00"
+        },
+        {
+          "title": "“Ozzy was the first to launch his own travelling metal festival, and Ozzfest will always remain an important part of Ozzy’s legacy.” Ozzfest confirms return with UK, US and Mexico editions for 2027",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUjlYVmd1a055LWRnT1FFZ3NJWVdZR1BIOEFEeVdmdmNEV0FUZHZzNGRJdi1zdHFaQkIzX1lPZEhReW1VNkhhNm5ua2V6bXBfUGxBaVRCNlRGOVVRY0p5UEVybVRwZ2lnbVBOeWZYblZ2S01mMmd2eFlaZVNKUUxlYXpueTZxdEpMVERhek1LN2dqM1hqY2tOdGF4Wm85YldlOTd1RTRER2VWcEJCSmZIQklCd0RrSjA?oc=5",
+          "description": "“Ozzy was the first to launch his own travelling metal festival, and Ozzfest will always remain an important part of Ozzy’s legacy.” Ozzfest confirms return with UK, US and Mexico editions for 2027  L",
+          "publisher": "Louder",
+          "pub_date": "2026-11-05T15:01:00+00:00"
         },
         {
           "title": "Next James Bond 'REVEALED' after actor's loose-lipped co-star blabs secret after 'a few lagers'",
@@ -1103,18 +1103,18 @@
           "pub_date": "2026-11-05T18:03:33+00:00"
         },
         {
-          "title": "Alton Towers Has Permanently Shut Its ’World Of David Walliams’ Attraction",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IbzJtZG5TSGJfQmFFaDB3VlhjbXdmWlZqZjJSYUtFZVA2UlplM05aTGJNaVoxNzBjbkZNVGlJQTBXd19nYW5aWlJfZllZbFFGTkE5LWJNYXlxRXh1Q3pCRFc1dUlRSGJuZ21SVkpBM3ZHM1JKTHZESnlsUU1rSkE?oc=5",
-          "description": "Alton Towers Has Permanently Shut Its ’World Of David Walliams’ Attraction  BuzzFeedStaffordshire's Alton Towers closes World of David Walliams  BBCDavid Walliams’ Theme Park Attraction Gets Shut Down",
-          "publisher": "BuzzFeed",
-          "pub_date": "2026-11-04T11:34:02+00:00"
-        },
-        {
           "title": "Sir Patrick Stewart mural given nieces' approval",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGZlJWbFBNM0pkT1o5NTBObVl2ZWNEQXFnVlJiUDkzYUc3WVNnd3R6NnowU2NiSERJSXQ5SkRyRlpxVDRHRm1Oa25Jb196aXctbVJkbkRmTXN0MzA4U0E?oc=5",
           "description": "Sir Patrick Stewart mural given nieces' approval  BBC‘Star Trek’ Star Gates McFadden Pays Tribute to Patrick Stewart: His Portrayal of Jean-Luc Picard Gave People Hope Around the World  Variety‘He len",
           "publisher": "BBC",
           "pub_date": "2026-11-04T19:04:35+00:00"
+        },
+        {
+          "title": "‘Blockbuster’ history of Alexander the Great wins £50,000 Baillie Gifford prize",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZm81bjhDd1U2N2ZIbGhXZlZaNnFOZkYxTjN5RENpcTJHbXprWTUwN3dxVUtvcURrTTFBak15QTB2aFIzTDlDV0NiZXZrbS1LckdGejVxTjFhSHJDai1aRzBBcEpQSUI5VTQ3dHZDSW1NVVZZMFNjb1RtLWtIXzROUldwZElVR1RBaWo5akg4OE9SaG43c01DTG1QZnJwSERlb3UtbERLMTQtdEl1djc0MGd2MA?oc=5",
+          "description": "‘Blockbuster’ history of Alexander the Great wins £50,000 Baillie Gifford prize  The GuardianAlexander: God, King, Man by Edmund Richardson review – a dazzling, dizzying adventure  The GuardianClassic",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-04T22:15:00+00:00"
         },
         {
           "title": "Who is Laura Brand? The loyal wife who met Russell at 19",
@@ -1124,21 +1124,14 @@
           "pub_date": "2026-11-05T18:00:00+00:00"
         },
         {
-          "title": "Country legend Garth Brooks returns to Belfast with 2027 gigs",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1yMUlFeHlRUVFiSTVIMFl1TnJac08zWE5ETUpnYzRSYUVXMVlacU9XaWJleTcyejRVRV9PbDBmZjR2Tm1ZY051UnhKZWVuWnB4S0ZnOXhtWVJEVkRIX0E?oc=5",
-          "description": "Country legend Garth Brooks returns to Belfast with 2027 gigs  BBCSee more headlines and perspectives on Google News",
-          "publisher": "BBC",
-          "pub_date": "2026-11-05T09:34:41+00:00"
+          "title": "King Charles addresses viral umbrella mishap that left him soaking wet during a ceremonial engagement",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbTFHLWIwT21pYm4tU0NucU1oM0dHTVIxNW9lWHIxcDd0U2tMNnF6dXhXZTBJeHdRX21OSExETmRRWklSblFmZVNEVXJTTnJ2TEk1NVhKU3lnUXJLajNWZS05THFIeVo1bndyZEJUR052d243THZtUEpaVk1jMHNmNk9KVjVKNERuajVFSGxvT1VBTGl5ckE?oc=5",
+          "description": "King Charles addresses viral umbrella mishap that left him soaking wet during a ceremonial engagement  HOLAThe messages in the Queen and Marie-France van Heel’s Caribbean banquet gowns  The TelegraphQ",
+          "publisher": "HOLA",
+          "pub_date": "2026-11-04T16:00:00+00:00"
         }
       ],
       "sports": [
-        {
-          "title": "Sunderland 0-2 Dinamo Zagreb: Regis Le Bris under more pressure as Black Cats beaten in the Europa League",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPS2Rfb0FGdGhmZTJrZUw3WTA5OVlpNGxJdlNPR3BhSmtMOWU4dFM3aHk5cjhaVThnTklUeWMyR1NWa3BVU0sxY3MxQjBySXI5MjBEWVllNDdPcHl4T3BEdEhILVRjQmJyRURYQV9FQXR3OFdyYU1NNEZyWWxOR3hid2FkaFZUby12VEVySTRibEhNSy1YT2ZHdGN4b1p4OXVOTTZkaHRsazhNbnFVa3NVV0FTdmtROTJNRXNWamJDcUtySTNpVHA0UVJqRzhBbWU1ZklCN2RpZ1gtbHgtMk1xZHFhUXVab3pm?oc=5",
-          "description": "Sunderland 0-2 Dinamo Zagreb: Regis Le Bris under more pressure as Black Cats beaten in the Europa League  Sky SportsSunderland 0-2 Dinamo Zagreb: Have your say  BBCEuropa League: Sunderland lose at h",
-          "publisher": "Sky Sports",
-          "pub_date": "2026-11-06T01:32:03+00:00"
-        },
         {
           "title": "Thomas Tuchel makes checks on Cole Palmer as he considers England call-up",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOW91b0s3Skx4bEFsbEc2ekxHWkhoY2hJb29JWTlrVmwzSk4tcDd6ZkpkdGFPNjVkTzk1TWxabFBSalBrRkxtS2NSUEVNWnZMVHVKdUFWTmI3ZU9tbUpYcnVPeTY1VmQtWXRsOVFqaENwdnF5YUF1c1BHVmdTLWZjWW5BQ2dmSTJFU1pwMWpoLUR4cUJY?oc=5",
@@ -1147,88 +1140,95 @@
           "pub_date": "2026-11-05T19:00:00+00:00"
         },
         {
-          "title": "Lewis Hamilton refuses to back down over criticism of teammate Leclerc",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ0FCU2t6d1Q2YjJrS2l3RmpfbFJyeHVrUkg1Y2liTkRCajlMYlFyU0d0Rkc3M3B4Skw2dHEtLVpNV0h6VlZpanI1a2RMN0ZOdXlWaHVCNk5MMlhiVkE2SFF1NVQ1cU5Nd2RDYVFUS2IwdEN4REVmcmlvZ1JKd0QwbmtkVV85TTNqRXhybldPb1NrV244NWpfNWVkZnNVWFFfMVZRbzhZekV6Uno1SDhVMEZDdnZFNnM?oc=5",
-          "description": "Lewis Hamilton refuses to back down over criticism of teammate Leclerc  The GuardianLewis Hamilton: Ferrari driver says team-mate Charles Leclerc races him harder than other F1 rivals  Sky SportsF1 Q&",
-          "publisher": "The Guardian",
-          "pub_date": "2026-11-05T21:57:00+00:00"
+          "title": "Lewis Hamilton: Ferrari driver says team-mate Charles Leclerc races him harder than other F1 rivals",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbFlJWER3TW56SnJXcGo5THpOY1lZOWF5eDlUXzJqZlpEaVVGLV9Pd0ZZNTFXR3AweGRHLVVCQnVhY2ZTRmVPSFpQV2ctc2xsdEVfcF92cktDMWtITGh2SlQ3RUs1NmxVTi1pOHdkS3A0dkU5blFLRFRyblRERHB1OGJsbmhRQUtkSTBudGxTVjhpMXZUUjlmaGVyQXVHLUV1eTdMX3RWREVRazViZm5wc2thenpVbGpkc2JYXzV1SndaRGRlNzdPSmNteDBrMTRIcVFGMW9yako?oc=5",
+          "description": "Lewis Hamilton: Ferrari driver says team-mate Charles Leclerc races him harder than other F1 rivals  Sky SportsLewis Hamilton refuses to back down over criticism of teammate Leclerc  The GuardianF1 Q&",
+          "publisher": "Sky Sports",
+          "pub_date": "2026-11-05T22:48:17+00:00"
         },
         {
-          "title": "Celtic 3-2 Besiktas: Duran & Osmand spark Celtic into life - but where does that leave Hogh?",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsVlEzcWpKc3RsdXRNLUgtX04tTEpxeTkwNENzLU9iV0toaWdVOUVHM3ItMXpHLWplelp5NFFyZnRMZTFWREpxdVRDSUdpRDZrbTlMZ2FxYkZpRTVEdkhMcVI3cG9NbUZWWkJR?oc=5",
-          "description": "Celtic 3-2 Besiktas: Duran & Osmand spark Celtic into life - but where does that leave Hogh?  BBCCeltic 3-2 Besiktas - Europa League - report, reaction, stats, what they said  BBCCeltic 3-2 Besiktas: ",
-          "publisher": "BBC",
-          "pub_date": "2026-11-06T00:10:28+00:00"
-        },
-        {
-          "title": "Spain coach, Real Madrid president attend funeral of Tenerife's Jesús de Miguel",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYkRjd0wzQXVhTWFCM3E2cmJRcHRDZ3lVR3c4by1NM09wUnpXY1FoV2VxdzBLVVVkZUd4ZVBqUUl6T2owQ1FLak9IajBhU1ktNjhoTlZleGJNWjJvLVYzVEp2MVdRZlNFZUt1T1hXUkxYci03VThFbG1OUzlFVXNlMWZUcF9Xa1pTUGpWT0J6dlJ4OGVxbDU5SUg0ejQwWUtUQlpYM2Vhak4?oc=5",
-          "description": "Spain coach, Real Madrid president attend funeral of Tenerife's Jesús de Miguel  ESPN'A void that is impossible to fill' - tributes paid at De Miguel funeral  BBCSunderland 0-2 Dinamo Zagreb, Celtic 3",
+          "title": "Celtic 3-2 Besiktas: Substitutes work magic for Hoops to keep Europa League campaign - as it happened",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMUdTYnkyelNCSG9xWktCeE5uTnZhekJvMXpkVGwyeHJzeTB6MEFlbGFVeG9PZk9TRHNuODhzZ2FLdDJrejRWRXVtS2xWSENtcFZZZWF6NWNXMWgyUXRpV0tPQjlKRF9MZ0YwNXdwX2dTeThNeTdscnhsTFYwTUFXZy1HeHJxSTJSZzVMZTRaNjI5TmhZLWZxdnNsYWNCWXdfeU8zX2dWRHhUZElMdWVGSlgxU1lOWS1GY09lNk5RckpyX3BlZDBTdg?oc=5",
+          "description": "Celtic 3-2 Besiktas: Substitutes work magic for Hoops to keep Europa League campaign - as it happened  ESPNCeltic 3-2 Besiktas - Europa League - report, reaction, stats, what they said  BBCCeltic 3-2 ",
           "publisher": "ESPN",
-          "pub_date": "2026-11-05T15:18:00+00:00"
+          "pub_date": "2026-11-05T21:58:00+00:00"
         },
         {
-          "title": "Man United get instant response after 'contacting' World Cup-winner to replace Michael Carrick",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTDJoVWRNRUk5WldaMzBsN25sNDdKSFhScGF3UFdtX2IyNDJsR1RYcmdBbVNiMWduS0QxUGNLaVdlbGZRbWNmcWxiRlcwUi16TnBpSnd2UWNKNnZHTmNweUw1UUVNdnBlcXpDaVZ0VjhUbEMxN0lVZW9VajFpdjJBcnR2QndJeE1QRjZoeldhZS1PN1pmVWFiWjFwSDFxT1dpWXhjRkdMb1djbnhEZG1hQkljb9IBuAFBVV95cUxOME8wVTVVZ1NVN2hoOHkxVFV3WXgtWHh6dGtqSXVLRHhWd1c3RlVwY3BBdnlzQmZuX2NJbGZ3b1VMWFRYNGI1R2hMMExvSW9WMm4yVGJZNXVtclRpQ1djS3NnTHlhUFpLNHVzR3M2NGl0M0tZckI2STFfR2VKLTBwd3NBVzEtMHloM0hyT0p1S1hZT3F4ZE1kRDdULVdIajcyeU9JTk5PUGVEcnRzWUJ1MDhSNVp5c2VI?oc=5",
-          "description": "Man United get instant response after 'contacting' World Cup-winner to replace Michael Carrick  Manchester Evening NewsFootball gossip: Deschamps, Kane, Tavernier, Tresoldi, Collins, Brown  BBCDidier ",
-          "publisher": "Manchester Evening News",
-          "pub_date": "2026-11-05T16:24:00+00:00"
+          "title": "UEFA recap - Sunderland lose to Zagreb, Brighton win; Celtic edge classic; earlier Crystal Palace salvaged draw and Bournemouth won again",
+          "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNaC1QemQ0QWY5UHdUTHd3Mm1OWnZjcEw2aXp1S0xFck02eDlKZnl4ZHJoVk8xQWFwb1B5X2hrTzJQZVpjby0wLUhyOENqZ3l4a0dtZVlyYXlnLTNDd25CQ190dzk5MjVLT1dONmZ6VkVoU3ZlY1EyM0dLakdicWlzWDJvQl9jWklEdGVXWHpBSDJ0UkpVUmdHZTAyalZLaTRKeUhla2gzTFhMbTctZml4NWtJVC1Nckp0cl9LSGFZUWRJMTVjbXh4TnhXUmR4THNSNzFLaTBuTUxoNjFkM2VBVlVCWEY1V1RHMWJFdFlTSmUtUnByYWlKM1FFVUdoamxuWDNLS21WNkgzMFpBX09qMHRGUmxVZDJYN1IzQlpESmIzRHNSYXFpVlQ3MktLckhSMHJTUlU1aldvZw?oc=5",
+          "description": "UEFA recap - Sunderland lose to Zagreb, Brighton win; Celtic edge classic; earlier Crystal Palace salvaged draw and Bournemouth won again  TNT SportsEuropa League and Conference League LIVE! Crystal P",
+          "publisher": "TNT Sports",
+          "pub_date": "2026-11-06T02:26:29+00:00"
         },
         {
-          "title": "Newcastle player Amar Dedic has bow and arrows seized by police after six-car chase",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSUJFTDlUZmEzaVRuNFhuZzBuUXZNbGsxekNDZ1N6Smt1R0p3eVJ1cG5oeU9jWTd1eWtZRmduUTZyLU5NUVI5M1ZNVGg2Z2k1dy00dmVfU3M0TlE1MzJiOFlZY1JCaERENDR2VFBIMVRZMUstWTdCUG5SS1VHRVdYN05HWlFHZ193YUdz?oc=5",
-          "description": "Newcastle player Amar Dedic has bow and arrows seized by police after six-car chase  talkSPORTNewcastle’s Amar Dedic has bow and arrows seized by police  The TelegraphNewcastle: Six police cars swoop ",
-          "publisher": "talkSPORT",
-          "pub_date": "2026-11-05T19:09:43+00:00"
-        },
-        {
-          "title": "Cristiano Ronaldo announces retirement from international football",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMmNKdzJWNkJ5Z2JKQXFTZDlGRlo4bkdVWlVKRmlfUE5OYkpjdDVlWUx2M1A5a0RXeFBiTlJZVHpnSE1VWks1WUt6b1ZxMmxyQ2VZcW1qZk1vaWhPYW54dWZkeGlJcG1FM0FzOFp4cmxpemlxOEE5RDhXZDZRTmVUNTc2cWpucW1iSWVEMHRzWmM0T3l3RWQ1ek50VTRzeHp2TWRHYlAzTzVQdkZYQVlDS0prT000QWZQMjd3cjhVd3pXVTNVTDVn?oc=5",
-          "description": "Cristiano Ronaldo announces retirement from international football  The TimesCristiano Ronaldo retirement: Why has Portugal legend retired from international game?  BBCRonaldo retires from internation",
-          "publisher": "The Times",
-          "pub_date": "2026-11-05T12:10:00+00:00"
-        },
-        {
-          "title": "Ballon d’Or winner Harry Kane signs new contract with Bayern through to 2029",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ2QxM0JUMW5RSmxZeFFvaTFQVmFuem9uMXJFek5TeEdpSG5tTEd6M2RhaE1vVndPTmpleElKUGRKenVfV2hMWERJQjZPR1JjQm9iRkZRZDh6dnUxSmtwcHR2aXRjNlFILWRlMXVHVU15UjZLeTVqelBiTjh4TDJrM1dCTUxjMGd1bF9jRkVobzhVVVpjRnB3WktKMUY5dFpLMHBndE42MXNJcU1nN3NBbG9VLUlXYV9HWjhHYg?oc=5",
-          "description": "Ballon d’Or winner Harry Kane signs new contract with Bayern through to 2029  The GuardianDoes Kane deal end Premier League career but offer England hope?  BBCTottenham retain first option on Harry Ka",
-          "publisher": "The Guardian",
-          "pub_date": "2026-11-05T13:05:00+00:00"
-        },
-        {
-          "title": "UEFA Rule on Further Champions League Punishment for Matheus Cunha",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcjVqZWV2STlHa19Cb2JWYVk4QUh5RDNyTzMzZW1iTzN6bGtUWDRQVHloQ1pTV2c4NEV4MGZJMjJnV2hiREhKcDVmTE9sLW8wLXV2MVB6WUVMcUlTcGprQnJwYjYyaU9yLWlGOURMUDRHOTJodnZiZ21lRHY5dGt2RlROSzJNRVRJRXV2eFlB?oc=5",
-          "description": "UEFA Rule on Further Champions League Punishment for Matheus Cunha  Sports IllustratedMan Utd: Michael Carrick run has echoes of Jose Mourinho and Ole Gunnar Solskjaer  BBCCunha's double bags Player o",
-          "publisher": "Sports Illustrated",
-          "pub_date": "2026-11-05T19:00:00+00:00"
-        },
-        {
-          "title": "Liverpool news: Our defensive problems aren't sustainable - Van Dijk",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oNGlUZ3IxekJweUpKVXFqa1Z1eV9sUjAzdVBZNlhEMEVHS2dUNS1leGtaZ2tFWWd4OG1SVkR4WF9tMXFFSld6QndIMW5EUlJIZ0FodkJZMnQtMllrUndJQzhpRU9QSF9KUVlZ?oc=5",
-          "description": "Liverpool news: Our defensive problems aren't sustainable - Van Dijk  BBCFenerbahce 3-2 Liverpool: Reds suffer defeat in Istanbul as weaknesses exposed  BBCAndoni Iraola press conference: Reaction to ",
+          "title": "Football gossip: Deschamps, Kane, Tavernier, Tresoldi, Collins, Brown",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CamtDbGVQUTI3eWVHUmNPVTlSam51SDVvNEI0V25ncnlqdmp5Y0lUZTlUbWlGb3BmVmMzNVFkNXFhc1BwXzZnSXBYQjhibldLNXJrZXVtX3U1bmZMUnBMdVFXcVJ5eENNcXhZ?oc=5",
+          "description": "Football gossip: Deschamps, Kane, Tavernier, Tresoldi, Collins, Brown  BBCMan Utd contact Deschamps amid Carrick uncertainty - Euro Transfer News  TNT SportsMan United make contact with World Cup-winn",
           "publisher": "BBC",
-          "pub_date": "2026-11-05T17:03:01+00:00"
+          "pub_date": "2026-11-05T21:41:38+00:00"
+        },
+        {
+          "title": "Sunderland 0-2 Dinamo Zagreb: Regis Le Bris under more pressure as Black Cats beaten in the Europa League",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPS2Rfb0FGdGhmZTJrZUw3WTA5OVlpNGxJdlNPR3BhSmtMOWU4dFM3aHk5cjhaVThnTklUeWMyR1NWa3BVU0sxY3MxQjBySXI5MjBEWVllNDdPcHl4T3BEdEhILVRjQmJyRURYQV9FQXR3OFdyYU1NNEZyWWxOR3hid2FkaFZUby12VEVySTRibEhNSy1YT2ZHdGN4b1p4OXVOTTZkaHRsazhNbnFVa3NVV0FTdmtROTJNRXNWamJDcUtySTNpVHA0UVJqRzhBbWU1ZklCN2RpZ1gtbHgtMk1xZHFhUXVab3pm?oc=5",
+          "description": "Sunderland 0-2 Dinamo Zagreb: Regis Le Bris under more pressure as Black Cats beaten in the Europa League  Sky SportsSunderland 0-2 Dinamo Zagreb: Pressure on Regis le Bris grows after Europa League l",
+          "publisher": "Sky Sports",
+          "pub_date": "2026-11-06T02:34:19+00:00"
+        },
+        {
+          "title": "Newcastle’s Amar Dedic has bow and arrows seized by police",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWko0MEtOU2VqS3pZN0pLay0wV0dfRlRXcE83RElWaEt4bUpqSWxSdXdsVVF3c29mWU9IUU1yLXh4cXVyc09LM3h3SVNWajhial9TWk9lTXRIa01aTE1oUm9fLUgyNGt5LXhXTWZUNDA5UTB1SVp0VWRLS1U5Ml9tSndXUmdjVDVRXzluUEpqdmJsNVlTZm5hWVY4czlUZFk3ZWc?oc=5",
+          "description": "Newcastle’s Amar Dedic has bow and arrows seized by police  The TelegraphNewcastle: Six police cars swoop on Magpies star after being seen with bow and arrows  Football365Newcastle's Dedic reportedly ",
+          "publisher": "The Telegraph",
+          "pub_date": "2026-11-05T20:55:00+00:00"
         },
         {
           "title": "Scott Parker’s dramatic West Ham return leaves him struggling for words",
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcm45Y0JadTZDd1JfLTRVeEdic3ZuOUFqTEI2ZTlNMGZVSGhQeHZRT096c25YQWI5RDFnOHVyN3dybVdCT0dNTF9MTndTY2E2dEJCaEZXOENDVVZLMzZZb1I0enlZc3d6bC03OTlqNHIyUjNQblRQb2FfR3RHZEd3NXBVRlRQdTMyLUY5V2RVUFRhNlhlU3hNMjc1NWl3Wm1fYjgxbjdRT3FSZlpMWWVIYVJramhUM3ZSRXVv?oc=5",
-          "description": "Scott Parker’s dramatic West Ham return leaves him struggling for words  The GuardianCardiff City 3-3 West Ham United: Parker starts with dramatic draw  BBCCardiff City 3-3 West Ham highlights  Sky Sp",
+          "description": "Scott Parker’s dramatic West Ham return leaves him struggling for words  The GuardianCardiff City 3-3 West Ham United: Parker starts with dramatic draw  BBCCardiff 3-3 West Ham: Hammers fight back for",
           "publisher": "The Guardian",
           "pub_date": "2026-11-05T22:30:00+00:00"
         },
         {
-          "title": "JJ Gabriel transfer truth as ex-Premier League star arrives - Academy Notebook",
+          "title": "JJ Gabriel transfer truth as ex-Premier League striker arrives - Manchester United Academy Notebook",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWTBvd180VDQ5OE1lV2VXa2RLYWxaOEFUbTlxQnFlYjZhTThieTEzZGlOSlRNdHoxMmVPa1JDdjhnLTlYbGFrOXVndG1sbGZzZGM2ZlRNandnVnNUbDJzRUNYajdEQndNeGlmcjMyWUNvcHpyXzJNbGRnODBta3RLcms4YWFpVjVwbjRNMEhmaFc2NjRFOUhj?oc=5",
-          "description": "JJ Gabriel transfer truth as ex-Premier League star arrives - Academy Notebook  Manchester Evening NewsJJ Gabriel: Real Madrid reach verbal agreement with Man Utd teenager who requested to leave Old T",
+          "description": "JJ Gabriel transfer truth as ex-Premier League striker arrives - Manchester United Academy Notebook  Manchester Evening NewsJJ Gabriel: Real Madrid reach verbal agreement with Man Utd teenager who req",
           "publisher": "Manchester Evening News",
           "pub_date": "2026-11-05T11:12:18+00:00"
         },
         {
+          "title": "The international break is almost here: so wave goodbye to your players, and maybe your manager | Max Rushden",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNEJUVXFHbnNPMExZRTMtMnd4X3VSVkg0S0Vwcm16QmNWYTZlUVBDek54Q0EwRm5rQzhXZFg0dGJLMEU0YWM5NjdtQ1duMlMxaTd3WmZjeDZlQmRXY0NyUTMzM3Y3NmlIN1lkRW5GRjlyUGFkbkF6QTU5ZWdVeU9UZHpfWTJWd2J5cWF3RjBzd1RoVmZoRHBZelpncGNIN3RncVJnWGNma0RITDk3dmg2RTFWaVVXcWpRTkgycUFuRXMtUzZoXzB3QXRiaVZMWHNBSVpiMmxjZVdLZw?oc=5",
+          "description": "The international break is almost here: so wave goodbye to your players, and maybe your manager | Max Rushden  The GuardianFour Premier League managers could be sacked in chaotic international break  ",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-05T17:08:00+00:00"
+        },
+        {
           "title": "Crystal Palace 1-1 Hoffenheim: Daichi Kamada snatches late equaliser as 10-man Eagles ease pressure on Pierre Sage",
           "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQUzJDLWZrVVRSS2V6dktSSk0teE9LM3pDUTk2SFlaLXF3ZFAzUDZXcDJWNmt0WUdDZU53YXRDN09XS0NzSWxCallTWnp6dUxJbkMtenJSV1IyRXU1Y0VianBzUU1FdUk1YVBNSWctSFNEdDVmSjdNcEg5THVOSFVjLW92UkMyYmlXamNaMk1reFl1ZG9Yc3dWcUpzazY3VHBGcERFSFFKZjF3Ul9yeksxQkdxNzZ6aHB4Uzc5amRNdTlfSWh1Z2xMZDlWbWhhWFhzREs2OHZMVlM4Yzd1enlVRUo2Rnl3TWFic1dEVkFWeDVvYmZf?oc=5",
-          "description": "Crystal Palace 1-1 Hoffenheim: Daichi Kamada snatches late equaliser as 10-man Eagles ease pressure on Pierre Sage  Sky SportsCrystal Palace 1-1 Hoffenheim: Daichi Kamada scores late equaliser in Euro",
+          "description": "Crystal Palace 1-1 Hoffenheim: Daichi Kamada snatches late equaliser as 10-man Eagles ease pressure on Pierre Sage  Sky SportsLast-minute Palace equaliser hands Pierre Sage respite  The TelegraphCryst",
           "publisher": "Sky Sports",
-          "pub_date": "2026-11-06T00:43:12+00:00"
+          "pub_date": "2026-11-06T02:13:12+00:00"
+        },
+        {
+          "title": "Harry Kane extends with FC Bayern until 2029",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU1pVcnBGb1lXTjkzUDdGVkNmdXRhb05fVzZ0N3RmcFFfbEJNVXNSM29GaFdZaXE0NnV3YlFWSFY1VmxLRTRQVVRWeVdDbEJlR0p1czlQUm1jbmlVVmdpcnBGNjJJRXBmSWhhZUNhSFYxWXhHeV84d3dMRkkxOTJYRXBPalpKS0tt?oc=5",
+          "description": "Harry Kane extends with FC Bayern until 2029  FC BayernDoes Kane deal end Premier League career but offer England hope?  BBCBallon d’Or winner Harry Kane signs new contract with Bayern through to 2029",
+          "publisher": "FC Bayern",
+          "pub_date": "2026-11-05T08:00:00+00:00"
+        },
+        {
+          "title": "Cristiano Ronaldo retires: Portugal forward quits international football",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsLVg1NGRCUlJrQkZFRXI2dXZkcjRsZU1wdlBCamw2MnlrLVY1b1VoQVMxSHptQVN5b2NhU2Y4cDlXNkFKYm9jMUQ1NzFMLWVCQjdIVXVYOVUyZ2ptUzFWMGpFbk01eENiczJN?oc=5",
+          "description": "Cristiano Ronaldo retires: Portugal forward quits international football  BBCCristiano Ronaldo retirement: Why has Portugal legend retired from international game?  BBCRonaldo retires from internation",
+          "publisher": "BBC",
+          "pub_date": "2026-11-05T10:43:58+00:00"
+        },
+        {
+          "title": "Jesus de Miguel: Hundreds gather for funeral of Tenerife striker",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa1gyRmoxMGdFWlhTTVhUUmRVSFhzdWRHR1EzMTRNVERuYVYtNXhVUmZMTXplcElKVWZvMXNkenVUWko5Sno3SlI3VVNtSERuN3MtVHd6S3JlRTNjdnBYb3oyMzhJM0RvQ3d2U3daX21LTkhLUk5KaFdDYzBZRFlEbWNJSHRwaUx3aUhwV0FsREpUMkdQMTNYWHg2UWVWbWFp?oc=5",
+          "description": "Jesus de Miguel: Hundreds gather for funeral of Tenerife striker  Sky NewsSee more headlines and perspectives on Google News",
+          "publisher": "Sky News",
+          "pub_date": "2026-11-05T21:19:37+00:00"
         },
         {
           "title": "Sao Paulo Grand Prix: Kimi Antonelli says 'my 2027 preparation starts now'",
@@ -1245,20 +1245,6 @@
           "description": "British Ebola patient evacuated from DR Congo arrives at London hospital  The GuardianUK doctor infected with Ebola being treated at London hospital  BBCCan the UK handle an Ebola infection?  The Tele",
           "publisher": "The Guardian",
           "pub_date": "2026-11-05T20:51:00+00:00"
-        },
-        {
-          "title": "Are you an evening snacker? What you need to know",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE50Q2lKaDB0TkVrMmlLSjRlR2lGc19IYVh3SEoyUXlHd21JS1l6Ri1wUzloY1Z2ZE14dXZTSnF3MHBPZ2lVQkZWUUpIQUpOSU0yeVk0eUFVTzktdnVTb3c?oc=5",
-          "description": "Are you an evening snacker? What you need to know  BBC",
-          "publisher": "BBC",
-          "pub_date": "2026-11-06T00:42:05+00:00"
-        },
-        {
-          "title": "Ditching dairy for oat milk could be putting your health at risk, study finds",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORzZuRk5CS1doN0s5UGxFVjF6M0xrakVzeGFJeGkxM0ZUS2t6b2s3YXMtWnVhY21BbmRTcEluUDM2eER0N0tyU25hd0RTaUlLVFlFeEpGdjNxdHNfLXQzY1VzdVAtMkZKa0FzRTBxX1dnajZZSUxCbGVZSW4wZy10QUV6Y0lzVEE4US10dWNvNGktQ0xQdzEySk53UVp5Zy1sa2Rv?oc=5",
-          "description": "Ditching dairy for oat milk could be putting your health at risk, study finds  The IndependentSwapping from dairy to plant-based milk, cheese and yoghurt ‘could lead to micronutrient deficiencies’  Th",
-          "publisher": "The Independent",
-          "pub_date": "2026-11-05T08:00:00+00:00"
         },
         {
           "title": "Prostate cancer cases rose 2,000 in year after Chris Hoy’s diagnosis",
@@ -1280,6 +1266,13 @@
           "description": "Blood tests that could spot early signs of cancers to be trialled on thousands of NHS patients  Sky News'Multi-cancer' blood tests coming to some GP surgeries soon  BBCNew NHS blood test trial to help",
           "publisher": "Sky News",
           "pub_date": "2026-11-04T15:49:42+00:00"
+        },
+        {
+          "title": "Ditching dairy for oat milk could be putting your health at risk, study finds",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORzZuRk5CS1doN0s5UGxFVjF6M0xrakVzeGFJeGkxM0ZUS2t6b2s3YXMtWnVhY21BbmRTcEluUDM2eER0N0tyU25hd0RTaUlLVFlFeEpGdjNxdHNfLXQzY1VzdVAtMkZKa0FzRTBxX1dnajZZSUxCbGVZSW4wZy10QUV6Y0lzVEE4US10dWNvNGktQ0xQdzEySk53UVp5Zy1sa2Rv?oc=5",
+          "description": "Ditching dairy for oat milk could be putting your health at risk, study finds  The IndependentSwapping from dairy to plant-based milk, cheese and yoghurt ‘could lead to micronutrient deficiencies’  Th",
+          "publisher": "The Independent",
+          "pub_date": "2026-11-05T08:00:00+00:00"
         },
         {
           "title": "Why do men still die before women?",
@@ -1343,6 +1336,13 @@
           "description": "Parkinson’s: beyond the brain  NatureGut bacteria may impact cognitive status in Parkinson’s, study finds  Parkinson's News TodayGut, Immune and Brain Signals May Link COVID-19 to Parkinson’s Risk  Bi",
           "publisher": "Nature",
           "pub_date": "2026-11-04T21:28:44+00:00"
+        },
+        {
+          "title": "New Alzheimer's study discovers symptom starts in ear 10 years before memory loss",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcWtKZjhwYzBPSEZxYThDREdEa3V2MV90X3NwYzdVVE52TTVrSUVvZ1JONTVydmlUeFlHR3o3Si1JbjRFOEhnWFdkdW1XLUhFNVQ1RDVxb0NGbU9DTTNpbFNvVzc4ak83emdsMHRobEtDTm0yWWJtLXR3WmYxcVp6YUdCNW1uVGg0TzdWSg?oc=5",
+          "description": "New Alzheimer's study discovers symptom starts in ear 10 years before memory loss  The MirrorDementia symptom could start in your ear 10 years before memory loss  Wales OnlineAlzheimer's symptom may s",
+          "publisher": "The Mirror",
+          "pub_date": "2026-11-05T12:08:12+00:00"
         }
       ]
     },
@@ -1355,13 +1355,13 @@
             "title": "Russell Brand found guilty of rape and sexual assault",
             "link": "https://www.bbc.co.uk/news/articles/ckyvrze96y70o?at_medium=RSS&at_campaign=rss",
             "description": "Brand is told to expect a prison sentence \"of some length\" and faces more rape allegations, it can now be reported.",
-            "pub_date": "2026-11-05T18:28:35+00:00"
+            "pub_date": "2026-11-06T02:21:20+00:00"
           },
           {
-            "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+            "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
             "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-            "description": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
-            "pub_date": "2026-11-06T01:44:03+00:00"
+            "description": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+            "pub_date": "2026-11-06T02:57:24+00:00"
           },
           {
             "title": "Met chief warns policing 'heading for failure' without reform",
@@ -1391,7 +1391,13 @@
             "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
             "link": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
             "description": "The Trump administration has downplayed reports the pair could be on their way out after heavy Republicans election losses.",
-            "pub_date": "2026-11-06T01:32:55+00:00"
+            "pub_date": "2026-11-06T02:08:57+00:00"
+          },
+          {
+            "title": "Trump signs order preventing future presidents from changing Oval Office",
+            "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+            "description": "The order comes after Trump made a series of big changes the Oval Office  decor and launched landmark construction projects across Washington.",
+            "pub_date": "2026-11-06T01:20:01+00:00"
           },
           {
             "title": "King relishes 'politically charged' deployments, Palace aide says",
@@ -1418,28 +1424,22 @@
             "pub_date": "2026-11-05T21:26:09+00:00"
           },
           {
-            "title": "Trump signs order preventing future presidents from changing Oval Office",
-            "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-            "description": "The order comes after Trump made a series of big changes the Oval Office  decor and launched landmark construction projects across Washington.",
-            "pub_date": "2026-11-06T01:20:01+00:00"
-          },
-          {
             "title": "Watch: Met Police release Brand interview footage",
             "link": "https://www.bbc.co.uk/news/videos/c693ze38vywxo?at_medium=RSS&at_campaign=rss",
             "description": "Brand was found guilty of one count of rape and three sexual assaults at Southwark Crown Court.",
             "pub_date": "2026-11-05T16:01:56+00:00"
           },
           {
-            "title": "Russell Brand is being investigated over two new rape complaints, police say",
-            "link": "https://www.bbc.co.uk/news/articles/c6vgx8q09gg4o?at_medium=RSS&at_campaign=rss",
-            "description": "Det Supt Andy Furphy said he hoped other potential victims would gain \"courage\" and \"confidence\" from the guilty verdicts.",
-            "pub_date": "2026-11-05T15:44:49+00:00"
-          },
-          {
             "title": "The Russell Brand I saw in court was not the flamboyant character most people will know",
             "link": "https://www.bbc.co.uk/news/articles/cwvgdjyg6qrqo?at_medium=RSS&at_campaign=rss",
             "description": "Brand stood upright in the dock as the verdicts were read out in court - ending this sometimes surreal trial.",
             "pub_date": "2026-11-05T14:37:14+00:00"
+          },
+          {
+            "title": "Russell Brand is being investigated over two new rape complaints, police say",
+            "link": "https://www.bbc.co.uk/news/articles/c6vgx8q09gg4o?at_medium=RSS&at_campaign=rss",
+            "description": "Det Supt Andy Furphy said he hoped other potential victims would gain \"courage\" and \"confidence\" from the guilty verdicts.",
+            "pub_date": "2026-11-05T15:44:49+00:00"
           }
         ]
       }
