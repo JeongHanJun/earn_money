@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-10T16:01:15.384676+00:00",
+  "fetched_at": "2026-11-10T17:01:14.949844+00:00",
   "data": {
     "country_code": "kr",
     "country_name": "한국",
@@ -7,6 +7,29 @@
     "google_trends": [
       {
         "rank": 1,
+        "keyword": "추위",
+        "traffic": "500+",
+        "pub_date": "2026-11-10T15:40:00+00:00",
+        "articles": [
+          {
+            "title": "수요일 아침 영하권 추위·낮엔 포근…일교차 15도 안팎",
+            "url": "https://www.yna.co.kr/view/AKR20261110156300530",
+            "source": "연합뉴스"
+          },
+          {
+            "title": "[날씨] 큰 일교차 유의…오전까지 짙은 안개",
+            "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008839939",
+            "source": "SBS 뉴스"
+          },
+          {
+            "title": "[날씨] 쾌청한 늦가을 날씨...낮 기온 '쑥', 큰 일교차",
+            "url": "https://www.ytn.co.kr/_ln/0108_202611101306083818",
+            "source": "YTN"
+          }
+        ]
+      },
+      {
+        "rank": 2,
         "keyword": "장동윤",
         "traffic": "200+",
         "pub_date": "2026-11-10T14:30:00+00:00",
@@ -29,7 +52,7 @@
         ]
       },
       {
-        "rank": 2,
+        "rank": 3,
         "keyword": "코어위브",
         "traffic": "200+",
         "pub_date": "2026-11-10T14:00:00+00:00",
@@ -52,7 +75,7 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "keyword": "철도",
         "traffic": "500+",
         "pub_date": "2026-11-10T13:30:00+00:00",
@@ -75,7 +98,7 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 5,
         "keyword": "고발",
         "traffic": "200+",
         "pub_date": "2026-11-10T13:20:00+00:00",
@@ -94,29 +117,6 @@
             "title": "테이프로 입 묶여 끙끙...검은 봉지 속 버려진 강아지들 - 머니투데이",
             "url": "https://www.mt.co.kr/society/2026/11/10/2026111022042477465",
             "source": "머니투데이"
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "keyword": "공공",
-        "traffic": "1000+",
-        "pub_date": "2026-11-10T12:50:00+00:00",
-        "articles": [
-          {
-            "title": "이 대통령, 공공기관 개혁 협조 당부‥전국 불법행위 실태 보고 지시",
-            "url": "https://imnews.imbc.com/news/2026/politics/article/6864586_36911.html",
-            "source": "MBC 뉴스"
-          },
-          {
-            "title": "[사설] 李 “공공기관 혁신 속도”…노봉법 방치한 채 가능하겠나",
-            "url": "https://www.sedaily.com/article/20112651",
-            "source": "서울경제"
-          },
-          {
-            "title": "이재명 대통령 '공공기관 이전' 협조 주문",
-            "url": "https://www.jemin.com/news/articleView.html?idxno=846787",
-            "source": "제민일보"
           }
         ]
       },
@@ -183,9 +183,9 @@
             "source": "한국일보"
           },
           {
-            "title": "지지율 '33.8%', 총선 심판을 기다리는 '침묵의 국민들'",
-            "url": "https://www.newdaily.co.kr/site/data/html/2026/11/10/2026111000315.html",
-            "source": "뉴데일리"
+            "title": "“2028년 총선 민주당 절대 안 찍겠다” 50.6%…30대는 62.4%",
+            "url": "https://weekly.khan.co.kr/article/202611101051011",
+            "source": "주간경향"
           }
         ]
       },
@@ -203,19 +203,19 @@
         "pub_date": "2026-11-10T11:10:00+00:00",
         "articles": [
           {
-            "title": "'금융보안 문지기' 금융보안원마저 해킹으로 정보유출‥긴급 차단조치",
-            "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6864653_37004.html",
-            "source": "MBC 뉴스"
-          },
-          {
-            "title": "‘보안문지기’ 금융보안원까지 해킹당했다",
-            "url": "https://www.seoul.co.kr/news/economy/finance/2026/11/11/20261111029006",
-            "source": "서울신문"
-          },
-          {
-            "title": "금융보안원도 해킹에 뚫려…금융사 직원 개인정보 300여건 유출(종합2보)",
-            "url": "https://www.yna.co.kr/view/AKR20261110174751002",
+            "title": "[2보] '금융보안 문지기' 금융보안원도 해킹으로 정보유출",
+            "url": "https://www.yna.co.kr/view/AKR20261110173800002",
             "source": "연합뉴스"
+          },
+          {
+            "title": "금융보안원도 해킹에 털렸다...금융사 보안정보 유출",
+            "url": "https://www.ytn.co.kr/_ln/0102_202611110028275778",
+            "source": "YTN"
+          },
+          {
+            "title": "증권사 해킹 도미노…전문가 \"AI로 공격 빨라져, 2차 피해 우려\"",
+            "url": "https://www.greened.kr/news/articleView.html?idxno=354278",
+            "source": "녹색경제신문"
           }
         ]
       }
@@ -223,13 +223,13 @@
     "youtube_popular": [
       {
         "rank": 1,
-        "video_id": "g9S18fcpNSQ",
-        "title": "Night Stage",
-        "channel": "Release - Topic",
-        "thumbnail": "https://i.ytimg.com/vi/g9S18fcpNSQ/mqdefault.jpg",
-        "published_at": "2026-11-09T09:04:24Z",
-        "view_count": 116988,
-        "like_count": 2330
+        "video_id": "y-klhPVFblg",
+        "title": "ISEGYE IDOL (이세계아이돌) ‘REBELS’ Official MV",
+        "channel": "ISEGYE IDOL",
+        "thumbnail": "https://i.ytimg.com/vi/y-klhPVFblg/mqdefault.jpg",
+        "published_at": "2026-11-09T09:00:02Z",
+        "view_count": 618161,
+        "like_count": 20971
       },
       {
         "rank": 2,
@@ -238,7 +238,7 @@
         "channel": "젊은할배 59TV",
         "thumbnail": "https://i.ytimg.com/vi/Pb045QBIHEU/mqdefault.jpg",
         "published_at": "2026-11-09T09:00:16Z",
-        "view_count": 29223,
+        "view_count": 29364,
         "like_count": 4660
       },
       {
@@ -248,18 +248,18 @@
         "channel": "LCK",
         "thumbnail": "https://i.ytimg.com/vi/mNk51Z-okD4/mqdefault.jpg",
         "published_at": "2026-11-09T07:11:22Z",
-        "view_count": 4380817,
+        "view_count": 4382185,
         "like_count": 0
       },
       {
         "rank": 4,
-        "video_id": "y-klhPVFblg",
-        "title": "ISEGYE IDOL (이세계아이돌) ‘REBELS’ Official MV",
-        "channel": "ISEGYE IDOL",
-        "thumbnail": "https://i.ytimg.com/vi/y-klhPVFblg/mqdefault.jpg",
-        "published_at": "2026-11-09T09:00:02Z",
-        "view_count": 602076,
-        "like_count": 20880
+        "video_id": "g9S18fcpNSQ",
+        "title": "Night Stage",
+        "channel": "Release - Topic",
+        "thumbnail": "https://i.ytimg.com/vi/g9S18fcpNSQ/mqdefault.jpg",
+        "published_at": "2026-11-09T09:04:24Z",
+        "view_count": 119695,
+        "like_count": 2349
       },
       {
         "rank": 5,
@@ -268,8 +268,8 @@
         "channel": "정글선생 진 영준",
         "thumbnail": "https://i.ytimg.com/vi/kGCx5En_f8g/mqdefault.jpg",
         "published_at": "2026-11-09T04:06:00Z",
-        "view_count": 1175950,
-        "like_count": 14059
+        "view_count": 1191756,
+        "like_count": 14129
       },
       {
         "rank": 6,
@@ -278,28 +278,28 @@
         "channel": "SMTOWN",
         "thumbnail": "https://i.ytimg.com/vi/wG7pnZttup8/mqdefault.jpg",
         "published_at": "2026-11-09T09:00:20Z",
-        "view_count": 4542270,
-        "like_count": 146560
+        "view_count": 4840355,
+        "like_count": 147459
       },
       {
         "rank": 7,
-        "video_id": "AMok5O9g26g",
-        "title": "맞으면 흥분하는 남자",
-        "channel": "괴물쥐 유튜브",
-        "thumbnail": "https://i.ytimg.com/vi/AMok5O9g26g/mqdefault.jpg",
-        "published_at": "2026-11-09T13:00:17Z",
-        "view_count": 719479,
-        "like_count": 2700
+        "video_id": "qkmqvpFziJg",
+        "title": "나는 인방도적이 좋다",
+        "channel": "랄로",
+        "thumbnail": "https://i.ytimg.com/vi/qkmqvpFziJg/mqdefault.jpg",
+        "published_at": "2026-11-10T09:03:23Z",
+        "view_count": 466691,
+        "like_count": 2195
       },
       {
         "rank": 8,
-        "video_id": "JPJokqIoIJI",
-        "title": "A2O SOUL 'Dancing in the Dark' Official Music Video",
-        "channel": "A2O WORLD",
-        "thumbnail": "https://i.ytimg.com/vi/JPJokqIoIJI/mqdefault.jpg",
-        "published_at": "2026-11-09T09:00:16Z",
-        "view_count": 1216423,
-        "like_count": 68505
+        "video_id": "roPmnx9Pglw",
+        "title": "화",
+        "channel": "Panda Gomm - Topic",
+        "thumbnail": "https://i.ytimg.com/vi/roPmnx9Pglw/mqdefault.jpg",
+        "published_at": "2026-11-10T09:03:45Z",
+        "view_count": 49900,
+        "like_count": 2040
       },
       {
         "rank": 9,
@@ -308,38 +308,38 @@
         "channel": "김재원의 즐거운 세상",
         "thumbnail": "https://i.ytimg.com/vi/wD7ZBG0m0yY/mqdefault.jpg",
         "published_at": "2026-11-10T07:00:10Z",
-        "view_count": 280297,
-        "like_count": 6436
+        "view_count": 311650,
+        "like_count": 6564
       },
       {
         "rank": 10,
+        "video_id": "JPJokqIoIJI",
+        "title": "A2O SOUL 'Dancing in the Dark' Official Music Video",
+        "channel": "A2O WORLD",
+        "thumbnail": "https://i.ytimg.com/vi/JPJokqIoIJI/mqdefault.jpg",
+        "published_at": "2026-11-09T09:00:16Z",
+        "view_count": 1253050,
+        "like_count": 69323
+      },
+      {
+        "rank": 11,
+        "video_id": "AMok5O9g26g",
+        "title": "맞으면 흥분하는 남자",
+        "channel": "괴물쥐 유튜브",
+        "thumbnail": "https://i.ytimg.com/vi/AMok5O9g26g/mqdefault.jpg",
+        "published_at": "2026-11-09T13:00:17Z",
+        "view_count": 736665,
+        "like_count": 2726
+      },
+      {
+        "rank": 12,
         "video_id": "MWXbns4FV0s",
         "title": "Boogie Woogie",
         "channel": "NCT DREAM - Topic",
         "thumbnail": "https://i.ytimg.com/vi/MWXbns4FV0s/mqdefault.jpg",
         "published_at": "2026-11-09T09:01:54Z",
-        "view_count": 163712,
-        "like_count": 6169
-      },
-      {
-        "rank": 11,
-        "video_id": "qkmqvpFziJg",
-        "title": "나는 인방도적이 좋다",
-        "channel": "랄로",
-        "thumbnail": "https://i.ytimg.com/vi/qkmqvpFziJg/mqdefault.jpg",
-        "published_at": "2026-11-10T09:03:23Z",
-        "view_count": 401245,
-        "like_count": 2108
-      },
-      {
-        "rank": 12,
-        "video_id": "roPmnx9Pglw",
-        "title": "화",
-        "channel": "Panda Gomm - Topic",
-        "thumbnail": "https://i.ytimg.com/vi/roPmnx9Pglw/mqdefault.jpg",
-        "published_at": "2026-11-10T09:03:45Z",
-        "view_count": 41242,
-        "like_count": 1956
+        "view_count": 168453,
+        "like_count": 6216
       },
       {
         "rank": 13,
@@ -348,8 +348,8 @@
         "channel": "말왕TV",
         "thumbnail": "https://i.ytimg.com/vi/tfIcEdUXABw/mqdefault.jpg",
         "published_at": "2026-11-09T10:00:45Z",
-        "view_count": 622428,
-        "like_count": 7520
+        "view_count": 639761,
+        "like_count": 7563
       },
       {
         "rank": 14,
@@ -358,8 +358,8 @@
         "channel": "CNBLUE - Topic",
         "thumbnail": "https://i.ytimg.com/vi/wLhwbVKicpQ/mqdefault.jpg",
         "published_at": "2026-11-09T09:00:20Z",
-        "view_count": 46671,
-        "like_count": 1056
+        "view_count": 48383,
+        "like_count": 1070
       },
       {
         "rank": 15,
@@ -368,8 +368,8 @@
         "channel": "PAKA",
         "thumbnail": "https://i.ytimg.com/vi/_JmzDcTDkBk/mqdefault.jpg",
         "published_at": "2026-11-09T08:30:05Z",
-        "view_count": 556584,
-        "like_count": 1683
+        "view_count": 567202,
+        "like_count": 1691
       },
       {
         "rank": 16,
@@ -378,8 +378,8 @@
         "channel": "Release - Topic",
         "thumbnail": "https://i.ytimg.com/vi/DhJxlbxLh00/mqdefault.jpg",
         "published_at": "2026-11-05T09:02:26Z",
-        "view_count": 157486,
-        "like_count": 277
+        "view_count": 158683,
+        "like_count": 275
       },
       {
         "rank": 17,
@@ -388,8 +388,8 @@
         "channel": "이도원",
         "thumbnail": "https://i.ytimg.com/vi/qaFuv8AV8xk/mqdefault.jpg",
         "published_at": "2026-11-09T08:00:09Z",
-        "view_count": 437479,
-        "like_count": 7282
+        "view_count": 446770,
+        "like_count": 7309
       },
       {
         "rank": 18,
@@ -398,8 +398,8 @@
         "channel": "JYP Entertainment",
         "thumbnail": "https://i.ytimg.com/vi/pe-rk1ekb4w/mqdefault.jpg",
         "published_at": "2026-11-09T08:58:07Z",
-        "view_count": 2765772,
-        "like_count": 142240
+        "view_count": 2846578,
+        "like_count": 143796
       },
       {
         "rank": 19,
@@ -408,8 +408,8 @@
         "channel": "근가놈",
         "thumbnail": "https://i.ytimg.com/vi/sJR_xQybWis/mqdefault.jpg",
         "published_at": "2026-11-09T12:18:44Z",
-        "view_count": 443750,
-        "like_count": 3365
+        "view_count": 451382,
+        "like_count": 3376
       },
       {
         "rank": 20,
@@ -418,8 +418,8 @@
         "channel": "CHAERYEONG (ITZY) - Topic",
         "thumbnail": "https://i.ytimg.com/vi/m8fkHYTAFSw/mqdefault.jpg",
         "published_at": "2026-10-19T09:50:01Z",
-        "view_count": 74308,
-        "like_count": 4485
+        "view_count": 79270,
+        "like_count": 4605
       },
       {
         "rank": 21,
@@ -428,18 +428,18 @@
         "channel": "Official dopa",
         "thumbnail": "https://i.ytimg.com/vi/XgGrdIJMOIs/mqdefault.jpg",
         "published_at": "2026-11-09T12:24:36Z",
-        "view_count": 483021,
-        "like_count": 1474
+        "view_count": 493169,
+        "like_count": 1491
       },
       {
         "rank": 22,
-        "video_id": "BerIP_Vq-T4",
-        "title": "The Road To Me",
-        "channel": "KyoungSeo - Topic",
-        "thumbnail": "https://i.ytimg.com/vi/BerIP_Vq-T4/mqdefault.jpg",
-        "published_at": "2026-11-08T09:03:02Z",
-        "view_count": 75417,
-        "like_count": 621
+        "video_id": "xWNIrOTJ6VA",
+        "title": "LNGSHOT - ‘Bananas’ Official Music Video",
+        "channel": "MORE VISION",
+        "thumbnail": "https://i.ytimg.com/vi/xWNIrOTJ6VA/mqdefault.jpg",
+        "published_at": "2026-11-10T09:00:05Z",
+        "view_count": 738117,
+        "like_count": 116866
       },
       {
         "rank": 23,
@@ -448,18 +448,18 @@
         "channel": "튜브김민교",
         "thumbnail": "https://i.ytimg.com/vi/K35fmBqut7g/mqdefault.jpg",
         "published_at": "2026-11-10T09:02:31Z",
-        "view_count": 300094,
-        "like_count": 1134
+        "view_count": 340794,
+        "like_count": 1202
       },
       {
         "rank": 24,
-        "video_id": "J5fZFi9Qn5w",
-        "title": "ODYSSEY",
-        "channel": "Kassy - Topic",
-        "thumbnail": "https://i.ytimg.com/vi/J5fZFi9Qn5w/mqdefault.jpg",
-        "published_at": "2026-11-09T09:00:17Z",
-        "view_count": 30938,
-        "like_count": 236
+        "video_id": "Ij3t8d5-bvM",
+        "title": "Sleepless Night(2026)",
+        "channel": "iHwak - Topic",
+        "thumbnail": "https://i.ytimg.com/vi/Ij3t8d5-bvM/mqdefault.jpg",
+        "published_at": "2026-11-07T09:03:48Z",
+        "view_count": 139541,
+        "like_count": 1895
       },
       {
         "rank": 25,
@@ -468,8 +468,8 @@
         "channel": "[꿀템TV] 클템 유튜브",
         "thumbnail": "https://i.ytimg.com/vi/SDSUKpOzEgw/mqdefault.jpg",
         "published_at": "2026-11-09T11:04:06Z",
-        "view_count": 294705,
-        "like_count": 1227
+        "view_count": 297676,
+        "like_count": 1236
       }
     ],
     "google_news": {
@@ -477,30 +477,30 @@
         {
           "title": "美 국방장관, 탄핵 추진에 \"정치적 쇼\" 반발",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84TW0zYXA1aDBleUdoWVd3TTNfWUsxTmtpMlhjN2E4a3VyRTB5bnRhN2MwTzIyOUtzS1A1UGxkZGFUQWpQLV8xTkttT2JVb1MzM1EwY2FMQnZFUTFvcXBTbndYSGRCTlk?oc=5",
-          "description": "美 국방장관, 탄핵 추진에 \"정치적 쇼\" 반발  연합뉴스TV미 공화당 의원이 헤그세스 국방장관 탄핵안 발의  경향신문트럼프 “다수가 밴스 이란 언급 안 좋아해…UFC 대변인은 농담”  KBS 뉴스전쟁 반대한 측근에 ‘화살’…\"트럼프 종말\" 보수층도 손절  JTBC美 탄핵 레이스 … 전쟁장관이 첫 표적  매일경제",
+          "description": "美 국방장관, 탄핵 추진에 \"정치적 쇼\" 반발  연합뉴스TV헤그세스 \"전쟁 중인 장관 탄핵 소추는 웃긴 얘기\"  조선일보미 공화당 의원이 헤그세스 국방장관 탄핵안 발의  경향신문[속보]탄핵 위기 헤그세스 “성공적 군사작전 처벌하나” 맹비난  동아일보美국방 \"탄핵소추는 정치적 쇼…보여주기식 재판 실패할 것\"  연합뉴스",
           "publisher": "연합뉴스TV",
           "pub_date": "2026-11-10T15:06:00+00:00"
         },
         {
-          "title": "주진우 \"농지 투기, 증거 인멸\"…이용철 \"관할청 권고\"",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4RVpGOEJacFRHQzg5bjJFZHd5VlphODZiTXhxc2tCZTFSNEZJYUE5dUdobnBNeXVhOXNkaElKQVVTWlRwa1RsYWpDemxBeDB1UGtTQ3NZMUFiQkZSWGJtS1RTMGJlYm8?oc=5",
-          "description": "주진우 \"농지 투기, 증거 인멸\"…이용철 \"관할청 권고\"  연합뉴스TV“이용철, 공소취소 관련 李생각 ‘복붙’ 한듯 답변해 섬뜩”[황형준의 법정모독]  동아일보[전격시사] 성일종 국민의힘 의원 - “‘성남라인 핵심’, 대장동 숨은 설계자…대통령 죄 지우기 나설 것” “이용철 법무장관 후보자 매우 부적절”, 왜?  KBS 뉴스주진우 \"이용철, 청문회 앞두고 ",
-          "publisher": "연합뉴스TV",
-          "pub_date": "2026-11-10T08:46:00+00:00"
-        },
-        {
           "title": "‘내란’ 한덕수, 풀려나 재판 받나…“중형 피고인, 구속 기간에 처리해야”",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zWG9fRU1ndlplN2lKLW02WHAyNlNIWjlEWU5sV2wtRnNQUXVMV2lvbU5FQTVwckNBR2FNcHlaQXVEUlhqR2lmZk5fVHBXYVhLQzFScS0zNHYtaGRQOG5EZEhVMEFKS21WQUdYS1d2REgydw?oc=5",
-          "description": "‘내란’ 한덕수, 풀려나 재판 받나…“중형 피고인, 구속 기간에 처리해야”  한겨레[사설]한덕수 구속만료 하루 전 대법 전합 심리, 내란범 활보하는 일 없길  경향신문與 “한덕수 풀려나면 그땐 진짜 전쟁…당장 접으라” 공세  문화일보대법원 뭐했나…한덕수, 이대로면 11월 20일 풀려난다  JTBC與 또 조희대에 공세…“한덕수 풀려나면 대법원 책임”  동아일",
+          "description": "‘내란’ 한덕수, 풀려나 재판 받나…“중형 피고인, 구속 기간에 처리해야”  한겨레[사설]한덕수 구속만료 하루 전 대법 전합 심리, 내란범 활보하는 일 없길  경향신문대법원 뭐했나…한덕수, 이대로면 11월 20일 풀려난다  JTBC與 또 조희대에 공세…“한덕수 풀려나면 대법원 책임”  동아일보與 \"한덕수 풀려나면 진짜 전쟁…曺 대법원 국민이 용납않을 것\" ",
           "publisher": "한겨레",
           "pub_date": "2026-11-10T13:19:00+00:00"
         },
         {
-          "title": "[단독] 김종철 후보자 ‘누나와 공동소유’ 꼼수로 재개발 아파트 2채 분양 의혹",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE13cWJhUDdleFc1Rkt5XzdMQnRmYTFjaGl0bV9XdnZHRlhVQnQ0LU8wN2hQRldYSGNoS2hzeE4tZXRhdkRyU1hocHNhaTdscEpZU2ppOUNZUEdRVnliUWR3OC1VQ05RY05vdnU5MVRZMWNLUQ?oc=5",
-          "description": "[단독] 김종철 후보자 ‘누나와 공동소유’ 꼼수로 재개발 아파트 2채 분양 의혹  한겨레경찰청장 후보자, 재개발 입주권 2개…‘누나 명의’ 꼼수 의혹  동아일보[현장영상+] 김종철, 인사청문회 준비 본격화...출근길 입장 발표  YTN기사 - 경찰을 보는 흐린 눈 : 대통령의 우려가 향해야 할 곳  딴지일보김종철 경찰청장 내정자 “수사기관장도 국무회의 참석",
+          "title": "‘신천지 열람’ 이후 친명-친청 더 티격태격…내홍 장기화 하나",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LMlpKRG5oMzdqY0NveVFyNVloS0ZfT2lDOU5yS1JsOVlueko0T0pBMVF5cmR0bTdkUFE2ZWhNWjVHQ2xXNWl1cW85SWZGMnhUWk1OcTdlU3NoTkpPcFRobFJydjJYVUtOclJYUTVLVDFFaGdy?oc=5",
+          "description": "‘신천지 열람’ 이후 친명-친청 더 티격태격…내홍 장기화 하나  한겨레신천지 TF 조사 열람한 이성윤 \"허탈‥사후 알리바이용 의심\"  MBC 뉴스김민석, 공개 일정 취소하고 잠행…당 내홍 영향?  KBS 뉴스'3자 비밀연합'에 꼬인 與…원로들, 김민석에 \"정청래 만나라\"  뉴스1신천지 문제, 민주당내 갈등 극화  인천일보",
           "publisher": "한겨레",
-          "pub_date": "2026-11-10T13:19:00+00:00"
+          "pub_date": "2026-11-10T11:20:00+00:00"
+        },
+        {
+          "title": "주진우 \"농지 투기, 증거 인멸\"…이용철 \"관할청 권고\"",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4RVpGOEJacFRHQzg5bjJFZHd5VlphODZiTXhxc2tCZTFSNEZJYUE5dUdobnBNeXVhOXNkaElKQVVTWlRwa1RsYWpDemxBeDB1UGtTQ3NZMUFiQkZSWGJtS1RTMGJlYm8?oc=5",
+          "description": "주진우 \"농지 투기, 증거 인멸\"…이용철 \"관할청 권고\"  연합뉴스TV“이용철, 공소취소 관련 李생각 ‘복붙’ 한듯 답변해 섬뜩”[황형준의 법정모독]  동아일보이용철, 공소취소 묻자 \"내일 청문준비단 출근 때 답하겠다\"  조선일보[전격시사] 성일종 국민의힘 의원 - “‘성남라인 핵심’, 대장동 숨은 설계자…대통령 죄 지우기 나설 것” “이용철 법무장관 후보",
+          "publisher": "연합뉴스TV",
+          "pub_date": "2026-11-10T08:46:00+00:00"
         },
         {
           "title": "파면된 대통령 별장엔 비밀금고가···파라과이 탄핵 후폭풍에 교사 파업 돌입",
@@ -510,146 +510,118 @@
           "pub_date": "2026-11-10T08:04:00+00:00"
         },
         {
-          "title": "[사설] 어느 사건, 어떤 대목이 ‘조작’인지 구체적으로 제시하라",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdkRsUkRPRTFLQVRaNGp5c3R0WEJiOWNTVHVYazlKQU41Y05SbW53TGg5N0ZCTGhjcG5rSVlmQVZYWVBCX2phYjlFU0R2ZG5NRjRaZUN6Q1YtZW1DZ3BVeEFnRFdOdldnMlNFOWV1Y25TT1RkaU1TZzVEX3NiTWlCRnZzWjY4dw?oc=5",
-          "description": "[사설] 어느 사건, 어떤 대목이 ‘조작’인지 구체적으로 제시하라  조선일보한동훈 “조작기소 특검은 범죄단체…파견 갔다간 감옥갈 것”  중앙일보장동혁, 친한계에 “함께 싸울 생각 없으면 가벼운 입 다물라”  주간경향국힘, 또 탄핵 언급에...민주 \"정당 해산\" 맞불  YTN특검 vs 검사, 200일 ‘칼의 전쟁’  조선일보",
+          "title": "특검 vs 검사, 200일 ‘칼의 전쟁’",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdzZzR1hSYWlpNUhOVmVtYm0zVGdFOGdNQ2s5NW9SVGpOTW9oejZ0MFAwb0RYSjdkMS1EdkVCNTF6VVZHUmpLa1dZVXg2WHplVnhaNnY4Nnh4bnBvTlQyOGVMd1NwVjRpSHhqNDVIck9aOC1Xbl8wVWNsdnFObU8wb1AyRDFkT28?oc=5",
+          "description": "특검 vs 검사, 200일 ‘칼의 전쟁’  조선일보[사설] 어느 사건, 어떤 대목이 ‘조작’인지 구체적으로 제시하라  조선일보정면충돌 치닫는 여야...또 \"탄핵\" vs \"정당 해산 경고\"  YTN장동혁, 친한계에 “함께 싸울 생각 없으면 가벼운 입 다물라”  주간경향\"조작기소 특검법 의결 韓총리에게 떠넘기나\"  조선일보",
           "publisher": "조선일보",
-          "pub_date": "2026-11-10T15:10:00+00:00"
+          "pub_date": "2026-11-10T15:45:00+00:00"
         },
         {
-          "title": "영어학원 앞에 불 지른 60대 체포…“과거 동업 관계”",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1VkhNQkFXYjVMMHhwVDZWc21Vb3Nwa3EzNF93TGFHcHQ2bmtkZVlMeTVOS3pxM3lhaUNGUzNUSGVWNURVZlgxaHNQdzBlMjhYVlpZVS1lQWp2UnJ0eENPNkI5S2hUUQ?oc=5",
-          "description": "영어학원 앞에 불 지른 60대 체포…“과거 동업 관계”  KBS 뉴스Google 뉴스에서 헤드라인 및 의견 더보기",
-          "publisher": "KBS 뉴스",
-          "pub_date": "2026-11-10T12:19:00+00:00"
-        },
-        {
-          "title": "초겨울 진입한 한반도...목요일까지 평년 밑도는 추위",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWHhlNG5zUDJDX2NXS0EtNWNUc3J4VEttbVJEdlEtclN3c0lIWEo5LUFBb2JIVGpRaWxEXzcxdU9sTXhhV1N0T1VhTnpuQXlVOE1qeUtXTmVFMDVDNUZnU1J6Y1NIaEdWLS1CRm9peW9UbFo5T29TWHJURS1JWTBwS1VLNkFQZXloM1YzMFJnSTI5bmMycFpv?oc=5",
-          "description": "초겨울 진입한 한반도...목요일까지 평년 밑도는 추위  조선일보[날씨] 오전 곳곳 안개, 서리·살얼음도‥일교차 15도 안팎  MBC 뉴스전국 대체로 맑고 아침 '쌀쌀'…낮 기온 평년 회복  뉴시스수요일 아침 영하권 추위·낮엔 포근…일교차 15도 안팎  연합뉴스[내일 날씨] 쾌청하고 쌀쌀한 늦가을…일교차 15도 이상  머니투데이",
-          "publisher": "조선일보",
-          "pub_date": "2026-11-10T02:49:42+00:00"
-        },
-        {
-          "title": "공소청, 추미애 아들 ‘군복무 특혜 휴가’ 의혹 수사 2년2개월 만에 재개",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55OExNd2w5TWZyZ1FzMEptOG9lWllYTGpVdzB5NEJPM3JWd0l5bmdjZVdVdV84d2lNd1ZUZWtrZzBBRkozamlUNFU4QmgzQzBpd0VLTUdSS18wd9IBX0FVX3lxTE54bTN3X2xhZkJaZV9YTmh3amNvV0RlTzJRMmg5cDlmdzhkcXl3M3FhVWlHYVBqay1rd3Q0ZWY5M19KYmdjQ0FvdUhPUjZmUGdPbGYzdGRyYmJrRW5YWWFZ?oc=5",
-          "description": "공소청, 추미애 아들 ‘군복무 특혜 휴가’ 의혹 수사 2년2개월 만에 재개  경향신문[단독] 공소청, 귀국한 추미애 지사 아들 출국금지…재기수사 마무리 수순  JTBC공소청 ‘軍 휴가 미복귀 의혹’ 추미애 아들 수사 재개  조선일보추미애 아들 귀국하자 출국금지…‘軍휴가 특혜 의혹’ 수사 재개  동아일보추미애 아들 귀국하자 출국금지…‘軍 특혜 의혹’ 수사 재",
-          "publisher": "경향신문",
-          "pub_date": "2026-11-10T07:24:00+00:00"
+          "title": "아침 최저 -3도·낮 최고 18도…오전 곳곳 안개",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XR1gxYWFwTG5jOEJaUFBpbVVYRnpKdVFYaTJzMnVQOVBFdFlxd280QTlSM3NPUEJSdXhjQTRDSHlmcHgzX3BTQkswWDhtbnhXNS1xUDJtZWo5cGJYT3ZyOExONldFemVBVHhhWA?oc=5",
+          "description": "아침 최저 -3도·낮 최고 18도…오전 곳곳 안개  한겨레밤사이 짙은 안개·도로 살얼음 주의…일교차 커  KBS 뉴스[날씨] 오전 곳곳 안개, 서리·살얼음도‥일교차 15도 안팎  MBC 뉴스전국 대체로 맑고 아침 '쌀쌀'…낮 기온 평년 회복  뉴시스[날씨] 전국 맑고 쌀쌀한 아침...일교차 15℃ 안팎 벌어져  YTN",
+          "publisher": "한겨레",
+          "pub_date": "2026-11-10T00:14:00+00:00"
         },
         {
           "title": "이 대통령, 내일 김민석·한병도와 만찬…부동산 등 현안 논의",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OcTJuLUk1SzAtck9ITnBtdjNuZkNKbGoxZmNiRWJTamVsNDNfR0tRY0ZfakFobktOY3AtdlRWcFhrVGE2allfdW1PekVLdEFnNzU0M3NUcmFOZVpFVnE1Rzktb2RjVE0?oc=5",
-          "description": "이 대통령, 내일 김민석·한병도와 만찬…부동산 등 현안 논의  연합뉴스TV수도권 與의원 “비거주 종부세 완화를”…정부 “실거주 우대” 선그어  동아일보李대통령, 오늘 김민석·한병도와 만찬‥종부세·특검 등 논의하나  MBC 뉴스국민의힘, 당정 부동산 세제 엇박자 방침 비판... \"정책 기조 재검토하라\"  로이슈이형일 \"실거주 우대 원칙 지켜야…합리적 비거주 ",
+          "description": "이 대통령, 내일 김민석·한병도와 만찬…부동산 등 현안 논의  연합뉴스TV수도권 與의원 “비거주 종부세 완화를”…정부 “실거주 우대” 선그어  동아일보\"전세 씨말라\"… 與, 부동산 민심 악화에 TF 따로 만든다  조선일보민주당 수도권 의원들, ‘비거주 1주택 규제 재검토’ 논의 토론회  KBS 뉴스이 대통령, 오늘 김민석과 만찬…종부세 당·청 합의점 찾을까",
           "publisher": "연합뉴스TV",
           "pub_date": "2026-11-10T14:17:00+00:00"
-        },
-        {
-          "title": "\"美·이란, 우라늄 농축 제한·동결 자금 해제 합의 근접\"",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SQ2x5c3JaZl9NcGNrdnBNWl9wS0RKdFMxOTBZdEhzbTRqY0ZHV1JnQW1ab0JNM0hhR0dlVklPRU1aazNyMnlHTTlWS0pDY1FpNHY1RUNRbmF4bm5NcWY4Y05iMzB4Q2s?oc=5",
-          "description": "\"美·이란, 우라늄 농축 제한·동결 자금 해제 합의 근접\"  연합뉴스TV트럼프 \"이란 공격 가능성 매우 낮아\"...이란 \"상상 속 협상 멈춰라\"  YTN“핵농축 내주고 종전 챙길 수도”… 미·이란, 한 발씩 물러설까  서울신문\"미·이란, 우라늄 농축 제한·동결자금 해제 등 합의 근접\"  MBC 뉴스카타르 총리, 트럼프 만나 \"긍정적 논의\"…아랍 정상들 연쇄",
-          "publisher": "연합뉴스TV",
-          "pub_date": "2026-11-10T12:00:00+00:00"
-        },
-        {
-          "title": "트럼프, 선거 참패하자 또 부정선거 주장…“투표 기계 문제”",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tQmFsZlVSMXpmem1uU0Qzcnd5STh2Um04U3lJR2pOWmhhaFZtQ1F4aHdET1N6d0VxR1NWYjE3UHdoZmtRMUpZd0V4d183QUdtbUFVRG16QnJpMG5mSnNEY1c5cEdBVEdaQlJVcHJtMy1TeVHSAWZBVV95cUxPSEREdjhaME5ITVJ6NEJITlhsS3M3RDVua1VGY2wzYmI3Vy1rczRLV3p6VThNME1PWTFoWEhfbHpNN25QaGc5NkN5eFl5ZmRKQmlVUDlfQzlMSC1vakNjdzVkMm4yN0E?oc=5",
-          "description": "트럼프, 선거 참패하자 또 부정선거 주장…“투표 기계 문제”  동아일보트럼프, 결국 꺼낸 ‘부정선거론’…헤그세스 “탄핵 걱정 안 해”  KBS 뉴스트럼프 또 부정선거 음모론[횡설수설/김준일]  동아일보5년 전 의회 난입 부른 그 주장…트럼프 또 \"부정선거\"  JTBC“공화당 참패 수용” 엿새 만에…또 ‘부정선거론’ 꺼내든 트럼프  경향신문",
-          "publisher": "동아일보",
-          "pub_date": "2026-11-10T09:04:39+00:00"
-        },
-        {
-          "title": "\"냉장고 온도도 통제못하는 프랑스\"…이란, 사이버공격 배후설 반박",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUR3o1VmdPS0lXWUJxZEZWajUwdGlNSENvT1RlNjNUZTFfNThGb3RyX2FRS1AwRlBNcnZpTDVfa1MzZEdlRG9tTDFvbG9BaTRhcWFVQnVKS3FUaFXSAWBBVV95cUxQWTFVNUdVOExlU2s1RUNzemhVX1Awc29DTnd6Znc1YW1FeDVkQzVaWFc1b2JHOFlsMUVtTnJJNmlTODl5ZWhKMTNHS1RFMjJOUHY1cFYxekRRQ2F5Y09zMm4?oc=5",
-          "description": "\"냉장고 온도도 통제못하는 프랑스\"…이란, 사이버공격 배후설 반박  연합뉴스폭탄 공격 못지않다… 이란의 ‘냉장고 테러’에 벌벌 떠는 유럽  조선일보유럽 사이버 안보 위협 속 영국군 '해커 잡는 병력' 해외 파견  YTN 사이언스프랑스 “이란 혁명수비대가 냉장고 해킹 배후”…이란은 ‘침묵’  KBS 뉴스프랑스 “‘냉장고 온도 50도까지 높인 사이버 공격’, ",
-          "publisher": "연합뉴스",
-          "pub_date": "2026-11-10T13:25:26+00:00"
-        },
-        {
-          "title": "캠벨 전 미 국무부 부장관 “트럼프, 시진핑에 북미 대화 도움 요청”",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DTE54V0dhZWgzUXpsVDJQelNhb2Q0UlBLWTE4Qm9LbnhxaFhBSVhzdk5qZ3JucWlQUWloTGJqRVdFaElDTU95YWphbm5ndUgwREZKZXp1OGFCUTZIU3FKcnQtWFpmaDh2TGFLR080Yw?oc=5",
-          "description": "캠벨 전 미 국무부 부장관 “트럼프, 시진핑에 북미 대화 도움 요청”  한겨레미 전문가들 “중간선거 이후 ‘보여주기식’ 북·미 정상회담 가능성 더 커져”  경향신문비건 “한미동맹 지켜야…北 핵보유국 법적 인정 불가”  마켓인\"트럼프때 北비핵화 진입해야…핵보유국 요구 받아들여선 안돼\"(종합)  연합뉴스비건 전 대북대표 “트럼프·김정은, ‘보여주기식 회담’ 참",
-          "publisher": "한겨레",
-          "pub_date": "2026-11-10T09:10:00+00:00"
-        },
-        {
-          "title": "금융보안원도 털렸다…개인정보 등 수백건 정보유출(종합)",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SSF8tZlk5X2llZXhYZEkzVlpIOXk2QUo3R2EtTzhtWXRaWjhZX0tWWTQ3VWlUazZNU3BUREVWLTVQOXRWMVhfVDBZM24tVkF2Q0dKbzJuZFM2ZWtiZWlDTXkydjBpMU91Z3pPbjlXUXY?oc=5",
-          "description": "금융보안원도 털렸다…개인정보 등 수백건 정보유출(종합)  연합인포맥스금융보안원도 해킹에 털렸다...금융사 보안정보 유출  YTN'컨트롤타워' 금융보안원도 뚫렸다…개인정보 650여건 등 유출 - 머니투데이  머니투데이금융보안원도 해킹에 뚫려…금융사 직원 개인정보 300여건 유출(종합2보)  매일경제 마켓금융보안원 해킹 피해 확인… 개인정보 650여건 유출  ",
-          "publisher": "연합인포맥스",
-          "pub_date": "2026-11-10T14:06:31+00:00"
-        }
-      ],
-      "nation": [
-        {
-          "title": "이용철, 출근길 공소취소 질문에 \"내일 말하겠다\"",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8yQkR6MnBBdXhNZFNDajJTeTRSRFlBQV9hSUZLaDlVUE43bFh6SEM2ZHFhMXY2c2FaWEtFRDFEQXh3cDFDQVBGcnRqR19OU2JYejdld2FBUHh0Y2QxeEsyR1lpaUNReDZrWXB4M1I4bWVLNE80YWVR0gF3QVVfeXFMTkRSQm9WRnhZeWpMSWpoV0ppamlTc2R4QnBEN2cxY0pQM1BfWEtXV1ZJUjRPXzlXcnJGOVhpWlVmZGlzRHlBcDc5a1kyZnlSc3NzbHNQZV8xSWh0UG1mRVlGME1rZ0FCUjhubHBINzliblQ1ekNzaW8?oc=5",
-          "description": "이용철, 출근길 공소취소 질문에 \"내일 말하겠다\"  MBC 뉴스“이용철, 공소취소 관련 李생각 ‘복붙’ 한듯 답변해 섬뜩”[황형준의 법정모독]  동아일보[전격시사] 성일종 국민의힘 의원 - “‘성남라인 핵심’, 대장동 숨은 설계자…대통령 죄 지우기 나설 것” “이용철 법무장관 후보자 매우 부적절”, 왜?  KBS 뉴스주진우 \"이용철, 청문회 앞두고 농지 형",
-          "publisher": "MBC 뉴스",
-          "pub_date": "2026-11-10T00:39:47+00:00"
-        },
-        {
-          "title": "영어학원 앞에 불 지른 60대 체포…“과거 동업 관계”",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1VkhNQkFXYjVMMHhwVDZWc21Vb3Nwa3EzNF93TGFHcHQ2bmtkZVlMeTVOS3pxM3lhaUNGUzNUSGVWNURVZlgxaHNQdzBlMjhYVlpZVS1lQWp2UnJ0eENPNkI5S2hUUQ?oc=5",
-          "description": "영어학원 앞에 불 지른 60대 체포…“과거 동업 관계”  KBS 뉴스Google 뉴스에서 헤드라인 및 의견 더보기",
-          "publisher": "KBS 뉴스",
-          "pub_date": "2026-11-10T12:19:00+00:00"
-        },
-        {
-          "title": "‘내란’ 한덕수, 풀려나 재판 받나…“중형 피고인, 구속 기간에 처리해야”",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zWG9fRU1ndlplN2lKLW02WHAyNlNIWjlEWU5sV2wtRnNQUXVMV2lvbU5FQTVwckNBR2FNcHlaQXVEUlhqR2lmZk5fVHBXYVhLQzFScS0zNHYtaGRQOG5EZEhVMEFKS21WQUdYS1d2REgydw?oc=5",
-          "description": "‘내란’ 한덕수, 풀려나 재판 받나…“중형 피고인, 구속 기간에 처리해야”  한겨레[사설]한덕수 구속만료 하루 전 대법 전합 심리, 내란범 활보하는 일 없길  경향신문與 “한덕수 풀려나면 그땐 진짜 전쟁…당장 접으라” 공세  문화일보대법원 뭐했나…한덕수, 이대로면 11월 20일 풀려난다  JTBC與 또 조희대에 공세…“한덕수 풀려나면 대법원 책임”  동아일",
-          "publisher": "한겨레",
-          "pub_date": "2026-11-10T12:25:00+00:00"
         },
         {
           "title": "[단독] 김종철 후보자 ‘누나와 공동소유’ 꼼수로 재개발 아파트 2채 분양 의혹",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE13cWJhUDdleFc1Rkt5XzdMQnRmYTFjaGl0bV9XdnZHRlhVQnQ0LU8wN2hQRldYSGNoS2hzeE4tZXRhdkRyU1hocHNhaTdscEpZU2ppOUNZUEdRVnliUWR3OC1VQ05RY05vdnU5MVRZMWNLUQ?oc=5",
           "description": "[단독] 김종철 후보자 ‘누나와 공동소유’ 꼼수로 재개발 아파트 2채 분양 의혹  한겨레경찰청장 후보자, 재개발 입주권 2개…‘누나 명의’ 꼼수 의혹  동아일보[현장영상+] 김종철, 인사청문회 준비 본격화...출근길 입장 발표  YTN기사 - 경찰을 보는 흐린 눈 : 대통령의 우려가 향해야 할 곳  딴지일보김종철 경찰청장 내정자 “수사기관장도 국무회의 참석",
           "publisher": "한겨레",
-          "pub_date": "2026-11-10T13:19:00+00:00"
+          "pub_date": "2026-11-10T14:25:00+00:00"
         },
         {
-          "title": "초겨울 진입한 한반도...목요일까지 평년 밑도는 추위",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWHhlNG5zUDJDX2NXS0EtNWNUc3J4VEttbVJEdlEtclN3c0lIWEo5LUFBb2JIVGpRaWxEXzcxdU9sTXhhV1N0T1VhTnpuQXlVOE1qeUtXTmVFMDVDNUZnU1J6Y1NIaEdWLS1CRm9peW9UbFo5T29TWHJURS1JWTBwS1VLNkFQZXloM1YzMFJnSTI5bmMycFpv?oc=5",
-          "description": "초겨울 진입한 한반도...목요일까지 평년 밑도는 추위  조선일보[날씨] 오전 곳곳 안개, 서리·살얼음도‥일교차 15도 안팎  MBC 뉴스전국 대체로 맑고 아침 '쌀쌀'…낮 기온 평년 회복  뉴시스수요일 아침 영하권 추위·낮엔 포근…일교차 15도 안팎  연합뉴스[내일 날씨] 쾌청하고 쌀쌀한 늦가을…일교차 15도 이상  머니투데이",
+          "title": "‘무혐의’ 처분받고 해외 뜬 추미애 지사 아들… 귀국하자 ‘출국금지·재수사’",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc1UwRmtka1NRQm5Qd0ZmeFRJdmJZWFduTWI4OFlRamhYMnVzVGZ6UlZWVEs2aU12d3pST0lxRjRNUmhma3R0bHYzTkM1RGlXS28tU3o4ZU11QW0xdm16b2pIU3VFcHgtMmNqM2FreGtXOUlaQ1VqUWg5VnpsRG16WDZlY2EweldnQmhFX3JINGk?oc=5",
+          "description": "‘무혐의’ 처분받고 해외 뜬 추미애 지사 아들… 귀국하자 ‘출국금지·재수사’  조선일보[단독] 공소청, 귀국한 추미애 지사 아들 출국금지…재기수사 마무리 수순  JTBC공소청, 추미애 아들 ‘군복무 특혜 휴가’ 의혹 수사 2년2개월 만에 재개  경향신문추미애 아들 귀국하자 출국금지…‘軍 특혜 의혹’ 수사 재개  중앙일보추미애 아들 귀국하자 출국금지…‘軍휴가",
           "publisher": "조선일보",
-          "pub_date": "2026-11-10T02:49:42+00:00"
+          "pub_date": "2026-11-10T07:10:00+00:00"
         },
         {
-          "title": "공소청, 추미애 아들 ‘군복무 특혜 휴가’ 의혹 수사 2년2개월 만에 재개",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55OExNd2w5TWZyZ1FzMEptOG9lWllYTGpVdzB5NEJPM3JWd0l5bmdjZVdVdV84d2lNd1ZUZWtrZzBBRkozamlUNFU4QmgzQzBpd0VLTUdSS18wd9IBX0FVX3lxTE54bTN3X2xhZkJaZV9YTmh3amNvV0RlTzJRMmg5cDlmdzhkcXl3M3FhVWlHYVBqay1rd3Q0ZWY5M19KYmdjQ0FvdUhPUjZmUGdPbGYzdGRyYmJrRW5YWWFZ?oc=5",
-          "description": "공소청, 추미애 아들 ‘군복무 특혜 휴가’ 의혹 수사 2년2개월 만에 재개  경향신문[단독] 공소청, 귀국한 추미애 지사 아들 출국금지…재기수사 마무리 수순  JTBC공소청 ‘軍 휴가 미복귀 의혹’ 추미애 아들 수사 재개  조선일보추미애 아들 귀국하자 출국금지…‘軍휴가 특혜 의혹’ 수사 재개  동아일보추미애 아들 귀국하자 출국금지…‘軍 특혜 의혹’ 수사 재",
-          "publisher": "경향신문",
-          "pub_date": "2026-11-10T07:24:00+00:00"
+          "title": "사우디 국영방송 “미국·이란, 우라늄 농축 제한 등 합의 근접”",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ3FfYmxmdm15c2xlcFZJaEJBaFlpcUdxS29IRThUeWZVVDE0LUVLcDJidTd1NmlmVFk2Y09pNnB4S29WVUtpZ3NuNG9WVDMzVUxTY1hsYjFNT0M3TmlxMzdLTDdtRDN1UjZKVV9tM3NlUGt5M04zeEt1ZXZwZUkzRUFn?oc=5",
+          "description": "사우디 국영방송 “미국·이란, 우라늄 농축 제한 등 합의 근접”  한겨레트럼프 \"이란 공격 가능성 매우 낮아\"...이란 \"상상 속 협상 멈춰라\"  YTN카타르 총리, 트럼프 만나 \"긍정적 논의\"…아랍 정상들 연쇄통화  연합뉴스‘선거 참패’ 트럼프, 이란과 핵 협상 줄다리기 끝내나  경향신문美국무 \"이란 대규모 공격 필요없다…경제적 압박 심화\"  뉴시스",
+          "publisher": "한겨레",
+          "pub_date": "2026-11-10T14:17:00+00:00"
+        },
+        {
+          "title": "\"냉장고 온도도 통제못하는 프랑스\"…이란, 사이버공격 배후설 반박",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUR3o1VmdPS0lXWUJxZEZWajUwdGlNSENvT1RlNjNUZTFfNThGb3RyX2FRS1AwRlBNcnZpTDVfa1MzZEdlRG9tTDFvbG9BaTRhcWFVQnVKS3FUaFXSAWBBVV95cUxQWTFVNUdVOExlU2s1RUNzemhVX1Awc29DTnd6Znc1YW1FeDVkQzVaWFc1b2JHOFlsMUVtTnJJNmlTODl5ZWhKMTNHS1RFMjJOUHY1cFYxekRRQ2F5Y09zMm4?oc=5",
+          "description": "\"냉장고 온도도 통제못하는 프랑스\"…이란, 사이버공격 배후설 반박  연합뉴스유럽 사이버 안보 위협 속 영국군 '해커 잡는 병력' 해외 파견  YTN 사이언스프랑스 “냉장고 해킹, 이란 혁명수비대 소행···유럽 차원 제재 추진”  경향신문프랑스, 식료품점 냉장 설비 해킹 배후로 이란 혁명수비대 사이버 부대 지목  보안뉴스프, 냉장고 사이버 공격 배후로 이란 ",
+          "publisher": "연합뉴스",
+          "pub_date": "2026-11-10T13:25:26+00:00"
+        },
+        {
+          "title": "트럼프, 선거 참패하자 또 부정선거 주장…“투표 기계 문제”",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tQmFsZlVSMXpmem1uU0Qzcnd5STh2Um04U3lJR2pOWmhhaFZtQ1F4aHdET1N6d0VxR1NWYjE3UHdoZmtRMUpZd0V4d183QUdtbUFVRG16QnJpMG5mSnNEY1c5cEdBVEdaQlJVcHJtMy1TeVHSAWZBVV95cUxPSEREdjhaME5ITVJ6NEJITlhsS3M3RDVua1VGY2wzYmI3Vy1rczRLV3p6VThNME1PWTFoWEhfbHpNN25QaGc5NkN5eFl5ZmRKQmlVUDlfQzlMSC1vakNjdzVkMm4yN0E?oc=5",
+          "description": "트럼프, 선거 참패하자 또 부정선거 주장…“투표 기계 문제”  동아일보트럼프, 결국 꺼낸 ‘부정선거론’…헤그세스 “탄핵 걱정 안 해”  KBS 뉴스“공화당 참패 수용” 엿새 만에…또 ‘부정선거론’ 꺼내든 트럼프  경향신문5년 전 의회 난입 부른 그 주장…트럼프 또 \"부정선거\"  JTBC트럼프, 6일만에 부정선거론 제기...백악관 근처 차량 돌진 남성 체포 ",
+          "publisher": "동아일보",
+          "pub_date": "2026-11-10T09:04:39+00:00"
+        },
+        {
+          "title": "미·러·우크라 3자 종전 협상 시작…트럼프 “양측 모두 전쟁에 지쳐”",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBHZk15eENhbEpmZ01FazZNU3gtZ0xIQy14U3VOQlgxR2JWcV9jWWpzTHdvZGU4Y2lhcDk4WDhWWXcyeG9MNGRVLWpKYjJ5cHNP0gFTQVVfeXFMTWtIZGxCalctcXh6YlFzVzBvTEJvQTEyWTdxYnRfaDZFQmVVNVpTV3JUd3VsRnVlbEVTeGEtbURWRnA1bjAxbGI3MEYtQzg3Vk56MU0?oc=5",
+          "description": "미·러·우크라 3자 종전 협상 시작…트럼프 “양측 모두 전쟁에 지쳐”  VOA 한국어 홈페이지젤렌스키, 3자 종전협상에 \"건설적이고 실질적\" 평가  연합뉴스러, ‘휴전 후 안보 논의’ 유럽 구상에 공개 퇴짜…종전협상 난항 예고  KBS 뉴스러·우 종전협상 돌입···미·유럽 “우크라 영토 보전 존중해야”  경향신문미·러·우, 9개월 만에 종전 회담…최대 쟁점",
+          "publisher": "VOA 한국어 홈페이지",
+          "pub_date": "2026-11-10T15:38:51+00:00"
+        },
+        {
+          "title": "“젠슨 황 외도 상대 ‘엔비디아 GPU 확보 가능’ 과시”…수억달러 유치 시도",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96LWdVNGFIQmhUVUtwZ19xNjNLQ2hBYUFnUlpHRHhZVkNIVVBpZ3RvQ1VHYmhMdk1NSWtoV3otNUxRaG0wdDExWVhaQkJCM2kxTkxQQ3pMNGcyVFBqS3dqSnROZUFpR3hleUw4Wg?oc=5",
+          "description": "“젠슨 황 외도 상대 ‘엔비디아 GPU 확보 가능’ 과시”…수억달러 유치 시도  한겨레‘중국이 노린 건 칩이 아니다’…첩보 알고도 트럼프는 왜  JTBC美, 대중 기술규제 ‘고삐’… K반도체도 비상 [뉴스분석]  세계일보美안보 악몽된 젠슨황 스캔들…AI칩 대중수출 허용 의혹 소환  연합뉴스젠슨 황 퇴진하면 누가 엔비디아 이끌까…후계자 후보에 관심  연합인포",
+          "publisher": "한겨레",
+          "pub_date": "2026-11-10T12:24:00+00:00"
+        }
+      ],
+      "nation": [
+        {
+          "title": "이용철, 출근길 공소취소 질문에 \"내일 말하겠다\"",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8yQkR6MnBBdXhNZFNDajJTeTRSRFlBQV9hSUZLaDlVUE43bFh6SEM2ZHFhMXY2c2FaWEtFRDFEQXh3cDFDQVBGcnRqR19OU2JYejdld2FBUHh0Y2QxeEsyR1lpaUNReDZrWXB4M1I4bWVLNE80YWVR0gF3QVVfeXFMTkRSQm9WRnhZeWpMSWpoV0ppamlTc2R4QnBEN2cxY0pQM1BfWEtXV1ZJUjRPXzlXcnJGOVhpWlVmZGlzRHlBcDc5a1kyZnlSc3NzbHNQZV8xSWh0UG1mRVlGME1rZ0FCUjhubHBINzliblQ1ekNzaW8?oc=5",
+          "description": "이용철, 출근길 공소취소 질문에 \"내일 말하겠다\"  MBC 뉴스“이용철, 공소취소 관련 李생각 ‘복붙’ 한듯 답변해 섬뜩”[황형준의 법정모독]  동아일보이용철, 공소취소 묻자 \"내일 청문준비단 출근 때 답하겠다\"  조선일보[전격시사] 성일종 국민의힘 의원 - “‘성남라인 핵심’, 대장동 숨은 설계자…대통령 죄 지우기 나설 것” “이용철 법무장관 후보자 매우",
+          "publisher": "MBC 뉴스",
+          "pub_date": "2026-11-10T00:39:47+00:00"
+        },
+        {
+          "title": "아침 최저 -3도·낮 최고 18도…오전 곳곳 안개",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XR1gxYWFwTG5jOEJaUFBpbVVYRnpKdVFYaTJzMnVQOVBFdFlxd280QTlSM3NPUEJSdXhjQTRDSHlmcHgzX3BTQkswWDhtbnhXNS1xUDJtZWo5cGJYT3ZyOExONldFemVBVHhhWA?oc=5",
+          "description": "아침 최저 -3도·낮 최고 18도…오전 곳곳 안개  한겨레밤사이 짙은 안개·도로 살얼음 주의…일교차 커  KBS 뉴스[날씨] 오전 곳곳 안개, 서리·살얼음도‥일교차 15도 안팎  MBC 뉴스전국 대체로 맑고 아침 '쌀쌀'…낮 기온 평년 회복  뉴시스[날씨] 전국 맑고 쌀쌀한 아침...일교차 15℃ 안팎 벌어져  YTN",
+          "publisher": "한겨레",
+          "pub_date": "2026-11-10T00:14:00+00:00"
+        },
+        {
+          "title": "[단독] 김종철 후보자 ‘누나와 공동소유’ 꼼수로 재개발 아파트 2채 분양 의혹",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE13cWJhUDdleFc1Rkt5XzdMQnRmYTFjaGl0bV9XdnZHRlhVQnQ0LU8wN2hQRldYSGNoS2hzeE4tZXRhdkRyU1hocHNhaTdscEpZU2ppOUNZUEdRVnliUWR3OC1VQ05RY05vdnU5MVRZMWNLUQ?oc=5",
+          "description": "[단독] 김종철 후보자 ‘누나와 공동소유’ 꼼수로 재개발 아파트 2채 분양 의혹  한겨레경찰청장 후보자, 재개발 입주권 2개…‘누나 명의’ 꼼수 의혹  동아일보[현장영상+] 김종철, 인사청문회 준비 본격화...출근길 입장 발표  YTN기사 - 경찰을 보는 흐린 눈 : 대통령의 우려가 향해야 할 곳  딴지일보김종철 경찰청장 내정자 “수사기관장도 국무회의 참석",
+          "publisher": "한겨레",
+          "pub_date": "2026-11-10T14:25:00+00:00"
         },
         {
           "title": "이 대통령, 내일 김민석·한병도와 만찬…부동산 등 현안 논의",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OcTJuLUk1SzAtck9ITnBtdjNuZkNKbGoxZmNiRWJTamVsNDNfR0tRY0ZfakFobktOY3AtdlRWcFhrVGE2allfdW1PekVLdEFnNzU0M3NUcmFOZVpFVnE1Rzktb2RjVE0?oc=5",
-          "description": "이 대통령, 내일 김민석·한병도와 만찬…부동산 등 현안 논의  연합뉴스TV수도권 與의원 “비거주 종부세 완화를”…정부 “실거주 우대” 선그어  동아일보李대통령, 오늘 김민석·한병도와 만찬‥종부세·특검 등 논의하나  MBC 뉴스국민의힘, 당정 부동산 세제 엇박자 방침 비판... \"정책 기조 재검토하라\"  로이슈이형일 \"실거주 우대 원칙 지켜야…합리적 비거주 ",
+          "description": "이 대통령, 내일 김민석·한병도와 만찬…부동산 등 현안 논의  연합뉴스TV수도권 與의원 “비거주 종부세 완화를”…정부 “실거주 우대” 선그어  동아일보\"전세 씨말라\"… 與, 부동산 민심 악화에 TF 따로 만든다  조선일보민주당 수도권 의원들, ‘비거주 1주택 규제 재검토’ 논의 토론회  KBS 뉴스이 대통령, 오늘 김민석과 만찬…종부세 당·청 합의점 찾을까",
           "publisher": "연합뉴스TV",
           "pub_date": "2026-11-10T14:17:00+00:00"
         },
         {
-          "title": "'자운대 통합 국군사관학교' 흔들…환호성 내지르던 대전 당혹감",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3R090aDhVdmoxRFpnZTJldDh4ZjVIdzBnN1FPa2Q3V0lsdlhQbDMyMF9Zd0FIeEx6em0zZUwzelYzYnhTc184eGdiTThRamhteFdtclF3R1RhQTDSAWBBVV95cUxONVRFR0NMV25nNzh2QjhYYVI3ZGNYQThNVW5QZmdZWFp5WmxlVmc1Wmg3N0xUMWFtQ09mamFJUlpERUUwOXlncGJ6ajlITWx6NzlXd2RpQXNyN3hiNmpfdzc?oc=5",
-          "description": "'자운대 통합 국군사관학교' 흔들…환호성 내지르던 대전 당혹감  연합뉴스‘3군 사관학교 존치’ 절충안에 여당 내 우려…안규백도 항의  경향신문인사말하는 강신철 장관  뉴시스국방부장관, 육·해·공군사관학교 생도 및 사관학교장 간담회 개최  서울Pn'통합반대' 레드팀도 넣었다…국군사관학교 국방부자문위 출범  연합뉴스",
-          "publisher": "연합뉴스",
-          "pub_date": "2026-11-10T01:24:14+00:00"
+          "title": "‘무혐의’ 처분받고 해외 뜬 추미애 지사 아들… 귀국하자 ‘출국금지·재수사’",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc1UwRmtka1NRQm5Qd0ZmeFRJdmJZWFduTWI4OFlRamhYMnVzVGZ6UlZWVEs2aU12d3pST0lxRjRNUmhma3R0bHYzTkM1RGlXS28tU3o4ZU11QW0xdm16b2pIU3VFcHgtMmNqM2FreGtXOUlaQ1VqUWg5VnpsRG16WDZlY2EweldnQmhFX3JINGk?oc=5",
+          "description": "‘무혐의’ 처분받고 해외 뜬 추미애 지사 아들… 귀국하자 ‘출국금지·재수사’  조선일보[단독] 공소청, 귀국한 추미애 지사 아들 출국금지…재기수사 마무리 수순  JTBC공소청, 추미애 아들 ‘군복무 특혜 휴가’ 의혹 수사 2년2개월 만에 재개  경향신문추미애 아들 귀국하자 출국금지…‘軍 특혜 의혹’ 수사 재개  중앙일보추미애 아들 귀국하자 출국금지…‘軍휴가",
+          "publisher": "조선일보",
+          "pub_date": "2026-11-10T07:10:00+00:00"
         },
         {
           "title": "야간 이동 식별 불가 자주포에 추돌…운전자 2명 사상",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02dVRIUWhNUXRHQjlJeDJMNW9zWDdlaTBjTkh1YmlxdzBkYXBrcFRJamxpbHc3OFFwYXdrOFNpRVE4Y2N3XzZWVG5YUVkzcl9XMEFMOU9MMF9DNHM?oc=5",
-          "description": "야간 이동 식별 불가 자주포에 추돌…운전자 2명 사상  KBS 뉴스밤길 육군 ‘자주포’에 차량 추돌…민간인 1명 사망, 1명 부상  문화일보철원 국도서 자주포·민간 차량 3중 추돌 사고…1명 사망  동아일보국도 달리던 자주포에 민간차량 2대 추돌…운전자 1명 사망  중앙일보[영상] 밤길 '시속 27㎞' 자주포 뒤로 쾅쾅...유족 \"국가배상 소송\" - 머니투",
+          "description": "야간 이동 식별 불가 자주포에 추돌…운전자 2명 사상  KBS 뉴스",
           "publisher": "KBS 뉴스",
           "pub_date": "2026-11-10T12:21:00+00:00"
-        },
-        {
-          "title": "장동혁, 특검 규탄하다 또 \"탄핵\"‥국힘 의총 \"법안 철회해야\"",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15ZDBjSlBWMlNGTTJGQkswNXBKa2lrT1laLWJITmtIa3NLM25OblRkVGFOUWtsMEF6bUp4WGtBQy1VcmlWczFnNEl2UFRrcTJ1VThwdEZ0SmtlTXJaX2E1aFlWUGhGbVNsZFlORWo0VmtBRm80WWkyYtIBeEFVX3lxTE1naXlwNU9VemVBSGMxZkQ2cFJQN0NPTm9PUFIzQnkzUEhxREhfR2pHWE1LRjRqcmF1R2x2bkNTZVRoeTlFQVdKZkEwTlp4ek1FM2ZNUXg4dWJYY1ZpaURnMHN1STd4cFMyWnlqcEF3c3IzaTJxNEdwNg?oc=5",
-          "description": "장동혁, 특검 규탄하다 또 \"탄핵\"‥국힘 의총 \"법안 철회해야\"  MBC 뉴스한동훈 “조작기소 특검은 범죄단체…파견 갔다간 감옥갈 것”  중앙일보장동혁, 친한계에 “함께 싸울 생각 없으면 가벼운 입 다물라”  주간경향국힘, 또 탄핵 언급에...민주 \"정당 해산\" 맞불  YTN[사설] 어느 사건, 어떤 대목이 ‘조작’인지 구체적으로 제시하라  조선일보",
-          "publisher": "MBC 뉴스",
-          "pub_date": "2026-11-10T03:22:07+00:00"
         },
         {
           "title": "‘고수익 보장’ 코인·배터리 투자 미끼…범죄 조직 100여 명 송치",
@@ -659,25 +631,46 @@
           "pub_date": "2026-11-10T10:34:00+00:00"
         },
         {
-          "title": "특검, 경기·광주 선관위 압수수색…“경기교육감 개표 결과 위조 정황 확인”",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45WHJDNFFlbkY4SlNqcDZISTRCN2JWVlpnY3U0V2VmQ1ByRW1jeDFtZmszUXRIbHFqX0R6b3JzX2twVER5VV9QZkNUTWtyTlZNbndkQ0tReGJUZFViMWRBWmUxQ0l6dnV2RmNWSFc2b0NoZw?oc=5",
-          "description": "특검, 경기·광주 선관위 압수수색…“경기교육감 개표 결과 위조 정황 확인”  한겨레\"경기도교육감 개표 결과 달라져\"...특검, 압수수색  YTN선관위 특검, '개표상황표 은닉·위조' 경기 광주시 선관위 압수수색  MBC 뉴스[단독] 특검, 개표상황표 ‘인장 위조’ 정황 포착…선관위 압수수색  JTBC[속보] 선관위특검 “경기도교육감 선거 개표 결과 위조 정",
-          "publisher": "한겨레",
-          "pub_date": "2026-11-10T02:37:00+00:00"
+          "title": "장동혁, 특검 규탄하다 또 \"탄핵\"‥국힘 의총 \"법안 철회해야\"",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15ZDBjSlBWMlNGTTJGQkswNXBKa2lrT1laLWJITmtIa3NLM25OblRkVGFOUWtsMEF6bUp4WGtBQy1VcmlWczFnNEl2UFRrcTJ1VThwdEZ0SmtlTXJaX2E1aFlWUGhGbVNsZFlORWo0VmtBRm80WWkyYtIBeEFVX3lxTE1naXlwNU9VemVBSGMxZkQ2cFJQN0NPTm9PUFIzQnkzUEhxREhfR2pHWE1LRjRqcmF1R2x2bkNTZVRoeTlFQVdKZkEwTlp4ek1FM2ZNUXg4dWJYY1ZpaURnMHN1STd4cFMyWnlqcEF3c3IzaTJxNEdwNg?oc=5",
+          "description": "장동혁, 특검 규탄하다 또 \"탄핵\"‥국힘 의총 \"법안 철회해야\"  MBC 뉴스[사설] 어느 사건, 어떤 대목이 ‘조작’인지 구체적으로 제시하라  조선일보특검 vs 검사, 200일 ‘칼의 전쟁’  조선일보정면충돌 치닫는 여야...또 \"탄핵\" vs \"정당 해산 경고\"  YTN장동혁, 친한계에 “함께 싸울 생각 없으면 가벼운 입 다물라”  주간경향",
+          "publisher": "MBC 뉴스",
+          "pub_date": "2026-11-10T03:22:07+00:00"
         },
         {
-          "title": "이 대통령, 전광훈 교회 정조준?…전국 ‘불법 저항’ 사례 전수조사 지시",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52cTZYRGxCaHo3TVRHYi04T1VVQVI1M1Btd1QwSmJQMnlNWHlMSTBkTXRJVk43RUFjMGRzd21nOUZJR201ZHdxMFdQbDl6RXl4TEJidm9B?oc=5",
-          "description": "이 대통령, 전광훈 교회 정조준?…전국 ‘불법 저항’ 사례 전수조사 지시  매일경제이 대통령 “재개발에 알박기? 엄청난 피해…법질서 부정실태 1~2주 내 전부 보고해달라”  경향신문이재명 \"알박기 전부 체크, 총리가 보고하라\"…‘전광훈 교회’ 후속 조치?  JTBC경찰, 부동산범죄 3천565명 적발…내년 10월까지 3차 특별단속  연합뉴스李가 예고한 부동산",
-          "publisher": "매일경제",
-          "pub_date": "2026-11-10T02:17:32+00:00"
+          "title": "태양광발전단지 추진…수혜 대상·규모 촉각",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kSTFHUTQtcGxnVnNYejRQOE5uRXRUZFhwQnd6ak9mVlVSUmJhWGlUWnhoNXk2Vl9NMGNwWkVQTVdVeHQ5U0lTRW51Z2JfeHc5NkNQZ0dJbmFBb2dhU1ZiUG9nVDNSZw?oc=5",
+          "description": "태양광발전단지 추진…수혜 대상·규모 촉각  KBS 뉴스군 공항 주민투표 지연…민형배 ‘특별대책팀’ 지시  KBS 뉴스'호남반도체 사활' 광주 군공항 이전 무안 주민투표 언제?  뉴스1김산 무안군수 \"지원 약속 명문화되면 군공항 이전 주민투표\"  매일경제 마켓무안이 돌아서면 호남 반도체도 ‘멈칫’…민형배 리더십 ‘활주로 시험대’  서울경제",
+          "publisher": "KBS 뉴스",
+          "pub_date": "2026-11-10T10:09:00+00:00"
+        },
+        {
+          "title": "선관위 특검 \"선관위, 경기도교육감 개표상황표 은닉·위조\"(종합)",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iSFlyeWc2MFFtcFRyMzItWDBydzE1Q0JYMGY5dmc0bmRqUEl4U2NRYWx5MTJfaERjelpqaDhvMGdVYzVvaDR1MGhmem14VFROaFlLbF91aWxQSjDSAWBBVV95cUxQeHJhN3VlYzVNcnEwY2JqbzB0RjRQeUk3Z1YxaXRvUDJvUG5KYU5qcGRnd01jNWhyU3pVV2kxTjhGd3kwMjBQVHFKZXBwVGdtb3RaSXhJMHpqUW90X1lkRXc?oc=5",
+          "description": "선관위 특검 \"선관위, 경기도교육감 개표상황표 은닉·위조\"(종합)  연합뉴스\"경기도교육감 개표 결과 달라져\"...특검, 압수수색  YTN선관위 특검, '개표상황표 은닉·위조' 경기 광주시 선관위 압수수색  MBC 뉴스[단독] 특검, 개표상황표 ‘인장 위조’ 정황 포착…선관위 압수수색  JTBC선관위 특검, 경기선관위·광주시선관위 압수수색  인천일보",
+          "publisher": "연합뉴스",
+          "pub_date": "2026-11-10T03:00:00+00:00"
         },
         {
           "title": "‘재정 빨대’ 논란 추미애, 소방 노조에서 감사패…왜?",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWDhpdVpRYzlleWY1MktHRksydGRueDVfd01qN29Hb3lTUktPUUQ2dm1VR0tRV19TME1TS1FFN0IwaHQzbFIzN0NMb0h0YkFtMTNMUHNTamtLb2xyc195enF1YTZ6a0YxSEJZeDk0ZlFVNk9YZmRKeHFacUprRVh5WVRWRFNRQQ?oc=5",
-          "description": "‘재정 빨대’ 논란 추미애, 소방 노조에서 감사패…왜?  조선일보제12차 고위당정협의회 - 사진 | 멀티미디어  대한민국 정책브리핑인사말하는 장동혁 국민의힘 대표  뉴시스조지연 의원 “소방공무원 인건비 80% 이상 국가 부담ㆍ소방발전기금 신설해야”  FPN-소방방재신문\"소방 예산 확 늘려야\" 한목소리...재원 놓고 공방  YTN",
+          "description": "‘재정 빨대’ 논란 추미애, 소방 노조에서 감사패…왜?  조선일보추미애 \"소방대원 사명감에 떠넘겨서는 안 돼…국가가 재정 책임져야\"  연합뉴스TV당정, 민생 정책 전면에 “소방에 2조 원 지원”…야당, 조작기소 특검법 공세 ‘지속’  KBS 뉴스박홍근, 소방재정 2조 조달 재원에 \"미래대응기금 검토 가능\" - 머니투데이  머니투데이경기도민 곁에 언제나 11",
           "publisher": "조선일보",
           "pub_date": "2026-11-10T09:31:51+00:00"
+        },
+        {
+          "title": "경찰, 천호성 전북교육감 소환 조사…변호사비 대납 등 혐의",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qYUN3VThGbTJoTXduN0VjWGI0Skp3Z0VTOXVYOTFoTG42NnFKU3ZPZVdUa3FxZlZyMG1yeHlDTUh0bFNyMmlzYUx3TWxyZnNTNjFIOXZYRXVTZzBqUHgtLUczbkhpdw?oc=5",
+          "description": "경찰, 천호성 전북교육감 소환 조사…변호사비 대납 등 혐의  KBS 뉴스'변호사비 대납 혐의 등' 천호성 전북교육감, 9시간 경찰 조사(종합)  연합뉴스'변호사비·식비 대납 의혹' 천호성, 경찰 조사 9시간만 종료(종합)  뉴시스'식사비·변호사비 대납 의혹' 천호성 전북교육감 경찰 소환  뉴스1'선거법·정치자금법 위반 혐의'…천호성 전북교육감 경찰 소환 조",
+          "publisher": "KBS 뉴스",
+          "pub_date": "2026-11-10T10:06:00+00:00"
+        },
+        {
+          "title": "경찰, 부동산 범죄 단속 1년간 3565명 적발…농지투기 25% ‘최다’",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5KMGNJYTZRcUk2UVhycld0azFiM1V3OFlUbjRCakxYOU9GbUxZUnduS2wzdXRlV19lc1ROTzlYSmttMXQ0RldSRVdOVzZyaG5VdXpUZmJBNzN2bFZDbnBMQjI3Sk5fRnJiRkZPLWZJMEZvdw?oc=5",
+          "description": "경찰, 부동산 범죄 단속 1년간 3565명 적발…농지투기 25% ‘최다’  한겨레이 대통령 “재개발에 알박기? 엄청난 피해…법질서 부정실태 1~2주 내 전부 보고해달라”  경향신문이재명 \"알박기 전부 체크, 총리가 보고하라\"…‘전광훈 교회’ 후속 조치?  JTBC경찰, 부동산범죄 3천565명 적발…내년 10월까지 3차 특별단속  연합뉴스李가 예고한 부동산범",
+          "publisher": "한겨레",
+          "pub_date": "2026-11-10T04:24:00+00:00"
         },
         {
           "title": "소나무재선충병 전국 확산 차단! - 전체 | 카드/한컷 | 멀티미디어",
@@ -685,64 +678,64 @@
           "description": "소나무재선충병 전국 확산 차단! - 전체 | 카드/한컷 | 멀티미디어  대한민국 정책브리핑천연기념물 하동송림·문암송 잎 갈변 '보호 비상'  경남매일‘소나무 90만 그루 위기’ 충남 산림재난 비상…정부 책임 확대·국가 총력 방제 절실  녹색경제신문산림청, 울진 금강소나무림의 효과적 보호를 위한 방제전략 마련 회의 개최  서울Pn산림청, 소나무재선충병 '생활",
           "publisher": "대한민국 정책브리핑",
           "pub_date": "2026-11-10T07:18:29+00:00"
+        },
+        {
+          "title": "한덕수 석방되나…대법, 구속만료 하루 전 19일 전원합의체 심리",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UeS1kSmZCZ2dQLS1JaEtvcGg5VU8xRU5saDZSbVdfMGZDTTYtdnpJd1kzNzJEdG8yNzNtVlFDckozMGdvamk5VEo0dEFyNV9mcXJZSVFMcmR0OU1pWXdLN3pXU1ppYkhPVlA2X3lRMXY1dw?oc=5",
+          "description": "한덕수 석방되나…대법, 구속만료 하루 전 19일 전원합의체 심리  한겨레[사설]한덕수 구속만료 하루 전 대법 전합 심리, 내란범 활보하는 일 없길  경향신문대법원 뭐했나…한덕수, 이대로면 11월 20일 풀려난다  JTBC與 또 조희대에 공세…“한덕수 풀려나면 대법원 책임”  동아일보與 \"한덕수 풀려나면 진짜 전쟁…曺 대법원 국민이 용납않을 것\"  연합뉴스",
+          "publisher": "한겨레",
+          "pub_date": "2026-11-10T06:53:00+00:00"
         }
       ],
       "world": [
         {
-          "title": "\"美·이란, 우라늄 농축 제한·동결 자금 해제 합의 근접\"",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SQ2x5c3JaZl9NcGNrdnBNWl9wS0RKdFMxOTBZdEhzbTRqY0ZHV1JnQW1ab0JNM0hhR0dlVklPRU1aazNyMnlHTTlWS0pDY1FpNHY1RUNRbmF4bm5NcWY4Y05iMzB4Q2s?oc=5",
-          "description": "\"美·이란, 우라늄 농축 제한·동결 자금 해제 합의 근접\"  연합뉴스TV트럼프 \"이란 공격 가능성 매우 낮아\"...이란 \"상상 속 협상 멈춰라\"  YTN“핵농축 내주고 종전 챙길 수도”… 미·이란, 한 발씩 물러설까  서울신문\"미·이란, 우라늄 농축 제한·동결자금 해제 등 합의 근접\"  MBC 뉴스카타르 총리, 트럼프 만나 \"긍정적 논의\"…아랍 정상들 연쇄",
-          "publisher": "연합뉴스TV",
-          "pub_date": "2026-11-10T12:00:00+00:00"
-        },
-        {
-          "title": "트럼프, 선거 참패하자 또 부정선거 주장…“투표 기계 문제”",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tQmFsZlVSMXpmem1uU0Qzcnd5STh2Um04U3lJR2pOWmhhaFZtQ1F4aHdET1N6d0VxR1NWYjE3UHdoZmtRMUpZd0V4d183QUdtbUFVRG16QnJpMG5mSnNEY1c5cEdBVEdaQlJVcHJtMy1TeVHSAWZBVV95cUxPSEREdjhaME5ITVJ6NEJITlhsS3M3RDVua1VGY2wzYmI3Vy1rczRLV3p6VThNME1PWTFoWEhfbHpNN25QaGc5NkN5eFl5ZmRKQmlVUDlfQzlMSC1vakNjdzVkMm4yN0E?oc=5",
-          "description": "트럼프, 선거 참패하자 또 부정선거 주장…“투표 기계 문제”  동아일보트럼프, 결국 꺼낸 ‘부정선거론’…헤그세스 “탄핵 걱정 안 해”  KBS 뉴스트럼프 또 부정선거 음모론[횡설수설/김준일]  동아일보5년 전 의회 난입 부른 그 주장…트럼프 또 \"부정선거\"  JTBC“공화당 참패 수용” 엿새 만에…또 ‘부정선거론’ 꺼내든 트럼프  경향신문",
-          "publisher": "동아일보",
-          "pub_date": "2026-11-10T09:04:39+00:00"
-        },
-        {
-          "title": "美국방 \"탄핵소추는 정치적 쇼…보여주기식 재판 실패할 것\"",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fNFZyTDJ5V19BNUtJVHBESXYwN25NQWZXSHFNMUpRUUJfM0hURm90LTBxcWotX2Fnc1ZQZGpFazJLMzV6S2FkcmNaeWo0YjFvcVlWUGFrcDVCcjjSAWBBVV95cUxNQmlwZjBnLURjUWJ1RnVWa21kTjNTakVBMDVoVUJVcFJHNmllRXc3dm04QkR3YXhFRmFlMzRHaVdBaWpQdm5vSlZLU2ZkdUhfRGtzNWFBVVRjVTBRQlpiX3M?oc=5",
-          "description": "美국방 \"탄핵소추는 정치적 쇼…보여주기식 재판 실패할 것\"  연합뉴스헤그세스 \"전쟁 중인 장관 탄핵 소추는 웃긴 얘기\"  조선일보미 공화당 의원이 헤그세스 국방장관 탄핵안 발의  경향신문[속보]탄핵 위기 헤그세스 “성공적 군사작전 처벌하나” 맹비난  동아일보헤그세스 美국방, 탄핵안 표결 앞 \"정치쇼이자 개인 원한\"  뉴시스",
-          "publisher": "연합뉴스",
-          "pub_date": "2026-11-10T14:30:09+00:00"
+          "title": "사우디 국영방송 “미국·이란, 우라늄 농축 제한 등 합의 근접”",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ3FfYmxmdm15c2xlcFZJaEJBaFlpcUdxS29IRThUeWZVVDE0LUVLcDJidTd1NmlmVFk2Y09pNnB4S29WVUtpZ3NuNG9WVDMzVUxTY1hsYjFNT0M3TmlxMzdLTDdtRDN1UjZKVV9tM3NlUGt5M04zeEt1ZXZwZUkzRUFn?oc=5",
+          "description": "사우디 국영방송 “미국·이란, 우라늄 농축 제한 등 합의 근접”  한겨레트럼프 \"이란 공격 가능성 매우 낮아\"...이란 \"상상 속 협상 멈춰라\"  YTN카타르 총리, 트럼프 만나 \"긍정적 논의\"…아랍 정상들 연쇄통화  연합뉴스‘선거 참패’ 트럼프, 이란과 핵 협상 줄다리기 끝내나  경향신문美국무 \"이란 대규모 공격 필요없다…경제적 압박 심화\"  뉴시스",
+          "publisher": "한겨레",
+          "pub_date": "2026-11-10T14:17:00+00:00"
         },
         {
           "title": "\"냉장고 온도도 통제못하는 프랑스\"…이란, 사이버공격 배후설 반박",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUR3o1VmdPS0lXWUJxZEZWajUwdGlNSENvT1RlNjNUZTFfNThGb3RyX2FRS1AwRlBNcnZpTDVfa1MzZEdlRG9tTDFvbG9BaTRhcWFVQnVKS3FUaFXSAWBBVV95cUxQWTFVNUdVOExlU2s1RUNzemhVX1Awc29DTnd6Znc1YW1FeDVkQzVaWFc1b2JHOFlsMUVtTnJJNmlTODl5ZWhKMTNHS1RFMjJOUHY1cFYxekRRQ2F5Y09zMm4?oc=5",
-          "description": "\"냉장고 온도도 통제못하는 프랑스\"…이란, 사이버공격 배후설 반박  연합뉴스폭탄 공격 못지않다… 이란의 ‘냉장고 테러’에 벌벌 떠는 유럽  조선일보유럽 사이버 안보 위협 속 영국군 '해커 잡는 병력' 해외 파견  YTN 사이언스프랑스 “이란 혁명수비대가 냉장고 해킹 배후”…이란은 ‘침묵’  KBS 뉴스프랑스 “‘냉장고 온도 50도까지 높인 사이버 공격’, ",
+          "description": "\"냉장고 온도도 통제못하는 프랑스\"…이란, 사이버공격 배후설 반박  연합뉴스유럽 사이버 안보 위협 속 영국군 '해커 잡는 병력' 해외 파견  YTN 사이언스프랑스 “냉장고 해킹, 이란 혁명수비대 소행···유럽 차원 제재 추진”  경향신문프랑스, 식료품점 냉장 설비 해킹 배후로 이란 혁명수비대 사이버 부대 지목  보안뉴스프, 냉장고 사이버 공격 배후로 이란 ",
           "publisher": "연합뉴스",
           "pub_date": "2026-11-10T13:25:26+00:00"
         },
         {
-          "title": "캠벨 전 미 국무부 부장관 “트럼프, 시진핑에 북미 대화 도움 요청”",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5DTE54V0dhZWgzUXpsVDJQelNhb2Q0UlBLWTE4Qm9LbnhxaFhBSVhzdk5qZ3JucWlQUWloTGJqRVdFaElDTU95YWphbm5ndUgwREZKZXp1OGFCUTZIU3FKcnQtWFpmaDh2TGFLR080Yw?oc=5",
-          "description": "캠벨 전 미 국무부 부장관 “트럼프, 시진핑에 북미 대화 도움 요청”  한겨레미 전문가들 “중간선거 이후 ‘보여주기식’ 북·미 정상회담 가능성 더 커져”  경향신문비건 “한미동맹 지켜야…北 핵보유국 법적 인정 불가”  마켓인\"트럼프때 北비핵화 진입해야…핵보유국 요구 받아들여선 안돼\"(종합)  연합뉴스비건 전 대북대표 “트럼프·김정은, ‘보여주기식 회담’ 참",
-          "publisher": "한겨레",
-          "pub_date": "2026-11-10T09:10:00+00:00"
+          "title": "트럼프, 선거 참패하자 또 부정선거 주장…“투표 기계 문제”",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1tQmFsZlVSMXpmem1uU0Qzcnd5STh2Um04U3lJR2pOWmhhaFZtQ1F4aHdET1N6d0VxR1NWYjE3UHdoZmtRMUpZd0V4d183QUdtbUFVRG16QnJpMG5mSnNEY1c5cEdBVEdaQlJVcHJtMy1TeVHSAWZBVV95cUxPSEREdjhaME5ITVJ6NEJITlhsS3M3RDVua1VGY2wzYmI3Vy1rczRLV3p6VThNME1PWTFoWEhfbHpNN25QaGc5NkN5eFl5ZmRKQmlVUDlfQzlMSC1vakNjdzVkMm4yN0E?oc=5",
+          "description": "트럼프, 선거 참패하자 또 부정선거 주장…“투표 기계 문제”  동아일보트럼프, 결국 꺼낸 ‘부정선거론’…헤그세스 “탄핵 걱정 안 해”  KBS 뉴스“공화당 참패 수용” 엿새 만에…또 ‘부정선거론’ 꺼내든 트럼프  경향신문5년 전 의회 난입 부른 그 주장…트럼프 또 \"부정선거\"  JTBC트럼프, 6일만에 부정선거론 제기...백악관 근처 차량 돌진 남성 체포 ",
+          "publisher": "동아일보",
+          "pub_date": "2026-11-10T09:04:39+00:00"
         },
         {
-          "title": "미·러·우 아부다비서 평화협상 개시…‘제2의 얄타회담’ 우려도",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tMlc4ZFBLTFc3VnZSV0JNOHBHeDZXV2VOUGpJSWktMzZVQmtGcnNJVkRJZVA5cGVXRjBCbDZXZjBYSndiNXRYXzNIZU1ueTdvRHJvTWhOeHh4Z9IBX0FVX3lxTFBrcGU5dW1VcmxCVUtmbVE2NE5tSHpxdmtRMGt5cWJQalo1OGJuU1lKeUx3SUQ5aVFZSTl1YTU1Y0hnVnl2WVN6bXNvTGg0WDRyOUZld0Q2MlhneEZmdFg0?oc=5",
-          "description": "미·러·우 아부다비서 평화협상 개시…‘제2의 얄타회담’ 우려도  경향신문우크라 종전 협상일에 젤렌스키는 덴마크행…군사지원 등 논의  연합뉴스9개월 만에 마주 앉은 미·러·우  서울신문9개월 만에 재개되는 3자 종전 협상...러, 유럽 참여 거부  YTN러우 협상 성과 있을까…\"美 종전 원하지만 푸틴은 시간벌기\"  뉴시스",
+          "title": "헤그세스 \"전쟁 중인 장관 탄핵 소추는 웃긴 얘기\"",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMHRTa1lXLVg4Q3BNamhRMFhFYTYxN05fNXZtSWpwTlhNMW1jRTZnSDZVVjMtc0VGeHVqYnZZWUFuRElUblE2clFraXVsUzdZajNyRGlmR2tCR1F0cnFzbzFadEhPa1k5VmZWcUtWZlQ3UnpxOE84LW5Ra1JIVTgyczVPUXg?oc=5",
+          "description": "헤그세스 \"전쟁 중인 장관 탄핵 소추는 웃긴 얘기\"  조선일보미 공화당 의원이 헤그세스 국방장관 탄핵안 발의  경향신문[속보]탄핵 위기 헤그세스 “성공적 군사작전 처벌하나” 맹비난  동아일보美국방 \"탄핵소추는 정치적 쇼…보여주기식 재판 실패할 것\"  연합뉴스‘이틀내 표결’ 헤그세스 탄핵소추안 재발의…헤그세스 10일 기자회견  KBS 뉴스",
+          "publisher": "조선일보",
+          "pub_date": "2026-11-10T13:18:00+00:00"
+        },
+        {
+          "title": "미·러·우크라 3자 종전 협상 시작…트럼프 “양측 모두 전쟁에 지쳐”",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBHZk15eENhbEpmZ01FazZNU3gtZ0xIQy14U3VOQlgxR2JWcV9jWWpzTHdvZGU4Y2lhcDk4WDhWWXcyeG9MNGRVLWpKYjJ5cHNP0gFTQVVfeXFMTWtIZGxCalctcXh6YlFzVzBvTEJvQTEyWTdxYnRfaDZFQmVVNVpTV3JUd3VsRnVlbEVTeGEtbURWRnA1bjAxbGI3MEYtQzg3Vk56MU0?oc=5",
+          "description": "미·러·우크라 3자 종전 협상 시작…트럼프 “양측 모두 전쟁에 지쳐”  VOA 한국어 홈페이지젤렌스키, 3자 종전협상에 \"건설적이고 실질적\" 평가  연합뉴스러, ‘휴전 후 안보 논의’ 유럽 구상에 공개 퇴짜…종전협상 난항 예고  KBS 뉴스러·우 종전협상 돌입···미·유럽 “우크라 영토 보전 존중해야”  경향신문미·러·우, 9개월 만에 종전 회담…최대 쟁점",
+          "publisher": "VOA 한국어 홈페이지",
+          "pub_date": "2026-11-10T15:38:51+00:00"
+        },
+        {
+          "title": "미 전문가들 “중간선거 이후 ‘보여주기식’ 북·미 정상회담 가능성 더 커져”",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTlB6S2V4Rlc1cUNjOWlUa25DQmpRNm9qQ0ptWWYwZ3pnNWZiaklGcDFCNkpvN1RpRVVWdmtXQ0JTYmd6eVZyRTFnTkZ3eXM0MVBUVG00R3RKd9IBX0FVX3lxTE5fVXFicV8zbzdfbzNRVzlSeWZieTV1eDhoeFlXSGh2emxNMDE0Q0Q2QVN5Vy13bnBLMlZJMmQyV1Y5dE9veDZwRlRqVU9jNG05WV9WcHk5cFc3dnpnakhR?oc=5",
+          "description": "미 전문가들 “중간선거 이후 ‘보여주기식’ 북·미 정상회담 가능성 더 커져”  경향신문비건 “한미동맹 지켜야…北 핵보유국 법적 인정 불가”  마켓인\"트럼프때 北비핵화 진입해야…핵보유국 요구 받아들여선 안돼\"(종합)  연합뉴스캠벨 전 미 국무부 부장관 “트럼프, 시진핑에 북미 대화 도움 요청”  한겨레비건 전 대북대표 “트럼프·김정은, ‘보여주기식 회담’ 참",
           "publisher": "경향신문",
-          "pub_date": "2026-11-10T07:53:00+00:00"
+          "pub_date": "2026-11-10T03:34:00+00:00"
         },
         {
           "title": "조현, 美루비오와 G7서 별도 환담…\"한미관계 전반 등 의견 교환\"",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKVW1ucUdVUkN4cmpxUk5xZEViclRYc0ViVHpEZXNyWHFlaG5OWjV2OHJEZ0ZEZWVtbWR6bFhMVFRJR1lPakwzU2dTY2s5b0dteVZ6WDU0WFhPTEVpUC1yTnFPY0FuVWc?oc=5",
-          "description": "조현, 美루비오와 G7서 별도 환담…\"한미관계 전반 등 의견 교환\"  연합뉴스TV조현, 美루비오와 G7서 별도 환담…정상 간 합의 이행 협력  연합뉴스G7 외교장관회의 계기 한-캐나다 외교장관회담(11.10) 결과  서울PnG7 외무장관 파리 회동…이란·우크라 논의  VOA 한국어 홈페이지조현, 프랑스와 외교장관 회담…우크라이나 정세 의견 교환  SBS 뉴",
+          "description": "조현, 美루비오와 G7서 별도 환담…\"한미관계 전반 등 의견 교환\"  연합뉴스TV조현, 美루비오와 G7서 별도 환담…정상 간 합의 이행 협력  연합뉴스G7 외교장관회의 계기 한-캐나다 외교장관회담(11.10) 결과  서울Pn미국 등 G7 “북한 완전한 비핵화 재확인…암호화폐 탈취 공동 대응 필요”  VOA 한국어 홈페이지한-우크라 외교장관회담 추진‥외교 갈",
           "publisher": "연합뉴스TV",
           "pub_date": "2026-11-10T14:01:00+00:00"
-        },
-        {
-          "title": "실각 위기 네타냐후 \"시온주의·하레디 '통합정부' 이끌 것\"",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jLWpXeVlxMFlWQ0RBS0VxLURfTW8tZUQxQzB5SGxtWjRtZHBzUlZQUFFHY3RfQURyaXBKWmFOLXlrS2xVazdMdG9YbTc4eE5wZ29sYm5pYURWWEJNeHZIMmlEV3hwZ1pkWmlTYjFMLWhsWDQ10gF0QVVfeXFMTXFjMW81RWZTV1FWMW82QzBaM1prRngyOFZ6aTFPMF9ieFJjSDExWUdTVFItN3RzcnA5VUowODlBTl9CTXZjRUxnY2E5aDBhT0lxaGpoUEkyeUJNXzlPRndWNnh1QUVMaXZCRmRZMjItdVVodmE?oc=5",
-          "description": "실각 위기 네타냐후 \"시온주의·하레디 '통합정부' 이끌 것\"  MBC 뉴스이스라엘 새 의회 개원…연정 물밑 협상도 본격화  연합뉴스이스라엘 차기 정부 구성 착수…아이젠코트, 연정 협상 본격화  VOA 한국어 홈페이지실각 위기 네타냐후 \"시온주의·하레디 통합정부 이끌 것\"  연합뉴스TV‘42일’ 아이젠코트의 시간…아랍계·초정통파·리쿠드 세 갈림길  경향신문",
-          "publisher": "MBC 뉴스",
-          "pub_date": "2026-11-09T18:01:26+00:00"
         },
         {
           "title": "[사진] 페루 항구도시에 세워진 14m 크기의 레오 14세 교황 동상",
@@ -752,32 +745,39 @@
           "pub_date": "2026-11-10T10:38:00+00:00"
         },
         {
-          "title": "[포토] 백악관 대변인 자리 선 美 격투기 단체 회장",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41bXFkS3dGaVl3QmpNakR2NmJaRlM0NnI3WFZ1djNIYlo4OURUaHFFeTF4dUthanEtUHhoSThxeEgtQmdmYmRTQ2NDX3ZfUFBfQlU1alFXaXZtQQ?oc=5",
-          "description": "[포토] 백악관 대변인 자리 선 美 격투기 단체 회장  한국경제트럼프, UFC 데이나 화이트에 백악관 대변인 제안  BBC민주당 대대적 조사 예고에…트럼프, 법무부에 즉각 수사 지시  채널A말 많고 탈 많은 대변인 자리에...파격 승부수 던진 트럼프 [Y녹취록]  YTN[인&아웃] 트럼프의 유별난 '격투기 사랑'  연합뉴스",
-          "publisher": "한국경제",
-          "pub_date": "2026-11-10T08:41:28+00:00"
+          "title": "이스라엘 야권, ‘네타냐후 오른팔’ 의장 축출 합의…정부 구성 훼방 차단",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9wVktRRlFhVE13d2htdWo0dXZNaDd4WlFmZ2dTTTltdFFNUXM5TFY0V2JoeVJUM0pTMGxndEN5eGRweU9oWWZTS3VwMEQtSVhzSkFUQV9mODRtdGJXaGZxbEpsZnhoVnNrMmZXYWFlZXM3REE?oc=5",
+          "description": "이스라엘 야권, ‘네타냐후 오른팔’ 의장 축출 합의…정부 구성 훼방 차단  한겨레이스라엘 새 의회 개원…연정 물밑 협상도 본격화  연합뉴스이스라엘 차기 정부 구성 착수…아이젠코트, 연정 협상 본격화  VOA 한국어 홈페이지실각 위기 네타냐후 \"시온주의·하레디 통합정부 이끌 것\"  연합뉴스TV‘42일’ 아이젠코트의 시간…아랍계·초정통파·리쿠드 세 갈림길  경",
+          "publisher": "한겨레",
+          "pub_date": "2026-11-10T09:30:00+00:00"
         },
         {
           "title": "\"폴란드 총격범, 노르웨이 극우 테러범 관련 사이트 접속\"",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wNnl5clNIcHVTMzJIS0NJZ25zdmdvNVVwVV8zZ01jU3ZGTVBkYlFGR3E5N3hTbzlwRnlfYmRub3FlTGEwbml2cWM5bGFydTJOVzlXVUVUSjJ0STDSAWBBVV95cUxPLURyWWNqS3NzbGdFdkRuMTBUU0l3RWdRNnVOcG5VdHFrYkpGeGNKdmVaV3U2OUVmbVlLTXhfb1JESDF5dmJNNlE1bXgwOERocm1zUlk3ZXNuQUU3SG9SYlQ?oc=5",
-          "description": "\"폴란드 총격범, 노르웨이 극우 테러범 관련 사이트 접속\"  연합뉴스6명 살해한 '폴란드 총기 난사범' 사망...범행 동기 여전히 '미궁' [자막뉴스]  YTN행인 향해 무차별 총격·경찰과 교전…폴란드 총기 난사 용의자 사망  전자신문총격 희생자 추모 촛불 밝히는 시민  뉴시스여객기 폭파 위협에 총기 난사까지… 공포에 휩싸인 유럽  조선일보",
+          "description": "\"폴란드 총격범, 노르웨이 극우 테러범 관련 사이트 접속\"  연합뉴스6명 살해한 '폴란드 총기 난사범' 사망...범행 동기 여전히 '미궁' [자막뉴스]  YTN행인 향해 무차별 총격·경찰과 교전…폴란드 총기 난사 용의자 사망  전자신문총격 희생자 추모 촛불 밝히는 시민  뉴시스폴란드, 총기난사로 20여 명 사상…집에선 가족 시신 발견  KBS 뉴스",
           "publisher": "연합뉴스",
           "pub_date": "2026-11-10T15:32:19+00:00"
         },
         {
-          "title": "중간선거 패배 의식했나… 트럼프 행정부, 망명 이란인 추방 돌연 중단",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVTlsc1pFV1preWJfUmx1N212OG54TUFZODNFb3pVbmJaZFRKeVZ4VUI2ZkNycUNrbmxQRklRdFBmOHRnT0ZzZG5TT1lVZ1JxRXZaX0ZCSXJNVzVYQUQtRE1JQjZLM0hDbUNlV1R0bnVVOHZROGh6ZVRPMF9WWkpGbG96ZFFpeG4wN1FPVmVBeWdtN041akVEVDNLNjVjZ9IBsgFBVV95cUxQNS00RWRZSHdnd1ZDaUp6RkFVZEpNdGFmdEhtbUc5clhhcl9XaFZRTF9VQUJIVDVSR2dNeXllR3dTaFZSRGpwY1hwaFZ6WkhhYUJ2MkNnRDJYdF9vMVJkQXRkQmRiamtzb2dmRVJud2lFV2l0UDFMTTRvazlLQTJqcENDR3VMU2lOa2RtbS0wRTJacTdsT3JMbDhrTDlWOVVjWFd3YkhoNWViME1rRVNCNUZn?oc=5",
-          "description": "중간선거 패배 의식했나… 트럼프 행정부, 망명 이란인 추방 돌연 중단  Chosunbiz트럼프 \"이민 정책도 중간선거 참패 요인…너무 강경했다\"  연합뉴스트럼프, 돌연 \"추방 가혹했다\"며 불법체류자 '사면' 시사…마가 지지층 '발끈...  마켓인美민주 \"백악관 새 비서실장과 협력은 없을 것\"  조선일보선거 참패에도 '민심 역주행'...트럼프는 무얼 노리나 ",
-          "publisher": "Chosunbiz",
-          "pub_date": "2026-11-10T06:31:00+00:00"
+          "title": "\"농담\"이라더니…트럼프, UFC 회장과 백악관 브리핑룸 등장",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xM29rMzRwdmRUMW5fVUZHTU5KTVB0YjNtaU1GZlZrRnhZTXpGSkhJUDFrakw5bURTTVBaODlvSDNsSklUanZtMjlOM0JUdmMzdDRKeHppQWtlUQ?oc=5",
+          "description": "\"농담\"이라더니…트럼프, UFC 회장과 백악관 브리핑룸 등장  한국경제트럼프, UFC 데이나 화이트에 백악관 대변인 제안  BBC민주당 대대적 조사 예고에…트럼프, 법무부에 즉각 수사 지시  채널A말 많고 탈 많은 대변인 자리에...파격 승부수 던진 트럼프 [Y녹취록]  YTN[인&아웃] 트럼프의 유별난 '격투기 사랑'  연합뉴스",
+          "publisher": "한국경제",
+          "pub_date": "2026-11-09T23:50:01+00:00"
         },
         {
-          "title": "3자협상 여론전 나선 젤렌스키…\"러, 우크라 두동강 내려 해\"",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1a1JBcHk5ZVM3RnBRaklObnp1YUMyQmtIcGh3UnlXZXZZYk1FLXgtOVkzUThnZ1ZpaHYwaUNBRHliaV85YTRxcFhGNlVZUFdySG12akI3bk5YaTVlbEM5NnZRWGhlMms?oc=5",
-          "description": "3자협상 여론전 나선 젤렌스키…\"러, 우크라 두동강 내려 해\"  연합뉴스TV젤렌스키, 3자협상 여론전…\"러, 교량 끊어 우크라 두동강 시도\"  연합뉴스젤렌스키 “北 미사일, 러 우크라 공습에 사용”  문화일보우크라 드론 113대, 레닌그라드 지역 공격…러 제2 정유공장 폭발·화재  뉴시스3자 종전협상 앞둔 우크라전 전황은?…지상전 교착·공습전 격화  뉴스1",
+          "title": "\"러, 우크라 공습에 원유 정제 능력 약 30% 감소\"",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52Wjh2MjdYeFFpVFA5MFo0VE5ZUjF5T3Q4UWpZR1RuMHBXMjdvWHZOY2U1ZzFQN1Q4U2FPVk41bk9ESW9hb18tRW1fUnRRekdaWFNCY0NDUE1UUVNw?oc=5",
+          "description": "\"러, 우크라 공습에 원유 정제 능력 약 30% 감소\"  뉴스핌젤렌스키, 3자협상 여론전…\"러, 교량 끊어 우크라 두동강 시도\"  연합뉴스젤렌스키 “北 미사일, 러 우크라 공습에 사용”  문화일보우크라 드론 113대, 레닌그라드 지역 공격…러 제2 정유공장 폭발·화재  뉴시스3자 종전협상 앞둔 우크라전 전황은?…지상전 교착·공습전 격화  뉴스1",
+          "publisher": "뉴스핌",
+          "pub_date": "2026-11-10T13:58:00+00:00"
+        },
+        {
+          "title": "사우디 주도 연합군 \"후티 탄도미사일 부품·연료 공장 파괴\"",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Nb0tCaWtkYmJjNEU0SVNRbjdHSk1xNjNXRXNjbW1Wc25qakdqbU5DOUEwWDlMdV9oVm5Wek9CUGRzQ0NJeFhOMzRrZGpaMUZlaDdCbC1LYW8zV0xYMGVtQ08yamd6eWM?oc=5",
+          "description": "사우디 주도 연합군 \"후티 탄도미사일 부품·연료 공장 파괴\"  연합뉴스TV후티 반군 “사우디 리야드 공항·금융가·아람코 시설 타격”  KBS 뉴스후티 반군 \"사우디 수도 공항·아람코 시설 등 공격 \"  뉴시스이란·사우디 대리전 된 예멘 내전에···하루 새 70여명 피살  경향신문후티 \"사우디 리야드 공항·금융가·아람코 시설 타격\"  MBC 뉴스",
           "publisher": "연합뉴스TV",
-          "pub_date": "2026-11-10T05:10:00+00:00"
+          "pub_date": "2026-11-09T19:04:00+00:00"
         },
         {
           "title": "\"연봉 2억에 달에서 일하실 분?\"…NASA, 우주비행사 모집",
@@ -787,97 +787,111 @@
           "pub_date": "2026-11-10T11:45:37+00:00"
         },
         {
-          "title": "사우디 주도 연합군 \"후티 탄도미사일 부품·연료 공장 파괴\"",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FaXRZSWhXRVRzWkR3WHI2bjZXaXpjUlhDaUREYXFaWEJmbGwzZUlKeGwzYjRSY0FOM2g3S240X3hVVlBhYTlJdGNQVEVXQ1JwcDlqa1lxVUlzQjFlZTZNLWpxRDlYNWFoSlhXNDF1Z0J6SkNw0gF0QVVfeXFMUHhkRGM4YkZGMWVqbTNZQUlvTkFQal9JOG8tVk0yQ0llTk9SWlFIVEJQY3huRlR6ODk3UGFuOXM1cHR0YlJYTXB3OGlWSEVsdDZ1RmpLVUo3THJDbDNYRVNaTDVUbFM4S1ZWQ25MM2ViSFh3OWU?oc=5",
-          "description": "사우디 주도 연합군 \"후티 탄도미사일 부품·연료 공장 파괴\"  MBC 뉴스Google 뉴스에서 헤드라인 및 의견 더보기",
-          "publisher": "MBC 뉴스",
-          "pub_date": "2026-11-09T20:19:29+00:00"
+          "title": "파면된 대통령 별장엔 비밀금고가···파라과이 탄핵 후폭풍에 교사 파업 돌입",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QaWNOUUdlZkZpb2xsMFdYV0lMRDVudHBUaWNNd1Z4eVJJWFc3aUtkVUZjNFFmdTN3LXZtQkpTcC1qQlN2VjA0T3RGSUFMYl9obWY4NXVReDFFQdIBX0FVX3lxTE4yZmNrdEhUUVF3TThUR0x2U3lvNDBXZ1NTVThKQlkxQl9uQzdVWHhJUEZ1ZjN3eW40dkxqTXRnNDFUSHZFRGJjWmpFM2JzWnJuV2VrNXFSUFA3TE84R1Nv?oc=5",
+          "description": "파면된 대통령 별장엔 비밀금고가···파라과이 탄핵 후폭풍에 교사 파업 돌입  경향신문파면된 전 대통령 별장서 ‘비밀금고’ 발견…검찰도 아직 못열었다  문화일보[속보]파라과이 신임 대통령, 내각 기존 장관들 총사퇴 요구  뉴시스파라과이 검찰, 탄핵된 전 대통령 자택 압수수색…은행 부실 의혹 수사  뉴스1'탄핵' 파라과이 前 대통령 구금…’국민 예금 동결' 은",
+          "publisher": "경향신문",
+          "pub_date": "2026-11-10T08:04:00+00:00"
         }
       ],
       "business": [
         {
+          "title": "“젠슨 황 외도 상대 ‘엔비디아 GPU 확보 가능’ 과시”…수억달러 유치 시도",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96LWdVNGFIQmhUVUtwZ19xNjNLQ2hBYUFnUlpHRHhZVkNIVVBpZ3RvQ1VHYmhMdk1NSWtoV3otNUxRaG0wdDExWVhaQkJCM2kxTkxQQ3pMNGcyVFBqS3dqSnROZUFpR3hleUw4Wg?oc=5",
+          "description": "“젠슨 황 외도 상대 ‘엔비디아 GPU 확보 가능’ 과시”…수억달러 유치 시도  한겨레‘중국이 노린 건 칩이 아니다’…첩보 알고도 트럼프는 왜  JTBC美, 대중 기술규제 ‘고삐’… K반도체도 비상 [뉴스분석]  세계일보美안보 악몽된 젠슨황 스캔들…AI칩 대중수출 허용 의혹 소환  연합뉴스젠슨 황 퇴진하면 누가 엔비디아 이끌까…후계자 후보에 관심  연합인포",
+          "publisher": "한겨레",
+          "pub_date": "2026-11-10T12:24:00+00:00"
+        },
+        {
           "title": "금융보안원도 털렸다…개인정보 등 수백건 정보유출(종합)",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SSF8tZlk5X2llZXhYZEkzVlpIOXk2QUo3R2EtTzhtWXRaWjhZX0tWWTQ3VWlUazZNU3BUREVWLTVQOXRWMVhfVDBZM24tVkF2Q0dKbzJuZFM2ZWtiZWlDTXkydjBpMU91Z3pPbjlXUXY?oc=5",
-          "description": "금융보안원도 털렸다…개인정보 등 수백건 정보유출(종합)  연합인포맥스'컨트롤타워' 금융보안원도 뚫렸다…개인정보 650여건 등 유출 - 머니투데이  머니투데이금융보안원도 해킹에 뚫려…금융사 직원 개인정보 300여건 유출(종합2보)  매일경제 마켓금융보안원 해킹 피해 확인… 개인정보 650여건 유출  IT조선금융보안원, 해킹으로 정보 유출... 금융위 등 신고",
+          "description": "금융보안원도 털렸다…개인정보 등 수백건 정보유출(종합)  연합인포맥스[2보] '금융보안 문지기' 금융보안원도 해킹으로 정보유출  연합뉴스금융보안원도 해킹에 털렸다...금융사 보안정보 유출  YTN증권사 해킹 도미노…전문가 \"AI로 공격 빨라져, 2차 피해 우려\"  녹색경제신문'컨트롤타워' 금융보안원도 뚫렸다…개인정보 650여건 등 유출 - 머니투데이  머니",
           "publisher": "연합인포맥스",
           "pub_date": "2026-11-10T14:06:31+00:00"
         },
         {
-          "title": "4거래일 만에 반등…코스피·코스닥서 매수 사이드카",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tRi1wWGJkVVAwZnVJR3oxTkE3VURRRUVVOXRsb3FTTjlLWVRIN3dTVl9PWVZiVHVGTFFNNVRZUHNYbktwMmEtM2Q0NmxRekVQSUxNWFBQR215ZTg?oc=5",
-          "description": "4거래일 만에 반등…코스피·코스닥서 매수 사이드카  KBS 뉴스코스피·코스닥, 4%대 급등 마감‥급락 딛고 4거래일만 반등  MBC 뉴스미 증시 강세·유가 하락...코스피, 4.4% 반등 마감  YTN하루 만에 4% 급반등한 코스피, 무슨 일이야?  네이버페이 머니스토리[속보] ‘금융보안 문지기’ 금융보안원도 해킹으로 정보유출  천지일보",
-          "publisher": "KBS 뉴스",
-          "pub_date": "2026-11-10T12:09:00+00:00"
-        },
-        {
-          "title": "“젠슨 황 외도 상대 ‘엔비디아 GPU 확보 가능’ 과시”…수억달러 유치 시도",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96LWdVNGFIQmhUVUtwZ19xNjNLQ2hBYUFnUlpHRHhZVkNIVVBpZ3RvQ1VHYmhMdk1NSWtoV3otNUxRaG0wdDExWVhaQkJCM2kxTkxQQ3pMNGcyVFBqS3dqSnROZUFpR3hleUw4Wg?oc=5",
-          "description": "“젠슨 황 외도 상대 ‘엔비디아 GPU 확보 가능’ 과시”…수억달러 유치 시도  한겨레AI 황제마저 흔든 '미인계'…北 '씨받이 공작' 데자뷔  뉴시스‘중국이 노린 건 칩이 아니다’…첩보 알고도 트럼프는 왜  JTBC美, 대중 기술규제 ‘고삐’… K반도체도 비상 [뉴스분석]  세계일보중국 정보기관 연계 의혹 여성과의 관계로 젠슨 황 퇴진 가능성 부상  In",
-          "publisher": "한겨레",
-          "pub_date": "2026-11-10T11:21:00+00:00"
-        },
-        {
-          "title": "\"반도체주 너무 싸, 지금 가격이 크리스마스 선물\" VS \"더 떨어질 것' - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16WkZVT0xxaGkwUGl1clR2cFNtVUNiQUtFUFVoTHNkNWFJc2cxZTVWQVI4c0VraEp6TGJ3TVNmS05SSjhsY0ZIeXNmYjZGd2NtMUphaUxjS2ROZHVOOHhvbmVVRkJMODVv0gFuQVVfeXFMTndMWk1YMUlvZmw2X3B3QU5zYTFqX056ZDdmRDhFYjJuZ3lISmdFYW5Kbkx0R24tbHI0WS12SE1tYWptTFhwemdjb0lRLXRkNm9mT0NKSnA0M19wZ01MRUc0TVU4RDBwZkJCZEFOUFE?oc=5",
-          "description": "\"반도체주 너무 싸, 지금 가격이 크리스마스 선물\" VS \"더 떨어질 것' - 머니투데이  머니투데이AMD·브로드컴 날았다...엔비디아만 4% 급락  네이버페이 머니스토리엔비디아 4%대 나홀로 급락…뉴욕증시, AI주 저가매수에 반등(종합)  연합뉴스엔비디아, 월마트, 마이크로소프트 外  마켓인[AI MY 뉴스] 뉴욕 반도체주 프리뷰...예상 웃돈 CPI에 ",
-          "publisher": "머니투데이",
-          "pub_date": "2026-11-10T00:46:07+00:00"
-        },
-        {
-          "title": "앤트로픽 공모가 70~78달러…기업가치 1조달러 목표",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRRHRLalNsRW5ZbEVhR293OEVpdmZ5anBuNXlfdkRub3h0OXFMRi1Nb2FtaVhfUzh2YXJZY0pXaVpLaTU4SDU3R1ZrdWhaUGRWMVhMQ2NUT2pCdVpGQzBOUHl4WnlweEE?oc=5",
-          "description": "앤트로픽 공모가 70~78달러…기업가치 1조달러 목표  연합뉴스TV기업가치 184억달러→1.5조달러...'앤트로픽 주주' 국민연금, 대박 기대 - 머니투데이  머니투데이Anthropic IPO, 공모 주식 전량 주문 접수 - Bloomberg  Investing.com 한국어앤트로픽 공모가 70∼78달러…최대 904억달러 조달  연합뉴스앤스로픽, '93조원",
-          "publisher": "연합뉴스TV",
-          "pub_date": "2026-11-10T12:47:00+00:00"
-        },
-        {
-          "title": "신현송, 美·유럽 밖 첫 BIS 지급결제위 의장 By EBN",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SdjFnV2lkVUJvQ0oyWkppZENlekFTQkJoZVdaVmJXeFNLRXJyRXQ2RnB3X3RaVXk4VFdQNlNFNU1pcU1QN2lGN1E0ODdyYUJxbW40LTZvTEcwdlJzdGZFTHczSWRua0xSaHpFQ0pfdm4?oc=5",
-          "description": "신현송, 美·유럽 밖 첫 BIS 지급결제위 의장 By EBN  Investing.com 한국어신현송 한은 총재, BIS ‘지급·시장인프라 위원회’ 의장 선출  경향신문신현송 국제결제은행 CPMI 의장  조선일보신현송 한은 총재, BIS 지급위 의장 선임…비서구권 처음  KBS 뉴스신현송, 亞 최초 CPMI 의장...글로벌 코인 ‘룰 세터’ 됐다  서울경제",
+          "title": "Anthropic IPO, 최대 644억 달러 조달 목표 - 로이터",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBQVGFLZUZQdWJvLVpHR3c1MGc0WlFmVFZ4XzlYbG9HaG01XzR5VjZzVlpGWC0zY0hNMjM1NGJyVFllSXV4dzA1azV2eWozSC04ZTk4c1lYSjBCajBpMDcxT0Z2bjlYSDNZek5FbUxZeS12eUMzTENSMA?oc=5",
+          "description": "Anthropic IPO, 최대 644억 달러 조달 목표 - 로이터  Investing.com 한국어기업가치 184억달러→1.5조달러...'앤트로픽 주주' 국민연금, 대박 기대 - 머니투데이  머니투데이'엔비디아 악재' 뚫고 상장 강행...앤트로픽, 19~20일 나스닥 데뷔  YTN 사이언스앤트로픽 공모가 70∼78달러…최대 904억달러 조달  연합뉴스An",
           "publisher": "Investing.com 한국어",
           "pub_date": "2026-11-10T10:59:00+00:00"
         },
         {
-          "title": "TSMC 10월 매출 23.8조원·59%↑…AI 수요에 34개월째 증가 - 한국무역협회-KITA.NET",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQd25QajhVel9LM20ySkZUUXN0WnM1WkZZclN2cWFpOTJhR0x6QzNmb0NWSzNrNWZRMW9Vc2szcWkwN3NHZ3pnYkVBcFNoMWdaWlZkbG1RNnlZRElCclBOamdoSmxwcXNuSVFsTjJyNUlxMElHN0EyU1M3Sjk4emVYVkgzejNtOE9YYmh0MC1TcTB1ZWRzYnE2bmRWU0dGQnFRZkVoQUt4Tkd5aG9ZOEhWSHhXOWxZay1ZZkNJc0QxNmZvbmp4SEE5VEpKa3RjbnhGRnk3N25B?oc=5",
-          "description": "TSMC 10월 매출 23.8조원·59%↑…AI 수요에 34개월째 증가  한국무역협회-KITA.NET'AI 수혜' TSMC 10월 매출 60% 증가…사상 최고치 새로 써  연합뉴스TSMC, AI 반도체 호황에 10월 매출 5869억대만달러…월간 기준 사상 최대치  전자신문TSMC, 10월 매출 5868억 대만달러…월간 최대 실적 경신  Chosunbiz엔비",
-          "publisher": "",
-          "pub_date": "2026-11-10T10:11:43+00:00"
+          "title": "신현송 한은 총재, BIS CPMI 의장 선임…비 서구권 최초 기록",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB6M3VyWFk2VnIxX3FBRHpidENVT01CeklaZkJmSmpPcTFsUy1GdkdyZWlJcVU4UFBLejliQmJhdURTRGctZzVjMmR3ZWZIZzZWR01BZjBNUU1YYkxO?oc=5",
+          "description": "신현송 한은 총재, BIS CPMI 의장 선임…비 서구권 최초 기록  뉴스핌신현송 국제결제은행 CPMI 의장  조선일보신현송 총재, BIS 지급결제위원회(CPMI) 의장 선임…미국·유럽 밖에서 최초  마켓인신현송 한은 총재, BIS ‘지급 및 시장인프라 위원회’ 의장 선출  경향신문신현송, 디지털 지급결제 '룰 메이커'로 나선다  한국경제",
+          "publisher": "뉴스핌",
+          "pub_date": "2026-11-10T10:00:00+00:00"
+        },
+        {
+          "title": "‘AI 수혜’ TSMC 10월 매출 60% 증가…월간 기준 사상 최고치",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95c2R2YjVLWUpsVjdnX1JuYXVDUU82Z0lxZVJKakp3QXRyOGZrZHpNLVJkN0c2cy1xRHNMNGRfclNIXzZlR3RLeVNBVURSNVVQcmlULXdZUXlIRVk?oc=5",
+          "description": "‘AI 수혜’ TSMC 10월 매출 60% 증가…월간 기준 사상 최고치  KBS 뉴스TSMC, AI 반도체 호황에 10월 매출 5869억대만달러…월간 기준 사상 최대치  전자신문엔비디아 후계 구도부터 TSMC 매출 급증까지 이시각 주요뉴스  연합인포맥스TSMC 주가, 오늘 급등한 이유는?  Investing.com 한국어TSMC 10월 매출 59.7% 급증",
+          "publisher": "KBS 뉴스",
+          "pub_date": "2026-11-10T11:22:00+00:00"
+        },
+        {
+          "title": "외상 주식 못 갚아 강제처분 '379억 원'‥3주 만에 최대",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jWkdRVjA1QnpzaWx2Q2c2R3RuMnFkU0R4dnVkNDA1WEwxay1Rck1sYlhrWjZpclhkaU9iNUdCR29DVGUtcW04XzdRWDdXS1RLMjQweWNEb2s2V3AyVXNobUI4alFwZ2JkZWdGVDlvbWVRNG5L0gF0QVVfeXFMUG5KUTd4NGhTLXI0ekNaT0t6WG1SRGc3bG4wSmpuYVIzZURCSlBRbmtfSTZ0UHRjbnJkTWVTb3J1QnVVRDVUX3RfMno3ek1iMFljSVdkWUV6ZkNYbXJtV0huc0hrTVYtVFBlay1sV3FIWGYyaHM?oc=5",
+          "description": "외상 주식 못 갚아 강제처분 '379억 원'‥3주 만에 최대  MBC 뉴스“유예 신청했는데 3억 원 반대매매”…현장은 곳곳 ‘잡음’  KBS 뉴스증시 급락에 강제처분 주식 300억원대로 급증…전장 5배 넘어  매일경제 마켓\"빚투 조이라더니 반대매매는 막으라?\"…손실 부담에 난감한 증권사  인베스트조선[사설] 내우외환 증시, 정부 안정화 대책 서둘러라  국제",
+          "publisher": "MBC 뉴스",
+          "pub_date": "2026-11-10T10:06:27+00:00"
         },
         {
           "title": "의사 부부 허위 퇴사·유공자 자격 매매…부정청약 354건 무더기 적발",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NQlpIcXZuV2RNb19aaHltZ1VndWJQcjJoRlptRTA1SGRHWnAxSW9fYmZ6RDNLX2cxMGY3R0stVFhkcG1sRkU4VUV0c2dDSDh5STdhTmd1UDM2QdIBX0FVX3lxTE1IR085TlJvS2ZCeWlwU05ISTMzWTZkbjlEVS0wUzdXNlNRdUhHVWNjeEJodjlXQ3Z3d3VjU1ZoSmJKZE1BUjcxZGJ5REE3RlN6bEUzWHJVZm1iN2xPdXZB?oc=5",
-          "description": "의사 부부 허위 퇴사·유공자 자격 매매…부정청약 354건 무더기 적발  경향신문2주택자와 결혼 뒤 ‘위장 미혼’ 무주택 청약… 의사 부부, 허위 퇴사해 저소득자 청약 당첨  조선일보'고소득' 의사 부부, 병원 나란히 퇴사 알고보니…기막힌 꼼수  한국경제아파트 부정청약 354건 적발…위장전입, 334건으로 최다  대한민국 정책브리핑李대통령 \"부정청약 걸리면 ",
+          "description": "의사 부부 허위 퇴사·유공자 자격 매매…부정청약 354건 무더기 적발  경향신문'고소득' 의사 부부, 병원 나란히 퇴사 알고보니…기막힌 꼼수  한국경제청약 당첨되려고 위장전입에 가짜 퇴사까지…부정청약 의심 354건 적발  주간조선의사가 일용직으로 ‘소득 세탁’…부정청약 354건 적발  문화일보결혼하고도 '미혼'...기이한 부정 청약의 세계 [자막뉴스]  Y",
           "publisher": "경향신문",
           "pub_date": "2026-11-10T12:09:00+00:00"
         },
         {
+          "title": "美훈풍에 삼전·닉스 4∼6%↑…코스피·코스닥 ’매수 사이드카’",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9jRS1XR0E0MzhZcmZvbC0tYndjcXNySnZXRlRPME9iU3g4ZFl2djg2aVJzcm1ra2RLd2Jyd3BCcTRjRUxqakF4ZWVyWUx6TnJ3Qzh3LU5mWUd5NHk2M25LN0VwR2poU1U?oc=5",
+          "description": "美훈풍에 삼전·닉스 4∼6%↑…코스피·코스닥 ’매수 사이드카’  연합뉴스TV코스피·코스닥, 4%대 급등 마감‥급락 딛고 4거래일만 반등  MBC 뉴스하루 만에 4% 급반등한 코스피, 무슨 일이야?  네이버페이 머니스토리미 증시 강세·유가 하락...코스피, 4.4% 반등 마감  YTN코스피, ‘블루웨이브’ 충격 딛고 4% 반등···기술주 반등·유가 하락에 ‘",
+          "publisher": "연합뉴스TV",
+          "pub_date": "2026-11-10T04:45:00+00:00"
+        },
+        {
+          "title": "美 국채가, 예상 웃돈 CPI·월러 급발진에 급락…2년물 14.4bp↑",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VNndmZDVYUm1VWXJjdkhYcVh5TFkyRXlCcUFHWE9ZRFFBWS1mRGJvTVhES2xTN21ZXy1fQ0dFVGs0UEQ3THlBei1RTjk4TXNHTlVKRV9tTmloa3p3NzJIYUZxUmxlUHhLNW1mdnJMaWQ?oc=5",
+          "description": "美 국채가, 예상 웃돈 CPI·월러 급발진에 급락…2년물 14.4bp↑  연합인포맥스[2보] 美 10월 소비자물가 전월 대비 0.4%↑…전망치 웃돌아  연합뉴스AI 거품론 가를 '코어위브' 실적…\"반도체 투자심리에 분수령\"  연합인포맥스美 10월 CPI 0.4%↑…’빅스텝’ 가능성 부상  연합뉴스TV美물가 예상 웃돌자 시장 출렁…12월 ‘빅스텝’ 경계(상보",
+          "publisher": "연합인포맥스",
+          "pub_date": "2026-11-10T16:35:23+00:00"
+        },
+        {
           "title": "같은 ‘매운맛 라면’이라도 맵기 천차만별…“최대 7배 차이”",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0b0hLbkZfdmJPekVwSGZyUTJjcnVFZHdEQjh5Q0E2N212MjZVRzZxWjJQSlBCenRUNWpKZ0pZMHY0bkZuR0FRWFg3ZnZ6bXlNVVhJZUVOcF9FYktfZGM3YXptOHpVUQ?oc=5",
-          "description": "같은 ‘매운맛 라면’이라도 맵기 천차만별…“최대 7배 차이”  KBS 뉴스매운맛 순으로 라면 줄 세웠더니…신라면 꺾은 ‘이것’ [이런뉴스]  KBS 뉴스\"'틈새라면 빨계떡' 캡사이신 최다…2위 '신라면 더 레드'\"  연합뉴스품질 비교 대상 매운맛 라면 12종 보여주는 소비자원 직원  뉴시스‘짠맛’ 폭탄 매운맛 라면…국물만 다 마셔도 나트륨 하루치 초과  경",
+          "description": "같은 ‘매운맛 라면’이라도 맵기 천차만별…“최대 7배 차이”  KBS 뉴스매운 라면 맵기 7배 차이...한 봉지에 나트륨 최대 '하루치'  YTN 사이언스매운맛 순으로 라면 줄 세웠더니…신라면 꺾은 ‘이것’ [이런뉴스]  KBS 뉴스\"'틈새라면 빨계떡' 캡사이신 최다…2위 '신라면 더 레드'\"  연합뉴스품질 비교 대상 매운맛 라면 12종 보여주는 소비자원 ",
           "publisher": "KBS 뉴스",
           "pub_date": "2026-11-10T12:23:00+00:00"
         },
         {
-          "title": "코어위브 CEO, 신임 텍사스주지사에 DC 입장 요청…주가 5%↑",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mZU1RMlM1bzEwV0lsUlYzLWdvaXpJR2xocENpRExkb2VYR0JKSWZQWFNxUmdaLW1tYzhtS2hoZUwzNkZ2WFl6RlNjTk5wNUxaVm03T19ybUpialhWaHNla1FhMXlnWE51V3E2SGozS3k?oc=5",
-          "description": "코어위브 CEO, 신임 텍사스주지사에 DC 입장 요청…주가 5%↑  연합인포맥스[분석] 미국 불확실성 피한 빅테크…한국 데이터센터에 수조원 승부수 By FinancialPost  Investing.com 한국어‘미국 민주당 압승’ 경남 산업 ‘촉각’…“수요는 견고”  KBS 뉴스민주당 압승에 실리콘밸리 'AI 속도전' 균열…주민 몫 키운다  뉴시스美 AI ",
-          "publisher": "연합인포맥스",
-          "pub_date": "2026-11-10T02:41:18+00:00"
+          "title": "민주 “주가누르기 방지법 정기국회 처리”…이견 해소는 못해",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA3U3hKSXg3UF9xbTlNSlVzbTZ0MEdZa0tkTGpTUldUSGZ2ZXhMODBXdlRKS3B3MzNRRlJNdmtWcU9XZnVUX2dESjgwTHZMXy1NT3AzRXhjT19FcF93OGQxLTBmSC11bFVHYmVwQVJJZlUyMnMx?oc=5",
+          "description": "민주 “주가누르기 방지법 정기국회 처리”…이견 해소는 못해  한겨레與 \"주가누르기방지법, 정기국회내 처리…내용 정리는 다 안돼\"  연합뉴스민주당, 오늘 의원총회‥주식시장 안정화 방안 논의  MBC 뉴스與 \"국내 경제 팬더멘탈 견조…국힘, 공포 마케팅 거둬야\" - 머니투데이  머니투데이與, 의총서 '의무공개매수제' 보완 논의…\"야당과 지속적 협의\"  연합인포",
+          "publisher": "한겨레",
+          "pub_date": "2026-11-10T13:19:00+00:00"
         },
         {
-          "title": "\"증시 하락에 죄송한 마음\"…개미 달래기 나선 민주당",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82Y2V5WHVTbE44SElsYzNGdjVPVklicGRxUThleWNqS0QzcDJ4LWpWYmVESkhGWFp5T1VqNlpYS0V1aUI4RUxLd3BHNDE4aGxEUW8ydmYwWWc1QQ?oc=5",
-          "description": "\"증시 하락에 죄송한 마음\"…개미 달래기 나선 민주당  한국경제與 \"주가누르기방지법, 정기국회내 처리…내용 정리는 다 안돼\"  연합뉴스민주당, 오늘 의원총회‥주식시장 안정화 방안 논의  MBC 뉴스與 \"국내 경제 팬더멘탈 견조…국힘, 공포 마케팅 거둬야\" - 머니투데이  머니투데이與, 의총서 '의무공개매수제' 보완 논의…\"야당과 지속적 협의\"  연합인포맥스",
-          "publisher": "한국경제",
-          "pub_date": "2026-11-10T04:12:42+00:00"
+          "title": "[분석] 미국 불확실성 피한 빅테크…한국 데이터센터에 수조원 승부수 By FinancialPost",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UZVBpMHBwTjBlTzM2ZkVCTHZCMFRBSWk2SzJMS3ZsR1FibWhBSklJbXl4X3dXVHlWejhMOWRhYUI4STBkSkVnT29YcC15RktFNmRtMkV5bTRvQTJoNmhHUERzVEZ1Z1djcm5ZUEJpRTU?oc=5",
+          "description": "[분석] 미국 불확실성 피한 빅테크…한국 데이터센터에 수조원 승부수 By FinancialPost  Investing.com 한국어‘미국 민주당 압승’ 경남 산업 ‘촉각’…“수요는 견고”  KBS 뉴스코어위브 CEO, 신임 텍사스주지사에 DC 입장 요청…주가 5%↑  연합인포맥스민주당 압승에 실리콘밸리 'AI 속도전' 균열…주민 몫 키운다  뉴시스美 AI ",
+          "publisher": "Investing.com 한국어",
+          "pub_date": "2026-11-09T23:43:00+00:00"
         },
         {
           "title": "美 FDA, 위고비·마운자로 등 GLP-1 약물에 '시력 손상 위험' 경고 추가 요구",
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9pN0h6OGJVRlp1MU5zNU5BNEhRVGVqbUdncmdIR01iMFZCLWg5dmFRdFREeEJ2czN5aVZkcVRWNGxvaXNjUVl5ejllR2p3Vmx1WEI2SVpnRQ?oc=5",
-          "description": "美 FDA, 위고비·마운자로 등 GLP-1 약물에 '시력 손상 위험' 경고 추가 요구  MEDI:GATE NEWS“비만치료제 시력 상실 위험”…미국서 경고 문구 의무화  KBS 뉴스위고비·마운자로에 ‘실명 위험’ 경고 붙는다  Chosunbiz비만약이 실명 유발?… 전문가 \"당뇨가 눈에 더 치명적\"  매일경제美 FDA, 비만치료제에 시력상실 위험 관련 경고",
+          "description": "美 FDA, 위고비·마운자로 등 GLP-1 약물에 '시력 손상 위험' 경고 추가 요구  MEDI:GATE NEWS“비만치료제 시력 상실 위험”…미국서 경고 문구 의무화  KBS 뉴스비만약이 실명 유발?… 전문가 \"당뇨가 눈에 더 치명적\"  매일경제美 FDA, GLP-1 비만·당뇨약에 ‘실명 위험’ 경고 의무화  Chosunbiz美 FDA, 비만치료제에 시력",
           "publisher": "MEDI:GATE NEWS",
           "pub_date": "2026-11-10T13:46:00+00:00"
+        },
+        {
+          "title": "\"반도체 돈잔치 끝이 보인다\"…삼전닉스에 날아든 경고장 [분석+]",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zZzY5ZmF0SjczYVlMbnoxMS1ZY2dpNUtJLU1QVElzT2xVd3paZjFxcVBRRDJQLTJJTmVGeWxaTEhwVElQTEh4NFRZYWVVOGZ0Y2FGeVNOWXcwdw?oc=5",
+          "description": "\"반도체 돈잔치 끝이 보인다\"…삼전닉스에 날아든 경고장 [분석+]  한국경제\"겨울 온다\" 경고한 모건스탠리 또…삼전닉스 목표가 줄줄이 하향  JTBCSK하이닉스 목표가 '천지 차이'…노무라 470만원 vs 모건스탠리 160만원  매일경제 마켓160만닉스·30만전자 vs 470만닉스·67만전자…극과 극 전망? 개미들 “아무도 못믿어”  전자신문\"하락은 과했다",
+          "publisher": "한국경제",
+          "pub_date": "2026-11-10T13:00:02+00:00"
         },
         {
           "title": "[채권-마감] 강세 플래트닝…증시 호조에도 外人 매수에 금리 하락",
@@ -885,36 +899,22 @@
           "description": "[채권-마감] 강세 플래트닝…증시 호조에도 外人 매수에 금리 하락  연합인포맥스[채권-마감] 약세 플래트닝…좀처럼 살아나지 않는 위험선호  연합인포맥스10월 국고채 금리, 유가 하락·외국인 선물 매수에 하락  연합뉴스美 국채금리 상승…고용 호조에 10월 소비자물가 3.9% 전망  뉴스110월 채권 발행 91조…금융채·특수채 늘며 전월 대비 4.5조↑  뉴시",
           "publisher": "연합인포맥스",
           "pub_date": "2026-11-10T09:47:16+00:00"
-        },
-        {
-          "title": "달러-원, 뉴욕장서 1,330원 후반대 거래",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XWE9PcWYwWGZUWUE2YmtRdUFtNDJKeFpORE42RjlSS28zdmtVdjNpS0F5dGFoOUNUekx0MHJWRTJjMml3SWFoeWkxOFdjSGFlU0M1LVR0NS1VWU9CcUJHRkpzYVBUYTFIV0sxUWF3Wlo?oc=5",
-          "description": "달러-원, 뉴욕장서 1,330원 후반대 거래  연합인포맥스환율, 美·이란 협상기대 위험선호↑…9.6원 하락한 1,337.5원  연합뉴스반도체주 폭락에 급등했던 원·달러…다음은 美연준 금리 향방 촉각  뉴시스증시 반등에 원/달러 환율 이틀째 하락…1330원대 재진입 - 머니투데이  머니투데이중동 긴장 완화에 달러·원 9.6원↓…1337.5원 마감(종합)  뉴",
-          "publisher": "연합인포맥스",
-          "pub_date": "2026-11-10T15:14:47+00:00"
-        },
-        {
-          "title": "월러 연준 이사 \"12월 금리인상 지지\"…CPI 따라 50bp 인상도 고려\" - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OYVlRbXk0MUpPQmtQMUgyT3FBTmhqUC1TS2YwVm9yQ3dBUmxWek44Unh2NFMtTE9PbnQ3RUFJZmMzVmh6T29LQ1kzaTlDaVFFYjhtSHB4M3NjdUxhdDdTeElULUY0THdn0gFuQVVfeXFMTy15MlRObVZOMlZUZkowSUdwOFUza0lDNXBudGhJeHoybEl2UDl3WFRpZGdLX2h4ZUVURDFxb3RvNDV1bk1EekNMMnpoaF9WRXJ2LXdJT2hLT0JXMmNUeDNFT1V3OWowZEo3UEtmeXc?oc=5",
-          "description": "월러 연준 이사 \"12월 금리인상 지지\"…CPI 따라 50bp 인상도 고려\" - 머니투데이  머니투데이연준 로건 총재, 인플레이션 억제 위해 추가 금리 인상 두 차례 촉구  Investing.com 한국어\"미국 12월 기준금리 인상 확률 85%\", AI 데이터센터 투자 위축 가능성은 변수  비즈니스포스트월러 “물가 식어도 금리 올려야”…12월 인상 확률 9",
-          "publisher": "머니투데이",
-          "pub_date": "2026-11-10T12:47:41+00:00"
         }
       ],
       "technology": [
-        {
-          "title": "아빠 불륜 상대인지 모르고…웃으며 사진 찍어 준 젠슨 황 딸",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBjLUVZM2RuN2pfUTFKQmx2WVplNkp6UnpWNVN3TzYzUXUzM0k5VDREN3JqZGVoc05IUDhhcXM0R3p3YU16VU9JaFoybjJNMEV6?oc=5",
-          "description": "아빠 불륜 상대인지 모르고…웃으며 사진 찍어 준 젠슨 황 딸  문화일보",
-          "publisher": "문화일보",
-          "pub_date": "2026-11-09T23:47:14+00:00"
-        },
         {
           "title": "1.3조원 받자마자 불륜 인정이라니…젠슨황 스캔들에 네이버는?",
           "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FRlQtV2llN0J6cFJSTlZKTnFVejR2QmZqWnhPU2lTb2liYldoRzRpZDVmTjRPdEx6YkRTTXpDczVELWVpTHZtcnhkTUw5Q3NzbFZnczJ3?oc=5",
           "description": "1.3조원 받자마자 불륜 인정이라니…젠슨황 스캔들에 네이버는?  매일경제",
           "publisher": "매일경제",
           "pub_date": "2026-11-10T05:17:01+00:00"
+        },
+        {
+          "title": "아빠 불륜 상대인지 모르고…웃으며 사진 찍어 준 젠슨 황 딸",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBjLUVZM2RuN2pfUTFKQmx2WVplNkp6UnpWNVN3TzYzUXUzM0k5VDREN3JqZGVoc05IUDhhcXM0R3p3YU16VU9JaFoybjJNMEV6?oc=5",
+          "description": "아빠 불륜 상대인지 모르고…웃으며 사진 찍어 준 젠슨 황 딸  문화일보",
+          "publisher": "문화일보",
+          "pub_date": "2026-11-09T23:47:14+00:00"
         },
         {
           "title": "“호앙사·쯔엉사가 中 영토라고?”… 샤오미·화웨이 등 중국산 스마트폰 베트남 매장서 퇴출 소동",
@@ -966,13 +966,6 @@
           "pub_date": "2026-11-10T01:54:23+00:00"
         },
         {
-          "title": "“삼전닉스 30만9000원·160만원으로 하향”…모건스탠리 ‘반도체 저승사자’ 전망",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zbzZnYWYyV3M0Nkd2djZqQmMtcjBQdWE2NUhtNUQ2ZlZnZTFyREdQSkNmeTFnZHJqS29JSWtIUUp4RGtnQU15UldkZVdadw?oc=5",
-          "description": "“삼전닉스 30만9000원·160만원으로 하향”…모건스탠리 ‘반도체 저승사자’ 전망  www.dt.co.kr",
-          "publisher": "www.dt.co.kr",
-          "pub_date": "2026-11-10T04:44:18+00:00"
-        },
-        {
           "title": "[단독] 금융보안원 상시평가시스템 해킹 정황...금융사 내부정보 유출 기업에 통보 중인 것으로 확인",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MZFU2NTFIcHhwcXA0Y2daWEQ2bVpCZC1qR0VGRHdxZGFWakdlWW5fbVdrZTNvQmNtM3JyWURHTE0wSDItSWJYWHV2OTk0QnNNZF9jTTFiSzltQlM2aDZnMkw5MjI4Um5zZ25xdg?oc=5",
           "description": "[단독] 금융보안원 상시평가시스템 해킹 정황...금융사 내부정보 유출 기업에 통보 중인 것으로 확인  데일리시큐",
@@ -994,6 +987,13 @@
           "pub_date": "2026-11-10T00:45:14+00:00"
         },
         {
+          "title": "“얼굴이 아깝다”…북한 꽃미남 해커 박진혁, 8년째 FBI 따돌려",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HR1YtQzlLVE92M2pWX2ZjS05BTEZLeE5MRDVvTXRVY1hsWF9tVG42bEJQellxQmV0eGlyeG1HNVUxak1VenhXVDVyMDJsb1ZrZlgyZg?oc=5",
+          "description": "“얼굴이 아깝다”…북한 꽃미남 해커 박진혁, 8년째 FBI 따돌려  매일경제",
+          "publisher": "매일경제",
+          "pub_date": "2026-11-09T03:57:45+00:00"
+        },
+        {
           "title": "엔비디아만 급락…젠슨 황 스캔들, 美·中 반도체 전쟁으로 번지나 [오늘 아침 당신이 알아야 할 7가지]",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ncDhHOUl1X2Y4eE5LVVpKaUFlMXhXWlk5bEFoWU5iQ0V0akRiZ0hrUlpaN0FieXlTRl9oYm1PZnRaRDEtYkQ4anplanlMVGJncFlRVEctcnlRZw?oc=5",
           "description": "엔비디아만 급락…젠슨 황 스캔들, 美·中 반도체 전쟁으로 번지나 [오늘 아침 당신이 알아야 할 7가지]  한국경제",
@@ -1001,14 +1001,35 @@
           "pub_date": "2026-11-09T22:34:27+00:00"
         },
         {
-          "title": "“얼굴이 아깝다”…북한 꽃미남 해커 박진혁, 8년째 FBI 따돌려",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HR1YtQzlLVE92M2pWX2ZjS05BTEZLeE5MRDVvTXRVY1hsWF9tVG42bEJQellxQmV0eGlyeG1HNVUxak1VenhXVDVyMDJsb1ZrZlgyZg?oc=5",
-          "description": "“얼굴이 아깝다”…북한 꽃미남 해커 박진혁, 8년째 FBI 따돌려  매일경제",
-          "publisher": "매일경제",
-          "pub_date": "2026-11-09T03:57:45+00:00"
+          "title": "\"아이폰 듀오 힌지 결함, 설계 문제 아닌 불량 부품 때문\"",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zaUZLUWZLbVRyOHpFeHVILU9hRTRUQXZiQTM2NDFjTWdmWXA4am5PcXhPLWd6UE5LRmx4MVRsQjItczNCejZkLW14eWdwdmdCZjItbG9B?oc=5",
+          "description": "\"아이폰 듀오 힌지 결함, 설계 문제 아닌 불량 부품 때문\"  지디넷코리아",
+          "publisher": "지디넷코리아",
+          "pub_date": "2026-11-10T05:01:52+00:00"
         }
       ],
       "entertainment": [
+        {
+          "title": "'25kg 감량성공' 신동, 마운자로 맞았다 \"어렸을 때 가난해 식탐 있는 편\"('살롱드립')",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBuMmF6djFmUlkxUVhISW50Z2FELVBxN285OWNEb05ub3UtT3RzTnVNZ3dwcDRKNTlNcE1XYV9WenRyU0NQTmZTZXNpRlpXMGUzZFowZndrVVlnNW95S04zOXBpd1RhRElXNGdLSHF6ck0?oc=5",
+          "description": "'25kg 감량성공' 신동, 마운자로 맞았다 \"어렸을 때 가난해 식탐 있는 편\"('살롱드립')  SPOTV NEWS'위고비 실패' 신동, 반쪽 됐다...\"25㎏ 감량 비결? 마운자로\" - 머니투데이  머니투데이신동 \"요요 때문에 다이어트 업체에 고소당할 뻔\"  뉴시스홀쭉해진 신동 \"37kg 감량NO\" 정정…105kg→80kg 됐다 ('살롱드립2')  Cho",
+          "publisher": "SPOTV NEWS",
+          "pub_date": "2026-11-10T10:43:46+00:00"
+        },
+        {
+          "title": "장동건♥고소영, 아들과 옷 돌려 입었다가 당황 \"욕 쓰여있어\"",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRXhrcTdoSDdaNWx1TU0yNHM1QnluZUtIamo4cWhGVVpaWnpjaV9Cb0x0bFQ4ZVlDSUk3NERBVkwybEtrbHFSQTZxOE0wWjgwbndaaG1fN2xRQzJLQlkwN0JvajJ6S3ZyVHJyRHRiSkJuVjdKWFVMLXZwQ2hGOENXMXNBdlJ2OWVvazY0Vnh3UGF6ZTjSAacBQVVfeXFMTVYtNU9RSDl5RFNfR0djR1NkekdJSXlYRWh3Q1Rha2hjeVhkQjZ4U01lUUEydkdBUU91LTRXSDd4Wkc1LW5LWTZqX3dUTGd3bTFEUlhHTVJscURkTTJ0UVFYU3dCVVM1NG03WnFYRzhWa1M2SHlaV1dYOG9oSVpkYVM1R212V1h4LVBObTZqS2k0RUxaVE1jd3RuTDY3WE5NRFlMUi1JaTg?oc=5",
+          "description": "장동건♥고소영, 아들과 옷 돌려 입었다가 당황 \"욕 쓰여있어\"  ChosunbizGoogle 뉴스에서 헤드라인 및 의견 더보기",
+          "publisher": "Chosunbiz",
+          "pub_date": "2026-11-10T10:59:00+00:00"
+        },
+        {
+          "title": "'서바이벌 5연속 우승자' 장동민, 재테크 비결 \"내 능력에 투자\" 눈길('살롱드립2')",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vTjU4YTZIY2FEUHc1UVA0OTlmUUZ5eXA4U250RUoyY21SQzl5SC13Y1pqaUl1NlVwb1cxRzQ1MWRTZm1nbEZGODc0amtvMHFBZmg0Uw?oc=5",
+          "description": "'서바이벌 5연속 우승자' 장동민, 재테크 비결 \"내 능력에 투자\" 눈길('살롱드립2')  OSEN\"나는 계획형VS아내는 즉흥형\" 장동민, '극과극 성향' 힘들었다('살롱드립')  SPOTV NEWS장동민 \"나는 계획형, 아내는 즉흥적...신혼 초에 힘들어\"  iMBC 연예장동민 “아내와 뭐를 할 때 뇌를 비워…신혼 초에 엄청 힘들었다” (살롱드립)  뉴스",
+          "publisher": "OSEN",
+          "pub_date": "2026-11-10T10:46:00+00:00"
+        },
         {
           "title": "수능 3주 전 강의 중단, 넷플 출연 알린 인강 강사 “제 잘못”",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1UUi1rMkRCTkpPSzFYWGdEbVBKLS00SGZDdDhXREV2eTBEaWR3QkFxVFNyVGxwWjBYVTZGclB4WV9vQlFLV0RORGlTS25EenpHMUtnLUlQTEstS2FaYzc0aWZPM2NRY3FiT0dONU1UWUkyQQ?oc=5",
@@ -1017,46 +1038,11 @@
           "pub_date": "2026-11-10T12:25:00+00:00"
         },
         {
-          "title": "홀쭉해진 신동 \"37kg 감량NO\" 정정…105kg→80kg 됐다 ('살롱드립2')",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX0tMRWxDNVp5MGY1T05FZDRTYVBIT3A2SzlGNWNDdHFueDBUMkJia2IwU3VYaGQ4OGotaEY5cldXaWhUcDNQb3dlS1lERXBJZlJPSVA3LU84S0JHUmJQSm5xWFZGUnlBSXpBX1otRG4yTmxJa2RqRkVub3hNMG44b3d2RW50eHlqQ3dqQmhXQXpoZ2_SAacBQVVfeXFMT3psUG9NRkxqUmhUS1lRclp1amIwMjQ5Z1FzMWFzNG04al93VmE5ckVBQ0hDb2JxanRFVU1aWWFuTHE2LW11Z3ZxR253d0NTcmpkd0YxdWhkMUVPN0wtMDh4Z19GWE9tMWhGSVRHZVlYZ3RvcmNRczltbDFGT2pqY1ZiNTJralFyUGF0TXlyVDVIUzlxTDlvZGFNMkhwZHVCdTk0R3M5ZWc?oc=5",
-          "description": "홀쭉해진 신동 \"37kg 감량NO\" 정정…105kg→80kg 됐다 ('살롱드립2')  Chosunbiz'위고비 실패' 신동, 반쪽 됐다...\"25㎏ 감량 비결? 마운자로\" - 머니투데이  머니투데이신동 \"요요 때문에 다이어트 업체에 고소당할 뻔\"  뉴시스'25kg 감량성공' 신동, 마운자로 맞았다 \"어렸을 때 가난해 식탐 있는 편\"('살롱드립')  SPOT",
-          "publisher": "Chosunbiz",
-          "pub_date": "2026-11-10T10:19:00+00:00"
-        },
-        {
-          "title": "‘나의 유죄인간’ 임시완 회장실 소환",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DenBkSzFfbGl3NmJVenNrTGxfelhsSW43bWh4OGZzdXdKcm91b1ZYVFAtYmtHdVo0bUszajZLZnJUNmNhc1lfVFVUWDdfNmJoOFhwX3RUQW0zWm1RRVp3cU5MaHA?oc=5",
-          "description": "‘나의 유죄인간’ 임시완 회장실 소환  BNT뉴스‘나의 유죄인간’ 임시완, 설인아 구하려다 브로맨스 스캔들…포털 검색어까지 ‘떠들썩’  브릿지경제'나의 유죄인간' 살인사건 새 국면…임시완·설인아·김정현·연우 4자 대면  뉴스1‘나의 유죄인간’ 임시완, 설인아 구하고 직진 포옹 ‘심쿵’  스포츠동아임시완, 설인아 지키는 '백마 탄 왕자'…플러팅 폭주(나의 유",
-          "publisher": "BNT뉴스",
-          "pub_date": "2026-11-10T04:39:07+00:00"
-        },
-        {
           "title": "블핑 지수, 살벌했던 ‘YG 연습생’ 시절..“월평=전체 공개, 그 자리서 울어” (‘틈만나면’)",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FYUFUQVdyb01iUXRwalJSbkl1VlFVNWVhVmNFc3RrTFNsdmluelpBOFJ1NFhFNUxvV2xCUzMxZzduRGZGT3IxOXdaNG0zamxrUzlrZQ?oc=5",
-          "description": "블핑 지수, 살벌했던 ‘YG 연습생’ 시절..“월평=전체 공개, 그 자리서 울어” (‘틈만나면’)  OSENGoogle 뉴스에서 헤드라인 및 의견 더보기",
-          "publisher": "OSEN",
-          "pub_date": "2026-11-10T12:37:00+00:00"
-        },
-        {
-          "title": "\"운전조차 힘들었다\"… '상남자의 여행법' 김종국, 전정신경염 고백",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5DcTBqY0ZfRUhqNUpLQUlTUzJ2RXpVdDZzZk9UYXc5NVU4YU5oTENTRnBya2MzZFV3bjRpLU0tQkdBNkFTVldfUkE3UWVjbTE4UFRLdllXb1daeDJJOGJGVjI1Y1h0YmJKVzB1bWhB?oc=5",
-          "description": "\"운전조차 힘들었다\"… '상남자의 여행법' 김종국, 전정신경염 고백  국제뉴스‘상남자의 여행법’ 김종국, ‘전정신경염’으로 달라진 일상 고백…“운전·식사도 못 해”  브릿지경제추성훈 뒷감당 어쩌려고…“♥야노시호, 내가 만나준 거”  스포츠동아안재현, 김종국 앞에서 근육 자랑…주우재와 비교에 \"급 달라\" 발끈  뉴스1추성훈 \"시호가 나 좋다고 해서 만나줘\" ",
-          "publisher": "국제뉴스",
-          "pub_date": "2026-11-10T12:41:56+00:00"
-        },
-        {
-          "title": "고소영, 블랙핑크 로제 패션에 감탄 “옷 뒤집어 봤다”",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ydHBfRnpoSzBIZEk0RDlKVG1oTURycy1jd1h0RTBxOGlXN2hfekFIMzg4OXhSSjhuV3dmUXh5MXlrbnBHZHdMMmE4T2NyNjBrdTFLZkxXR2VFUEVpNy1rcUh3NUhZZFR3QU1xQkNR?oc=5",
-          "description": "고소영, 블랙핑크 로제 패션에 감탄 “옷 뒤집어 봤다”  스포츠동아고소영, 로제 옷 얼마나 탐났으면 “옷 뒤집어까서 똑같은 걸로 사”  Chosunbiz장동건♥고소영, 아들과 옷 돌려 입었다가 당황 \"욕 쓰여있어\"  OSEN'48kg' 고소영도 뱃살 고민 \"인터넷으로 쇼핑하니 실패, 옷 꼭 입어보고 사\"('고소영')  SPOTV NEWS고소영 \"다시 49㎏",
-          "publisher": "스포츠동아",
-          "pub_date": "2026-11-10T12:57:48+00:00"
-        },
-        {
-          "title": "'서바이벌 5연속 우승자' 장동민, 재테크 비결 \"내 능력에 투자\" 눈길('살롱드립2')",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUVo4Z0c1WkpKZ2hTRTFJMDFnVWZWMlN6QnZ1dDZOMXRVbks1d2NnaHBjcWhIdmNyQ01jbEN2ZzBCdlB5aWYtZFB4UVh5ZnFMekRyQnc4MUV6c1N4QnlNWFpRdktMZ3FzRVpFN2F4TnVOZ2FqSEhTYmlRMTA0bV9yOGx6UFJ2SXFIVUtieU1oSQ?oc=5",
-          "description": "'서바이벌 5연속 우승자' 장동민, 재테크 비결 \"내 능력에 투자\" 눈길('살롱드립2')  조선일보Google 뉴스에서 헤드라인 및 의견 더보기",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNWdoTzdVaUFxYmRDN2ZPSVpGNjR1Z2l0QmROQ1lfay1Tb0FVdHBLNV9mMFJkcjlwcFQteDVBRlNqdm1zWmMyLUVrZWRrcC1HVXBpRzBwUWtVZmdKdGlnRU9sVGhRRDFtUTFNbzJzSHNUeUFva3pMZGVoT3hSY25xcmJ0S2EzaGRhWldZS0Vqbw?oc=5",
+          "description": "블핑 지수, 살벌했던 ‘YG 연습생’ 시절..“월평=전체 공개, 그 자리서 울어” (‘틈만나면’)  조선일보Google 뉴스에서 헤드라인 및 의견 더보기",
           "publisher": "조선일보",
-          "pub_date": "2026-11-10T10:48:00+00:00"
+          "pub_date": "2026-11-10T12:38:00+00:00"
         },
         {
           "title": "가능한 사랑부터 다시 보는 전도연의 인생 캐릭터 9",
@@ -1064,6 +1050,13 @@
           "description": "가능한 사랑부터 다시 보는 전도연의 인생 캐릭터 9  하퍼스 바자 코리아조인성 \"부족함 모르는 자본가, 저한테서 찾아 꺼내 연기했죠\"  연합뉴스[집중 인터뷰]이창동이 달아 놓은 '가능한 사랑'에 관한 주석들  뉴시스전도연 “영화 다시 보니 미옥처럼 보여…달의 의미도 새롭게 찾아”  KBS 뉴스[현장톡] '가능한 사랑' 설경구 \"다른 배우가 했으면 못 견뎠을",
           "publisher": "하퍼스 바자 코리아",
           "pub_date": "2026-11-10T09:18:37+00:00"
+        },
+        {
+          "title": "'9살연하♥' 김종국, 건강이상 실토…'전정신경염'으로 복싱 중단 \"생활습관 바꿔\"",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MUl9KM0VmajBGeWtubExTZVVkeWRXX3lMczlvVk5WSXVCaFJ0LVF5MGZ1MFNXN2gyaHN0UHpSdWVSRFRLYzNQZ0xrbFJRUXFmNGl6UmdoQU1vTXRpNDlqdjY2aV9LbnhaWVF4OUtlTHA?oc=5",
+          "description": "'9살연하♥' 김종국, 건강이상 실토…'전정신경염'으로 복싱 중단 \"생활습관 바꿔\"  SPOTV NEWS‘상남자의 여행법’ 김종국, ‘전정신경염’으로 달라진 일상 고백…“운전·식사도 못 해”  브릿지경제추성훈 뒷감당 어쩌려고…“♥야노시호, 내가 만나준 거”  스포츠동아안재현, 김종국 앞에서 근육 자랑…주우재와 비교에 \"급 달라\" 발끈  뉴스1추성훈 \"시호가",
+          "publisher": "SPOTV NEWS",
+          "pub_date": "2026-11-10T08:52:33+00:00"
         },
         {
           "title": "[오늘의 운세] 2026년 11월 11일 오행별 행운의 컬러",
@@ -1075,23 +1068,16 @@
         {
           "title": "리센느, 신보 'PULSE' 초동 60만 장…데뷔 첫 하프 밀리언셀러 등극",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90enBEOF84M2FsYjVUWmJfeUF4ZGxoeFljTklJdnpyRUdQcm5rdFNuNmYtRFRoNGRxeDRjWTVBV0JiMFRvNmY0LU84TXpuT1gwbFk5NGVpbWcwZ19udDZV?oc=5",
-          "description": "리센느, 신보 'PULSE' 초동 60만 장…데뷔 첫 하프 밀리언셀러 등극  YTN star리센느 '펄스', 첫주 판매량 60만장…첫 하프 밀리언셀러  연합뉴스리센느, 음반도 만화방창…미니 4집으로 첫 하프 밀리언  뉴시스‘우후죽순’ 성장세 리센느, 10만 장서 60만 장으로 수직 상승  스포츠동아걸그룹 리센느, 미니 4집 60만 장 돌파…K-POP 차세대",
+          "description": "리센느, 신보 'PULSE' 초동 60만 장…데뷔 첫 하프 밀리언셀러 등극  YTN star리센느 '펄스', 첫주 판매량 60만장…첫 하프 밀리언셀러  연합뉴스‘우후죽순’ 성장세 리센느, 10만 장서 60만 장으로 수직 상승  스포츠동아걸그룹 리센느, 미니 4집 60만 장 돌파…K-POP 차세대 주자로 성장  시사매거진리센느, 초동 60만 자체 최고 기록.",
           "publisher": "YTN star",
           "pub_date": "2026-11-10T01:52:00+00:00"
         },
         {
-          "title": "박수홍, 아내 김다예 '패딩 논란' 해명 후 일상 공개…딸 뽀뽀에 “여한 없어” (행복해다홍)",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9VZE9DYkl0V1RaX1hSLXFIWm1CeGg3YmtnX1NtTElQU0NqU3ZtMmhEYjN0N3pXdTRnWm9UeTd0VXk0ZUZaNTRWTmpVOFFScGlCdm43dw?oc=5",
-          "description": "박수홍, 아내 김다예 '패딩 논란' 해명 후 일상 공개…딸 뽀뽀에 “여한 없어” (행복해다홍)  OSEN‘박수홍♥’ 김다예, 딸 명품 패딩 논란에 심경 토로…“지치고 슬퍼”  스포츠경향“딸 앞세워 돈 자랑” 박수홍♥김다예, 유별난 딸 사랑이 불러 온 ‘역풍’  스포츠서울\"명품 패딩·800만원 신발, 내돈내산 아닌데..\" 박수홍♥김다예, '돈자랑 SNS' 억",
-          "publisher": "OSEN",
-          "pub_date": "2026-11-09T23:42:00+00:00"
-        },
-        {
-          "title": "‘계약결혼’ 정현·민현 극적 화해",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00MEJhVkxGMFdMWW1NVjlybGFhQ0s1dlo4a3F6Yzk1RS1jcWVMQ0JPaWo0QTBEV3JvY09wYWNrSFBxSXNMT0R6aUZ3OTFnRGhJenBYcVZPUHVJVmJaSUVCN1cwQlA?oc=5",
-          "description": "‘계약결혼’ 정현·민현 극적 화해  BNT뉴스“내 자식 키우면 보답해야”…‘계약결혼’ 정환 발언에 유진 눈물, 무슨 일?  매일경제'계약결혼' 정환·유진 갈등 폭발 VS 정현·민현 눈물의 화해…최고 2.1%  iMBC 연예‘나솔’ 16기 상철, 28기 영숙 굶기고 물범 타령…“미국에선 그래” 억지  앳스타일출연진 몰카 논란 이어 말다툼까지 벌어졌다…\"이런 ",
-          "publisher": "BNT뉴스",
-          "pub_date": "2026-11-10T00:01:21+00:00"
+          "title": "임시완, 설인아 구하려다 ‘브로맨스 스캔들’ 발발…후계자 입지 위기 (나의 유죄인간)",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYSHY4U0F0UGpncWVITmhxSDM1eUdkY3BrVzBFYW5qbDd0MzZQSHRSMXRFXzVIZFdMWS1rVWE0V25oU1U5RVN4TUM5aHpGSldSVVBDYV91blJJMmZqUVHSAWNBVV95cUxQSC1zdmdQZWlIQk9nMmpWWnZRcjVPaHdiMThSQ2IyZkF3MFZlRHY4UEsyMGZEM0Z4ZGtWdjRkTWY3NHoxX2RvUkZPTVY5M1NYUUZnLVFFbmpmX3c5S0N0U3hsdWc?oc=5",
+          "description": "임시완, 설인아 구하려다 ‘브로맨스 스캔들’ 발발…후계자 입지 위기 (나의 유죄인간)  스포츠경향‘나의 유죄인간’ 임시완, 설인아 구하려다 브로맨스 스캔들…포털 검색어까지 ‘떠들썩’  브릿지경제'나의 유죄인간' 살인사건 새 국면…임시완·설인아·김정현·연우 4자 대면  뉴스1‘나의 유죄인간’ 임시완, 설인아 구하고 직진 포옹 ‘심쿵’  스포츠동아임시완, 설인",
+          "publisher": "스포츠경향",
+          "pub_date": "2026-11-10T05:00:00+00:00"
         },
         {
           "title": "이현욱·장혁·김강우·박성웅, 삼국 운명 건 최후의 전쟁 ‘압도적 카리스마’(‘문무’)",
@@ -1113,6 +1099,20 @@
           "description": "아일릿 '빌려온 고양이', 스포티파이서 2억 스트리밍…통산 6번째  뉴스핌아일릿 '브레이크 이븐', 빌보드 메인 앨범 차트 6위로 진입  연합뉴스다시 쓴 자체 최고 기록…제대로 증명한 ‘아일릿 코어’의 가치  동아일보아일릿 '빌려온 고양이', 스포티파이 2억 스트리밍 돌파..팀 통산 6번째  조선일보아일릿, 美 빌보드 200 톱10 첫 진입…앨범 판매 차트",
           "publisher": "뉴스핌",
           "pub_date": "2026-11-10T01:08:00+00:00"
+        },
+        {
+          "title": "고소영, 블랙핑크 로제 패션에 감탄 “옷 뒤집어 봤다”",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ydHBfRnpoSzBIZEk0RDlKVG1oTURycy1jd1h0RTBxOGlXN2hfekFIMzg4OXhSSjhuV3dmUXh5MXlrbnBHZHdMMmE4T2NyNjBrdTFLZkxXR2VFUEVpNy1rcUh3NUhZZFR3QU1xQkNR?oc=5",
+          "description": "고소영, 블랙핑크 로제 패션에 감탄 “옷 뒤집어 봤다”  스포츠동아고소영, ♥장동건·아들과 티셔츠 돌려 입다가 깜짝..\"욕이 쓰여 있어\"  스타뉴스",
+          "publisher": "스포츠동아",
+          "pub_date": "2026-11-10T12:57:48+00:00"
+        },
+        {
+          "title": "추영우·김소현, 끝내 이별하나?…'연애박사' 제작진이 전한 최종회 관전포인트",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13YkNZMmpLY0NVclFBYnBOQktMVFVXSTkwc3hRWl80LTViTXdsd0RBMi1UODdlYzJWX1dtNml0QnpFNHlMaVFEdW1QSEU3YWhWVlZSckc5aUdKdFVtdWp3?oc=5",
+          "description": "추영우·김소현, 끝내 이별하나?…'연애박사' 제작진이 전한 최종회 관전포인트  YTN starGoogle 뉴스에서 헤드라인 및 의견 더보기",
+          "publisher": "YTN star",
+          "pub_date": "2026-11-10T08:47:00+00:00"
         }
       ],
       "sports": [
@@ -1124,23 +1124,30 @@
           "pub_date": "2026-11-10T14:33:00+00:00"
         },
         {
-          "title": "수원삼성 K리그1 승격 약속지킨 이정효 감독 “이 명문구단이 다시는 2부로 떨어지는 일은 없도록…” 팬들도 열광 “국가대표팀에서 보고 싶은 감독”",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQkk3ei1TR0FDZUVoZURLRzVNNl9Vc1dITFBWU2J0Mk83cm0zNVRiZFBnN2sweEU3djJzanR5UzZmcE8yM2ZuWEJKNk40QVUxOUt4TTMwSWs4T2NWNFlwaDhZTUt6QWFSRUhINXJJOFh1dnIzaG0wVGhRczFkWjJiUG1KTdIBlwFBVV95cUxPOURyamItRGZDTmoyR0FIa3BUYTR2LUsteHRKYTRjLTV0UkN1cUhfNWw1V2hIaUVLSFVDZlVVeHJIdk9VTVJ6aC11SnZ3MTZmVmpscF82d0I2REVNMF9rUHZSSEcwMW1WRWVFdWNKYzVXOWdIbDM4VUtzMUpEbUNSR2ZESXlIV1lWNlNXUXdET2I5Mk5aWjBJ?oc=5",
-          "description": "수원삼성 K리그1 승격 약속지킨 이정효 감독 “이 명문구단이 다시는 2부로 떨어지는 일은 없도록…” 팬들도 열광 “국가대표팀에서 보고 싶은 감독”  Chosunbiz1부 승격, 감독 이정효의 ‘다 바꿔’  경향신문명가 수원 굴욕 걷어낸 ‘효버지’ 이정효의 ‘호통 리더십’  KBS 뉴스'최소 4만 관중 가능' 벌써 관심 폭발! K리그 대표 '흥행카드', FC",
-          "publisher": "Chosunbiz",
+          "title": "수원삼성 K리그1 승격 약속지킨 이정효 감독 \"이 명문구단이 다시는 2부로 떨어지는 일은 없도록…\" 팬들도 열광 \"국가대표팀에서 보고 싶은 감독\"",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMjZPVGRfbEtDLUxvV1kwdlNRdHdtQVNySUJ0LWV0cXBCSDhPcWJhQ0pWSm13LXU2b2VBZDhKRXRSNkItVS13RjJyMWpDbERTRlRaNFNnNGNpWGxSeUkwLWs2b2Y3TllLT3RvZENPemU3VmV2MFBsT2d3T1c1eG5qRS1yVQ?oc=5",
+          "description": "수원삼성 K리그1 승격 약속지킨 이정효 감독 \"이 명문구단이 다시는 2부로 떨어지는 일은 없도록…\" 팬들도 열광 \"국가대표팀에서 보고 싶은 감독\"  조선일보1부 승격, 감독 이정효의 ‘다 바꿔’  경향신문수원 승격을 완성한 '결정적 3일'...8월1일, 8월19일, 그리고 2025년 12월24일  조선일보수원삼성 ‘승격 확정’… 수원FC도 1부 눈앞  경인",
+          "publisher": "조선일보",
           "pub_date": "2026-11-10T11:27:00+00:00"
         },
         {
           "title": "한일전 11연패 사슬 끊어라…日 다케마루 공략 앞장 설 2003년생 김도영-안현민",
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVRV8xanc0X1ZZaE9IMWIwZURkNkYxdDRTblphMGVpTWJaaG1nQXNVYktaaVB4ZGNlZzQ3WHlkdUZIYTM4WVBsOURUTmVBaFBud041RERGa0xXUy1LcWhxUU5QY1pwTTVubkhoSDFJQVNWands0gFmQVVfeXFMTWUwTDcwbFdBbzdPU2puRUxMSXR5VHYxWEVQZERwNWk0ZV9qbGs0d1BTcWpCclZWVlNQaEY3QVVJUS00aC1FWXFocGJXZXVJWjltenZpRTdab19OM1U0TmZ1YVVNWnhR?oc=5",
-          "description": "한일전 11연패 사슬 끊어라…日 다케마루 공략 앞장 설 2003년생 김도영-안현민  동아일보'23사사구 악몽' 류현진의 가르침 떠올리는 최준용, \"볼넷 주느니 맞더라도 싸우자\" 강조 - 머니투데이  머니투데이KS 끝났지만 김도영·한동희 거포 야구 일본 정조준  KBS 뉴스'슈퍼스타' 홈런왕 김도영 vs 지바롯데 역사 바꾼 괴력의 거포...운명의 한일전, 누",
+          "description": "한일전 11연패 사슬 끊어라…日 다케마루 공략 앞장 설 2003년생 김도영-안현민  동아일보[오피셜] 드디어 '숙명의 한일전 열린다' 2026 APBC 중계 어디서 보나 - 머니투데이  머니투데이KS 끝났지만 김도영·한동희 거포 야구 일본 정조준  KBS 뉴스결전지 도쿄로 출국…아시아프로야구챔피언십(APBC) 야구대표팀  연합뉴스\"김도영 무조건 막아라!\" ",
           "publisher": "동아일보",
           "pub_date": "2026-11-10T11:37:00+00:00"
         },
         {
+          "title": "“내야 보험용으로 딱”…필라델피아, FA 김하성에 관심",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUkFrbWlHLXFaVFJvV2lUNFJYYngycVQ5OFlVZ0NGUFVsTzl5TXFGWWNnUmhRb1lOWEhid2ZTa0Y5eEhFS1liQVhxNUV1c2RaX2N5X3RGUVM4NVZxcFVhb2RxT0pTbWJ3bWs4Tm5TZVpfQ1ZDN3gtS1JKbEZSWGNENHVwV1RMUjJlVmxjaWln?oc=5",
+          "description": "“내야 보험용으로 딱”…필라델피아, FA 김하성에 관심  국제신문'키움 복귀 전격 무산?' 세상에 이런 대반전이 있나 \"핵심 역할 맡길 예정\"  조선일보\"필라델피아, FA 김하성 영입 검토…단기 계약 내야수 찾는다\"  연합뉴스‘ML 생존 걱정 마’ 필라델피아, 김하성 영입 관심 ‘유격수 수비 보강’  스포츠동아'와' 267억 1할 타자가 탐난다고? 아직도 ",
+          "publisher": "국제신문",
+          "pub_date": "2026-11-10T09:46:00+00:00"
+        },
+        {
           "title": "한국시리즈 우승 내준 kt 고영표·안현민 사과…\"팬들 마음 다치게 했다\"",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wemNEV0Myak84Tm9FdkxJU0hUeVBXRFVrWDdWQV85XzliYjVtcTQ5ZEtKYU9PRkdicERwNzY5aTgwcGhwcW42cXJCLUFLWmk0RzAwLXVTR1RIMWs?oc=5",
-          "description": "한국시리즈 우승 내준 kt 고영표·안현민 사과…\"팬들 마음 다치게 했다\"  경기일보90승 하고도 승패패패패 치욕의 KS→'준우승' 캡틴 고개 숙였다 “모두가 못해서 진 것, 오늘을 절대 잊지 말자” - 머니투데이  머니투데이‘득점권 타율 0.125-2배 늘어난 경기당 4사구’ 정규시즌 90승 자존심 구긴 KT, 2027시즌 구상 재검...  스포츠경향kt ",
+          "description": "한국시리즈 우승 내준 kt 고영표·안현민 사과…\"팬들 마음 다치게 했다\"  경기일보\"보여드려선 안 될 경기력, 정말 죄송합니다\" 15승 에이스, KS 충격에 결국 사과까지…팬들은 \"울고싶다\"  SPOTV NEWSKT 고영표·안현민, 한국시리즈 준우승에 팬들 향해 사과  매일일보",
           "publisher": "경기일보",
           "pub_date": "2026-11-10T07:06:55+00:00"
         },
@@ -1152,16 +1159,9 @@
           "pub_date": "2026-11-10T04:30:01+00:00"
         },
         {
-          "title": "강원FC, K리그1 35라운드 휩쓸었다…MVP·베스트팀·베스트매치 석권",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12OFFiaGZGYlVYWXhjMU9qT0dUdG9EQmZHcGpockdNWXFSdUdQZEFjRG5nbVBzajRfS0M3VzdVTl95Mjh2cWU3NlVzMTlTOEpabTRJN3JEc1Vfc2M?oc=5",
-          "description": "강원FC, K리그1 35라운드 휩쓸었다…MVP·베스트팀·베스트매치 석권  강원일보'1무1패→파이널A 5위' ACLE와 점점 멀어지는 전북 현대, 강원에 극장골 패배 후 원정 간 팬들과 언쟁까지 벌였다  조선일보‘강원FC 에이스’ 김대원, 구단 및 개인 통산 두 번째 10골-10도움 달성  스포츠경향강원FC 모재현, 팬 선정 9월의 선수상 수상  국제뉴스강원",
-          "publisher": "강원일보",
-          "pub_date": "2026-11-10T06:26:31+00:00"
-        },
-        {
           "title": "아시안컵 연기에 퇴색된 중동 평가전? “경기력으로 증명해야”",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xNzFrRXhvcTVINHBiM1lTdjBXb0VUSTBhSWFlNXVXR0Npbl9HbWlTNDRBTjhEVS13cmQzU1lBU3NlS0lyRjdqSW50M01hUGFoQzRwNFdwTUY5WUVZZXZoNmdTTGZaZw?oc=5",
-          "description": "아시안컵 연기에 퇴색된 중동 평가전? “경기력으로 증명해야”  KBS 뉴스'모레노호 2기' 카타르 속속 집결...불화설 씻을까  YTN'이제는 끈끈한 원팀!'…모레노호, 도하에서 첫 완전체 훈련  연합뉴스‘좌우 풀백의 온도차’ 모레노호의 과제는 측면 수비 해답찾기…설영우의 활용법에 주목  스포츠동아“국가대표 은퇴해라” 비난받았던 김민재, 다시 태극마크 달았",
+          "description": "아시안컵 연기에 퇴색된 중동 평가전? “경기력으로 증명해야”  KBS 뉴스'이제는 끈끈한 원팀!'…모레노호, 도하에서 첫 완전체 훈련  연합뉴스'모레노호 2기' 카타르 속속 집결...불화설 씻을까  YTN‘좌우 풀백의 온도차’ 모레노호의 과제는 측면 수비 해답찾기…설영우의 활용법에 주목  스포츠동아“국가대표 은퇴해라” 비난받았던 김민재, 다시 태극마크 달았",
           "publisher": "KBS 뉴스",
           "pub_date": "2026-11-10T12:54:00+00:00"
         },
@@ -1173,30 +1173,23 @@
           "pub_date": "2026-11-10T08:27:56+00:00"
         },
         {
-          "title": "[MLB] \"필라델피아, 단기 계약 내야수로 김하성에 관심\"",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tUXFaeWR3TzRKVTRBaEV2dDdmWndvMmFCdlJPLTdaVTBvSFVxalI4VVBVd0RnZ0g3M0ctUGg1V1NWVGI5LVlxaEpoU2habV9zaVNHRjhYVXd1MDI0?oc=5",
-          "description": "[MLB] \"필라델피아, 단기 계약 내야수로 김하성에 관심\"  뉴스핌“필라델피아, FA 김하성 영입 검토…단기 계약 내야수 찾는다”  KBS 뉴스'와' 267억 1할 타자가 탐난다고? 아직도 김하성 노리는 ML 팀 있다... \"로또 OR 보험용 카드\" 美 매체 전망 - 머니투데이  머니투데이'270억 먹튀 논란' 김하성 원하는 팀 나타났다! 美보도 \"필라델",
-          "publisher": "뉴스핌",
-          "pub_date": "2026-11-10T06:11:00+00:00"
+          "title": "강원FC, K리그1 35라운드 휩쓸었다…MVP·베스트팀·베스트매치 석권",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12OFFiaGZGYlVYWXhjMU9qT0dUdG9EQmZHcGpockdNWXFSdUdQZEFjRG5nbVBzajRfS0M3VzdVTl95Mjh2cWU3NlVzMTlTOEpabTRJN3JEc1Vfc2M?oc=5",
+          "description": "강원FC, K리그1 35라운드 휩쓸었다…MVP·베스트팀·베스트매치 석권  강원일보'1무1패→파이널A 5위' ACLE와 점점 멀어지는 전북 현대, 강원에 극장골 패배 후 원정 간 팬들과 언쟁까지 벌였다  조선일보‘강원FC 에이스’ 김대원, 구단 및 개인 통산 두 번째 10골-10도움 달성  스포츠경향강원FC 모재현, 팬 선정 9월의 선수상 수상  국제뉴스강원",
+          "publisher": "강원일보",
+          "pub_date": "2026-11-10T06:26:31+00:00"
         },
         {
-          "title": "NC, 일본서 코치·구단 운영 분야 연수 마무리",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PYmRJeThVV1gyQm0tbG5LT25HaXpIMndXVE9rNXVZRjhzNThkQUdVUHk0Zjh5ZHpPY0lpSkI1QTNGS0lDZ2pqUVJ5X2VEdjVTMC1qdnlsS3NUSGtOUVhlajNwZ3ItT0d3MTRz?oc=5",
-          "description": "NC, 일본서 코치·구단 운영 분야 연수 마무리  경남일보NC, 日 소프트뱅크 마무리 캠프에서 코치-운영 분야 연수  노컷뉴스NC, '일본 우승팀' 소프트뱅크 코치 연수…\"선수 지도에 활용\"  뉴시스NC, 일본 소프트뱅크 코치 연수 마무리... \"개개인 특성 맞춰 훈련, 적극 활용하겠다\" - 머니투데이  머니투데이“얻은 경험 적극 활용할 것” NC, 일본 ",
-          "publisher": "경남일보",
-          "pub_date": "2026-11-10T08:35:27+00:00"
-        },
-        {
-          "title": "도핑방지위 20주년… 원윤종 IOC 선수위원에 문체부 장관표창",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45SzdnYWJLX0VIdmdHZUt5aDBITWl4NVNQTHA5SmxoYWVCZ1NoaDR1dGpKd1FETUVtaTJkQm90QUctZ1R4QTRqcGNVVTQ0eW1J?oc=5",
-          "description": "도핑방지위 20주년… 원윤종 IOC 선수위원에 문체부 장관표창  문화일보원윤종 “0.01초 경쟁서 힘이 되는 건 상대도 떳떳할거란 믿음”  동아일보'전 세계의 축하를 받다' 한국도핑방지위원회(KADA) 위상 대단하네, 양윤준 위원장 \"스포츠의 진정한 아름다움은...\" [방이동 현장] - 머니투데이  머니투데이‘0.01초 경쟁도 떳떳하게’ 아시아 25개국 도",
-          "publisher": "문화일보",
-          "pub_date": "2026-11-10T02:58:07+00:00"
+          "title": "문체부, '창립 20주년 한국도핑방지위원회, 새로운 도약 다짐' - K-Classic News",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCYmhXNEY0VDFaZDVib284djl4ZEJ2QVRGVFUxZkl6UGdvMnI0bXNkMUVxQzFfY3ZMWVdhUWtWOXV1ZXFZVTJ6MnM3eWI0YWRONndCaS1aLThNekcwXzFLSUVkczJmczA?oc=5",
+          "description": "문체부, '창립 20주년 한국도핑방지위원회, 새로운 도약 다짐'  K-Classic News원윤종 “0.01초 경쟁서 힘이 되는 건 상대도 떳떳할거란 믿음”  동아일보'전 세계의 축하를 받다' 한국도핑방지위원회(KADA) 위상 대단하네, 양윤준 위원장 \"스포츠의 진정한 아름다움은...\" [방이동 현장] - 머니투데이  머니투데이도핑방지위 20주년… 원윤종 ",
+          "publisher": "",
+          "pub_date": "2026-11-10T11:30:01+00:00"
         },
         {
           "title": "메시, 통산 최다 18회 FIFPRO 베스트11 선정…’발롱도르’ 케인은 제외",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ORVBhN2c5dzVtQ3dwWXdETXB5blJCal96dHRDQWV2cmdUMngyajFUQ3laOFYtYWk1RThHcFVfLUZWaWpTRU1HOUMzWkdaSE9kTUZ0TmxPNXMwVXlaMmxxRWNLNnlqb0E?oc=5",
-          "description": "메시, 통산 최다 18회 FIFPRO 베스트11 선정…’발롱도르’ 케인은 제외  연합뉴스TV메시, FIFPRO 베스트11 최다 18회 선정…'발롱도르' 케인 제외  연합뉴스메시, FIFPRO ‘월드 베스트11’…야말·홀란·음바페도 최고 공격수  한겨레3년 만에 돌아온 메시…대표팀 떠난 뒤에도 FIFPRO 베스트11 18번째 선정  서울경제메시, FIFPRO",
+          "description": "메시, 통산 최다 18회 FIFPRO 베스트11 선정…’발롱도르’ 케인은 제외  연합뉴스TV메시, FIFPRO 베스트11 최다 18회 선정…'발롱도르' 케인 제외  연합뉴스3년 만에 돌아온 메시…대표팀 떠난 뒤에도 FIFPRO 베스트11 18번째 선정  서울경제메시, FIFPRO 베스트11 18번째 선정‥'발롱도르 수상자' 최초 제외  MBC 뉴스[공식발표",
           "publisher": "연합뉴스TV",
           "pub_date": "2026-11-10T00:25:00+00:00"
         },
@@ -1208,11 +1201,18 @@
           "pub_date": "2026-11-10T12:01:00+00:00"
         },
         {
-          "title": "프로배구 OK저축은행, '1년 자격정지' 받았던 세터 곽명우 복귀",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NUkQ2RTAzWmhhYmpOaENXSWRZamRGbmxsWmFWeXNjVmNoTlkzbl9HYkVieGxOcnVld05OUXNXRDY5cnZ6enN6Q3UwZHhzTzJXV1UxRmUtYUg5NksxVENaaXJsU0xBQl82UXVobGE3R2FZZzdfVEHSAXZBVV95cUxQWHI1U1RnUjhvdHM3UmJKRTNxRTZveVB6YU5zTXZBdmhJcmpCa3BBUEVXT2dUTjVsQVFXRHlLd2xhNEhzTjVrYlVpT2ozOTBST3ZFM1FaZjZrSm95RWNMR0RhWTJPalZfTmpaSnExbGh5NzFkeDJ3?oc=5",
-          "description": "프로배구 OK저축은행, '1년 자격정지' 받았던 세터 곽명우 복귀  MBC 뉴스OK저축은행, 1년 자격정지 곽명우 복귀 결정…\"최후의 기회\"(종합)  연합뉴스가정폭력·음주운전 전과로 ‘1년 자격정지’ 곽명우, OK저축은행 복귀  KBS 뉴스[공식발표] ‘가정폭력 음주운전’ 문제의 세터, 배구판 복귀 임박…OK저축은행 다시 품는다 “최후의 기회 제공하기로” ",
-          "publisher": "MBC 뉴스",
-          "pub_date": "2026-11-10T09:54:18+00:00"
+          "title": "\"MLB 가도 선발은 어렵다\" 원태인, 해외 진출 꿈꾸며 FA 시장 나서는데…美 기자 냉정 평가 \"결국 삼성으로 돌아올 가능성 높아\"",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QRzlqbmJ6SVU3SExQQTR3MFVhQWtzT0l1TnNpYVVSYmJfLXVuaEFtYlpOX19VZkpOTnU0MmotNWdtdVpXbkdCcndwcm9RR2xXRUc0MzNB?oc=5",
+          "description": "\"MLB 가도 선발은 어렵다\" 원태인, 해외 진출 꿈꾸며 FA 시장 나서는데…美 기자 냉정 평가 \"결국 삼성으로 돌아올 가능성 높아\"  네이트Google 뉴스에서 헤드라인 및 의견 더보기",
+          "publisher": "네이트",
+          "pub_date": "2026-11-09T19:00:00+00:00"
+        },
+        {
+          "title": "'1년 자격정지' 곽명우, OK저축은행 복귀 확정…선수 등록 공시",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Udjd5WDJ6eG5NaERNVG1aRnhGdHpJOUM0ZDBTNUZSQ1U1YURMZHVlVExtRXFNY0VsU0lOaFJyN3F2cEFRXzh1bDBYTlUzRDZJUUNvZ0JOWGVGanMtb0ExOTc2dDlqdlhMdEE?oc=5",
+          "description": "'1년 자격정지' 곽명우, OK저축은행 복귀 확정…선수 등록 공시  SBS 뉴스OK저축은행, 1년 자격정지 곽명우 복귀 결정…\"최후의 기회\"(종합)  연합뉴스프로배구 OK저축은행, '1년 자격정지' 받았던 세터 곽명우 복귀  MBC 뉴스[공식발표] ‘가정폭력 음주운전’ 문제의 세터, 배구판 복귀 임박…OK저축은행 다시 품는다 “최후의 기회 제공하기로” - ",
+          "publisher": "SBS 뉴스",
+          "pub_date": "2026-11-10T10:43:08+00:00"
         },
         {
           "title": "佛 유도영웅, 대선출마 선언…“위기의 국가 방관 않고 싸우겠다”",
@@ -1231,18 +1231,18 @@
           "pub_date": "2026-11-10T07:03:50+00:00"
         },
         {
-          "title": "식사 골고루 할수록 당뇨병 위험 낮아져…남성 44%·여성 27%↓",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBcWVrTHBjb3hzUTRqNGtta2FGNDJKNUNmejRVZUhka2lOOF9HWkdiMVp1S21yd1RfeGppa081M0YtMTVBU2REMEt5YXB5MVNMSERfSWloaWPSAVRBVV95cUxQdHJZQkRWSUYzcTE1ZDQ4WmZCV3JWb0JBeVFsb25hRjFHOFhhNU1jR1ptRmh5NVU0alBuY0hsX2RiQmlpYnpoYnBIN281WjhVd2RSWkg?oc=5",
-          "description": "식사 골고루 할수록 당뇨병 위험 낮아져…남성 44%·여성 27%↓  세계일보[김길원의 헬스노트] 음식 골고루 먹었더니…당뇨병 위험 남 44%·여 27%↓  연합뉴스다양한 식품군 골고루 먹으면 당뇨병 위험 최대 44% 떨어진다 : 최신논문  의약일보“당뇨 걱정된다면 당장 그만두세요!”… ‘매일 같은 음식’ 먹는 습관의 진실 [헬스픽]  www.twig24.c",
-          "publisher": "세계일보",
-          "pub_date": "2026-11-10T05:00:00+00:00"
-        },
-        {
           "title": "감기인 줄 알았던 기침, 폐렴이 보내는 신호",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVmI0dHE2czc4UVByaWVRM3pZQVFfVGV5WkNsdHh6ZlV1amg5OExnSVh3UXl4cGc5VXVKX25jQmJ5VEltaW9aSDVPV1psWUNTVE5sc0lfV1AyOWRBOVhJcVM1aWxnWFhDSDg4T2djajVaa3c3Y1BNM0llM2V1ZWNraHBfc2VTZw?oc=5",
           "description": "감기인 줄 알았던 기침, 폐렴이 보내는 신호  전북도민일보한국화이자제약, 노인건강대축제서 호흡기 감염 예방 캠페인 진행  뉴스1폐렴, 2025년 국내 사망원인 3위…고령층·만성질환자 주의  이데일리세계 폐렴의 날:약품신문  약품신문겨울철 폐렴·RSV 감염 주의···성인 예방접종 이력 확인해야  경북신문",
           "publisher": "전북도민일보",
           "pub_date": "2026-11-10T09:00:00+00:00"
+        },
+        {
+          "title": "당뇨병 치료에 좋은 음식?…\"골고루 먹는 식습관도 중요\"",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5uc00ybUYtZF8wYUQtV3BwcXRXVTlIYWtFdTlOM3J5M3NPeDY3SmdOVXBDM0lOODFVY1A4ZGg5WFgyS2Uzc01yZWJ0d2lMeEpGVFhYTExHYzVRdDJFMlpEQ0JmX0xWV28?oc=5",
+          "description": "당뇨병 치료에 좋은 음식?…\"골고루 먹는 식습관도 중요\"  연합뉴스TV[김길원의 헬스노트] 음식 골고루 먹었더니…당뇨병 위험 남 44%·여 27%↓  연합뉴스다양한 식품군 골고루 먹으면 당뇨병 위험 최대 44% 떨어진다 : 최신논문  의약일보“당뇨 걱정된다면 당장 그만두세요!”… ‘매일 같은 음식’ 먹는 습관의 진실 [헬스픽]  www.twig24.com식",
+          "publisher": "연합뉴스TV",
+          "pub_date": "2026-11-09T23:25:00+00:00"
         },
         {
           "title": "\"단순 복통인 줄 알았는데\"…식은땀·어지럼증 동반되면 '난소낭종 파열' 의심해야",
@@ -1252,18 +1252,18 @@
           "pub_date": "2026-11-10T09:40:24+00:00"
         },
         {
+          "title": "KAIST, 치매 단백질의 해로운 뭉침 막는다…새 치료 원리 제시",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iSkY5YnFzMDJScERXQTIyT1FPOWo3SEFMUVlqWTNMbFIzWk5Zb0d6T1RlTFVhYng1bGM1UmpPRXM4UnJ0X0FMV2tZcnlVRmxudl9EanhTQUNBWGJZSHpzeHhtbnNKUQ?oc=5",
+          "description": "KAIST, 치매 단백질의 해로운 뭉침 막는다…새 치료 원리 제시  한국대학신문치매 독성 단백질의 응집 억제...치료제 개발 기대  YTN 사이언스치매 연구, 새로운 단서 확인...타우 단백질이 주변 뇌세포로 퍼지는 것을 촉진하는 ‘FAM84B’ 역할 규명  BRIC카롤린스카연구소 치오티스 연구팀, 조기 알츠하이머병 타우 축적 비교  메디포뉴스치매 단백질 ",
+          "publisher": "한국대학신문",
+          "pub_date": "2026-11-04T23:57:46+00:00"
+        },
+        {
           "title": "`위고비의 기적` 인슐린보다 암위험 38% 낮았다…단, 조건이 있다? [매일비타민]",
           "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiUGJVVE95MGM4VmhDLVJFYWF4bG4za01WcVZOTVpuTm4wZnQtelNId0JVaWRuSUxtTWhSTVA1bG9uS0JCc2FubHlObHg4MEtKMUFxSUx1WVRHVVM4aUNzYVZR?oc=5",
           "description": "`위고비의 기적` 인슐린보다 암위험 38% 낮았다…단, 조건이 있다? [매일비타민]  매일신문[표지로 읽는 과학]살 빼기 넘어 온몸으로…GLP-1의 무대 확장  DongA ScienceOzempic 계열 약물, 심부전과 중독 넘어 노화까지 임상시험 중  GeekNews“비만치료제로 치매-중독-암도 예방? 가능성은 살짝 보인다”  동아일보GLP-1 계열 당뇨",
           "publisher": "매일신문",
           "pub_date": "2026-11-10T01:19:23+00:00"
-        },
-        {
-          "title": "KAIST, 치매 유발 단백질 '독성 뭉침' 막는 치료 원리 규명",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xa1hnNXZaYjhCME5sQThPaEkwNzVFOUxPZ0VaM2FJdXlnanoyUjF1VFpuLVI5MktMZzJSUUhXdFVhYnFHb0xTdVpKb2dZMzNJWWVDeFJfV3ZGUDJUcVN4LTc2dW5JYXFSUlFtWQ?oc=5",
-          "description": "KAIST, 치매 유발 단백질 '독성 뭉침' 막는 치료 원리 규명  충청뉴스치매 독성 단백질의 응집 억제...치료제 개발 기대  YTN 사이언스치매 연구, 새로운 단서 확인...타우 단백질이 주변 뇌세포로 퍼지는 것을 촉진하는 ‘FAM84B’ 역할 규명  BRIC카롤린스카연구소 치오티스 연구팀, 조기 알츠하이머병 타우 축적 비교  메디포뉴스치매 단백질 ‘뭉",
-          "publisher": "충청뉴스",
-          "pub_date": "2026-11-05T01:36:22+00:00"
         },
         {
           "title": "\"웃다가 머리가 깨질 듯 아팠다\"…43세女 덮친 뜻밖의 두통은?",
@@ -1294,6 +1294,13 @@
           "pub_date": "2026-11-10T10:09:37+00:00"
         },
         {
+          "title": "생선, 일주일에 두 번 식탁에 올려야 하는 이유…심장부터 뇌·수면 건강까지",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45SlVhTzRhN1JDUHpWcUl2ck5FSXphTFVTaFlqWlBhcHZNeW4tLS1Ic295ZFItall2QXlaR3BDaTkySHp4dHBVRUJhVjlKa2ZjSzB6UVZmUDREcGJLcHVITUpTSXA3Z2lYVUdTUHVBOWMxdw?oc=5",
+          "description": "생선, 일주일에 두 번 식탁에 올려야 하는 이유…심장부터 뇌·수면 건강까지  진주인터넷뉴스",
+          "publisher": "진주인터넷뉴스",
+          "pub_date": "2026-11-09T21:00:05+00:00"
+        },
+        {
           "title": "호수에서 수영했을 뿐인데⋯22세男 덮친 뜻밖의 ‘이 병’",
           "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE0zRmk0dHRoeVJZQnA3Z2Z1YXh2bWFIazVjTDczeDV6c1NHc0VaS2hQRHdkaDZRNDYtQTctU3dZUFpEZw?oc=5",
           "description": "호수에서 수영했을 뿐인데⋯22세男 덮친 뜻밖의 ‘이 병’  코메디닷컴",
@@ -1320,13 +1327,6 @@
           "description": "[TV조선] 혈관 건강 지키는 관리 비법  조선일보",
           "publisher": "조선일보",
           "pub_date": "2026-11-08T15:45:05+00:00"
-        },
-        {
-          "title": "[전문의 칼럼] 항암화학요법 유발 말초신경병증, 찬바람 불면 손발 더 찌릿",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RYzVManJfS3dqS05sNWlxcnYwWE8wQVd5OXdMZUd1TkNkQWktRWg5OVZqenhvWFVMQktwNGg0NlpOTTdHSnJEUVhvNm9RTjQyd0ZFQ2RfWTM4S1VxTm0xbG5EUQ?oc=5",
-          "description": "[전문의 칼럼] 항암화학요법 유발 말초신경병증, 찬바람 불면 손발 더 찌릿  에너지경제신문",
-          "publisher": "에너지경제신문",
-          "pub_date": "2026-11-10T07:00:00+00:00"
         }
       ]
     },
@@ -1336,212 +1336,212 @@
         "type": "press_groups",
         "items": [
           {
-            "press": "파이낸셜뉴스",
+            "press": "매일경제",
             "items": [
               {
                 "rank": 1,
-                "title": "\"무서운 사이비, 신도 100만명\"... 조혜련, 日 남묘호렌게쿄서 온 가족 탈출",
-                "link": "https://n.news.naver.com/article/014/0005602127?ntype=RANKING"
+                "title": "60세에 퇴직, 65세부터 연금수령 “5년간 뭐먹고 살라고”…공무원 92%가 걱정",
+                "link": "https://n.news.naver.com/article/009/0005761886?ntype=RANKING"
               },
               {
                 "rank": 2,
-                "title": "\"포장지째 알약 삼켰다가\"…대장 뚫려 '패혈성 쇼크'로 숨진 80대 [헬스톡]",
-                "link": "https://n.news.naver.com/article/014/0005602085?ntype=RANKING"
+                "title": "“55세인데 연봉 최대 5억 준답니다”…‘인생2막’ 가능한 도선사",
+                "link": "https://n.news.naver.com/article/009/0005761894?ntype=RANKING"
               },
               {
                 "rank": 3,
-                "title": "\"라면 끊어야 하나요?\"...컵라면 먹을 때 무심코 하는 '최악의 습관' [헬스톡]",
-                "link": "https://n.news.naver.com/article/014/0005601703?ntype=RANKING"
+                "title": "불륜녀와 볼뽀뽀 나눈 젠슨 황...그 모습 찍은 이는 다름아닌 딸이었다",
+                "link": "https://n.news.naver.com/article/009/0005761885?ntype=RANKING"
               },
               {
                 "rank": 4,
-                "title": "\"주식투자 위해 연애 끊고, 대학 포기\"...'극한 절약' 선택한 청년들, 어쩌다",
-                "link": "https://n.news.naver.com/article/014/0005602315?ntype=RANKING"
+                "title": "‘바람이 분다’ 등 45곡 압류…이소라 측 “전 소속사 신뢰 어려워 법적 절차”",
+                "link": "https://n.news.naver.com/article/009/0005761470?ntype=RANKING"
               },
               {
                 "rank": 5,
-                "title": "앨리스 황 행방 묘연… 싱가포르 현지 사무실도 폐쇄",
-                "link": "https://n.news.naver.com/article/014/0005602227?ntype=RANKING"
+                "title": "[단독] “아들 미장은 무조건 올라”…자녀 계좌에까지 2배 레버리지 넣는 투자자들",
+                "link": "https://n.news.naver.com/article/009/0005761661?ntype=RANKING"
               }
             ]
           },
           {
-            "press": "KBS",
+            "press": "조선일보",
             "items": [
               {
                 "rank": 1,
-                "title": "엔비디아 주주들 집단소송…젠슨 황 불륜녀 행방 묘연",
-                "link": "https://n.news.naver.com/article/056/0012291122?ntype=RANKING"
+                "title": "황금빛 은행잎이 1시간 만에 ‘우수수’… 원주 천년 고목에 무슨 일?",
+                "link": "https://n.news.naver.com/article/023/0004008798?ntype=RANKING"
               },
               {
                 "rank": 2,
-                "title": "야간 이동 식별 불가 자주포에 추돌…운전자 2명 사상",
-                "link": "https://n.news.naver.com/article/056/0012291117?ntype=RANKING"
+                "title": "‘칩’과 ‘첩’은 한끗 차이…불륜 젠슨 황에 쏟아진 AI 패러디",
+                "link": "https://n.news.naver.com/article/023/0004008800?ntype=RANKING"
               },
               {
                 "rank": 3,
-                "title": "[단독] 수원 시장 ‘선거법 위반’ 의혹…산하기관까지 동원했나",
-                "link": "https://n.news.naver.com/article/056/0012291125?ntype=RANKING"
+                "title": "‘무혐의’ 처분받고 해외 뜬 추미애 지사 아들… 귀국하자 ‘출국금지·재수사’",
+                "link": "https://n.news.naver.com/article/023/0004008808?ntype=RANKING"
               },
               {
                 "rank": 4,
-                "title": "같은 ‘매운맛 라면’이라도 맵기 천차만별…“최대 7배 차이”",
-                "link": "https://n.news.naver.com/article/056/0012291118?ntype=RANKING"
+                "title": "공소청, ‘노태우 비자금 의혹’ 노재헌 주중대사 피의자 입건",
+                "link": "https://n.news.naver.com/article/023/0004008836?ntype=RANKING"
               },
               {
                 "rank": 5,
-                "title": "생명까지 앗아간 ‘상품권 사채’…경찰 대대적 수사",
-                "link": "https://n.news.naver.com/article/056/0012291114?ntype=RANKING"
+                "title": "‘젠슨 황 스캔들’ 후폭풍...공개 일정 취소하고 주주 집단소송 당해",
+                "link": "https://n.news.naver.com/article/023/0004008761?ntype=RANKING"
               }
             ]
           },
           {
-            "press": "아시아경제",
+            "press": "한국경제",
             "items": [
               {
                 "rank": 1,
-                "title": "\"요즘 누가 가요\" 한국인 발길 뚝 끊겼다…해외 인기 여행지, 대세는 '이곳'",
-                "link": "https://n.news.naver.com/article/277/0005840633?ntype=RANKING"
+                "title": "\"반도체 돈잔치 끝이 보인다\"…삼전닉스에 날아든 경고장 [분석+]",
+                "link": "https://n.news.naver.com/article/015/0005352504?ntype=RANKING"
               },
               {
                 "rank": 2,
-                "title": "베트남 갔는데 \"실례합니다\"…외국인 관광객 붙잡는 아이들, '공짜 과외' 한다는데",
-                "link": "https://n.news.naver.com/article/277/0005840671?ntype=RANKING"
+                "title": "\"한국 개미들, 자꾸 사고팔지 마라\"…94세 투자 대가의 조언",
+                "link": "https://n.news.naver.com/article/015/0005352416?ntype=RANKING"
               },
               {
                 "rank": 3,
-                "title": "잠 자기 전 꼭 했는데…\"반복하면 안돼\" 의사가 경고한 방광 해치는 습관",
-                "link": "https://n.news.naver.com/article/277/0005840773?ntype=RANKING"
+                "title": "젠슨 황의 상징 '검은 재킷'…알고 보니 아내의 선물",
+                "link": "https://n.news.naver.com/article/015/0005352480?ntype=RANKING"
               },
               {
                 "rank": 4,
-                "title": "\"히잡 쓴 외국인들, 여탕 들어와 벌거벗은 사람 촬영…경찰 출동에도 싱글벙글\"",
-                "link": "https://n.news.naver.com/article/277/0005840679?ntype=RANKING"
+                "title": "\"살 빼려다 시력 잃을 수도\"…위고비에 추가된 무서운 경고",
+                "link": "https://n.news.naver.com/article/015/0005352466?ntype=RANKING"
               },
               {
                 "rank": 5,
-                "title": "\"1년 전부터 수상했다\"…'불륜 스캔들' 젠슨 황, 유명 '성추문 해결사' 손잡은 정황",
-                "link": "https://n.news.naver.com/article/277/0005840574?ntype=RANKING"
+                "title": "\"한국 오면 여기부터 간다더니\"…외국인 몰려 '역대급' 터졌다",
+                "link": "https://n.news.naver.com/article/015/0005352263?ntype=RANKING"
               }
             ]
           },
           {
-            "press": "노컷뉴스",
+            "press": "디지털데일리",
             "items": [
               {
                 "rank": 1,
-                "title": "\"사이비, 당근마켓·게임 접근…조혜련, 日 종교 단체서 벗어나\"",
-                "link": "https://n.news.naver.com/article/079/0004208450?ntype=RANKING"
+                "title": "“고점 대비 44% 폭락, 지금 팔아도 실익 적다”…키움證 “반도체주 반등 주목”",
+                "link": "https://n.news.naver.com/article/138/0002247930?ntype=RANKING"
               },
               {
                 "rank": 2,
-                "title": "\"가정집인데요\"…젠슨 황 불륜녀의 수상한 사무실",
-                "link": "https://n.news.naver.com/article/079/0004208431?ntype=RANKING"
+                "title": "\"재혼황후 판권 판매는 시작일 뿐\"…웹툰엔터, '공동 제작' 승부수",
+                "link": "https://n.news.naver.com/article/138/0002247882?ntype=RANKING"
               },
               {
                 "rank": 3,
-                "title": "\"지치지 마!\" 보따리 싸 들고 찾아간 곳…남대문시장 '스카프리오' 깜짝 근황",
-                "link": "https://n.news.naver.com/article/079/0004208281?ntype=RANKING"
+                "title": "'깐부'에서 '원팀'까지…피지컬 AI 동맹 판 키우는 현대차",
+                "link": "https://n.news.naver.com/article/138/0002247955?ntype=RANKING"
               },
               {
                 "rank": 4,
-                "title": "부산 강서구 공장서 1t 철판에 머리 맞은 40대 작업자 숨져",
-                "link": "https://n.news.naver.com/article/079/0004208445?ntype=RANKING"
+                "title": "“폭락 사흘 만에 매수 사이드카”…코스피 4.4% 급등, 5200선 탈환",
+                "link": "https://n.news.naver.com/article/138/0002247973?ntype=RANKING"
               },
               {
                 "rank": 5,
-                "title": "\"내연남 아이일까\"…생후 이틀 딸 살해 母 10년 만에 처벌",
-                "link": "https://n.news.naver.com/article/079/0004208315?ntype=RANKING"
+                "title": "백화점은 모두 웃었지만…3사 3분기 성적표 속 엇갈린 희비",
+                "link": "https://n.news.naver.com/article/138/0002247963?ntype=RANKING"
               }
             ]
           },
           {
-            "press": "뉴스1",
+            "press": "TV조선",
             "items": [
               {
                 "rank": 1,
-                "title": "\"담뱃값 4500원→8500원으로 인상, 신종담배 규제 강화해야\"",
-                "link": "https://n.news.naver.com/article/421/0009281850?ntype=RANKING"
+                "title": "사라진 젠슨황의 그녀 \"42세 후난성 출신\"…동료들 \"화려한 언변 사교적\"",
+                "link": "https://n.news.naver.com/article/448/0000650143?ntype=RANKING"
               },
               {
                 "rank": 2,
-                "title": "'불륜 인정' 젠슨 황, 신아영 포옹 막아선 이재용 회장 행동 '눈길'",
-                "link": "https://n.news.naver.com/article/421/0009281242?ntype=RANKING"
+                "title": "[단독] '이용철 대표' 시절 재단 건물서 '이석기 지지대회'…규정엔 \"정치행사 금지\"",
+                "link": "https://n.news.naver.com/article/448/0000650204?ntype=RANKING"
               },
               {
                 "rank": 3,
-                "title": "\"가정부와 불륜으로 태어나\"…슈워제네거 혼외 아들, 보디빌딩 대회 5위",
-                "link": "https://n.news.naver.com/article/421/0009279911?ntype=RANKING"
+                "title": "[단독] 與 단체방에 \"전세 씨말랐고 자금줄도 말라\"…'당 입장 정리' 요구에 발칵",
+                "link": "https://n.news.naver.com/article/448/0000650200?ntype=RANKING"
               },
               {
                 "rank": 4,
-                "title": "\"남편이 만남 주선\"…젠슨 황 불륜 상대 '유부녀설' 확산",
-                "link": "https://n.news.naver.com/article/421/0009281987?ntype=RANKING"
+                "title": "선관위 '단순 착오' 해명했지만…특검, '인장 위조' 정황 포착",
+                "link": "https://n.news.naver.com/article/448/0000650199?ntype=RANKING"
               },
               {
                 "rank": 5,
-                "title": "제네시스, 전기 SUV 'GV90' 출시…국산 승용차 첫 2억 넘었다",
-                "link": "https://n.news.naver.com/article/421/0009280290?ntype=RANKING"
+                "title": "확인 안 된 화려한 경력에 행방도 묘연…앨리스 황, 중국 도피설까지",
+                "link": "https://n.news.naver.com/article/448/0000650207?ntype=RANKING"
               }
             ]
           },
           {
-            "press": "전자신문",
+            "press": "대전일보",
             "items": [
               {
                 "rank": 1,
-                "title": "160만닉스·30만전자 vs 470만닉스·67만전자…극과 극 전망? 개미들 “아무도 못믿어”",
-                "link": "https://n.news.naver.com/article/030/0003484281?ntype=RANKING"
+                "title": "\"담뱃값 4500원→8500원으로… 신종담배 규제 강화해야\"",
+                "link": "https://n.news.naver.com/article/656/0000192029?ntype=RANKING"
               },
               {
                 "rank": 2,
-                "title": "젠슨 황이 불륜녀와 볼키스한 날…젠슨 황 딸이 웃으며 사진 찍어줬다",
-                "link": "https://n.news.naver.com/article/030/0003484280?ntype=RANKING"
+                "title": "성심당, 서울 광화문 간다…18-20일 제과 축제 참가",
+                "link": "https://n.news.naver.com/article/656/0000192059?ntype=RANKING"
               },
               {
                 "rank": 3,
-                "title": "김형년 두나무 부회장 “삼성전자·SK하이닉스 해외서 거래, 가슴 아프다”",
-                "link": "https://n.news.naver.com/article/030/0003484190?ntype=RANKING"
+                "title": "자운대 국군사관학교 흔들리는데…'침묵·반대'에 갇힌 대전 與野",
+                "link": "https://n.news.naver.com/article/656/0000192038?ntype=RANKING"
               },
               {
                 "rank": 4,
-                "title": "“사람 죽어나는데, 전통이라 괜찮아?”…외부인 참견 말라는 日 지역축제 뭔데?",
-                "link": "https://n.news.naver.com/article/030/0003484270?ntype=RANKING"
+                "title": "충청이 그리는 미래… 대한민국의 새로운 성장지도",
+                "link": "https://n.news.naver.com/article/656/0000192052?ntype=RANKING"
               },
               {
                 "rank": 5,
-                "title": "FBI 요원·하원의원도 홀렸다…'젠슨 황 불륜' 파문에 '中 미인계' 스파이 재소환",
-                "link": "https://n.news.naver.com/article/030/0003484264?ntype=RANKING"
+                "title": "잠잠했던 재초환 부과 움직임…대전도 촉각",
+                "link": "https://n.news.naver.com/article/656/0000192032?ntype=RANKING"
               }
             ]
           },
           {
-            "press": "시사IN",
+            "press": "대구MBC",
             "items": [
               {
                 "rank": 1,
-                "title": "AI가 인류를 멸망시킬까요? 제가 공부해봤습니다",
-                "link": "https://n.news.naver.com/article/308/0000038963?ntype=RANKING"
+                "title": "\"택시 많아도 너무 많다\" 대구시, 택시 감차 다시 추진",
+                "link": "https://n.news.naver.com/article/657/0000057283?ntype=RANKING"
               },
               {
                 "rank": 2,
-                "title": "농지 전수조사 그 후, 농촌 현장의 목소리를 듣다",
-                "link": "https://n.news.naver.com/article/308/0000038961?ntype=RANKING"
+                "title": "'대포통장이 1,000개?' 유령 법인 만들어 대포계좌 유통한 조직 무더기 검거",
+                "link": "https://n.news.naver.com/article/657/0000057269?ntype=RANKING"
               },
               {
                 "rank": 3,
-                "title": "프랑스가 한국의 미래다? 진정한 교훈은 따로 있다",
-                "link": "https://n.news.naver.com/article/308/0000038957?ntype=RANKING"
+                "title": "측근 변호 위해 대구 온 홍준표···\"공소청 역할 가늠하는 사건\"",
+                "link": "https://n.news.naver.com/article/657/0000057278?ntype=RANKING"
               },
               {
                 "rank": 4,
-                "title": "‘명태균 게이트’로 처벌받은 사람? 아무도 없다",
-                "link": "https://n.news.naver.com/article/308/0000038955?ntype=RANKING"
+                "title": "육아휴직수당이 월 50만 원?···\"육아휴직 하려고 마통 뚫습니다\"",
+                "link": "https://n.news.naver.com/article/657/0000057287?ntype=RANKING"
               },
               {
                 "rank": 5,
-                "title": "정의로운 전환을 위해 [새로 나온 책]",
-                "link": "https://n.news.naver.com/article/308/0000038964?ntype=RANKING"
+                "title": "\"홍준표 채용 비리 수사는?\" 대구 경실련 \"경찰, 차라리 포기 선언하라\"",
+                "link": "https://n.news.naver.com/article/657/0000057279?ntype=RANKING"
               }
             ]
           }
@@ -1553,28 +1553,28 @@
         "items": [
           {
             "rank": 1,
-            "title": "美국방 \"날 탄핵하는 건 정치쇼\" 기자회견…트럼프 \"잘했다, A+\"(종합) (워싱턴=연합뉴스) 홍정규 특파원 = 피트 헤그세스 미국 국방부 장관",
-            "link": "https://v.daum.net/v/20261111005221554"
+            "title": "독일 \"우크라 지원금 공평하게 내라\"…체코 등 반발(종합) (베를린=연합뉴스) 김계연 특파원 = 유럽연합(EU) 최대 경제국 독일이 우크라이나 ",
+            "link": "https://v.daum.net/v/20261111014725973"
           },
           {
             "rank": 2,
+            "title": "美국방 \"날 탄핵하는 건 정치쇼\" 기자회견…트럼프 \"잘했다, A+\"(종합)",
+            "link": "https://v.daum.net/v/20261111005221554"
+          },
+          {
+            "rank": 3,
             "title": "\"엔비디아가 떠받치는 'AI 버블'… 붕괴 땐 세계경제 충격\" 美 연구진의 경고",
             "link": "https://v.daum.net/v/20261110230156238"
           },
           {
-            "rank": 3,
+            "rank": 4,
             "title": "국무회의서 '청해부대 작전구역 확대' 의결…공은 국회로(종합3보)",
             "link": "https://v.daum.net/v/20261110225632186"
           },
           {
-            "rank": 4,
+            "rank": 5,
             "title": "당청 '종부세' 이견 속… 이 대통령, 내일 김민석·한병도 만난다",
             "link": "https://v.daum.net/v/20261110224356048"
-          },
-          {
-            "rank": 5,
-            "title": "민주 “주가누르기 방지법 정기국회 처리”…이견 해소는 못해",
-            "link": "https://v.daum.net/v/20261110210156150"
           },
           {
             "rank": 6,
