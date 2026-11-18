@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T02:01:41.687171+00:00",
+  "fetched_at": "2026-11-18T03:01:44.003411+00:00",
   "data": {
     "country_code": "de",
     "country_name": "독일",
@@ -7,6 +7,29 @@
     "google_trends": [
       {
         "rank": 1,
+        "keyword": "test",
+        "traffic": "100+",
+        "pub_date": "2026-11-18T02:40:00+00:00",
+        "articles": [
+          {
+            "title": "‘This is only a test’: FEMA’s emergency alert test went smoothly, officials say",
+            "url": "https://www.cnn.com/2026/11/16/media/eas-test-federal-emergency-alert-system-fema-media",
+            "source": "CNN"
+          },
+          {
+            "title": "Debunking social media posts that claim a 90-day blackout will start Nov. 17",
+            "url": "https://www.pbs.org/newshour/nation/debunking-social-media-posts-that-claim-a-90-day-blackout-will-start-nov-17",
+            "source": "PBS"
+          },
+          {
+            "title": "FEMA and FCC Schedule 2026 Nationwide Test of the Emergency Alert System for November 17",
+            "url": "https://www.hstoday.us/subject-matter-areas/emergency-preparedness/fema-and-fcc-schedule-2026-nationwide-test-of-the-emergency-alert-system-for-november-17/",
+            "source": "Homeland Security Today"
+          }
+        ]
+      },
+      {
+        "rank": 2,
         "keyword": "tobias pankow bauer sucht frau",
         "traffic": "2000+",
         "pub_date": "2026-11-18T01:40:00+00:00",
@@ -29,7 +52,7 @@
         ]
       },
       {
-        "rank": 2,
+        "rank": 3,
         "keyword": "apple",
         "traffic": "5000+",
         "pub_date": "2026-11-18T01:40:00+00:00",
@@ -45,14 +68,14 @@
             "source": "AP News"
           },
           {
-            "title": "Apple works to restore services after outage caused by internal update",
-            "url": "https://www.reuters.com/business/retail-consumer/apple-works-restore-services-after-outage-caused-by-internal-update-2026-11-17/",
-            "source": "Reuters"
+            "title": "Apple Works to Fix Systems After Update Caused Internal, Retail and iCloud Outages",
+            "url": "https://www.bloomberg.com/news/articles/2026-11-17/apple-works-to-restore-systems-after-update-caused-outage",
+            "source": "Bloomberg.com"
           }
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "keyword": "cutremur romania",
         "traffic": "200+",
         "pub_date": "2026-11-18T01:10:00+00:00",
@@ -63,8 +86,8 @@
             "source": "tvrinfo.ro"
           },
           {
-            "title": "Apelul DSU după cutremurul puternic din România de miercuri noaptea: Păstrați-vă calmul!",
-            "url": "https://hotnews.ro/apelul-dsu-dupa-cutremurul-puternic-din-romania-de-miercuri-noaptea-pastrati-va-calmul-2407029",
+            "title": "Cutremur de 5.7 pe Richter miercuri noaptea în România. Seismul s-a resimțit puternic și în București și în multe alte localități",
+            "url": "https://hotnews.ro/cutremur-de-5-3-noaptea-in-romania-seismul-s-a-resimtit-puternic-si-in-bucuresti-2407013",
             "source": "HotNews.ro"
           },
           {
@@ -75,32 +98,9 @@
         ]
       },
       {
-        "rank": 4,
-        "keyword": "prinz william",
-        "traffic": "5000+",
-        "pub_date": "2026-11-18T01:10:00+00:00",
-        "articles": [
-          {
-            "title": "Prinzessin Kate und Prinz William verzaubern Bollywood",
-            "url": "https://www.bild.de/unterhaltung/royals-adel/prinzessin-kate-und-prinz-william-verzaubern-bollywood-6afc7f8ccdc4b5009f0a92f9",
-            "source": "BILD"
-          },
-          {
-            "title": "Wow-Auftritt in Indien: William und Kate strahlen bei den \"Earthshot Prize Awards\"",
-            "url": "https://www.gala.de/royals/briten/wow-auftritt-in-indien--william-und-kate-strahlen-bei-den--earthshot-prize-awards--24716032.html",
-            "source": "GALA.de"
-          },
-          {
-            "title": "Prinz William und Prinzessin Kate: Lässig mit dem TukTuk durch Mumbai",
-            "url": "https://www.ardmediathek.de/video/brisant/prinz-william-und-prinzessin-kate-laessig-mit-dem-tuktuk-durch-mumbai/das-erste/Y3JpZDovL21kci5kZS9iZWl0cmFnL2Ntcy8xZjY2ODljZC1iYzVhLTQ2MDctOGEzZC1kNjc5MTU2NDA1ZmQ",
-            "source": "ARD Mediathek"
-          }
-        ]
-      },
-      {
         "rank": 5,
         "keyword": "sibirien",
-        "traffic": "200+",
+        "traffic": "500+",
         "pub_date": "2026-11-18T01:00:00+00:00",
         "articles": [
           {
@@ -132,14 +132,14 @@
             "source": "sportschau.de"
           },
           {
-            "title": "Lea Schüller fliegt aus dem DFB-Kader – Klare Worte von Bundestrainer Wück",
-            "url": "https://www.bild.de/sport/fussball/lea-schueller-ausgebootet-christian-wueck-watscht-dfb-star-ab-6afcbb5cbb7e7a6679f91ea9",
-            "source": "BILD"
+            "title": "Top-Duelle gegen Argentinien und Peru: So sieht Christian Wücks Kader der DFB-Frauen aus",
+            "url": "https://www.ndr.de/sport/fussball/DFB-Frauen-Deutschland-Kader-Laenderspiele-Suedamerika-Argentinien-Peru,dfbfrauen-202.html",
+            "source": "NDR.de"
           },
           {
-            "title": "Schüller im Nationalteam außen vor: \"Schuss vor den Bug\"",
-            "url": "https://web.de/magazine/sport/fussball/nationalmannschaft/schueller-nationalteam-aussen-schuss-bug-42954726",
-            "source": "WEB.DE"
+            "title": "Gwinn und Berger kehren für Südamerika-Reise zurück",
+            "url": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/sport_nt/article6afc3852028f6e41ab3f2830/gwinn-und-berger-kehren-fuer-suedamerika-reise-zurueck.html",
+            "source": "WELT"
           }
         ]
       },
@@ -150,11 +150,6 @@
         "pub_date": "2026-11-18T00:50:00+00:00",
         "articles": [
           {
-            "title": "Millionenschaden bei Brand in Egling - zwei leicht Verletzte",
-            "url": "https://www.br.de/nachrichten/bayern/millionenschaden-bei-brand-in-egling-zwei-leicht-verletzte,VYHsyL6",
-            "source": "BR"
-          },
-          {
             "title": "Werkstatt brennt – zwei Verletzte, zwei Millionen Schaden",
             "url": "https://www.welt.de/regionales/bayern/article6afc649aa883f861e532f629/werkstatt-brennt-zwei-verletzte-zwei-millionen-schaden.html",
             "source": "WELT"
@@ -163,29 +158,34 @@
             "title": "Brand in Egling: Millionenschaden bei Feuer in Gewerbebetrieb – zwei Verletzte",
             "url": "https://www.sueddeutsche.de/muenchen/starnberg/brand-egling-gewerbebetrieb-millionenschaden-verletzte-kriminalpolizei-li.3582024",
             "source": "SZ.de"
+          },
+          {
+            "title": "Millionenschaden bei Brand in Egling - zwei leicht Verletzte",
+            "url": "https://www.br.de/nachrichten/bayern/millionenschaden-bei-brand-in-egling-zwei-leicht-verletzte,VYHsyL6",
+            "source": "BR"
           }
         ]
       },
       {
         "rank": 8,
         "keyword": "panthers – oilers",
-        "traffic": "200+",
+        "traffic": "500+",
         "pub_date": "2026-11-18T00:30:00+00:00",
         "articles": [
           {
-            "title": "Pre-Scout: Oilers penalty kill climbing as they face hated rival Panthers",
-            "url": "https://oilersnation.com/news/edmonton-oilers-florida-panthers-game-preview-matthew-tkachuk-connor-mcdavid",
-            "source": "Oilers Nation"
+            "title": "Steamrolled: Oilers Stay on a Heater, Beat Up on the Panthers",
+            "url": "https://floridahockeynow.com/edmonton-oilers-5-florida-panthers-2-sunrise-game-summary-recap-nov-17-2026-mcdavid-levi-podkolzin/",
+            "source": "Florida Hockey Now"
           },
           {
-            "title": "FLA vs. EDM: Sam Reinhart (Morning Skate)",
-            "url": "https://www.nhl.com/panthers/video/fla-vs-edm-sam-reinhart-morning-skate-6408505012112",
-            "source": "NHL.com"
+            "title": "McDavid runs season-opening points streak to 23 games, Oilers skate past Panthers 5-2",
+            "url": "https://www.clickondetroit.com/sports/2026/11/18/mcdavid-runs-season-opening-points-streak-to-23-games-oilers-skate-past-panthers-5-2/",
+            "source": "ClickOnDetroit | WDIV Local 4"
           },
           {
-            "title": "Oilers vs Panthers Prediction, Picks, NHL Odds for Tuesday, November 17",
-            "url": "https://sports.yahoo.com/articles/oilers-vs-panthers-prediction-picks-140726680.html",
-            "source": "Yahoo Sports"
+            "title": "Licensable picture: Polska - Szwecja",
+            "url": "https://www.reutersconnect.com/item/polska-szwecja/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX01UMVNJUEEwMDBZVENIWFg",
+            "source": "Reuters Connect"
           }
         ]
       },
@@ -214,24 +214,24 @@
       },
       {
         "rank": 10,
-        "keyword": "vodafone störung",
-        "traffic": "2000+",
-        "pub_date": "2026-11-18T00:30:00+00:00",
+        "keyword": "willi weber",
+        "traffic": "200+",
+        "pub_date": "2026-11-18T00:10:00+00:00",
         "articles": [
           {
-            "title": "Papst Leo XIV. von Rosenkranz im Gesicht getroffen",
-            "url": "https://www.spiegel.de/panorama/leute/papst-leo-xiv-in-peru-von-rosenkranz-im-gesicht-getroffen-a-c60f230c-9ccf-4cfe-97aa-cef4e0f7714a",
-            "source": "Spiegel"
+            "title": "Prozessauftakt Raubüberfall Willi Weber",
+            "url": "https://www.tagesschau.de/inland/regional/badenwuerttemberg/swr-prozessauftakt-raubueberfall-willi-weber-100.html",
+            "source": "tagesschau.de"
           },
           {
-            "title": "Abschlussmesse: Papst nimmt Rosenkranz-Treffer mit Humor",
-            "url": "https://www.tagesspiegel.de/internationales/dpa-abschlussmesse-papst-nimmt-rosenkranz-treffer-mit-humor-16292811.html",
-            "source": "Tagesspiegel"
+            "title": "Schläge, Tritte, Millionenbeute - Prozess um Raubüberfälle",
+            "url": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/panorama_nt/article6afbc40ebfa018bfcc9898fa/schlaege-tritte-millionenbeute-prozess-um-raubueberfaelle.html",
+            "source": "WELT"
           },
           {
-            "title": "Sonne im Herzen, Rosenkranz im Auge: Gut gelaunter Papst beendet Südamerikareise",
-            "url": "https://www.zeit.de/video/2026-11/sonne-im-herzen-rosenkranz-im-auge-gut-gelaunter-papst-beendet-suedamerikareise",
-            "source": "DIE ZEIT"
+            "title": "An den Haaren zum Tresor gezerrt: Staatsanwalt schildert Gewalt bei Überfall auf Villa",
+            "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/weber-einbruch-raub-auftakt-prozess-100.html",
+            "source": "SWR"
           }
         ]
       }
@@ -244,8 +244,8 @@
         "channel": "Stray Kids",
         "thumbnail": "https://i.ytimg.com/vi/masFBnN7jsA/mqdefault.jpg",
         "published_at": "2026-11-17T09:00:01Z",
-        "view_count": 1276214,
-        "like_count": 226164
+        "view_count": 1318203,
+        "like_count": 229567
       },
       {
         "rank": 2,
@@ -254,8 +254,8 @@
         "channel": "Netflix",
         "thumbnail": "https://i.ytimg.com/vi/KInfw7kCPkc/mqdefault.jpg",
         "published_at": "2026-11-17T15:00:00Z",
-        "view_count": 850005,
-        "like_count": 15162
+        "view_count": 887451,
+        "like_count": 15688
       },
       {
         "rank": 3,
@@ -264,8 +264,8 @@
         "channel": "Trymacs",
         "thumbnail": "https://i.ytimg.com/vi/Kyxx4TnigVs/mqdefault.jpg",
         "published_at": "2026-11-17T12:30:03Z",
-        "view_count": 485639,
-        "like_count": 9337
+        "view_count": 496631,
+        "like_count": 9416
       },
       {
         "rank": 4,
@@ -274,8 +274,8 @@
         "channel": "UZIVOTEKA OFFICIAL",
         "thumbnail": "https://i.ytimg.com/vi/G3744yu6-Qw/mqdefault.jpg",
         "published_at": "2026-11-17T10:39:58Z",
-        "view_count": 93164,
-        "like_count": 1411
+        "view_count": 94541,
+        "like_count": 1422
       },
       {
         "rank": 5,
@@ -284,7 +284,7 @@
         "channel": "KinoCheck",
         "thumbnail": "https://i.ytimg.com/vi/P3WeIJ61V38/mqdefault.jpg",
         "published_at": "2026-11-17T10:02:23Z",
-        "view_count": 43248,
+        "view_count": 43489,
         "like_count": 349
       },
       {
@@ -294,8 +294,8 @@
         "channel": "TryReact",
         "thumbnail": "https://i.ytimg.com/vi/ox1yYSbSPlo/mqdefault.jpg",
         "published_at": "2026-11-17T11:45:22Z",
-        "view_count": 437367,
-        "like_count": 7542
+        "view_count": 447262,
+        "like_count": 7602
       },
       {
         "rank": 7,
@@ -304,8 +304,8 @@
         "channel": "Fadel Chaker",
         "thumbnail": "https://i.ytimg.com/vi/mI6Ovgi9IGg/mqdefault.jpg",
         "published_at": "2026-11-17T15:00:11Z",
-        "view_count": 539241,
-        "like_count": 18278
+        "view_count": 577398,
+        "like_count": 18460
       },
       {
         "rank": 8,
@@ -314,8 +314,8 @@
         "channel": "KinoCheck Heimkino",
         "thumbnail": "https://i.ytimg.com/vi/H817gPTAhMM/mqdefault.jpg",
         "published_at": "2026-11-17T15:33:27Z",
-        "view_count": 31708,
-        "like_count": 217
+        "view_count": 32345,
+        "like_count": 220
       },
       {
         "rank": 9,
@@ -324,8 +324,8 @@
         "channel": "Papaplatte Gaming",
         "thumbnail": "https://i.ytimg.com/vi/IGWnpvQL1Gk/mqdefault.jpg",
         "published_at": "2026-11-17T14:00:24Z",
-        "view_count": 293224,
-        "like_count": 9757
+        "view_count": 298584,
+        "like_count": 9805
       },
       {
         "rank": 10,
@@ -334,8 +334,8 @@
         "channel": "Dragana Zezelj - Topic",
         "thumbnail": "https://i.ytimg.com/vi/kr0GwVwzFj8/mqdefault.jpg",
         "published_at": "2026-11-14T18:13:55Z",
-        "view_count": 185055,
-        "like_count": 2113
+        "view_count": 186321,
+        "like_count": 2117
       },
       {
         "rank": 11,
@@ -344,8 +344,8 @@
         "channel": "Grace Reiter",
         "thumbnail": "https://i.ytimg.com/vi/5GB00NsVH3Q/mqdefault.jpg",
         "published_at": "2026-11-17T15:00:08Z",
-        "view_count": 313264,
-        "like_count": 32634
+        "view_count": 333431,
+        "like_count": 33978
       },
       {
         "rank": 12,
@@ -354,8 +354,8 @@
         "channel": "iCrimax",
         "thumbnail": "https://i.ytimg.com/vi/1vUfy4OEqrg/mqdefault.jpg",
         "published_at": "2026-11-17T13:00:07Z",
-        "view_count": 456797,
-        "like_count": 9058
+        "view_count": 458829,
+        "like_count": 9076
       },
       {
         "rank": 13,
@@ -364,8 +364,8 @@
         "channel": "KIZO",
         "thumbnail": "https://i.ytimg.com/vi/vcGuaFBzQ0I/mqdefault.jpg",
         "published_at": "2026-11-17T14:00:13Z",
-        "view_count": 211998,
-        "like_count": 8267
+        "view_count": 214393,
+        "like_count": 8297
       },
       {
         "rank": 14,
@@ -374,8 +374,8 @@
         "channel": "KinoCheck.com",
         "thumbnail": "https://i.ytimg.com/vi/-2YlG_F634s/mqdefault.jpg",
         "published_at": "2026-11-17T09:52:51Z",
-        "view_count": 113727,
-        "like_count": 1150
+        "view_count": 116367,
+        "like_count": 1163
       },
       {
         "rank": 15,
@@ -384,8 +384,8 @@
         "channel": "LUCREW",
         "thumbnail": "https://i.ytimg.com/vi/YGw3Ug1I5uo/mqdefault.jpg",
         "published_at": "2026-11-17T15:00:37Z",
-        "view_count": 221673,
-        "like_count": 10197
+        "view_count": 223842,
+        "like_count": 10218
       },
       {
         "rank": 16,
@@ -394,8 +394,8 @@
         "channel": "burytomorrow",
         "thumbnail": "https://i.ytimg.com/vi/DoU6XsUF65w/mqdefault.jpg",
         "published_at": "2026-11-17T20:00:08Z",
-        "view_count": 31883,
-        "like_count": 2590
+        "view_count": 35615,
+        "like_count": 2693
       },
       {
         "rank": 17,
@@ -404,8 +404,8 @@
         "channel": "IShowSpeed",
         "thumbnail": "https://i.ytimg.com/vi/2BRL4ALMCyA/mqdefault.jpg",
         "published_at": "2026-11-16T22:44:43Z",
-        "view_count": 2432372,
-        "like_count": 73254
+        "view_count": 2463740,
+        "like_count": 73885
       },
       {
         "rank": 18,
@@ -414,8 +414,8 @@
         "channel": "Slag",
         "thumbnail": "https://i.ytimg.com/vi/LREnsSpC1X4/mqdefault.jpg",
         "published_at": "2026-11-17T13:36:54Z",
-        "view_count": 249442,
-        "like_count": 7084
+        "view_count": 254402,
+        "like_count": 7133
       },
       {
         "rank": 19,
@@ -424,8 +424,8 @@
         "channel": "BABOSCH69 - Topic",
         "thumbnail": "https://i.ytimg.com/vi/Ldsi9-WOXYc/mqdefault.jpg",
         "published_at": "2026-11-14T02:13:51Z",
-        "view_count": 19127,
-        "like_count": 286
+        "view_count": 19240,
+        "like_count": 287
       },
       {
         "rank": 20,
@@ -434,8 +434,8 @@
         "channel": "The Beatles",
         "thumbnail": "https://i.ytimg.com/vi/usvWh-7lPyw/mqdefault.jpg",
         "published_at": "2026-11-17T16:00:02Z",
-        "view_count": 135844,
-        "like_count": 4171
+        "view_count": 143894,
+        "like_count": 4307
       },
       {
         "rank": 21,
@@ -444,8 +444,8 @@
         "channel": "PietSmiet",
         "thumbnail": "https://i.ytimg.com/vi/phvdZ-GTIuE/mqdefault.jpg",
         "published_at": "2026-11-17T15:05:13Z",
-        "view_count": 143559,
-        "like_count": 5341
+        "view_count": 146211,
+        "like_count": 5386
       },
       {
         "rank": 22,
@@ -454,8 +454,8 @@
         "channel": "KATSEYE",
         "thumbnail": "https://i.ytimg.com/vi/Cp-72VPlBzQ/mqdefault.jpg",
         "published_at": "2026-11-17T16:01:18Z",
-        "view_count": 1165603,
-        "like_count": 57264
+        "view_count": 1252819,
+        "like_count": 59471
       },
       {
         "rank": 23,
@@ -464,8 +464,8 @@
         "channel": "Screen Junkies",
         "thumbnail": "https://i.ytimg.com/vi/N4T1WcU4qHA/mqdefault.jpg",
         "published_at": "2026-11-17T18:00:32Z",
-        "view_count": 235512,
-        "like_count": 6387
+        "view_count": 258909,
+        "like_count": 6809
       },
       {
         "rank": 24,
@@ -474,8 +474,8 @@
         "channel": "Cisko G",
         "thumbnail": "https://i.ytimg.com/vi/H1-PvCRP9H8/mqdefault.jpg",
         "published_at": "2026-11-17T17:00:38Z",
-        "view_count": 129883,
-        "like_count": 5625
+        "view_count": 133749,
+        "like_count": 5706
       },
       {
         "rank": 25,
@@ -484,20 +484,88 @@
         "channel": "HYBE LABELS",
         "thumbnail": "https://i.ytimg.com/vi/M9G4guYg-i8/mqdefault.jpg",
         "published_at": "2026-11-16T08:58:08Z",
-        "view_count": 9675150,
-        "like_count": 247695
+        "view_count": 9889562,
+        "like_count": 249017
       }
     ],
     "google_news": {
-      "top": [],
-      "nation": [],
-      "world": [
+      "top": [
         {
           "title": "„Beispiellose Operation”: Ukraine bringt Krim-Brücke teilweise zum Einsturz – Putins Antwort „könnte gefährlich werden“",
           "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNQlZPU1ZRVlJxakF1Um5Qc3pKQ0JKdjJGWVZZa0NqZU5BdU5pSllLWnY4OW5KYkFQbkFFRDNkaTFpS0VWTDVraldnWjJRaDBVUnFHSzhna2xaLW1FUF9HWDhidnhPM3NhYnJyWjZOVmRmMUUxMnhNSGkweFlXOWM3WDJnYWZfV3o1WGhiOFlmUVpPRVpOQ2hzMG1nbHFHak8zUkRlM1NhanJ6UFg2ZWhKVnY4RkEyYjBOWnlQYnotV29DR1FtTk1Kd3hSd0dpeUc1U3ZJMEJjQ0g5cTZiV0Rsb3ZNQl9zUGNtUTR3ZFZpSHNjQXNTN2RaRFhaUnc?oc=5",
           "description": "„Beispiellose Operation”: Ukraine bringt Krim-Brücke teilweise zum Einsturz – Putins Antwort „könnte gefährlich werden“  Tagesspiegel\"Ziemlich dumm\": Pistorius reagiert auf US-Kritik an ukrainischen A",
           "publisher": "Tagesspiegel",
           "pub_date": "2026-11-17T20:43:37+00:00"
+        },
+        {
+          "title": "Stromsteuersenkung: DIHK-Präsident fordert Senkung der Stromsteuer",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQURZNm1VbDBQNGRveEJNbEw4T0s0MkxCUzlmZVFvTmh0WWVoenZuaE5pUkNXVHVyTXZQTjg2RmV1NWR2dV83NGRKTnc0ZTNzVG5ZSkJBLXM4eFRaTTNXZ044NDJTczA3LU81am9FVXNZWDZZZmdCQ0VWclhIUWFoSE5iNlpITHpRX1pjY1FrRTZnREgtdTBDYUpVZEF2S2RTbmVBNEFmaVZUWmE3bFg4?oc=5",
+          "description": "Stromsteuersenkung: DIHK-Präsident fordert Senkung der Stromsteuer  DIE ZEITKoalitionsausschuss: Koalition beendet Stromsteuer-Gespräche tief in der Nacht  DIE ZEITStromsteuer-Streit: Klingbeil bremst",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-17T06:12:24+00:00"
+        },
+        {
+          "title": "Keine Rückkehr in die Bundespolitik Franziska Giffey will nicht für den SPD-Vorsitz kandidieren",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZ3dZWWVvSDJGYVpTUWJZemVDVjluaFRwMUpDbUEyOWYyVFRoYmRLYm56T0NlNmFtaGZXWGFVRWpFdTVsRlVJdmhoVEJ3dEd0dHk2bHFYQ2o2S3A0VkUzRi1hb05SYkkwZHpPY3M1XzltU0EybnpLNzAyMnNERHhKVGlRREcyYWdROGVGbVBHZnJyNXQya2RaczVCbV9WRExJSm51WS1sZlo5YmxyX0JBWVk4VVlEUHNhMEZUYjZ2dFVUam5TT1RVQ0RTV3Y3bno5WjQ0YWNxbzNDeFRkeHN4Qm5B?oc=5",
+          "description": "Keine Rückkehr in die Bundespolitik Franziska Giffey will nicht für den SPD-Vorsitz kandidieren  TagesspiegelWahl zum SPD-Chef: Heil will auch ohne Unterstützung der Parteispitze kandidieren  DIE ZEIT",
+          "publisher": "Tagesspiegel",
+          "pub_date": "2026-11-17T11:06:00+00:00"
+        },
+        {
+          "title": "Union kommt AfD in Umfrage so nah wie seit Juli nicht mehr – Merz fällt bei 86 Prozent durch",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPTU5iajJiQ1ZPdkZsQmQ0Ukt2c2lIemNkMG9fWUlKSlY5QXM1OEVObUFaX0VoTFgwN3hzODd4cnhUNzdfNWc2ck9pbDZKQVBtNklwdUE1UndVcTdNdEItVm1HZ3pLeDJ2Q1NhOHVGdS1iSDVzT2hhRE10S2hTWGNfWHpTMkhXVkFDd1ZYTHlGN2FyMVBTTURmUWpZVnREOExQSnlDYnI5Ry15R01FczRNR2NKM2hQcVVobkdmdm9BdkFPMmNVWlVvRWx4dVNZa3psYW1zSWxGR0ZqR0J3aDFSYWVQSVZtM1FxeU5FalRmNDZ5SGNnSnQwNg?oc=5",
+          "description": "Union kommt AfD in Umfrage so nah wie seit Juli nicht mehr – Merz fällt bei 86 Prozent durch  WELTNeue Umfrage: Schwarz-Rot bekommt deutlichen Neuwahlen-Dämpfer  T-OnlineBILD-Umfrage: Klare Mehrheit w",
+          "publisher": "WELT",
+          "pub_date": "2026-11-17T14:49:38+00:00"
+        },
+        {
+          "title": "\"Rente mit 63\" könnte bleiben – aber nicht für alle - T-Online",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZnV5TTR5eUdUMU9iT3V2MklFQWEwRC1WWWVNRkRrcm5DOHhHMzFqNzNhRUh2NFJ2VjJETDRrUjF2VDhsS183Q1g5dkZvdHRNOHBwN0tyZ1BVYnZBV1RnYXRES2FCZEM5dEFoNlNkYTNlcTJ1dC1FRFAxbkh5dWpfSnJvY1AxdjVsZzV1SU1mQzM5MkRybC1seC1wV1UzZWtlalRiZ09rSGlGXzZ3VjVCRzhBWXkydXgwdDlxWkxjaEFGQ25ZeUFpOEFVbk9nNlhmM0dqblpucUpSbFl1NXpUQTA5VGdnUQ?oc=5",
+          "description": "\"Rente mit 63\" könnte bleiben – aber nicht für alle  T-OnlineWarum die Jahrgänge 1960 bis 1969 bei der Rente genau hinschauen sollten  http://www.cash-online.de/Rentenreform: Darüber wird heute in Ber",
+          "publisher": "",
+          "pub_date": "2026-11-17T14:48:55+00:00"
+        },
+        {
+          "title": "Linkenfraktion in Berlin: Berliner Linkenspitze beantragt Ausschluss von Vanessa Emde",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWEFORzVoUU14N3FpbWttS1BmeHJ4QjNYeUxXQXVNMnFoTnR3QVhlYTZUSGhldXZjX2ZMY1RVZnNxNTUwUkYxNklISFhhdDE4MlY4bFNpT1ZfNXREU2h4MWJEQy1JZDFOMWZlR2hOQjk2NFpjVm1DZDNrQU1yZFAtRVE2QVZXcGliT3ZOTVJucEs1R25YRTJnaUtuRVQ?oc=5",
+          "description": "Linkenfraktion in Berlin: Berliner Linkenspitze beantragt Ausschluss von Vanessa Emde  DIE ZEITLinken-Vorstand beantragt Ausschluss der Abgeordneten Emde  tagesschau.deNächste Runde im Konflikt mit Li",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-17T16:23:08+00:00"
+        },
+        {
+          "title": "Doch mehrere Wahlgänge?: BSW-Fraktionschef Schulze kritisiert Siegmunds Kurswechsel",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTlE2eXUzRFBaSUxPdnEyUmw0X3I2SE9fSFRCMHhlUy15cWMyaHdCcHdxb2EzMXQ4bXpZdUJ1Ql9VOUE0THVEd24xQUNGUlp3VEZyQWxqalVfT3JQLUdIWmlhVzZwYklISE51cHg4OVlXYjlpV3VwRWVxQ2FtcW91ZjRDdnk4ZDI2bEljTGVIa2FtWTFDaDJyeFJB?oc=5",
+          "description": "Doch mehrere Wahlgänge?: BSW-Fraktionschef Schulze kritisiert Siegmunds Kurswechsel  DIE ZEIT„So kann man Sachsen-Anhalt nicht regieren“, wirft Sven Schulze Claudia Wittig vor  WELTMinisterpräsidenten",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-17T14:54:25+00:00"
+        },
+        {
+          "title": "Erklärung zu AfD-Stimmen: LKA Sachsen-Anhalt prüft Nötigungsvorwurf nach CDU-Fraktionssitzung",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNN2tZUXpTQVlVQk1ENktwSV9tMzRxQmx4cmtNRFg0ZkVVQzlJWGRVSmlKZEZjSEFjS0pyNnFlYVpTTEZNU01QTmlhUkpIRVNFZnpPaWZLYkFjS3Y0T2pNaUNsX3RyTWo2bGVBUUdCMnZRY3ZJX3gzN3RCM2RHRVJTeWh2SG5aWUNBQjZhUHpwOUE3Y2trNHk5NjNrR3JYd0xkT2hsbm9XLVVUVmVfRHM1QUdHYU5XM3QyVUtuUWNlRElSYnFRZUpJazM3d3dvWW5jZ0hmVmF2U3VVaHM5dDNPcFR1NWpuOHlNMm9peVVPaXJtZlFyVEdTVXpyZGpqQUxkc0E?oc=5",
+          "description": "Erklärung zu AfD-Stimmen: LKA Sachsen-Anhalt prüft Nötigungsvorwurf nach CDU-Fraktionssitzung  WELTLKA ermittelt nach CDU-Fraktionssitzung wegen Nötigung  FOCUS onlineLKA prüft Nötigungsvorwurf gegen ",
+          "publisher": "WELT",
+          "pub_date": "2026-11-17T21:44:27+00:00"
+        },
+        {
+          "title": "Deutschlands dritte kolossale Schuldenwette – diesmal könnte sie scheitern",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOXJPWWZ6TmFpQTlCUm9jTVBHSTVvUWc0TjIxcmFrcWJ0MDlCaWRwNTZ5alc4S1VLYmdQRDVRVml5SUl1REE3M18xaFNDcFljZEdsSnl4Rk41UkFCQ0VFVmszdTQ5Zkp3Wm1JVjRoQWdHb0hQVl82RXVMaG9yMkRGelZiY3lRT01SUEM3MUZJZjlFQ0xHN1BQdGc5VjYzWHFhU2k2aFZnWVJ1TkVGdnJVZlFXY0hERHd6U2w2NEsyM0E3c1Y3R3dneTBXcGhIMU9BVk9obA?oc=5",
+          "description": "Deutschlands dritte kolossale Schuldenwette – diesmal könnte sie scheitern  WELTphoenix plus  Phoenix.deBundeshaushalt: Die Stromsteuer ist noch das geringste Problem  DIE ZEITEtats des Bundespräsiden",
+          "publisher": "WELT",
+          "pub_date": "2026-11-18T01:11:43+00:00"
+        },
+        {
+          "title": "„November-Monsun“ in Deutschland Extrem hohe Regenmenge binnen weniger Tage erwartet",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb3RyRURySk9LQmN1RTFtUnJIY2JVODI3NVV1OGtNUmo3LVpjWURNVlZWNjM1QV8xTWEwckJzUGh5TjJldlhFT3ZvU2pEQTJDT2psaGZlRk8wc296TWxBN2hPQnB1QlJjMkJ4MlBBYVY5bFl5Y0FPQXhKM2VMcUxfbVczc1pxSTRjcklsUm9rYTBaZU1Qb2VLbWUtXzljZ3M3U3RXUDI1VFNvZG9fUDRoUmtuaFZJZ2Z3djB6d1A3cw?oc=5",
+          "description": "„November-Monsun“ in Deutschland Extrem hohe Regenmenge binnen weniger Tage erwartet  TagesspiegelRegen und Wind: So wird das Wetter in BW  tagesschau.deWetterprognose für Deutschland: Warnstufe Rot i",
+          "publisher": "Tagesspiegel",
+          "pub_date": "2026-11-17T19:01:00+00:00"
+        },
+        {
+          "title": "Donald Trump: Technikprobleme in Serie – Kritik in eigenen Reihen wächst",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTDRPRmk3QXpjZHQySklhRTFmX3p6VmRqS0VWR1NfaVV0b0NscXJMa3Z5QnMwMkc3WUppSS16aV9fU3RaZjlCOGVQWFQ0UnFqQWdXSE0yNVhRc2dUV2E1bWw2bEFxNEVJaFJaUHlxZWhVOTg3d1E0ajdjV1VhYUJQMEdST3ZVZnY4TnoySmJ2VE0yOVFfN3B5dVl1SFVBYnBJUXBuandpUDYtQy16RUl6ODZ4c0dCNFhfNnhIZGk2S0dEWlRmUW1yT00td2tKLWlHR01NN3pLYw?oc=5",
+          "description": "Donald Trump: Technikprobleme in Serie – Kritik in eigenen Reihen wächst  SpiegelVorfälle in den USA häufen sich: Kommunikationsnetzwerk von US-Geheimdienst NSA fällt aus  n-tv.deIT-Ausfälle: Netzwerk",
+          "publisher": "Spiegel",
+          "pub_date": "2026-11-18T00:32:00+00:00"
         },
         {
           "title": "Ukraine-Krieg: Witkoff und Kushner kommen nach Berlin – Trump trifft am selben Tag Putin und Xi",
@@ -507,11 +575,11 @@
           "pub_date": "2026-11-17T19:45:05+00:00"
         },
         {
-          "title": "Vertrauter von Eisenkot: Israels Opposition übernimmt Parlamentsvorsitz",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZVFTUTFTcm5wM0NBSlNsVk1ZZmJ1clVGb1dlMjFHZEZoRGN3VUpzMHp3VDIxZnlqUmZoZ2RqN1NKbDN6UHpZMG9VbloteU5KVWNfVjFrRlp2NmdvdDZJQTk2c2Z2OGw2VkRRMVFxQWYzNUlSd1p0Z3MzYmhiTUhCcE9heEZ2RTl3QWJDUjU0cEdsY2hyNnk0ZlV4MzVyQTRPNHpJaGZidVA4UDJGVmotNHlzdFZVMzZ0RURuVS1KZnF5SXk1eDFVUEM0TUxiTXUyZEM0dnM5QWE?oc=5",
-          "description": "Vertrauter von Eisenkot: Israels Opposition übernimmt Parlamentsvorsitz  SpiegelNahost-Liveblog: Israels Opposition übernimmt Parlamentsvorsitz - Politik - SZ.de  SZ.deParlamentspräsident in Israel: K",
-          "publisher": "Spiegel",
-          "pub_date": "2026-11-17T22:03:00+00:00"
+          "title": "Vertrauter von Gadi Eisenkot: Oppositionspolitiker übernimmt israelischen Parlamentsvorsitz - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc1dWeTRvdmxXUlpuWDNHSUxXeXJBLVl2VXY0VW5pU0hxbEJBZVNJcmtGSkFqaE8zX2NoSlhMQ3RXVFl0WFJkT0NOZWpVVEFSR0xsdHRQNm1fQm1wZ0RsNnlOZW1jdGZrbEN1Ukp1UWE3My1TRHNSd19JTnRhT1JnalhZOHRkV2k2TWN2Q0FaTFBaMjZRVEZsUDcxbFkxeUtpb0hoUFN5dVhHUQ?oc=5",
+          "description": "Vertrauter von Gadi Eisenkot: Oppositionspolitiker übernimmt israelischen Parlamentsvorsitz  n-tv.deParlamentspräsident in Israel: Knesset wählt Eisenkot-Verbündeten zum Parlamentspräsidenten  DIE ZEI",
+          "publisher": "",
+          "pub_date": "2026-11-17T22:12:10+00:00"
         },
         {
           "title": "Slowakei: Zehntausende protestieren in der Slowakei gegen Fico-Regierung",
@@ -521,25 +589,162 @@
           "pub_date": "2026-11-17T22:32:37+00:00"
         },
         {
-          "title": "Vorfälle in den USA häufen sich: Kommunikationsnetzwerk von US-Geheimdienst NSA fällt aus - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV201S1k1b2dtZ2phTGUxRm9qT2VDTFNocXpLRkZqT2dsRkprNVAwaE5OVm4yTExrcWF1SHFoelY4OHRKNlZ1YUU5eXhlRFJobWhWQmhxX0plNWVGMDY1UlJQMk13bjBpT2FMUU5tclZXZ2thakZ2VTFXNkpyWndCSnpTZVpjMS1KTjRqWV9zeUx4Qjlab3l0UkxXS0NhaFlER0E0?oc=5",
-          "description": "Vorfälle in den USA häufen sich: Kommunikationsnetzwerk von US-Geheimdienst NSA fällt aus  n-tv.deDonald Trump: Technikprobleme in Serie – Kritik in eigenen Reihen wächst  SpiegelAusfälle bei der NSA,",
-          "publisher": "",
-          "pub_date": "2026-11-17T18:45:55+00:00"
+          "title": "Chipkonzern: Nvidia lehnt Rückkehr von Jensen Huang an die Konzernspitze ab",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV3hJb19CVno2Y1cxQ2U4Q2UtN3h1NGJaZFUtSzRzaUZWMlFrQjN1THhiV3E3dEt2dy1zWkhGTmhzbER0bDFSS0ZtVXRRb0ZNd2tTQ2pLNDhfYkszQkU3c0g3X3Y1b2J1N3lNOF8zalF0VEhuMVJ4MHdRbnFiNC1YYlR6QWtmTkFnN2ZVd25xekw?oc=5",
+          "description": "Chipkonzern: Nvidia lehnt Rückkehr von Jensen Huang an die Konzernspitze ab  DIE ZEITNach Rücktritt: Nvidia-Gründer Huang erwägt Rückkehr auf CEO-Posten  FAZUSA News: Huang zeigt sich bereit zu Rückke",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-17T23:29:10+00:00"
+        }
+      ],
+      "nation": [
+        {
+          "title": "„Wir vertrauen ihr nicht mehr“ – Berliner Linke beantragt Ausschluss von Vanessa Emde",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPblp1dy05U203N3J2eXdaYWI0TDdxRDJQLU04b1BzRnNVWV9EbUhtcFFzWGl3RFBLQjRTTndrYkZKcDVkWjd3YjZWcTE5QzJtWWJhU0tHTnhjVjdreTQ5bEpaM3JDLV9sTFFoV0s0WkxRaXBvelROOXZsbUNhUk1xV1RqTnJmQ2FFdjhzNzJaaVNjbFh4Z0VhWVRaZDBaekJ1SmpoSzh0NnI5SWJldEQxQUxKdzJBbVNzeE05N1hsUkFCNWxWc0Ewb1VvNjBYdGpKYjJoazVRdHJUQTZ4aWFmNnZBTmV1clV3Z0EyUXJoSXpQUzkzcGg4bVBFVWVTaEt3S3J3LURlUG02enZNdml3RGNpWkk?oc=5",
+          "description": "„Wir vertrauen ihr nicht mehr“ – Berliner Linke beantragt Ausschluss von Vanessa Emde  WELTLinkenfraktion in Berlin: Berliner Linkenspitze beantragt Ausschluss von Vanessa Emde  DIE ZEITLinken-Vorstan",
+          "publisher": "WELT",
+          "pub_date": "2026-11-17T16:51:54+00:00"
         },
         {
-          "title": "Auch USA greifen erneut an: Kuwait gerät unter iranischen Beschuss - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWm40V0w3cTBkWmtoY29BT1VtNXNDeUZqc0JZX19rU1A1dDFnRWFwOHNfbHBCQ3YtSldYZldsaG5uakw5MUdqQTJwUVVKWTZ4Vzd0NkNFMjI3aGhDVGZTeTNIamoteG1aM2lkd3ZqUktRVDFfaGpTcVZ3UzBNWUdSckZQdVlZUWtFeW5R?oc=5",
-          "description": "Auch USA greifen erneut an: Kuwait gerät unter iranischen Beschuss  n-tv.deUSA bestätigen Angriff auf iranische Insel  T-OnlineIran: Explosionen im Süden des Landes - boerse.de  boerse.deUSA greifen e",
-          "publisher": "",
-          "pub_date": "2026-11-18T00:42:41+00:00"
+          "title": "Doch mehrere Wahlgänge?: BSW-Fraktionschef Schulze kritisiert Siegmunds Kurswechsel",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTlE2eXUzRFBaSUxPdnEyUmw0X3I2SE9fSFRCMHhlUy15cWMyaHdCcHdxb2EzMXQ4bXpZdUJ1Ql9VOUE0THVEd24xQUNGUlp3VEZyQWxqalVfT3JQLUdIWmlhVzZwYklISE51cHg4OVlXYjlpV3VwRWVxQ2FtcW91ZjRDdnk4ZDI2bEljTGVIa2FtWTFDaDJyeFJB?oc=5",
+          "description": "Doch mehrere Wahlgänge?: BSW-Fraktionschef Schulze kritisiert Siegmunds Kurswechsel  DIE ZEIT„So kann man Sachsen-Anhalt nicht regieren“, wirft Sven Schulze Claudia Wittig vor  WELTMinisterpräsidenten",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-17T14:54:25+00:00"
         },
         {
-          "title": "Dobrindt plant Abschiebezentren in Ruanda – doch viele Fragen bleiben unbeantwortet - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQTRMa1I4U2dKYlpMLTNqMy1BbGtHdENQbHhoLXlwOWhMV295T2RXRmtkR04xNnhYY0lYNmJGX2d4S0owaHRSUlpLU0NycUxsVTFWMWZZZlplUGlHWFR3b2d4NVc1VnhUR3FvZzdqMkVZTXZickZrMENSVl9fZlN5dThNazZxc1lRR0I1LXQ2NHNjVEJ3Vlcwb2FkYlVFOWhPeUxtbUYxTXVxai1ZNWJldVJmUG15aU80MWlsNGVVNmRKSVc1SVpqNDFLQkpiQ0k1RldOVFQtOUlrdUpJM1pCcklmTU0zSlYx?oc=5",
-          "description": "Dobrindt plant Abschiebezentren in Ruanda – doch viele Fragen bleiben unbeantwortet  T-OnlineKritik in Deutschland an Plänen für Abschiebezentrum in Ruanda  tagesschau.deAbschiebezentrum in Ruanda: De",
+          "title": "Erklärung zu AfD-Stimmen: LKA Sachsen-Anhalt prüft Nötigungsvorwurf nach CDU-Fraktionssitzung",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNN2tZUXpTQVlVQk1ENktwSV9tMzRxQmx4cmtNRFg0ZkVVQzlJWGRVSmlKZEZjSEFjS0pyNnFlYVpTTEZNU01QTmlhUkpIRVNFZnpPaWZLYkFjS3Y0T2pNaUNsX3RyTWo2bGVBUUdCMnZRY3ZJX3gzN3RCM2RHRVJTeWh2SG5aWUNBQjZhUHpwOUE3Y2trNHk5NjNrR3JYd0xkT2hsbm9XLVVUVmVfRHM1QUdHYU5XM3QyVUtuUWNlRElSYnFRZUpJazM3d3dvWW5jZ0hmVmF2U3VVaHM5dDNPcFR1NWpuOHlNMm9peVVPaXJtZlFyVEdTVXpyZGpqQUxkc0E?oc=5",
+          "description": "Erklärung zu AfD-Stimmen: LKA Sachsen-Anhalt prüft Nötigungsvorwurf nach CDU-Fraktionssitzung  WELTLKA ermittelt nach CDU-Fraktionssitzung wegen Nötigung  FOCUS onlineLKA prüft Nötigungsvorwurf gegen ",
+          "publisher": "WELT",
+          "pub_date": "2026-11-17T21:44:27+00:00"
+        },
+        {
+          "title": "Deutschlands dritte kolossale Schuldenwette – diesmal könnte sie scheitern",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOXJPWWZ6TmFpQTlCUm9jTVBHSTVvUWc0TjIxcmFrcWJ0MDlCaWRwNTZ5alc4S1VLYmdQRDVRVml5SUl1REE3M18xaFNDcFljZEdsSnl4Rk41UkFCQ0VFVmszdTQ5Zkp3Wm1JVjRoQWdHb0hQVl82RXVMaG9yMkRGelZiY3lRT01SUEM3MUZJZjlFQ0xHN1BQdGc5VjYzWHFhU2k2aFZnWVJ1TkVGdnJVZlFXY0hERHd6U2w2NEsyM0E3c1Y3R3dneTBXcGhIMU9BVk9obA?oc=5",
+          "description": "Deutschlands dritte kolossale Schuldenwette – diesmal könnte sie scheitern  WELTphoenix plus  Phoenix.deBundeshaushalt: Die Stromsteuer ist noch das geringste Problem  DIE ZEITEtats des Bundespräsiden",
+          "publisher": "WELT",
+          "pub_date": "2026-11-18T01:11:43+00:00"
+        },
+        {
+          "title": "Spitzentreffen im Kanzleramt: Koalition ringt um Stromsteuer, Spritpreise und Rente",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0xcG15Mmd4YlJRMTZ2OXFkUlhMOVdXMUFEdG5JT2xHb0V1RzhuOUdrcTBFZHViMUUzN2RCOWtvVUhseno4M3Y2V1lkemktZ2phZnJDcklkWTNoWWUzNTRoY0txV3hYYnlnc0FreFdENHFadno0QzVZem9zaUc?oc=5",
+          "description": "Spitzentreffen im Kanzleramt: Koalition ringt um Stromsteuer, Spritpreise und Rente  DIE ZEITKoalitionsausschuss: Koalition beendet Stromsteuer-Gespräche tief in der Nacht  DIE ZEITStromsteuer-Streit:",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-17T18:04:21+00:00"
+        },
+        {
+          "title": "„November-Monsun“ in Deutschland Extrem hohe Regenmenge binnen weniger Tage erwartet",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb3RyRURySk9LQmN1RTFtUnJIY2JVODI3NVV1OGtNUmo3LVpjWURNVlZWNjM1QV8xTWEwckJzUGh5TjJldlhFT3ZvU2pEQTJDT2psaGZlRk8wc296TWxBN2hPQnB1QlJjMkJ4MlBBYVY5bFl5Y0FPQXhKM2VMcUxfbVczc1pxSTRjcklsUm9rYTBaZU1Qb2VLbWUtXzljZ3M3U3RXUDI1VFNvZG9fUDRoUmtuaFZJZ2Z3djB6d1A3cw?oc=5",
+          "description": "„November-Monsun“ in Deutschland Extrem hohe Regenmenge binnen weniger Tage erwartet  TagesspiegelRegen und Wind: So wird das Wetter in BW  tagesschau.deWetterprognose für Deutschland: Warnstufe Rot i",
+          "publisher": "Tagesspiegel",
+          "pub_date": "2026-11-17T19:01:00+00:00"
+        },
+        {
+          "title": "\"Glücksatlas 2026\": In Bayern leben die zufriedensten Deutschen",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsLUtJbGlZaGZfek1BUFB3NVppMzNMV1Z0dE5ySUFfUWVIaEpwRWsza1ZXdllKTDBoX0lWd29KQ00zTDlaa1Rzc0VfSC1TekZqNy1qNC1kd01IRDZac3QwbWZaZTYyVVhiSW4wcXhBREtaMkRXb0E?oc=5",
+          "description": "\"Glücksatlas 2026\": In Bayern leben die zufriedensten Deutschen  tagesschau.deLeichter Rückgang der Lebenszufriedenheit  SKL GlücksatlasBayern: Hier sind die Deutschen am glücklichsten – SKL-Glücksatl",
+          "publisher": "tagesschau.de",
+          "pub_date": "2026-11-17T12:08:32+00:00"
+        },
+        {
+          "title": "Nach Vorwürfen: Warum Boris Palmer seinen Beraterposten laut Cem Özdemir jetzt endgültig abgibt",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTGVsZWwzd1hqRE96Wi1aeWV0VTJZVFdSaUk1UTJfT2RzamNCTDF0MkZSTUhsTE8zRXMtRFVEOVF4a0VOWE1YWU5UUTB6dU9xNmxKaG5NUmxkV0NvTnU5b01rMC1MWUtDeHc4QVNnX2JpV3hSOWUyMGdkdExBRWUzLTBPbFl3dWtlNGphVmw4V3phNkZsX2lhdG5fUU15SF9nUEtSNkw0aDZvTHBkeHMzUVdwUkt5U3RHbTF0VE1WZ1lUbXM3Z2Nka0dheExsdGYy?oc=5",
+          "description": "Nach Vorwürfen: Warum Boris Palmer seinen Beraterposten laut Cem Özdemir jetzt endgültig abgibt  SWRNach Belästigungsvorwürfen: Palmer gibt Berater-Amt im Staatsministerium ab  tagesschau.deBaden-Würt",
+          "publisher": "SWR",
+          "pub_date": "2026-11-17T12:18:31+00:00"
+        },
+        {
+          "title": "Keine Rückkehr in die Bundespolitik Franziska Giffey will nicht für den SPD-Vorsitz kandidieren",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZ3dZWWVvSDJGYVpTUWJZemVDVjluaFRwMUpDbUEyOWYyVFRoYmRLYm56T0NlNmFtaGZXWGFVRWpFdTVsRlVJdmhoVEJ3dEd0dHk2bHFYQ2o2S3A0VkUzRi1hb05SYkkwZHpPY3M1XzltU0EybnpLNzAyMnNERHhKVGlRREcyYWdROGVGbVBHZnJyNXQya2RaczVCbV9WRExJSm51WS1sZlo5YmxyX0JBWVk4VVlEUHNhMEZUYjZ2dFVUam5TT1RVQ0RTV3Y3bno5WjQ0YWNxbzNDeFRkeHN4Qm5B?oc=5",
+          "description": "Keine Rückkehr in die Bundespolitik Franziska Giffey will nicht für den SPD-Vorsitz kandidieren  TagesspiegelWahl zum SPD-Chef: Heil will auch ohne Unterstützung der Parteispitze kandidieren  DIE ZEIT",
+          "publisher": "Tagesspiegel",
+          "pub_date": "2026-11-17T11:06:00+00:00"
+        },
+        {
+          "title": "Bahnverkehr zwischen Magdeburg und Hannover steht still: Mähfahrzeug durchtrennt Signalkabel",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPN1h5MWExaFB5U0FfdWROaFZGVnRidnRpT3pNQmRJbDY2M0VvbWNjVF9BdFpWUjhuMFZlTlFEY0Y5bzZLMlR6X3ZvUVlVWlJZanlQalNvQ0kwMkhhSTZycjE2RVczQXpTSUt0MlhhNnVRVkJwb09sTkFEenpPODJwMGE2SWRnbWVBdmFsMjZlcmZGU3VRZUtlVnl3SURjYnlJemp4QTNPa2ZVX2ZWRnpPbER0cmVoSS1aTjkzclp3Zm8wbG9tXzJUZjU1Tmh1aXJnSmkwczJha2xNbFd1emtVSEI5cG42SFBVamNIcQ?oc=5",
+          "description": "Bahnverkehr zwischen Magdeburg und Hannover steht still: Mähfahrzeug durchtrennt Signalkabel  MDR.deWeiterhin Einschränkungen auf Bahn-Strecke Berlin-Hannover  rbb24.deBahnverkehr zwischen Magdeburg u",
+          "publisher": "MDR.de",
+          "pub_date": "2026-11-17T05:35:22+00:00"
+        },
+        {
+          "title": "Strompreis-Knall: Großkonzerne bekommen frische Milliarden-Hilfe – Bürger und Handwerker gehen leer aus",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNzhTYkFyOWdmMlliMmJJeVRQNkRXcDg0SkJVay1CaTVlVkZSejZTRW1Hdk9oMnpOVFdxSVM0VG9Wa3ZXcS0tTTdOblVoSC1MNmJIZXFfM0hncnd5NExRZnA1cFRlRHIyYzVrVEtZbC1wU2ZuS29KWmtZdUJJOFA0QkYxLU50enBsODRLYVZjZXcwSGVsOUFUc0hzTmxRX0R5dHF2RlVoZzhaSlR1YUx4SWFmN3FGQTNlQi1hZ2c0LWJYcDdwRjdz?oc=5",
+          "description": "Strompreis-Knall: Großkonzerne bekommen frische Milliarden-Hilfe – Bürger und Handwerker gehen leer aus  MerkurNeue EU-Regeln bringen Industrie langersehnte Entlastung  FOCUS onlineGrünes Licht für we",
+          "publisher": "Merkur",
+          "pub_date": "2026-11-17T15:48:07+00:00"
+        },
+        {
+          "title": "Wieder Drohnen-Vorfall am Leipziger Airport: Pilot gestellt",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNENTRDMwNWRNcTNxbEhkcXpEZGFfRWhicWxCeDJSQWlZeVE0WjF0TVV4U1BvTWhsZW1XZjd4bjhPX3NzVVAtTEpnNEV3Zk0wRWhDTWYwcDhETExJQkltSUVrUTM0QzFxamYybEVXY0VJTko4MHRZNENQYlJWbEdfTjYzd1p3amEyS2tVVEJGaWFEYWIxMkQzSHRsTmZDRmE5QlZsQ0hQOF9LUQ?oc=5",
+          "description": "Wieder Drohnen-Vorfall am Leipziger Airport: Pilot gestellt  TAG24Leichte Sprache: Am Flughafen Leipzig-Halle ist wieder eine Drohne gesehen worden  MDR.deDrohne nahe Flughafen: 19-Jähriger stört mit ",
+          "publisher": "TAG24",
+          "pub_date": "2026-11-17T19:00:02+00:00"
+        },
+        {
+          "title": "Expertenkommission fordert Eigenbeteiligung Müssen Kassenpatienten bald für Arzttermine zahlen?",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNM1ZsXzZiemEtcDc2TXpweEdrVjRNV2xpLUY2ZzB2ZTQ1Rmx1NDhDMC1OWHFHQm9xNTZ4bjZjSW13UXVQU0p5UTdZN0h6NlZJUXc3VTRLdGNlNGxGbmFnWTlNQnotOUF1XzRGM1RPekVvT2dwVVNOSl9CVlJNUjF3dUFfMFBQUEo4a0hmYVFCMWF1dHJYT3F5MnJRR0JLVi03MGZIQ1F4MlN0d3dlLVBnV3BPZWQ1S1lsenNTMEQ2N3VzNjEzdlRTODUwUmhSc2p3VTdyQ2pjUFBwSldV?oc=5",
+          "description": "Expertenkommission fordert Eigenbeteiligung Müssen Kassenpatienten bald für Arzttermine zahlen?  Tagesspiegel„Das Reden von der Zwei-Klassen-Medizin kann ich nicht mehr hören“  RP Online(S+) Früherer ",
+          "publisher": "Tagesspiegel",
+          "pub_date": "2026-11-17T15:03:00+00:00"
+        },
+        {
+          "title": "SPD-Politikerin Schwesig erneut zur Ministerpräsidentin gewählt",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQ21nZURYT3Y5WGxxa0FpWHZra3FNTXVmdGlna2VrWHpuZ3hRTEJwZ3BXcFltYzE4My1qeWExSzcxNXAzWDhhUEIxOC1xV3gyb1lYSEJRV1ZNejFXN0QyYmZKeVJVTk9NT3g4U2RxYmRmVmF4RUtIRlY4UVZidnlCU2c0Z1U2dFEtZUxOcXhZZzF6bmloTjlxdDJIZEFIZElrNThXMkZyQTNidEZzc2dtcmhXVVBfLXM4M1Y0akZHYw?oc=5",
+          "description": "SPD-Politikerin Schwesig erneut zur Ministerpräsidentin gewählt  tagesschau.deWeitere Schlagzeilen und Meinungen in Google News",
+          "publisher": "tagesschau.de",
+          "pub_date": "2026-11-16T13:23:00+00:00"
+        },
+        {
+          "title": "Sorge um Existenz der Partei Führende BSW-Gründungsmitglieder wenden sich gegen Sahra Wagenknecht",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNG4tOENoOEo3TlZJdk9SOEFTTGJPaHhhdG92Z1dlVnlMS01wU29kNUFOZk80OVpVNVlrUTVOa010bVZCcnU3QjU4NlA2YlBscDEzVl9iY21iLURMY0ItbzVRMGRUeWE4TlpVVVpDYmljUjNTZXFYNkpHOTRNTGdJR1ZTYzk5XzJ3b3BOQjdFcDJod3h2NGQ1RFNNSUhzcDk4N01Zc29VMS1lSVh3QnBrWURjQnBtelFRRzE3R3BKQm5hZ3hJalhGTEdhNjN6bm9XR3VJajFZUU5QRF9rYnZ3Tw?oc=5",
+          "description": "Sorge um Existenz der Partei Führende BSW-Gründungsmitglieder wenden sich gegen Sahra Wagenknecht  Tagesspiegel»Die Brandmauer abzulehnen, heißt nicht, ins Feuer zu springen«  DIE ZEIT„Magdeburger Weg",
+          "publisher": "Tagesspiegel",
+          "pub_date": "2026-11-17T13:33:55+00:00"
+        }
+      ],
+      "world": [
+        {
+          "title": "„Beispiellose Operation”: Ukraine bringt Krim-Brücke teilweise zum Einsturz – Putins Antwort „könnte gefährlich werden“",
+          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNQlZPU1ZRVlJxakF1Um5Qc3pKQ0JKdjJGWVZZa0NqZU5BdU5pSllLWnY4OW5KYkFQbkFFRDNkaTFpS0VWTDVraldnWjJRaDBVUnFHSzhna2xaLW1FUF9HWDhidnhPM3NhYnJyWjZOVmRmMUUxMnhNSGkweFlXOWM3WDJnYWZfV3o1WGhiOFlmUVpPRVpOQ2hzMG1nbHFHak8zUkRlM1NhanJ6UFg2ZWhKVnY4RkEyYjBOWnlQYnotV29DR1FtTk1Kd3hSd0dpeUc1U3ZJMEJjQ0g5cTZiV0Rsb3ZNQl9zUGNtUTR3ZFZpSHNjQXNTN2RaRFhaUnc?oc=5",
+          "description": "„Beispiellose Operation”: Ukraine bringt Krim-Brücke teilweise zum Einsturz – Putins Antwort „könnte gefährlich werden“  Tagesspiegel\"Ziemlich dumm\": Pistorius reagiert auf US-Kritik an ukrainischen A",
+          "publisher": "Tagesspiegel",
+          "pub_date": "2026-11-17T20:43:37+00:00"
+        },
+        {
+          "title": "Donald Trump: Technikprobleme in Serie – Kritik in eigenen Reihen wächst",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTDRPRmk3QXpjZHQySklhRTFmX3p6VmRqS0VWR1NfaVV0b0NscXJMa3Z5QnMwMkc3WUppSS16aV9fU3RaZjlCOGVQWFQ0UnFqQWdXSE0yNVhRc2dUV2E1bWw2bEFxNEVJaFJaUHlxZWhVOTg3d1E0ajdjV1VhYUJQMEdST3ZVZnY4TnoySmJ2VE0yOVFfN3B5dVl1SFVBYnBJUXBuandpUDYtQy16RUl6ODZ4c0dCNFhfNnhIZGk2S0dEWlRmUW1yT00td2tKLWlHR01NN3pLYw?oc=5",
+          "description": "Donald Trump: Technikprobleme in Serie – Kritik in eigenen Reihen wächst  SpiegelVorfälle in den USA häufen sich: Kommunikationsnetzwerk von US-Geheimdienst NSA fällt aus  n-tv.deIT-Ausfälle: Netzwerk",
+          "publisher": "Spiegel",
+          "pub_date": "2026-11-18T00:32:00+00:00"
+        },
+        {
+          "title": "Ukraine-Krieg: Witkoff und Kushner kommen nach Berlin – Trump trifft am selben Tag Putin und Xi",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPcnV0Z3A5Y3c1X0tGbjZkd1BWN3BnZ19TZDhIaTNwQVpBNEhBdDNZa2lwQjd4SzdmOUlzOHQxeDVLSHBpMWJoNmpja3liNVVxTm93ZXhHY0JBZERobDQzZGhGUGx6dmN4UGZ1bGxlNl9BVE1LbnRKbVdMS0tDWmJabUhmNGlMV1hUYUUxNWo3VVFkTXlyWlU2QUhTbkhyVXlMZUFGOFJyeVZUemo1dEZ1U3NwdXhta3dURlk1VDZEMThRelJvY1lxeDdvSEpJZVdRYjR1WUZWU3Nick9yWHExeTIxODhBSFhONXBDSDd6WURocWxIOXdkMw?oc=5",
+          "description": "Ukraine-Krieg: Witkoff und Kushner kommen nach Berlin – Trump trifft am selben Tag Putin und Xi  WELTStaatsbesuche mit höchster Gefährdungsstufe am 19. November 2026  Verkehrsinformationszentrale Berl",
+          "publisher": "WELT",
+          "pub_date": "2026-11-17T19:45:05+00:00"
+        },
+        {
+          "title": "Vertrauter von Gadi Eisenkot: Oppositionspolitiker übernimmt israelischen Parlamentsvorsitz - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc1dWeTRvdmxXUlpuWDNHSUxXeXJBLVl2VXY0VW5pU0hxbEJBZVNJcmtGSkFqaE8zX2NoSlhMQ3RXVFl0WFJkT0NOZWpVVEFSR0xsdHRQNm1fQm1wZ0RsNnlOZW1jdGZrbEN1Ukp1UWE3My1TRHNSd19JTnRhT1JnalhZOHRkV2k2TWN2Q0FaTFBaMjZRVEZsUDcxbFkxeUtpb0hoUFN5dVhHUQ?oc=5",
+          "description": "Vertrauter von Gadi Eisenkot: Oppositionspolitiker übernimmt israelischen Parlamentsvorsitz  n-tv.deParlamentspräsident in Israel: Knesset wählt Eisenkot-Verbündeten zum Parlamentspräsidenten  DIE ZEI",
           "publisher": "",
-          "pub_date": "2026-11-17T14:51:05+00:00"
+          "pub_date": "2026-11-17T22:12:10+00:00"
+        },
+        {
+          "title": "Slowakei: Zehntausende protestieren in der Slowakei gegen Fico-Regierung",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZWM1Sk5IMzFTdlcyQ0ZVTy1Zanpxb2gtRVFPWm5rR0tUOHJzUTRodEF1ZHdfdllReW1QeEJLTExodkF2dGl5MXI5cnhiUHg1bDBtdnBNUFIwMDJGWVVBSE1iczY1ZUd2TWJPLVZEcVp6dmJUczJUZkd5TlVnWm1zVnFUc2xkb21UNGRNdXVISVYxUVl4TW5iNjV2STBDcmpaMTl3?oc=5",
+          "description": "Slowakei: Zehntausende protestieren in der Slowakei gegen Fico-Regierung  DIE ZEITZehntausende Menschen protestieren gegen Regierung in der Slowakei  FAZTausende protestieren in der Slowakei gegen Rec",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-17T22:32:37+00:00"
+        },
+        {
+          "title": "Meloni-Regierung verabschiedet Gesetz: Kritik an Israel bald strafbar? - T-Online",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQR0xUQ1NTdXY0Ym9qbW1XLWNoU00weERzWUpoR1dVTU1peFpQRXkzeDZvSUowazY3cXJuUEtVOFcwaFBBX19kQ3l6WlYyZ3ozelNQTHJFMGl3MmFrNXE2Wk13dHF2OG1UZE90QjdKb08wU3hydlVRS1ZLdF9UdVVJWGs4QndHeGRZZnNUS3pXQUJNQlctUGdlb2txQ0NRamw5QnFqU1dNWWxjRmRpa1dOSE9vdzgyREhrRzZmQ0ktNlVIVk1pM2xfNWZOeThzdmd4a0hNOE10Z1dHZ2ZkbHY2MTdyeE9mN0hHM2UzcS1vMmFXdw?oc=5",
+          "description": "Meloni-Regierung verabschiedet Gesetz: Kritik an Israel bald strafbar?  T-OnlineNeues Gesetz gegen Antisemitismus in Italien beschlossen – auch Feindseligkeiten gegen Israel betroffen  Deutschlandfunk",
+          "publisher": "",
+          "pub_date": "2026-11-18T00:35:54+00:00"
         },
         {
           "title": "Pfarrer über Papst Leo XIV.: Er hatte einen besonderen Wunsch",
@@ -547,6 +752,20 @@
           "description": "Pfarrer über Papst Leo XIV.: Er hatte einen besonderen Wunsch  Katholisch.dePapst Leo XIV. in Peru: Papst verurteilt Umweltzerstörung und Gewalt gegen Indigene  DIE ZEITPapst besucht bedrohte Lebensrä",
           "publisher": "Katholisch.de",
           "pub_date": "2026-11-16T10:17:46+00:00"
+        },
+        {
+          "title": "USA prüfen mögliche Anschlagspläne Irans auf Washington",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWRSTFZBSGtSbnNEbXd0U2NnT19nTURORnRIck4yYVRqS2dWODhNa3VoMFRJZDRtZ0lKVWV2dnV1Yjl2Tm0tanJWRkVsZWdzNDNWeWpCdDFyN09oeGMwQm53LV9wVG5jd2hSNUlEWnpGbXRORHltTEdJUVkyazlTMFZzaXk?oc=5",
+          "description": "USA prüfen mögliche Anschlagspläne Irans auf Washington  tagesschau.deIran dementiert Bericht zu Anschlagsplänen mit »schmutziger Bombe« gegen Washington, D.C.  SpiegelUS-Geheimdienste befürchten Ansc",
+          "publisher": "tagesschau.de",
+          "pub_date": "2026-11-17T16:36:00+00:00"
+        },
+        {
+          "title": "„Menschenrechte sind keine Verhandlungsmasse“ – SPD-Politiker kritisiert Dobrindts Ruanda-Pläne",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOSDdObDc1dDd1NGRJNTI3MWhVdVcyTzVVN0VnS2lDLXVoSjR3dDVoNW51ZFJUU1pDUHcxNFFnRmo0cDV1VE5sLXhlakx6VnZ1OWZvYW1OZ3dDRUhqYWlmSjRQeTA5TWs0R1ZDakVwSEVVdXpnODFyejR1Vm12emlFb3gtdWEwTThtR1Z4NHkyUXRsWHl0ZXRFeVZhWm5IVmdhLXFXcEtaZHNGZGlGa0ltWHRra3ZWQ0Q2M0EyYUJhaTVCRnVBalFSdjdDaG9yd1FRSFlDQ3FWNUQ1MWZRbHd2ZGRTT1lqdFRkWHFBeGJ4TnZNVTJVaWdBSWE1c09yRVJGUG9jMkxsdzJEdmkwa3NGU0FLRlg?oc=5",
+          "description": "„Menschenrechte sind keine Verhandlungsmasse“ – SPD-Politiker kritisiert Dobrindts Ruanda-Pläne  WELTKritik in Deutschland an Plänen für Abschiebezentrum in Ruanda  tagesschau.deAbschiebezentrum in Ru",
+          "publisher": "WELT",
+          "pub_date": "2026-11-17T09:42:19+00:00"
         },
         {
           "title": "Französische Soldaten in der Ukraine – Moskau schlägt Alarm",
@@ -563,18 +782,18 @@
           "pub_date": "2026-11-17T13:24:27+00:00"
         },
         {
-          "title": "Trump trifft in Manila ein – und steuert auf einen Gipfel voller Ungewissheiten mit Xi und Putin zu",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRHFQNjFMMEJBeGcxODZYMTE3c3hSUUxTazh4dzJ2SVB4elN1ZUR0cTkxNGRTX3ZLYl9haFp6X3MxdzZDVVVJY3ZLVmZES1BXSUZIX2N5aU1STjNaVUROUmVnc2hBS0VEZ1lYcHlsb2NiSnY5X2pFT1A0b1JIQkJuc0JiQW1IdUZCNmZjS19heHNveGswcW5IbElKUXZTal90bVBlV0FiXzNjbGdEdXJHRUFjREs?oc=5",
-          "description": "Trump trifft in Manila ein – und steuert auf einen Gipfel voller Ungewissheiten mit Xi und Putin zu  Neue Zürcher ZeitungTrump auf Gipfel-Marathon in Asien - Symbolik statt Substanz?  tagesschau.deUS-",
-          "publisher": "Neue Zürcher Zeitung",
-          "pub_date": "2026-11-17T17:57:06+00:00"
+          "title": "USA gelten nicht mehr als masernfrei",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1b1AxWDRFYmhOczNQdU9WNm5MUTNrRTZIZm5NNTRYaERsV2ZCWmxPMEpraERvU2JPc19wLWd1Tk1mT1ZXVUhyanFYYVM5b0lnQzhtQnJhaWU0WkhsaDNtdHdJdl9mLXYzMDI4SWdR?oc=5",
+          "description": "USA gelten nicht mehr als masernfrei  tagesschau.deMasern: USA verlieren nach 26 Jahren ihren Status als masernfreies Land  SpiegelMasern in den USA: USA verlieren Status als masernfreies Land  DIE ZE",
+          "publisher": "tagesschau.de",
+          "pub_date": "2026-11-17T17:57:28+00:00"
         },
         {
-          "title": "Arzneimittel: EU lässt neues Medikament gegen Bauchspeicheldrüsenkrebs zu",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNW1LVDNZeXA5eWZrck5tR3BIRm4wMFJUbXB2SXN4SkVlNUhyTm16YmJkN2lPdVZjdVV5TFFlR3VSbjdDLVBSMjhObURLLWpZcmJpak9HTEU5dGpfbXFKTWFEal9hSzhNX1NOZkJzWmdZbENJRVdNWVZPME01Tm9JanVvc1RQWDY3U1BteUZfWU9LelplTkpyemJVYjFvZw?oc=5",
-          "description": "Arzneimittel: EU lässt neues Medikament gegen Bauchspeicheldrüsenkrebs zu  DIE ZEITWeitere Schlagzeilen und Meinungen in Google News",
-          "publisher": "DIE ZEIT",
-          "pub_date": "2026-11-17T15:41:15+00:00"
+          "title": "Abhängigkeit von Trump: Treuer Verbündeter wendet sich von USA ab - T-Online",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQd2p3YThQVGZrOVpaMkdCTEF4eUx1MWlMNXZKS1Y5VXBHY3plZnNvaUlQdnlFRVpGRjRsMFFwLUFEV29sQW1uWXEtbURZZVQtUHZ4Z3pxZi1JMkJqZkN4RDNPcVRnQ3J6eE9HZTQyMzRQR09qb0FDU1l5bGZLRmxzaE95STZIRWVNZTR2dDZHbzlIRk1ONUhIQWlzb0JjaHNiVDFwN0gxZGVEcnE0SEZaTzV6eXRtQm1LS0VDLVJWVFFTaW9vUWZCc2tFMU41TG8?oc=5",
+          "description": "Abhängigkeit von Trump: Treuer Verbündeter wendet sich von USA ab  T-OnlineKanada und China unterlaufen US-Zölle von Donald Trump mit Zollerleichterungen  SpiegelZollstreit mit Trump: Kanada erwägt be",
+          "publisher": "",
+          "pub_date": "2026-11-17T22:24:00+00:00"
         },
         {
           "title": "Belgrad nach der Wahl: Studenten räumen auf, Ex-Präsident plant Rückkehr",
@@ -584,42 +803,127 @@
           "pub_date": "2026-11-17T07:21:00+00:00"
         },
         {
-          "title": "USA prüfen mögliche Anschlagspläne Irans auf Washington",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNWRSTFZBSGtSbnNEbXd0U2NnT19nTURORnRIck4yYVRqS2dWODhNa3VoMFRJZDRtZ0lKVWV2dnV1Yjl2Tm0tanJWRkVsZWdzNDNWeWpCdDFyN09oeGMwQm53LV9wVG5jd2hSNUlEWnpGbXRORHltTEdJUVkyazlTMFZzaXk?oc=5",
-          "description": "USA prüfen mögliche Anschlagspläne Irans auf Washington  tagesschau.deIran dementiert Bericht zu Anschlagsplänen mit »schmutziger Bombe« gegen Washington, D.C.  SpiegelUS-Geheimdienste befürchten Ansc",
-          "publisher": "tagesschau.de",
-          "pub_date": "2026-11-17T16:36:00+00:00"
-        },
-        {
-          "title": "Finnischer Präsident Stubb: Mit großen Egos weiß er umzugehen",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcFo4MFliN05YQnRLODY2SjJ0OEFmMngtMl96TGZYVC10dktzM2JibjV6N3YxZkRqSk9nbE1BdndpbElKVEc5ZXZSbUh2UXNrZ1ZHenBTYWlqWURwVk83emxIYjFXVk5Ud3d1SzVVbzdJUjNPWWUzeFFKY28tVGM4WHBRSQ?oc=5",
-          "description": "Finnischer Präsident Stubb: Mit großen Egos weiß er umzugehen  tagesschau.de„Wir müssen mit Russland reden“  SZ.deFinnland setzt auf Gespräche für Frieden in Ukraine - Präsident Stubb in Berlin  STERN",
-          "publisher": "tagesschau.de",
-          "pub_date": "2026-11-17T12:13:58+00:00"
+          "title": "Arzneimittel: EU lässt neues Medikament gegen Bauchspeicheldrüsenkrebs zu",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNW1LVDNZeXA5eWZrck5tR3BIRm4wMFJUbXB2SXN4SkVlNUhyTm16YmJkN2lPdVZjdVV5TFFlR3VSbjdDLVBSMjhObURLLWpZcmJpak9HTEU5dGpfbXFKTWFEal9hSzhNX1NOZkJzWmdZbENJRVdNWVZPME01Tm9JanVvc1RQWDY3U1BteUZfWU9LelplTkpyemJVYjFvZw?oc=5",
+          "description": "Arzneimittel: EU lässt neues Medikament gegen Bauchspeicheldrüsenkrebs zu  DIE ZEITWeitere Schlagzeilen und Meinungen in Google News",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-17T15:41:15+00:00"
         }
       ],
-      "business": [],
-      "technology": [
+      "business": [
+        {
+          "title": "Chipkonzern: Nvidia lehnt Rückkehr von Jensen Huang an die Konzernspitze ab",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV3hJb19CVno2Y1cxQ2U4Q2UtN3h1NGJaZFUtSzRzaUZWMlFrQjN1THhiV3E3dEt2dy1zWkhGTmhzbER0bDFSS0ZtVXRRb0ZNd2tTQ2pLNDhfYkszQkU3c0g3X3Y1b2J1N3lNOF8zalF0VEhuMVJ4MHdRbnFiNC1YYlR6QWtmTkFnN2ZVd25xekw?oc=5",
+          "description": "Chipkonzern: Nvidia lehnt Rückkehr von Jensen Huang an die Konzernspitze ab  DIE ZEITNach Rücktritt: Nvidia-Gründer Huang erwägt Rückkehr auf CEO-Posten  FAZUSA News: Huang zeigt sich bereit zu Rückke",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-17T23:29:10+00:00"
+        },
+        {
+          "title": "Leak: Trump kritisiert \"illegales\" Vorgehen der Deutschen Bank",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBJWFozTy1BWDdhUkFSRFQxLVhxNDFsZDlXMXN1NHNiTmJZdElHazYxU3hZZl9EMld0SktGdXlZdGd2SlpKOFNkWW5MTVlwZU5kR2o3SG9pZDFIU2tRYTRLcHVFTi1iMzVjeFBGdHRUaWxiellIdDlaYmhKQnhhZw?oc=5",
+          "description": "Leak: Trump kritisiert \"illegales\" Vorgehen der Deutschen Bank  ZDFheute(S+) Datenleak »Inside Deutsche Bank« enthüllt dunkle Geheimnisse  SpiegelDeutsche Bank: Neue Enthüllungen zu Epstein und Russla",
+          "publisher": "ZDFheute",
+          "pub_date": "2026-11-17T16:17:00+00:00"
+        },
+        {
+          "title": "(S+) EZB: Deutschland favorisiert Pablo Hernández de Cos für Nachfolge von Christine Lagarde",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbkpXUTZVbXRSRDhDOXBaZUhxTFhVNmFZSENsMUxDWlNrdndZdDhzdUJ3cm16UlE1XzMzWTJVdTJUWkIybUpkOURVUzBSdGJ2Mm9zSl9LRS1NNjJyRlliU0ZkcVVwMG8tbDJoZ1RLZVhPVEhJaXBBLTRkRVZ2MnBESHFuQktrVFRRNWY2Mm92VmlWTTNoTVh4TnFJbTJha25hR3cyUXpwOVVEZUVCUnFFRVJzcktSUXpsMGpWc29VTEpUYUNUaU04bEczZGtMcl9waDNxbG1BdVFCNjRmNWJB?oc=5",
+          "description": "(S+) EZB: Deutschland favorisiert Pablo Hernández de Cos für Nachfolge von Christine Lagarde  SpiegelEZB: Kein Ökonom hat mehr Nägel in die Wand geschlagen als er  DIE ZEITMarkus Brunnermeier: Deutsch",
+          "publisher": "Spiegel",
+          "pub_date": "2026-11-17T09:21:00+00:00"
+        },
         {
           "title": "NVIDIA-Aktie reagiert prompt: KI-Champion liefert nach Huang-Turbulenzen wieder ab",
           "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOLVZVOGJZaFNsRTZjb1BHNWdGS0wwUHBzN3I0SVRvSTduSW5Kc0p4VHVKal9GWDA0MUMyYk5LLVVaZk5YR2Nxbkdxa09SSWJhaGplMzdjT3pkY3BjSFctVFowM3Q1WUhLbUxiQTktdHhqRHE4MVp2NURTYUJmcU5CcGVJazBSMXZKY2FKQkY4SlEyNnRpZG1BZW5tRVl4T0xkWEVwV2ZnOEdpbUwxeWRsVG94N2h1LXFTVmNyem5zT2pEcllUWmphTjhYZDBUbE5NMHAxOHJEaUlRZWo3UWZJdjNHSkR6SlE?oc=5",
-          "description": "NVIDIA-Aktie reagiert prompt: KI-Champion liefert nach Huang-Turbulenzen wieder ab  Finanzen.net",
+          "description": "NVIDIA-Aktie reagiert prompt: KI-Champion liefert nach Huang-Turbulenzen wieder ab  Finanzen.netNeue Quartalszahlen: Nvidia verdoppelt Umsatz und Gewinn  tagesschau.deQuartalszahlen: Glänzende Zahlen,",
           "publisher": "Finanzen.net",
           "pub_date": "2026-11-17T21:44:00+00:00"
         },
         {
-          "title": "Erneuerbare Energie: Ökonomen warnen vor Milliardenkosten durch Biogas und Dachsolar",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVzFGZVVmOFQwUUhCczA2Wmx1R05IcjFta2dXQjFjQTcxcGluajdTUGNIY3F4V1ZBWTNRQ0VHTk5uRGJ0MGtaNUFKcFZWNzFiVkRtX0p1blI0RC01N191RnJNNHZNUDM2VGp5b2VHb1BnTHpTMkxMSmV5UzVuc3hYMVR6OW56OG14X0hMRHNxTnRhMFVudXFWdEVwZDgxUQ?oc=5",
-          "description": "Erneuerbare Energie: Ökonomen warnen vor Milliardenkosten durch Biogas und Dachsolar  DIE ZEIT",
-          "publisher": "DIE ZEIT",
-          "pub_date": "2026-11-17T04:44:46+00:00"
+          "title": "Große Marken lieferten Malware-Skript durch Lieferkettenangriff aus",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd0ZwbjlxTlpKYVFkREJSTjVvMGhvc0NNQTY5LXBlMng2V2RJRWxmZUhoQ1V3ZkRleDRnTlRtb19EczNXRkFaeWQ2bG55UGJLckE0VXRwQ2JLdWVhaG5oNExtZU42V3lvaG9LU2R6V3BBdm94RmJsc3pZR01BQy1zMkxOSVQteWM4NExBeG5pSFRqRU5QSk4zdFNaLVMwZTJIMXdEZkNhbjlSYndD?oc=5",
+          "description": "Große Marken lieferten Malware-Skript durch Lieferkettenangriff aus  heise onlineÜber 180 Websites betroffen: Hacker verteilen Schadsoftware  SpiegelCyberattacken auf fast 200 namhafte Websites  n-tv.",
+          "publisher": "heise online",
+          "pub_date": "2026-11-17T13:00:00+00:00"
         },
         {
-          "title": "Nächster US-Konzern betroffen: Weitreichende Störung legt Apple-Dienste lahm - n-tv.de",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNamxUSHJ1N0NUNDJlQ2FGMDRhLTZlbHU4OGFlajNNcllncWg0VkFXSXdrSzdhWldhWDJGMDYzMzYtMElWM25mSXRLS2o3M2tVWnBuZDl6amZ0d0lnMFFMUGcxV05HZmRpNE9JQnI4LUZBQnhuZ3RFdExBaTE2Ylh0SU53UzNkYW1hb01FcXB6SG8xZjFu?oc=5",
-          "description": "Nächster US-Konzern betroffen: Weitreichende Störung legt Apple-Dienste lahm  n-tv.de",
+          "title": "Anthropic-Börsengang: So werden deutsche Anleger Aktionäre",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaTN6aXBtVUlscDkxalVwVjNoQTkzdUhrWVhoN2liVERsLTNPdUNYZWFINmxrazBwZ2JpZFBaWGM4UXkyWGZ4ZkR6d0dPbkF4Ums5SHI1VDJFVTIyTVNBRm9mLU1zNmFUVVFBNnlyMHF3aUJPMnVmRkNzNGRITUQxV190eVJxdDdEMnRpM0x1S0NRUC05bnpLVFZDVXFRMnBEYXpJbUUydi1GY0JoMWJxOQ?oc=5",
+          "description": "Anthropic-Börsengang: So werden deutsche Anleger Aktionäre  FAZ(S+) Anthropic-Börsengang: »KI-Firmen arbeiten wie Goldminen«, sagt Analyst Benedict Evans  SpiegelAnthropic-Börsengang: Wer die Aktie ze",
+          "publisher": "FAZ",
+          "pub_date": "2026-11-17T18:53:50+00:00"
+        },
+        {
+          "title": "Evonik-Aktie springt an MDAX-Spitze: BASF bereitet wohl besseres Gebot vor",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObk01RnpFVmJ1ellwYnBxWjJOcnFGeHljV3NURTdVVmhtUy1vbThBWjFRcEUzVHlBenMwdWJNd3dKVy1neGpIbGhfRGdZbk8zNUVZbzJuaHRMaDg0UmxEYm96MFR3cEZVeHo2aHAzREExcDFXdGxaRkNwa29oR3ZvLW9MckhzUmsyS3ZvcFB6ZV8tWTQtUGV1V0t6X3c4X0Rmc1dIN1BtZVdOa3VvaXM4WTJ5Nll0MUhnMVNrRzFR?oc=5",
+          "description": "Evonik-Aktie springt an MDAX-Spitze: BASF bereitet wohl besseres Gebot vor  Finanzen.netChemie: BASF bereitet neues Übernahmeangebot für Evonik vor  HandelsblattInnerhalb weniger Tage möglich: Bloombe",
+          "publisher": "Finanzen.net",
+          "pub_date": "2026-11-17T16:01:00+00:00"
+        },
+        {
+          "title": "Tesla investiert in Brandenburg: Elon Musks riskante Wette in Grünheide",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT2hfZ09oRlByVmRydjhRaVlXVElYSENLYVlEYXVOZHVqVnkwZGVKNW5NRkU0N29aTXdfQlF6ZlpGWmwxcHh3NGMyb0FzN1lXOUtlWjRYaG5kOTlHZFJ0UU9XSW9MRE9kZm1nOHdwel9xUTNDMS1lQnVTWHFUb0t2cnZDLUx5a2F0d2ZqQUJ2cGMyZ2luQzhKaHlLRGY4Z1ZENFJwUkFtaklvLXMxdm00MnhxWTdpMGpWeV82SVJPLTE?oc=5",
+          "description": "Tesla investiert in Brandenburg: Elon Musks riskante Wette in Grünheide  WirtschaftsWocheTesla Cybercab: Eine echte Kulturrevolution, die in Brandenburg anrollt  DIE ZEITStandort Deutschland: Mehr Elo",
+          "publisher": "WirtschaftsWoche",
+          "pub_date": "2026-11-17T10:45:05+00:00"
+        },
+        {
+          "title": "US-Börsen geben nach: Zinssorgen und Tech-Schwäche ziehen Dow Jones nach unten - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcUpQV2dtUVFLcDdUeEtBTHJ2TlE2M2JseWhrSEw5RTJoTy1iV3kxQjY0UjlEakJDNXVCX3p4UkR0QkhHSGNfYVNuWnlvNEdaSG9xYXlSUnU3aVZnazlfanVPMjJwbkNuMnRCelgzSW9tZ24tb21OMkRWLTdYdXJtbEhlNm5jbzF2VmxEeEJnR2ZsZmhGS3A3dXByTHFrLWFpbkVDYkc3dw?oc=5",
+          "description": "US-Börsen geben nach: Zinssorgen und Tech-Schwäche ziehen Dow Jones nach unten  n-tv.deDow Jones, S&P 500, Nasdaq: Vor Nvidia-Zahlen – Wall Street schließt im Minus  HandelsblattAktien New York Ausbli",
           "publisher": "",
-          "pub_date": "2026-11-17T19:28:35+00:00"
+          "pub_date": "2026-11-17T22:55:07+00:00"
+        },
+        {
+          "title": "US-Regierung verhängt neue Exportbeschränkungen für KI-Chips",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdDVKVVZfaW15ZGxPYzhqWEV6VEI5M2lpbENmZWtnOF82d2Q5eFU1N2toaFpKU3prZHk0V0dTWnFQZ2pKUGl6WEdrejgycVNCaVRDZXB3OXVvbXIySlljWkRKZ0JNamsxcnphUzRPZHMxemd6SC1heE53XzJyZXZ0QVY0Q3ZiMDctbTZvQ21OZWhwdDZCVk5JSWZUa3VVV1VUM1Rpb01fVQ?oc=5",
+          "description": "US-Regierung verhängt neue Exportbeschränkungen für KI-Chips  tagesschau.deNvidia-Chips und China: Asien droht der kalte Entzug  FAZInfineon-Aktie im Fokus: Trifft die US-Exportregel Chipwerte wirklic",
+          "publisher": "tagesschau.de",
+          "pub_date": "2026-11-17T07:59:00+00:00"
+        },
+        {
+          "title": "Euro verliert massiv an Wert: Energiepreis-Schock und heftige Folgen für Landwirte",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOc3dXaW43b2RGR3RqQUJEMV83U2JUSS1mSG1JR1ZOMDZ4YmNZNnlCMU5MS19KNnFFc29ORnBzdnpmdDNnSGtTbDZtUUpiVHMzd3ZwcnBhVlZJQ3dLUVhVc3FXUmtBWWpoREY1bGJDVnVfQ0l2WmRKSGk5XzVxMmp6YWVrWTctS2VLTUxFR09CLUYzVW9XSUNxdXlTWG9PcFRJWExuRTFlRUNKb2I0QXRRX0hXb2JfbXpNSkZpX0tySFRuR0MyTlM1Mw?oc=5",
+          "description": "Euro verliert massiv an Wert: Energiepreis-Schock und heftige Folgen für Landwirte  agrarheute.comFinanzmarkt: Euro auf tiefstem Stand seit 2025  T-OnlineDevisen: Eurokurs kaum verändert nahe 1,10 US-",
+          "publisher": "agrarheute.com",
+          "pub_date": "2026-11-17T10:05:30+00:00"
+        },
+        {
+          "title": "USA: KI-Rechenzentren verursachen etwa so viele Emissionen wie Dänemark",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaTcwNjhVZEt5VExfRGFoMzR6SXpMNUJIQ3JndlprUkxDRFhjWUJfalJxYTRjdGNUQmtyQ0h2SXliSmZfNi1LeFpCWEhzNUxqekhnMmo3V05SVlRwSDNtc3lMZUFhVFVyQzJJZ0pTTnhRQU56cmlhSklvM3BnTHlLeTFPaEZpbzV4cFpMMEo5bHpvTUZqekZFbTYtU210UTFwRkowS1EwdGdxclZpNE1kcnFpY1poMVB6Q0c1dTFMQUxoaHBseE1qQlZmSTNBSHBLVEhMbklELVp5YVZBdmN3?oc=5",
+          "description": "USA: KI-Rechenzentren verursachen etwa so viele Emissionen wie Dänemark  SpiegelKI-Initiative auf der Weltklimakonferenz: Wenn KI vor dem Waldbrand warnt  taz.deStudie von Harvard-Forschern: CO2-Emiss",
+          "publisher": "Spiegel",
+          "pub_date": "2026-11-17T11:20:00+00:00"
+        },
+        {
+          "title": "Exchange-Online-Ausfall: Latenter Fehler aus Juli-Fix legte Gateways lahm",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTUhudU5zSEtJdWVsX2xxUXlNN1NPYlI5WklrQU1IcHZkX3FWX0ZqUk9PZUc0dFg5NENUZGNKNW9VZHpYYk1EeExzazhVeWt1VGlpVVB4MnR5TXZhRFJxbmI0NXE5emZaQ2llTjhrcXB1OUpPeUhhRnMtTFRrZ3ZFNnl3U0NqRTZORDQyMktZaXpLOUU2VnVrYzVBZjY3YXg0NnZMVFpVVDhlaER5VW9GS193?oc=5",
+          "description": "Exchange-Online-Ausfall: Latenter Fehler aus Juli-Fix legte Gateways lahm  heise onlineEin Bug, ein Dominoeffekt - so kollabierte Microsoft weltweit  tagesschau.deMicrosoft-Ausfall: Monate alter Updat",
+          "publisher": "heise online",
+          "pub_date": "2026-11-17T06:43:00+00:00"
+        },
+        {
+          "title": "Goldpreis: Goldman Sachs erwartet neue Rekorde erst 2028",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONkF0QzRISW5nZFFTSXhKUkV6SGZrVnBiTnVtMnJOblF0cnZvZ2J2cVRXc09KVnVaMEFsQmYtdU5mdDRLMDU0RWpqQ013M0dWY2ZCa2VsdW5TaFA4NGk3ZEVUbWxSWXpvZjAyeFFxLXpFckRCajNDVDBoR0d2QkJhTmFCYmM4VElHMjlld216RFlTNkVSdk9qZzUwQ2VFNG5xb240QUJGZlZ5d1M1am44MDBTZWxqMjBIQWJDQkpmZGRYYUJhT1UzYWluUzU?oc=5",
+          "description": "Goldpreis: Goldman Sachs erwartet neue Rekorde erst 2028  Finanzen.netZinsängste belasten Edelmetalle und Krypto-Währungen  tagesschau.deGold und Silber an kritischer Unterstützung: Was Anleger jetzt ",
+          "publisher": "Finanzen.net",
+          "pub_date": "2026-11-17T06:30:31+00:00"
+        },
+        {
+          "title": "Im Check: Diese Angebote lohnen sich schon vorm Black Friday - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRFREX0psRldVZ0lZMzdTS0JvRWJ0RU5adTZtQy1NelA5QkhFRk9KUEpPZzV1V1JlWHFQc2w3T0tFR3l2T01ldEtDUXZwU1BPd3J5c3h2bFJvSTg0Snk2WGJnN3FGQ2JmNFR6UWZsNDNvMFlWSUVqQll0YlU5TnNFWXpycDRYQ1dYX0Z0UFMxeGxnNzdGd2I2MFVVZmowVXRDVGxaZEYxeVRSTUpfXzEtYVF0MEs0Slk1U3lUOXB3?oc=5",
+          "description": "Im Check: Diese Angebote lohnen sich schon vorm Black Friday  n-tv.deNovember-Rabatte: Black Friday ist vielleicht schon heute  SWRDrei Fragen an: Black Friday: Wie Sie Kaufdruck mit einem Kaffee kont",
+          "publisher": "",
+          "pub_date": "2026-11-17T07:19:14+00:00"
+        }
+      ],
+      "technology": [
+        {
+          "title": "Nvidia trotz Skandal auf Rekordkurs: Umsatz verdoppelt, Gewinn klettert",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcFFtSjFfdHpPbmJFTUt1emlFX2NFR1JNaFp5bURoSE9nRlIxZDBfOWFxZ0lmNlBiNkxocU1HVS1QMk1BN3p4Vm9hR2NwS1BUamlsLVdMTU9nMEpGbUxqWjJsTjB5YzVfQUhIbWMyYUs3UmtqYUFLMmFyMkxqMkZScENXTGFMcUVIVjRCYUhXek5xbVB0VmRsSk1IRUxIeUs2S3FyejNaTElmSHZGb21xamdtbVQzd1VvczZpOEJhejJpdjFLa3BvVV9R?oc=5",
+          "description": "Nvidia trotz Skandal auf Rekordkurs: Umsatz verdoppelt, Gewinn klettert  BILD",
+          "publisher": "BILD",
+          "pub_date": "2026-11-17T22:33:18+00:00"
         },
         {
           "title": "Jensen Huang will zurück zu Nvidia – trotz „schwerer Fehler“",
@@ -629,6 +933,13 @@
           "pub_date": "2026-11-17T19:09:39+00:00"
         },
         {
+          "title": "Erneuerbare Energie: Ökonomen warnen vor Milliardenkosten durch Biogas und Dachsolar",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVzFGZVVmOFQwUUhCczA2Wmx1R05IcjFta2dXQjFjQTcxcGluajdTUGNIY3F4V1ZBWTNRQ0VHTk5uRGJ0MGtaNUFKcFZWNzFiVkRtX0p1blI0RC01N191RnJNNHZNUDM2VGp5b2VHb1BnTHpTMkxMSmV5UzVuc3hYMVR6OW56OG14X0hMRHNxTnRhMFVudXFWdEVwZDgxUQ?oc=5",
+          "description": "Erneuerbare Energie: Ökonomen warnen vor Milliardenkosten durch Biogas und Dachsolar  DIE ZEIT",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-17T04:44:46+00:00"
+        },
+        {
           "title": "Immer mehr Cyber-Attacken: Das kriminelle Geschäft mit dem Daten-Klau",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUWdsSVFUWXhoV2ZrbldWdzdpLWxIV1o0dGJGRnlKOTdzNGtMcUVRdHBEaDVwcFRQSzNQRDRaWWM0RDRRUk9CbldfZHpsNldVUFVadmhVUk5YS1MwU2JsaFN1VkNhZlFoVHBCRldmVExCalp5ZkRoYzdxUGRBZzI5NHFCT0FMVGlKZnd1ZlhZeHVvZUJ1MFNqNlhrUXJJVGNIbENmbWs0YWdaWmNTbUtvbWd1R0dsLUlvTkZuV1JCbjhLeUpz?oc=5",
           "description": "Immer mehr Cyber-Attacken: Das kriminelle Geschäft mit dem Daten-Klau  BILD",
@@ -636,11 +947,25 @@
           "pub_date": "2026-11-17T19:07:00+00:00"
         },
         {
-          "title": "Nach Huang-Affäre: Bald alles neu in der KI-Chipindustrie?",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZl9IMmkyQUlsY3JFVXp2bVc2WE1HNFZtMnItYjZvNkkxYTFlM3pPSFlOTkxuMUNnYkxXUGVmYy1La2lzTi1rdWNjeDlOYnJJOGFJeDM0cWRIbERYNDhtRld0ZnZrT08wYndrRE5PLV9yeEFNVnRhaDZ1STYwbURfVXpKQ0N5QQ?oc=5",
-          "description": "Nach Huang-Affäre: Bald alles neu in der KI-Chipindustrie?  tagesschau.de",
-          "publisher": "tagesschau.de",
-          "pub_date": "2026-11-17T03:16:00+00:00"
+          "title": "Alice Huang: US-Behörden prüfen Spionage-Verdacht im Nvidia-Skandal",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVy13a2Z0VXhqa1lwQ0FfZVF4OS10Y2xNczFoY1luMVJsLVlmMEhFcjBteEc5Q05nMlFKUTloUEpiM2hBenZhenJpcGZYV245b0RUckQyckdaSFNQQVg5SVpoVUtUakt5cWhNUFNKRzEyMWkwYjNXVTBIelpHYkd0UDZXczcxdklnSm5NaUNwT1pfeGhsNWF4TkdieXlZQzFoNy1CQ0oyUnBMbU80ZTEzRGRvcFl1S0xBSy04V3pJVnl1eHU2WDFvZ0xLaV9CSjlvWUR4N1BaR1c4S0Nldm5JQV9pdw?oc=5",
+          "description": "Alice Huang: US-Behörden prüfen Spionage-Verdacht im Nvidia-Skandal  BILD",
+          "publisher": "BILD",
+          "pub_date": "2026-11-17T05:31:35+00:00"
+        },
+        {
+          "title": "Nächster US-Konzern betroffen: Weitreichende Störung legt Apple-Dienste lahm - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNamxUSHJ1N0NUNDJlQ2FGMDRhLTZlbHU4OGFlajNNcllncWg0VkFXSXdrSzdhWldhWDJGMDYzMzYtMElWM25mSXRLS2o3M2tVWnBuZDl6amZ0d0lnMFFMUGcxV05HZmRpNE9JQnI4LUZBQnhuZ3RFdExBaTE2Ylh0SU53UzNkYW1hb01FcXB6SG8xZjFu?oc=5",
+          "description": "Nächster US-Konzern betroffen: Weitreichende Störung legt Apple-Dienste lahm  n-tv.de",
+          "publisher": "",
+          "pub_date": "2026-11-17T19:28:35+00:00"
+        },
+        {
+          "title": "Anthropic-Börsengang: So könnte die KI-Aktie bald in Ihrem ETF landen",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1RoV3o4elkxLWJVSmN2SGk0UnF5cUdSY29zM1BoNDI1eFQzaGt0QklRUDJpNGpUS0doZUo2SzRJeGQ4RkpKTlhjZUM0RDRpSS1MQkhKcE45MHk1eEVsdmlrQkM2eE9OY2w3VEpyTTVGQnZuMUJBOW9Sa2tZY3Y1X2VBVDFPZlE5OHA4cGlNcENKY19CYnc3MUtjTVg3TkdYcEFhZU9qNE9VQ0JPWlhhd3NicndKcHRFQnFSbWk5VVlDZFpncU03a3hPQzZjRWZCbUFaNk1MM2RqVmNZOFpZR0txWGhKZw?oc=5",
+          "description": "Anthropic-Börsengang: So könnte die KI-Aktie bald in Ihrem ETF landen  BILD",
+          "publisher": "BILD",
+          "pub_date": "2026-11-17T18:11:14+00:00"
         },
         {
           "title": "Affären-Skandal um Nvidia-Gründer Huang: Darum gehen so viele Milliardäre fremd",
@@ -650,18 +975,18 @@
           "pub_date": "2026-11-17T20:40:47+00:00"
         },
         {
-          "title": "\"Operation Vivaldi\": Wie ein deutscher Leopard-Panzer 45 Drohnenangriffe überstand - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ0FMMjFSa3lma0cxU3VtMHZad0lpTm1ydW1sWnRXNXlZRmxidjBfTkVrYUlRWk9oWTBLdjAtVWo4TkVCSC1xMDQ1Ym9Da3ZxVjBFcW1vWEFKbTJib3lIWVExRkJNTWVlcXJqcmZmd3hRY0x0c0JrZDJGblMwUGFsRUYyV0JCT1RQdXAyNzZQaW5IRjY5ejdVOFBiVEZldC1OLW9SX2JLZmptRDhlcVZPbFRhYkJ5WTNqaV9sMkkxbWpucHJLV3lVZVZzcw?oc=5",
-          "description": "\"Operation Vivaldi\": Wie ein deutscher Leopard-Panzer 45 Drohnenangriffe überstand  T-Online",
-          "publisher": "",
-          "pub_date": "2026-11-17T14:33:26+00:00"
+          "title": "Nach Huang-Affäre: Bald alles neu in der KI-Chipindustrie?",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZl9IMmkyQUlsY3JFVXp2bVc2WE1HNFZtMnItYjZvNkkxYTFlM3pPSFlOTkxuMUNnYkxXUGVmYy1La2lzTi1rdWNjeDlOYnJJOGFJeDM0cWRIbERYNDhtRld0ZnZrT08wYndrRE5PLV9yeEFNVnRhaDZ1STYwbURfVXpKQ0N5QQ?oc=5",
+          "description": "Nach Huang-Affäre: Bald alles neu in der KI-Chipindustrie?  tagesschau.de",
+          "publisher": "tagesschau.de",
+          "pub_date": "2026-11-17T03:16:00+00:00"
         },
         {
-          "title": "Alice Huang: US-Behörden prüfen Spionage-Verdacht im Nvidia-Skandal",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVy13a2Z0VXhqa1lwQ0FfZVF4OS10Y2xNczFoY1luMVJsLVlmMEhFcjBteEc5Q05nMlFKUTloUEpiM2hBenZhenJpcGZYV245b0RUckQyckdaSFNQQVg5SVpoVUtUakt5cWhNUFNKRzEyMWkwYjNXVTBIelpHYkd0UDZXczcxdklnSm5NaUNwT1pfeGhsNWF4TkdieXlZQzFoNy1CQ0oyUnBMbU80ZTEzRGRvcFl1S0xBSy04V3pJVnl1eHU2WDFvZ0xLaV9CSjlvWUR4N1BaR1c4S0Nldm5JQV9pdw?oc=5",
-          "description": "Alice Huang: US-Behörden prüfen Spionage-Verdacht im Nvidia-Skandal  BILD",
+          "title": "Optimizely-Hack: Schadcode auf 178 Webseiten von CNN bis IKEA entdeckt",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGJiNDVFUms1X256TllxNXotYnA5c0MtQVowYkNBX2dSUU5HcE1MVVBrcDdKVXA5Tmo3d2RZSUEtbzJZLUtOU3lzR2YycHlQYzJqNlZrSDFIR3JySV8yLVp0VUNOTnZ1bHRHVVV2R2RCSTQ0YVRfZW9XbTIxdzkwOW9uRkZpaVpuMmNib2tTbHMzam54d2ZVRnlXMnZaN1paM2piQWpMYTdmVGE2UjY1bGFoMTVBY3BzUENTSEZzNEVlZlh4VkpTaFF5MmRNdEZM?oc=5",
+          "description": "Optimizely-Hack: Schadcode auf 178 Webseiten von CNN bis IKEA entdeckt  BILD",
           "publisher": "BILD",
-          "pub_date": "2026-11-17T05:31:35+00:00"
+          "pub_date": "2026-11-17T09:43:36+00:00"
         },
         {
           "title": "Nokia-Aktie unter Druck: Was der NVIDIA-Teilausstieg wirklich bedeutet",
@@ -678,6 +1003,13 @@
           "pub_date": "2026-11-17T04:00:00+00:00"
         },
         {
+          "title": "Deutscher Leopard-Panzer überstand woh 45 Drohnenangriffe im Krieg in der Ukraine - T-Online",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVTQzOTNCdzF2VjdhRkNITUxuY0NqSkJXNnR5LS1PcHdwMnRWUHg0eDgzN2xDV1UxR2xvUDNYYURJckRnQ0s5ZTVwQ1kyQUY5Z2tqSjgtRXNTdG14WUJwZzZ3cnAzOTdqZlJHQkZ2MGQxRlh0emVmUVB1TXJMbVNIcDZfcE9STi1hU25Mcmo5dmY2ZjdpXzhGMHJoTGo1aU9vS0MwWTNEaHN6T3pnbktlRVhWOEpUUnE0eHlONHg4YmZWOGlKTllqNmw3TnZMQTVOQkpv?oc=5",
+          "description": "Deutscher Leopard-Panzer überstand woh 45 Drohnenangriffe im Krieg in der Ukraine  T-Online",
+          "publisher": "",
+          "pub_date": "2026-11-17T14:33:26+00:00"
+        },
+        {
           "title": "Tesla Cybercab: Eine echte Kulturrevolution, die in Brandenburg anrollt",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdC1WUTdZLWlYX2F1TGEzbE5WeE1seXRKb3FXMnNwWmdSelRyWENJWTFvWHdWMDhsanlNUlF6NWdNczlJSVQ0ZFdEc2wtV25kMHRoTnZMeVpack0xV3Q1c1lYVUFqV2IzT2pDXy12YVlVMlhRZXZCMmEzQ0xYVTQxWWtKSVMzVHNYbjdZ?oc=5",
           "description": "Tesla Cybercab: Eine echte Kulturrevolution, die in Brandenburg anrollt  DIE ZEIT",
@@ -685,55 +1017,41 @@
           "pub_date": "2026-11-17T12:39:26+00:00"
         },
         {
-          "title": "Anthropic-Börsengang: So könnte die KI-Aktie bald in Ihrem ETF landen",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQY1RoV3o4elkxLWJVSmN2SGk0UnF5cUdSY29zM1BoNDI1eFQzaGt0QklRUDJpNGpUS0doZUo2SzRJeGQ4RkpKTlhjZUM0RDRpSS1MQkhKcE45MHk1eEVsdmlrQkM2eE9OY2w3VEpyTTVGQnZuMUJBOW9Sa2tZY3Y1X2VBVDFPZlE5OHA4cGlNcENKY19CYnc3MUtjTVg3TkdYcEFhZU9qNE9VQ0JPWlhhd3NicndKcHRFQnFSbWk5VVlDZFpncU03a3hPQzZjRWZCbUFaNk1MM2RqVmNZOFpZR0txWGhKZw?oc=5",
-          "description": "Anthropic-Börsengang: So könnte die KI-Aktie bald in Ihrem ETF landen  BILD",
+          "title": "Cyberangriff auf Restaurants: Hacker wollen an das Geld der Gäste",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYm1UMGFpUXVmZWZEeW1LYjhDTzExeE1RNG8zdEdwN1QtN2NPYWJ2c2NKMS1lNVVib1JlbzJtYVo4VHBQOGNuRXItRDJOS2Y4N1NVQ3ItR3lqVGktNlNpby11Y19iUE05ajhLYm1ZVmo4dnl6LUpQY3BsaGtCT3BaTjU1c2lWZHRyb2wtS2xCQXhyOVhSU0N1VjlhWlhUeUVWN0RMaXQ2S1NGMjhlR1RaNHF3TVFRdjFkYTZNSmozOA?oc=5",
+          "description": "Cyberangriff auf Restaurants: Hacker wollen an das Geld der Gäste  BILD",
           "publisher": "BILD",
-          "pub_date": "2026-11-17T18:11:14+00:00"
-        },
-        {
-          "title": "»NSA Net«: Internes Netzwerk von US-Geheimdienst NSA gestört",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYTlLWjlINlRPMW9kdVNObm1ObVVJNXEtdTQ5bDduMjFkUGx6eDl0TkF3RVR0dkpsbURxM0pZcFpPUy1xdWkyU3lOUEJIbXAtcEdrRGFWSUNRd0ZadUdXOVdfUXlTelNNT0FxTHJORUtHc0tpbVFudGx0Y0tKWDNXS1hZNXJqZTc2SEdFdXpQYXVPalhkZl9QbDkwV09ZQ0YyT0YyUk1aVEV3QVNDZk5qX3ZIYXpYeVcxRFdzUWlCMXhscFBpWGpr?oc=5",
-          "description": "»NSA Net«: Internes Netzwerk von US-Geheimdienst NSA gestört  Spiegel",
-          "publisher": "Spiegel",
-          "pub_date": "2026-11-17T20:10:00+00:00"
-        },
-        {
-          "title": "Optimizely-Hack: Schadcode auf 178 Webseiten von CNN bis IKEA entdeckt",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGJiNDVFUms1X256TllxNXotYnA5c0MtQVowYkNBX2dSUU5HcE1MVVBrcDdKVXA5Tmo3d2RZSUEtbzJZLUtOU3lzR2YycHlQYzJqNlZrSDFIR3JySV8yLVp0VUNOTnZ1bHRHVVV2R2RCSTQ0YVRfZW9XbTIxdzkwOW9uRkZpaVpuMmNib2tTbHMzam54d2ZVRnlXMnZaN1paM2piQWpMYTdmVGE2UjY1bGFoMTVBY3BzUENTSEZzNEVlZlh4VkpTaFF5MmRNdEZM?oc=5",
-          "description": "Optimizely-Hack: Schadcode auf 178 Webseiten von CNN bis IKEA entdeckt  BILD",
-          "publisher": "BILD",
-          "pub_date": "2026-11-17T09:43:36+00:00"
+          "pub_date": "2026-11-17T13:32:36+00:00"
         }
       ],
       "entertainment": [
         {
-          "title": "Robert Pattinson als James Bond: Britisches Königshaus reagiert",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU2dlN3Y1aWNVYU5vdEVLMEJPaVVldzF4YklTek8yY3EyR3pMaWp4SHpoNmlVU3VRbXM5Y2dDR2JPSnVoVHEtVDRwUTYyX3ZZQlVSSHQ1dnVBSmZXY3BSYnd4eDRZWHNZbmRlZU5lOVpLSEpTS1YwcERtMzN3YjEzS05iSk5sY1NnVHF2MFdLTWFJWm5UV2JaTDR5ZHZrUVM0ZWJzUkYyeTRuUTZRZ21wMQ?oc=5",
-          "description": "Robert Pattinson als James Bond: Britisches Königshaus reagiert  STERN.deRobert Pattinson wird neuer James Bond - Nachfolge von Daniel Craig  tagesschau.deDer Mann, den alle lieben wollen  STERN.deJam",
-          "publisher": "STERN.de",
-          "pub_date": "2026-11-17T08:13:00+00:00"
+          "title": "\"Geheimdienst Seiner Majestät \": Britisches Königshaus heißt Robert Pattinson als 007 willkommen - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb0gxYWdVbnV3LW1paHQyNndPVTBhRUVBVTdBSFNSTkN6TjFYZHNnSElVVldXUEtVQl9pUlBFSnl5X05qazlCWlFSeFpYamt3MFE2cDB0aEVkYlYwTDhVT0lHUlhnWnk1M1Jwd1FOWElGYW9wdXZMczBhRmdTamdzdC1namVwa0xoWnJaODRCdGh4S2FsSU4wRC1lMXZJaXNoUE0wbW1ReWhKX0U?oc=5",
+          "description": "\"Geheimdienst Seiner Majestät \": Britisches Königshaus heißt Robert Pattinson als 007 willkommen  n-tv.deRobert Pattinson wird neuer James Bond - Nachfolge von Daniel Craig  tagesschau.deRobert Pattin",
+          "publisher": "",
+          "pub_date": "2026-11-17T15:14:07+00:00"
         },
         {
           "title": "Das Baby ist da! Anne Hathaway ist zum dritten Mal Mama geworden",
           "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWmoyT19mLUN3MGpub0VCbk1KaDBQVTFxY29XalhEaGktRUd1b0RjR0NVeXp5aGI2TDhieDlzeW9QQWhNdXhXdkZCMGRreWdCSHd5a2lKZDdlNTR5WFhyQ0NaQUNwbTIyaVJpZzVCVlVKcEJmMy1COW1XMHVFMGxyWVEwem1ac09CdzVLZGUyN1VaN0NnaVZ3eDFfQWZEakxWMHV5YkNiSmVYdWFxdmJBX0RKdzRNMmQzUDI5STJZb0dCeC1nYy1EV1VyNnJtYTRFYXYxNmZDRW9VaUtZemNaQno0YVFmYVk?oc=5",
-          "description": "Das Baby ist da! Anne Hathaway ist zum dritten Mal Mama geworden  BUNTE.de",
+          "description": "Das Baby ist da! Anne Hathaway ist zum dritten Mal Mama geworden  BUNTE.deAnne Hathaway hat ihr drittes Kind bekommen  STERN.deAnne Hathaway ist wieder Mama: Ihr erster Auftritt mit Baby  PromiflashAn",
           "publisher": "BUNTE.de",
           "pub_date": "2026-11-17T23:19:00+00:00"
         },
         {
-          "title": "Unerwartete Aktion in Mumbai: Prinzessin Kate ändert kurzfristig Pläne",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZE5GSml3V0VocjNHMDBFWXpWZk95cmxNLWJqMzlfMmN2ZmNZa3hvVExQSmJTVGlGc21rQ1Nrcm1jcnByQ2dpakNvMVhkVUhqV0R1aUFnVklJSy1DWW5SMW9GeFpkclZ4MEY0UkNkWThUUkJzeDZueDFqTzRJNElpZlBKbkRZNElHWV8yVXUybnAzNDA2UGtJaHZmR3pRb0VIc0huSEVtZnlLU0tCbDgzZEZR?oc=5",
-          "description": "Unerwartete Aktion in Mumbai: Prinzessin Kate ändert kurzfristig Pläne  KurierPrinzessin Kate und Prinz William verzaubern Bollywood  BILDWow-Auftritt in Indien: William und Kate strahlen bei den \"Ear",
-          "publisher": "Kurier",
-          "pub_date": "2026-11-17T09:05:00+00:00"
+          "title": "Mit Tuk-Tuk, U-Bahn und zu Fuß: William und Kate erkunden Indien",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSXBOOFFfb0gtcjhkZXdfZl9oaFprWXJ3WWNEbkZPUGx3ai1xSHNzMWctS2NBelFCbzZyOXNBamFsdFM4VFZmYXhaQzZoWU9scnkzRzhySVFBSjJ6Ulp5X04tV2RDei1zbjFHMjRkVklmQTF5WnUwY3J0eEJrVS1RUFpROHFXeGl4SVFJWjFhT1prWWh6M2RoLUZMbXZrRnNLbUp0Z3NkZUgzNlBZTkdwajBGTWdhamc?oc=5",
+          "description": "Mit Tuk-Tuk, U-Bahn und zu Fuß: William und Kate erkunden Indien  STERN.dePrinzessin Kate und Prinz William verzaubern Bollywood  BILDWow-Auftritt in Indien: William und Kate strahlen bei den \"Earthsh",
+          "publisher": "STERN.de",
+          "pub_date": "2026-11-17T16:47:00+00:00"
         },
         {
-          "title": "Wolf Biermann zum 90. im Berliner Ensemble: „Seelenbrot“ zum Abschluss",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZFZVM3lmSnpIZEZEaThvdkx3dGtXRnI0clJMUktsM0VOSlNBcjRNeTlYNU9BNlVaVEh2aGF0clZoOWVDTmdvMFl3ZjNDRTJweENIS2ktZEVzNUwyYWRpaFlfdEdsQkNZeDNJNTMwSFRiNjhBbmdaMUxXeWhnOC15X0paWXFTa2U5Vy1sV3lYM29oUHlBangyMHdQZ0tOWTQ4ekRBeGF0c2dhVEw2b01TeldfODhoMnVrS2VWaXhSeU03alRVZEpQdw?oc=5",
-          "description": "Wolf Biermann zum 90. im Berliner Ensemble: „Seelenbrot“ zum Abschluss  BZ Berlin90 Jahre Wolf Biermann: Deutschlands unbeugsamer Liedermacher  BILD(S+) Wolf Biermann: Warum der Liedermacher die DDR v",
-          "publisher": "BZ Berlin",
-          "pub_date": "2026-11-17T17:13:24+00:00"
+          "title": "„Sehen uns auf Wolke 7“ – Abschiedsbrief enthüllt letzte Gedanken der Kessler-Zwillinge",
+          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNaWVOOGYyY1plV0VxbWlaZ1FZbzF3LWM4YmdiUmhOLU9OZG9BWjNGdk1zSzVFUXpoY3FCWERmZ0VuRVlDWXVhUXBqanJTbTZJeWxtRkZueGloX2I1TGVMNFUwRTVMLTF1d2ozSW5ZMnlMS3V5OWhmYTZObnItYXF1a0FJTUdNYy02Vko3TUt2M1lTd3VOcmhMWEZ4NGtZcXVUVTlmNHFOWmluOXNrd19WY1lPUUVmdlhnUFFMenR4NTVJcGRGRTBCNFZFV2dIdHhBTVpGSnlXczREd29GYkVRZExia21VcFZySkxBc1pEY0hYcjE1clhqcmVBd0ZiZDFCRGF6M2dxTFFEcWJvUWduLWlteENOQQ?oc=5",
+          "description": "„Sehen uns auf Wolke 7“ – Abschiedsbrief enthüllt letzte Gedanken der Kessler-Zwillinge  WELTAlice und Ellen Kessler: Der komplette Wortlaut ihres Abschiedsbriefes  BILDAbschiedsbrief der Kessler-Zwil",
+          "publisher": "WELT",
+          "pub_date": "2026-11-17T16:17:47+00:00"
         },
         {
           "title": "Thomas Markle jetzt auf den Philippinen in drei Punkten angeklagt",
@@ -750,18 +1068,18 @@
           "pub_date": "2026-11-17T09:00:51+00:00"
         },
         {
-          "title": "Kritik zu Die Tribute von Panem - Sunrise On The Reaping: Zum Abschluss ein Best Of von \"Die Tribute von Panem\"",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9BYXlpamdpTzB4MlB4MVNIMGwxeVB2MVZURXgyNlVIQWRhRnZmVHpmUTJ1aDBOVnMtTGUxd25maWVJZkU0OHJubEJrb0plV2pQV0dmNWFNWFA2TFBNaEhWSjQwM1I4NGVB?oc=5",
-          "description": "Kritik zu Die Tribute von Panem - Sunrise On The Reaping: Zum Abschluss ein Best Of von \"Die Tribute von Panem\"  Filmstarts\"Sunrise on the Reaping\": Ein Revolutionsversuch im Kino  BRNeuer „Tribute vo",
-          "publisher": "Filmstarts",
-          "pub_date": "2026-11-17T14:23:37+00:00"
-        },
-        {
           "title": "Die \"Neue\" bei \"Rosenheim-Cops\": Miriam Stockls Nachfolgerin schmeißt jetzt den Laden - n-tv.de",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ3J3TWY3MDdPblRzUThmZEszekpYT1Z6d3AySVNFWno5ZEZicHQ3QThiUFRLckNmY3RlYkx2dm51cHBlMkRjZ2xYTjZTU1NOdjNpVW4xdXEtRVZVdGw4TDctVzRzb1lfREpqeE9ZZlJ6Ti0zMFpOd09DbG1sbEpBR1pMazhraVZaa1BJVGI2MEFvWWtKY29uZ1N2SQ?oc=5",
-          "description": "Die \"Neue\" bei \"Rosenheim-Cops\": Miriam Stockls Nachfolgerin schmeißt jetzt den Laden  n-tv.deAbschied bei den „Rosenheim-Cops“: Es hat sich leider ausgestockelt!  RP Online\"Rosenheim-Cops\": Sarah Tho",
+          "description": "Die \"Neue\" bei \"Rosenheim-Cops\": Miriam Stockls Nachfolgerin schmeißt jetzt den Laden  n-tv.de\"Rosenheim-Cops\": Sarah Thonig spricht über Christin Langes neuen ZDF-Job  T-OnlineAbschied bei den „Rosen",
           "publisher": "",
           "pub_date": "2026-11-17T16:39:54+00:00"
+        },
+        {
+          "title": "Wolf Biermann kehrt zurück in seine Berliner Nachbarschaft – nach seinem Tod",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWjNWYlRpZ1VmdWdDV0U1YVhaS1hBVE1QRUtWRElNS09MbXQtTHZhb0RaX0d4U0xaYXZpdVRZMHdYV3FzM2JQdmo3c1VQZjF1Z1FnTTBlR3FVQldoakFuVjZsakVjeHFnd0dxbkZTSFZybFFaX191M19YQm02VWxCQVhhTHpaNExfSDVyUFJWMFhRSHh0NnFBaHhR?oc=5",
+          "description": "Wolf Biermann kehrt zurück in seine Berliner Nachbarschaft – nach seinem Tod  Berliner Zeitung90 Jahre Wolf Biermann: Deutschlands unbeugsamer Liedermacher  BILD(S+) Wolf Biermann: Warum der Liedermac",
+          "publisher": "Berliner Zeitung",
+          "pub_date": "2026-11-17T06:07:08+00:00"
         },
         {
           "title": "Schwächste Quote seit 16 Jahren: Münster-„Tatort“ muss ein zentrales Problem in den Griff bekommen",
@@ -769,6 +1087,13 @@
           "description": "Schwächste Quote seit 16 Jahren: Münster-„Tatort“ muss ein zentrales Problem in den Griff bekommen  KINO.DETatort aus Münster: So erklärt der Sender den Zuschauerrückgang  STERN.deGA-Krimikritik: Der ",
           "publisher": "KINO.DE",
           "pub_date": "2026-11-17T08:39:26+00:00"
+        },
+        {
+          "title": "Kritik zu Die Tribute von Panem - Sunrise On The Reaping: Zum Abschluss ein Best Of von \"Die Tribute von Panem\"",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9BYXlpamdpTzB4MlB4MVNIMGwxeVB2MVZURXgyNlVIQWRhRnZmVHpmUTJ1aDBOVnMtTGUxd25maWVJZkU0OHJubEJrb0plV2pQV0dmNWFNWFA2TFBNaEhWSjQwM1I4NGVB?oc=5",
+          "description": "Kritik zu Die Tribute von Panem - Sunrise On The Reaping: Zum Abschluss ein Best Of von \"Die Tribute von Panem\"  Filmstarts\"Sunrise on the Reaping\": Ein Revolutionsversuch im Kino  BRNeuer „Tribute vo",
+          "publisher": "Filmstarts",
+          "pub_date": "2026-11-17T14:23:37+00:00"
         },
         {
           "title": "Florentina Holzinger ist die wichtigste Person im Kunstbetrieb 2026",
@@ -785,13 +1110,6 @@
           "pub_date": "2026-11-17T15:05:57+00:00"
         },
         {
-          "title": "SPIEGEL Buchpreis 2026: Tony Tulathimutte gewinnt mit »Fiasko«",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQzU1NWJSS0VWSlh6am8wVUUyVWt0a3BweHU4bnhjMjJTX0stNEZJMGU4QUNwbDNoWWJ5MFpDMFUwa0hYc1BFaVhCQkE3dVN6dnE1V2RsTDhrbzJvNWJ3SmZqN3BRZUhZekZXRHI0SnJ6dDkxQkdIZjFENk54WERnUmI4cE5FSWk5SXAwdGFhQXh0SFVtOVpRdUp1VVlCSDhhcDl1OEVSNmtpWGQ4UGNZNGtQZDBGUkxGQTh2bFBuT1piWlR4NWJBbEZOT2hhd19DRkwwUQ?oc=5",
-          "description": "SPIEGEL Buchpreis 2026: Tony Tulathimutte gewinnt mit »Fiasko«  Spiegel(S+) SPIEGEL Buchpreis 2026: Tony Tulathimutte über Schmerz in der Literatur  Spiegel„Fiasko“ – der „Spiegel“ findet, dass dieses",
-          "publisher": "Spiegel",
-          "pub_date": "2026-11-16T18:20:00+00:00"
-        },
-        {
           "title": "Angefahren und liegen gelassen: In Sachsenklinik tun sich Abgründe auf, während es Jenna schlechter geht",
           "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNZjdPX0dqbEtJZENMT2s4TEZYY1NKSFZTTnQySFNSVjN0emE3S09MWnJEMWlRcF9ILVRjb1oxckFPWENsQ0d4VDJRYmZ1WkJqbUZVRVhjSW9zRFZhdFd2MnA1bXhHN0s1bjYtZllrMS1GWjM0YnFkTXpnRjgwcU4yMUp0cHctLV9sc2ZEMTJoNG9mdmpub3RhYzk5S2V1ek9FUG9EeUlkYUp5NnljM1l3OF8xOGxVUk5UaW5qX0QyaGI2ejVnYWRRS2tBTUVfZ2NNWHR2OUxla1pSM1I2YVpnWVZmczctUzc2M082eE9DckUzZGl5ZVJlMWxZNmtLd3ZF?oc=5",
           "description": "Angefahren und liegen gelassen: In Sachsenklinik tun sich Abgründe auf, während es Jenna schlechter geht  TAG24\"In aller Freundschaft\"-Vorschau: Droht Miriams Sohn Cosmo eine Gefängnisstrafe?  Joyn\"In",
@@ -799,134 +1117,140 @@
           "pub_date": "2026-11-17T05:28:00+00:00"
         },
         {
+          "title": "SPIEGEL Buchpreis 2026: Tony Tulathimutte gewinnt mit »Fiasko«",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQzU1NWJSS0VWSlh6am8wVUUyVWt0a3BweHU4bnhjMjJTX0stNEZJMGU4QUNwbDNoWWJ5MFpDMFUwa0hYc1BFaVhCQkE3dVN6dnE1V2RsTDhrbzJvNWJ3SmZqN3BRZUhZekZXRHI0SnJ6dDkxQkdIZjFENk54WERnUmI4cE5FSWk5SXAwdGFhQXh0SFVtOVpRdUp1VVlCSDhhcDl1OEVSNmtpWGQ4UGNZNGtQZDBGUkxGQTh2bFBuT1piWlR4NWJBbEZOT2hhd19DRkwwUQ?oc=5",
+          "description": "SPIEGEL Buchpreis 2026: Tony Tulathimutte gewinnt mit »Fiasko«  Spiegel(S+) SPIEGEL Buchpreis 2026: Tony Tulathimutte über Schmerz in der Literatur  Spiegel„Fiasko“ – der „Spiegel“ findet, dass dieses",
+          "publisher": "Spiegel",
+          "pub_date": "2026-11-16T18:20:00+00:00"
+        },
+        {
           "title": "Kultur: Nailaerin erhält deutschen Theaterpreis",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYXJUUW90Q2p1bkNYSGRZQTJjQy1CTDdfaXBQX1QyenNOeEtSVndvbG5wSnJZUHBLdE9Lbk1GbTQzamloWkJ3WWRoTUZ1MHlfSVZFeUZtT25YbklZcDdnbWE5V0NUcjZpc2pQNloxeDFzRmVYdmNtMk8tSHlGU1EyX2pFVjJqOVpIanVVNF9FMkNXMDBqVzZlQ0wxV0pXd0hOZy1ZQms3bUI3Y0Q3cXprS0VRNzZKN2lkTVQ2WXdDZU0?oc=5",
           "description": "Kultur: Nailaerin erhält deutschen Theaterpreis  FrankenpostLeichte Sprache: 4 Theater aus Mittel-Deutschland haben einen Preis bekommen  MDR.deTanz: \"Faust\"-Preis für \"Giselle\"  3sat-MediathekJens Ha",
           "publisher": "Frankenpost",
           "pub_date": "2026-11-16T15:34:41+00:00"
-        },
-        {
-          "title": "„Bauer sucht Frau“: Was Andi in der Nacht vor seiner Entscheidung durchmachte",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdUd0a0pwZG1mejhtQzhSUGVfWHNQU3Vzc1paSW83OHAtbEdvY01CbUFDclhnX2tIUk54VDZBTGZ5TFBBcTNMUWE3dHJyVTBzWkxPN25JaVVZTnhpRTExTkZWcThFSFlERFNSSDI1RjUwZ0VwT2V5NVZVdUlLQ0YzcWo1X0dFdnV3ZWt5aDNRbEVEV0xUN1M0aGJWRF9rLXVod1c2ejQtdkQwWVA2bW9UNHJzbW1ITVdWdk5IY0ZockZuUzgyOHdJMEd3?oc=5",
-          "description": "„Bauer sucht Frau“: Was Andi in der Nacht vor seiner Entscheidung durchmachte  Gmünder Tagespost„Bauer sucht Frau“: Andreas schickt beide Hofdamen nach Hause  STERN.de„Bauer sucht Frau“: Darum verprel",
-          "publisher": "Gmünder Tagespost",
-          "pub_date": "2026-11-17T16:09:00+00:00"
         }
       ],
-      "sports": [],
-      "health": [
+      "sports": [
         {
-          "title": "Weltdiabetestag – Informationen zu Diabetes für alle Interessierten",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUzdtd25sc0ZYVi14czJHbFlyandYaDZzUUJPYk91X09YejhqUlRfaXJPUHN3RVlydUN0eDN3X18wNV9IYzVWVjZaeGtWaDVHQUZqbm5hZXJMMHNwWUoxc1U1VUo1b3dHdGRpbjZPa2lyOHhuQjRDekJvTXhwSzlkMTE0aHdXNWZXUWJZZXFHZHpKa0JRTS1aVG5YM25XVVlBZzhmakUxS2NGM2M?oc=5",
-          "description": "Weltdiabetestag – Informationen zu Diabetes für alle Interessierten  Radio Gong WürzburgDiabetes in Deutschland: Die Versorgung droht zu kollabieren  Frankfurter RundschauLions Club Pinneberg informie",
-          "publisher": "Radio Gong Würzburg",
-          "pub_date": "2026-11-17T09:00:50+00:00"
+          "title": "Tennis im Liveblog: Zverev gegen Shelton bei den ATP Finals – die besten Bilder des Spiels",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWXI2QmQyVkdlY2pxdUNTSjdKZ1F4V21DalBUTGdIakkxa29sZ0VKc1pSQWtnelJNZVdLSVVkaG95bGNIaHpROWJhLXN2SXhxYVUybkI4Q3RsamJWUUpyV2ZmNDQ0Nkl3dmRXbDlnYlZrQ2JQYjVwNmFvbS1FQkhUTTVRV2FRYlFoMHZZb2R5YjY0NXVVYXJjNUQ2M05QN2RzQzZlSkVvWC1ZRmstSXc?oc=5",
+          "description": "Tennis im Liveblog: Zverev gegen Shelton bei den ATP Finals – die besten Bilder des Spiels  RP OnlineWoltemade sieht wichtigen Zverevs Halbfinaleinzug bei den ATP Finals  BILDMit Zauberschlag zum Sieg",
+          "publisher": "RP Online",
+          "pub_date": "2026-11-17T21:55:00+00:00"
         },
         {
-          "title": "Alzheimer: Warum Vergesslichkeit nicht immer das erste Symptom ist",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV2FCVTM1ejByWl9GeE9QRDVfcFM2bTVXenI5ZWxpTExQTUlCRmIzeWJGV09hNEU3OTBKZm0tUGFTT18zYk9WS1prVC1HZktLZ2RzQ29RcDlnem93TEh0ZjRzWHZlSDdFOFFNLXJjbkhWeEZiTUxqUmVlT2lKU0pBY2ZIaw?oc=5",
-          "description": "Alzheimer: Warum Vergesslichkeit nicht immer das erste Symptom ist  WEB.DEHörverlust: Schwerhörigkeit kann das Demenzrisiko auf das Fünffache erhöhen  ad-hoc-news.deHörgeräte bei Demenzrisiko: Studie ",
-          "publisher": "WEB.DE",
-          "pub_date": "2026-11-12T03:46:38+00:00"
+          "title": "Testspiel: Deutsche U21 verliert Regenschlacht in Kroatien",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWlFabU5SR0lWNGpMZUNoNGl0NG92bHhNSU1wOTFOWFVvXzR2N0k4eHI2S2oyMUhsbS1mTVpmX2pPaU1DSmxRZXhCRTI0NXRZZWZvOVcwTVJWUDBsakFqU1JzTHZqckhJNTExMlRhZUVvZ0Vsb1E2d0VvZmNJVWNSb1lrOHdUTll0N0FkNnc2Vk9PUU5ERHJieGhfX2RhR284NFZiVXhvczZ0M3VvYUpEMVhtZ1ByeFFQYVZyRUdCWTc1WnpwUTFqTXVDdkI?oc=5",
+          "description": "Testspiel: Deutsche U21 verliert Regenschlacht in Kroatien  sportschau.deDeutsche U21 verliert verrückte Regen-Schlacht in Kroatien  BILDDi Salvo: \"Das war Pingpong und nur ein Charaktertest\"  Deutsch",
+          "publisher": "sportschau.de",
+          "pub_date": "2026-11-17T19:56:18+00:00"
         },
         {
-          "title": "Onkopedia-Leitlinie zur CLL nimmt Pirtobrutinib in die Erstlinie auf",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBSR214OVlWajNaR0tTN2FBS2tnY0drbWtZald2a3kzaGFJZVEtZ1RkN1g2d0lJWkVmcFFQYU9qZC1Yd0dMWDUybzJsZ3lJblJTd0taYmxmbFV2bFczV1d1R1VWcjdpTW1TRHljUzZVTUVNNVM1TDRsemdSbW1oUQ?oc=5",
-          "description": "Onkopedia-Leitlinie zur CLL nimmt Pirtobrutinib in die Erstlinie auf  Gelbe Liste",
-          "publisher": "Gelbe Liste",
-          "pub_date": "2026-11-16T08:00:00+00:00"
+          "title": "So lief das Spiel Dänemark vs. Norwegen in der Nations League: Haaland schießt Wikinger in Skandinavien-Duell zum Sieg",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYnlxTFR0aDYyQXZTU3AwMXRBV1UtWFdQcWVROWxIQ0o4LXYxaUxZVjhPd3JKOWZGVFFlRnM0ZGxoaUFHMVpRRzQzYkkxTWVLbm5xdXJxbllqSFpnUHI2MEtpeGRiWl8xbFZJYTV4c1JrNkxuZ2ptMnJzQ0lOOFAwb05fUC1zRWI1MmhVak1jZnROdTVMdG9NYVZhb1E2eGFTMzVlcWVKbXk2MWNJcUNYVDlmMTBxWU0?oc=5",
+          "description": "So lief das Spiel Dänemark vs. Norwegen in der Nations League: Haaland schießt Wikinger in Skandinavien-Duell zum Sieg  EurosportUEFA Nations League Spieltag 6: Haaland führt Norwegen ins Viertelfinal",
+          "publisher": "Eurosport",
+          "pub_date": "2026-11-17T21:49:47+00:00"
         },
         {
-          "title": "Zu hohe Zuckerwerte im Blut: Wie kann die Ernährung helfen?",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeGVqV2tndW0wODRrcmJmN3pycUZFSVk5UmNCY3VLWkZnTGUxaGwtUVEwQUQwMFI3Qlo0VDVza2ZqcWN1RWRDMjY0Z3N3amhLTVFySDZrR2psUnV0bTJOQ19KOHM5ZmJ3OVNsUmxPYWdzRlh6Q2hNaWJNOFYtUTBGTGUyQ0VJNEctTV9jNlhiX2d5UTBUbDhOZWx6U3hDWmpqTGhlWTJQRzZNQ3lwN3U3ZzZIMTN6S3l6aVFVUlJpSjI?oc=5",
-          "description": "Zu hohe Zuckerwerte im Blut: Wie kann die Ernährung helfen?  Südtirol NewsVorschau: Die Ratgeber • Ernährung bei Diabetes  ARD MediathekDiabetes-Zahl weltweit vervierfacht: Was wirklich gegen Zucker h",
-          "publisher": "Südtirol News",
-          "pub_date": "2026-11-17T08:39:54+00:00"
+          "title": "Einzug ins Viertelfinale der Nations League Deutschland gewinnt furios mit 5:0 gegen die Niederlande",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLXF2UWdhUEd4ZUV0bDlweVBUZTB0M3V4NzMzLVBJVUVlWGRQUTN6WkkzeGFCVC13T25QMmxNU1hBWTNPQWtJQU02T3o4QXpJWVQ0XzBSQkNOUFEwNDhSUkh2aDFIbVJWemVpTi1XZEFOZExxbjZvRnR6QXRXYVM2ZkFOMzhBYzhZUVV2cjU5S29lcERLYlE4b254eHhPekJWRkRKMC1xQXhMLVU?oc=5",
+          "description": "Einzug ins Viertelfinale der Nations League Deutschland gewinnt furios mit 5:0 gegen die Niederlande  TagesspiegelDrama in der Nations League: Unser letzter möglicher Viertelfinal-Gegner fix  BILD„Im ",
+          "publisher": "Tagesspiegel",
+          "pub_date": "2026-11-16T21:38:21+00:00"
         },
         {
-          "title": "Süßstoffe: Hoher Konsum könnte das Gehirn schneller altern lassen",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWGpzTWdZT1hCU2l4U3JGenVMSENsRnZVQ1p1WXVzaVJkd2w2aFdjSG9GNDN5MlFNNzRVcDB0cl81aGNLSGYtWUhMMUE2TGpaU1poZTIwLU56YWo2dUxjd0c4ZWpUeTVEMWhzYjBnNXhRMDFudnNVTll5aDdFVllDTmZaV3lYRDk4Wi0xTEhSZHpVdWlTcEpub3RNS2o0Vm9JOWYxRi1R?oc=5",
-          "description": "Süßstoffe: Hoher Konsum könnte das Gehirn schneller altern lassen  aponet.de",
-          "publisher": "aponet.de",
-          "pub_date": "2026-11-13T08:00:00+00:00"
+          "title": "Aufstellung Wales - Portugal 2:3 | Gruppe 4, Nations League A 2026/2027",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUm1taTR2X050cXQ0bFFxT1hKTzNZcXV0NkR1dGxXeVFZekNDaTZHMlZRQ3ZoY01jTGtwY0RPUDVZTnFscHYzZEZ3NENOUXQxQlJCMHBvdWROR2drSnFVcTJyUlBQNzZjLWQ3RERrWmJFY3phRXBCZElCbDBMWXA0QVRyQkxaMUFOeFdaYk9Hd0JuQU92?oc=5",
+          "description": "Aufstellung Wales - Portugal 2:3 | Gruppe 4, Nations League A 2026/2027  sport.de\"CF7\" schießt Portugal zum ersten Sieg der Nach-Ronaldo-Ära  sportschau.dePremieren-Treffer: Carlos Forbs schießt Portu",
+          "publisher": "sport.de",
+          "pub_date": "2026-11-17T19:45:00+00:00"
         },
         {
-          "title": "Grippeimpfung schützt auch das Herz: Darauf weist die Herzstiftung hin - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONEtodVU1QTl2a28ycWFUNTkxeTVJbG5PRHh5bGVBMTJNZ1lOS3paWmE0cENUMncyRjBGMFF4cjNZbjhZRmhldURBc0I1Vjc0a0hySVRzTGpiYnhmVkh0VGNqTnluaXZ4Rm45bnhCUzFwWmJjYlZDU3FHSVpHZ3NwQk45ajcycmU5RnFBWGVLZHowaHp2QTVvTTZiUUo5Vm44dkVtZkpFSGoybXJjeVBnaUZoUWhsOS05V0M3bG9abzlURW8?oc=5",
-          "description": "Grippeimpfung schützt auch das Herz: Darauf weist die Herzstiftung hin  T-OnlineGrippeschutz: Für Sie und für Ihr Herz  Fränkische NachrichtenImpfung rettet Risikopatientin  OVB Heimatzeitungen |Verbe",
+          "title": "DFB: Das Geheimnis hinter Klopps Offensivpower",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObnlHM0ljMVFvOHBOZHVBSG5LQVNMM0pYZ3c0VWUzVVIwSURzVzRqbHpMaVN4bTliZ1kyMmdrdjk0dHhEZW5PNlZQdEFnSjVDeUZPZjR3bXFkTHdRWEtBQm1heEZmM21xTjM5TW9uZmlMNGxxT3BhRnVILUtXc2c0LWdEaW9LYlJCSzhwR0tWUFdIazRPeUdxMWVB?oc=5",
+          "description": "DFB: Das Geheimnis hinter Klopps Offensivpower  SPORT1Deutschland unter Klopp: Gruda läuft Karl den Rang ab  SPORT1Warum Jürgen Klopp in der DFB-Auswahl die Ränder stärkt  STERN.deFußball-Nationalmann",
+          "publisher": "SPORT1",
+          "pub_date": "2026-11-17T22:12:48+00:00"
+        },
+        {
+          "title": "Philippe Diallo: Er soll Infantino stürzen",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbDRMb09pUGFxQkxPaVZqWGkyYk9tUW45YXdsOXc4MzFpa1g3QTRHZlZTWnlsVUVFaG44YWF4X0hlTjF5OHBnQ2hHQ1RkejlYUXZMcGdlcEUxVUNkYWxlNGx5cWtXNFZHTlBodDV0Yno4cXVwc0pNVFJGdmVvSXdjeldJeXRTOV9aV1ByX3JHY2pYYUp4QXNYbHlaVGtxTEk?oc=5",
+          "description": "Philippe Diallo: Er soll Infantino stürzen  DIE ZEITWatzke: Diallo hat realistische Chance gegen Infantino  EurosportBR24 Sport: FIFA-Insider zur Wahl: Harte Angriffe auf Infantinos Gegner?  sportscha",
+          "publisher": "DIE ZEIT",
+          "pub_date": "2026-11-17T14:34:22+00:00"
+        },
+        {
+          "title": "Russische Botschaft taucht auf: Hacker legen Website von Eishockey-Weltverband lahm - n-tv.de",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb0VMS0M1eHBJOG1NNklqTnJPVDQ5dnhHUjMwVTJIa3JnSkVsVXJNbHd4MVdpWXFtUDNadVBRQ3RnTjZySGZnbS1lMWh6YjNCeF8wOHl5eWJHYXpfbU9LaGtWdThLN3BEaF9NTU9xM2FxZ2l5MmlPeGNVLXI3cWFvVGJzUWFueXBRTnRBX0dzd3gwb2NoX0lERw?oc=5",
+          "description": "Russische Botschaft taucht auf: Hacker legen Website von Eishockey-Weltverband lahm  n-tv.deEishockey: Hacker sollen Eishockey-Weltverband angegriffen haben  DIE ZEITEishockey: Tschechien lässt Russla",
           "publisher": "",
-          "pub_date": "2026-11-17T11:18:18+00:00"
+          "pub_date": "2026-11-17T20:01:44+00:00"
         },
         {
-          "title": "BMI-Messung allein identifiziert viele Adipöse nicht",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSUlTQ1U1YmdoUmJqUXhBREQtZ05lWmdNU1lRYkMteHoxRFRZVk0yVHZ1bjJMcHlxM0RTTlRLdXFPdU1yVkYzTWNKbzdtNjlhNTJWS25CVnVmYmx0d0NwWVZtck9oMW5SbG9RUGNmYzNwOVlGWEEtTVlMQ29zdll0STFuaW5HYkh0bVVnVFlTRGN2dXlBN2pyZGlZUl9iN0tUNVVJN3VGSzc?oc=5",
-          "description": "BMI-Messung allein identifiziert viele Adipöse nicht  MedscapeIhren BMI kennen viele Menschen: Aber nicht den Wert, der wirklich zählt  TagesspiegelBesser als BMI: Neue Adipositas-Definition bewährt s",
-          "publisher": "Medscape",
-          "pub_date": "2026-11-12T11:50:04+00:00"
+          "title": "Flash-News am Dienstag",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONHhLLVlRdWl3Q2dqcFpRMkpWQm1pXzVaVWN5bW1RMldyX2VwNW9ORjVYMmV0ZlJjYUd1OGhTeHB3eHVBbElIZThxalNOeHV1OHNITElhbEdfb2V3ZEhFWG5NbXN5UDFkNlhQZ3BDanBObExzZm5lNWU1eVlEN1hOUHpiblJMVmtTZnFMai13?oc=5",
+          "description": "Flash-News am Dienstag  Leichtathletik.deHessen: Eintracht-Sprinterin Gina Lückenkemper - Frohnatur mit Dackelkontakt  tagesschau.deLeichtathletik - Sprint-Ass Lückenkemper: Karriereende 2028? - Sport",
+          "publisher": "Leichtathletik.de",
+          "pub_date": "2026-11-17T15:36:43+00:00"
         },
         {
-          "title": "Yale-Analyse: Lebensstil mit niedrigerem epigenetischem Alter",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNWVkVFhIODdiSzRIOVVQRVdPWG52MkxObms5WnlYTXEyclpPQWlrTmN0SkF4TF83Y1BjajJ3ODFQZWRUS2xVTV95eVlrUjJ4c1FHVmJjUjJDd3hwWEV6YkFqdHNiNU1kcFQwQnV4dnh3VUpiT1hlQ0lOdFlhTDJKb3NIZUk2OWJOcC0yVzFRLXI2bXlVUkE?oc=5",
-          "description": "Yale-Analyse: Lebensstil mit niedrigerem epigenetischem Alter  Denkstrom",
-          "publisher": "Denkstrom",
-          "pub_date": "2026-11-17T15:10:00+00:00"
+          "title": "DFB-Frauen: Lea Schüller nicht im Kader für die Südamerika-Reise",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWk5jWXBnNkZITUZrTjBUZWpJNHB4dlZOdXRLX0JQSFpIZm9zV1Zmd04xV010czNqd0xrXzRqc2dxdDFlR2M1Ui1tWmJsNUNzNXlGdTdMamNCZWR0Q3RUMTFQbFFRMWxvR0tsWWVlMzdERkNtWjFRMDFnc3E1SDg3ZkNiX0VrcW5lNHNfb2tlaHBTSmU3UURDOHZtWDBFMENybk1kbUtubFBkZw?oc=5",
+          "description": "DFB-Frauen: Lea Schüller nicht im Kader für die Südamerika-Reise  sportschau.deLea Schüller fliegt aus dem DFB-Kader – Klare Worte von Bundestrainer Wück  BILDSchüller im Nationalteam außen vor: \"Schu",
+          "publisher": "sportschau.de",
+          "pub_date": "2026-11-17T14:31:37+00:00"
         },
         {
-          "title": "Verkehrslärm: Gefahr fürs Herz auch bei gutem Schlaf?",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVldzVG9DbUhQcDJIY2Q0aXRNSGVsWmRkelMtaTItcEdKLURKdm9tbmpqQUVYUkNwLW1MS29hUTNDeTlrNkI4V1l0bzEyaTlqbldiaUlJaE5Wa3g2SE91RjgxN2hyTUliUGxUMkdoWlo5WEZLV2pRTzFmYWhwMEdiNXQ3MGlQS2JrSER0eVdvWUt4T3R5V0RCNnBobDVvSTJ6ZGVNbmZuLUFva0ZQb2k1QU1iblY?oc=5",
-          "description": "Verkehrslärm: Gefahr fürs Herz auch bei gutem Schlaf?  Medscape",
-          "publisher": "Medscape",
-          "pub_date": "2026-11-17T10:57:16+00:00"
+          "title": "„Maximal Regionalliga“, sagten sie über Derry Scherhant Und plötzlich ist der Fußballer aus dem Wedding ein Star des DFB-Teams",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOWnB1Q0FvNE5yQkt5R3lna1VmTkwzV2hzZU9GZ1M2UFhWRGxXX3ByTHVOTVZ6WmFidEFGbE50bGFDZkd0VVFOSzBxVGxVY3ZqNGo0WWlyb2t6SWI3ZTdhUFpHQmZwbWJXSGhIMlVqblVrZmxfbEFHRzBOejlDeml2QkNHWVF6MkQ1QXk5NmdHbktwdGxvdjJ3SFJzaUliNnNDelhyYndDcDlJTDBEN09QNjFEbmJ4UlFwTFdpekxGSG5fVURkNXlpR3E0OUpyTE52NDhWLWxQWUxCXzVvZUFwQUZaVTd1SExKSmh2Y2F5VHJfcnpaMXpsM19mYVV1ek9POXc?oc=5",
+          "description": "„Maximal Regionalliga“, sagten sie über Derry Scherhant Und plötzlich ist der Fußballer aus dem Wedding ein Star des DFB-Teams  Tagesspiegel\"Maximal Regionalliga\" - Derry Scherhant rechnet ab  sportsc",
+          "publisher": "Tagesspiegel",
+          "pub_date": "2026-11-17T11:02:24+00:00"
         },
         {
-          "title": "Neandertaler: Geerbte Gene senken Risiko für Schizophrenie beim modernen Menschen",
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNUy1lTlJCeVc1cWY3U1B2SjA2WUE1TmVFd0lMM2NtYWJQSUJ0dExkbkhaY05GRVJiTVJVU1o4blBHMWs4cUxYdEhjQlNlOEVqOEVQMndiVTJ3Y0xZRWdfeGk5ZlltaU9ScEVQc0xqR1I5SHRKQ2Fxd2JKQllkWGtvNXFIdkNTcHdKNDVsUUJJUV9lVjdReXB6NXpvMC1EanFQN014WHZkYzRBN19nMmRwZEc2d0tERTBGRl9tdUthNUNDUGdDUnZTNEdiX1puWXEzeEhhMHlIeklHZ0djRXVtTmJ1WkgwaVlScWpzanFuSXFoQk9RZVE?oc=5",
-          "description": "Neandertaler: Geerbte Gene senken Risiko für Schizophrenie beim modernen Menschen  SpiegelNeandertaler: Geerbte Gene senken Schizophrenie-Risiko beim modernen Menschen  SpiegelMenschen mit Neandertale",
-          "publisher": "Spiegel",
-          "pub_date": "2026-11-16T20:24:00+00:00"
+          "title": "Gegenwind für Uli Hoeneß in Karl-Debatte beim FC Bayern: \"Glaube, dass wir uns anpassen müssen\"",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbDlaV3V0Tk4xRkwtcFVMNkdET2xjYlctOHZKcVpFd2JNSGEzeDM4N3RCUk1qTGxyRVlublcwcEJvN24zeTN2cWY2Smo3QnlYRmVmVnFIN3dWQm9lS0dQU2tDOEc1anlwd1AxWmpQR0txSnBBSTF1U00zOUpzN0t1dDZORk1wZGFtRXVzNjhyUmFaTk1LU3RXRDJhV3JRajM5R2FHQTc5bnQydHh0MFB6RkkzZEkwTFdKLWNEV0tUbUtGaHRMSVNpdXJVNTg?oc=5",
+          "description": "Gegenwind für Uli Hoeneß in Karl-Debatte beim FC Bayern: \"Glaube, dass wir uns anpassen müssen\"  sport.deYoungster des FC Bayern München: Lennart Karl auf den Spuren der ganz Großen  Bundesliga | offi",
+          "publisher": "sport.de",
+          "pub_date": "2026-11-17T18:42:00+00:00"
         },
         {
-          "title": "Wie die Blut-Hirn-Schranke unser Gehirn mit Proteinen versorgt",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcHpKUzFoMThfQV93bENVb05nOUpPQmhadnp0Z3pYdXNlQVUwc0dtM25DRlFNUnZnT3RLWkVJOVllOWVJby1XMDlIRE54NWNERU5odjJ1cmNDQ2FnYV94aEJqelVISWU3eXNLT1VYcTJtM1MtM2pnM2pfMldvMWJMY0prSTdYUk05ZERjQk5ZYlhUNVBVa0FFN0Fn?oc=5",
-          "description": "Wie die Blut-Hirn-Schranke unser Gehirn mit Proteinen versorgt  Bild der WissenschaftAlzheimer: Schützende Proteine durchdringen die Blut-Hirn-Schranke  Spektrum der WissenschaftBlut-Hirn-Schranke ver",
-          "publisher": "Bild der Wissenschaft",
-          "pub_date": "2026-11-12T06:00:54+00:00"
+          "title": "Haie schreiben CHL-Geschichte: Köln stürmt erstmals ins Viertelfinale",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeWdWZ0UwRml1aWNSeU1UX1hkSUd0NzlIeFdtQU1xaFNwSHBUa0hhSWRmZ2Fwc2dyWGhsTHc0RG5Sa0F0WkVvMVR4eVltcDJjMXIyRHBXcFpWZDdMOEdCYWQtXy16SGVlaUV4QnRlZjNwR1g4UjNGZ2Rkc0VRVFlsWDF5VTZPRmlXMXpoNkRTcTVVcHhncmZZRlRKSW1vd0xPZlljSmRCSXpwdmhHbFpWazNZYw?oc=5",
+          "description": "Haie schreiben CHL-Geschichte: Köln stürmt erstmals ins Viertelfinale  ExpressAchtelfinal-Rückspiel: Haie am Dienstag zu Gast in Liberec  Kölner HaieNordrhein-Westfalen: Sieg in Liberec: CHL - Kölner ",
+          "publisher": "Express",
+          "pub_date": "2026-11-17T17:09:03+00:00"
         },
         {
-          "title": "Morbus Crohn: Ernährung zur Remissionsinduktion",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZ015UXZUUnVWaUR1bEMyN0wwLUp4N0pXUTJrNm5GaVRLT1FsYnNiZ2lYT3NqWmlvbkh0UTJ3WHh3a3VJeGxJVVdrN3ZHRm5fWTFMSnRiUFNZdDNjQW5heTFHLU1qeXRNOXlIT3RRTDRkTWNnRk9UdkRieVVNUmJ6LV9aUTZHdFg4VDFnSFR4NGVOWGxlYm9IMFVrTTViTGo5YmxmTGw1ZXhJQ1E?oc=5",
-          "description": "Morbus Crohn: Ernährung zur Remissionsinduktion  Medical Tribune",
-          "publisher": "Medical Tribune",
-          "pub_date": "2026-11-17T09:39:17+00:00"
+          "title": "Fußball heute: Übertragung der Spiele im Free-TV und Stream",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNUlDaktFZjBSRTl4VW1yeGpjRW5jdnhyZ0ZNdDdhdXItRS1HeHFqY3pqN0ZHMkM2djlPVlpNRks4ZTdnd0dQZktXazl6alY5cWVydzE2Qmt4bzFJMHhwOHlmTmd5QjlmUTNHU2pGYi1tZHNTN18xY0huamNsSWhwcUJqa09KUDNJVEl3VUIyc09kMk54V0NpWkJlMm1tZTRKWjJUYzB5d2dIUVlFaGhpRFJlSE55YnhJYzM4elA5bmVleDU5Zm5ZM2RwRGNLV3phNlNJOE1paV9OQQ?oc=5",
+          "description": "Fußball heute: Übertragung der Spiele im Free-TV und Stream  RND.deWeitere Schlagzeilen und Meinungen in Google News",
+          "publisher": "RND.de",
+          "pub_date": "2026-11-17T10:46:02+00:00"
         },
         {
-          "title": "Blut am Toilettenpapier: Wann mehr als Hämorrhoiden dahinterstecken könnte",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQWJ3V2N0TThNcXJST283TU96cDA0VE5yZTZIWE0xcEo3Q3dNdWozTWZvcXNxR2lNVXZzdnp1bjBiNmVPVE5GVEwwNGRCcW1yenNnckxBeTA0VnNoWlA2QzJEbWFjR1hMVWM0MGpORkxOZWwwakxfZ0UzVzhVc1diT3BnN2JtMHBkVGJONnNWT19jMVhXVEVNRTNQNXhsalFwS3o2bU5HbFNxQ3RZMmViaw?oc=5",
-          "description": "Blut am Toilettenpapier: Wann mehr als Hämorrhoiden dahinterstecken könnte  aponet.de",
-          "publisher": "aponet.de",
-          "pub_date": "2026-11-17T08:38:25+00:00"
-        },
-        {
-          "title": "Masern bei Neugeborenen: US-Ärzte melden erstmals wieder angeborene Fälle",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWkppSjVwWGNUTXFLMUtDZ0ZOVExuWE0wZDNmZGxPVWpMWFozQ2RHZGpfakExTWtycUhUUXNVb1RuaG9HV0RRdG0zaXZtQmJIS05VTmhWMHpWWE1WVmJTeVRSSmpjb2Zsai1kaEhkTC1uQ19yS3k0RlZCM0RjYU9DT3V0bEZRZTBYRF83NnNrV3RIWWJaT1pDb3NqOWJkVnJqYWVuamZGMlp2Zw?oc=5",
-          "description": "Masern bei Neugeborenen: US-Ärzte melden erstmals wieder angeborene Fälle  it boltwise",
-          "publisher": "it boltwise",
-          "pub_date": "2026-11-17T17:14:42+00:00"
-        },
-        {
-          "title": "Diese Schlafphase entscheidet über das Risiko für 83 Krankheiten",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQc1RSYWUzY2ZoOTltWmM3UXVzZERoa3plUmFUUFZxS3BFcEJGWXltYV9LamZVNVM0M0lVdnh3MzV4SXZlYVpFVUdyWXI2aHpfdjNNaGxyM0Qybm81UURuYW1FaFdUb09lZ3lveUZqSTNROEQ1aXBjQ0RqMUZuRTBtdDhqcENyZ1NOU3pmOGo1MzZ5bE84Y2lHSVBoOEQxNk1PV1FFSjZpVnRmSjBKUnF6YmhtdDhsdzBka19kOEhJcW1BeDEzdUUxVkhYaFNSaVhJQVRJY0JEQTdZNGs?oc=5",
-          "description": "Diese Schlafphase entscheidet über das Risiko für 83 Krankheiten  WELT",
-          "publisher": "WELT",
-          "pub_date": "2026-11-18T01:41:31+00:00"
+          "title": "Große Überraschungen im deutschen Biathlon-Team",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT3h1WTVYYXZlbFNwS3J6RnR2dEZkNGZTTU5XZFJxaDRqeEF5czlCc3RaMjltNUI0bWxTWWYzMDQ5MDlfRzBWd1NkalFsRXYtOGJkRkkyWnpOcWdLX0Zra2tJR1ZrMlZXRmNtU3ppRno4ZEtEdVFncVRrWUVBNTBhSWQxRXVtLU92TF85SFlDTF9EVk9kY3VSQy01YkExOUZVNE52dm1JX1ZjQQ?oc=5",
+          "description": "Große Überraschungen im deutschen Biathlon-Team  WEB.DEBiathlon: Knall im deutschen Kader vor dem Saisonstart  BILDBiathlon-Weltcup: Weltcupsieger Grotian und Rees fehlen bei Biathlon-Saisonauftakt  s",
+          "publisher": "WEB.DE",
+          "pub_date": "2026-11-17T10:38:57+00:00"
         }
-      ]
+      ],
+      "health": []
     },
     "custom": {
       "der_spiegel": {
         "name": "Der Spiegel",
         "type": "articles",
         "items": [
+          {
+            "title": "James Bond: Jeff Bezos schildert Casting von Robert Pattinson als 007",
+            "link": "https://www.spiegel.de/kultur/kino/james-bond-jeff-bezos-schildert-casting-von-robert-pattinson-als-007-a-af29142c-86f7-45d8-9e8b-2f9118af39ec#ref=rss",
+            "description": "Wie lief die Wahl zum neuen James-Bond-Darsteller ab? Amazon-Chef Jeff Bezos war eigenen Angaben zufolge bei entscheidenden Gesprächen dabei. Nun berichtet er, was für Robert Pattinson sprach – und wa",
+            "pub_date": "2026-11-18T02:27:00+00:00"
+          },
           {
             "title": "Masern: USA verlieren nach 26 Jahren ihren Status als masernfreies Land",
             "link": "https://www.spiegel.de/wissenschaft/medizin/masern-usa-verlieren-nach-26-jahren-ihren-status-als-masernfreies-land-a-03c5b292-0ced-4318-922d-b234797f5947#ref=rss",
@@ -1010,12 +1334,6 @@
             "link": "https://www.spiegel.de/deinspiegel/raetsel-des-alltags-warum-haben-landtiere-stets-eine-gerade-anzahl-an-beinen-a-e3bef263-d598-4b6d-a095-7f85ed856146#ref=rss",
             "description": "Von der Ameise bis zum Elefanten – sie alle haben eine gerade Anzahl an Beinen. Wozu? Ein Foto-Stativ kann ja schließlich auch auf drei Beinen stehen. Was sich die Natur dabei gedacht hat.",
             "pub_date": "2026-11-17T18:41:00+00:00"
-          },
-          {
-            "title": "Ruanda-Deal: Dieser Mann kann kein Partner sein – Meinung",
-            "link": "https://www.spiegel.de/ausland/ruanda-deal-dieser-mann-kann-kein-partner-sein-meinung-a-d9d38003-6d8b-4488-ac12-5d5ea4dbee87#ref=rss",
-            "description": "Deutschland und vier weitere EU-Staaten wollen abgelehnte Asylbewerber nach Ruanda schicken. Möglich, dass die Gerichte diese Idee durchwinken. Beschämend ist die Aufwertung des Autokraten dennoch.",
-            "pub_date": "2026-11-17T18:40:00+00:00"
           }
         ]
       }
