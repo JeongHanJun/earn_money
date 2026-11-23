@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-23T12:01:26.783586+00:00",
+  "fetched_at": "2026-11-23T13:01:24.299457+00:00",
   "data": {
     "country_code": "uk",
     "country_name": "영국",
@@ -7,6 +7,42 @@
     "google_trends": [
       {
         "rank": 1,
+        "keyword": "tesla",
+        "traffic": "500+",
+        "pub_date": "2026-11-23T12:40:00+00:00",
+        "articles": [
+          {
+            "title": "Range Rover mounts Tesla in high street crash",
+            "url": "https://www.bbc.co.uk/news/articles/cmrrg774y4gqo",
+            "source": "BBC"
+          },
+          {
+            "title": "'Range Rover mounted a Tesla' - Emergency services rush to traffic incident in West Sussex town",
+            "url": "https://www.sussexexpress.co.uk/news/emergency-incident/range-rover-mounted-a-tesla-emergency-services-rush-to-traffic-incident-in-west-sussex-town-9366443",
+            "source": "SussexWorld"
+          },
+          {
+            "title": "Range Rover left mounted on Tesla in high street incident",
+            "url": "https://www.theargus.co.uk/news/26751669.range-rover-mounts-tesla-steyning-high-street-incident/",
+            "source": "The Argus"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "keyword": "laura whitmore",
+        "traffic": "1000+",
+        "pub_date": "2026-11-23T11:40:00+00:00",
+        "articles": [
+          {
+            "title": "Our favourite true crime couple: Laura Whitmore and Iain Stirling",
+            "url": "https://www.itv.com/thismorning/articles/our-favourite-true-crime-couple-laura-whitmore-and-iain-stirling",
+            "source": "ITVX"
+          }
+        ]
+      },
+      {
+        "rank": 3,
         "keyword": "professor severus snape",
         "traffic": "200+",
         "pub_date": "2026-11-23T11:40:00+00:00",
@@ -17,65 +53,42 @@
             "source": "Collider"
           },
           {
+            "title": "Harry Potter HBO TV Series Posters Spotlight Dumbledore, McGonagall, Snape And Hagrid",
+            "url": "https://www.tvline.com/2324623/harry-potter-hbo-tv-series-posters-dumbledore-mcgonagall-snape-hagrid/",
+            "source": "TVLine"
+          },
+          {
             "title": "HBO Releases Surprise ‘Harry Potter’ Clip Of Hogwarts Banquet",
             "url": "https://deadline.com/2026/11/hbo-surprise-harry-potter-clip-hogwarts-banquet-1237224436/",
             "source": "Deadline"
-          },
-          {
-            "title": "Harry Potter And The Philosopher's Stone Posters Feature Dumbledore, McGonagall, Snape, And Hagrid",
-            "url": "https://www.imdb.com/news/ni66119677/",
-            "source": "IMDb"
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "keyword": "bangladesh national cricket team vs south africa national cricket team match scorecard",
-        "traffic": "2000+",
-        "pub_date": "2026-11-23T11:20:00+00:00",
-        "articles": [
-          {
-            "title": "'It's quite a smooth transition'- Markram on stepping in for Bavuma",
-            "url": "https://www.cricinfo.com/story/aiden-markram-says-it-s-quite-a-smooth-transition-to-be-leading-south-africa-again-1563619",
-            "source": "Cricinfo"
-          },
-          {
-            "title": "South Africa vs Bangladesh, 2nd Test: Injuries won't take the sting out of Centurion Test",
-            "url": "https://www.cricbuzz.com/cricket-news/141019/south-africa-vs-bangladesh-2nd-test-injuries-wont-take-the-sting-out-of-centurion-test-cricbuzzcom",
-            "source": "Cricbuzz"
-          },
-          {
-            "title": "Markram seeks big score at Centurion as Proteas face Bangladesh",
-            "url": "https://theherald.co.za/sport/cricket/2026-11-22-de-zorzi-nortje-return-while-markram-chases-big-knock/",
-            "source": "HeraldLIVE"
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "keyword": "zscaler",
-        "traffic": "200+",
-        "pub_date": "2026-11-23T11:10:00+00:00",
-        "articles": [
-          {
-            "title": "CrowdStrike to buy Zscaler in $44bn deal as cyber security disruptions mount",
-            "url": "https://www.ft.com/content/762bd05d-8e20-4abf-9bc5-4e6f9bf628cb?syn-25a6b1a6=1",
-            "source": "Financial Times"
-          },
-          {
-            "title": "CrowdStrike to Buy Zscaler in $43.9 Billion Stock Swap",
-            "url": "https://www.wsj.com/business/deals/crowdstrike-to-buy-zscaler-in-43-9-billion-stock-swap-4c926031",
-            "source": "WSJ"
-          },
-          {
-            "title": "CrowdStrike bets on network security with $43.9 billion Zscaler deal",
-            "url": "https://www.cnbc.com/2026/11/23/crowdstrike-to-buy-zscaler.html",
-            "source": "CNBC"
           }
         ]
       },
       {
         "rank": 4,
+        "keyword": "zscaler",
+        "traffic": "200+",
+        "pub_date": "2026-11-23T11:10:00+00:00",
+        "articles": [
+          {
+            "title": "CrowdStrike to buy Zscaler in $44bn deal as cyber threats mount",
+            "url": "https://www.ft.com/content/762bd05d-8e20-4abf-9bc5-4e6f9bf628cb?syn-25a6b1a6=1",
+            "source": "Financial Times"
+          },
+          {
+            "title": "Crowdstrike is spending $43.9 billion to buy ZScaler in a huge cybersecurity deal as tech outages spread",
+            "url": "https://finance.yahoo.com/technology/article/crowdstrike-is-spending-439-billion-to-buy-zscaler-in-a-huge-cybersecurity-deal-as-tech-outages-spread-110645119.html",
+            "source": "Yahoo Finance"
+          },
+          {
+            "title": "CrowdStrike bets on network security with $43.9 billion Zscaler deal",
+            "url": "https://www.reuters.com/legal/transactional/crowdstrike-buy-zscaler-439-billion-2026-11-23/",
+            "source": "Reuters"
+          }
+        ]
+      },
+      {
+        "rank": 5,
         "keyword": "satya nadella",
         "traffic": "100+",
         "pub_date": "2026-11-23T10:50:00+00:00",
@@ -86,21 +99,21 @@
             "source": "Yahoo Finance"
           },
           {
-            "title": "So you got a Microsoft Voluntary Exit Offer? Here’s what to do next",
-            "url": "https://www.geekwire.com/2026/so-you-got-a-microsoft-voluntary-exit-offer-heres-what-to-do-next/",
-            "source": "GeekWire"
+            "title": "\"The thing that hit us\": Satya Nadella admits VS Code faded in six months after a decade on top because of Claude Code, and some developers say they've stopped opening it",
+            "url": "https://www.windowslatest.com/2026/11/23/the-thing-that-hit-us-satya-nadella-admits-vs-code-faded-in-six-months-after-a-decade-on-top-because-of-claude-code-and-some-developers-say-theyve-stopped-opening-it/",
+            "source": "Windows Latest"
           },
           {
-            "title": "Microsoft CEO addresses buyout offers to 60,000 employees",
-            "url": "https://www.bizjournals.com/seattle/news/2026/11/19/microsoft-ceo-satya-nadella-buyout-offers.html",
-            "source": "The Business Journals"
+            "title": "Microsoft's CEO defends the mass buyout strategy",
+            "url": "https://hrexecutive.com/microsofts-ceo-defends-the-mass-buyout-strategy/",
+            "source": "HR Executive"
           }
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "keyword": "north sea oil",
-        "traffic": "500+",
+        "traffic": "1000+",
         "pub_date": "2026-11-23T10:40:00+00:00",
         "articles": [
           {
@@ -121,7 +134,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 7,
         "keyword": "denise van outen",
         "traffic": "500+",
         "pub_date": "2026-11-23T10:40:00+00:00",
@@ -144,38 +157,15 @@
         ]
       },
       {
-        "rank": 7,
-        "keyword": "pip assessments",
-        "traffic": "10000+",
-        "pub_date": "2026-11-23T10:20:00+00:00",
-        "articles": [
-          {
-            "title": "Pip assessments need 'fundamental overhaul', report to say",
-            "url": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo",
-            "source": "BBC"
-          },
-          {
-            "title": "Burnham plans to revive Starmer’s disability benefits cuts",
-            "url": "https://www.telegraph.co.uk/politics/2026/11/22/burnham-plans-disability-benefits-cuts/",
-            "source": "The Telegraph"
-          },
-          {
-            "title": "Timms review: Disability benefits could be tailored for each claim",
-            "url": "https://www.thetimes.com/uk/politics/article/timms-review-disability-benefits-tailored-each-claim-60dlnsf2k",
-            "source": "The Times"
-          }
-        ]
-      },
-      {
         "rank": 8,
         "keyword": "gta 6 update",
         "traffic": "2000+",
         "pub_date": "2026-11-23T10:10:00+00:00",
         "articles": [
           {
-            "title": "GTA 6 New Update Releasing in Phases; Size Revealed",
-            "url": "https://insider-gaming.com/gta-6-new-update-releasing-in-phases-size-revealed/",
-            "source": "Insider Gaming"
+            "title": "GTA 6 launch updates: Patch sizes, versions and release dates",
+            "url": "https://www.redbull.com/int-en/gta-6-updates-patch-notes",
+            "source": "Red Bull"
           },
           {
             "title": "PlayStation suffers widespread network problems hours before release of GTA VI",
@@ -183,14 +173,37 @@
             "source": "The Guardian"
           },
           {
-            "title": "GTA 6 launch updates: Patch sizes, versions and release dates",
-            "url": "https://www.redbull.com/int-en/gta-6-updates-patch-notes",
-            "source": "Red Bull"
+            "title": "Grand Theft Auto VI 01.002.002 Update Has Started Rolling Out, But Some Users Will Reportedly Have to Wait 6 Hours To Get It",
+            "url": "https://wccftech.com/grand-theft-auto-vi-01-002-002-update/",
+            "source": "Wccftech"
           }
         ]
       },
       {
         "rank": 9,
+        "keyword": "boat",
+        "traffic": "1000+",
+        "pub_date": "2026-11-23T09:50:00+00:00",
+        "articles": [
+          {
+            "title": "Paddlers battle the current in third Henley Winter Series race",
+            "url": "https://www.henleyherald.com/2026/11/23/paddlers-battle-the-current-in-third-henley-winter-series-race/",
+            "source": "Henley Herald"
+          },
+          {
+            "title": "Soaring Dragons edge out host’s mixed boat",
+            "url": "https://www.henleystandard.co.uk/news/dragon-boats/710907/soaring-dragons-edge-out-hosts-mixed-boat.html",
+            "source": "Henley Standard"
+          },
+          {
+            "title": "Nigeria boat accident: At least 29 dead after overcrowded boat capsizes in Bayelsa",
+            "url": "https://www.bbc.co.uk/news/articles/cq7820xjm49po",
+            "source": "BBC"
+          }
+        ]
+      },
+      {
+        "rank": 10,
         "keyword": "joan collins",
         "traffic": "200+",
         "pub_date": "2026-11-23T09:40:00+00:00",
@@ -211,24 +224,6 @@
             "source": "PressReader"
           }
         ]
-      },
-      {
-        "rank": 10,
-        "keyword": "charlie cox",
-        "traffic": "200+",
-        "pub_date": "2026-11-23T09:40:00+00:00",
-        "articles": [
-          {
-            "title": "New Daredevil Set Photos Spoil Born Again’s Final Season",
-            "url": "https://www.yahoo.com/entertainment/tv/articles/daredevil-set-photos-spoil-born-115500858.html",
-            "source": "Yahoo"
-          },
-          {
-            "title": "Daredevil: Born Again Season 3 Set Photos Spoil A Key Twist For Charlie Cox’s Matt Murdock",
-            "url": "https://thedirect.com/article/daredevil-born-again-season-3-charlie-cox-matt-murdock-set-photos-twist",
-            "source": "The Direct"
-          }
-        ]
       }
     ],
     "youtube_popular": [
@@ -239,8 +234,8 @@
         "channel": "Christmas Songs and Carols - Love to Sing",
         "thumbnail": "https://i.ytimg.com/vi/UWa8xqMLwhw/mqdefault.jpg",
         "published_at": "2026-11-21T14:45:19Z",
-        "view_count": 601628,
-        "like_count": 1420
+        "view_count": 610789,
+        "like_count": 1441
       },
       {
         "rank": 2,
@@ -249,8 +244,8 @@
         "channel": "The Unmade Season",
         "thumbnail": "https://i.ytimg.com/vi/7v_cVp9Mo2o/mqdefault.jpg",
         "published_at": "2026-11-22T19:15:08Z",
-        "view_count": 19728,
-        "like_count": 601
+        "view_count": 20168,
+        "like_count": 606
       },
       {
         "rank": 3,
@@ -259,8 +254,8 @@
         "channel": "MoreSidemen",
         "thumbnail": "https://i.ytimg.com/vi/vunYsm7gV9s/mqdefault.jpg",
         "published_at": "2026-11-21T18:45:31Z",
-        "view_count": 3059225,
-        "like_count": 61338
+        "view_count": 3091660,
+        "like_count": 61862
       },
       {
         "rank": 4,
@@ -269,8 +264,8 @@
         "channel": "Lkay80m",
         "thumbnail": "https://i.ytimg.com/vi/DRIItZuHXFk/mqdefault.jpg",
         "published_at": "2026-11-22T22:20:27Z",
-        "view_count": 11160,
-        "like_count": 1007
+        "view_count": 11773,
+        "like_count": 1048
       },
       {
         "rank": 5,
@@ -279,8 +274,8 @@
         "channel": "Think Music India",
         "thumbnail": "https://i.ytimg.com/vi/EA-a7RR-7DY/mqdefault.jpg",
         "published_at": "2026-11-22T12:15:25Z",
-        "view_count": 2049790,
-        "like_count": 33732
+        "view_count": 2113145,
+        "like_count": 34611
       },
       {
         "rank": 6,
@@ -289,8 +284,8 @@
         "channel": "jackfrags",
         "thumbnail": "https://i.ytimg.com/vi/38Q4pkpgjLM/mqdefault.jpg",
         "published_at": "2026-11-22T21:07:09Z",
-        "view_count": 521601,
-        "like_count": 9190
+        "view_count": 542016,
+        "like_count": 9484
       },
       {
         "rank": 7,
@@ -299,8 +294,8 @@
         "channel": "MEYO - Topic",
         "thumbnail": "https://i.ytimg.com/vi/hx7ItPNcUNw/mqdefault.jpg",
         "published_at": "2026-11-19T10:00:09Z",
-        "view_count": 101296,
-        "like_count": 3071
+        "view_count": 104131,
+        "like_count": 3157
       },
       {
         "rank": 8,
@@ -309,18 +304,18 @@
         "channel": "Netflix",
         "thumbnail": "https://i.ytimg.com/vi/xVjpzd-fsJU/mqdefault.jpg",
         "published_at": "2026-11-23T08:00:00Z",
-        "view_count": 36065,
-        "like_count": 1031
+        "view_count": 52698,
+        "like_count": 1354
       },
       {
         "rank": 9,
-        "video_id": "izXcd-bU72k",
-        "title": "🔴EXPLORING VICE CITY - GTA 6 STREAM (EASTER EGGS)",
-        "channel": "IShowSpeed",
-        "thumbnail": "https://i.ytimg.com/vi/izXcd-bU72k/mqdefault.jpg",
-        "published_at": "2026-11-22T22:05:59Z",
-        "view_count": 9811151,
-        "like_count": 121586
+        "video_id": "fyT21-s4VZQ",
+        "title": "GTA 6: 37 Tips You Should Know",
+        "channel": "TGG",
+        "thumbnail": "https://i.ytimg.com/vi/fyT21-s4VZQ/mqdefault.jpg",
+        "published_at": "2026-11-23T03:53:53Z",
+        "view_count": 304846,
+        "like_count": 9577
       },
       {
         "rank": 10,
@@ -329,98 +324,98 @@
         "channel": "X-pert Production Official",
         "thumbnail": "https://i.ytimg.com/vi/qQMAv-2i-tA/mqdefault.jpg",
         "published_at": "2026-11-21T14:00:06Z",
-        "view_count": 556217,
-        "like_count": 14913
+        "view_count": 571404,
+        "like_count": 15082
       },
       {
         "rank": 11,
-        "video_id": "dWOYaZ2gb9I",
-        "title": "BHOGI Official Trailer | Sharwanand | Sampath Nandi | Anupama | Dimple Hayathi | Bheems Ceciroleo",
-        "channel": "Aditya Music",
-        "thumbnail": "https://i.ytimg.com/vi/dWOYaZ2gb9I/mqdefault.jpg",
-        "published_at": "2026-11-22T15:14:14Z",
-        "view_count": 2492698,
-        "like_count": 27133
-      },
-      {
-        "rank": 12,
-        "video_id": "4q55KOKC9zk",
-        "title": "This is vanilla Minecraft",
-        "channel": "Mumbo Jumbo",
-        "thumbnail": "https://i.ytimg.com/vi/4q55KOKC9zk/mqdefault.jpg",
-        "published_at": "2026-11-22T16:00:40Z",
-        "view_count": 1262073,
-        "like_count": 46234
-      },
-      {
-        "rank": 13,
-        "video_id": "qEF9Q0cIjDQ",
-        "title": "Top 50 Christmas Songs of All Time 🎅🏼 Classic Christmas Music with Fireplace 🎅🏼 Merry Christmas 2027",
-        "channel": "Merry Christmas Vibes",
-        "thumbnail": "https://i.ytimg.com/vi/qEF9Q0cIjDQ/mqdefault.jpg",
-        "published_at": "2026-11-21T01:38:02Z",
-        "view_count": 439714,
-        "like_count": 696
-      },
-      {
-        "rank": 14,
-        "video_id": "9d8XBITmQhs",
-        "title": "HEAL from The Princess of Wales | Trailer",
-        "channel": "The Prince and Princess of Wales",
-        "thumbnail": "https://i.ytimg.com/vi/9d8XBITmQhs/mqdefault.jpg",
-        "published_at": "2026-11-21T12:00:25Z",
-        "view_count": 406040,
-        "like_count": 16621
-      },
-      {
-        "rank": 15,
-        "video_id": "fyT21-s4VZQ",
-        "title": "GTA 6: 37 Tips You Should Know",
-        "channel": "TGG",
-        "thumbnail": "https://i.ytimg.com/vi/fyT21-s4VZQ/mqdefault.jpg",
-        "published_at": "2026-11-23T03:53:53Z",
-        "view_count": 272201,
-        "like_count": 8669
-      },
-      {
-        "rank": 16,
-        "video_id": "ej6tN8yV4os",
-        "title": "Like a Dog",
-        "channel": "Bella Kay - Topic",
-        "thumbnail": "https://i.ytimg.com/vi/ej6tN8yV4os/mqdefault.jpg",
-        "published_at": "2026-11-23T02:00:23Z",
-        "view_count": 19858,
-        "like_count": 1301
-      },
-      {
-        "rank": 17,
-        "video_id": "6iJnsH4424g",
-        "title": "Wait... Netflix's Steps Is Actually GOOD??",
-        "channel": "DazzReviews",
-        "thumbnail": "https://i.ytimg.com/vi/6iJnsH4424g/mqdefault.jpg",
-        "published_at": "2026-11-22T17:15:33Z",
-        "view_count": 142429,
-        "like_count": 3697
-      },
-      {
-        "rank": 18,
-        "video_id": "vk2jgBqAA9Q",
-        "title": "Take That - Higher live from The Graham Norton Show",
-        "channel": "Take That",
-        "thumbnail": "https://i.ytimg.com/vi/vk2jgBqAA9Q/mqdefault.jpg",
-        "published_at": "2026-11-22T15:00:10Z",
-        "view_count": 48108,
-        "like_count": 637
-      },
-      {
-        "rank": 19,
         "video_id": "yU1KIqDa0To",
         "title": "The Timeless Doctors Launch Trailer 2026",
         "channel": "BabelColour",
         "thumbnail": "https://i.ytimg.com/vi/yU1KIqDa0To/mqdefault.jpg",
         "published_at": "2026-11-23T07:30:03Z",
-        "view_count": 3753,
-        "like_count": 316
+        "view_count": 5091,
+        "like_count": 395
+      },
+      {
+        "rank": 12,
+        "video_id": "izXcd-bU72k",
+        "title": "🔴EXPLORING VICE CITY - GTA 6 STREAM (EASTER EGGS)",
+        "channel": "IShowSpeed",
+        "thumbnail": "https://i.ytimg.com/vi/izXcd-bU72k/mqdefault.jpg",
+        "published_at": "2026-11-22T22:05:59Z",
+        "view_count": 9854987,
+        "like_count": 121899
+      },
+      {
+        "rank": 13,
+        "video_id": "Zl5xZ_LLA1c",
+        "title": "Crazy For You",
+        "channel": "Release - Topic",
+        "thumbnail": "https://i.ytimg.com/vi/Zl5xZ_LLA1c/mqdefault.jpg",
+        "published_at": "2026-11-19T10:04:16Z",
+        "view_count": 407815,
+        "like_count": 14547
+      },
+      {
+        "rank": 14,
+        "video_id": "dWOYaZ2gb9I",
+        "title": "BHOGI Official Trailer | Sharwanand | Sampath Nandi | Anupama | Dimple Hayathi | Bheems Ceciroleo",
+        "channel": "Aditya Music",
+        "thumbnail": "https://i.ytimg.com/vi/dWOYaZ2gb9I/mqdefault.jpg",
+        "published_at": "2026-11-22T15:14:14Z",
+        "view_count": 2554564,
+        "like_count": 28164
+      },
+      {
+        "rank": 15,
+        "video_id": "4q55KOKC9zk",
+        "title": "This is vanilla Minecraft",
+        "channel": "Mumbo Jumbo",
+        "thumbnail": "https://i.ytimg.com/vi/4q55KOKC9zk/mqdefault.jpg",
+        "published_at": "2026-11-22T16:00:40Z",
+        "view_count": 1296714,
+        "like_count": 47065
+      },
+      {
+        "rank": 16,
+        "video_id": "qEF9Q0cIjDQ",
+        "title": "Top 50 Christmas Songs of All Time 🎅🏼 Classic Christmas Music with Fireplace 🎅🏼 Merry Christmas 2027",
+        "channel": "Merry Christmas Vibes",
+        "thumbnail": "https://i.ytimg.com/vi/qEF9Q0cIjDQ/mqdefault.jpg",
+        "published_at": "2026-11-21T01:38:02Z",
+        "view_count": 441478,
+        "like_count": 696
+      },
+      {
+        "rank": 17,
+        "video_id": "9d8XBITmQhs",
+        "title": "HEAL from The Princess of Wales | Trailer",
+        "channel": "The Prince and Princess of Wales",
+        "thumbnail": "https://i.ytimg.com/vi/9d8XBITmQhs/mqdefault.jpg",
+        "published_at": "2026-11-21T12:00:25Z",
+        "view_count": 409200,
+        "like_count": 16690
+      },
+      {
+        "rank": 18,
+        "video_id": "ej6tN8yV4os",
+        "title": "Like a Dog",
+        "channel": "Bella Kay - Topic",
+        "thumbnail": "https://i.ytimg.com/vi/ej6tN8yV4os/mqdefault.jpg",
+        "published_at": "2026-11-23T02:00:23Z",
+        "view_count": 22129,
+        "like_count": 1412
+      },
+      {
+        "rank": 19,
+        "video_id": "6iJnsH4424g",
+        "title": "Wait... Netflix's Steps Is Actually GOOD??",
+        "channel": "DazzReviews",
+        "thumbnail": "https://i.ytimg.com/vi/6iJnsH4424g/mqdefault.jpg",
+        "published_at": "2026-11-22T17:15:33Z",
+        "view_count": 148046,
+        "like_count": 3833
       },
       {
         "rank": 20,
@@ -429,18 +424,18 @@
         "channel": "gameranx",
         "thumbnail": "https://i.ytimg.com/vi/H3DQNv21hmk/mqdefault.jpg",
         "published_at": "2026-11-22T18:28:22Z",
-        "view_count": 1048030,
-        "like_count": 19750
+        "view_count": 1080862,
+        "like_count": 20394
       },
       {
         "rank": 21,
-        "video_id": "IJUgcInGpRg",
-        "title": "ArrDee - MY FLEX (Visualiser)",
-        "channel": "ArrDee",
-        "thumbnail": "https://i.ytimg.com/vi/IJUgcInGpRg/mqdefault.jpg",
-        "published_at": "2026-11-22T18:00:09Z",
-        "view_count": 21483,
-        "like_count": 1260
+        "video_id": "vk2jgBqAA9Q",
+        "title": "Take That - Higher live from The Graham Norton Show",
+        "channel": "Take That",
+        "thumbnail": "https://i.ytimg.com/vi/vk2jgBqAA9Q/mqdefault.jpg",
+        "published_at": "2026-11-22T15:00:10Z",
+        "view_count": 51461,
+        "like_count": 650
       },
       {
         "rank": 22,
@@ -449,65 +444,65 @@
         "channel": "Universal Music South",
         "thumbnail": "https://i.ytimg.com/vi/Y488C2KfdmQ/mqdefault.jpg",
         "published_at": "2026-11-21T14:31:13Z",
-        "view_count": 1446174,
-        "like_count": 19249
+        "view_count": 1459432,
+        "like_count": 19423
       },
       {
         "rank": 23,
-        "video_id": "Io9yYWWOhm4",
-        "title": "Top Christmas Songs of All Time 🎅🏼 Best Christmas Music Playlist 🎅🏼 Christmas Playlist 2026",
-        "channel": "Timeless Music",
-        "thumbnail": "https://i.ytimg.com/vi/Io9yYWWOhm4/mqdefault.jpg",
-        "published_at": "2026-11-21T14:07:13Z",
-        "view_count": 249178,
-        "like_count": 1451
+        "video_id": "IJUgcInGpRg",
+        "title": "ArrDee - MY FLEX (Visualiser)",
+        "channel": "ArrDee",
+        "thumbnail": "https://i.ytimg.com/vi/IJUgcInGpRg/mqdefault.jpg",
+        "published_at": "2026-11-22T18:00:09Z",
+        "view_count": 22657,
+        "like_count": 1327
       }
     ],
     "google_news": {
       "top": [
         {
-          "title": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1FmOGYwcEh6Rk5MNnNVVjA3eGZ2ZFBIc0VRc0lSNkI2MUE5NTI2WVZnemZZMkRIcmw2UE4zcmJyUGg5ek9VTmhNNXZpeWR1dWtUTE9NTDliaG9LZWNKb2NKdEFVaHE4N0JFMktnVldYWXAtOFBWaE9mZHZxZVE4OWJVV240RmJkOW5aOW9jakdwSzZTeVBLanBxTXh4QmcxWFZhbGJwMndmZTMyN1BHeUh5Z9IBuAFBVV95cUxQVXFtbU85SlhXR3NKMF9Fd1VrelFHOHBzaVRZZVJMcVNlQnFTZkp0bmJKbzRrOWhkWXdFcHROZG5aaGIwempKSGk3R0hmclQ3M2xMMXNKb2VUcG9UNENYOUh6SHh0MWR3UzhNLUpjQ0VnVUE2dGZJUjRLNzZVTUtscFNTbEpLWlpYRGxTeUJveXU4cmJEb0RKYUwwV3M2cVNMclRQd0k0LVZJVm55ZzZLNGNhN1IzREVh?oc=5",
-          "description": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya  Al JazeeraUkraine war latest: Kremlin responds after Ukraine blows up Russian warship in Libyan port  Sky NewsUkraine blows up ",
-          "publisher": "Al Jazeera",
-          "pub_date": "2026-11-23T10:39:10+00:00"
+          "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONjlYcEJxcWh6djFUeEhBbnR4eHJKWHdqOVNOVHhwc2ZGM3QtWGtDNUN3bHA2eUN0WEV3SkxwRVVyNXgzZzVlVHU5YXBZVm5CQmRoNUQ5ck00Rk1lOGFGc3FLRUFFelRnckhkaF9oVmplSE9UR2lEdEFQbFBNRjMya2l0WmFsTVR3bDM4SjNGS0FwOGJhblBsRmNKTQ?oc=5",
+          "description": "Ukraine confirms it used naval drones to strike two Russian ships off Libya  The GuardianZelenskyy says Ukraine responsible for sinking Russian warship in Libya – Europe live  The GuardianUkraine blow",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-23T11:52:00+00:00"
         },
         {
-          "title": "Burnham to set out EU deal in Commons, as Badenoch says Europe 'not market of the future'",
+          "title": "Haigh says EU agreement will 'help with cost of food' as PM prepares to set out deal to MPs",
           "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfTUtKcXg3UmVJLWZOSEZ4N0E4eENYT2dEb2tVd1BtMzI1LTlOdTVKYlRMS2h2Z1BYcHlQZ2pCYTJIY2pJNXNsa3JyUGE5ZGdXWklUOF90MU4?oc=5",
-          "description": "Burnham to set out EU deal in Commons, as Badenoch says Europe 'not market of the future'  BBCUK-EU food deal hailed by British firms: ‘We’re pretty aligned anyway’ | Food & drink industry  The Guardi",
+          "description": "Haigh says EU agreement will 'help with cost of food' as PM prepares to set out deal to MPs  BBCAndy Burnham hits back at ‘stuck in the past’ former PMs as he defends reopening Brexit debate  The Inde",
           "publisher": "BBC",
-          "pub_date": "2026-11-23T10:48:41+00:00"
+          "pub_date": "2026-11-23T12:52:29+00:00"
+        },
+        {
+          "title": "COP31 latest: Burnham urged to reject Rosebank oil field after 'outrageous' failure of UN climate talks",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSlZjMUlSWUR0VkJoZVAzaHdUM3A3ejJ1WEJBeWJfanN5SVhUSjNZSmE2djFPeDRycTBRYkNEX0x4QVY3cWF1RjEwMEtvelpPblJkVUhHY1Z5LXFzR0pwdGxZS1l6OVkxaFpITm1vXzBqNk9TTDBUMHQ0STEwc0tRX3JKSmllWTcxd3hzdGtRWE1oLW9HSkhF?oc=5",
+          "description": "COP31 latest: Burnham urged to reject Rosebank oil field after 'outrageous' failure of UN climate talks  Sky NewsFive takeaways from the failed climate talks COP31  BBCFailure of Cop31 prompts calls f",
+          "publisher": "Sky News",
+          "pub_date": "2026-11-23T09:19:42+00:00"
         },
         {
           "title": "Natural England could be abolished as part of quango cull, says Louise Haigh",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOejBPcU45clVsdzRvblA4QmM1QWRHU3N2WGgxLWd5WkFvZ2RiMVQ5akV2U05HRnBocXhBenJGSVZ5eG1lcnlyRFJTbmRROG16RG1IZkhKUG1qcUduVTdLM21BNG5Id0I1NDhhd3E3dmZyQmhjdHJDUDc0c0o1Z1Y2SEZjUmJwUGI1WVJYYWhUMDQtSFN4c1hTRWZzR2RGUHlwaU4zOVRuSzhvbHVk?oc=5",
-          "description": "Natural England could be abolished as part of quango cull, says Louise Haigh  The GuardianSenior minister refuses to rule out scrapping Natural England  The IndependentTories welcome Louise Haigh’s hi",
+          "description": "Natural England could be abolished as part of quango cull, says Louise Haigh  The GuardianNatural England faces axe under Labour’s quango crackdown  The TelegraphNatural England could be abolished as ",
           "publisher": "The Guardian",
           "pub_date": "2026-11-23T09:19:00+00:00"
         },
         {
-          "title": "Five takeaways from the failed climate talks COP31",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1wYkk4elhPXzAyMEZzeE1kaG8yb3BfVHFkVDE3aUF0UGxidDBKYk9uVUxZbUk0ejVSN2Yyd3d4OFZ5NmMycUJIeUdIaHJ1QjJZUEEtYTRZckZEekF0QlE?oc=5",
-          "description": "Five takeaways from the failed climate talks COP31  BBC'Complete COP-out' and Tyson Fury's 'torment'  BBCFirst Thing: Cop31 talks collapse without deal in blow to planet’s future climate  The Guardian",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T06:33:50+00:00"
+          "title": "Minister condemns Trump’s embrace with ‘butcher’ Putin | ITV News",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbEowLVU4MkU1dU9WM0duNFZNTzZpMG5zTzN5RU5sZGlKMWQxb3VTcE5MRlMweFAwaXdfOEJCRjNxU2x6NTQ3SzUyZTh3LTdYZDc2enN5SXJQR092VjZXLTYydzE0Mnl6NjFhMjUweUpHUGdmak1pcjZycEtMcF9UbVdMbzdvbmphVkRaa3VyWmk?oc=5",
+          "description": "Minister condemns Trump’s embrace with ‘butcher’ Putin | ITV News  ITVXUS intelligence chief says he trusts Trump’s description of Putin as ‘my friend’  The GuardianZelensky says Putin is a 'killer' a",
+          "publisher": "ITVX",
+          "pub_date": "2026-11-22T12:09:45+00:00"
         },
         {
           "title": "Long delays on M25 due to tunnel defect",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OZzBvYXVJZHRBTnB1N2U2TVpRY1dmVXRIMEVnM1lrLTI3N2hBVno4VjNCOHFiTVFULW5YdkpBdkVDLWFuSnVnZVp2cGNGb2pZWDV5cHo2QVZEeTJPTnc?oc=5",
-          "description": "Long delays on M25 due to tunnel defect  BBCDartford Crossing LIVE: Tunnel closure causes morning rush-hour chaos  London Evening StandardSevere delays on M25 and A2 due to emergency Dartford Tunnel r",
+          "description": "Long delays on M25 due to tunnel defect  BBCDartford Crossing tunnel closure sparks eight-mile tailbacks - LIVE  London Evening StandardSevere delays on M25 and A2 due to emergency Dartford Tunnel rep",
           "publisher": "BBC",
           "pub_date": "2026-11-23T08:21:09+00:00"
         },
         {
-          "title": "Disability benefits should be tailored to claimants’ actual costs, review to say | ITV News",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVE1UUjhSRFppVk9DcXAwMno4ajhLWTdQdlpvbUdWUGFUcUVZREd6UTk2VWFWb1R4c0FpVjRwQlZOcGxuaVQwVE92UDRnZGlfZC13eWtOcjdnWkRrQ0hUTWNfaU9vSXF1RHBoYzdwOGlVR1dtSm1rMUlmODRkZU1aVnpHeEhxMDdNYU9BaVlEdmo5d1c0Q3IzaHdaSzhaaUpERzIteVhMSkZoVVBoUFFaTVFMbEs?oc=5",
-          "description": "Disability benefits should be tailored to claimants’ actual costs, review to say | ITV News  ITVXPip assessments need 'fundamental overhaul', report to say  BBCBurnham plans to revive Starmer’s disabi",
-          "publisher": "ITVX",
-          "pub_date": "2026-11-22T22:54:42+00:00"
-        },
-        {
           "title": "Manchester's Co-op Live evacuated after 'unknown substance' let off in crowd at concert by US rapper Don Toliver",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QZjZPM2ZmeExhRTNocnVwTFpuYnpUaEhUV0oyd01sRTdEakh0RDRETEhfVThvemllY3k4N0d2Y2RCTGZyNnBFbVFpWm9JbjYxWTBrU0VELXZ6VjdSZHc?oc=5",
           "description": "Manchester's Co-op Live evacuated after 'unknown substance' let off in crowd at concert by US rapper Don Toliver  BBCManchester’s Co-op Live arena evacuated after ‘unknown substance’ released in crowd",
@@ -517,102 +512,16 @@
         {
           "title": "All the London Underground strike dates coming up with first RMT walkout this week",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOW9CQVBENkJHcEExWnF0bDNOZ2dSZFl0UEktS1NteG5PVVZ2RzdqUEMxWjFrWmlkX3QwLVUzd01sSXpreGhtTTM2dTBwV2hZTjctZFZqWjh5THBMQS1yMGZiUmp4aEFfMlR6TXBxa0R0ZHRLTllycFRTeEk0MnlIb2dlS1o1ZEhTendJOG9iTGpkaW9BQzJNQ292Vi1PSFFabktqQ01hbDR6eVU?oc=5",
-          "description": "All the London Underground strike dates coming up with first RMT walkout this week  London Evening StandardTube drivers and Transport for London in last-ditch strike talks  BBCRival union blows apart ",
+          "description": "All the London Underground strike dates coming up with first RMT walkout this week  London Evening StandardTube drivers and Transport for London in last-ditch strike talks  BBCLondon Tube strikes: Whe",
           "publisher": "London Evening Standard",
           "pub_date": "2026-11-23T06:38:24+00:00"
         },
         {
-          "title": "Will it snow this week? Mild Atlantic air collides with cold air across the UK",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWNWZteDQ1bXRmVkRJOXJqd2VIX3JqSmRwUWJDWm5QTDRSZmlXRjhjT19qOXJ4RThpblhWT3pnSC1oVngzRGFkQlJiMjdvMlRQLTBOM3FNVXBjQUl1UjBZ?oc=5",
-          "description": "Will it snow this week? Mild Atlantic air collides with cold air across the UK  BBCCold weather alert extended as temperatures drop to -10C  Sky NewsParts of the UK brace for ‘early arrival of winter’",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T00:40:36+00:00"
-        },
-        {
-          "title": "Moment cyclists ambushed in attempted robbery on canal towpath",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSHRhRko5VVFiSjRfSXkzMy1vTWpuaHdtUEtDaEpabVBLbzZqcWJjcjBaV2JyLVozY1UyeHNDZFJvYklkekFZRlpoeklRT0Ixai1BR3lnUU5mMUl2MW1aWnhEV3M0MWhCenNJQTVBWTQ3V2xaS2U4UmYtZmp0RHo0djNndw?oc=5",
-          "description": "Moment cyclists ambushed in attempted robbery on canal towpath  The Times",
-          "publisher": "The Times",
-          "pub_date": "2026-11-23T10:15:37+00:00"
-        },
-        {
-          "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81bWhabGpUZzdoTnVNUlZzUEJBa3FxTXhEVldtZWJSYnBWOENSRnVKWG1JUFB2UVVNME92OTJIVUlDVjZCcUlFbFhLdXUzcEJPb291Z2ZLdWhHVGNfbWc?oc=5",
-          "description": "Democrats win largest House majority since 1992 after flipping North Carolina seat  BBCThis proud dad of a lesbian just defeated a powerful GOP congresswoman  The Washington PostHouse Democrats to sta",
-          "publisher": "BBC",
-          "pub_date": "2026-11-22T20:26:24+00:00"
-        },
-        {
-          "title": "‘Out of control’ wildfire rips through Majorca as 40mph winds fuel flames & tourists told to stay away",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUzl4Rmx2MDhESFdfd1diZWpxUHVWZ19jQkJPUTcxMzU5ZlVHN29KbnpOUnRWcXRaNjJkcTdyOU04UkNCVGNRNWJaVlNHajl6d2Zvb01CZjN4RjhTWkthLXR1dXB2TUdGaHlGQzJ4SG1CQTV4dlNfaF9GVG5fbzU3dzhncThDei1wQXZfVQ?oc=5",
-          "description": "‘Out of control’ wildfire rips through Majorca as 40mph winds fuel flames & tourists told to stay away  The SunSee more headlines and perspectives on Google News",
-          "publisher": "The Sun",
-          "pub_date": "2026-11-23T09:32:00+00:00"
-        },
-        {
-          "title": "Three dead, dozens missing after fire rips through Milkita candy factory",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZzd5T3loT1pwT1FveFZPTzBjVnhvSlEyUTg4b2lPTmtXdXhnUTVGQ2d5Vnc5T25uVlBFUno1YnJNelJUMENJU1pqSkFXQ0U2YjgteF9BQlpuSzJHcmRmTjJ5VjgxeVE3T3RMeE1pNDJVcE4wY3hxSUpodFZLbFRaVUJ1WnQtTE4yWnFDR2syLTF6RXJsNGhEQ0VMdmo?oc=5",
-          "description": "Three dead, dozens missing after fire rips through Milkita candy factory  The IndependentThree killed and dozens missing after fire at Indonesian factory  BBCIndonesia says 24 killed in factory blaze ",
-          "publisher": "The Independent",
-          "pub_date": "2026-11-22T19:03:00+00:00"
-        },
-        {
-          "title": "Madeleine McCann prime suspect ‘said he abducted and killed little blonde girl’",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMFBYWlV5TWJyVUxxNXgxZGtwNUhtVzZTdjFqdWl2N3R6dUNScHJwQzJtX0VZYVR2Zm9aZ1RhOGFYQk5ZRThCUmxfd2RxZ0hXN2FDdk5Pa3J1NnVxdVBFZFBpc0VfT2N0bDlpeGxaYjF1c2ZmMlU0U05jU29IQWVRZGdvMkdwS2ZLZGRYR0o1VFJvd2NrWUcwS1Fmb1o2Ti1RWHNJ?oc=5",
-          "description": "Madeleine McCann prime suspect ‘said he abducted and killed little blonde girl’  London Evening StandardSee more headlines and perspectives on Google News",
-          "publisher": "London Evening Standard",
-          "pub_date": "2026-11-23T00:19:11+00:00"
-        },
-        {
-          "title": "Capita shares plunge and boss steps down as civil service pensions saga drags on",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sS0t6U25PWlJLeEVTc1g2aUxCRHFyT05xSko5VlJpakVMYXNHZV9MQk1ybndVenlPT1AzZzF0bGJlVGhGSWNTX1ZrcHg1ZTRQeHpUX1BTdnd1Q05nQlE?oc=5",
-          "description": "Capita shares plunge and boss steps down as civil service pensions saga drags on  BBCAI datacentre rollout boosts UK manufacturing, as tech sell-off eases – business live  The GuardianCapita shares dr",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T10:46:56+00:00"
-        }
-      ],
-      "nation": [
-        {
-          "title": "Manchester's Co-op Live evacuated after 'unknown substance' let off in crowd at concert by US rapper Don Toliver",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QZjZPM2ZmeExhRTNocnVwTFpuYnpUaEhUV0oyd01sRTdEakh0RDRETEhfVThvemllY3k4N0d2Y2RCTGZyNnBFbVFpWm9JbjYxWTBrU0VELXZ6VjdSZHc?oc=5",
-          "description": "Manchester's Co-op Live evacuated after 'unknown substance' let off in crowd at concert by US rapper Don Toliver  BBCManchester’s Co-op Live arena evacuated after ‘unknown substance’ released in crowd",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T02:07:29+00:00"
-        },
-        {
-          "title": "Burnham’s EU deal will not guarantee cheaper food, Haigh admits",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQamxOWExXRlhIOHlTMG9XUFM4WFFxUGFzQWl1c1dCOHhDeWE5Ylp5UndOeW5iS1diaUFFd2RCNm9BNFlYUDBlczAxbDhxODZsSGJHTEJualg0SFVFSlVyMGViRGp4NHVudXBBaExXcDZ5YXVDM3FEMUlQTlpUVTZ3enZlMGtIMzZKdks3eERpSURVUk1GdE9Ld0tVbjY?oc=5",
-          "description": "Burnham’s EU deal will not guarantee cheaper food, Haigh admits  The TelegraphUK-EU food deal hailed by British firms: ‘We’re pretty aligned anyway’ | Food & drink industry  The GuardianUK-EU SPS Agre",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-11-23T10:10:00+00:00"
-        },
-        {
-          "title": "Will it snow this week? Mild Atlantic air collides with cold air across the UK",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWNWZteDQ1bXRmVkRJOXJqd2VIX3JqSmRwUWJDWm5QTDRSZmlXRjhjT19qOXJ4RThpblhWT3pnSC1oVngzRGFkQlJiMjdvMlRQLTBOM3FNVXBjQUl1UjBZ?oc=5",
-          "description": "Will it snow this week? Mild Atlantic air collides with cold air across the UK  BBCCold weather alert extended as temperatures drop to -10C  Sky NewsParts of the UK brace for ‘early arrival of winter’",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T00:40:36+00:00"
-        },
-        {
-          "title": "All the London Underground strike dates coming up with first RMT walkout this week",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOW9CQVBENkJHcEExWnF0bDNOZ2dSZFl0UEktS1NteG5PVVZ2RzdqUEMxWjFrWmlkX3QwLVUzd01sSXpreGhtTTM2dTBwV2hZTjctZFZqWjh5THBMQS1yMGZiUmp4aEFfMlR6TXBxa0R0ZHRLTllycFRTeEk0MnlIb2dlS1o1ZEhTendJOG9iTGpkaW9BQzJNQ292Vi1PSFFabktqQ01hbDR6eVU?oc=5",
-          "description": "All the London Underground strike dates coming up with first RMT walkout this week  London Evening StandardTube drivers and Transport for London in last-ditch strike talks  BBCRival union blows apart ",
-          "publisher": "London Evening Standard",
-          "pub_date": "2026-11-23T06:38:24+00:00"
-        },
-        {
-          "title": "Moment cyclists ambushed in attempted robbery on canal towpath",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSHRhRko5VVFiSjRfSXkzMy1vTWpuaHdtUEtDaEpabVBLbzZqcWJjcjBaV2JyLVozY1UyeHNDZFJvYklkekFZRlpoeklRT0Ixai1BR3lnUU5mMUl2MW1aWnhEV3M0MWhCenNJQTVBWTQ3V2xaS2U4UmYtZmp0RHo0djNndw?oc=5",
-          "description": "Moment cyclists ambushed in attempted robbery on canal towpath  The Times",
-          "publisher": "The Times",
-          "pub_date": "2026-11-23T10:15:37+00:00"
-        },
-        {
-          "title": "Walton street cordoned off LIVE as police 'focus on car'",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa2lfZ2wxTW5iMWk5R2VEVS1peXg2NU5zRlU2VlB4Sk5uLWFKbU16THpzMm1XNTQwdkJuaE5nWVdLUmlmcUR1cWdpV1dFQS1ka1FlMWROclVtM18yc3p0a1picGVDQTA3bUM2VVhwcnpuTTNGUzgydmFJY29WT2w0ejN1bTc0VV9BbGY2SlRMUTlQSXZoRUJJ?oc=5",
-          "description": "Walton street cordoned off LIVE as police 'focus on car'  Liverpool Echo",
-          "publisher": "Liverpool Echo",
-          "pub_date": "2026-11-23T10:06:54+00:00"
+          "title": "Snow and frost forecast for parts of the UK as wintry conditions arrive",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWWdQUVBad2FXYWk5NEQ3ajZlYUhoREs3UGcwUUg1Und0S1RZZXJXTnlxMC1MTnByVWdJdDNRSFcwWkZSdmV1cVZIZDVNU0FzTWhKZXNWeURiNlpMZ2lzajJDSjRwQjRlYlRzMEloQXU1RHN6YWFYazJneUZWZlNvQmxuR3liRGtnZ1dTZEtsUGRvTnQ4akNQQlQ4Qlo4Z0JkT1VqQ3gxSFZEaDA?oc=5",
+          "description": "Snow and frost forecast for parts of the UK as wintry conditions arrive  Sky NewsWill it snow this week? Mild Atlantic air collides with cold air across the UK  BBCParts of the UK brace for ‘early arr",
+          "publisher": "Sky News",
+          "pub_date": "2026-11-23T11:53:50+00:00"
         },
         {
           "title": "Burnham criticised over ‘cringe’ interview with TikTok influencer",
@@ -622,104 +531,112 @@
           "pub_date": "2026-11-23T10:24:00+00:00"
         },
         {
-          "title": "Man badly injured in street assault dies",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02X0Ryd1NFMEVJVjRQLW5ySm11SS14R3dWQ1VJRmNGNE94dGt5bHBVQkc1MWhyVlpCa1RCM0NKLVRqQnJuRi11VHgwRWYyZEdiVkg4eHZWSkFaMDBJNEE?oc=5",
-          "description": "Man badly injured in street assault dies  BBCMan charged following serious assault in Halifax  West Yorkshire PoliceMan in his 60s fighting for life after reported serious assault - Arrest made  Teleg",
+          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53UE10bVlHdlBvUGgwY3hKVXZMclhNVjMzUGRKQURjVV82czlJOUhKNDFfbW41cmE3ZmNSY285bGVsSGJQUnpJUUozTDYyMXdIQk5BTFExcTVmc1haZnc?oc=5",
+          "description": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says  BBCEnvironmental War Crimes  OxfamIsrael’s destruction of Gaza has created a ‘toxic wasteland’, experts find  The Guardian‘Environm",
           "publisher": "BBC",
-          "pub_date": "2026-11-22T14:29:23+00:00"
+          "pub_date": "2026-11-23T11:57:33+00:00"
         },
         {
-          "title": "Burnham not ‘backtracking’ on creating closer links with EU, officials say",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUENTQWdBRUYxYm41SWRhM3ItcFFXaW1EYVVmN2pIa2E1NlRCOE1EeUFWT2NqdkhaT0xQNjNkZUN2aGE2SkdtNW5CcHZHVnNEVlF6RndrYXgwazJpQU5Bd194eDA2azQzSjlaaTdHYkZGMUhpVDZET2Q3alRTSkRTd1pGNXJMd0pLaTNHd1R1NzJmTjBkMjRrYmcybTdId29seVFDQmtzeGhReXVlaDhjcHoxUHEwRUdu?oc=5",
-          "description": "Burnham not ‘backtracking’ on creating closer links with EU, officials say  The GuardianAndy Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'  BBCUndoing Brexit is the right",
-          "publisher": "The Guardian",
-          "pub_date": "2026-11-23T06:00:00+00:00"
+          "title": "At least 15 killed in Ukraine’s Kyiv region as Russia intensifies attacks",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZGl2dEc3N1IyaHBuWF9vTjZPV2s4YnltNWNweldlZlR6RzJBUW5QR1gzTGhBX0dSR0FraU5mMzY2OGJxYnFmV1RyVFhhUW0yM1NKQXJ0aDNLcVk2STJQNWl0Q1Y0N25DMTBRY0N2XzIxd25WQ0dNUnIxYjRTeVRlVXJPTG82Y3VKYzZuX1hTZ29vaW45QkRLd2tnbHYyTm_SAaQBQVVfeXFMTTNMN2dTbWFtZERHLUQyNnloR1VrdDdOU2d4WHNQS21BalRPNTdXZmhOelNTZHFtYTJLUmludDQ3UlFvOHYzMV9HNUIzaTFkRENHWDRXZGlZVmRXT1l1Vy1rRjVoWUZSQnEtOVE2TVRsRE1WQTBvV2JiX3A0ci10d0NYOHVvYXlmcFk0NXFPcDRMWWFTUGNTbE5HajZUdUMyc0d3eFY?oc=5",
+          "description": "At least 15 killed in Ukraine’s Kyiv region as Russia intensifies attacks  Al JazeeraUkraine war briefing: Race to find survivors after Russian attack on apartment block kills at least 11  The Guardia",
+          "publisher": "Al Jazeera",
+          "pub_date": "2026-11-23T09:34:42+00:00"
         },
         {
-          "title": "People in Wales with these 112 surnames may be in line to inherit a fortune — full list",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUGRLZ3k0Z0V5RFdDZ2FxTHc0d19lbXoxSm1EM1VQWHRxVnZjNkhpamtMYTRxQjg1WTZrRFhGaDFiNkJtWEtMSU1LTHRlM2M0NlpCM2RxdUVvT0U5bDExWVV5b2VSajVQZFBIRWUyeUdsaHEtZE9EVTZuc3J2UkpOeVRvSmFvTmFwTmxTQzJkTzhobEHSAZgBQVVfeXFMTWMtS25ZYVBqbjR2eWNZaUNRc000dVpYeE85QlM4czZ5cXQ5c2MwQ3ZGeTgyb0ZhQ2phaFhZMVJkUUhaYmxvTTJncVJobVJSSjB6T0RtamRfcFN4TWpNYU4ydk5SUG9lVllDUTVLS3Z6SGlZa1NLcWVKc3cwMWlYZjlYVjV4LWRONFQ3aUFhSEhUYllYc19mR0c?oc=5",
-          "description": "People in Wales with these 112 surnames may be in line to inherit a fortune — full list  Wales OnlineThe 23 surnames in Greater Manchester that means you could inherit a fortune  Manchester Evening Ne",
-          "publisher": "Wales Online",
-          "pub_date": "2026-11-22T04:20:00+00:00"
+          "title": "Conservative host Ann Coulter mocked online for GOP 2028 suggestion",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLVBFNzNDTnIxNENMQ0xyZUY1NVhIZ003amlQYTdXSHBqbVZza0lSRDNNT0FhM05ITUllQW1LUVBlTUFzMjc0WWY1X1BqR2tLWnZKcC0wSG5teVNXcGFYS2RLMzhaNXJLZEdjZTA4eWxCaHJTNFFtS1NFNUtSVkViYmNtb0RFX0h6TmJSV01QV3dpWFhnN29WSndlNEtKeGw0OHhhUXBRNkR4V1dn?oc=5",
+          "description": "Conservative host Ann Coulter mocked online for GOP 2028 suggestion  The IndependentTrump turns White House press conference into a 2028 succession audition  The GuardianCan JD Vance become US preside",
+          "publisher": "The Independent",
+          "pub_date": "2026-11-22T20:08:00+00:00"
         },
         {
-          "title": "Natural England could be abolished as part of quango cull, says Louise Haigh",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOejBPcU45clVsdzRvblA4QmM1QWRHU3N2WGgxLWd5WkFvZ2RiMVQ5akV2U05HRnBocXhBenJGSVZ5eG1lcnlyRFJTbmRROG16RG1IZkhKUG1qcUduVTdLM21BNG5Id0I1NDhhd3E3dmZyQmhjdHJDUDc0c0o1Z1Y2SEZjUmJwUGI1WVJYYWhUMDQtSFN4c1hTRWZzR2RGUHlwaU4zOVRuSzhvbHVk?oc=5",
-          "description": "Natural England could be abolished as part of quango cull, says Louise Haigh  The GuardianNatural England could be abolished as part of quango cull, Louise Haigh says  The IndependentTories welcome Lo",
-          "publisher": "The Guardian",
-          "pub_date": "2026-11-23T09:19:00+00:00"
+          "title": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT25tR284UTNyRzU1TFlqY2E2MzVHSE1OSEFmdHdpc0g5UHJjd3FORUcwVHlwODRtTHMxX1d6YXdxY0trYk42b1FqMmJOaEFIRDVKY3Q2TFFOeEJ4OUFqakhaYmN1UlpNYU55R1lrVUxVMnhyYTdVSjBiY0FhTHZZT1pzRmRMbjFnUE9ZSUlPVVZoNzEzdkRXbW1JSVdfX3A0dExHYl9pQ0dDWVXSAbABQVVfeXFMTXdLRTZWdnFuc1hSNkhCUC0tRUh3a1dLMW5KTG5kSmFwaW8yQW1aVGNyV3dKT0x4YlVDMnhJTkk1eTZzWHFMZ2Q4ZnplVzRSUWRGY3NCVTl6eHlUekcxNVZCdDNkblJ2bWh0MGdPQ1U3UWhsSHlPQ1hQM2JMZk1Fc24wWF92ME1xLWpvUk1SZnViX0MwZUtWNmotakI4dGlZNzd0amZVZ3FGQ25CS2RmRmI?oc=5",
+          "description": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping  Al JazeeraIran war updates: Navy says tankers ablaze near Hormuz after hitting mines  Al JazeeraOil shipped through Hormuz falls as I",
+          "publisher": "Al Jazeera",
+          "pub_date": "2026-11-21T15:03:46+00:00"
         },
         {
-          "title": "Man who killed three during psychotic episode ‘had been released after catalogue of failures’",
-          "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZVV6V01KTVRhWGtzODczLTk2b0Utel9BLXRXUzJWTWNMN1dIcm5HQXZIQWJxa2xua3hRaXhtODRDdHJYNEhKa2drYlBtaW02dGx3cURXcmlEVDVTX1hyTHhTOVNvSXhySzRWTkR0bU5jTFpWVmprZDdlVkliajBrUjZCckRZaW1HVUU3ZDVkNEtaZjUyeGhzZldKc0tSTWg3S0RLS2l5TkZGVWtHLUN5NFRYWGZuYU0ydl9mTjFOWmVTZ1dfS19EbmhlWkpEM044QUUwYkVKOVNJcVY2elhYd3Babm5lc1FlRDNzS0Q1eFJsT2NoNl9LeFBFYWxTbFFwMDNqU1hTMmoxaTN0MUdxRw?oc=5",
-          "description": "Man who killed three during psychotic episode ‘had been released after catalogue of failures’  The GuardianSee more headlines and perspectives on Google News",
-          "publisher": "The Guardian",
-          "pub_date": "2026-11-23T02:31:00+00:00"
-        },
-        {
-          "title": "Quarter of a million young people may lose £10,000 a year in benefits",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVVduaUVmcWxjczdkVXBIc3pweWtKZVFWZFhwYjktVHRPV1Zmak5ubWJoYnFub19NQXJZVEZfRVNzUmlacGpZZmtDbjFiWGd2WEVidnhDaDlKN1BNYzJWQTBuQ0hEUXB5YTVNZERid2VpVnN5T3JkVFZqcS1GV3VoRzRSYnJ0VVZDZjZlWjctQUFGcmV3el9TMFNR?oc=5",
-          "description": "Quarter of a million young people may lose £10,000 a year in benefits  The TimesNeets reforms embraced by Cornish fishers  BBCChildhood neglect, unmet needs, mental health struggles: this is the makin",
-          "publisher": "The Times",
-          "pub_date": "2026-11-22T21:02:57+00:00"
-        },
-        {
-          "title": "What six grazing horses tell us about England's housing crisis",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TZWFaTlpBMVJzZVFzeDhMc0o4SnJkamdUTFhOUTBiOHFBUmdmVTYtTWRyQWJRR0daa3ppaGlhN0M2MHBOT29UZ09OcVExMUdGSUUxdUw1UFdpVjJRUWc?oc=5",
-          "description": "What six grazing horses tell us about England's housing crisis  BBCThree UK Developments Deliver Only 326 of 7400 Planned Homes  Demokratis.co.idUK Housing Projects Deliver Just 326 of 7400 Planned Ho",
+          "title": "Capita shares plunge 70% as boss quits after civil service pensions failure",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sS0t6U25PWlJLeEVTc1g2aUxCRHFyT05xSko5VlJpakVMYXNHZV9MQk1ybndVenlPT1AzZzF0bGJlVGhGSWNTX1ZrcHg1ZTRQeHpUX1BTdnd1Q05nQlE?oc=5",
+          "description": "Capita shares plunge 70% as boss quits after civil service pensions failure  BBCCapita shares drop 70% on cash call after civil service pension failures  Financial TimesCapita boss exits and shares cr",
           "publisher": "BBC",
-          "pub_date": "2026-11-23T06:00:43+00:00"
-        },
-        {
-          "title": "Just accept Brexit and move on, Theresa May urges Andy Burnham | ITV News",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORjZZTndCM3d1am0zdkhtb2hqQ0gxcFBpVkRqUF9oRHRydzBiaF9FajZpU2tVVmU4THdFMkozbmNieWRGcWMtWWhONk9vNFFPczY1QXFoN0Jiamp1LTdNQW5SbjBXak1IWlBXcEJWRXRoeFVEdDRqQTQzR0R1Z2tINlBUd182ZVhMemxwLWc0Q3JMeUJZdTlIMEZ4NXE1QQ?oc=5",
-          "description": "Just accept Brexit and move on, Theresa May urges Andy Burnham | ITV News  ITVXTheresa May’s blast from the past calls Tories back to their unhappy place | Peter Walker  The GuardianTheresa May 'aghas",
-          "publisher": "ITVX",
-          "pub_date": "2026-11-22T15:01:07+00:00"
+          "pub_date": "2026-11-23T10:46:56+00:00"
         }
       ],
+      "nation": [],
       "world": [
+        {
+          "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONjlYcEJxcWh6djFUeEhBbnR4eHJKWHdqOVNOVHhwc2ZGM3QtWGtDNUN3bHA2eUN0WEV3SkxwRVVyNXgzZzVlVHU5YXBZVm5CQmRoNUQ5ck00Rk1lOGFGc3FLRUFFelRnckhkaF9oVmplSE9UR2lEdEFQbFBNRjMya2l0WmFsTVR3bDM4SjNGS0FwOGJhblBsRmNKTQ?oc=5",
+          "description": "Ukraine confirms it used naval drones to strike two Russian ships off Libya  The GuardianAlbania denies Ukrainian drones that sank Russian ships were launched from its territory – Europe live  The Gua",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-23T11:52:00+00:00"
+        },
         {
           "title": "COP31 latest: Burnham urged to reject Rosebank oil field after 'outrageous' failure of UN climate talks",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSlZjMUlSWUR0VkJoZVAzaHdUM3A3ejJ1WEJBeWJfanN5SVhUSjNZSmE2djFPeDRycTBRYkNEX0x4QVY3cWF1RjEwMEtvelpPblJkVUhHY1Z5LXFzR0pwdGxZS1l6OVkxaFpITm1vXzBqNk9TTDBUMHQ0STEwc0tRX3JKSmllWTcxd3hzdGtRWE1oLW9HSkhF?oc=5",
-          "description": "COP31 latest: Burnham urged to reject Rosebank oil field after 'outrageous' failure of UN climate talks  Sky News'Complete COP-out' and Tyson Fury's 'torment'  BBCFirst Thing: Cop31 talks collapse wit",
+          "description": "COP31 latest: Burnham urged to reject Rosebank oil field after 'outrageous' failure of UN climate talks  Sky NewsFive takeaways from the failed climate talks COP31  BBCFailure of Cop31 prompts calls f",
           "publisher": "Sky News",
           "pub_date": "2026-11-23T09:19:42+00:00"
         },
         {
-          "title": "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM1FmOGYwcEh6Rk5MNnNVVjA3eGZ2ZFBIc0VRc0lSNkI2MUE5NTI2WVZnemZZMkRIcmw2UE4zcmJyUGg5ek9VTmhNNXZpeWR1dWtUTE9NTDliaG9LZWNKb2NKdEFVaHE4N0JFMktnVldYWXAtOFBWaE9mZHZxZVE4OWJVV240RmJkOW5aOW9jakdwSzZTeVBLanBxTXh4QmcxWFZhbGJwMndmZTMyN1BHeUh5Z9IBuAFBVV95cUxQVXFtbU85SlhXR3NKMF9Fd1VrelFHOHBzaVRZZVJMcVNlQnFTZkp0bmJKbzRrOWhkWXdFcHROZG5aaGIwempKSGk3R0hmclQ3M2xMMXNKb2VUcG9UNENYOUh6SHh0MWR3UzhNLUpjQ0VnVUE2dGZJUjRLNzZVTUtscFNTbEpLWlpYRGxTeUJveXU4cmJEb0RKYUwwV3M2cVNMclRQd0k0LVZJVm55ZzZLNGNhN1IzREVh?oc=5",
-          "description": "Zelenskyy says Ukraine was behind drone attacks on Russian ships off Libya  Al JazeeraUkraine war latest: Kremlin responds after Ukraine blows up Russian warship in Libyan port  Sky NewsUkraine blows ",
-          "publisher": "Al Jazeera",
-          "pub_date": "2026-11-23T10:39:10+00:00"
-        },
-        {
-          "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81bWhabGpUZzdoTnVNUlZzUEJBa3FxTXhEVldtZWJSYnBWOENSRnVKWG1JUFB2UVVNME92OTJIVUlDVjZCcUlFbFhLdXUzcEJPb291Z2ZLdWhHVGNfbWc?oc=5",
-          "description": "Democrats win largest House majority since 1992 after flipping North Carolina seat  BBCThis proud dad of a lesbian just defeated a powerful GOP congresswoman  The Washington PostHouse Democrats to sta",
-          "publisher": "BBC",
-          "pub_date": "2026-11-22T20:26:24+00:00"
-        },
-        {
-          "title": "‘Out of control’ wildfire rips through Majorca as 40mph winds fuel flames & tourists told to stay away",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUzl4Rmx2MDhESFdfd1diZWpxUHVWZ19jQkJPUTcxMzU5ZlVHN29KbnpOUnRWcXRaNjJkcTdyOU04UkNCVGNRNWJaVlNHajl6d2Zvb01CZjN4RjhTWkthLXR1dXB2TUdGaHlGQzJ4SG1CQTV4dlNfaF9GVG5fbzU3dzhncThDei1wQXZfVQ?oc=5",
-          "description": "‘Out of control’ wildfire rips through Majorca as 40mph winds fuel flames & tourists told to stay away  The SunSee more headlines and perspectives on Google News",
+          "title": "Family of student, 24, who died suddenly on holiday in Turkey after falling violently ill fear she was POISONED",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUEhJUXl4Q0Z5dm9pNjA1dnEyYTE3REtuY2tudGlaeG5SdG52djFqRnQxdHR4ZTVoRFNfNkF2aVd3d3ZPYzlMRl92RmlmRUowOTkzaHY5ZFpxM3hPRTJRY0hlNk9odUZ0bWxxOVRMUnhWVndEc3I5ZjZEQVNhNFJwQUJQUU12SHVBMzVPcQ?oc=5",
+          "description": "Family of student, 24, who died suddenly on holiday in Turkey after falling violently ill fear she was POISONED  The SunMedical student, 24, suddenly dies of ‘food poisoning’ during graduation trip to",
           "publisher": "The Sun",
-          "pub_date": "2026-11-23T09:32:00+00:00"
+          "pub_date": "2026-11-23T10:20:00+00:00"
         },
         {
-          "title": "Three dead, dozens missing after fire rips through Milkita candy factory",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZzd5T3loT1pwT1FveFZPTzBjVnhvSlEyUTg4b2lPTmtXdXhnUTVGQ2d5Vnc5T25uVlBFUno1YnJNelJUMENJU1pqSkFXQ0U2YjgteF9BQlpuSzJHcmRmTjJ5VjgxeVE3T3RMeE1pNDJVcE4wY3hxSUpodFZLbFRaVUJ1WnQtTE4yWnFDR2syLTF6RXJsNGhEQ0VMdmo?oc=5",
-          "description": "Three dead, dozens missing after fire rips through Milkita candy factory  The IndependentThree killed and dozens missing after fire at Indonesian factory  BBCIndonesia says 24 killed in factory blaze ",
+          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53UE10bVlHdlBvUGgwY3hKVXZMclhNVjMzUGRKQURjVV82czlJOUhKNDFfbW41cmE3ZmNSY285bGVsSGJQUnpJUUozTDYyMXdIQk5BTFExcTVmc1haZnc?oc=5",
+          "description": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says  BBCEnvironmental War Crimes  OxfamIsrael’s destruction of Gaza has created a ‘toxic wasteland’, experts find  The Guardian‘Environm",
+          "publisher": "BBC",
+          "pub_date": "2026-11-23T11:57:33+00:00"
+        },
+        {
+          "title": "At least 15 killed in Ukraine’s Kyiv region as Russia intensifies attacks",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZGl2dEc3N1IyaHBuWF9vTjZPV2s4YnltNWNweldlZlR6RzJBUW5QR1gzTGhBX0dSR0FraU5mMzY2OGJxYnFmV1RyVFhhUW0yM1NKQXJ0aDNLcVk2STJQNWl0Q1Y0N25DMTBRY0N2XzIxd25WQ0dNUnIxYjRTeVRlVXJPTG82Y3VKYzZuX1hTZ29vaW45QkRLd2tnbHYyTm_SAaQBQVVfeXFMTTNMN2dTbWFtZERHLUQyNnloR1VrdDdOU2d4WHNQS21BalRPNTdXZmhOelNTZHFtYTJLUmludDQ3UlFvOHYzMV9HNUIzaTFkRENHWDRXZGlZVmRXT1l1Vy1rRjVoWUZSQnEtOVE2TVRsRE1WQTBvV2JiX3A0ci10d0NYOHVvYXlmcFk0NXFPcDRMWWFTUGNTbE5HajZUdUMyc0d3eFY?oc=5",
+          "description": "At least 15 killed in Ukraine’s Kyiv region as Russia intensifies attacks  Al JazeeraUkraine war briefing: Race to find survivors after Russian attack on apartment block kills at least 11  The Guardia",
+          "publisher": "Al Jazeera",
+          "pub_date": "2026-11-23T09:34:42+00:00"
+        },
+        {
+          "title": "Huge forest fire breaks out in Mallorca as strong winds threaten to worsen blaze",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcDJvbENYQ2JPNUMzcmxHUjZnVVVwOHJYa1VPWm1vUUdpbTdpN3VpRUNHaUZXMVZ5MVVBbzlPelZyYUxmZ25LeXJyVlo4VVduMXNOa1J0TlNURDJLenpFYnJPTERJVk9DbHlXNmVwNnRuUS1qRTV1NzVFa1hhd0g0UDdrOUxjX1l1MGlRQzAzVFJfazRvQlozVkJjblpEWU55WS1XbFI3bHdvNkQ2S0k2c0x0N0VTejdEdlNzRnJ0SzlNQmIxcHF4QnlNUDFBMXQwSC1VOWlJalBfUdIB2gFBVV95cUxQUG5SRWlxckdtbzFpYy1QMWhGLXVIX3lRUHI2MlFNdF8teVhmLVpvR3EyTnZVSHg3cWFyMHFSREF6OXBXUlZJazMxTlF2WFV4N0xjZjBwcjhuRG16ZjF6YkNrZ3BSVTdtWWhOWFF2WFRNNXJFWEx1NjVINkpwc2Z5N08zQkZkbkk3Vm9pYkxDR3dGNndac0FpLXFuZnVSVTFwTmNYUF9wUnlrWHpmOFZ0RUk2dWpXNGh6Y1pnT2dzVVJmVzNyRWdlUG5ybkxMZHRoVGF0UGhpejREdw?oc=5",
+          "description": "Huge forest fire breaks out in Mallorca as strong winds threaten to worsen blaze  Majorca Daily BulletinWildfire breaks out on Spanish tourist island as public warned to stay clear  The IndependentFot",
+          "publisher": "Majorca Daily Bulletin",
+          "pub_date": "2026-11-22T20:59:00+00:00"
+        },
+        {
+          "title": "Conservative host Ann Coulter mocked online for GOP 2028 suggestion",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLVBFNzNDTnIxNENMQ0xyZUY1NVhIZ003amlQYTdXSHBqbVZza0lSRDNNT0FhM05ITUllQW1LUVBlTUFzMjc0WWY1X1BqR2tLWnZKcC0wSG5teVNXcGFYS2RLMzhaNXJLZEdjZTA4eWxCaHJTNFFtS1NFNUtSVkViYmNtb0RFX0h6TmJSV01QV3dpWFhnN29WSndlNEtKeGw0OHhhUXBRNkR4V1dn?oc=5",
+          "description": "Conservative host Ann Coulter mocked online for GOP 2028 suggestion  The IndependentTrump turns White House press conference into a 2028 succession audition  The GuardianCan JD Vance become US preside",
           "publisher": "The Independent",
-          "pub_date": "2026-11-22T19:03:00+00:00"
+          "pub_date": "2026-11-22T20:08:00+00:00"
         },
         {
-          "title": "Madeleine McCann prime suspect ‘said he abducted and killed little blonde girl’",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMFBYWlV5TWJyVUxxNXgxZGtwNUhtVzZTdjFqdWl2N3R6dUNScHJwQzJtX0VZYVR2Zm9aZ1RhOGFYQk5ZRThCUmxfd2RxZ0hXN2FDdk5Pa3J1NnVxdVBFZFBpc0VfT2N0bDlpeGxaYjF1c2ZmMlU0U05jU29IQWVRZGdvMkdwS2ZLZGRYR0o1VFJvd2NrWUcwS1Fmb1o2Ti1RWHNJ?oc=5",
-          "description": "Madeleine McCann prime suspect ‘said he abducted and killed little blonde girl’  London Evening StandardSee more headlines and perspectives on Google News",
-          "publisher": "London Evening Standard",
-          "pub_date": "2026-11-23T00:19:11+00:00"
+          "title": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUW5OQjUxR2pacnpfSVYwajBicC1LR0RYZUExSm1SOWZqcVZjT1JqNkxyZUkxWUs3X1RIMkJNUFBCNnQ5SmlnbkNzY1gxcGQ3cHllQjdkNDk4OW5scE42dDkxYWJVY3k2VjNrY0t5OE1vYlYtZTNfbFAxRWFUY2l6U2pVWUhVR3A2VlVEQURxS1gxY3lF?oc=5",
+          "description": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia  The GuardianThree killed and dozens missing after fire at Indonesian factory  BBCIndonesia says 24 killed in factory b",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-22T07:11:00+00:00"
+        },
+        {
+          "title": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT25tR284UTNyRzU1TFlqY2E2MzVHSE1OSEFmdHdpc0g5UHJjd3FORUcwVHlwODRtTHMxX1d6YXdxY0trYk42b1FqMmJOaEFIRDVKY3Q2TFFOeEJ4OUFqakhaYmN1UlpNYU55R1lrVUxVMnhyYTdVSjBiY0FhTHZZT1pzRmRMbjFnUE9ZSUlPVVZoNzEzdkRXbW1JSVdfX3A0dExHYl9pQ0dDWVXSAbABQVVfeXFMTXdLRTZWdnFuc1hSNkhCUC0tRUh3a1dLMW5KTG5kSmFwaW8yQW1aVGNyV3dKT0x4YlVDMnhJTkk1eTZzWHFMZ2Q4ZnplVzRSUWRGY3NCVTl6eHlUekcxNVZCdDNkblJ2bWh0MGdPQ1U3UWhsSHlPQ1hQM2JMZk1Fc24wWF92ME1xLWpvUk1SZnViX0MwZUtWNmotakI4dGlZNzd0amZVZ3FGQ25CS2RmRmI?oc=5",
+          "description": "Tankers hit in Strait of Hormuz as Iran tightens grip on shipping  Al JazeeraIran war updates: Navy says tankers ablaze near Hormuz after hitting mines  Al JazeeraOil shipped through Hormuz falls as I",
+          "publisher": "Al Jazeera",
+          "pub_date": "2026-11-21T15:03:46+00:00"
+        },
+        {
+          "title": "Putin coup fears soar as veteran Russian general warns country on brink of collapse",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVGh4WFlYeGJNOW1oS19hdk9pYXZhOTgzMGUxQ3RLSXB3YlVLWTVGbFl1S0o3VUVyeldYS1pvSXNsWHhxczNYQk5ubHNma00zc012OFRNWkdJZWZUWXp6Qm5VWnk0VXhzbnhONmhhZURMWloyZzdCZXlhVE5ZNVVhVWJUUzFNd0lkWlHSAY8BQVVfeXFMUEg1NTdub2cwYzNhVkJ0QnZJa2YxNnVrOUZXMGYyblBCbGplSHBvR29tLTFKdzJhRWd1THJlaWxoYnVjYXAta3VqNFozc0NfalJ3ZkZQem1Qb3FUUC1aUC12djBwWXdFT0lJZVgySHRjYVlreXd3MkVObmNjcWpyRldHNERIenVxNzl2QS0yQzg?oc=5",
+          "description": "Putin coup fears soar as veteran Russian general warns country on brink of collapse  Daily ExpressSee more headlines and perspectives on Google News",
+          "publisher": "Daily Express",
+          "pub_date": "2026-11-23T09:54:00+00:00"
         },
         {
           "title": "Seattle airport operator 'outraged' over ICE arrest of two passengers",
@@ -729,176 +646,49 @@
           "pub_date": "2026-11-23T01:59:38+00:00"
         },
         {
-          "title": "‘Just wrong’: British right distances itself from Trump after Putin ‘friend’ post",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaVJRX1MydWNfVFFwcVh4bjVQUC1HWFpSLUYxTkRSM2kzdFV5NVhVMXVZUkhNZEpRU21mMVNGNVVxajZINEgwMW9xNUNnQzlpQkZ5REJjbkI4SXJaNGRIVk4tS3phTUdoMlQxQ2k3RU9hN3lPdDFwdEs4b0JkVHRabjktcjlsU1lhX0JjSWcxTUZBcG03NmxpV3hlVVFPVzRUV2g0a3p0TkFIX19nMlNtZjZydHB4bHQxREJoLUo2RU9xOHNZ?oc=5",
-          "description": "‘Just wrong’: British right distances itself from Trump after Putin ‘friend’ post  The GuardianUS intelligence chief says he trusts Trump’s description of Putin as ‘my friend’  The GuardianZelensky sa",
-          "publisher": "The Guardian",
-          "pub_date": "2026-11-23T02:31:00+00:00"
-        },
-        {
-          "title": "Mark Carney Brutally Mocks 'Interior Decorator' Donald Trump Over His Oval Office Revamp",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSUtmUExJRGNYS1d4eDVBbDdWSGd2bm14bGdKSE5WdDFfZklGXzZQQ2dhd25GVk5kZ0ZmazRQUzlmUmt4cnNCVVVWRWJwTGNjVndKUW9GUFJVQlRRLUJ4SFdDRWVtemNpZVk0bkItZ1VFS1ByQ3VFSlhfN1lBR3hlcUduMGc3UWNnLUc0dVFQMm0zRzBocEZESnBYZkhQemlJT1NiUjVFdHNldWJmN2c?oc=5",
-          "description": "Mark Carney Brutally Mocks 'Interior Decorator' Donald Trump Over His Oval Office Revamp  HuffPost UKMark Carney brings Trump impersonator onstage to joke about U.S.-Canada ties  The Washington PostTr",
-          "publisher": "HuffPost UK",
-          "pub_date": "2026-11-22T09:32:28+00:00"
-        },
-        {
-          "title": "Nato jets scrambled after ‘aerial target’ detected near border",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVzVHbGNCRGVERFdral81cVVRMHM5UUk4QU9vNVY5T3cyaUpvLThNX1lyN003ak9wTExUbGREc190ZVZjRUlsRnBVNURucGUzQWJVUW9PdHdLZk85bVdSUFEyUGtyUU9ISTRXampDREJLMzRWQUFEWThJOF84YXhPdncybVFtUzNy?oc=5",
-          "description": "Nato jets scrambled after ‘aerial target’ detected near border  The SunNATO fighter jets and helicopters scrambled as WW3 tensions skyrocket  Daily ExpressBlack Sea Security Crisis Costs Bulgaria Ship",
-          "publisher": "The Sun",
-          "pub_date": "2026-11-23T06:51:00+00:00"
-        },
-        {
-          "title": "David Lisnard shakes up the French centre",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeThxcEtla05mbmltd0IxbjdUSlVScVNjSHp4WFN6SFNCbjZZUzNQRmw0N1B0Nl9aZk1jZXdaWlRVelBvVHBSUnRVNWcwQklHa3YzMTh2VTY2SDJCeDl0NVFqdm1jd3FLeDh4YzRDZHM4MENYUi1SR29Mc1d6bU5TVmdXaXhBV1RaNHp0dkFEX0hGYTY0eW9J?oc=5",
-          "description": "David Lisnard shakes up the French centre  The EconomistThe social media sensation who wants to take on Le Pen in race for Élysée  The Telegraph‘Masked Macronist’ or Le Pen’s Trojan Horse? David Lisna",
-          "publisher": "The Economist",
-          "pub_date": "2026-11-23T00:00:00+00:00"
-        },
-        {
-          "title": "At least 15 killed in Ukraine’s Kyiv region as Russia intensifies attacks",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZGl2dEc3N1IyaHBuWF9vTjZPV2s4YnltNWNweldlZlR6RzJBUW5QR1gzTGhBX0dSR0FraU5mMzY2OGJxYnFmV1RyVFhhUW0yM1NKQXJ0aDNLcVk2STJQNWl0Q1Y0N25DMTBRY0N2XzIxd25WQ0dNUnIxYjRTeVRlVXJPTG82Y3VKYzZuX1hTZ29vaW45QkRLd2tnbHYyTm_SAaQBQVVfeXFMTTNMN2dTbWFtZERHLUQyNnloR1VrdDdOU2d4WHNQS21BalRPNTdXZmhOelNTZHFtYTJLUmludDQ3UlFvOHYzMV9HNUIzaTFkRENHWDRXZGlZVmRXT1l1Vy1rRjVoWUZSQnEtOVE2TVRsRE1WQTBvV2JiX3A0ci10d0NYOHVvYXlmcFk0NXFPcDRMWWFTUGNTbE5HajZUdUMyc0d3eFY?oc=5",
-          "description": "At least 15 killed in Ukraine’s Kyiv region as Russia intensifies attacks  Al JazeeraBoy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say  BBCUkraine war briefing: Race",
-          "publisher": "Al Jazeera",
-          "pub_date": "2026-11-23T09:34:42+00:00"
+          "title": "Minister condemns Trump’s embrace with ‘butcher’ Putin | ITV News",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbEowLVU4MkU1dU9WM0duNFZNTzZpMG5zTzN5RU5sZGlKMWQxb3VTcE5MRlMweFAwaXdfOEJCRjNxU2x6NTQ3SzUyZTh3LTdYZDc2enN5SXJQR092VjZXLTYydzE0Mnl6NjFhMjUweUpHUGdmak1pcjZycEtMcF9UbVdMbzdvbmphVkRaa3VyWmk?oc=5",
+          "description": "Minister condemns Trump’s embrace with ‘butcher’ Putin | ITV News  ITVXUS intelligence chief says he trusts Trump’s description of Putin as ‘my friend’  The GuardianZelensky says Putin is a 'killer' a",
+          "publisher": "ITVX",
+          "pub_date": "2026-11-22T12:09:45+00:00"
         },
         {
           "title": "After the Shenzhen summit",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUmwwTkxFMTN3b2JDaUstLWtVRWliVTZlbk91clpQZmExT2Nua0ZEVXJaaHVEQllEX3p5Nm1pUGRFdWdpWFFielRGcFg0STNUWW9MeUdLRktsSmZUd0hlWnJvVGdjLXNuSGF1MHhMUEo1MVRQd3o1cE5UNGJ5cUdBYm82dGVad0t2ZjJWcEh1UHZsZ0pYbHNB?oc=5",
-          "description": "After the Shenzhen summit  The EconomistCartoon: The meeting of Donald Trump, Xi Jinping and Vladimir Putin  The EconomistXi’s greatest power is what he chooses not to do  Al JazeeraIn the new world o",
+          "description": "After the Shenzhen summit  The EconomistTrump, Putin and Xi release 'peace declaration' after historic meeting  BBCXi’s greatest power is what he chooses not to do  Al JazeeraIn the new world order, E",
           "publisher": "The Economist",
           "pub_date": "2026-11-22T07:16:46+00:00"
         },
         {
           "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE01RDBNMEVkVlhxdGUyS1dycFdla1pRang3NG42RVFnak5WLTQyZUdEOVkta1dCYk1kLUxKUG1RZ0h2Z05ZWkZUckVVOFVjdml2TE82eGUzRlVhZ2pFcGc?oc=5",
-          "description": "'I want to destroy capitalism, not France': On the streets with the French ultra left  BBCFrench protesters rally for sixth weekend over living costs, public services, inequality  Le Monde.frLower tur",
+          "description": "'I want to destroy capitalism, not France': On the streets with the French ultra left  BBCLower turnout at largely peaceful marches across France  ReutersFrench protesters rally for sixth weekend over",
           "publisher": "BBC",
           "pub_date": "2026-11-23T06:01:31+00:00"
         },
         {
           "title": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbEhGa045V054T0pYTUNZTHMyZFFuYmkxM2w5V0dYOFFYZHVlbzcyel96TGc0Yzh4c3hUMnhtOC04QkotYVhpV2pzOW8xZEFnbTR1dHh6cmtFS3dHcFhFaEQ5aVVhQlplR2YwRTREREYtcjR5Rk85dFFVVEdjN2EzZUNRdHZnSFJmbmxZTFhKTkM1MVUxZmNqWW5ZNk1vQk9RaEx3Zw?oc=5",
-          "description": "Briton swims length of strait of Hormuz to highlight environmental cost of war  The GuardianSee more headlines and perspectives on Google News",
+          "description": "Briton swims length of strait of Hormuz to highlight environmental cost of war  The GuardianLewis Pugh Swims Strait of Hormuz for War-Hit Wildlife  Nature World NewsLewis Pugh Swims Strait of Hormuz t",
           "publisher": "The Guardian",
           "pub_date": "2026-11-23T02:31:00+00:00"
         }
       ],
-      "business": [
-        {
-          "title": "Capita shares plunge and boss steps down as civil service pensions saga drags on",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sS0t6U25PWlJLeEVTc1g2aUxCRHFyT05xSko5VlJpakVMYXNHZV9MQk1ybndVenlPT1AzZzF0bGJlVGhGSWNTX1ZrcHg1ZTRQeHpUX1BTdnd1Q05nQlE?oc=5",
-          "description": "Capita shares plunge and boss steps down as civil service pensions saga drags on  BBCNext reassures customers their data has not been accessed after ‘cyber incident’ at supplier – business live  The G",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T10:46:56+00:00"
-        },
-        {
-          "title": "Catering giant Compass Group to shift main stock market listing to US in further blow to UK",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9sSUdWMmoza3FjbDZjR1BNWVNWX3YtdTJGck9tNXpha2V2NFdtLTVBVTNWdzM2ZFpXUXJCWTJGZTdaZC12S3ZOTmZMWkVBUnFkU3NhQ3VXT3VTa0VlRFE?oc=5",
-          "description": "Catering giant Compass Group to shift main stock market listing to US in further blow to UK  BBCCatering giant Compass Group to shift stock market listing to US in further blow to UK  BBCFTSE 100 gian",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T09:54:04+00:00"
-        },
-        {
-          "title": "Crest Nicholson shares slump as debt deadline looms",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYTBqcGNiYWNUZWR3ZnZIQlkzczZaOUpMcDRjTUNXTEJJaUlLZ3hxTVU1ejgtTGtYdkRvbnhPQnVVNTBFNi1GejNEV3RLVkNyTUdRa1ZhZDY1RjhZckU5cHdHSWkxM0pyQkxGRzBBY0p5dHZBOXh0WWNNQkZXVS1wMk1iZm0?oc=5",
-          "description": "Crest Nicholson shares slump as debt deadline looms  Financial TimesHousebuilder’s shares collapse as property slowdown crushes profits  The TelegraphCrest Nicholson loss warning deepens to £40m as sa",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-23T08:27:51+00:00"
-        },
-        {
-          "title": "Wall Street set to rebound after AI stock sell-off",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeXhpd01xVDBQSlFMWUJzZktLSGh3WXZ0b3JfRTdwSEV4Rll0bjlIc3FfM3MwemllQlRidmpiOEpUbHJBQzZ4YU1ZOFNhMmVpMjBWc3RULWppdmxLZVdERHFTLXJHSjU3aTFWcmFrakkzS3VpTDFkSE45Vk1TbmszWUhzcVM?oc=5",
-          "description": "Wall Street set to rebound after AI stock sell-off  Financial TimesStock Market Today: Stock Futures Point to Recovery After Friday’s Bloodbath  WSJWall Street Set to Bounce Back After Tough Week  The",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-23T01:37:46+00:00"
-        },
-        {
-          "title": "North Sea oil’s new predators will cost Labour billions",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZFZ6NG9UVU9pZDhFX1FQeWl5dGQ1Y0lHZnBYQ0RuOUt1bnd6Zm5OenctWW1TVGFzaFZ0N1RXc0lJWktOdGd6VktwRDZoeGtyNmJzUE85eTNYckwzVHVCazMtdmtrYnFrc1FrcFQ1VU5acmtUQ0pVZkdWRTlDU1dPbF9Cc1RZT2Raa2JmekdIWl9wSWFHVzVsNnQ2SGxDMTY1QmhST3hn?oc=5",
-          "description": "North Sea oil’s new predators will cost Labour billions  The TelegraphMajor oil and gas firm EnQuest pulls out of the North Sea  BBCRosebank decision could make the North Sea history  The TimesUK oil ",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-11-23T06:00:00+00:00"
-        },
-        {
-          "title": "Leapmotor Becomes China’s First New-Energy Startup to Roll Off Its 2-Millionth Vehicle",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNc216WnhmSklGelNDazNpY2hHd0p4RmRGd3c0UDQxT0EzWEtnMEs2NUFDT3RRNDhRazZYbVUtNHo3YUE5UVhsTUJuUnlEVi1mbjF6WUNRaXdLRXdQdU9BMGhaejVkWnhUSC1HVzA3dl94cFZqZzBhR0YtMW91aHNaT3htbXhGTGw2Z3hRdWxTYUJUVW1fRU1vYVNEaDZBZ0ttRWlVWHd2RnN3WGxLQzlvNlpwZk9mbjFqRVpoRTN4NVEwanF1VFhIYjhicExpdzdNbTZhdXpsb2E?oc=5",
-          "description": "Leapmotor Becomes China’s First New-Energy Startup to Roll Off Its 2-Millionth Vehicle  Media StellantisLeapmotor's second million cars took just 14 months to build  AutoNext.coLeapmotor's 2 Millionth",
-          "publisher": "Media Stellantis",
-          "pub_date": "2026-11-20T13:00:00+00:00"
-        },
-        {
-          "title": "Cost of renting in Britain to rise twice as fast as buying amid shortage of properties",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWEpDV3dLQ3BuTTRKNVJ4eVJMY2x1VFVlcnpwelhlOXpidVhVZzFBaTNqMzAyLXJQLUlqVjhBRElCTl9YZ3hBcUJtM25tenFKZTNwdk9GZ0FxQ2pmSVZiSW1WdllPaWJxRnRDYXUtMWRzMTJ0VWVnSThvWktXV3g2RmlEUi1zS0gwRzI4cFVVOFdVaXczU0NpTGFMVGluQWgtR1F2T19LSTBZendtNHNtQlM3NUszcktXUTlnQm56bUVmR0N6WGxWdnk4Rlo?oc=5",
-          "description": "Cost of renting in Britain to rise twice as fast as buying amid shortage of properties  The GuardianRents ‘will rise twice as fast as house prices’ by 2029  The TimesRents grow at twice the rate of ho",
-          "publisher": "The Guardian",
-          "pub_date": "2026-11-23T06:00:00+00:00"
-        },
-        {
-          "title": "BYD hit after court bars SUV from EU over Land Rover design copy",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUnE0aVFEenk4Y19LdXlocTVBSk1qVzNXeEN0bTNEQmxWRk1mdFZlNzB2VkVIQWlKdlR0aE43bm5LM1NKeGNOVGxwUnVYLUp1dHRUTFdmVXpJRkwzemw1M05BWUx5SDdhb3lSQ3JEek1JS3pVYTlVbUFlc1hyeXdUNUJSX1k?oc=5",
-          "description": "BYD hit after court bars SUV from EU over Land Rover design copy  Financial TimesCourt bans China’s BYD from selling ‘Defender clone’ SUV in EU  The GuardianBANNED! BYD's boxy SUV too close to Land Ro",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-23T02:48:34+00:00"
-        },
-        {
-          "title": "Poundland is facing collapse - what's gone wrong?",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9INXFWLWc1RDlhc19hRGZUQ0s0VXQxb3dnVTR0cWhSRGZTa3dzTkJsWmdyeGs1X3U1T1lxQ2JZZ1l3OUZnT2tFRmJWVnJhMGV0WGp0Z0Y4dVpyMjNKSlE?oc=5",
-          "description": "Poundland is facing collapse - what's gone wrong?  BBCGerman bidder stages last-gasp bid to rescue Poundland  Sky NewsLifeline for Poundland as German turnaround fund circles  The TimesPoundland brace",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T00:22:27+00:00"
-        },
-        {
-          "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnVGVCMEM5R2RxamVpXzdvSXlxaWN3bmxWUmgxRmdsVWU4ZmdKWG5RWEl2OXVGMkFBb1pVWHdWOVFwSEpfVWd2Uk5uUGR0bkw5NHJzUnl3Z1c1T1ZLU1E?oc=5",
-          "description": "San Francisco is enjoying an AI boom, but worries about a crash are growing  BBCSee more headlines and perspectives on Google News",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T00:08:00+00:00"
-        },
-        {
-          "title": "US MARKETS CALL: A Bull-Market Correction Or A Tech-Wreck Bear Market? Also: Our New S&P 500 Targets.",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORXhLZF9pZXM5LWVtcC1IWjd2QVFHNXBiTTZBdnhhSFBQUjR4Zy1ZM1ExNW9KSm9mM0U5RmtsOE13aGtISkV5OWwwQ21wb0k2X0JXdDFJZzl1WXl3VWFCQnNMSUdtN3JSaWljVzltcGx2Wmt3Q1B0cm9OMXByeFh0M2FJSmtyMFFCWWpjWm83Z1B0Ni1obnBmWk50RWtDYnFUWUkxZ19CX1FLRWVycjhFbkVsVmlFSERWcmNnOFVRbGhkLXVOSHgyaUV1cGw?oc=5",
-          "description": "US MARKETS CALL: A Bull-Market Correction Or A Tech-Wreck Bear Market? Also: Our New S&P 500 Targets.  Yardeni QuickTakesNasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of t",
-          "publisher": "Yardeni QuickTakes",
-          "pub_date": "2026-11-22T02:49:29+00:00"
-        },
-        {
-          "title": "Major tunnel on M25 closed at rush hour due to emergency repairs",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV1Fkb2R5a2QwYXFDcnpKdDQ4ZTlvRlY3NHh1bEYzQzg2N3pjcGhsNkNfTVpITWJXOGxFRG9FRHZnQWdSQVp3bUZPMzVuR0RpeW1YR1J6MWd4WC1XSy1rYWRMWnJJRFlnZWlnR1YxTXpiYjI5SVlaUUpLbk9zX2hGU3pDWWZQS3NBazdGLXNqREJFNW00TFZ0MTJnZw?oc=5",
-          "description": "Major tunnel on M25 closed at rush hour due to emergency repairs  Metro.co.ukLong delays on M25 due to tunnel defect  BBCDartford Crossing tunnel closure sparks eight-mile tailbacks - LIVE  London Eve",
-          "publisher": "Metro.co.uk",
-          "pub_date": "2026-11-23T07:28:00+00:00"
-        },
-        {
-          "title": "Is nationalisation improving Britain’s railways?",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMzV4Z1d4TmZVUFR4cVlaY0kwT3NCXzIxcHpFQUtGQkIzcWJEczBweU81ci02dHdjNlJMaThHZEd4TmRaWGxSekJYanlYaUcwV3k1MGRGSkVCY3FQcHA5Nm43T002SW1hTzB6REN6cjJwN09mZ0lwWkxaSXBGb0hfNERPMTBmVkdLTElwcFNVLWJTVTFIa2c?oc=5",
-          "description": "Is nationalisation improving Britain’s railways?  The Times",
-          "publisher": "The Times",
-          "pub_date": "2026-11-23T07:00:00+00:00"
-        },
-        {
-          "title": "Will Anthropic buck the tech sell-off?",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOVVFNmptMzZsNnBaaGdXX19UcXlYOWZQWXBOV2NFRVNfbnR3MUlIZjBYUjhPSWRUUFR3NTdLeDJXUHdrc2ZDT3V3a2Q2MFEyR0s3djN4T2hlLW9Bb2ZCa21ua2hvR2kwSmdXMjZGRE54SnhHbnJ2bGJwM1FNblJmbEFTMGk?oc=5",
-          "description": "Will Anthropic buck the tech sell-off?  Financial TimesDid Anthropic and its bankers get a key call wrong after IPO?  Financial TimesAnthropic’s IPO was great for the tech elite – and not so great for",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-22T12:00:06+00:00"
-        },
-        {
-          "title": "Holidaymakers warned of airport emergency drill",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Xd1Y3OTlZZFQ3bjZvSV95WTN4NGlLMEZ2dnBtTjVRYlFuOVdYRGFoVUtXeWFhSVhmbVZCSHVFS1ZRVlZwTVAwTGU4VW1Wai1xcnBkbDNCQUZHaVlRUnc?oc=5",
-          "description": "Holidaymakers warned of airport emergency drill  BBCFake blood, burning planes and screaming passengers: Inside Britain’s airport disaster drills  The TelegraphMajor emergency exercise at airport will",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T06:32:49+00:00"
-        }
-      ],
+      "business": [],
       "technology": [
         {
           "title": "I've found the 105+ best Black Friday deals in the UK — Lego, PS5, Apple AirPods, Galaxy Z Fold, Switch 2, Shark, Kindles, and more",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DNE9sLWlmY20zNmJtUXZMSzR1YTZ2dm5TOUZJbm9JWTdfVW1sZEl4ZlNvZmVBZFRUNWxQc1lpaUdMeGItWHlQeUlmNTZrT3VQZU40cWRkX2ZfY1g2dHY1OTY3aUdULXVPWnNSWks4RDg1UGtYa1NpcmxDUmIycUE?oc=5",
           "description": "I've found the 105+ best Black Friday deals in the UK — Lego, PS5, Apple AirPods, Galaxy Z Fold, Switch 2, Shark, Kindles, and more  TechRadarI’m tracking the best Black Friday deals LIVE – these are ",
           "publisher": "TechRadar",
-          "pub_date": "2026-11-23T11:59:10+00:00"
+          "pub_date": "2026-11-23T11:50:40+00:00"
+        },
+        {
+          "title": "Kodak SlideTag Review: This E-Ink Equipped, AirTag Keychain Rocks",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSEZueFpCVVduS3dmZGRTUF91am9vM3BiTWZlVWNVMFlxYjVQQ1RXT1I3NDNrM2xzR2F5MmNOaHJOWWlDQldTR0RLQUpfSG1ERUViU2xiNkxwdjBDYTg1bVpHVHotck9heVN5aEdoUFFTcmtkdkVmMFV5TFB0bGlEWmV1di1JeUZlQ2VMTUVUX3dlVFJrcEVMRmx5S2hYdw?oc=5",
+          "description": "Kodak SlideTag Review: This E-Ink Equipped, AirTag Keychain Rocks  PetaPixelKodak’s next collectible is a tiny digital photo frame that doubles as a tracker  The VergeKodachrome makes unexpected comeb",
+          "publisher": "PetaPixel",
+          "pub_date": "2026-11-23T03:06:58+00:00"
         },
         {
           "title": "Google is killing off the Nest app and Google Assistant on Home devices - GSMArena.com news",
@@ -908,13 +698,6 @@
           "pub_date": "2026-11-23T07:23:02+00:00"
         },
         {
-          "title": "GTA 6 players spent over eight hours in Leonida on launch day, and over half of active console players joined them",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13UjdpUFdhUkhmOThuMTBHUngzTUlIbVZHRzhwWjVjeXdLeHN0czZMLVNlQ2puWF9TLUhsSHF5X0NFMGlnMEE2ZFBRM1dDUmJZSmpLTU1CdWVhSHBkdlJtNUdCQmduMHN2UmlJTW1R?oc=5",
-          "description": "GTA 6 players spent over eight hours in Leonida on launch day, and over half of active console players joined them  Eurogamer.netGTA 6 sales hit $3.8bn in a single day - the biggest entertainment laun",
-          "publisher": "Eurogamer.net",
-          "pub_date": "2026-11-22T12:02:30+00:00"
-        },
-        {
           "title": "Teenage Engineering’s first CD player spins out in the open",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVUdwdXVZeGdaNXJJRjFRc3lfQmYtNUtlZ0I4ZVFUd19wdF9LWmRwRnMzWGFEWFRjdUdtOXo2cGt0T3dPRXJrQ2gtMk4tMFB5NWNGWFFUUXNSZmZRWHl4dnVtWE5ueFdia2JhM2pGMzNveWZjSWhIaFExVEZ1UGZydE5YZ2ZGbEg5d19kdUpjVQ?oc=5",
           "description": "Teenage Engineering’s first CD player spins out in the open  Darko.AudioTeenage Engineering’s first CD player puts the spinning disc on display  The VergeTeenage Engineering’s EP/BC-1 Adds Varispeed a",
@@ -922,11 +705,32 @@
           "pub_date": "2026-11-21T11:46:07+00:00"
         },
         {
+          "title": "ChatGPT shrunk down to run on a Super Nintendo",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQmM3VFU0dkdmWGNjN25aOVNtbGRCcFl4V2dGQjR6OERaNTJmcl9YNVBQMFBtLVFpZHNqajZPV2dfcXN4WUkwSzg0U2FKRElKcVdUcUFGaTFyRkFPdTRnZVFYcHAzZ0QwOS1TZG9GSkkzbGlSUV96UGtERlRjTVN2dXRkcGJpbi1uTHlTbkZoN1VPZTZ0YUxobXpEdTJSMGYtNlFV?oc=5",
+          "description": "ChatGPT shrunk down to run on a Super Nintendo  The Register35-year-old SNES runs ChatGPT, accelerated with a Super FX 2 chip  Tom's HardwareChatGPT for the SNES  AdafruitSomeone made ChatGPT run on a",
+          "publisher": "The Register",
+          "pub_date": "2026-11-21T11:46:00+00:00"
+        },
+        {
+          "title": "‘GTA 6’ Shows Brands What Happens When Creators Run With An Idea",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUFhtXzJFX05UdGE1aTIzc3hPSXg1ZGQ0TnZWZUUxak00dDdTVlhtd3JjRWd6aVhDVm0yeXUyV0dpcVh6blZKMjNCUEZmQll1YU1QRjhrNVNsenp5eEpZVno0eFgzSHJHUkFmalJWa19iUVNKSE9YZmpWM0loZGcyRkpnTm9LRHZQd0Fnem5SVmlHbHpzN2dBb2I4UzZodHpnOGdMUTNNVjRWVGthR3BIQ1pwLXRyYWM?oc=5",
+          "description": "‘GTA 6’ Shows Brands What Happens When Creators Run With An Idea  ForbesGTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history  BBCGrand Theft Auto VI review — Scarface m",
+          "publisher": "Forbes",
+          "pub_date": "2026-11-22T08:42:45+00:00"
+        },
+        {
           "title": "How to change your Criminal Profile in Grand Theft Auto 6",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wUjJRVk5ZZTFkOVNCZDRuU3Z0VW5tQVBEWmhTNFJCT0xyLTYxTjBjZlhuY0pmOTZzdkVzSmdjR3NRUlBVN2hlbXVuck0yV0pCcWZaSkplM04zTkphZ3N2OHNHaXR4bHRKYkRzRnE1ZW9sb19tQk5Kem5vbUpWSDQ?oc=5",
-          "description": "How to change your Criminal Profile in Grand Theft Auto 6  GamesRadar+GTA 6 criminal profiles explained: Full list and how the system works  Radio TimesGrand Theft Auto VI | The biggest game of all ti",
+          "description": "How to change your Criminal Profile in Grand Theft Auto 6  GamesRadar+GTA 6 Criminal Profile: How the system works  Red BullGTA 6 criminal profiles explained: Full list and how the system works  Radio",
           "publisher": "GamesRadar+",
           "pub_date": "2026-11-22T09:55:44+00:00"
+        },
+        {
+          "title": "The one change that worked: At 21, I was terrified of seeming ‘cringe’. Then I rediscovered my inner child",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOOXdXeHdFVHJZR25MQldsOC1xNVdDUVRVNkdfZlB0QVJjWUVZRjFWbEhqQnZYTnRSX2NOSkVXMVRIbnJMY05BQ1VEMEpPMkQ1ZTFSUERPbUNKS095dDNWbm96TGVpUkdnS0V4djhLN1FMNG92VlZMZVRVR25Ta0RvMGU5YnY5Nk0tempFZ2R4WEk1SVFWc2VCQzRDNHFzUmwxTlJXbnpuY0NFNHF2WFR2QWtyUWNMMk1yM0JhZXhDb1JKREE5XzNvZnRLRGd6TkZ4TUNnOHhweWFNaWpxRXl5M3lpMTREdDVFQlE?oc=5",
+          "description": "The one change that worked: At 21, I was terrified of seeming ‘cringe’. Then I rediscovered my inner child  The Guardian",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-23T11:00:00+00:00"
         },
         {
           "title": "Drivers forced to constantly share location to get cheaper insurance",
@@ -936,11 +740,11 @@
           "pub_date": "2026-11-22T20:50:25+00:00"
         },
         {
-          "title": "Ferrari has made its latest supercar less powerful, and it makes total sense",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWmQwUFRNZjZZcEQ0UTZZWVE2eHp1eFYySWg3V1c2Zm90TjdjZldSa0UtMFZQbklISlFHLW9oRDU3cGRZQy1EaVBtRzhNSy1nQlkyMFZrVldvWjIySmQ5Ulh0SERENTJmdTFuUVphel9lbzBNbGw5eDUxY281Ulo3NUd6MTNaa0J2VnY3X3c0RjBtTUdXcHRXcVV5Uks2SlBZSEZsTk1rVGxNRzZLSjM3ZVpjY2tsdVpv?oc=5",
-          "description": "Ferrari has made its latest supercar less powerful, and it makes total sense  EvoChallenge accepted: meet the *non-hybrid* 670bhp Ferrari 296 Challenge Stradale  Top GearBritain's Best Driver's Car: w",
-          "publisher": "Evo",
-          "pub_date": "2026-11-23T10:04:11+00:00"
+          "title": "Challenge Stradale returns: This mad Ferrari 296 is a race car for the road - and it's not a hybrid",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM2xBcWtlQ294SlpGRXplZmI4TmNyS0JKSF83WXhsY0tWbWNXV3lyaFB6eWZWb1RRQ3QxUXhhQ1pad1c1YUdZZmVIVjZsVkZySzA0Y3g2WHpTa2NXckdRY0NyMkIzT2tMVWFFcTJLZ3ZtZzl5QUpZYzlDQUpiMkV2SXFoZGNjenpFM29aOURZTUVDT01UVXlsOUp0UGdSaVBnTk94MzhOWlR5QQ?oc=5",
+          "description": "Challenge Stradale returns: This mad Ferrari 296 is a race car for the road - and it's not a hybrid  AutocarChallenge accepted: meet the *non-hybrid* 670bhp Ferrari 296 Challenge Stradale  Top GearBri",
+          "publisher": "Autocar",
+          "pub_date": "2026-11-22T09:31:23+00:00"
         },
         {
           "title": "Microsoft ‘plans to move London offices to Knowledge Quarter’",
@@ -950,18 +754,18 @@
           "pub_date": "2026-11-22T16:30:00+00:00"
         },
         {
+          "title": "GTA 6 is a critical masterpiece. So why all the hate?",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CS1puUjRfRzhHYWk3TXdYdkM4ZmZYX2NPTFBNa0xGQkp5VWxtRzU2ZHZSUXpUbzdXWU5hYzRpNXRkVGt1RmktNUxTbVRuSm52bmEyREoxSTExRkR0WVFvandNc1BHM3czc2JTdA?oc=5",
+          "description": "GTA 6 is a critical masterpiece. So why all the hate?  Ynetnews‘Grand Theft Auto 6’ Is Being Review Bombed On Metacritic  ForbesGames Inbox: Does GTA 6 deserve its success?  Metro.co.ukHow Metacritic ",
+          "publisher": "Ynetnews",
+          "pub_date": "2026-11-22T12:32:54+00:00"
+        },
+        {
           "title": "Gran theft auto — pensioners trade knitting for robbing and killing",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZklXdW5uZTA0M3MxaEw4cE5FT2VPTmhHYnVIVG5RYmE1U0ZFWGd6cTJHVmJYVG9kTURaM3lxNHBnUzhrSXF2MUVQMExDV3pKZlpPTTgwTHRuRVFyX04yQ3hFVEN4cW1FTlhSR1JpRTZIVi1BazFwV2pqaTZwZmhzRURENFZkNzViSFQzWGhQcTgwbFVXNUZqWFl3?oc=5",
           "description": "Gran theft auto — pensioners trade knitting for robbing and killing  The TimesThe grey gamers excited to spend their retirement playing Grand Theft Auto  The Telegraph80+ Year Old Retirees Praise GTA ",
           "publisher": "The Times",
           "pub_date": "2026-11-22T17:27:08+00:00"
-        },
-        {
-          "title": "Grand Theft Auto staff 'caught red-handed' in confidentiality breach, tribunal hears",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lZ09yNDYwVHNIak00ZDZOUWRPRzhZeUFlVVVULWtacFg0eWNtUlk5ZnBMaURicE1jRkhEV2ZUbURoX3NZb2ZOUlpKMTl2bWQ5My1lelB1a09yR3FyMmc?oc=5",
-          "description": "Grand Theft Auto staff 'caught red-handed' in confidentiality breach, tribunal hears  BBCWe made GTA 6, the world’s biggest video game – we should have working conditions to match | Nestor Uriarte  Th",
-          "publisher": "BBC",
-          "pub_date": "2026-11-18T18:17:38+00:00"
         },
         {
           "title": "\"Woke Up To A S**t Show\" - Binding Of Isaac Dev Shocked To Find GenAI Music In 'Repentance+'",
@@ -976,143 +780,23 @@
           "description": "PlayStation defeats $2.6 billion UK class action lawsuit over game pricing  The Game BusinessSony defeats £2 billion UK claim over PlayStation Store pricing  ReutersUK tribunal dismisses £2bn PlayStat",
           "publisher": "The Game Business",
           "pub_date": "2026-11-17T13:57:26+00:00"
-        },
-        {
-          "title": "Techie turned his too-easy job interview into a trap",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV0dUTFdBSXd2YzVTaWh0Rzd6ek9FUjVPd1c4LWt2cGFZc2RMbWtDTS02ZTZtT1FtbVUtblJuNVB4b0pGLVB2WWVoakdCQXBIZE95blZ1VGdkOGlpalFqMklrUnN4czlYRVlKMVlKaFcwbUhic3BTR1ZMWkowY2c2ODBIY1M5bWotVFJhVjZ5T0FhaWdEYW5XU0hCNEV3YkVnTC1rWE53RWd0UXVtQzg3cnhUbw?oc=5",
-          "description": "Techie turned his too-easy job interview into a trap  The Register",
-          "publisher": "The Register",
-          "pub_date": "2026-11-23T06:35:00+00:00"
-        },
-        {
-          "title": "Xbox gets 25 new games next week, including one Game Pass addition",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wdTNlNm5mUWtraUlyYUNsQWtUMXpGVzlLajhGMHR3cFpFNXFXOUtTQk9HQkc2TDYzQ29oNEp4SW1PZmtPM25MWlNXdmpmZVJIZFNYTVNnNk11WGNaM0MxbFZEWGU4dWFONWtBMHVraGoxQQ?oc=5",
-          "description": "Xbox gets 25 new games next week, including one Game Pass addition  TrueAchievementsThese 20+ Games Are Coming To Xbox Next Week (November 23-27)  Pure XboxNext Week on XBOX: New Games for November 23",
-          "publisher": "TrueAchievements",
-          "pub_date": "2026-11-22T09:04:20+00:00"
-        },
-        {
-          "title": "GTA 6 is a critical masterpiece. So why all the hate?",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CS1puUjRfRzhHYWk3TXdYdkM4ZmZYX2NPTFBNa0xGQkp5VWxtRzU2ZHZSUXpUbzdXWU5hYzRpNXRkVGt1RmktNUxTbVRuSm52bmEyREoxSTExRkR0WVFvandNc1BHM3czc2JTdA?oc=5",
-          "description": "GTA 6 is a critical masterpiece. So why all the hate?  Ynetnews‘Grand Theft Auto 6’ Is Being Review Bombed On Metacritic  ForbesOcarina Remake's 'Positive' User Review Score Is Now Under Fire  Nintend",
-          "publisher": "Ynetnews",
-          "pub_date": "2026-11-22T12:32:54+00:00"
         }
       ],
-      "entertainment": [
-        {
-          "title": "The Witch Farm is a welcome, properly scary haunted house story",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBIR1E1Z3pLRWk5RThyaUNuTXJBV0RKdHR4cFRIRHd5ZER0RUg2OS1OendkVWNQNXhTSHJjRUpxcUVybWRTYVpvZVlNRFZkN0d4UGU5SDFJQlVwTU9mcm9ETTJuc3JJN21JY21F?oc=5",
-          "description": "The Witch Farm is a welcome, properly scary haunted house story  The TelegraphThe Witch Farm review – this creepy tale is laugh-out-loud funny … without meaning to be  The Guardian'Real life' family g",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-11-22T22:00:00+00:00"
-        },
-        {
-          "title": "Russell Brand’s wife vows to abide by prison rules after video controversy",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNXzdHcTZBbjdkc19yVURub3VQVVlEWEJadVVkRnV1QnhRSzA2NnFrUlIwajVUZUNFc1E4ekdMNm9jWHN0M0FPM1JtZnFOdnJIc3JSTU5pbGRCTkxHZGNOejNPYlliU0xGcklXc1k1NHNpb2VHa2U5czJSSWFmclRMajRwOEVNbVpfZ2IzNHpaaEw0S2h3V0Fleg?oc=5",
-          "description": "Russell Brand’s wife vows to abide by prison rules after video controversy  The GuardianRussell Brand's wife says she'll honour prison rules after message row  BBCRussell Brand’s Wife Says She Will No",
-          "publisher": "The Guardian",
-          "pub_date": "2026-11-23T02:30:00+00:00"
-        },
-        {
-          "title": "BBC issues apology and investigation launched into explicit Strictly Come Dancing prank",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMnU0VWlGam9KQXJ2d1JaX183LVRObVU2RmNRdWduVGxySHJLV2NqTUJxcEdxR2VOdURpMzBBcE5tWlRIUmx4ZDlHQnNJR0RwdGxXdV9PNm1obTlHOEVIdUJ1TTFzOUktdG9UeEFQNkhzLXM1MGJkMjdSX1AtWnRrdllXNVE5N3huVkRuVFlwVV9OenFMQzhPeV9OcnlfUHBS?oc=5",
-          "description": "BBC issues apology and investigation launched into explicit Strictly Come Dancing prank  The IndependentStrictly Come Dancing noise disruption prompts BBC apology  BBCPolice called to Strictly Come Da",
-          "publisher": "The Independent",
-          "pub_date": "2026-11-23T07:34:00+00:00"
-        },
-        {
-          "title": "Wayne Rooney at centre of I'm A Celebrity 'kick-off' as he clashes with Mariella Frostrup",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaEgwQnpBZmF1M2tKRFR1dXAtbkN2YTdwWlNQQ0FUczltUkU4aFFaM3pXQWFIeXZwTWIyS0JIcDJSVEJoc0cxQk1hd0hoNFgyT3I4RjRGS0ZiLXpod2JkV0V3Z3dFNlVrbDY5YTJpcWpIalROcGVGMXVNMkZyNk5IejhiRnlTQjh2bkw1ZXJBdDBvZFVaLVVSNmZINDczaVQyT05sMnJoTmp3b2pDZnFZ?oc=5",
-          "description": "Wayne Rooney at centre of I'm A Celebrity 'kick-off' as he clashes with Mariella Frostrup  Metro.co.ukI’m a Celebrity row erupts over Mariella Frostrup calling AJ Odudu ‘aggressive’  The IndependentJo",
-          "publisher": "Metro.co.uk",
-          "pub_date": "2026-11-22T22:30:00+00:00"
-        },
-        {
-          "title": "Miley Cyrus marries drummer Maxx Morando in California ceremony | ITV News",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN3dsOGEwUXR3WVlyZ2Q0aTIwclVDaHBCOHNucGlWYXJWYXJfUVpKVU4tMEtZS1pHdUpIYm1vbUg4LUFqYlduNHloTWx3M204a3NmejlSWS16bjZEM0dPZTdSY0RoaXlhd1g3dlFfUjFHNTBNRF9uRmY2N1hFVmNxSVd2aVQtLWtGQkl4UzRNQ3lMbE9LWVM3YjZMcjBYLV80?oc=5",
-          "description": "Miley Cyrus marries drummer Maxx Morando in California ceremony | ITV News  ITVXMiley Cyrus And Maxx Morando Are Married!  VogueMiley Cyrus shares wedding photos with Maxx Morando  RTE.ieMiley Cyrus w",
-          "publisher": "ITVX",
-          "pub_date": "2026-11-22T22:01:17+00:00"
-        },
-        {
-          "title": "Bruce Willis’s daughter Tallulah apologizes for sharing ‘intimate’ photo of actor amid dementia diagnosis",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fcUs4ZEl4RW4wQWN4YURIbDhQRnJpVWYzc1VDLVZuVTNaRGI3Y1puTnNrOS14X1lrOU5ZV0UyWFJJNTdhaTRwMEY2SVZSZFVBQlRIVmR1bTdYRjBMeU5SZ2hNSGZXOHlsRTVtQXd5U3pUdkxCc2RzWm1VREZEb2c?oc=5",
-          "description": "Bruce Willis’s daughter Tallulah apologizes for sharing ‘intimate’ photo of actor amid dementia diagnosis  Yahoo News UKSee more headlines and perspectives on Google News",
-          "publisher": "Yahoo News UK",
-          "pub_date": "2026-11-23T05:31:00+00:00"
-        },
-        {
-          "title": "Manchester's Co-op Live evacuated after 'unknown substance' let off in crowd at concert by US rapper Don Toliver",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QZjZPM2ZmeExhRTNocnVwTFpuYnpUaEhUV0oyd01sRTdEakh0RDRETEhfVThvemllY3k4N0d2Y2RCTGZyNnBFbVFpWm9JbjYxWTBrU0VELXZ6VjdSZHc?oc=5",
-          "description": "Manchester's Co-op Live evacuated after 'unknown substance' let off in crowd at concert by US rapper Don Toliver  BBCManchester’s Co-op Live arena evacuated after ‘unknown substance’ released in crowd",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T02:07:29+00:00"
-        },
-        {
-          "title": "5 Coronation Street spoilers for tonight as Jodie's dark new Lily plan unfolds",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSWZteXR1ckNmOTE2dTN5TUg2OE1PWTI2Um1vc19fVzJOMEF2enYxWDVmMlFxSmhrN096anlqVS1QR0RmUU0yYU1keE4yaHlNS2FkRGExTTA4UnR6bjRSeXdLU3VsZ0dYdnhMaEo4djFqVUVBM21OcWdOYk16VndkczR4MEoyUUFEZVhqaGVEZ3hlTS1Nc1B2bnIzZmNUU0tBM3NWTHRnX2lpbG9iakhlN05KUQ?oc=5",
-          "description": "5 Coronation Street spoilers for tonight as Jodie's dark new Lily plan unfolds  Digital Spy‘Viewers will see a changed Jodie!’  PressReaderWith Corrie viewers expecting the worst, Olivia has revealed ",
-          "publisher": "Digital Spy",
-          "pub_date": "2026-11-23T07:03:43+00:00"
-        },
-        {
-          "title": "Hailee Steinfeld Confirms She’s In ‘Avengers: Doomsday’",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNzBubmhQU2VkdXFtdW4xOWhsMjFSTTBaWi05dlFlUlhJbmpEbmN6NHdndjVzX0RmS2ZhOUU1RWhOV1VSQzVTdUw5YnZCOTMyYWdKVHgxbHlCUFhoT2ZVWlg5XzlMZEZiODdNOV9UdkNOTW9sOGJERXZZT1RjdHk4OWk2NDB4dWtaU2dFUA?oc=5",
-          "description": "Hailee Steinfeld Confirms She’s In ‘Avengers: Doomsday’  Deadline'Avengers: Doomsday' Adds Hailee Steinfeld as Kate Bishop to Cast  VarietyAvengers: Doomsday confirms another MCU return as runtime get",
-          "publisher": "Deadline",
-          "pub_date": "2026-11-23T03:27:00+00:00"
-        },
-        {
-          "title": "Australian music legend Molly Meldrum dies aged 83",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMbFdySEtzeUFjYm1SWXlrNFZGVWJaWFczcGtNTlR2QkFXQTA0eXhCRVp6bVJjOW9oS2FRMTQ5b3lTZVE5cGpTWTRyb1plRWlta2xFcm11ZWhTcHVwZ3c?oc=5",
-          "description": "Australian music legend Molly Meldrum dies aged 83  BBCVictorian Liberal party uses AI to write Jess Wilson’s tribute to Molly Meldrum  The GuardianMeldrum remembered as 'the fan all artists wish to h",
-          "publisher": "BBC",
-          "pub_date": "2026-11-22T23:51:47+00:00"
-        },
-        {
-          "title": "Avengers: Doomsday Trailer Teased, as Director Reveals Runtime",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWS1RVlg4OUpCaUtVMUpQQ2cyV1hzZzlzeFppaU44N0dGTWVIajdMNjJHVDdUZ19ncnZYX2g2b3pwRG5kWF9DaXRvQjg5aWUtcE5oU0NmTnZnbXhpbmx0ZC1RT2FhRk1sR0lURUdxZlhPRWs1d1ZLZV94OFVDNUcxLWxuRzNsc0NCdi1oOFp6TnZ2ZmxaMUE?oc=5",
-          "description": "Avengers: Doomsday Trailer Teased, as Director Reveals Runtime  IGNJoe Russo Confirms the Runtime for ‘Avengers: Doomsday’, and It’s Shorter Than Fans Expected  IMDb'Avengers: Doomsday' Runtime Offici",
-          "publisher": "IGN",
-          "pub_date": "2026-11-23T10:19:54+00:00"
-        },
-        {
-          "title": "Jaime Winstone’s ‘resilience’ wasn’t enough to keep her on Strictly",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNckplVjBjTS11ZlRQaDJUY2JDUDg3OEdscE9DR3hnTmFnanBVRHdKbUdyODhBSXJCMHZsaEc1NktyMFpMQ2FVYzhOaWNXaEtBMWllME1sa0tJektya0dlS2V5WFNnRlptSENhdGJVTDBrbHdTNjJfZjY3c21Xdng0TllsMA?oc=5",
-          "description": "Jaime Winstone’s ‘resilience’ wasn’t enough to keep her on Strictly  The TelegraphStrictly: Who did the judges send home during Blackpool week?  BBCEighth couple eliminated from Strictly Come Dancing ",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-11-22T21:02:00+00:00"
-        },
-        {
-          "title": "Russell Brand Selling “Free Russell” Merch Via His Wellness Business While in Prison",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeWhaVEwwckFwNm12d19BTVR2UmpCSnN1Zlc0MXo4dWpWQkxHcm9pNnZmeDRLaXFZSURYWFl0eG1qS01ELXFrYU54bVFEU2doR2x3MENDSlc2aGF4cHl3czF5YW5FZFc4cW9wNC1JWUxKT0R6ZHNfSVhic2t5VzREWksyNmhRaDJLck9wNG1wMUUyeENONUJ3aTNCR2NUMWNmSlZ5ZDlFdUltZmtqMkRENTczNC0?oc=5",
-          "description": "Russell Brand Selling “Free Russell” Merch Via His Wellness Business While in Prison  The Hollywood ReporterBrand sells ‘free Russell’ T-shirts as he ‘prepares to appeal rape conviction’  The Independ",
-          "publisher": "The Hollywood Reporter",
-          "pub_date": "2026-11-22T00:16:45+00:00"
-        },
-        {
-          "title": "GB News interrupted for King Charles breaking alert",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObFlGSDBtRVpnZTdEdGJMeFR2d1JLSUE2MTlJb3VGb0h6R3d6Q3lxRjY1RFdURE5ob0V1eDFfRW9lcm41MHB3M3JrT3VoTkJUTVU5Njk2alJJdk1uMjRhTmVBb05tT05qQ0xqdU5NQ3B4RnI5U0EtNm9INUFGU0ZUYXRnMFY?oc=5",
-          "description": "GB News interrupted for King Charles breaking alert  AOL.co.ukKing Charles’s touching message to friend Idris Elba in documentary  The TimesKing Charles III & Idris Elba Join Forces For Netflix Docume",
-          "publisher": "AOL.co.uk",
-          "pub_date": "2026-11-23T09:42:21+00:00"
-        },
-        {
-          "title": "'My driving instructor videos were replicated by an AI deepfake account'",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wd0dVRDk5VVFWNVVxTWhoWU16MDlSYmtLSE9jWEdjLXNVc1J0cHdNZW5uWlk2dmxhamlzOWQ0NjNjZVNrSkszWndqWGlQSDFjRjdUVEhCMjVROTJYUXc?oc=5",
-          "description": "'My driving instructor videos were replicated by an AI deepfake account'  BBCSee more headlines and perspectives on Google News",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T05:57:43+00:00"
-        }
-      ],
+      "entertainment": [],
       "sports": [
         {
           "title": "Liverpool's attack shows its devastating potential as Florian Wirtz steps up in thumping win over 10-man Man Utd",
           "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdFFPZ0pnRkdoemJMVTF4MnY5RkNqOU5SZ3N5bnVkY01nb3dKZ19laWNuTW9venAtSWtHLUZhT01vMzFBOXE2ZFZqRTdhYTZkcWZkd3R4RDMxa0dWQVhFYzgxcmN2WE1IdDRDQ25SSmVqSzlrOGdsZ1pVZUVtdnhHZnN6R3dvN2wyWTBkX2JMNXJQQVNZN3BZdWZqZ3dzaFpXOEh5T0pMSW5qdUdXeDNaM3hPZndtN2RVV0dpOERaeG5yakZkbTJNSFBrVk9WdURUVnNwMTNseXp4OXhEa1EzQ0JUcGJaNWYxYTdtaTZDMFpEZw?oc=5",
-          "description": "Liverpool's attack shows its devastating potential as Florian Wirtz steps up in thumping win over 10-man Man Utd  Sky Sports'The Reaction' podcast: Liverpool 4-0 Manchester United  Liverpool FCPochett",
+          "description": "Liverpool's attack shows its devastating potential as Florian Wirtz steps up in thumping win over 10-man Man Utd  Sky SportsMauricio Pochettino makes worst start as Man Utd boss in 100 years  BBCPremi",
           "publisher": "Sky Sports",
           "pub_date": "2026-11-23T09:47:17+00:00"
+        },
+        {
+          "title": "Tyson Fury reveals schizophrenia diagnosis in new Netflix documentary",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuUmdOUy00a3RPTWkybUcwVHdIdlV0TEdtN3d4aC0zYTd0Ujd0MDRQTkxnR25EZXl2VGJmcTlZb2E3aWlTaC16WjRGNXFOTW9PSmtLT3l5UTl2WXFKbU5hOWJEWDlSUC05?oc=5",
+          "description": "Tyson Fury reveals schizophrenia diagnosis in new Netflix documentary  BBCTyson Fury reveals schizophrenia and bipolar disorder diagnosis ahead of Anthony Joshua fight  Sky SportsTyson Fury looks back",
+          "publisher": "BBC",
+          "pub_date": "2026-11-23T09:53:52+00:00"
         },
         {
           "title": "Max Verstappen rivalry with George Russell 'a good factor' of F1 entertainment, says Mercedes chief Toto Wolff",
@@ -1122,53 +806,39 @@
           "pub_date": "2026-11-23T10:55:28+00:00"
         },
         {
-          "title": "Tyson Fury reveals schizophrenia diagnosis in new Netflix documentary",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuUmdOUy00a3RPTWkybUcwVHdIdlV0TEdtN3d4aC0zYTd0Ujd0MDRQTkxnR25EZXl2VGJmcTlZb2E3aWlTaC16WjRGNXFOTW9PSmtLT3l5UTl2WXFKbU5hOWJEWDlSUC05?oc=5",
-          "description": "Tyson Fury reveals schizophrenia diagnosis in new Netflix documentary  BBCTyson Fury looks back: ‘Once the Anthony Joshua fight is over, what will I do next? Walking the dog ain’t gonna cut it’  The G",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T09:53:52+00:00"
+          "title": "Full match | Newcastle United v Arsenal",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZNE5icUkwVWlJZ0FUSndObnNRdzZpdE1XVmUyN1lCVlhBdmQyNkpRUHJwVUx5UjZRWWFnODZ0SFd3U0ZxMHhhS3pOLXBQM09tNDdLZFl5U1c3dmszMnFR?oc=5",
+          "description": "Full match | Newcastle United v Arsenal  Arsenal.comDavid Raya injury: Goalkeeper taken off during Newcastle 2-2 Arsenal  BBCNewcastle United 2-2 Arsenal: Fan views  BBC‘Obviously it’s not good’: Arte",
+          "publisher": "Arsenal.com",
+          "pub_date": "2026-11-23T05:45:31+00:00"
         },
         {
-          "title": "Champions League LIVE: Emery, Maresca & Arteta speaking",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE93NS1CdEowX2t0aG1oQnRteFM0V25sVDF3VW81UHJUSlNNcGdSdW5qZ01xNEwwQV9sR085QWctUENPTnc1eFBsUTdzVHVHSW5SWk5PNGd0VzhMeGRYdkFzQzhQYw?oc=5",
-          "description": "Champions League LIVE: Emery, Maresca & Arteta speaking  BBCEvery word from Arteta's post-Newcastle press conference  Arsenal.comThe games 'important' Arsenal star Raya could miss through injury  TNT ",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T11:47:02+00:00"
+          "title": "Why England have Jamie George to thank for their backline dominance",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVWtvQ3BQWFI4NnZBaVJZaHppTl9mbUFBRGktZ3JrSVJGN0lmTmdPR3dHUE4wcmJGYmwyTFVvcmNHX1lSdUVNQWFuWmZURll1dWxNTzBzRnVXcW1CcDJrNkRZWW1ITU5DZzh2M3F2bXFLQXpTNldjUzNPMGp4UjlHaEUydnVQaXdqQnpTSmtfTG1NSU5ObFotQkcxQmhfMjdTSml2U3hLOEd3VDM1WVdnVTExeXBvc3BYOEo3ZVYydGhoR05kcHlr?oc=5",
+          "description": "Why England have Jamie George to thank for their backline dominance  The TimesEngland 37-12 New Zealand: Hosts run up record win over All Blacks  BBCEngland’s strength in depth finally comes together ",
+          "publisher": "The Times",
+          "pub_date": "2026-11-22T20:00:00+00:00"
+        },
+        {
+          "title": "NFL roundup: Chiefs, Lions and Bills march on; Metcalf ejected for eye poke in Steelers loss",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc0dVRlpOd0lKT2lkNHJyaTltZW8tS0locnFDbVQ2VTRFaDNpV0M3YVJHS1JpMDZqRE1QX3JoZFRYWDNwOTRyenlfZVg3SmRvNmMxa0Jia3lFaFVOazh5eVFzM190b1NZRmpTYnJ5LWJBRDNad0w1Zm5vb0VHMlZpVndUMVh4Wk0?oc=5",
+          "description": "NFL roundup: Chiefs, Lions and Bills march on; Metcalf ejected for eye poke in Steelers loss  The GuardianSteelers gave DK Metcalf $150 million, traded George Pickens. Now they're paying for both deci",
+          "publisher": "The Guardian",
+          "pub_date": "2026-11-23T04:29:00+00:00"
         },
         {
           "title": "Carlos Alcaraz wins ATP Finals: Remarkable 84 days for Turin champion",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zTEVNTGRpTUZuZlVPTTA4VEphVU1lbTVHTGF5LWpZRW1teXZseVpJSl9OWkdxRHppRHBDNFFsT1JSci1Ta1ZUVFlpcUo5cjFUN1VjOWRFa2ozZHdvOVJzWnU1LV9YY2FM?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12cTlfVmxOWDNyMFVJUnR0bUVZNmpOdi1YSlhBSGNuQVlyM3NNYmpYaEE5enp5aXhuZ2NFeTZWRHhNbHZ4SWZ4MTBOSXVoeHJhYnF0eWF2Q0dncW9aZVd5MDV2SXhCQQ?oc=5",
           "description": "Carlos Alcaraz wins ATP Finals: Remarkable 84 days for Turin champion  BBCSee more headlines and perspectives on Google News",
           "publisher": "BBC",
           "pub_date": "2026-11-23T06:08:20+00:00"
         },
         {
-          "title": "‘Haaland must be worried’: Thierno Barry’s rise has David Moyes purring",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUlpKWnQzSXIzOVpER3QyTVJIRko0RDBFRVFHbGtFczl3WGtSck5RYjAzWEhjcURCam5UOVlMNTdUT0RNNzR3ZF9yaGxMNlNWT25EWWV6SW5kOEdLSVZQbUI1RkUzVGdCTTF0eU5hUGh5dGlnLTlDSVF6bEZpYjZ2RFdHNUJvNWRGb1Q3MFJucmRrWFZYOFc5MWlpcw?oc=5",
-          "description": "‘Haaland must be worried’: Thierno Barry’s rise has David Moyes purring  The GuardianThierno Barry interview: My dad could not afford a hotel room – I won’t forget his sacrifice  The TelegraphThierno ",
-          "publisher": "The Guardian",
-          "pub_date": "2026-11-23T09:09:07+00:00"
-        },
-        {
-          "title": "What Ellis Genge says 'shocks you' about All Blacks as England eye three-peat",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRHo2SnRXejFsckhRQk9wTExJd003VWhydV9UYm15ZlRBempsMllJTEJCOXIzRW1rOUl6WUFoX3RQaXptUUJLd19qUVNOSFkyU3dnWklhNnRzQ0o2SDdNd241RXg0V3ExZHRiMGhBUGl1TUFzZkhNSXh6NHF0WlJHandzM1RTQmFGRU9mSFBxY1BfeVp3NDdWM0FJLTVPb29FTlBrNzFqX0V0UnM?oc=5",
-          "description": "What Ellis Genge says 'shocks you' about All Blacks as England eye three-peat  Rugbypass.comEngland 37-12 New Zealand: Hosts run up record win over All Blacks  BBCNations Championship reaction: Englan",
-          "publisher": "Rugbypass.com",
-          "pub_date": "2026-11-22T16:38:28+00:00"
-        },
-        {
-          "title": "Chelsea forward Emegha victim of robbery after defeat to Leeds",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUTFwSkdIdjlaYjFGS3cwY085a2tEZEtBc0VLZnBfNzV0dU8zRUFLRlRQUXRJQ2lBdUh5dkhJRWZRMFhpTktlOUNJcnAwWGZ1QnZiazVzelRNYUNnWGl3Q1pLM2RTeUdKQTNCZWNLSG14ZWU4TTVEVlRfdk1CRjVMcTBaUnE?oc=5",
-          "description": "Chelsea forward Emegha victim of robbery after defeat to Leeds  talkSPORTChelsea striker Emegha has car broken into after first goal  BBCXabi Alonso on Emmanuel Emegha selection for Leeds clash | News",
-          "publisher": "talkSPORT",
-          "pub_date": "2026-11-22T22:59:50+00:00"
-        },
-        {
-          "title": "Steelers' DK Metcalf ejected for trying to poke Eagles' Cooper DeJean in eye",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOME41cXZWZ3BKNUpoNzZka25HcUdpUkp3ZWZTRkljMHUxS2tJUGdZX3JFS1N1UnpKUnV3Z3JzUXhZUE80d1ZnNEY0R1hweXN0amVtYUFZUlJ5c3BxcEFJZXVrMm0xMWtmdzUwdmdwVXdoZ1BuQThiNmVwbjRPZkFtc0h3Z0k3YXNfQUJzLTVIRkZzNlE?oc=5",
-          "description": "Steelers' DK Metcalf ejected for trying to poke Eagles' Cooper DeJean in eye  ESPNNFL roundup: Chiefs, Lions and Bills march on; Metcalf ejected for eye poke in Steelers loss  The GuardianSteelers gav",
-          "publisher": "ESPN",
-          "pub_date": "2026-11-22T20:29:00+00:00"
+          "title": "Team News: Brentford vs. Everton injury, suspension list, predicted XIs",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeTFNUGRDZ0FJcTR3SUxKWjFjU24tcTY0NnNUSWhaSGdoWWlOUXVQNjRtZEhmZlZDci1YZWxacHBteHp5RGl0blNaNFF1UkpaNHF4ZmY1Vi1CRVp5RVZjOTBLTzBFT01DZjkwNXFWMThUMklnLTRuX3hJSmZUTkFfZDZ4Qy1SODdmZVAteGk2emRxYm5XUW00OW0xSnpNUmxVWXRpa2RLVkZsUHQzNGxBTk9reDFZVU9RVG5ZVEtDVU1CTUpxVmdMaklzMUdkRmpRNEg4NjF3?oc=5",
+          "description": "Team News: Brentford vs. Everton injury, suspension list, predicted XIs  Sports MoleMoyes Reveals Everton Team News For Brentford  Everton FCBrentford v Everton - match preview, kick-off time and more",
+          "publisher": "Sports Mole",
+          "pub_date": "2026-11-22T20:00:01+00:00"
         },
         {
           "title": "Ireland 20-17 South Africa: Andy Farrell says Springboks win 'sets us up nicely'",
@@ -1178,18 +848,32 @@
           "pub_date": "2026-11-23T08:10:04+00:00"
         },
         {
+          "title": "Luca Williams-Barnett reveals De Zerbi joke before dazzling Spurs debut goal",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQVRsRTFoME93YUFwdXp2N2xlbVZpOG5zaXI3NEFEUTFoam93WDA3TWRMV3Rra180NzFyNzQ4ZHBjZWZGTDVmUndWdW5aT2NjaFRZOGQ0MWY2LU5TcnJBakVnZDVqOE9NSE1Gbkw5MERBZmFFWEpCM2lZemt6aWFGV1FLemZSLVJJN2RjZDVxcDNyWVlwaUFOZGpaeUJROGhYam5RV1VKQQ?oc=5",
+          "description": "Luca Williams-Barnett reveals De Zerbi joke before dazzling Spurs debut goal  The IndependentTottenham Hotspur 2-0 Ipswich Town: Fan views  BBCTottenham 2-0 Ipswich: Teenager Luca Williams-Barnett sco",
+          "publisher": "The Independent",
+          "pub_date": "2026-11-23T09:46:00+00:00"
+        },
+        {
+          "title": "Chelsea forward Emmanuel Emegha victim of robbery after defeat to Leeds",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUTFwSkdIdjlaYjFGS3cwY085a2tEZEtBc0VLZnBfNzV0dU8zRUFLRlRQUXRJQ2lBdUh5dkhJRWZRMFhpTktlOUNJcnAwWGZ1QnZiazVzelRNYUNnWGl3Q1pLM2RTeUdKQTNCZWNLSG14ZWU4TTVEVlRfdk1CRjVMcTBaUnE?oc=5",
+          "description": "Chelsea forward Emmanuel Emegha victim of robbery after defeat to Leeds  talkSPORTChelsea striker Emegha has car broken into after first goal  BBCXabi Alonso on Emmanuel Emegha selection for Leeds cla",
+          "publisher": "talkSPORT",
+          "pub_date": "2026-11-22T22:59:50+00:00"
+        },
+        {
+          "title": "Edd Straw's F1 2026 Las Vegas Grand Prix driver rankings",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa0g0aEw0eXhZSTd0MWVmMXpjRlowV0htUFAyQUd2Z0k1RUp5d3JQZGg3bzhwNXR5NDhzeGQ5ejVEakNaSnYtZzVveFJjVVBhNG9Db3p4TTJicmZERlZaNUxnd0doYUpDWm45S3o4YmVhUVIxaGoyajZRdVlVbmktMWN0THRHTVlhTU04anU2eUF5MTAtR0E?oc=5",
+          "description": "Edd Straw's F1 2026 Las Vegas Grand Prix driver rankings  The Race‘This isn’t F1’: Max Verstappen criticises overtake-heavy Las Vegas Grand Prix  The GuardianMONDAY MORNING DEBRIEF: The ingredients th",
+          "publisher": "The Race",
+          "pub_date": "2026-11-23T08:24:46+00:00"
+        },
+        {
           "title": "Gerwyn Price roars to Grand Slam of Darts title with victory over Gian van Veen to end four-year major drought",
           "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWWllWE1lVGhYTVpuck5QamVKaUtZNnQ3TVJhRjB6dUprUVFjUUs1QkxZTF9BN1Y2Z0dKMmhFS1NBeVRWaFZQTGRsVnRyamFPQUd3eDdDeWIyQTRCeWlKYXprWlFYWG1CNkRpTmNraXVzRDRDcHVIeG5RaE45WjNrTXUyQWhRQXJzUS1EdWNXcDZVNTBwdnlldnF1QTZjZ0ViMGZiaXhrN3BJV2ZhSGRQN21UYkJ6SDROZTgzSEhFSTc1dnM1emlpdXBfMHlTWXpzc3ZHd3ZFMWpMbHp1UGVoRE1BYmVza2t4bFFBNA?oc=5",
           "description": "Gerwyn Price roars to Grand Slam of Darts title with victory over Gian van Veen to end four-year major drought  Sky SportsGrand Slam of Darts 2026 results: Gerwyn Price beats Gian van Veen to end majo",
           "publisher": "Sky Sports",
           "pub_date": "2026-11-22T22:26:43+00:00"
-        },
-        {
-          "title": "Edd Straw's F1 2026 Las Vegas Grand Prix driver rankings",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa0g0aEw0eXhZSTd0MWVmMXpjRlowV0htUFAyQUd2Z0k1RUp5d3JQZGg3bzhwNXR5NDhzeGQ5ejVEakNaSnYtZzVveFJjVVBhNG9Db3p4TTJicmZERlZaNUxnd0doYUpDWm45S3o4YmVhUVIxaGoyajZRdVlVbmktMWN0THRHTVlhTU04anU2eUF5MTAtR0E?oc=5",
-          "description": "Edd Straw's F1 2026 Las Vegas Grand Prix driver rankings  The RaceLas Vegas Grand Prix result: Max Verstappen wins extraordinary race as Lewis Hamilton and Charles Leclerc collide  BBC'He's from a dif",
-          "publisher": "The Race",
-          "pub_date": "2026-11-23T08:24:46+00:00"
         },
         {
           "title": "Burnley 2-2 Blackburn: Todd Cantwell penalty earns draw as Rovers players send message to Tony Mowbray",
@@ -1199,127 +883,14 @@
           "pub_date": "2026-11-23T05:27:22+00:00"
         },
         {
-          "title": "Hull City 2-0 Brighton: Keeper Konstantinos Tzolakis stars for Tigers after Greece nightmare",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CSzR3dVhzeThhS1FEelkwSmk1N0FrdGtsWGlBV1JHZWZwSG1sWHA3WWpXV2pZUWtBcTd5WkFFUmhBUGwwalZYZEhKWUlZWkg4QTZqZU52LXhMS3N5YmlkOVFqQnRYRlRs?oc=5",
-          "description": "Hull City 2-0 Brighton: Keeper Konstantinos Tzolakis stars for Tigers after Greece nightmare  BBCHull City 2-0 Brighton: Oli McBurnie scores late double as Tigers end winless run  BBCHull City 2-0 Bri",
-          "publisher": "BBC",
-          "pub_date": "2026-11-22T19:03:32+00:00"
-        },
-        {
-          "title": "F1 plans two-team engine supply limit under 2030 V8 rules",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU0VmeTRjRWNFYm5WNVdGRE40dTFhWF9oSS1laGcwVFp4VzdBcTFRQUFXbWw3LWFSS241U0NxdXJGemNRdzZBdWxrTW9MV2duMHRZblNWUVo2YlE5RnA4QWRBMTZyTlhBeGw1MHQtM0puakd0M2N5N1NvWFJBWnZVMFNKSlBpZF9yRnF1ZnZnQUpHdG9TUmdRdnVIbm1UUWJFVV96WA?oc=5",
-          "description": "F1 plans two-team engine supply limit under 2030 V8 rules  AutosportF1 bosses close to V8 engines deal from 2030  BBCFIA confirms unanimous agreement on 2030 PU framework  Formula 1Opinion: F1 going b",
-          "publisher": "Autosport",
-          "pub_date": "2026-11-22T20:38:40+00:00"
+          "title": "Gary Neville makes Arsenal title claim after Liverpool thrash Manchester United",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQU2l6dHlSdnd0VE9HeDRqZG9oSzRaUktjVFB4UUc0R0ZnRDlvdUdaOWNDaWhLSjJDR2s3Z1JyMXJfMTFzZzYxcW5UdzNqVUxiMWlUVGdjUlF6amM2SzM1S0EtSTBYaGZ1WExNUHhtWWJhdlRtUXd2WkJoc000Y0I4TVlZNk84MUgzZ3BJQ19JZDBLZzI4MUNPV19WWWZJUlp2V3ZtbE1BQUJrZTlFTkdjcndOZTk?oc=5",
+          "description": "Gary Neville makes Arsenal title claim after Liverpool thrash Manchester United  Metro.co.uk‘Worst in 53 years!’ - Gary Neville issues brutal Man Utd verdict and makes ‘canter’ Arsenal title claim  Li",
+          "publisher": "Metro.co.uk",
+          "pub_date": "2026-11-22T21:10:00+00:00"
         }
       ],
-      "health": [
-        {
-          "title": "Can AI spot breast cancer earlier? NHS launches world's largest trial to find out",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9DVG51OTFEMnpJNHd0eWZRZjNyVkxfQ180UFYySF9xejlSdE5TazNTRFJvRGZyTzVTeDV2MTh1MFplLUtXTlMtWlpxbi02WS1yY19MaGM1UWpLOUNwM1E?oc=5",
-          "description": "Can AI spot breast cancer earlier? NHS launches world's largest trial to find out  BBCFirst women join AI-assisted NHS breast screening trial  Home | Digital HealthMajor trial to examine if AI can hel",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T00:49:22+00:00"
-        },
-        {
-          "title": "Rising flu cases and long discharge waits causing bed shortages at Gloucestershire hospital",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zVkxEOVdLVGN2VE1SOUl4WnpyMERBdEVxM1NXU1NIUHFQZENzWnl3SDNJcE11MFl0UnRIVzhFZzVLb0xqS0RDUjAyOGlNNy1jTmZuSTRFWEEwT2JqbGc?oc=5",
-          "description": "Rising flu cases and long discharge waits causing bed shortages at Gloucestershire hospital  BBC",
-          "publisher": "BBC",
-          "pub_date": "2026-11-23T06:27:06+00:00"
-        },
-        {
-          "title": "Third case of bird flu found in commercial poultry near Dereham",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RMXdDY0pSbTdCWXhZNU16Q1V3b1pvc3o5LXhPR3ZBbzlfbFFWeFJvb1JVTXFsZ0tXalh1SUZhUkl1VFVFOEFWN0hqdUY4TkZiclE5WE9YcVlyZ0pCUGc?oc=5",
-          "description": "Third case of bird flu found in commercial poultry near Dereham  BBCSee more headlines and perspectives on Google News",
-          "publisher": "BBC",
-          "pub_date": "2026-11-22T15:22:39+00:00"
-        },
-        {
-          "title": "NHS issues huge high blood pressure warning after 'alarming' new statistic revealed",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KM09WdklkOTlIY0dGMFVNdDRSNHRNN1lpMlhuVm9HMDlhNDdfanJTT1R1Qmx6YUg0VFJLUDE5cnlha0tOckxEUWkxTGtLMlpEZVBoRE1GekJDSXpGVkNNa1V3SDVlcmR4ZmhFa3dEa20wd1MtZWFN0gF8QVVfeXFMTU40NHN5eFVSMFU4czNtQnJGRnVjRTBLZjRJNnNlWktWd1dnQUFBZnppbmRZcGFHVllaS1VGbk01V2ZwQXN4Ri1KU2pjMkNHU1RoY25BaVBEX0VSamZIbVlfckRoYkdsRlUwSnFPRkRoNFBkSk9mSVRCSnhIbA?oc=5",
-          "description": "NHS issues huge high blood pressure warning after 'alarming' new statistic revealed  Daily ExpressNHS warns of 'alarming' rise in hospital admissions for high blood pressure  Sky NewsNHS warns of ‘ala",
-          "publisher": "Daily Express",
-          "pub_date": "2026-11-23T06:33:00+00:00"
-        },
-        {
-          "title": "Freeze bread for weight loss & cook tomatoes to beat cancer - 8 genius diet tweaks to boost your health",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQVltNnRIOWhkUEVFQjBnSnY4bnF6UGkyQ1hYRkZoTEotbU05eWJhQ1lMWFY4bXMxck1USGJVRmlGTXpCWEtXVFp2XzF3Skd4VHVxUThRU3N0a3lKeEROQUJZd2VrY05Ba3BnYS16TEVVd0tJV2RWbFNFQzNoWGZPMkJZLUE4dnFkdkE?oc=5",
-          "description": "Freeze bread for weight loss & cook tomatoes to beat cancer - 8 genius diet tweaks to boost your health  The SunSee more headlines and perspectives on Google News",
-          "publisher": "The Sun",
-          "pub_date": "2026-11-21T21:50:00+00:00"
-        },
-        {
-          "title": "New pancreatic cancer drug halts tumour growth in 90% of patients",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa3RTTVJkU3ZLREhsRFQ4Y21qWWVvd0ZwSmdROVpQaHFWTF82N01OVXdzbTRqSUlIUjVjN0VOZDBVUlI4Q1NNWU0ycEhLckdnSS1RRTQyRFE4SjhZWnF5dTdsYUp0b0I3YkY1MmZVZmc1bEJCNDhxV09MaVlReUxtX1BXejA?oc=5",
-          "description": "New pancreatic cancer drug halts tumour growth in 90% of patients  Financial TimesPill to treat pancreatic cancer hailed as ‘biggest breakthrough in decades’ | Pancreas cancer  The GuardianMassive hop",
-          "publisher": "Financial Times",
-          "pub_date": "2026-11-20T12:17:51+00:00"
-        },
-        {
-          "title": "Why 30 jumps a day could help strengthen your bones after 50",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR19lcXNZUDcwOHFSWlprclFJZ1poS3RfcWdPRWpvWFlHUWI5c2w0bEwwZkFNUm1RWXVaNUFjWVU1SjN5RHJ1M0hzNXhtN1NNM256U0Q5X1VlMkNPeEczSTFVSUtlcEdWSHotaFpYQjBqZDVJSnpyRnF0MkdDaUcxemlmZ0p0ejlMOWVXUFdlbUxsTm96czl1U1BFTzI1T0Nrbl9KamF4RXA0eGtUQjg3RVhjQkRjZENBeXVEUHM4anE?oc=5",
-          "description": "Why 30 jumps a day could help strengthen your bones after 50  The Telegraph",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-11-23T06:00:00+00:00"
-        },
-        {
-          "title": "The red-flag waist size that puts you at risk of dementia",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcEF5N1JUeUVpZGdSRlpINGxBOGRudUpXVEVhd2tPYTRvR1BpZjFmVzVHQmR5MmhRZFh5V1Y3ZmR2Nlc2UjVrdEVtWHdMSjFSaFZ3WVNkTlBGWGFqeHpRRGF5Q2swU1Zkb0FaZlZicjFhMFJ1WjE0aU9yLVMxT1hhRUF3ZHFLcjM5S25sVmdnUWtKdw?oc=5",
-          "description": "The red-flag waist size that puts you at risk of dementia  The TelegraphMetabolic health and body composition linked to Alzheimer's disease  Medical XpressResearch on Alzheimer's finds strong links be",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-11-23T10:00:00+00:00"
-        },
-        {
-          "title": "‘I don’t blame any woman for being sucked in’: how the wellness industry is cynically exploiting menopause",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbXBmMU9STnB6VzNUbHgzdXRTZHpYQTAwOTZBOTloNERRRlJRdmx3M1ljb05wWm42N2dseVBDVFZkOFI4WkRmVDBvQjNnbGFESXZEdFR4OUNPVi1PQ2h1bmhjSjFyWU1yV1AtdUtpc0tEN1drOUNJUW8tdnFiSFBfT1FvdDRYbHJJNEZfWVE5LWxoZENocXBySHh2Z2VoaDBKNHVvSg?oc=5",
-          "description": "‘I don’t blame any woman for being sucked in’: how the wellness industry is cynically exploiting menopause  The GuardianMenopause Market Faces ‘Menowashing’ Concerns  Oz Arab MediaMenopause Wellness B",
-          "publisher": "The Guardian",
-          "pub_date": "2026-11-22T12:00:00+00:00"
-        },
-        {
-          "title": "The common vitamin that could lower your Alzheimer’s risk in old age",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZW1WWGE4TTdBSV9hMXFfcFZNUldvbE9tczJLaUJFZVI0VWFKMG91bTJRMVhlZkwyVDV1RjNZaHh1a3F1N1AtQWZvSlF0RkhRQjdlWE9ubGpZbDUzbTFONk4taURzZFl1ZWJwX2tqLTBWNmlNZ2lrX1p1blNPa2NwU25sbjcyLURDRW4yWVNRUmNhdDljblpTbGxPbzNMWEI2WjFvdnJQb2xpZmFWVFBTWTBrNXdCdw?oc=5",
-          "description": "The common vitamin that could lower your Alzheimer’s risk in old age  The IndependentThe #1 Supplement to Reduce Dementia Risk  EatingWellOne Common Vitamin May Lower Toxic Alzheimer's Proteins, Resea",
-          "publisher": "The Independent",
-          "pub_date": "2026-11-23T03:55:00+00:00"
-        },
-        {
-          "title": "Warning as two dead after contracting bug in contaminated water taps and showers",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcl9Ba0tMcXBFSVZLUE0xVXhmVXRJSW1SR2F1SXVfendjcHFfME5tUHlBdW9FU0YzaC1KVkdCTFVqbFA1RWVLYUtCUU1TcVJ1dHBHdDFwLVJ0dWFUZVNrRVNhc0tCbDFpd1M2RFlZTVY2S3dobC1CelE3cmlxaWp3cXlNX0JHQQ?oc=5",
-          "description": "Warning as two dead after contracting bug in contaminated water taps and showers  The SunLegionnaires' disease: Key questions answered after Rotherham outbreak  BBCSussex death highlights deadly Legio",
-          "publisher": "The Sun",
-          "pub_date": "2026-11-23T10:41:00+00:00"
-        },
-        {
-          "title": "'Her youth went against her': Family of teen who died from cancer hope legacy saves lives",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdlY5cG50U1YydlUzNktvaEVJNW1wOF9BRW9HYi1Rb0owOHJma1RHR0FxUVJkcC1BclhSSDJpZEh2YWxRdlZ4eXhyUk1vMXZxd0dhbG42TFNYLWR1UlF0WUc1MUhwd1NqZFVVUHNIN25WVTJEQWtGSnZ2SjNlVEYwTWRkX0s3aVROZFIza3Q0V0FBemR3ZlllWUlTT0JFTllVZGw1ZmJ0dnBWUy14MlZIbjNIUGJhdnhITG5n?oc=5",
-          "description": "'Her youth went against her': Family of teen who died from cancer hope legacy saves lives  STV News'Nobody knew Isla was dying, now she might change that for others'  BBCWe spent months investigating ",
-          "publisher": "STV News",
-          "pub_date": "2026-11-20T08:41:15+00:00"
-        },
-        {
-          "title": "Surrey and Berkshire hospitals make masks plea over flu conerns",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xMm94LWFOcTRfWlBxdWtBTkQwWEVRbkNjSHQya2NpdlJ2LW1nanlza1VHUnprZGZDRFJQUEpLenk4aTQ5c3BDTjNXVUZOWmkzZXBMcDRuY0ZDN2szc0E?oc=5",
-          "description": "Surrey and Berkshire hospitals make masks plea over flu conerns  BBCSee more headlines and perspectives on Google News",
-          "publisher": "BBC",
-          "pub_date": "2026-11-20T12:32:33+00:00"
-        },
-        {
-          "title": "I lost my hearing after an apparent stroke. Then doctors discovered my brain tumour",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcTBEQU84MVpNcjRfTjNoOHZoTTctWngxUjJMZVIxZXBMU3Zma19xVkRVSF9GNm96ZG9rTUZidjVySlRieTRUTHh3c2E2YnVPUGk3OVhDV05mNmYyVUFrNWY4bFAzQ0xhd2RMTmg5MU1BUzBhWUFKOXQ2SUZ2SndtbFlwUkZDc0luaWZDb0pVaXBXTmt3ZUxJMWZJOFR1VFVHTVE?oc=5",
-          "description": "I lost my hearing after an apparent stroke. Then doctors discovered my brain tumour  The Telegraph",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-11-23T07:00:00+00:00"
-        },
-        {
-          "title": "Midges pose a growing health threat to Britons, experts warn",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRW5BMmNiX2phX1p4bS04MlIySDRKQ0NCMHl0a3BNNWZubnd3NVkwT0pUMld5aTR2RG5tYk5BMm42WWt3MnhqLWVLSGpXQnh3T19oYWk4UjA2bV8wWVZhSmZ2blA1aVdFUUlUTzZWT3I3YlZXZnVTNjY4MFA1Y1Ixbkh1a3ExcGZCQkNoaEVCREpnamNaYm5RRGVvNkNqREctZUlSZEQzSlRZUEFVOGdrN1BCUG9nc1pVMkhRUGpCOA?oc=5",
-          "description": "Midges pose a growing health threat to Britons, experts warn  The Telegraph",
-          "publisher": "The Telegraph",
-          "pub_date": "2026-11-23T06:00:00+00:00"
-        }
-      ]
+      "health": []
     },
     "custom": {
       "bbc": {
@@ -1342,7 +913,7 @@
             "title": "Police investigate unknown substance that caused Manchester's Co-op Live evacuation",
             "link": "https://www.bbc.co.uk/news/articles/c9e851dn8516o?at_medium=RSS&at_campaign=rss",
             "description": "People describe a \"horrible smell\" and hearing screaming as they were evacuated from the Don Toliver gig.",
-            "pub_date": "2026-11-23T11:56:57+00:00"
+            "pub_date": "2026-11-23T12:42:21+00:00"
           },
           {
             "title": "Watch: What we know about Co-op Live 'major incident'",
@@ -1351,10 +922,10 @@
             "pub_date": "2026-11-23T10:46:28+00:00"
           },
           {
-            "title": "NHS launches world's largest AI breast cancer screening trial",
-            "link": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo?at_medium=RSS&at_campaign=rss",
-            "description": "Researchers will test the technology in breast cancer screening which could ease pressure on the NHS.",
-            "pub_date": "2026-11-23T00:49:22+00:00"
+            "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+            "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+            "description": "The report says there are signs of possible contamination across almost all of Gaza as a result of Israel's actions.",
+            "pub_date": "2026-11-23T11:57:33+00:00"
           },
           {
             "title": "Tyson Fury reveals schizophrenia diagnosis",
@@ -1367,6 +938,12 @@
             "link": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
             "description": "The COP31 summit in Antalya was the longest-running climate talks in UN history.",
             "pub_date": "2026-11-23T06:33:50+00:00"
+          },
+          {
+            "title": "NHS launches world's largest AI breast cancer screening trial",
+            "link": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo?at_medium=RSS&at_campaign=rss",
+            "description": "Researchers will test the technology in breast cancer screening which could ease pressure on the NHS.",
+            "pub_date": "2026-11-23T00:49:22+00:00"
           },
           {
             "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
@@ -1387,12 +964,6 @@
             "pub_date": "2026-11-23T09:37:07+00:00"
           },
           {
-            "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-            "link": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
-            "description": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
-            "pub_date": "2026-11-23T01:23:43+00:00"
-          },
-          {
             "title": "Energy bills will soar - here's how you can ease the pain",
             "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
             "description": "Household energy bills are about to increase but there are ways to keep a lid on your expenditure.",
@@ -1405,7 +976,7 @@
             "pub_date": "2026-11-23T06:00:43+00:00"
           },
           {
-            "title": "Boos after concert cancelled as emergency services attend scene",
+            "title": "Watch: Coughing, confusion and boos as Co-op Live concert cancelled",
             "link": "https://www.bbc.co.uk/news/videos/cm792e3ldq15o?at_medium=RSS&at_campaign=rss",
             "description": "Thousands evacuated from a concert in Manchester, after an \"unknown substance\" was released into the crowd, police said.",
             "pub_date": "2026-11-23T08:03:49+00:00"
